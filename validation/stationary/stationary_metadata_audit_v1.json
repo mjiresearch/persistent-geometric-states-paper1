@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "authoritative_catalog_galaxies": 175,
+  "manifest_galaxies": 149,
+  "master_galaxies": 149,
+  "master_rows": 3152,
+  "galaxies_all_metadata_checks_pass": 149,
+  "metadata_failures": [],
+  "duplicate_galaxy_radius_keys": 0,
+  "duplicate_full_rows": 0,
+  "negative_vgas_rows": 343,
+  "negative_vgas_galaxies": 41,
+  "zero_vgas_rows": 88,
+  "master_sha256": "254e17dbe22eb8371384e3c7f301f9936181b99384518e772be861567e4e896f",
+  "manifest_sha256": "de5ee5a85c65be60f73239ccc4712333523fbfd06acd90c03db53512a0c02629",
+  "catalog_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+  "selection_rules": {
+    "quality_flag_max": 2,
+    "inclination_deg_min": 30.0,
+    "minimum_valid_radial_points": 5
+  }
+}
