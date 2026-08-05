@@ -55,3 +55,5 @@ jobs:
             git commit -m 'Freeze stationary observational metadata v1'
             git push
           fi
+
+# Triggered after workflow installation to execute the authoritative 149-galaxy audit.
