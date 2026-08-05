@@ -1,0 +1,94 @@
+% ============================================================
+\section{Baryonic Surface-Density and Source-Current Reconstruction}
+\label{app:source-current}
+% ============================================================
+
+The stationary vector response depends on the present baryonic source current,
+not only on the Newtonian baryonic acceleration. For each galaxy, the required
+source is constructed from independently determined baryonic surface-density
+profiles and the self-consistent circular velocity used by the stationary
+field equation.
+
+The stellar surface-density bases are obtained directly from the
+inclination-corrected SPARC 3.6-$\mu$m disk and bulge surface-brightness
+profiles. For nuisance mass-to-light ratios $\Upsilon_{d,g}$ and
+$\Upsilon_{b,g}$,
+\begin{equation}
+    \Sigma_{\star,g}(R)
+    =
+    \Upsilon_{d,g}\,I_{d,g}(R)
+    +
+    \Upsilon_{b,g}\,I_{b,g}(R).
+    \label{eq:appI-stellar-surface-density}
+\end{equation}
+The unit-$\Upsilon$ surface-density bases are archived before fitting so that
+stellar nuisance parameters are not silently fixed during data construction.
+
+The signed SPARC gas contribution is preserved in Newtonian baryonic
+bookkeeping. Where the gas term enters a squared-speed sum, the convention is
+\begin{equation}
+    V_{\mathrm{gas}}^2
+    \;\longrightarrow\;
+    V_{\mathrm{gas}}\left|V_{\mathrm{gas}}\right|.
+    \label{eq:appI-signed-gas-speed}
+\end{equation}
+This convention preserves negative tabulated gas contributions rather than
+removing their sign by ordinary squaring.
+
+The public SPARC mass-model release provides $V_{\mathrm{gas}}(R)$ but does
+not itself provide the radial H\,I surface-density profiles. Because
+$V_{\mathrm{gas}}(R)$ is a gravitational velocity contribution rather than a
+surface density, it is not used as a proxy for $\Sigma_{\mathrm{gas}}(R)$.
+The primary source-current analysis therefore uses independently sourced radial
+H\,I profiles associated with the observational data underlying the SPARC mass
+models. For each imported profile, the original reference, adopted distance,
+inclination convention, radial units, interpolation rule, radial coverage, and
+helium correction are archived before persistence fitting.
+
+The neutral-gas surface density is constructed from the H\,I profile using the
+globally frozen helium convention,
+\begin{equation}
+    \Sigma_{\mathrm{gas},g}(R)
+    =
+    f_{\mathrm{He}}\,
+    \Sigma_{\mathrm{HI},g}(R),
+    \label{eq:appI-gas-surface-density}
+\end{equation}
+with the adopted value of $f_{\mathrm{He}}$ declared in the frozen source-profile
+manifest.
+
+The total baryonic disk source is then
+\begin{equation}
+    \Sigma_{b,g}(R)
+    =
+    \Sigma_{\mathrm{gas},g}(R)
+    +
+    \Sigma_{\star,g}(R),
+    \label{eq:appI-total-baryonic-surface-density}
+\end{equation}
+and the minimal stationary source current is
+\begin{equation}
+    \mathcal{J}_g(R)
+    =
+    \Sigma_{b,g}(R)V_g(R).
+    \label{eq:appI-source-current}
+\end{equation}
+Here $V_g(R)$ is the self-consistent velocity solved by the stationary field
+equation. The observed velocity $V_{\mathrm{obs},g}(R)$ remains target data and
+is not inserted into the source current.
+
+A literature audit published after the original SPARC release reports radial
+H\,I profiles for 169 of the 175 SPARC systems. Four systems lacking such
+profiles occur in the frozen 149-galaxy stationary sample: D564-8, D631-7,
+NGC~4138, and NGC~5907. Their handling was declared before any fit of
+$L_A$ or $\mathcal{C}_A$. The primary direct-profile analysis excludes a system
+only if an independently sourced radial H\,I profile remains unavailable at the
+source-profile freeze. Any gravitational inversion used for such a system is
+reported separately as a secondary reconstruction test and must first be
+validated on galaxies with direct H\,I profiles.
+
+The full machine-readable source basis, gas-profile provenance ledger,
+interpolation metadata, validation products, and source-profile freeze record
+are maintained in the Paper~I reproducibility repository under the Appendix~I
+source-reconstruction directory. No $L_A$, $\mathcal{C}_A$, or $\tau_A$ value is
+used to construct these products.
