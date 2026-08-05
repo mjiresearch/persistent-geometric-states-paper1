@@ -1,0 +1,49 @@
+name: Build Appendix I stationary source basis v1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/build_source_basis_v1.py'
+      - '.github/workflows/build_source_basis_v1.yml'
+      - 'data/stationary/frozen/stationary_master_v1.csv'
+      - 'validation/stationary/stationary_split_v1.csv'
+
+permissions:
+  contents: write
+
+jobs:
+  source-basis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Require frozen observational inputs
+        run: |
+          test -f data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
+          test -f validation/stationary/STATIONARY_SPLIT_FREEZE_V1.md
+          grep -q 'Freeze status:** FROZEN' data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
+          grep -q 'FROZEN BEFORE PERSISTENCE FITTING' validation/stationary/STATIONARY_SPLIT_FREEZE_V1.md
+
+      - name: Build source basis and gas-profile availability manifest
+        run: |
+          python scripts/stationary/build_source_basis_v1.py \
+            --master data/stationary/frozen/stationary_master_v1.csv \
+            --split validation/stationary/stationary_split_v1.csv \
+            --basis-out data/stationary/source_reconstruction/stationary_source_basis_v1.csv \
+            --availability-out validation/stationary/stationary_source_availability_v1.csv \
+            --summary-out validation/stationary/stationary_source_basis_v1_summary.json
+
+      - name: Commit Appendix I basis products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/stationary_source_basis_v1.csv
+          git add validation/stationary/stationary_source_availability_v1.csv
+          git add validation/stationary/stationary_source_basis_v1_summary.json
+          if git diff --cached --quiet; then
+            echo 'No source-basis changes to commit.'
+          else
+            git commit -m 'Build Appendix I stationary source basis v1'
+            git push
+          fi
