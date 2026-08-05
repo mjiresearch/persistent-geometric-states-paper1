@@ -1,0 +1,61 @@
+name: Build stationary master v1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/build_stationary_master_v1.yml"
+      - "scripts/stationary/build_stationary_master_v1.py"
+      - "validation/stationary/stationary_sample_manifest_v1.csv"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download archived official SPARC rotation models
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -L --fail --retry 3 \
+            https://astroweb.case.edu/SPARC/Rotmod_LTG.zip \
+            -o /tmp/Rotmod_LTG.zip
+          ACTUAL_SHA=$(sha256sum /tmp/Rotmod_LTG.zip | awk '{print $1}')
+          EXPECTED_SHA="0a80cc90714828cc28b7dd57923576714d209f2490328c087c4a4ad607faf588"
+          echo "Rotmod_LTG.zip SHA256: ${ACTUAL_SHA}"
+          test "${ACTUAL_SHA}" = "${EXPECTED_SHA}"
+          mkdir -p /tmp/rotmod
+          unzip -q /tmp/Rotmod_LTG.zip -d /tmp/rotmod
+
+      - name: Rebuild frozen observational master
+        run: |
+          python scripts/stationary/build_stationary_master_v1.py \
+            --manifest validation/stationary/stationary_sample_manifest_v1.csv \
+            --rotmod-root /tmp/rotmod \
+            --output data/stationary/frozen/stationary_master_v1.csv
+
+      - name: Verify frozen master summary
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(wc -l < data/stationary/frozen/stationary_master_v1.csv)" -eq 3153
+          sha256sum data/stationary/frozen/stationary_master_v1.csv
+
+      - name: Commit frozen master if needed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stationary/frozen/stationary_master_v1.csv
+          if git diff --cached --quiet; then
+            echo "Frozen master already matches the reproducible build."
+            exit 0
+          fi
+          git commit -m "Build frozen stationary master v1 from official SPARC data"
+          git push
