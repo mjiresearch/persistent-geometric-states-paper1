@@ -1,0 +1,53 @@
+name: Build frozen stationary calibration-blind split v1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/build_stationary_split_v1.py'
+      - '.github/workflows/build_stationary_split_v1.yml'
+      - 'data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md'
+
+permissions:
+  contents: write
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Require observational freeze
+        run: |
+          test -f data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
+          grep -q 'Freeze status:** FROZEN' data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
+
+      - name: Download authoritative SPARC catalog
+        run: |
+          curl -fL --retry 3 \
+            https://astroweb.case.edu/SPARC/SPARC_Lelli2016c.mrt \
+            -o /tmp/SPARC_Lelli2016c.mrt
+
+      - name: Build covariate-balanced frozen split
+        run: |
+          python scripts/stationary/build_stationary_split_v1.py \
+            --manifest validation/stationary/stationary_sample_manifest_v1.csv \
+            --master data/stationary/frozen/stationary_master_v1.csv \
+            --catalog /tmp/SPARC_Lelli2016c.mrt \
+            --split-csv validation/stationary/stationary_split_v1.csv \
+            --summary-json validation/stationary/stationary_split_v1_summary.json \
+            --freeze-md validation/stationary/STATIONARY_SPLIT_FREEZE_V1.md
+
+      - name: Commit split products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/stationary_split_v1.csv
+          git add validation/stationary/stationary_split_v1_summary.json
+          git add validation/stationary/STATIONARY_SPLIT_FREEZE_V1.md
+          if git diff --cached --quiet; then
+            echo 'No split changes to commit.'
+          else
+            git commit -m 'Freeze stationary calibration blind split v1'
+            git push
+          fi
