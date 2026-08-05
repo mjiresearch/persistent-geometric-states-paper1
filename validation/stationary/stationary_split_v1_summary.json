@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN",
+  "n_total": 149,
+  "n_calibration": 104,
+  "n_blind": 45,
+  "blind_fraction": 0.30201342281879195,
+  "rng_seed": 625874907,
+  "seed_derivation": "integer value of first 8 hex characters of stationary_master_v1.csv SHA-256",
+  "master_sha256": "254e17dbe22eb8371384e3c7f301f9936181b99384518e772be861567e4e896f",
+  "manifest_sha256": "de5ee5a85c65be60f73239ccc4712333523fbfd06acd90c03db53512a0c02629",
+  "catalog_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+  "candidate_splits_evaluated": 50000,
+  "balance_objective": 0.019400340949905313,
+  "selection_uses_model_results": false,
+  "numeric_balance_covariates": [
+    "log_lum36",
+    "log_sbeff",
+    "log_gas_richness",
+    "log_vchar",
+    "log_size",
+    "radial_coverage_size",
+    "n_points",
+    "inclination_deg"
+  ],
+  "categorical_balance_covariates": [
+    "morphology_bin",
+    "quality_flag"
+  ]
+}
