@@ -1,0 +1,14 @@
+{
+  "status": "ACQUISITION_PENDING",
+  "n_frozen_stationary": 149,
+  "n_primary_direct_profile_eligible": 145,
+  "n_known_unavailable": 4,
+  "n_calibration_eligible": 101,
+  "n_blind_eligible": 44,
+  "n_public_download_verified": 0,
+  "n_profiles_ingested": 0,
+  "n_independent_FEASTS_validation_overlap": 7,
+  "split_sha256": "eceac43dc287326eb126b150a940d6681b4bbfe0015e5efc8ef4769876f9a9d1",
+  "provenance_sha256": "b7ab05eff77556ee6646fd8733c89b419fc3b469bca11109bc101d2424192fdc",
+  "freeze_boundary": "No L_A, C_A, tau_A, or persistence prediction evaluated."
+}
