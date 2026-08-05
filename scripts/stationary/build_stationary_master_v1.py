@@ -129,7 +129,6 @@ def main() -> None:
         quality = int(float(meta["quality_flag"]))
         inclination = float(meta["inclination_deg"])
 
-        # The manifest itself is an eligibility record; assert the frozen cuts.
         if quality > 2:
             raise ValueError(f"Manifest includes Q>2 galaxy: {galaxy}")
         if inclination < 30:
@@ -178,7 +177,7 @@ def main() -> None:
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n")
+        writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\r\n")
         writer.writeheader()
         writer.writerows(rows)
 
