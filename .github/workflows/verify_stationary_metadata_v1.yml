@@ -1,0 +1,57 @@
+name: Verify stationary metadata v1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/verify_stationary_metadata_v1.py'
+      - '.github/workflows/verify_stationary_metadata_v1.yml'
+      - 'data/stationary/frozen/stationary_master_v1.csv'
+      - 'validation/stationary/stationary_sample_manifest_v1.csv'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download authoritative SPARC catalog
+        run: |
+          curl --fail --location --retry 3 \
+            'https://astroweb.case.edu/SPARC/SPARC_Lelli2016c.mrt' \
+            --output /tmp/SPARC_Lelli2016c.mrt
+          sha256sum /tmp/SPARC_Lelli2016c.mrt
+
+      - name: Verify all 149 galaxy metadata records
+        run: |
+          python scripts/stationary/verify_stationary_metadata_v1.py \
+            --catalog /tmp/SPARC_Lelli2016c.mrt \
+            --manifest validation/stationary/stationary_sample_manifest_v1.csv \
+            --master data/stationary/frozen/stationary_master_v1.csv \
+            --report-csv validation/stationary/stationary_metadata_verification_v1.csv \
+            --report-json validation/stationary/stationary_metadata_verification_v1.json \
+            --freeze-md validation/stationary/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
+
+      - name: Commit verification and freeze record
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            validation/stationary/stationary_metadata_verification_v1.csv \
+            validation/stationary/stationary_metadata_verification_v1.json \
+            validation/stationary/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
+          if git diff --cached --quiet; then
+            echo 'Verification products unchanged.'
+          else
+            git commit -m 'Freeze stationary observational metadata v1'
+            git push
+          fi
