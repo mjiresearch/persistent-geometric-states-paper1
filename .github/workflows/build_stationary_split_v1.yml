@@ -20,7 +20,7 @@ jobs:
       - name: Require observational freeze
         run: |
           test -f data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
-          grep -q 'Freeze status:** FROZEN' data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
+          grep -Fq '**Freeze status:** FROZEN' data/stationary/frozen/STATIONARY_OBSERVATIONAL_FREEZE_V1.md
 
       - name: Download authoritative SPARC catalog
         run: |
