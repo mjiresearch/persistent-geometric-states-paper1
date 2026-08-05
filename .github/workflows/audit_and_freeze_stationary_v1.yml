@@ -7,6 +7,7 @@ on:
       - 'data/stationary/frozen/stationary_master_v1.csv'
       - 'validation/stationary/stationary_sample_manifest_v1.csv'
       - 'scripts/stationary/audit_stationary_metadata_v1.py'
+      - '.github/workflows/audit_and_freeze_stationary_v1.yml'
 
 permissions:
   contents: write
