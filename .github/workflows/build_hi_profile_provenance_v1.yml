@@ -1,0 +1,36 @@
+name: Build Appendix I HI profile provenance v1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/build_hi_profile_provenance_v1.py'
+      - '.github/workflows/build_hi_profile_provenance_v1.yml'
+      - 'validation/stationary/stationary_split_v1.csv'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build provenance manifest
+        run: |
+          python scripts/stationary/build_hi_profile_provenance_v1.py \
+            --split validation/stationary/stationary_split_v1.csv \
+            --out data/stationary/source_reconstruction/stationary_hi_profile_provenance_v1.csv \
+            --summary validation/stationary/stationary_hi_profile_provenance_v1_summary.json
+      - name: Commit provenance products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/stationary_hi_profile_provenance_v1.csv
+          git add validation/stationary/stationary_hi_profile_provenance_v1_summary.json
+          if git diff --cached --quiet; then
+            echo 'No provenance changes to commit.'
+          else
+            git commit -m 'Build stationary HI profile provenance v1'
+            git push
+          fi
