@@ -1,0 +1,17 @@
+column,type,unit,definition,provenance
+galaxy,string,---,SPARC galaxy identifier,Official SPARC per-galaxy rotation-curve file
+distance_mpc,float,Mpc,Assumed distance,Distance header in SPARC rotmod file
+radius_kpc,float,kpc,Galactocentric radius,SPARC R
+v_obs_kms,float,km/s,Observed circular velocity,SPARC Vobs
+v_err_kms,float,km/s,Random Vobs uncertainty,SPARC e_Vobs; does not include inclination systematic
+v_gas_kms,float,km/s,Signed gas velocity contribution,SPARC Vgas; includes factor 1.33 for helium
+v_disk_ml1_kms,float,km/s,Disk velocity contribution at stellar M/L=1,SPARC Vdisk
+v_bulge_ml1_kms,float,km/s,Bulge velocity contribution at stellar M/L=1,SPARC Vbul
+sb_disk_lsun_pc2,float,Lsun/pc^2,Inclination-corrected disk surface brightness,SPARC SBdisk
+sb_bulge_lsun_pc2,float,Lsun/pc^2,Bulge surface brightness,SPARC SBbul
+quality_flag,int,---,SPARC quality flag used for sample cut,Recovered catalog summary; requires <=2
+inclination_deg,float,deg,Adopted disk inclination used for sample cut,Recovered catalog summary; requires >=30 deg
+n_points_galaxy,int,---,Retained radial point count,Derived QC
+galaxy_point_index,int,---,0-based radial point index within galaxy,Derived QC
+signed_gas_negative_flag,int,---,1 when Vgas<0,Derived QC; sign preserved
+source_file,string,---,Archived SPARC rotmod filename,Provenance
