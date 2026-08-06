@@ -2,6 +2,11 @@
 
 Reproducibility materials for an **independent, in-progress empirical test** of the manuscript *Persistent Geometric States in General Relativity: A Hereditary Framework for Galactic Rotation Curves*.
 
+## Researcher
+
+**Michael Iuliano** — Independent Researcher  
+**ORCID:** [0009-0004-9190-9865](https://orcid.org/0009-0004-9190-9865)
+
 ## Current scientific status
 
 This repository is a working reproducibility archive, not a claim that the proposed framework has been empirically established.
@@ -107,4 +112,4 @@ The manuscript appendices remain readable scientific documents rather than repos
 
 ## Citation and provenance
 
-Formal citation information, source-data acknowledgements, release/version identifiers, and a repository snapshot corresponding to the submitted manuscript will be finalized before archival release. Third-party datasets retain their original ownership, citation requirements, and redistribution conditions.
+Author identity and ORCID metadata are recorded in [`CITATION.cff`](CITATION.cff). Formal source-data acknowledgements, release/version identifiers, and a repository snapshot corresponding to the submitted manuscript will be finalized before archival release. Third-party datasets retain their original ownership, citation requirements, and redistribution conditions.
