@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use materials from this repository, please cite the associated paper and this repository release."
+title: "Persistent Geometric States in General Relativity: Reproducibility and Supplementary Data"
+type: dataset
+authors:
+  - family-names: "Iuliano"
+    given-names: "Michael"
+    orcid: "https://orcid.org/0009-0004-9190-9865"
+    email: "michael.iuliano.research@gmail.com"
+version: "0.1.0-preanalysis"
+repository-code: "https://github.com/mjiresearch/persistent-geometric-states-paper1"
