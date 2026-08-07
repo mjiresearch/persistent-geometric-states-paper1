@@ -1,0 +1,225 @@
+{
+  "analysis_name": "Milky Way persistence framework Stage 1 history-signal screen",
+  "interpretation_guardrail": "This stage tests whether age/history proxies add reproducible dynamical information after narrow present-location and chemistry controls. It is not by itself evidence for gravitational persistence: standard disk heating, formation history, selection effects, and non-equilibrium dynamics can produce age-orbit correlations. A persistence test requires a present-baryonic force model and a gravitational/Jeans residual that can be tested against reconstructed source history.",
+  "quality": {
+    "raw_rows": 56104,
+    "quality_rows": 30467,
+    "quality_fraction": 0.5430450591758164,
+    "cuts": {
+      "age_range_gyr": [
+        0.05,
+        14.5
+      ],
+      "age_fractional_error_max": 0.5,
+      "R_gal_kpc": [
+        3.0,
+        20.0
+      ],
+      "abs_Z_gal_kpc_max": 8.0,
+      "snr_min_if_present": 20
+    }
+  },
+  "age_orbit_deciles_rows": 10,
+  "spatial_history_cells_rows": 341,
+  "within_cell_old_young_rows": 112,
+  "incremental_age_cv": {
+    "rows": 26216,
+    "groups": 445,
+    "n_splits": 5,
+    "outcomes": {
+      "Vphi_gal": {
+        "folds": [
+          {
+            "fold": 1,
+            "baseline_mae": 70.93552978925851,
+            "plus_age_mae": 70.49433904027282,
+            "baseline_r2": 0.34524959845424363,
+            "plus_age_r2": 0.3597825697164835
+          },
+          {
+            "fold": 2,
+            "baseline_mae": 67.71608466806171,
+            "plus_age_mae": 67.80953421964652,
+            "baseline_r2": 0.36380382674542877,
+            "plus_age_r2": 0.36310725822055623
+          },
+          {
+            "fold": 3,
+            "baseline_mae": 62.749668605681485,
+            "plus_age_mae": 62.515764201664155,
+            "baseline_r2": 0.4355424087077353,
+            "plus_age_r2": 0.4394915749283228
+          },
+          {
+            "fold": 4,
+            "baseline_mae": 67.91904834268458,
+            "plus_age_mae": 67.7253899670797,
+            "baseline_r2": 0.3535674167741125,
+            "plus_age_r2": 0.35493864672059916
+          },
+          {
+            "fold": 5,
+            "baseline_mae": 65.88883425981463,
+            "plus_age_mae": 65.43404209388436,
+            "baseline_r2": 0.3571236488052564,
+            "plus_age_r2": 0.36225627493215595
+          }
+        ],
+        "mean_baseline_mae": 67.04183313310018,
+        "mean_plus_age_mae": 66.79581390450952,
+        "fractional_mae_improvement": 0.0036696375545435815,
+        "mean_baseline_r2": 0.3710573798973553,
+        "mean_plus_age_r2": 0.3759152649036236,
+        "delta_r2": 0.00485788500626827
+      },
+      "ecc_mw22": {
+        "folds": [
+          {
+            "fold": 1,
+            "baseline_mae": 0.15717659216533814,
+            "plus_age_mae": 0.15767077929175022,
+            "baseline_r2": 0.4530844397084849,
+            "plus_age_r2": 0.45473430851648833
+          },
+          {
+            "fold": 2,
+            "baseline_mae": 0.15352793858289585,
+            "plus_age_mae": 0.15384779780412985,
+            "baseline_r2": 0.41957289202085235,
+            "plus_age_r2": 0.4175842965674721
+          },
+          {
+            "fold": 3,
+            "baseline_mae": 0.14903453629835367,
+            "plus_age_mae": 0.1501443851671527,
+            "baseline_r2": 0.5486300593208235,
+            "plus_age_r2": 0.5475192358280867
+          },
+          {
+            "fold": 4,
+            "baseline_mae": 0.15699311458043136,
+            "plus_age_mae": 0.15731091694798488,
+            "baseline_r2": 0.45217674623267134,
+            "plus_age_r2": 0.45241324770912705
+          },
+          {
+            "fold": 5,
+            "baseline_mae": 0.15942290397829922,
+            "plus_age_mae": 0.15709712477372675,
+            "baseline_r2": 0.4550984787787775,
+            "plus_age_r2": 0.4705211913693761
+          }
+        ],
+        "mean_baseline_mae": 0.15523101712106366,
+        "mean_plus_age_mae": 0.15521420079694886,
+        "fractional_mae_improvement": 0.00010833095361140648,
+        "mean_baseline_r2": 0.4657125232123219,
+        "mean_plus_age_r2": 0.4685544559981101,
+        "delta_r2": 0.0028419327857881482
+      },
+      "z_max_mw22": {
+        "folds": [
+          {
+            "fold": 1,
+            "baseline_mae": 1.5941714190699208,
+            "plus_age_mae": 1.6104824193642895,
+            "baseline_r2": 0.16871195874321998,
+            "plus_age_r2": 0.17151896612184514
+          },
+          {
+            "fold": 2,
+            "baseline_mae": 1.5893614172150476,
+            "plus_age_mae": 1.6071692471889134,
+            "baseline_r2": 0.24237303958684442,
+            "plus_age_r2": 0.23161115185891545
+          },
+          {
+            "fold": 3,
+            "baseline_mae": 1.5027226133300386,
+            "plus_age_mae": 1.4670696745812823,
+            "baseline_r2": 0.2633147908930745,
+            "plus_age_r2": 0.26661534862394265
+          },
+          {
+            "fold": 4,
+            "baseline_mae": 1.70030832586403,
+            "plus_age_mae": 1.6787207191788396,
+            "baseline_r2": 0.20999423360111846,
+            "plus_age_r2": 0.22026561236907838
+          },
+          {
+            "fold": 5,
+            "baseline_mae": 1.6866602258173358,
+            "plus_age_mae": 1.6991993577767612,
+            "baseline_r2": 0.1569045374760536,
+            "plus_age_r2": 0.15512798407982986
+          }
+        ],
+        "mean_baseline_mae": 1.6146448002592746,
+        "mean_plus_age_mae": 1.6125282836180173,
+        "fractional_mae_improvement": 0.0013108249200799297,
+        "mean_baseline_r2": 0.20825971206006216,
+        "mean_plus_age_r2": 0.20902781261072229,
+        "delta_r2": 0.0007681005506601224
+      },
+      "radial_excursion": {
+        "folds": [
+          {
+            "fold": 1,
+            "baseline_mae": 3.815267342514881,
+            "plus_age_mae": 3.8038576444707926,
+            "baseline_r2": 0.1976815593994795,
+            "plus_age_r2": 0.20084385470269783
+          },
+          {
+            "fold": 2,
+            "baseline_mae": 3.733308631023804,
+            "plus_age_mae": 3.7199642314329724,
+            "baseline_r2": 0.20997390839181718,
+            "plus_age_r2": 0.21508091780033078
+          },
+          {
+            "fold": 3,
+            "baseline_mae": 3.5859592710764043,
+            "plus_age_mae": 3.584414538406743,
+            "baseline_r2": 0.24109096052813295,
+            "plus_age_r2": 0.24021405188933487
+          },
+          {
+            "fold": 4,
+            "baseline_mae": 3.8983430381614443,
+            "plus_age_mae": 3.871428999089172,
+            "baseline_r2": 0.19171474011330425,
+            "plus_age_r2": 0.19544842914971006
+          },
+          {
+            "fold": 5,
+            "baseline_mae": 3.999603209201035,
+            "plus_age_mae": 4.018109691290603,
+            "baseline_r2": 0.1719444527694054,
+            "plus_age_r2": 0.16814953851390368
+          }
+        ],
+        "mean_baseline_mae": 3.8064962983955133,
+        "mean_plus_age_mae": 3.799555020938057,
+        "fractional_mae_improvement": 0.0018235345349954146,
+        "mean_baseline_r2": 0.20248112424042786,
+        "mean_plus_age_r2": 0.20394735841119543,
+        "delta_r2": 0.0014662341707675774
+      }
+    }
+  },
+  "boss_occam_crosswalk": {
+    "minesweeper_to_boss_occam_gaia_dr3": {
+      "minesweeper_unique_source_ids": 56104,
+      "boss_occam_unique_gaia_dr3_ids": 3834,
+      "overlap_unique_gaia_dr3_ids": 219
+    },
+    "boss_occam_cluster_screen": {
+      "rows": 111,
+      "finite_age_rows": 111,
+      "finite_current_minus_guide_rows": 111,
+      "output": "data/persistence_history/milky_way_stage1/boss_occam_cluster_history_screen.csv"
+    }
+  }
+}
