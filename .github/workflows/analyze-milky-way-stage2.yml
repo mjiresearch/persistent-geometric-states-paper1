@@ -1,3 +1,4 @@
+# Trigger Stage 2 after workflow creation.
 name: Analyze Milky Way Stage 2
 
 on:
