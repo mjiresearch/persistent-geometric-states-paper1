@@ -1,0 +1,35 @@
+name: Analyze Milky Way Stage 3C interaction screen
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/analyze_milky_way_stage3c_interaction_screen.py'
+      - '.github/workflows/analyze-milky-way-stage3c.yml'
+      - 'data/persistence_history/milky_way_stage3/**'
+      - 'data/persistence_history/milky_way_stage3b_mcgaugh/**'
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install numpy pandas scipy
+      - name: Run Stage 3C
+        run: python scripts/analyze_milky_way_stage3c_interaction_screen.py
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage3c_interaction
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add Milky Way Stage 3C interaction results'
+            git push
+          fi
