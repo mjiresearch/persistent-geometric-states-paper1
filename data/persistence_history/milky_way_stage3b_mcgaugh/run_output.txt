@@ -1,0 +1,250 @@
+{
+  "analysis_name": "Milky Way Stage 3B independent McGaugh 2019 baryonic-decomposition cross-check",
+  "source_urls": {
+    "mass_model": "https://cdsarc.cds.unistra.fr/ftp/J/ApJ/885/87/table2.dat",
+    "rotation_curve": "https://cdsarc.cds.unistra.fr/ftp/J/ApJ/885/87/table3.dat"
+  },
+  "table_rows": {
+    "table2": 78,
+    "table3": 38
+  },
+  "history_bins": 12,
+  "history_R_range_kpc": [
+    5.0,
+    10.5
+  ],
+  "positive_baryonic_deficit_bins": 12,
+  "fraction_positive_baryonic_deficit_bins": 1.0,
+  "correlations": {
+    "age_median_gyr": {
+      "Vres_equiv_kms": {
+        "n": 12,
+        "rho_raw": -0.6853146853146854,
+        "p_raw": 0.013905968814362752,
+        "rho_detrended": 0.4265734265734266,
+        "p_detrended": 0.16669998762494498,
+        "rho_first_difference": 0.45454545454545453,
+        "p_first_difference": 0.1601454372552589
+      },
+      "mass_discrepancy_fraction_v2": {
+        "n": 12,
+        "rho_raw": -0.6363636363636365,
+        "p_raw": 0.02609689105270314,
+        "rho_detrended": 0.41958041958041964,
+        "p_detrended": 0.1745190081300594,
+        "rho_first_difference": 0.44545454545454555,
+        "p_first_difference": 0.16973260492681186
+      },
+      "gres_kms2_per_kpc": {
+        "n": 12,
+        "rho_raw": 0.34965034965034975,
+        "p_raw": 0.26523878689278996,
+        "rho_detrended": 0.4265734265734266,
+        "p_detrended": 0.16669998762494498,
+        "rho_first_difference": 0.43636363636363645,
+        "p_first_difference": 0.17966487658001118
+      }
+    },
+    "old_fraction_gt8": {
+      "Vres_equiv_kms": {
+        "n": 12,
+        "rho_raw": -0.6993006993006995,
+        "p_raw": 0.01137419864269093,
+        "rho_detrended": 0.4685314685314686,
+        "p_detrended": 0.12445479118883407,
+        "rho_first_difference": 0.46363636363636374,
+        "p_first_difference": 0.15090149929248592
+      },
+      "mass_discrepancy_fraction_v2": {
+        "n": 12,
+        "rho_raw": -0.6643356643356644,
+        "p_raw": 0.01845271802844544,
+        "rho_detrended": 0.0979020979020979,
+        "p_detrended": 0.7621216559962992,
+        "rho_first_difference": 0.4000000000000001,
+        "p_first_difference": 0.22286835013352
+      },
+      "gres_kms2_per_kpc": {
+        "n": 12,
+        "rho_raw": 0.3706293706293707,
+        "p_raw": 0.23562100351264567,
+        "rho_detrended": 0.4685314685314686,
+        "p_detrended": 0.12445479118883407,
+        "rho_first_difference": 0.5,
+        "p_first_difference": 0.11730680301423817
+      }
+    },
+    "FeH_median": {
+      "Vres_equiv_kms": {
+        "n": 12,
+        "rho_raw": 0.7342657342657343,
+        "p_raw": 0.006543490146837884,
+        "rho_detrended": 0.6223776223776225,
+        "p_detrended": 0.030675895061640146,
+        "rho_first_difference": 0.26363636363636367,
+        "p_first_difference": 0.43344073761161456
+      },
+      "mass_discrepancy_fraction_v2": {
+        "n": 12,
+        "rho_raw": 0.7552447552447553,
+        "p_raw": 0.004508435484294223,
+        "rho_detrended": 0.34965034965034975,
+        "p_detrended": 0.26523878689278996,
+        "rho_first_difference": 0.5454545454545455,
+        "p_first_difference": 0.08265095734417503
+      },
+      "gres_kms2_per_kpc": {
+        "n": 12,
+        "rho_raw": 0.16083916083916086,
+        "p_raw": 0.6175234895401425,
+        "rho_detrended": 0.6223776223776225,
+        "p_detrended": 0.030675895061640146,
+        "rho_first_difference": 0.26363636363636367,
+        "p_first_difference": 0.43344073761161456
+      }
+    },
+    "aFe_median": {
+      "Vres_equiv_kms": {
+        "n": 12,
+        "rho_raw": -0.9720279720279721,
+        "p_raw": 1.2868115751495027e-07,
+        "rho_detrended": -0.31468531468531474,
+        "p_detrended": 0.3191387855033045,
+        "rho_first_difference": -0.16363636363636366,
+        "p_first_difference": 0.6306852146425356
+      },
+      "mass_discrepancy_fraction_v2": {
+        "n": 12,
+        "rho_raw": -0.9580419580419581,
+        "p_raw": 9.543581826838402e-07,
+        "rho_detrended": -0.4895104895104896,
+        "p_detrended": 0.10625237175934595,
+        "rho_first_difference": -0.4000000000000001,
+        "p_first_difference": 0.22286835013352
+      },
+      "gres_kms2_per_kpc": {
+        "n": 12,
+        "rho_raw": 0.0,
+        "p_raw": 1.0,
+        "rho_detrended": -0.31468531468531474,
+        "p_detrended": 0.3191387855033045,
+        "rho_first_difference": -0.13636363636363638,
+        "p_first_difference": 0.6893090205863619
+      }
+    },
+    "ecc_median": {
+      "Vres_equiv_kms": {
+        "n": 12,
+        "rho_raw": -0.20979020979020982,
+        "p_raw": 0.512840943181826,
+        "rho_detrended": -0.44755244755244755,
+        "p_detrended": 0.1445863013033476,
+        "rho_first_difference": -0.09090909090909091,
+        "p_first_difference": 0.7903727377532903
+      },
+      "mass_discrepancy_fraction_v2": {
+        "n": 12,
+        "rho_raw": -0.2517482517482518,
+        "p_raw": 0.4299187850328841,
+        "rho_detrended": 0.02097902097902098,
+        "p_detrended": 0.9484022252365222,
+        "rho_first_difference": -0.20000000000000004,
+        "p_first_difference": 0.5554454421055853
+      },
+      "gres_kms2_per_kpc": {
+        "n": 12,
+        "rho_raw": -0.2867132867132868,
+        "p_raw": 0.36625146058358227,
+        "rho_detrended": -0.44755244755244755,
+        "p_detrended": 0.1445863013033476,
+        "rho_first_difference": -0.14545454545454548,
+        "p_first_difference": 0.6695786456420787
+      }
+    },
+    "zmax_median_kpc": {
+      "Vres_equiv_kms": {
+        "n": 12,
+        "rho_raw": -0.2517482517482518,
+        "p_raw": 0.4299187850328841,
+        "rho_detrended": 0.6013986013986015,
+        "p_detrended": 0.03858845292201946,
+        "rho_first_difference": 0.48181818181818187,
+        "p_first_difference": 0.13343383825682875
+      },
+      "mass_discrepancy_fraction_v2": {
+        "n": 12,
+        "rho_raw": -0.25874125874125875,
+        "p_raw": 0.41677476889913817,
+        "rho_detrended": 0.27272727272727276,
+        "p_detrended": 0.39109677094189615,
+        "rho_first_difference": 0.27272727272727276,
+        "p_first_difference": 0.4171414371425311
+      },
+      "gres_kms2_per_kpc": {
+        "n": 12,
+        "rho_raw": 0.5734265734265735,
+        "p_raw": 0.05126558978649151,
+        "rho_detrended": 0.6013986013986015,
+        "p_detrended": 0.03858845292201946,
+        "rho_first_difference": 0.5363636363636364,
+        "p_first_difference": 0.08895341813596268
+      }
+    },
+    "radial_excursion_median_kpc": {
+      "Vres_equiv_kms": {
+        "n": 12,
+        "rho_raw": 0.4895104895104896,
+        "p_raw": 0.10625237175934595,
+        "rho_detrended": -0.31468531468531474,
+        "p_detrended": 0.3191387855033045,
+        "rho_first_difference": -0.009090909090909092,
+        "p_first_difference": 0.9788365001441937
+      },
+      "mass_discrepancy_fraction_v2": {
+        "n": 12,
+        "rho_raw": 0.46153846153846156,
+        "p_raw": 0.13094806950717272,
+        "rho_detrended": 0.18881118881118883,
+        "p_detrended": 0.5567370561768314,
+        "rho_first_difference": -0.1272727272727273,
+        "p_first_difference": 0.709214625773305
+      },
+      "gres_kms2_per_kpc": {
+        "n": 12,
+        "rho_raw": -0.2517482517482518,
+        "p_raw": 0.4299187850328841,
+        "rho_detrended": -0.31468531468531474,
+        "p_detrended": 0.3191387855033045,
+        "rho_first_difference": -0.009090909090909092,
+        "p_first_difference": 0.9788365001441937
+      }
+    }
+  },
+  "observational_error_monte_carlo": {
+    "age_median_gyr": {
+      "rho_raw_median": -0.6083916083916086,
+      "rho_raw_16_84": [
+        -0.7062937062937064,
+        -0.5034965034965035
+      ],
+      "rho_detrended_median": 0.2447552447552448,
+      "rho_detrended_16_84": [
+        -0.055944055944055944,
+        0.5314685314685316
+      ]
+    },
+    "old_fraction_gt8": {
+      "rho_raw_median": -0.6293706293706295,
+      "rho_raw_16_84": [
+        -0.7202797202797203,
+        -0.5104895104895105
+      ],
+      "rho_detrended_median": 0.2517482517482518,
+      "rho_detrended_16_84": [
+        -0.06293706293706294,
+        0.5605594405594396
+      ]
+    }
+  },
+  "guardrail": "McGaugh 2019 table2 is a published Milky Way mass model with separate bulge, gas and disk circular-speed components; table3 is a published circular-speed curve with asymmetric statistical errors. Baryonic-model systematics and shared radial gradients remain confounders, so detrended and first-difference correlations are more diagnostic than raw correlations. This is an independent cross-check, not a persistence detection."
+}
