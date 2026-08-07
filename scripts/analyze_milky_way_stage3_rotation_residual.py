@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Trigger Stage 3 rotation-residual run after workflow creation.
+# Stage 3 rotation-residual run using McMillan17 natural-unit component evaluation.
 from __future__ import annotations
 
 import json
@@ -8,8 +8,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
-from astropy import units as u
 from galpy.potential import vcirc, mwpotentials
+from galpy.util.conversion import get_physical
 
 OUT = Path('data/persistence_history/milky_way_stage3')
 OUT.mkdir(parents=True, exist_ok=True)
@@ -27,12 +27,6 @@ def weighted_mean(g: pd.DataFrame, col: str) -> float:
     if not np.any(m):
         return np.nan
     return float(np.average(x[m], weights=w[m]))
-
-
-def as_kms(v) -> float:
-    if hasattr(v, 'to_value'):
-        return float(v.to_value(u.km/u.s))
-    return float(v)
 
 
 def quadratic_detrend(x: np.ndarray, y: np.ndarray) -> np.ndarray:
@@ -105,14 +99,22 @@ def main() -> None:
     if not baryons or not halos:
         raise RuntimeError(f'Unexpected McMillan17 component structure: {component_names}')
 
+    physical = get_physical(pot)
+    ro = float(physical['ro'])
+    vo = float(physical['vo'])
+
+    def vc_kms(subpot, r_kpc: float) -> float:
+        # Evaluate all components in the same McMillan17 natural-unit system.
+        return float(vcirc(subpot, r_kpc / ro, use_physical=False)) * vo
+
     vbar = []
     vhalo_model = []
     vtotal_model = []
     vobs = []
     for r in radial['R_kpc'].to_numpy(float):
-        vbar.append(as_kms(vcirc(baryons, r*u.kpc)))
-        vhalo_model.append(as_kms(vcirc(halos, r*u.kpc)))
-        vtotal_model.append(as_kms(vcirc(pot, r*u.kpc)))
+        vbar.append(vc_kms(baryons, r))
+        vhalo_model.append(vc_kms(halos, r))
+        vtotal_model.append(vc_kms(pot, r))
         vobs.append(EILERS_V0_KMS + EILERS_SLOPE_KMS_PER_KPC*(r-EILERS_R0_KPC))
 
     radial['Vobs_eilers_kms'] = np.asarray(vobs)
@@ -167,6 +169,7 @@ def main() -> None:
         'baryonic_model_reference': {
             'reference': 'McMillan 2017 as implemented in galpy McMillan17',
             'galpy_components': component_names,
+            'natural_unit_scaling': {'ro_kpc': ro, 'vo_kms': vo},
             'baryonic_components_rule': 'all McMillan17 components except NFWPotential',
             'halo_components_rule': 'NFWPotential only'
         },
