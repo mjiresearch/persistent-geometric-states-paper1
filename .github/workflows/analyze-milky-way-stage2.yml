@@ -1,0 +1,40 @@
+name: Analyze Milky Way Stage 2
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/analyze_milky_way_stage2_history_map.py'
+      - '.github/workflows/analyze-milky-way-stage2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pandas pyarrow scipy
+      - name: Run Stage 2
+        run: python scripts/analyze_milky_way_stage2_history_map.py
+      - name: Commit Stage 2 outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage2
+          if git diff --cached --quiet; then
+            echo 'No Stage 2 changes to commit.'
+          else
+            git commit -m 'Add Milky Way Stage 2 history-map results'
+            git push
+          fi
