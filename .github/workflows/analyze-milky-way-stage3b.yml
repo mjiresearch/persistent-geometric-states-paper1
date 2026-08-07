@@ -1,3 +1,4 @@
+# Trigger Stage 3B after workflow installation.
 name: Analyze Milky Way Stage 3B McGaugh Cross-check
 
 on:
