@@ -1,0 +1,153 @@
+{
+  "analysis_name": "Milky Way Stage 2 azimuthal source-history anomaly screen",
+  "quality_rows": 30467,
+  "3d_cells_n_ge_20": 236,
+  "cell_geometry": {
+    "R_bin_kpc": 0.5,
+    "absZ_bin_kpc": 0.25,
+    "phi_bin_deg": 15
+  },
+  "correlations": {
+    "age_median_gyr_anom": {
+      "Vr_median_kms_anom": {
+        "n": 236,
+        "rho": 0.20012552743844444,
+        "p_spearman": 0.002005774080533634,
+        "p_perm_within_RZ": 0.0499001996007984
+      },
+      "Vphi_median_kms_anom": {
+        "n": 236,
+        "rho": 0.12571255138521734,
+        "p_spearman": 0.053775958901285933,
+        "p_perm_within_RZ": 0.2215568862275449
+      },
+      "Vz_median_kms_anom": {
+        "n": 236,
+        "rho": 0.040444144899519814,
+        "p_spearman": 0.5363981192923031,
+        "p_perm_within_RZ": 0.718562874251497
+      }
+    },
+    "old_fraction_gt8_anom": {
+      "Vr_median_kms_anom": {
+        "n": 236,
+        "rho": 0.18771422383900374,
+        "p_spearman": 0.0038014912205660313,
+        "p_perm_within_RZ": 0.05588822355289421
+      },
+      "Vphi_median_kms_anom": {
+        "n": 236,
+        "rho": 0.06616835363325137,
+        "p_spearman": 0.3114376027361801,
+        "p_perm_within_RZ": 0.5249500998003992
+      },
+      "Vz_median_kms_anom": {
+        "n": 236,
+        "rho": 0.021514012340941135,
+        "p_spearman": 0.7423161190196562,
+        "p_perm_within_RZ": 0.8203592814371258
+      }
+    },
+    "FeH_median_anom": {
+      "Vr_median_kms_anom": {
+        "n": 236,
+        "rho": 0.045620028880530086,
+        "p_spearman": 0.48550850374218785,
+        "p_perm_within_RZ": 0.6506986027944112
+      },
+      "Vphi_median_kms_anom": {
+        "n": 236,
+        "rho": -0.6344919511049518,
+        "p_spearman": 5.451060304315185e-28,
+        "p_perm_within_RZ": 0.001996007984031936
+      },
+      "Vz_median_kms_anom": {
+        "n": 236,
+        "rho": 0.030362889295183076,
+        "p_spearman": 0.6425947535979849,
+        "p_perm_within_RZ": 0.7904191616766467
+      }
+    },
+    "aFe_median_anom": {
+      "Vr_median_kms_anom": {
+        "n": 236,
+        "rho": 0.012952568387464915,
+        "p_spearman": 0.8430975380882458,
+        "p_perm_within_RZ": 0.8962075848303394
+      },
+      "Vphi_median_kms_anom": {
+        "n": 236,
+        "rho": 0.2809449154351682,
+        "p_spearman": 1.1780407033239232e-05,
+        "p_perm_within_RZ": 0.003992015968063872
+      },
+      "Vz_median_kms_anom": {
+        "n": 236,
+        "rho": 0.13316389312651142,
+        "p_spearman": 0.04095824376646301,
+        "p_perm_within_RZ": 0.22954091816367264
+      }
+    },
+    "ecc_median_anom": {
+      "Vr_median_kms_anom": {
+        "n": 236,
+        "rho": -0.1491454720840951,
+        "p_spearman": 0.021912309564153163,
+        "p_perm_within_RZ": 0.17764471057884232
+      },
+      "Vphi_median_kms_anom": {
+        "n": 236,
+        "rho": 0.8216586022444516,
+        "p_spearman": 4.7036691465543475e-59,
+        "p_perm_within_RZ": 0.001996007984031936
+      },
+      "Vz_median_kms_anom": {
+        "n": 236,
+        "rho": -0.019949012666286247,
+        "p_spearman": 0.7604684339510559,
+        "p_perm_within_RZ": 0.8343313373253493
+      }
+    },
+    "zmax_median_kpc_anom": {
+      "Vr_median_kms_anom": {
+        "n": 236,
+        "rho": -0.17838579574788535,
+        "p_spearman": 0.0059971102820591295,
+        "p_perm_within_RZ": 0.09381237524950099
+      },
+      "Vphi_median_kms_anom": {
+        "n": 236,
+        "rho": 0.5034101539906758,
+        "p_spearman": 1.4437592654600771e-16,
+        "p_perm_within_RZ": 0.001996007984031936
+      },
+      "Vz_median_kms_anom": {
+        "n": 236,
+        "rho": -0.0517845566799812,
+        "p_spearman": 0.42845572813317667,
+        "p_perm_within_RZ": 0.624750499001996
+      }
+    },
+    "radial_excursion_median_kpc_anom": {
+      "Vr_median_kms_anom": {
+        "n": 236,
+        "rho": -0.12053788046410699,
+        "p_spearman": 0.06450805757779222,
+        "p_perm_within_RZ": 0.2894211576846307
+      },
+      "Vphi_median_kms_anom": {
+        "n": 236,
+        "rho": 0.6467732121437969,
+        "p_spearman": 2.3551702667891332e-29,
+        "p_perm_within_RZ": 0.001996007984031936
+      },
+      "Vz_median_kms_anom": {
+        "n": 236,
+        "rho": 0.016135880176854425,
+        "p_spearman": 0.8052301930985826,
+        "p_perm_within_RZ": 0.8862275449101796
+      }
+    }
+  },
+  "guardrail": "Correlations here identify candidate non-axisymmetric history/kinematic structure. Bar/spiral dynamics, accretion, selection effects and ordinary Galactic evolution are standard explanations. Persistence requires a force residual tied to present baryons and an independently reconstructed source history."
+}
