@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Triggered after workflow installation; analysis is deterministic under RNG seed 20260807.
 from __future__ import annotations
 
 import json
