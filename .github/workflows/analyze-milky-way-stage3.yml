@@ -29,13 +29,24 @@ jobs:
           pip install numpy pandas pyarrow scipy astropy galpy
 
       - name: Run Milky Way Stage 3 rotation-residual analysis
-        run: python scripts/analyze_milky_way_stage3_rotation_residual.py
+        id: stage3
+        continue-on-error: true
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage3
+          set +e
+          python scripts/analyze_milky_way_stage3_rotation_residual.py > data/persistence_history/milky_way_stage3/run.log 2>&1
+          code=$?
+          echo "$code" > data/persistence_history/milky_way_stage3/exit_code.txt
+          cat data/persistence_history/milky_way_stage3/run.log
+          exit $code
 
       - name: Show outputs
+        if: always()
         run: |
           find data/persistence_history/milky_way_stage3 -maxdepth 2 -type f -printf '%p %s bytes\n' | sort
 
-      - name: Commit Stage 3 outputs
+      - name: Commit Stage 3 outputs or diagnostics
+        if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -46,3 +57,7 @@ jobs:
             git commit -m 'Add Milky Way Stage 3 rotation residual results'
             git push
           fi
+
+      - name: Fail workflow if analysis failed
+        if: steps.stage3.outcome == 'failure'
+        run: exit 1
