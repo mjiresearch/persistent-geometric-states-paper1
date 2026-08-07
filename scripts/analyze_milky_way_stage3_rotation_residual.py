@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Trigger Stage 3 rotation-residual run after workflow creation.
 from __future__ import annotations
 
 import json
@@ -14,9 +15,6 @@ OUT = Path('data/persistence_history/milky_way_stage3')
 OUT.mkdir(parents=True, exist_ok=True)
 CELLS = Path('data/persistence_history/milky_way_stage2/azimuthal_history_cells.csv')
 
-# Eilers et al. (2019): v_c(R0)=229.0 km/s, R0=8.122 kpc,
-# dv_c/dR=-1.7 km/s/kpc over 5-25 kpc. This first Stage-3 screen uses
-# the published linear summary rather than digitizing individual points.
 EILERS_R0_KPC = 8.122
 EILERS_V0_KMS = 229.0
 EILERS_SLOPE_KMS_PER_KPC = -1.7
@@ -64,8 +62,6 @@ def corr_stats(r: np.ndarray, x: np.ndarray, y: np.ndarray) -> dict:
     order = np.argsort(rr)
     dx = np.diff(xx[order]); dy = np.diff(yy[order])
     rho_diff, p_diff = spearmanr(dx, dy) if len(dx) >= 5 else (np.nan, np.nan)
-    # Circular shifts preserve the history profile's smoothness/autocorrelation
-    # while breaking its radial registration with the mass-discrepancy curve.
     shifted = []
     for k in range(1, len(xx)):
         sr, _ = spearmanr(np.roll(xx, k), yy)
@@ -102,8 +98,6 @@ def main() -> None:
         rows.append(row)
     radial = pd.DataFrame(rows).sort_values('R_kpc').reset_index(drop=True)
 
-    # McMillan17 in galpy: DiskSCFPotential + SCFPotential are baryonic;
-    # NFWPotential is the dark halo. Identify by class name instead of index.
     pot = mwpotentials.McMillan17
     component_names = [type(p).__name__ for p in pot]
     baryons = [p for p in pot if 'NFW' not in type(p).__name__]
