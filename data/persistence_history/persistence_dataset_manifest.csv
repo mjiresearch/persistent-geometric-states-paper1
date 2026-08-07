@@ -1,0 +1,4 @@
+dataset,release,access,size_or_scope,key_fields,priority,persistence_use,source_url
+SDSS DR19 OCCAM cluster/member,DR19,Public SAS/CAS,"156 open clusters; member-star table","Gaia DR3 IDs, SDSS-V IDs, membership, positions, kinematics, metallicity, cluster orbital parameters",HIGH,"Age/cluster-tagged disk tracers; present kinematics and orbital controls",https://data.sdss.org/sas/dr19/vac/mwm/apogee-occam
+SDSS DR19 MINESweeper,DR19,Public SAS/CAS,"BOSS metal-poor/distant halo sample","stellar parameters, metallicity, alpha, isochrone distance, kinematic/orbital parameters and uncertainties",HIGH,"Accretion/halo-history controls and orbital reconstruction",https://data.sdss.org/sas/dr19/vac/mwm/minesweeper
+Requested history database,TBD,Email permission required,TBD,"birth radii, migration/orbit histories, perturbation/accretion labels or trajectories",CRITICAL,"Populate reserved source-history columns without redesigning master table",TBD
