@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Triggered ingestion entrypoint for public SDSS persistence-history products.
 from __future__ import annotations
 
 import hashlib
