@@ -1,4 +1,4 @@
-# Trigger Stage 1 history-signal analysis after workflow creation.
+# Self-diagnosing Stage 1 history-signal analysis.
 name: Analyze Milky Way Stage 1
 
 on:
@@ -29,14 +29,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy pandas pyarrow scikit-learn
 
-      - name: Run Milky Way Stage 1 analysis
-        run: python scripts/analyze_milky_way_stage1.py
+      - name: Run Milky Way Stage 1 analysis with diagnostics
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage1
+          set +e
+          python scripts/analyze_milky_way_stage1.py > data/persistence_history/milky_way_stage1/run.log 2>&1
+          status=$?
+          echo "$status" > data/persistence_history/milky_way_stage1/exit_code.txt
+          cat data/persistence_history/milky_way_stage1/run.log
+          exit 0
 
       - name: Show outputs
         run: |
           find data/persistence_history/milky_way_stage1 -maxdepth 2 -type f -printf '%p %s bytes\n' | sort
 
-      - name: Commit analysis outputs
+      - name: Commit analysis outputs and diagnostics
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
