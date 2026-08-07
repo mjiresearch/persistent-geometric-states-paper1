@@ -1,3 +1,4 @@
+# Trigger Stage 1 history-signal analysis after workflow creation.
 name: Analyze Milky Way Stage 1
 
 on:
