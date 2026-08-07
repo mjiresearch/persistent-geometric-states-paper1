@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Trigger build after workflow installation.
 from __future__ import annotations
 
 import json
@@ -68,7 +69,6 @@ def choose_join_key(a: pd.DataFrame, b: pd.DataFrame):
         sa = a[c].dropna(); sb = b[c].dropna()
         if sa.empty or sb.empty:
             continue
-        # normalize integer-like IDs as strings to avoid float coercion
         aa = set(sa.astype(str).tolist())
         bb = set(sb.astype(str).tolist())
         overlap = len(aa & bb)
@@ -89,22 +89,12 @@ def main():
 
     report = {
         'rows': {'minesweeper': len(ms), 'orbits': len(orb), 'boss_occam_members': len(occ_m), 'boss_occam_clusters': len(occ_c)},
-        'columns': {
-            'minesweeper': list(ms.columns),
-            'orbits': list(orb.columns),
-            'boss_occam_members': list(occ_m.columns),
-            'boss_occam_clusters': list(occ_c.columns),
-        },
-        'id_columns': {
-            'minesweeper': present_ids(ms), 'orbits': present_ids(orb),
-            'boss_occam_members': present_ids(occ_m), 'boss_occam_clusters': present_ids(occ_c)
-        }
+        'columns': {'minesweeper': list(ms.columns), 'orbits': list(orb.columns), 'boss_occam_members': list(occ_m.columns), 'boss_occam_clusters': list(occ_c.columns)},
+        'id_columns': {'minesweeper': present_ids(ms), 'orbits': present_ids(orb), 'boss_occam_members': present_ids(occ_m), 'boss_occam_clusters': present_ids(occ_c)}
     }
 
     join_key, scores = choose_join_key(ms, orb)
-    report['minesweeper_orbits_join_candidates'] = [
-        {'column': c, 'overlap_unique_ids': int(o), 'min_unique_rate': u} for o,u,c in scores
-    ]
+    report['minesweeper_orbits_join_candidates'] = [{'column': c, 'overlap_unique_ids': int(o), 'min_unique_rate': u} for o,u,c in scores]
     report['minesweeper_orbits_join_key'] = join_key
 
     ms_cols = [c for c in CORE_MS if c in ms.columns]
@@ -115,11 +105,8 @@ def main():
         orb_cols.insert(0, join_key)
 
     if join_key:
-        left = ms[ms_cols].copy()
-        right = orb[orb_cols].copy()
-        left[join_key] = left[join_key].astype(str)
-        right[join_key] = right[join_key].astype(str)
-        # enforce one orbital row per identifier only if duplicates exist
+        left = ms[ms_cols].copy(); right = orb[orb_cols].copy()
+        left[join_key] = left[join_key].astype(str); right[join_key] = right[join_key].astype(str)
         dup_orb = int(right.duplicated(join_key).sum())
         report['orbit_duplicate_join_ids'] = dup_orb
         if dup_orb:
@@ -131,21 +118,14 @@ def main():
         master.drop(columns=['_merge'], inplace=True)
     else:
         master = ms[ms_cols].copy()
-        report['master_rows'] = len(master)
-        report['matched_orbit_rows'] = 0
-        report['orbit_match_fraction'] = 0.0
+        report['master_rows'] = len(master); report['matched_orbit_rows'] = 0; report['orbit_match_fraction'] = 0.0
         report['warning'] = 'No verified shared identifier between MINESweeper and GravPot16; orbital table not force-joined.'
 
-    # OCCAM is retained as a linked layer unless a verified shared identifier exists.
     occ_key, occ_scores = choose_join_key(master, occ_m)
-    report['master_boss_occam_join_candidates'] = [
-        {'column': c, 'overlap_unique_ids': int(o), 'min_unique_rate': u} for o,u,c in occ_scores
-    ]
+    report['master_boss_occam_join_candidates'] = [{'column': c, 'overlap_unique_ids': int(o), 'min_unique_rate': u} for o,u,c in occ_scores]
     report['master_boss_occam_join_key'] = occ_key
     if occ_key:
-        occ = occ_m.copy()
-        master[occ_key] = master[occ_key].astype(str)
-        occ[occ_key] = occ[occ_key].astype(str)
+        occ = occ_m.copy(); master[occ_key] = master[occ_key].astype(str); occ[occ_key] = occ[occ_key].astype(str)
         occ = occ.drop_duplicates(occ_key, keep='first')
         keep_occ = [occ_key] + [c for c in ['Cluster','RV_Prob','Teff','logg','alpha_M_CLAM','E_alpha_M_CLAM'] if c in occ.columns]
         master = master.merge(occ[keep_occ], on=occ_key, how='left', suffixes=('','_occam'))
@@ -156,15 +136,7 @@ def main():
     master['sdss_release'] = 'DR20'
     master['history_data_status'] = 'public_observed_plus_orbital_proxies'
     master['email_permission_history_status'] = 'reserved_not_received'
-
-    # Reserved direct-history columns for later permissioned data.
-    for c in [
-        'birth_radius_kpc','birth_radius_err_kpc','birth_radius_method',
-        'migration_delta_r_kpc','migration_probability','migration_class',
-        'bar_resonance_flag','spiral_resonance_flag','perturbation_class',
-        'accretion_component','accretion_probability','disk_rebuilding_epoch_gyr',
-        'source_history_dataset','source_history_permission_id'
-    ]:
+    for c in ['birth_radius_kpc','birth_radius_err_kpc','birth_radius_method','migration_delta_r_kpc','migration_probability','migration_class','bar_resonance_flag','spiral_resonance_flag','perturbation_class','accretion_component','accretion_probability','disk_rebuilding_epoch_gyr','source_history_dataset','source_history_permission_id']:
         if c not in master.columns:
             master[c] = pd.NA
 
@@ -173,11 +145,9 @@ def main():
     occ_m.to_parquet(OUT/'dr20_boss_occam_members_linked.parquet', index=False)
     occ_c.to_parquet(OUT/'dr20_boss_occam_clusters.parquet', index=False)
     (OUT/'join_report.json').write_text(json.dumps(report, indent=2, default=str))
-
-    # concise README generated from actual join result
     readme = f'''# DR20 persistence master\n\nGenerated reproducibly from public SDSS DR20 VACs.\n\n- MINESweeper rows: {len(ms):,}\n- GravPot16 rows: {len(orb):,}\n- Verified MINESweeper↔orbit join key: `{join_key}`\n- Orbital matches: {report.get('matched_orbit_rows',0):,} / {len(master):,}\n- BOSS OCCAM verified join key: `{occ_key}`\n- BOSS OCCAM matched master rows: {report.get('boss_occam_matched_rows',0):,}\n\nThe master intentionally reserves direct source-history fields (birth radius, migration, bar/spiral interaction, perturbation/accretion and disk rebuilding) for the permissioned email dataset. No positional/fuzzy star matching is used. See `join_report.json` for full schemas and overlap diagnostics.\n'''
     (OUT/'README.md').write_text(readme)
-    print(json.dumps({k:v for k,v in report.items() if k not in ('columns',)}, indent=2, default=str))
+    print(json.dumps({k:v for k,v in report.items() if k != 'columns'}, indent=2, default=str))
 
 if __name__ == '__main__':
     main()
