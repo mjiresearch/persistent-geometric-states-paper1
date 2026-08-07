@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Triggered ingestion entrypoint for public SDSS persistence-history products.
+# Public SDSS persistence-history ingestion.
 from __future__ import annotations
 
 import hashlib
@@ -15,10 +15,15 @@ from bs4 import BeautifulSoup
 
 ROOT = Path("data/external/sdss")
 ROOT.mkdir(parents=True, exist_ok=True)
+MAX_GITHUB_BYTES = 80 * 1024 * 1024
 
 SOURCES = {
     "dr19_occam": "https://data.sdss.org/sas/dr19/vac/mwm/apogee-occam/",
     "dr19_minesweeper": "https://data.sdss.org/sas/dr19/vac/mwm/minesweeper/",
+    "dr20_apogee_occam": "https://data.sdss.org/sas/dr20/vac/mwm/apogee-occam/",
+    "dr20_boss_occam": "https://data.sdss.org/sas/dr20/vac/mwm/boss-occam/",
+    "dr20_minesweeper": "https://data.sdss.org/sas/dr20/vac/mwm/minesweeper/",
+    "dr20_orbits": "https://data.sdss.org/sas/dr20/vac/mwm/orbits/",
 }
 
 KEYWORDS = [
@@ -41,17 +46,13 @@ def list_files(url: str) -> list[str]:
     r = requests.get(url, timeout=60)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
-    out = []
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if href.lower().endswith((".fits", ".fits.gz", ".csv", ".parquet")):
-            out.append(urljoin(url, href))
-    return sorted(set(out))
+    return sorted(set(urljoin(url, a["href"]) for a in soup.find_all("a", href=True)
+                      if a["href"].lower().endswith((".fits", ".fits.gz", ".csv", ".parquet"))))
 
 
 def download(url: str, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
-    with requests.get(url, stream=True, timeout=180) as r:
+    with requests.get(url, stream=True, timeout=300) as r:
         r.raise_for_status()
         with dest.open("wb") as f:
             for chunk in r.iter_content(1024 * 1024):
@@ -59,51 +60,51 @@ def download(url: str, dest: Path) -> None:
                     f.write(chunk)
 
 
-def fits_to_outputs(path: Path, outdir: Path) -> dict:
-    table = Table.read(path)
-    df = table.to_pandas()
-    full_parquet = outdir / (path.stem.replace(".fits", "") + ".parquet")
-    df.to_parquet(full_parquet, index=False)
-
+def select_columns(df: pd.DataFrame) -> list[str]:
     cols = []
     for c in df.columns:
         lc = c.lower()
         if any(re.search(rf"(^|_){re.escape(k)}($|_)", lc) for k in KEYWORDS):
             cols.append(c)
-    if not cols:
-        cols = list(df.columns[: min(40, len(df.columns))])
-    selected = df[cols].copy()
-    selected_csv = outdir / (path.stem.replace(".fits", "") + "_persistence_selected.csv")
-    selected.to_csv(selected_csv, index=False)
-    return {
-        "rows": len(df),
-        "columns": len(df.columns),
-        "selected_columns": cols,
-        "parquet": str(full_parquet),
-        "selected_csv": str(selected_csv),
-    }
+    return cols or list(df.columns[: min(40, len(df.columns))])
+
+
+def fits_to_outputs(path: Path, outdir: Path) -> dict:
+    table = Table.read(path)
+    df = table.to_pandas()
+    cols = select_columns(df)
+    stem = path.name.replace(".fits.gz", "").replace(".fits", "")
+    result = {"rows": len(df), "columns": len(df.columns), "selected_columns": cols}
+
+    selected_gz = outdir / f"{stem}_persistence_selected.csv.gz"
+    df[cols].to_csv(selected_gz, index=False, compression="gzip")
+    result["selected_csv_gz"] = str(selected_gz)
+    result["selected_csv_gz_bytes"] = selected_gz.stat().st_size
+
+    parquet = outdir / f"{stem}.parquet"
+    df.to_parquet(parquet, index=False, compression="zstd")
+    if parquet.stat().st_size <= MAX_GITHUB_BYTES:
+        result["parquet"] = str(parquet)
+        result["parquet_bytes"] = parquet.stat().st_size
+    else:
+        result["parquet_omitted_from_git_bytes"] = parquet.stat().st_size
+        parquet.unlink()
+
+    del df, table
+    return result
 
 
 def probe_dr20() -> dict:
-    roots = [
-        "https://data.sdss.org/sas/dr20/vac/mwm/",
-        "https://data.sdss.org/sas/dr20/vac/",
-    ]
-    keywords = ("occam", "gyro", "young", "clam", "minesweeper", "orbit")
-    results = {}
-    for root in roots:
-        try:
-            r = requests.get(root, timeout=60)
-            results[root] = {"status": r.status_code, "matches": []}
-            if r.ok:
-                soup = BeautifulSoup(r.text, "html.parser")
-                for a in soup.find_all("a", href=True):
-                    href = a["href"]
-                    if any(k in href.lower() for k in keywords):
-                        results[root]["matches"].append(urljoin(root, href))
-        except Exception as e:
-            results[root] = {"error": repr(e)}
-    return results
+    root = "https://data.sdss.org/sas/dr20/vac/mwm/"
+    try:
+        r = requests.get(root, timeout=60)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        keys = ("occam", "gyro", "young", "clam", "minesweeper", "orbit")
+        return {"status": r.status_code, "matches": sorted(set(urljoin(root, a["href"])
+                for a in soup.find_all("a", href=True) if any(k in a["href"].lower() for k in keys)))}
+    except Exception as e:
+        return {"error": repr(e)}
 
 
 def main() -> None:
@@ -123,12 +124,18 @@ def main() -> None:
             dest = outdir / filename
             try:
                 download(url, dest)
-                item = {"url": url, "path": str(dest), "bytes": dest.stat().st_size, "sha256": sha256(dest)}
+                raw_bytes = dest.stat().st_size
+                item = {"url": url, "path": str(dest), "bytes": raw_bytes, "sha256": sha256(dest)}
                 if filename.lower().endswith((".fits", ".fits.gz")):
                     item.update(fits_to_outputs(dest, outdir))
+                if raw_bytes > MAX_GITHUB_BYTES:
+                    item["raw_omitted_from_git"] = True
+                    dest.unlink()
                 entry["files"].append(item)
             except Exception as e:
                 entry["files"].append({"url": url, "error": repr(e)})
+                if dest.exists():
+                    dest.unlink()
         manifest["sources"][name] = entry
 
     (ROOT / "download_manifest.json").write_text(json.dumps(manifest, indent=2))
