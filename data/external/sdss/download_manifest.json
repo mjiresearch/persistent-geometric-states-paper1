@@ -1,0 +1,141 @@
+{
+  "sources": {
+    "dr19_occam": {
+      "base_url": "https://data.sdss.org/sas/dr19/vac/mwm/apogee-occam/",
+      "files": [
+        {
+          "url": "https://data.sdss.org/sas/dr19/vac/mwm/apogee-occam/occam_cluster-DR19-v1.fits",
+          "path": "data/external/sdss/dr19_occam/occam_cluster-DR19-v1.fits",
+          "bytes": 118080,
+          "sha256": "09af36cde14b93f627cfb2da9bef43b7dfb9907f1629fb97655b2d57a435b890",
+          "rows": 164,
+          "columns": 75,
+          "selected_columns": [
+            "Z_Height",
+            "Z_Max",
+            "Z_Period_Avg",
+            "Radial_Period_Avg",
+            "Fe_H_ASPCAP",
+            "Fe_H",
+            "Fe_H_ERR"
+          ],
+          "parquet": "data/external/sdss/dr19_occam/occam_cluster-DR19-v1.parquet",
+          "selected_csv": "data/external/sdss/dr19_occam/occam_cluster-DR19-v1_persistence_selected.csv"
+        },
+        {
+          "url": "https://data.sdss.org/sas/dr19/vac/mwm/apogee-occam/occam_cluster-DR19-v2.fits",
+          "path": "data/external/sdss/dr19_occam/occam_cluster-DR19-v2.fits",
+          "bytes": 115200,
+          "sha256": "d8f8457e5ae2e03949d879750a1fc40dc178dd2fbe69a6ca02be693dcb791ec9",
+          "rows": 158,
+          "columns": 75,
+          "selected_columns": [
+            "Z_Height",
+            "Z_Max",
+            "Z_Period_Avg",
+            "Radial_Period_Avg",
+            "Fe_H_ASPCAP",
+            "Fe_H",
+            "Fe_H_ERR"
+          ],
+          "parquet": "data/external/sdss/dr19_occam/occam_cluster-DR19-v2.parquet",
+          "selected_csv": "data/external/sdss/dr19_occam/occam_cluster-DR19-v2_persistence_selected.csv"
+        },
+        {
+          "url": "https://data.sdss.org/sas/dr19/vac/mwm/apogee-occam/occam_member-DR19.fits",
+          "path": "data/external/sdss/dr19_occam/occam_member-DR19.fits",
+          "bytes": 221760,
+          "sha256": "db4f6ca29fd17adc4f18dd904a213eb9627aef7dfb1095896d60643bef431256",
+          "rows": 1191,
+          "columns": 23,
+          "selected_columns": [
+            "Cluster",
+            "SDSS_ID",
+            "RV_Prob"
+          ],
+          "parquet": "data/external/sdss/dr19_occam/occam_member-DR19.parquet",
+          "selected_csv": "data/external/sdss/dr19_occam/occam_member-DR19_persistence_selected.csv"
+        }
+      ]
+    },
+    "dr19_minesweeper": {
+      "base_url": "https://data.sdss.org/sas/dr19/vac/mwm/minesweeper/",
+      "files": [
+        {
+          "url": "https://data.sdss.org/sas/dr19/vac/mwm/minesweeper/minesweeper_v1.0.0.fits",
+          "path": "data/external/sdss/dr19_minesweeper/minesweeper_v1.0.0.fits",
+          "bytes": 11828160,
+          "sha256": "8afae40c339655bb0e8c4f37ac9faddd460d0aaa0973dfb82326313becad314b",
+          "rows": 8788,
+          "columns": 178,
+          "selected_columns": [
+            "source_id",
+            "ra",
+            "dec",
+            "parallax",
+            "parallax_error",
+            "parallax_over_error",
+            "l",
+            "b",
+            "Teff",
+            "Teff_lerr",
+            "Teff_uerr",
+            "Teff_err",
+            "logg",
+            "logg_lerr",
+            "logg_uerr",
+            "logg_err",
+            "Age",
+            "Age_lerr",
+            "Age_uerr",
+            "Age_err",
+            "X_gal",
+            "X_gal_err",
+            "Y_gal",
+            "Y_gal_err",
+            "Z_gal",
+            "Z_gal_err",
+            "Vx_gal",
+            "Vx_gal_err",
+            "Vy_gal",
+            "Vy_gal_err",
+            "Vz_gal",
+            "Vz_gal_err",
+            "Lz",
+            "Lz_err",
+            "ecc_mw22",
+            "ecc_mw22_err",
+            "R_apo_mw22",
+            "R_apo_mw22_err",
+            "R_peri_mw22",
+            "R_peri_mw22_err",
+            "z_max_mw22",
+            "z_max_mw22_err",
+            "Sgr_l",
+            "Sgr_b",
+            "in_sgr_L",
+            "in_cluster",
+            "cluster"
+          ],
+          "parquet": "data/external/sdss/dr19_minesweeper/minesweeper_v1.0.0.parquet",
+          "selected_csv": "data/external/sdss/dr19_minesweeper/minesweeper_v1.0.0_persistence_selected.csv"
+        }
+      ]
+    }
+  },
+  "dr20_probe": {
+    "https://data.sdss.org/sas/dr20/vac/mwm/": {
+      "status": 200,
+      "matches": [
+        "https://data.sdss.org/sas/dr20/vac/mwm/apogee-occam/",
+        "https://data.sdss.org/sas/dr20/vac/mwm/boss-occam/",
+        "https://data.sdss.org/sas/dr20/vac/mwm/minesweeper/",
+        "https://data.sdss.org/sas/dr20/vac/mwm/orbits/"
+      ]
+    },
+    "https://data.sdss.org/sas/dr20/vac/": {
+      "status": 200,
+      "matches": []
+    }
+  }
+}
