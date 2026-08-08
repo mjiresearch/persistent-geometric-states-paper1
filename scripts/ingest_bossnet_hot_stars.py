@@ -20,6 +20,7 @@ def main():
         with TMP.open('wb') as f:
             for chunk in r.iter_content(chunk_size=8*1024*1024):
                 if chunk: f.write(chunk)
+    skipped_vector=[]
     with fits.open(TMP,memmap=False) as hdul:
         tab=hdul[1].data
         names=list(tab.names)
@@ -37,10 +38,12 @@ def main():
         wanted=list(dict.fromkeys(wanted))
         out={}
         for n in wanted:
-            arr=tab[n][idx]
+            arr=np.asarray(tab[n][idx])
+            if arr.ndim != 1:
+                skipped_vector.append({'column':n,'shape':list(arr.shape)})
+                continue
             if getattr(arr.dtype,'kind',None)=='S': arr=np.char.decode(arr,'utf-8',errors='ignore')
-            try: out[n]=arr
-            except Exception: pass
+            out[n]=arr
         df=pd.DataFrame(out)
     df.to_csv(OUT/'bossnet_hot_stars_selected.csv.gz',index=False,compression='gzip')
     report={
@@ -50,6 +53,7 @@ def main():
         'teff_column_used':tcol,
         'hot_star_rows_teff_10000_60000':int(len(df)),
         'selected_columns':list(df.columns),
+        'skipped_vector_columns':skipped_vector,
         'has_gaia_id':any('gaia' in c.lower() and ('source' in c.lower() or 'dr3' in c.lower()) for c in df.columns),
         'has_pmra':any('pmra' in c.lower() for c in df.columns),
         'has_pmdec':any('pmdec' in c.lower() for c in df.columns),
@@ -61,4 +65,3 @@ def main():
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__': main()
-# workflow trigger 2026-08-08
