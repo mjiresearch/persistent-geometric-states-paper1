@@ -1,0 +1,276 @@
+{
+  "analysis_name": "Milky Way Stage 4A public birth-radius and migration-history screen",
+  "rbirth_source": "Bridget Ratcliffe public Rbirth package; Anders23 gradient and central metallicity",
+  "input_apogee_rows": 143307,
+  "usable_rows_4p75_to_10p75": 120987,
+  "input_columns": [
+    "APOGEE_ID",
+    "GAIAEDR3_SOURCE_ID",
+    "age",
+    "feh",
+    "age_err",
+    "rguide",
+    "r",
+    "mgfe",
+    "feh_err"
+  ],
+  "history_predictors": [
+    "Rbirth_median_kpc",
+    "migration_delta_r_median_kpc",
+    "migration_abs_delta_r_median_kpc",
+    "outward_fraction_gt0p5",
+    "inward_fraction_gt0p5",
+    "inner_born_fraction_lt6",
+    "age_median_gyr",
+    "history_distance_time_median"
+  ],
+  "results": {
+    "mcmillan17_eilers": {
+      "n_bins": 12,
+      "R_range_kpc": [
+        5.0,
+        10.5
+      ],
+      "correlations": {
+        "Rbirth_median_kpc": {
+          "n": 12,
+          "rho_raw": 0.9790209790209792,
+          "p_raw": 3.089801398548709e-08,
+          "rho_detrended": 0.39860139860139865,
+          "p_detrended": 0.19933549461780897,
+          "rho_first_difference": 0.8090909090909091,
+          "p_first_difference": 0.002558580199713917
+        },
+        "migration_delta_r_median_kpc": {
+          "n": 12,
+          "rho_raw": 0.04195804195804196,
+          "p_raw": 0.8969858708195542,
+          "rho_detrended": -0.4545454545454546,
+          "p_detrended": 0.13765791634772948,
+          "rho_first_difference": -0.8727272727272729,
+          "p_first_difference": 0.00045461505140964023
+        },
+        "migration_abs_delta_r_median_kpc": {
+          "n": 12,
+          "rho_raw": 0.15384615384615385,
+          "p_raw": 0.6330906812462617,
+          "rho_detrended": -0.22377622377622378,
+          "p_detrended": 0.4844516614553987,
+          "rho_first_difference": -0.8000000000000002,
+          "p_first_difference": 0.0031104283103858456
+        },
+        "outward_fraction_gt0p5": {
+          "n": 12,
+          "rho_raw": -0.4825174825174825,
+          "p_raw": 0.11210929146889187,
+          "rho_detrended": -0.9020979020979022,
+          "p_detrended": 5.9978574465376914e-05,
+          "rho_first_difference": -0.4000000000000001,
+          "p_first_difference": 0.22286835013352
+        },
+        "inward_fraction_gt0p5": {
+          "n": 12,
+          "rho_raw": 0.4895104895104896,
+          "p_raw": 0.10625237175934595,
+          "rho_detrended": 0.9090909090909092,
+          "p_detrended": 4.191044653034231e-05,
+          "rho_first_difference": 0.23636363636363636,
+          "p_first_difference": 0.4840911622253965
+        },
+        "inner_born_fraction_lt6": {
+          "n": 12,
+          "rho_raw": -0.9790209790209792,
+          "p_raw": 3.089801398548709e-08,
+          "rho_detrended": -0.6573426573426573,
+          "p_detrended": 0.020185498509854093,
+          "rho_first_difference": -0.6363636363636364,
+          "p_first_difference": 0.03528698122006231
+        },
+        "age_median_gyr": {
+          "n": 12,
+          "rho_raw": -0.9440559440559443,
+          "p_raw": 3.927261080965947e-06,
+          "rho_detrended": 0.2867132867132868,
+          "p_detrended": 0.36625146058358227,
+          "rho_first_difference": -0.20000000000000004,
+          "p_first_difference": 0.5554454421055853
+        },
+        "history_distance_time_median": {
+          "n": 12,
+          "rho_raw": -0.5174825174825175,
+          "p_raw": 0.08486877113393476,
+          "rho_detrended": -0.3426573426573427,
+          "p_detrended": 0.2755674509567803,
+          "rho_first_difference": -0.5818181818181819,
+          "p_first_difference": 0.06041989621564838
+        }
+      },
+      "maxT_permutation": {
+        "Rbirth_median_kpc": {
+          "abs_rho_detrended": 0.3986013986013987,
+          "p_perm": 0.19949002549872508,
+          "p_maxT": 0.5807709614519274
+        },
+        "migration_delta_r_median_kpc": {
+          "abs_rho_detrended": 0.45454545454545464,
+          "p_perm": 0.13804309784510774,
+          "p_maxT": 0.44627768611569424
+        },
+        "migration_abs_delta_r_median_kpc": {
+          "abs_rho_detrended": 0.22377622377622383,
+          "p_perm": 0.48537573121343935,
+          "p_maxT": 0.9276036198190091
+        },
+        "outward_fraction_gt0p5": {
+          "abs_rho_detrended": 0.9020979020979022,
+          "p_perm": 0.00014999250037498125,
+          "p_maxT": 0.0007999600019999
+        },
+        "inward_fraction_gt0p5": {
+          "abs_rho_detrended": 0.9090909090909095,
+          "p_perm": 0.000199990000499975,
+          "p_maxT": 0.0005499725013749313
+        },
+        "inner_born_fraction_lt6": {
+          "abs_rho_detrended": 0.6573426573426575,
+          "p_perm": 0.023448827558622067,
+          "p_maxT": 0.10139493025348732
+        },
+        "age_median_gyr": {
+          "abs_rho_detrended": 0.28671328671328683,
+          "p_perm": 0.3671816409179541,
+          "p_maxT": 0.8273586320683965
+        },
+        "history_distance_time_median": {
+          "abs_rho_detrended": 0.34265734265734277,
+          "p_perm": 0.2767361631918404,
+          "p_maxT": 0.7130143492825358
+        }
+      }
+    },
+    "mcgaugh2019": {
+      "n_bins": 12,
+      "R_range_kpc": [
+        5.0,
+        10.5
+      ],
+      "correlations": {
+        "Rbirth_median_kpc": {
+          "n": 12,
+          "rho_raw": 0.9720279720279721,
+          "p_raw": 1.2868115751495027e-07,
+          "rho_detrended": 0.37762237762237766,
+          "p_detrended": 0.22620604493502647,
+          "rho_first_difference": 0.3090909090909091,
+          "p_first_difference": 0.35502843970150694
+        },
+        "migration_delta_r_median_kpc": {
+          "n": 12,
+          "rho_raw": 0.013986013986013986,
+          "p_raw": 0.9655902689187796,
+          "rho_detrended": -0.3916083916083916,
+          "p_detrended": 0.20806346369535322,
+          "rho_first_difference": -0.24545454545454545,
+          "p_first_difference": 0.4669223669820161
+        },
+        "migration_abs_delta_r_median_kpc": {
+          "n": 12,
+          "rho_raw": 0.1188811188811189,
+          "p_raw": 0.712884219214772,
+          "rho_detrended": -0.35664335664335667,
+          "p_detrended": 0.2551377517589572,
+          "rho_first_difference": -0.30000000000000004,
+          "p_first_difference": 0.37008312228206763
+        },
+        "outward_fraction_gt0p5": {
+          "n": 12,
+          "rho_raw": -0.44755244755244755,
+          "p_raw": 0.1445863013033476,
+          "rho_detrended": 0.04895104895104895,
+          "p_detrended": 0.8799185788786748,
+          "rho_first_difference": -0.20909090909090913,
+          "p_first_difference": 0.5372209352113227
+        },
+        "inward_fraction_gt0p5": {
+          "n": 12,
+          "rho_raw": 0.3846153846153847,
+          "p_raw": 0.21702022575997731,
+          "rho_detrended": -0.027972027972027972,
+          "p_detrended": 0.9312343512018807,
+          "rho_first_difference": 0.11818181818181818,
+          "p_first_difference": 0.7292847795197801
+        },
+        "inner_born_fraction_lt6": {
+          "n": 12,
+          "rho_raw": -0.9720279720279721,
+          "p_raw": 1.2868115751495027e-07,
+          "rho_detrended": 0.11188811188811189,
+          "p_detrended": 0.729194990751066,
+          "rho_first_difference": -0.19090909090909092,
+          "p_first_difference": 0.5739131682855213
+        },
+        "age_median_gyr": {
+          "n": 12,
+          "rho_raw": -0.9230769230769231,
+          "p_raw": 1.8621951098680993e-05,
+          "rho_detrended": 0.1398601398601399,
+          "p_detrended": 0.6646331617926677,
+          "rho_first_difference": -0.27272727272727276,
+          "p_first_difference": 0.4171414371425311
+        },
+        "history_distance_time_median": {
+          "n": 12,
+          "rho_raw": -0.5314685314685316,
+          "p_raw": 0.07536233505348361,
+          "rho_detrended": 0.07692307692307693,
+          "p_detrended": 0.8121826980280591,
+          "rho_first_difference": -0.10000000000000002,
+          "p_first_difference": 0.7698749998921367
+        }
+      },
+      "maxT_permutation": {
+        "Rbirth_median_kpc": {
+          "abs_rho_detrended": 0.37762237762237777,
+          "p_perm": 0.22753862306884656,
+          "p_maxT": 0.6260186990650467
+        },
+        "migration_delta_r_median_kpc": {
+          "abs_rho_detrended": 0.3916083916083917,
+          "p_perm": 0.2056397180140993,
+          "p_maxT": 0.5905704714764262
+        },
+        "migration_abs_delta_r_median_kpc": {
+          "abs_rho_detrended": 0.35664335664335667,
+          "p_perm": 0.2551372431378431,
+          "p_maxT": 0.6731663416829159
+        },
+        "outward_fraction_gt0p5": {
+          "abs_rho_detrended": 0.048951048951048994,
+          "p_perm": 0.888655567221639,
+          "p_maxT": 1.0
+        },
+        "inward_fraction_gt0p5": {
+          "abs_rho_detrended": 0.027972027972028007,
+          "p_perm": 0.9405029748512574,
+          "p_maxT": 1.0
+        },
+        "inner_born_fraction_lt6": {
+          "abs_rho_detrended": 0.11188811188811197,
+          "p_perm": 0.7303134843257837,
+          "p_maxT": 0.9971001449927503
+        },
+        "age_median_gyr": {
+          "abs_rho_detrended": 0.13986013986013987,
+          "p_perm": 0.6646167691615419,
+          "p_maxT": 0.9906004699765012
+        },
+        "history_distance_time_median": {
+          "abs_rho_detrended": 0.07692307692307693,
+          "p_perm": 0.8164591770411479,
+          "p_maxT": 0.99970001499925
+        }
+      }
+    }
+  },
+  "guardrail": "Rbirth is inferred from age and [Fe/H], not a directly observed trajectory. This Stage 4A screen uses radial summaries, so shared radial structure remains a major confounder. Detrended, first-difference and maxT permutation results carry the most weight. A decisive test still requires a spatial force-residual map and independently reconstructed time-resolved source trajectories/currents."
+}
