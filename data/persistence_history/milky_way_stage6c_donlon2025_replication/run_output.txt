@@ -1,0 +1,271 @@
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/galpy/potential/SCFPotential.py:662: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  out = numpy.divide((r / a - 1.0), (r / a + 1.0), where=True ^ numpy.isinf(r))
+
+{
+  "analysis_name": "Milky Way Stage 6C frozen replication in Donlon et al. 2025 expanded pulsar catalog",
+  "frozen_before_result": {
+    "primary_predictor": "deltaR_mean_kpc",
+    "predicted_sign": "negative",
+    "primary_sigma_kpc": 1.0,
+    "robustness_sigma_kpc": 1.5,
+    "physical_coordinate_mapping": "X_MWM=-x_awayGC; Y_MWM=+y_l90; Z_MWM=+z_north",
+    "primary_replication_sample": "independent sky positions whose canonical pulsar system was absent from Moran 2024 discovery catalog"
+  },
+  "catalog": {
+    "rows_ingested": 53,
+    "independent_positions": 52,
+    "new_systems_not_in_moran": 28,
+    "binary_orbital_positions": 26,
+    "spin_inferred_positions": 26,
+    "new_system_accel_source_counts": {
+      "spin_inferred": 26,
+      "binary_orbital": 2
+    }
+  },
+  "binary_overlap_validation": {
+    "n_overlap_binary_with_moran": 24,
+    "spearman_rho": 0.7069565217391304,
+    "spearman_p": 0.00011232149069224424,
+    "median_donlon_minus_moran_1e10": -0.024319940521459298,
+    "same_sign_fraction_nonzero": 0.7083333333333334
+  },
+  "baryonic_model": {
+    "McMillan17_ro_kpc": 8.21,
+    "McMillan17_vo_kms": 233.1,
+    "rule": "all McMillan17 components except NFWPotential; identical to Stages 3 and 6A"
+  },
+  "azimuth_rotation_null": {
+    "step_deg": 2.0,
+    "orientations": 180,
+    "one_sided_direction": "rho <= observed because negative sign was frozen before viewing Donlon result"
+  },
+  "runs": {
+    "sigma1.0": {
+      "sigma_kpc": 1.0,
+      "actual_source_neff_median": 1329.5592772792038,
+      "actual_source_neff_min": 0.0,
+      "actual_nearest_source_median_kpc": 0.2697399249119998,
+      "samples": {
+        "PRIMARY_new_systems_not_in_moran": {
+          "n_catalog_mask": 28,
+          "frozen_deltaR_test": {
+            "rho_actual": 0.19230769230769232,
+            "n_actual": 27,
+            "p_one_sided_frozen_negative": 0.7013888888888888,
+            "p_two_sided_rotation": 0.3611111111111111,
+            "null_rho_median": 0.1291735084838533,
+            "null_rho_05pct": -0.192391899288451,
+            "null_rho_95pct": 0.3380598711633195
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.18986568986568983,
+              "n_actual": 27
+            },
+            "FeH": {
+              "rho_actual": 0.0115995115995116,
+              "n_actual": 27
+            },
+            "Rbirth": {
+              "rho_actual": -0.06776556776556776,
+              "n_actual": 27
+            }
+          }
+        },
+        "spin_inferred_only": {
+          "n_catalog_mask": 26,
+          "frozen_deltaR_test": {
+            "rho_actual": 0.18461538461538463,
+            "n_actual": 25,
+            "p_one_sided_frozen_negative": 0.7222222222222222,
+            "p_two_sided_rotation": 0.3958333333333333,
+            "null_rho_median": 0.1029059829059829,
+            "null_rho_05pct": -0.24129914529914528,
+            "null_rho_95pct": 0.33325188536953254
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.30999999999999994,
+              "n_actual": 25
+            },
+            "FeH": {
+              "rho_actual": -0.04461538461538461,
+              "n_actual": 25
+            },
+            "Rbirth": {
+              "rho_actual": -0.10999999999999999,
+              "n_actual": 25
+            }
+          }
+        },
+        "binary_orbital_only": {
+          "n_catalog_mask": 26,
+          "frozen_deltaR_test": {
+            "rho_actual": -0.31692307692307686,
+            "n_actual": 26,
+            "p_one_sided_frozen_negative": 0.2857142857142857,
+            "p_two_sided_rotation": 0.3129251700680272,
+            "null_rho_median": -0.1781943785605567,
+            "null_rho_05pct": -0.4446153846153846,
+            "null_rho_95pct": 0.15120052669668194
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.23282051282051283,
+              "n_actual": 26
+            },
+            "FeH": {
+              "rho_actual": -0.29777777777777775,
+              "n_actual": 26
+            },
+            "Rbirth": {
+              "rho_actual": 0.2321367521367521,
+              "n_actual": 26
+            }
+          }
+        },
+        "combined_independent_positions": {
+          "n_catalog_mask": 52,
+          "frozen_deltaR_test": {
+            "rho_actual": -0.060271493212669676,
+            "n_actual": 51,
+            "p_one_sided_frozen_negative": 0.4506172839506173,
+            "p_two_sided_rotation": 0.7716049382716049,
+            "null_rho_median": -0.028429949628617772,
+            "null_rho_05pct": -0.2988132843848715,
+            "null_rho_95pct": 0.1620814479638009
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.24425339366515836,
+              "n_actual": 51
+            },
+            "FeH": {
+              "rho_actual": -0.13909502262443438,
+              "n_actual": 51
+            },
+            "Rbirth": {
+              "rho_actual": 0.03800904977375565,
+              "n_actual": 51
+            }
+          }
+        }
+      }
+    },
+    "sigma1.5": {
+      "sigma_kpc": 1.5,
+      "actual_source_neff_median": 3550.646544323369,
+      "actual_source_neff_min": 19.09515882505471,
+      "actual_nearest_source_median_kpc": 0.2697399249119998,
+      "samples": {
+        "PRIMARY_new_systems_not_in_moran": {
+          "n_catalog_mask": 28,
+          "frozen_deltaR_test": {
+            "rho_actual": 0.04980842911877395,
+            "n_actual": 28,
+            "p_one_sided_frozen_negative": 0.3,
+            "p_two_sided_rotation": 0.7888888888888889,
+            "null_rho_median": 0.09140667761357417,
+            "null_rho_05pct": -0.07370272628281503,
+            "null_rho_95pct": 0.31001642036124794
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.14942528735632182,
+              "n_actual": 28
+            },
+            "FeH": {
+              "rho_actual": -0.08976464148877941,
+              "n_actual": 28
+            },
+            "Rbirth": {
+              "rho_actual": 0.016420361247947456,
+              "n_actual": 28
+            }
+          }
+        },
+        "spin_inferred_only": {
+          "n_catalog_mask": 26,
+          "frozen_deltaR_test": {
+            "rho_actual": -0.0010256410256410254,
+            "n_actual": 26,
+            "p_one_sided_frozen_negative": 0.28888888888888886,
+            "p_two_sided_rotation": 1.0,
+            "null_rho_median": 0.05504273504273505,
+            "null_rho_05pct": -0.13736752136752137,
+            "null_rho_95pct": 0.2745299145299145
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.2567521367521367,
+              "n_actual": 26
+            },
+            "FeH": {
+              "rho_actual": -0.15487179487179487,
+              "n_actual": 26
+            },
+            "Rbirth": {
+              "rho_actual": -0.019487179487179485,
+              "n_actual": 26
+            }
+          }
+        },
+        "binary_orbital_only": {
+          "n_catalog_mask": 26,
+          "frozen_deltaR_test": {
+            "rho_actual": -0.3962393162393162,
+            "n_actual": 26,
+            "p_one_sided_frozen_negative": 0.2,
+            "p_two_sided_rotation": 0.2,
+            "null_rho_median": -0.30735042735042734,
+            "null_rho_05pct": -0.5113162393162393,
+            "null_rho_95pct": 0.0038144154580417315
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.27247863247863247,
+              "n_actual": 26
+            },
+            "FeH": {
+              "rho_actual": -0.3716239316239316,
+              "n_actual": 26
+            },
+            "Rbirth": {
+              "rho_actual": 0.2608547008547008,
+              "n_actual": 26
+            }
+          }
+        },
+        "combined_independent_positions": {
+          "n_catalog_mask": 52,
+          "frozen_deltaR_test": {
+            "rho_actual": -0.15418765474259372,
+            "n_actual": 52,
+            "p_one_sided_frozen_negative": 0.3111111111111111,
+            "p_two_sided_rotation": 0.3388888888888889,
+            "null_rho_median": -0.0623239136002732,
+            "null_rho_05pct": -0.2499832492104807,
+            "null_rho_95pct": 0.11674836988154957
+          },
+          "diagnostics": {
+            "age": {
+              "rho_actual": 0.25569879620934005,
+              "n_actual": 52
+            },
+            "FeH": {
+              "rho_actual": -0.20455903696747202,
+              "n_actual": 52
+            },
+            "Rbirth": {
+              "rho_actual": 0.07863058140527618,
+              "n_actual": 52
+            }
+          }
+        }
+      }
+    }
+  },
+  "strict_replication_pass": false,
+  "strict_rule": "PASS only if the primary new-system sample has rho<0 and one-sided azimuth-rotation p<0.05 at BOTH the frozen 1.0-kpc primary kernel and the 1.5-kpc robustness kernel. Binary-only and combined samples are supporting diagnostics, not substitutes for this out-of-sample rule.",
+  "guardrail": "The spin-inferred acceleration channel is empirically calibrated from pulsar spindown and is not as direct as binary-orbital acceleration. It is nevertheless independent of the MWM source-history reconstruction. No predictor, sign, kernel scale, or migration threshold is selected from the Stage 6C result."
+}
