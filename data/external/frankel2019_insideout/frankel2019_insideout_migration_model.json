@@ -1,0 +1,51 @@
+{
+  "source": {
+    "title": "The Inside-out Growth of the Galactic Disk",
+    "authors": ["Neige Frankel", "Jason Sanders", "Hans-Walter Rix", "Yuan-Sen Ting", "Melissa Ness"],
+    "journal": "The Astrophysical Journal",
+    "year": 2019,
+    "doi": "10.3847/1538-4357/ab4254",
+    "arxiv": "1909.07118"
+  },
+  "population_scope": {
+    "population": "Milky Way low-alpha stellar disk",
+    "observational_sample": "APOGEE red-clump stars, approximately 6 < R < 13 kpc",
+    "maximum_trusted_model_age_gyr": 7.5,
+    "warning": "The fitted tau_m is explicitly described by the authors as the maximum age at which the low-alpha evolution model is trusted, not the age of the entire Milky Way disk."
+  },
+  "best_fit_parameters": {
+    "inside_out_x": 0.75,
+    "inside_out_x_err": 0.17,
+    "tau_SFR_gyr": 3.9,
+    "tau_SFR_err_gyr": 1.5,
+    "tau_m_gyr": 7.5,
+    "tau_m_err_gyr": 0.5,
+    "birth_disk_scale_length_Rd_kpc": 3.1,
+    "birth_disk_scale_length_Rd_err_kpc": 0.4,
+    "sigma_RM7_kpc": 3.9,
+    "sigma_RM7_err_kpc": 0.2
+  },
+  "equations": {
+    "birth_surface_SFR": "Sigma_SFR(R0,tau) = Sigma(R0) * SFH(tau|R0)",
+    "time_integrated_birth_surface_density": "Sigma(R0) proportional to exp(-R0/Rd)",
+    "radially_dependent_SFH": "SFH(tau|R0) = c(R0) * exp((((1 - x*R0/8 kpc)*tau) - tau_m)/tau_SFR), normalized from tau=0 to tau=tau_m",
+    "birth_radius_age_probability": "p(R0,tau) = 2*pi*R0*Sigma_SFR(R0,tau)",
+    "radial_migration_width": "sigma(tau) = sigma_RM7 * sqrt(tau/7 Gyr)",
+    "radial_migration_kernel": "p(R|R0,tau) = N * exp(-(R-R0)^2/(2*sigma(tau)^2)), normalized over physical R>0",
+    "historical_half_mass_distribution": "At lookback t, integrate stars born at tau>=t and migrate them for elapsed time tau-t before solving M(<R_half,t)=Mtot(t)/2."
+  },
+  "published_internal_checks": {
+    "present_half_mass_radius_kpc_approx": 5.9,
+    "half_mass_radius_near_7p5_gyr_lookback_kpc_approx": 4.2,
+    "size_growth_over_past_7_gyr_percent_approx": 43,
+    "radial_growth_rate_kpc_per_gyr_approx": 0.2
+  },
+  "stage7_status": {
+    "role": "candidate late-time low-alpha statistical radial source-history operator",
+    "not_a_total_disc_history": true,
+    "not_an_individual_trajectory_catalog": true,
+    "not_azimuth_resolved": true,
+    "not_a_current_history_Jb": true,
+    "use_rule": "Validate against the independent Ratcliffe 2026 disc-growth reconstruction before considering any persistence-force test. Do not extrapolate the calibrated low-alpha operator to the old/high-alpha disk without a separately justified early-disc source model."
+  }
+}
