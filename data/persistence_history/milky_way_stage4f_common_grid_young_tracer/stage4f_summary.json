@@ -133,7 +133,7 @@
             },
             "innerborn_lt6_frac_anom": {
               "Vr_young_anom": {
-                "rho": 0.2802242691589025,
+                "rho": 0.28022426915890253,
                 "p_spearman": 0.2931567419781752,
                 "p_perm_within_RZ": 0.3792810359482026,
                 "p_maxT_all_tests": 1.0
@@ -145,13 +145,13 @@
                 "p_maxT_all_tests": 1.0
               },
               "Vz_young_anom": {
-                "rho": -0.05689030745795744,
+                "rho": -0.05689030745795746,
                 "p_spearman": 0.834237221277837,
-                "p_perm_within_RZ": 0.8751562421878906,
+                "p_perm_within_RZ": 0.9056547172641368,
                 "p_maxT_all_tests": 1.0
               },
               "acirc_young_anom": {
-                "rho": -0.09238162719524257,
+                "rho": -0.09238162719524252,
                 "p_spearman": 0.7336455928313134,
                 "p_perm_within_RZ": 0.7817609119544022,
                 "p_maxT_all_tests": 1.0
@@ -272,17 +272,17 @@
               "Vr_young_anom": {
                 "rho": -0.1648271233574729,
                 "p_spearman": 0.5418467058390636,
-                "p_perm_within_RZ": 0.6894655267236638,
+                "p_perm_within_RZ": 0.6582670866456677,
                 "p_maxT_all_tests": 1.0
               },
               "Vphi_young_anom": {
-                "rho": 0.49595304081668173,
+                "rho": 0.4959530408166818,
                 "p_spearman": 0.05072697862044891,
                 "p_perm_within_RZ": 0.18694065296735163,
                 "p_maxT_all_tests": 0.5982700864956753
               },
               "Vz_young_anom": {
-                "rho": 0.08241356167873645,
+                "rho": 0.08241356167873647,
                 "p_spearman": 0.7615624197209059,
                 "p_perm_within_RZ": 0.7215639218039098,
                 "p_maxT_all_tests": 1.0
@@ -451,7 +451,7 @@
               "Vr_young_anom": {
                 "rho": 0.34807479628571325,
                 "p_spearman": 0.24383668460980118,
-                "p_perm_within_RZ": 0.43402829858507075,
+                "p_perm_within_RZ": 0.46532673366331684,
                 "p_maxT_all_tests": 0.9688015599220039
               },
               "Vphi_young_anom": {
@@ -461,13 +461,13 @@
                 "p_maxT_all_tests": 1.0
               },
               "Vz_young_anom": {
-                "rho": -0.01131950557026708,
+                "rho": -0.01131950557026711,
                 "p_spearman": 0.9707232051481076,
                 "p_perm_within_RZ": 0.9720513974301285,
                 "p_maxT_all_tests": 1.0
               },
               "acirc_young_anom": {
-                "rho": -0.05659752785133547,
+                "rho": -0.056597527851335476,
                 "p_spearman": 0.8542890264275445,
                 "p_perm_within_RZ": 0.9088545572721364,
                 "p_maxT_all_tests": 1.0
@@ -586,27 +586,27 @@
             },
             "innerborn_lt6_frac_anom": {
               "Vr_young_anom": {
-                "rho": 0.23108687610990641,
+                "rho": 0.23108687610990636,
                 "p_spearman": 0.44748525610812356,
                 "p_perm_within_RZ": 0.4736763161841908,
                 "p_maxT_all_tests": 1.0
               },
               "Vphi_young_anom": {
-                "rho": 0.4401654783045836,
+                "rho": 0.4401654783045835,
                 "p_spearman": 0.13226549708781862,
                 "p_perm_within_RZ": 0.0943452827358632,
                 "p_maxT_all_tests": 0.5957702114894255
               },
               "Vz_young_anom": {
-                "rho": 0.2035765337158699,
+                "rho": 0.20357653371586995,
                 "p_spearman": 0.5047162255899913,
                 "p_perm_within_RZ": 0.5634718264086795,
                 "p_maxT_all_tests": 1.0
               },
               "acirc_young_anom": {
-                "rho": 0.07702895870330209,
+                "rho": 0.07702895870330215,
                 "p_spearman": 0.8024963301841426,
-                "p_perm_within_RZ": 0.7819609019549023,
+                "p_perm_within_RZ": 0.7483625818709064,
                 "p_maxT_all_tests": 1.0
               }
             }
@@ -767,25 +767,25 @@
             },
             "innerborn_lt6_frac_anom": {
               "Vr_young_anom": {
-                "rho": 0.23343594291775166,
+                "rho": 0.23343594291775158,
                 "p_spearman": 0.33613852496850977,
                 "p_perm_within_RZ": 0.4045297735113244,
                 "p_maxT_all_tests": 1.0
               },
               "Vphi_young_anom": {
-                "rho": 0.019790447477380423,
+                "rho": 0.019790447477380523,
                 "p_spearman": 0.9359067939992415,
                 "p_perm_within_RZ": 0.9381530923453827,
                 "p_maxT_all_tests": 1.0
               },
               "Vz_young_anom": {
-                "rho": -0.24769157301959915,
+                "rho": -0.24769157301959902,
                 "p_spearman": 0.3065867079212021,
                 "p_perm_within_RZ": 0.5947702614869257,
                 "p_maxT_all_tests": 1.0
               },
               "acirc_young_anom": {
-                "rho": -0.13133660598625232,
+                "rho": -0.13133660598625227,
                 "p_spearman": 0.5919940447381326,
                 "p_perm_within_RZ": 0.6535673216339183,
                 "p_maxT_all_tests": 1.0
@@ -904,7 +904,7 @@
             },
             "innerborn_lt6_frac_anom": {
               "Vr_young_anom": {
-                "rho": -0.04385964912280705,
+                "rho": -0.04385964912280702,
                 "p_spearman": 0.8584985542787699,
                 "p_perm_within_RZ": 0.9061046947652618,
                 "p_maxT_all_tests": 1.0
@@ -916,13 +916,13 @@
                 "p_maxT_all_tests": 1.0
               },
               "Vz_young_anom": {
-                "rho": -0.5596491228070175,
+                "rho": -0.5596491228070173,
                 "p_spearman": 0.012716556664429175,
                 "p_perm_within_RZ": 0.09104544772761362,
                 "p_maxT_all_tests": 0.4017299135043248
               },
               "acirc_young_anom": {
-                "rho": -0.45263157894736833,
+                "rho": -0.4526315789473685,
                 "p_spearman": 0.05166303542301259,
                 "p_perm_within_RZ": 0.1896405179741013,
                 "p_maxT_all_tests": 0.7163141842907854
@@ -1083,19 +1083,19 @@
             },
             "innerborn_lt6_frac_anom": {
               "Vr_young_anom": {
-                "rho": 0.36743696601826564,
+                "rho": 0.3674369660182656,
                 "p_spearman": 0.19620884018834006,
                 "p_perm_within_RZ": 0.3140342982850857,
                 "p_maxT_all_tests": 0.9674516274186291
               },
               "Vphi_young_anom": {
-                "rho": 0.01980199218062508,
+                "rho": 0.019801992180625057,
                 "p_spearman": 0.9464304041769637,
                 "p_perm_within_RZ": 0.9708514574271286,
                 "p_maxT_all_tests": 1.0
               },
               "Vz_young_anom": {
-                "rho": -0.48571428571428577,
+                "rho": -0.4857142857142859,
                 "p_spearman": 0.07827588645863326,
                 "p_perm_within_RZ": 0.4687765611719414,
                 "p_maxT_all_tests": 0.8109094545272736
@@ -1226,13 +1226,13 @@
                 "p_maxT_all_tests": 0.9694515274236288
               },
               "Vphi_young_anom": {
-                "rho": -0.09010989010989019,
+                "rho": -0.09010989010989014,
                 "p_spearman": 0.7593388378159543,
                 "p_perm_within_RZ": 0.8143592820358982,
                 "p_maxT_all_tests": 1.0
               },
               "Vz_young_anom": {
-                "rho": -0.5164835164835166,
+                "rho": -0.5164835164835165,
                 "p_spearman": 0.058637163441278416,
                 "p_perm_within_RZ": 0.09214539273036348,
                 "p_maxT_all_tests": 0.6293185340732963
