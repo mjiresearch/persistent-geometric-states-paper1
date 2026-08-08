@@ -1,0 +1,344 @@
+{
+  "analysis_name": "Milky Way Stage 4D MWM-wide inferred birth-radius spatial history screen",
+  "quality_rows_before_rbirth": 30495,
+  "rows_with_finite_rbirth": 30495,
+  "cells_n_ge20": 237,
+  "rbirth_method": "Ratcliffe public Rbirth package with Anders23 gradient/central metallicity applied to MWM MINESweeper Age and FeH",
+  "migration_definition": "R_now - Rbirth_proxy, used to avoid circular dependence on present velocity/orbital actions",
+  "tests": {
+    "Rbirth_median_kpc_anom": {
+      "Vr_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.13730552549371772,
+          "p_spearman": 0.03463228034724285,
+          "p_perm_within_RZ": 0.18738126187381263,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": -0.2297528751899816,
+          "p_spearman": 0.00036230076259497385,
+          "p_perm_within_RZ": 0.21057894210578942,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vphi_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": 0.5872640785343128,
+          "p_spearman": 2.29862109279667e-23,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.6693689275753211,
+          "p_spearman": 3.6377137955387693e-32,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vz_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": 0.05369108199590136,
+          "p_spearman": 0.4106289920698519,
+          "p_perm_within_RZ": 0.6083391660833917,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": -0.1494296495684736,
+          "p_spearman": 0.021379601994561927,
+          "p_perm_within_RZ": 0.7409259074092591,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      }
+    },
+    "deltaR_present_birth_median_kpc_anom": {
+      "Vr_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": 0.1225256549003354,
+          "p_spearman": 0.059647812291773294,
+          "p_perm_within_RZ": 0.24087591240875914,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.2319614393708567,
+          "p_spearman": 0.00031655083233714807,
+          "p_perm_within_RZ": 0.20087991200879912,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vphi_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.5753701443735754,
+          "p_spearman": 2.7293712297495224e-22,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": -0.6653601582233408,
+          "p_spearman": 1.1368248730628816e-31,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vz_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.039529078112167756,
+          "p_spearman": 0.5448058175899988,
+          "p_perm_within_RZ": 0.7053294670532947,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.15493303092530727,
+          "p_spearman": 0.016987220403057564,
+          "p_perm_within_RZ": 0.7351264873512648,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      }
+    },
+    "outward_fraction_gt1_anom": {
+      "Vr_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": 0.026959900125721407,
+          "p_spearman": 0.6796629670606257,
+          "p_perm_within_RZ": 0.7905209479052094,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.07215784833564406,
+          "p_spearman": 0.2685423237702071,
+          "p_perm_within_RZ": 0.7507249275072493,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vphi_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.5002603835861417,
+          "p_spearman": 2.057759877205562e-16,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": -0.583019476831711,
+          "p_spearman": 5.623546302324386e-23,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vz_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.08000464271519699,
+          "p_spearman": 0.21978053619847926,
+          "p_perm_within_RZ": 0.43445655434456554,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.01031624836160596,
+          "p_spearman": 0.8744716537451318,
+          "p_perm_within_RZ": 0.9862013798620138,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      }
+    },
+    "inward_fraction_gt1_anom": {
+      "Vr_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.003966664348814695,
+          "p_spearman": 0.9515635692905396,
+          "p_perm_within_RZ": 0.968003199680032,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": -0.0953117140441244,
+          "p_spearman": 0.14350029290295893,
+          "p_perm_within_RZ": 0.639036096390361,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vphi_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": 0.6014085355628868,
+          "p_spearman": 1.0583732261588974e-24,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.6562590708885999,
+          "p_spearman": 1.4165181347033054e-30,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vz_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": 0.19226649722047492,
+          "p_spearman": 0.0029583382201892063,
+          "p_perm_within_RZ": 0.06009399060093991,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": -0.034697895463699314,
+          "p_spearman": 0.5950701274223946,
+          "p_perm_within_RZ": 0.9749025097490251,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      }
+    },
+    "inner_born_fraction_lt6_anom": {
+      "Vr_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": 0.11614128854491176,
+          "p_spearman": 0.074332212151022,
+          "p_perm_within_RZ": 0.2602739726027397,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.19310513306373828,
+          "p_spearman": 0.0028334975734573874,
+          "p_perm_within_RZ": 0.2616738326167383,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vphi_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.5045167698678049,
+          "p_spearman": 1.0421039100971966e-16,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": -0.5370849476885797,
+          "p_spearman": 4.1199763685514175e-19,
+          "p_perm_within_RZ": 9.999000099990002e-05,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      },
+      "Vz_median_kms_anom": {
+        "unadjusted": {
+          "n_cells": 237,
+          "rho": -0.04220608603434449,
+          "p_spearman": 0.517886118572714,
+          "p_perm_within_RZ": 0.6897310268973103,
+          "partial_controls": []
+        },
+        "age_chem_adjusted": {
+          "n_cells": 237,
+          "rho": 0.07262029463147628,
+          "p_spearman": 0.26547861143393814,
+          "p_perm_within_RZ": 0.8602139786021398,
+          "partial_controls": [
+            "age_median_gyr",
+            "FeH_median",
+            "aFe_median"
+          ]
+        }
+      }
+    }
+  },
+  "age_only_reference": {
+    "Vr_median_kms_anom": {
+      "n_cells": 237,
+      "rho": 0.19575341361762877,
+      "p_spearman": 0.002470006734415486,
+      "p_perm_within_RZ": 0.0663933606639336,
+      "partial_controls": []
+    },
+    "Vphi_median_kms_anom": {
+      "n_cells": 237,
+      "rho": 0.11818044010530597,
+      "p_spearman": 0.06935271863508258,
+      "p_perm_within_RZ": 0.26447355264473554,
+      "partial_controls": []
+    },
+    "Vz_median_kms_anom": {
+      "n_cells": 237,
+      "rho": 0.03230943992877263,
+      "p_spearman": 0.620672864392,
+      "p_perm_within_RZ": 0.7609239076092391,
+      "partial_controls": []
+    }
+  },
+  "guardrail": "The Ratcliffe relation is calibrated on APOGEE/Anders-age data and is being transferred here to the MINESweeper age/metallicity scale; this is an exploratory source-history proxy, not a validated cross-survey birth radius. Because Rbirth is constructed from age and FeH, age/chemistry-adjusted tests are primary. The kinematic outcomes are streaming residuals, not yet a gravitational force residual."
+}
