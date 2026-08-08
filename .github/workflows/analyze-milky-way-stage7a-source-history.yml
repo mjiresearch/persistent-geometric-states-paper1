@@ -1,0 +1,43 @@
+name: Analyze Milky Way Stage 7A Source History
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/analyze_milky_way_stage7a_source_history_calibration.py'
+      - '.github/workflows/analyze-milky-way-stage7a-source-history.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: milky-way-stage7a-source-history
+  cancel-in-progress: true
+
+jobs:
+  stage7a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install numpy pandas scipy
+      - name: Run Stage 7A
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage7a_source_history_calibration
+          set +e
+          python scripts/analyze_milky_way_stage7a_source_history_calibration.py > data/persistence_history/milky_way_stage7a_source_history_calibration/run_output.txt 2>&1
+          code=$?
+          echo $code > data/persistence_history/milky_way_stage7a_source_history_calibration/exit_code.txt
+          cat data/persistence_history/milky_way_stage7a_source_history_calibration/run_output.txt
+          exit 0
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage7a_source_history_calibration
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 7A source-history calibration results'
+          git pull --rebase origin main
+          git push
