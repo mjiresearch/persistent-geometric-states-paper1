@@ -49,7 +49,6 @@ def main():
         crossings=np.where(sign[:-1]*sign[1:]<0)[0]
         for k in crossings:
             rzero.append(float(np.interp(0,[ds[k],ds[k+1]],[R[k],R[k+1]])))
-        # Published SFR values are instantaneous at the tabulated epochs; use their mean only as a rough interval comparator.
         ro=d.iloc[i];ry=d.iloc[i+1]
         sfr_mean=0.5*(float(ro.SFR_msun_per_yr)+float(ry.SFR_msun_per_yr))
         surviving_growth_rate=dm/(dt*1e9)
@@ -63,7 +62,6 @@ def main():
             'positive_increment_half_mass_radius_kpc':enclosed_half_radius(pos),'zero_crossing_radii_kpc':';'.join(f'{x:.3f}' for x in rzero),
             'older_birth_Reff_kpc':float(ro.Reff_birth_radius_kpc),'younger_birth_Reff_kpc':float(ry.Reff_birth_radius_kpc)
         })
-        # Save a manageable radial grid for each inferred increment.
         for rr,ss in zip(R[::25],ds[::25]):
             grid_rows.append({'older_lookback_gyr':old['lookback_time_gyr'],'younger_lookback_gyr':young['lookback_time_gyr'],'R_kpc':float(rr),'delta_surface_density_msun_per_kpc2':float(ss),'delta_SFR_surface_proxy_msun_per_yr_kpc2':float(ss/(dt*1e9))})
     intervals=pd.DataFrame(interval_rows)
@@ -96,3 +94,4 @@ def main():
     (OUT/'stage7b_summary.json').write_text(json.dumps(report,indent=2,default=str))
     print(json.dumps(report,indent=2,default=str))
 if __name__=='__main__':main()
+# workflow trigger 2026-08-08
