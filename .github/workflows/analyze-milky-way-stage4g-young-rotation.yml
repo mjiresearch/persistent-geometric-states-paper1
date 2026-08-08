@@ -1,0 +1,45 @@
+name: Analyze Milky Way Stage 4G Young Rotation
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/analyze_milky_way_stage4g_young_rotation_residual.py'
+      - '.github/workflows/analyze-milky-way-stage4g-young-rotation.yml'
+
+concurrency:
+  group: milky-way-stage4g-young-rotation
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  stage4g:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install numpy pandas scipy
+      - name: Run Stage 4G
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage4g_young_rotation_residual
+          set +e
+          python scripts/analyze_milky_way_stage4g_young_rotation_residual.py > data/persistence_history/milky_way_stage4g_young_rotation_residual/run_output.txt 2>&1
+          code=$?
+          echo $code > data/persistence_history/milky_way_stage4g_young_rotation_residual/exit_code.txt
+          cat data/persistence_history/milky_way_stage4g_young_rotation_residual/run_output.txt
+          exit 0
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage4g_young_rotation_residual
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 4G young rotation results'
+          git pull --rebase origin main
+          git push
