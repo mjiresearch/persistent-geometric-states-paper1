@@ -41,3 +41,4 @@ jobs:
           git diff --cached --quiet || git commit -m 'Add Milky Way Stage 5B cohort Jeans results'
           git pull --rebase origin main
           git push
+# trigger 2026-08-08
