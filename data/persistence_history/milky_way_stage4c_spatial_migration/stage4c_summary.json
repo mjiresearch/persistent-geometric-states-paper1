@@ -1,0 +1,197 @@
+{
+  "analysis_name": "Milky Way Stage 4C star-level birth-radius spatial migration screen",
+  "ratcliffe_input_rows": 143307,
+  "mwm_quality_rows": 30495,
+  "exact_gaia_crossmatch_rows": 45,
+  "exact_gaia_crossmatch_unique_ids": 45,
+  "spatial_cells_crossmatch_n_ge5_and_stage2_baseline": 2,
+  "cell_geometry": {
+    "R_kpc": 0.5,
+    "absZ_kpc": 0.25,
+    "phi_deg": 15
+  },
+  "migration_definition": "Rguide - Rbirth; positive = outward guiding-center migration",
+  "tests_within_same_R_absZ_strata": {
+    "Rbirth_median_kpc": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    },
+    "deltaR_guide_median_kpc": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    },
+    "abs_deltaR_guide_median_kpc": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    },
+    "outward_guide_fraction_gt0p5": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    },
+    "inward_guide_fraction_gt0p5": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    },
+    "outward_guide_fraction_gt1": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    },
+    "inward_guide_fraction_gt1": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    },
+    "age_rbirth_sample_median_gyr": {
+      "Vr_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vphi_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      },
+      "Vz_median_kms_anom": {
+        "n_cells": 2,
+        "rho": null,
+        "p_spearman": null,
+        "p_perm_within_RZ": null
+      }
+    }
+  },
+  "direction_median_split_summary": {
+    "outward_guide_fraction_gt1": {
+      "median_split": 0.9115384615384616,
+      "n_low_cells": 1,
+      "n_high_cells": 1,
+      "mean_Vr_anom_low": 0.0,
+      "mean_Vr_anom_high": 0.0,
+      "mean_Vphi_anom_low": 0.0,
+      "mean_Vphi_anom_high": 0.0
+    },
+    "inward_guide_fraction_gt1": {
+      "median_split": 0.0,
+      "n_low_cells": 2,
+      "n_high_cells": 0,
+      "mean_Vr_anom_low": 0.0,
+      "mean_Vr_anom_high": null,
+      "mean_Vphi_anom_low": 0.0,
+      "mean_Vphi_anom_high": null
+    }
+  },
+  "guardrail": "This is a local kinematic-residual precursor, not yet a local gravitational force residual. The outcomes are non-axisymmetric streaming anomalies relative to the Stage-2 axisymmetric R-|z| baseline. A positive result would justify constructing a spatial Jeans/force-residual map; a null result would argue that the radial Stage-4B signal was decomposition-specific or radial-structure driven. Rbirth remains an inferred history variable based on age and metallicity."
+}
