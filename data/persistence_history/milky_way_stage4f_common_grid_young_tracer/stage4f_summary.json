@@ -1,0 +1,1287 @@
+{
+  "analysis_name": "Milky Way Stage 4F coarsened common-grid independent young-tracer test",
+  "source_star_rows": 30495,
+  "young_general_star_rows": 7025,
+  "primary_grid": {
+    "R_kpc": 1.0,
+    "absZ_kpc": 0.5,
+    "phi_deg": 30.0
+  },
+  "robustness_grid": {
+    "R_kpc": 1.0,
+    "absZ_kpc": 0.5,
+    "phi_deg": 45.0
+  },
+  "runs": {
+    "R1.0_Z0.5_P30.0": {
+      "general": {
+        "source_cells": 87,
+        "young_cells": 38,
+        "joined_cells": 16,
+        "R_range": [
+          5.0,
+          12.0
+        ],
+        "unadjusted": {
+          "n_cells": 16,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.44035242296398963,
+                "p_spearman": 0.08781483875910477,
+                "p_perm_within_RZ": 0.2759362031898405,
+                "p_maxT_all_tests": 0.7173141342932854
+              },
+              "Vphi_young_anom": {
+                "rho": -0.3510501833419218,
+                "p_spearman": 0.1824662963566943,
+                "p_perm_within_RZ": 0.31148442577871105,
+                "p_maxT_all_tests": 0.9404029798510074
+              },
+              "Vz_young_anom": {
+                "rho": -0.06287876087458452,
+                "p_spearman": 0.8170501835244487,
+                "p_perm_within_RZ": 0.8415579221038948,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.24943039342715495,
+                "p_spearman": 0.35152662987857375,
+                "p_perm_within_RZ": 0.49972501374931255,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.40955854723224216,
+                "p_spearman": 0.1151699528359169,
+                "p_perm_within_RZ": 0.30828458577071144,
+                "p_maxT_all_tests": 0.8155592220388981
+              },
+              "Vphi_young_anom": {
+                "rho": 0.25250978100032967,
+                "p_spearman": 0.34541445841026147,
+                "p_perm_within_RZ": 0.4391280435978201,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.1347402018741098,
+                "p_spearman": 0.6188220591621917,
+                "p_perm_within_RZ": 0.6888155592220389,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.2063189674027084,
+                "p_spearman": 0.44329779946362274,
+                "p_perm_within_RZ": 0.5946702664866756,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.11085795263429112,
+                "p_spearman": 0.6827411920820118,
+                "p_perm_within_RZ": 0.7170141492925354,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.13857244079286385,
+                "p_spearman": 0.6087855512452607,
+                "p_perm_within_RZ": 0.655367231638418,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.21857854970688917,
+                "p_spearman": 0.4160478119561291,
+                "p_perm_within_RZ": 0.4418279086045698,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.13549305321968916,
+                "p_spearman": 0.6168453048099806,
+                "p_perm_within_RZ": 0.7463626818659067,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.1539693786587376,
+                "p_spearman": 0.5691310276609683,
+                "p_perm_within_RZ": 0.6193690315484226,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.22787468041493164,
+                "p_spearman": 0.39598666513848013,
+                "p_perm_within_RZ": 0.4688265586720664,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.08383834783277934,
+                "p_spearman": 0.7575543386294908,
+                "p_perm_within_RZ": 0.8759062046897655,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.036952650878097015,
+                "p_spearman": 0.8919273681203014,
+                "p_perm_within_RZ": 0.9063046847657618,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.2802242691589025,
+                "p_spearman": 0.2931567419781752,
+                "p_perm_within_RZ": 0.3792810359482026,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.13857244079286388,
+                "p_spearman": 0.6087855512452607,
+                "p_perm_within_RZ": 0.6263686815659217,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.05689030745795744,
+                "p_spearman": 0.834237221277837,
+                "p_perm_within_RZ": 0.8751562421878906,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.09238162719524257,
+                "p_spearman": 0.7336455928313134,
+                "p_perm_within_RZ": 0.7817609119544022,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        },
+        "age_chem_adjusted": {
+          "n_cells": 16,
+          "adjusted": true,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.7211186646889438,
+                "p_spearman": 0.001619077624437471,
+                "p_perm_within_RZ": 0.031998400079996,
+                "p_maxT_all_tests": 0.031998400079996
+              },
+              "Vphi_young_anom": {
+                "rho": -0.5548198705872078,
+                "p_spearman": 0.025703096145056486,
+                "p_perm_within_RZ": 0.06514674266286685,
+                "p_maxT_all_tests": 0.31478426078696065
+              },
+              "Vz_young_anom": {
+                "rho": 0.31788088076084053,
+                "p_spearman": 0.23021140881741164,
+                "p_perm_within_RZ": 0.44132793360331984,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.47682132114126086,
+                "p_spearman": 0.06184006340734571,
+                "p_perm_within_RZ": 0.031998400079996,
+                "p_maxT_all_tests": 0.6913654317284136
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.47682132114126086,
+                "p_spearman": 0.06184006340734571,
+                "p_perm_within_RZ": 0.15859207039648018,
+                "p_maxT_all_tests": 0.6913654317284136
+              },
+              "Vphi_young_anom": {
+                "rho": 0.2310523068493146,
+                "p_spearman": 0.3892505371419816,
+                "p_perm_within_RZ": 0.47007649617519126,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.029433414885262996,
+                "p_spearman": 0.9138324246337038,
+                "p_perm_within_RZ": 0.967301634918254,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.14422373293778876,
+                "p_spearman": 0.5941040166002366,
+                "p_perm_within_RZ": 0.5966701664916754,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": -0.21192058717389367,
+                "p_spearman": 0.4307361874085342,
+                "p_perm_within_RZ": 0.5959702014899255,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.6019133344036286,
+                "p_spearman": 0.013625661575520582,
+                "p_perm_within_RZ": 0.031998400079996,
+                "p_maxT_all_tests": 0.2829858507074646
+              },
+              "Vz_young_anom": {
+                "rho": -0.08830024465578902,
+                "p_spearman": 0.7450403518336162,
+                "p_perm_within_RZ": 0.6895155242237888,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.37674771053136663,
+                "p_spearman": 0.15032351170363195,
+                "p_perm_within_RZ": 0.06514674266286685,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.45621793072157674,
+                "p_spearman": 0.07570257310077218,
+                "p_perm_within_RZ": 0.09619519024048798,
+                "p_maxT_all_tests": 0.8144592770361482
+              },
+              "Vphi_young_anom": {
+                "rho": -0.713760310967628,
+                "p_spearman": 0.0019010627547399596,
+                "p_perm_within_RZ": 0.031998400079996,
+                "p_maxT_all_tests": 0.06364681765911705
+              },
+              "Vz_young_anom": {
+                "rho": 0.2295806361050515,
+                "p_spearman": 0.39236254008914206,
+                "p_perm_within_RZ": 0.4060796960151992,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.5768949317511551,
+                "p_spearman": 0.01930512971184935,
+                "p_perm_within_RZ": 0.06514674266286685,
+                "p_maxT_all_tests": 0.31478426078696065
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": -0.1648271233574729,
+                "p_spearman": 0.5418467058390636,
+                "p_perm_within_RZ": 0.6894655267236638,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.49595304081668173,
+                "p_spearman": 0.05072697862044891,
+                "p_perm_within_RZ": 0.18694065296735163,
+                "p_maxT_all_tests": 0.5982700864956753
+              },
+              "Vz_young_anom": {
+                "rho": 0.08241356167873645,
+                "p_spearman": 0.7615624197209059,
+                "p_perm_within_RZ": 0.7215639218039098,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.4473879062559978,
+                "p_spearman": 0.08228395167946795,
+                "p_perm_within_RZ": 0.31158442077896104,
+                "p_maxT_all_tests": 0.8144592770361482
+              }
+            }
+          }
+        },
+        "age_only": {
+          "n_cells": 16,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "age_anom": {
+              "Vr_young_anom": {
+                "rho": 0.23403345556128113,
+                "p_spearman": 0.3829876428422461,
+                "p_perm_within_RZ": 0.46687665616719165,
+                "p_maxT_all_tests": 0.7510124493775311
+              },
+              "Vphi_young_anom": {
+                "rho": 0.030793875731747508,
+                "p_spearman": 0.909864376236372,
+                "p_perm_within_RZ": 0.9689015549222539,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.47308781991354093,
+                "p_spearman": 0.06420180462082596,
+                "p_perm_within_RZ": 0.1256937153142343,
+                "p_maxT_all_tests": 0.248037598120094
+              },
+              "acirc_young_anom": {
+                "rho": -0.2340334555612812,
+                "p_spearman": 0.3829876428422461,
+                "p_perm_within_RZ": 0.49722513874306284,
+                "p_maxT_all_tests": 0.7510124493775311
+              }
+            }
+          }
+        }
+      },
+      "cold": {
+        "source_cells": 87,
+        "young_cells": 33,
+        "joined_cells": 13,
+        "R_range": [
+          7.0,
+          12.0
+        ],
+        "unadjusted": {
+          "n_cells": 13,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.32543578514517907,
+                "p_spearman": 0.27790830709184794,
+                "p_perm_within_RZ": 0.46897655117244136,
+                "p_maxT_all_tests": 0.9688015599220039
+              },
+              "Vphi_young_anom": {
+                "rho": -0.22639011140534196,
+                "p_spearman": 0.4570253150439504,
+                "p_perm_within_RZ": 0.5931203439828009,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.07923653899186969,
+                "p_spearman": 0.796940766936681,
+                "p_perm_within_RZ": 0.8415579221038948,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.07923653899186961,
+                "p_spearman": 0.796940766936681,
+                "p_perm_within_RZ": 0.904054797260137,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.2858175156492442,
+                "p_spearman": 0.3438182077883315,
+                "p_perm_within_RZ": 0.5056247187640618,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.14149381962833874,
+                "p_spearman": 0.6447335537786654,
+                "p_perm_within_RZ": 0.7527623618819059,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.04527802228106836,
+                "p_spearman": 0.8832297285032851,
+                "p_perm_within_RZ": 0.8751062446877657,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.03961826949593483,
+                "p_spearman": 0.8977524253875712,
+                "p_perm_within_RZ": 0.9689015549222539,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.0990456737398371,
+                "p_spearman": 0.7475105089616255,
+                "p_perm_within_RZ": 0.8084595770211489,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.2490291225458761,
+                "p_spearman": 0.4119527740891757,
+                "p_perm_within_RZ": 0.49452527373631316,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.15281332519860585,
+                "p_spearman": 0.6181994296640123,
+                "p_perm_within_RZ": 0.5320733963301835,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.10187555013240386,
+                "p_spearman": 0.7405165694124823,
+                "p_perm_within_RZ": 0.872106394680266,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.11036517931010424,
+                "p_spearman": 0.7196465056721101,
+                "p_perm_within_RZ": 0.7798110094495275,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.2716681336864103,
+                "p_spearman": 0.36925325855475205,
+                "p_perm_within_RZ": 0.49887505624718764,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.10753530291753753,
+                "p_spearman": 0.7265840995232664,
+                "p_perm_within_RZ": 0.7481625918704065,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.005659752785133506,
+                "p_spearman": 0.9853594924334147,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.34807479628571325,
+                "p_spearman": 0.24383668460980118,
+                "p_perm_within_RZ": 0.43402829858507075,
+                "p_maxT_all_tests": 0.9688015599220039
+              },
+              "Vphi_young_anom": {
+                "rho": 0.3056266503972116,
+                "p_spearman": 0.3098733741301887,
+                "p_perm_within_RZ": 0.4409279536023199,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.01131950557026708,
+                "p_spearman": 0.9707232051481076,
+                "p_perm_within_RZ": 0.9720513974301285,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.05659752785133547,
+                "p_spearman": 0.8542890264275445,
+                "p_perm_within_RZ": 0.9088545572721364,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        },
+        "age_chem_adjusted": {
+          "n_cells": 13,
+          "adjusted": true,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.02751034239403647,
+                "p_spearman": 0.9289142380210816,
+                "p_perm_within_RZ": 0.8455577221138944,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.6272358065840316,
+                "p_spearman": 0.021752500035364497,
+                "p_perm_within_RZ": 0.03239838008099595,
+                "p_maxT_all_tests": 0.12519374031298436
+              },
+              "Vz_young_anom": {
+                "rho": 0.13755171197018232,
+                "p_spearman": 0.6540679569539335,
+                "p_perm_within_RZ": 0.751462426878656,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.33562617720724497,
+                "p_spearman": 0.262245579834066,
+                "p_perm_within_RZ": 0.03239838008099595,
+                "p_maxT_all_tests": 0.8149592520373982
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.08803309566091674,
+                "p_spearman": 0.7748931291635943,
+                "p_perm_within_RZ": 0.56017199140043,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.49518616309265645,
+                "p_spearman": 0.08532601474120989,
+                "p_perm_within_RZ": 0.22053897305134743,
+                "p_maxT_all_tests": 0.5003749812509375
+              },
+              "Vz_young_anom": {
+                "rho": 0.011004136957614576,
+                "p_spearman": 0.9715385747062458,
+                "p_perm_within_RZ": 0.9697515124243787,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.13755171197018237,
+                "p_spearman": 0.6540679569539335,
+                "p_perm_within_RZ": 0.4703764811759412,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.31911997177082313,
+                "p_spearman": 0.2878828323048209,
+                "p_perm_within_RZ": 0.3182340882955852,
+                "p_maxT_all_tests": 0.8761061946902655
+              },
+              "Vphi_young_anom": {
+                "rho": 0.37964272503770324,
+                "p_spearman": 0.2007352601887507,
+                "p_perm_within_RZ": 0.18774061296935154,
+                "p_maxT_all_tests": 0.7530123493825309
+              },
+              "Vz_young_anom": {
+                "rho": 0.11004136957614588,
+                "p_spearman": 0.7204393525218341,
+                "p_perm_within_RZ": 0.7184140792960352,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.04401654783045834,
+                "p_spearman": 0.8864638634773432,
+                "p_perm_within_RZ": 0.9082045897705114,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": -0.06052275326688023,
+                "p_spearman": 0.844290679129877,
+                "p_perm_within_RZ": 0.751962401879906,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.5502068478807294,
+                "p_spearman": 0.051383412696432124,
+                "p_perm_within_RZ": 0.0943452827358632,
+                "p_maxT_all_tests": 0.343682815859207
+              },
+              "Vz_young_anom": {
+                "rho": -0.011004136957614576,
+                "p_spearman": 0.9715385747062458,
+                "p_perm_within_RZ": 0.9669516524173791,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.17606619132183343,
+                "p_spearman": 0.5650364026691792,
+                "p_perm_within_RZ": 0.34493275336233187,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.23108687610990641,
+                "p_spearman": 0.44748525610812356,
+                "p_perm_within_RZ": 0.4736763161841908,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.4401654783045836,
+                "p_spearman": 0.13226549708781862,
+                "p_perm_within_RZ": 0.0943452827358632,
+                "p_maxT_all_tests": 0.5957702114894255
+              },
+              "Vz_young_anom": {
+                "rho": 0.2035765337158699,
+                "p_spearman": 0.5047162255899913,
+                "p_perm_within_RZ": 0.5634718264086795,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.07702895870330209,
+                "p_spearman": 0.8024963301841426,
+                "p_perm_within_RZ": 0.7819609019549023,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        },
+        "age_only": {
+          "n_cells": 13,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "age_anom": {
+              "Vr_young_anom": {
+                "rho": 0.19526147108710734,
+                "p_spearman": 0.5226358807738215,
+                "p_perm_within_RZ": 0.6505674716264187,
+                "p_maxT_all_tests": 0.9697015149242538
+              },
+              "Vphi_young_anom": {
+                "rho": 0.1471535724134723,
+                "p_spearman": 0.6314156690828802,
+                "p_perm_within_RZ": 0.6589670516474176,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.3678839310336806,
+                "p_spearman": 0.2161903938528227,
+                "p_perm_within_RZ": 0.12599370031498425,
+                "p_maxT_all_tests": 0.5945202739863007
+              },
+              "acirc_young_anom": {
+                "rho": -0.15847307798373933,
+                "p_spearman": 0.605088105255518,
+                "p_perm_within_RZ": 0.752162391880406,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        }
+      }
+    },
+    "R1.0_Z0.5_P45.0": {
+      "general": {
+        "source_cells": 71,
+        "young_cells": 34,
+        "joined_cells": 19,
+        "R_range": [
+          4.0,
+          12.0
+        ],
+        "unadjusted": {
+          "n_cells": 19,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.0017819537627308988,
+                "p_spearman": 0.9942233708150464,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.29685671216070725,
+                "p_spearman": 0.2171365588860794,
+                "p_perm_within_RZ": 0.33773311334433276,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.0035639075254618596,
+                "p_spearman": 0.9884470167668493,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.291459317394149,
+                "p_spearman": 0.22601176910174076,
+                "p_perm_within_RZ": 0.3096345182740863,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.01960149139004024,
+                "p_spearman": 0.9365175652220148,
+                "p_perm_within_RZ": 0.9366031698415079,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.2212931854288909,
+                "p_spearman": 0.362574665663619,
+                "p_perm_within_RZ": 0.4353782310884456,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.0525676360005624,
+                "p_spearman": 0.8307590374836379,
+                "p_perm_within_RZ": 0.8742562871856407,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.2608740803836519,
+                "p_spearman": 0.28070180301171277,
+                "p_perm_within_RZ": 0.30998450077496126,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.16928560745943813,
+                "p_spearman": 0.48841627116661523,
+                "p_perm_within_RZ": 0.7124643767811609,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.16012271140789663,
+                "p_spearman": 0.5125830586176807,
+                "p_perm_within_RZ": 0.5855707214639269,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.33678926115614544,
+                "p_spearman": 0.158552476840862,
+                "p_perm_within_RZ": 0.3448327583620819,
+                "p_maxT_all_tests": 0.968401579921004
+              },
+              "acirc_young_anom": {
+                "rho": 0.0017991315888527808,
+                "p_spearman": 0.9941676856814113,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.2672930644096393,
+                "p_spearman": 0.2686019628339017,
+                "p_perm_within_RZ": 0.37078146092695363,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.03058523701049719,
+                "p_spearman": 0.9010813084657502,
+                "p_perm_within_RZ": 0.8744062796860157,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.18977807573084388,
+                "p_spearman": 0.4364652012023122,
+                "p_perm_within_RZ": 0.5649217539123044,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.023388710655085986,
+                "p_spearman": 0.9242828806098861,
+                "p_perm_within_RZ": 0.9367531623418829,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.23343594291775166,
+                "p_spearman": 0.33613852496850977,
+                "p_perm_within_RZ": 0.4045297735113244,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.019790447477380423,
+                "p_spearman": 0.9359067939992415,
+                "p_perm_within_RZ": 0.9381530923453827,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.24769157301959915,
+                "p_spearman": 0.3065867079212021,
+                "p_perm_within_RZ": 0.5947702614869257,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": -0.13133660598625232,
+                "p_spearman": 0.5919940447381326,
+                "p_perm_within_RZ": 0.6535673216339183,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        },
+        "age_chem_adjusted": {
+          "n_cells": 19,
+          "adjusted": true,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.03508771929824561,
+                "p_spearman": 0.8866031221985,
+                "p_perm_within_RZ": 0.9072046397680116,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.16842105263157892,
+                "p_spearman": 0.4906723619708299,
+                "p_perm_within_RZ": 0.40707964601769914,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.2982456140350877,
+                "p_spearman": 0.21489010690621158,
+                "p_perm_within_RZ": 0.15649217539123045,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.01754385964912279,
+                "p_spearman": 0.9431706684765945,
+                "p_perm_within_RZ": 0.9375031248437579,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.012280701754385972,
+                "p_spearman": 0.9602038588720425,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.13333333333333333,
+                "p_spearman": 0.5863244497967293,
+                "p_perm_within_RZ": 0.5309734513274337,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.30701754385964913,
+                "p_spearman": 0.2010540323301801,
+                "p_perm_within_RZ": 0.18729063546822658,
+                "p_maxT_all_tests": 1.0
+              },
+              "acirc_young_anom": {
+                "rho": 0.010526315789473715,
+                "p_spearman": 0.9658856101969363,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": -0.2649122807017544,
+                "p_spearman": 0.27305117556176156,
+                "p_perm_within_RZ": 0.30993450327483624,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.010526315789473696,
+                "p_spearman": 0.9658856101969363,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.5035087719298244,
+                "p_spearman": 0.027966014959808102,
+                "p_perm_within_RZ": 0.032448377581120944,
+                "p_maxT_all_tests": 0.5901704914754262
+              },
+              "acirc_young_anom": {
+                "rho": -0.19473684210526312,
+                "p_spearman": 0.42434599387907085,
+                "p_perm_within_RZ": 0.6258687065646718,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.13859649122807016,
+                "p_spearman": 0.5714909256572165,
+                "p_perm_within_RZ": 0.6267186640667967,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.0315789473684211,
+                "p_spearman": 0.8978832031610189,
+                "p_perm_within_RZ": 0.9062046897655117,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.6736842105263158,
+                "p_spearman": 0.0015654497616056648,
+                "p_perm_within_RZ": 0.032448377581120944,
+                "p_maxT_all_tests": 0.09544522773861307
+              },
+              "acirc_young_anom": {
+                "rho": 0.29122807017543856,
+                "p_spearman": 0.2263971935812558,
+                "p_perm_within_RZ": 0.6854157292135393,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": -0.04385964912280705,
+                "p_spearman": 0.8584985542787699,
+                "p_perm_within_RZ": 0.9061046947652618,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.2842105263157894,
+                "p_spearman": 0.2382962365756818,
+                "p_perm_within_RZ": 0.4647267636618169,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.5596491228070175,
+                "p_spearman": 0.012716556664429175,
+                "p_perm_within_RZ": 0.09104544772761362,
+                "p_maxT_all_tests": 0.4017299135043248
+              },
+              "acirc_young_anom": {
+                "rho": -0.45263157894736833,
+                "p_spearman": 0.05166303542301259,
+                "p_perm_within_RZ": 0.1896405179741013,
+                "p_maxT_all_tests": 0.7163141842907854
+              }
+            }
+          }
+        },
+        "age_only": {
+          "n_cells": 19,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "age_anom": {
+              "Vr_young_anom": {
+                "rho": 0.4000486197330935,
+                "p_spearman": 0.08967612673455898,
+                "p_perm_within_RZ": 0.30913454327283635,
+                "p_maxT_all_tests": 0.4334783260836958
+              },
+              "Vphi_young_anom": {
+                "rho": -0.023388710655086048,
+                "p_spearman": 0.9242828806098861,
+                "p_perm_within_RZ": 1.0,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.276202833223294,
+                "p_spearman": 0.2523551001557498,
+                "p_perm_within_RZ": 0.3143842807859607,
+                "p_maxT_all_tests": 0.7224138793060347
+              },
+              "acirc_young_anom": {
+                "rho": -0.14393052710822166,
+                "p_spearman": 0.5566255627701232,
+                "p_perm_within_RZ": 0.5579221038948052,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        }
+      },
+      "cold": {
+        "source_cells": 71,
+        "young_cells": 26,
+        "joined_cells": 14,
+        "R_range": [
+          6.0,
+          12.0
+        ],
+        "unadjusted": {
+          "n_cells": 14,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.2310232421072927,
+                "p_spearman": 0.4268130102879323,
+                "p_perm_within_RZ": 0.5591720413979301,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.20462058586645934,
+                "p_spearman": 0.482854333654587,
+                "p_perm_within_RZ": 0.56047197640118,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.4417582417582417,
+                "p_spearman": 0.11377750302872344,
+                "p_perm_within_RZ": 0.3126343682815859,
+                "p_maxT_all_tests": 0.8424078796060197
+              },
+              "acirc_young_anom": {
+                "rho": -0.31903209624340434,
+                "p_spearman": 0.2662294333195109,
+                "p_perm_within_RZ": 0.4354782260886956,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.21122124992666766,
+                "p_spearman": 0.468528798015458,
+                "p_perm_within_RZ": 0.616119194040298,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.14961505203138964,
+                "p_spearman": 0.6096980490744112,
+                "p_perm_within_RZ": 0.7174141292935353,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.45054945054945067,
+                "p_spearman": 0.10593278527264065,
+                "p_perm_within_RZ": 0.34468276586170693,
+                "p_maxT_all_tests": 0.8424078796060197
+              },
+              "acirc_young_anom": {
+                "rho": 0.30803098947639035,
+                "p_spearman": 0.2839808086684329,
+                "p_perm_within_RZ": 0.33783310834458274,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.2354236848140984,
+                "p_spearman": 0.4178068305515687,
+                "p_perm_within_RZ": 0.5058747062646868,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.03740376300784736,
+                "p_spearman": 0.8989825443053358,
+                "p_perm_within_RZ": 0.9078046097695115,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.6131868131868133,
+                "p_spearman": 0.01970633192603883,
+                "p_perm_within_RZ": 0.2495375231238438,
+                "p_maxT_all_tests": 0.5621218939053048
+              },
+              "acirc_young_anom": {
+                "rho": 0.03740376300784741,
+                "p_spearman": 0.8989825443053358,
+                "p_perm_within_RZ": 0.9399030048497575,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.16281638015180633,
+                "p_spearman": 0.578116273655717,
+                "p_perm_within_RZ": 0.5929203539823009,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.11441151037694496,
+                "p_spearman": 0.6969362724835538,
+                "p_perm_within_RZ": 0.7159142042897855,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.35824175824175836,
+                "p_spearman": 0.20849812479076704,
+                "p_perm_within_RZ": 0.4089795510224489,
+                "p_maxT_all_tests": 0.9674516274186291
+              },
+              "acirc_young_anom": {
+                "rho": -0.21562169263347328,
+                "p_spearman": 0.45909348778654485,
+                "p_perm_within_RZ": 0.6842657867106645,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.36743696601826564,
+                "p_spearman": 0.19620884018834006,
+                "p_perm_within_RZ": 0.3140342982850857,
+                "p_maxT_all_tests": 0.9674516274186291
+              },
+              "Vphi_young_anom": {
+                "rho": 0.01980199218062508,
+                "p_spearman": 0.9464304041769637,
+                "p_perm_within_RZ": 0.9708514574271286,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.48571428571428577,
+                "p_spearman": 0.07827588645863326,
+                "p_perm_within_RZ": 0.4687765611719414,
+                "p_maxT_all_tests": 0.8109094545272736
+              },
+              "acirc_young_anom": {
+                "rho": -0.024202434887430662,
+                "p_spearman": 0.9345471690757207,
+                "p_perm_within_RZ": 0.9713014349282536,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        },
+        "age_chem_adjusted": {
+          "n_cells": 14,
+          "adjusted": true,
+          "n_permutations": 20000,
+          "tests": {
+            "Rbirth_anom": {
+              "Vr_young_anom": {
+                "rho": 0.3714285714285715,
+                "p_spearman": 0.19102081204361632,
+                "p_perm_within_RZ": 0.12674366281685917,
+                "p_maxT_all_tests": 0.9087545622718864
+              },
+              "Vphi_young_anom": {
+                "rho": -0.18241758241758244,
+                "p_spearman": 0.5325088185186945,
+                "p_perm_within_RZ": 0.6573171341432928,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.7582417582417582,
+                "p_spearman": 0.0016730034070264247,
+                "p_perm_within_RZ": 0.06104694765261737,
+                "p_maxT_all_tests": 0.248037598120094
+              },
+              "acirc_young_anom": {
+                "rho": -0.24835164835164833,
+                "p_spearman": 0.3919195389384575,
+                "p_perm_within_RZ": 0.5331233438328083,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "deltaR_birth_anom": {
+              "Vr_young_anom": {
+                "rho": -0.18241758241758244,
+                "p_spearman": 0.5325088185186945,
+                "p_perm_within_RZ": 0.4354782260886956,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.10769230769230774,
+                "p_spearman": 0.7140308087262492,
+                "p_perm_within_RZ": 0.9085545722713865,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.6307692307692309,
+                "p_spearman": 0.015578224272771276,
+                "p_perm_within_RZ": 0.21853907304634768,
+                "p_maxT_all_tests": 0.40672966351682416
+              },
+              "acirc_young_anom": {
+                "rho": 0.16483516483516486,
+                "p_spearman": 0.5733464050131384,
+                "p_perm_within_RZ": 0.7234638268086596,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "outward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": -0.1164835164835165,
+                "p_spearman": 0.6916912502331575,
+                "p_perm_within_RZ": 0.8430078496075196,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": 0.5560439560439561,
+                "p_spearman": 0.03894365041866055,
+                "p_perm_within_RZ": 0.029798510074496274,
+                "p_maxT_all_tests": 0.5977701114944253
+              },
+              "Vz_young_anom": {
+                "rho": -0.3450549450549451,
+                "p_spearman": 0.2269486800417004,
+                "p_perm_within_RZ": 0.3430828458577071,
+                "p_maxT_all_tests": 0.9694515274236288
+              },
+              "acirc_young_anom": {
+                "rho": 0.476923076923077,
+                "p_spearman": 0.0846484341946867,
+                "p_perm_within_RZ": 0.2189890505474726,
+                "p_maxT_all_tests": 0.7511624418779062
+              }
+            },
+            "inward_gt1_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.21758241758241764,
+                "p_spearman": 0.45491937317003306,
+                "p_perm_within_RZ": 0.4051297435128244,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vphi_young_anom": {
+                "rho": -0.12087912087912087,
+                "p_spearman": 0.6806070200628929,
+                "p_perm_within_RZ": 0.6601169941502925,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": 0.8285714285714288,
+                "p_spearman": 0.0002505342708655758,
+                "p_perm_within_RZ": 0.029798510074496274,
+                "p_maxT_all_tests": 0.029798510074496274
+              },
+              "acirc_young_anom": {
+                "rho": -0.18241758241758246,
+                "p_spearman": 0.5325088185186945,
+                "p_perm_within_RZ": 0.6910654467276636,
+                "p_maxT_all_tests": 1.0
+              }
+            },
+            "innerborn_lt6_frac_anom": {
+              "Vr_young_anom": {
+                "rho": 0.28791208791208794,
+                "p_spearman": 0.31819287102579996,
+                "p_perm_within_RZ": 0.31303434828258586,
+                "p_maxT_all_tests": 0.9694515274236288
+              },
+              "Vphi_young_anom": {
+                "rho": -0.09010989010989019,
+                "p_spearman": 0.7593388378159543,
+                "p_perm_within_RZ": 0.8143592820358982,
+                "p_maxT_all_tests": 1.0
+              },
+              "Vz_young_anom": {
+                "rho": -0.5164835164835166,
+                "p_spearman": 0.058637163441278416,
+                "p_perm_within_RZ": 0.09214539273036348,
+                "p_maxT_all_tests": 0.6293185340732963
+              },
+              "acirc_young_anom": {
+                "rho": -0.10769230769230777,
+                "p_spearman": 0.7140308087262492,
+                "p_perm_within_RZ": 0.6906154692265387,
+                "p_maxT_all_tests": 1.0
+              }
+            }
+          }
+        },
+        "age_only": {
+          "n_cells": 14,
+          "adjusted": false,
+          "n_permutations": 20000,
+          "tests": {
+            "age_anom": {
+              "Vr_young_anom": {
+                "rho": 0.281628333235557,
+                "p_spearman": 0.32933749626272635,
+                "p_perm_within_RZ": 0.3795810209489526,
+                "p_maxT_all_tests": 0.6934653267336633
+              },
+              "Vphi_young_anom": {
+                "rho": -0.23762390616750115,
+                "p_spearman": 0.41334051835602487,
+                "p_perm_within_RZ": 0.5030248487575621,
+                "p_maxT_all_tests": 0.8808059597020149
+              },
+              "Vz_young_anom": {
+                "rho": -0.7010989010989013,
+                "p_spearman": 0.005211861769946944,
+                "p_perm_within_RZ": 0.15774211289435527,
+                "p_maxT_all_tests": 0.15774211289435527
+              },
+              "acirc_young_anom": {
+                "rho": -0.24202434887430677,
+                "p_spearman": 0.4044820515542723,
+                "p_perm_within_RZ": 0.41082945852707364,
+                "p_maxT_all_tests": 0.8808059597020149
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "decision_rule": "A compelling precursor should have same directional sign in general and cold samples, survive source age/FeH/aFe adjustment, within-RZ permutation and family-wise maxT correction on primary grid, and not reverse on 45-degree robustness grid.",
+  "guardrail": "Independent-tracer kinematics and circular-acceleration proxy only, not a Jeans-derived local force residual. Birth radii are transferred Ratcliffe proxies; standard bar/spiral structure can correlate source history and young-star streaming."
+}
