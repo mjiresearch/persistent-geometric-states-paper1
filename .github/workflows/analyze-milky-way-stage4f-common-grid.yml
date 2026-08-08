@@ -7,12 +7,17 @@ on:
       - 'scripts/analyze_milky_way_stage4f_common_grid_young_tracer.py'
       - '.github/workflows/analyze-milky-way-stage4f-common-grid.yml'
 
+concurrency:
+  group: milky-way-stage4f-common-grid
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
   stage4f:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
