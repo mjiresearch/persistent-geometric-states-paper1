@@ -1,0 +1,26 @@
+{
+  "source_url": "https://raw.githubusercontent.com/thomasdonlon/Empirical_Model_MSP_Spindown_Accels/main/v3/data.csv",
+  "source_repository": "thomasdonlon/Empirical_Model_MSP_Spindown_Accels",
+  "source_version": "v3 (published-paper final dataset per authors README)",
+  "raw_rows_after_units_removed": 53,
+  "usable_acceleration_rows": 53,
+  "unique_names": 53,
+  "binary_orbital_rows": 27,
+  "spin_inferred_only_rows": 26,
+  "rows_with_both_pb_and_ps_available": 15,
+  "rows_with_duplicate_sky_location": 2,
+  "duplicate_sky_groups": 1,
+  "duplicate_names": [
+    "J0737-3039A",
+    "J0737-3039B"
+  ],
+  "conversion_mm_s_per_yr_to_1e10_m_s2": 0.3168808781402895,
+  "acceleration_selection_rule": "Use ALOS_PB whenever finite with finite positive error; otherwise use ALOS_PS, following the authors README recommendation to prefer binary orbital acceleration when available.",
+  "coordinate_rule": {
+    "R_sun_kpc": 8.21,
+    "z_sun_kpc": 0.0,
+    "moranlike_axes": "+x away from GC, +y toward Galactic l=90 deg, +z north",
+    "mwm_mapping": "X=-x_moranlike, Y=+y_moranlike, Z=+z_moranlike"
+  },
+  "guardrail": "ALOS_PB is the direct binary-orbital timing acceleration channel. ALOS_PS is an empirically inferred acceleration using the published magnetic-braking model and is analyzed separately in Stage 6C rather than treated as equally direct."
+}
