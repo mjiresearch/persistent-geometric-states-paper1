@@ -94,7 +94,6 @@ def main():
             'Vr_median_kms':float(g['Vr_gal'].median()),'Vphi_median_kms':float(g['Vphi_gal'].median()),'Vz_median_kms':float(g['Vz_gal'].median()),
         })
     c=pd.DataFrame(rows)
-    # Axisymmetric present-location baseline: remove median at identical R and |z|.
     for col in ['Rbirth_median_kpc','deltaR_present_birth_median_kpc','outward_fraction_gt1','inward_fraction_gt1','inner_born_fraction_lt6',
                 'age_median_gyr','FeH_median','aFe_median','Vr_median_kms','Vphi_median_kms','Vz_median_kms']:
         c[col+'_anom']=c[col]-c.groupby(['R_bin_kpc','absZ_bin_kpc'])[col].transform('median')
@@ -107,7 +106,6 @@ def main():
         for y in outs:
             tests[p][y]={'unadjusted':perm_test(c,p,y,partial=False),'age_chem_adjusted':perm_test(c,p,y,partial=True)}
 
-    # Cell-level comparison to age alone.
     age_tests={y:perm_test(c,'age_median_gyr_anom',y,partial=False) for y in outs}
 
     selected=['source_id','R_gal','Z_gal','phi_deg','Rbirth_proxy_kpc','deltaR_present_birth_kpc','outward_present_gt1','inward_present_gt1',
@@ -128,3 +126,4 @@ def main():
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__': main()
+# workflow trigger 2026-08-08
