@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from scipy.stats import spearmanr
+from scipy.stats import spearmanr, rankdata
 from sklearn.linear_model import LinearRegression
 
 OUT=Path('data/persistence_history/milky_way_stage4f_common_grid_young_tracer'); OUT.mkdir(parents=True,exist_ok=True)
@@ -20,36 +20,40 @@ def residualize(v,C):
     if m.sum()<10:return out
     f=LinearRegression().fit(C[m],v[m]);out[m]=v[m]-f.predict(C[m]);return out
 
-def corr(x,y):
-    m=np.isfinite(x)&np.isfinite(y)
-    if m.sum()<10:return np.nan,np.nan
-    r,p=spearmanr(np.asarray(x)[m],np.asarray(y)[m]);return float(r),float(p)
+def standardized_ranks(A):
+    A=np.asarray(A,float); Z=np.empty_like(A,float)
+    for j in range(A.shape[1]):
+        r=rankdata(A[:,j],method='average').astype(float); sd=r.std(ddof=0); Z[:,j]=(r-r.mean())/(sd if sd>0 else 1.0)
+    return Z
 
 def family_perm(d,preds,outcomes,adjusted,nperm=20000):
     q=d.dropna(subset=preds+outcomes+CTRL+['R_bin','Z_bin']).copy()
-    if len(q)<10:return {'n_cells':int(len(q)),'tests':{}}
+    n=len(q)
+    if n<10:return {'n_cells':int(n),'tests':{}}
     X=q[preds].to_numpy(float);Y=q[outcomes].to_numpy(float);C=q[CTRL].to_numpy(float)
     if adjusted:
         X=np.column_stack([residualize(X[:,i],C) for i in range(X.shape[1])]);Y=np.column_stack([residualize(Y[:,j],C) for j in range(Y.shape[1])])
-    obs=np.empty((len(preds),len(outcomes))); ps=np.empty_like(obs)
+    if not (np.all(np.isfinite(X)) and np.all(np.isfinite(Y))):
+        raise RuntimeError('Non-finite values remained after common complete-case selection/residualization')
+    XR=standardized_ranks(X);YR=standardized_ranks(Y)
+    obs=(XR.T@YR)/n
+    ps=np.empty_like(obs)
     for i in range(len(preds)):
-        for j in range(len(outcomes)):obs[i,j],ps[i,j]=corr(X[:,i],Y[:,j])
-    counts=np.zeros_like(obs,int);maxcounts=np.zeros_like(obs,int);groups=q.groupby(['R_bin','Z_bin']).indices;valid=0
+        for j in range(len(outcomes)):
+            _,ps[i,j]=spearmanr(X[:,i],Y[:,j])
+    counts=np.zeros_like(obs,int);maxcounts=np.zeros_like(obs,int)
+    groups=[np.asarray(v,int) for v in q.groupby(['R_bin','Z_bin']).indices.values()]
     for _ in range(nperm):
-        pi=np.arange(len(q))
-        for inds in groups.values():
-            inds=np.asarray(inds,int)
+        pi=np.arange(n)
+        for inds in groups:
             if len(inds)>1:pi[inds]=RNG.permutation(inds)
-        vals=np.empty_like(obs)
-        for i in range(len(preds)):
-            for j in range(len(outcomes)):vals[i,j],_=corr(X[pi,i],Y[:,j])
-        if not np.any(np.isfinite(vals)):continue
-        valid+=1;av=np.abs(vals);ao=np.abs(obs);counts+=np.nan_to_num(av>=ao,nan=False);mx=np.nanmax(av);maxcounts+=np.nan_to_num(mx>=ao,nan=False)
+        vals=(XR[pi].T@YR)/n
+        av=np.abs(vals);ao=np.abs(obs);counts+=av>=ao;mx=av.max();maxcounts+=mx>=ao
     tests={}
     for i,p in enumerate(preds):
         tests[p]={}
-        for j,o in enumerate(outcomes):tests[p][o]={'rho':float(obs[i,j]) if np.isfinite(obs[i,j]) else None,'p_spearman':float(ps[i,j]) if np.isfinite(ps[i,j]) else None,'p_perm_within_RZ':float((counts[i,j]+1)/(valid+1)) if valid else None,'p_maxT_all_tests':float((maxcounts[i,j]+1)/(valid+1)) if valid else None}
-    return {'n_cells':int(len(q)),'adjusted':adjusted,'n_permutations':valid,'tests':tests}
+        for j,o in enumerate(outcomes):tests[p][o]={'rho':float(obs[i,j]),'p_spearman':float(ps[i,j]),'p_perm_within_RZ':float((counts[i,j]+1)/(nperm+1)),'p_maxT_all_tests':float((maxcounts[i,j]+1)/(nperm+1))}
+    return {'n_cells':int(n),'adjusted':adjusted,'n_permutations':int(nperm),'tests':tests}
 
 def bins(df,Rw,Zw,Pw,Rcol,Zcol,Pcol):
     d=df.copy();d['R_bin']=np.floor(pd.to_numeric(d[Rcol],errors='coerce')/Rw)*Rw;d['Z_bin']=np.floor(pd.to_numeric(d[Zcol],errors='coerce').abs()/Zw)*Zw;d['P_bin']=np.floor(pd.to_numeric(d[Pcol],errors='coerce')/Pw)*Pw;return d
@@ -88,4 +92,3 @@ def main():
     for Rw,Zw,Pw in [(1.0,0.5,30.0),(1.0,0.5,45.0)]:runs[f'R{Rw}_Z{Zw}_P{Pw}']=run_grid(src,yng,Rw,Zw,Pw)
     report={'analysis_name':'Milky Way Stage 4F coarsened common-grid independent young-tracer test','source_star_rows':int(len(src)),'young_general_star_rows':int(len(yng)),'primary_grid':{'R_kpc':1.0,'absZ_kpc':0.5,'phi_deg':30.0},'robustness_grid':{'R_kpc':1.0,'absZ_kpc':0.5,'phi_deg':45.0},'runs':runs,'decision_rule':'A compelling precursor should have same directional sign in general and cold samples, survive source age/FeH/aFe adjustment, within-RZ permutation and family-wise maxT correction on primary grid, and not reverse on 45-degree robustness grid.','guardrail':'Independent-tracer kinematics and circular-acceleration proxy only, not a Jeans-derived local force residual. Birth radii are transferred Ratcliffe proxies; standard bar/spiral structure can correlate source history and young-star streaming.'};(OUT/'stage4f_summary.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))
 if __name__=='__main__':main()
-# trigger
