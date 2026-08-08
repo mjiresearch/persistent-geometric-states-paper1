@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Public birth-radius ingestion for persistence-history testing.
 from __future__ import annotations
 
 import io
@@ -64,7 +65,6 @@ def main() -> None:
                 'unique_mwm_gaia_ids': int(right['_gaia_id'].nunique(dropna=True)),
             }
 
-            # Standardized migration view if present radius/guiding radius exists in Dantas catalog.
             cols = {c.lower(): c for c in d.columns}
             rb = cols.get('rbirth')
             rg_candidates = [c for c in d.columns if c.lower() in {'rg','rguide','rguiding','r_g'} or 'rguid' in c.lower()]
