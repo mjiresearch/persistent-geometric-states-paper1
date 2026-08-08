@@ -23,12 +23,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy pandas scipy pyarrow matplotlib scikit-learn
           pip install git+https://github.com/BridgetRatcliffe/Rbirth.git
-      - name: Run Stage 4A
-        run: python scripts/analyze_milky_way_stage4a_rbirth.py
-      - name: Commit results
+      - name: Run and archive diagnostics
+        shell: bash
         run: |
+          mkdir -p data/persistence_history/milky_way_stage4a_rbirth
+          set +e
+          python scripts/analyze_milky_way_stage4a_rbirth.py > data/persistence_history/milky_way_stage4a_rbirth/run_output.txt 2>&1
+          code=$?
+          echo "$code" > data/persistence_history/milky_way_stage4a_rbirth/exit_code.txt
+          cat data/persistence_history/milky_way_stage4a_rbirth/run_output.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/persistence_history/milky_way_stage4a_rbirth
-          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 4A birth-radius results'
+          git diff --cached --quiet || git commit -m 'Archive Milky Way Stage 4A run'
           git push
+          exit $code
