@@ -1,0 +1,1560 @@
+{
+  "analysis_name": "Milky Way Stage 6B direct pulsar acceleration residual versus local MWM source-history field",
+  "pulsars": 29,
+  "source_stars": 13565,
+  "pulsar_to_mwm_coordinate_mapping": "Moran +x away from Galactic center is mapped to MWM/Astropy-like X=-x; both Y=+y and Y=-y are retained as handedness sensitivity tests.",
+  "kernel_sigmas_kpc": [
+    1.0,
+    1.5
+  ],
+  "azimuth_rotation_null": {
+    "angle_step_deg": 2.0,
+    "n_global_orientations": 180,
+    "description": "Rotate the complete pulsar pattern relative to the source field while preserving each pulsar R and z; offset 0 is the observed alignment."
+  },
+  "history_predictors": [
+    "deltaR_mean_kpc",
+    "migration_direction_mean",
+    "Rbirth_mean_kpc"
+  ],
+  "reference_fields": [
+    "Age_mean_gyr",
+    "FeH_mean",
+    "aFe_mean",
+    "log_source_weight"
+  ],
+  "runs": {
+    "Ysame": {
+      "sigma1.0": {
+        "source_kernel_sigma_kpc": 1.0,
+        "actual_pulsar_R_range_kpc": [
+          6.319793260067927,
+          9.40419589172833
+        ],
+        "actual_phi_range_deg": [
+          150.23836351304666,
+          197.89138646814206
+        ],
+        "actual_source_neff_median": 1436.674320966325,
+        "actual_source_neff_min": 556.7063798704448,
+        "actual_nearest_source_median_kpc": 0.2649269003837375,
+        "samples": {
+          "all_29": {
+            "n_pulsars": 29,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.38226600985221665,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.013422818791946308,
+                "p_maxT_predictor_family": 0.09395973154362416,
+                "null_abs_rho_median": 0.163743842364532,
+                "null_abs_rho_95pct": 0.3571943573667712
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.31871921182266,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.14093959731543623,
+                "p_maxT_predictor_family": 0.26174496644295303,
+                "null_abs_rho_median": 0.13343542448861434,
+                "null_abs_rho_95pct": 0.44095952767784674
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.25665024630541866,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.2214765100671141,
+                "p_maxT_predictor_family": 0.436241610738255,
+                "null_abs_rho_median": 0.16130268199233716,
+                "null_abs_rho_95pct": 0.33115763546798027
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.16403940886699503,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.5302013422818792,
+                "p_maxT_predictor_family": 0.8932584269662921,
+                "null_abs_rho_median": 0.17204302281803113,
+                "null_abs_rho_95pct": 0.3028571428571428
+              },
+              "FeH_mean": {
+                "rho_actual": -0.2748768472906403,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.19463087248322147,
+                "p_maxT_predictor_family": 0.651685393258427,
+                "null_abs_rho_median": 0.12548968770811408,
+                "null_abs_rho_95pct": 0.3470689655172413
+              },
+              "aFe_mean": {
+                "rho_actual": 0.31379310344827577,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.22818791946308725,
+                "p_maxT_predictor_family": 0.43258426966292135,
+                "null_abs_rho_median": 0.20985221674876844,
+                "null_abs_rho_95pct": 0.4007635467980295
+              },
+              "log_source_weight": {
+                "rho_actual": -0.125615763546798,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.601123595505618,
+                "p_maxT_predictor_family": 0.898876404494382,
+                "null_abs_rho_median": 0.19458128078817727,
+                "null_abs_rho_95pct": 0.4159605911330048
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.26009852216748763,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.2214765100671141,
+                "p_maxT_predictor_family": 0.33557046979865773,
+                "null_abs_rho_median": 0.16767288865882352,
+                "null_abs_rho_95pct": 0.38423645320197036
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.19507389162561573,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.26174496644295303,
+                "p_maxT_predictor_family": 0.6174496644295302,
+                "null_abs_rho_median": 0.11773399014778323,
+                "null_abs_rho_95pct": 0.3363793103448276
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.13694581280788173,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.5436241610738255,
+                "p_maxT_predictor_family": 0.8389261744966443,
+                "null_abs_rho_median": 0.1573891625615763,
+                "null_abs_rho_95pct": 0.34317733990147775
+              }
+            }
+          },
+          "exclude_five_published_outliers": {
+            "n_pulsars": 24,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.6217391304347826,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.0078125,
+                "p_maxT_predictor_family": 0.0078125,
+                "null_abs_rho_median": 0.20956521739130432,
+                "null_abs_rho_95pct": 0.4938767865704781
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.5452173913043478,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.015625,
+                "p_maxT_predictor_family": 0.0546875,
+                "null_abs_rho_median": 0.1869565217391304,
+                "null_abs_rho_95pct": 0.4523532919646399
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.45999999999999996,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.0625,
+                "p_maxT_predictor_family": 0.15625,
+                "null_abs_rho_median": 0.19304347826086957,
+                "null_abs_rho_95pct": 0.4581304347826083
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.19652173913043475,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.40625,
+                "p_maxT_predictor_family": 0.8757396449704142,
+                "null_abs_rho_median": 0.16695652173913042,
+                "null_abs_rho_95pct": 0.39523715415019756
+              },
+              "FeH_mean": {
+                "rho_actual": -0.5017391304347826,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.046875,
+                "p_maxT_predictor_family": 0.20710059171597633,
+                "null_abs_rho_median": 0.1417391304347826,
+                "null_abs_rho_95pct": 0.4959130434782607
+              },
+              "aFe_mean": {
+                "rho_actual": 0.5278260869565217,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.140625,
+                "p_maxT_predictor_family": 0.14201183431952663,
+                "null_abs_rho_median": 0.2791304347826086,
+                "null_abs_rho_95pct": 0.6216588628762539
+              },
+              "log_source_weight": {
+                "rho_actual": -0.18608695652173912,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.5798816568047337,
+                "p_maxT_predictor_family": 0.8816568047337278,
+                "null_abs_rho_median": 0.2740800872602883,
+                "null_abs_rho_95pct": 0.4962173913043478
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.617391304347826,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.0234375,
+                "p_maxT_predictor_family": 0.0234375,
+                "null_abs_rho_median": 0.3080298673014713,
+                "null_abs_rho_95pct": 0.5777391304347824
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.5313043478260869,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.046875,
+                "p_maxT_predictor_family": 0.125,
+                "null_abs_rho_median": 0.2278260869565217,
+                "null_abs_rho_95pct": 0.4886086956521738
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.4504347826086956,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.09375,
+                "p_maxT_predictor_family": 0.3828125,
+                "null_abs_rho_median": 0.2643478260869565,
+                "null_abs_rho_95pct": 0.47713043478260864
+              }
+            }
+          },
+          "authors_modified_catalog": {
+            "n_pulsars": 26,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.2581196581196581,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.31724137931034485,
+                "p_maxT_predictor_family": 0.5793103448275863,
+                "null_abs_rho_median": 0.16478632478632477,
+                "null_abs_rho_95pct": 0.42751648351648347
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.2246153846153846,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.34507042253521125,
+                "p_maxT_predictor_family": 0.6482758620689655,
+                "null_abs_rho_median": 0.1623931623931624,
+                "null_abs_rho_95pct": 0.36752136752136744
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.16854700854700852,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6068965517241379,
+                "p_maxT_predictor_family": 0.7586206896551724,
+                "null_abs_rho_median": 0.22598290598290596,
+                "null_abs_rho_95pct": 0.3698461538461538
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.08923076923076922,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7517241379310344,
+                "p_maxT_predictor_family": 0.9257142857142857,
+                "null_abs_rho_median": 0.17333333333333334,
+                "null_abs_rho_95pct": 0.377094017094017
+              },
+              "FeH_mean": {
+                "rho_actual": -0.16444444444444445,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.5241379310344828,
+                "p_maxT_predictor_family": 0.7885714285714286,
+                "null_abs_rho_median": 0.1692307692307692,
+                "null_abs_rho_95pct": 0.39882332797668213
+              },
+              "aFe_mean": {
+                "rho_actual": 0.13299145299145299,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6344827586206897,
+                "p_maxT_predictor_family": 0.8457142857142858,
+                "null_abs_rho_median": 0.16102564102564101,
+                "null_abs_rho_95pct": 0.4296007391771211
+              },
+              "log_source_weight": {
+                "rho_actual": -0.06393162393162392,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7771428571428571,
+                "p_maxT_predictor_family": 0.9314285714285714,
+                "null_abs_rho_median": 0.14393162393162393,
+                "null_abs_rho_95pct": 0.3206153846153846
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.1794871794871795,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.45517241379310347,
+                "p_maxT_predictor_family": 0.7034482758620689,
+                "null_abs_rho_median": 0.1623011710677778,
+                "null_abs_rho_95pct": 0.40061538461538454
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.1398290598290598,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.43661971830985913,
+                "p_maxT_predictor_family": 0.8,
+                "null_abs_rho_median": 0.13162393162393163,
+                "null_abs_rho_95pct": 0.3408547008547009
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.07282051282051281,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7379310344827587,
+                "p_maxT_predictor_family": 0.9517241379310345,
+                "null_abs_rho_median": 0.16854700854700852,
+                "null_abs_rho_95pct": 0.3762051282051282
+              }
+            }
+          },
+          "exclude_both_flag_sets": {
+            "n_pulsars": 21,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.5376623376623377,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.056451612903225805,
+                "p_maxT_predictor_family": 0.0967741935483871,
+                "null_abs_rho_median": 0.2831168831168831,
+                "null_abs_rho_95pct": 0.5259530175706647
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.4831168831168831,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.056451612903225805,
+                "p_maxT_predictor_family": 0.1935483870967742,
+                "null_abs_rho_median": 0.2701298701298701,
+                "null_abs_rho_95pct": 0.4672727272727272
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.4142857142857143,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.22580645161290322,
+                "p_maxT_predictor_family": 0.3467741935483871,
+                "null_abs_rho_median": 0.29696969696969694,
+                "null_abs_rho_95pct": 0.5142014126224651
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.0935064935064935,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.8548387096774194,
+                "p_maxT_predictor_family": 0.9036144578313253,
+                "null_abs_rho_median": 0.23636363636363636,
+                "null_abs_rho_95pct": 0.4623376623376624
+              },
+              "FeH_mean": {
+                "rho_actual": -0.4311688311688312,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.08870967741935484,
+                "p_maxT_predictor_family": 0.3192771084337349,
+                "null_abs_rho_median": 0.2506493506493506,
+                "null_abs_rho_95pct": 0.4427272727272727
+              },
+              "aFe_mean": {
+                "rho_actual": 0.3896103896103896,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.3064516129032258,
+                "p_maxT_predictor_family": 0.40963855421686746,
+                "null_abs_rho_median": 0.27272727272727276,
+                "null_abs_rho_95pct": 0.5490909090909091
+              },
+              "log_source_weight": {
+                "rho_actual": -0.11168831168831168,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.7951807228915663,
+                "p_maxT_predictor_family": 0.8975903614457831,
+                "null_abs_rho_median": 0.227362769702452,
+                "null_abs_rho_95pct": 0.4202020152526068
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.5727272727272726,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.11290322580645161,
+                "p_maxT_predictor_family": 0.12096774193548387,
+                "null_abs_rho_median": 0.35454545454545455,
+                "null_abs_rho_95pct": 0.6070129870129869
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.5116883116883117,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.04838709677419355,
+                "p_maxT_predictor_family": 0.28225806451612906,
+                "null_abs_rho_median": 0.26493506493506497,
+                "null_abs_rho_95pct": 0.5021995011665715
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.43766233766233764,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.1935483870967742,
+                "p_maxT_predictor_family": 0.47580645161290325,
+                "null_abs_rho_median": 0.3155844155844156,
+                "null_abs_rho_95pct": 0.48948051948051946
+              }
+            }
+          }
+        }
+      },
+      "sigma1.5": {
+        "source_kernel_sigma_kpc": 1.5,
+        "actual_pulsar_R_range_kpc": [
+          6.319793260067927,
+          9.40419589172833
+        ],
+        "actual_phi_range_deg": [
+          150.23836351304666,
+          197.89138646814206
+        ],
+        "actual_source_neff_median": 3625.6310159191985,
+        "actual_source_neff_min": 1977.359961500773,
+        "actual_nearest_source_median_kpc": 0.2649269003837375,
+        "samples": {
+          "all_29": {
+            "n_pulsars": 29,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.3655172413793103,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.1,
+                "p_maxT_predictor_family": 0.17222222222222222,
+                "null_abs_rho_median": 0.247783251231527,
+                "null_abs_rho_95pct": 0.3778325123152708
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.38768472906403934,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.06111111111111111,
+                "p_maxT_predictor_family": 0.1,
+                "null_abs_rho_median": 0.24666712930733656,
+                "null_abs_rho_95pct": 0.39014778325123145
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.3098522167487684,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.09444444444444444,
+                "p_maxT_predictor_family": 0.45,
+                "null_abs_rho_median": 0.18226600985221672,
+                "null_abs_rho_95pct": 0.35187192118226596
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.14975369458128074,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.35,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.0901477832512315,
+                "null_abs_rho_95pct": 0.2627093596059113
+              },
+              "FeH_mean": {
+                "rho_actual": -0.31034482758620685,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.25555555555555554,
+                "p_maxT_predictor_family": 0.7055555555555556,
+                "null_abs_rho_median": 0.2157633815087139,
+                "null_abs_rho_95pct": 0.3709852216748767
+              },
+              "aFe_mean": {
+                "rho_actual": 0.32955665024630537,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.32222222222222224,
+                "p_maxT_predictor_family": 0.6666666666666666,
+                "null_abs_rho_median": 0.2581280788177339,
+                "null_abs_rho_95pct": 0.47669950738916245
+              },
+              "log_source_weight": {
+                "rho_actual": 0.13694581280788173,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.8,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.2699507389162561,
+                "null_abs_rho_95pct": 0.3833004926108374
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.26059113300492603,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.40555555555555556,
+                "p_maxT_predictor_family": 0.55,
+                "null_abs_rho_median": 0.2379310344827586,
+                "null_abs_rho_95pct": 0.3722826370229994
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.26206896551724135,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.37222222222222223,
+                "p_maxT_predictor_family": 0.55,
+                "null_abs_rho_median": 0.21780853849323592,
+                "null_abs_rho_95pct": 0.36684729064039395
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.1679802955665024,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.5,
+                "p_maxT_predictor_family": 0.9111111111111111,
+                "null_abs_rho_median": 0.16551724137931031,
+                "null_abs_rho_95pct": 0.3192309834616419
+              }
+            }
+          },
+          "exclude_five_published_outliers": {
+            "n_pulsars": 24,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.6165217391304347,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.022222222222222223,
+                "p_maxT_predictor_family": 0.027777777777777776,
+                "null_abs_rho_median": 0.35739130434782607,
+                "null_abs_rho_95pct": 0.5683478260869564
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.6469565217391303,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.005649717514124294,
+                "p_maxT_predictor_family": 0.005555555555555556,
+                "null_abs_rho_median": 0.37409090909090903,
+                "null_abs_rho_95pct": 0.5748933612700589
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.5095652173913043,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.06111111111111111,
+                "p_maxT_predictor_family": 0.2222222222222222,
+                "null_abs_rho_median": 0.21565217391304345,
+                "null_abs_rho_95pct": 0.5105217391304347
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.16869565217391302,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.38333333333333336,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.13478260869565215,
+                "null_abs_rho_95pct": 0.41634782608695636
+              },
+              "FeH_mean": {
+                "rho_actual": -0.5347826086956522,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.09444444444444444,
+                "p_maxT_predictor_family": 0.2833333333333333,
+                "null_abs_rho_median": 0.3060869565217391,
+                "null_abs_rho_95pct": 0.5791304347826086
+              },
+              "aFe_mean": {
+                "rho_actual": 0.5939130434782608,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.07222222222222222,
+                "p_maxT_predictor_family": 0.1388888888888889,
+                "null_abs_rho_median": 0.3478260869565217,
+                "null_abs_rho_95pct": 0.608
+              },
+              "log_source_weight": {
+                "rho_actual": 0.16,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.8222222222222222,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.41130434782608694,
+                "null_abs_rho_95pct": 0.5636007268251315
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.6382608695652173,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.07222222222222222,
+                "p_maxT_predictor_family": 0.1111111111111111,
+                "null_abs_rho_median": 0.4591304347826086,
+                "null_abs_rho_95pct": 0.649621775104883
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.6521739130434783,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.04519774011299435,
+                "p_maxT_predictor_family": 0.07777777777777778,
+                "null_abs_rho_median": 0.4321739130434782,
+                "null_abs_rho_95pct": 0.645
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.4730434782608695,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.17777777777777778,
+                "p_maxT_predictor_family": 0.5611111111111111,
+                "null_abs_rho_median": 0.3,
+                "null_abs_rho_95pct": 0.5724575756904882
+              }
+            }
+          },
+          "authors_modified_catalog": {
+            "n_pulsars": 26,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.2423931623931624,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.5888888888888889,
+                "p_maxT_predictor_family": 0.6666666666666666,
+                "null_abs_rho_median": 0.2663247863247863,
+                "null_abs_rho_95pct": 0.3965811965811965
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.2512820512820513,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.45555555555555555,
+                "p_maxT_predictor_family": 0.6444444444444445,
+                "null_abs_rho_median": 0.23555555555555555,
+                "null_abs_rho_95pct": 0.3779644730092272
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.2287179487179487,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.4722222222222222,
+                "p_maxT_predictor_family": 0.7333333333333333,
+                "null_abs_rho_median": 0.21917808737309968,
+                "null_abs_rho_95pct": 0.3317091518100634
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.12615384615384614,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.4666666666666667,
+                "p_maxT_predictor_family": 0.9944444444444445,
+                "null_abs_rho_median": 0.11363962469166788,
+                "null_abs_rho_95pct": 0.3037264957264957
+              },
+              "FeH_mean": {
+                "rho_actual": -0.13504273504273506,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7833333333333333,
+                "p_maxT_predictor_family": 0.9888888888888889,
+                "null_abs_rho_median": 0.22,
+                "null_abs_rho_95pct": 0.3583305662607
+              },
+              "aFe_mean": {
+                "rho_actual": 0.1788034188034188,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6944444444444444,
+                "p_maxT_predictor_family": 0.9722222222222222,
+                "null_abs_rho_median": 0.23350427350427347,
+                "null_abs_rho_95pct": 0.45460610032967624
+              },
+              "log_source_weight": {
+                "rho_actual": 0.06871794871794872,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.9277777777777778,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.18837606837606835,
+                "null_abs_rho_95pct": 0.3012649572649573
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.1747008547008547,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6888888888888889,
+                "p_maxT_predictor_family": 0.7888888888888889,
+                "null_abs_rho_median": 0.2170940170940171,
+                "null_abs_rho_95pct": 0.38126495726495724
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.174017094017094,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6,
+                "p_maxT_predictor_family": 0.7888888888888889,
+                "null_abs_rho_median": 0.19726495726495727,
+                "null_abs_rho_95pct": 0.36369230769230765
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.1029059829059829,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6888888888888889,
+                "p_maxT_predictor_family": 0.9666666666666667,
+                "null_abs_rho_median": 0.15615384615384614,
+                "null_abs_rho_95pct": 0.3244444444444444
+              }
+            }
+          },
+          "exclude_both_flag_sets": {
+            "n_pulsars": 21,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.5233766233766234,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.11666666666666667,
+                "p_maxT_predictor_family": 0.17777777777777778,
+                "null_abs_rho_median": 0.3896103896103896,
+                "null_abs_rho_95pct": 0.546103896103896
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.5337662337662338,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.14534883720930233,
+                "p_maxT_predictor_family": 0.15555555555555556,
+                "null_abs_rho_median": 0.35584415584415585,
+                "null_abs_rho_95pct": 0.5672796670888274
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.461038961038961,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.19444444444444445,
+                "p_maxT_predictor_family": 0.3277777777777778,
+                "null_abs_rho_median": 0.2666774889578855,
+                "null_abs_rho_95pct": 0.5362603224330367
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.14155844155844155,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.6777777777777778,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.20877192982456141,
+                "null_abs_rho_95pct": 0.378010936431989
+              },
+              "FeH_mean": {
+                "rho_actual": -0.3818181818181818,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.35,
+                "p_maxT_predictor_family": 0.7888888888888889,
+                "null_abs_rho_median": 0.3246753246753247,
+                "null_abs_rho_95pct": 0.5807792207792208
+              },
+              "aFe_mean": {
+                "rho_actual": 0.5064935064935064,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.14444444444444443,
+                "p_maxT_predictor_family": 0.2722222222222222,
+                "null_abs_rho_median": 0.35454545454545455,
+                "null_abs_rho_95pct": 0.5389610389610389
+              },
+              "log_source_weight": {
+                "rho_actual": 0.07922077922077922,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.95,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.33246753246753247,
+                "null_abs_rho_95pct": 0.4891389723866633
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.5714285714285714,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.16111111111111112,
+                "p_maxT_predictor_family": 0.2222222222222222,
+                "null_abs_rho_median": 0.4922077922077922,
+                "null_abs_rho_95pct": 0.6257965004911393
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.5831168831168831,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.1744186046511628,
+                "p_maxT_predictor_family": 0.18888888888888888,
+                "null_abs_rho_median": 0.4451127819548871,
+                "null_abs_rho_95pct": 0.6491237781574111
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.4246753246753247,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.26666666666666666,
+                "p_maxT_predictor_family": 0.7722222222222223,
+                "null_abs_rho_median": 0.2922077922077922,
+                "null_abs_rho_95pct": 0.5849760488054698
+              }
+            }
+          }
+        }
+      }
+    },
+    "Yreflected": {
+      "sigma1.0": {
+        "source_kernel_sigma_kpc": 1.0,
+        "actual_pulsar_R_range_kpc": [
+          6.319793260067927,
+          9.40419589172833
+        ],
+        "actual_phi_range_deg": [
+          162.10861353185794,
+          209.76163648695334
+        ],
+        "actual_source_neff_median": 1407.1083091810294,
+        "actual_source_neff_min": 794.7309773883799,
+        "actual_nearest_source_median_kpc": 0.28002667520384505,
+        "samples": {
+          "all_29": {
+            "n_pulsars": 29,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.23152709359605908,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.30612244897959184,
+                "p_maxT_predictor_family": 0.47619047619047616,
+                "null_abs_rho_median": 0.17061293125984395,
+                "null_abs_rho_95pct": 0.39741379310344815
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.15418719211822657,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.54421768707483,
+                "p_maxT_predictor_family": 0.7551020408163265,
+                "null_abs_rho_median": 0.1677339901477832,
+                "null_abs_rho_95pct": 0.41181132380104024
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.049753694581280775,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.8095238095238095,
+                "p_maxT_predictor_family": 0.9931972789115646,
+                "null_abs_rho_median": 0.14999999999999997,
+                "null_abs_rho_95pct": 0.3549630109418949
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.25221674876847283,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.30612244897959184,
+                "p_maxT_predictor_family": 0.6460674157303371,
+                "null_abs_rho_median": 0.18448275862068964,
+                "null_abs_rho_95pct": 0.4068689081443643
+              },
+              "FeH_mean": {
+                "rho_actual": -0.180295566502463,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.41496598639455784,
+                "p_maxT_predictor_family": 0.8539325842696629,
+                "null_abs_rho_median": 0.15140529686670073,
+                "null_abs_rho_95pct": 0.3601781008600835
+              },
+              "aFe_mean": {
+                "rho_actual": 0.3073891625615763,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.25170068027210885,
+                "p_maxT_predictor_family": 0.34831460674157305,
+                "null_abs_rho_median": 0.2036799688928752,
+                "null_abs_rho_95pct": 0.46194581280788166
+              },
+              "log_source_weight": {
+                "rho_actual": 0.11871921182266006,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.6123595505617978,
+                "p_maxT_predictor_family": 0.8876404494382022,
+                "null_abs_rho_median": 0.1862068965517241,
+                "null_abs_rho_95pct": 0.328291076734104
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.1630541871921182,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.47619047619047616,
+                "p_maxT_predictor_family": 0.7006802721088435,
+                "null_abs_rho_median": 0.1544208415272883,
+                "null_abs_rho_95pct": 0.4064039408866994
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.0817733990147783,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.7551020408163265,
+                "p_maxT_predictor_family": 0.9591836734693877,
+                "null_abs_rho_median": 0.14827586206896548,
+                "null_abs_rho_95pct": 0.3747536945812807
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.000985221674876847,
+                "n_actual": 29,
+                "p_azimuth_rotation": 1.0,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.12426858278497306,
+                "null_abs_rho_95pct": 0.34482758620689646
+              }
+            }
+          },
+          "exclude_five_published_outliers": {
+            "n_pulsars": 24,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.42869565217391303,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.11450381679389313,
+                "p_maxT_predictor_family": 0.15267175572519084,
+                "null_abs_rho_median": 0.2326086956521739,
+                "null_abs_rho_95pct": 0.5116586979823508
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.3139130434782608,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.25190839694656486,
+                "p_maxT_predictor_family": 0.40458015267175573,
+                "null_abs_rho_median": 0.22689340404222705,
+                "null_abs_rho_95pct": 0.4128260869565217
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.1591304347826087,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.5725190839694656,
+                "p_maxT_predictor_family": 0.8320610687022901,
+                "null_abs_rho_median": 0.18826086956521737,
+                "null_abs_rho_95pct": 0.506163749294184
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.24608695652173912,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.2748091603053435,
+                "p_maxT_predictor_family": 0.8132530120481928,
+                "null_abs_rho_median": 0.1926086956521739,
+                "null_abs_rho_95pct": 0.4741794561131493
+              },
+              "FeH_mean": {
+                "rho_actual": -0.35739130434782607,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.16030534351145037,
+                "p_maxT_predictor_family": 0.5542168674698795,
+                "null_abs_rho_median": 0.19652173913043475,
+                "null_abs_rho_95pct": 0.42891003271211464
+              },
+              "aFe_mean": {
+                "rho_actual": 0.5069565217391303,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.1450381679389313,
+                "p_maxT_predictor_family": 0.19879518072289157,
+                "null_abs_rho_median": 0.2426086956521739,
+                "null_abs_rho_95pct": 0.5627826086956521
+              },
+              "log_source_weight": {
+                "rho_actual": 0.03217391304347826,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.9518072289156626,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.25565217391304346,
+                "null_abs_rho_95pct": 0.48747826086956514
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.48173913043478256,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.13740458015267176,
+                "p_maxT_predictor_family": 0.19083969465648856,
+                "null_abs_rho_median": 0.2923546019198193,
+                "null_abs_rho_95pct": 0.5109130434782608
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.3356521739130434,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.3969465648854962,
+                "p_maxT_predictor_family": 0.5419847328244275,
+                "null_abs_rho_median": 0.2660869565217391,
+                "null_abs_rho_95pct": 0.5131775539033736
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.18521739130434778,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.5725190839694656,
+                "p_maxT_predictor_family": 0.8778625954198473,
+                "null_abs_rho_median": 0.2082608695652174,
+                "null_abs_rho_95pct": 0.396598814229249
+              }
+            }
+          },
+          "authors_modified_catalog": {
+            "n_pulsars": 26,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.10017094017094016,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7659574468085106,
+                "p_maxT_predictor_family": 0.9432624113475178,
+                "null_abs_rho_median": 0.1938461538461538,
+                "null_abs_rho_95pct": 0.4297435897435897
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.037948717948717944,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.900709219858156,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.17608004179357228,
+                "null_abs_rho_95pct": 0.41450763715954164
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": -0.0776068376068376,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.8368794326241135,
+                "p_maxT_predictor_family": 0.9858156028368794,
+                "null_abs_rho_median": 0.1733333333333333,
+                "null_abs_rho_95pct": 0.42799999999999966
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.27384615384615385,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.3404255319148936,
+                "p_maxT_predictor_family": 0.5730337078651685,
+                "null_abs_rho_median": 0.21435897435897436,
+                "null_abs_rho_95pct": 0.40011965811965805
+              },
+              "FeH_mean": {
+                "rho_actual": -0.09743589743589742,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7659574468085106,
+                "p_maxT_predictor_family": 0.8820224719101124,
+                "null_abs_rho_median": 0.17264957264957265,
+                "null_abs_rho_95pct": 0.45937368502560827
+              },
+              "aFe_mean": {
+                "rho_actual": 0.19658119658119655,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.49645390070921985,
+                "p_maxT_predictor_family": 0.7696629213483146,
+                "null_abs_rho_median": 0.19282051282051282,
+                "null_abs_rho_95pct": 0.47152136752136753
+              },
+              "log_source_weight": {
+                "rho_actual": 0.12547008547008545,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.4606741573033708,
+                "p_maxT_predictor_family": 0.848314606741573,
+                "null_abs_rho_median": 0.11042735042735041,
+                "null_abs_rho_95pct": 0.3333333333333333
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.08376068376068375,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.75177304964539,
+                "p_maxT_predictor_family": 0.950354609929078,
+                "null_abs_rho_median": 0.15487179487179487,
+                "null_abs_rho_95pct": 0.39514529914529906
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.013333333333333332,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.9787234042553191,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.14652583880447334,
+                "null_abs_rho_95pct": 0.3536068376068372
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": -0.07897435897435896,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6808510638297872,
+                "p_maxT_predictor_family": 0.9645390070921985,
+                "null_abs_rho_median": 0.147008547008547,
+                "null_abs_rho_95pct": 0.43070085470085456
+              }
+            }
+          },
+          "exclude_both_flag_sets": {
+            "n_pulsars": 21,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.3090909090909091,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.4015748031496063,
+                "p_maxT_predictor_family": 0.5196850393700787,
+                "null_abs_rho_median": 0.24826839826839825,
+                "null_abs_rho_95pct": 0.5503246753246753
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.22077922077922077,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.5984251968503937,
+                "p_maxT_predictor_family": 0.8031496062992126,
+                "null_abs_rho_median": 0.26079972658920025,
+                "null_abs_rho_95pct": 0.5183588785573091
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.024675324675324677,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.9133858267716536,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.22987012987012984,
+                "null_abs_rho_95pct": 0.4737012987012986
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.2935064935064935,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.29133858267716534,
+                "p_maxT_predictor_family": 0.6566265060240963,
+                "null_abs_rho_median": 0.2305194805194805,
+                "null_abs_rho_95pct": 0.4103896103896104
+              },
+              "FeH_mean": {
+                "rho_actual": -0.2896103896103896,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.3779527559055118,
+                "p_maxT_predictor_family": 0.6566265060240963,
+                "null_abs_rho_median": 0.2475393028024607,
+                "null_abs_rho_95pct": 0.5642857142857143
+              },
+              "aFe_mean": {
+                "rho_actual": 0.40129870129870127,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.33070866141732286,
+                "p_maxT_predictor_family": 0.40963855421686746,
+                "null_abs_rho_median": 0.31120129870129865,
+                "null_abs_rho_95pct": 0.5623376623376624
+              },
+              "log_source_weight": {
+                "rho_actual": -0.02727272727272727,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.927710843373494,
+                "p_maxT_predictor_family": 0.9939759036144579,
+                "null_abs_rho_median": 0.1948051948051948,
+                "null_abs_rho_95pct": 0.46337662337662333
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.41818181818181815,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.28346456692913385,
+                "p_maxT_predictor_family": 0.33070866141732286,
+                "null_abs_rho_median": 0.30995670995671,
+                "null_abs_rho_95pct": 0.5879870129870131
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.29480519480519485,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.4409448818897638,
+                "p_maxT_predictor_family": 0.6771653543307087,
+                "null_abs_rho_median": 0.2727272727272727,
+                "null_abs_rho_95pct": 0.5542207792207793
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.12077922077922078,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.7401574803149606,
+                "p_maxT_predictor_family": 0.984251968503937,
+                "null_abs_rho_median": 0.22207792207792207,
+                "null_abs_rho_95pct": 0.48311688311688306
+              }
+            }
+          }
+        }
+      },
+      "sigma1.5": {
+        "source_kernel_sigma_kpc": 1.5,
+        "actual_pulsar_R_range_kpc": [
+          6.319793260067927,
+          9.40419589172833
+        ],
+        "actual_phi_range_deg": [
+          162.10861353185794,
+          209.76163648695334
+        ],
+        "actual_source_neff_median": 3703.5313775879113,
+        "actual_source_neff_min": 2701.314922671717,
+        "actual_nearest_source_median_kpc": 0.28002667520384505,
+        "samples": {
+          "all_29": {
+            "n_pulsars": 29,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.338423645320197,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.16666666666666666,
+                "p_maxT_predictor_family": 0.29444444444444445,
+                "null_abs_rho_median": 0.24876847290640386,
+                "null_abs_rho_95pct": 0.380591133004926
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.3054187192118226,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.3111111111111111,
+                "p_maxT_predictor_family": 0.4111111111111111,
+                "null_abs_rho_median": 0.23152709359605908,
+                "null_abs_rho_95pct": 0.3744827586206896
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.09359605911330048,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.7666666666666667,
+                "p_maxT_predictor_family": 0.9722222222222222,
+                "null_abs_rho_median": 0.18325123152709355,
+                "null_abs_rho_95pct": 0.36669087600524003
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.22413793103448273,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.17777777777777778,
+                "p_maxT_predictor_family": 0.95,
+                "null_abs_rho_median": 0.10601915804689861,
+                "null_abs_rho_95pct": 0.30356953391436153
+              },
+              "FeH_mean": {
+                "rho_actual": -0.3073891625615763,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.18333333333333332,
+                "p_maxT_predictor_family": 0.6277777777777778,
+                "null_abs_rho_median": 0.1990147783251231,
+                "null_abs_rho_95pct": 0.38729064039408856
+              },
+              "aFe_mean": {
+                "rho_actual": 0.31231527093596056,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.28888888888888886,
+                "p_maxT_predictor_family": 0.5944444444444444,
+                "null_abs_rho_median": 0.23076923076923078,
+                "null_abs_rho_95pct": 0.44211795051823566
+              },
+              "log_source_weight": {
+                "rho_actual": 0.24433497536945803,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.7277777777777777,
+                "p_maxT_predictor_family": 0.9333333333333333,
+                "null_abs_rho_median": 0.28866995073891616,
+                "null_abs_rho_95pct": 0.4412807881773398
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.25172413793103443,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.49444444444444446,
+                "p_maxT_predictor_family": 0.6,
+                "null_abs_rho_median": 0.247783251231527,
+                "null_abs_rho_95pct": 0.3681773399014777
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.21921182266009848,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.4666666666666667,
+                "p_maxT_predictor_family": 0.7555555555555555,
+                "null_abs_rho_median": 0.212113106772859,
+                "null_abs_rho_95pct": 0.3510837438423645
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.009359605911330046,
+                "n_actual": 29,
+                "p_azimuth_rotation": 0.9666666666666667,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.16699507389162557,
+                "null_abs_rho_95pct": 0.3472906403940886
+              }
+            }
+          },
+          "exclude_five_published_outliers": {
+            "n_pulsars": 24,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.557391304347826,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.07222222222222222,
+                "p_maxT_predictor_family": 0.1,
+                "null_abs_rho_median": 0.3417391304347826,
+                "null_abs_rho_95pct": 0.5699130434782608
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.5104347826086956,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.1590909090909091,
+                "p_maxT_predictor_family": 0.19444444444444445,
+                "null_abs_rho_median": 0.37913043478260866,
+                "null_abs_rho_95pct": 0.5526956521739129
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.23739130434782607,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.5055555555555555,
+                "p_maxT_predictor_family": 0.8888888888888888,
+                "null_abs_rho_median": 0.24,
+                "null_abs_rho_95pct": 0.49878260869565205
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.23304347826086955,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.17777777777777778,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.12,
+                "null_abs_rho_95pct": 0.39747826086956517
+              },
+              "FeH_mean": {
+                "rho_actual": -0.49304347826086947,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.11666666666666667,
+                "p_maxT_predictor_family": 0.5833333333333334,
+                "null_abs_rho_median": 0.3008695652173913,
+                "null_abs_rho_95pct": 0.5348695652173913
+              },
+              "aFe_mean": {
+                "rho_actual": 0.5208695652173913,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.1388888888888889,
+                "p_maxT_predictor_family": 0.43333333333333335,
+                "null_abs_rho_median": 0.3675889328063241,
+                "null_abs_rho_95pct": 0.550733340847964
+              },
+              "log_source_weight": {
+                "rho_actual": 0.21913043478260866,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.7722222222222223,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.44260869565217387,
+                "null_abs_rho_95pct": 0.5758323558624963
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.6052173913043478,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.07777777777777778,
+                "p_maxT_predictor_family": 0.12777777777777777,
+                "null_abs_rho_median": 0.4591304347826086,
+                "null_abs_rho_95pct": 0.6210434782608695
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.528695652173913,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.3125,
+                "p_maxT_predictor_family": 0.3888888888888889,
+                "null_abs_rho_median": 0.4530434782608695,
+                "null_abs_rho_95pct": 0.6451088550926851
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.23826086956521736,
+                "n_actual": 24,
+                "p_azimuth_rotation": 0.5944444444444444,
+                "p_maxT_predictor_family": 0.9388888888888889,
+                "null_abs_rho_median": 0.2895652173913043,
+                "null_abs_rho_95pct": 0.5471304347826086
+              }
+            }
+          },
+          "authors_modified_catalog": {
+            "n_pulsars": 26,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.20547008547008547,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.65,
+                "p_maxT_predictor_family": 0.7888888888888889,
+                "null_abs_rho_median": 0.2423931623931624,
+                "null_abs_rho_95pct": 0.4045811965811965
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.15965811965811963,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6555555555555556,
+                "p_maxT_predictor_family": 0.9166666666666666,
+                "null_abs_rho_median": 0.22735042735042732,
+                "null_abs_rho_95pct": 0.3888547008547008
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": -0.055726495726495726,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.8444444444444444,
+                "p_maxT_predictor_family": 0.9944444444444445,
+                "null_abs_rho_median": 0.18564102564102564,
+                "null_abs_rho_95pct": 0.3975995422893961
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.23692307692307688,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.2388888888888889,
+                "p_maxT_predictor_family": 0.7777777777777778,
+                "null_abs_rho_median": 0.11247863247863246,
+                "null_abs_rho_95pct": 0.3197347042938015
+              },
+              "FeH_mean": {
+                "rho_actual": -0.1282051282051282,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6555555555555556,
+                "p_maxT_predictor_family": 0.9944444444444445,
+                "null_abs_rho_median": 0.1794871794871795,
+                "null_abs_rho_95pct": 0.3695726495726495
+              },
+              "aFe_mean": {
+                "rho_actual": 0.1904273504273504,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6111111111111112,
+                "p_maxT_predictor_family": 0.9111111111111111,
+                "null_abs_rho_median": 0.21435897435897436,
+                "null_abs_rho_95pct": 0.4352820512820512
+              },
+              "log_source_weight": {
+                "rho_actual": 0.2553846153846154,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.4222222222222222,
+                "p_maxT_predictor_family": 0.7222222222222222,
+                "null_abs_rho_median": 0.22119658119658114,
+                "null_abs_rho_95pct": 0.328847582380542
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.1692307692307692,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7444444444444445,
+                "p_maxT_predictor_family": 0.8833333333333333,
+                "null_abs_rho_median": 0.22188034188034186,
+                "null_abs_rho_95pct": 0.3833846153846154
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.14324786324786323,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.6555555555555556,
+                "p_maxT_predictor_family": 0.9277777777777778,
+                "null_abs_rho_median": 0.19589743589743588,
+                "null_abs_rho_95pct": 0.369988051285224
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": -0.06940170940170941,
+                "n_actual": 26,
+                "p_azimuth_rotation": 0.7611111111111111,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.13709401709401706,
+                "null_abs_rho_95pct": 0.36351021924934956
+              }
+            }
+          },
+          "exclude_both_flag_sets": {
+            "n_pulsars": 21,
+            "history_vs_baryonic_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.438961038961039,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.3388888888888889,
+                "p_maxT_predictor_family": 0.4444444444444444,
+                "null_abs_rho_median": 0.34935064935064936,
+                "null_abs_rho_95pct": 0.5974025974025974
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.36883116883116884,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.5294117647058824,
+                "p_maxT_predictor_family": 0.5833333333333334,
+                "null_abs_rho_median": 0.3872983346207417,
+                "null_abs_rho_95pct": 0.5906493506493506
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.062337662337662345,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.9277777777777778,
+                "p_maxT_predictor_family": 0.9888888888888889,
+                "null_abs_rho_median": 0.2714285714285714,
+                "null_abs_rho_95pct": 0.4858441558441558
+              }
+            },
+            "reference_fields_vs_baryonic_residual": {
+              "Age_mean_gyr": {
+                "rho_actual": 0.2753246753246753,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.18888888888888888,
+                "p_maxT_predictor_family": 0.9888888888888889,
+                "null_abs_rho_median": 0.13506493506493505,
+                "null_abs_rho_95pct": 0.35467532467532453
+              },
+              "FeH_mean": {
+                "rho_actual": -0.3168831168831169,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.46111111111111114,
+                "p_maxT_predictor_family": 0.9444444444444444,
+                "null_abs_rho_median": 0.29046033855590786,
+                "null_abs_rho_95pct": 0.5444155844155845
+              },
+              "aFe_mean": {
+                "rho_actual": 0.4077922077922078,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.4166666666666667,
+                "p_maxT_predictor_family": 0.7611111111111111,
+                "null_abs_rho_median": 0.38051948051948054,
+                "null_abs_rho_95pct": 0.5788311688311687
+              },
+              "log_source_weight": {
+                "rho_actual": 0.21688311688311687,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.7944444444444444,
+                "p_maxT_predictor_family": 1.0,
+                "null_abs_rho_median": 0.4051948051948052,
+                "null_abs_rho_95pct": 0.5338485284413202
+              }
+            },
+            "history_vs_standardized_residual": {
+              "deltaR_mean_kpc": {
+                "rho_actual": -0.5376623376623377,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.2833333333333333,
+                "p_maxT_predictor_family": 0.37777777777777777,
+                "null_abs_rho_median": 0.4649478149085501,
+                "null_abs_rho_95pct": 0.6338961038961038
+              },
+              "migration_direction_mean": {
+                "rho_actual": -0.4623376623376624,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.5117647058823529,
+                "p_maxT_predictor_family": 0.6222222222222222,
+                "null_abs_rho_median": 0.46753246753246747,
+                "null_abs_rho_95pct": 0.6503896103896103
+              },
+              "Rbirth_mean_kpc": {
+                "rho_actual": 0.13636363636363635,
+                "n_actual": 21,
+                "p_azimuth_rotation": 0.8111111111111111,
+                "p_maxT_predictor_family": 0.9777777777777777,
+                "null_abs_rho_median": 0.30129870129870134,
+                "null_abs_rho_95pct": 0.541038961038961
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "history_consistency": {
+    "Rbirth_mean_kpc": {
+      "n_tests": 16,
+      "n_maxT_lt_0p05": 0,
+      "n_rotation_lt_0p05": 0,
+      "positive_rho_fraction": 0.875,
+      "negative_rho_fraction": 0.125,
+      "min_p_maxT": 0.15625,
+      "rho_range": [
+        -0.0776068376068376,
+        0.5095652173913043
+      ]
+    },
+    "deltaR_mean_kpc": {
+      "n_tests": 16,
+      "n_maxT_lt_0p05": 2,
+      "n_rotation_lt_0p05": 3,
+      "positive_rho_fraction": 0.0,
+      "negative_rho_fraction": 1.0,
+      "min_p_maxT": 0.0078125,
+      "rho_range": [
+        -0.6217391304347826,
+        -0.10017094017094016
+      ]
+    },
+    "migration_direction_mean": {
+      "n_tests": 16,
+      "n_maxT_lt_0p05": 1,
+      "n_rotation_lt_0p05": 2,
+      "positive_rho_fraction": 0.0,
+      "negative_rho_fraction": 1.0,
+      "min_p_maxT": 0.005555555555555556,
+      "rho_range": [
+        -0.6469565217391303,
+        -0.037948717948717944
+      ]
+    }
+  },
+  "decision_rule": "A persistence-compatible precursor is not accepted unless one predeclared history predictor survives family-wise maxT azimuth-rotation correction with the same correlation sign across both coordinate handedness choices, both kernel scales, and the published outlier-sensitivity samples. A signal that appears only in the all-pulsar or only in a cleaned subset is not accepted.",
+  "guardrail": "The MWM birth-radius field is an inferred age/metallicity-based source-history proxy, not a measured trajectory/current history. Source-density selection effects are retained as an explicit reference field. The direct pulsar acceleration observable is independent of the MWM source population, but the pulsar catalog contains known heavy-tailed nuisance acceleration."
+}
