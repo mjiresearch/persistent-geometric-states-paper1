@@ -1,0 +1,43 @@
+name: Analyze Milky Way Stage 7B Table A1 Minimum-Information History
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/analyze_milky_way_stage7b_tableA1_mininfo_history.py'
+      - '.github/workflows/analyze-milky-way-stage7b-tableA1-mininfo.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: milky-way-stage7b-tableA1-mininfo
+  cancel-in-progress: true
+
+jobs:
+  stage7b:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install numpy pandas
+      - name: Run Stage 7B
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage7b_tableA1_mininfo_history
+          set +e
+          python scripts/analyze_milky_way_stage7b_tableA1_mininfo_history.py > data/persistence_history/milky_way_stage7b_tableA1_mininfo_history/run_output.txt 2>&1
+          code=$?
+          echo $code > data/persistence_history/milky_way_stage7b_tableA1_mininfo_history/exit_code.txt
+          cat data/persistence_history/milky_way_stage7b_tableA1_mininfo_history/run_output.txt
+          exit 0
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage7b_tableA1_mininfo_history
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 7B minimum-information history results'
+          git pull --rebase origin main
+          git push
