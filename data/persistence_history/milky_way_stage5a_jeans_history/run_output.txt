@@ -1,9 +1,9 @@
 Traceback (most recent call last):
-  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage5a_jeans_history.py", line 265, in <module>
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage5a_jeans_history.py", line 261, in <module>
     main()
-  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage5a_jeans_history.py", line 198, in main
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage5a_jeans_history.py", line 194, in main
     moments, sign, stress_slope = radial_moments(stars, zcut)
                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage5a_jeans_history.py", line 143, in radial_moments
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage5a_jeans_history.py", line 140, in radial_moments
     raise RuntimeError(f'Insufficient radial Jeans bins for zcut={zcut}: {len(m)}')
 RuntimeError: Insufficient radial Jeans bins for zcut=0.3: 2
