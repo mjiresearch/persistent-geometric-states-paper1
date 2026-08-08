@@ -102,10 +102,8 @@ def prepare_disk(d, zcut):
         q[c] = pd.to_numeric(q[c], errors='coerce')
     q = q[np.isfinite(q[['R_gal','Z_gal','Vr_gal','Vphi_gal','Vz_gal']]).all(axis=1)].copy()
     q = q[q['R_gal'].between(4.75, 10.75) & q['Z_gal'].abs().le(zcut)].copy()
-    # Standardize the rotation sign so the dominant disk population is prograde-positive.
     sign = -1.0 if np.nanmedian(q['Vphi_gal']) < 0 else 1.0
     q['Vphi_pro'] = sign * q['Vphi_gal']
-    # Remove obvious halo/runaway contamination while retaining a broad disk population.
     q = q[q['Vphi_pro'].between(100, 320) & q['Vr_gal'].abs().le(180) & q['Vz_gal'].abs().le(150)].copy()
     q['R_kpc'] = np.floor((q['R_gal'] + 0.25) / 0.5) * 0.5
     return q, sign
@@ -120,7 +118,6 @@ def radial_moments(d, zcut):
         vr = g['Vr_gal'].to_numpy(float)
         vp = g['Vphi_pro'].to_numpy(float)
         vz = g['Vz_gal'].to_numpy(float)
-        # 4-sigma clipping around robust medians, then classical moments for Jeans equation.
         keep = np.ones(len(g), bool)
         for arr in (vr, vp, vz):
             med = np.nanmedian(arr); mad = 1.4826 * np.nanmedian(np.abs(arr - med))
@@ -141,7 +138,6 @@ def radial_moments(d, zcut):
     m = pd.DataFrame(rows).sort_values('R_kpc')
     if len(m) < 8:
         raise RuntimeError(f'Insufficient radial Jeans bins for zcut={zcut}: {len(m)}')
-    # Smooth stress gradient: ln sigma_R^2 = a + b R. This is equivalent to an exponential stress scale.
     x = m['R_kpc'].to_numpy(float)
     y = np.log(np.square(m['sigma_R_kms'].to_numpy(float)))
     w = np.sqrt(m['n'].to_numpy(float))
@@ -263,3 +259,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+# workflow trigger 2026-08-08
