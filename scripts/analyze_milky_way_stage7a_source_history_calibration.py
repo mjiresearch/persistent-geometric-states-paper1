@@ -28,11 +28,8 @@ def trapz(y, x, axis=-1):
 
 
 def normalized_model_terms():
-    # Eq. 10 and Eq. 12: p(R0) includes the cylindrical 2*pi*R0 Jacobian.
     p_r0 = R0 * np.exp(-R0 / RD)
     p_r0 /= trapz(p_r0, R0)
-
-    # Eq. 11. The exp(-tau_m/tau_SFR) term cancels in the R0-dependent normalization.
     A = (1.0 - X_IO * R0 / 8.0) / TAU_SFR
     I = np.empty_like(A)
     nz = np.abs(A) > 1e-10
@@ -92,7 +89,6 @@ def migrated_cdf(radius, tlook):
     if tlook >= TAU_M:
         return np.nan
     tt = np.linspace(float(tlook), TAU_M, 320)
-    # Integrand is over birth radius and birth lookback time.
     sf = sfh_tau_r0(tt)
     elapsed = tt - float(tlook)
     sigma = SIGMA_RM7 * np.sqrt(np.maximum(elapsed, 0.0) / 7.0)
@@ -127,42 +123,29 @@ def model_at_lookback(t):
 
 def main():
     rat = pd.read_csv(RAT).sort_values('lookback_time_gyr').copy()
-    # Cross-model comparison is restricted to the Frankel low-alpha trusted age domain.
     common = rat[rat['lookback_time_gyr'] < TAU_M].copy()
     model_rows = [model_at_lookback(t) for t in common['lookback_time_gyr']]
     mod = pd.DataFrame(model_rows)
     j = common.merge(mod, on='lookback_time_gyr', how='inner')
-
     near_mass = float(j.iloc[0]['stellar_mass_1e10_msun'])
-    near_t = float(j.iloc[0]['lookback_time_gyr'])
     j['ratcliffe_mass_fraction_relative_to_first_common_epoch'] = j['stellar_mass_1e10_msun'] / near_mass
     j['frankel_mass_fraction_relative_to_first_common_epoch'] = j['frankel_mass_fraction_of_present_lowalpha'] / float(j.iloc[0]['frankel_mass_fraction_of_present_lowalpha'])
-    # Convert Ratcliffe SFR to fraction of the near-present tabulated stellar mass per Gyr.
     j['ratcliffe_sfr_fraction_per_gyr_using_near_mass'] = j['SFR_msun_per_yr'] * 1e9 / (near_mass * 1e10)
-
-    j['current_size_fractional_offset_frankel_minus_ratcliffe'] = (
-        j['frankel_Rhalf_migrated_at_epoch_kpc'] / j['Reff_current_radius_kpc'] - 1.0
-    )
-    j['birth_size_fractional_offset_frankel_minus_ratcliffe'] = (
-        j['frankel_Rhalf_birth_kpc'] / j['Reff_birth_radius_kpc'] - 1.0
-    )
+    j['current_size_fractional_offset_frankel_minus_ratcliffe'] = j['frankel_Rhalf_migrated_at_epoch_kpc'] / j['Reff_current_radius_kpc'] - 1.0
+    j['birth_size_fractional_offset_frankel_minus_ratcliffe'] = j['frankel_Rhalf_birth_kpc'] / j['Reff_birth_radius_kpc'] - 1.0
     j['ratcliffe_current_size_normalized'] = j['Reff_current_radius_kpc'] / float(j.iloc[0]['Reff_current_radius_kpc'])
     j['frankel_migrated_size_normalized'] = j['frankel_Rhalf_migrated_at_epoch_kpc'] / float(j.iloc[0]['frankel_Rhalf_migrated_at_epoch_kpc'])
     j['ratcliffe_birth_size_normalized'] = j['Reff_birth_radius_kpc'] / float(j.iloc[0]['Reff_birth_radius_kpc'])
     j['frankel_birth_size_normalized'] = j['frankel_Rhalf_birth_kpc'] / float(j.iloc[0]['frankel_Rhalf_birth_kpc'])
     j.to_csv(OUT / 'ratcliffe2026_frankel2019_common_epoch_comparison.csv', index=False)
 
-    # Dense Frankel history is source-side output only; no force data enter here.
     dense_times = np.concatenate([np.arange(0.0, 7.01, 0.5), np.array([7.4])])
     dense = pd.DataFrame([model_at_lookback(t) for t in dense_times])
     dense.to_csv(OUT / 'frankel2019_reconstructed_lowalpha_history.csv', index=False)
 
-    # Internal reproduction of Frankel's published half-mass result.
     present = model_at_lookback(0.0)
     early = model_at_lookback(7.4)
     growth_pct = 100.0 * (present['frankel_Rhalf_migrated_at_epoch_kpc'] / early['frankel_Rhalf_migrated_at_epoch_kpc'] - 1.0)
-
-    # Source-side comparison metrics are descriptive, not a refit.
     rms_current_norm = float(np.sqrt(np.mean((j['frankel_migrated_size_normalized'] - j['ratcliffe_current_size_normalized'])**2)))
     rms_birth_norm = float(np.sqrt(np.mean((j['frankel_birth_size_normalized'] - j['ratcliffe_birth_size_normalized'])**2)))
     mass_rel_oldest = float(j.iloc[-1]['frankel_mass_fraction_relative_to_first_common_epoch'])
@@ -176,14 +159,10 @@ def main():
         'mass while Ratcliffe already has most of the disc mass assembled. The Frankel operator may therefore be retained only as a late low-alpha '
         'redistribution component inside a future multi-component source-history model.'
     )
-
     report = {
         'analysis_name': 'Milky Way Stage 7A source-side Frankel2019 versus Ratcliffe2026 history calibration',
         'force_or_pulsar_data_used': False,
-        'frankel_fixed_parameters': {
-            'x': X_IO, 'tau_SFR_gyr': TAU_SFR, 'tau_m_gyr': TAU_M,
-            'Rd_kpc': RD, 'sigma_RM7_kpc': SIGMA_RM7,
-        },
+        'frankel_fixed_parameters': {'x':X_IO,'tau_SFR_gyr':TAU_SFR,'tau_m_gyr':TAU_M,'Rd_kpc':RD,'sigma_RM7_kpc':SIGMA_RM7},
         'common_lookback_epochs_gyr': j['lookback_time_gyr'].tolist(),
         'internal_frankel_reproduction': {
             'model_present_migrated_half_mass_radius_kpc': present['frankel_Rhalf_migrated_at_epoch_kpc'],
@@ -191,7 +170,7 @@ def main():
             'model_7p4Gyr_migrated_half_mass_radius_kpc': early['frankel_Rhalf_migrated_at_epoch_kpc'],
             'paper_early_half_mass_radius_kpc_approx': 4.2,
             'model_size_growth_percent_7p4Gyr_to_present': growth_pct,
-            'paper_size_growth_percent_approx': 43.0,
+            'paper_size_growth_percent_approx': 43.0
         },
         'cross_model_metrics': {
             'rms_difference_normalized_current_size_track': rms_current_norm,
@@ -201,14 +180,10 @@ def main():
             'ratcliffe_mass_fraction_relative_to_0p7Gyr_at_oldest_common_epoch': rat_mass_rel_oldest,
             'recent_0p7Gyr_specific_SFR_ratio_frankel_over_ratcliffe': recent_sfr_ratio,
             'median_absolute_current_size_offset_fraction': float(np.median(np.abs(j['current_size_fractional_offset_frankel_minus_ratcliffe']))),
-            'median_absolute_birth_size_offset_fraction': float(np.median(np.abs(j['birth_size_fractional_offset_frankel_minus_ratcliffe']))),
+            'median_absolute_birth_size_offset_fraction': float(np.median(np.abs(j['birth_size_fractional_offset_frankel_minus_ratcliffe'])))
         },
         'verdict': verdict,
-        'stage7_use_rule': (
-            'Do not use Frankel2019 as the Milky Way total baryonic source history in a persistence-force test. It can be used only as a low-alpha, '
-            'late-time radial redistribution kernel if an independently reconstructed early/high-alpha mass history is supplied. No pulsar residual '
-            'correlation may be evaluated from this Stage 7A calibration.'
-        ),
+        'stage7_use_rule': 'Do not use Frankel2019 as the Milky Way total baryonic source history in a persistence-force test. It can be used only as a low-alpha, late-time radial redistribution kernel if an independently reconstructed early/high-alpha mass history is supplied. No pulsar residual correlation may be evaluated from this Stage 7A calibration.',
         'guardrails': [
             'Frankel2019 models the low-alpha disk and explicitly treats tau_m as the maximum trusted model age, not the age of the full disk.',
             'Ratcliffe2026 Table A.1 is an all-disc reconstruction with orbit-superposition mass weights and therefore is not expected to match Frankel in absolute size normalization.',
@@ -222,3 +197,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+# workflow trigger 2026-08-08
