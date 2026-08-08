@@ -23,8 +23,6 @@ def main():
     with fits.open(TMP,memmap=False) as hdul:
         tab=hdul[1].data
         names=list(tab.names)
-        lower={n.lower():n for n in names}
-        # Identify temperature field robustly.
         t_candidates=[n for n in names if n.lower() in {'teff','t_eff','bossnet_teff'} or ('teff' in n.lower() and 'err' not in n.lower() and not n.lower().startswith('e_'))]
         if not t_candidates: raise RuntimeError(f'No Teff-like column found. Columns: {names}')
         tcol=t_candidates[0]
@@ -36,12 +34,10 @@ def main():
         for n in names:
             nl=n.lower()
             if any(k in nl for k in keys): wanted.append(n)
-        # de-duplicate preserving order
         wanted=list(dict.fromkeys(wanted))
         out={}
         for n in wanted:
             arr=tab[n][idx]
-            # Decode byte strings for pandas.
             if getattr(arr.dtype,'kind',None)=='S': arr=np.char.decode(arr,'utf-8',errors='ignore')
             try: out[n]=arr
             except Exception: pass
@@ -65,3 +61,4 @@ def main():
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__': main()
+# workflow trigger 2026-08-08
