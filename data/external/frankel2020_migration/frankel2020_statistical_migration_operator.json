@@ -1,0 +1,59 @@
+{
+  "source": {
+    "title": "Keeping It Cool: Much Orbit Migration, yet Little Heating, in the Galactic Disk",
+    "authors": ["Neige Frankel", "Jason Sanders", "Yuan-Sen Ting", "Hans-Walter Rix"],
+    "journal": "The Astrophysical Journal",
+    "volume": 896,
+    "article": 15,
+    "year": 2020,
+    "doi": "10.3847/1538-4357/ab910c",
+    "arxiv": "2002.04622"
+  },
+  "population": {
+    "description": "Milky Way low-alpha disk, fit to APOGEE DR14 red-clump stars with Gaia DR2 phase-space information",
+    "radial_coverage_kpc_approx": [4.0, 13.0],
+    "maximum_age_tau_m_gyr_in_fitted_model": 6.0
+  },
+  "angular_momentum_diffusion": {
+    "equation": "p(Lz | Lz0, tau) proportional to exp(-(Lz-Lz0-D*tau)^2 / (2*sigma_Lz^2*tau/tau_m)), normalized for Lz>0",
+    "interpretation": "global effective diffusion in angular momentum; coefficients assumed independent of Lz and sigma independent of time",
+    "sigma_Lz_table1_kpc_km_s": 582.0,
+    "sigma_Lz_text_bestfit_kpc_km_s": 567.0,
+    "derived_rms_delta_Lz_kpc_km_s": "619 * sqrt(tau/6 Gyr)",
+    "derived_migration_distance_kpc": "approximately 2.6 * sqrt(tau/6 Gyr) for vcirc about 235 km/s",
+    "earlier_Frankel2018_total_orbit_migration_scale_kpc": "approximately 3.6 * sqrt(tau/8 Gyr), combining churning and blurring"
+  },
+  "birth_and_sfh_model": {
+    "birth_scale_length_Rd0_kpc": 2.8,
+    "inside_out_coefficient_xio": 0.65,
+    "SFR_timescale_gyr": 1.0,
+    "maximum_age_tau_m_gyr": 6.0
+  },
+  "radial_heating": {
+    "beta": 0.3,
+    "sigma_vR0_km_s": 49.0,
+    "R_sigma_R_kpc": 19.0,
+    "derived_rms_delta_JR_kpc_km_s": "63 * (tau/6 Gyr)^0.6 at about 8 kpc"
+  },
+  "chemical_model": {
+    "gamma_FeH": 0.456,
+    "present_radial_gradient_dex_per_kpc": -0.0936,
+    "central_max_FeH_dex": 0.7
+  },
+  "stage7_use": {
+    "status": "candidate statistical source-history evolution operator, not an individual-star trajectory product",
+    "permitted_use": "Can propagate a birth angular-momentum/radius population probabilistically through time within the model's low-alpha and approximate age/radius validity domain.",
+    "not_permitted_without_new_justification": [
+      "Treating a diffusion realization as the literal trajectory of an individual observed star",
+      "Extrapolating the calibrated law unchanged to the oldest high-alpha disk beyond the approximately 6 Gyr fitted age domain",
+      "Using it as an azimuthal or resonance-resolved history",
+      "Interpreting it as a baryonic current-history J_b(x,t), because the model is one-dimensional in angular momentum and does not supply phi(t), z(t), or velocity-current history"
+    ]
+  },
+  "key_caveats_from_paper": [
+    "Migration is inferred indirectly through age-metallicity-dynamics structure under a tight birth chemistry assumption.",
+    "The diffusion coefficient is treated as a global mean and is not allowed to vary with radius or time.",
+    "The migration and heating prescriptions are treated separately although real perturbations can couple them.",
+    "The paper explicitly notes that the model lacks the full source term inside the diffusion equation and models star formation separately."
+  ]
+}
