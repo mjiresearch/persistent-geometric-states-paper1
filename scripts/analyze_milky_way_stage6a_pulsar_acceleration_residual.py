@@ -102,7 +102,6 @@ def los_prediction(pot, rb, rsun, ro, vo):
     rhat = dr / dist
     ab = accel_xyz(pot, *rb, ro, vo)
     asun = accel_xyz(pot, *rsun, ro, vo)
-    # Moran Eq. 4 is the difference in gravitational acceleration projected along Earth->pulsar LOS.
     return float(np.dot(ab - asun, rhat))
 
 
@@ -112,7 +111,6 @@ def moran_linear_prediction(rb, rsun):
     if dist <= 0:
         return np.nan
     rhat = dr / dist
-    # Their Eq. 5 models the local differential acceleration vector in x and z.
     avec = np.array([MORAN_AX_PRIME * dr[0], 0.0, MORAN_AZ_PRIME * dr[2]], float)
     return float(np.dot(avec, rhat))
 
@@ -178,7 +176,6 @@ def main():
             'mcmillan17_full_baryons_plus_nfw': {k: robust_summary(obs, pt, sig, m) for k,m in masks.items()},
         }
 
-    # Sun-position sensitivity of the baryonic residual on non-outlier pulsars.
     clean_label = 'exclude_both_flag_sets'
     sensitivity = []
     for label in configs:
@@ -192,7 +189,6 @@ def main():
         })
 
     if primary_table is not None:
-        # Rank the clean pulsars by how strongly they prefer a residual beyond baryons.
         q = primary_table[(primary_table.model_outlier_ge3sigma == 0) & (primary_table.modified_catalog_excluded == 0)].copy()
         q['abs_zresid_baryon'] = np.abs(q['zresid_baryon'])
         q.sort_values('abs_zresid_baryon', ascending=False).to_csv(OUT/'primary_clean_pulsars_ranked_by_baryon_residual.csv', index=False)
@@ -230,3 +226,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+# force trigger 2026-08-08
