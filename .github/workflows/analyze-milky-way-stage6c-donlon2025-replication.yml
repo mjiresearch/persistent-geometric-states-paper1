@@ -1,0 +1,43 @@
+name: Analyze Milky Way Stage 6C Donlon 2025 Replication
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/analyze_milky_way_stage6c_donlon2025_replication.py'
+      - '.github/workflows/analyze-milky-way-stage6c-donlon2025-replication.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: milky-way-stage6c-donlon2025-replication
+  cancel-in-progress: true
+
+jobs:
+  stage6c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install numpy pandas scipy galpy
+      - name: Run Stage 6C
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage6c_donlon2025_replication
+          set +e
+          python scripts/analyze_milky_way_stage6c_donlon2025_replication.py > data/persistence_history/milky_way_stage6c_donlon2025_replication/run_output.txt 2>&1
+          code=$?
+          echo $code > data/persistence_history/milky_way_stage6c_donlon2025_replication/exit_code.txt
+          cat data/persistence_history/milky_way_stage6c_donlon2025_replication/run_output.txt
+          exit 0
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage6c_donlon2025_replication
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 6C frozen replication results'
+          git pull --rebase origin main
+          git push
