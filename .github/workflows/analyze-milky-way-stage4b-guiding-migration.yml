@@ -1,0 +1,40 @@
+name: Analyze Milky Way Stage 4B Guiding Migration
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/analyze_milky_way_stage4b_guiding_migration.py'
+      - '.github/workflows/analyze-milky-way-stage4b-guiding-migration.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  stage4b:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pandas scipy pyarrow
+          pip install git+https://github.com/BridgetRatcliffe/Rbirth.git
+      - name: Run and archive Stage 4B
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage4b_guiding_migration
+          set +e
+          python scripts/analyze_milky_way_stage4b_guiding_migration.py > data/persistence_history/milky_way_stage4b_guiding_migration/run_output.txt 2>&1
+          code=$?
+          echo "$code" > data/persistence_history/milky_way_stage4b_guiding_migration/exit_code.txt
+          cat data/persistence_history/milky_way_stage4b_guiding_migration/run_output.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage4b_guiding_migration
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 4B guiding-migration results'
+          git push
+          exit $code
