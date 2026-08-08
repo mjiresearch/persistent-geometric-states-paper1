@@ -1,14 +1,14 @@
-/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:60: RuntimeWarning: All-NaN slice encountered
-  maxnull=np.nanmax(null,axis=1)
-/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:30: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:49: RuntimeWarning: All-NaN slice encountered
+  obs=rhos[0].copy();null=np.abs(rhos[1:]);tests={};maxnull=np.nanmax(null,axis=1)
+/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:29: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
   r,_=spearmanr(x[m],y[m]);return float(r),int(m.sum())
-/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:30: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:29: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
   r,_=spearmanr(x[m],y[m]);return float(r),int(m.sum())
-/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:60: RuntimeWarning: All-NaN slice encountered
-  maxnull=np.nanmax(null,axis=1)
-/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:30: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:49: RuntimeWarning: All-NaN slice encountered
+  obs=rhos[0].copy();null=np.abs(rhos[1:]);tests={};maxnull=np.nanmax(null,axis=1)
+/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:29: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
   r,_=spearmanr(x[m],y[m]);return float(r),int(m.sum())
-/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:30: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_milky_way_stage6b_pulsar_source_history_alignment.py:29: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
   r,_=spearmanr(x[m],y[m]);return float(r),int(m.sum())
 {
   "analysis_name": "Milky Way Stage 6B direct pulsar acceleration residual versus local MWM source-history field",
