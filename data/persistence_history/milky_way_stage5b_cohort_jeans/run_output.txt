@@ -1,0 +1,77 @@
+{
+  "analysis_name": "Milky Way Stage 5B homogeneous-cohort radial Jeans screen",
+  "cohorts": [
+    "low_alpha",
+    "midage_low_alpha",
+    "solar_metal_low_alpha"
+  ],
+  "z_cuts": [
+    1.0,
+    1.5
+  ],
+  "hnu": [
+    2.0,
+    2.5,
+    3.0,
+    3.5
+  ],
+  "results": {
+    "low_alpha": {
+      "z1.0": {
+        "n_bins": 6,
+        "sign": -1.0,
+        "sanity": {
+          "pass": false,
+          "reason": "fewer than 8 radial bins"
+        }
+      },
+      "z1.5": {
+        "n_bins": 6,
+        "sign": -1.0,
+        "sanity": {
+          "pass": false,
+          "reason": "fewer than 8 radial bins"
+        }
+      }
+    },
+    "midage_low_alpha": {
+      "z1.0": {
+        "n_bins": 6,
+        "sign": -1.0,
+        "sanity": {
+          "pass": false,
+          "reason": "fewer than 8 radial bins"
+        }
+      },
+      "z1.5": {
+        "n_bins": 6,
+        "sign": -1.0,
+        "sanity": {
+          "pass": false,
+          "reason": "fewer than 8 radial bins"
+        }
+      }
+    },
+    "solar_metal_low_alpha": {
+      "z1.0": {
+        "n_bins": 4,
+        "sign": -1.0,
+        "sanity": {
+          "pass": false,
+          "reason": "fewer than 8 radial bins"
+        }
+      },
+      "z1.5": {
+        "n_bins": 4,
+        "sign": -1.0,
+        "sanity": {
+          "pass": false,
+          "reason": "fewer than 8 radial bins"
+        }
+      }
+    }
+  },
+  "history_consistency_valid_scenarios": {},
+  "acceptance_rule": "Interpret only cohorts with >=8 radial bins and smooth sigma_R; history then must survive maxT with stable sign across hnu, zcut, cohort and both baryonic decompositions.",
+  "guardrail": "Axisymmetric radial Jeans with imposed tracer scale length and omitted tilt term; cohorting reduces population-mixing bias but does not replace a full selection-function-corrected 3D Jeans analysis."
+}
