@@ -1,0 +1,58 @@
+{
+  "analysis_name": "Milky Way Stage 4E independent young-tracer response to source-history map",
+  "raw_bossnet_hot_rows": 15660,
+  "quality_6d_disk_rows": 7110,
+  "coordinate_model": {
+    "galcen_distance_kpc": 8.2,
+    "z_sun_kpc": 0.025,
+    "galcen_v_sun_cartesian_kms": [
+      11.0,
+      232.24,
+      7.25
+    ],
+    "note": "Vphi sign standardized so median prograde disk rotation is positive; inference uses within-cell anomalies."
+  },
+  "general_disk_sample": {
+    "young_stars": 7025,
+    "young_cells_n_ge5": 111,
+    "joined_source_history_cells": 13,
+    "R_range_joined_kpc": [
+      8.0,
+      12.5
+    ],
+    "unadjusted": {
+      "n_cells": 13,
+      "tests": {}
+    },
+    "source_age_chemistry_adjusted": {
+      "n_cells": 13,
+      "tests": {}
+    },
+    "age_only_reference": {
+      "n_cells": 13,
+      "tests": {}
+    }
+  },
+  "cold_near_circular_sample": {
+    "young_stars": 6547,
+    "young_cells_n_ge5": 103,
+    "joined_source_history_cells": 11,
+    "R_range_joined_kpc": [
+      8.0,
+      12.5
+    ],
+    "unadjusted": {
+      "n_cells": 11,
+      "tests": {}
+    },
+    "source_age_chemistry_adjusted": {
+      "n_cells": 11,
+      "tests": {}
+    },
+    "age_only_reference": {
+      "n_cells": 11,
+      "tests": {}
+    }
+  },
+  "primary_interpretation_rule": "The strongest persistence-compatible precursor would be a source-history predictor that survives within-R-|z| permutation, source age/FeH/aFe adjustment, family-wise maxT correction, and appears with a consistent sign in both the general and cold young-tracer samples. Young-star Vphi^2/R is only a circular-acceleration proxy, not a full local force measurement; Vr/Vz streaming and standard bar/spiral dynamics remain required controls."
+}
