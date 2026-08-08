@@ -1,0 +1,44 @@
+{
+  "analysis_name": "Milky Way Stage 7B minimum-information source-history sufficiency test from Ratcliffe2026 Table A.1",
+  "force_or_pulsar_data_used": false,
+  "construction": {
+    "assumption": "At each published epoch, approximate the cumulative stellar mass distribution in birth-radius coordinates as a 2D exponential disk with total mass Mstar(t) and half-mass radius equal to published Reff_birth(t).",
+    "scale_length_rule": "Rd = Reff_birth / 1.67834699",
+    "increment_rule": "Newly assembled birth-radius profile over an interval = younger cumulative exponential profile minus older cumulative exponential profile.",
+    "physical_requirement": "A literal newly formed stellar-mass profile must be nonnegative at every radius. Negative differences diagnose insufficiency/inconsistency of reconstructing the full spatial SFH from Mstar+Reff alone, not negative star formation."
+  },
+  "n_epochs": 10,
+  "n_intervals": 9,
+  "intervals_with_negative_abs_change_fraction_gt5pct": 1,
+  "intervals_with_negative_mass_gt10pct_of_net_growth": 0,
+  "maximum_negative_fraction_of_abs_profile_change": 0.06827356478565484,
+  "maximum_negative_mass_over_net_growth": 0.07907040108831666,
+  "median_negative_fraction_of_abs_profile_change": 0.0,
+  "median_growth_rate_over_mean_endpoint_SFR": 0.5438320382989595,
+  "worst_interval_by_negative_fraction": {
+    "older_lookback_gyr": 3.03,
+    "younger_lookback_gyr": 0.7,
+    "interval_gyr": 2.33,
+    "older_mass_1e10_msun": 4.57,
+    "younger_mass_1e10_msun": 4.77,
+    "net_mass_growth_1e10_msun": 0.19999999999999923,
+    "net_mass_growth_rate_msun_per_yr": 0.858369098712443,
+    "mean_endpoint_published_SFR_msun_per_yr": 3.02,
+    "growth_rate_over_endpoint_SFR": 0.28422817838160364,
+    "positive_increment_mass_1e10_msun": 0.2154140819672896,
+    "negative_increment_abs_mass_1e10_msun": 0.015784769783367496,
+    "negative_fraction_of_abs_profile_change": 0.06827356478565484,
+    "negative_mass_over_net_growth": 0.07907040108831666,
+    "positive_increment_half_mass_radius_kpc": 7.33467605735396,
+    "zero_crossing_radii_kpc": "2.075",
+    "older_birth_Reff_kpc": 3.69,
+    "younger_birth_Reff_kpc": 3.84
+  },
+  "verdict": "TABLE_A1_SUMMARIES_ARE_INSUFFICIENT_FOR_A_UNIQUE_PHYSICAL_SPATIAL_SFH",
+  "interpretation": "The test is deliberately source-side only. Even if every exponential difference were nonnegative, Table A.1 would still encode only an axisymmetric radial mass history and would not provide the azimuthal/current history required by the persistence framework. If appreciable negative increments occur, the actual mass-weighted Rbirth-by-time arrays are required before constructing a physical hereditary source field.",
+  "guardrails": [
+    "Mstar is the paper's tabulated stellar mass at each epoch; interval mass growth is not identical to initial mass formed because stellar mass loss and endpoint-vs-interval SFR definitions differ.",
+    "An exponential profile is the maximum-information compression chosen only to test sufficiency of Mstar+Reff; it is not claimed to be the authors' actual reconstructed radial profile.",
+    "No force, pulsar residual, kernel lifetime, or persistence parameter is used or fit."
+  ]
+}
