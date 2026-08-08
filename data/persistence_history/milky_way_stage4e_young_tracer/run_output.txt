@@ -54,5 +54,5 @@
       "tests": {}
     }
   },
-  "primary_interpretation_rule": "The strongest persistence-compatible precursor would be a source-history predictor that survives within-R-|z| permutation, source age/FeH/aFe adjustment, family-wise maxT correction, and appears with a consistent sign in both the general and cold young-tracer samples. Young-star Vphi^2/R is only a circular-acceleration proxy, not a full local force measurement; Vr/Vz streaming and standard bar/spiral dynamics remain required controls."
+  "primary_interpretation_rule": "Primary weight: source-history predictor survives within-R-|z| permutation, source age/FeH/aFe adjustment, family-wise maxT correction, and has consistent sign in general and cold independent young-tracer samples. Vphi^2/R is an acceleration proxy, not a full force measurement."
 }
