@@ -1,0 +1,33 @@
+name: Fetch Dantas birth-radius catalogue
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/fetch_dantas_birth_radii.py'
+      - '.github/workflows/fetch-dantas-birth-radii.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install pandas pyarrow requests
+      - name: Fetch and crossmatch catalogue
+        run: python scripts/fetch_dantas_birth_radii.py
+      - name: Commit outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/external/dantas_birth_radii
+          if ! git diff --cached --quiet; then
+            git commit -m 'Ingest Dantas birth-radius catalogue'
+            git push
+          fi
