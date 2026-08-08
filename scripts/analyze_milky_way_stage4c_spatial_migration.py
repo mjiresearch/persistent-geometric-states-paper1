@@ -122,7 +122,7 @@ def main() -> None:
         for y in kin_anom:
             tests[p][y]=within_rz_perm(cells,p,y) if not cells.empty else {'n_cells':0}
 
-    # Matched-cell old-vs-young-style directional comparison at fixed present R,|z|.
+    # Matched-cell directional comparison at fixed present R,|z|.
     direction_summary={}
     if not cells.empty:
         for frac in ['outward_guide_fraction_gt1','inward_guide_fraction_gt1']:
@@ -136,7 +136,6 @@ def main() -> None:
                 'mean_Vphi_anom_high':float(hi['Vphi_median_kms_anom'].mean()) if len(hi) else None,
             }
 
-    # Keep only compact selected star columns.
     star_keep=['source_id','APOGEE_ID','R_gal','Z_gal','R_bin_kpc','absZ_bin_kpc','phi_bin_deg','Vr_gal','Vphi_gal','Vz_gal',
                'Rbirth_kpc','Rguide_kpc','deltaR_guide_kpc','outward_gt1','inward_gt1','Age','age','FeH','feh']
     j[star_keep].to_csv(OUT/'rbirth_mwm_exact_crossmatch.csv.gz',index=False,compression='gzip')
