@@ -1,0 +1,43 @@
+{
+  "analysis_name": "Milky Way Stage 7A source-side Frankel2019 versus Ratcliffe2026 history calibration",
+  "force_or_pulsar_data_used": false,
+  "frankel_fixed_parameters": {
+    "x": 0.75,
+    "tau_SFR_gyr": 3.9,
+    "tau_m_gyr": 7.5,
+    "Rd_kpc": 3.1,
+    "sigma_RM7_kpc": 3.9
+  },
+  "common_lookback_epochs_gyr": [
+    0.7,
+    3.03,
+    5.19,
+    6.76
+  ],
+  "internal_frankel_reproduction": {
+    "model_present_migrated_half_mass_radius_kpc": 5.886971299678691,
+    "paper_present_half_mass_radius_kpc_approx": 5.9,
+    "model_7p4Gyr_migrated_half_mass_radius_kpc": 4.218415858970541,
+    "paper_early_half_mass_radius_kpc_approx": 4.2,
+    "model_size_growth_percent_7p4Gyr_to_present": 39.55407661290518,
+    "paper_size_growth_percent_approx": 43.0
+  },
+  "cross_model_metrics": {
+    "rms_difference_normalized_current_size_track": 0.035699992084002555,
+    "rms_difference_normalized_birth_size_track": 0.022246774738093285,
+    "oldest_common_epoch_gyr": 6.76,
+    "frankel_mass_fraction_relative_to_0p7Gyr_at_oldest_common_epoch": 0.1514332315638781,
+    "ratcliffe_mass_fraction_relative_to_0p7Gyr_at_oldest_common_epoch": 0.6666666666666667,
+    "recent_0p7Gyr_specific_SFR_ratio_frankel_over_ratcliffe": 15.430246171532994,
+    "median_absolute_current_size_offset_fraction": 0.25749536998315303,
+    "median_absolute_birth_size_offset_fraction": 0.34392892564535626
+  },
+  "verdict": "NOT_ACCEPTED_AS_TOTAL_DISC_HISTORY_OPERATOR. The fixed Frankel low-alpha model reproduces its own published size evolution and has broadly similar normalized radial-size growth over the 0.7--6.76 Gyr overlap, but its cumulative mass assembly is structurally incompatible with Ratcliffe's all-disc reconstruction: by the oldest common epoch the Frankel low-alpha component contains only a small fraction of its late-time mass while Ratcliffe already has most of the disc mass assembled. The Frankel operator may therefore be retained only as a late low-alpha redistribution component inside a future multi-component source-history model.",
+  "stage7_use_rule": "Do not use Frankel2019 as the Milky Way total baryonic source history in a persistence-force test. It can be used only as a low-alpha, late-time radial redistribution kernel if an independently reconstructed early/high-alpha mass history is supplied. No pulsar residual correlation may be evaluated from this Stage 7A calibration.",
+  "guardrails": [
+    "Frankel2019 models the low-alpha disk and explicitly treats tau_m as the maximum trusted model age, not the age of the full disk.",
+    "Ratcliffe2026 Table A.1 is an all-disc reconstruction with orbit-superposition mass weights and therefore is not expected to match Frankel in absolute size normalization.",
+    "The comparison uses fixed published best-fit Frankel parameters; no parameter was fit to Ratcliffe.",
+    "The Frankel migration operator is axisymmetric and statistical and provides neither individual trajectories nor azimuthal/current history."
+  ]
+}
