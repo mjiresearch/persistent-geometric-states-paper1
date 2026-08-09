@@ -5,10 +5,10 @@ Reproduces the selection of Khoperskov et al. 2025 (A&A 700, A89), Sect. 2.1.
 
 The public DistMass DR17 VAC has used more than one column-naming convention.
 For the current v1.6.1 file the relevant fields are WEIGHTED_DIST,
-WEIGHTED_DIST_ERR, AGE_UNCOR_SS and AGE_ERR.  The uncorrected-Sharma age scale
+WEIGHTED_DIST_ERR, AGE_UNCOR_SS and AGE_ERR. The uncorrected-Sharma age scale
 is the default because Stone-Martinez et al. state that Imig et al. (2023) used
 that model, and Khoperskov et al. cite the Imig analysis when motivating their
-DistMass age choice.  All four names remain explicitly overrideable.
+DistMass age choice. All four names remain explicitly overrideable.
 """
 import numpy as np
 from astropy.table import Table, join
@@ -36,7 +36,6 @@ def load_allstar(path, columns=None):
 
 
 def _resolve_column(t, requested, candidates, label):
-    """Return an available column name, preferring an explicit request."""
     if requested is not None:
         if requested not in t.colnames:
             raise KeyError('requested %s column %r absent; available: %s'
@@ -49,6 +48,26 @@ def _resolve_column(t, requested, candidates, label):
                    % (label, candidates, t.colnames))
 
 
+def _collapse_age_error(raw):
+    """Return one conservative sigma-like error per star.
+
+    The current DR17 v1.6.1 AGE_ERR field is a two-component asymmetric error.
+    For the paper's scalar sigma_age < 2 Gyr cut we conservatively require the
+    larger absolute side to satisfy the threshold. Scalar releases pass through.
+    """
+    arr = np.asarray(raw, dtype=float)
+    if arr.ndim == 1:
+        return np.abs(arr), None
+    if arr.ndim == 2:
+        sides = np.abs(arr)
+        finite = np.isfinite(sides)
+        safe = np.where(finite, sides, -np.inf)
+        collapsed = np.max(safe, axis=1)
+        collapsed[~finite.any(axis=1)] = np.nan
+        return collapsed, sides
+    raise ValueError('unexpected AGE_ERR shape %s' % (arr.shape,))
+
+
 def load_distmass(path, dist_col=None, dist_err_col=None,
                   age_col=None, age_err_col=None):
     """Read DistMass and normalize distance/age columns.
@@ -59,8 +78,7 @@ def load_distmass(path, dist_col=None, dist_err_col=None,
     t = Table.read(path, hdu=1)
     dist_col = _resolve_column(
         t, dist_col,
-        ('WEIGHTED_DIST', 'DISTANCE_WEIGHTED', 'DISTANCE', 'DIST'),
-        'distance')
+        ('WEIGHTED_DIST', 'DISTANCE_WEIGHTED', 'DISTANCE', 'DIST'), 'distance')
     dist_err_col = _resolve_column(
         t, dist_err_col,
         ('WEIGHTED_DIST_ERR', 'DISTANCE_WEIGHTED_ERR', 'DISTANCE_ERR', 'DIST_ERR'),
@@ -68,8 +86,7 @@ def load_distmass(path, dist_col=None, dist_err_col=None,
     age_col = _resolve_column(
         t, age_col,
         ('AGE_UNCOR_SS', 'AGE_COR_SS', 'AGE_COR_MO', 'AGE_UNCOR_MO',
-         'AGE_COR_TW', 'AGE_UNCOR_TW', 'AGE'),
-        'age')
+         'AGE_COR_TW', 'AGE_UNCOR_TW', 'AGE'), 'age')
     age_err_col = _resolve_column(t, age_err_col, ('AGE_ERR',), 'age-error')
 
     print('DistMass columns: distance=%s, distance_err=%s, age=%s, age_err=%s'
@@ -77,9 +94,17 @@ def load_distmass(path, dist_col=None, dist_err_col=None,
 
     out = Table()
     out['APOGEE_ID'] = t['APOGEE_ID']
-    for src, dst in ((dist_col, 'dist'), (dist_err_col, 'dist_err'),
-                     (age_col, 'age'), (age_err_col, 'age_err')):
-        out[dst] = np.asarray(t[src], dtype=float)
+    out['dist'] = np.asarray(t[dist_col], dtype=float)
+    out['dist_err'] = np.asarray(t[dist_err_col], dtype=float)
+    out['age'] = np.asarray(t[age_col], dtype=float)
+    age_err, age_err_sides = _collapse_age_error(t[age_err_col])
+    out['age_err'] = age_err
+    if age_err_sides is not None:
+        print('NOTE: AGE_ERR is asymmetric with shape %s; using max(abs(side)) for cuts'
+              % (age_err_sides.shape,))
+        if age_err_sides.shape[1] >= 2:
+            out['age_err_side0'] = age_err_sides[:, 0]
+            out['age_err_side1'] = age_err_sides[:, 1]
 
     finite_dist = np.asarray(out['dist'], float)
     finite_dist = finite_dist[np.isfinite(finite_dist) & (finite_dist > 0)]
