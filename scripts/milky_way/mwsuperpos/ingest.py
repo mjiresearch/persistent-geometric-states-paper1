@@ -49,23 +49,23 @@ def _resolve_column(t, requested, candidates, label):
 
 
 def _collapse_age_error(raw):
-    """Return one conservative sigma-like error per star.
+    """Return one conservative sigma-like age error per star.
 
-    The current DR17 v1.6.1 AGE_ERR field is a two-component asymmetric error.
-    For the paper's scalar sigma_age < 2 Gyr cut we conservatively require the
-    larger absolute side to satisfy the threshold. Scalar releases pass through.
+    DistMass DR17 v1.6.1 stores AGE_ERR as asymmetric lower/upper errors.
+    The selection criterion is scalar (sigma_age < 2 Gyr), so use the larger
+    absolute side. Any non-finite side invalidates that star's age uncertainty.
+    Scalar AGE_ERR releases remain supported unchanged apart from abs().
     """
     arr = np.asarray(raw, dtype=float)
     if arr.ndim == 1:
         return np.abs(arr), None
-    if arr.ndim == 2:
+    if arr.ndim == 2 and arr.shape[1] == 2:
         sides = np.abs(arr)
-        finite = np.isfinite(sides)
-        safe = np.where(finite, sides, -np.inf)
-        collapsed = np.max(safe, axis=1)
-        collapsed[~finite.any(axis=1)] = np.nan
+        collapsed = np.max(sides, axis=1)
+        collapsed[~np.all(np.isfinite(sides), axis=1)] = np.nan
         return collapsed, sides
-    raise ValueError('unexpected AGE_ERR shape %s' % (arr.shape,))
+    raise ValueError(
+        'unexpected AGE_ERR shape %s; expected (N,) or (N, 2)' % (arr.shape,))
 
 
 def load_distmass(path, dist_col=None, dist_err_col=None,
@@ -102,9 +102,8 @@ def load_distmass(path, dist_col=None, dist_err_col=None,
     if age_err_sides is not None:
         print('NOTE: AGE_ERR is asymmetric with shape %s; using max(abs(side)) for cuts'
               % (age_err_sides.shape,))
-        if age_err_sides.shape[1] >= 2:
-            out['age_err_side0'] = age_err_sides[:, 0]
-            out['age_err_side1'] = age_err_sides[:, 1]
+        out['age_err_side0'] = age_err_sides[:, 0]
+        out['age_err_side1'] = age_err_sides[:, 1]
 
     finite_dist = np.asarray(out['dist'], float)
     finite_dist = finite_dist[np.isfinite(finite_dist) & (finite_dist > 0)]
