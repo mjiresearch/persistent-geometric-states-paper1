@@ -2,6 +2,13 @@
 Build the input star sample for the orbit superposition.
 
 Reproduces the selection of Khoperskov et al. 2025 (A&A 700, A89), Sect. 2.1.
+
+The public DistMass DR17 VAC has used more than one column-naming convention.
+For the current v1.6.1 file the relevant fields are WEIGHTED_DIST,
+WEIGHTED_DIST_ERR, AGE_UNCOR_SS and AGE_ERR.  The uncorrected-Sharma age scale
+is the default because Stone-Martinez et al. state that Imig et al. (2023) used
+that model, and Khoperskov et al. cite the Imig analysis when motivating their
+DistMass age choice.  All four names remain explicitly overrideable.
 """
 import numpy as np
 from astropy.table import Table, join
@@ -28,19 +35,56 @@ def load_allstar(path, columns=None):
     return t[keep]
 
 
-def load_distmass(path, dist_col='DIST', dist_err_col='DIST_ERR',
-                  age_col='AGE', age_err_col='AGE_ERR'):
+def _resolve_column(t, requested, candidates, label):
+    """Return an available column name, preferring an explicit request."""
+    if requested is not None:
+        if requested not in t.colnames:
+            raise KeyError('requested %s column %r absent; available: %s'
+                           % (label, requested, t.colnames))
+        return requested
+    for name in candidates:
+        if name in t.colnames:
+            return name
+    raise KeyError('no recognised %s column; tried %s; available: %s'
+                   % (label, candidates, t.colnames))
+
+
+def load_distmass(path, dist_col=None, dist_err_col=None,
+                  age_col=None, age_err_col=None):
+    """Read DistMass and normalize distance/age columns.
+
+    Defaults target the public DR17 v1.6.1 VAC while accepting earlier aliases.
+    Distances are converted from pc to kpc when their median scale indicates pc.
+    """
     t = Table.read(path, hdu=1)
+    dist_col = _resolve_column(
+        t, dist_col,
+        ('WEIGHTED_DIST', 'DISTANCE_WEIGHTED', 'DISTANCE', 'DIST'),
+        'distance')
+    dist_err_col = _resolve_column(
+        t, dist_err_col,
+        ('WEIGHTED_DIST_ERR', 'DISTANCE_WEIGHTED_ERR', 'DISTANCE_ERR', 'DIST_ERR'),
+        'distance-error')
+    age_col = _resolve_column(
+        t, age_col,
+        ('AGE_UNCOR_SS', 'AGE_COR_SS', 'AGE_COR_MO', 'AGE_UNCOR_MO',
+         'AGE_COR_TW', 'AGE_UNCOR_TW', 'AGE'),
+        'age')
+    age_err_col = _resolve_column(t, age_err_col, ('AGE_ERR',), 'age-error')
+
+    print('DistMass columns: distance=%s, distance_err=%s, age=%s, age_err=%s'
+          % (dist_col, dist_err_col, age_col, age_err_col))
+
     out = Table()
     out['APOGEE_ID'] = t['APOGEE_ID']
     for src, dst in ((dist_col, 'dist'), (dist_err_col, 'dist_err'),
                      (age_col, 'age'), (age_err_col, 'age_err')):
-        if src not in t.colnames:
-            raise KeyError('column %r not in %s; available: %s'
-                           % (src, path, t.colnames))
         out[dst] = np.asarray(t[src], dtype=float)
-    if np.nanmedian(out['dist']) > 100:
-        print('NOTE: distances look like pc; converting to kpc')
+
+    finite_dist = np.asarray(out['dist'], float)
+    finite_dist = finite_dist[np.isfinite(finite_dist) & (finite_dist > 0)]
+    if len(finite_dist) and np.nanmedian(finite_dist) > 100:
+        print('NOTE: DistMass distances are in pc; converting to kpc')
         out['dist'] /= 1000.0
         out['dist_err'] /= 1000.0
     return out
@@ -68,21 +112,23 @@ def apply_selection(t, verbose=True):
     pm = np.hypot(t['GAIAEDR3_PMRA'], t['GAIAEDR3_PMDEC'])
     pmerr = np.hypot(t['GAIAEDR3_PMRA_ERROR'], t['GAIAEDR3_PMDEC_ERROR'])
     with np.errstate(invalid='ignore', divide='ignore'):
-        m &= np.isfinite(pm) & (pmerr / np.abs(pm) < PM_FRAC_ERR_MAX)
+        m &= np.isfinite(pm) & (pm > 0) & (pmerr / pm < PM_FRAC_ERR_MAX)
     prev = rep('PM err < %.0f%%' % (100 * PM_FRAC_ERR_MAX), m, prev)
     with np.errstate(invalid='ignore', divide='ignore'):
         m &= np.isfinite(t['dist']) & (t['dist'] > 0)
+        m &= np.isfinite(t['dist_err']) & (t['dist_err'] >= 0)
         m &= (t['dist_err'] / t['dist']) < DIST_FRAC_ERR_MAX
     prev = rep('dist err < %.0f%%' % (100 * DIST_FRAC_ERR_MAX), m, prev)
     m &= np.isfinite(t['age']) & (t['age'] > 0)
-    m &= t['age_err'] < AGE_ERR_MAX
+    m &= np.isfinite(t['age_err']) & (t['age_err'] >= 0) & (t['age_err'] < AGE_ERR_MAX)
     rep('sigma_age < %.0f Gyr' % AGE_ERR_MAX, m, prev)
     return t[m]
 
 
-def build_sample(allstar_path, distmass_path, out_path='sample.fits', verbose=True):
+def build_sample(allstar_path, distmass_path, out_path='sample.fits', verbose=True,
+                 **distmass_columns):
     a = load_allstar(allstar_path)
-    d = load_distmass(distmass_path)
+    d = load_distmass(distmass_path, **distmass_columns)
     if 'SNREV' in a.colnames:
         a.sort('SNREV'); a.reverse()
         _, idx = np.unique(np.asarray(a['APOGEE_ID']), return_index=True)
@@ -121,5 +167,11 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('allstar'); p.add_argument('distmass')
     p.add_argument('-o', '--out', default='sample.fits')
+    p.add_argument('--dist-col')
+    p.add_argument('--dist-err-col')
+    p.add_argument('--age-col')
+    p.add_argument('--age-err-col')
     args = p.parse_args()
-    build_sample(args.allstar, args.distmass, args.out)
+    build_sample(args.allstar, args.distmass, args.out,
+                 dist_col=args.dist_col, dist_err_col=args.dist_err_col,
+                 age_col=args.age_col, age_err_col=args.age_err_col)
