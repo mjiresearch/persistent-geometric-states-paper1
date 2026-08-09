@@ -7,6 +7,12 @@ on:
     paths:
       - '.github/workflows/stage8_mwsuperpos_pilot.yml'
       - 'scripts/milky_way/mwsuperpos/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/stage8_mwsuperpos_pilot.yml'
+      - 'scripts/milky_way/mwsuperpos/**'
   workflow_dispatch:
 
 jobs:
