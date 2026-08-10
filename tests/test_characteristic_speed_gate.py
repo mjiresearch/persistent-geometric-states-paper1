@@ -9,6 +9,10 @@ from analysis.milky_way.characteristic_speed_gate import (
 )
 
 
+def test_speed_of_light_constant_is_kpc_per_gyr():
+    assert 3.0e5 < C_KPC_PER_GYR < 3.1e5
+
+
 def test_luminal_stage9_speed_remains_allowed():
     require_stage9_characteristic_speed(C_KPC_PER_GYR)
     CandidateL2Parameters(tau_gyr=4.0)
