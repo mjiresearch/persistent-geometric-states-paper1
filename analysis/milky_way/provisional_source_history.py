@@ -1,7 +1,7 @@
 """Provisional Milky Way baryonic-history adapter for Stage 9.
 
 This module converts the public Ratcliffe et al. (2026) Table A.1 global disc
-history into a deliberately limited radial source-history representation.  It
+history into a deliberately limited radial source-history representation. It
 must not be treated as the final spatial SFH: Stage 7 established that Mstar(t)
 and one effective radius per epoch do not uniquely determine the formation-site
 history.
@@ -9,9 +9,9 @@ history.
 Two source envelopes are retained:
 
 * ``signed_mininfo`` keeps the literal difference between adjacent cumulative
-  exponential profiles.  This exposes where the compressed reconstruction
+  exponential profiles. This exposes where the compressed reconstruction
   becomes unphysical (negative newly assembled mass).
-* ``nonnegative_clipped`` clips negative increments to zero.  This is a
+* ``nonnegative_clipped`` clips negative increments to zero. This is a
   conservative physical envelope, not a claim about the true SFH.
 
 Neither branch reads halo forces, Delta a(R), pulsar residuals, or orbit-weight
@@ -51,10 +51,6 @@ def _sigma_exp(radius_kpc: np.ndarray, mass_msun: float, reff_kpc: float) -> np.
     rd = float(reff_kpc) / REFF_TO_RD
     r = np.asarray(radius_kpc, dtype=float)
     return float(mass_msun) / (2.0 * np.pi * rd**2) * np.exp(-r / rd)
-
-
-def _integrated_mass(radius_kpc: np.ndarray, sigma: np.ndarray) -> float:
-    return float(np.trapezoid(2.0 * np.pi * radius_kpc * sigma, radius_kpc))
 
 
 def load_table_a1(path: str | Path = DEFAULT_SOURCE) -> pd.DataFrame:
@@ -121,7 +117,7 @@ def ring_quadrature_points(
     """Return deterministic in-plane source points and signed mass weights.
 
     Each radial cell is represented at its midpoint with uniformly spaced
-    azimuthal points.  The weights integrate the radial surface-density
+    azimuthal points. The weights integrate the radial surface-density
     increment; they are source quadrature weights, not orbit weights.
     """
     if n_phi < 4:
@@ -168,7 +164,7 @@ def build_memory_source_cloud(
 
 
 def source_cloud_moments(points: np.ndarray, weights: np.ndarray) -> dict[str, float]:
-    """Compact diagnostics of a signed or non-negative source cloud."""
+    """Compact geometry diagnostics of a signed or non-negative source cloud."""
     p = np.asarray(points, dtype=float)
     w = np.asarray(weights, dtype=float)
     if p.ndim != 2 or p.shape[1] != 3 or w.shape != (p.shape[0],):
@@ -191,7 +187,4 @@ def source_cloud_moments(points: np.ndarray, weights: np.ndarray) -> dict[str, f
         "second_moment_eigenvalue_min_kpc2": float(evals[0]),
         "second_moment_eigenvalue_mid_kpc2": float(evals[1]),
         "second_moment_eigenvalue_max_kpc2": float(evals[2]),
-        "integrated_unweighted_increment_mass_msun": float(
-            sum(_integrated_mass(inc.radius_kpc, inc.delta_sigma_msun_kpc2) for inc in [])
-        ),
     }
