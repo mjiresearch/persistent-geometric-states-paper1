@@ -17,6 +17,7 @@ on:
       - 'analysis/milky_way/candidate_a2_deposition.py'
       - 'analysis/milky_way/candidate_a3_parent_action.py'
       - 'analysis/milky_way/candidate_a4_external_constraints.py'
+      - 'analysis/milky_way/referee_theory_gate.py'
       - 'analysis/milky_way/historical_baryonic_potential.py'
       - 'docs/theory/stage9_candidate_L0_minimal_causal_response.md'
       - 'docs/theory/stage9_characteristic_speed_audit.md'
@@ -26,6 +27,7 @@ on:
       - 'docs/theory/stage9_candidate_A2_local_deposition.md'
       - 'docs/theory/stage9_a3_parent_action_reduction.md'
       - 'docs/theory/stage9_candidate_A4_external_constraint_audit.md'
+      - 'docs/theory/stage9_referee_constraints.md'
       - 'scripts/build_milky_way_stage9_orientation_suite.py'
       - 'scripts/build_milky_way_stage9_provisional_source_suite.py'
       - 'scripts/build_milky_way_stage9a_historical_potential.py'
@@ -43,6 +45,7 @@ on:
       - 'tests/test_candidate_a2_deposition.py'
       - 'tests/test_candidate_a3_parent_action.py'
       - 'tests/test_candidate_a4_external_constraints.py'
+      - 'tests/test_referee_theory_gate.py'
       - 'tests/test_historical_baryonic_potential.py'
       - '.github/workflows/analyze-milky-way-stage9-provisional-source.yml'
 
@@ -77,6 +80,7 @@ jobs:
           tests/test_candidate_a2_deposition.py
           tests/test_candidate_a3_parent_action.py
           tests/test_candidate_a4_external_constraints.py
+          tests/test_referee_theory_gate.py
           tests/test_historical_baryonic_potential.py
       - name: Freeze orientation suite
         run: python scripts/build_milky_way_stage9_orientation_suite.py
