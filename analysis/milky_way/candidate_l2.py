@@ -7,9 +7,9 @@ nonlocal field-space deposition D_H Phi_b with the local source
         = kappa c_H^2 tau D_H (Laplacian Phi_b).
 
 This is the minimal local weak-field curvature-change deposition compatible with
-Poisson's relation for the ordinary baryonic sector.  Static/comoving baryons
+Poisson's relation for the ordinary baryonic sector. Static/comoving baryons
 have D_H rho_b=0, so they do not continuously regenerate a duplicate Poisson
-field.  No halo target, galaxy-specific scale, softening length, or fitted
+field. No halo target, galaxy-specific scale, softening length, or fitted
 amplitude enters the law.
 
 Transport:
@@ -21,6 +21,10 @@ contains a direct light-cone term plus an interior-cone modified-Bessel tail.
 For the Gyr-old source-history intervals used here and Galactic source/evaluation
 separations, the direct delta-shell term is absent at the present epoch; the
 interior tail is evaluated exactly for interval-integrated density changes.
+
+The first exposed Stage 9 run fixed c_H=c. A subluminal c_H is now gated: it may
+only be used after an independent parent-action/principal-symbol derivation and
+external consistency audit have been frozen before halo comparison.
 """
 from __future__ import annotations
 
@@ -31,6 +35,10 @@ from numpy.polynomial.legendre import leggauss
 from scipy.special import i1
 
 from analysis.milky_way.candidate_l0 import C_KPC_PER_GYR
+from analysis.milky_way.characteristic_speed_gate import (
+    CharacteristicSpeedProvenance,
+    require_stage9_characteristic_speed,
+)
 from analysis.milky_way.historical_baryonic_potential import (
     DEFAULT_RMAX_KPC,
     ExponentialDiskSnapshot,
@@ -45,15 +53,17 @@ class CandidateL2Parameters:
     tau_gyr: float
     kappa: float = 1.0
     c_h_kpc_per_gyr: float = C_KPC_PER_GYR
+    speed_provenance: CharacteristicSpeedProvenance | None = None
 
     def __post_init__(self) -> None:
         if float(self.tau_gyr) <= 0.0:
             raise ValueError("tau_gyr must be positive")
         if float(self.kappa) != 1.0:
             raise ValueError("Candidate L2 preregistration fixes kappa=1")
-        c_h = float(self.c_h_kpc_per_gyr)
-        if not (0.0 < c_h <= C_KPC_PER_GYR * (1.0 + 1e-12)):
-            raise ValueError("Candidate L2 requires 0 < c_H <= c")
+        require_stage9_characteristic_speed(
+            self.c_h_kpc_per_gyr,
+            provenance=self.speed_provenance,
+        )
 
     @property
     def damping_coefficient_per_gyr(self) -> float:
@@ -125,7 +135,7 @@ def interval_integrated_density_change_clouds(
 
     For each adjacent old->young interval the integrated density change is
     represented exactly at quadrature level as +rho_young - rho_old, including
-    historical reorientation of the entire cumulative disk.  This captures both
+    historical reorientation of the entire cumulative disk. This captures both
     mass-profile evolution and physical disk reorientation without differentiating
     a delta-function disk plane analytically.
     """
@@ -152,7 +162,7 @@ def _interior_tail_green_per_kpc3_gyr(
 ) -> np.ndarray:
     """Free-space L2 interior-cone Green function at the present epoch.
 
-    Units are Gyr/kpc^3.  The direct delta-shell light-cone term is not included
+    Units are Gyr/kpc^3. The direct delta-shell light-cone term is not included
     here; interval midpoints are Gyr old whereas Galactic r/c is <~1e-3 Gyr.
     """
     T = float(lookback_gyr)
@@ -173,7 +183,6 @@ def _interior_tail_green_per_kpc3_gyr(
             * i1(mu * s[mask])
             / (4.0 * np.pi * c**3 * s[mask])
         )
-    # Continuous s->0 limit: I1(mu s)/s -> mu/2.
     edge = inside & ~mask
     if np.any(edge):
         out[edge] = damping * mu * mu / (8.0 * np.pi * c**3)
@@ -186,16 +195,7 @@ def present_psi_from_interval_clouds(
     params: CandidateL2Parameters,
     chunk_size: int = 256,
 ) -> np.ndarray:
-    """Evaluate present Psi_H from local interval-integrated density changes.
-
-    The time integral of S_H over an interval is
-
-        4 pi G kappa c_H^2 tau Delta rho_b.
-
-    Each signed quadrature mass therefore contributes through the free-space L2
-    interior-tail Green function at the interval midpoint.  No numerical domain
-    boundary or spatial softening is introduced.
-    """
+    """Evaluate present Psi_H from local interval-integrated density changes."""
     eval_pts = np.asarray(evaluation_xyz_kpc, dtype=float)
     if eval_pts.shape[-1] != 3:
         raise ValueError("evaluation_xyz_kpc must have final dimension 3")
