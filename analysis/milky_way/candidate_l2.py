@@ -22,9 +22,11 @@ For the Gyr-old source-history intervals used here and Galactic source/evaluatio
 separations, the direct delta-shell term is absent at the present epoch; the
 interior tail is evaluated exactly for interval-integrated density changes.
 
-The first exposed Stage 9 run fixed c_H=c. A subluminal c_H is now gated: it may
-only be used after an independent parent-action/principal-symbol derivation and
-external consistency audit have been frozen before halo comparison.
+Corrected-c Stage 9A status (2026-08-10): the preregistered luminal, kappa=1,
+strict-linear L2 branch is retained as a falsified baseline.  Its corrected
+solar-radius acceleration is approximately 18--20 orders of magnitude below
+the frozen Stage-3 requirement across tau=1--16 Gyr, with the wrong radial
+trend.  Do not rescue this branch by post-hoc rescaling or speed selection.
 """
 from __future__ import annotations
 
@@ -60,10 +62,10 @@ class CandidateL2Parameters:
             raise ValueError("tau_gyr must be positive")
         if float(self.kappa) != 1.0:
             raise ValueError("Candidate L2 preregistration fixes kappa=1")
-        require_stage9_characteristic_speed(
-            self.c_h_kpc_per_gyr,
-            provenance=self.speed_provenance,
-        )
+        c_h = float(self.c_h_kpc_per_gyr)
+        if not (0.0 < c_h <= C_KPC_PER_GYR * (1.0 + 1e-12)):
+            raise ValueError("Candidate L2 requires 0 < c_H <= c")
+        require_stage9_characteristic_speed(c_h, self.speed_provenance)
 
     @property
     def damping_coefficient_per_gyr(self) -> float:
@@ -163,7 +165,7 @@ def _interior_tail_green_per_kpc3_gyr(
     """Free-space L2 interior-cone Green function at the present epoch.
 
     Units are Gyr/kpc^3. The direct delta-shell light-cone term is not included
-    here; interval midpoints are Gyr old whereas Galactic r/c is <~1e-3 Gyr.
+    here; interval midpoints are Gyr old whereas Galactic r/c is << 1 Gyr.
     """
     T = float(lookback_gyr)
     r = np.asarray(separation_kpc, dtype=float)
