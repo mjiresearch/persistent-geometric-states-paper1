@@ -9,16 +9,19 @@ on:
       - 'analysis/milky_way/persistence_response.py'
       - 'analysis/milky_way/candidate_l0.py'
       - 'analysis/milky_way/candidate_l1.py'
+      - 'analysis/milky_way/candidate_l2.py'
       - 'analysis/milky_way/historical_baryonic_potential.py'
       - 'docs/theory/stage9_candidate_L0_minimal_causal_response.md'
       - 'scripts/build_milky_way_stage9_orientation_suite.py'
       - 'scripts/build_milky_way_stage9_provisional_source_suite.py'
       - 'scripts/build_milky_way_stage9a_historical_potential.py'
+      - 'scripts/build_milky_way_stage9a_candidate_l2_field.py'
       - 'tests/test_orientation_history.py'
       - 'tests/test_provisional_source_history.py'
       - 'tests/test_persistence_response.py'
       - 'tests/test_candidate_l0.py'
       - 'tests/test_candidate_l1.py'
+      - 'tests/test_candidate_l2.py'
       - 'tests/test_historical_baryonic_potential.py'
       - '.github/workflows/analyze-milky-way-stage9-provisional-source.yml'
 
@@ -46,6 +49,7 @@ jobs:
           tests/test_persistence_response.py
           tests/test_candidate_l0.py
           tests/test_candidate_l1.py
+          tests/test_candidate_l2.py
           tests/test_historical_baryonic_potential.py
       - name: Freeze orientation suite
         run: python scripts/build_milky_way_stage9_orientation_suite.py
@@ -63,6 +67,13 @@ jobs:
           python scripts/build_milky_way_stage9a_historical_potential.py \
             > data/persistence_history/milky_way_stage9a_historical_potential/run_output.txt 2>&1
           cat data/persistence_history/milky_way_stage9a_historical_potential/run_output.txt
+      - name: Build Stage 9A Candidate L2 field
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage9a_candidate_l2
+          python scripts/build_milky_way_stage9a_candidate_l2_field.py \
+            > data/persistence_history/milky_way_stage9a_candidate_l2/run_output.txt 2>&1
+          cat data/persistence_history/milky_way_stage9a_candidate_l2/run_output.txt
       - name: Commit generated source-side products
         if: github.ref_type == 'branch'
         run: |
@@ -70,7 +81,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/persistence_history/milky_way_stage9_orientation_suite \
                   data/persistence_history/milky_way_stage9_provisional_source_suite \
-                  data/persistence_history/milky_way_stage9a_historical_potential
-          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 9 historical potential results'
+                  data/persistence_history/milky_way_stage9a_historical_potential \
+                  data/persistence_history/milky_way_stage9a_candidate_l2
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 9A Candidate L2 field results'
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin HEAD:"${GITHUB_REF_NAME}"
