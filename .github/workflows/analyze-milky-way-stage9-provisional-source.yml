@@ -16,6 +16,7 @@ on:
       - 'scripts/build_milky_way_stage9_provisional_source_suite.py'
       - 'scripts/build_milky_way_stage9a_historical_potential.py'
       - 'scripts/build_milky_way_stage9a_candidate_l2_field.py'
+      - 'scripts/compare_milky_way_stage9a_l2_to_rotation_residual.py'
       - 'tests/test_orientation_history.py'
       - 'tests/test_provisional_source_history.py'
       - 'tests/test_persistence_response.py'
@@ -74,6 +75,12 @@ jobs:
           python scripts/build_milky_way_stage9a_candidate_l2_field.py \
             > data/persistence_history/milky_way_stage9a_candidate_l2/run_output.txt 2>&1
           cat data/persistence_history/milky_way_stage9a_candidate_l2/run_output.txt
+      - name: Compare frozen L2 field to Stage 3 residual
+        shell: bash
+        run: |
+          python scripts/compare_milky_way_stage9a_l2_to_rotation_residual.py \
+            > data/persistence_history/milky_way_stage9a_candidate_l2/comparison_output.txt 2>&1
+          cat data/persistence_history/milky_way_stage9a_candidate_l2/comparison_output.txt
       - name: Commit generated source-side products
         if: github.ref_type == 'branch'
         run: |
@@ -83,6 +90,6 @@ jobs:
                   data/persistence_history/milky_way_stage9_provisional_source_suite \
                   data/persistence_history/milky_way_stage9a_historical_potential \
                   data/persistence_history/milky_way_stage9a_candidate_l2
-          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 9A Candidate L2 field results'
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 9A Candidate L2 comparison results'
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin HEAD:"${GITHUB_REF_NAME}"
