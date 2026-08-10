@@ -2,66 +2,61 @@
 
 Date: 2026-08-10
 
-## Purpose
+## Result of theory audit
 
-Stage 9 must not manufacture a persistence force kernel after the Milky Way halo targets are visible. The response law is therefore developed and frozen source-side first, with failed candidates retained as controls rather than rescaled post hoc.
-
-## Candidate L0 — light-cone control
-
-The first minimal causal law was
+The checked-in persistence manuscript supplies the conceptual weak-field decomposition
 
 \[
-(D_H+1/\tau)^2\Psi_H-c_H^2\nabla^2\Psi_H
-=\frac{1}{\tau}D_H\Phi_b.
+\mathbf a_{\rm dyn}=\mathbf a_b+\mathbf a_H+\mathbf a_{\rm int}+\cdots
 \]
 
-It is causal, finite-relaxation, unit-normalized, and has zero deposition for a static/comoving baryonic field. However, with \(\Psi_H=e^{-t/\tau}u\), the free operator reduces exactly to the ordinary massless wave equation for \(u\). Its free-space retarded Green function therefore has only light-cone support and no genuine interior-cone hereditary tail. L0 is retained as a null/control candidate, not promoted as the persistence model.
+and requires causal evolution, independent initial data, finite relaxation, universal interaction structure, and continuous recovery of GR. It also explicitly rules out interpreting the persistent state as a second instantaneous Poisson field sourced by the same static baryonic density.
 
-## Candidate L1 — two-rate hereditary transport
+## Candidate progression
 
-To obtain an interior-cone tail without adding a fitted dimensionless parameter, the transport operator was changed to
+Stage 9 has now tested several minimal effective closures while preserving the halo-blind guardrail:
 
-\[
-[(D_H+1/\tau)(D_H+2/\tau)-c_H^2\nabla^2]\Psi_H=S_H.
-\]
+- L0: causal damped hyperbolic control, later recognized to factorize to a light-cone-only response and retained as a null/control candidate;
+- L1: two-rate causal transport with genuine interior-cone support;
+- L2: L1 transport with local curvature-change deposition, S_H = 4 pi G c_H^2 tau D_H rho_b, avoiding deposition throughout the long-range Newtonian potential.
 
-The spatially uniform free modes decay on \(\tau\) and \(\tau/2\). After removing the mean damping factor the propagator contains a nonzero interior-cone modified-Bessel tail. Causality and finite relaxation are retained.
+## Critical speed-unit correction
 
-An intermediate L1 source choice \(S_H=(1/\tau)D_H\Phi_b\) was then rejected as the primary implementation because \(\Phi_b\) is long-ranged. Treating its time derivative as a volume deposition source would create persistence throughout the field volume rather than only where the baryonic source/curvature changes.
+A subsequent characteristic-speed audit found that the original code constant `C_KPC_PER_GYR = 306.60139378555056` was mislabeled: that value is c in kpc/Myr, not kpc/Gyr. The correct value is approximately 306601.39378555055 kpc/Gyr.
 
-## Candidate L2 — primary local curvature-change candidate
+The constant has been corrected and protected by regression tests. All Candidate L2 field products and comparisons produced with the old constant are invalid and must be regenerated. The earlier provisional numerical statement that L2 was roughly nine orders of magnitude too small is therefore withdrawn pending the corrected rerun.
 
-L2 retains the L1 two-rate transport but adopts the local weak-field curvature-change source
+## Characteristic-speed boundary
 
-\[
-S_H
-=4\pi G\,c_H^2\tau\,D_H\rho_b
-=c_H^2\tau\,D_H(\nabla^2\Phi_b),
-\]
+The checked-in manuscript still does not derive the persistence-mode characteristic speed from a completed quadratic parent action/principal symbol. A strongly subluminal c_H therefore may not be introduced post hoc to improve the Milky Way comparison.
 
-with preregistered \(\kappa=1\), \(c_H=c\), \(\tau\in\{1,2,4,8,16\}\) Gyr, relaxed-zero initial persistent state, and \(\mathbf a_{\rm int}=0\) at strict linear order.
+The repository now allows the preregistered c_H=c case, but blocks c_H<c unless a provenance record demonstrates all of the following before halo comparison:
 
-This choice:
+1. parent-action derivation;
+2. documented principal symbol/characteristic speed;
+3. stability analysis;
+4. gravitational-Cherenkov consistency audit;
+5. observational-coupling audit;
+6. speed prior frozen before target comparison.
 
-- is local to baryonic density/curvature change;
-- is zero for static/comoving baryons;
-- introduces no new length scale or fitted amplitude;
-- naturally includes disk reorientation through displacement of the full cumulative baryonic source;
-- preserves causal free-space propagation and an interior-cone hereditary tail;
-- permits a boundary-free retarded Green-function evaluation for the first Stage 9A field.
+With the corrected c, making c_H tau a 5--20 kpc Galactic scale over tau=1--16 Gyr would require an extreme c_H/c of roughly 10^-6--10^-4, not a modest subluminal correction. Such a mode is therefore not treated as an available tuning direction.
 
-## Source-history implementation
+## Current Stage 9 status
 
-The public Ratcliffe Table A.1 history remains provisional. Each epoch is represented by the minimum-information cumulative razor-thin exponential disk defined by its tabulated stellar mass and birth-radius effective radius. Adjacent epochs are differenced at quadrature level as
+Available/frozen:
 
-\[
-\Delta\rho_b = \rho_{b,\mathrm{young}}-\rho_{b,\mathrm{old}},
-\]
+- 0--180 degree orientation-history operator;
+- 1--16 Gyr relaxation-time sensitivity grid;
+- Ratcliffe-2026 Table A.1 provisional radial history;
+- historical ordinary baryonic-potential diagnostics;
+- L0/L1/L2 response-law implementations and theory tests;
+- corrected luminal characteristic speed;
+- guardrail against post-hoc subluminal speed sweeps.
 
-including the independently predeclared historical orientation of each endpoint. This represents the interval-integrated \(D_H\rho_b\) source and captures both mass-profile evolution and disk reorientation.
+Still provisional:
 
-The youngest public epoch is 0.70 Gyr lookback. Its mass profile is held fixed to 0 Gyr in the provisional Stage 9A run, giving exactly zero invented deposition during the unobserved final interval.
+- the Ratcliffe Table A.1 source history is not the unique physical formation-site history;
+- L2 is an effective weak-field closure, not yet derived from the completed covariant parent action;
+- the corrected c_H=c L2 numerical field must be regenerated before any amplitude/shape verdict is retained.
 
-## Falsification rule
-
-Candidate L2 is not to be rescued by fitting \(\kappa\), \(c_H\), \(\tau\), an added spatial kernel, or a halo-derived normalization after comparison. All five preregistered \(\tau\) cases are compared unchanged. If the predicted acceleration is orders of magnitude too small or has the wrong radial structure, L2 is recorded as a failed candidate and any replacement law must be independently motivated and frozen before a new comparison.
+The scientific protocol remains: generate the corrected halo-blind field first, freeze it, then compare against the already archived Milky Way residuals and orbit-weight benchmarks without renormalization or target-selected speed changes.
