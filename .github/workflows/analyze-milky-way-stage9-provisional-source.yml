@@ -11,9 +11,11 @@ on:
       - 'analysis/milky_way/candidate_l0.py'
       - 'analysis/milky_way/candidate_l1.py'
       - 'analysis/milky_way/candidate_l2.py'
+      - 'analysis/milky_way/candidate_a0_advected_state.py'
       - 'analysis/milky_way/historical_baryonic_potential.py'
       - 'docs/theory/stage9_candidate_L0_minimal_causal_response.md'
       - 'docs/theory/stage9_characteristic_speed_audit.md'
+      - 'docs/theory/stage9_advected_state_route.md'
       - 'scripts/build_milky_way_stage9_orientation_suite.py'
       - 'scripts/build_milky_way_stage9_provisional_source_suite.py'
       - 'scripts/build_milky_way_stage9a_historical_potential.py'
@@ -94,6 +96,6 @@ jobs:
                   data/persistence_history/milky_way_stage9_provisional_source_suite \
                   data/persistence_history/milky_way_stage9a_historical_potential \
                   data/persistence_history/milky_way_stage9a_candidate_l2
-          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 9A Candidate L2 comparison results'
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 9A corrected L2 comparison results'
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin HEAD:"${GITHUB_REF_NAME}"
