@@ -169,6 +169,11 @@ def state_frame_time_derivative(
     source reorientation is already included in Phi_b(x,t), so D_H reduces here
     to the forward-time derivative at fixed state-frame position.  Since cosmic
     forward time increases as lookback time decreases, t_forward = -lookback.
+
+    Endpoint derivatives are one-sided.  This is important for the provisional
+    0.70 -> 0.0 Gyr zero-order hold: identical final snapshots then give exactly
+    zero present deposition rather than a higher-order extrapolation from older
+    epochs.
     """
     lb = np.asarray(lookback_gyr, dtype=float)
     phi = np.asarray(phi_history, dtype=float)
@@ -176,6 +181,11 @@ def state_frame_time_derivative(
         raise ValueError("phi_history first axis must match lookback_gyr")
     if lb.size < 2 or not np.all(np.diff(lb) < 0.0):
         raise ValueError("lookback_gyr must be strictly decreasing")
-    t_forward = -lb
-    edge_order = 2 if lb.size >= 3 else 1
-    return np.gradient(phi, t_forward, axis=0, edge_order=edge_order)
+    t = -lb
+    out = np.empty_like(phi, dtype=float)
+    out[0] = (phi[1] - phi[0]) / (t[1] - t[0])
+    out[-1] = (phi[-1] - phi[-2]) / (t[-1] - t[-2])
+    if lb.size > 2:
+        dt = (t[2:] - t[:-2]).reshape((-1,) + (1,) * (phi.ndim - 1))
+        out[1:-1] = (phi[2:] - phi[:-2]) / dt
+    return out
