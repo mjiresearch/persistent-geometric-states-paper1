@@ -14,12 +14,14 @@ on:
       - 'analysis/milky_way/candidate_a0.py'
       - 'analysis/milky_way/candidate_a0_advected_state.py'
       - 'analysis/milky_way/candidate_a1_metric_coupling.py'
+      - 'analysis/milky_way/candidate_a2_deposition.py'
       - 'analysis/milky_way/historical_baryonic_potential.py'
       - 'docs/theory/stage9_candidate_L0_minimal_causal_response.md'
       - 'docs/theory/stage9_characteristic_speed_audit.md'
       - 'docs/theory/stage9_advected_state_route.md'
       - 'docs/theory/stage9_candidate_A0_covariant_advected_state.md'
       - 'docs/theory/stage9_a1_observable_metric_coupling.md'
+      - 'docs/theory/stage9_candidate_A2_local_deposition.md'
       - 'scripts/build_milky_way_stage9_orientation_suite.py'
       - 'scripts/build_milky_way_stage9_provisional_source_suite.py'
       - 'scripts/build_milky_way_stage9a_historical_potential.py'
@@ -34,6 +36,7 @@ on:
       - 'tests/test_candidate_l2.py'
       - 'tests/test_candidate_a0.py'
       - 'tests/test_candidate_a1_metric_coupling.py'
+      - 'tests/test_candidate_a2_deposition.py'
       - 'tests/test_historical_baryonic_potential.py'
       - '.github/workflows/analyze-milky-way-stage9-provisional-source.yml'
 
@@ -65,6 +68,7 @@ jobs:
           tests/test_candidate_l2.py
           tests/test_candidate_a0.py
           tests/test_candidate_a1_metric_coupling.py
+          tests/test_candidate_a2_deposition.py
           tests/test_historical_baryonic_potential.py
       - name: Freeze orientation suite
         run: python scripts/build_milky_way_stage9_orientation_suite.py
