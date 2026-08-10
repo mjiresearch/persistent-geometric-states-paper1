@@ -1,7 +1,7 @@
 """Candidate L0: minimal causal linear persistence response.
 
 This module encodes the predeclared L0 theory specification and the local
-operator/source definitions needed by a future numerical solver.  It does not
+operator/source definitions needed by a future numerical solver. It does not
 read or optimize against halo targets.
 """
 from __future__ import annotations
@@ -13,7 +13,8 @@ import numpy as np
 from analysis.milky_way.persistence_response import ResponseLawSpecification
 
 
-C_KPC_PER_GYR = 306.60139378555056
+# Speed of light in kpc/Gyr.  (c ~= 299792.458 km/s.)
+C_KPC_PER_GYR = 306601.39378555055
 
 
 @dataclass(frozen=True)
