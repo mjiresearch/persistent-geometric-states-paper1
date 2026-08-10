@@ -1,0 +1,51 @@
+name: Analyze Milky Way Stage 9 Provisional Source Suite
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'analysis/milky_way/orientation_history.py'
+      - 'analysis/milky_way/provisional_source_history.py'
+      - 'scripts/build_milky_way_stage9_orientation_suite.py'
+      - 'scripts/build_milky_way_stage9_provisional_source_suite.py'
+      - 'tests/test_orientation_history.py'
+      - 'tests/test_provisional_source_history.py'
+      - '.github/workflows/analyze-milky-way-stage9-provisional-source.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: milky-way-stage9-provisional-source-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  stage9-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install numpy pandas pytest
+      - name: Run Stage 9 source-side tests
+        run: python -m pytest -q tests/test_orientation_history.py tests/test_provisional_source_history.py
+      - name: Freeze orientation suite
+        run: python scripts/build_milky_way_stage9_orientation_suite.py
+      - name: Build provisional hereditary source suite
+        shell: bash
+        run: |
+          mkdir -p data/persistence_history/milky_way_stage9_provisional_source_suite
+          python scripts/build_milky_way_stage9_provisional_source_suite.py \
+            > data/persistence_history/milky_way_stage9_provisional_source_suite/run_output.txt 2>&1
+          cat data/persistence_history/milky_way_stage9_provisional_source_suite/run_output.txt
+      - name: Commit generated source-side products
+        if: github.ref_type == 'branch'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/milky_way_stage9_orientation_suite \
+                  data/persistence_history/milky_way_stage9_provisional_source_suite
+          git diff --cached --quiet || git commit -m 'Add Milky Way Stage 9 provisional source results'
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
