@@ -1,1 +1,2 @@
 radius_arcsec,radius_kpc,sigma_hi_msun_pc2,pixel_x,pixel_y,radius_err_kpc,sigma_hi_err_msun_pc2,galaxy,source,method,distance_mpc_frozen
+1.366223908918406,0.6650128739990206,4.537717601547389,8.0,321.5,0.16625321849975516,0.04642166344294004,IC4202,"Spekkens & Giovanelli 2006, panel d average points/trace",publication_figure_digitization_median_trace_rdp2px,100.4
