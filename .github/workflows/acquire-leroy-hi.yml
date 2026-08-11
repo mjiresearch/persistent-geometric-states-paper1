@@ -25,17 +25,23 @@ jobs:
           targets={'IC2574','NGC2403','NGC2976','NGC6946','NGC7331','NGC7793'}
           out=[]
           for line in open('table7.dat'):
-              if len(line)<29: continue
-              name=line[0:8].strip()
-              if name not in targets: continue
-              try: r=float(line[9:13].strip())
-              except ValueError: continue
+              if len(line)<29:
+                  continue
+              name=line[0:8].strip().replace(' ','').replace('-','').upper()
+              if name not in targets:
+                  continue
+              try:
+                  r=float(line[9:13].strip())
+              except ValueError:
+                  continue
               s=line[19:24].strip(); e=line[25:28].strip()
-              if not s: continue
+              if not s:
+                  continue
               out.append((name,r,float(s)/1.36,float(e)/1.36 if e else ''))
           found={x[0] for x in out}
           missing=targets-found
-          if missing: raise SystemExit(f'missing galaxies: {sorted(missing)}')
+          if missing:
+              raise SystemExit(f'missing galaxies: {sorted(missing)}; found={sorted(found)}')
           out.sort(key=lambda x:(x[0],x[1]))
           with open('leroy2008_six_stationary_hi_profiles.csv','w',newline='') as f:
               w=csv.writer(f)
