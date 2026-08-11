@@ -1,0 +1,44 @@
+name: Acquire Leroy 2008 HI profiles
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/acquire-leroy-hi.yml'
+
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download public CDS table
+        run: |
+          curl -L --fail --retry 3 -o table7.dat https://cdsarc.cds.unistra.fr/ftp/J/AJ/136/2782/table7.dat
+      - name: Extract six stationary galaxies and remove helium factor
+        run: |
+          python - <<'PY'
+          import csv
+          targets={'IC2574','NGC2403','NGC2976','NGC6946','NGC7331','NGC7793'}
+          out=[]
+          for line in open('table7.dat'):
+              if len(line)<29: continue
+              name=line[0:8].strip()
+              if name not in targets: continue
+              try: r=float(line[9:13].strip())
+              except ValueError: continue
+              s=line[19:24].strip(); e=line[25:28].strip()
+              if not s: continue
+              out.append((name,r,float(s)/1.36,float(e)/1.36 if e else ''))
+          found={x[0] for x in out}
+          missing=targets-found
+          if missing: raise SystemExit(f'missing galaxies: {sorted(missing)}')
+          out.sort(key=lambda x:(x[0],x[1]))
+          with open('leroy2008_six_stationary_hi_profiles.csv','w',newline='') as f:
+              w=csv.writer(f); w.writerow(['galaxy','r_leroy_kpc','sigma_hi_msun_pc2','e_sigma_hi_msun_pc2','source_catalog','helium_correction'])
+              for row in out: w.writerow([*row,'J/AJ/136/2782/table7','divide_by_1.36'])
+          print('rows',len(out)); print({g:sum(x[0]==g for x in out) for g in sorted(targets)})
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: leroy2008-six-stationary-hi
+          path: leroy2008_six_stationary_hi_profiles.csv
