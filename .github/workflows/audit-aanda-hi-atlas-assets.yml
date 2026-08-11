@@ -14,7 +14,7 @@ jobs:
           - key: noordermeer2005
             doi: '10.1051/0004-6361:20053172'
           - key: verheijen2001
-            doi: '10.1051/0004-6361:20010027'
+            doi: '10.1051/0004-6361:20010090'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,11 +30,10 @@ jobs:
           curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -D /tmp/aanda/$KEY/headers.txt -o /tmp/aanda/$KEY/landing.html "https://doi.org/$DOI" || true
           python - <<'PY'
           from pathlib import Path
-          import os,re,urllib.parse,csv
+          import os,re,csv
           key=os.environ['KEY']; root=Path('/tmp/aanda')/key
           html=(root/'landing.html').read_text(errors='ignore') if (root/'landing.html').exists() else ''
           hrefs=re.findall(r'href=["\']([^"\']+)',html,re.I)
-          # Preserve all links likely to contain publication files, supplements, images, PostScript, or online material.
           keep=[]
           for h in hrefs:
               l=h.lower()
