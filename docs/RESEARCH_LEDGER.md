@@ -54,7 +54,8 @@ This is the standing project-control document for the persistence framework. It 
 | L-018 | Canonical stationary Section 10 solver | Implemented with order-one Hankel transform, screened kernel, optional declared finite-thickness form factor, and under-relaxed nonlinear closure. | **ESTABLISHED / TESTING** | Canonical manuscript equations are revised or validation finds a solver defect. |
 | L-019 | Stationary parameter sequencing | `L_A` and `C_A` are universal stationary parameters to be calibrated on the predeclared calibration sample, then frozen before blind/history tests; Milky Way may not set them. | **PERMANENT GUARDRAIL** | Parent action independently derives both numerically. |
 | L-020 | Public radial-HI acquisition | Private communication is the last resort. Rebuild the 145-galaxy direct-profile source set from public literature/survey products where possible, with redistribution/license provenance. | **ACTIVE** | Public routes are exhausted and documented. |
-| L-021 | Public THINGS/LITTLE THINGS overlap | Fifteen frozen-SPARC galaxies have verified direct public survey products. Four (DDO154, DDO168, NGC2366, NGC4214) already have clean extracted radial profiles totaling 523 clean bins; eleven more are queued for the same frozen extraction pipeline. | **ACTIVE / PARTLY RECOVERED** | Survey-product provenance or extraction QC fails. |
+| L-021 | THINGS/LITTLE THINGS stationary overlap | Corrected against the frozen 149-galaxy master: 13 galaxies, not 15. DDO154 and DDO168 already have 249 clean extracted bins. NGC2366/NGC4214 remain useful validation systems but are not in the frozen stationary master. | **ACTIVE / CORRECTED** | Frozen master changes. |
+| L-022 | FEASTS direct-profile recovery | Seven additional frozen stationary galaxies have direct public FEASTS radial HI profiles: NGC2841, NGC2903, NGC3198, NGC3521, NGC4559, NGC5033, NGC5055. Radii are rescaled to the frozen SPARC distance convention; coverage audit archived. | **ACTIVE / VERIFIED ROUTE** | FEASTS provenance/QC fails. |
 
 ## Current achievements
 
@@ -83,11 +84,12 @@ This is the standing project-control document for the persistence framework. It 
 | H I provenance scaffold | ✅ | 145 expected direct-profile eligible; four frozen-sample Hua-missing systems remain excluded unless independently recovered pre-fit. |
 | Hua source-family registry | ✅ / 🟡 | Public-route audit in progress. |
 | SPARC galaxy→reference crosswalk builder | ✅ | Uses public `SPARC_Lelli2016c.mrt`; references are acquisition leads, not assumed profile provenance. |
-| Direct THINGS/LITTLE THINGS overlap | ✅ | 15 frozen-sample galaxies with public direct H I products; 4 already extracted, 11 queued. |
-| Clean public profiles already recovered | ✅ / 🟡 | DDO154 (136 bins), DDO168 (113), NGC2366 (180), NGC4214 (94); 523 clean bins total. |
-| Public numerical-profile acquisition | **ACTIVE** | Prefer machine-readable tables; otherwise public FITS/map extraction; figure digitization only as documented fallback. |
+| Frozen-sample THINGS/LITTLE THINGS overlap | ✅ | 13 galaxies. DDO154 and DDO168 already extracted; 11 public survey products remain available for cross-check/acquisition. |
+| Clean frozen-sample profiles already extracted | ✅ / 🟡 | DDO154 (136 bins) + DDO168 (113) = 249 clean bins. NGC2366/NGC4214 are validation-only because they are outside the frozen 149 master. |
+| FEASTS direct radial profiles | ✅ / 🟡 | Seven more frozen galaxies verified; coverage audit in `feasts_stationary_profile_qc_v1.csv`. Some innermost SPARC points require an explicitly frozen interpolation/extrapolation rule or alternate survey profile. |
+| Public numerical-profile acquisition | **ACTIVE** | Prefer machine-readable direct profiles; otherwise public FITS/map extraction; figure digitization only as documented fallback. |
 | Redistribution/license audit | **ACTIVE** | Public availability does not automatically imply raw-file redistribution rights. |
-| `stationary_hi_profiles_v1.csv` | ⏳ | Build after verified public profile ingestion. |
+| `stationary_hi_profiles_v1.csv` | ⏳ | Build after verified public profile ingestion and distance/coverage harmonization. |
 | `stationary_source_profiles_v1.csv` | ⏳ | Build after H I profile QC and stellar/gas merge. |
 | Source-profile freeze | ⏳ | No `L_A`/`C_A` fitting before freeze. |
 | Global stationary calibration | ⏳ | Expected retained split 101 calibration / 44 blind if four known-missing systems remain unavailable. |
@@ -134,7 +136,7 @@ with the nonlocal disk kernel and universal theory-level combinations given in S
 
 ## Highest-priority open goals
 
-1. **Public H I recovery:** ingest the remaining eleven verified THINGS/LITTLE THINGS overlaps, then continue the WHISP/Lelli/atlas source-family sweep.
+1. **Public H I recovery:** promote the seven verified FEASTS profiles plus DDO154/DDO168 into the harmonized stationary profile table, then recover IC2574, NGC2403, NGC2976, NGC6946, NGC7331 and NGC7793 from THINGS/public numerical routes and continue the WHISP/Lelli/atlas sweep.
 2. **Source-profile freeze:** construct and QC `stationary_hi_profiles_v1.csv` and `stationary_source_profiles_v1.csv`; freeze provenance/interpolation/coverage before fitting.
 3. **Stationary calibration:** infer one global `{L_A, C_A}` on the predeclared calibration set, perform theoretical-health checks, freeze the model, then open the blind sample.
 4. **Historical source implementation:** extend the canonical scalar/vector source maps to the Milky Way history and orientation operator after stationary parameters are frozen.
@@ -157,4 +159,4 @@ If a proposed path contradicts a CLOSED or PERMANENT-GUARDRAIL item, stop and ex
 
 ## Immediate next action
 
-**Ingest the remaining eleven verified THINGS/LITTLE THINGS stationary overlaps using the same frozen annular extraction/QC used for the four recovered systems, then continue the WHISP/Lelli/public-atlas sweep. Do not fit `L_A` or `C_A` until the public source-profile freeze is complete.**
+**Promote the nine frozen-sample public direct-profile systems already in hand (DDO154, DDO168 plus seven FEASTS systems) into the harmonized stationary H I table with frozen distance/coverage rules, then continue public recovery. Do not fit `L_A` or `C_A` until the source-profile freeze is complete.**
