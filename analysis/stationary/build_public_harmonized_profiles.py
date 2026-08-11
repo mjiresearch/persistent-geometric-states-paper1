@@ -10,10 +10,11 @@ This is a data-construction utility, not a fit. It enforces the current freeze r
 - stellar surface density uses the predeclared 3.6um M/L values 0.5 disk, 0.7 bulge;
 - v_obs is never used as the source-current velocity.
 
-Inputs are expected to be locally acquired public products:
-1. direct_hi_annular_profiles.csv (THINGS/LITTLE THINGS map extraction)
+Inputs:
+1. direct_hi_annular_profiles.csv (THINGS/LITTLE THINGS public-map extraction)
 2. feasts_hi_profiles_long.csv (public FEASTS direct radial profiles)
-3. stationary_master_v1.csv (frozen stationary SPARC master)
+3. Leroy-2008 six-galaxy CSV acquired from CDS J/AJ/136/2782/table7
+4. stationary_master_v1.csv (frozen stationary SPARC master)
 
 Outputs:
 - stationary_hi_profiles_public_harmonized_v1.csv
@@ -32,14 +33,16 @@ FEASTS_FROZEN = (
     "NGC2841", "NGC2903", "NGC3198", "NGC3521",
     "NGC4559", "NGC5033", "NGC5055",
 )
+LEROY_FROZEN = ("IC2574", "NGC2403", "NGC2976", "NGC6946", "NGC7331", "NGC7793")
 HELIUM_FACTOR = 1.33
 ML_DISK = 0.5
 ML_BULGE = 0.7
 
 
-def build(direct_path: Path, feasts_path: Path, master_path: Path, outdir: Path) -> None:
+def build(direct_path: Path, feasts_path: Path, leroy_path: Path, master_path: Path, outdir: Path) -> None:
     hi = pd.read_csv(direct_path)
     fe = pd.read_csv(feasts_path)
+    leroy = pd.read_csv(leroy_path)
     master = pd.read_csv(master_path)
     frozen = set(master["galaxy"].unique())
 
@@ -66,6 +69,7 @@ def build(direct_path: Path, feasts_path: Path, master_path: Path, outdir: Path)
                 "source_family": "THINGS/LITTLE_THINGS",
                 "source_product": "public moment-0 annular extraction",
                 "source_distance_mpc": frozen_distance,
+                "frozen_sparc_distance_mpc": frozen_distance,
                 "radius_scale_to_frozen": 1.0,
                 "helium_included": False,
                 "profile_method": "direct_public_map_extraction",
@@ -92,10 +96,38 @@ def build(direct_path: Path, feasts_path: Path, master_path: Path, outdir: Path)
                 "source_family": "FEASTS",
                 "source_product": "public direct radial HI profile",
                 "source_distance_mpc": source_distance,
+                "frozen_sparc_distance_mpc": frozen_distance,
                 "radius_scale_to_frozen": scale,
                 "helium_included": False,
                 "profile_method": "direct_public_radial_profile",
                 "qc_flag": "distance_rescaled_to_frozen_SPARC",
+            })
+
+    for galaxy in LEROY_FROZEN:
+        if galaxy not in frozen:
+            raise ValueError(f"{galaxy} is not in the frozen stationary master")
+        d = leroy[leroy["galaxy"] == galaxy].copy().sort_values("r_leroy_kpc")
+        if d.empty:
+            raise ValueError(f"No Leroy-2008 profile found for {galaxy}")
+        frozen_distance = float(master.loc[master.galaxy == galaxy, "distance_mpc"].iloc[0])
+        source_distance = float(d["leroy_distance_mpc"].iloc[0])
+        scale = frozen_distance / source_distance
+        for _, row in d.iterrows():
+            if not np.isfinite(row["sigma_hi_msun_pc2"]):
+                continue
+            rows.append({
+                "galaxy": galaxy,
+                "radius_kpc": float(row["r_leroy_kpc"] * scale),
+                "sigma_hi_msun_pc2": float(row["sigma_hi_msun_pc2"]),
+                "sigma_hi_err_msun_pc2": float(row["e_sigma_hi_msun_pc2"]) if np.isfinite(row["e_sigma_hi_msun_pc2"]) else np.nan,
+                "source_family": "Leroy_et_al_2008_THINGS",
+                "source_product": "CDS J/AJ/136/2782/table7",
+                "source_distance_mpc": source_distance,
+                "frozen_sparc_distance_mpc": frozen_distance,
+                "radius_scale_to_frozen": scale,
+                "helium_included": False,
+                "profile_method": "direct_public_machine_readable_radial_profile",
+                "qc_flag": "distance_rescaled_catalog_helium_removed",
             })
 
     profiles = pd.DataFrame(rows).sort_values(["galaxy", "radius_kpc"]).reset_index(drop=True)
@@ -109,7 +141,7 @@ def build(direct_path: Path, feasts_path: Path, master_path: Path, outdir: Path)
         for _, row in galaxy_master.iterrows():
             radius = float(row["radius_kpc"])
             if radius < rp.min() or radius > rp.max():
-                continue  # no extrapolation
+                continue
             sigma_hi = float(np.interp(radius, rp, yp))
             sigma_atomic = HELIUM_FACTOR * sigma_hi
             sigma_star = ML_DISK * float(row["sb_disk_lsun_pc2"]) + ML_BULGE * float(row["sb_bulge_lsun_pc2"])
@@ -159,10 +191,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--direct", type=Path, required=True)
     parser.add_argument("--feasts", type=Path, required=True)
+    parser.add_argument("--leroy", type=Path, required=True)
     parser.add_argument("--master", type=Path, required=True)
     parser.add_argument("--outdir", type=Path, required=True)
     args = parser.parse_args()
-    build(args.direct, args.feasts, args.master, args.outdir)
+    build(args.direct, args.feasts, args.leroy, args.master, args.outdir)
 
 
 if __name__ == "__main__":
