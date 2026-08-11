@@ -1,0 +1,51 @@
+name: Audit A&A public HI atlas assets
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        include:
+          - key: swaters2002
+            doi: '10.1051/0004-6361:20011755'
+          - key: noordermeer2005
+            doi: '10.1051/0004-6361:20053172'
+          - key: verheijen2001
+            doi: '10.1051/0004-6361:20010027'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Resolve DOI and inventory publisher assets
+        env:
+          KEY: ${{ matrix.key }}
+          DOI: ${{ matrix.doi }}
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/aanda/$KEY
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -D /tmp/aanda/$KEY/headers.txt -o /tmp/aanda/$KEY/landing.html "https://doi.org/$DOI" || true
+          python - <<'PY'
+          from pathlib import Path
+          import os,re,urllib.parse,csv
+          key=os.environ['KEY']; root=Path('/tmp/aanda')/key
+          html=(root/'landing.html').read_text(errors='ignore') if (root/'landing.html').exists() else ''
+          hrefs=re.findall(r'href=["\']([^"\']+)',html,re.I)
+          # Preserve all links likely to contain publication files, supplements, images, PostScript, or online material.
+          keep=[]
+          for h in hrefs:
+              l=h.lower()
+              if any(t in l for t in ['pdf','ps','eps','fig','image','online','supp','material','download','article','full']):
+                  keep.append(h)
+          with open(root/'candidate_links.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['href']);w.writerows([[x] for x in sorted(set(keep))])
+          (root/'landing_excerpt.txt').write_text(re.sub(r'\s+',' ',html)[:30000])
+          print('candidate links',len(set(keep)))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: aanda-hi-atlas-${{ matrix.key }}
+          path: /tmp/aanda/${{ matrix.key }}
