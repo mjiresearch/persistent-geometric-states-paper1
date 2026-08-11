@@ -17,8 +17,10 @@ import hashlib
 import json
 from pathlib import Path
 
+# Full six-galaxy Hua list. Its intersection with the frozen 149 is
+# D564-8, D631-7, NGC5907, UGC06818. NGC4138 is eligible.
 HI_PROFILE_UNAVAILABLE_HUA2025 = {
-    "D512-2", "D564-8", "D631-7", "NGC5907", "NGC4138", "UGC06818"
+    "D512-2", "D564-8", "D631-7", "NGC5907", "NGC7339", "UGC06818"
 }
 
 
@@ -133,13 +135,13 @@ def main() -> None:
             "hi_profile_reported_available_hua2025": "1" if reported else "0",
             "hi_profile_acquired_in_repository": "0",
             "primary_source_reconstruction_status": (
-                "await_external_HI_profile_ingestion" if reported
+                "await_public_HI_profile_ingestion" if reported
                 else "requires_predeclared_missing_profile_policy"
             ),
             "note": (
-                "Hua et al. 2025 identify this galaxy among six SPARC systems whose rotation-curve references lack radial HI profiles."
+                "Hua et al. identify this galaxy among six SPARC systems without compiled radial HI profiles."
                 if not reported else
-                "Radial HI profile reported available in the literature compilation; exact source/provenance must be ingested before use."
+                "Radial HI profile reported available in the literature compilation; public source/product and provenance must be ingested before use."
             ),
         })
 
@@ -151,7 +153,7 @@ def main() -> None:
     unavailable = [r["galaxy"] for r in availability_rows if r["hi_profile_reported_available_hua2025"] == "0"]
     unavailable_roles = {g: split_by_galaxy[g][role_col] for g in unavailable}
     summary = {
-        "status": "SOURCE_BASIS_BUILT_GAS_PROFILES_NOT_YET_INGESTED",
+        "status": "SOURCE_BASIS_BUILT_PUBLIC_GAS_PROFILE_RECONSTRUCTION_IN_PROGRESS",
         "n_galaxies": len(galaxies),
         "n_rows": len(basis_rows),
         "n_hi_profiles_reported_available_hua2025": len(galaxies) - len(unavailable),
@@ -164,7 +166,7 @@ def main() -> None:
         "availability_sha256": sha256_file(args.availability_out),
         "signed_gas_rule": "v_gas2_signed = Vgas * abs(Vgas)",
         "stellar_surface_density_rule": "Sigma_disk = Upsilon_d * SBdisk; Sigma_bulge = Upsilon_b * SBbulge",
-        "gas_surface_density_rule": "Do not substitute Vgas for Sigma_gas. Ingest independently sourced radial HI profiles; any missing-profile reconstruction requires separate pre-fit validation.",
+        "gas_surface_density_rule": "Do not substitute Vgas for Sigma_gas. Ingest independently sourced public radial HI profiles; any missing-profile reconstruction requires separate pre-fit validation.",
         "source_current_velocity_rule": "Use self-consistent model velocity V(R); Vobs is target data and is not used as source current.",
         "contains_persistence_parameters": False,
     }
