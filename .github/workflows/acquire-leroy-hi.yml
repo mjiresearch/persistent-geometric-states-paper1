@@ -5,6 +5,10 @@ on:
   push:
     paths:
       - '.github/workflows/acquire-leroy-hi.yml'
+  pull_request:
+    paths:
+      - '.github/workflows/acquire-leroy-hi.yml'
+      - 'validation/stationary/LEROY2008_ACQUISITION_ROUTE.md'
 
 jobs:
   acquire:
@@ -34,9 +38,12 @@ jobs:
           if missing: raise SystemExit(f'missing galaxies: {sorted(missing)}')
           out.sort(key=lambda x:(x[0],x[1]))
           with open('leroy2008_six_stationary_hi_profiles.csv','w',newline='') as f:
-              w=csv.writer(f); w.writerow(['galaxy','r_leroy_kpc','sigma_hi_msun_pc2','e_sigma_hi_msun_pc2','source_catalog','helium_correction'])
-              for row in out: w.writerow([*row,'J/AJ/136/2782/table7','divide_by_1.36'])
-          print('rows',len(out)); print({g:sum(x[0]==g for x in out) for g in sorted(targets)})
+              w=csv.writer(f)
+              w.writerow(['galaxy','r_leroy_kpc','sigma_hi_msun_pc2','e_sigma_hi_msun_pc2','source_catalog','helium_correction'])
+              for row in out:
+                  w.writerow([*row,'J/AJ/136/2782/table7','divide_by_1.36'])
+          print('rows',len(out))
+          print({g:sum(x[0]==g for x in out) for g in sorted(targets)})
           PY
       - uses: actions/upload-artifact@v4
         with:
