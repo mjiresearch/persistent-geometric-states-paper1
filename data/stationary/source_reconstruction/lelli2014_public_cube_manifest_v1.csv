@@ -1,0 +1,2 @@
+galaxy,stationary_role,source_family,vizier_catalog,acquisition_method,catalog_name,catalog_name_norm,ra_deg,dec_deg,pixel_scale_arcsec,nx_ny,n_channels,v_lower_kms,v_upper_kms,dv_kms,size_kib,filename,download_url,title
+NGC4068,calibration,Lelli et al. (2014),J/A+A/566/A71,public_CDS_HI_datacube,NGC4068,NGC4068,181.01163,+52.58793,5.,512x 512,123,81.427,334.701,2.061,125963,NGC4068_HIcube_r20.FIT,https://cdsarc.cds.unistra.fr/ftp/J/A+A/566/A71/fits/NGC4068_HIcube_r20.FIT,HI cube of NGC 4068 from WSRT data
