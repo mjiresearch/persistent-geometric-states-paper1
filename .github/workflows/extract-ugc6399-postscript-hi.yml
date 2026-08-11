@@ -1,0 +1,81 @@
+name: Extract UGC6399 HI profile from PostScript
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/extract-ugc6399-postscript-hi.yml'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install vector tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+          pip install pymupdf pandas numpy
+      - name: Download arXiv source and convert UGC6399 atlas page
+        run: |
+          mkdir -p /tmp/ugc6399/src /tmp/ugc6399/out
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/ugc6399/source.tar https://arxiv.org/e-print/astro-ph/0101404
+          tar -xf /tmp/ugc6399/source.tar -C /tmp/ugc6399/src
+          cp /tmp/ugc6399/src/figA01b.ps /tmp/ugc6399/out/ugc6399_atlas_b.ps
+          ps2pdf /tmp/ugc6399/out/ugc6399_atlas_b.ps /tmp/ugc6399/out/ugc6399_atlas_b.pdf
+          pdftotext -bbox-layout /tmp/ugc6399/out/ugc6399_atlas_b.pdf /tmp/ugc6399/out/ugc6399_bbox.html
+      - name: Extract vector geometry and calibrated radial-profile candidates
+        run: |
+          python - <<'PY'
+          import pymupdf as fitz, pandas as pd, numpy as np, json, re
+          from pathlib import Path
+          out=Path('/tmp/ugc6399/out')
+          doc=fitz.open(out/'ugc6399_atlas_b.pdf'); p=doc[0]
+          words=p.get_text('words'); drawings=p.get_drawings()
+          pd.DataFrame(words,columns=['x0','y0','x1','y1','text','block','line','word']).to_csv(out/'ugc6399_words.csv',index=False)
+          drows=[]
+          for j,d in enumerate(drawings):
+              r=d['rect']; drows.append(dict(idx=j,x0=r.x0,y0=r.y0,x1=r.x1,y1=r.y1,width=d.get('width'),nitems=len(d.get('items',[])),closePath=d.get('closePath'),fill=str(d.get('fill')),color=str(d.get('color'))))
+          pd.DataFrame(drows).to_csv(out/'ugc6399_drawings.csv',index=False)
+          # Preserve every line/curve endpoint so calibration can be independently reproduced.
+          seg=[]
+          for j,d in enumerate(drawings):
+              for k,it in enumerate(d.get('items',[])):
+                  op=it[0]
+                  vals=[]
+                  for v in it[1:]:
+                      if hasattr(v,'x') and hasattr(v,'y'): vals += [float(v.x),float(v.y)]
+                      elif isinstance(v,(int,float)): vals.append(float(v))
+                  seg.append(dict(drawing=j,item=k,op=op,coords=';'.join(map(str,vals))))
+          pd.DataFrame(seg).to_csv(out/'ugc6399_vector_items.csv',index=False)
+          # Diagnostic inventory of numeric labels and their coordinates. This allows exact axis identification
+          # without raster digitization or manually selected pixel points.
+          nums=[]
+          for w in words:
+              t=w[4].strip().replace('−','-')
+              if re.fullmatch(r'[-+]?\d+(?:\.\d+)?',t):
+                  nums.append(dict(x0=w[0],y0=w[1],x1=w[2],y1=w[3],text=t,cx=(w[0]+w[2])/2,cy=(w[1]+w[3])/2))
+          pd.DataFrame(nums).to_csv(out/'ugc6399_numeric_labels.csv',index=False)
+          # Identify compact plot rectangles from long horizontal/vertical vector segments and emit candidates.
+          lines=[]
+          for j,d in enumerate(drawings):
+              for it in d.get('items',[]):
+                  if it[0]=='l':
+                      a,b=it[1],it[2]; lines.append((j,float(a.x),float(a.y),float(b.x),float(b.y)))
+          cand=[]
+          for j,x0,y0,x1,y1 in lines:
+              L=np.hypot(x1-x0,y1-y0)
+              if L>40 and (abs(y1-y0)<0.2 or abs(x1-x0)<0.2): cand.append(dict(drawing=j,x0=x0,y0=y0,x1=x1,y1=y1,length=L))
+          pd.DataFrame(cand).to_csv(out/'ugc6399_long_axis_segments.csv',index=False)
+          pix=p.get_pixmap(matrix=fitz.Matrix(3,3),alpha=False); pix.save(out/'ugc6399_atlas_b_3x.png')
+          json.dump({'page_width':p.rect.width,'page_height':p.rect.height,'n_words':len(words),'n_drawings':len(drawings),'n_vector_items':len(seg),'n_numeric_labels':len(nums),'n_long_axis_segments':len(cand)},open(out/'ugc6399_vector_inventory.json','w'),indent=2)
+          print(json.load(open(out/'ugc6399_vector_inventory.json')))
+          print(pd.DataFrame(nums).to_string(index=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ugc6399-postscript-vector-extraction
+          path: /tmp/ugc6399/out
