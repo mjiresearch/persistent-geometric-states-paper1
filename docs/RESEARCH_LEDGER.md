@@ -54,6 +54,7 @@ This is the standing project-control document for the persistence framework. It 
 | L-018 | Canonical stationary Section 10 solver | Implemented with order-one Hankel transform, screened kernel, optional declared finite-thickness form factor, and under-relaxed nonlinear closure. | **ESTABLISHED / TESTING** | Canonical manuscript equations are revised or validation finds a solver defect. |
 | L-019 | Stationary parameter sequencing | `L_A` and `C_A` are universal stationary parameters to be calibrated on the predeclared calibration sample, then frozen before blind/history tests; Milky Way may not set them. | **PERMANENT GUARDRAIL** | Parent action independently derives both numerically. |
 | L-020 | Public radial-HI acquisition | Private communication is the last resort. Rebuild the 145-galaxy direct-profile source set from public literature/survey products where possible, with redistribution/license provenance. | **ACTIVE** | Public routes are exhausted and documented. |
+| L-021 | Public THINGS/LITTLE THINGS overlap | Fifteen frozen-SPARC galaxies have verified direct public survey products. Four (DDO154, DDO168, NGC2366, NGC4214) already have clean extracted radial profiles totaling 523 clean bins; eleven more are queued for the same frozen extraction pipeline. | **ACTIVE / PARTLY RECOVERED** | Survey-product provenance or extraction QC fails. |
 
 ## Current achievements
 
@@ -82,6 +83,8 @@ This is the standing project-control document for the persistence framework. It 
 | H I provenance scaffold | ✅ | 145 expected direct-profile eligible; four frozen-sample Hua-missing systems remain excluded unless independently recovered pre-fit. |
 | Hua source-family registry | ✅ / 🟡 | Public-route audit in progress. |
 | SPARC galaxy→reference crosswalk builder | ✅ | Uses public `SPARC_Lelli2016c.mrt`; references are acquisition leads, not assumed profile provenance. |
+| Direct THINGS/LITTLE THINGS overlap | ✅ | 15 frozen-sample galaxies with public direct H I products; 4 already extracted, 11 queued. |
+| Clean public profiles already recovered | ✅ / 🟡 | DDO154 (136 bins), DDO168 (113), NGC2366 (180), NGC4214 (94); 523 clean bins total. |
 | Public numerical-profile acquisition | **ACTIVE** | Prefer machine-readable tables; otherwise public FITS/map extraction; figure digitization only as documented fallback. |
 | Redistribution/license audit | **ACTIVE** | Public availability does not automatically imply raw-file redistribution rights. |
 | `stationary_hi_profiles_v1.csv` | ⏳ | Build after verified public profile ingestion. |
@@ -131,7 +134,7 @@ with the nonlocal disk kernel and universal theory-level combinations given in S
 
 ## Highest-priority open goals
 
-1. **Public H I recovery:** exhaust public machine-readable, FITS/map, and documented digitization routes for the frozen stationary sample.
+1. **Public H I recovery:** ingest the remaining eleven verified THINGS/LITTLE THINGS overlaps, then continue the WHISP/Lelli/atlas source-family sweep.
 2. **Source-profile freeze:** construct and QC `stationary_hi_profiles_v1.csv` and `stationary_source_profiles_v1.csv`; freeze provenance/interpolation/coverage before fitting.
 3. **Stationary calibration:** infer one global `{L_A, C_A}` on the predeclared calibration set, perform theoretical-health checks, freeze the model, then open the blind sample.
 4. **Historical source implementation:** extend the canonical scalar/vector source maps to the Milky Way history and orientation operator after stationary parameters are frozen.
@@ -154,4 +157,4 @@ If a proposed path contradicts a CLOSED or PERMANENT-GUARDRAIL item, stop and ex
 
 ## Immediate next action
 
-**Complete the public radial-H I acquisition sweep and source-profile freeze. Do not fit `L_A` or `C_A` until the verified public profile set and redistribution/provenance audit are frozen.**
+**Ingest the remaining eleven verified THINGS/LITTLE THINGS stationary overlaps using the same frozen annular extraction/QC used for the four recovered systems, then continue the WHISP/Lelli/public-atlas sweep. Do not fit `L_A` or `C_A` until the public source-profile freeze is complete.**
