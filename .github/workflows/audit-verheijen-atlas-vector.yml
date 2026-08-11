@@ -39,9 +39,12 @@ jobs:
                       rows.append({'galaxy':g,'pdf_page_1based':i+1,'drawing_objects':len(drawings),'text_chars':len(text),'page_width':p.rect.width,'page_height':p.rect.height})
           with open('/tmp/vs2001/candidate_page_index.csv','w',newline='') as f:
               w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
-          p=doc[32]
-          open('/tmp/vs2001/ugc6399_page33.svg','w').write(p.get_svg_image())
-          pix=p.get_pixmap(matrix=fitz.Matrix(2,2),alpha=False); pix.save('/tmp/vs2001/ugc6399_page33.png')
+          # Export one representative candidate page for vector diagnostics.
+          target=next((r for r in rows if r['galaxy']=='UGC06399'), None)
+          if target is None: raise SystemExit('UGC06399 not found in atlas text index')
+          p=doc[target['pdf_page_1based']-1]
+          open('/tmp/vs2001/ugc6399_page.svg','w').write(p.get_svg_image())
+          pix=p.get_pixmap(matrix=fitz.Matrix(2,2),alpha=False); pix.save('/tmp/vs2001/ugc6399_page.png')
           with open('/tmp/vs2001/ugc6399_words.csv','w',newline='') as f:
               w=csv.writer(f);w.writerow(['x0','y0','x1','y1','text','block','line','word']);w.writerows(p.get_text('words'))
           with open('/tmp/vs2001/ugc6399_drawings.csv','w',newline='') as f:
@@ -49,9 +52,8 @@ jobs:
               for j,d in enumerate(p.get_drawings()):
                   r=d['rect'];w.writerow([j,r.x0,r.y0,r.x1,r.y1,d.get('width'),len(d.get('items',[])),d.get('closePath'),str(d.get('fill')),str(d.get('color'))])
           print('pages',len(doc),'matches',len(rows),'unique',len(set(r['galaxy'] for r in rows)))
-          print('page33 drawings',len(p.get_drawings()),'words',len(p.get_text('words')))
-          for word in p.get_text('words'):
-              if any(k in str(word[4]).lower() for k in ['distance','hi','m⊙','pc','surface','density']): print('WORD',word)
+          print('candidate pages',rows)
+          print('UGC06399 page',target['pdf_page_1based'],'drawings',len(p.get_drawings()),'words',len(p.get_text('words')))
           PY
       - uses: actions/upload-artifact@v4
         with:
@@ -59,7 +61,7 @@ jobs:
           path: |
             /tmp/vs2001/candidate_page_index.csv
             /tmp/vs2001/pdfinfo.txt
-            /tmp/vs2001/ugc6399_page33.svg
-            /tmp/vs2001/ugc6399_page33.png
+            /tmp/vs2001/ugc6399_page.svg
+            /tmp/vs2001/ugc6399_page.png
             /tmp/vs2001/ugc6399_words.csv
             /tmp/vs2001/ugc6399_drawings.csv
