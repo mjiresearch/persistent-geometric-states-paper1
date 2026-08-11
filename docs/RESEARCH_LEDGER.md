@@ -51,6 +51,9 @@ This is the standing project-control document for the persistence framework. It 
 | L-015 | Referee report | Converted into permanent theory-admissibility guardrails. | **INCORPORATED** | A new referee/theory result supersedes a specific point. |
 | L-016 | Rotation–lensing–cosmology triangle | Reconfirmed as the natural cross-scale validation structure already present in the early work and current framework. | **ESTABLISHED** | Theory predicts a demonstrably different observable structure. |
 | L-017 | Canonical weak-field Stage 9 bridge | Derived directly from the current paper. Stationary disks are vector-current dominated; historical evolution adds the canonical scalar/history source. The observable force follows from `g_obs = g + epsilon_H H`. | **ESTABLISHED** | Canonical manuscript equations are deliberately revised. |
+| L-018 | Canonical stationary Section 10 solver | Implemented with order-one Hankel transform, screened kernel, optional declared finite-thickness form factor, and under-relaxed nonlinear closure. | **ESTABLISHED / TESTING** | Canonical manuscript equations are revised or validation finds a solver defect. |
+| L-019 | Stationary parameter sequencing | `L_A` and `C_A` are universal stationary parameters to be calibrated on the predeclared calibration sample, then frozen before blind/history tests; Milky Way may not set them. | **PERMANENT GUARDRAIL** | Parent action independently derives both numerically. |
+| L-020 | Public radial-HI acquisition | Private communication is the last resort. Rebuild the 145-galaxy direct-profile source set from public literature/survey products where possible, with redistribution/license provenance. | **ACTIVE** | Public routes are exhausted and documented. |
 
 ## Current achievements
 
@@ -65,9 +68,26 @@ This is the standing project-control document for the persistence framework. It 
 | Parent field content | ✅ | Current paper contains scalar/vector/state-frame construction. |
 | Stability/dispersion framework | ✅ | Present in current manuscript; precision claims must stay within what is actually derived. |
 | Canonical weak-field source-to-force mapping | ✅ | Documented in `docs/theory/stage9_canonical_weak_field_bridge.md`. |
+| Canonical stationary solver | ✅ / 🟡 | Implemented; empirical use waits on frozen source profiles. |
 | Explicit constraint/mode-counting presentation | 🟡 | Strengthen for referee-proof exposition. |
 | Quantitative GR-tail → effective-kernel derivation | ⏳ | Major open theoretical goal. |
-| Observable coupling/parameter values frozen independent of galaxy targets | 🟡 | Structure is known; numerical provenance for universal combinations still required. |
+| Observable coupling/parameter values frozen independent of galaxy targets | 🟡 | Stationary numerical values await the frozen public-source calibration set. |
+
+### Stationary calibration / public H I source reconstruction
+
+| Goal | Status | Notes |
+|---|---|---|
+| Frozen observational master | ✅ | 149 galaxies / 3,152 points. |
+| Frozen calibration/blind roles | ✅ | 104 / 45 before direct-profile availability filtering. |
+| H I provenance scaffold | ✅ | 145 expected direct-profile eligible; four frozen-sample Hua-missing systems remain excluded unless independently recovered pre-fit. |
+| Hua source-family registry | ✅ / 🟡 | Public-route audit in progress. |
+| SPARC galaxy→reference crosswalk builder | ✅ | Uses public `SPARC_Lelli2016c.mrt`; references are acquisition leads, not assumed profile provenance. |
+| Public numerical-profile acquisition | **ACTIVE** | Prefer machine-readable tables; otherwise public FITS/map extraction; figure digitization only as documented fallback. |
+| Redistribution/license audit | **ACTIVE** | Public availability does not automatically imply raw-file redistribution rights. |
+| `stationary_hi_profiles_v1.csv` | ⏳ | Build after verified public profile ingestion. |
+| `stationary_source_profiles_v1.csv` | ⏳ | Build after H I profile QC and stellar/gas merge. |
+| Source-profile freeze | ⏳ | No `L_A`/`C_A` fitting before freeze. |
+| Global stationary calibration | ⏳ | Expected retained split 101 calibration / 44 blind if four known-missing systems remain unavailable. |
 
 ### Milky Way / Stage 9
 
@@ -80,13 +100,11 @@ This is the standing project-control document for the persistence framework. It 
 | Memory-time sensitivity architecture | ✅ | Frozen grid architecture exists. |
 | Provisional baryonic-history adapter | ✅ / 🟡 | Operational but source-history limited. |
 | Canonical-theory weak-field mapping | ✅ | Derived from current paper. |
-| Canonical stationary disk equation reproduction | **NEXT** | Reproduce Sec. 10 numerically before historical Stage 9A. |
-| Universal parameter provenance table | **NEXT** | Determine source for `L_A`, `C_A`, scalar/history parameters, state-frame assumptions. |
-| 0° canonical persistence prediction | ⏳ | After stationary reproduction and parameter freeze. |
+| 0° canonical persistence prediction | ⏳ | After stationary calibration parameters are frozen. |
 | 0–180° orientation suite | ⏳ | Run only after 0° theory and normalization are frozen. |
 | Orbit-weight comparison | ⏳ | After persistence field is frozen. |
 | Δa comparison | ⏳ | Downstream diagnostic only; never calibration. |
-| SPARC external validation | ⏳ | After Milky Way pipeline is frozen. |
+| SPARC blind validation | ⏳ | After stationary model freeze. |
 
 ## Canonical weak-field bridge summary
 
@@ -113,15 +131,15 @@ with the nonlocal disk kernel and universal theory-level combinations given in S
 
 ## Highest-priority open goals
 
-1. **Canonical stationary reproduction:** implement/reproduce Sec. 10 with the exact paper equations before historical generalization.
-2. **Parameter provenance:** identify which universal combinations are already fixed/calibrated in the current paper and which remain open; none may be chosen from Stage 9 halo targets.
-3. **Historical source implementation:** extend the canonical scalar/vector source maps to the Milky Way history and orientation operator.
-4. **Constraint/mode accounting:** make the additional state content and constraints explicit enough to answer the referee’s DOF objection without overclaiming.
-5. **Kernel provenance:** either quantitatively derive the effective hereditary kernel from coarse-grained GR-tail physics or state clearly that it is an effective ansatz and seek an independent microscopic origin.
-6. **Stage 9A prediction:** freeze the 0° Milky Way persistence field before opening halo/Δa/orbit-weight comparisons.
-7. **Orientation sensitivity:** only after Stage 9A is frozen, run 30°, 60°, 90°, 120°, 150°, 180° with identical physics.
-8. **Cross-observable validation:** use the same universal theory for dynamics, lensing and cosmology; no sector-specific retuning.
-9. **SPARC:** apply the frozen framework to the broader galaxy population after Milky Way validation.
+1. **Public H I recovery:** exhaust public machine-readable, FITS/map, and documented digitization routes for the frozen stationary sample.
+2. **Source-profile freeze:** construct and QC `stationary_hi_profiles_v1.csv` and `stationary_source_profiles_v1.csv`; freeze provenance/interpolation/coverage before fitting.
+3. **Stationary calibration:** infer one global `{L_A, C_A}` on the predeclared calibration set, perform theoretical-health checks, freeze the model, then open the blind sample.
+4. **Historical source implementation:** extend the canonical scalar/vector source maps to the Milky Way history and orientation operator after stationary parameters are frozen.
+5. **Constraint/mode accounting:** make the additional state content and constraints explicit enough to answer the referee’s DOF objection without overclaiming.
+6. **Kernel provenance:** either quantitatively derive the effective hereditary kernel from coarse-grained GR-tail physics or state clearly that it is an effective ansatz and seek an independent microscopic origin.
+7. **Stage 9A prediction:** freeze the 0° Milky Way persistence field before opening halo/Δa/orbit-weight comparisons.
+8. **Orientation sensitivity:** only after Stage 9A is frozen, run 30°, 60°, 90°, 120°, 150°, 180° with identical physics.
+9. **Cross-observable validation:** use the same universal theory for dynamics, lensing and cosmology; no sector-specific retuning.
 
 ## Do-not-digress rules
 
@@ -136,4 +154,4 @@ If a proposed path contradicts a CLOSED or PERMANENT-GUARDRAIL item, stop and ex
 
 ## Immediate next action
 
-**Reproduce the canonical Section 10 stationary rotating-disk equation numerically, using the current paper’s exact vector-current source and force mapping, and build a parameter-provenance table before any new Milky Way halo comparison.**
+**Complete the public radial-H I acquisition sweep and source-profile freeze. Do not fit `L_A` or `C_A` until the verified public profile set and redistribution/provenance audit are frozen.**
