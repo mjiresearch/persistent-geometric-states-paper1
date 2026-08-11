@@ -15,14 +15,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download public CDS table
+      - name: Download public CDS tables
         run: |
           curl -L --fail --retry 3 -o table7.dat https://cdsarc.cds.unistra.fr/ftp/J/AJ/136/2782/table7.dat
+          curl -L --fail --retry 3 -o table4.dat https://cdsarc.cds.unistra.fr/ftp/J/AJ/136/2782/table4.dat
       - name: Extract six stationary galaxies and remove helium factor
         run: |
           python - <<'PY'
           import csv
           targets={'IC2574','NGC2403','NGC2976','NGC6946','NGC7331','NGC7793'}
+          dist={}
+          for line in open('table4.dat'):
+              if len(line)<13:
+                  continue
+              name=line[0:8].strip().replace(' ','').replace('-','').upper()
+              if name in targets:
+                  try:
+                      dist[name]=float(line[9:13].strip())
+                  except ValueError:
+                      pass
           out=[]
           for line in open('table7.dat'):
               if len(line)<29:
@@ -40,16 +51,20 @@ jobs:
               out.append((name,r,float(s)/1.36,float(e)/1.36 if e else ''))
           found={x[0] for x in out}
           missing=targets-found
+          missing_dist=targets-set(dist)
           if missing:
-              raise SystemExit(f'missing galaxies: {sorted(missing)}; found={sorted(found)}')
+              raise SystemExit(f'missing profile galaxies: {sorted(missing)}; found={sorted(found)}')
+          if missing_dist:
+              raise SystemExit(f'missing Leroy distances: {sorted(missing_dist)}')
           out.sort(key=lambda x:(x[0],x[1]))
           with open('leroy2008_six_stationary_hi_profiles.csv','w',newline='') as f:
               w=csv.writer(f)
-              w.writerow(['galaxy','r_leroy_kpc','sigma_hi_msun_pc2','e_sigma_hi_msun_pc2','source_catalog','helium_correction'])
-              for row in out:
-                  w.writerow([*row,'J/AJ/136/2782/table7','divide_by_1.36'])
+              w.writerow(['galaxy','leroy_distance_mpc','r_leroy_kpc','sigma_hi_msun_pc2','e_sigma_hi_msun_pc2','source_catalog','helium_correction'])
+              for name,r,s,e in out:
+                  w.writerow([name,dist[name],r,s,e,'J/AJ/136/2782/table7','divide_by_1.36'])
           print('rows',len(out))
-          print({g:sum(x[0]==g for x in out) for g in sorted(targets)})
+          print('counts',{g:sum(x[0]==g for x in out) for g in sorted(targets)})
+          print('distances',dist)
           PY
       - uses: actions/upload-artifact@v4
         with:
