@@ -1,0 +1,8 @@
+galaxy,n_hi_bins,feasts_distance_mpc,sparc_distance_mpc,radius_scale_to_sparc,r_hi_min_sparc_kpc,r_hi_max_sparc_kpc,r_sparc_min_kpc,r_sparc_max_kpc,n_sparc_points,n_sparc_points_inside_hi_range,primary_public_status
+NGC2841,46,14.1,14.1,1.0,3.0745833333,105.1477956612,0.25,63.64,50,50,direct_FEASTS_profile_available
+NGC2903,35,8.5,6.6,0.7764705882,1.4391666667,41.6213341161,0.32,24.96,34,30,direct_FEASTS_profile_available
+NGC3198,31,13.8,13.8,1.0,3.0091666667,76.8724914577,0.33,44.08,43,34,direct_FEASTS_profile_available
+NGC3521,35,11.2,7.7,0.6875,1.6790277778,55.8176252658,0.51,17.74,41,34,direct_FEASTS_profile_available
+NGC4559,26,8.9,9.0,1.0112359551,1.9625,48.8410935381,0.58,20.97,32,30,direct_FEASTS_profile_available
+NGC5033,50,18.5,15.7,0.8486486486,3.4234722222,124.5653983965,1.73,44.59,22,20,direct_FEASTS_profile_available
+NGC5055,35,8.9,9.9,1.1123595506,2.15875,93.7836400455,0.51,54.59,28,26,direct_FEASTS_profile_available
