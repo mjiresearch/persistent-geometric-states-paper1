@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install audit dependency
+        run: pip install pandas
       - name: Audit public arXiv source packages against frozen sample
         run: |
           set -euxo pipefail
@@ -24,10 +26,9 @@ jobs:
           tar -xf /tmp/rs_audit/spekkens/source.tar -C /tmp/rs_audit/spekkens/src
           python - <<'PY'
           from pathlib import Path
-          import pandas as pd,re,csv,os
+          import pandas as pd,re,csv
           master=pd.read_csv('data/stationary/frozen/stationary_master_v1.csv')
           galaxies=sorted(master.galaxy.unique())
-          def canon(s): return re.sub(r'[^A-Z0-9]','',str(s).upper()).lstrip('0')
           def scan(label,root):
               files=[p for p in Path(root).rglob('*') if p.is_file()]
               rows=[]
@@ -38,14 +39,13 @@ jobs:
                   hits=[]
                   for g in galaxies:
                       cg=re.sub(r'[^A-Z0-9]','',g.upper())
-                      variants={cg}
-                      variants.add(re.sub(r'^(UGC|NGC)0+',r'\1',cg))
+                      variants={cg,re.sub(r'^(UGC|NGC)0+',r'\1',cg)}
                       if any(v and v in norm for v in variants): hits.append(g)
                   if hits:
                       rows.append({'file':str(p.relative_to(root)),'bytes':p.stat().st_size,'frozen_hits':';'.join(hits)})
-              pd.DataFrame(rows).to_csv(f'/tmp/rs_audit/{label}_frozen_hits.csv',index=False)
+              pd.DataFrame(rows,columns=['file','bytes','frozen_hits']).to_csv(f'/tmp/rs_audit/{label}_frozen_hits.csv',index=False)
               with open(f'/tmp/rs_audit/{label}_inventory.csv','w',newline='') as f:
-                  w=csv.writer(f);w.writerow(['file','bytes']);
+                  w=csv.writer(f);w.writerow(['file','bytes'])
                   for p in files:w.writerow([str(p.relative_to(root)),p.stat().st_size])
               print(label, rows)
           scan('richards','/tmp/rs_audit/richards/src')
