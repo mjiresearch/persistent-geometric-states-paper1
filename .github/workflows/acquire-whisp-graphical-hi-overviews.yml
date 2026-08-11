@@ -1,0 +1,61 @@
+name: Acquire WHISP graphical HI overviews
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/acquire-whisp-graphical-hi-overviews.yml'
+
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download public WHISP per-galaxy overview products
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/whisp_overviews/images /tmp/whisp_overviews/html
+          python - <<'PY'
+          import csv,urllib.request,urllib.error
+          from pathlib import Path
+          # Direct-UGC bulk targets from the verified Swaters, Noordermeer and Verheijen queues.
+          ugcs=[731,1281,4278,4499,5918,5986,7125,7151,7261,7323,7399,7524,7559,7577,7603,7690,7866,8286,8490,8550,8837,9992,10310,11557,12632,
+                2487,2916,2953,3205,3546,3580,5253,6786,6787,8699,9133,11914,
+                6399,6446,6667,6818,6917,6923,6930,6983,7089]
+          base='https://www.astro.rug.nl/~whisp/Database/OverviewCatalog/ListByName/'
+          ua={'User-Agent':'Mozilla/5.0 persistence-research/1.0'}
+          rows=[]
+          for n in ugcs:
+              d=f'U{n}'; stem=f'u{n}'
+              urls={
+                  'page':f'{base}{d}/{stem}.html',
+                  'plot':f'{base}{d}/{stem}plot.gif',
+                  'obsred':f'{base}{d}/{stem}obsred.html',
+              }
+              row={'ugc':n}
+              for typ,url in urls.items():
+                  try:
+                      req=urllib.request.Request(url,headers=ua)
+                      with urllib.request.urlopen(req,timeout=30) as r: data=r.read(); status=r.status
+                      ext='gif' if typ=='plot' else 'html'
+                      out=Path('/tmp/whisp_overviews/images' if typ=='plot' else '/tmp/whisp_overviews/html')/f'{stem}_{typ}.{ext}'
+                      out.write_bytes(data)
+                      row[f'{typ}_status']=status;row[f'{typ}_bytes']=len(data);row[f'{typ}_url']=url
+                  except Exception as e:
+                      row[f'{typ}_status']='ERR';row[f'{typ}_bytes']=0;row[f'{typ}_url']=url;row[f'{typ}_error']=str(e)
+              rows.append(row)
+          cols=sorted({k for r in rows for k in r})
+          with open('/tmp/whisp_overviews/manifest.csv','w',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=cols);w.writeheader();w.writerows(rows)
+          print('plot successes',sum(r.get('plot_status')==200 for r in rows),'of',len(rows))
+          print('page successes',sum(r.get('page_status')==200 for r in rows),'obsred',sum(r.get('obsred_status')==200 for r in rows))
+          PY
+          file /tmp/whisp_overviews/images/*.gif > /tmp/whisp_overviews/image_types.txt || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: whisp-graphical-hi-overviews
+          path: |
+            /tmp/whisp_overviews/manifest.csv
+            /tmp/whisp_overviews/image_types.txt
+            /tmp/whisp_overviews/images/*.gif
+            /tmp/whisp_overviews/html/*obsred.html
