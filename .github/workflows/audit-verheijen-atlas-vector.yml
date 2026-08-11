@@ -1,0 +1,62 @@
+name: Audit Verheijen 2001 atlas vector structure
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-verheijen-atlas-vector.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+          pip install pymupdf
+      - name: Download and convert public A&A PostScript atlas
+        run: |
+          mkdir -p /tmp/vs2001
+          curl -L --fail --retry 3 -o /tmp/vs2001/aa10469.ps.gz https://www.aanda.org/articles/aa/ps/2001/18/aa10469.ps.gz
+          gzip -dc /tmp/vs2001/aa10469.ps.gz > /tmp/vs2001/aa10469.ps
+          ps2pdf /tmp/vs2001/aa10469.ps /tmp/vs2001/aa10469.pdf
+          pdfinfo /tmp/vs2001/aa10469.pdf | tee /tmp/vs2001/pdfinfo.txt
+          pdftotext -layout /tmp/vs2001/aa10469.pdf /tmp/vs2001/aa10469.txt
+      - name: Index frozen candidate names and vector drawings
+        run: |
+          python - <<'PY'
+          import fitz, csv, re
+          candidates=['NGC3726','NGC3769','NGC3877','NGC3893','NGC3917','NGC3949','NGC3953','NGC3972','NGC3992','NGC4010','NGC4013','NGC4051','NGC4085','NGC4088','NGC4100','NGC4157','NGC4183','NGC4217','UGC06399','UGC06446','UGC06667','UGC06917','UGC06923','UGC06930','UGC06983','UGC07089']
+          doc=fitz.open('/tmp/vs2001/aa10469.pdf')
+          rows=[]
+          for i,p in enumerate(doc):
+              text=p.get_text('text')
+              norm=re.sub(r'\s+','',text.upper())
+              drawings=p.get_drawings()
+              for g in candidates:
+                  alts={g, g.replace('NGC0','NGC'), g.replace('UGC0','UGC')}
+                  if any(re.sub(r'\s+','',a) in norm for a in alts):
+                      rows.append({'galaxy':g,'pdf_page_1based':i+1,'drawing_objects':len(drawings),'text_chars':len(text),'page_width':p.rect.width,'page_height':p.rect.height})
+          with open('/tmp/vs2001/candidate_page_index.csv','w',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=['galaxy','pdf_page_1based','drawing_objects','text_chars','page_width','page_height']);w.writeheader();w.writerows(rows)
+          print('pages',len(doc),'matches',len(rows),'unique',len(set(r['galaxy'] for r in rows)))
+          for r in rows: print(r)
+          missing=sorted(set(candidates)-{r['galaxy'] for r in rows}); print('missing candidates',missing)
+          # Inventory pages rich in vector geometry, especially atlas half.
+          inv=[]
+          for i,p in enumerate(doc): inv.append((i+1,len(p.get_drawings()),len(p.get_text('text'))))
+          inv.sort(key=lambda x:x[1],reverse=True)
+          open('/tmp/vs2001/top_vector_pages.txt','w').write('\n'.join(map(str,inv[:80])))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verheijen2001-vector-audit
+          path: |
+            /tmp/vs2001/candidate_page_index.csv
+            /tmp/vs2001/top_vector_pages.txt
+            /tmp/vs2001/pdfinfo.txt
