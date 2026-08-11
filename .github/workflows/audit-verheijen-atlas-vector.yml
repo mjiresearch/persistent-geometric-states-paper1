@@ -17,14 +17,13 @@ jobs:
       - name: Install PDF tools
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y ghostscript poppler-utils
+          sudo apt-get install -y poppler-utils
           pip install pymupdf
-      - name: Download and convert public A&A PostScript atlas
+      - name: Download public arXiv atlas PDF
         run: |
           mkdir -p /tmp/vs2001
-          curl -L --fail --retry 3 -o /tmp/vs2001/aa10469.ps.gz https://www.aanda.org/articles/aa/ps/2001/18/aa10469.ps.gz
-          gzip -dc /tmp/vs2001/aa10469.ps.gz > /tmp/vs2001/aa10469.ps
-          ps2pdf /tmp/vs2001/aa10469.ps /tmp/vs2001/aa10469.pdf
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 \
+            -o /tmp/vs2001/aa10469.pdf https://arxiv.org/pdf/astro-ph/0101404
           pdfinfo /tmp/vs2001/aa10469.pdf | tee /tmp/vs2001/pdfinfo.txt
           pdftotext -layout /tmp/vs2001/aa10469.pdf /tmp/vs2001/aa10469.txt
       - name: Index frozen candidate names and vector drawings
@@ -47,7 +46,6 @@ jobs:
           print('pages',len(doc),'matches',len(rows),'unique',len(set(r['galaxy'] for r in rows)))
           for r in rows: print(r)
           missing=sorted(set(candidates)-{r['galaxy'] for r in rows}); print('missing candidates',missing)
-          # Inventory pages rich in vector geometry, especially atlas half.
           inv=[]
           for i,p in enumerate(doc): inv.append((i+1,len(p.get_drawings()),len(p.get_text('text'))))
           inv.sort(key=lambda x:x[1],reverse=True)
