@@ -1,0 +1,55 @@
+name: Extract van Zee 1997 HI profiles
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/extract_vanzee1997_hi_profiles.yml'
+  workflow_dispatch:
+
+jobs:
+  extract:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils ghostscript
+          pip install pandas pymupdf
+      - name: Download ADS paper and map six frozen targets to pages/figures
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/vz/out /tmp/vz/pages
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/vz/paper.pdf 'https://articles.adsabs.harvard.edu/pdf/1997AJ....113.1618V'
+          pdftotext -layout /tmp/vz/paper.pdf /tmp/vz/paper.txt
+          pdfinfo /tmp/vz/paper.pdf > /tmp/vz/out/pdfinfo.txt
+          python - <<'PY'
+          import fitz,re,csv
+          pdf=fitz.open('/tmp/vz/paper.pdf')
+          targets=['NGC3109','UGC191','UGC891','UGC5716','UGC5764','UGC11820']
+          rows=[]
+          for i,p in enumerate(pdf):
+              text=p.get_text('text')
+              norm=re.sub(r'[^A-Z0-9]','',text.upper())
+              hits=[]
+              for t in targets:
+                  tv=re.sub(r'[^A-Z0-9]','',t.upper())
+                  if tv in norm: hits.append(t)
+              if hits or 'SURFACE DENSITY' in text.upper() or 'H I SURFACE' in text.upper() or 'HI SURFACE' in text.upper():
+                  pix=p.get_pixmap(matrix=fitz.Matrix(2.5,2.5),alpha=False)
+                  fn=f'/tmp/vz/pages/page_{i+1:02d}.png'; pix.save(fn)
+                  rows.append((i+1,';'.join(hits),text[:1800].replace('\n',' ')))
+          with open('/tmp/vz/out/page_map.csv','w',newline='') as f:
+              w=csv.writer(f); w.writerow(['pdf_page','target_hits','text_excerpt']); w.writerows(rows)
+          print(rows)
+          PY
+          cp /tmp/vz/paper.txt /tmp/vz/out/paper.txt
+          cp /tmp/vz/pages/*.png /tmp/vz/out/ || true
+          sha256sum /tmp/vz/paper.pdf > /tmp/vz/out/paper.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vanzee1997-hi-profile-pages
+          path: /tmp/vz/out
