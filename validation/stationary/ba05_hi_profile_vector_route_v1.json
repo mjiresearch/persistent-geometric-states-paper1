@@ -1,0 +1,25 @@
+{
+  "status": "BA05_HI_PROFILE_VECTOR_ROUTE_AUDIT_COMPLETE",
+  "source": "Barbieri et al. 2005 A&A 439 947; astro-ph/0504534",
+  "source_fetch_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/astro-ph/0504534",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/astro-ph/0504534",
+      "content_type": "application/gzip",
+      "bytes": 433763
+    }
+  ],
+  "source_package_sha256": "7a1226830d4484a03926f8f9bb6157a83107bd80a35e478955397ebd186e9095",
+  "n_source_files": 18,
+  "figure3_radial_profile_contexts": [],
+  "candidate_profile_assets": [],
+  "numeric_sidecar_candidates": [],
+  "decision_fields": {
+    "n_candidate_profile_assets": 0,
+    "any_vector_signal": false,
+    "any_raster_signal": false,
+    "n_numeric_sidecars": 0
+  },
+  "boundary": "Source-asset audit only; no PostScript execution, OCR, raster digitization, map/cube reconstruction, helium correction, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
