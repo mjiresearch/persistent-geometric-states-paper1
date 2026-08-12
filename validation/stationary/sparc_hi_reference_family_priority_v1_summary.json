@@ -1,7 +1,7 @@
 {
   "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
   "n_frozen_galaxies": 149,
-  "n_untouched_no_public_overlay": 101,
+  "n_untouched_no_public_overlay": 98,
   "n_reference_families_covering_untouched": 44,
   "n_actionable_reference_families": 28,
   "n_deferred_or_redirected_reference_families": 16,
@@ -297,22 +297,6 @@
       "galaxies": "DDO064;UGC00731;UGC01281;UGC04278;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837;UGC11557"
     },
     {
-      "sparc_ref_id": "Sa96",
-      "n_untouched_frozen_galaxies": 13,
-      "n_calibration": 6,
-      "n_blind": 7,
-      "queue_actionable_now": "0",
-      "queue_status": "redirected_to_original_sources",
-      "disposition": "downstream_rotation_curve_compilation_mapped_to_original_observing_sources",
-      "disposition_artifact": "data/stationary/source_reconstruction/sa96_original_hi_source_map_v1.csv",
-      "reopen_rule": "auditable_original_source_route",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Sanders",
-      "bibcode": "1996ApJ...473..117S",
-      "comment": "",
-      "galaxies": "NGC0055;NGC0247;NGC0300;NGC0801;NGC1003;NGC2683;NGC2998;NGC5033;NGC5371;NGC5585;NGC5907;NGC6674;UGC02885"
-    },
-    {
       "sparc_ref_id": "No05",
       "n_untouched_frozen_galaxies": 12,
       "n_calibration": 10,
@@ -345,6 +329,22 @@
       "galaxies": "UGC02487;UGC02916;UGC02953;UGC03205;UGC03546;UGC03580;UGC05253;UGC06786;UGC06787;UGC08699;UGC09133;UGC11914"
     },
     {
+      "sparc_ref_id": "Sa96",
+      "n_untouched_frozen_galaxies": 11,
+      "n_calibration": 5,
+      "n_blind": 6,
+      "queue_actionable_now": "0",
+      "queue_status": "redirected_to_original_sources",
+      "disposition": "downstream_rotation_curve_compilation_mapped_to_original_observing_sources",
+      "disposition_artifact": "data/stationary/source_reconstruction/sa96_original_hi_source_map_v1.csv",
+      "reopen_rule": "auditable_original_source_route",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Sanders",
+      "bibcode": "1996ApJ...473..117S",
+      "comment": "",
+      "galaxies": "NGC0055;NGC0247;NGC0300;NGC0801;NGC1003;NGC2683;NGC2998;NGC5585;NGC5907;NGC6674;UGC02885"
+    },
+    {
       "sparc_ref_id": "Sw09",
       "n_untouched_frozen_galaxies": 9,
       "n_calibration": 5,
@@ -375,22 +375,6 @@
       "bibcode": "...................",
       "comment": "1992, PhD thesis, University of Groningen",
       "galaxies": "NGC0801;NGC1003;NGC2683;NGC2998;NGC5985;NGC6674"
-    },
-    {
-      "sparc_ref_id": "Be91",
-      "n_untouched_frozen_galaxies": 5,
-      "n_calibration": 4,
-      "n_blind": 1,
-      "queue_actionable_now": "0",
-      "queue_status": "defer_until_new_mechanism",
-      "disposition": "all_five_original_21cm_source_branches_audited_without_exact_numeric_or_vector_profile",
-      "disposition_artifact": "validation/stationary/BE91_ORIGINAL_SOURCE_PROFILE_QC_V1.md",
-      "reopen_rule": "new_machine_readable_profile_public_calibrated_map_cube_or_exact_analytic_republication",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Begeman et al.",
-      "bibcode": "1991MNRAS.249..523B",
-      "comment": "",
-      "galaxies": "DDO170;NGC2903;NGC3109;NGC6503;UGC02259"
     },
     {
       "sparc_ref_id": "SG06",
@@ -441,20 +425,20 @@
       "galaxies": "DDO064;NGC0100;UGC01281;UGC04278;UGC05005"
     },
     {
-      "sparc_ref_id": "Be87",
+      "sparc_ref_id": "Be91",
       "n_untouched_frozen_galaxies": 4,
       "n_calibration": 3,
       "n_blind": 1,
       "queue_actionable_now": "0",
-      "queue_status": "partially_resolved",
-      "disposition": "three_of_four_frozen_targets_recovered_as_exact_public_vector_hi_profiles_via_begeman_linked_republication",
-      "disposition_artifact": "validation/stationary/hoekstra2001_be87_hi_vector_profiles_candidate_v1_summary.json",
-      "reopen_rule": "exact_Rout_physical_radius_for_three_or_new_Begeman_linked_numeric_route_for_NGC6503",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "all_five_original_21cm_source_branches_audited_without_exact_numeric_or_vector_profile",
+      "disposition_artifact": "validation/stationary/BE91_ORIGINAL_SOURCE_PROFILE_QC_V1.md",
+      "reopen_rule": "new_machine_readable_profile_public_calibrated_map_cube_or_exact_analytic_republication",
       "reference_resolved_in_cds_refs": "1",
-      "author": "Begeman, K.G.",
-      "bibcode": "...................",
-      "comment": "1987, PhD thesis, University of Groningen",
-      "galaxies": "NGC2903;NGC5033;NGC5371;NGC6503"
+      "author": "Begeman et al.",
+      "bibcode": "1991MNRAS.249..523B",
+      "comment": "",
+      "galaxies": "DDO170;NGC3109;NGC6503;UGC02259"
     },
     {
       "sparc_ref_id": "VH93",
@@ -503,6 +487,22 @@
       "bibcode": "2011A&A...531A..64F",
       "comment": "",
       "galaxies": "NGC0891;NGC7814"
+    },
+    {
+      "sparc_ref_id": "Be87",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "partially_resolved",
+      "disposition": "three_of_four_frozen_targets_recovered_as_exact_public_vector_hi_profiles_via_begeman_linked_republication",
+      "disposition_artifact": "validation/stationary/hoekstra2001_be87_hi_vector_profiles_candidate_v1_summary.json",
+      "reopen_rule": "exact_Rout_physical_radius_for_three_or_new_Begeman_linked_numeric_route_for_NGC6503",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Begeman, K.G.",
+      "bibcode": "...................",
+      "comment": "1987, PhD thesis, University of Groningen",
+      "galaxies": "NGC6503"
     }
   ],
   "interpretation": "Coverage and actionability are separated. Families with no public overlay remain visible, but audited anti-loop dispositions prevent exhausted or redirected source families from reappearing at the head of the live acquisition queue.",
