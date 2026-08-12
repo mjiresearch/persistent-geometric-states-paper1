@@ -1,0 +1,109 @@
+URL=https://cdsarc.cds.unistra.fr/ftp/vizier/aa/papers/7321003/2300754.ps.gz
+embedded=07540003.eps
+ops={"image": 0, "colorimage": 0, "imagemask": 0, "moveto": 12, "lineto": 14, "rlineto": 8, "curveto": 0, "arc": 2, "stroke": 8, "fill": 1, "show": 0}
+
+HEADER
+%%BeginDocument: 07540003.eps
+%!PS-Adobe-3.0 EPSF-3.0
+%%For: LOURDES
+%%Title: PGPLOT PostScript plot
+%%Creator: PGPLOT
+%%CreationDate: 10-OCT-1996 13:57
+%%BoundingBox: (atend)
+%%DocumentFonts: (atend)
+%%LanguageLevel: 1
+%%Orientation: Portrait
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/L {moveto rlineto currentpoint stroke moveto} bind def
+/C {rlineto currentpoint stroke moveto} bind def
+/D {moveto 0 0 rlineto currentpoint stroke moveto} bind def
+/SLW {5 mul setlinewidth} bind def
+/SCF /pop load def
+/BP {newpath moveto} bind def
+/LP /rlineto load def
+/EP {rlineto closepath eofill} bind def
+/MB {gsave translate MFAC dup scale 1 setlinewidth 2 setlinecap 0 setlinejoin newpath} bind def
+/ME /grestore load def
+/CC {0 360 arc stroke} bind def
+/FC {0 360 arc fill} bind def
+%%EndProlog
+ 
+%%Page: 1 1
+%%BeginPageSetup
+/PGPLOT save def
+0.072 0.072 scale
+350 250 translate
+1 setlinejoin 1 setlinecap 1 SLW 1 SCF
+%%EndPageSetup
+%%PageBoundingBox: (atend)
+0.000 setgray 1 SLW 2825 0 435 1521 L 0 1196 C -2825 0 C 0 -1196 C 0 59 C 0 30 611 1521 L 0 30 788 1521 L 0 30 964 1521 L
+0 30 1141 1521 L 0 59 1318 1521 L 0 30 1494 1521 L 0 30 1671 1521 L 0 30 1847 1521 L 0 30 2024 1521 L 0 59 2200 1521 L
+0 30 2377 1521 L 0 30 2554 1521 L 0 30 2730 1521 L 0 30 2907 1521 L 0 59 3083 1521 L 0 30 3260 1521 L 0 59 435 2658 L
+0 30 611 2687 L 0 30 788 2687 L 0 30 964 2687 L 0 30 1141 2687 L 0 59 1318 2658 L 0 30 1494 2687 L 0 30 1671 2687 L 0 30 1847 2687 L
+0 30 2024 2687 L 0 59 2200 2658 L 0 30 2377 2687 L 0 30 2554 2687 L 0 30 2730 2687 L 0 30 2907 2687 L 0 59 3083 2658 L
+0 30 3260 2687 L 29 0 435 1521 L 58 0 435 1581 L 29 0 435 1641 L 29 0 435 1701 L 29 0 435 1760 L 29 0 435 1820 L 58 0 435 1880 L
+29 0 435 1940 L 29 0 435 1999 L 29 0 435 2059 L 29 0 435 2119 L 58 0 435 2179 L 29 0 435 2238 L 29 0 435 2298 L 29 0 435 2358 L
+29 0 435 2418 L 58 0 435 2477 L 29 0 435 2537 L 29 0 435 2597 L 29 0 435 2657 L 29 0 435 2717 L 29 0 3231 1521 L 59 0 3201 1581 L
+29 0 3231 1641 L 29 0 3231 1701 L 29 0 3231 1760 L 29 0 3231 1820 L 59 0 3201 1880 L 29 0 3231 1940 L 29 0 3231 1999 L
+29 0 3231 2059 L 29 0 3231 2119 L 59 0 3201 2179 L 29 0 3231 2238 L 29 0 3231 2298 L 29 0 3231 2358 L 29 0 3231 2418 L
+59 0 3201 2477 L 29 0 3231 2537 L 29 0 3231 2597 L 29 0 3231 2657 L 29 0 3231 2717 L 4 -12 264 1519 L 12 -8 C 19 -4 C 12 0 C 19 4 C
+12 8 C 4 12 C 0 7 C -4 12 C -12 8 C -19 4 C -12 0 C -19 -4 C -12 -8 C -4 -12 C 0 -7 C 4 -8 C 4 -4 C 8 -4 C 19 -4 C 12 0 C 19 4 C
+8 4 C 4 4 C 4 8 C -4 8 346 1526 L -4 4 C -8 4 C -19 4 C -12 0 C -19 -4 C -8 -4 C -4 -4 C -4 -8 C 4 -4 338 1581 L 4 4 C -4 4 C
+-4 -4 C 39 -8 264 1620 L -8 8 C -4 12 C 0 11 C 4 12 C 8 8 C 12 4 C 8 0 C 11 -4 C 8 -8 C 4 -12 C 0 -11 C -4 -12 C -4 -4 C -8 -4 C
+-4 0 C -3 4 C 3 4 C 4 -4 C 4 8 291 1643 L 8 8 C 12 4 C 8 0 C 11 -4 C 8 -8 C 4 -8 C 0 39 264 1620 L 0 20 268 1620 L -4 19 C
+-4 8 280 1864 L -12 12 C 82 0 C 78 0 268 1880 L 0 35 346 1864 L -4 7 280 2105 L -12 12 C 82 0 C 78 0 268 2120 L 0 35 346 2105 L
+4 -4 338 2179 L 4 4 C -4 4 C -4 -4 C 39 -8 264 2218 L -8 8 C -4 11 C 0 12 C 4 12 C 8 8 C 12 3 C 8 0 C 11 -3 C 8 -8 C 4 -12 C 0 -12 C
+-4 -11 C -4 -4 C -8 -4 C -4 0 C -3 4 C 3 4 C 4 -4 C 4 8 291 2241 L 8 8 C 12 4 C 8 0 C 11 -4 C 8 -8 C 4 -8 C 0 39 264 2218 L
+0 19 268 2218 L -4 20 C 3 4 280 2454 L 4 -4 C -4 -4 C -3 0 C -8 4 C -4 4 C -4 12 C 0 15 C 4 12 C 4 4 C 8 4 C 7 0 C 8 -4 C 8 -12 C
+8 -19 C 4 -8 C 8 -8 C 11 -4 C 12 0 C 4 8 264 2485 L 4 4 C 8 4 C 7 0 C 8 -4 C 8 -12 C 8 -15 C -4 4 338 2450 L 0 8 C 8 19 C 0 12 C
+-4 8 C -4 4 C 12 19 334 2462 L 0 16 C -4 4 C -8 4 C -8 0 C
+/M7 {MB 0 8 moveto -7 -4 lineto 7 -4 lineto closepath                           
+stroke ME} bind def                                                             
+/MFAC      2.229 def    
+502 1818 M7 521 1809 M7 544 1804 M7 569 1798 M7 601 1791 M7 617 1782 M7 630 1773 M7 668 1766 M7 679 1756 M7 701 1746 M7 726 1739 M7
+761 1732 M7 804 1715 M7 834 1708 M7 853 1703 M7 874 1700 M7 880 1700 M7 940 1691 M7 974 1672 M7 1001 1663 M7 1036 1657 M7
+1054 1653 M7 1091 1650 M7 1112 1643 M7 1121 1639 M7 1138 1638 M7 1168 1635 M7 1178 1642 M7 1214 1652 M7 1246 1657 M7 1269 1667 M7
+1293 1678 M7 1301 1685 M7 1324 1682 M7 1339 1674 M7 1384 1676 M7 1415 1673 M7 1454 1673 M7 1468 1663 M7 1487 1657 M7 1515 1654 M7
+1535 1649 M7 1555 1645 M7 1583 1647 M7 1613 1648 M7 1649 1668 M7 1677 1680 M7 1706 1704 M7 1724 1719 M7 1765 1748 M7 1794 1786 M7
+1804 1835 M7 1847 1873 M7
+19 -9 502 1818 L 23 -5 C 25 -6 C 32 -7 C 16 -9 C 13 -9 C 38 -7 C 11 -10 C 22 -10 C 25 -7 C 35 -7 C 43 -17 C 30 -7 C 19 -5 C 21 -3 C
+6 0 C 60 -9 C 34 -19 C 27 -9 C 35 -6 C 18 -4 C 37 -3 C 21 -7 C 9 -4 C 17 -1 C 30 -3 C 10 7 C 36 10 C 32 5 C 23 10 C 24 11 C 8 7 C
+23 -3 C 15 -8 C 45 2 C 31 -3 C 39 0 C 14 -10 C 19 -6 C 28 -3 C 20 -5 C 20 -4 C 28 2 C 30 1 C 36 20 C 28 12 C 29 24 C 18 15 C 41 29 C
+29 38 C 10 49 C 43 38 C
+/M6 {MB -6 -6 moveto 0 12 rlineto 12 0 rlineto                                  
+0 -12 rlineto closepath stroke ME} bind def                                     
+502 2286 M6 521 2272 M6 544 2262 M6 569 2251 M6 601 2236 M6 617 2220 M6 630 2205 M6 668 2191 M6 679 2178 M6 701 2164 M6 726 2155 M6
+761 2131 M6 804 2117 M6 834 2107 M6 853 2102 M6 874 2097 M6 880 2093 M6 940 2077 M6 974 2044 M6 1001 2031 M6 1036 2018 M6
+1054 2009 M6 1091 2001 M6 1112 1996 M6 1121 1992 M6 1138 1986 M6 1168 1986 M6 1178 1994 M6 1214 2002 M6 1246 2015 M6 1269 2025 M6
+1293 2034 M6 1301 2039 M6 1324 2041 M6 1339 2041 M6 1384 2037 M6 1415 2035 M6 1454 2029 M6 1468 2010 M6 1487 1998 M6 1515 1991 M6
+1535 1983 M6 1555 1980 M6 1583 1976 M6 1613 1975 M6 1649 1967 M6 1677 1982 M6 1706 2002 M6 1724 2016 M6 1765 2049 M6 1794 2082 M6
+1804 2122 M6
+19 -14 502 2286 L 23 -10 C 25 -11 C 32 -15 C 16 -16 C 13 -15 C 38 -14 C 11 -13 C 22 -14 C 25 -9 C 35 -24 C 43 -14 C 30 -10 C 19 -5 C
+21 -5 C 6 -4 C 60 -16 C 34 -33 C 27 -13 C 35 -13 C 18 -9 C 37 -8 C 21 -5 C 9 -4 C 17 -6 C 30 0 C 10 8 C 36 8 C 32 13 C 23 10 C
+24 9 C 8 5 C 23 2 C 15 0 C 45 
+
+IMAGE_CONTEXTS
+
+INTERESTING_STRINGS
+
+VECTOR_LINES
+/L {moveto rlineto currentpoint stroke moveto} bind def
+/C {rlineto currentpoint stroke moveto} bind def
+/D {moveto 0 0 rlineto currentpoint stroke moveto} bind def
+/BP {newpath moveto} bind def
+/LP /rlineto load def
+/EP {rlineto closepath eofill} bind def
+/MB {gsave translate MFAC dup scale 1 setlinewidth 2 setlinecap 0 setlinejoin newpath} bind def
+/CC {0 360 arc stroke} bind def
+/FC {0 360 arc fill} bind def
+/M7 {MB 0 8 moveto -7 -4 lineto 7 -4 lineto closepath                           
+stroke ME} bind def                                                             
+/M6 {MB -6 -6 moveto 0 12 rlineto 12 0 rlineto                                  
+0 -12 rlineto closepath stroke ME} bind def                                     
+/M12 {MB 0 9 moveto -2 3 lineto -8 3 lineto -3 -1 lineto                        
+-5 -7 lineto 0 -3 lineto 5 -7 lineto 3 -1 lineto 8 3                            
+lineto 2 3 lineto closepath stroke ME} bind def                                 
+/M3 {MB 0 6 moveto 0 -6 lineto -5 3 moveto 5 -3 lineto                          
+5 3 moveto -5 -3 lineto stroke ME} bind def                                     
