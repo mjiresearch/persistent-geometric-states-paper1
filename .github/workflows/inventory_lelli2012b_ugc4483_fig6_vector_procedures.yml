@@ -1,0 +1,31 @@
+name: Inventory UGC4483 Figure 6 vector procedures
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/inventory_lelli2012b_ugc4483_fig6_vector_procedures.py'
+      - '.github/workflows/inventory_lelli2012b_ugc4483_fig6_vector_procedures.yml'
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inventory native Figure 6 procedures
+        run: python scripts/stationary/inventory_lelli2012b_ugc4483_fig6_vector_procedures.py
+      - name: Commit inventory and checkpoint context
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/lelli2012b_ugc4483_fig6_vector_procedure_inventory_v1.json validation/stationary/lelli2012b_ugc4483_fig6_vector_procedure_context_v1.txt
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Inventory UGC4483 Figure 6 native vector procedures'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
