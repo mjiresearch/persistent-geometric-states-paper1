@@ -1,0 +1,701 @@
+{
+  "status": "SG06_PROFILE_PANEL_GEOMETRY_AUDIT_COMPLETE",
+  "source": "Spekkens & Giovanelli 2006; arXiv astro-ph/0605542",
+  "targets": [
+    "ESO563-G021",
+    "IC4202",
+    "NGC2955",
+    "NGC6195",
+    "UGC11455"
+  ],
+  "macro_definitions": {
+    "myemail": {
+      "value": "spekkens@physics.rutgers.edu",
+      "line": 44
+    },
+    "cm": {
+      "value": "\\ensuremath{\\rm{cm^{-2",
+      "line": 46
+    },
+    "kms": {
+      "value": "\\ensuremath{\\,\\rm{km\\,s^{-1",
+      "line": 47
+    },
+    "etal": {
+      "value": "et al.\\ ",
+      "line": 48
+    },
+    "continued": {
+      "value": " (Continued)",
+      "line": 49
+    },
+    "Msun": {
+      "value": "\\ensuremath{M_{\\odot",
+      "line": 50
+    },
+    "Vrot": {
+      "value": "\\ensuremath{V_{rot",
+      "line": 51
+    },
+    "ropt": {
+      "value": "\\ensuremath{r_{opt",
+      "line": 52
+    },
+    "ints": {
+      "value": "\\ensuremath{\\int{I",
+      "line": 53
+    },
+    "wsini": {
+      "value": "\\ensuremath{W\\sin{i",
+      "line": 54
+    },
+    "magasec": {
+      "value": "\\ensuremath{\\rm{mag",
+      "line": 55
+    },
+    "Iband": {
+      "value": "$I$-band",
+      "line": 56
+    },
+    "ha": {
+      "value": "{H",
+      "line": 57
+    },
+    "hi": {
+      "value": "\\ion{H",
+      "line": 58
+    },
+    "nii": {
+      "value": "\\ion{N",
+      "line": 59
+    },
+    "vs": {
+      "value": "\\vspace*{5pt",
+      "line": 61
+    },
+    "hs": {
+      "value": "\\hspace*{10pt",
+      "line": 62
+    },
+    "mld": {
+      "value": "$\\Upsilon^I_d$",
+      "line": 65
+    },
+    "mlb": {
+      "value": "$\\Upsilon^I_b$",
+      "line": 66
+    },
+    "lp": {
+      "value": "$\\lambda^{\\prime",
+      "line": 67
+    },
+    "lcdm": {
+      "value": "$\\Lambda$CDM",
+      "line": 68
+    },
+    "zd": {
+      "value": "$z_d$",
+      "line": 70
+    },
+    "none": {
+      "value": "NGC~1324",
+      "line": 72
+    },
+    "utwo": {
+      "value": "UGC~2849",
+      "line": 73
+    },
+    "eso": {
+      "value": "ESO~563G21",
+      "line": 74
+    },
+    "ufiveo": {
+      "value": "NGC~2862",
+      "line": 75
+    },
+    "ufiveone": {
+      "value": "NGC~2955",
+      "line": 76
+    },
+    "ueight": {
+      "value": "IC~4202",
+      "line": 77
+    },
+    "uten": {
+      "value": "NGC~6195",
+      "line": 78
+    },
+    "uone": {
+      "value": "UGC~11455",
+      "line": 79
+    }
+  },
+  "sigma_hi_text_references": [
+    {
+      "line": 335,
+      "text": "\\caption{\\hi\\ properties of \\none. $(a)$ Uniformly weighted \\hi\\ total intensity contours overplotted on an \\Iband\\ image. Contours range from $3.8 \\times 10^{20}$ to $3.0 \\times 10^{21}\\,\\cm$ in $2.0 \\times 10^{20}\\,\\cm$ intervals. The synthesized beam is shown in the bottom right corner. $(b)$ MET velocity field (shaded region).  Contours are plotted in 40\\kms\\ increments relative to $V_{sys}$ in Table~\\ref{fast1_tab:properties}, with solid lines on the receding side and dotted lines on the approaching side. Some contours are labelled in kilometers per second for clarity.  $(c)$ Global profile. Error bars reflect 1$\\sigma$ uncertainty contributions from $\\bar{\\sigma}$ over the emission region and a 5\\% calibration error. $(d)$ Radial surface density profile $\\Sigma_{HI}(r)$ corrected to a face-on perspective for the approaching side (crosses), the receding side (triangles), and their average (points). The dotted line shows $1\\Msun\\,\\rm{pc} ^{-2}$.}",
+      "figure_refs": [
+        "fast1_tab:properties"
+      ]
+    },
+    {
+      "line": 493,
+      "text": " Radial surface density profiles $\\Sigma_{HI}(r)$ are typically obtained by averaging the \\hi\\ brightness in concentric rings as in Warner \\etal (1973), but this method yields erroneous results for systems that are poorly resolved along their major or minor axes (Bosma 1978; Swaters \\etal 2002). We therefore adopt the method of Warmels (1988) and integrate the total intensity map for each system along the \\Iband\\ minor axis to produce ``strip integrals.'' A beam-corrected, face-on estimate of $\\Sigma_{HI}(r)$ is then derived from the strip integrals under the assumption of axisymmetry, using Lucy's (1974) iterative deconvolution technique for an initial guess of the distribution shape (see also Swaters \\etal 2002).  The resulting $\\Sigma_{HI}(r)$ for each system is shown in Figs.~\\ref{fast1_fig:1324summ}d -- \\ref{fast1_fig:11455summ}d for the approaching side (crosses), the receding side (triangles), and the average of both sides (points) of the \\hi\\ intensity map in Figs.~\\ref{fast1_fig:1324summ}a -- \\ref{fast1_fig:11455summ}a. We adopt the outermost point at which $\\Sigma_{HI}(r)=1 \\,M_{\\odot}\\,\\textrm{pc}^{-2}$ in the averaged profile as the \\hi\\ radius $r_{HI}$. The ratio $r_{HI}/r_{opt}$ for each system is given in Table~\\ref{fast1_tab:properties}.",
+      "figure_refs": [
+        "fast1_fig:1324summ",
+        "fast1_fig:11455summ",
+        "fast1_fig:1324summ",
+        "fast1_fig:11455summ",
+        "fast1_tab:properties"
+      ]
+    },
+    {
+      "line": 504,
+      "text": " An estimate for the dynamical mass is obtained from eq.~\\ref{fast1:c} for the approaching and receding sides of each fast rotator separately. We define $r_{HI}$ such that $\\Sigma_{HI}(r_{HI})=1 \\,M_{\\odot}\\,\\mathrm{pc}^{-2}$, and take \\Vrot\\ as the plateau of the hybrid RCs near $r_{opt}$ (\\S\\ref{fast1:kinboth}). The results are then averaged to produce $M_T$, listed in Table~\\ref{fast1_tab:properties}. We adopt an uncertainty on $M_T$ equal to the sum in quadrature of half the difference between $M_T$ for the approaching and receding sides, and the uncertainty obtained by propagating errors in $r_{HI}$ and \\Vrot\\ through eq.~\\ref{fast1:c}.  The average value of \\Vrot\\ for the sample galaxies is given in Table~\\ref{fast1_tab:kin}, where error bars represent half the difference between values obtained for the approaching and receding sides.",
+      "figure_refs": [
+        "fast1:c",
+        "fast1:kinboth",
+        "fast1_tab:properties",
+        "fast1:c",
+        "fast1_tab:kin"
+      ]
+    },
+    {
+      "line": 601,
+      "text": " To verify that the RCs, $\\alpha$ and $r_w$ derived are consistent with the \\hi\\ morphologies of each system, we simulate observations of \\hi\\ disks with the derived properties and compare them to the channel maps in Figs.~\\ref{fast1:563chans},~\\ref{fast1:5010chans},~\\ref{fast1:8220chans} and \\ref{fast1:11455chans}. Each galaxy is modeled by concentric rings with a user-supplied $i$, $\\theta$, $V_c$ and $\\Sigma_{HI}$. All rings have systemic velocities $V_o=V_{sys}$ from Table~\\ref{fast1_tab:properties} and centers $(\\alpha_o,\\delta_o)=(\\alpha_c,\\delta_c)$ from Table~\\ref{fast1_tab:basic}. We model the approaching and receding sides of each fast rotator separately, setting $V_c(r_i)=V_{obs}(r_i)/\\sin{i}$ and using $\\Sigma_{HI}(r_i)$ from Figs.~\\ref{fast1_fig:1324summ}d--\\ref{fast1_fig:11455summ}d at the center $r_i$ of each ring. We set $\\theta=\\theta_d$ for $r_i<r_w$, and for $r_i>r_w$ we introduce a smooth variation in $\\theta$ consistent with $\\alpha$. We set $i=i_d$ at all $r_i$ and adopt $\\sigma_{ISM}=10\\,\\kms$, as well as an exponential \\hi\\ scale-height of $1\\,$kpc. ",
+      "figure_refs": [
+        "fast1:563chans",
+        "fast1:5010chans",
+        "fast1:8220chans",
+        "fast1:11455chans",
+        "fast1_tab:properties",
+        "fast1_tab:basic",
+        "fast1_fig:1324summ",
+        "fast1_fig:11455summ"
+      ]
+    },
+    {
+      "line": 610,
+      "text": " When \\hi\\ disks at intermediate $i$ are sufficiently resolved, RCs can be derived by fitting a series of concentric rings to the observed velocity field and by solving for $V_c$, $V_o$, $i$, $\\theta$ and $(\\alpha_o,\\delta_o)$ in each ring (Begeman 1989). We perform a tilted-ring analysis of the intermediate-i systems,  first allowing all six parameters to vary and then fixing $V_o$ and $(\\alpha_o,\\delta_o)$ and re-fitting for $V_c$, $i$ and $\\theta$. The values of $V_o$, $(\\alpha_o,\\delta_o)$ and $\\theta$ obtained from the fits are comparable to $V_{sys}$ (Table~\\ref{fast1_tab:properties}), $(\\alpha_c,\\delta_c)$ (Table~\\ref{fast1_tab:basic}) and $\\theta_d$ (Table~\\ref{fast1_tab:iband}), respectively. However, the best-fitting $i$ values are lower than $i_d$ (Table~\\ref{fast1_tab:iband}) by an average of 15\\%, and $V_c(r)$ is $\\sim 10\\%$ larger than that from the optical kinematics and from major-axis slices. In addition, simulated data cubes of systems with these properties produce models with spatial and spectral extents that are too large when compared to observations. These discrepancies arise from the low angular resolution of the latter along the minor axes of the intermediate-$i$ systems (Figs.~\\ref{fast1_fig:1324summ}a--\\ref{fast1_fig:11455summ}a): beam smearing blends major axis gas with lower velocity off-axis material in this direction, and broadens the spatial extent of the emission. This leads to an underestimate of $i$ and a corresponding overestimate of $V_c$ i",
+      "figure_refs": [
+        "fast1_tab:properties",
+        "fast1_tab:basic",
+        "fast1_tab:iband",
+        "fast1_tab:iband",
+        "fast1_fig:1324summ",
+        "fast1_fig:11455summ",
+        "fast1:HI"
+      ]
+    },
+    {
+      "line": 614,
+      "text": "%In analogy to the problems encountered when ellipses are used to derive $\\Sigma_{HI}(r)$ (see \\S\\ref{fast1:HI}), however, the low angular resolution of our observations influences the ring properties because of beam smearing along the minor axis. ",
+      "figure_refs": [
+        "fast1:HI"
+      ]
+    },
+    {
+      "line": 616,
+      "text": "  To verify the plausibility of the $V_{obs}(r)$ obtained, we simulate observations of each intermediate $i$ fast rotator in a manner similar to that for the highly inclined systems. We model the approaching and receding sides of each galaxy separately, adopting  $\\Sigma_{HI}(r)$ from Figs.~\\ref{fast1_fig:1324summ}d--\\ref{fast1_fig:11455summ}d and $\\theta=\\theta_d$ at all $r$. Unlike the near-edge-on case, however, at intermediate $i$ there is an ambiguity between $i$ and the RC amplitude in the outer \\hi\\ layer. In our sample, $V_{obs}(r)$ for \\none, \\utwo\\ and \\ufiveo\\ declines beyond \\ropt\\ on at least one side (see \\S\\ref{fast1:hybrid}). Moreover, changes in $i$ of only a few degrees have a significant impact on the resulting $V_c(r) = V_{obs}(r)/\\sin{i}$: these decreases may thus represent a change in the gravitational potential in these regions or may result from variations in the disk geometry. Note that minor-axis distortions indicative of a warped disk are difficult to detect in our data, due to limited spatial resolution along this axis: we therefore make no attempt to measure warp parameters in the intermediate $i$ systems.",
+      "figure_refs": [
+        "fast1_fig:1324summ",
+        "fast1_fig:11455summ",
+        "fast1:hybrid"
+      ]
+    },
+    {
+      "line": 813,
+      "text": " In the channel maps for \\utwo\\ in Fig.~\\ref{fast1:2849chans} the S/N of the \\hi\\ emission is low in the channels near $V_{sys}=8104\\,\\kms$, particularly at small $r$ where $\\Sigma_{HI}(r)$ drops to $1 \\,M_{\\odot}\\,\\mathrm{pc}^{-2}$ (Fig.~\\ref{fast1_fig:2849summ}d). The morphology of the \\hi\\ distribution is similar for the approaching and receding sides within \\ropt, although there are significant differences farther out (see below). The \\hi\\ is more extended on the western side of the galaxy, due largely to a feature at $7866\\,\\kms$. Both the shape of the global profile and our estimates of \\ints, $W \\sin{i}$, $V_{sys}$ and $M_{HI}$ (Table~\\ref{fast1_tab:properties}) are in excellent agreement with the single dish data of Paturel \\etal  (2003b; see also Bottinelli \\etal 1990). ",
+      "figure_refs": [
+        "fast1:2849chans",
+        "fast1_fig:2849summ",
+        "fast1_tab:properties"
+      ]
+    },
+    {
+      "line": 818,
+      "text": " Although the optical RC is rising at the last measured point for \\utwo, the \\hi\\ RC is flat for $12\\,\\rm{kpc} \\lesssim r \\lesssim 20\\,\\rm{kpc}$, and there is good agreement between the optical and \\hi\\  velocities in the overlap region. There is, however, a significant discrepancy between $V_{obs}(r)/\\sin{i_d}$ on the approaching and receding sides beyond \\ropt: the approaching side rises to $\\sim 300\\,\\kms$ just beyond $r_{opt}$, but there is a smooth decrease on the receding side of $\\sim2\\,\\kms \\,$kpc. If these deviations from a flat RC are caused by warping in the outer \\hi\\ layer, we require $i$ to increase from $i_d=66^{\\circ}$ to $i\\sim 71^{\\circ}$ on the approaching side beyond \\ropt, and $i$ to decrease systematically from $i_d=66^{\\circ}$ to $i\\sim50^{\\circ}$ at the last measured \\hi\\ point on the receding side. We model both sides of \\utwo\\ separately, using $V_{obs}(r)$, $\\Sigma_{HI}(r)$ and $\\theta_d$ as inputs. On the approaching side, simulations in which $i=i_d$ and ones in which $i$ increases to $71^{\\circ}$ beyond \\ropt\\ both reproduce the channel map morphology shown in Fig.~\\ref{fast1:2849chans}. Similarly, we construct two models of the receding side: the first adopts $i_d$ throughout, and in the second $i$ decreases as described to produce a flat RC beyond \\ropt. Both simulations reproduce the observed \\hi\\ morphologies from 8408 to 8365\\kms\\ in the channel maps of Fig.~\\ref{fast1:2849chans}, the first yielding a better match at $8365\\,\\kms$. However, n",
+      "figure_refs": [
+        "fast1:2849chans",
+        "fast1:2849chans"
+      ]
+    },
+    {
+      "line": 835,
+      "text": " Despite the unusual \\hi\\ morphology of \\eso\\ (Fig.~\\ref{fast1_fig:563summ}a) and significant differences between $\\Sigma_{HI}(r)$ for the approaching and receding sides (Fig.~\\ref{fast1_fig:563summ}d), both the global profile in Fig.~\\ref{fast1_fig:563summ}c and the derived RC in Fig.~\\ref{fast1_fig:edgeons}a are symmetric. We find no difference between the RC derived including the northeastern and southeastern features and one derived excluding them, save for their extent on the receding side. We therefore include emission from these features in the parameters given in Table~\\ref{fast1_tab:properties} and in the RC of Fig.~\\ref{fast1_fig:edgeons}.  Our estimate of \\ints\\ is intermediate to single dish values from Haynes \\etal (1999b) and Paturel \\etal (2003b), and the global properties $V_{sys}$ and $W \\sin{i}$ are in good agreement with published measurements. ",
+      "figure_refs": [
+        "fast1_fig:563summ",
+        "fast1_fig:563summ",
+        "fast1_fig:563summ",
+        "fast1_fig:edgeons",
+        "fast1_tab:properties",
+        "fast1_fig:edgeons"
+      ]
+    },
+    {
+      "line": 837,
+      "text": " Following the peak in the \\hi\\ intensity distribution in Fig.~\\ref{fast1_fig:563summ}a in the manner described by \\citet{gar02}, we measure a warp angle $\\alpha = 6^{\\circ}$ on the approaching side of \\eso.  The approximate starting point $r_w$ of the warp is denoted by the dashed line in Fig.~\\ref{fast1_fig:edgeons}a. Our model of the \\eso\\ data cube using $V_{obs}(r)$ and $\\Sigma_{HI}(r)$ recovers the \\hi\\ channel maps in Fig.~\\ref{fast1:563chans} if $i_d$ and $\\theta_d$ are adopted throughout. These simulations do not reproduce the southeastern and northeastern features discussed above, however, and changes in $i$ and $\\theta$ at large $r$ do not reconcile our models and the data in these regions. We note that the RC on the approaching side and that on the receding side within the dotted line in Fig.~\\ref{fast1_fig:edgeons}a are unchanged when the \\hi\\ emission from the features is blanked from the data cubes. ",
+      "figure_refs": [
+        "fast1_fig:563summ",
+        "fast1_fig:edgeons",
+        "fast1:563chans",
+        "fast1_fig:edgeons"
+      ]
+    },
+    {
+      "line": 846,
+      "text": " The \\hi\\ emission within $r_w$ is fairly symmetric about $V_{sys}$, and there is a good correspondence between $\\Sigma_{HI}(r)$ on the approaching and receding sides in Fig.~\\ref{fast1_fig:5010summ}d. The peak flux in Fig.~\\ref{fast1_fig:5010summ}c and \\ints\\ in Table~\\ref{fast1_tab:properties} are substantially larger than the single-dish estimates obtained from the Arecibo Radio Telescope\\footnote{The Arecibo Observatory is operated by Cornell University under cooperative agreement with the NSF.} (Haynes \\& Giovanelli 1984; Lewis \\etal 1985; Paturel \\etal 2003b; although see Bicay \\& Giovanelli 1986), due to the large angular size of \\ufiveo\\ relative to the Arecibo $L$-band primary beam FWHM. ",
+      "figure_refs": [
+        "fast1_fig:5010summ",
+        "fast1_fig:5010summ",
+        "fast1_tab:properties"
+      ]
+    },
+    {
+      "line": 851,
+      "text": "We model \\ufiveo\\ using $V_{obs}(r)$ and $\\Sigma_{HI}(r)$, where $\\theta=\\theta_d$ for $r<r_w$ and $\\theta$ traces the warp ridge farther out. The simulated data cube recovers the channel map morphology when $i_d$ is adopted for both the main disk and warp emission. We experiment briefly with variations in the warp $i$ and find that $i<80^{\\circ}$ in the simulations fails to reproduce the observed warp morphology in the channel maps. The RC flatness in the warp regions and the drop in RC amplitude beyond the warp radius on the approaching side therefore appear to be robust features in the kinematics of \\ufiveo. ",
+      "figure_refs": []
+    },
+    {
+      "line": 862,
+      "text": " The \\hi\\ emission of \\ufiveone\\ is ``clumpy'' at all frequencies in Fig.~\\ref{fast1:5166chans} but overall has the expected morphology of an inclined disk. The \\hi\\ distribution extends farther on the advancing side of the galaxy than on the receding side (Fig.~\\ref{fast1_fig:5166summ}) due to a feature from 6830 to 6787\\kms. There is a sharp decrease in $\\Sigma_{HI}(r)$ beyond $r_{opt}$ on both sides of the disk that coincides with the kink in the surface brightness profile. There are also enhancements in $\\Sigma_{HI}(r)$ at the locations of the complete and partial optical inner rings on the approaching side. There is a hint of a warp or other distortion along the minor axis of the velocity field, but the angular resolution along that direction is relatively low (Fig.~\\ref{fast1_fig:5166summ}b). The global profile in  Fig.~\\ref{fast1_fig:5166summ}d is symmetric, and \\ints\\ is 10\\%--15\\% larger than previous single-dish measurements (Haynes \\& Giovanelli 1984; Haynes \\etal 1999b; Paturel \\etal 2003b; Vogt \\etal 2004). ",
+      "figure_refs": [
+        "fast1:5166chans",
+        "fast1_fig:5166summ",
+        "fast1_fig:5166summ",
+        "fast1_fig:5166summ"
+      ]
+    },
+    {
+      "line": 867,
+      "text": "There is a systematic decrease of $\\sim2\\,\\kms\\,\\rm{kpc}^{-1}$ in $V_{obs}(r)/\\sin{i_d}$ for $r>27\\,$kpc of $\\sim2\\,\\kms\\,\\rm{kpc}^{-1}$, such that the amplitude of the outermost RC point is $\\sim50\\kms$ lower than the value at \\ropt. We construct two models of the \\hi\\ emission in \\ufiveone\\ using $V_{obs}(r)$ and $\\Sigma_{HI}(r)$: the first adopts $i_d$ and $\\theta_d$, and in the second we mimic a warp by gradually decreasing $i$ to $49^{\\circ}$ to produce a flat RC beyond $r_{opt}$. We find slightly better agreement between the second simulation and the channel maps in  Fig.~\\ref{fast1:5166chans} on the approaching side, but both models recover the receding side of the \\hi\\ distribution equally well. It is therefore plausible that the turnover beyond $r_{opt}$ in the HI RC in Fig.~\\ref{fast1_fig:intinc}c stems from an under-estimate of $i$ in this region rather than a change in the halo potential. ",
+      "figure_refs": [
+        "fast1:5166chans",
+        "fast1_fig:intinc"
+      ]
+    },
+    {
+      "line": 875,
+      "text": " The channel maps of \\ueight\\ in Fig.~\\ref{fast1:8220chans} show few deviations from the morphology of an edge-on disk. While the outer \\hi\\ contours from 7361 to 7360\\kms\\ and 6906 to 6884\\kms\\ bend slightly at large $r$, there is little evidence for a change in $\\theta$ in the \\hi\\ total intensity map of Fig.~\\ref{fast1_fig:8220summ}a, and we find no conclusive evidence for a warp. As in the single-dish spectrum of Freudling \\etal (1988), we find a mild asymmetry in the global profile horns and in $\\Sigma_{HI}(r)$. Our estimate of \\ints\\ is 25\\% larger than published single-dish values (Giovanelli \\etal 1997; Paturel \\etal 2003b; Vogt \\etal 2004), but there is good agreement between our results and $V_{sys}$, $W \\sin{i}$ from the literature. A cursory search of the \\hi\\ data cubes does not reveal any companions. ",
+      "figure_refs": [
+        "fast1:8220chans",
+        "fast1_fig:8220summ"
+      ]
+    },
+    {
+      "line": 877,
+      "text": " There is excellent agreement between the optical and \\hi\\ kinematics in the overlap region, as well as a high degree of symmetry between the approaching and receding sides. However, the \\hi\\ kinematics do not extend much farther into the halo than the corresponding optical RC (Fig.~\\ref{fast1_fig:edgeons}c).  We model the \\ueight\\ data cube using the derived kinematics and $\\Sigma_{HI}(r)$, adopting $i_d$ and $\\theta_d$ from Table~\\ref{fast1_tab:iband}. At the angular and spectral resolution of our \\hi\\ data across the disk of \\ueight, these simulations recover the observed frequency dependence of the \\hi\\ distribution. ",
+      "figure_refs": [
+        "fast1_fig:edgeons",
+        "fast1_tab:iband"
+      ]
+    },
+    {
+      "line": 893,
+      "text": " Despite the unusual stellar and gaseous morphologies of \\uten, there is a high degree of symmetry in the hybrid RC (Fig.~\\ref{fast1_fig:intinc}d). The optical kinematics reveal a steep inner rise, and the RC is flat at all measured $r>2\\,$kpc. Although our models of the \\hi\\ channel maps do not reproduce the lopsidedness discussed above, there is broad general agreement between the data and simulations with $V_{obs}(r)$ and $\\Sigma_{HI}(r)$ as inputs when $i_d$ and $\\theta_d$ are adopted throughout the \\hi\\ disk.",
+      "figure_refs": [
+        "fast1_fig:intinc"
+      ]
+    },
+    {
+      "line": 902,
+      "text": " The channel maps of \\uone\\ in Fig.~\\ref{fast1:11455chans} reveal a warp on the approaching side, most prominent from 5132 to 5090\\kms. There is also a low column density extension on the receding side from 5667 to 5646\\kms, although $\\theta$ is the same as that of the galaxy major axis. We measure a warp angle $\\alpha=12^{\\circ}$ on the approaching side by following the peak of the total intensity distribution (Fig.~\\ref{fast1_fig:11455summ}a) as in \\citet{gar02}, and the approximate starting location $r_w$ of the warp is indicated by the dashed vertical line in Fig.~\\ref{fast1_fig:edgeons}d. The \\hi\\ distribution is symmetric about the galaxy center beyond the optical disk, and features in $\\Sigma_{HI}(r)$ beyond $r \\sim 70''$ (26 kpc) are well correlated.  There is also good agreement between $V_{sys}$, \\ints\\ and $W \\sin{i}$ and single-dish estimates in the literature (Bottinelli \\etal 1993; Theureau \\etal 1998; Haynes \\etal 1999b; Paturel \\etal 2003b; Vogt \\etal 2004). ",
+      "figure_refs": [
+        "fast1:11455chans",
+        "fast1_fig:11455summ",
+        "fast1_fig:edgeons"
+      ]
+    },
+    {
+      "line": 906,
+      "text": "  Although the optical RC for \\uone\\ is still rising at the last measured point (Fig.~\\ref{fast1_fig:edgeons}), the outer \\hi\\ RC is flat and extends well beyond $r_{opt}$ on the advancing side. There is good agreement between the two kinematic tracers near the edge of the optical RC on both sides of the disk. We model the \\hi\\ emission in \\uone\\ using the derived RC and $\\Sigma_{HI}(r)$. On the approaching side, we set $\\theta=\\theta_d$ for $r<r_w$ and vary $\\theta$ smoothly following the warp angle $\\alpha$ father out; on the receding side, we fix $\\theta=\\theta_d$ at all $r$. The simulated data cube recovers the channel map morphology when $i_d$ in Table~\\ref{fast1_tab:iband} is adopted for both the main disk and warp emission.",
+      "figure_refs": [
+        "fast1_fig:edgeons",
+        "fast1_tab:iband"
+      ]
+    }
+  ],
+  "sigma_hi_figure_labels": [
+    "fast1_fig:11455summ",
+    "fast1_fig:1324summ",
+    "fast1_fig:2849summ",
+    "fast1_fig:5010summ",
+    "fast1_fig:5166summ",
+    "fast1_fig:563summ",
+    "fast1_fig:8220summ",
+    "fast1_fig:edgeons",
+    "fast1_fig:intinc"
+  ],
+  "linked_sigma_hi_figure_environments": [
+    {
+      "start_line": 329,
+      "end_line": 338,
+      "assets": [
+        "f3s.eps",
+        "FAST1/1324comp.ps"
+      ],
+      "labels": [
+        "fast1_fig:1324summ"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f3s.eps}\n%\\begin{center}\n%\\includegraphics[width=0.95\\textwidth]{FAST1/1324comp.ps}\n%\\end{center}\n\\caption{\\hi\\ properties of \\none. $(a)$ Uniformly weighted \\hi\\ total intensity contours overplotted on an \\Iband\\ image. Contours range from $3.8 \\times 10^{20}$ to $3.0 \\times 10^{21}\\,\\cm$ in $2.0 \\times 10^{20}\\,\\cm$ intervals. The synthesized beam is shown in the bottom right corner. $(b)$ MET velocity field (shaded region).  Contours are plotted in 40\\kms\\ increments relative to $V_{sys}$ in Table~\\ref{fast1_tab:properties}, with solid lines on the receding side and dotted lines on the approaching side. Some contours are labelled in kilometers per second for clarity.  $(c)$ Global profile. Error bars reflect 1$\\sigma$ uncertainty contributions from $\\bar{\\sigma}$ over the emission region and a 5\\% calibration error. $(d)$ Radial surface density profile $\\Sigma_{HI}(r)$ corrected to a face-on perspective for the approaching side (crosses), the receding side (triangles), and their average (points). The dotted line shows $1\\Msun\\,\\rm{pc} ^{-2}$.}\n%(=$1.248 \\times 10^{20}\\cm$). }\n \\label{fast1_fig:1324summ}\n\\end{figure}"
+    },
+    {
+      "start_line": 365,
+      "end_line": 373,
+      "assets": [
+        "f6s.eps",
+        "FAST1/5010comp.ps"
+      ],
+      "labels": [
+        "fast1_fig:5010summ"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f6s.eps}\n%\\begin{center}\n%\\includegraphics[width=0.84\\textwidth]{FAST1/5010comp.ps}\n%\\end{center}\n\\caption{Same as Fig.~\\ref{fast1_fig:1324summ}, but for \\ufiveo.  In $(a)$, \\hi\\ contours range from $1.3 \\times 10^{20}$ to $3.8 \\times 10^{21}\\,\\cm$  in $3.2 \\times 10^{20}\\,\\cm$ intervals, overplotted on an \\Iband\\ image.}\n \\label{fast1_fig:5010summ}\n\\end{figure}"
+    },
+    {
+      "start_line": 375,
+      "end_line": 383,
+      "assets": [
+        "f8s.eps",
+        "FAST1/8220comp.ps"
+      ],
+      "labels": [
+        "fast1_fig:8220summ"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f8s.eps}\n%\\begin{center}\n%\\includegraphics[width=0.9\\textwidth]{FAST1/8220comp.ps}\n%\\end{center}\n\\caption{Same as Fig.~\\ref{fast1_fig:1324summ}, but for \\ueight. In $(a)$, \\hi\\ contours range from $4.0 \\times 10^{20}$ to $4.0 \\times 10^{21}\\,\\cm$ in $3.3 \\times 10^{20}\\,\\cm$ intervals, overplotted on an \\Iband\\ image.}\n \\label{fast1_fig:8220summ}\n\\end{figure}"
+    },
+    {
+      "start_line": 400,
+      "end_line": 408,
+      "assets": [
+        "f10s.eps",
+        "FAST1/11455comp.ps"
+      ],
+      "labels": [
+        "fast1_fig:11455summ"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f10s.eps}\n%\\begin{center}\n%\\includegraphics[width=0.9\\textwidth]{FAST1/11455comp.ps}\n%\\end{center}\n\\caption{Same as Fig.~\\ref{fast1_fig:1324summ}, but for \\uone. In $(a)$, \\hi\\ contours range from $3.9 \\times 10^{20}$ to $4.5 \\times 10^{21}\\,\\cm$ in $3.9 \\times 10^{20}\\,\\cm$ intervals, overplotted on an \\Iband\\ image.}\n \\label{fast1_fig:11455summ}\n\\end{figure}"
+    },
+    {
+      "start_line": 413,
+      "end_line": 421,
+      "assets": [
+        "f4s.eps",
+        "FAST1/2849comp.ps"
+      ],
+      "labels": [
+        "fast1_fig:2849summ"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f4s.eps}\n%\\begin{center}\n%\\includegraphics[width=0.85\\textwidth]{FAST1/2849comp.ps}\n%\\end{center}\n\\caption{Same as Fig.~\\ref{fast1_fig:1324summ}, but for \\utwo. In $(a)$, \\hi\\ contours range from $4.7 \\times 10^{20}$ to $2.4 \\times 10^{21}\\,\\cm$ in $1.4 \\times 10^{20}\\,\\cm$ intervals, overplotted on a DSS image.}\n \\label{fast1_fig:2849summ}\n\\end{figure}"
+    },
+    {
+      "start_line": 425,
+      "end_line": 433,
+      "assets": [
+        "f5s.eps",
+        "FAST1/563comp.ps"
+      ],
+      "labels": [
+        "fast1_fig:563summ"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f5s.eps}\n%\\begin{center}\n%\\includegraphics[width=0.90\\textwidth]{FAST1/563comp.ps}\n%\\end{center}\n\\caption{Same as Fig.~\\ref{fast1_fig:1324summ}, but for ES0~563G21. In $(a)$, naturally weighted \\hi\\ contours range from $3.4 \\times 10^{20}$ to $1.8 \\times 10^{22}\\,\\cm$ in $1.1 \\times 10^{21}\\,\\cm$ intervals, overplotted on a DSS image.}\n \\label{fast1_fig:563summ}\n\\end{figure}"
+    },
+    {
+      "start_line": 437,
+      "end_line": 445,
+      "assets": [
+        "f7s.eps",
+        "FAST1/5166comp.ps"
+      ],
+      "labels": [
+        "fast1_fig:5166summ"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f7s.eps}\n%\\begin{center}\n%\\includegraphics[width=0.85\\textwidth]{FAST1/5166comp.ps}\n%\\end{center}\n\\caption{Same as Fig.~\\ref{fast1_fig:1324summ}, but for \\ufiveone. In $(a)$, \\hi\\ contours range from $1.7 \\times 10^{20}$ to $2.8 \\times 10^{21}\\,\\cm$ in $1.7 \\times 10^{20}\\,\\cm$ intervals, overplotted on a DSS image.}\n \\label{fast1_fig:5166summ}\n\\end{figure}"
+    },
+    {
+      "start_line": 625,
+      "end_line": 631,
+      "assets": [
+        "f12_colors.eps",
+        "f19_col.eps"
+      ],
+      "labels": [
+        "fast1_fig:edgeons"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n\\plotone{f12_colors.eps}  %FOR BW\n%\\plotone{f19_col.eps} %FOR COLOUR\n\\caption{Hybrid \\hi/optical RCs [$V_{obs}(r_i)/\\sin{i_d}$] for the highly inclined galaxies. In each panel, $r_i$ is in units of $r_{opt}$ on the lower horizontal axis, and in kiloparsecs on the upper horizontal axis. RC points derived from long-slit spectroscopy are denoted by triangles, and those from the \\hi\\ observations are denoted by circles. Open symbols correspond to the approaching side and filled symbols to the receding side. The dashed vertical lines indicate the measured warp radii, and the label to the lower left of each line distinguishes warps on the (a) approaching or on (b) both sides of the disk. The galaxy name is given in the bottom right corner. For \\eso\\ in $(a)$, the dotted vertical line shows the approximate starting location of the southeastern feature; see \\S\\ref{fast1:563notes}. See the electronic edition of the Journal for a color version of this figure.}\n\\label{fast1_fig:edgeons}\n\\end{figure}"
+    },
+    {
+      "start_line": 635,
+      "end_line": 641,
+      "assets": [
+        "f20_col.eps",
+        "f13_colors.eps"
+      ],
+      "labels": [
+        "fast1_fig:intinc"
+      ],
+      "block": "\\begin{figure}\n\\epsscale{1.2}\n%\\plotone{f20_col.eps} %COLOUR PLOT\n\\plotone{f13_colors.eps} %BW PLOT\n\\caption{Hybrid \\hi/optical RCs [$V_{obs}(r_i)/\\sin{i_d}$] for the intermediate-$i$ galaxies; plot details are the same as in Fig.~\\ref{fast1_fig:edgeons}. For \\utwo\\ in $(b)$, the dotted vertical line shows the approximate starting location of the \\hi\\ emission on the receding side that may be associated with interactions between this galaxy and the detected companions; see \\S\\ref{fast1:2849notes}. See the electronic edition of the Journal for a color version of this figure.}\n\\label{fast1_fig:intinc}\n\\end{figure}"
+    }
+  ],
+  "eps_metrics": {
+    "f10s.eps": {
+      "bytes": 140598,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 468 710"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f11_colors.eps": {
+      "bytes": 32151,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 27 480 567 692"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f12_colors.eps": {
+      "bytes": 88827,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 7,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 90 164 502 708"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f13_colors.eps": {
+      "bytes": 69724,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 90 164 502 708"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f14_colors.eps": {
+      "bytes": 21105,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f15_colors.eps": {
+      "bytes": 26502,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f1as.eps": {
+      "bytes": 148662,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 569 598"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f2_colors.eps": {
+      "bytes": 105765,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 7,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 168 164 442 698"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f3s.eps": {
+      "bytes": 157622,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 526 519"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f4s.eps": {
+      "bytes": 134732,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 477 582"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f5s.eps": {
+      "bytes": 127457,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 455 644"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f6s.eps": {
+      "bytes": 145397,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 470 759"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f7s.eps": {
+      "bytes": 131411,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 475 529"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f8s.eps": {
+      "bytes": 133391,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 461 520"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f9s.eps": {
+      "bytes": 161777,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 1,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 14 14 497 510"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    }
+  },
+  "n_eps_assets": 15,
+  "n_eps_with_raster_signal": 9,
+  "n_eps_with_substantial_path_signal": 0,
+  "interpretation_rule": "A native radial-profile recovery requires the Sigma_HI panel itself to be represented by substantial recoverable path geometry. An EPS wrapper containing a colorimage/raster payload is not treated as vector profile data merely because the file extension is EPS.",
+  "boundary": "Inert PostScript/source inspection only; no execution, rendering, raster digitization, profile extraction, persistence fitting, or blind outcomes."
+}
