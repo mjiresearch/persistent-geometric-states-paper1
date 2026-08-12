@@ -1,0 +1,272 @@
+galaxy,stationary_role,sparc_ref_id,reference_resolved_in_cds_refs,author,bibcode,comment,provenance_scope
+CamB,calibration,Bm03,1,Begum et al.,2003NewA....8..267B,,SPARC_Table1_column15_HI_Halpha_reference
+D564-8,calibration,Tr09,1,Trachternarch et al.,2009A&A...505..577T,,SPARC_Table1_column15_HI_Halpha_reference
+D631-7,calibration,Tr09,1,Trachternarch et al.,2009A&A...505..577T,,SPARC_Table1_column15_HI_Halpha_reference
+D631-7,calibration,dB01,1,de Blok et al.,2001AJ....122.2396D,,SPARC_Table1_column15_HI_Halpha_reference
+DDO064,calibration,dB02,1,de Blok and Bosma,2002A&A...385..816D,Cat. J/A+A/385/816,SPARC_Table1_column15_HI_Halpha_reference
+DDO064,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+DDO154,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+DDO154,calibration,CB89,1,Carignan and Beaulieu,1989ApJ...347..760C,,SPARC_Table1_column15_HI_Halpha_reference
+DDO161,calibration,Co00,1,Cote et al.,2000AJ....120.3027C,,SPARC_Table1_column15_HI_Halpha_reference
+DDO168,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+DDO168,calibration,Br92,1,Broeils,...................,"1992, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+DDO170,blind,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+DDO170,blind,La90,1,Lake et al.,1990AJ.....99..547L,,SPARC_Table1_column15_HI_Halpha_reference
+ESO079-G014,calibration,Ge04,1,Gentile et al.,2004MNRAS.351..903G,,SPARC_Table1_column15_HI_Halpha_reference
+ESO116-G012,blind,Ge04,1,Gentile et al.,2004MNRAS.351..903G,,SPARC_Table1_column15_HI_Halpha_reference
+ESO444-G084,blind,Co00,1,Cote et al.,2000AJ....120.3027C,,SPARC_Table1_column15_HI_Halpha_reference
+ESO563-G021,calibration,SG06,1,Spekkens and Giovanelli,2006AJ....132.1426S,,SPARC_Table1_column15_HI_Halpha_reference
+F565-V2,blind,dB97,1,de Blok and McGaugh,1997MNRAS.290..533D,,SPARC_Table1_column15_HI_Halpha_reference
+F565-V2,blind,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+F568-3,calibration,KN08,1,Kuzio de Naray et al.,2008ApJ...676..920K,,SPARC_Table1_column15_HI_Halpha_reference
+F568-3,calibration,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+F568-V1,calibration,dB01,1,de Blok et al.,2001AJ....122.2396D,,SPARC_Table1_column15_HI_Halpha_reference
+F568-V1,calibration,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+F571-8,calibration,dB01,1,de Blok et al.,2001AJ....122.2396D,,SPARC_Table1_column15_HI_Halpha_reference
+F571-8,calibration,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+F571-V1,calibration,dB97,1,de Blok and McGaugh,1997MNRAS.290..533D,,SPARC_Table1_column15_HI_Halpha_reference
+F571-V1,calibration,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+F574-1,blind,dB01,1,de Blok et al.,2001AJ....122.2396D,,SPARC_Table1_column15_HI_Halpha_reference
+F574-1,blind,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+F583-1,calibration,KN08,1,Kuzio de Naray et al.,2008ApJ...676..920K,,SPARC_Table1_column15_HI_Halpha_reference
+F583-1,calibration,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+F583-4,calibration,KN08,1,Kuzio de Naray et al.,2008ApJ...676..920K,,SPARC_Table1_column15_HI_Halpha_reference
+F583-4,calibration,dB96,1,de Blok et al.,1996MNRAS.283...18D,,SPARC_Table1_column15_HI_Halpha_reference
+IC2574,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+IC2574,calibration,MC94,1,Martimbeau and Carignan,1994AJ....107..543M,,SPARC_Table1_column15_HI_Halpha_reference
+IC4202,calibration,SG06,1,Spekkens and Giovanelli,2006AJ....132.1426S,,SPARC_Table1_column15_HI_Halpha_reference
+KK98-251,calibration,BC04,1,Begum and Chengalur,2004A&A...424..509B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0024,blind,Di08,1,Dicaire et al.,2008MNRAS.385..553D,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0024,blind,Ch06,1,Chemin et al.,2006AJ....132.2527C,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0055,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0055,blind,Pu91,1,Puche et al.,1991AJ....101..447P,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0100,blind,dB02,1,de Blok and Bosma,2002A&A...385..816D,Cat. J/A+A/385/816,SPARC_Table1_column15_HI_Halpha_reference
+NGC0100,blind,Rh96,1,Rhee and vanAlbada,1996A&AS..115..407R,Cat. J/A+AS/115/407,SPARC_Table1_column15_HI_Halpha_reference
+NGC0247,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0247,blind,Ca90,1,Carignan and Puche,1990AJ....100..394C,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0289,calibration,Wa97,1,Walsh et al,1997AJ....113.1591W,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0300,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0300,calibration,CP90,1,Carignan and Puche,1990AJ....100..641C,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0801,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC0801,blind,Br92,1,Broeils,...................,"1992, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC0891,calibration,Fr11,1,Fraternali et al.,2011A&A...531A..64F,,SPARC_Table1_column15_HI_Halpha_reference
+NGC1003,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC1003,blind,Br92,1,Broeils,...................,"1992, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC1090,calibration,Ge04,1,Gentile et al.,2004MNRAS.351..903G,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2403,blind,Da06,1,Daigle et al.,2006MNRAS.367..469D,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2403,blind,Fr02,0,,,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2683,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2683,calibration,Br92,1,Broeils,...................,"1992, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC2841,calibration,Di08,1,Dicaire et al.,2008MNRAS.385..553D,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2841,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2903,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2903,calibration,Be87,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC2915,calibration,El10,1,Elson et al.,2010MNRAS.404.2061E,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2955,blind,SG06,1,Spekkens and Giovanelli,2006AJ....132.1426S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2976,calibration,Si03,1,Simon et al.,2003ApJ...596..957S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2998,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC2998,calibration,Br92,1,Broeils,...................,"1992, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC3109,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3109,calibration,JC90,1,Jobin and Carignan,1990AJ....100..648J,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3198,calibration,Da06,1,Daigle et al.,2006MNRAS.367..469D,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3198,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3198,calibration,Be87,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC3521,blind,Da06,1,Daigle et al.,2006MNRAS.367..469D,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3521,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3726,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3726,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3741,calibration,Ge07,1,Gentile et al.,2007MNRAS.375..199G,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3741,calibration,Bm05,0,,,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3769,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3769,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3877,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3877,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3893,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3893,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3917,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3917,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3949,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3949,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3953,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3953,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3972,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3972,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC3992,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC3992,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4010,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4010,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4013,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4013,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4051,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4051,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4068,calibration,Le14,1,Lelli et al.,2014A&A...566A..71L,Cat. J/A+A/566/A71,SPARC_Table1_column15_HI_Halpha_reference
+NGC4085,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4085,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4088,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4088,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4100,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4100,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4138,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4138,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4157,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4157,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4183,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4183,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4217,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+NGC4217,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC4559,calibration,Ba05,1,Barbieri et al.,2005A&A...439..947B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5005,blind,Ri15,1,Richards et al.,2015MNRAS.449.3981R,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5033,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5033,blind,Be87,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC5055,blind,Ba06,0,,,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5055,blind,Bl04,1,Blais-Ouellette et al.,2004A&A...420..147B,Cat. J/A+A/420/147,SPARC_Table1_column15_HI_Halpha_reference
+NGC5371,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5371,calibration,Be87,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC5585,blind,Bl99,1,Blais-Ouellette et al.,1999AJ....118.2123B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5585,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5585,blind,Co91,1,Cote et al.,1991AJ....102..904C,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5907,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5907,calibration,SA87,1,Sancisi and vanAlbada,1987IAUS..117...67S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC5985,calibration,Bl04,1,Blais-Ouellette et al.,2004A&A...420..147B,Cat. J/A+A/420/147,SPARC_Table1_column15_HI_Halpha_reference
+NGC5985,calibration,Br92,1,Broeils,...................,"1992, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC6015,calibration,VM97,1,Verdes-Montenegro et al.,1997A&A...321..754V,,SPARC_Table1_column15_HI_Halpha_reference
+NGC6195,calibration,SG06,1,Spekkens and Giovanelli,2006AJ....132.1426S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC6503,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC6503,calibration,Be87,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC6674,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC6674,blind,Br92,1,Broeils,...................,"1992, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC6946,blind,Bo08,1,Boomsma et al.,2008A&A...490..555B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC7331,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+NGC7331,calibration,Be87,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",SPARC_Table1_column15_HI_Halpha_reference
+NGC7793,blind,Di08,1,Dicaire et al.,2008MNRAS.385..553D,,SPARC_Table1_column15_HI_Halpha_reference
+NGC7793,blind,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+NGC7793,blind,CP90,1,Carignan and Puche,1990AJ....100..641C,,SPARC_Table1_column15_HI_Halpha_reference
+NGC7814,calibration,Fr11,1,Fraternali et al.,2011A&A...531A..64F,,SPARC_Table1_column15_HI_Halpha_reference
+UGC00128,calibration,VB99,0,,,,SPARC_Table1_column15_HI_Halpha_reference
+UGC00128,calibration,VH93,1,van der Hulst et al.,1993AJ....106..548V,,SPARC_Table1_column15_HI_Halpha_reference
+UGC00191,calibration,KN08,1,Kuzio de Naray et al.,2008ApJ...676..920K,,SPARC_Table1_column15_HI_Halpha_reference
+UGC00191,calibration,vZ97,1,"van Zee, L.","1997, AJ, 113, 1618",,SPARC_Table1_column15_HI_Halpha_reference
+UGC00731,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC00731,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC00891,calibration,vZ97,1,"van Zee, L.","1997, AJ, 113, 1618",,SPARC_Table1_column15_HI_Halpha_reference
+UGC01281,blind,dB02,1,de Blok and Bosma,2002A&A...385..816D,Cat. J/A+A/385/816,SPARC_Table1_column15_HI_Halpha_reference
+UGC01281,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02259,calibration,Be91,1,Begeman et al.,1991MNRAS.249..523B,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02259,calibration,Ca88,1,Carignan et al.,1988AJ.....95...37C,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02487,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02487,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC02885,calibration,Sa96,1,Sanders,1996ApJ...473..117S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02885,calibration,RA85,1,Roelfsema and Allen,1985A&A...146..213R,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02916,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02916,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC02953,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC02953,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC03205,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC03205,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC03546,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC03546,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC03580,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC03580,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC04278,calibration,dB02,1,de Blok and Bosma,2002A&A...385..816D,Cat. J/A+A/385/816,SPARC_Table1_column15_HI_Halpha_reference
+UGC04278,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC04325,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC04325,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC04483,calibration,Le14,1,Lelli et al.,2014A&A...566A..71L,Cat. J/A+A/566/A71,SPARC_Table1_column15_HI_Halpha_reference
+UGC04483,calibration,Le12,1,Lelli et al.,2012A&A...544A.145L,,SPARC_Table1_column15_HI_Halpha_reference
+UGC04499,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC04499,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05005,calibration,dB02,1,de Blok and Bosma,2002A&A...385..816D,Cat. J/A+A/385/816,SPARC_Table1_column15_HI_Halpha_reference
+UGC05005,calibration,VH93,1,van der Hulst et al.,1993AJ....106..548V,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05253,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05253,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC05414,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05414,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05716,blind,vZ97,1,"van Zee, L.","1997, AJ, 113, 1618",,SPARC_Table1_column15_HI_Halpha_reference
+UGC05721,blind,dB02,1,de Blok and Bosma,2002A&A...385..816D,Cat. J/A+A/385/816,SPARC_Table1_column15_HI_Halpha_reference
+UGC05721,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05750,calibration,dB01,1,de Blok et al.,2001AJ....122.2396D,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05750,calibration,VdH93,0,,,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05764,calibration,vZ97,1,"van Zee, L.","1997, AJ, 113, 1618",,SPARC_Table1_column15_HI_Halpha_reference
+UGC05829,blind,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05829,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05918,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05918,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05986,blind,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC05986,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06399,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06399,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06446,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06446,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06614,calibration,dB01,1,de Blok et al.,2001AJ....122.2396D,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06614,calibration,VH93,1,van der Hulst et al.,1993AJ....106..548V,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06667,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06667,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06786,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06786,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC06787,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06787,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC06818,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06818,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06917,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06917,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06923,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06923,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06930,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06930,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC06983,calibration,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC06983,calibration,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07089,blind,VS01,1,Verheijen and Sancisi,2001A&A...370..765V,Cat. J/A+A/370/765,SPARC_Table1_column15_HI_Halpha_reference
+UGC07089,blind,SV98,1,Sanders and Verheijen,1998ApJ...503...97S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07125,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07125,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07151,blind,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07151,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07261,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07261,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07323,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07323,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07399,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07399,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07524,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07524,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07559,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07559,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07577,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07577,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07603,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07603,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07690,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07690,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07866,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC07866,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08286,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08286,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08490,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08490,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08550,blind,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08550,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08699,calibration,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08699,calibration,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC08837,blind,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC08837,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC09037,calibration,Ha14,1,Hallenbeck et al.,2014AJ....148...69H,,SPARC_Table1_column15_HI_Halpha_reference
+UGC09133,blind,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC09133,blind,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC09992,blind,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC09992,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC10310,blind,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC10310,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC11455,calibration,SG06,1,Spekkens and Giovanelli,2006AJ....132.1426S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC11557,blind,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC11557,blind,dB01,1,de Blok et al.,2001AJ....122.2396D,,SPARC_Table1_column15_HI_Halpha_reference
+UGC11820,blind,KN08,1,Kuzio de Naray et al.,2008ApJ...676..920K,,SPARC_Table1_column15_HI_Halpha_reference
+UGC11820,blind,vZ97,1,"van Zee, L.","1997, AJ, 113, 1618",,SPARC_Table1_column15_HI_Halpha_reference
+UGC11914,blind,No07,1,Noordermeer et al.,2007MNRAS.376.1513N,,SPARC_Table1_column15_HI_Halpha_reference
+UGC11914,blind,No05,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,SPARC_Table1_column15_HI_Halpha_reference
+UGC12506,calibration,Ha14,1,Hallenbeck et al.,2014AJ....148...69H,,SPARC_Table1_column15_HI_Halpha_reference
+UGC12632,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC12632,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC12732,calibration,Sw09,1,Swaters et al.,2009A&A...493..871S,,SPARC_Table1_column15_HI_Halpha_reference
+UGC12732,calibration,Sw02,1,Swaters et al.,2002A&A...390..829S,,SPARC_Table1_column15_HI_Halpha_reference
+UGCA442,blind,Co00,1,Cote et al.,2000AJ....120.3027C,,SPARC_Table1_column15_HI_Halpha_reference
+UGCA444,blind,Ke07,1,Kepley et al.,2007AJ....133.2242K,,SPARC_Table1_column15_HI_Halpha_reference

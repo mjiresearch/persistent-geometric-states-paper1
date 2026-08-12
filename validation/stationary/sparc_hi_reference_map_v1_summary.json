@@ -1,0 +1,17 @@
+{
+  "status": "SPARC_FROZEN149_HI_REFERENCE_MAP_COMPLETE",
+  "n_frozen_galaxies": 149,
+  "n_long_reference_rows": 271,
+  "n_unique_sparc_reference_ids": 58,
+  "n_reference_catalog_rows": 57,
+  "unresolved_reference_ids": [
+    "Ba06",
+    "Bm05",
+    "Fr02",
+    "VB99",
+    "VdH93"
+  ],
+  "source": "Lelli et al. 2016 AJ 152 157 / CDS J/AJ/152/157",
+  "interpretation": "Per-galaxy references identify the underlying HI/Halpha data used by SPARC. They are an authoritative acquisition map to original observations, not proof that Lelli's later 169-galaxy azimuthally averaged HI profile compilation is public or identical to a profile printed in each source paper.",
+  "boundary": "Provenance only. No source-profile normalization, interpolation, helium correction, persistence fitting, or blind-outcome inspection."
+}
