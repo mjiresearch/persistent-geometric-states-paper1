@@ -1,0 +1,51 @@
+name: Integrate dB96 analytic HI profiles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/integrate_jadhav2019_db96_analytic_into_overlay.py'
+      - 'data/stationary/source_reconstruction/jadhav_banerjee2019_lsb_hi_analytic_profiles_v1.csv'
+      - '.github/workflows/integrate_db96_analytic_profiles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Integrate five dB96-family analytic profiles
+        run: python scripts/stationary/integrate_jadhav2019_db96_analytic_into_overlay.py
+      - name: Reconcile frozen-149 provenance
+        run: python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+      - name: Re-rank remaining Lelli source families
+        run: python scripts/stationary/rank_sparc_hi_reference_families.py
+      - name: Commit acquisition state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv \
+            data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv \
+            validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json \
+            data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv \
+            validation/stationary/sparc_hi_reference_family_priority_v1_summary.json
+          if git diff --cached --quiet; then
+            echo 'No generated changes'
+          else
+            git commit -m 'Integrate dB96 analytic HI profiles into acquisition overlay'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
