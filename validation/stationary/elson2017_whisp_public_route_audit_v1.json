@@ -1,0 +1,263 @@
+{
+  "status": "ELSON2017_WHISP_PUBLIC_ROUTE_AUDIT",
+  "arxiv": {
+    "arxiv_url": "https://export.arxiv.org/e-print/1709.03288",
+    "archive_bytes": 599978,
+    "archive_sha256": "5d5ee3bd2a5bb37d39faa111d27fd5d1d240d12ff935a35e5f3219e3287f97b0",
+    "content_type": "application/gzip",
+    "n_files": 14,
+    "n_vector_graphics": 12,
+    "vector_graphics": [
+      {
+        "name": "compare_j-M_V2.pdf",
+        "bytes": 29336,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "j-M_IDL_measured_HI_profiles_extrapolated_hists_V2.pdf",
+        "bytes": 12786,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "j-M_IDL_measured_HI_profiles_extrapolated_V2.pdf",
+        "bytes": 22968,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "log10_MHI_over_Mstar_Vs_log10_Mstar_V2.pdf",
+        "bytes": 18244,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "M_over_L_Swaters_VS_V2.pdf",
+        "bytes": 6695,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "N925_6946_profiles_V2.pdf",
+        "bytes": 28807,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles1_V2.pdf",
+        "bytes": 122405,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles2_V2.pdf",
+        "bytes": 122571,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles3_V2.pdf",
+        "bytes": 123396,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles4_V2.pdf",
+        "bytes": 14125,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "RHI_V2.pdf",
+        "bytes": 8410,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "smoothed_maps_V2.pdf",
+        "bytes": 78717,
+        "suffix": ".pdf"
+      }
+    ],
+    "candidate_profile_assets": [
+      {
+        "name": "j-M_IDL_measured_HI_profiles_extrapolated_hists_V2.pdf",
+        "bytes": 12786,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "j-M_IDL_measured_HI_profiles_extrapolated_V2.pdf",
+        "bytes": 22968,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "N925_6946_profiles_V2.pdf",
+        "bytes": 28807,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles1_V2.pdf",
+        "bytes": 122405,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles2_V2.pdf",
+        "bytes": 122571,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles3_V2.pdf",
+        "bytes": 123396,
+        "suffix": ".pdf"
+      },
+      {
+        "name": "profiles4_V2.pdf",
+        "bytes": 14125,
+        "suffix": ".pdf"
+      }
+    ],
+    "tex_hits": [
+      {
+        "file": "j-M.tex",
+        "line": 94,
+        "text": "This paper investigates the relationship between  specific baryon  angular momentum \\jb\\ and baryon mass \\Mb\\ for a sample of nearby late-type galaxies with resolved \\hi\\ kinematics. This work roughly doubles the number of galaxies with $M_\\mathrm{b}\\lesssim 10^{10}$~\\msun\\ used to study the \\jm\\  relation.  Most of the galaxies in the sample have their baryon mass dominated by their gas content, thereby offering \\jb\\ and \\Mb\\ measures that are relatively unaffected by uncertainties arising from"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 232,
+        "text": "\t\\includegraphics[width=1\\columnwidth]{./M_over_L_Swaters_VS_V2.pdf}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 238,
+        "text": "\t\\includegraphics[width=1\\columnwidth]{./log10_MHI_over_Mstar_Vs_log10_Mstar_V2.pdf}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 246,
+        "text": "\t\\includegraphics[width=\\columnwidth]{./j-M_IDL_measured_HI_profiles_extrapolated_V2.pdf}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 252,
+        "text": "\t\\includegraphics[width=\\columnwidth]{./j-M_IDL_measured_HI_profiles_extrapolated_hists_V2.pdf}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 265,
+        "text": "One possible explanation for differences in the results from this work and those of \\citet{Butler_2017} may be due to the fact that here the radial profiles used to calculate $j_\\mathrm{b}$ are extrapolated only as far as the radius $R_\\mathrm{HI}$ at which the face-on \\hi\\ mass surface density drops to 1~\\msun~pc$^{-2}$.  \\citet{Butler_2017} produce ``hybrid'' radial profiles for the \\hi\\ and stellar distributions of their galaxies, as well as their rotation curves, and then extrapolate those p"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 270,
+        "text": "\t\\includegraphics[width=\\columnwidth]{./compare_j-M_V2.pdf}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 280,
+        "text": "\t\\includegraphics[width=\\columnwidth]{./RHI_V2.pdf}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 289,
+        "text": "\t\\includegraphics[width=1.8\\columnwidth]{./smoothed_maps_V2}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 290,
+        "text": "    \\caption{\\hi\\ total intensity maps (left) and \\hi\\ velocity fields (right) for NGC~925 (top) and NGC~6946 (bottom) based on the spatially-smoothed versions of the THINGS \\hi\\ data cubes discussed in Sec.~\\ref{systematics}.  These maps are used to derive the radial profiles shown in Fig.~\\ref{fig:N925_6946_profiles}.  The colour bar above each map gives the intensity scale in units of \\msun~pc$^{-2}$ and \\kms\\ for the total intensity and velocity maps, respectively.  In each panel, the black-"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 298,
+        "text": "\t\\includegraphics[width=\\columnwidth]{./N925_6946_profiles_V2}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 299,
+        "text": "    \\caption{Various radial profiles for NGC~925 (top) and NGC~6946 (bottom) derived from the \\hi\\ maps shown in Fig.~\\ref{fig:smoothed_maps}.  Black-filled circles represent the rotation curves from the tilted ring models fit to the velocity fields.  The solid black curve is the corresponding best-fit Polyex model (Eqn.~\\ref{eqn:polyex}).  For comparison, the rotation curves derived by \\citet{THINGS_deBlok} using the full-resolution THINGS maps are shown as black dotted curves.  The salmon-shad"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 337,
+        "text": "The best-fit relation is given by $j_\\mathrm{b}=qM_\\mathrm{b}^{\\alpha}$, with $\\alpha=0.62\\pm 0.02$ and $\\log_{10}q=-3.35\\pm 0.25$.  These best-fit parameters are shown to be robust against the effects of extrapolating the constituent radial profiles used to calculate \\jb\\ and \\Mb.  They are also shown to be unaffected by the spatial resolution of the WHISP \\hi\\ imaging.  The best-fit \\jm\\ relation is consistent with the theoretically expected $j_\\mathrm{b}\\propto M_\\mathrm{b}^{2/3}$ relation, a"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 504,
+        "text": "\\appendix"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 507,
+        "text": "\\section{Radial profiles}\\label{appendixA}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 508,
+        "text": "The next pages show the various radial profiles generated and used in this work.  Each panel corresponds to a different galaxy.  For each galaxy the details are as follows: the \\hi\\ mass surface density profile $\\Sigma_\\mathrm{HI}(R)$ measured from the 30~arcsec WHISP \\hi\\ total intensity map is represented by the red dash-dot curve, the measured rotation curve from \\citet{Swaters2009} is represented by the black circles, the model rotation curve is represented by the solid black curve, the surf"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 514,
+        "text": "\t\\includegraphics[width=1.8\\columnwidth]{./profiles1_V2}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 515,
+        "text": "    \\caption{Various radial profiles for each galaxy used in this study.   The radial profiles for $\\Sigma_{HI}$, $\\Sigma_{*}$, $\\Sigma_{b}$, $j_\\mathrm{b}(<R)$ and $V$ are represented by the red, green, blue, grey and black curves, respectively.  See the start of Appendix~\\ref{appendixA} for a detailed description the content in each panel.}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 520,
+        "text": "\t\\includegraphics[width=1.8\\columnwidth]{./profiles2_V2}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 521,
+        "text": "    \\caption{Various radial profiles for the galaxies used in this study.  See Fig.~\\ref{fig:profiles1} caption and the start of Appendix~\\ref{appendixA} for more details.}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 526,
+        "text": "\t\\includegraphics[width=1.8\\columnwidth]{./profiles3_V2}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 527,
+        "text": "    \\caption{Various radial profiles for the galaxies used in this study.  See Fig.~\\ref{fig:profiles1} caption and the start of Appendix~\\ref{appendixA} for more details.}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 532,
+        "text": "\t\\includegraphics[width=0.55\\columnwidth]{./profiles4_V2}"
+      },
+      {
+        "file": "j-M.tex",
+        "line": 533,
+        "text": "    \\caption{Various radial profiles for UGC 12732 used in this study.  See Fig.~\\ref{fig:profiles1} caption and the start of Appendix~\\ref{appendixA} for more details.}"
+      }
+    ]
+  },
+  "live_probes": [
+    {
+      "url": "http://wow.astron.nl/",
+      "ok": false,
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "url": "https://wow.astron.nl/",
+      "ok": false,
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "url": "https://www.astro.rug.nl/~whisp/Database/OverviewCatalog/ListByName/U4325/u4325.html",
+      "ok": true,
+      "bytes": 1134,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "sha256": "4eeecee3f1b723a074d170c08920bc68ec8aa735f9d404f03cf4d4ae95a07678",
+      "preview": " \n<html>\n<head> <title> UGC 4325 </title> </head>\n\n<body BACKGROUND=\"/~whisp//Images/ceramc2f.jpg\" TEXT=\"#090E99\"\n  LINK=\"#ff0000\" ALINK=\"#ffff00\" VLINK=\"#000fff\">\n\n<img src=\"/~whisp/Images/whisptr20sm.gif\" align=center>\n\n<hr>\n<center>\n<h1> <font color=\"#037F18\">UGC 4325 </font></h1>\n<hr>\n</center>\n"
+    }
+  ],
+  "wayback": {
+    "n_unique_urls": 1,
+    "urls": [
+      {
+        "query": "http://wow.astron.nl/*u4325*",
+        "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      }
+    ],
+    "fits_like": []
+  },
+  "boundary": "Acquisition-route audit only. No HI profile samples, orientation parameters, helium factors, radial conversions, interpolation, persistence parameters, or blind outcomes altered/evaluated."
+}
