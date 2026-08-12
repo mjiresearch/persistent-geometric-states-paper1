@@ -60,7 +60,6 @@ def panel_paths(tf):
    if col(d.get('color'))==(1.0,0.0,0.0):
     seg=lines(d)
     if len(seg)>=20: reds.append((d,seg))
-  # Cluster into page rows by red-path centre y, then x; row gaps dwarf within-row variation.
   items=[]
   for d,seg in reds:
    r=d['rect']; items.append({'d':d,'seg':seg,'cx':(r.x0+r.x1)/2,'cy':(r.y0+r.y1)/2})
@@ -83,21 +82,18 @@ def panel_paths(tf):
 
 def baseline_and_ticks(page, red):
  r=red['rect']; x0,x1=r.x0,r.x1
- # Long black horizontal line spanning almost exactly red x range = Sigma=0 baseline.
  h=[]; v=[]
  for d in page.get_drawings():
   if col(d.get('color'))!=(0.0,0.0,0.0): continue
   for xa,ya,xb,yb in lines(d):
    if abs(ya-yb)<0.08 and min(xa,xb)<=x0+0.2 and max(xa,xb)>=x1-0.2:
     h.append((abs(xb-xa), (ya+yb)/2))
-  # collect possible x ticks: short vertical segments terminating on a later-selected baseline
   for xa,ya,xb,yb in lines(d):
    if abs(xa-xb)<0.08 and 2.0<=abs(yb-ya)<=5.0 and x0-0.3<=xa<=x1+0.3:
     v.append((xa,min(ya,yb),max(ya,yb),abs(yb-ya)))
  if not h: raise RuntimeError('baseline not found')
  y0=max(h,key=lambda z:z[0])[1]
  xt=sorted({round(x,3) for x,ya,yb,l in v if abs(yb-y0)<0.25 or abs(ya-y0)<0.25})
- # y ticks: short horizontal segments attached to left plot border.
  yt=[]
  for d in page.get_drawings():
   if col(d.get('color'))!=(0.0,0.0,0.0): continue
@@ -125,7 +121,6 @@ def interp_y(verts,x):
    t=(x-x0)/(x1-x0);return y0+t*(y1-y0)
  return verts[-1][1]
 def integral_fu(verts,ybase,u_max):
- # Integral_0^u_max f(u)*u du, f=ybase-y(x_left+u), piecewise linear.
  xleft=verts[0][0]; xmax=xleft+u_max
  pts=[]
  for x,y in verts:
@@ -138,7 +133,6 @@ def integral_fu(verts,ybase,u_max):
   pts.append((u_max,ybase-y))
  total=0.0
  for (u0,f0),(u1,f1) in zip(pts,pts[1:]):
-  # f(u)=m u+c; integrate f*u exactly.
   if u1==u0:continue
   m=(f1-f0)/(u1-u0);c=f0-m*u0
   total += m*(u1**3-u0**3)/3 + c*(u1**2-u0**2)/2
@@ -158,7 +152,6 @@ def solve_scale(verts,ybase,rhi,r3,mean):
   if I is None:return None
   pred=2*b*a*a*I/(r3*r3)
   return pred-mean,b,pred,fr,xr
- # scan log grid and locate all sign-change roots
  samples=[]
  for i in range(500):
   a=amin*(amax/amin)**(i/499)
@@ -168,20 +161,20 @@ def solve_scale(verts,ybase,rhi,r3,mean):
  for (a0,e0),(a1,e1) in zip(samples,samples[1:]):
   if e0[0]==0 or e0[0]*e1[0]<0:
    lo,hi=a0,a1
+   elo=e0
    for _ in range(70):
     mid=(lo+hi)/2;em=evala(mid)
     if em is None:break
-    if e0[0]*em[0]<=0:hi=mid;e1=em
-    else:lo=mid;e0=em
+    if elo[0]*em[0]<=0:hi=mid
+    else:lo=mid;elo=em
    a=(lo+hi)/2;e=evala(a)
-   roots.append((a,e))
- # if no sign root, return best approximate candidate for diagnosis
+   if e is not None: roots.append((a,e))
  if not roots and samples:
   a,e=min(samples,key=lambda z:abs(z[1][0]));roots=[(a,e)]
- return roots
+ return roots, len(samples), amin, amax
 
 def nice_distance(v):
- nice=[0.1,0.2,0.25,0.5,1,2,2.5,5,10,20,25,50,100]
+ nice=[0.1,0.2,0.25,0.5,1,2,2.5,5,10,20,25,50,100,200,250,500]
  n=min(nice,key=lambda z:abs(math.log(max(v,1e-9)/z)))
  return n,abs(v-n)/n
 
@@ -195,34 +188,38 @@ def main():
   D,h_arc,rhi_arc,mean=META[ugc]; conv=D*KPC_PER_ARCSEC_PER_MPC
   rhi=rhi_arc*conv; r3=3.2*h_arc*conv
   ybase,xt,yt=baseline_and_ticks(page,red); vv=vertices(seg)
-  roots=solve_scale(vv,ybase,rhi,r3,mean)
-  dx=[]
-  for a,b in zip(xt,xt[1:]):
-   if b-a>1:dx.append(b-a)
-  dy=[]
-  for a,b in zip(yt,yt[1:]):
-   if b-a>1:dy.append(b-a)
+  roots,n_samples,amin,amax=solve_scale(vv,ybase,rhi,r3,mean)
+  dx=[b-a for a,b in zip(xt,xt[1:]) if b-a>1]
+  dy=[b-a for a,b in zip(yt,yt[1:]) if b-a>1]
   dxt=sorted(dx)[len(dx)//2] if dx else None; dyt=sorted(dy)[len(dy)//2] if dy else None
   cand=[]
   for a,e in roots:
    err,b,pred,fr,xr=e
    xinc=a*dxt if dxt else None;yinc=b*dyt if dyt else None
    xn,xe=nice_distance(xinc) if xinc else (None,None);yn,ye=nice_distance(yinc) if yinc else (None,None)
-   cand.append({'kpc_per_pdf_x':a,'sigma_per_pdf_y':b,'mean_pred':pred,'mean_target':mean,'rhi_x_pdf':xr,
+   cand.append({'kpc_per_pdf_x':a,'sigma_per_pdf_y':b,'mean_pred':pred,'mean_target':mean,'mean_abs_error':abs(pred-mean),'rhi_x_pdf':xr,
                 'x_tick_pdf':dxt,'x_tick_kpc':xinc,'x_tick_nice':xn,'x_tick_frac_error':xe,
                 'y_tick_pdf':dyt,'y_tick_sigma':yinc,'y_tick_nice':yn,'y_tick_frac_error':ye,
-                'nice_score':(xe or 9)+(ye or 9)})
-  cand.sort(key=lambda z:z['nice_score'])
-  best=cand[0]
-  # derive diagnostic Sigma at exact source RHI (construction =1 by calibration) and max R.
+                'nice_score':(xe if xe is not None else 9)+(ye if ye is not None else 9)})
+  cand.sort(key=lambda z:(z['mean_abs_error']>1e-6,z['nice_score'],z['mean_abs_error']))
+  best=cand[0] if cand else None
   out.append({'galaxy':f'UGC{ugc:05d}','stationary_role':roles.get(f'UGC{ugc:05d}'), 'source_pdf':pdf,'panel_index':panel,
               'source_distance_mpc':D,'source_h_arcsec':h_arc,'source_rhi_arcsec':rhi_arc,'source_rhi_kpc':rhi,
-              'source_mean_sigma_hi_3p2h':mean,'plot_x0_pdf':vv[0][0],'plot_x1_pdf':vv[-1][0],'plot_y0_pdf':ybase,
-              'n_vector_vertices':len(vv),'x_ticks_pdf':xt,'y_ticks_pdf':yt,'candidates':cand[:5],'best':best})
- summary={'status':'ELSON2017_WHISP_VECTOR_AXIS_CALIBRATION_AUDIT','n_targets':len(out),'targets':out,
+              'source_mean_sigma_hi_3p2h':mean,'source_r3p2h_kpc':r3,'plot_x0_pdf':vv[0][0],'plot_x1_pdf':vv[-1][0],'plot_y0_pdf':ybase,
+              'n_vector_vertices':len(vv),'x_ticks_pdf':xt,'y_ticks_pdf':yt,
+              'search_valid_samples':n_samples,'search_a_min':amin,'search_a_max':amax,
+              'calibration_status':'solved_or_approximate' if best else 'no_valid_scale_candidate',
+              'candidates':cand[:5],'best':best})
+ solved=[r for r in out if r['best'] is not None]
+ unsolved=[r['galaxy'] for r in out if r['best'] is None]
+ summary={'status':'ELSON2017_WHISP_VECTOR_AXIS_CALIBRATION_AUDIT','n_targets':len(out),'n_with_candidate':len(solved),'n_without_candidate':len(unsolved),'unsolved_galaxies':unsolved,'targets':out,
           'boundary':'Axes recovered only from public vector geometry and Swaters published source constraints. No SPARC-distance substitution, helium scaling, interpolation to Paper-I grid, persistence fitting, or blind-outcome inspection.'}
  p=Path('validation/stationary/elson2017_whisp_vector_axis_calibration_v1.json');p.write_text(json.dumps(summary,indent=2)+'\n')
- print('TARGETS',len(out))
+ print('TARGETS',len(out),'WITH_CANDIDATE',len(solved),'UNSOLVED',unsolved)
  for r in out:
-  b=r['best'];print(r['galaxy'],r['stationary_role'],'a',round(b['kpc_per_pdf_x'],6),'b',round(b['sigma_per_pdf_y'],6),'xtick',round(b['x_tick_kpc'],4) if b['x_tick_kpc'] else None,'~',b['x_tick_nice'],'ytick',round(b['y_tick_sigma'],4) if b['y_tick_sigma'] else None,'~',b['y_tick_nice'],'nice',round(b['nice_score'],4),'roots',len(r['candidates']))
+  b=r['best']
+  if b is None:
+   print(r['galaxy'],r['stationary_role'],'NO_CANDIDATE','valid_samples',r['search_valid_samples'],'a_range',r['search_a_min'],r['search_a_max'])
+  else:
+   print(r['galaxy'],r['stationary_role'],'a',round(b['kpc_per_pdf_x'],6),'b',round(b['sigma_per_pdf_y'],6),'xtick',round(b['x_tick_kpc'],4) if b['x_tick_kpc'] else None,'~',b['x_tick_nice'],'ytick',round(b['y_tick_sigma'],4) if b['y_tick_sigma'] else None,'~',b['y_tick_nice'],'nice',round(b['nice_score'],4),'meanerr',round(b['mean_abs_error'],5),'candidates',len(r['candidates']))
 if __name__=='__main__':main()
