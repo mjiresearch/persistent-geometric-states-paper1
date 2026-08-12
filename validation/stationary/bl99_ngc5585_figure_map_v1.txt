@@ -1,4 +1,5 @@
 status=BL99_NGC5585_FIGURE_MAP_COMPLETE
+plots=10 figcaptions=0 paired=0
 PLOT {"refs": ["Blais-Ouellette.fig1.ps"], "caption": "", "char": 41062}
 PLOT {"refs": ["Blais-Ouellette.fig2.ps"], "caption": "", "char": 41097}
 PLOT {"refs": ["Blais-Ouellette.fig3.ps"], "caption": "", "char": 41132}
