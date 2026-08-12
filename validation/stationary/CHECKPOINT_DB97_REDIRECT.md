@@ -7,8 +7,8 @@ Status: **DB97 DOWNSTREAM — REDIRECT TO EXISTING DB96 STATE; DO NOT RESTART DB
 - Continue only Lelli-directed public H I source acquisition.
 
 ## Lelli/SPARC targets in dB97
-- F565-V2 — calibration in the current dB97 queue entry.
-- F571-V1 — blind in the current dB97 queue entry.
+- F565-V2 — blind.
+- F571-V1 — calibration.
 
 ## Provenance decision
 `dB97` is de Blok & McGaugh (1997), MNRAS 290, 533, *The dark and baryonic matter content of low surface brightness disk galaxies* (arXiv:astro-ph/9704274). It is a mass-model analysis, not the original 21-cm observing paper.
