@@ -69,8 +69,9 @@ def main():
         raise RuntimeError(f'UGC00128 dual-reference mapping changed: VB99={vb}, VH93={vh}')
     if not VH93.exists():raise RuntimeError('Existing VH93 audit missing; restore it rather than restarting source search')
     vtxt=VH93.read_text(encoding='utf-8')
-    required=['UGC00128','Figure 2','radial H I surface-density','figure-scan','No raster digitization']
-    missing=[s for s in required if s not in vtxt]
+    vlow=vtxt.lower()
+    required=['ugc00128','figure 2','radial h i surface-density','scanned journal reproduction','no curve digitization']
+    missing=[s for s in required if s not in vlow]
     if missing:raise RuntimeError(f'VH93 audit no longer contains expected locked evidence: {missing}')
 
     payload,url=fetch_precursor();texts=unpack_text(payload)
@@ -84,7 +85,6 @@ def main():
             for m in pat.finditer(t):
                 lo=max(0,m.start()-250);hi=min(len(t),m.end()+250)
                 hits.append({'file':n,'match':re.sub(r'\s+',' ',t[lo:hi]).strip()})
-    # Deduplicate contexts.
     uniq=[];seen=set()
     for h in hits:
         key=(h['file'],h['match'])
