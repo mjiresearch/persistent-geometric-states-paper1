@@ -1,0 +1,1160 @@
+{
+  "status": "SW02_APPENDIX_LOCATOR_AUDIT_COMPLETE",
+  "source": "Swaters et al. 2002 A&A 390 829; arXiv astro-ph/0204525",
+  "tex_file": "h3074.tex",
+  "appendix_context_lines_1436_1535": [
+    {
+      "line": 1436,
+      "text": "\\end{tabular}"
+    },
+    {
+      "line": 1437,
+      "text": "\\end{flushleft}"
+    },
+    {
+      "line": 1438,
+      "text": "\\end{table*}"
+    },
+    {
+      "line": 1439,
+      "text": "}"
+    },
+    {
+      "line": 1440,
+      "text": ""
+    },
+    {
+      "line": 1441,
+      "text": "\\newpage\\clearpage"
+    },
+    {
+      "line": 1442,
+      "text": ""
+    },
+    {
+      "line": 1443,
+      "text": "\\section{Atlas of the \\HI\\ observations}"
+    },
+    {
+      "line": 1444,
+      "text": "\\label{thefigures}"
+    },
+    {
+      "line": 1445,
+      "text": ""
+    },
+    {
+      "line": 1446,
+      "text": "In the next pages overview figures are presented with the \\HI\\ data"
+    },
+    {
+      "line": 1447,
+      "text": "for all the galaxies in the sample. For each galaxy a figure is given"
+    },
+    {
+      "line": 1448,
+      "text": "with six panels. The \\HI\\ data shown are at $30''$ resolution."
+    },
+    {
+      "line": 1449,
+      "text": ""
+    },
+    {
+      "line": 1450,
+      "text": "\\noindent {\\it Top left.} A grayscale representation of the integrated"
+    },
+    {
+      "line": 1451,
+      "text": "\\HI\\ distribution.  The contour levels are $1, 2, 5, 8, 11, 15, 20,"
+    },
+    {
+      "line": 1452,
+      "text": "30, 40, 50,$ ... $10^{20}$ atoms cm$^{-2}$. The outermost contour"
+    },
+    {
+      "line": 1453,
+      "text": "always represents a column density of $1\\times 10^{20}$ atoms cm$^{-2}$."
+    },
+    {
+      "line": 1454,
+      "text": "Contours representing column densities of $5\\cdot 10^{21}$ atoms"
+    },
+    {
+      "line": 1455,
+      "text": "cm$^{-2}$ or higher are displayed in white.  The thick solid line"
+    },
+    {
+      "line": 1456,
+      "text": "gives the approximate three sigma level, determined as described in"
+    },
+    {
+      "line": 1457,
+      "text": "Sect.~\\ref{thereduction}. The plus sign indicates the position of"
+    },
+    {
+      "line": 1458,
+      "text": "the optical center.  The beam size is given in the lower left."
+    },
+    {
+      "line": 1459,
+      "text": ""
+    },
+    {
+      "line": 1460,
+      "text": "\\noindent {\\it Top right.} The velocity field. The thick line is the"
+    },
+    {
+      "line": 1461,
+      "text": "systemic velocity. The interval between the thin lines is given in the"
+    },
+    {
+      "line": 1462,
+      "text": "lower left. Light shading indicates receding velocities, dark shading"
+    },
+    {
+      "line": 1463,
+      "text": "indicates approaching velocities. The extent of the velocity field may"
+    },
+    {
+      "line": 1464,
+      "text": "be smaller than that of the integrated \\HI\\ map, because velocities"
+    },
+    {
+      "line": 1465,
+      "text": "were only determined from profiles with a signal-to-noise ratio higher"
+    },
+    {
+      "line": 1466,
+      "text": "than three."
+    },
+    {
+      "line": 1467,
+      "text": ""
+    },
+    {
+      "line": 1468,
+      "text": "%\\vfill"
+    },
+    {
+      "line": 1469,
+      "text": "%"
+    },
+    {
+      "line": 1470,
+      "text": "%\\hspace{-0.5cm}\\hbox to\\textwidth{"
+    },
+    {
+      "line": 1471,
+      "text": "%\\vtop{\\hbox{\\resizebox{0.5\\textwidth}{!}{\\includegraphics{h3074f13.ps}}}"
+    },
+    {
+      "line": 1472,
+      "text": "%}\\hfil"
+    },
+    {
+      "line": 1473,
+      "text": "%\\vtop{\\hbox{\\resizebox{0.5\\textwidth}{!}{\\includegraphics{h3074f14.ps}}}"
+    },
+    {
+      "line": 1474,
+      "text": "%}}"
+    },
+    {
+      "line": 1475,
+      "text": "%\\vspace{0.4cm}"
+    },
+    {
+      "line": 1476,
+      "text": "%"
+    },
+    {
+      "line": 1477,
+      "text": "%\\break"
+    },
+    {
+      "line": 1478,
+      "text": ""
+    },
+    {
+      "line": 1479,
+      "text": "\\noindent {\\it Middle left.} The integrated \\HI\\ distribution overlayed"
+    },
+    {
+      "line": 1480,
+      "text": "on the optical $R$-band image from Paper~II."
+    },
+    {
+      "line": 1481,
+      "text": ""
+    },
+    {
+      "line": 1482,
+      "text": "\\noindent {\\it Middle right.} The position-velocity diagram along the"
+    },
+    {
+      "line": 1483,
+      "text": "major axis. Contour levels are at $-4$ and $-2$ (dotted),"
+    },
+    {
+      "line": 1484,
+      "text": "and $2\\sigma$, $4\\sigma$, ... ."
+    },
+    {
+      "line": 1485,
+      "text": ""
+    },
+    {
+      "line": 1486,
+      "text": "\\noindent {\\it Bottom left.} The radial \\HI\\ density profile. The thin"
+    },
+    {
+      "line": 1487,
+      "text": "solid line gives the profile for the approaching side, the dotted line"
+    },
+    {
+      "line": 1488,
+      "text": "gives the profile for the receding side. The thick solid line is the"
+    },
+    {
+      "line": 1489,
+      "text": "average radial \\HI\\ density profile. The vertical arrow indicates a"
+    },
+    {
+      "line": 1490,
+      "text": "radius of 3.2 optical disk scale lengths."
+    },
+    {
+      "line": 1491,
+      "text": ""
+    },
+    {
+      "line": 1492,
+      "text": "\\noindent {\\it Bottom right.}"
+    },
+    {
+      "line": 1493,
+      "text": "The global profile. The arrow indicates the systemic velocity."
+    },
+    {
+      "line": 1494,
+      "text": ""
+    },
+    {
+      "line": 1495,
+      "text": "\\vspace{1cm}"
+    },
+    {
+      "line": 1496,
+      "text": ""
+    },
+    {
+      "line": 1497,
+      "text": "\\noindent {\\bf Full version with figures in this appendix can be"
+    },
+    {
+      "line": 1498,
+      "text": "downloaded from:"
+    },
+    {
+      "line": 1499,
+      "text": ""
+    },
+    {
+      "line": 1500,
+      "text": "\\noindent http://www.robswork.net/publications/WHISPI.ps.gz}"
+    },
+    {
+      "line": 1501,
+      "text": ""
+    },
+    {
+      "line": 1502,
+      "text": "\\end{document}"
+    },
+    {
+      "line": 1503,
+      "text": ""
+    },
+    {
+      "line": 1504,
+      "text": "\\newpage\\clearpage"
+    },
+    {
+      "line": 1505,
+      "text": ""
+    },
+    {
+      "line": 1506,
+      "text": "\\begin{figure*}"
+    },
+    {
+      "line": 1507,
+      "text": "\\hbox to\\hsize{"
+    },
+    {
+      "line": 1508,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f15.ps}}}"
+    },
+    {
+      "line": 1509,
+      "text": "}\\hfil"
+    },
+    {
+      "line": 1510,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f16.ps}}}"
+    },
+    {
+      "line": 1511,
+      "text": "}}"
+    },
+    {
+      "line": 1512,
+      "text": "\\end{figure*}"
+    },
+    {
+      "line": 1513,
+      "text": "\\begin{figure*}"
+    },
+    {
+      "line": 1514,
+      "text": "\\hbox to\\hsize{"
+    },
+    {
+      "line": 1515,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f17.ps}}}"
+    },
+    {
+      "line": 1516,
+      "text": "}\\hfil"
+    },
+    {
+      "line": 1517,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f18.ps}}}"
+    },
+    {
+      "line": 1518,
+      "text": "}}"
+    },
+    {
+      "line": 1519,
+      "text": "\\end{figure*}"
+    },
+    {
+      "line": 1520,
+      "text": "\\clearpage"
+    },
+    {
+      "line": 1521,
+      "text": "\\begin{figure*}"
+    },
+    {
+      "line": 1522,
+      "text": "\\hbox to\\hsize{"
+    },
+    {
+      "line": 1523,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f19.ps}}}"
+    },
+    {
+      "line": 1524,
+      "text": "}\\hfil"
+    },
+    {
+      "line": 1525,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f20.ps}}}"
+    },
+    {
+      "line": 1526,
+      "text": "}}"
+    },
+    {
+      "line": 1527,
+      "text": "\\end{figure*}"
+    },
+    {
+      "line": 1528,
+      "text": "\\begin{figure*}"
+    },
+    {
+      "line": 1529,
+      "text": "\\hbox to\\hsize{"
+    },
+    {
+      "line": 1530,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f21.ps}}}"
+    },
+    {
+      "line": 1531,
+      "text": "}\\hfil"
+    },
+    {
+      "line": 1532,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f22.ps}}}"
+    },
+    {
+      "line": 1533,
+      "text": "}}"
+    },
+    {
+      "line": 1534,
+      "text": "\\end{figure*}"
+    },
+    {
+      "line": 1535,
+      "text": "\\clearpage"
+    }
+  ],
+  "embedded_urls": [
+    "http://www.astro.rug.nl/$",
+    "http://www.robswork.net/publications/WHISPI.ps.gz"
+  ],
+  "url_probes": [
+    {
+      "url": "http://www.astro.rug.nl/$",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 400: "
+    },
+    {
+      "url": "http://www.robswork.net/publications/WHISPI.ps.gz",
+      "status": "error",
+      "error": "URLError: <urlopen error timed out>"
+    }
+  ],
+  "appendix_figure_refs_13plus": [
+    {
+      "line": 1471,
+      "name": "h3074f13.ps",
+      "commented": true
+    },
+    {
+      "line": 1473,
+      "name": "h3074f14.ps",
+      "commented": true
+    },
+    {
+      "line": 1508,
+      "name": "h3074f15.ps",
+      "commented": false
+    },
+    {
+      "line": 1510,
+      "name": "h3074f16.ps",
+      "commented": false
+    },
+    {
+      "line": 1515,
+      "name": "h3074f17.ps",
+      "commented": false
+    },
+    {
+      "line": 1517,
+      "name": "h3074f18.ps",
+      "commented": false
+    },
+    {
+      "line": 1523,
+      "name": "h3074f19.ps",
+      "commented": false
+    },
+    {
+      "line": 1525,
+      "name": "h3074f20.ps",
+      "commented": false
+    },
+    {
+      "line": 1530,
+      "name": "h3074f21.ps",
+      "commented": false
+    },
+    {
+      "line": 1532,
+      "name": "h3074f22.ps",
+      "commented": false
+    },
+    {
+      "line": 1538,
+      "name": "h3074f23.ps",
+      "commented": false
+    },
+    {
+      "line": 1540,
+      "name": "h3074f24.ps",
+      "commented": false
+    },
+    {
+      "line": 1545,
+      "name": "h3074f25.ps",
+      "commented": false
+    },
+    {
+      "line": 1547,
+      "name": "h3074f26.ps",
+      "commented": false
+    },
+    {
+      "line": 1553,
+      "name": "h3074f27.ps",
+      "commented": false
+    },
+    {
+      "line": 1555,
+      "name": "h3074f28.ps",
+      "commented": false
+    },
+    {
+      "line": 1560,
+      "name": "h3074f29.ps",
+      "commented": false
+    },
+    {
+      "line": 1562,
+      "name": "h3074f30.ps",
+      "commented": false
+    },
+    {
+      "line": 1568,
+      "name": "h3074f31.ps",
+      "commented": false
+    },
+    {
+      "line": 1570,
+      "name": "h3074f32.ps",
+      "commented": false
+    },
+    {
+      "line": 1575,
+      "name": "h3074f33.ps",
+      "commented": false
+    },
+    {
+      "line": 1577,
+      "name": "h3074f34.ps",
+      "commented": false
+    },
+    {
+      "line": 1583,
+      "name": "h3074f35.ps",
+      "commented": false
+    },
+    {
+      "line": 1585,
+      "name": "h3074f36.ps",
+      "commented": false
+    },
+    {
+      "line": 1590,
+      "name": "h3074f37.ps",
+      "commented": false
+    },
+    {
+      "line": 1592,
+      "name": "h3074f38.ps",
+      "commented": false
+    },
+    {
+      "line": 1598,
+      "name": "h3074f39.ps",
+      "commented": false
+    },
+    {
+      "line": 1600,
+      "name": "h3074f40.ps",
+      "commented": false
+    },
+    {
+      "line": 1605,
+      "name": "h3074f41.ps",
+      "commented": false
+    },
+    {
+      "line": 1607,
+      "name": "h3074f42.ps",
+      "commented": false
+    },
+    {
+      "line": 1613,
+      "name": "h3074f43.ps",
+      "commented": false
+    },
+    {
+      "line": 1615,
+      "name": "h3074f44.ps",
+      "commented": false
+    },
+    {
+      "line": 1620,
+      "name": "h3074f45.ps",
+      "commented": false
+    },
+    {
+      "line": 1622,
+      "name": "h3074f46.ps",
+      "commented": false
+    },
+    {
+      "line": 1628,
+      "name": "h3074f47.ps",
+      "commented": false
+    },
+    {
+      "line": 1630,
+      "name": "h3074f48.ps",
+      "commented": false
+    },
+    {
+      "line": 1635,
+      "name": "h3074f49.ps",
+      "commented": false
+    },
+    {
+      "line": 1637,
+      "name": "h3074f50.ps",
+      "commented": false
+    },
+    {
+      "line": 1643,
+      "name": "h3074f51.ps",
+      "commented": false
+    },
+    {
+      "line": 1645,
+      "name": "h3074f52.ps",
+      "commented": false
+    },
+    {
+      "line": 1650,
+      "name": "h3074f53.ps",
+      "commented": false
+    },
+    {
+      "line": 1652,
+      "name": "h3074f54.ps",
+      "commented": false
+    },
+    {
+      "line": 1658,
+      "name": "h3074f55.ps",
+      "commented": false
+    },
+    {
+      "line": 1660,
+      "name": "h3074f56.ps",
+      "commented": false
+    },
+    {
+      "line": 1665,
+      "name": "h3074f57.ps",
+      "commented": false
+    },
+    {
+      "line": 1667,
+      "name": "h3074f58.ps",
+      "commented": false
+    },
+    {
+      "line": 1673,
+      "name": "h3074f59.ps",
+      "commented": false
+    },
+    {
+      "line": 1675,
+      "name": "h3074f60.ps",
+      "commented": false
+    },
+    {
+      "line": 1680,
+      "name": "h3074f61.ps",
+      "commented": false
+    },
+    {
+      "line": 1682,
+      "name": "h3074f62.ps",
+      "commented": false
+    },
+    {
+      "line": 1688,
+      "name": "h3074f63.ps",
+      "commented": false
+    },
+    {
+      "line": 1690,
+      "name": "h3074f64.ps",
+      "commented": false
+    },
+    {
+      "line": 1695,
+      "name": "h3074f65.ps",
+      "commented": false
+    },
+    {
+      "line": 1697,
+      "name": "h3074f66.ps",
+      "commented": false
+    },
+    {
+      "line": 1703,
+      "name": "h3074f67.ps",
+      "commented": false
+    },
+    {
+      "line": 1705,
+      "name": "h3074f68.ps",
+      "commented": false
+    },
+    {
+      "line": 1710,
+      "name": "h3074f69.ps",
+      "commented": false
+    },
+    {
+      "line": 1712,
+      "name": "h3074f70.ps",
+      "commented": false
+    },
+    {
+      "line": 1718,
+      "name": "h3074f71.ps",
+      "commented": false
+    },
+    {
+      "line": 1720,
+      "name": "h3074f72.ps",
+      "commented": false
+    },
+    {
+      "line": 1725,
+      "name": "h3074f73.ps",
+      "commented": false
+    },
+    {
+      "line": 1727,
+      "name": "h3074f74.ps",
+      "commented": false
+    },
+    {
+      "line": 1733,
+      "name": "h3074f75.ps",
+      "commented": false
+    },
+    {
+      "line": 1735,
+      "name": "h3074f76.ps",
+      "commented": false
+    },
+    {
+      "line": 1740,
+      "name": "h3074f77.ps",
+      "commented": false
+    },
+    {
+      "line": 1742,
+      "name": "h3074f78.ps",
+      "commented": false
+    },
+    {
+      "line": 1748,
+      "name": "h3074f79.ps",
+      "commented": false
+    },
+    {
+      "line": 1750,
+      "name": "h3074f80.ps",
+      "commented": false
+    },
+    {
+      "line": 1755,
+      "name": "h3074f81.ps",
+      "commented": false
+    },
+    {
+      "line": 1757,
+      "name": "h3074f82.ps",
+      "commented": false
+    },
+    {
+      "line": 1763,
+      "name": "h3074f83.ps",
+      "commented": false
+    },
+    {
+      "line": 1765,
+      "name": "h3074f84.ps",
+      "commented": false
+    },
+    {
+      "line": 1770,
+      "name": "h3074f85.ps",
+      "commented": false
+    }
+  ],
+  "n_appendix_figure_refs_13plus": 73,
+  "n_missing_from_arxiv_bundle": 73,
+  "missing_from_arxiv_bundle": [
+    {
+      "line": 1471,
+      "name": "h3074f13.ps",
+      "commented": true
+    },
+    {
+      "line": 1473,
+      "name": "h3074f14.ps",
+      "commented": true
+    },
+    {
+      "line": 1508,
+      "name": "h3074f15.ps",
+      "commented": false
+    },
+    {
+      "line": 1510,
+      "name": "h3074f16.ps",
+      "commented": false
+    },
+    {
+      "line": 1515,
+      "name": "h3074f17.ps",
+      "commented": false
+    },
+    {
+      "line": 1517,
+      "name": "h3074f18.ps",
+      "commented": false
+    },
+    {
+      "line": 1523,
+      "name": "h3074f19.ps",
+      "commented": false
+    },
+    {
+      "line": 1525,
+      "name": "h3074f20.ps",
+      "commented": false
+    },
+    {
+      "line": 1530,
+      "name": "h3074f21.ps",
+      "commented": false
+    },
+    {
+      "line": 1532,
+      "name": "h3074f22.ps",
+      "commented": false
+    },
+    {
+      "line": 1538,
+      "name": "h3074f23.ps",
+      "commented": false
+    },
+    {
+      "line": 1540,
+      "name": "h3074f24.ps",
+      "commented": false
+    },
+    {
+      "line": 1545,
+      "name": "h3074f25.ps",
+      "commented": false
+    },
+    {
+      "line": 1547,
+      "name": "h3074f26.ps",
+      "commented": false
+    },
+    {
+      "line": 1553,
+      "name": "h3074f27.ps",
+      "commented": false
+    },
+    {
+      "line": 1555,
+      "name": "h3074f28.ps",
+      "commented": false
+    },
+    {
+      "line": 1560,
+      "name": "h3074f29.ps",
+      "commented": false
+    },
+    {
+      "line": 1562,
+      "name": "h3074f30.ps",
+      "commented": false
+    },
+    {
+      "line": 1568,
+      "name": "h3074f31.ps",
+      "commented": false
+    },
+    {
+      "line": 1570,
+      "name": "h3074f32.ps",
+      "commented": false
+    },
+    {
+      "line": 1575,
+      "name": "h3074f33.ps",
+      "commented": false
+    },
+    {
+      "line": 1577,
+      "name": "h3074f34.ps",
+      "commented": false
+    },
+    {
+      "line": 1583,
+      "name": "h3074f35.ps",
+      "commented": false
+    },
+    {
+      "line": 1585,
+      "name": "h3074f36.ps",
+      "commented": false
+    },
+    {
+      "line": 1590,
+      "name": "h3074f37.ps",
+      "commented": false
+    },
+    {
+      "line": 1592,
+      "name": "h3074f38.ps",
+      "commented": false
+    },
+    {
+      "line": 1598,
+      "name": "h3074f39.ps",
+      "commented": false
+    },
+    {
+      "line": 1600,
+      "name": "h3074f40.ps",
+      "commented": false
+    },
+    {
+      "line": 1605,
+      "name": "h3074f41.ps",
+      "commented": false
+    },
+    {
+      "line": 1607,
+      "name": "h3074f42.ps",
+      "commented": false
+    },
+    {
+      "line": 1613,
+      "name": "h3074f43.ps",
+      "commented": false
+    },
+    {
+      "line": 1615,
+      "name": "h3074f44.ps",
+      "commented": false
+    },
+    {
+      "line": 1620,
+      "name": "h3074f45.ps",
+      "commented": false
+    },
+    {
+      "line": 1622,
+      "name": "h3074f46.ps",
+      "commented": false
+    },
+    {
+      "line": 1628,
+      "name": "h3074f47.ps",
+      "commented": false
+    },
+    {
+      "line": 1630,
+      "name": "h3074f48.ps",
+      "commented": false
+    },
+    {
+      "line": 1635,
+      "name": "h3074f49.ps",
+      "commented": false
+    },
+    {
+      "line": 1637,
+      "name": "h3074f50.ps",
+      "commented": false
+    },
+    {
+      "line": 1643,
+      "name": "h3074f51.ps",
+      "commented": false
+    },
+    {
+      "line": 1645,
+      "name": "h3074f52.ps",
+      "commented": false
+    },
+    {
+      "line": 1650,
+      "name": "h3074f53.ps",
+      "commented": false
+    },
+    {
+      "line": 1652,
+      "name": "h3074f54.ps",
+      "commented": false
+    },
+    {
+      "line": 1658,
+      "name": "h3074f55.ps",
+      "commented": false
+    },
+    {
+      "line": 1660,
+      "name": "h3074f56.ps",
+      "commented": false
+    },
+    {
+      "line": 1665,
+      "name": "h3074f57.ps",
+      "commented": false
+    },
+    {
+      "line": 1667,
+      "name": "h3074f58.ps",
+      "commented": false
+    },
+    {
+      "line": 1673,
+      "name": "h3074f59.ps",
+      "commented": false
+    },
+    {
+      "line": 1675,
+      "name": "h3074f60.ps",
+      "commented": false
+    },
+    {
+      "line": 1680,
+      "name": "h3074f61.ps",
+      "commented": false
+    },
+    {
+      "line": 1682,
+      "name": "h3074f62.ps",
+      "commented": false
+    },
+    {
+      "line": 1688,
+      "name": "h3074f63.ps",
+      "commented": false
+    },
+    {
+      "line": 1690,
+      "name": "h3074f64.ps",
+      "commented": false
+    },
+    {
+      "line": 1695,
+      "name": "h3074f65.ps",
+      "commented": false
+    },
+    {
+      "line": 1697,
+      "name": "h3074f66.ps",
+      "commented": false
+    },
+    {
+      "line": 1703,
+      "name": "h3074f67.ps",
+      "commented": false
+    },
+    {
+      "line": 1705,
+      "name": "h3074f68.ps",
+      "commented": false
+    },
+    {
+      "line": 1710,
+      "name": "h3074f69.ps",
+      "commented": false
+    },
+    {
+      "line": 1712,
+      "name": "h3074f70.ps",
+      "commented": false
+    },
+    {
+      "line": 1718,
+      "name": "h3074f71.ps",
+      "commented": false
+    },
+    {
+      "line": 1720,
+      "name": "h3074f72.ps",
+      "commented": false
+    },
+    {
+      "line": 1725,
+      "name": "h3074f73.ps",
+      "commented": false
+    },
+    {
+      "line": 1727,
+      "name": "h3074f74.ps",
+      "commented": false
+    },
+    {
+      "line": 1733,
+      "name": "h3074f75.ps",
+      "commented": false
+    },
+    {
+      "line": 1735,
+      "name": "h3074f76.ps",
+      "commented": false
+    },
+    {
+      "line": 1740,
+      "name": "h3074f77.ps",
+      "commented": false
+    },
+    {
+      "line": 1742,
+      "name": "h3074f78.ps",
+      "commented": false
+    },
+    {
+      "line": 1748,
+      "name": "h3074f79.ps",
+      "commented": false
+    },
+    {
+      "line": 1750,
+      "name": "h3074f80.ps",
+      "commented": false
+    },
+    {
+      "line": 1755,
+      "name": "h3074f81.ps",
+      "commented": false
+    },
+    {
+      "line": 1757,
+      "name": "h3074f82.ps",
+      "commented": false
+    },
+    {
+      "line": 1763,
+      "name": "h3074f83.ps",
+      "commented": false
+    },
+    {
+      "line": 1765,
+      "name": "h3074f84.ps",
+      "commented": false
+    },
+    {
+      "line": 1770,
+      "name": "h3074f85.ps",
+      "commented": false
+    }
+  ],
+  "interpretation_boundary": "Locator/transport audit only. Missing atlas figures are not treated as absent science; they are absent from the arXiv bundle unless a separate public locator succeeds."
+}
