@@ -1,0 +1,1858 @@
+{
+  "status": "NO05_ARXIV_ASSET_AUDIT_COMPLETE",
+  "source": "Noordermeer et al. 2005 A&A 442 137-157; arXiv astro-ph/0508319",
+  "arxiv_url": "https://export.arxiv.org/e-print/astro-ph/0508319",
+  "content_type": "application/gzip",
+  "archive_bytes": 242436,
+  "archive_sha256": "fd7697909878fccb4dcdc8f6f39504683a23bb3f91ddb5ef5c6495833b47232a",
+  "n_files": 14,
+  "files": [
+    {
+      "name": "aalongtable.sty",
+      "bytes": 673,
+      "suffix": ".sty"
+    },
+    {
+      "name": "noordermeer.bbl",
+      "bytes": 13534,
+      "suffix": ".bbl"
+    },
+    {
+      "name": "noordermeer.tex",
+      "bytes": 124709,
+      "suffix": ".tex"
+    },
+    {
+      "name": "noordermeer_A1.eps",
+      "bytes": 193778,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeer_A2.eps",
+      "bytes": 193809,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig1.eps",
+      "bytes": 92562,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig2.eps",
+      "bytes": 7124,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig3.eps",
+      "bytes": 17203,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig4.eps",
+      "bytes": 7617,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig5.eps",
+      "bytes": 11580,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig6.eps",
+      "bytes": 20931,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig7.eps",
+      "bytes": 14804,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig8.eps",
+      "bytes": 11312,
+      "suffix": ".eps"
+    },
+    {
+      "name": "noordermeerfig9.eps",
+      "bytes": 179326,
+      "suffix": ".eps"
+    }
+  ],
+  "machine_readable_table_assets": [],
+  "text_hits": [
+    {
+      "file": "noordermeer.tex",
+      "hits": [
+        {
+          "line": 12,
+          "text": "\\def\\HI{\\ifmmode{\\rm HI}\\else{H\\/{\\sc i}}\\fi} "
+        },
+        {
+          "line": 25,
+          "text": "\\defcitealias{WHISPII}{Paper~II}"
+        },
+        {
+          "line": 38,
+          "text": "\\title{The Westerbork HI survey of spiral and irregular galaxies}"
+        },
+        {
+          "line": 39,
+          "text": "\\subtitle{III: HI observations of early-type disk galaxies} "
+        },
+        {
+          "line": 55,
+          "text": "  We present \\HI\\ observations of 68 early-type disk galaxies from the"
+        },
+        {
+          "line": 56,
+          "text": "  WHISP survey.   "
+        },
+        {
+          "line": 59,
+          "text": "  These galaxies form the massive, high surface-brightness extreme of"
+        },
+        {
+          "line": 60,
+          "text": "  the disk galaxy population, few of which have been imaged in \\HI\\ "
+        },
+        {
+          "line": 62,
+          "text": "  The \\HI\\ properties of the galaxies in our sample span a large"
+        },
+        {
+          "line": 63,
+          "text": "  range; the average values of ${\\mathrm M}_\\HI / {\\mathrm L}_B$ and  "
+        },
+        {
+          "line": 64,
+          "text": "  ${\\mathrm D}_\\HI/{\\mathrm D}_{25}$ are comparable to the ones found"
+        },
+        {
+          "line": 69,
+          "text": "  Our early-type disk galaxies follow the same \\HI\\ mass-diameter"
+        },
+        {
+          "line": 70,
+          "text": "  relation as later-type spiral galaxies, but their effective \\HI\\"
+        },
+        {
+          "line": 73,
+          "text": "  In some galaxies, distinct rings of \\HI\\ emission coincide with"
+        },
+        {
+          "line": 80,
+          "text": "  in most cases this can be linked to recent or ongoing interactions"
+        },
+        {
+          "line": 82,
+          "text": "  Kinematic lopsidedness is rare, both in interacting and isolated"
+        },
+        {
+          "line": 84,
+          "text": "  In the appendix, we present an atlas of the \\HI\\ observations: for"
+        },
+        {
+          "line": 85,
+          "text": "  all galaxies we show \\HI\\ surface density maps, global"
+        },
+        {
+          "line": 86,
+          "text": "  profiles, velocity fields and radial surface density profiles. "
+        },
+        {
+          "line": 96,
+          "text": "The discovery that \\HI\\ rotation curves of spiral galaxies remain flat"
+        },
+        {
+          "line": 101,
+          "text": "The nature of this dark matter still remains a mystery, and poses one"
+        },
+        {
+          "line": 108,
+          "text": "Most \\HI\\ studies in recent years have, however, focused on late-type,"
+        },
+        {
+          "line": 109,
+          "text": "low-luminosity systems \\citep{DeBlok96, Swaters02}; \\HI\\ observations"
+        },
+        {
+          "line": 110,
+          "text": "of high-luminosity and early-type disk galaxies are rare.   "
+        },
+        {
+          "line": 111,
+          "text": "The only study so far aimed at a systematic investigation of \\HI\\"
+        },
+        {
+          "line": 113,
+          "text": "by \\citet{Broeils92}. However, in his sample of 23 galaxies, only "
+        },
+        {
+          "line": 117,
+          "text": "\\citet{Persic96}; their Universal Rotation Curve is based on over"
+        },
+        {
+          "line": 118,
+          "text": "1000 rotation curves of which only 2 are of type Sab or earlier.  "
+        },
+        {
+          "line": 120,
+          "text": "The main reason for the lack of information on the \\HI\\ properties of"
+        },
+        {
+          "line": 121,
+          "text": "early-type disks is the fact that they generally have a low \\HI\\"
+        },
+        {
+          "line": 123,
+          "text": "The only large-scale \\HI\\ survey directed specifically at S0 and Sa"
+        },
+        {
+          "line": 124,
+          "text": "galaxies was carried out by \\citet{VanDriel87}, but his study was"
+        },
+        {
+          "line": 125,
+          "text": "severely hampered by the low signal-to-noise ratio of his data."
+        },
+        {
+          "line": 130,
+          "text": "Early-type disk galaxies form the high-mass, high-surface-brightness "
+        },
+        {
+          "line": 132,
+          "text": "While the late-type spiral and irregular galaxies at the other end"
+        },
+        {
+          "line": 137,
+          "text": "Knowledge of their dark matter content is a crucial step towards a"
+        },
+        {
+          "line": 146,
+          "text": "As part of the WHISP project, we have observed 68 galaxies with"
+        },
+        {
+          "line": 148,
+          "text": "WHISP \\citep[Westerbork \\HI\\ survey of spiral and irregular"
+        },
+        {
+          "line": 149,
+          "text": "galaxies;][]{Kamphuis96, VanderHulst01} is a survey of galaxies in"
+        },
+        {
+          "line": 151,
+          "text": "(WSRT), aiming at a systematic investigation of the \\HI\\ content and "
+        },
+        {
+          "line": 156,
+          "text": "Earlier results from WHISP were presented by \\citet[][ hereafter"
+        },
+        {
+          "line": 157,
+          "text": "Paper~I]{Swaters02}, \\citet[][ Paper~II]{WHISPII} and"
+        },
+        {
+          "line": 160,
+          "text": "In this paper, we present the first results of the \\HI\\ observations"
+        },
+        {
+          "line": 162,
+          "text": "We discuss the basic \\HI\\ properties of these galaxies and we present  "
+        },
+        {
+          "line": 163,
+          "text": "an atlas of \\HI\\ surface density maps, velocity fields, global"
+        },
+        {
+          "line": 164,
+          "text": "profiles and radial surface density distributions. "
+        },
+        {
+          "line": 166,
+          "text": "rotation curves, which will then be combined with optical data to"
+        },
+        {
+          "line": 169,
+          "text": "The structure of this paper is as follows. "
+        },
+        {
+          "line": 174,
+          "text": "In Sect.~\\ref{sec:results}, we describe the \\HI\\ properties of our "
+        },
+        {
+          "line": 175,
+          "text": "sample galaxies, and compare them to their optical properties.  "
+        },
+        {
+          "line": 179,
+          "text": "The atlas of the \\HI\\ observations is presented in the appendix."
+        },
+        {
+          "line": 184,
+          "text": "All galaxies presented here were selected from the WHISP survey"
+        },
+        {
+          "line": 185,
+          "text": "\\citep{Kamphuis96, VanderHulst01}.   "
+        },
+        {
+          "line": 186,
+          "text": "The galaxies in WHISP were selected from the Uppsala General Catalogue "
+        },
+        {
+          "line": 187,
+          "text": "of Galaxies \\citep[UGC;][]{UGC}. "
+        },
+        {
+          "line": 189,
+          "text": "target galaxies were selected on the basis of their position on the"
+        },
+        {
+          "line": 191,
+          "text": "A lower line flux limit, defined as $f = F_{\\HI}/W_{20}$ with"
+        },
+        {
+          "line": 192,
+          "text": "$F_{\\HI}$ the total flux in ${\\mathrm {Jy \\, km \\, s^{-1}}}$ and"
+        },
+        {
+          "line": 193,
+          "text": "$W_{20}$ the width of the \\HI\\ profile in ${\\mathrm {km \\, s^{-1}}}$,"
+        },
+        {
+          "line": 196,
+          "text": "ratio to produce \\HI\\ surface density maps and velocity fields. "
+        },
+        {
+          "line": 197,
+          "text": "For the largest part of the survey, carried out before 1999, this"
+        },
+        {
+          "line": 199,
+          "text": "This led to the inclusion of only 11 early-type galaxies, compared"
+        },
+        {
+          "line": 207,
+          "text": "From the final WHISP sample, we selected all 68 galaxies with"
+        },
+        {
+          "line": 213,
+          "text": "the full sample of galaxies in the UGC. "
+        },
+        {
+          "line": 214,
+          "text": "In Fig.~\\ref{fig:6histograms}, we show in bold lines the"
+        },
+        {
+          "line": 216,
+          "text": "also show the distribution of the entire UGC catalogue (thin lines),"
+        },
+        {
+          "line": 217,
+          "text": "as well as all galaxies from the UGC with morphological type between"
+        },
+        {
+          "line": 220,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig1.eps,height=4.5in,angle=-90}} "
+        },
+        {
+          "line": 222,
+          "text": "  compared with the entire UGC (thin lines) and with all galaxies from  "
+        },
+        {
+          "line": 223,
+          "text": "  the UGC with type between S0 and Sab (dashed lines). The scales on"
+        },
+        {
+          "line": 226,
+          "text": "  from the UGC.\\setcounter{footnote}{0} All data are taken "
+        },
+        {
+          "line": 228,
+          "text": "  for our sample galaxies, which are taken from this study. Note that"
+        },
+        {
+          "line": 231,
+          "text": "  for each histogram."
+        },
+        {
+          "line": 232,
+          "text": "  \\label{fig:6histograms}}"
+        },
+        {
+          "line": 235,
+          "text": "The histogram for morphological type simply reflects our"
+        },
+        {
+          "line": 238,
+          "text": "subsample from the UGC, we have a fair sample of Sa and Sab galaxies;"
+        },
+        {
+          "line": 239,
+          "text": "S0's are however underrepresented in our sample. This is due to the "
+        },
+        {
+          "line": 240,
+          "text": "well-known fact that S0 galaxies have generally an even lower \\HI\\ "
+        },
+        {
+          "line": 241,
+          "text": "content than Sa's \\citep{Roberts94}; even with the current high"
+        },
+        {
+          "line": 245,
+          "text": "Due to our diameter and \\HI\\ flux limits, we select predominantly "
+        },
+        {
+          "line": 246,
+          "text": "nearby galaxies, as is visible in the top-middle histogram in "
+        },
+        {
+          "line": 247,
+          "text": "Fig.~\\ref{fig:6histograms}. Most of our sample galaxies have "
+        },
+        {
+          "line": 250,
+          "text": "Compared to the average early-type disk galaxies in the UGC, our"
+        },
+        {
+          "line": 253,
+          "text": "of average B-band surface brightness of our galaxies, defined within the"
+        },
+        {
+          "line": 255,
+          "text": "this is hardly significant. Similarly, we have a small excess of "
+        },
+        {
+          "line": 260,
+          "text": "early-type disk galaxies in the UGC very well.  "
+        },
+        {
+          "line": 261,
+          "text": "Their bluer color and higher gas content may indicate a higher"
+        },
+        {
+          "line": 266,
+          "text": "of early-type disks from the UGC, confirms our conjecture that we are"
+        },
+        {
+          "line": 269,
+          "text": "this sample.  "
+        },
+        {
+          "line": 287,
+          "text": "some galaxies lie off-center in the field of view (notably UGC~94,"
+        },
+        {
+          "line": 296,
+          "text": "was chosen on the basis of the \\HI\\ line width $W_{20}$, such that we  "
+        },
+        {
+          "line": 297,
+          "text": "had optimal wavelength resolution while still having a reasonable"
+        },
+        {
+          "line": 299,
+          "text": "resolution, before Hanning smoothing, is thus either $\\sim$ 2.5, 5, 10"
+        },
+        {
+          "line": 308,
+          "text": "\\subsection{standard WHISP pipeline}"
+        },
+        {
+          "line": 309,
+          "text": "\\label{subsec:WHISP pipeline}"
+        },
+        {
+          "line": 311,
+          "text": "WHISP data reduction pipeline. The raw UV data were inspected and "
+        },
+        {
+          "line": 319,
+          "text": "The other two were produced by down-weighting progressively more long"
+        },
+        {
+          "line": 321,
+          "text": "While doing so, the spatial resolution was decreased to respectively"
+        },
+        {
+          "line": 329,
+          "text": "line of sight, a first order polynomial to the channels without \\HI\\"
+        },
+        {
+          "line": 333,
+          "text": "containing \\HI\\ emission. "
+        },
+        {
+          "line": 341,
+          "text": "of sufficient quality to derive useful \\HI\\ maps and velocity fields.  "
+        },
+        {
+          "line": 344,
+          "text": "emission line profiles.  "
+        },
+        {
+          "line": 348,
+          "text": "In the figures in the atlas we indicate which data cube was used for"
+        },
+        {
+          "line": 356,
+          "text": "profiles and surface density maps.  "
+        },
+        {
+          "line": 366,
+          "text": "resulting smoothed data cubes is much higher and low-level emission is"
+        },
+        {
+          "line": 375,
+          "text": "In this way, we did not only select real emission from the galaxy, but"
+        },
+        {
+          "line": 377,
+          "text": "In the second step we selected by hand the emission which we deemed to"
+        },
+        {
+          "line": 384,
+          "text": "This second step is by definition subjective. "
+        },
+        {
+          "line": 393,
+          "text": "\\subsection{global profiles and total \\HI\\ masses}"
+        },
+        {
+          "line": 395,
+          "text": "Global profiles were derived from the data cubes at $60\\arcsec$"
+        },
+        {
+          "line": 397,
+          "text": "In these data cubes, we are most sensitive to extended \\HI\\ emission,"
+        },
+        {
+          "line": 399,
+          "text": "The global profiles were constructed by adding up all flux in each"
+        },
+        {
+          "line": 403,
+          "text": "The error in each point of the profile is related to the size of the "
+        },
+        {
+          "line": 410,
+          "text": "global profiles. "
+        },
+        {
+          "line": 412,
+          "text": "The global profiles are shown in the top right panels in the atlas"
+        },
+        {
+          "line": 413,
+          "text": "(Appendix~\\ref{app:atlas}).  "
+        },
+        {
+          "line": 416,
+          "text": "If a profile was double peaked, the peaks on both sides were used "
+        },
+        {
+          "line": 419,
+          "text": "The profile widths $W_{20}$ and $W_{50}$ were defined as the"
+        },
+        {
+          "line": 421,
+          "text": "side of the profile. "
+        },
+        {
+          "line": 422,
+          "text": "We followed \\citet{Verheijen01b} to correct the observed line widths"
+        },
+        {
+          "line": 434,
+          "text": "average of the velocities at the profile edges at the 20\\% and 50\\%"
+        },
+        {
+          "line": 439,
+          "text": "The profile widths, systemic velocities and distances are given in"
+        },
+        {
+          "line": 442,
+          "text": "The total \\HI\\ mass was derived from the total flux, i.e.\\ the"
+        },
+        {
+          "line": 443,
+          "text": "integral of the global profile just derived, and is given by: "
+        },
+        {
+          "line": 445,
+          "text": " M_{\\HI} = 236 \\cdot D^{2} \\cdot \\! \\int F {\\mathrm {dv}},"
+        },
+        {
+          "line": 447,
+          "text": "where $M_{\\HI}$ is in solar masses, $D$ is the distance in Mpc, $F$ is "
+        },
+        {
+          "line": 450,
+          "text": "The derived total fluxes and \\HI\\ masses are given in "
+        },
+        {
+          "line": 453,
+          "text": "\\subsection{integrated \\HI\\ maps}"
+        },
+        {
+          "line": 454,
+          "text": "\\label{subsec:HImaps}"
+        },
+        {
+          "line": 455,
+          "text": "\\HI\\ maps were created by integrating the masked data cubes along "
+        },
+        {
+          "line": 465,
+          "text": "\\citet{Verheijen01b}.   "
+        },
+        {
+          "line": 467,
+          "text": "contributing to the integrated \\HI\\ maps at each position and the rms"
+        },
+        {
+          "line": 469,
+          "text": "Using these fields, we selected all points in our \\HI\\ maps with"
+        },
+        {
+          "line": 473,
+          "text": "It is important to note that this is an {\\em average} noise level;"
+        },
+        {
+          "line": 474,
+          "text": "low-level emission which is only present in a few adjacent channels may"
+        },
+        {
+          "line": 478,
+          "text": "The \\HI\\ column density maps are shown in the left hand panels in"
+        },
+        {
+          "line": 479,
+          "text": "the atlas. In Table~\\ref{table:observations}, we give the "
+        },
+        {
+          "line": 484,
+          "text": "The two methods most commonly used to derive velocity fields from \\HI\\"
+        },
+        {
+          "line": 486,
+          "text": "of the line profiles or to fit Gaussians to them."
+        },
+        {
+          "line": 488,
+          "text": "adequate in recovering the true radial velocity of the gas. "
+        },
+        {
+          "line": 490,
+          "text": "here, large velocity gradients are present and the line profiles"
+        },
+        {
+          "line": 496,
+          "text": "that includes an h3-term for skewness to the line profiles"
+        },
+        {
+          "line": 498,
+          "text": "The resulting velocities from this method lie usually closer to the"
+        },
+        {
+          "line": 499,
+          "text": "peak in the profile than simple IWM or Gauss fits, especially in the"
+        },
+        {
+          "line": 503,
+          "text": "In the first step, we fitted the Gauss-Hermite function to the profiles"
+        },
+        {
+          "line": 507,
+          "text": "significance and reliability of the fitted profiles. "
+        },
+        {
+          "line": 510,
+          "text": "Hanning-smoothed, {\\em unmasked} line profiles.  "
+        },
+        {
+          "line": 512,
+          "text": "whether or not a profile represents true emission: only those fits"
+        },
+        {
+          "line": 515,
+          "text": "channel maps and {\\it 2)} a velocity within the range defined by the"
+        },
+        {
+          "line": 516,
+          "text": "global profile.  "
+        },
+        {
+          "line": 519,
+          "text": "As an extra sanity check, we excluded fits with {\\it 3)} a profile"
+        },
+        {
+          "line": 521,
+          "text": "This criterion was, however, rarely met.  "
+        },
+        {
+          "line": 526,
+          "text": "This rms is not the same as the $\\sigma_{\\mathrm{map}}$ level in the "
+        },
+        {
+          "line": 527,
+          "text": "\\HI\\ surface density maps, which was determined empirically (see"
+        },
+        {
+          "line": 529,
+          "text": "Thus, it is possible that points which fall outside the"
+        },
+        {
+          "line": 530,
+          "text": "$2\\sigma_{\\mathrm{map}}$ contour in the \\HI\\ density map, have a"
+        },
+        {
+          "line": 535,
+          "text": "the atlas. In the bottom middle panels, we show the fitted velocities"
+        },
+        {
+          "line": 540,
+          "text": "true velocity of the gas for most galaxies (e.g.\\ UGC~89, 6786). "
+        },
+        {
+          "line": 542,
+          "text": "galaxies, projection effects lead to such complicated line-profiles"
+        },
+        {
+          "line": 545,
+          "text": "In our sample, the velocity fields of UGC~1310, 2045, 5906, 5960,"
+        },
+        {
+          "line": 546,
+          "text": "6001, 6742, 7704, 8271 and 12713 suffer seriously from this effect and"
+        },
+        {
+          "line": 547,
+          "text": "can therefore not be used to derive rotation curves; for UGC~2183,"
+        },
+        {
+          "line": 551,
+          "text": "\\subsection{radial profiles, \\HI\\ diameters and surface densities}    "
+        },
+        {
+          "line": 553,
+          "text": "The integrated \\HI\\ maps created in Sect.~\\ref{subsec:HImaps} were  "
+        },
+        {
+          "line": 554,
+          "text": "used to derive radial profiles of the \\HI\\ surface density. The "
+        },
+        {
+          "line": 556,
+          "text": "annuli. Pixels without measured signal in the total \\HI\\ map were "
+        },
+        {
+          "line": 558,
+          "text": "the approaching and receding half of the galaxy to obtain a crude"
+        },
+        {
+          "line": 559,
+          "text": "estimate of the level of asymmetries present in the \\HI\\ map. "
+        },
+        {
+          "line": 568,
+          "text": "is too poorly resolved, or if the \\HI\\ gas does not show signs of"
+        },
+        {
+          "line": 573,
+          "text": "Especially for near face-on galaxies, LEDA's position angles"
+        },
+        {
+          "line": 577,
+          "text": "determined it by eye from our \\HI\\ maps and velocity fields.  "
+        },
+        {
+          "line": 579,
+          "text": "The measured intensities were corrected to face-on surface densities, "
+        },
+        {
+          "line": 581,
+          "text": "radial profiles are shown in the bottom right panels in the atlas.  "
+        },
+        {
+          "line": 583,
+          "text": "For edge-on galaxies, this method does not work, as emission from"
+        },
+        {
+          "line": 587,
+          "text": "The \\HI\\ surface density maps were integrated parallel to the minor axis to"
+        },
+        {
+          "line": 588,
+          "text": "get \\HI\\ strip integrals. "
+        },
+        {
+          "line": 589,
+          "text": "These were then converted to surface density profiles using the"
+        },
+        {
+          "line": 593,
+          "text": "From the radial profiles, \\HI\\ radii were determined. The \\HI\\"
+        },
+        {
+          "line": 594,
+          "text": "radius ${\\mathrm R}_\\HI$ is defined as the radius where the face-on"
+        },
+        {
+          "line": 595,
+          "text": "corrected surface density drops below a value of 1~\\msunpc2"
+        },
+        {
+          "line": 599,
+          "text": "Finally, we derived the average \\HI\\ surface density within the"
+        },
+        {
+          "line": 600,
+          "text": "\\HI\\ radius \\mbox{($<\\!\\Sigma_\\HI\\!>_{{\\mathrm R}_\\HI}$)}, as"
+        },
+        {
+          "line": 601,
+          "text": "well as within the optical radius \\mbox{($<\\!\\Sigma_\\HI\\!>_{{\\mathrm "
+        },
+        {
+          "line": 604,
+          "text": "average \\HI\\ surface densities are also listed in"
+        },
+        {
+          "line": 608,
+          "text": "\\section{\\HI\\ properties of early-type disk galaxies}"
+        },
+        {
+          "line": 613,
+          "text": "In this paper, however, we focus on the global \\HI\\ properties of our"
+        },
+        {
+          "line": 614,
+          "text": "sample galaxies, and the relation with their optical characteristics;"
+        },
+        {
+          "line": 615,
+          "text": "several aspects of this analysis are discussed below."
+        },
+        {
+          "line": 617,
+          "text": "\\subsection{\\HI\\ content}"
+        },
+        {
+          "line": 618,
+          "text": "\\label{subsec:HImass}"
+        },
+        {
+          "line": 619,
+          "text": "In Fig.~\\ref{fig:HImasstolighthisto}, we show the distribution of"
+        },
+        {
+          "line": 620,
+          "text": "${\\mathrm M}_\\HI / {\\mathrm L}_B$. For ${\\mathrm L}_B$, we used the"
+        },
+        {
+          "line": 626,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig2.eps,height=3.25in}}"
+        },
+        {
+          "line": 627,
+          "text": "  \\caption{The distribution of ${\\mathrm M}_\\HI / {\\mathrm L}_B$. The"
+        },
+        {
+          "line": 630,
+          "text": "  \\label{fig:HImasstolighthisto}"
+        },
+        {
+          "line": 633,
+          "text": "The average values of $\\log ({\\mathrm M}_\\HI / {\\mathrm L}_B)$"
+        },
+        {
+          "line": 637,
+          "text": "These values are higher than the average values for early-type disks "
+        },
+        {
+          "line": 640,
+          "text": "and Fig.~\\ref{fig:6histograms}).   "
+        },
+        {
+          "line": 641,
+          "text": "There is, however, a large variation in the \\HI\\ content of our"
+        },
+        {
+          "line": 643,
+          "text": "compared to their stellar luminosity, than the most gas-poor"
+        },
+        {
+          "line": 644,
+          "text": "systems. This range is larger than seen in most late-type galaxies,"
+        },
+        {
+          "line": 645,
+          "text": "which span at most only one order of magnitude in gas content"
+        },
+        {
+          "line": 648,
+          "text": "The large spread in \\HI\\ content is also apparent in"
+        },
+        {
+          "line": 649,
+          "text": "Fig.~\\ref{fig:HImasstolight_vs_lum}, where we plot the \\HI\\"
+        },
+        {
+          "line": 652,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig3.eps,height=3.25in}}"
+        },
+        {
+          "line": 653,
+          "text": "  \\caption{${\\mathrm M}_\\HI / {\\mathrm L}_B$ versus absolute B-band"
+        },
+        {
+          "line": 658,
+          "text": "  distance at which a galaxy would still be included in our sample"
+        },
+        {
+          "line": 659,
+          "text": "  (see text).\\label{fig:HImasstolight_vs_lum}}"
+        },
+        {
+          "line": 662,
+          "text": "luminous galaxies contain relatively less \\HI\\"
+        },
+        {
+          "line": 663,
+          "text": "(\\citealt{Verheijen01b}; \\citetalias{Swaters02}). "
+        },
+        {
+          "line": 664,
+          "text": "In our sample, this correlation is virtually absent. "
+        },
+        {
+          "line": 666,
+          "text": "\\ga -18.5$) with low relative gas content, but this is probably a"
+        },
+        {
+          "line": 668,
+          "text": "The dotted lines in Fig.~\\ref{fig:HImasstolight_vs_lum} give the"
+        },
+        {
+          "line": 669,
+          "text": "maximum distance ${\\mathrm {D_{max}}}$ out to which galaxies would be"
+        },
+        {
+          "line": 672,
+          "text": "density of a galaxy, given by $f = F_{\\HI}/W$, drops below 20~mJy. "
+        },
+        {
+          "line": 673,
+          "text": "$W$, the profile width, is estimated from the absolute magnitude using "
+        },
+        {
+          "line": 674,
+          "text": "the Tully-Fisher relation found by \\citet{Verheijen01a} and assuming "
+        },
+        {
+          "line": 675,
+          "text": "an average inclination of $60 \\deg$.  "
+        },
+        {
+          "line": 676,
+          "text": "It is obvious that high-luminosity galaxies with a low gas content can"
+        },
+        {
+          "line": 679,
+          "text": "relative gas content ($\\log({\\mathrm M}_\\HI / {\\mathrm L}_B)\\la -1$)"
+        },
+        {
+          "line": 680,
+          "text": "may be as common as their high-luminosity counterparts, the lack of"
+        },
+        {
+          "line": 681,
+          "text": "low-luminosity, low ${\\mathrm M}_\\HI / {\\mathrm L}_B$ galaxies simply"
+        },
+        {
+          "line": 688,
+          "text": "The spread in gas content would then reflect the accretion history of"
+        },
+        {
+          "line": 693,
+          "text": "be seen in Fig.~\\ref{fig:HImasstolight_vs_lum}.  "
+        },
+        {
+          "line": 698,
+          "text": "that \\HI\\ content is a property of the disk, whereas our galaxies"
+        },
+        {
+          "line": 701,
+          "text": "related to the \\HI\\ content, variations in bulge-to-disk luminosity"
+        },
+        {
+          "line": 703,
+          "text": "Figs.~\\ref{fig:HImasstolighthisto} and~\\ref{fig:HImasstolight_vs_lum}. "
+        },
+        {
+          "line": 704,
+          "text": "We have checked this hypothesis for a number of galaxies in our sample "
+        },
+        {
+          "line": 705,
+          "text": "for which we have accurate optical photometry and bulge-disk"
+        },
+        {
+          "line": 710,
+          "text": "Thus, the \\HI\\ content in these early-type disk galaxies seems to be "
+        },
+        {
+          "line": 712,
+          "text": "In Sect.~\\ref{subsec:HIsurfbright}, we will show that the \\HI\\"
+        },
+        {
+          "line": 715,
+          "text": "but of similar surface density, than those of gas-poor systems. "
+        },
+        {
+          "line": 716,
+          "text": "Although this implies that the large spread in gas content is, at"
+        },
+        {
+          "line": 718,
+          "text": "gas disks (cf.\\ Sect.~\\ref{subsec:HIradii}), it still offers no"
+        },
+        {
+          "line": 720,
+          "text": "correspondingly larger \\HI\\ masses, than others. "
+        },
+        {
+          "line": 724,
+          "text": "\\subsection{\\HI\\ diameters}"
+        },
+        {
+          "line": 725,
+          "text": "\\label{subsec:HIradii}"
+        },
+        {
+          "line": 726,
+          "text": "In Fig.~\\ref{fig:diamhisto}, we show the distribution of "
+        },
+        {
+          "line": 727,
+          "text": "${\\mathrm D}_\\HI/{\\mathrm D}_{25}^{B,c}$, with ${\\mathrm D}_\\HI$"
+        },
+        {
+          "line": 728,
+          "text": "the diameters of the \\HI\\ disks, measured at the 1~\\msunpc2 level. "
+        },
+        {
+          "line": 731,
+          "text": "The average ratio of \\HI\\ to optical diameter for the 49 Sa/Sab"
+        },
+        {
+          "line": 733,
+          "text": "the standard deviation of the distribution. This average value is"
+        },
+        {
+          "line": 738,
+          "text": "9 Sa/Sab galaxies (18\\%) in our sample have \\mbox{${\\mathrm D}_\\HI <"
+        },
+        {
+          "line": 740,
+          "text": "Most of these cases show clear signs of interaction (e.g.\\ UGC~4862,"
+        },
+        {
+          "line": 742,
+          "text": "their gas disks in the encounters."
+        },
+        {
+          "line": 743,
+          "text": "This would be consistent with the results of \\citet{Cayatte94}, who"
+        },
+        {
+          "line": 745,
+          "text": "\\HI\\ disks than those in the field and argued that this is caused by"
+        },
+        {
+          "line": 748,
+          "text": "undisturbed (e.g.\\ UGC~7489 or 11914); the origin of the small extent of"
+        },
+        {
+          "line": 749,
+          "text": "their \\HI\\ disks is unclear. "
+        },
+        {
+          "line": 752,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig4.eps,height=3.25in}}"
+        },
+        {
+          "line": 753,
+          "text": "  \\caption{The distribution of ${\\mathrm D}_\\HI/{\\mathrm"
+        },
+        {
+          "line": 756,
+          "text": "  \\label{fig:diamhisto}"
+        },
+        {
+          "line": 759,
+          "text": "The average ratio of \\HI\\ to optical diameter for the S0/S0a's in"
+        },
+        {
+          "line": 761,
+          "text": "This is slightly higher than for the Sa/Sab's, but the number of"
+        },
+        {
+          "line": 762,
+          "text": "objects is too small to be able to say whether this is significant.  "
+        },
+        {
+          "line": 763,
+          "text": "Note that three S0/S0a galaxies in our sample (UGC~2154, 3426 and"
+        },
+        {
+          "line": 764,
+          "text": "4637) have an azimuthally averaged \\HI\\ surface density less than"
+        },
+        {
+          "line": 765,
+          "text": "1~\\msunpc2\\ everywhere, such that their \\HI\\ radius is not defined;"
+        },
+        {
+          "line": 769,
+          "text": "The ratio ${\\mathrm D}_\\HI/{\\mathrm D}_{25}^{B,c}$ between \\HI\\ and"
+        },
+        {
+          "line": 772,
+          "text": "The lack of low-luminosity galaxies with small \\HI\\ disks is probably"
+        },
+        {
+          "line": 777,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig5.eps,height=3.25in}} "
+        },
+        {
+          "line": 778,
+          "text": "  \\caption{Ratio of \\HI\\ to optical diameter ${\\mathrm D}_\\HI/{\\mathrm "
+        },
+        {
+          "line": 784,
+          "text": "\\subsection{\\HI\\ surface brightness}"
+        },
+        {
+          "line": 785,
+          "text": "\\label{subsec:HIsurfbright}"
+        },
+        {
+          "line": 786,
+          "text": "Previous studies have revealed a tight relation between the total \\HI\\ "
+        },
+        {
+          "line": 787,
+          "text": "mass and \\HI\\ diameter of a galaxy, with ${\\mathrm M}_\\HI \\propto"
+        },
+        {
+          "line": 788,
+          "text": "({\\mathrm D}_\\HI)^\\alpha$, \\mbox{$\\alpha \\approx 1.9$}"
+        },
+        {
+          "line": 789,
+          "text": "(\\citealt{Broeils97}; \\citealt{Verheijen01b};"
+        },
+        {
+          "line": 791,
+          "text": "The small scatter around this relation, and the fact that the slope is"
+        },
+        {
+          "line": 792,
+          "text": "so close to 2, imply that the average \\HI\\ surface density within the"
+        },
+        {
+          "line": 794,
+          "text": "The correlation of \\HI\\ mass with optical diameter is well defined"
+        },
+        {
+          "line": 798,
+          "text": "here, as can be seen in Fig.~\\ref{fig:HImass_vs_diam}. "
+        },
+        {
+          "line": 800,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig6.eps,height=2.3in}}"
+        },
+        {
+          "line": 801,
+          "text": "  \\caption{Total \\HI\\ mass versus \\HI\\ {\\em (left)} and optical"
+        },
+        {
+          "line": 806,
+          "text": "  \\label{fig:HImass_vs_diam}"
+        },
+        {
+          "line": 808,
+          "text": "The relation between ${\\mathrm M}_\\HI$ and ${\\mathrm D}_\\HI$ is"
+        },
+        {
+          "line": 813,
+          "text": "  \\log ({\\mathrm M}_\\HI / \\msun)  =  1.80 \\log ({\\mathrm D}_\\HI /"
+        },
+        {
+          "line": 816,
+          "text": "   \\log ({\\mathrm M}_\\HI / \\msun) =  1.89 \\log ({\\mathrm D}_\\HI /"
+        },
+        {
+          "line": 824,
+          "text": "We find a slightly shallower relation between \\HI\\ mass and optical"
+        },
+        {
+          "line": 828,
+          "text": "  \\log ({\\mathrm M}_\\HI / \\msun) =  1.60 \\log ({\\mathrm D}_{25}^{B,c} /"
+        },
+        {
+          "line": 831,
+          "text": "  \\log ({\\mathrm M}_\\HI / \\msun) =  1.38 \\log ({\\mathrm D}_{25}^{B,c}"
+        },
+        {
+          "line": 838,
+          "text": "Small, low \\HI-mass galaxies are unlikely to be included in our"
+        },
+        {
+          "line": 839,
+          "text": "sample, which explains why the galaxies in our sample with ${\\mathrm "
+        },
+        {
+          "line": 843,
+          "text": "early-type disk galaxies follow a different ${\\mathrm M}_\\HI -"
+        },
+        {
+          "line": 849,
+          "text": "In Fig.~\\ref{fig:HI_Sig_histos}, we show the distributions of average"
+        },
+        {
+          "line": 850,
+          "text": "\\HI\\ surface density within the \\HI\\ and optical diameters. "
+        },
+        {
+          "line": 852,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig7.eps,height=3.5in}}"
+        },
+        {
+          "line": 853,
+          "text": "  \\caption{The distribution of average \\HI\\ surface density within"
+        },
+        {
+          "line": 854,
+          "text": "  the 1~\\msunpc2\\ isophote ({\\em top}) and within the optical diameter "
+        },
+        {
+          "line": 857,
+          "text": "  \\label{fig:HI_Sig_histos}"
+        },
+        {
+          "line": 859,
+          "text": "The small scatter in the  ${\\mathrm M}_\\HI - {\\mathrm D}_{\\HI}$"
+        },
+        {
+          "line": 861,
+          "text": "\\mbox{$<\\!\\Sigma_\\HI\\!>_{{\\mathrm R}_\\HI}$}.  "
+        },
+        {
+          "line": 862,
+          "text": "The average values of \\mbox{$<\\!\\Sigma_\\HI\\!>_{{\\mathrm R}_{\\HI}}$} "
+        },
+        {
+          "line": 863,
+          "text": "are $2.8 \\pm 0.8$ and $2.9 \\pm 1.4\\, \\msunpc2$ for Sa/Sab "
+        },
+        {
+          "line": 866,
+          "text": "Thus, early-type disk galaxies have on average somewhat lower \\HI\\"
+        },
+        {
+          "line": 870,
+          "text": "\\mbox{$<\\!\\Sigma_\\HI\\!>_{{\\mathrm R}_{25}}$} is much larger, but the "
+        },
+        {
+          "line": 874,
+          "text": "As a last illustration that the average \\HI\\ surface density shows"
+        },
+        {
+          "line": 876,
+          "text": "Fig.~\\ref{fig:HI_M_L_vs_Drat} the relation between relative gas"
+        },
+        {
+          "line": 877,
+          "text": "content and the \\HI-to-optical diameter ratio."
+        },
+        {
+          "line": 879,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig8.eps,height=3.2in}}"
+        },
+        {
+          "line": 880,
+          "text": "  \\caption{Relative gas content, ${\\mathrm M}_\\HI / {\\mathrm L}_B$,"
+        },
+        {
+          "line": 881,
+          "text": "  versus relative gas diameter, ${\\mathrm D}_\\HI/{\\mathrm"
+        },
+        {
+          "line": 884,
+          "text": "  \\label{fig:HI_M_L_vs_Drat}"
+        },
+        {
+          "line": 886,
+          "text": "This figure shows that if a galaxy has a relatively high gas content,"
+        },
+        {
+          "line": 888,
+          "text": "\\HI\\ surface density will still be comparable to that in more gas-poor  "
+        },
+        {
+          "line": 890,
+          "text": "It is, however, still unclear why some galaxies have much larger \\HI\\"
+        },
+        {
+          "line": 892,
+          "text": "Sects.~\\ref{subsec:HImass} and \\ref{subsec:HIradii}).  "
+        },
+        {
+          "line": 897,
+          "text": "Most early-type disk galaxies presented here whose \\HI\\ is"
+        },
+        {
+          "line": 899,
+          "text": "their \\HI\\ distribution. "
+        },
+        {
+          "line": 903,
+          "text": "have a central depression in their \\HI\\ distribution.  "
+        },
+        {
+          "line": 906,
+          "text": "  \\centerline{\\psfig{figure=noordermeerfig9.eps,height=7in}}"
+        },
+        {
+          "line": 908,
+          "text": "  galaxies with pronounced gas rings. UGC~1541 and 3546 are barred"
+        },
+        {
+          "line": 910,
+          "text": "  {\\it Top panels}: Filled circles and bold lines show the \\HI\\"
+        },
+        {
+          "line": 911,
+          "text": "  surface density profiles, multiplied by 1.44 to account for the presence of"
+        },
+        {
+          "line": 912,
+          "text": "  helium. Radii are converted to kpc. Filled squares and thin lines"
+        },
+        {
+          "line": 913,
+          "text": "  show B-band photometric profiles. Dashed lines show the critical"
+        },
+        {
+          "line": 915,
+          "text": "  \\protect\\citet{Kennicutt89}. For UGC~11914, the critical density is"
+        },
+        {
+          "line": 919,
+          "text": "  \\label{fig:HIrings}"
+        },
+        {
+          "line": 923,
+          "text": "disks, but there are also cases (e.g.\\ UGC~12276) where the"
+        },
+        {
+          "line": 928,
+          "text": "In Fig.~\\ref{fig:HIrings} we compare the radial gas distribution for  "
+        },
+        {
+          "line": 929,
+          "text": "6~galaxies with distinct gas rings with their B-band luminosity"
+        },
+        {
+          "line": 930,
+          "text": "profile. "
+        },
+        {
+          "line": 931,
+          "text": "The gas surface density profiles are derived from the \\HI\\ profiles shown in"
+        },
+        {
+          "line": 932,
+          "text": "Appendix~\\ref{app:atlas}, multiplied by 1.44 to account for the"
+        },
+        {
+          "line": 933,
+          "text": "presence of other elements (mostly helium). "
+        },
+        {
+          "line": 934,
+          "text": "The photometric profiles are taken from a parallel study of the"
+        },
+        {
+          "line": 938,
+          "text": "UGC~1541 and 3546 (top panels) are barred galaxies with distinct"
+        },
+        {
+          "line": 941,
+          "text": "radius as the gas ring; this may simply reflect the fact that gas and"
+        },
+        {
+          "line": 947,
+          "text": "Yet in two cases, UGC~3993 and 11914 (middle panels), the \\HI\\ surface density"
+        },
+        {
+          "line": 950,
+          "text": "In UGC~11914 this excess light is related to a prominent ring of blue"
+        },
+        {
+          "line": 952,
+          "text": "H$\\alpha$ emission is detected in this ring as well \\citep{Pogge89b},"
+        },
+        {
+          "line": 955,
+          "text": "We are not aware of H$\\alpha$ observations of UGC~3993, but the stars"
+        },
+        {
+          "line": 957,
+          "text": "indicating that a population of young stars may exist in this ring as "
+        },
+        {
+          "line": 959,
+          "text": "In contrast, in UGC~2487 and 6787 (bottom panels), no excess light"
+        },
+        {
+          "line": 962,
+          "text": "\\citet{Pogge93} found no H$\\alpha$ emission in UGC~2487.  "
+        },
+        {
+          "line": 965,
+          "text": "the rings of UGC~2487 and 6787, while there are strong indications"
+        },
+        {
+          "line": 966,
+          "text": "that it {\\it is}  happening in UGC~3993 and 11914 where the total gas"
+        },
+        {
+          "line": 970,
+          "text": "onset of gravitational instabilities in their gas disks,"
+        },
+        {
+          "line": 978,
+          "text": "$\\kappa$ is the epicyclic frequency, which we derived from rotation"
+        },
+        {
+          "line": 982,
+          "text": "For the high surface-brightness galaxies studied here, this value is"
+        },
+        {
+          "line": 984,
+          "text": "  {crit}}$ may be higher than what we derive here. However, higher"
+        },
+        {
+          "line": 991,
+          "text": "The applicability of this recipe was recently confirmed by"
+        },
+        {
+          "line": 994,
+          "text": "radius, with the dashed lines in Fig.~\\ref{fig:HIrings}.  "
+        },
+        {
+          "line": 996,
+          "text": "$\\kappa$, the critical densities are high and the observed gas"
+        },
+        {
+          "line": 1001,
+          "text": "see a correlation between the \\HI\\ rings and the stellar light"
+        },
+        {
+          "line": 1002,
+          "text": "distribution in UGC~2487 and 6787; the gas densities are simply much "
+        },
+        {
+          "line": 1004,
+          "text": "But then it is unclear why UGC~3993 and 11914 do form stars.   "
+        },
+        {
+          "line": 1005,
+          "text": "In fact, the galaxy out of these 6 which has the highest star"
+        },
+        {
+          "line": 1006,
+          "text": "formation activity, UGC~11914, has the {\\it lowest} ratio ($< 0.25$"
+        },
+        {
+          "line": 1020,
+          "text": "Thus, while we may have underestimated the total gas densities in the"
+        },
+        {
+          "line": 1021,
+          "text": "inner regions of the galaxies in Fig.~\\ref{fig:HIrings}, the effect"
+        },
+        {
+          "line": 1022,
+          "text": "will be small in the \\HI\\ rings of interest, which all lie at large"
+        },
+        {
+          "line": 1030,
+          "text": "fraction of the galaxies in their sample (notably M33 and NGC~2043)"
+        },
+        {
+          "line": 1031,
+          "text": "showed widespread star formation, even though their gas surface"
+        },
+        {
+          "line": 1039,
+          "text": "\\citep{Ferguson98, Cuillandre01, Thilker05}. "
+        },
+        {
+          "line": 1050,
+          "text": "Although it is not clear how this prediction compares to the large"
+        },
+        {
+          "line": 1052,
+          "text": "suggestive that all galaxies in Fig.~\\ref{fig:HIrings} have gas"
+        },
+        {
+          "line": 1053,
+          "text": "densities around the lower end of this range, and would thus be at the"
+        },
+        {
+          "line": 1060,
+          "text": "\\citet{Braun97} studied the structure of \\HI\\ disks in 11"
+        },
+        {
+          "line": 1061,
+          "text": "well-resolved, nearby galaxies and found that the \\HI\\ was distributed "
+        },
+        {
+          "line": 1062,
+          "text": "in small, high-density regions with covering factors between 6 and"
+        },
+        {
+          "line": 1064,
+          "text": "Thus, if UGC~3993 and 11914 are extreme cases where the covering"
+        },
+        {
+          "line": 1065,
+          "text": "factor is low, and UGC~2487 and 6787 have a smoother \\HI\\"
+        },
+        {
+          "line": 1066,
+          "text": "distribution, the observed (lack of) correlation between \\HI\\"
+        },
+        {
+          "line": 1070,
+          "text": "account for the `patchiness' of gas in his galaxies; an average amount"
+        },
+        {
+          "line": 1072,
+          "text": "his parameter $\\alpha$.   "
+        },
+        {
+          "line": 1073,
+          "text": "There is no a priori reason to assume that galaxies such as UGC~3993"
+        },
+        {
+          "line": 1075,
+          "text": "rule out this possibility, and high-resolution observations are needed "
+        },
+        {
+          "line": 1076,
+          "text": "to check this.  "
+        },
+        {
+          "line": 1081,
+          "text": "subject of debate. \\citet{Rix95} found that about one third of all"
+        },
+        {
+          "line": 1082,
+          "text": "spiral galaxies show large-scale asymmetries in their optical images."
+        },
+        {
+          "line": 1083,
+          "text": "Global \\HI-profiles have asymmetric shapes for at least 50\\% of"
+        },
+        {
+          "line": 1085,
+          "text": "a full 2D mapping of the \\HI\\ component in these galaxies, it is"
+        },
+        {
+          "line": 1086,
+          "text": "difficult to determine the origin of the asymmetries in the profiles.  "
+        },
+        {
+          "line": 1087,
+          "text": "With the advent of a large number of spatially resolved \\HI\\ images"
+        },
+        {
+          "line": 1090,
+          "text": "are also lopsided in their kinematics: \\citet{Swaters99} estimated"
+        },
+        {
+          "line": 1094,
+          "text": "late-type galaxies, about 75\\% had clearly lopsided \\HI\\ profiles.   "
+        },
+        {
+          "line": 1104,
+          "text": "high frequency of lopsidedness in isolated systems. "
+        },
+        {
+          "line": 1110,
+          "text": "The degrees of asymmetry in the global profile, morphological"
+        },
+        {
+          "line": 1119,
+          "text": "Asymmetries in the global profiles and gas distribution are very"
+        },
+        {
+          "line": 1122,
+          "text": "asymmetric global profiles or surface density maps. "
+        },
+        {
+          "line": 1125,
+          "text": "{\\it All} galaxies, except one (UGC~5060), which have severely"
+        },
+        {
+          "line": 1137,
+          "text": "Out of all the galaxies for which we can determine the degree of"
+        },
+        {
+          "line": 1138,
+          "text": "symmetry in the kinematics (53), UGC~624 is the only one with a"
+        },
+        {
+          "line": 1139,
+          "text": "severely lopsided velocity field; in this case the lopsidedness can "
+        },
+        {
+          "line": 1140,
+          "text": "be explained as a result of tidal interaction with its nearby"
+        },
+        {
+          "line": 1141,
+          "text": "companion UGC~623.  "
+        },
+        {
+          "line": 1143,
+          "text": "kinematics, UGC~5960 and UGC~11852, are both extreme galaxies in our"
+        },
+        {
+          "line": 1145,
+          "text": "galaxies in our sample (${\\mathrm {M_B}} = -17.39$), while the latter"
+        },
+        {
+          "line": 1147,
+          "text": "all our sample galaxies (${\\mathrm D}_\\HI/{\\mathrm D}_{25}^{B,c} ="
+        },
+        {
+          "line": 1150,
+          "text": "We conclude that lopsidedness in the \\HI\\ distribution is at least as"
+        },
+        {
+          "line": 1161,
+          "text": "Many galaxies in our sample show interesting features in their"
+        },
+        {
+          "line": 1162,
+          "text": "\\HI\\ distribution or kinematics which deserve special emphasis."
+        },
+        {
+          "line": 1164,
+          "text": "{\\bf UGC~89} (NGC~23) and {\\bf UGC~94} (NGC~26) are separated by only"
+        },
+        {
+          "line": 1166,
+          "text": "They form a loose group together with Scd galaxy UGC~79 (20\\arcmin\\ to"
+        },
+        {
+          "line": 1168,
+          "text": "A few small \\HI\\ clouds are visible in the neighbourhood. "
+        },
+        {
+          "line": 1171,
+          "text": "A tidal tail-like structure is visible south-east of {\\bf UGC~94},"
+        },
+        {
+          "line": 1173,
+          "text": "data cube, this tidal feature is seen to be connected to the main disk "
+        },
+        {
+          "line": 1174,
+          "text": "of {\\bf UGC~94} and extends about 10\\arcmin\\ ($\\sim 180$ kpc) to the"
+        },
+        {
+          "line": 1176,
+          "text": "{\\bf UGC~499} (NGC~262), also known as Markarian~348, is a well-known"
+        }
+      ]
+    }
+  ],
+  "postscript_assets": [
+    {
+      "name": "noordermeer_A1.eps",
+      "bytes": 193778,
+      "sha256": "f9ec24b8e86b93fd002c1423bf0a1f068329fa4da8a83de9301184a5a5463910",
+      "bounding_box_lines": [
+        "%%BoundingBox: 59 33 537 809"
+      ],
+      "moveto_count": 0,
+      "lineto_count": 0,
+      "show_count": 1,
+      "stroke_count": 0,
+      "setrgbcolor_count": 0,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeer_A2.eps",
+      "bytes": 193809,
+      "sha256": "c9761055a84355e4dfd2583683bdd22b9af8417c7766d08704263eb718043a92",
+      "bounding_box_lines": [
+        "%%BoundingBox: 59 33 537 797"
+      ],
+      "moveto_count": 0,
+      "lineto_count": 0,
+      "show_count": 1,
+      "stroke_count": 0,
+      "setrgbcolor_count": 0,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig1.eps",
+      "bytes": 92562,
+      "sha256": "6ba93c32db914c038290ab4996ba4be94db4c8d04b643a1e86e4b03fb216cc49",
+      "bounding_box_lines": [
+        "%%BoundingBox: 92 14 549 774"
+      ],
+      "moveto_count": 31,
+      "lineto_count": 16,
+      "show_count": 3,
+      "stroke_count": 16,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig2.eps",
+      "bytes": 7124,
+      "sha256": "857b95174a55c435c536998408ae3cf28ce4601a2d323cc4fa90118e68f00327",
+      "bounding_box_lines": [
+        "%%BoundingBox: 24 152 565 694"
+      ],
+      "moveto_count": 13,
+      "lineto_count": 7,
+      "show_count": 3,
+      "stroke_count": 7,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig3.eps",
+      "bytes": 17203,
+      "sha256": "2d0953229d2c47f89a8ad1acd3696bea8d7cfb124f7818461eff40009f4fae79",
+      "bounding_box_lines": [
+        "%%BoundingBox: 20 154 580 694"
+      ],
+      "moveto_count": 7,
+      "lineto_count": 4,
+      "show_count": 3,
+      "stroke_count": 4,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig4.eps",
+      "bytes": 7617,
+      "sha256": "9f02033326ce3d10d7a53a760df4c6d8563484d41045cc688ad7e023918c40e5",
+      "bounding_box_lines": [
+        "%%BoundingBox: 20 146 549 676"
+      ],
+      "moveto_count": 13,
+      "lineto_count": 7,
+      "show_count": 3,
+      "stroke_count": 7,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig5.eps",
+      "bytes": 11580,
+      "sha256": "74bbd8b518ec1364df04bc14a91a2e86d8d89a90e77dedcc62c11c2eb491dc0c",
+      "bounding_box_lines": [
+        "%%BoundingBox: 36 163 580 694"
+      ],
+      "moveto_count": 7,
+      "lineto_count": 4,
+      "show_count": 3,
+      "stroke_count": 4,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig6.eps",
+      "bytes": 20931,
+      "sha256": "3082a3eb9cb9c42ff0537235eab48dcaba4adac20b260b84633eddd35cf0a81c",
+      "bounding_box_lines": [
+        "%%BoundingBox: 22 221 585 588"
+      ],
+      "moveto_count": 7,
+      "lineto_count": 4,
+      "show_count": 3,
+      "stroke_count": 4,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig7.eps",
+      "bytes": 14804,
+      "sha256": "53032363299e8d0fc6be391ff8ba1ff7a36b9f339a7a2077f02be6f348704f58",
+      "bounding_box_lines": [
+        "%%BoundingBox: 32 151 545 706"
+      ],
+      "moveto_count": 17,
+      "lineto_count": 9,
+      "show_count": 3,
+      "stroke_count": 9,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig8.eps",
+      "bytes": 11312,
+      "sha256": "7f71cd96d5d747f5fc5c93606db74405b214e86e65a5a33e20b7baa73d276741",
+      "bounding_box_lines": [
+        "%%BoundingBox: 21 161 566 693"
+      ],
+      "moveto_count": 7,
+      "lineto_count": 4,
+      "show_count": 3,
+      "stroke_count": 4,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "noordermeerfig9.eps",
+      "bytes": 179326,
+      "sha256": "0e7c394a6773c5fd6d15236056b440c8a60a0af288ae997da63c8d8cb3ecabf5",
+      "bounding_box_lines": [
+        "%%BoundingBox: 30 154 582 709"
+      ],
+      "moveto_count": 55,
+      "lineto_count": 28,
+      "show_count": 3,
+      "stroke_count": 28,
+      "setrgbcolor_count": 1,
+      "literal_string_count": 2,
+      "useful_strings": []
+    }
+  ],
+  "n_postscript_assets": 11,
+  "interpretation_boundary": "Source-asset audit only. No radial values are promoted until galaxy identity, radius axis, surface-density quantity and geometry are unambiguous."
+}
