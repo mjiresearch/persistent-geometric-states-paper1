@@ -1,0 +1,30 @@
+name: Inspect Ba05 Figure 3 assets
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/inspect_ba05_fig3_assets.py'
+      - '.github/workflows/inspect_ba05_fig3_assets.yml'
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/inspect_ba05_fig3_assets.py
+      - name: Commit Ba05 Figure 3 classification
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ba05_fig3_asset_classification_v1.json
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Classify Ba05 Figure 3 source assets'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
