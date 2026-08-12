@@ -4,6 +4,8 @@
 This is a publication-digitization calibration audit, not a model fit.
 For each of the 19 frozen WHISP overlaps:
   * the exact red Sigma_HI vector path is read from the public arXiv Appendix PDF;
+  * panel identity is assigned from the enclosing black plot-frame geometry,
+    never from the red curve's data-dependent bounding-box height;
   * x=0 is the left plot border and Sigma=0 is the horizontal plot baseline;
   * Swaters et al. (2002) supplies source distance D, optical R-band scale
     length h, HI radius R_HI (Sigma_HI=1 Msun/pc^2), and mean HI surface
@@ -51,6 +53,32 @@ def lines(d):
    p,q=it[1],it[2];out.append((float(p.x),float(p.y),float(q.x),float(q.y)))
  return out
 
+def plot_boxes(page):
+ """Recover panel rectangles from long black vertical frame lines."""
+ verts=[]
+ for d in page.get_drawings():
+  if col(d.get('color'))!=(0.0,0.0,0.0): continue
+  for x0,y0,x1,y1 in lines(d):
+   if abs(x1-x0)<0.08 and abs(y1-y0)>120:
+    verts.append((float((x0+x1)/2),min(y0,y1),max(y0,y1)))
+ # Deduplicate coincident frame lines.
+ uniq=[]
+ for v in sorted(verts,key=lambda z:(z[1],z[0])):
+  if not any(abs(v[0]-u[0])<0.2 and abs(v[1]-u[1])<0.2 and abs(v[2]-u[2])<0.2 for u in uniq):
+   uniq.append(v)
+ boxes=[]
+ for i,a in enumerate(uniq):
+  for b in uniq[i+1:]:
+   if abs(a[1]-b[1])<0.3 and abs(a[2]-b[2])<0.3:
+    xlo,xhi=sorted((a[0],b[0])); width=xhi-xlo
+    if 130<=width<=170:
+     boxes.append((xlo,a[1],xhi,a[2]))
+ # Deduplicate and sort row-major by the true frame top, then left edge.
+ ded=[]
+ for b in sorted(boxes,key=lambda z:(z[1],z[0])):
+  if not any(max(abs(x-y) for x,y in zip(b,q))<0.3 for q in ded): ded.append(b)
+ return ded
+
 def panel_paths(tf):
  ans=[]; offset=0
  for pi,name in enumerate(PDFS):
@@ -60,39 +88,39 @@ def panel_paths(tf):
    if col(d.get('color'))==(1.0,0.0,0.0):
     seg=lines(d)
     if len(seg)>=20: reds.append((d,seg))
-  items=[]
-  for d,seg in reds:
-   r=d['rect']; items.append({'d':d,'seg':seg,'cx':(r.x0+r.x1)/2,'cy':(r.y0+r.y1)/2})
-  items.sort(key=lambda x:x['cy'])
-  rows=[]
-  for item in items:
-   if not rows or abs(item['cy']-sum(x['cy'] for x in rows[-1])/len(rows[-1]))>80:
-    rows.append([item])
-   else: rows[-1].append(item)
-  ordered=[]
-  for row in rows: ordered.extend(sorted(row,key=lambda x:x['cx']))
+  boxes=plot_boxes(page)
   expected=12 if pi<3 else 1
-  if len(ordered)!=expected: raise RuntimeError(f'{name}: expected {expected} red paths, got {len(ordered)}')
-  for j,item in enumerate(ordered):
+  if len(boxes)!=expected:
+   raise RuntimeError(f'{name}: expected {expected} plot boxes, got {len(boxes)}: {boxes}')
+  if len(reds)!=expected:
+   raise RuntimeError(f'{name}: expected {expected} red paths, got {len(reds)}')
+  assignments=[]
+  for box in boxes:
+   x0,y0,x1,y1=box
+   matches=[]
+   for d,seg in reds:
+    r=d['rect']
+    # Each published red series occupies the x extent of exactly one plot frame.
+    if abs(r.x0-x0)<1.0 and abs(r.x1-x1)<1.0 and r.y0>=y0-2 and r.y1<=y1+2:
+     matches.append((d,seg))
+   if len(matches)!=1:
+    raise RuntimeError(f'{name}: frame {box} has {len(matches)} red-path matches')
+   assignments.append((box,matches[0][0],matches[0][1]))
+  for j,(box,d,seg) in enumerate(assignments):
    ugc=UGCS[offset+j]
-   ans.append((ugc,name,j,page,item['d'],item['seg']))
+   ans.append((ugc,name,j,page,box,d,seg))
   offset+=expected
  if offset!=37: raise RuntimeError(offset)
  return ans
 
-def baseline_and_ticks(page, red):
- r=red['rect']; x0,x1=r.x0,r.x1
- h=[]; v=[]
+def baseline_and_ticks(page, box):
+ x0,ytop,x1,y0=box
+ v=[]
  for d in page.get_drawings():
   if col(d.get('color'))!=(0.0,0.0,0.0): continue
   for xa,ya,xb,yb in lines(d):
-   if abs(ya-yb)<0.08 and min(xa,xb)<=x0+0.2 and max(xa,xb)>=x1-0.2:
-    h.append((abs(xb-xa), (ya+yb)/2))
-  for xa,ya,xb,yb in lines(d):
    if abs(xa-xb)<0.08 and 2.0<=abs(yb-ya)<=5.0 and x0-0.3<=xa<=x1+0.3:
     v.append((xa,min(ya,yb),max(ya,yb),abs(yb-ya)))
- if not h: raise RuntimeError('baseline not found')
- y0=max(h,key=lambda z:z[0])[1]
  xt=sorted({round(x,3) for x,ya,yb,l in v if abs(yb-y0)<0.25 or abs(ya-y0)<0.25})
  yt=[]
  for d in page.get_drawings():
@@ -102,7 +130,7 @@ def baseline_and_ticks(page, red):
     lo,hi=sorted((xa,xb))
     if abs(lo-x0)<0.25 or abs(hi-x0)<0.25:
      yy=(ya+yb)/2
-     if r.y0-80<=yy<=y0+2: yt.append(round(yy,3))
+     if ytop-2<=yy<=y0+2: yt.append(round(yy,3))
  xt=dedupe(xt,0.5); yt=dedupe(sorted(yt),0.5)
  return y0,xt,yt
 
@@ -160,8 +188,7 @@ def solve_scale(verts,ybase,rhi,r3,mean):
  roots=[]
  for (a0,e0),(a1,e1) in zip(samples,samples[1:]):
   if e0[0]==0 or e0[0]*e1[0]<0:
-   lo,hi=a0,a1
-   elo=e0
+   lo,hi=a0,a1; elo=e0
    for _ in range(70):
     mid=(lo+hi)/2;em=evala(mid)
     if em is None:break
@@ -183,11 +210,11 @@ def main():
  with open('validation/stationary/stationary_split_v1.csv',newline='',encoding='utf-8-sig') as fh:
   roles={r['galaxy']:r['stationary_role'] for r in csv.DictReader(fh)}
  out=[]
- for ugc,pdf,panel,page,red,seg in panel_paths(tf):
+ for ugc,pdf,panel,page,box,red,seg in panel_paths(tf):
   if ugc not in TARGETS:continue
   D,h_arc,rhi_arc,mean=META[ugc]; conv=D*KPC_PER_ARCSEC_PER_MPC
   rhi=rhi_arc*conv; r3=3.2*h_arc*conv
-  ybase,xt,yt=baseline_and_ticks(page,red); vv=vertices(seg)
+  ybase,xt,yt=baseline_and_ticks(page,box); vv=vertices(seg)
   roots,n_samples,amin,amax=solve_scale(vv,ybase,rhi,r3,mean)
   dx=[b-a for a,b in zip(xt,xt[1:]) if b-a>1]
   dy=[b-a for a,b in zip(yt,yt[1:]) if b-a>1]
@@ -204,6 +231,7 @@ def main():
   cand.sort(key=lambda z:(z['mean_abs_error']>1e-6,z['nice_score'],z['mean_abs_error']))
   best=cand[0] if cand else None
   out.append({'galaxy':f'UGC{ugc:05d}','stationary_role':roles.get(f'UGC{ugc:05d}'), 'source_pdf':pdf,'panel_index':panel,
+              'plot_box_pdf':[float(v) for v in box],
               'source_distance_mpc':D,'source_h_arcsec':h_arc,'source_rhi_arcsec':rhi_arc,'source_rhi_kpc':rhi,
               'source_mean_sigma_hi_3p2h':mean,'source_r3p2h_kpc':r3,'plot_x0_pdf':vv[0][0],'plot_x1_pdf':vv[-1][0],'plot_y0_pdf':ybase,
               'n_vector_vertices':len(vv),'x_ticks_pdf':xt,'y_ticks_pdf':yt,
@@ -212,7 +240,7 @@ def main():
               'candidates':cand[:5],'best':best})
  solved=[r for r in out if r['best'] is not None]
  unsolved=[r['galaxy'] for r in out if r['best'] is None]
- summary={'status':'ELSON2017_WHISP_VECTOR_AXIS_CALIBRATION_AUDIT','n_targets':len(out),'n_with_candidate':len(solved),'n_without_candidate':len(unsolved),'unsolved_galaxies':unsolved,'targets':out,
+ summary={'status':'ELSON2017_WHISP_VECTOR_AXIS_CALIBRATION_AUDIT','panel_mapping':'black_plot_frame_geometry','n_targets':len(out),'n_with_candidate':len(solved),'n_without_candidate':len(unsolved),'unsolved_galaxies':unsolved,'targets':out,
           'boundary':'Axes recovered only from public vector geometry and Swaters published source constraints. No SPARC-distance substitution, helium scaling, interpolation to Paper-I grid, persistence fitting, or blind-outcome inspection.'}
  p=Path('validation/stationary/elson2017_whisp_vector_axis_calibration_v1.json');p.write_text(json.dumps(summary,indent=2)+'\n')
  print('TARGETS',len(out),'WITH_CANDIDATE',len(solved),'UNSOLVED',unsolved)
