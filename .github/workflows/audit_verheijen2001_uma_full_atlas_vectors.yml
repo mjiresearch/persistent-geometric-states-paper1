@@ -1,0 +1,50 @@
+name: Audit complete Verheijen UMa atlas vectors
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/audit_verheijen2001_uma_full_atlas_vectors.py'
+      - 'data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv'
+      - '.github/workflows/audit_verheijen2001_uma_full_atlas_vectors.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install audit dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pymupdf
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript
+      - name: Audit publisher atlas vector route
+        run: python scripts/stationary/audit_verheijen2001_uma_full_atlas_vectors.py
+      - name: Commit audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/verheijen2001_uma_full_atlas_vector_audit_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Audit complete Verheijen UMa atlas vectors'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Push attempt ${attempt} lost a race; retrying after refresh"
+              sleep 2
+            done
+            echo 'Failed to publish audit after 3 synchronized push attempts'
+            exit 1
+          fi
