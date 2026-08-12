@@ -1,0 +1,42 @@
+name: Inspect VM97 NGC6015 Figure 3 embedded EPS
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/inspect_vm97_ngc6015_fig3_embedded_eps.py'
+      - '.github/workflows/inspect_vm97_ngc6015_fig3_embedded_eps.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect embedded Figure 3 EPS statically
+        run: python scripts/stationary/inspect_vm97_ngc6015_fig3_embedded_eps.py
+      - name: Commit inspection products race-safe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/vm97_ngc6015_fig3_embedded_eps_structure_v1.json validation/stationary/vm97_ngc6015_fig3_embedded_eps_context_v1.txt
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Inspect VM97 NGC6015 Figure 3 embedded EPS structure'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/stationary/inspect_vm97_ngc6015_fig3_embedded_eps.py
+            git add validation/stationary/vm97_ngc6015_fig3_embedded_eps_structure_v1.json validation/stationary/vm97_ngc6015_fig3_embedded_eps_context_v1.txt
+            git commit -m 'Inspect VM97 NGC6015 Figure 3 embedded EPS structure' || true
+            sleep 2
+          done
+          exit 1
