@@ -1,0 +1,42 @@
+name: Isolate Hoekstra HI axis glyphs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/isolate_hoekstra_hi_axis_glyphs.py'
+      - '.github/workflows/isolate_hoekstra_hi_axis_glyphs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  isolate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf
+      - name: Isolate printed HI axis numerals
+        run: python scripts/stationary/isolate_hoekstra_hi_axis_glyphs.py
+      - name: Commit glyph QC
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/hoekstra2001_hi_axis_major_glyphs_v1.txt validation/stationary/hoekstra2001_hi_axis_major_glyphs_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Isolate Hoekstra HI axis major glyphs'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
