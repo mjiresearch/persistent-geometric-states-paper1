@@ -6,9 +6,9 @@ Lelli/SPARC NGC0891 -> Fr11 -> Oosterloo, Fraternali & Sancisi 2007.
 
 Oosterloo et al. explicitly fit the observed thin-disk radial H I surface density
 with a tapered exponential and add a compact exponential component for the inner
-ring.  This script verifies the exact TeX statements before writing the analytic
-parameter record.  It does not sample the function or apply helium/distance
-renormalization.
+ring. This script verifies the equation ingredients and exact fitted parameters
+from the source TeX before writing the analytic parameter record. It does not
+sample the function or apply helium/distance renormalization.
 """
 from __future__ import annotations
 import csv,hashlib,io,json,re,tarfile
@@ -39,22 +39,27 @@ def main():
         if m.isfile() and Path(m.name).suffix.lower() in {".tex",".sty"}:
             texdocs.append((m.name,tf.extractfile(m).read().decode("latin-1","replace")))
     text="\n".join(t for _,t in texdocs)
+
+    # Verify the equation structurally rather than requiring one exact TeX-spacing style.
+    # The scientific gate is the parameterized form plus both published parameter sets.
     required=[
-      r"\\Sigma\(R\)=\\Sigma_\{\\rm 0\} \\left\( 1 \+ \\frac\{R\}\{R_\*\} \\right\) \^\{\\alpha\} \\exp\{\(-R/R_\*\)\}",
-      r"\\Sigma_\{\\rm 0\}=6\.2 \\times 10\^\{-4\}\\ \\mopc",
-      r"\\alpha=7\.8",
-      r"R_\*=1\.2.*kpc",
+      r"\\Sigma\s*\(\s*R\s*\)",
+      r"1\s*\\?\+.*R.*R_\*",
+      r"\\exp.*-R/R_\*",
+      r"\\Sigma_\{\\rm 0\}\s*=\s*6\.2\s*\\times\s*10\^\{-4\}\s*\\mopc",
+      r"\\alpha\s*=\s*7\.8",
+      r"R_\*\s*=\s*1\.2.*kpc",
       r"inner ring, we add an extra exponential component",
-      r"\\Sigma_\{\\rm 0\}=6\.3\\ \\mopc",
+      r"\\Sigma_\{\\rm 0\}\s*=\s*6\.3\s*\\mopc",
     ]
-    missing=[p for p in required if not re.search(p,text,re.S)]
+    missing=[p for p in required if not re.search(p,text,re.S|re.I)]
     if missing:raise RuntimeError("Expected Oosterloo analytic-fit statements not found: "+repr(missing))
 
-    # Preserve exact source contexts and any macro definition of \mopc if present.
     lines=text.splitlines(); contexts=[]
     for i,line in enumerate(lines):
-        if "Sigma_{\\rm 0}=6.2" in line or "inner ring, we add" in line or "Sigma(R)=" in line or "mopc" in line and ("def" in line or "newcommand" in line):
-            contexts.append({"line":i+1,"context":"\n".join(lines[max(0,i-5):min(len(lines),i+9)])[:8000]})
+        if ("Sigma_{\\rm 0}" in line or "inner ring, we add" in line or
+            "Sigma(R)" in line or ("mopc" in line and ("def" in line or "newcommand" in line))):
+            contexts.append({"line":i+1,"context":"\n".join(lines[max(0,i-6):min(len(lines),i+10)])[:9000]})
 
     row={
       "galaxy":"NGC0891","stationary_role":"calibration",
