@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
-"""Acquire Hunter et al. (2021) LITTLE THINGS H I Sersic-fit parameters.
+"""Acquire Hunter et al. (2021) LITTLE THINGS H I Sersic models.
 
 Public source:
   VizieR J/AJ/161/71/table1 and table2
+  Hunter et al. 2021 primary arXiv source (2012.00146)
 
-This is a pre-fit source-acquisition step. It preserves the published fit
+The primary source defines the H I Sersic profile used for these parameters as
+
+    Sigma_HI(R) = Sigma0 * exp[-(R/R0)^(1/n)].
+
+This is a pre-fit source-acquisition step. It preserves published fit
 parameters and performs only catalogue-name reconciliation against the frozen
-Paper I stationary split. It does NOT instantiate an H I profile from the
-parameters until the exact Hunter et al. functional convention is separately
-verified and frozen.
+Paper I stationary split. It does not rescale distances, inclinations, apply a
+helium correction, resample onto a Paper I grid, or evaluate persistence.
 """
 from __future__ import annotations
 
@@ -24,6 +28,7 @@ from urllib.request import Request, urlopen
 VIZIER = "https://vizier.cds.unistra.fr/viz-bin/asu-tsv"
 CAT1 = "J/AJ/161/71/table1"
 CAT2 = "J/AJ/161/71/table2"
+PROFILE_FORMULA = "Sigma_HI(R)=Sigma0*exp[-(R/R0)^(1/n)]"
 
 
 def sha256(path: Path) -> str:
@@ -154,12 +159,15 @@ def main() -> None:
             "e_n_hi": maybe_float(p.get("e_nHI", "")),
             "r50_hi_kpc": maybe_float(p.get("R50", "")),
             "e_r50_hi_kpc": maybe_float(p.get("e_R50", "")),
-            "profile_formula_status": "pending_exact_primary_equation_verification",
+            "profile_formula": PROFILE_FORMULA,
+            "profile_formula_status": "verified_from_primary_arxiv_source",
+            "helium_convention_status": "pending_explicit_primary_source_verification",
             "source_values_transformed": "0",
             "source_catalog": "J/AJ/161/71",
             "source_table": "table2",
             "source_bibcode": "2021AJ....161...71H",
             "source_doi": "10.3847/1538-3881/abd089",
+            "source_arxiv": "2012.00146",
         })
 
     output.sort(key=lambda r: r["galaxy"])
@@ -173,7 +181,7 @@ def main() -> None:
         w.writeheader(); w.writerows(output)
 
     summary = {
-        "status": "PUBLIC_HI_SERSIC_PARAMETERS_ACQUIRED",
+        "status": "PUBLIC_HI_SERSIC_MODELS_ACQUIRED",
         "source_catalog": "J/AJ/161/71",
         "source_rows": 40,
         "n_frozen_matches": len(output),
@@ -181,7 +189,10 @@ def main() -> None:
         "n_blind": sum(r["stationary_role"] == "blind" for r in output),
         "matched_galaxies": [r["galaxy"] for r in output],
         "unmatched_source_names": unmatched,
-        "formula_boundary": "Fit parameters are source data, but no analytic Sigma_HI(R) is instantiated until Hunter et al.'s exact Sersic functional convention is verified from the primary paper.",
+        "profile_formula": PROFILE_FORMULA,
+        "formula_verification": "Verified directly from Hunter et al. 2021 arXiv source 2012.00146: I(R)=I0 exp[-(R/R0)^(1/n)].",
+        "helium_boundary": "No helium correction or back-conversion is applied until the Hunter source convention is explicitly verified and the global Paper I helium rule is frozen.",
+        "normalization_boundary": "No source-to-frozen distance rescaling, inclination rescaling, common-grid interpolation, extrapolation, taper, or persistence evaluation performed.",
         "split_sha256": sha256(split),
         "output_sha256": sha256(out),
     }
