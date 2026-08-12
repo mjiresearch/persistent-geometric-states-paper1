@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - .github/workflows/build_lelli2016_hi_origin_map.yml
       - scripts/stationary/build_lelli2016_hi_origin_map.py
       - validation/stationary/stationary_split_v1.csv
 
