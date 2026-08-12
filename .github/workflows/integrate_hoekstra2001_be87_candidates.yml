@@ -1,4 +1,5 @@
 name: Integrate Hoekstra 2001 Be87 candidates
+# Re-run from current main after frozen-role metadata corrections.
 
 on:
   push:
