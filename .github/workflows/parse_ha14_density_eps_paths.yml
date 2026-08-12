@@ -1,0 +1,35 @@
+name: Parse Ha14 density EPS paths
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/parse_ha14_density_eps_paths.py'
+      - '.github/workflows/parse_ha14_density_eps_paths.yml'
+permissions:
+  contents: write
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Parse Ha14 density EPS paths
+        run: python scripts/stationary/parse_ha14_density_eps_paths.py
+      - name: Commit path inventory
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ha14_density_eps_path_inventory_v1.json
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Inventory Ha14 density EPS vector paths'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
