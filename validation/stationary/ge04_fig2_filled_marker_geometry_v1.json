@@ -1,0 +1,1468 @@
+{
+  "status": "GE04_FIG2_FILLED_MARKER_GEOMETRY_INSPECTED",
+  "asset_sha256": "a5466d2a2d492850d49cc6e11e0785735d76d7651a27a24550e8d8a29ecc4591",
+  "targets": {
+    "ESO116-G12": {
+      "block_header": "116readradialgraph.mr.eps",
+      "block_sha256": "0a27f908c6487cdad8faa6c087d878c66ea97da7e23fbf70d1658f6fbadf1c2b",
+      "n_filled_paths": 36,
+      "n_stroked_paths": 11,
+      "filled_shape_histogram": [
+        {
+          "shape_class": "triangle_or_polygon",
+          "n_points": 4,
+          "width": 48.0,
+          "height": 42.0,
+          "count": 9
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 47.0,
+          "height": 41.0,
+          "count": 7
+        },
+        {
+          "shape_class": "triangle_or_polygon",
+          "n_points": 4,
+          "width": 49.0,
+          "height": 42.0,
+          "count": 7
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 47.0,
+          "height": 40.0,
+          "count": 3
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 46.0,
+          "height": 41.0,
+          "count": 3
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 46.0,
+          "height": 40.0,
+          "count": 2
+        },
+        {
+          "shape_class": "other",
+          "n_points": 8,
+          "width": 502.0,
+          "height": 917.0,
+          "count": 1
+        },
+        {
+          "shape_class": "other",
+          "n_points": 8,
+          "width": 580.0,
+          "height": 985.0,
+          "count": 1
+        },
+        {
+          "shape_class": "other",
+          "n_points": 8,
+          "width": 557.0,
+          "height": 969.0,
+          "count": 1
+        },
+        {
+          "shape_class": "triangle_or_polygon",
+          "n_points": 4,
+          "width": 49.0,
+          "height": 43.0,
+          "count": 1
+        },
+        {
+          "shape_class": "triangle_or_polygon",
+          "n_points": 4,
+          "width": 48.0,
+          "height": 43.0,
+          "count": 1
+        }
+      ],
+      "likely_round_markers": [],
+      "likely_polygon_markers": [
+        {
+          "start_line": 2006,
+          "end_line": 2009,
+          "n_points": 4,
+          "points": [
+            [
+              425.0,
+              886.0
+            ],
+            [
+              401.0,
+              928.0
+            ],
+            [
+              377.0,
+              886.0
+            ],
+            [
+              425.0,
+              886.0
+            ]
+          ],
+          "bbox": [
+            377.0,
+            886.0,
+            425.0,
+            928.0
+          ],
+          "center": [
+            401.0,
+            907.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2014,
+          "n_points": 4,
+          "points": [
+            [
+              503.0,
+              922.0
+            ],
+            [
+              479.0,
+              964.0
+            ],
+            [
+              454.0,
+              922.0
+            ],
+            [
+              503.0,
+              922.0
+            ]
+          ],
+          "bbox": [
+            454.0,
+            922.0,
+            503.0,
+            964.0
+          ],
+          "center": [
+            478.5,
+            943.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2019,
+          "n_points": 4,
+          "points": [
+            [
+              581.0,
+              1037.0
+            ],
+            [
+              556.0,
+              1079.0
+            ],
+            [
+              532.0,
+              1037.0
+            ],
+            [
+              581.0,
+              1037.0
+            ]
+          ],
+          "bbox": [
+            532.0,
+            1037.0,
+            581.0,
+            1079.0
+          ],
+          "center": [
+            556.5,
+            1058.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2024,
+          "n_points": 4,
+          "points": [
+            [
+              658.0,
+              1141.0
+            ],
+            [
+              634.0,
+              1183.0
+            ],
+            [
+              610.0,
+              1141.0
+            ],
+            [
+              658.0,
+              1141.0
+            ]
+          ],
+          "bbox": [
+            610.0,
+            1141.0,
+            658.0,
+            1183.0
+          ],
+          "center": [
+            634.0,
+            1162.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2029,
+          "n_points": 4,
+          "points": [
+            [
+              736.0,
+              1098.0
+            ],
+            [
+              711.0,
+              1141.0
+            ],
+            [
+              687.0,
+              1099.0
+            ],
+            [
+              736.0,
+              1099.0
+            ]
+          ],
+          "bbox": [
+            687.0,
+            1098.0,
+            736.0,
+            1141.0
+          ],
+          "center": [
+            711.5,
+            1119.5
+          ],
+          "width": 49.0,
+          "height": 43.0,
+          "area": 1016.5,
+          "perimeter": 148.11286695157486,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2034,
+          "n_points": 4,
+          "points": [
+            [
+              813.0,
+              975.0
+            ],
+            [
+              789.0,
+              1017.0
+            ],
+            [
+              765.0,
+              975.0
+            ],
+            [
+              813.0,
+              975.0
+            ]
+          ],
+          "bbox": [
+            765.0,
+            975.0,
+            813.0,
+            1017.0
+          ],
+          "center": [
+            789.0,
+            996.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2039,
+          "n_points": 4,
+          "points": [
+            [
+              891.0,
+              869.0
+            ],
+            [
+              867.0,
+              911.0
+            ],
+            [
+              842.0,
+              869.0
+            ],
+            [
+              891.0,
+              869.0
+            ]
+          ],
+          "bbox": [
+            842.0,
+            869.0,
+            891.0,
+            911.0
+          ],
+          "center": [
+            866.5,
+            890.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2044,
+          "n_points": 4,
+          "points": [
+            [
+              968.0,
+              759.0
+            ],
+            [
+              944.0,
+              801.0
+            ],
+            [
+              920.0,
+              759.0
+            ],
+            [
+              968.0,
+              759.0
+            ]
+          ],
+          "bbox": [
+            920.0,
+            759.0,
+            968.0,
+            801.0
+          ],
+          "center": [
+            944.0,
+            780.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2049,
+          "n_points": 4,
+          "points": [
+            [
+              1046.0,
+              669.0
+            ],
+            [
+              1022.0,
+              711.0
+            ],
+            [
+              998.0,
+              669.0
+            ],
+            [
+              1046.0,
+              669.0
+            ]
+          ],
+          "bbox": [
+            998.0,
+            669.0,
+            1046.0,
+            711.0
+          ],
+          "center": [
+            1022.0,
+            690.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2054,
+          "n_points": 4,
+          "points": [
+            [
+              1124.0,
+              635.0
+            ],
+            [
+              1099.0,
+              677.0
+            ],
+            [
+              1075.0,
+              635.0
+            ],
+            [
+              1124.0,
+              635.0
+            ]
+          ],
+          "bbox": [
+            1075.0,
+            635.0,
+            1124.0,
+            677.0
+          ],
+          "center": [
+            1099.5,
+            656.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2059,
+          "n_points": 4,
+          "points": [
+            [
+              1201.0,
+              630.0
+            ],
+            [
+              1177.0,
+              672.0
+            ],
+            [
+              1153.0,
+              630.0
+            ],
+            [
+              1201.0,
+              630.0
+            ]
+          ],
+          "bbox": [
+            1153.0,
+            630.0,
+            1201.0,
+            672.0
+          ],
+          "center": [
+            1177.0,
+            651.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2064,
+          "n_points": 4,
+          "points": [
+            [
+              1279.0,
+              601.0
+            ],
+            [
+              1254.0,
+              643.0
+            ],
+            [
+              1230.0,
+              601.0
+            ],
+            [
+              1279.0,
+              601.0
+            ]
+          ],
+          "bbox": [
+            1230.0,
+            601.0,
+            1279.0,
+            643.0
+          ],
+          "center": [
+            1254.5,
+            622.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2069,
+          "n_points": 4,
+          "points": [
+            [
+              1356.0,
+              505.0
+            ],
+            [
+              1332.0,
+              547.0
+            ],
+            [
+              1308.0,
+              505.0
+            ],
+            [
+              1356.0,
+              505.0
+            ]
+          ],
+          "bbox": [
+            1308.0,
+            505.0,
+            1356.0,
+            547.0
+          ],
+          "center": [
+            1332.0,
+            526.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2074,
+          "n_points": 4,
+          "points": [
+            [
+              1434.0,
+              393.0
+            ],
+            [
+              1410.0,
+              435.0
+            ],
+            [
+              1385.0,
+              393.0
+            ],
+            [
+              1434.0,
+              393.0
+            ]
+          ],
+          "bbox": [
+            1385.0,
+            393.0,
+            1434.0,
+            435.0
+          ],
+          "center": [
+            1409.5,
+            414.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2079,
+          "n_points": 4,
+          "points": [
+            [
+              1511.0,
+              341.0
+            ],
+            [
+              1487.0,
+              383.0
+            ],
+            [
+              1463.0,
+              341.0
+            ],
+            [
+              1511.0,
+              341.0
+            ]
+          ],
+          "bbox": [
+            1463.0,
+            341.0,
+            1511.0,
+            383.0
+          ],
+          "center": [
+            1487.0,
+            362.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2084,
+          "n_points": 4,
+          "points": [
+            [
+              1589.0,
+              325.0
+            ],
+            [
+              1565.0,
+              367.0
+            ],
+            [
+              1541.0,
+              325.0
+            ],
+            [
+              1589.0,
+              325.0
+            ]
+          ],
+          "bbox": [
+            1541.0,
+            325.0,
+            1589.0,
+            367.0
+          ],
+          "center": [
+            1565.0,
+            346.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2089,
+          "n_points": 4,
+          "points": [
+            [
+              1667.0,
+              319.0
+            ],
+            [
+              1642.0,
+              361.0
+            ],
+            [
+              1618.0,
+              319.0
+            ],
+            [
+              1667.0,
+              319.0
+            ]
+          ],
+          "bbox": [
+            1618.0,
+            319.0,
+            1667.0,
+            361.0
+          ],
+          "center": [
+            1642.5,
+            340.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 2094,
+          "n_points": 4,
+          "points": [
+            [
+              1744.0,
+              316.0
+            ],
+            [
+              1720.0,
+              359.0
+            ],
+            [
+              1696.0,
+              317.0
+            ],
+            [
+              1744.0,
+              317.0
+            ]
+          ],
+          "bbox": [
+            1696.0,
+            316.0,
+            1744.0,
+            359.0
+          ],
+          "center": [
+            1720.0,
+            337.5
+          ],
+          "width": 48.0,
+          "height": 43.0,
+          "area": 996.0,
+          "perimeter": 146.61783549877183,
+          "shape_class": "triangle_or_polygon"
+        }
+      ]
+    },
+    "ESO079-G014": {
+      "block_header": "79readradialgraph.mr.eps",
+      "block_sha256": "a6d105deffa6c87e37953c26077803e3300e79779c0721d20027c99611cb1c79",
+      "n_filled_paths": 32,
+      "n_stroked_paths": 11,
+      "filled_shape_histogram": [
+        {
+          "shape_class": "triangle_or_polygon",
+          "n_points": 4,
+          "width": 48.0,
+          "height": 42.0,
+          "count": 9
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 47.0,
+          "height": 41.0,
+          "count": 7
+        },
+        {
+          "shape_class": "triangle_or_polygon",
+          "n_points": 4,
+          "width": 49.0,
+          "height": 42.0,
+          "count": 6
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 46.0,
+          "height": 40.0,
+          "count": 3
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 46.0,
+          "height": 41.0,
+          "count": 2
+        },
+        {
+          "shape_class": "other",
+          "n_points": 8,
+          "width": 514.0,
+          "height": 1158.0,
+          "count": 1
+        },
+        {
+          "shape_class": "other",
+          "n_points": 8,
+          "width": 604.0,
+          "height": 1020.0,
+          "count": 1
+        },
+        {
+          "shape_class": "round_like",
+          "n_points": 8,
+          "width": 594.0,
+          "height": 847.0,
+          "count": 1
+        },
+        {
+          "shape_class": "other",
+          "n_points": 7,
+          "width": 47.0,
+          "height": 40.0,
+          "count": 1
+        },
+        {
+          "shape_class": "triangle_or_polygon",
+          "n_points": 4,
+          "width": 49.0,
+          "height": 43.0,
+          "count": 1
+        }
+      ],
+      "likely_round_markers": [],
+      "likely_polygon_markers": [
+        {
+          "start_line": 1862,
+          "end_line": 1865,
+          "n_points": 4,
+          "points": [
+            [
+              425.0,
+              1128.0
+            ],
+            [
+              401.0,
+              1170.0
+            ],
+            [
+              377.0,
+              1128.0
+            ],
+            [
+              425.0,
+              1128.0
+            ]
+          ],
+          "bbox": [
+            377.0,
+            1128.0,
+            425.0,
+            1170.0
+          ],
+          "center": [
+            401.0,
+            1149.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1870,
+          "n_points": 4,
+          "points": [
+            [
+              515.0,
+              958.0
+            ],
+            [
+              491.0,
+              1000.0
+            ],
+            [
+              467.0,
+              958.0
+            ],
+            [
+              515.0,
+              958.0
+            ]
+          ],
+          "bbox": [
+            467.0,
+            958.0,
+            515.0,
+            1000.0
+          ],
+          "center": [
+            491.0,
+            979.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1875,
+          "n_points": 4,
+          "points": [
+            [
+              605.0,
+              872.0
+            ],
+            [
+              581.0,
+              914.0
+            ],
+            [
+              557.0,
+              872.0
+            ],
+            [
+              605.0,
+              872.0
+            ]
+          ],
+          "bbox": [
+            557.0,
+            872.0,
+            605.0,
+            914.0
+          ],
+          "center": [
+            581.0,
+            893.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1880,
+          "n_points": 4,
+          "points": [
+            [
+              695.0,
+              881.0
+            ],
+            [
+              671.0,
+              924.0
+            ],
+            [
+              646.0,
+              882.0
+            ],
+            [
+              695.0,
+              882.0
+            ]
+          ],
+          "bbox": [
+            646.0,
+            881.0,
+            695.0,
+            924.0
+          ],
+          "center": [
+            670.5,
+            902.5
+          ],
+          "width": 49.0,
+          "height": 43.0,
+          "area": 1017.0,
+          "perimeter": 148.12168664838026,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1885,
+          "n_points": 4,
+          "points": [
+            [
+              785.0,
+              925.0
+            ],
+            [
+              760.0,
+              967.0
+            ],
+            [
+              736.0,
+              925.0
+            ],
+            [
+              785.0,
+              925.0
+            ]
+          ],
+          "bbox": [
+            736.0,
+            925.0,
+            785.0,
+            967.0
+          ],
+          "center": [
+            760.5,
+            946.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1890,
+          "n_points": 4,
+          "points": [
+            [
+              874.0,
+              941.0
+            ],
+            [
+              850.0,
+              983.0
+            ],
+            [
+              826.0,
+              941.0
+            ],
+            [
+              874.0,
+              941.0
+            ]
+          ],
+          "bbox": [
+            826.0,
+            941.0,
+            874.0,
+            983.0
+          ],
+          "center": [
+            850.0,
+            962.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1895,
+          "n_points": 4,
+          "points": [
+            [
+              964.0,
+              895.0
+            ],
+            [
+              940.0,
+              937.0
+            ],
+            [
+              916.0,
+              895.0
+            ],
+            [
+              964.0,
+              895.0
+            ]
+          ],
+          "bbox": [
+            916.0,
+            895.0,
+            964.0,
+            937.0
+          ],
+          "center": [
+            940.0,
+            916.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1900,
+          "n_points": 4,
+          "points": [
+            [
+              1054.0,
+              847.0
+            ],
+            [
+              1030.0,
+              889.0
+            ],
+            [
+              1006.0,
+              847.0
+            ],
+            [
+              1054.0,
+              847.0
+            ]
+          ],
+          "bbox": [
+            1006.0,
+            847.0,
+            1054.0,
+            889.0
+          ],
+          "center": [
+            1030.0,
+            868.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1905,
+          "n_points": 4,
+          "points": [
+            [
+              1144.0,
+              775.0
+            ],
+            [
+              1120.0,
+              817.0
+            ],
+            [
+              1095.0,
+              775.0
+            ],
+            [
+              1144.0,
+              775.0
+            ]
+          ],
+          "bbox": [
+            1095.0,
+            775.0,
+            1144.0,
+            817.0
+          ],
+          "center": [
+            1119.5,
+            796.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1910,
+          "n_points": 4,
+          "points": [
+            [
+              1234.0,
+              672.0
+            ],
+            [
+              1210.0,
+              714.0
+            ],
+            [
+              1185.0,
+              672.0
+            ],
+            [
+              1234.0,
+              672.0
+            ]
+          ],
+          "bbox": [
+            1185.0,
+            672.0,
+            1234.0,
+            714.0
+          ],
+          "center": [
+            1209.5,
+            693.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1915,
+          "n_points": 4,
+          "points": [
+            [
+              1324.0,
+              552.0
+            ],
+            [
+              1299.0,
+              594.0
+            ],
+            [
+              1275.0,
+              552.0
+            ],
+            [
+              1324.0,
+              552.0
+            ]
+          ],
+          "bbox": [
+            1275.0,
+            552.0,
+            1324.0,
+            594.0
+          ],
+          "center": [
+            1299.5,
+            573.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1920,
+          "n_points": 4,
+          "points": [
+            [
+              1413.0,
+              448.0
+            ],
+            [
+              1389.0,
+              490.0
+            ],
+            [
+              1365.0,
+              448.0
+            ],
+            [
+              1413.0,
+              448.0
+            ]
+          ],
+          "bbox": [
+            1365.0,
+            448.0,
+            1413.0,
+            490.0
+          ],
+          "center": [
+            1389.0,
+            469.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1925,
+          "n_points": 4,
+          "points": [
+            [
+              1503.0,
+              383.0
+            ],
+            [
+              1479.0,
+              425.0
+            ],
+            [
+              1455.0,
+              383.0
+            ],
+            [
+              1503.0,
+              383.0
+            ]
+          ],
+          "bbox": [
+            1455.0,
+            383.0,
+            1503.0,
+            425.0
+          ],
+          "center": [
+            1479.0,
+            404.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1930,
+          "n_points": 4,
+          "points": [
+            [
+              1593.0,
+              349.0
+            ],
+            [
+              1569.0,
+              391.0
+            ],
+            [
+              1545.0,
+              349.0
+            ],
+            [
+              1593.0,
+              349.0
+            ]
+          ],
+          "bbox": [
+            1545.0,
+            349.0,
+            1593.0,
+            391.0
+          ],
+          "center": [
+            1569.0,
+            370.0
+          ],
+          "width": 48.0,
+          "height": 42.0,
+          "area": 1008.0,
+          "perimeter": 144.7470929795826,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1935,
+          "n_points": 4,
+          "points": [
+            [
+              1683.0,
+              330.0
+            ],
+            [
+              1659.0,
+              372.0
+            ],
+            [
+              1634.0,
+              330.0
+            ],
+            [
+              1683.0,
+              330.0
+            ]
+          ],
+          "bbox": [
+            1634.0,
+            330.0,
+            1683.0,
+            372.0
+          ],
+          "center": [
+            1658.5,
+            351.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        },
+        {
+          "start_line": null,
+          "end_line": 1940,
+          "n_points": 4,
+          "points": [
+            [
+              1773.0,
+              323.0
+            ],
+            [
+              1749.0,
+              365.0
+            ],
+            [
+              1724.0,
+              323.0
+            ],
+            [
+              1773.0,
+              323.0
+            ]
+          ],
+          "bbox": [
+            1724.0,
+            323.0,
+            1773.0,
+            365.0
+          ],
+          "center": [
+            1748.5,
+            344.0
+          ],
+          "width": 49.0,
+          "height": 42.0,
+          "area": 1029.0,
+          "perimeter": 146.25094412919105,
+          "shape_class": "triangle_or_polygon"
+        }
+      ]
+    }
+  },
+  "boundary": "Static native vector path decoding only; no PostScript execution, OCR, raster digitization, normalization, persistence fitting, or blind-outcome inspection."
+}
