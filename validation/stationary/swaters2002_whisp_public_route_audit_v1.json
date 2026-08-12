@@ -1,0 +1,818 @@
+{
+  "status": "SWATERS2002_WHISP_PUBLIC_ROUTE_AUDIT_COMPLETE",
+  "source": "Swaters et al. 2002 A&A 390 829; arXiv astro-ph/0204525",
+  "n_priority_frozen_galaxies": 13,
+  "priority_role_counts": {
+    "calibration": 7,
+    "blind": 6
+  },
+  "priority_galaxies": [
+    "DDO064",
+    "UGC00731",
+    "UGC01281",
+    "UGC04278",
+    "UGC05986",
+    "UGC07125",
+    "UGC07151",
+    "UGC07577",
+    "UGC07603",
+    "UGC08286",
+    "UGC08550",
+    "UGC08837",
+    "UGC11557"
+  ],
+  "arxiv_bytes": 200724,
+  "n_arxiv_files": 14,
+  "n_vector_files": 12,
+  "n_raster_files": 0,
+  "n_data_like_files": 0,
+  "vector_files": [
+    {
+      "name": "h3074f1.ps",
+      "bytes": 18450,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f10.ps",
+      "bytes": 59344,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f11.ps",
+      "bytes": 54566,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f12.ps",
+      "bytes": 21034,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f2.ps",
+      "bytes": 26064,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f3.ps",
+      "bytes": 33451,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f4.ps",
+      "bytes": 190087,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f5.ps",
+      "bytes": 209950,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f6.ps",
+      "bytes": 38357,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f7.ps",
+      "bytes": 18520,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f8.ps",
+      "bytes": 35758,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    },
+    {
+      "name": "h3074f9.ps",
+      "bytes": 15481,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false,
+      "data_like": false
+    }
+  ],
+  "raster_files": [],
+  "data_like_files": [],
+  "candidate_named_assets": [],
+  "text_hits": [
+    {
+      "file": "h3074.tex",
+      "line": 48,
+      "text": "maps, velocity fields, global profiles and radial surface density"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 156,
+      "text": "put into Appendix~A. An atlas of the \\HI\\ observations is"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 157,
+      "text": "presented in Appendix~B."
+    },
+    {
+      "file": "h3074.tex",
+      "line": 160,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f1.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 272,
+      "text": "global profiles for all galaxies are shown in Appendix~B."
+    },
+    {
+      "file": "h3074.tex",
+      "line": 350,
+      "text": "The \\HI\\ maps at $30''$ resolution are shown in Appendix~B.  All plots"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 369,
+      "text": "integrated \\HI\\ maps in the figures in Appendix~B."
+    },
+    {
+      "file": "h3074.tex",
+      "line": 372,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f2.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 407,
+      "text": "velocity fields derived in this way are shown in Appendix~B."
+    },
+    {
+      "file": "h3074.tex",
+      "line": 409,
+      "text": "\\subsection{Radial \\HI\\ surface density profiles and \\HI\\ diameters}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 411,
+      "text": "The total \\HI\\ maps have been used to derive radial surface density"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 424,
+      "text": "poorly resolved. For these galaxies the \\HI\\ radial surface density"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 427,
+      "text": "minor axis, resulting in \\HI\\ strip integrals. To get the \\HI\\ surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 454,
+      "text": "correct radial \\HI\\ surface density profile."
+    },
+    {
+      "file": "h3074.tex",
+      "line": 457,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f3.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 458,
+      "text": "\\caption{Comparison between the radial \\figHI\\ surface density profiles"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 464,
+      "text": "The surface density profiles have been used to determine the \\HI\\ "
+    },
+    {
+      "file": "h3074.tex",
+      "line": 465,
+      "text": "radii, $R_\\mathrm{\\HI}$, defined as the radius where the \\HI\\ surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 469,
+      "text": "Most \\HI\\ surface density profiles are close to exponential in their"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 475,
+      "text": "Finally, the average \\HI\\ surface density within 3.2 optical disk"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 479,
+      "text": "The derived average \\HI\\ surface densities are listed in"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 503,
+      "text": "\\resizebox{0.875\\textwidth}{!}{\\includegraphics{h3074f4.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 504,
+      "text": "\\caption{ Radial \\figHI\\ surface density profiles (full lines) plotted"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 515,
+      "text": "\\resizebox{0.875\\textwidth}{!}{\\includegraphics{h3074f5.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 538,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f6.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 552,
+      "text": "\\HI\\ surface density of 1 \\msun\\pc2) and the absorption-corrected"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 576,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f7.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 614,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f8.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 628,
+      "text": "points to a small spread in mean \\HI\\ surface density for the dwarf"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 634,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f9.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 641,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f10.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 647,
+      "text": "  $M_\\mathrm{\\HI}/\\mathrm{L}_R$ versus $R$-band surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 678,
+      "text": "$M_\\mathrm{\\HI}/\\mathrm{L}_R$, in the sense that lower surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 685,
+      "text": "sample of VS, which predominantly have high surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 688,
+      "text": "high surface brightness dwarfs or extended low surface brightness"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 692,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f11.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 694,
+      "text": "\\caption{ {\\bf (a)} Comparison of the range in radial \\figHI\\ surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 700,
+      "text": "  types from Cayatte \\etal\\ (1994). {\\bf (b)} Radial \\figHI\\ surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 709,
+      "text": "\\subsection{\\HI\\ surface density versus surface brightness}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 712,
+      "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f12.ps}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 713,
+      "text": "\\caption{Average \\figHI\\ surface density within 3.2 disk scale lengths"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 719,
+      "text": "Inspection of the radial \\HI\\ surface density profiles in"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 720,
+      "text": "Fig.~\\ref{figexpfits} or in Appendix~B, makes it clear that the shapes"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 721,
+      "text": "of the radial \\HI\\ surface density profiles range from centrally"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 754,
+      "text": "figure, the radial \\HI\\ density profiles are shown averaged in surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 755,
+      "text": "brightness bins. It is clear that galaxies with high optical surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 772,
+      "text": "higher surface brightnesses have higher \\HI\\ densities as well."
+    },
+    {
+      "file": "h3074.tex",
+      "line": 773,
+      "text": "However, the \\HI\\ density changes much more slowly than the surface"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 805,
+      "text": "this end, we have inspected the data presented in Appendix~B"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 819,
+      "text": "Appendix~B. For 19 galaxies we found that the signal-to-noise ratio"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 852,
+      "text": "Appendix~B."
+    },
+    {
+      "file": "h3074.tex",
+      "line": 867,
+      "text": "extended features in the figure in Appendix~B do not represent tidal"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1066,
+      "text": "\\appendix"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1136,
+      "text": "radius where the \\HI\\ surface density corrected to face-on reaches 1"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1142,
+      "text": "\\noindent {\\it Column} (9) lists the average \\HI\\ surface density within"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1443,
+      "text": "\\section{Atlas of the \\HI\\ observations}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1471,
+      "text": "%\\vtop{\\hbox{\\resizebox{0.5\\textwidth}{!}{\\includegraphics{h3074f13.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1473,
+      "text": "%\\vtop{\\hbox{\\resizebox{0.5\\textwidth}{!}{\\includegraphics{h3074f14.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1497,
+      "text": "\\noindent {\\bf Full version with figures in this appendix can be"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1508,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f15.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1510,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f16.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1515,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f17.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1517,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f18.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1523,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f19.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1525,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f20.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1530,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f21.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1532,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f22.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1538,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f23.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1540,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f24.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1545,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f25.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1547,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f26.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1553,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f27.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1555,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f28.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1560,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f29.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1562,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f30.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1568,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f31.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1570,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f32.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1575,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f33.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1577,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f34.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1583,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f35.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1585,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f36.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1590,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f37.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1592,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f38.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1598,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f39.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1600,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f40.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1605,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f41.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1607,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f42.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1613,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f43.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1615,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f44.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1620,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f45.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1622,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f46.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1628,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f47.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1630,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f48.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1635,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f49.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1637,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f50.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1643,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f51.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1645,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f52.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1650,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f53.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1652,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f54.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1658,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f55.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1660,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f56.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1665,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f57.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1667,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f58.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1673,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f59.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1675,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f60.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1680,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f61.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1682,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f62.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1688,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f63.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1690,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f64.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1695,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f65.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1697,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f66.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1703,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f67.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1705,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f68.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1710,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f69.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1712,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f70.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1718,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f71.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1720,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f72.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1725,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f73.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1727,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f74.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1733,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f75.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1735,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f76.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1740,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f77.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1742,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f78.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1748,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f79.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1750,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f80.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1755,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f81.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1757,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f82.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1763,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f83.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1765,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f84.ps}}}"
+    },
+    {
+      "file": "h3074.tex",
+      "line": 1770,
+      "text": "\\vtop{\\hbox{\\resizebox{0.5\\hsize}{!}{\\includegraphics{h3074f85.ps}}}"
+    }
+  ],
+  "galaxy_text_hits": {
+    "DDO064": [
+      {
+        "file": "h3074.tex",
+        "line": 1187,
+        "text": "5272 & DDO 64 & 9 & 47 & 26.8 & 31 & 43 & 16 & .I..9.. & 6.1 & -15.1 & 22.4 & 21 & 49 \\\\"
+      }
+    ],
+    "UGC00731": [],
+    "UGC01281": [],
+    "UGC04278": [
+      {
+        "file": "h3074.tex",
+        "line": 848,
+        "text": "UGC~4278.  Because \\object{UGC~4274} was far away from the pointing"
+      }
+    ],
+    "UGC05986": [
+      {
+        "file": "h3074.tex",
+        "line": 870,
+        "text": "\\notes{\\object{UGC~5986}} has a strong warp on the SW end. This warp"
+      }
+    ],
+    "UGC07125": [],
+    "UGC07151": [],
+    "UGC07577": [],
+    "UGC07603": [],
+    "UGC08286": [],
+    "UGC08550": [],
+    "UGC08837": [],
+    "UGC11557": []
+  },
+  "n_priority_galaxies_named_in_source_text": 3,
+  "interpretation": "Swaters et al. explicitly publish radial H I surface-density profiles. This audit determines whether their arXiv source package contains numeric tables or vector assets suitable for reproducible recovery for the 13 Lelli/Sw02 frozen galaxies.",
+  "boundary": "Acquisition-route audit only. No raster digitization, source normalization, helium conversion, persistence fitting, or blind-outcome inspection."
+}
