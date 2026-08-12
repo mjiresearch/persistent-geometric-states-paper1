@@ -1,0 +1,132 @@
+{
+  "status": "HIX2018_NGC0289_NATIVE_VECTOR_HI_PROFILE_RECOVERED",
+  "galaxy": "NGC0289",
+  "stationary_role": "calibration",
+  "n_points": 52,
+  "source": {
+    "url": "https://arxiv.org/src/1802.04043",
+    "package_sha256": "fc3488541be2451a0f51c16b1fde856f26bbdfcda84a89fda8de0c5222722358",
+    "pdf_member": "Images/app-fig3.pdf",
+    "pdf_sha256": "eb0ca88588f9584054f18be2f53b0a43cb9b0ad91612364e7fb1dac6b077423a",
+    "distance_mpc": 23.06
+  },
+  "profile_semantics": {
+    "quantity": "deprojected H I column/surface density",
+    "helium_included": false,
+    "observational_status": "measured_from_elliptical_annuli_in_non_clipped_ATCA_moment0_map",
+    "geometry": "annulus inclination and PA from extrapolated TiRiFiC profiles"
+  },
+  "x_axis": {
+    "ticks": [
+      {
+        "i": 665,
+        "x": 233.63999938964844,
+        "y": 28.8499755859375
+      },
+      {
+        "i": 666,
+        "x": 271.18414306640625,
+        "y": 28.8499755859375
+      },
+      {
+        "i": 667,
+        "x": 308.7283020019531,
+        "y": 28.8499755859375
+      },
+      {
+        "i": 668,
+        "x": 346.2724304199219,
+        "y": 28.8499755859375
+      }
+    ],
+    "values_kpc": [
+      0.0,
+      25.0,
+      50.0,
+      75.0
+    ],
+    "intercept": -155.5768546963164,
+    "slope_kpc_per_pdf_pt": 0.6658827858529505,
+    "residuals_kpc": [
+      1.0160556485061534e-06,
+      2.0321127180977783e-06,
+      -7.11239519546325e-06,
+      4.064226857281028e-06
+    ],
+    "max_abs_residual_kpc": 7.11239519546325e-06
+  },
+  "y_axis": {
+    "ticks": [
+      {
+        "i": 590,
+        "x": 231.88999938964844,
+        "y": 46.50360107421875
+      },
+      {
+        "i": 589,
+        "x": 231.88999938964844,
+        "y": 79.271728515625
+      },
+      {
+        "i": 588,
+        "x": 231.88999938964844,
+        "y": 112.03985595703125
+      },
+      {
+        "i": 587,
+        "x": 231.88999938964844,
+        "y": 144.8079833984375
+      }
+    ],
+    "values_msun_pc2": [
+      6.0,
+      4.0,
+      2.0,
+      0.0
+    ],
+    "intercept": 8.838343518858277,
+    "slope_msun_pc2_per_pdf_pt": -0.06103491887280604,
+    "residuals": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "max_abs_residual": 0.0
+  },
+  "marker_grid": {
+    "median_dx_pdf_pt": 2.492034912109375,
+    "max_abs_dx_deviation_pdf_pt": 0.0
+  },
+  "ranges": {
+    "radius_kpc_source": [
+      0.8297005588034665,
+      85.45926119443183
+    ],
+    "radius_arcsec": [
+      7.4214304319859945,
+      764.4082615034469
+    ],
+    "sigma_hi_msun_pc2": [
+      1.2485205998439106,
+      6.336975411317015
+    ]
+  },
+  "frozen_distance_hits": [],
+  "text_evidence": [
+    {
+      "phrase": "Panel (b):",
+      "context": "\\hix\\ and the \\control\\ sample respectively that has been used in this paper. For each galaxy, there are eight panels: Panel (a): the \\change{ATCA integrated \\hi\\ intensity (moment 0) }map overlaid on the optical \\textit{B-band} image from SuperCOSMOS. The contours are starting at $0.4 \\times 10^{20}$ and $0.8 \\times 10^{20}$\\,cm$^{-2}$ for the \\hix\\ and the \\control\\ sample respectively and double with every step. The red ellipse in the bottom left corner shows the synthesised beam. Panel (b): the radial profile of the \\hi\\ column density as measured from elliptical annuli. \\change{The vertical solid grey line marks the \\hi\\ radius $R_{HI}$. Horizontal, dashed lines mark 1\\msunpcsq, which is the isophote for the $R_{HI}$ measurement and 0.4\\,cm$^{-2}$, which of the order of }the column density limit for \\hix\\ galaxies. Panel (c): the \\change{ATCA mean velocity field (moment 1) }map. The red ellipse in the bottom left corner shows the synthesised beam. Panel (d): the rotation velocity measured by TiRiFiC (black dots connected by a black dashed line) and a fit to that rotation curve (grey solid line) of the functional form: \\begin{equation} \\rm v_{rot} (r) = v_{flat} \\cdot \\left[ 1 - exp\\left(\\frac{-r}{l_{flat}}\\right) \\right] \\end{equation} Panel (e): \\hi\\ spectra as measured from the ATCA data cube (black solid line), from the \\change{\\hipass\\ }cube (grey solid line) and the residual between the input data cube and the TiRiFiC model cube (grey dashed line). Panel (f): the radial variation of the inclination (black dots and dashed line, left y-axis) and the position angle (grey dots and dashed line, right y-axis) as modelled by TiRiFiC. Panel (g): a position velocity diagram along the minor axis. Blue contours and grey scale background pre"
+    },
+    {
+      "phrase": "non-clipped moment 0 maps",
+      "context": "we extrapolate inclination and position angle between the \\tirific\\ rings. Then concentric, elliptical annuli are defined. The width of these annuli is of the order of the pixel size. Inclination and position angle of each annulus are taken from the extrapolated \\tirific\\ profiles according to their radius. Within each elliptical annulus, we measure the total \\hi\\ mass, the total stellar mass and the average \\hi\\ column density. \\hi\\ mass and column density profiles are measured from the non-clipped moment 0 maps and stellar mass profiles from the \\mass\\ \\kband\\ images. The \\mass\\ luminosities in every annulus are converted to stellar masses again using equ. 3 of \\citet{Wen2013} (see Equ. \\ref{equ:mstar}). Stellar masses are only determined in annuli, which are smaller than the aperture within which \\mass\\ measured the integrated \\kband\\ magnitude. \\tirific\\ also provides rotation velocities for each fitted ring. These rotation velocities are fitted with a rotation curve of the functional form: \\begin{equation} \\label{equ:vrot} V_{\\rm rot} (r) = V_{\\rm flat} \\cdot \\left[ 1 - \\exp\\left(\\frac{-r}{l_{\\rm flat}}\\right) \\right] \\end{equation} (\\citealp{Leroy2008} and references therein). $V_{\\rm flat}$ is the circular velocity in the flat part of the rotation curve and $l_{\\rm flat}$ describes the radius at which the rotation velocity flattens. The \\hi\\ radius, $R_{\\rm HI}$, is measured from the \\hi\\ column density profiles. $R_{\\rm HI}$ is defined to be the radius at which the \\hi\\ column density drops to 1\\msunpcsq. Before $R_{\\rm HI}$ is measured, \\hi\\ column densities are deprojected by multiplying with the cosine of the inclination $\\cos\\,i$. Therefore, in more edge-on galaxies, the measurement of $R_{\\rm HI}$ is more sensitive to inclination va"
+    },
+    {
+      "phrase": "M_{HI + He} = 1.35 M_{HI}",
+      "context": "Wen2013}: \\begin{equation} \\log M_{\\star} [{\\rm M_{\\odot}}] = -0.498 + 1.105 \\times \\log L_{K} [{\\rm L_{\\odot}}]. \\label{equ:mstar} \\end{equation} Only 1478 out of the 1796\\,galaxies in the parent sample have a cross match in the 2MASX catalogue (82\\,per\\,cent). These ``missing'' galaxies are excluded from the analysis. In section \\ref{sec:stabel}, we will consider the atomic gas mass $M_{A}$ and the baryonic mass $M_{B}$. We define these masses as follows: \\begin{equation} M_{A} = M_{HI + He} = 1.35 M_{HI} \\end{equation} i.\\,e. the \\hi\\ mass with a correction factor to account for Helium (e.\\,g. \\citealp{Obreschkow2016}) and \\begin{equation} \\label{equ:mbary} M_{B} = M_{A} + M_{\\star}. \\end{equation} where M$_{\\star}$ is the stellar mass. We neglect the molecular gas mass in this calculation of the baryonic mass, because the ISM of \\hix\\ and \\control\\ galaxies is dominated by atomic gas and estimated molecular gas masses (e.\\,g. using scaling relations by \\citet{Catinella2010} and \\citet{Saintonge2011}) are an order of magnitude smaller than atomic gas masses. \\subsection{Resolved HI data from ATCA} \\label{sec:reduction} For this paper we focus on the \\hi\\ interferometric data of the \\hix\\ and \\control\\ sample. All data has been obtained with the Australia Telescope Compact Array (ATCA). While the majority of the observations for the \\hix\\ galaxies have been carried out as part of the large program C\\,2705, the data of the \\control\\ sample has been collected from the Australia Telescope Online Archive (ATOA)\\footnote{http://atoa.atnf.csiro.au/}. Table \\ref{tab:obs} summarises all ATCA observations that will be used in this paper. \\begin{table*} \\begin{tabular}[H]{l || c c c c c c } ID & 1.5km Array & 750m Array & EW Array &"
+    }
+  ],
+  "boundary": "Public later direct ATCA profile; native vector extraction only. No raster digitization. L_A and C_A remain locked.",
+  "output": "data/stationary/source_reconstruction/hix2018_ngc0289_hi_profile_v1.csv"
+}

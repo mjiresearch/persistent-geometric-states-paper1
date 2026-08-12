@@ -1,0 +1,15 @@
+status=HIX2018_NGC0289_NATIVE_VECTOR_HI_PROFILE_RECOVERED
+n_points=52
+x_ticks=[{'i': 665, 'x': 233.63999938964844, 'y': 28.8499755859375}, {'i': 666, 'x': 271.18414306640625, 'y': 28.8499755859375}, {'i': 667, 'x': 308.7283020019531, 'y': 28.8499755859375}, {'i': 668, 'x': 346.2724304199219, 'y': 28.8499755859375}]
+x_values_kpc=[0.0, 25.0, 50.0, 75.0]
+x_fit=-155.576854696+(0.665882785853)*x max_resid=7.11e-06
+y_ticks=[{'i': 590, 'x': 231.88999938964844, 'y': 46.50360107421875}, {'i': 589, 'x': 231.88999938964844, 'y': 79.271728515625}, {'i': 588, 'x': 231.88999938964844, 'y': 112.03985595703125}, {'i': 587, 'x': 231.88999938964844, 'y': 144.8079833984375}]
+y_values_msun_pc2=[6.0, 4.0, 2.0, 0.0]
+y_fit=8.83834351886+(-0.0610349188728)*y max_resid=0
+marker_dx_median=2.49203491 max_dev=0.00000000
+source_distance_mpc=23.06
+frozen_distance_hits=[]
+ranges={"radius_kpc_source": [0.8297005588034665, 85.45926119443183], "radius_arcsec": [7.4214304319859945, 764.4082615034469], "sigma_hi_msun_pc2": [1.2485205998439106, 6.336975411317015]}
+quantity=raw_HI helium_included=0
+method=measured_from_non_clipped_ATCA_moment0_map_in_elliptical_annuli; geometry from TiRiFiC inclination/PA
+No OCR or raster digitization.
