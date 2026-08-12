@@ -1,0 +1,42 @@
+{
+  "status": "RAW_PUBLIC_ALIAS_PROFILES_ACQUIRED",
+  "source_doi": "10.1093/mnras/stw3285",
+  "n_galaxies": 2,
+  "n_rows": 25,
+  "galaxies": {
+    "UGC05918": {
+      "source_name": "DDO87",
+      "verified_alias": "DDO 87 = UGC 5918",
+      "n_rows": 12,
+      "radius_arcsec_min": 12.0,
+      "radius_arcsec_max": 144.0,
+      "radius_kpc_min": 0.43,
+      "radius_kpc_max": 5.17,
+      "sigma_hi_min": 0.97,
+      "sigma_hi_max": 2.79,
+      "source_distance_mpc": 7.4,
+      "source_mean_inclination_deg": 42.7,
+      "source_mean_pa_deg": 238.6,
+      "source_member_sha256": "4460a564a3e6c290f2f0722ca29df8fa7b6878c715dec2b0469647edaf0b61d9"
+    },
+    "UGC07559": {
+      "source_name": "DDO126",
+      "verified_alias": "DDO 126 = UGC 7559",
+      "n_rows": 13,
+      "radius_arcsec_min": 20.0,
+      "radius_arcsec_max": 140.0,
+      "radius_kpc_min": 0.48,
+      "radius_kpc_max": 3.33,
+      "sigma_hi_min": 1.29,
+      "sigma_hi_max": 5.06,
+      "source_distance_mpc": 4.9,
+      "source_mean_inclination_deg": 62.2,
+      "source_mean_pa_deg": 140.7,
+      "source_member_sha256": "bb8291ce9751e0642dc74e61f79e0be44c2ca316da01c1635a35feef1b0ef8f2"
+    }
+  },
+  "outer_zip_sha256": "967110269d59357ee3a94d1d6e46c2402aef38da3f674180d42044ceaf094173",
+  "output_sha256": "975b759038ad5a9fc93f5499109c6a88239ce2f87bbc469c51f255e34a6fbc9b",
+  "helium_rule": "Iorio Sdens is intrinsic HI surface density and is not corrected for helium. Values are preserved unchanged; common Paper I helium treatment remains locked.",
+  "normalization_rule": "No distance/inclination rescaling, interpolation, extrapolation, taper, or persistence evaluation performed."
+}
