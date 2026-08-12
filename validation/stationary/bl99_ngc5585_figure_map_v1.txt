@@ -1,0 +1,21 @@
+status=BL99_NGC5585_FIGURE_MAP_COMPLETE
+PLOT {"refs": ["Blais-Ouellette.fig1.ps"], "caption": "", "char": 41062}
+PLOT {"refs": ["Blais-Ouellette.fig2.ps"], "caption": "", "char": 41097}
+PLOT {"refs": ["Blais-Ouellette.fig3.ps"], "caption": "", "char": 41132}
+PLOT {"refs": ["Blais-Ouellette.fig4.ps"], "caption": "", "char": 41167}
+PLOT {"refs": ["Blais-Ouellette.fig5.ps"], "caption": "", "char": 41202}
+PLOT {"refs": ["Blais-Ouellette.fig6.ps"], "caption": "", "char": 41237}
+PLOT {"refs": ["Blais-Ouellette.fig7.ps"], "caption": "", "char": 41272}
+PLOT {"refs": ["Blais-Ouellette.fig8.ps"], "caption": "", "char": 41307}
+PLOT {"refs": ["Blais-Ouellette.fig9.ps"], "caption": "", "char": 41342}
+PLOT {"refs": ["Blais-Ouellette.fig10.ps"], "caption": "", "char": 41377}
+ASSET {"name": "Blais-Ouellette.fig1.ps", "bytes": 43878, "sha256": "c4f3d9084d8aa31d6968f6db4423a3bf7a860777e8c689ff38cba9b27d94f38f", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig10.ps", "bytes": 51760, "sha256": "cedc47b375c203292278a9a23b872500a5a531db1c308e3206f73858a282a7f1", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig2.ps", "bytes": 44067, "sha256": "993c78f11126db8829b5950478f8086af6d8eb8258abfffbf6a41e9705a61cdf", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig3.ps", "bytes": 53448, "sha256": "a6aa6d1b388bebf335e7dd76f82873f971fc93b3cd7088c233afbe067b5f6ffc", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig4.ps", "bytes": 71730, "sha256": "b123b5ba451f98820c84a77b44004726bc98107382047c8e934253de138a8870", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig5.ps", "bytes": 60227, "sha256": "dd0d6365365d52d56a5aa1beaa3c295d07f00b62d4518ae4c9d81219b7b28f43", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig6.ps", "bytes": 613528, "sha256": "96020a318885f2e770d7b52ddb0e83bfb29d985398346fe0dbbcf515fc10e350", "image_ops": 23, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig7.ps", "bytes": 446594, "sha256": "ee6584f381c805dcaf73af86ce8f36565619fc712c7c8c8425b346144b3dfa26", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig8.ps", "bytes": 24433, "sha256": "5c4e5b6b9714bc2c64718dad4d0f5448fbc9e8384a1e3bfc11b5ee52fcb204c3", "image_ops": 0, "interesting_strings": []}
+ASSET {"name": "Blais-Ouellette.fig9.ps", "bytes": 52911, "sha256": "3cd3090767ea9193059ec8a9e193477b4923e129c60fcf8ecc7ff7e1c31e3598", "image_ops": 0, "interesting_strings": []}
