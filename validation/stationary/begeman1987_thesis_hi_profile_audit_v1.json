@@ -1,0 +1,417 @@
+{
+  "status": "BEGEMAN1987_THESIS_HI_PROFILE_AUDIT_COMPLETE",
+  "source": "K.G. Begeman, HI rotation curves of spiral galaxies, PhD thesis, University of Groningen (1987; institutional deposit record 2006)",
+  "official_portal": "https://research.rug.nl/en/publications/hi-rotation-curves-of-spiral-galaxies/",
+  "portal_file_ids": {
+    "thesis.pdf": 2841681,
+    "c1.pdf": 2841673,
+    "c2.pdf": 2841674,
+    "c3.pdf": 2841675,
+    "c4.pdf": 2841676,
+    "c5.pdf": 2841677
+  },
+  "transport_attempts": {
+    "thesis.pdf": [
+      {
+        "url": "https://research.rug.nl/files/2841681/thesis.pdf",
+        "status": "error",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://pure.rug.nl/ws/portalfiles/portal/2841681/thesis.pdf",
+        "status": "fetched",
+        "final_url": "https://pure.rug.nl/ws/portalfiles/portal/2841681/thesis.pdf",
+        "content_type": "application/pdf",
+        "bytes": 6607280,
+        "prefix_hex": "255044462d312e330d25e2e3cfd30d0a",
+        "valid_pdf": true,
+        "sha256": "81ed7e16da5a96c05b4f22f65436349c54879061d7e60fdfa64aa0f9f4136004"
+      }
+    ],
+    "c1.pdf": [
+      {
+        "url": "https://research.rug.nl/files/2841673/c1.pdf",
+        "status": "error",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://pure.rug.nl/ws/portalfiles/portal/2841673/c1.pdf",
+        "status": "fetched",
+        "final_url": "https://pure.rug.nl/ws/portalfiles/portal/2841673/c1.pdf",
+        "content_type": "application/pdf",
+        "bytes": 85382,
+        "prefix_hex": "255044462d312e360d25e2e3cfd30d0a",
+        "valid_pdf": true,
+        "sha256": "d47f017a13caa7fd9d4ab75fb40986de69398cc412fe8cac1cb1d1f72ee759b8"
+      }
+    ],
+    "c2.pdf": [
+      {
+        "url": "https://research.rug.nl/files/2841674/c2.pdf",
+        "status": "error",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://pure.rug.nl/ws/portalfiles/portal/2841674/c2.pdf",
+        "status": "fetched",
+        "final_url": "https://pure.rug.nl/ws/portalfiles/portal/2841674/c2.pdf",
+        "content_type": "application/pdf",
+        "bytes": 137063,
+        "prefix_hex": "255044462d312e360d25e2e3cfd30d0a",
+        "valid_pdf": true,
+        "sha256": "e332655df1e5fa27ab7898db8e6c3d4a19939b18e9bef6d0cb900384bb11ce1c"
+      }
+    ],
+    "c3.pdf": [
+      {
+        "url": "https://research.rug.nl/files/2841675/c3.pdf",
+        "status": "error",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://pure.rug.nl/ws/portalfiles/portal/2841675/c3.pdf",
+        "status": "fetched",
+        "final_url": "https://pure.rug.nl/ws/portalfiles/portal/2841675/c3.pdf",
+        "content_type": "application/pdf",
+        "bytes": 370410,
+        "prefix_hex": "255044462d312e360d25e2e3cfd30d0a",
+        "valid_pdf": true,
+        "sha256": "9d9901b3eb500f2ee8153ed14cb5ff11a96b3093e291cf3c6ea52bf0a13a97a7"
+      }
+    ],
+    "c4.pdf": [
+      {
+        "url": "https://research.rug.nl/files/2841676/c4.pdf",
+        "status": "error",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://pure.rug.nl/ws/portalfiles/portal/2841676/c4.pdf",
+        "status": "fetched",
+        "final_url": "https://pure.rug.nl/ws/portalfiles/portal/2841676/c4.pdf",
+        "content_type": "application/pdf",
+        "bytes": 4643556,
+        "prefix_hex": "255044462d312e360d25e2e3cfd30d0a",
+        "valid_pdf": true,
+        "sha256": "6f430dcae69e4bd790e3f39c9bbd470a2d3068b86d0ac034021a9d26e5156d82"
+      }
+    ],
+    "c5.pdf": [
+      {
+        "url": "https://research.rug.nl/files/2841677/c5.pdf",
+        "status": "error",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://pure.rug.nl/ws/portalfiles/portal/2841677/c5.pdf",
+        "status": "fetched",
+        "final_url": "https://pure.rug.nl/ws/portalfiles/portal/2841677/c5.pdf",
+        "content_type": "application/pdf",
+        "bytes": 668614,
+        "prefix_hex": "255044462d312e360d25e2e3cfd30d0a",
+        "valid_pdf": true,
+        "sha256": "36c1570eeaf892026e894ae3ed97609421f4ba3c6658216b449c7194d089102c"
+      }
+    ]
+  },
+  "recovered_documents": [
+    {
+      "name": "thesis.pdf",
+      "file_id": 2841681,
+      "bytes": 6607280,
+      "sha256": "81ed7e16da5a96c05b4f22f65436349c54879061d7e60fdfa64aa0f9f4136004",
+      "geometry": {
+        "pages": 134,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 134,
+        "pages_with_images_no_drawings": 134,
+        "max_drawing_items": 0
+      }
+    },
+    {
+      "name": "c1.pdf",
+      "file_id": 2841673,
+      "bytes": 85382,
+      "sha256": "d47f017a13caa7fd9d4ab75fb40986de69398cc412fe8cac1cb1d1f72ee759b8",
+      "geometry": {
+        "pages": 2,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 2,
+        "pages_with_images_no_drawings": 2,
+        "max_drawing_items": 0
+      }
+    },
+    {
+      "name": "c2.pdf",
+      "file_id": 2841674,
+      "bytes": 137063,
+      "sha256": "e332655df1e5fa27ab7898db8e6c3d4a19939b18e9bef6d0cb900384bb11ce1c",
+      "geometry": {
+        "pages": 4,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 4,
+        "pages_with_images_no_drawings": 4,
+        "max_drawing_items": 0
+      }
+    },
+    {
+      "name": "c3.pdf",
+      "file_id": 2841675,
+      "bytes": 370410,
+      "sha256": "9d9901b3eb500f2ee8153ed14cb5ff11a96b3093e291cf3c6ea52bf0a13a97a7",
+      "geometry": {
+        "pages": 8,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 8,
+        "pages_with_images_no_drawings": 8,
+        "max_drawing_items": 0
+      }
+    },
+    {
+      "name": "c4.pdf",
+      "file_id": 2841676,
+      "bytes": 4643556,
+      "sha256": "6f430dcae69e4bd790e3f39c9bbd470a2d3068b86d0ac034021a9d26e5156d82",
+      "geometry": {
+        "pages": 92,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 92,
+        "pages_with_images_no_drawings": 92,
+        "max_drawing_items": 0
+      }
+    },
+    {
+      "name": "c5.pdf",
+      "file_id": 2841677,
+      "bytes": 668614,
+      "sha256": "36c1570eeaf892026e894ae3ed97609421f4ba3c6658216b449c7194d089102c",
+      "geometry": {
+        "pages": 16,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 16,
+        "pages_with_images_no_drawings": 16,
+        "max_drawing_items": 0
+      }
+    }
+  ],
+  "target_union": {
+    "NGC2903": [],
+    "NGC5033": [],
+    "NGC5371": [],
+    "NGC6503": []
+  },
+  "native_numeric_profile_candidates": [],
+  "document_audits": [
+    {
+      "label": "thesis.pdf",
+      "geometry": {
+        "pages": 134,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 134,
+        "pages_with_images_no_drawings": 134,
+        "max_drawing_items": 0
+      },
+      "targets": [
+        {
+          "galaxy": "NGC2903",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5033",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5371",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC6503",
+          "pages": []
+        }
+      ],
+      "profile_language_pages": []
+    },
+    {
+      "label": "c1.pdf",
+      "geometry": {
+        "pages": 2,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 2,
+        "pages_with_images_no_drawings": 2,
+        "max_drawing_items": 0
+      },
+      "targets": [
+        {
+          "galaxy": "NGC2903",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5033",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5371",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC6503",
+          "pages": []
+        }
+      ],
+      "profile_language_pages": []
+    },
+    {
+      "label": "c2.pdf",
+      "geometry": {
+        "pages": 4,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 4,
+        "pages_with_images_no_drawings": 4,
+        "max_drawing_items": 0
+      },
+      "targets": [
+        {
+          "galaxy": "NGC2903",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5033",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5371",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC6503",
+          "pages": []
+        }
+      ],
+      "profile_language_pages": []
+    },
+    {
+      "label": "c3.pdf",
+      "geometry": {
+        "pages": 8,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 8,
+        "pages_with_images_no_drawings": 8,
+        "max_drawing_items": 0
+      },
+      "targets": [
+        {
+          "galaxy": "NGC2903",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5033",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5371",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC6503",
+          "pages": []
+        }
+      ],
+      "profile_language_pages": []
+    },
+    {
+      "label": "c4.pdf",
+      "geometry": {
+        "pages": 92,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 92,
+        "pages_with_images_no_drawings": 92,
+        "max_drawing_items": 0
+      },
+      "targets": [
+        {
+          "galaxy": "NGC2903",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5033",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5371",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC6503",
+          "pages": []
+        }
+      ],
+      "profile_language_pages": []
+    },
+    {
+      "label": "c5.pdf",
+      "geometry": {
+        "pages": 16,
+        "native_text_chars_total": 0,
+        "pages_with_native_text": 0,
+        "pages_with_drawings": 0,
+        "pages_with_images": 16,
+        "pages_with_images_no_drawings": 16,
+        "max_drawing_items": 0
+      },
+      "targets": [
+        {
+          "galaxy": "NGC2903",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5033",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC5371",
+          "pages": []
+        },
+        {
+          "galaxy": "NGC6503",
+          "pages": []
+        }
+      ],
+      "profile_language_pages": []
+    }
+  ],
+  "decision_fields": {
+    "full_thesis_recovered": true,
+    "n_documents_recovered": 6,
+    "targets_with_native_text": {
+      "NGC2903": false,
+      "NGC5033": false,
+      "NGC5371": false,
+      "NGC6503": false
+    },
+    "n_native_numeric_profile_candidates": 0
+  },
+  "promotion_rule": "Only a source-native radius-versus-Sigma_HI table or unambiguous vector profile geometry may be promoted. Rotation-curve tables, mass-model tables, and raster H I figures do not qualify.",
+  "boundary": "Acquisition/provenance only. No OCR, raster digitization, map-to-profile reconstruction, normalization, persistence fitting, or blind-outcome inspection."
+}
