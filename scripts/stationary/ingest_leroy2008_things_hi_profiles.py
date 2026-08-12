@@ -38,6 +38,11 @@ EXPECTED_ROLES = {
 SOURCE_COLUMNS = ["Name", "r", "r.n", "SigmaHI", "e_SigmaHI"]
 
 
+def canonicalize_source_name(name: str) -> str:
+    """Map VizieR display names such as ``NGC 2403`` to SPARC-style IDs."""
+    return "".join(name.split())
+
+
 def sha256(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as fh:
@@ -169,8 +174,11 @@ def main() -> None:
     url = build_url()
     source_rows = parse_vizier_tsv(read_text(input_path, url))
 
-    retained = [r for r in source_rows if r["Name"] in EXPECTED_ROLES]
-    found = {r["Name"] for r in retained}
+    retained = [
+        r for r in source_rows
+        if canonicalize_source_name(r["Name"]) in EXPECTED_ROLES
+    ]
+    found = {canonicalize_source_name(r["Name"]) for r in retained}
     missing = set(EXPECTED_ROLES) - found
     if missing:
         raise RuntimeError(f"Missing expected Leroy profiles: {sorted(missing)}")
@@ -180,7 +188,8 @@ def main() -> None:
     last_radius: dict[str, float] = {}
 
     for row in retained:
-        galaxy = row["Name"]
+        source_name = row["Name"]
+        galaxy = canonicalize_source_name(source_name)
         radius = finite_float(row["r"])
         sigma_hi = finite_float(row["SigmaHI"], allow_blank=True)
         sigma_err = finite_float(row["e_SigmaHI"], allow_blank=True)
@@ -206,6 +215,7 @@ def main() -> None:
             {
                 "galaxy": galaxy,
                 "stationary_role": EXPECTED_ROLES[galaxy],
+                "source_name_vizier": source_name,
                 "source_catalog": "J/AJ/136/2782",
                 "source_table": "table7",
                 "source_radius_kpc": f"{radius:g}",
