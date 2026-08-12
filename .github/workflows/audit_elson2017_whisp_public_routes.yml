@@ -1,0 +1,48 @@
+name: Audit Elson 2017 WHISP public routes
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/audit_elson2017_whisp_public_routes.py'
+      - '.github/workflows/audit_elson2017_whisp_public_routes.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit arXiv vector assets and legacy WHISP map routes
+        run: python scripts/stationary/audit_elson2017_whisp_public_routes.py
+      - name: Show compact audit findings
+        run: |
+          python - <<'PY'
+          import json
+          p='validation/stationary/elson2017_whisp_public_route_audit_v1.json'
+          d=json.load(open(p))
+          print('ARXIV_FILES',d['arxiv']['n_files'])
+          print('VECTOR_GRAPHICS',d['arxiv']['n_vector_graphics'])
+          print('PROFILE_ASSETS',d['arxiv']['candidate_profile_assets'])
+          print('LIVE_PROBES',d['live_probes'])
+          print('WAYBACK_UNIQUE',d['wayback']['n_unique_urls'])
+          print('WAYBACK_FITS_LIKE',d['wayback']['fits_like'][:50])
+          PY
+      - name: Commit audit product
+        run: |
+          git config user.name "mjiresearch"
+          git config user.email "michael.iuliano.research@gmail.com"
+          git add validation/stationary/elson2017_whisp_public_route_audit_v1.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Record Elson 2017 WHISP public-route audit"
+            git push
+          fi
