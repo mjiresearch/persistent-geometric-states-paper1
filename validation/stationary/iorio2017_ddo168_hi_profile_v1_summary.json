@@ -1,0 +1,20 @@
+{
+  "status": "RAW_PUBLIC_SOURCE_PROFILE_ACQUIRED",
+  "galaxy": "DDO168",
+  "stationary_role": "calibration",
+  "n_rows": 15,
+  "radius_arcsec_min": 15.0,
+  "radius_arcsec_max": 225.0,
+  "radius_kpc_min": 0.31,
+  "radius_kpc_max": 4.69,
+  "sigma_hi_min": 0.86,
+  "sigma_hi_max": 16.43,
+  "source_distance_mpc": 4.3,
+  "source_mean_inclination_deg": 62.0,
+  "source_mean_pa_deg": 272.7,
+  "source_member_sha256": "b6616306fd12e01c56d87a8d50ef1fe57d94e817c01adb616d19b24c8aba11fc",
+  "outer_zip_sha256": "967110269d59357ee3a94d1d6e46c2402aef38da3f674180d42044ceaf094173",
+  "output_sha256": "37dea9a3b5d42cb8a2a976e8a9e42ff75f36a6f4fdefeb7730ef3de804053953",
+  "helium_rule": "Iorio source Sdens is intrinsic HI surface density not corrected for helium. Acquisition values are preserved unchanged; helium is not applied until the common Paper I normalization convention is frozen.",
+  "normalization_rule": "No source-to-frozen distance rescaling, inclination rescaling, interpolation, extrapolation, taper, or persistence evaluation performed."
+}
