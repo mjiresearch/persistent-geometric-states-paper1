@@ -1,0 +1,146 @@
+{
+  "status": "SA96_ORIGINAL_HI_SOURCE_MAP_BUILT",
+  "source": "Sanders 1996 ApJ 473 117-129; arXiv astro-ph/9606089",
+  "n_priority_galaxies": 13,
+  "n_target_rows_found": 13,
+  "n_galaxies_mapped": 13,
+  "unmapped_galaxies": [],
+  "n_output_galaxy_source_rows": 24,
+  "n_unique_cited_sources": 15,
+  "unique_cited_sources": [
+    "Barnaby \\& Thronson 1992, 1994",
+    "Begeman 1987",
+    "Broeils 1992b",
+    "Broeils \\& Knappen 1991",
+    "Carignan 1985",
+    "Carignan \\& Puche 1990b",
+    "Carignan et al. 1990",
+    "Casertano \\& van Gorkom 1991",
+    "Cote et al. 1991",
+    "Kent 1985",
+    "Kent 1986",
+    "Puche et al. 1991",
+    "Roelfsema \\& Allen 1985",
+    "Sancisi \\& van Albada 1987",
+    "Wevers 1984"
+  ],
+  "missing_reference_numbers": [],
+  "target_rows": [
+    {
+      "galaxy": "NGC0055",
+      "line": 1016,
+      "raw_row": "NGC 55 & SBm & 1.6 & 0.43 &  & 9 & 0.13 & 86 & 0.27 & 24 \\\\",
+      "reference_numbers": [
+        24
+      ]
+    },
+    {
+      "galaxy": "NGC0247",
+      "line": 1010,
+      "raw_row": "NGC 247 & SBc & 2.8 & .35 & 0.22 & 11 & 0.13 & 107 & 0.34 & 15,16 \\\\",
+      "reference_numbers": [
+        15,
+        16
+      ]
+    },
+    {
+      "galaxy": "NGC0300",
+      "line": 1013,
+      "raw_row": "NGC 300 & Sc & 2.15 & 0.3 & & 12.7 & 0.13 & 90 & 0.21 & 15,16 \\\\",
+      "reference_numbers": [
+        15,
+        16
+      ]
+    },
+    {
+      "galaxy": "NGC0801",
+      "line": 1002,
+      "raw_row": "NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\",
+      "reference_numbers": [
+        1,
+        3
+      ]
+    },
+    {
+      "galaxy": "NGC1003",
+      "line": 1009,
+      "raw_row": "NGC 1003 & Scd & 11.8 & 1.5 & 0.45 & 33 & 0.82 & 110 & 0.12 & 3,4 \\\\",
+      "reference_numbers": [
+        3,
+        4
+      ]
+    },
+    {
+      "galaxy": "NGC2683",
+      "line": 1006,
+      "raw_row": "NGC 2683 & Sb & 5.1 & 0.6 &  & 18 & 0.05  & 155 & 0.43 & 11,12 \\\\",
+      "reference_numbers": [
+        11,
+        12
+      ]
+    },
+    {
+      "galaxy": "NGC2998",
+      "line": 1001,
+      "raw_row": "NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\",
+      "reference_numbers": [
+        3,
+        4
+      ]
+    },
+    {
+      "galaxy": "NGC5033",
+      "line": 1004,
+      "raw_row": "NGC 5033 & Sc & 11.9 & 1.9 & 3.9 & 35 & 0.93 & 195 & 0.35 & 8,10 \\\\",
+      "reference_numbers": [
+        8,
+        10
+      ]
+    },
+    {
+      "galaxy": "NGC5371",
+      "line": 1003,
+      "raw_row": "NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\",
+      "reference_numbers": [
+        8,
+        9
+      ]
+    },
+    {
+      "galaxy": "NGC5585",
+      "line": 1014,
+      "raw_row": "NGC 5585 & SBcd & 7.6 & 0.24 & 0.14 & 12 & 0.25 & 90 & 0.22 & 21 \\\\",
+      "reference_numbers": [
+        21
+      ]
+    },
+    {
+      "galaxy": "NGC5907",
+      "line": 1000,
+      "raw_row": "NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\",
+      "reference_numbers": [
+        6,
+        7
+      ]
+    },
+    {
+      "galaxy": "NGC6674",
+      "line": 999,
+      "raw_row": "NGC 6674 & SBb & 49 & 6.8 & & 69 & 3.9 & 242 & 0.28 & 3,4 \\\\",
+      "reference_numbers": [
+        3,
+        4
+      ]
+    },
+    {
+      "galaxy": "UGC02885",
+      "line": 997,
+      "raw_row": "UGC 2885 & Sbc & 79 & 21. &   & 73 & 5.0 & 300 & 0.40 & 1,2 \\\\",
+      "reference_numbers": [
+        1,
+        2
+      ]
+    }
+  ],
+  "interpretation_boundary": "This file resolves Sanders 1996's per-galaxy reference numbers to cited earlier papers. It does not assert that those papers expose radial H I surface-density profiles; source-level audits remain required."
+}
