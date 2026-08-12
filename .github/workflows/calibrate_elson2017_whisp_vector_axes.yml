@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/stationary/calibrate_elson2017_whisp_vector_axes.py'
+      - 'scripts/stationary/calibrate_elson2017_whisp_vector_axes_v2.py'
       - '.github/workflows/calibrate_elson2017_whisp_vector_axes.yml'
   workflow_dispatch:
 
@@ -23,7 +24,7 @@ jobs:
       - name: Install vector PDF parser
         run: pip install --disable-pip-version-check pymupdf
       - name: Calibrate WHISP Appendix vector axes
-        run: python scripts/stationary/calibrate_elson2017_whisp_vector_axes.py
+        run: python scripts/stationary/calibrate_elson2017_whisp_vector_axes_v2.py
       - name: Show calibration summary
         run: |
           python - <<'PY'
@@ -31,6 +32,7 @@ jobs:
           p='validation/stationary/elson2017_whisp_vector_axis_calibration_v1.json'
           d=json.load(open(p))
           print('STATUS', d['status'])
+          print('MAPPING', d.get('panel_mapping'))
           print('TARGETS', d['n_targets'], 'WITH_CANDIDATE', d['n_with_candidate'], 'UNSOLVED', d['unsolved_galaxies'])
           for r in d['targets']:
               b=r['best']
