@@ -1,0 +1,47 @@
+name: Audit Stevens 2019 source package
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/audit_stevens2019_source_package.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect arXiv source package for observational data files
+        run: |
+          python - <<'PY'
+          import io, os, re, tarfile, urllib.request
+          url='https://export.arxiv.org/e-print/1908.11149'
+          req=urllib.request.Request(url,headers={'User-Agent':'PersistenceFrameworkPaperI/1.0'})
+          raw=urllib.request.urlopen(req,timeout=60).read()
+          print('ARXIV_BYTES',len(raw))
+          tf=tarfile.open(fileobj=io.BytesIO(raw),mode='r:*')
+          members=[m for m in tf.getmembers() if m.isfile()]
+          print('FILE_COUNT',len(members))
+          for m in members:
+              print('FILE',m.name,m.size)
+          pats=re.compile(r'(THINGS|LITTLE|LVHIS|Bluedisk|profile|Sigma|observ|galaxy)',re.I)
+          print('\nTEXT_HITS')
+          for m in members:
+              if not m.name.lower().endswith(('.tex','.txt','.dat','.csv','.py','.json','.tab')):
+                  continue
+              try:
+                  text=tf.extractfile(m).read().decode('utf-8','ignore')
+              except Exception:
+                  continue
+              hitlines=[(i+1,l) for i,l in enumerate(text.splitlines()) if pats.search(l)]
+              if hitlines:
+                  print('\n###',m.name,'HITS',len(hitlines))
+                  for i,l in hitlines[:80]: print(f'{i}: {l[:500]}')
+          PY
