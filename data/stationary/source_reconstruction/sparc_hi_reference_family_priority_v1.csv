@@ -1,5 +1,4 @@
 sparc_ref_id,n_untouched_frozen_galaxies,n_calibration,n_blind,queue_actionable_now,queue_status,disposition,disposition_artifact,reopen_rule,reference_resolved_in_cds_refs,author,bibcode,comment,galaxies
-Fr11,2,2,0,1,actionable_unreviewed,,,,1,Fraternali et al.,2011A&A...531A..64F,,NGC0891;NGC7814
 Ha14,2,2,0,1,actionable_unreviewed,,,,1,Hallenbeck et al.,2014AJ....148...69H,,UGC09037;UGC12506
 Le14,2,2,0,1,actionable_unreviewed,,,,1,Lelli et al.,2014A&A...566A..71L,Cat. J/A+A/566/A71,NGC4068;UGC04483
 Tr09,2,2,0,1,actionable_unreviewed,,,,1,Trachternarch et al.,2009A&A...505..577T,,D564-8;D631-7
@@ -43,3 +42,4 @@ dB02,5,3,2,0,redirected_to_original_sources,downstream_halpha_mass_model_paper_d
 Be87,4,3,1,0,defer_until_new_mechanism,official_full_thesis_recovered_but_entire_document_is_page_image_scan,validation/stationary/begeman1987_thesis_hi_profile_audit_v1.json,new_machine_readable_radial_table_calibrated_map_cube_or_exact_vector_republication,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",NGC2903;NGC5033;NGC5371;NGC6503
 VH93,3,3,0,0,defer_until_new_mechanism,direct_radial_hi_profiles_public_but_current_profile_values_are_figure_scan_only,validation/stationary/VH93_PUBLIC_PROFILE_ROUTE_AUDIT_V1.md,new_machine_readable_radial_table_calibrated_map_cube_or_exact_vector_republication,1,van der Hulst et al.,1993AJ....106..548V,,UGC00128;UGC05005;UGC06614
 dB96,3,2,1,0,partially_resolved,five_of_eight_frozen_targets_recovered_via_public_analytic_republication,validation/stationary/DB96_JADHAV2019_PROFILE_RECOVERY_V1.md,new_direct_public_profile_map_table_or_republication_for_remaining_three,1,de Blok et al.,1996MNRAS.283...18D,,F565-V2;F571-8;F571-V1
+Fr11,2,2,0,0,defer_until_new_mechanism,fr11_radial_hi_profiles_are_derived_from_upstream_total_hi_maps_but_exact_public_numeric_vector_route_exhausted,validation/stationary/fr11_upstream_hi_source_audit_v1.json,new_machine_readable_radial_profile_exact_vector_republication_or_public_derived_profile_array,1,Fraternali et al.,2011A&A...531A..64F,,NGC0891;NGC7814
