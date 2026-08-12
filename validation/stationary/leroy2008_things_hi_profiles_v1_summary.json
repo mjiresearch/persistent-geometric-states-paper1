@@ -1,0 +1,27 @@
+{
+  "status": "RAW_PUBLIC_SOURCE_PROFILE_ACQUIRED",
+  "source_catalog": "J/AJ/136/2782/table7",
+  "source_url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J%2FAJ%2F136%2F2782%2Ftable7&-out=Name%2Cr%2Cr.n%2CSigmaHI%2Ce_SigmaHI&-out.max=10000",
+  "source_rows_total": 687,
+  "retained_rows": 369,
+  "n_galaxies": 11,
+  "n_calibration": 6,
+  "n_blind": 5,
+  "rows_per_galaxy": {
+    "DDO154": 7,
+    "IC2574": 46,
+    "NGC2403": 57,
+    "NGC2841": 25,
+    "NGC2976": 26,
+    "NGC3198": 23,
+    "NGC3521": 30,
+    "NGC5055": 43,
+    "NGC6946": 41,
+    "NGC7331": 33,
+    "NGC7793": 38
+  },
+  "helium_rule": "Source-published SigmaHI already includes helium; values preserved unchanged. No second helium correction and no raw-HI back-conversion in this acquisition product.",
+  "normalization_rule": "No distance rescaling, inclination rescaling, interpolation, extrapolation, taper, or persistence evaluation performed.",
+  "split_sha256": "eceac43dc287326eb126b150a940d6681b4bbfe0015e5efc8ef4769876f9a9d1",
+  "output_sha256": "d0cc498aaf7b378bf9affe19f0ca5ea7f638622e23517986ee2ee6477d7ddc75"
+}
