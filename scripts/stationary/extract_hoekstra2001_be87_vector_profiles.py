@@ -32,7 +32,7 @@ OUT=Path("data/stationary/source_reconstruction/hoekstra2001_be87_hi_vector_prof
 QC=Path("validation/stationary/hoekstra2001_be87_hi_vector_profiles_candidate_v1_summary.json")
 TARGETS={
     (1,1):("NGC2903","calibration","Begeman 1987 + Kent 1987"),
-    (1,2):("NGC5033","calibration","Kent 1986 + Begeman 1987"),
+    (1,2):("NGC5033","blind","Kent 1986 + Begeman 1987"),
     (3,4):("NGC5371","calibration","Begeman 1987 + Wevers et al. 1984"),
 }
 
