@@ -1,0 +1,37 @@
+name: Audit WHISP 2017 frozen overlap
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/audit_whisp2017_frozen_overlap.py'
+      - '.github/workflows/audit_whisp2017_frozen_overlap.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Crossmatch Butler 2017 WHISP sample to frozen 149
+        run: python scripts/stationary/audit_whisp2017_frozen_overlap.py
+      - name: Show summary
+        run: cat validation/stationary/whisp2017_frozen_overlap_audit_v1_summary.json
+      - name: Commit audit products
+        run: |
+          git config user.name "mjiresearch"
+          git config user.email "michael.iuliano.research@gmail.com"
+          git add data/stationary/source_reconstruction/whisp2017_frozen_overlap_audit_v1.csv validation/stationary/whisp2017_frozen_overlap_audit_v1_summary.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Record WHISP 2017 frozen-sample overlap"
+            git push
+          fi
