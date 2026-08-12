@@ -1,0 +1,63 @@
+{
+  "status": "BA05_FIG3_ASSETS_CLASSIFIED",
+  "tex_lines_360_405": "360: Outside this range the inclination angle is not constant. We found\n361: i$=$66.1$\\degr$ $\\pm$ 0.8$\\degr$ and i$=$68.4$\\degr$ $\\pm$\n362: 0.6$\\degr$ for the approaching and receding sides respectively.\n363: Finally, we have determined the position angles separately for the\n364: two sides of the galaxy. The mean values (obtained by averaging\n365: over the whole galaxy) for the inclination and the position angles\n366: are 67.2$\\degr$ $\\pm$ 0.6$\\degr$ and -37.0$\\degr$ $\\pm$\n367: 1.4$\\degr$, respectively. \n368: \n369: Using the values found for the inclination and position angles, we\n370: have determined the rotation curve first for the two sides of the\n371: galaxy separately and then for the whole galaxy (Fig.\n372: \\ref{rotcur}). As already noted, NGC\\,4559 is kinematically\n373: lopsided. The rotation curves of the two sides of the galaxy are\n374: significantly different. The rotation curve of the approaching\n375: side rises to 110 km s$^{-1}$ inside 5 kpc and subsequently\n376: flattens, while on the receding side it continues to rise out to\n377: the outer parts where it reaches 123 km s$^{-1}$. This can also be\n378: seen in the velocity field, where the isovelocity contours are\n379: more curved on the approaching S-E side (see Figure 1).\n380: \n381: \\begin{figure}\n382: \\includegraphics[width=140mm]{global_rev_r.eps}\n383: \\caption{Global H\\,{\\small I} line profile (left) and column\n384: density radial profile (right).} \\label{global_rev}\n385: \\end{figure}\n386: \n387: \\begin{figure}\n388: \\includegraphics[width=100mm]{sovrapp_curve15_art_r.eps}\n389: \\caption{Rotation curves obtained for the two sides of NGC\\,4559.\n390: The continuous line shows the curve obtained for the whole galaxy.}\n391: \\label{rotcur}\n392: \\end{figure}\n393: \n394: In the Appendix we present two mass models for NGC\\,4559. The\n395: maximum disk fit gives a mass-to-light ratio M/L=0.27 in K-band.\n396: In order to determine the error bars of the rotation curve in\n397: Fig.\\ref{rotcur_anom} and Fig. \\ref{isot}, we have\n398:  constructed a residual velocity field by subtracting a model from\n399: the observed velocity field.\n400: Then, we have taken the mean values along ellipses defined by the position\n401: and the inclination angles obtained from the tilted-ring model analysis.\n402: In this way the error bars give also a measure of the deviations from\n403: circular motion.\n404: \n405: \\section{Extra-planar gas}",
+  "graphics_references": [
+    {
+      "line": 382,
+      "asset": "global_rev_r.eps"
+    },
+    {
+      "line": 388,
+      "asset": "sovrapp_curve15_art_r.eps"
+    }
+  ],
+  "assets": [
+    {
+      "line": 382,
+      "name": "global_rev_r.eps",
+      "audit": {
+        "bytes": 9411,
+        "sha256": "f29682aaadcf93c982b66c9400167705c51dd291f176ee512c2eabae207d814a",
+        "creator_lines": [
+          "%%Creator: GIMP PostScript file plugin V 1.15 by Peter Kirchgessner",
+          "%%BoundingBox: 14 14 481 186"
+        ],
+        "image_ops": 1,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto": 0,
+        "lineto": 0,
+        "rlineto": 0,
+        "curveto": 0,
+        "stroke": 0,
+        "fill": 0
+      }
+    },
+    {
+      "line": 388,
+      "name": "sovrapp_curve15_art_r.eps",
+      "audit": {
+        "bytes": 11202,
+        "sha256": "c6a2f2e9008189419f835140986e7fa128e6036c2080908427bc7cae87c077bf",
+        "creator_lines": [
+          "%%Creator: GIMP PostScript file plugin V 1.15 by Peter Kirchgessner",
+          "%%BoundingBox: 14 14 483 347"
+        ],
+        "image_ops": 1,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto": 0,
+        "lineto": 0,
+        "rlineto": 0,
+        "curveto": 0,
+        "stroke": 0,
+        "fill": 0
+      }
+    }
+  ],
+  "decision_fields": {
+    "all_referenced_assets_raster_wrapped": true,
+    "any_substantive_native_path_signal": false
+  },
+  "boundary": "Figure-3 asset classification only; no rendering, OCR, raster digitization, map reconstruction, persistence fitting, or blind-outcome inspection."
+}
