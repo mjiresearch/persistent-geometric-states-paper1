@@ -1,0 +1,62 @@
+name: Promote Ha14 and rerank stationary HI queue
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/integrate_ha14_native_profiles_into_overlay.py'
+      - '.github/workflows/promote_ha14_and_rerank.yml'
+permissions:
+  contents: write
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Promote already-recovered Ha14 profiles
+        run: python scripts/stationary/integrate_ha14_native_profiles_into_overlay.py
+      - name: Reconcile frozen-149 provenance
+        run: python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+      - name: Rerank remaining Lelli SPARC source families
+        run: python scripts/stationary/rank_sparc_hi_reference_families.py
+      - name: Write final resume checkpoint
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('validation/stationary/sparc_hi_reference_family_priority_v1_summary.json')
+          s=json.loads(p.read_text())
+          top=s.get('top_15_actionable_reference_families',[])
+          first=top[0] if top else None
+          q=Path('validation/stationary/CHECKPOINT_AFTER_HA14_PROMOTION.md')
+          txt=q.read_text()
+          txt += '\n## Reranked live queue\n'
+          if first:
+              txt += f"Next actionable family: **{first['sparc_ref_id']}** — {first['n_untouched_frozen_galaxies']} untouched frozen galaxies ({first['n_calibration']} calibration, {first['n_blind']} blind). Galaxies: {first['galaxies']}.\n"
+          else:
+              txt += 'No actionable family remains in the current priority table.\n'
+          txt += '\nPriority summary: `validation/stationary/sparc_hi_reference_family_priority_v1_summary.json`\n'
+          q.write_text(txt)
+          print(json.dumps({'next':first,'n_untouched':s.get('n_untouched_no_public_overlay'),'n_actionable':s.get('n_actionable_reference_families')},indent=2))
+          PY
+      - name: Commit promotion, reconciliation, ranking, and checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv \
+            data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv \
+            data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv \
+            validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json \
+            data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv \
+            validation/stationary/sparc_hi_reference_family_priority_v1_summary.json \
+            validation/stationary/CHECKPOINT_AFTER_HA14_PROMOTION.md
+          if git diff --cached --quiet; then echo 'No generated changes'; else
+            git commit -m 'Promote Ha14 profiles and advance source queue'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
