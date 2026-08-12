@@ -1,33 +1,95 @@
 #!/usr/bin/env python3
-"""Insert/replace the current stationary H I database checkpoint in PROJECT_LEDGER.md."""
+"""Insert/replace the current stationary H I database checkpoint in PROJECT_LEDGER.md.
+
+The checkpoint is generated from the current durable acquisition products rather
+than hard-coded counts, so GitHub remains the cross-session source of truth.
+"""
+from __future__ import annotations
+
+import csv
+import json
 from pathlib import Path
 
 P=Path("PROJECT_LEDGER.md")
+RECON=Path("validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json")
+PRIORITY=Path("validation/stationary/sparc_hi_reference_family_priority_v1_summary.json")
+DISP=Path("data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv")
 START="<!-- AUTO-STATIONARY-HI-CHECKPOINT-START -->"
 END="<!-- AUTO-STATIONARY-HI-CHECKPOINT-END -->"
+
+recon=json.loads(RECON.read_text(encoding="utf-8"))
+priority=json.loads(PRIORITY.read_text(encoding="utf-8"))
+with DISP.open(newline="",encoding="utf-8-sig") as fh:
+    dispositions={r["sparc_ref_id"]:r for r in csv.DictReader(fh)}
+
+profile_counts=recon["profile_recovered_or_ingested_role_counts"]
+overlay_counts=recon["overlay_role_counts"]
+effective=recon["effective_status_counts"]
+raw_n=int(effective.get("raw_source_profile_ingested",0))
+analytic_n=int(effective.get("analytic_profile_recovered",0))
+vector_n=int(effective.get("vector_profile_candidate_recovered",0))
+
+# Find first genuinely actionable family after applying the durable disposition file.
+next_family=None
+for fam in priority.get("top_15_actionable_reference_families",[]):
+    ref=fam["sparc_ref_id"]
+    d=dispositions.get(ref)
+    if d and d.get("queue_status") in {"defer_until_new_mechanism","redirected_to_original_sources"}:
+        continue
+    if d and d.get("queue_status")=="partially_resolved":
+        # Partial families remain available only for their documented residual subset,
+        # but do not outrank a larger untouched family solely because the priority file
+        # predates the disposition update.
+        continue
+    next_family=fam
+    break
+
+if next_family is None:
+    next_line="No undispositioned multi-galaxy family remains in the current priority list; regenerate the priority queue."
+else:
+    next_line=(
+        f"**{next_family['sparc_ref_id']} — {next_family['author']}**: "
+        f"{next_family['n_untouched_frozen_galaxies']} untouched frozen galaxies "
+        f"({next_family['n_calibration']} calibration + {next_family['n_blind']} blind): "
+        f"{next_family['galaxies']}."
+    )
+
+closed=[]
+for ref in ("VS01","SV98","Sw02","Sw09","Sa96","No05","No07"):
+    if ref in dispositions:
+        d=dispositions[ref]
+        closed.append(f"`{ref}` → {d['queue_status']} / {d['disposition']}")
+closed_text="; ".join(closed)
+
+db96=dispositions.get("dB96",{})
+db96_line=(
+    "`dB96` is **partially resolved**: public analytic atomic-H I profiles are recovered for "
+    "F568-3, F568-V1, F574-1, F583-1 and F583-4; only F565-V2, F571-8 and F571-V1 remain pending."
+) if db96 else ""
+
 BLOCK=f'''{START}
 
 ## Current stationary H I database checkpoint — 2026-08-12
 
 **Status:** PUBLIC-DATA ACQUISITION IN PROGRESS. `L_A` and `\\mathcal C_A` remain **LOCKED**.
 
-- Frozen stationary sample remains **149 galaxies = 104 calibration + 45 blind**.
-- Current reconciled public-source overlay covers **43/149 galaxies = 30 calibration + 13 blind**.
-- Preferred source-quality state remains **16 actual recovered/ingested profiles = 11 calibration + 5 blind**: **14 machine-readable raw/source profiles + 2 analytic profiles**.
-- Elson/WHISP public vector Appendix route is now recovered for **19 frozen galaxies = 15 calibration + 4 blind**, yielding **947 numerical candidate rows** with zero basic QC failures.
-- WHISP distinction is locked: the **red H I curve geometry is exact vector data from the published Appendix PDFs**, while physical axis scales are reconstructed from audited source `R_HI` and mean-`Sigma_HI` anchors. These rows remain `vector_profile_candidate_recovered`, not final frozen source profiles.
-- UGC05918/DDO87 and UGC07559/DDO126 retain their superior Iorio machine-readable profiles as preferred sources; WHISP is secondary QC for them. UGC05829 is upgraded from Taylor-map-only to a numerical WHISP candidate while Taylor 1994 provenance is retained.
-- Lelli et al. (2016) SPARC Table 1 provenance has been converted into `sparc_hi_reference_map_v1.csv` for **all 149 frozen galaxies**, producing **271 galaxy-reference rows across 58 distinct SPARC reference IDs**. Five CDS shorthand IDs (`Ba06`, `Bm05`, `Fr02`, `VB99`, `VdH93`) remain explicitly unresolved rather than dropped.
-- Lelli's per-galaxy `Ref` field is now the authoritative acquisition map to the original H I/Halpha observations. It does **not** establish that the later 169-galaxy azimuthally averaged H I profile compilation is publicly downloadable.
-- Ranking only galaxies with **no current public-source overlay** leaves **106 untouched frozen galaxies across 45 Lelli/SPARC reference families**.
-- Highest-yield untouched family is the **Ursa Major / Verheijen & Sancisi 2001 (`VS01`) / Sanders & Verheijen 1998 (`SV98`) block: 27 frozen galaxies = 19 calibration + 8 blind**.
-- Verheijen & Sancisi (2001) explicitly published radial H I surface-density profiles in its 43-galaxy WSRT atlas. CDS `J/A+A/370/765` exposes membership, photometry, global H I, rotation-curve and synthesis-result tables, but not a numerical radial-`Sigma_HI` table. The live acquisition step is therefore a one-pass audit of the public arXiv/original atlas for reusable vector profile assets.
-- **Do not retry** closed routes (dead legacy WHISP host, Bluedisk zero-overlap block, Stevens arXiv-no-array block, exhausted low-fidelity Cote/van Zee/NGC3741/Taylor routes) unless a genuinely new data mechanism appears.
+- Frozen stationary sample remains **{recon['n_frozen_galaxies']} galaxies = 104 calibration + 45 blind**.
+- Current reconciled public-source overlay covers **{recon['n_public_overlay_galaxies']}/149 galaxies = {overlay_counts['calibration']} calibration + {overlay_counts['blind']} blind**.
+- **{recon['n_profile_recovered_or_ingested']} galaxies now have an actual recovered/ingested profile or analytic model = {profile_counts['calibration']} calibration + {profile_counts['blind']} blind**.
+- Preferred recovered-source breakdown: **{raw_n} machine-readable raw/source profiles + {analytic_n} analytic profiles**. An additional **{vector_n} WHISP vector-profile candidates** remain candidate-level rather than final frozen source profiles.
+- Lelli et al. (2016) SPARC provenance has been converted into a per-galaxy H I/Halpha source map for **all 149 frozen galaxies**. The current acquisition queue is therefore source-directed rather than a blind literature search.
+- Lelli's `Ref` field identifies the underlying observational/source publication, but it does **not** by itself prove that the cited paper contains a direct machine-readable radial `Sigma_HI(R)` profile; each family is classified separately as direct profile, map/cube, downstream analysis, or unresolved.
+- Current untouched pool after public-source overlay: **{priority['n_untouched_no_public_overlay']} galaxies** across **{priority['n_reference_families_covering_untouched']} reference families**; **{priority['n_actionable_reference_families']}** are currently actionable before applying newly landed dispositions.
+- Durable anti-loop dispositions: {closed_text}.
+- {db96_line}
+- `Sa96` has been decomposed into its original observing citations; do not treat Sanders 1996 itself as an H I profile source again.
+- **Do not retry** a dispositioned source mechanism unless the file's explicit `reopen_rule` is satisfied by a genuinely new public mechanism.
 
-**Current resume point:** Ursa Major `VS01/SV98` 27-galaxy public atlas/vector audit, then ingest if a defensible vector/numeric route exists; otherwise advance to the next Lelli-ranked family without looping.
+**Current resume point:** {next_line}
 
 {END}
 '''
+
 text=P.read_text(encoding="utf-8")
 if START in text and END in text:
     a=text.index(START); b=text.index(END,a)+len(END)
@@ -36,7 +98,6 @@ else:
     marker="> **Authority rule:**"
     idx=text.find(marker)
     if idx>=0:
-        # insert after the authority-rule paragraph (next blank line)
         pos=text.find("\n\n",idx)
         pos=len(text) if pos<0 else pos+2
         text=text[:pos]+BLOCK+"\n"+text[pos:]
@@ -44,3 +105,4 @@ else:
         text=BLOCK+"\n"+text
 P.write_text(text,encoding="utf-8")
 print("Updated",P)
+print("resume:",next_line)
