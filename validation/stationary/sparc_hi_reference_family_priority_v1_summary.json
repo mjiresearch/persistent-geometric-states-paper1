@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 38,
-  "n_deferred_or_redirected_reference_families": 6,
+  "n_actionable_reference_families": 37,
+  "n_deferred_or_redirected_reference_families": 7,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Sw09",
-      "n_untouched_frozen_galaxies": 9,
-      "n_calibration": 5,
-      "n_blind": 4,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Swaters et al.",
-      "bibcode": "2009A&A...493..871S",
-      "comment": "",
-      "galaxies": "UGC00731;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837"
-    },
     {
       "sparc_ref_id": "Br92",
       "n_untouched_frozen_galaxies": 6,
@@ -245,6 +229,22 @@
       "bibcode": "1997MNRAS.290..533D",
       "comment": "",
       "galaxies": "F565-V2;F571-V1"
+    },
+    {
+      "sparc_ref_id": "Ba05",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Barbieri et al.",
+      "bibcode": "2005A&A...439..947B",
+      "comment": "",
+      "galaxies": "NGC4559"
     }
   ],
   "deferred_or_redirected_families": [
@@ -343,6 +343,22 @@
       "bibcode": "2007MNRAS.376.1513N",
       "comment": "",
       "galaxies": "UGC02487;UGC02916;UGC02953;UGC03205;UGC03546;UGC03580;UGC05253;UGC06786;UGC06787;UGC08699;UGC09133;UGC11914"
+    },
+    {
+      "sparc_ref_id": "Sw09",
+      "n_untouched_frozen_galaxies": 9,
+      "n_calibration": 5,
+      "n_blind": 4,
+      "queue_actionable_now": "0",
+      "queue_status": "redirected_to_original_sources",
+      "disposition": "downstream_rotation_curve_analysis_uses_sw02_whisp_hi_observations",
+      "disposition_artifact": "validation/stationary/sw02_recovered_figure_block_audit_v1.json",
+      "reopen_rule": "new_independent_profile_asset",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Swaters et al.",
+      "bibcode": "2009A&A...493..871S",
+      "comment": "",
+      "galaxies": "UGC00731;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837"
     }
   ],
   "interpretation": "Coverage and actionability are separated. Families with no public overlay remain visible, but audited anti-loop dispositions prevent exhausted or redirected source families from reappearing at the head of the live acquisition queue.",
