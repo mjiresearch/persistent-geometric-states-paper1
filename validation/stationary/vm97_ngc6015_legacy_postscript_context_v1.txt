@@ -1,0 +1,44 @@
+PS_URL=https://cdsarc.cds.unistra.fr/ftp/vizier/aa/papers/7321003/2300754.ps.gz
+compressed_sha=9d107e1eec298c5a9354a120a507e63ed44b39df1087a6b5de82fdb4f333c0d5
+uncompressed_sha=24faeea7672ca9da91538f4960e1f016f0e12e56eaea8db9fce952752fd24bdf
+ops={"image": 28, "colorimage": 3, "imagemask": 0, "moveto": 82, "lineto": 26, "rlineto": 79, "curveto": 0, "arc": 16, "stroke": 211, "fill": 9, "show": 0}
+BEGIN_DOCUMENTS
+07540001.eps
+07540002.eps
+07540003.eps
+07540004.eps
+07540005.eps
+07540006.eps
+07540007.eps
+07540008.eps
+07540009.eps
+07540010.eps
+07540011.eps
+07540012.eps
+
+PAGES
+{"label": "754", "ordinal": 1, "chars": 12621, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 0, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015", "NGC", "6015", "HI", "NGC", "6015", "HI", "this", "HI", "HI", "NGC", "6015", "kpc", "optical/HI", "NGC", "6015", "which", "HI", "NGC", "this", "which", "this", "HI", "NGC", "6015,", "NGC", "6015", "NGC", "NGC", "6015.", "HII", "NGC", "6015,", "radius", "while", "HI"], "begin_documents": []}
+{"label": "755", "ordinal": 2, "chars": 1235, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 4, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["NGC", "6015"], "begin_documents": ["07540001.eps"]}
+{"label": "1", "ordinal": 1, "chars": 1909381, "image_ops": 7, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 3, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015", "arithmic", "Higher", "white", "this", "HI", "redshift", "NGC", "kpc", "NGC", "6015\\", "NGC", "6015.", "NGC", "NGC", "6015", "kpc,", "kpc", "NGC", "6015"], "begin_documents": []}
+{"label": "756", "ordinal": 3, "chars": 1231, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 4, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["NGC", "6015"], "begin_documents": ["07540002.eps"]}
+{"label": "1", "ordinal": 1, "chars": 55359, "image_ops": 1, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 3, "lineto_ops": 11, "stroke_ops": 3, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["radius", "Heiles", "Mathis", "this", "HI", "This", "smoothing", "achie", "higher", "HI", "arithmic", "NGC", "6015.", "radius", "which"], "begin_documents": []}
+{"label": "757", "ordinal": 4, "chars": 1232, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 4, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["NGC", "6015"], "begin_documents": ["07540003.eps"]}
+{"label": "1", "ordinal": 1, "chars": 49325, "image_ops": 5, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 14, "stroke_ops": 4, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["their", "HI", "density", "arcsec", "kpc,", "radius", "this", "third", "NGC", "6015", "radius", "radius", "high", "this", "their", "NGC", "6015", "radius", "which", "radius", "radius,", "NGC", "6015", "radius", "radius", "HII", "radius"], "begin_documents": []}
+{"label": "758", "ordinal": 5, "chars": 4842, "image_ops": 3, "colorimage_ops": 3, "imagemask_ops": 0, "moveto_ops": 1, "lineto_ops": 1, "stroke_ops": 1, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015"], "begin_documents": ["07540004.eps"]}
+{"label": "0", "ordinal": 1, "chars": 393738, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 0, "lineto_ops": 0, "stroke_ops": 161, "fill_ops": 1, "arc_ops": 0, "interesting_strings": [], "begin_documents": []}
+{"label": "759", "ordinal": 6, "chars": 1234, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 4, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["NGC", "6015"], "begin_documents": ["07540005.eps"]}
+{"label": "1", "ordinal": 1, "chars": 932794, "image_ops": 6, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 2, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["HI", "density", "NGC", "6015.", "NGC", "6015.", "kpc\\", "HI", "HI", "NGC", "6015", "This", "NGC", "6015.", "this", "density", "within", "their", "HI", "radius"], "begin_documents": []}
+{"label": "760", "ordinal": 7, "chars": 9156, "image_ops": 2, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 4, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["NGC", "6015", "blueshifted", "redshifted", "HI", "density", "HI", "density", "NGC", "6015.", "radius", "HI", "HI", "HI", "higher", "HI", "within", "HI", "This", "HI", "density", "HI", "HI", "HI", "radius", "HI", "density", "This", "HI", "HI", "this", "HI", "This"], "begin_documents": ["07540006.eps"]}
+{"label": "1", "ordinal": 1, "chars": 13364, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 7, "lineto_ops": 0, "stroke_ops": 5, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["HI", "density", "NGC", "6015", "HI"], "begin_documents": ["07540007.eps"]}
+{"label": "1", "ordinal": 1, "chars": 19131, "image_ops": 1, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 0, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015", "HI", "HI", "HI"], "begin_documents": []}
+{"label": "761", "ordinal": 8, "chars": 10021, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 4, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["NGC", "6015", "kpc\\", "kpc\\", "kpc\\", "kpc\\", "This", "radius", "approaching", "within", "HI", "radius.", "This", "HI", "this", "approaching", "This", "higher", "HI", "HI", "radius", "Higher"], "begin_documents": ["07540008.eps"]}
+{"label": "1", "ordinal": 1, "chars": 19741, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 4, "fill_ops": 1, "arc_ops": 2, "interesting_strings": ["HI", "HI", "approaching"], "begin_documents": ["07540009.eps"]}
+{"label": "2", "ordinal": 2, "chars": 38654, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 0, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["HI", "NGC", "6015", "NGC", "6015", "optical/HI"], "begin_documents": []}
+{"label": "762", "ordinal": 9, "chars": 9307, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 3, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015", "Radius", "Radius", "arcsec\\", "arcsec\\", "which", "which", "which", "within", "kpc,", "density", "radius", "radius", "NGC", "6015", "NGC", "6015,", "which", "thickness", "radius."], "begin_documents": ["07540010.eps"]}
+{"label": "1", "ordinal": 1, "chars": 45800, "image_ops": 2, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 0, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015.", "this", "NGC", "6015", "HI", "HI", "kpc.", "think", "this", "radius", "this", "This", "his"], "begin_documents": []}
+{"label": "763", "ordinal": 10, "chars": 1050, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 3, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015"], "begin_documents": ["07540011.eps"]}
+{"label": "1", "ordinal": 1, "chars": 29250, "image_ops": 1, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 6, "lineto_ops": 0, "stroke_ops": 3, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["radius", "NGC", "6015"], "begin_documents": ["07540012.eps"]}
+{"label": "1", "ordinal": 1, "chars": 22869, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 0, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["radius", "kpc", "this", "NGC", "6015", "this", "NGC", "NGC", "6015", "radius,", "kpc", "kpc", "radius", "kpc,", "kpc.", "This", "while", "NGC", "6015", "this", "their", "while", "orthwhile", "NGC", "6015,", "their", "NGC", "6015"], "begin_documents": []}
+{"label": "764", "ordinal": 11, "chars": 9172, "image_ops": 0, "colorimage_ops": 0, "imagemask_ops": 0, "moveto_ops": 0, "lineto_ops": 0, "stroke_ops": 0, "fill_ops": 0, "arc_ops": 0, "interesting_strings": ["NGC", "6015", "this", "kpc", "which", "This", "this", "this", "Heiles,", "Third", "Hiotelis,", "ashington", "Mathis", "Mathis", "This"], "begin_documents": []}
+
+CONTEXTS
