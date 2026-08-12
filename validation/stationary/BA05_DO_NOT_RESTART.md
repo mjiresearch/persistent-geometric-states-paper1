@@ -1,0 +1,1 @@
+Ba05 audit is active. Do not restart prior source families. Await/use the committed output from `.github/workflows/audit_ba05_ngc4559_hi_profile.yml`, then either extract the Figure 3 native-vector radial H I series or disposition the public exact route and rerank. L_A and C_A remain locked.
