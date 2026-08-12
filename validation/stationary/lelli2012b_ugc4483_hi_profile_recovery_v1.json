@@ -1,0 +1,110 @@
+{
+  "status": "UGC4483_NATIVE_VECTOR_HI_PROFILE_RECOVERED",
+  "galaxy_frozen_name": "UGC04483",
+  "source_name": "UGC4483",
+  "source": "Lelli et al. 2012b, A&A 544 A145",
+  "arxiv": "1207.2696",
+  "figure": "Figure 6 / Fig6.eps",
+  "fig6_sha256": "335c2befde39ba7b6d61c5129215dd97247a781c86a5d472240a9df4ce35ff7e",
+  "profile_csv": "data/stationary/source_reconstruction/lelli2012b_ugc4483_hi_profile_v1.csv",
+  "series_identification": "Figure caption says entire galaxy = dots; gnuplot CircleF has 10 monotonic radial calls plus one non-monotonic legend call.",
+  "axis_calibration": {
+    "radius_kpc_source_x_intercept": 882.0,
+    "source_units_per_kpc": 3480.0000000000005,
+    "radius_arcsec_source_x_intercept": 882.1999999999998,
+    "source_units_per_arcsec": 53.935,
+    "sigma_hi_source_y_intercept": 499.0,
+    "source_units_per_msun_pc2": 307.8,
+    "bottom_axis_ticks": [
+      [
+        0.0,
+        882.0
+      ],
+      [
+        0.2,
+        1578.0
+      ],
+      [
+        0.4,
+        2274.0
+      ],
+      [
+        0.6,
+        2970.0
+      ],
+      [
+        0.8,
+        3666.0
+      ],
+      [
+        1.0,
+        4362.0
+      ],
+      [
+        1.2,
+        5058.0
+      ],
+      [
+        1.4,
+        5754.0
+      ]
+    ],
+    "top_axis_ticks": [
+      [
+        0.0,
+        882.0
+      ],
+      [
+        20.0,
+        1961.0
+      ],
+      [
+        40.0,
+        3040.0
+      ],
+      [
+        60.0,
+        4118.0
+      ],
+      [
+        80.0,
+        5197.0
+      ]
+    ],
+    "left_axis_ticks": [
+      [
+        5.0,
+        2038.0
+      ],
+      [
+        10.0,
+        3577.0
+      ]
+    ]
+  },
+  "hard_qc": {
+    "n_whole_galaxy_points": 10,
+    "circle_calls_total_including_legend": 11,
+    "legend_calls_excluded": 1,
+    "strictly_increasing_radius": true,
+    "source_x_step_min": 539.0,
+    "source_x_step_max": 540.0,
+    "max_abs_arcsec_center_residual": 0.0922406600537613,
+    "passes": true
+  },
+  "published_gaussian_crosscheck": {
+    "published_model": "Sigma_HI(R)=10.5 exp[-R^2/(2*(0.580 kpc)^2)]",
+    "rmse_msun_pc2": 0.3634577247650798,
+    "mae_msun_pc2": 0.3404894352227263,
+    "status": "advisory_only_not_used_to_modify_native_points"
+  },
+  "profile_summary": {
+    "n_rows": 10,
+    "radius_kpc_min": 0.07758620689655171,
+    "radius_kpc_max": 1.4738505747126436,
+    "sigma_hi_min": 0.7764782326185835,
+    "sigma_hi_max": 10.246913580246913
+  },
+  "helium_status": "not applied; Figure 6 is H I surface density. Paper applies factor 1.32 only downstream in gas mass model.",
+  "boundary": "Acquisition/provenance only. No raster digitization, source-map reconstruction, profile fitting, normalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
