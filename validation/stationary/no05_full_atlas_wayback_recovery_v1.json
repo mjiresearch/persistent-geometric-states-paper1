@@ -1,0 +1,31 @@
+{
+  "status": "NO05_FULL_ATLAS_WAYBACK_RECOVERY_COMPLETE",
+  "source": "Noordermeer et al. 2005 WHISP-III full atlas",
+  "historical_urls": [
+    "https://www.astro.rug.nl/~edo/WHISPIII.ps.gz",
+    "http://www.astro.rug.nl/~edo/WHISPIII.ps.gz"
+  ],
+  "attempts": [
+    {
+      "original_url": "https://www.astro.rug.nl/~edo/WHISPIII.ps.gz",
+      "availability_api": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.astro.rug.nl%2F~edo%2FWHISPIII.ps.gz",
+      "availability_response": {
+        "url": "https://www.astro.rug.nl/~edo/WHISPIII.ps.gz",
+        "archived_snapshots": {}
+      }
+    },
+    {
+      "original_url": "http://www.astro.rug.nl/~edo/WHISPIII.ps.gz",
+      "availability_api": "https://archive.org/wayback/available?url=http%3A%2F%2Fwww.astro.rug.nl%2F~edo%2FWHISPIII.ps.gz",
+      "availability_response": {
+        "url": "http://www.astro.rug.nl/~edo/WHISPIII.ps.gz",
+        "archived_snapshots": {}
+      }
+    }
+  ],
+  "recovered": false,
+  "recovered_url": null,
+  "recovered_classification": null,
+  "supersedes_boundary_if_recovered": "validation/stationary/NO05_NO07_HI_PROFILE_AUDIT_V1.md",
+  "boundary": "Transport/provenance only; recovered PostScript remains inert bytes until separately audited."
+}
