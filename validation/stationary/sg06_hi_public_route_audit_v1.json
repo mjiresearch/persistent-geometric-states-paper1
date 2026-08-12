@@ -1,0 +1,1034 @@
+{
+  "status": "SG06_HI_PUBLIC_ROUTE_AUDIT_COMPLETE",
+  "source": "Spekkens & Giovanelli 2006 AJ 132 1426-1444; arXiv astro-ph/0605542",
+  "n_priority_frozen_galaxies": 5,
+  "priority_role_counts": {
+    "calibration": 4,
+    "blind": 1
+  },
+  "priority_galaxies": [
+    "ESO563-G021",
+    "IC4202",
+    "NGC2955",
+    "NGC6195",
+    "UGC11455"
+  ],
+  "arxiv_url": "https://export.arxiv.org/src/astro-ph/0605542",
+  "arxiv_content_type": "application/gzip",
+  "arxiv_bytes": 404935,
+  "n_arxiv_files": 16,
+  "n_data_like_files": 0,
+  "data_like_files": [],
+  "n_vector_files": 15,
+  "vector_files": [
+    {
+      "name": "f10s.eps",
+      "bytes": 140598,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f11_colors.eps",
+      "bytes": 32151,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f12_colors.eps",
+      "bytes": 88827,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f13_colors.eps",
+      "bytes": 69724,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f14_colors.eps",
+      "bytes": 21105,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f15_colors.eps",
+      "bytes": 26502,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f1as.eps",
+      "bytes": 148662,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f2_colors.eps",
+      "bytes": 105765,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f3s.eps",
+      "bytes": 157622,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f4s.eps",
+      "bytes": 134732,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f5s.eps",
+      "bytes": 127457,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f6s.eps",
+      "bytes": 145397,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f7s.eps",
+      "bytes": 131411,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f8s.eps",
+      "bytes": 133391,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "f9s.eps",
+      "bytes": 161777,
+      "suffix": ".eps",
+      "data_like": false,
+      "vector": true,
+      "raster": false
+    }
+  ],
+  "n_raster_files": 0,
+  "raster_files": [],
+  "candidate_named_assets": [
+    {
+      "name": "spekkens_halfresfigs.tex",
+      "bytes": 149986,
+      "suffix": ".tex",
+      "data_like": false,
+      "vector": false,
+      "raster": false
+    }
+  ],
+  "vector_structure": [
+    {
+      "name": "f10s.eps",
+      "bytes": 140598,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f11_colors.eps",
+      "bytes": 32151,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f12_colors.eps",
+      "bytes": 88827,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 7,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f13_colors.eps",
+      "bytes": 69724,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f14_colors.eps",
+      "bytes": 21105,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f15_colors.eps",
+      "bytes": 26502,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 11,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f1as.eps",
+      "bytes": 148662,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f2_colors.eps",
+      "bytes": 105765,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 7,
+      "lineto_tokens": 6,
+      "curveto_tokens": 0,
+      "stroke_tokens": 6,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f3s.eps",
+      "bytes": 157622,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f4s.eps",
+      "bytes": 134732,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f5s.eps",
+      "bytes": 127457,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f6s.eps",
+      "bytes": 145397,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f7s.eps",
+      "bytes": 131411,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f8s.eps",
+      "bytes": 133391,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    },
+    {
+      "name": "f9s.eps",
+      "bytes": 161777,
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_tokens": 0,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "surface_density_literal": false
+    }
+  ],
+  "target_text_hits": {
+    "ESO563-G021": [],
+    "IC4202": [
+      {
+        "file": "spekkens_halfresfigs.tex",
+        "line": 77,
+        "text": "\\newcommand{\\ueight}{IC~4202}"
+      }
+    ],
+    "NGC2955": [
+      {
+        "file": "spekkens_halfresfigs.tex",
+        "line": 76,
+        "text": "\\newcommand{\\ufiveone}{NGC~2955}"
+      }
+    ],
+    "NGC6195": [
+      {
+        "file": "spekkens_halfresfigs.tex",
+        "line": 78,
+        "text": "\\newcommand{\\uten}{NGC~6195}"
+      }
+    ],
+    "UGC11455": [
+      {
+        "file": "spekkens_halfresfigs.tex",
+        "line": 79,
+        "text": "\\newcommand{\\uone}{UGC~11455}"
+      }
+    ]
+  },
+  "n_targets_named_in_source_text": 4,
+  "text_hits": [
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 138,
+      "text": "We present \\Iband\\ photometry, long-slit optical spectroscopy, and new aperture synthesis \\hi\\ observations for eight late-type spiral galaxies with rotation velocities in the range $243\\kms \\lesssim V_{rot} \\lesssim 308\\kms$. The sample will be used to study the structure and angular momentum of disks at the high-mass end of the spiral galaxy population; here we discuss the basic properties of these ``fast rotators'', and derive hybrid optical/\\hi\\ rotation curves for each. Despite the presence of \\hi\\ warps and low-mass companions in many systems, their kinematics are regular and there is excellent agreement between optical and \\hi\\ tracers near the optical radius \\ropt.  At high inclinations at which projection effects are negligible, the sample galaxies exhibit flat, featureless rotation curves out to their last measured points at $1.7-3.5\\,\\ropt$. The intermediate-inclination systems are also consistent with a constant rotation amplitude for $r \\gtrsim0.5\\,\\ropt$. We therefore find no evidence for declining rotation curves at the high-mass end of the late-type spiral galaxy population. Combining our data with the compilation of spiral galaxies with reliable outer \\hi\\ kinemati"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 151,
+      "text": "\\begin{deluxetable*}{ccccccc}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 152,
+      "text": "\\tablecaption{Basic Properties of the Fast Rotator Sample \\label{fast1_tab:basic}} "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 153,
+      "text": "\\tablewidth{0pt}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 154,
+      "text": "%\\tabletypesize{\\footnotesize}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 155,
+      "text": "\\tablehead{ \\colhead{Galaxy} & \\colhead{$\\alpha_c$} & \\colhead{$\\delta_c$} & \\multicolumn{2}{c}{type} & \\colhead{$V_{\\odot}$} & \\colhead{$D$}\\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 169,
+      "text": "%\\tablenotetext{}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 170,
+      "text": "\\tablecomments{Col. (1): NGC/IC designation where available, otherwise UGC/ESO number. Cols. (2)-(3): Galaxy coordinates (J2000). Col.(4): Morphological"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 171,
+      "text": "type, as given in the NASA/IPAC Extragalactic Database. Corresponding RC3 type numbers are given in parentheses \\citep{rc3}. Col. (5): Heliocentric (optical) radial velocity, derived from archived single-dish spectra as in \\citet{springob05}. Col. (7): Distance corresponding to $V_{\\odot}$, computed using $\\alpha_c$, $\\delta_c$ and $H_0=70\\,\\kms \\, \\rm{Mpc}^{-1}$.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 172,
+      "text": "\\end{deluxetable*}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 179,
+      "text": "It has long been recognized that both the shapes and amplitudes of spiral galaxy rotation curves (RCs) change systematically with luminosity (e.g. Roberts \\& Rots 1973; Kyazumov 1984; Burstein \\& Rubin 1985). Average RC shapes within the optical radii \\ropt\\ of late-type spiral galaxies have been studied extensively by Persic and collaborators (Persic \\& Salucci 1988, 1990a,b, 1991; Persic et al. 1996), using long-slit optical spectra. In their ``universal rotation curve'' (URC) model, systems with absolute \\Iband\\ luminosities $M_I^o\\lesssim-22.0$ ($V_{rot}\\gtrsim 200\\,\\kms$) have RCs that peak at $\\sim0.8\\ropt$ and decline at larger galactocentric radii $r$. However, the URC parametrization tends to underpredict the outer RC amplitudes of high surface brightness systems (e.g. Courteau 1997).  Average optical RC shapes for a much larger sample of spiral galaxies have since been compiled by Catinella et al. (2006), who find no evidence for declining RCs within \\ropt\\ in even the most luminous systems."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 185,
+      "text": " Observationally, spiral galaxies with $V_{rot} \\gtrsim 350\\, \\kms$ are rare, particularly for later morphological types.  While $V_{rot}$ for the fastest known rotator in the local Universe exceeds $500\\,\\kms$ (UGC~12591; Giovanelli et al. 1986), the distribution of \\hi\\ spectral line widths in large samples of spiral galaxies truncates abruptly near $W \\sim 2V_{rot} \\sim 550\\,\\kms$ (e.g. Koribalski et al. 2004; Springob et al. 2005).  Elliptical galaxies exhibit a similar upper limit to their central velocity dispersions, which can be understood in the context of the $\\Lambda$CDM structure formation paradigm provided that the stars in their cores formed prior to $z\\sim6$ and behave like collisionless particles thereafter (Loeb \\& Peebles 2003). There is no analogous explanation for the upper bound to \\Vrot\\ in spiral galaxies.  One possibility is that the progenitors of spiral galaxies with $V_{rot} > 350\\,\\kms$ seldom form long-lived disks. In particular, if the latter are stabilized against bar formation by massive halos (Ostriker \\& Peebles 1973, Efstathiou et al. 1982; Christodoulou et al. 1995a,b) and their baryonic components scale with parent halo masses and angular moment"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 187,
+      "text": " We have obtained \\hi\\ aperture synthesis observations for eight late-type, rapidly rotating spiral galaxies in the local Universe, each with \\Iband\\ photometry and optical spectroscopy archived in the SFI++ database maintained at Cornell University. We combine the optical and \\hi\\ kinematics to produce hybrid RCs for each system, that have arcsecond resolution within \\ropt\\ and extend beyond the stellar disk into the region in which dark matter dominates the potential. In a future paper we will use these data to constrain the dark and luminous contributions to the derived kinematics and to compute the angular momentum distributions and $\\lambda$ for a wide range of baryon mass-to-light ratios (K. Spekkens \\& R. Giovanelli 2006, in preparation). Here we present our observations and concentrate on deriving accurate optical+\\hi\\ RCs that will underpin our models. We also compare the outer RC shapes obtained to those of the systems compiled by \\citetalias{cvg} and reevaluate the evidence for correlations between these shapes and other galaxy properties with the fast rotator and \\citetalias{cvg} samples combined. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 189,
+      "text": "The organization of this paper is as follows. We describe the sample selection and present available SFI++ catalog photometry and optical kinematics in \\S\\ref{fast1:sselec}. We present the aperture synthesis \\hi\\ observations and the related analysis in \\S\\ref{fast1:HI} and describe the derivation of hybrid optical/\\hi\\ RCs in \\S\\ref{fast1:kinboth}. We summarize our results and discuss the outer RC shapes of the fast rotator sample in \\S\\ref{fast1:sample}. Notes on individual systems are given in Appendix~\\ref{fast1:ind}."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 202,
+      "text": " Sample candidates have both single-dish \\hi\\ profiles and long-slit optical spectroscopy archived in the SFI++. Of these, we select eight galaxies with the largest \\Vrot\\ that (1) show no evidence for interactions, close companions or disturbed optical morphologies, and (2) have \\hi\\ line strengths and optical sizes suitable for \\hi\\ aperture synthesis observations with the Very Large Array\\footnote{The Very Large Array is a facility of the National Radio Astronomy Observatory (NRAO). The NRAO is a facility of the NSF, operated under cooperative agreement with Associated Universities, Inc.} (VLA). The basic properties of the fast rotator sample are presented in Table~\\ref{fast1_tab:basic}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 209,
+      "text": "% Details regarding the \\Iband\\ photometry and optical long-slit spectroscopy archived in the SFI++ for each systems are elaborated below."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 212,
+      "text": "\\begin{deluxetable*}{cccccccccccc}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 214,
+      "text": "\\tablecaption{\\Iband\\ Photometry \\label{fast1_tab:iband}}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 215,
+      "text": "\\tabletypesize{\\scriptsize}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 216,
+      "text": "\\tablewidth{0pt}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 217,
+      "text": "\\tablehead{ \\colhead{NGC/IC} & \\colhead{$M_I^o$} & \\colhead{$r_d^o$} & \\colhead{$\\mu_{e,I}$} & \\colhead{$B_T^0-I$} & \\colhead{$r_{opt}$}  & \\colhead{$r_{235}^o$} & \\colhead{$\\theta_d$} & \\colhead{$eps_d$} & \\colhead{$i_d$} & \\colhead{$B/D_{min}$} & \\colhead{$B/D_{max}$} \\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 231,
+      "text": "\\tablecomments{Col. (2): Absolute \\Iband\\ magnitude computed using $D$ from Table~\\ref{fast1_tab:basic}, corrected for internal and galactic extinction. Col.(3): "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 234,
+      "text": "\\end{deluxetable*}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 249,
+      "text": "\\caption{\\Iband\\ surface brightness profiles for the fast rotator sample. In each panel, points between the vertical dotted lines constrain the exponential disk in the ``minimal'' bulge computation, while points between the dashed vertical lines constrain the exponential disk in the ``maximal'' bulge computation. In each case, the disk fits are given by the lines through the points, and the resulting minimal and maximal bulge fits are represented by the dotted and dashed diagonal lines, respectively. See the electronic edition of the Journal for a color version of this figure.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 260,
+      "text": " Following calibration, the resulting image analysis was performed by M. P. Haynes for all galaxies. Photometric quantities were extracted by fitting concentric isophotal ellipses to the galaxy emission after masking nearby stars. The resulting surface brightness profiles are shown in Fig.~\\ref{fast1_fig:sb}. We define the optical radius $r_{opt}$ as the radius within which 83\\% of the \\Iband\\ profile light is contained \\citep{pss96}; \\ropt\\ is equivalent to 3.2 scale lengths in a pure exponential disk. The radius $r_{235}$ of the 23.5$\\,\\magasec$ isophote is also measured. The average disk ellipticity $\\mathrm{eps}_d$ and position angle $\\theta_d$ are determined by averaging measurements\\footnote{For the highly inclined systems $\\mathrm{eps}_d$ is taken as the maximum value in this region instead of the mean, since the isophote-fitting method artificially decreases the latter \\citepalias{h99}.} for ellipses in a region of the outer profile likely dominated by disk emission, as described by \\citet{gio94}. The disk scale length $r_d$ is then derived from the slope of a linear fit to points in this region. The total apparent magnitude $m_I$ is measured at $8r_d$, extrapolated to this"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 264,
+      "text": " The fraction of \\Iband\\ flux assigned to the bulge clearly depends on the exponential disk first subtracted from the surface brightness distribution. However, the best-fitting disk determined from one region of the surface brightness distribution may deviate significantly at other $r$ in the profile due to irregularities in the baryon distribution or to extinction effects. This is the case for many of the fast rotators, which show a ``dip'' in their surface brightness distributions for $0.1\\ropt\\ \\lesssim r \\lesssim 0.4\\ropt$ (Fig.~\\ref{fast1_fig:sb}). To estimate the range of reasonable bulge contributions for each galaxy, we therefore carry out the procedure described above starting from two distinct exponential disks: the fit from H99 yields a suitable ``minimal'' bulge contribution, while one estimated in the region of the profile dip produces a suitable ``maximal'' bulge contribution. Because of extinction effects in the surface brightness profiles, the actual bulge component is likely bracketed by these extremes."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 266,
+      "text": " The resulting bulge profiles are shown in Fig.~\\ref{fast1_fig:sb}. For each galaxy, points between the vertical dotted lines are used to estimate the exponential disk in the minimal bulge computation \\citepalias{h99}, while those between the dashed vertical lines produce the exponential disk in the maximal bulge estimate. The corresponding exponential disks are shown by the dotted and dashed lines through the points, and the resulting bulge fits are shown by the dotted and dashed diagonal lines at small $r$. Note that for \\ufiveo\\ only the maximal bulge fit is plausible, while for \\eso\\ and \\ufiveone\\ the maximal and minimal estimates are identical; for these systems, only one bulge fit is therefore displayed. The resulting minimal and maximal ratios of bulge light to disk light are given in the last two columns of Table~\\ref{fast1_tab:iband}. As expected for late-type systems, the bulge component is dwarfed by the disk component even in the ``maximum'' bulge scenario. The bulge is thus not expected to contribute substantially to the observed kinematics, and it is likely reasonable to model the fast rotators as pure disk systems by assigning all of the \\Iband\\ light to a thin axis"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 269,
+      "text": " For five of the eight fast rotators, unmasked \\Iband\\ images are archived in the SFI++ in addition to the photometry. For these systems, we determine a plate scale for each image by matching 15-20 stars in the vicinity of the galaxy to those in analogous Digitized Sky Survey\\footnote{The DSS was produced at the Space Telescope Science Institute under US Government grant NAG W-2166. The images of these surveys are based on photographic data obtained using the Oschin Schmidt Telescope on Palomar Mountain and the UK Schmidt Telescope. The plates were processed into the present compressed digital form with the permission of these institutions.} (DSS) images and by solving for the pixel size, center and rotation angle. The positional accuracy of this linear solution is judged to be better than $1''$. The available \\Iband\\ images are shown in gray scale in Figs~\\ref{fast1_fig:1324summ}a, \\ref{fast1_fig:5010summ}a, and \\ref{fast1_fig:8220summ}a -- \\ref{fast1_fig:11455summ}a. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 271,
+      "text": " For clarity in the text that follows we adopt $\\theta$ and $i$ as abbreviations for position angle and inclination, respectively, while $\\theta_d$ and $i_d$ specify the values from \\Iband\\ photometry that are listed in cols. (8) and (10) of Table~\\ref{fast1_tab:iband}."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 280,
+      "text": " Long-slit optical spectra for seven of the eight fast rotators were obtained by our group between 1990 and 2002, using the Double Spectrograph on the 200 inch (5 m)Hale Telescope at Palomar Observatory\\footnote{The Hale Telescope, Palomar Observatory, is operated under a collaborative agreement between the California Institute of Technology, its divisions Caltech Optical Observatories and the Jet Propulsion Laboratory (operated for NASA), and Cornell University.}. The observing setup yielded a spectral resolution of $0.65\\,$\\AA$\\,$pixel$^{-1}$ and a spatial resolution of $0.'' 468\\,$pixel$^{-1}$ across a $2''\\,\\times\\,125''$ slit. The long axis of the slit was placed at $\\theta=\\phi_l$ (Table~\\ref{fast1_tab:kin}) for each system. In general $\\phi_l = \\theta_d$ from the \\Iband\\ images, within the uncertainties in the latter. The seeing full width at half-maximum (FWHM) was typically $1.5''$. The data were reduced and rotational velocities extracted using both standard IRAF packages and our own software. Where possible, the kinematics from the H$\\alpha$ and \\ion{N}{2} lines were combined to form a single optical RC \\citepalias{cat05}. The RCs for \\ufiveo, \\ufiveone, \\ueight\\ and \\ut"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 293,
+      "text": " where $V_o \\sin{i}$ sets the amplitude of the fit, $r_{pe}$ governs the inner RC slope, and $\\beta$ determines the outer RC slope. Values of $r_{pe}$ for the fast rotators are given in Table~\\ref{fast1_tab:kin}. Since \\Vrot\\ and the outer RC slope are better characterized by the hybrid RCs than the optical spectra alone, we do not tabulate the SFI++ $V_o$ and $\\beta$ here. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 295,
+      "text": " Tables~\\ref{fast1_tab:iband} and \\ref{fast1_tab:kin} demonstrate that the sample galaxies fall into two groups, depending on $i_d$ and $r_{pe}$: \\none, \\utwo, \\ufiveone, and \\uten\\ have $i_d\\leq78^{\\circ}$ and $1.1 \\le r_{pe} \\le 2.3\\,$kpc, whereas \\eso, \\ufiveo, \\ueight\\ and \\uone\\ have $i_d\\geq83^{\\circ}$ and $r_{pe} > 4\\,$kpc. The large $r_{pe}$ in the latter galaxies likely result from extinction effects, which become more pronounced with increasing $i$ \\citep[e.g.][]{gio02}. The fast rotators thus divide into an intermediate $i$ sub-sample and a highly inclined sub-sample."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 299,
+      "text": "\\section{Aperture Synthesis \\hi\\ Observations}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 302,
+      "text": " The sample galaxies were observed with the VLA in its C configuration in separate runs during 2001 July -- August and 2002 October -- December, except for ESO~536G21 which was observed in BC configuration in 2002 October to prevent excessive antenna shadowing at low latitudes.  During each run the galaxy was targeted in 25--35 minute intervals, separated by 3--5 minute phase calibrator observations. The flux calibrator, also used as a bandpass calibrator, was observed at both the start and the end of each run. The raw on-source integration time for each system is listed in Table~\\ref{fast1_tab:HIobs}."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 305,
+      "text": "%To obtain adequate spectral resolution over the full width of the integrated \\hi\\ line for these fast rotators we carried out the observations in the ``4IF'' correlator mode, yielding a bandwidth of 3.125 MHz divided into 32 spectral channels for each polarization pair at two separate frequencies after online Hanning smoothing. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 309,
+      "text": " The data were calibrated using the Astronomical Image Processing System\\footnote{{\\tt http://www.aoc.nrao.edu/aips/}} (AIPS; Napier \\etal 1993). For each run, standard editing and flux, phase, and bandpass calibration routines were applied separately to the two polarizations of each bandpass (Rupen 1999 and references therein). The bandpasses were then joined and the data in the overlapping channels averaged to produce a single band; the number of overlapping channels at the band center for each system is given in Table~\\ref{fast1_tab:HIobs}. In most cases the continuum emission could be subtracted via linear fits to the real and imaginary Fourier components in the line-free frequency channels (e.g. van Langevelde \\& Cotton 1990). For \\none, \\ufiveone\\ and \\ueight, models of strong continuum sources far from the pointing center were first subtracted (Ekers \\& van Gorkom 1984; van Gorkom \\& Ekers 1989). "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 311,
+      "text": " Following the data reduction, strong radio frequency interference (RFI) was discovered in one or two channels near $1400\\,$MHz in the \\eso\\ and \\ufiveo\\ data cubes. This well-known VLA birdie is caused by correlated noise from the seventh harmonic of the $200\\,$MHz L-band local oscillator in the shortest east-west baselines, where the fringe rate is small (Bagri 1996). We excise this RFI following the method of Spekkens \\etal (2004).  We remove baselines with east-west projections less than $25$ and $17\\,$m in all spectral channels and clip contaminated channels above $0.7$ and $1.0\\,$Jy for \\eso\\ and \\ufiveo, respectively. In all, the excision flags less than 5\\% of the available baselines. We checked for possible biases from this editing by examining residual data sets in the same manner as described in the Appendix of Spekkens \\etal (2004), and found no evidence for any systematic flux loss."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 312,
+      "text": "%\\footnote{While reasonable for the data of Spekkens \\etal (2004), the assumption of a frequency independent HI morphology in channels near $1400\\,$MHz is invalid for our data sets. Nonetheless the test performed is the most reasonable check of the method, save modeling the VLA correlator response given the source morphology and observing details.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 315,
+      "text": " After calibration the data were imaged using both natural and uniform weighting schemes to emphasize \\hi\\ structures on different spatial scales.  The emission in each cube was then CLEANed (Clark 1980) of sidelobe contamination and corrected for the attenuation of the primary beam.  The synthesized beam parameters and the average rms noise $\\bar{\\sigma}$ per channel for the calibrated data sets are given in Table~\\ref{fast1_tab:HIobs}. In general, the map noise $\\sigma$ is $\\sim10$\\% lower than $\\bar{\\sigma}$ in the overlap channels. This gain in sensitivity is less than the factor $\\sqrt{2}$ anticipated from averaging two independent channels together because of correlated noise from continuum subtraction and decreased sensitivity near the bandpass edge. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 322,
+      "text": " The \\hi\\ data for the fast rotators are presented in Figs~\\ref{fast1_fig:1324summ}--\\ref{fast1_fig:11455summ}, and their properties are summarized in Table~\\ref{fast1_tab:properties}.   Channel maps are in Figure Set 13, and notes for individual systems are in Appendix~\\ref{fast1:ind}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 323,
+      "text": "%Channel maps with the weighting used in the analysis for each of the sample galaxies, as well as notes on individual systems, are given in Appendix~\\ref{fast1:ind}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 325,
+      "text": " In the interest of deriving high-quality kinematics in the outer \\hi-rich parts of the disks, we trade sensitivity for angular resolution and analyze the uniformly weighted maps for all the fast rotators except \\eso, where the signal-to-noise ratio (S/N) is too low with uniform weighting. We also perform a cursory search for companions in the naturally weighted cubes: we make detections in the vicinity of half the sample galaxies, and half again are previously uncataloged. The properties of the detected companions are given in Table~\\ref{fast1_tab:propertiesc}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 335,
+      "text": "\\caption{\\hi\\ properties of \\none. $(a)$ Uniformly weighted \\hi\\ total intensity contours overplotted on an \\Iband\\ image. Contours range from $3.8 \\times 10^{20}$ to $3.0 \\times 10^{21}\\,\\cm$ in $2.0 \\times 10^{20}\\,\\cm$ intervals. The synthesized beam is shown in the bottom right corner. $(b)$ MET velocity field (shaded region).  Contours are plotted in 40\\kms\\ increments relative to $V_{sys}$ in Table~\\ref{fast1_tab:properties}, with solid lines on the receding side and dotted lines on the approaching side. Some contours are labelled in kilometers per second for clarity.  $(c)$ Global profile. Error bars reflect 1$\\sigma$ uncertainty contributions from $\\bar{\\sigma}$ over the emission region and a 5\\% calibration error. $(d)$ Radial surface density profile $\\Sigma_{HI}(r)$ corrected to a face-on perspective for the approaching side (crosses), the receding side (triangles), and their average (points). The dotted line shows $1\\Msun\\,\\rm{pc} ^{-2}$.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 340,
+      "text": "\\begin{deluxetable}{ccccc}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 341,
+      "text": "\\tablecaption{Optical and \\hi\\ Kinematics \\label{fast1_tab:kin}}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 342,
+      "text": "\\tablewidth{0pt}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 343,
+      "text": "\\tablehead{\\colhead{NGC/IC} & \\colhead{$\\phi_l$} & \\colhead{$r_{pe}$} & \\colhead{\\Vrot} & \\colhead{$S$} \\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 357,
+      "text": "\\tablecomments{Col. (2):  Position angle of long axis of the slit in optical spectroscopy. Col. (3): Best-fitting value of $r_{pe}$ (eq.~\\ref{fast1:a2}) to folded optical RCs. Col. (4): \\Vrot\\ measured from hybrid optical+\\hi\\ RC, corrected for projection effects using $i_d$ from \\Iband\\ photometry. Col. (5): Logarithmic outer RC slope, measured between $2/3\\,r_{235}^o$ from Table~\\ref{fast1_tab:iband} and the outermost \\hi\\ RC point.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 358,
+      "text": "\\end{deluxetable}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 449,
+      "text": "\\begin{deluxetable*}{ccccccc}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 450,
+      "text": "\\tablecaption{\\hi\\ Observing and Map Parameters \\label{fast1_tab:HIobs}}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 451,
+      "text": "\\tablewidth{0pt}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 452,
+      "text": "\\tablehead{ \\colhead{NGC/IC} & \\colhead{TOS} & \\multicolumn{2}{c}{Natural Weighting} & \\multicolumn{2}{c}{Uniform Weighting} & \\colhead{Overlap}\\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 461,
+      "text": "\\eso & 171 & 22$\\times$12 @ 3 & 0.48\\tablenotemark{a}  & 13$\\times$8 @ 74 & 0.57\\tablenotemark{a} & 0\\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 468,
+      "text": "\\tablenotetext{a}{$\\sigma$ at $v=4389$\\kms\\ is 10\\% higher than this value; see text.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 469,
+      "text": "\\tablecomments{Col. (2): Integration time on-source, before editing. Cols. (3) - (4): Synthesized beam size and position angle, and mean rms map noise per channel in the naturally weighted cubes.  Cols. (5) - (6): Synthesized beam size and position angle, and mean rms map noise per channel in the uniformly weighted maps. Col. (7): Number of overlapping channels near data cube center; see text.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 470,
+      "text": "\\end{deluxetable*}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 477,
+      "text": " The contours in Figs.~\\ref{fast1_fig:1324summ}a--\\ref{fast1_fig:11455summ}a show total intensity (zeroth moment) maps for the fast rotators, obtained by summing the detected emission along the frequency axis. To reduce the noise in the maps we use blanked versions of the data cubes shown in Appendix~\\ref{fast1:ind}: we first smooth the data to half the spatial resolution listed Table~\\ref{fast1_tab:HIobs} and blank the full resolution cube at all locations with emission less than the mean rms $\\bar{\\sigma}$ of the blanked cubes. We then flag the resulting full-resolution cube interactively, keeping only emission associated with the galaxy of interest and appearing in two consecutive channels. The \\hi\\ contours in Figs.~\\ref{fast1_fig:1324summ}a--\\ref{fast1_fig:11455summ}a are overplotted on archived \\Iband\\ images where available (see \\S\\ref{fast1:iband}), or else on DSS images. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 481,
+      "text": " Figs.~\\ref{fast1_fig:1324summ}c--\\ref{fast1_fig:11455summ}c show the line intensities as a function of heliocentric radial (optical) velocity for the fast rotators and the detected companions. The 1$\\sigma$ error bars on each point include contributions from $\\bar{\\sigma}$ over the emission region as well as a 5\\% calibration uncertainty.  The integrated line intensities \\ints\\ obtained by summing these global profiles along the velocity axis are given in col. (2) of Table~\\ref{fast1_tab:properties}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 483,
+      "text": " For each system, we compute the raw velocity width $W \\sin i$ by fitting straight lines to the datapoints on the outer edges of the global profile horns, and measuring the width from these fits at 50\\% of the horn peak. We correct for instrumental broadening by subtracting one channel width from this measurement, in accordance with the recommendation of Springob \\etal (2005) from their simulations. Estimates of $W \\sin i$ for each fast rotator and the corresponding profile mid-points $V_{sys}$ are in Table~\\ref{fast1_tab:properties}. The errors on $W \\sin i$ correspond to half the difference between the listed values and those measured at 20\\% of the profile peaks using the same technique. We do not correct for interstellar medium (ISM) turbulence, estimated to be on the order of a few kilometers per second and therefore small compared to both $W \\sin i $ and its uncertainty (Tully \\& Fouqu\\'e 1985; Lavezzi \\& Dickey 1997; Springob \\etal 2005). In general there is good agreement with published single-dish values (see Appendix~\\ref{fast1:ind}), and we make no short-spacings corrections to our data. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 485,
+      "text": " The \\hi\\ mass $M_{HI}$ obtained from the global profile is given in col. (5) of Table~\\ref{fast1_tab:properties}, and is computed assuming an optically thin disk:"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 493,
+      "text": " Radial surface density profiles $\\Sigma_{HI}(r)$ are typically obtained by averaging the \\hi\\ brightness in concentric rings as in Warner \\etal (1973), but this method yields erroneous results for systems that are poorly resolved along their major or minor axes (Bosma 1978; Swaters \\etal 2002). We therefore adopt the method of Warmels (1988) and integrate the total intensity map for each system along the \\Iband\\ minor axis to produce ``strip integrals.'' A beam-corrected, face-on estimate of $\\Sigma_{HI}(r)$ is then derived from the strip integrals under the assumption of axisymmetry, using Lucy's (1974) iterative deconvolution technique for an initial guess of the distribution shape (see also Swaters \\etal 2002).  The resulting $\\Sigma_{HI}(r)$ for each system is shown in Figs.~\\ref{fast1_fig:1324summ}d -- \\ref{fast1_fig:11455summ}d for the approaching side (crosses), the receding side (triangles), and the average of both sides (points) of the \\hi\\ intensity map in Figs.~\\ref{fast1_fig:1324summ}a -- \\ref{fast1_fig:11455summ}a. We adopt the outermost point at which $\\Sigma_{HI}(r)=1 \\,M_{\\odot}\\,\\textrm{pc}^{-2}$ in the averaged profile as the \\hi\\ radius $r_{HI}$. The ratio $r_{H"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 504,
+      "text": " An estimate for the dynamical mass is obtained from eq.~\\ref{fast1:c} for the approaching and receding sides of each fast rotator separately. We define $r_{HI}$ such that $\\Sigma_{HI}(r_{HI})=1 \\,M_{\\odot}\\,\\mathrm{pc}^{-2}$, and take \\Vrot\\ as the plateau of the hybrid RCs near $r_{opt}$ (\\S\\ref{fast1:kinboth}). The results are then averaged to produce $M_T$, listed in Table~\\ref{fast1_tab:properties}. We adopt an uncertainty on $M_T$ equal to the sum in quadrature of half the difference between $M_T$ for the approaching and receding sides, and the uncertainty obtained by propagating errors in $r_{HI}$ and \\Vrot\\ through eq.~\\ref{fast1:c}.  The average value of \\Vrot\\ for the sample galaxies is given in Table~\\ref{fast1_tab:kin}, where error bars represent half the difference between values obtained for the approaching and receding sides."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 506,
+      "text": " We also list the parameters $M_{HI}/M_{T}$, $\\sigma_{HI}=M_{HI}/\\pi r_{HI}^2$ and $\\sigma_{T}=M_T/\\pi r_{HI}^2$ in Table~\\ref{fast1_tab:properties}. They demonstrate that despite their large absolute scale, the fast rotators have the same average properties as normal spiral galaxies: while $M_{HI}$ and $M_{T}$ for all of the fast rotators exceed the 75$^{\\textrm{th}}$ percentiles of the volume-limited RC3-LSc sample of Roberts \\& Haynes (1994), the values of $M_{HI}/M_{T}$, $\\sigma_{HI}$ and $\\sigma_{T}$ lie within the expected ranges for their morphological types\\footnote{We adjust the values in Table~\\ref{fast1_tab:properties} to account for the different cosmology and parameter definitions adopted in  Roberts \\& Haynes (1994) before making the comparison.}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 508,
+      "text": " The global properties of the detected companions are given in Table~\\ref{fast1_tab:propertiesc}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 517,
+      "text": "% The HI observations of the fast rotator sample contain kinematic information that will help disentangle dark from luminous contributions to the RCs derived; this modelling is at the heart of the galaxy formation paradigm test that we wish to perform. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 537,
+      "text": "The vertical long-dashed line shows the location $r^{\\prime}$ at which $I(r^{\\prime},v)$ in the right panel is extracted (units are arbitrary), and the horizontal dashed lines show $V_{mom1}(r^{\\prime})$ (lower dashed line) and $V_{MET}(r^{\\prime})$ (upper dashed line). The solid arrow denotes \\ropt. The MET technique mitigates the impact of beam smearing in the \\hi\\ kinematics, and there is good agreement between $V_{MET}(r_i)$ and optical tracers near \\ropt. See the electronic edition of the Journal for a color version of this figure.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 562,
+      "text": "\\begin{deluxetable*}{cccccccccc}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 564,
+      "text": "\\tablecaption{\\hi\\ Properties of the Detected Companions \\label{fast1_tab:propertiesc}}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 565,
+      "text": "\\tabletypesize{\\scriptsize}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 566,
+      "text": "\\tablewidth{0pt}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 567,
+      "text": "\\tablehead{\\colhead{Name} & \\colhead{Parent} & \\multicolumn{2}{c}{Separation} & \\colhead{$a \\times b$} & \\colhead{\\ints} & \\colhead{$W \\sin i$} & \\colhead{$V_{sys}$} & \\colhead{$M_{HI}$} & \\colhead{$M_T$}\\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 575,
+      "text": "KUG~1634+392 & \\uten &   5.7 & (N) & $0.3 \\times 0.3$ & $0.29 \\pm 0.05$ & $42 \\pm 19$ & 8975 & $1.2 \\pm 0.2$ & $\\ge 0.9 \\pm 0.6$\\tablenotemark{a}\\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 579,
+      "text": "\\tablenotetext{a}{No correction for inclination applied since $a=b$; lower limit.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 580,
+      "text": "\\tablecomments{Col. (1): Source name. Optical identifications are used where possible. For previously uncatalogued sources, names assigned from J2000 coordinates of the \\hi\\ centroid in total intensity maps. Col. (2): Parent galaxy. Col (3): Projected separation from parent galaxy. The direction of the companion relative to the parent is given in parentheses. Col. (4): Optical dimensions from literature if available, otherwise estimated from \\Iband\\  (HI 163617+390413) or DSS (HI 034538+444639 and HI 034553+445126) images. Col. (5): Integrated line intensity. Col. (6): Velocity width at 50\\% of the peak, corrected for instrumental broadening.  Col. (7): Integrated profile mid-point. Col.(8): \\hi\\ mass, computed from eq.~\\ref{fast1:b} using $D$ for parent galaxy. Col. (9): Total dynamical mass, computed from eq.~\\ref{fast1:c} (see text). }"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 581,
+      "text": "\\end{deluxetable*}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 584,
+      "text": " The MET velocity fields derived within the lowest contour in Figs~\\ref{fast1_fig:1324summ}a--\\ref{fast1_fig:11455summ}a are shown in Figs~\\ref{fast1_fig:1324summ}b--\\ref{fast1_fig:11455summ}b (shaded regions). The isovelocity contours are spaced at $40\\,$\\kms\\ intervals: dotted lines denote the approaching side relative to $V_{sys}$ in Table~\\ref{fast1_tab:properties}, and solid lines denote the receding side. Pixels within the \\hi\\ disk with no $V_{MET}$ estimates correspond to regions in which a reliable Gaussian fit to the extreme-velocity side of the profile could not be obtained. This is particularly  prevalent near the galaxy centers, where beam smearing effects are large and the \\hi\\ surface density is low (Figs~\\ref{fast1_fig:1324summ}d--\\ref{fast1_fig:11455summ}d). "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 592,
+      "text": "  In this section we derive \\hi\\ RCs from the velocity fields in  Figs.~\\ref{fast1_fig:1324summ}b--\\ref{fast1_fig:11455summ}b and combine them with the optical RCs of \\S\\ref{fast1:halpha}. We note that slightly different methods are adopted to obtain \\hi\\ RCs of the highly inclined and intermediate-$i$ systems in the sample, and we discuss each case in turn below. Since $i_d=78^{\\circ}$ for \\none, its kinematics can be determined using either approach: we verify that both produce the same result. Because $r_{pe}$ for \\none\\ is similar to those of \\utwo, \\ufiveone\\ and \\uten\\ (Table~\\ref{fast1_tab:kin}), however, we group it with the intermediate-$i$ systems below. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 597,
+      "text": " We determine $V_{obs}(r)$ for the highly inclined systems \\eso, \\ufiveo, \\ueight\\ and \\uone\\  by averaging $V_{MET}(\\alpha,\\delta)$ from Figs.~\\ref{fast1_fig:1324summ}b--\\ref{fast1_fig:11455summ}b within a synthesized beam of the intensity distribution peak in Figs.~\\ref{fast1_fig:1324summ}a--\\ref{fast1_fig:11455summ}a. This strategy is similar to the warped-MET technique described by G04 and naturally follows the disk kinematics along the ridge of any warp that may be present in the disk. For \\eso, \\ufiveo, and \\uone\\ we estimate the warp parameters by tracing $\\theta$ of the intensity distribution peak, as in \\citet{gar02}. We also adopt their definition of the warp angle $\\alpha$ (their eq.~4) as that between the major axis and a line connecting the galaxy center and the outermost measured point in the warp. The derived $\\alpha$ values are accurate to $\\sim 5^{\\circ}$, while the warp radii $r_w$ are accurate to a few kiloparsec. The warp parameters for these systems are given in Table~\\ref{fast1_tab:properties} (see also \\S\\ref{fast1:ind}), and $r_w$ is shown in Fig.~\\ref{fast1_fig:edgeons}.  "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 598,
+      "text": "%For the highly inclined fast rotators $\\sin i_d\\sim1$ (Table~\\ref{fast1_tab:iband}), and corrections to $V_{obs}(r)$ for geometric effects amount to less than 1\\% changes in $V_c(r)$ in all cases. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 599,
+      "text": "%We make this adjustment using $i_d$ from Table~\\ref{fast1_tab:iband}.  "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 601,
+      "text": " To verify that the RCs, $\\alpha$ and $r_w$ derived are consistent with the \\hi\\ morphologies of each system, we simulate observations of \\hi\\ disks with the derived properties and compare them to the channel maps in Figs.~\\ref{fast1:563chans},~\\ref{fast1:5010chans},~\\ref{fast1:8220chans} and \\ref{fast1:11455chans}. Each galaxy is modeled by concentric rings with a user-supplied $i$, $\\theta$, $V_c$ and $\\Sigma_{HI}$. All rings have systemic velocities $V_o=V_{sys}$ from Table~\\ref{fast1_tab:properties} and centers $(\\alpha_o,\\delta_o)=(\\alpha_c,\\delta_c)$ from Table~\\ref{fast1_tab:basic}. We model the approaching and receding sides of each fast rotator separately, setting $V_c(r_i)=V_{obs}(r_i)/\\sin{i}$ and using $\\Sigma_{HI}(r_i)$ from Figs.~\\ref{fast1_fig:1324summ}d--\\ref{fast1_fig:11455summ}d at the center $r_i$ of each ring. We set $\\theta=\\theta_d$ for $r_i<r_w$, and for $r_i>r_w$ we introduce a smooth variation in $\\theta$ consistent with $\\alpha$. We set $i=i_d$ at all $r_i$ and adopt $\\sigma_{ISM}=10\\,\\kms$, as well as an exponential \\hi\\ scale-height of $1\\,$kpc. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 604,
+      "text": "%Our detection of warped gas at similar $i$ to that measured within \\ropt\\ is likely a selection effect, since the highly inclined component of the outer \\hi\\ disk has a greater column density than those that lower $i$. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 610,
+      "text": " When \\hi\\ disks at intermediate $i$ are sufficiently resolved, RCs can be derived by fitting a series of concentric rings to the observed velocity field and by solving for $V_c$, $V_o$, $i$, $\\theta$ and $(\\alpha_o,\\delta_o)$ in each ring (Begeman 1989). We perform a tilted-ring analysis of the intermediate-i systems,  first allowing all six parameters to vary and then fixing $V_o$ and $(\\alpha_o,\\delta_o)$ and re-fitting for $V_c$, $i$ and $\\theta$. The values of $V_o$, $(\\alpha_o,\\delta_o)$ and $\\theta$ obtained from the fits are comparable to $V_{sys}$ (Table~\\ref{fast1_tab:properties}), $(\\alpha_c,\\delta_c)$ (Table~\\ref{fast1_tab:basic}) and $\\theta_d$ (Table~\\ref{fast1_tab:iband}), respectively. However, the best-fitting $i$ values are lower than $i_d$ (Table~\\ref{fast1_tab:iband}) by an average of 15\\%, and $V_c(r)$ is $\\sim 10\\%$ larger than that from the optical kinematics and from major-axis slices. In addition, simulated data cubes of systems with these properties produce models with spatial and spectral extents that are too large when compared to observations. These discrepancies arise from the low angular resolution of the latter along the minor axes of the intermediat"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 612,
+      "text": " We therefore derive the RCs for \\none, \\utwo, \\ufiveone\\ and \\uten\\ in a manner similar to that for the high $i$ systems, averaging $V_{MET}(\\alpha, \\delta)$ from Figs.~\\ref{fast1_fig:1324summ}b--\\ref{fast1_fig:11455summ}b in a slice the width of a synthesized beam oriented at $\\theta_d$ (Table~\\ref{fast1_tab:iband}). We thus implicitly assume that the major axis of the \\hi\\ disk lies within a beam of the \\Iband\\ major axis. These assumptions do appear to be justified given the \\hi\\ morphologies and kinematics in Figs~\\ref{fast1_fig:1324summ}--\\ref{fast1_fig:11455summ}. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 629,
+      "text": "\\caption{Hybrid \\hi/optical RCs [$V_{obs}(r_i)/\\sin{i_d}$] for the highly inclined galaxies. In each panel, $r_i$ is in units of $r_{opt}$ on the lower horizontal axis, and in kiloparsecs on the upper horizontal axis. RC points derived from long-slit spectroscopy are denoted by triangles, and those from the \\hi\\ observations are denoted by circles. Open symbols correspond to the approaching side and filled symbols to the receding side. The dashed vertical lines indicate the measured warp radii, and the label to the lower left of each line distinguishes warps on the (a) approaching or on (b) both sides of the disk. The galaxy name is given in the bottom right corner. For \\eso\\ in $(a)$, the dotted vertical line shows the approximate starting location of the southeastern feature; see \\S\\ref{fast1:563notes}. See the electronic edition of the Journal for a color version of this figure.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 639,
+      "text": "\\caption{Hybrid \\hi/optical RCs [$V_{obs}(r_i)/\\sin{i_d}$] for the intermediate-$i$ galaxies; plot details are the same as in Fig.~\\ref{fast1_fig:edgeons}. For \\utwo\\ in $(b)$, the dotted vertical line shows the approximate starting location of the \\hi\\ emission on the receding side that may be associated with interactions between this galaxy and the detected companions; see \\S\\ref{fast1:2849notes}. See the electronic edition of the Journal for a color version of this figure.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 644,
+      "text": " Further processing of the \\hi\\ RCs as well as their combination with the optical RCs discussed in \\S\\ref{fast1:halpha} is done homogeneously for all of the sample galaxies. We fold each \\hi\\ RC about the point ($r_{min},V_{min}$) that minimizes the difference between the approaching and receding sides within $r_{opt}$. These points are assigned to $r=0, V=0$ in the RC, and they differ by no more than 15\\kms\\ and 5\\arcsec\\ from $V_{sys}$ measured in \\S\\ref{fast1:global} (Table~\\ref{fast1_tab:properties}) and the optical center $(\\alpha_c,\\delta_c)$ (Table~\\ref{fast1_tab:basic}), respectively. We assign half the difference between $V_{MET}(r)$ obtained when $V_t(\\alpha,\\delta)$ in eq.~\\ref{fast1:e} is measured at 50\\% of the $I(\\alpha,\\delta,v)$ peak and when it is measured at 20\\% of the peak as the error on each \\hi\\ RC point. The \\hi\\ RCs are then resampled to 6\\arcsec\\ (6.2\\arcsec\\ for \\eso), yielding slightly less than two points per synthesized beam."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 646,
+      "text": " We then combine the optical and \\hi\\ RCs, dropping \\hi\\ points within 1.5 synthesized beam widths of $r=0$ to avoid beam smearing biases on $V_{obs}(r)$ (\\S\\ref{fast1:kin}) and correcting $r_i$ of the remaining \\hi\\ points for beam smearing. We also clip optical RC points that are discrepant by over 50\\kms\\ and are thus likely the result of non-circular motions or patchy emission regions in the disk. Finally, we correct for galaxy geometry using $i_d$ from Table~\\ref{fast1_tab:iband}. This has a negligible effect on the kinematics of the highly inclined systems, but the RC amplitudes and shapes in the intermediate $i$ subsample depend on this choice. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 657,
+      "text": "\\caption{Channel Maps. These sample panels show uniformly weighted channel maps for \\none. Contours are at $0.45\\,\\times$ (-3.5, -2, 2 ($2\\sigma$), 3.5, 5, 8, 11, 14, 16) mJy$\\,$beam$^-1$. In each panel, the heliocentric (optical) radial velocity is in the upper left corner. The synthesized beam is in the lower left corner of the first panel. See the electronic edition of the Journal for Figs.~\\ref{fast1:2849chans}--\\ref{fast1:11455chans}. }"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 666,
+      "text": "%\\caption{(ONLINE ONLY) Uniformly weighted channel maps for \\utwo. Plot details are the same as in Fig.~\\ref{fast1:1324chans}. Contours are at $0.43\\, \\times$ (-3.5, -2, 2 ($2\\sigma$), 3.5, 5, 6.5, 8.5 10.5 13 17 20) mJy/beam.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 674,
+      "text": "%\\caption{(ONLINE ONLY) Naturally weighted channel maps for \\eso. Plot details are the same as in Fig.~\\ref{fast1:1324chans}. Contours are at $0.48 \\,\\times$ (-4,-2, 2 ($2\\sigma$), 4, 6.5, 9, 11.5, 14, 18, 22) mJy/beam. Every third channel is plotted near the data cube center from $4794-4411\\,\\kms$, but otherwise the full spectral resolution cube is shown.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 682,
+      "text": "%\\caption{(ONLINE ONLY) Uniformly weighted channel maps for \\ufiveo. Plot details are the same as in Fig.~\\ref{fast1:1324chans}. Contours are at $0.30 \\,\\times$ (-4,-2, 2 ($2\\sigma$), 4, 6.5, 9, 11.5, 15, 19, 23, 27, 31) mJy/beam.  Every second channel is plotted near the data cube center from $4203-3991\\,\\kms$, but otherwise the full spectral resolution cube is shown.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 691,
+      "text": "%\\caption{(ONLINE ONLY) Uniformly weighted channel maps for \\ufiveone. Plot details are the same as in Fig.~\\ref{fast1:1324chans}. Contours are at $0.40 \\,\\times$ (-3.5,-2, 2 ($2\\sigma$), 3.5, 5, 6.5, 8, 10, 12, 14, 16, 18, 20) mJy/beam. }"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 699,
+      "text": "%\\caption{(ONLINE ONLY) Uniformly weighted channel maps for \\ueight. Plot details are the same as in Fig.~\\ref{fast1:1324chans}. Contours are at $0.36 \\,\\times$ (-3.5,-2, 2 ($2\\sigma$), 3.5, 5, 7, 9, 11, 13) mJy/beam.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 707,
+      "text": "%\\caption{(ONLINE ONLY) Uniformly weighted channel maps for \\uten. Plot details are the same as in Fig.~\\ref{fast1:1324chans}. Contours are at $0.33 \\,\\times$ (-3.5,-2, 2 ($2\\sigma$), 3.5, 5, 6.5, 8, 9.5, 11, 12.5) mJy/beam.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 715,
+      "text": "%\\caption{(ONLINE ONLY) Uniformly weighted channel maps for \\uone. Plot details are the same as in Fig.~\\ref{fast1:1324chans}. Contours are at $0.34 \\,\\times$ (-4,-2, 2 ($2\\sigma$), 4, 6, 8.5, 11, 13.5, 16, 18.5) mJy/beam.  Every second channel is plotted near the data cube center from $5539-5239\\,\\kms$, but otherwise the full spectral resolution cube is shown.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 722,
+      "text": " We have presented \\Iband\\ photometry, long-slit optical spectra, and new \\hi\\ aperture synthesis observations for eight rapidly rotating nearby spiral galaxies. Despite their large scales, the sample galaxies lie on the size, velocity, absolute magnitude and surface brightness scaling relations in the SFI++ database, and their global gas fractions and surface densities are within the ranges expected for their morphological types (\\S\\ref{fast1:global}; Table~\\ref{fast1_tab:properties}). These ``fast rotators'' thus represent the high-mass extreme of the normal, late-type spiral galaxy population. We derive hybrid optical/\\hi\\ rotation curves (RCs) for each system, and find a good correspondence between the \\hi\\ rotation velocities derived using G04's Modified Envelope Tracing method and those from optical spectra in regions probed by both tracers (Figs.~\\ref{fast1_fig:edgeons}--\\ref{fast1_fig:intinc}). In a forthcoming paper we will mass model the kinematics presented here, and estimate corresponding angular momentum distributions as well as spin parameters $\\lambda$ for a range of baryon mass-to-light ratios (K. Spekkens \\& R. Giovanelli 2006, in preparation).  "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 724,
+      "text": " In general, the detected \\hi\\ emission in each galaxy has the morphology of a thin rotating disk with the same geometry as its \\Iband\\ stellar distribution. However, we find that warps are prevalent beyond \\ropt\\ in massive spiral galaxies: all of the highly inclined, extended \\hi\\ disks that we detect are warped on one or both sides, and the channel maps for the intermediate-$i$ systems are also consistent with warped outer layers. Some of these warps  (e.g. \\eso\\ and \\uone) may be excited by companions, which we detect in the vicinity of half the sample galaxies (Table~\\ref{fast1_tab:propertiesc}). Interactions with these smaller systems may have also produced the \\hi\\ features in \\utwo\\ (Fig.~\\ref{fast1_fig:intinc}; \\S\\ref{fast1:2849notes}) and \\eso\\ (Fig.~\\ref{fast1_fig:edgeons}; \\S\\ref{fast1:563notes}) that we are unable to recover in our disk models of the observed \\hi\\ emission. As a counter-example, however, we point out the spectacular symmetric warp in the {\\it isolated} system \\ufiveo\\ (Figs.~\\ref{fast1_fig:5010summ},~\\ref{fast1:5010chans}): its warp angles are comparable to the largest detected by \\citet{gar02} in their sample of 26 edge-on spiral galaxies and are $30\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 732,
+      "text": " The derived RCs are very flat beyond \\ropt. This is particularly the case for the highly inclined systems, where $V_{obs}(r) \\simeq V_{rot}$ and projection effects are negligible. With the exception of the warp region on the approaching side of \\ufiveo, $V_{obs}(r) \\simeq \\rm{constant}$ at $r \\gtrsim 0.5\\,\\ropt$ for all RCs in Fig.~\\ref{fast1_fig:edgeons}. For galaxies at intermediate $i$, there is an ambiguity between $i$ and the derived RC amplitude (\\S\\ref{fast1:inti}). In particular, the outer RCs for \\none\\ (Fig.~\\ref{fast1_fig:intinc}a) and \\ufiveone\\ (Fig.~\\ref{fast1_fig:intinc}c) decline on both sides when the stellar disk $i_d$ is adopted to correct for disk geometry beyond \\ropt. \\ufiveone\\ exhibits the strongest outer RC gradient in the sample, decreasing steadily beyond \\ropt\\ to $V_{obs}(r_{HI})/\\sin{i_d} \\sim 0.75\\Vrot$. However, the \\hi\\ channel maps of the intermediate $i$ systems are consistent with {\\it both} the RCs of Fig.~\\ref{fast1_fig:intinc} and flat RCs with decreasing (increasing for the approaching side of \\utwo) $i$ to mimic a warp. In addition, \\ufiveone\\ has the lowest $i_d$ in the fast rotator sample, and a gradient $\\Delta i \\lesssim 1^{\\circ}\\, \\rm"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 734,
+      "text": " We quantify the outer RC shapes discussed above by computing the logarithmic slope $S=\\mathrm{d}\\log({V_{obs}(r)}/\\sin{i_d}) /\\mathrm{d}\\log{r}$ for each system. We adopt the definition of \\citetalias{cvg} and measure $S$ from the best fitting linear trend to the RC between $2/3\\,r_{235}^o$ and the outermost RC point, where $r_{235}^o$ is the radius of the 23.5$\\,\\magasec$ \\Iband\\ isophote corrected to a face-on perspective (Table~\\ref{fast1_tab:iband}; $r_{235}^o$ in the \\Iband\\ is roughly equivalent to $D_{25}$ in the $B$-band). We measure the slopes for the approaching and receding sides of each RC separately and compute their average weighted by the RC extent on each side to produce $S$. The values obtained are given in Table~\\ref{fast1_tab:kin} and are plotted in Figs.~\\ref{fast1_fig:compare} and \\ref{fast1_fig:compare2}.  "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 736,
+      "text": " The solid circles in Figs.~\\ref{fast1_fig:compare} and \\ref{fast1_fig:compare2} show $S$ for the highly inclined fast rotators, and the open circles correspond to the intermediate-$i$ fast rotators.  The triangles show the sample of galaxies with extended RCs compiled by \\citetalias{cvg} (their table~2): open triangles show systems with $\\Vrot<180\\,\\kms$ (Fig.~\\ref{fast1_fig:compare}), and solid triangles show systems with $\\Vrot>180\\,\\kms$ (Figs.~\\ref{fast1_fig:compare} and \\ref{fast1_fig:compare2}). Note that \\citetalias{cvg} compile $B$-band photometry for their sample galaxies, while ours is in the \\Iband. We ignore this difference in Fig.~\\ref{fast1_fig:compare2}a, since variations in $r_d$ measured in the two bands are comparable to the uncertainties on these parameters (e.g. de Jong 1996).  For ease of comparison with fig.~7 of \\citetalias{cvg}, we use $H_o=75\\,\\kms\\,Mpc^{-1}$ to convert $r_d^o$ to physical scales for the fast rotators in Fig.~\\ref{fast1_fig:compare2}a. In Fig.~\\ref{fast1_fig:compare2}b we adjust $\\mu_{e,I}$ from Table~\\ref{fast1_tab:iband} using $B-I$ colors estimated from our data and $B_T^0$ from the RC3 where available (\\citealp{rc3}), or else we adopt "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 746,
+      "text": "\\caption{Logarithmic outer slope $S$ as a function of $(a)$ \\Vrot\\ and $(b)$ morphological type. In both panels filled circles show the highly inclined galaxies in the present sample, and open circles show those at intermediate $i$. Note that at high $i$, there is no ambiguity between $S$ and $i$. For the intermediate-$i$ galaxies, $S$ is computed using $i_d$ from Table~\\ref{fast1_tab:iband}. Triangles show the sample of \\hi\\ RCs collected by Casertano \\& van Gorkom (1991, hereafter CvG91): open symbols show systems with $V_{rot}<180\\kms$, and filled symbols show systems with $V_{rot}>180\\kms$. The value of $S$ decreases with increasing \\Vrot\\ for $\\Vrot \\lesssim 220\\,\\kms$, in accordance with the trend noted by \\citetalias{cvg}; however, it plateaus in higher mass systems. The trend between $S$ and morphological type for the high-mass systems ($2 \\leq \\rm{type} \\leq 6$) is also considerably weakened when both samples are considered.  See the electronic edition of the Journal for a color version of this figure.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 758,
+      "text": "\\caption{Logarithmic outer slope $S$ as a function of $(a)$ $r_d^o$ (computed from $H_o=75\\,\\kms\\,\\rm{Mpc}^{-1}$, as in \\citetalias{cvg}) and $(b)$ $\\mu_e$. Plot details are the same as in Fig.~\\ref{fast1_fig:compare}. Note that \\citetalias{cvg} use $B$-band photometry in their analysis, while ours is in the \\Iband; we ignore this difference in $(a)$. In $(b)$, we adjust $\\mu_{e,I}$ from Table~\\ref{fast1_tab:iband} using $B-I$ colors derived from our data and $B_0^T$ from the RC3 where available, or else adopting $B-I=1.8$. There is some evidence that galaxies with larger $r_d^o$ have larger $S$, but the trend depends strongly on the inclusion of outliers in $S$ and $r_d^o$.  There is no clear correlation between $S$ and $\\mu_e$ for massive spiral galaxies when the \\citetalias{cvg} and fast rotator samples are combined. See the electronic edition of the Journal for a color version of this figure.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 775,
+      "text": " rotation curve derivations and to G. Gentile for help in implementing"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 786,
+      "text": "\\appendix"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 791,
+      "text": " In this appendix we present notes on individual systems. The channel maps are given in Figs.~\\ref{fast1:1324chans}--\\ref{fast1:11455chans}. All of the maps are corrected for primary beam attenuation, and the weighting adopted is the same as that used in the analysis of \\S\\ref{fast1:global}. For \\eso, \\ufiveo\\ and \\uone, we plot a subset of the channels near the data cube center for conciseness; otherwise, we plot the data at full spectral resolution."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 797,
+      "text": " \\none\\ is a field spiral galaxy with prominent spiral structure (Fig.~\\ref{fast1_fig:1324summ}a): there is a high degree of symmetry in the optical image, and no hint of a bar. The \\Iband\\ photometry of \\citet{pat03a} is in good agreement with the values listed in Table~\\ref{fast1_tab:iband}. In their compilation of bulge statistics from DSS imaging, \\citet{lu00b} find a bulge shape intermediate between a boxy profile and an elliptical.  Both Giuricin \\etal (2000) and Prada \\etal (2003) classify \\none\\ as the dominant member of a galaxy pair: however, Giuricin \\etal group it with the spiral KUG~0325-053 nearly a degree away, while Prada \\etal identify a small companion 15\\arcmin\\ away. The first of these putative companions lies well outside the primary beam of our VLA observations, while the second lies at its FWHM: we are not sensitive to either. A cursory search of the \\hi\\ data cubes does not reveal any other companions in the vicinity of \\none. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 799,
+      "text": " The channel maps for \\none\\ in Fig~\\ref{fast1:1324chans}, as well as the global properties presented in Fig.~\\ref{fast1_fig:1324summ}, are similar on the approaching and receding sides of the disk: the high degree of symmetry in \\hi\\ and in the optical suggests that \\none\\ is not interacting strongly with its neighbors. Our values of \\ints, $W \\sin{i}$, $V_{sys}$, and $M_{HI}$ for this system (Table~\\ref{fast1_tab:properties}) are in good agreement with published single-dish data (Theureau \\etal 1998; Paturel \\etal 2003b). "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 813,
+      "text": " In the channel maps for \\utwo\\ in Fig.~\\ref{fast1:2849chans} the S/N of the \\hi\\ emission is low in the channels near $V_{sys}=8104\\,\\kms$, particularly at small $r$ where $\\Sigma_{HI}(r)$ drops to $1 \\,M_{\\odot}\\,\\mathrm{pc}^{-2}$ (Fig.~\\ref{fast1_fig:2849summ}d). The morphology of the \\hi\\ distribution is similar for the approaching and receding sides within \\ropt, although there are significant differences farther out (see below). The \\hi\\ is more extended on the western side of the galaxy, due largely to a feature at $7866\\,\\kms$. Both the shape of the global profile and our estimates of \\ints, $W \\sin{i}$, $V_{sys}$ and $M_{HI}$ (Table~\\ref{fast1_tab:properties}) are in excellent agreement with the single dish data of Paturel \\etal  (2003b; see also Bottinelli \\etal 1990). "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 816,
+      "text": " We detect two companions to \\utwo, 3.5\\arcmin\\ ($\\sim120\\,$kpc in projection) and 4.7\\arcmin\\ ($\\sim150\\,$kpc in projection) to the east and south of the main disk, respectively. There are no previously cataloged objects within 4.5\\arcmin\\ of either source; these systems represent new detections. The companions are only marginally resolved spatially, but channel maps (not shown) suggest that the southern parts of both galaxies are advancing and the northern parts are receding. Despite our relatively low spectral resolution, their global profiles show double peaks characteristic of inclined disks (Fig.~\\ref{fast1_fig:2849summ}c): this is corroborated by the axial ratios of candidate optical counterparts that we identify on DSS images. In addition, the values of $\\theta$ for the optical counterparts are roughly consistent with that expected from their \\hi\\ morphologies. The properties of the two companions are given in Table~\\ref{fast1_tab:propertiesc}. Note that their values of $M_{HI}$ and $M_T$ resemble those of the Local Group spiral galaxy M33, which has $M_{HI}=1.8\\times10^9\\,\\Msun$ and $M_T\\sim6\\times10^9\\,\\Msun$ (Corbelli \\& Salucci 2000). "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 829,
+      "text": "The \\Iband\\ photometry of Paturel \\etal (2003a) agrees well with the values listed in Table~\\ref{fast1_tab:iband}. Using DSS images, \\citet{lu00b} find an elliptical bulge in \\eso, and \\citet{sanchez03} detect a mild clockwise warp on both sides of the disk.  "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 833,
+      "text": "  We confirm that the spiral galaxy ESO~563G22 is a companion to \\eso, with a projected separation of 5.9\\arcmin\\ ($\\sim120\\,$kpc) to the northeast of the latter. ESO~563G22 is a highly inclined spiral galaxy with a disturbed optical morphology, and 2MASS data reveals an asymmetry with more emission in the north.  We resolve the \\hi\\ emission of ESO~562G22 only marginally, but the southern part of the of the disk is receding and the norther part is advancing. Its basic properties are given in Table~\\ref{fast1_tab:propertiesc}. While $M_{HI}$ for ESO~563G22 is comparable to that of M33, $M_T$ exceeds that of the Local Group spiral galaxy by a factor of 5 (Corbelli \\& Salucci 2000). The orientation of the northeastern feature of \\eso\\ lies roughly along the line joining it and ESO~563G22, indicating that it may be the result of an interaction between the two systems. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 835,
+      "text": " Despite the unusual \\hi\\ morphology of \\eso\\ (Fig.~\\ref{fast1_fig:563summ}a) and significant differences between $\\Sigma_{HI}(r)$ for the approaching and receding sides (Fig.~\\ref{fast1_fig:563summ}d), both the global profile in Fig.~\\ref{fast1_fig:563summ}c and the derived RC in Fig.~\\ref{fast1_fig:edgeons}a are symmetric. We find no difference between the RC derived including the northeastern and southeastern features and one derived excluding them, save for their extent on the receding side. We therefore include emission from these features in the parameters given in Table~\\ref{fast1_tab:properties} and in the RC of Fig.~\\ref{fast1_fig:edgeons}.  Our estimate of \\ints\\ is intermediate to single dish values from Haynes \\etal (1999b) and Paturel \\etal (2003b), and the global properties $V_{sys}$ and $W \\sin{i}$ are in good agreement with published measurements. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 846,
+      "text": " The \\hi\\ emission within $r_w$ is fairly symmetric about $V_{sys}$, and there is a good correspondence between $\\Sigma_{HI}(r)$ on the approaching and receding sides in Fig.~\\ref{fast1_fig:5010summ}d. The peak flux in Fig.~\\ref{fast1_fig:5010summ}c and \\ints\\ in Table~\\ref{fast1_tab:properties} are substantially larger than the single-dish estimates obtained from the Arecibo Radio Telescope\\footnote{The Arecibo Observatory is operated by Cornell University under cooperative agreement with the NSF.} (Haynes \\& Giovanelli 1984; Lewis \\etal 1985; Paturel \\etal 2003b; although see Bicay \\& Giovanelli 1986), due to the large angular size of \\ufiveo\\ relative to the Arecibo $L$-band primary beam FWHM. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 877,
+      "text": " There is excellent agreement between the optical and \\hi\\ kinematics in the overlap region, as well as a high degree of symmetry between the approaching and receding sides. However, the \\hi\\ kinematics do not extend much farther into the halo than the corresponding optical RC (Fig.~\\ref{fast1_fig:edgeons}c).  We model the \\ueight\\ data cube using the derived kinematics and $\\Sigma_{HI}(r)$, adopting $i_d$ and $\\theta_d$ from Table~\\ref{fast1_tab:iband}. At the angular and spectral resolution of our \\hi\\ data across the disk of \\ueight, these simulations recover the observed frequency dependence of the \\hi\\ distribution. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 888,
+      "text": "  We detect two companions to \\uten, 5.7\\arcmin\\ ($215\\,$kpc in projection) to the N and 4.0\\arcmin\\ ($150\\,$kpc in projection) to the northwest of the main disk, respectively. The first is KUG~1634+392, a 16.5 mag (blue) galaxy (Garnier \\etal 1996) classified as a UV-excess object by Takase \\& Miyauchi-Isobe (1984). Its optical dimensions imply a low $i$; ISM turbulence may therefore be an important contributor to $W \\sin{i}$, and the listed lower limit on $M_T$ is highly uncertain (Table~\\ref{fast1_tab:propertiesc}).  There are no cataloged objects in the vicinity of the northwestern companion, and it is therefore a new detection. Channel maps (not shown) indicate that the northern side is advancing and the southern side is receding: this is corroborated by the morphology of a faint counterpart at the same location in our \\Iband\\ image. "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 889,
+      "text": "%We find a faint counterpart to the \\hi\\ detection at the same location in our archived \\Iband\\ image, with an orientation consistent with that inferred from ."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 902,
+      "text": " The channel maps of \\uone\\ in Fig.~\\ref{fast1:11455chans} reveal a warp on the approaching side, most prominent from 5132 to 5090\\kms. There is also a low column density extension on the receding side from 5667 to 5646\\kms, although $\\theta$ is the same as that of the galaxy major axis. We measure a warp angle $\\alpha=12^{\\circ}$ on the approaching side by following the peak of the total intensity distribution (Fig.~\\ref{fast1_fig:11455summ}a) as in \\citet{gar02}, and the approximate starting location $r_w$ of the warp is indicated by the dashed vertical line in Fig.~\\ref{fast1_fig:edgeons}d. The \\hi\\ distribution is symmetric about the galaxy center beyond the optical disk, and features in $\\Sigma_{HI}(r)$ beyond $r \\sim 70''$ (26 kpc) are well correlated.  There is also good agreement between $V_{sys}$, \\ints\\ and $W \\sin{i}$ and single-dish estimates in the literature (Bottinelli \\etal 1993; Theureau \\etal 1998; Haynes \\etal 1999b; Paturel \\etal 2003b; Vogt \\etal 2004). "
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 906,
+      "text": "  Although the optical RC for \\uone\\ is still rising at the last measured point (Fig.~\\ref{fast1_fig:edgeons}), the outer \\hi\\ RC is flat and extends well beyond $r_{opt}$ on the advancing side. There is good agreement between the two kinematic tracers near the edge of the optical RC on both sides of the disk. We model the \\hi\\ emission in \\uone\\ using the derived RC and $\\Sigma_{HI}(r)$. On the approaching side, we set $\\theta=\\theta_d$ for $r<r_w$ and vary $\\theta$ smoothly following the warp angle $\\alpha$ father out; on the receding side, we fix $\\theta=\\theta_d$ at all $r$. The simulated data cube recovers the channel map morphology when $i_d$ in Table~\\ref{fast1_tab:iband} is adopted for both the main disk and warp emission."
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 915,
+      "text": "\\bibitem[Bagri(1996)]{bagri96} Bagri, D. S. 1996, Reduction of 1400 MHz RFI in the VLA, VLA Test Memo 200"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1057,
+      "text": "\\begin{deluxetable}{ccccccccccccc}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1059,
+      "text": "%\\tablenum{5}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1060,
+      "text": "\\tablecaption{\\hi\\ Properties of the Fast Rotator Sample\\label{fast1_tab:properties}}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1061,
+      "text": "\\tabletypesize{\\scriptsize}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1062,
+      "text": "\\tablewidth{0pt}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1063,
+      "text": "\\tablehead{\\colhead{NGC/IC} & \\colhead{\\ints} & \\colhead{$W \\sin i$} & \\colhead{$V_{sys}$} &  \\colhead{$M_{HI}$} & \\colhead{$r_{HI}/r_{opt}$} & \\colhead{$M_T$} & \\colhead{$\\log(M_{HI}/{M_T})$} & \\colhead{$\\log(\\sigma_{HI})$} & \\colhead{$\\log(\\sigma_{T})$} & \\colhead{$r_w$} & \\colhead{$\\alpha$}\\\\"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1077,
+      "text": "\\tablecomments{Col. (2): Integrated line intensity. Col. (3): Velocity width at 50\\% of the peak, corrected for instrumental broadening. Col. (4): Integrated profile mid-point. Col.(5): \\hi\\ mass, computed from eq.~\\ref{fast1:b}. Col. (6): Ratio of average \\hi\\ radius to optical radius. Col. (7): Total dynamical mass, computed from eq.~\\ref{fast1:c} (see text). Col. (9): Average \\hi\\ surface density $\\sigma_{HI}=M_{HI}/\\pi r_{HI}^2$. Col. (10):  Average total surface density $\\sigma_{T}=M_{T}/\\pi r_{HI}^2$. Col. (11): Measured warp radius in highly inclined systems. The first number denotes the approaching side and the second the receding side. We set $r_w=0$ when no warp is detected. Col. (12): Measured warp angle in highly inclined systems. The first number denotes the approaching side and the second the receding side.}"
+    },
+    {
+      "file": "spekkens_halfresfigs.tex",
+      "line": 1078,
+      "text": "\\end{deluxetable}"
+    }
+  ],
+  "embedded_urls": [
+    "http://www.aoc.nrao.edu/aips/",
+    "http://www.astro.rug.nl/$"
+  ],
+  "cds_expected_catalog_probe": {
+    "url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/132/1426/ReadMe",
+    "status": "http_error",
+    "code": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "surface_density_mentions": 5,
+  "column_density_mentions": 2,
+  "hi_profile_mentions": 0,
+  "aperture_synthesis_mentions": 6,
+  "interpretation_rule": "SG06 is treated as a potential direct observing source because it reports new resolved H I observations. It is promoted to a radial-profile source only if the public package or a directly linked archive exposes a defensible radial H I surface-density product, analytic representation, or exact recoverable vector geometry.",
+  "boundary": "Acquisition/provenance only. No raster digitization, profile-value extraction, helium conversion, distance rescaling, persistence fitting, or blind-outcome inspection."
+}
