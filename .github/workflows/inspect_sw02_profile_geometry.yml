@@ -1,0 +1,54 @@
+name: Inspect Swaters 2002 profile geometry
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/inspect_sw02_profile_geometry.yml
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect source method and Figure 4 vector/text structure
+        run: |
+          python - <<'PY'
+          import io, re, tarfile, urllib.request, pathlib, subprocess, shutil
+          url='https://export.arxiv.org/e-print/astro-ph/0204525'
+          req=urllib.request.Request(url,headers={'User-Agent':'PersistenceFrameworkPaperI/1.0'})
+          raw=urllib.request.urlopen(req,timeout=90).read()
+          tf=tarfile.open(fileobj=io.BytesIO(raw),mode='r:*')
+          tex=tf.extractfile('h3074.tex').read().decode('latin-1','replace')
+          lines=tex.splitlines()
+          print('=== PROFILE METHOD / FIGURE 4 SOURCE EXCERPT ===')
+          for i in range(404,min(535,len(lines))):
+              print(f'{i+1}: {lines[i]}')
+          ps=tf.extractfile('h3074f4.ps').read()
+          pathlib.Path('/tmp/h3074f4.ps').write_bytes(ps)
+          txt=ps.decode('latin-1','replace')
+          print('\n=== FIGURE 4 POSTSCRIPT STRUCTURE ===')
+          print('bytes',len(ps))
+          print('BoundingBox',[l for l in txt.splitlines() if 'BoundingBox' in l][:10])
+          for token in ['moveto','lineto','setrgbcolor','show','stroke','newpath']:
+              print(token,txt.count(token))
+          strings=re.findall(r'\(([^()]*)\)',txt)
+          useful=[s for s in strings if re.search(r'UGC|DDO|HI|Sigma|M|pc|kpc|arc|[0-9]{3,}',s,re.I)]
+          print('string_count',len(strings),'useful_count',len(useful))
+          print('useful_strings',useful[:300])
+          print('\n=== AVAILABLE CONVERTERS ===')
+          print('gs',shutil.which('gs'),'ps2ascii',shutil.which('ps2ascii'),'pdftotext',shutil.which('pdftotext'))
+          if shutil.which('ps2ascii'):
+              p=subprocess.run(['ps2ascii','/tmp/h3074f4.ps','/tmp/f4.txt'],capture_output=True,text=True)
+              print('ps2ascii_rc',p.returncode,p.stderr[:1000])
+              if pathlib.Path('/tmp/f4.txt').exists():
+                  t=pathlib.Path('/tmp/f4.txt').read_text(errors='replace')
+                  print('=== PS2ASCII FIGURE 4 ===')
+                  print(t[:15000])
+          PY
