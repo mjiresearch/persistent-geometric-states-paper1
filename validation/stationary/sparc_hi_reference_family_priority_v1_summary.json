@@ -1,27 +1,11 @@
 {
   "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
   "n_frozen_galaxies": 149,
-  "n_untouched_no_public_overlay": 95,
-  "n_reference_families_covering_untouched": 42,
-  "n_actionable_reference_families": 24,
+  "n_untouched_no_public_overlay": 93,
+  "n_reference_families_covering_untouched": 41,
+  "n_actionable_reference_families": 23,
   "n_deferred_or_redirected_reference_families": 18,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Ge04",
-      "n_untouched_frozen_galaxies": 2,
-      "n_calibration": 1,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Gentile et al.",
-      "bibcode": "2004MNRAS.351..903G",
-      "comment": "",
-      "galaxies": "ESO079-G014;ESO116-G012"
-    },
     {
       "sparc_ref_id": "dB97",
       "n_untouched_frozen_galaxies": 2,
@@ -245,6 +229,22 @@
       "bibcode": "1999AJ....118.2123B",
       "comment": "",
       "galaxies": "NGC5585"
+    },
+    {
+      "sparc_ref_id": "Ca90",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Carignan and Puche",
+      "bibcode": "1990AJ....100..394C",
+      "comment": "",
+      "galaxies": "NGC0247"
     }
   ],
   "deferred_or_redirected_families": [

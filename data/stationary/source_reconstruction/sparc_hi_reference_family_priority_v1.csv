@@ -1,5 +1,4 @@
 sparc_ref_id,n_untouched_frozen_galaxies,n_calibration,n_blind,queue_actionable_now,queue_status,disposition,disposition_artifact,reopen_rule,reference_resolved_in_cds_refs,author,bibcode,comment,galaxies
-Ge04,2,1,1,1,actionable_unreviewed,,,,1,Gentile et al.,2004MNRAS.351..903G,,ESO079-G014;ESO116-G012
 dB97,2,1,1,1,actionable_unreviewed,,,,1,de Blok and McGaugh,1997MNRAS.290..533D,,F565-V2;F571-V1
 Ba05,1,1,0,1,actionable_unreviewed,,,,1,Barbieri et al.,2005A&A...439..947B,,NGC4559
 Bl04,1,1,0,1,actionable_unreviewed,,,,1,Blais-Ouellette et al.,2004A&A...420..147B,Cat. J/A+A/420/147,NGC5985
