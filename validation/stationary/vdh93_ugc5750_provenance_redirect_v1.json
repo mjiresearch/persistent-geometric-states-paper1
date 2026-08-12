@@ -1,0 +1,47 @@
+{
+  "status": "VDH93_UGC05750_REDIRECT_TO_VH93_CONFIRMED",
+  "galaxy": "UGC05750",
+  "stationary_role": "calibration",
+  "sparc_ref_id": "VdH93",
+  "sparc_mapping": {
+    "VdH93": {
+      "galaxy": "UGC05750",
+      "stationary_role": "calibration",
+      "sparc_ref_id": "VdH93",
+      "reference_resolved_in_cds_refs": "0",
+      "author": "",
+      "bibcode": "",
+      "comment": "",
+      "provenance_scope": "SPARC_Table1_column15_HI_Halpha_reference"
+    },
+    "dB01": {
+      "galaxy": "UGC05750",
+      "stationary_role": "calibration",
+      "sparc_ref_id": "dB01",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok et al.",
+      "bibcode": "2001AJ....122.2396D",
+      "comment": "",
+      "provenance_scope": "SPARC_Table1_column15_HI_Halpha_reference"
+    }
+  },
+  "upstream_source_trace": {
+    "galaxy": "UGC05750",
+    "stationary_role": "calibration",
+    "lelli_ref": "dB01",
+    "db01_resolved_hi_status": "resolved_HI",
+    "original_hi_source": "van_der_Hulst_et_al_1993_VH93",
+    "source_family_status": "new_original_source_branch",
+    "evidence": "UGC 5750 is one of the eight VLA HI galaxies in van der Hulst et al. 1993",
+    "disposition": "audit_VH93_public_radial_profile_route"
+  },
+  "existing_vh93_state": {
+    "artifact": "validation/stationary/VH93_PUBLIC_PROFILE_ROUTE_AUDIT_V1.md",
+    "source": "van der Hulst et al. 1993, AJ 106, 548-559",
+    "product": "Figure 2 radial H I surface-density profile for UGC5750",
+    "current_public_recoverability": "scan-only figure values; no exact numeric/native-vector series established"
+  },
+  "decision": "Treat unresolved VdH93 as the already-audited VH93 source lineage for UGC05750; do not repeat the exhausted public scan/table search.",
+  "reopen_rule": "reopen_only_for_a_genuinely_new_machine_readable_radial_table_exact_native_vector_republication_public_calibrated_map_cube_with_predeclared_reconstruction_protocol_or_documented_source_correction",
+  "boundary": "No raster digitization, map/cube reconstruction, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
