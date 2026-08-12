@@ -1,0 +1,42 @@
+name: Audit Elson 2017 Appendix axis labels
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/audit_elson2017_appendix_axis_labels.py'
+      - '.github/workflows/audit_elson2017_appendix_axis_labels.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF parser and bounded OCR dependency
+        run: |
+          pip install --disable-pip-version-check pymupdf
+          if ! command -v tesseract >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq tesseract-ocr
+          fi
+      - name: Audit printed Appendix axis labels
+        run: python scripts/stationary/audit_elson2017_appendix_axis_labels.py
+      - name: Commit label audit
+        run: |
+          git config user.name "mjiresearch"
+          git config user.email "michael.iuliano.research@gmail.com"
+          git add validation/stationary/elson2017_appendix_axis_label_audit_v1.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Record WHISP Appendix axis-label audit"
+            git push
+          fi
