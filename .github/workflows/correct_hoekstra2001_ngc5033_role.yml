@@ -1,0 +1,41 @@
+name: Correct Hoekstra NGC5033 frozen role
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/correct_hoekstra2001_ngc5033_role.py'
+      - '.github/workflows/correct_hoekstra2001_ngc5033_role.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Correct metadata only
+        run: python scripts/stationary/correct_hoekstra2001_ngc5033_role.py
+      - name: Commit correction
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/stationary/extract_hoekstra2001_be87_vector_profiles.py data/stationary/source_reconstruction/hoekstra2001_be87_hi_vector_profiles_candidate_v1.csv
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Correct NGC5033 frozen role in Be87 vector candidate'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
