@@ -1,0 +1,4650 @@
+{
+  "status": "GE04_FIG2_NATIVE_VECTOR_INVENTORY_COMPLETE",
+  "source_package_sha256": "f0c8804c4815f3cfcce2beb6d4e6283005b51199d372c9b3c04b243132338b6f",
+  "fig2_sha256": "a5466d2a2d492850d49cc6e11e0785735d76d7651a27a24550e8d8a29ecc4591",
+  "fig2_bytes": 108443,
+  "n_lines": 10639,
+  "header": [
+    "%%Title: raddens.draft.mr.eps",
+    "%%Creator: fig2dev Version 3.2 Patchlevel 3c",
+    "%%BoundingBox: 0 0 229 724"
+  ],
+  "image_ops": 0,
+  "colorimage_ops": 0,
+  "native_vector_candidate": true,
+  "procedure_definitions": [
+    {
+      "name": "col-1",
+      "start_line": 12,
+      "end_line": 12,
+      "body": "/col-1 {0 setgray} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col0",
+      "start_line": 13,
+      "end_line": 13,
+      "body": "/col0 {0.000 0.000 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col1",
+      "start_line": 14,
+      "end_line": 14,
+      "body": "/col1 {0.000 0.000 1.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col2",
+      "start_line": 15,
+      "end_line": 15,
+      "body": "/col2 {0.000 1.000 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col3",
+      "start_line": 16,
+      "end_line": 16,
+      "body": "/col3 {0.000 1.000 1.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col4",
+      "start_line": 17,
+      "end_line": 17,
+      "body": "/col4 {1.000 0.000 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col5",
+      "start_line": 18,
+      "end_line": 18,
+      "body": "/col5 {1.000 0.000 1.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col6",
+      "start_line": 19,
+      "end_line": 19,
+      "body": "/col6 {1.000 1.000 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col7",
+      "start_line": 20,
+      "end_line": 20,
+      "body": "/col7 {1.000 1.000 1.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col8",
+      "start_line": 21,
+      "end_line": 21,
+      "body": "/col8 {0.000 0.000 0.560 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col9",
+      "start_line": 22,
+      "end_line": 22,
+      "body": "/col9 {0.000 0.000 0.690 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col10",
+      "start_line": 23,
+      "end_line": 23,
+      "body": "/col10 {0.000 0.000 0.820 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col11",
+      "start_line": 24,
+      "end_line": 24,
+      "body": "/col11 {0.530 0.810 1.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col12",
+      "start_line": 25,
+      "end_line": 25,
+      "body": "/col12 {0.000 0.560 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col13",
+      "start_line": 26,
+      "end_line": 26,
+      "body": "/col13 {0.000 0.690 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col14",
+      "start_line": 27,
+      "end_line": 27,
+      "body": "/col14 {0.000 0.820 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col15",
+      "start_line": 28,
+      "end_line": 28,
+      "body": "/col15 {0.000 0.560 0.560 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col16",
+      "start_line": 29,
+      "end_line": 29,
+      "body": "/col16 {0.000 0.690 0.690 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col17",
+      "start_line": 30,
+      "end_line": 30,
+      "body": "/col17 {0.000 0.820 0.820 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col18",
+      "start_line": 31,
+      "end_line": 31,
+      "body": "/col18 {0.560 0.000 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col19",
+      "start_line": 32,
+      "end_line": 32,
+      "body": "/col19 {0.690 0.000 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col20",
+      "start_line": 33,
+      "end_line": 33,
+      "body": "/col20 {0.820 0.000 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col21",
+      "start_line": 34,
+      "end_line": 34,
+      "body": "/col21 {0.560 0.000 0.560 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col22",
+      "start_line": 35,
+      "end_line": 35,
+      "body": "/col22 {0.690 0.000 0.690 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col23",
+      "start_line": 36,
+      "end_line": 36,
+      "body": "/col23 {0.820 0.000 0.820 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col24",
+      "start_line": 37,
+      "end_line": 37,
+      "body": "/col24 {0.500 0.190 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col25",
+      "start_line": 38,
+      "end_line": 38,
+      "body": "/col25 {0.630 0.250 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col26",
+      "start_line": 39,
+      "end_line": 39,
+      "body": "/col26 {0.750 0.380 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col27",
+      "start_line": 40,
+      "end_line": 40,
+      "body": "/col27 {1.000 0.500 0.500 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col28",
+      "start_line": 41,
+      "end_line": 41,
+      "body": "/col28 {1.000 0.630 0.630 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col29",
+      "start_line": 42,
+      "end_line": 42,
+      "body": "/col29 {1.000 0.750 0.750 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col30",
+      "start_line": 43,
+      "end_line": 43,
+      "body": "/col30 {1.000 0.880 0.880 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "col31",
+      "start_line": 44,
+      "end_line": 44,
+      "body": "/col31 {1.000 0.840 0.000 srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "cp",
+      "start_line": 52,
+      "end_line": 52,
+      "body": "/cp {closepath} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "ef",
+      "start_line": 53,
+      "end_line": 53,
+      "body": "/ef {eofill} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "gr",
+      "start_line": 54,
+      "end_line": 54,
+      "body": "/gr {grestore} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "gs",
+      "start_line": 55,
+      "end_line": 55,
+      "body": "/gs {gsave} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "sa",
+      "start_line": 56,
+      "end_line": 56,
+      "body": "/sa {save} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "rs",
+      "start_line": 57,
+      "end_line": 57,
+      "body": "/rs {restore} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "l",
+      "start_line": 58,
+      "end_line": 58,
+      "body": "/l {lineto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "m",
+      "start_line": 59,
+      "end_line": 59,
+      "body": "/m {moveto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "rm",
+      "start_line": 60,
+      "end_line": 60,
+      "body": "/rm {rmoveto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "n",
+      "start_line": 61,
+      "end_line": 61,
+      "body": "/n {newpath} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "s",
+      "start_line": 62,
+      "end_line": 62,
+      "body": "/s {stroke} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 0
+    },
+    {
+      "name": "sh",
+      "start_line": 63,
+      "end_line": 63,
+      "body": "/sh {show} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "slc",
+      "start_line": 64,
+      "end_line": 64,
+      "body": "/slc {setlinecap} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "slj",
+      "start_line": 65,
+      "end_line": 65,
+      "body": "/slj {setlinejoin} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "slw",
+      "start_line": 66,
+      "end_line": 66,
+      "body": "/slw {setlinewidth} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "srgb",
+      "start_line": 67,
+      "end_line": 67,
+      "body": "/srgb {setrgbcolor} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "rot",
+      "start_line": 68,
+      "end_line": 68,
+      "body": "/rot {rotate} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "sc",
+      "start_line": 69,
+      "end_line": 69,
+      "body": "/sc {scale} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "sd",
+      "start_line": 70,
+      "end_line": 70,
+      "body": "/sd {setdash} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "ff",
+      "start_line": 71,
+      "end_line": 71,
+      "body": "/ff {findfont} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "sf",
+      "start_line": 72,
+      "end_line": 72,
+      "body": "/sf {setfont} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "scf",
+      "start_line": 73,
+      "end_line": 73,
+      "body": "/scf {scalefont} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "sw",
+      "start_line": 74,
+      "end_line": 74,
+      "body": "/sw {stringwidth} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "tr",
+      "start_line": 75,
+      "end_line": 75,
+      "body": "/tr {translate} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "tnt",
+      "start_line": 76,
+      "end_line": 79,
+      "body": "/tnt {dup dup currentrgbcolor\n  4 -2 roll dup 1 exch sub 3 -1 roll mul add\n  4 -2 roll dup 1 exch sub 3 -1 roll mul add\n  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "shd",
+      "start_line": 81,
+      "end_line": 82,
+      "body": "/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul\n  4 -2 roll mul srgb} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "showpage",
+      "start_line": 109,
+      "end_line": 109,
+      "body": "/showpage {} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "B",
+      "start_line": 120,
+      "end_line": 120,
+      "body": "/B {CS newpath moveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "F",
+      "start_line": 121,
+      "end_line": 121,
+      "body": "/F {moveto 0 setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "C",
+      "start_line": 122,
+      "end_line": 122,
+      "body": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CS",
+      "start_line": 123,
+      "end_line": 123,
+      "body": "/CS {currentpoint stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CF",
+      "start_line": 124,
+      "end_line": 124,
+      "body": "/CF {currentpoint eofill} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "L",
+      "start_line": 125,
+      "end_line": 125,
+      "body": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "P",
+      "start_line": 126,
+      "end_line": 126,
+      "body": "/P {moveto 0 1 rlineto stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 1
+    },
+    {
+      "name": "T",
+      "start_line": 127,
+      "end_line": 127,
+      "body": "/T {currentlinecap exch 1 setlinecap show setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "nocurrentpoint",
+      "start_line": 128,
+      "end_line": 128,
+      "body": "/nocurrentpoint {pop 0 0 M currentpoint} put",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 1
+    },
+    {
+      "name": "showpage",
+      "start_line": 2220,
+      "end_line": 2220,
+      "body": "/showpage {} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "B",
+      "start_line": 2231,
+      "end_line": 2231,
+      "body": "/B {CS newpath moveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "F",
+      "start_line": 2232,
+      "end_line": 2232,
+      "body": "/F {moveto 0 setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "C",
+      "start_line": 2233,
+      "end_line": 2233,
+      "body": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CS",
+      "start_line": 2234,
+      "end_line": 2234,
+      "body": "/CS {currentpoint stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CF",
+      "start_line": 2235,
+      "end_line": 2235,
+      "body": "/CF {currentpoint eofill} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "L",
+      "start_line": 2236,
+      "end_line": 2236,
+      "body": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "P",
+      "start_line": 2237,
+      "end_line": 2237,
+      "body": "/P {moveto 0 1 rlineto stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 1
+    },
+    {
+      "name": "T",
+      "start_line": 2238,
+      "end_line": 2238,
+      "body": "/T {currentlinecap exch 1 setlinecap show setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "nocurrentpoint",
+      "start_line": 2239,
+      "end_line": 2239,
+      "body": "/nocurrentpoint {pop 0 0 M currentpoint} put",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 1
+    },
+    {
+      "name": "showpage",
+      "start_line": 4177,
+      "end_line": 4177,
+      "body": "/showpage {} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "B",
+      "start_line": 4188,
+      "end_line": 4188,
+      "body": "/B {CS newpath moveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "F",
+      "start_line": 4189,
+      "end_line": 4189,
+      "body": "/F {moveto 0 setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "C",
+      "start_line": 4190,
+      "end_line": 4190,
+      "body": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CS",
+      "start_line": 4191,
+      "end_line": 4191,
+      "body": "/CS {currentpoint stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CF",
+      "start_line": 4192,
+      "end_line": 4192,
+      "body": "/CF {currentpoint eofill} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "L",
+      "start_line": 4193,
+      "end_line": 4193,
+      "body": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "P",
+      "start_line": 4194,
+      "end_line": 4194,
+      "body": "/P {moveto 0 1 rlineto stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 1
+    },
+    {
+      "name": "T",
+      "start_line": 4195,
+      "end_line": 4195,
+      "body": "/T {currentlinecap exch 1 setlinecap show setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "nocurrentpoint",
+      "start_line": 4196,
+      "end_line": 4196,
+      "body": "/nocurrentpoint {pop 0 0 M currentpoint} put",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 1
+    },
+    {
+      "name": "showpage",
+      "start_line": 6408,
+      "end_line": 6408,
+      "body": "/showpage {} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "B",
+      "start_line": 6419,
+      "end_line": 6419,
+      "body": "/B {CS newpath moveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "F",
+      "start_line": 6420,
+      "end_line": 6420,
+      "body": "/F {moveto 0 setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "C",
+      "start_line": 6421,
+      "end_line": 6421,
+      "body": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CS",
+      "start_line": 6422,
+      "end_line": 6422,
+      "body": "/CS {currentpoint stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CF",
+      "start_line": 6423,
+      "end_line": 6423,
+      "body": "/CF {currentpoint eofill} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "L",
+      "start_line": 6424,
+      "end_line": 6424,
+      "body": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "P",
+      "start_line": 6425,
+      "end_line": 6425,
+      "body": "/P {moveto 0 1 rlineto stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 1
+    },
+    {
+      "name": "T",
+      "start_line": 6426,
+      "end_line": 6426,
+      "body": "/T {currentlinecap exch 1 setlinecap show setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "nocurrentpoint",
+      "start_line": 6427,
+      "end_line": 6427,
+      "body": "/nocurrentpoint {pop 0 0 M currentpoint} put",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 1
+    },
+    {
+      "name": "showpage",
+      "start_line": 8541,
+      "end_line": 8541,
+      "body": "/showpage {} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "B",
+      "start_line": 8552,
+      "end_line": 8552,
+      "body": "/B {CS newpath moveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "F",
+      "start_line": 8553,
+      "end_line": 8553,
+      "body": "/F {moveto 0 setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "C",
+      "start_line": 8554,
+      "end_line": 8554,
+      "body": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CS",
+      "start_line": 8555,
+      "end_line": 8555,
+      "body": "/CS {currentpoint stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 0
+    },
+    {
+      "name": "CF",
+      "start_line": 8556,
+      "end_line": 8556,
+      "body": "/CF {currentpoint eofill} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "L",
+      "start_line": 8557,
+      "end_line": 8557,
+      "body": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "P",
+      "start_line": 8558,
+      "end_line": 8558,
+      "body": "/P {moveto 0 1 rlineto stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "local_path_ops": 1
+    },
+    {
+      "name": "T",
+      "start_line": 8559,
+      "end_line": 8559,
+      "body": "/T {currentlinecap exch 1 setlinecap show setlinecap} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 0
+    },
+    {
+      "name": "nocurrentpoint",
+      "start_line": 8560,
+      "end_line": 8560,
+      "body": "/nocurrentpoint {pop 0 0 M currentpoint} put",
+      "has_fill": false,
+      "has_stroke": false,
+      "local_path_ops": 1
+    }
+  ],
+  "procedure_invocation_summaries": [
+    {
+      "name": "l",
+      "n_invocations": 8817,
+      "n_unique_xy": 523,
+      "bbox": [
+        -85.0,
+        -86.0,
+        1422.0,
+        985.0
+      ],
+      "x_span": 1507.0,
+      "y_span": 1071.0,
+      "first_line": 106,
+      "last_line": 10625,
+      "first_80_invocations": [
+        {
+          "line": 106,
+          "x": 588.0,
+          "y": 144.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 106,
+          "x": 588.0,
+          "y": 490.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 106,
+          "x": 18.0,
+          "y": 490.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 141,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "401 328 M 1422 0 l"
+        },
+        {
+          "line": 142,
+          "x": 0.0,
+          "y": 985.0,
+          "text": "0 985 l"
+        },
+        {
+          "line": 145,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "1422 0 l"
+        },
+        {
+          "line": 146,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "401 328 M 1422 0 l"
+        },
+        {
+          "line": 147,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "401 1313 M 1422 0 l"
+        },
+        {
+          "line": 148,
+          "x": 0.0,
+          "y": 985.0,
+          "text": "401 328 M 0 985 l"
+        },
+        {
+          "line": 149,
+          "x": 0.0,
+          "y": 985.0,
+          "text": "1823 328 M 0 985 l"
+        },
+        {
+          "line": 150,
+          "x": -85.0,
+          "y": 0.0,
+          "text": "1823 328 M -85 0 l"
+        },
+        {
+          "line": 151,
+          "x": -12.0,
+          "y": -4.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 152,
+          "x": -8.0,
+          "y": -12.0,
+          "text": "-8 -12 l"
+        },
+        {
+          "line": 153,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 154,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 155,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 156,
+          "x": 8.0,
+          "y": -12.0,
+          "text": "8 -12 l"
+        },
+        {
+          "line": 157,
+          "x": 12.0,
+          "y": -4.0,
+          "text": "12 -4 l"
+        },
+        {
+          "line": 158,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 l"
+        },
+        {
+          "line": 159,
+          "x": 13.0,
+          "y": 4.0,
+          "text": "13 4 l"
+        },
+        {
+          "line": 160,
+          "x": 8.0,
+          "y": 12.0,
+          "text": "8 12 l"
+        },
+        {
+          "line": 161,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 162,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        },
+        {
+          "line": 163,
+          "x": -4.0,
+          "y": 20.0,
+          "text": "-4 20 l"
+        },
+        {
+          "line": 164,
+          "x": -8.0,
+          "y": 12.0,
+          "text": "-8 12 l"
+        },
+        {
+          "line": 165,
+          "x": -13.0,
+          "y": 4.0,
+          "text": "-13 4 l"
+        },
+        {
+          "line": 166,
+          "x": -8.0,
+          "y": 0.0,
+          "text": "-8 0 l"
+        },
+        {
+          "line": 167,
+          "x": -8.0,
+          "y": -4.0,
+          "text": "-8 -4 l"
+        },
+        {
+          "line": 168,
+          "x": -4.0,
+          "y": -4.0,
+          "text": "-4 -4 l"
+        },
+        {
+          "line": 169,
+          "x": -4.0,
+          "y": -8.0,
+          "text": "-4 -8 l"
+        },
+        {
+          "line": 170,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 171,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 172,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 173,
+          "x": 4.0,
+          "y": -8.0,
+          "text": "4 -8 l"
+        },
+        {
+          "line": 174,
+          "x": 4.0,
+          "y": -4.0,
+          "text": "4 -4 l"
+        },
+        {
+          "line": 175,
+          "x": 8.0,
+          "y": -4.0,
+          "text": "8 -4 l"
+        },
+        {
+          "line": 176,
+          "x": 9.0,
+          "y": 4.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 177,
+          "x": 4.0,
+          "y": 4.0,
+          "text": "4 4 l"
+        },
+        {
+          "line": 178,
+          "x": 4.0,
+          "y": 8.0,
+          "text": "4 8 l"
+        },
+        {
+          "line": 179,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 180,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        },
+        {
+          "line": 181,
+          "x": -4.0,
+          "y": 20.0,
+          "text": "-4 20 l"
+        },
+        {
+          "line": 182,
+          "x": -4.0,
+          "y": 8.0,
+          "text": "-4 8 l"
+        },
+        {
+          "line": 183,
+          "x": -4.0,
+          "y": 4.0,
+          "text": "-4 4 l"
+        },
+        {
+          "line": 184,
+          "x": -9.0,
+          "y": 4.0,
+          "text": "-9 4 l"
+        },
+        {
+          "line": 185,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "-117 7 m -42 0 l"
+        },
+        {
+          "line": 186,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "42 50 m -42 0 l"
+        },
+        {
+          "line": 187,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 188,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 189,
+          "x": -85.0,
+          "y": 0.0,
+          "text": "42 49 m -85 0 l"
+        },
+        {
+          "line": 190,
+          "x": -12.0,
+          "y": -4.0,
+          "text": "158 -42 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 191,
+          "x": -8.0,
+          "y": -13.0,
+          "text": "-8 -13 l"
+        },
+        {
+          "line": 192,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 193,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 194,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 195,
+          "x": 8.0,
+          "y": -12.0,
+          "text": "8 -12 l"
+        },
+        {
+          "line": 196,
+          "x": 12.0,
+          "y": -4.0,
+          "text": "12 -4 l"
+        },
+        {
+          "line": 197,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 l"
+        },
+        {
+          "line": 198,
+          "x": 13.0,
+          "y": 4.0,
+          "text": "13 4 l"
+        },
+        {
+          "line": 199,
+          "x": 8.0,
+          "y": 12.0,
+          "text": "8 12 l"
+        },
+        {
+          "line": 200,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 201,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        },
+        {
+          "line": 202,
+          "x": -4.0,
+          "y": 20.0,
+          "text": "-4 20 l"
+        },
+        {
+          "line": 203,
+          "x": -8.0,
+          "y": 13.0,
+          "text": "-8 13 l"
+        },
+        {
+          "line": 204,
+          "x": -13.0,
+          "y": 4.0,
+          "text": "-13 4 l"
+        },
+        {
+          "line": 205,
+          "x": -8.0,
+          "y": 0.0,
+          "text": "-8 0 l"
+        },
+        {
+          "line": 206,
+          "x": -8.0,
+          "y": -4.0,
+          "text": "-8 -4 l"
+        },
+        {
+          "line": 207,
+          "x": -4.0,
+          "y": -4.0,
+          "text": "-4 -4 l"
+        },
+        {
+          "line": 208,
+          "x": -4.0,
+          "y": -9.0,
+          "text": "-4 -9 l"
+        },
+        {
+          "line": 209,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 210,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 211,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 212,
+          "x": 4.0,
+          "y": -8.0,
+          "text": "4 -8 l"
+        },
+        {
+          "line": 213,
+          "x": 4.0,
+          "y": -4.0,
+          "text": "4 -4 l"
+        },
+        {
+          "line": 214,
+          "x": 8.0,
+          "y": -4.0,
+          "text": "8 -4 l"
+        },
+        {
+          "line": 215,
+          "x": 9.0,
+          "y": 4.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 216,
+          "x": 4.0,
+          "y": 4.0,
+          "text": "4 4 l"
+        },
+        {
+          "line": 217,
+          "x": 4.0,
+          "y": 8.0,
+          "text": "4 8 l"
+        },
+        {
+          "line": 218,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 219,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        }
+      ]
+    },
+    {
+      "name": "m",
+      "n_invocations": 1923,
+      "n_unique_xy": 592,
+      "bbox": [
+        -342.0,
+        -256.0,
+        158.0,
+        221.0
+      ],
+      "x_span": 500.0,
+      "y_span": 477.0,
+      "first_line": 106,
+      "last_line": 10591,
+      "first_80_invocations": [
+        {
+          "line": 106,
+          "x": 18.0,
+          "y": 144.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 151,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 151,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 176,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 185,
+          "x": -117.0,
+          "y": 7.0,
+          "text": "-117 7 m -42 0 l"
+        },
+        {
+          "line": 186,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -42 0 l"
+        },
+        {
+          "line": 187,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 188,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 189,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -85 0 l"
+        },
+        {
+          "line": 190,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 190,
+          "x": 36.0,
+          "y": 85.0,
+          "text": "158 -42 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 215,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 224,
+          "x": 57.0,
+          "y": -77.0,
+          "text": "57 -77 m -4 -4 l"
+        },
+        {
+          "line": 228,
+          "x": 56.0,
+          "y": 77.0,
+          "text": "56 77 m -12 -4 l"
+        },
+        {
+          "line": 253,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 8 4 l"
+        },
+        {
+          "line": 262,
+          "x": 56.0,
+          "y": 0.0,
+          "text": "56 0 m -8 -41 l"
+        },
+        {
+          "line": 281,
+          "x": 28.0,
+          "y": 40.0,
+          "text": "28 40 m 8 -4 l"
+        },
+        {
+          "line": 288,
+          "x": -24.0,
+          "y": 85.0,
+          "text": "-24 85 m 40 0 l"
+        },
+        {
+          "line": 289,
+          "x": -40.0,
+          "y": -4.0,
+          "text": "-40 -4 m 20 0 l"
+        },
+        {
+          "line": 291,
+          "x": -334.0,
+          "y": 7.0,
+          "text": "-334 7 m -42 0 l"
+        },
+        {
+          "line": 292,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 293,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 294,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 295,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -85 0 l"
+        },
+        {
+          "line": 296,
+          "x": 158.0,
+          "y": -43.0,
+          "text": "158 -43 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 296,
+          "x": 36.0,
+          "y": 85.0,
+          "text": "158 -43 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 321,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 330,
+          "x": 57.0,
+          "y": -77.0,
+          "text": "57 -77 m -4 -4 l"
+        },
+        {
+          "line": 334,
+          "x": 44.0,
+          "y": 61.0,
+          "text": "44 61 m 8 4 l"
+        },
+        {
+          "line": 337,
+          "x": -4.0,
+          "y": 81.0,
+          "text": "-4 81 m 0 -81 l"
+        },
+        {
+          "line": 338,
+          "x": -16.0,
+          "y": 0.0,
+          "text": "-16 0 m 36 0 l"
+        },
+        {
+          "line": 339,
+          "x": -254.0,
+          "y": 92.0,
+          "text": "-254 92 m -42 0 l"
+        },
+        {
+          "line": 340,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 341,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 342,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 343,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -85 0 l"
+        },
+        {
+          "line": 344,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 344,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 369,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 378,
+          "x": 57.0,
+          "y": -76.0,
+          "text": "57 -76 m -4 -4 l"
+        },
+        {
+          "line": 382,
+          "x": 44.0,
+          "y": 60.0,
+          "text": "44 60 m 8 4 l"
+        },
+        {
+          "line": 385,
+          "x": -4.0,
+          "y": 80.0,
+          "text": "-4 80 m 0 -80 l"
+        },
+        {
+          "line": 386,
+          "x": -16.0,
+          "y": 0.0,
+          "text": "-16 0 m 36 0 l"
+        },
+        {
+          "line": 387,
+          "x": 40.0,
+          "y": 84.0,
+          "text": "40 84 m -8 -40 l"
+        },
+        {
+          "line": 406,
+          "x": 28.0,
+          "y": 40.0,
+          "text": "28 40 m 8 -4 l"
+        },
+        {
+          "line": 413,
+          "x": -24.0,
+          "y": 84.0,
+          "text": "-24 84 m 40 0 l"
+        },
+        {
+          "line": 414,
+          "x": -40.0,
+          "y": -4.0,
+          "text": "-40 -4 m 20 0 l"
+        },
+        {
+          "line": 416,
+          "x": -334.0,
+          "y": 7.0,
+          "text": "-334 7 m -42 0 l"
+        },
+        {
+          "line": 417,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 418,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 419,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -42 0 l"
+        },
+        {
+          "line": 420,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -85 0 l"
+        },
+        {
+          "line": 421,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 421,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 447,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 456,
+          "x": 57.0,
+          "y": -76.0,
+          "text": "57 -76 m -4 -4 l"
+        },
+        {
+          "line": 460,
+          "x": 36.0,
+          "y": 60.0,
+          "text": "36 60 m 4 -4 l"
+        },
+        {
+          "line": 479,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "36 84 m 8 -4 l"
+        },
+        {
+          "line": 486,
+          "x": -20.0,
+          "y": -28.0,
+          "text": "-20 -28 m 4 4 l"
+        },
+        {
+          "line": 492,
+          "x": -44.0,
+          "y": 0.0,
+          "text": "-44 0 m 20 -12 l"
+        },
+        {
+          "line": 506,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "361 171 M 36 84 m -12 -4 l"
+        },
+        {
+          "line": 531,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 8 4 l"
+        },
+        {
+          "line": 540,
+          "x": 61.0,
+          "y": 73.0,
+          "text": "61 73 m 0 43 l"
+        },
+        {
+          "line": 541,
+          "x": 64.0,
+          "y": -43.0,
+          "text": "64 -43 m 0 43 l"
+        },
+        {
+          "line": 542,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 543,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 544,
+          "x": 64.0,
+          "y": -43.0,
+          "text": "64 -43 m 0 86 l"
+        },
+        {
+          "line": 545,
+          "x": 20.0,
+          "y": 84.0,
+          "text": "644 171 M 20 84 m -8 -40 l"
+        },
+        {
+          "line": 564,
+          "x": 28.0,
+          "y": 40.0,
+          "text": "28 40 m 8 -4 l"
+        },
+        {
+          "line": 571,
+          "x": -24.0,
+          "y": 84.0,
+          "text": "-24 84 m 40 0 l"
+        },
+        {
+          "line": 572,
+          "x": -40.0,
+          "y": -4.0,
+          "text": "-40 -4 m 20 0 l"
+        },
+        {
+          "line": 574,
+          "x": 57.0,
+          "y": 0.0,
+          "text": "57 0 m -13 -4 l"
+        },
+        {
+          "line": 599,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 8 4 l"
+        },
+        {
+          "line": 608,
+          "x": 20.0,
+          "y": 73.0,
+          "text": "20 73 m 0 43 l"
+        },
+        {
+          "line": 609,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 610,
+          "x": 64.0,
+          "y": -43.0,
+          "text": "64 -43 m 0 43 l"
+        },
+        {
+          "line": 611,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 612,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 86 l"
+        },
+        {
+          "line": 613,
+          "x": 24.0,
+          "y": 68.0,
+          "text": "927 171 M 24 68 m 8 4 l"
+        },
+        {
+          "line": 616,
+          "x": -4.0,
+          "y": 80.0,
+          "text": "-4 80 m 0 -80 l"
+        }
+      ]
+    },
+    {
+      "name": "L",
+      "n_invocations": 931,
+      "n_unique_xy": 889,
+      "bbox": [
+        377.0,
+        32.0,
+        1782.0,
+        1313.0
+      ],
+      "x_span": 1405.0,
+      "y_span": 1281.0,
+      "first_line": 143,
+      "last_line": 10593,
+      "first_80_invocations": [
+        {
+          "line": 143,
+          "x": 401.0,
+          "y": 1313.0,
+          "text": "401 1313 L"
+        },
+        {
+          "line": 144,
+          "x": 401.0,
+          "y": 328.0,
+          "text": "401 328 L"
+        },
+        {
+          "line": 501,
+          "x": 401.0,
+          "y": 1313.0,
+          "text": "401 1313 L"
+        },
+        {
+          "line": 502,
+          "x": 401.0,
+          "y": 328.0,
+          "text": "401 328 L"
+        },
+        {
+          "line": 1134,
+          "x": 852.0,
+          "y": 32.0,
+          "text": "836 32 M 16 45 m 852 32 L"
+        },
+        {
+          "line": 1135,
+          "x": 856.0,
+          "y": 32.0,
+          "text": "4 45 m 856 32 L"
+        },
+        {
+          "line": 1194,
+          "x": 1067.0,
+          "y": 32.0,
+          "text": "57 45 m 1067 32 L"
+        },
+        {
+          "line": 1195,
+          "x": 1071.0,
+          "y": 32.0,
+          "text": "4 45 m 1071 32 L"
+        },
+        {
+          "line": 1891,
+          "x": 424.0,
+          "y": 901.0,
+          "text": "413 881 M 424 901 L"
+        },
+        {
+          "line": 1892,
+          "x": 413.0,
+          "y": 921.0,
+          "text": "413 921 L"
+        },
+        {
+          "line": 1893,
+          "x": 389.0,
+          "y": 921.0,
+          "text": "389 921 L"
+        },
+        {
+          "line": 1894,
+          "x": 378.0,
+          "y": 901.0,
+          "text": "378 901 L"
+        },
+        {
+          "line": 1895,
+          "x": 389.0,
+          "y": 881.0,
+          "text": "389 881 L"
+        },
+        {
+          "line": 1896,
+          "x": 413.0,
+          "y": 881.0,
+          "text": "413 881 L"
+        },
+        {
+          "line": 1899,
+          "x": 502.0,
+          "y": 902.0,
+          "text": "77 1 m 502 902 L"
+        },
+        {
+          "line": 1900,
+          "x": 490.0,
+          "y": 922.0,
+          "text": "490 922 L"
+        },
+        {
+          "line": 1901,
+          "x": 467.0,
+          "y": 922.0,
+          "text": "467 922 L"
+        },
+        {
+          "line": 1902,
+          "x": 455.0,
+          "y": 902.0,
+          "text": "455 902 L"
+        },
+        {
+          "line": 1903,
+          "x": 467.0,
+          "y": 882.0,
+          "text": "467 882 L"
+        },
+        {
+          "line": 1904,
+          "x": 490.0,
+          "y": 882.0,
+          "text": "490 882 L"
+        },
+        {
+          "line": 1907,
+          "x": 580.0,
+          "y": 966.0,
+          "text": "78 63 m 580 966 L"
+        },
+        {
+          "line": 1908,
+          "x": 568.0,
+          "y": 986.0,
+          "text": "568 986 L"
+        },
+        {
+          "line": 1909,
+          "x": 545.0,
+          "y": 986.0,
+          "text": "545 986 L"
+        },
+        {
+          "line": 1910,
+          "x": 533.0,
+          "y": 966.0,
+          "text": "533 966 L"
+        },
+        {
+          "line": 1911,
+          "x": 545.0,
+          "y": 945.0,
+          "text": "545 945 L"
+        },
+        {
+          "line": 1912,
+          "x": 568.0,
+          "y": 945.0,
+          "text": "568 945 L"
+        },
+        {
+          "line": 1915,
+          "x": 657.0,
+          "y": 1021.0,
+          "text": "77 55 m 657 1021 L"
+        },
+        {
+          "line": 1916,
+          "x": 645.0,
+          "y": 1041.0,
+          "text": "645 1041 L"
+        },
+        {
+          "line": 1917,
+          "x": 622.0,
+          "y": 1041.0,
+          "text": "622 1041 L"
+        },
+        {
+          "line": 1918,
+          "x": 610.0,
+          "y": 1021.0,
+          "text": "610 1021 L"
+        },
+        {
+          "line": 1919,
+          "x": 622.0,
+          "y": 1001.0,
+          "text": "622 1001 L"
+        },
+        {
+          "line": 1920,
+          "x": 645.0,
+          "y": 1001.0,
+          "text": "645 1001 L"
+        },
+        {
+          "line": 1923,
+          "x": 735.0,
+          "y": 1014.0,
+          "text": "78 -8 m 735 1014 L"
+        },
+        {
+          "line": 1924,
+          "x": 723.0,
+          "y": 1034.0,
+          "text": "723 1034 L"
+        },
+        {
+          "line": 1925,
+          "x": 700.0,
+          "y": 1034.0,
+          "text": "700 1034 L"
+        },
+        {
+          "line": 1926,
+          "x": 688.0,
+          "y": 1014.0,
+          "text": "688 1014 L"
+        },
+        {
+          "line": 1927,
+          "x": 700.0,
+          "y": 994.0,
+          "text": "700 994 L"
+        },
+        {
+          "line": 1928,
+          "x": 723.0,
+          "y": 994.0,
+          "text": "723 994 L"
+        },
+        {
+          "line": 1931,
+          "x": 812.0,
+          "y": 941.0,
+          "text": "78 -73 m 812 941 L"
+        },
+        {
+          "line": 1932,
+          "x": 801.0,
+          "y": 961.0,
+          "text": "801 961 L"
+        },
+        {
+          "line": 1933,
+          "x": 777.0,
+          "y": 961.0,
+          "text": "777 961 L"
+        },
+        {
+          "line": 1934,
+          "x": 766.0,
+          "y": 941.0,
+          "text": "766 941 L"
+        },
+        {
+          "line": 1935,
+          "x": 777.0,
+          "y": 921.0,
+          "text": "777 921 L"
+        },
+        {
+          "line": 1936,
+          "x": 801.0,
+          "y": 921.0,
+          "text": "801 921 L"
+        },
+        {
+          "line": 1939,
+          "x": 890.0,
+          "y": 851.0,
+          "text": "77 -90 m 890 851 L"
+        },
+        {
+          "line": 1940,
+          "x": 878.0,
+          "y": 872.0,
+          "text": "878 872 L"
+        },
+        {
+          "line": 1941,
+          "x": 855.0,
+          "y": 872.0,
+          "text": "855 872 L"
+        },
+        {
+          "line": 1942,
+          "x": 843.0,
+          "y": 851.0,
+          "text": "843 851 L"
+        },
+        {
+          "line": 1943,
+          "x": 855.0,
+          "y": 831.0,
+          "text": "855 831 L"
+        },
+        {
+          "line": 1944,
+          "x": 878.0,
+          "y": 831.0,
+          "text": "878 831 L"
+        },
+        {
+          "line": 1947,
+          "x": 968.0,
+          "y": 779.0,
+          "text": "78 -73 m 968 779 L"
+        },
+        {
+          "line": 1948,
+          "x": 956.0,
+          "y": 799.0,
+          "text": "956 799 L"
+        },
+        {
+          "line": 1949,
+          "x": 932.0,
+          "y": 799.0,
+          "text": "932 799 L"
+        },
+        {
+          "line": 1950,
+          "x": 921.0,
+          "y": 779.0,
+          "text": "921 779 L"
+        },
+        {
+          "line": 1951,
+          "x": 932.0,
+          "y": 758.0,
+          "text": "932 758 L"
+        },
+        {
+          "line": 1952,
+          "x": 956.0,
+          "y": 758.0,
+          "text": "956 758 L"
+        },
+        {
+          "line": 1955,
+          "x": 1045.0,
+          "y": 715.0,
+          "text": "77 -63 m 1045 715 L"
+        },
+        {
+          "line": 1956,
+          "x": 1033.0,
+          "y": 735.0,
+          "text": "1033 735 L"
+        },
+        {
+          "line": 1957,
+          "x": 1010.0,
+          "y": 735.0,
+          "text": "1010 735 L"
+        },
+        {
+          "line": 1958,
+          "x": 998.0,
+          "y": 715.0,
+          "text": "998 715 L"
+        },
+        {
+          "line": 1959,
+          "x": 1010.0,
+          "y": 695.0,
+          "text": "1010 695 L"
+        },
+        {
+          "line": 1960,
+          "x": 1033.0,
+          "y": 695.0,
+          "text": "1033 695 L"
+        },
+        {
+          "line": 1963,
+          "x": 1123.0,
+          "y": 670.0,
+          "text": "78 -45 m 1123 670 L"
+        },
+        {
+          "line": 1964,
+          "x": 1111.0,
+          "y": 691.0,
+          "text": "1111 691 L"
+        },
+        {
+          "line": 1965,
+          "x": 1088.0,
+          "y": 691.0,
+          "text": "1088 691 L"
+        },
+        {
+          "line": 1966,
+          "x": 1076.0,
+          "y": 670.0,
+          "text": "1076 670 L"
+        },
+        {
+          "line": 1967,
+          "x": 1088.0,
+          "y": 650.0,
+          "text": "1088 650 L"
+        },
+        {
+          "line": 1968,
+          "x": 1111.0,
+          "y": 650.0,
+          "text": "1111 650 L"
+        },
+        {
+          "line": 1971,
+          "x": 1200.0,
+          "y": 639.0,
+          "text": "78 -32 m 1200 639 L"
+        },
+        {
+          "line": 1972,
+          "x": 1189.0,
+          "y": 659.0,
+          "text": "1189 659 L"
+        },
+        {
+          "line": 1973,
+          "x": 1165.0,
+          "y": 659.0,
+          "text": "1165 659 L"
+        },
+        {
+          "line": 1974,
+          "x": 1154.0,
+          "y": 639.0,
+          "text": "1154 639 L"
+        },
+        {
+          "line": 1975,
+          "x": 1165.0,
+          "y": 618.0,
+          "text": "1165 618 L"
+        },
+        {
+          "line": 1976,
+          "x": 1189.0,
+          "y": 618.0,
+          "text": "1189 618 L"
+        },
+        {
+          "line": 1979,
+          "x": 1278.0,
+          "y": 582.0,
+          "text": "77 -56 m 1278 582 L"
+        },
+        {
+          "line": 1980,
+          "x": 1266.0,
+          "y": 602.0,
+          "text": "1266 602 L"
+        },
+        {
+          "line": 1981,
+          "x": 1243.0,
+          "y": 602.0,
+          "text": "1243 602 L"
+        },
+        {
+          "line": 1982,
+          "x": 1231.0,
+          "y": 582.0,
+          "text": "1231 582 L"
+        },
+        {
+          "line": 1983,
+          "x": 1243.0,
+          "y": 562.0,
+          "text": "1243 562 L"
+        },
+        {
+          "line": 1984,
+          "x": 1266.0,
+          "y": 562.0,
+          "text": "1266 562 L"
+        }
+      ]
+    },
+    {
+      "name": "tr",
+      "n_invocations": 15,
+      "n_unique_xy": 7,
+      "bbox": [
+        -18.0,
+        -346.0,
+        2446.0,
+        10350.0
+      ],
+      "x_span": 2464.0,
+      "y_span": 10696.0,
+      "first_line": 101,
+      "last_line": 8536,
+      "first_80_invocations": [
+        {
+          "line": 101,
+          "x": 2430.0,
+          "y": 1079.0,
+          "text": "2430 1079 tr"
+        },
+        {
+          "line": 103,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 104,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 2212,
+          "x": 2446.0,
+          "y": 5670.0,
+          "text": "2446 5670 tr"
+        },
+        {
+          "line": 2214,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 2215,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 4169,
+          "x": 2446.0,
+          "y": 10350.0,
+          "text": "2446 10350 tr"
+        },
+        {
+          "line": 4171,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 4172,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 6400,
+          "x": 2437.0,
+          "y": 3375.0,
+          "text": "2437 3375 tr"
+        },
+        {
+          "line": 6402,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 6403,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 8533,
+          "x": 2439.0,
+          "y": 8010.0,
+          "text": "2439 8010 tr"
+        },
+        {
+          "line": 8535,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 8536,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "n_invocations": 10,
+      "n_unique_xy": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "x_span": 0.0,
+      "y_span": 0.0,
+      "first_line": 137,
+      "last_line": 9361,
+      "first_80_invocations": [
+        {
+          "line": 137,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 1129,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 2248,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 3139,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 4205,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 5364,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 6436,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 7375,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 8569,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        },
+        {
+          "line": 9361,
+          "x": 0.0,
+          "y": 0.0,
+          "text": "0 0 0 C"
+        }
+      ]
+    },
+    {
+      "name": "sc",
+      "n_invocations": 6,
+      "n_unique_xy": 6,
+      "bbox": [
+        0.06299,
+        -6.445087,
+        6.303509,
+        0.06299
+      ],
+      "x_span": 6.240519,
+      "y_span": 6.508077,
+      "first_line": 89,
+      "last_line": 8534,
+      "first_80_invocations": [
+        {
+          "line": 89,
+          "x": 0.06299,
+          "y": 0.06299,
+          "text": "0.06299 0.06299 sc"
+        },
+        {
+          "line": 102,
+          "x": 6.287719,
+          "y": -6.245665,
+          "text": "6.287719 -6.245665 sc"
+        },
+        {
+          "line": 2213,
+          "x": 6.287719,
+          "y": -6.445087,
+          "text": "6.287719 -6.445087 sc"
+        },
+        {
+          "line": 4170,
+          "x": 6.287719,
+          "y": -6.34104,
+          "text": "6.287719 -6.341040 sc"
+        },
+        {
+          "line": 6401,
+          "x": 6.303509,
+          "y": -6.372832,
+          "text": "6.303509 -6.372832 sc"
+        },
+        {
+          "line": 8534,
+          "x": 6.3,
+          "y": -6.372832,
+          "text": "6.300000 -6.372832 sc"
+        }
+      ]
+    }
+  ],
+  "candidate_coordinate_procedures": [
+    {
+      "name": "l",
+      "n_invocations": 8817,
+      "n_unique_xy": 523,
+      "bbox": [
+        -85.0,
+        -86.0,
+        1422.0,
+        985.0
+      ],
+      "x_span": 1507.0,
+      "y_span": 1071.0,
+      "first_line": 106,
+      "last_line": 10625,
+      "first_80_invocations": [
+        {
+          "line": 106,
+          "x": 588.0,
+          "y": 144.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 106,
+          "x": 588.0,
+          "y": 490.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 106,
+          "x": 18.0,
+          "y": 490.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 141,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "401 328 M 1422 0 l"
+        },
+        {
+          "line": 142,
+          "x": 0.0,
+          "y": 985.0,
+          "text": "0 985 l"
+        },
+        {
+          "line": 145,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "1422 0 l"
+        },
+        {
+          "line": 146,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "401 328 M 1422 0 l"
+        },
+        {
+          "line": 147,
+          "x": 1422.0,
+          "y": 0.0,
+          "text": "401 1313 M 1422 0 l"
+        },
+        {
+          "line": 148,
+          "x": 0.0,
+          "y": 985.0,
+          "text": "401 328 M 0 985 l"
+        },
+        {
+          "line": 149,
+          "x": 0.0,
+          "y": 985.0,
+          "text": "1823 328 M 0 985 l"
+        },
+        {
+          "line": 150,
+          "x": -85.0,
+          "y": 0.0,
+          "text": "1823 328 M -85 0 l"
+        },
+        {
+          "line": 151,
+          "x": -12.0,
+          "y": -4.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 152,
+          "x": -8.0,
+          "y": -12.0,
+          "text": "-8 -12 l"
+        },
+        {
+          "line": 153,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 154,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 155,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 156,
+          "x": 8.0,
+          "y": -12.0,
+          "text": "8 -12 l"
+        },
+        {
+          "line": 157,
+          "x": 12.0,
+          "y": -4.0,
+          "text": "12 -4 l"
+        },
+        {
+          "line": 158,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 l"
+        },
+        {
+          "line": 159,
+          "x": 13.0,
+          "y": 4.0,
+          "text": "13 4 l"
+        },
+        {
+          "line": 160,
+          "x": 8.0,
+          "y": 12.0,
+          "text": "8 12 l"
+        },
+        {
+          "line": 161,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 162,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        },
+        {
+          "line": 163,
+          "x": -4.0,
+          "y": 20.0,
+          "text": "-4 20 l"
+        },
+        {
+          "line": 164,
+          "x": -8.0,
+          "y": 12.0,
+          "text": "-8 12 l"
+        },
+        {
+          "line": 165,
+          "x": -13.0,
+          "y": 4.0,
+          "text": "-13 4 l"
+        },
+        {
+          "line": 166,
+          "x": -8.0,
+          "y": 0.0,
+          "text": "-8 0 l"
+        },
+        {
+          "line": 167,
+          "x": -8.0,
+          "y": -4.0,
+          "text": "-8 -4 l"
+        },
+        {
+          "line": 168,
+          "x": -4.0,
+          "y": -4.0,
+          "text": "-4 -4 l"
+        },
+        {
+          "line": 169,
+          "x": -4.0,
+          "y": -8.0,
+          "text": "-4 -8 l"
+        },
+        {
+          "line": 170,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 171,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 172,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 173,
+          "x": 4.0,
+          "y": -8.0,
+          "text": "4 -8 l"
+        },
+        {
+          "line": 174,
+          "x": 4.0,
+          "y": -4.0,
+          "text": "4 -4 l"
+        },
+        {
+          "line": 175,
+          "x": 8.0,
+          "y": -4.0,
+          "text": "8 -4 l"
+        },
+        {
+          "line": 176,
+          "x": 9.0,
+          "y": 4.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 177,
+          "x": 4.0,
+          "y": 4.0,
+          "text": "4 4 l"
+        },
+        {
+          "line": 178,
+          "x": 4.0,
+          "y": 8.0,
+          "text": "4 8 l"
+        },
+        {
+          "line": 179,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 180,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        },
+        {
+          "line": 181,
+          "x": -4.0,
+          "y": 20.0,
+          "text": "-4 20 l"
+        },
+        {
+          "line": 182,
+          "x": -4.0,
+          "y": 8.0,
+          "text": "-4 8 l"
+        },
+        {
+          "line": 183,
+          "x": -4.0,
+          "y": 4.0,
+          "text": "-4 4 l"
+        },
+        {
+          "line": 184,
+          "x": -9.0,
+          "y": 4.0,
+          "text": "-9 4 l"
+        },
+        {
+          "line": 185,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "-117 7 m -42 0 l"
+        },
+        {
+          "line": 186,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "42 50 m -42 0 l"
+        },
+        {
+          "line": 187,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 188,
+          "x": -42.0,
+          "y": 0.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 189,
+          "x": -85.0,
+          "y": 0.0,
+          "text": "42 49 m -85 0 l"
+        },
+        {
+          "line": 190,
+          "x": -12.0,
+          "y": -4.0,
+          "text": "158 -42 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 191,
+          "x": -8.0,
+          "y": -13.0,
+          "text": "-8 -13 l"
+        },
+        {
+          "line": 192,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 193,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 194,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 195,
+          "x": 8.0,
+          "y": -12.0,
+          "text": "8 -12 l"
+        },
+        {
+          "line": 196,
+          "x": 12.0,
+          "y": -4.0,
+          "text": "12 -4 l"
+        },
+        {
+          "line": 197,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 l"
+        },
+        {
+          "line": 198,
+          "x": 13.0,
+          "y": 4.0,
+          "text": "13 4 l"
+        },
+        {
+          "line": 199,
+          "x": 8.0,
+          "y": 12.0,
+          "text": "8 12 l"
+        },
+        {
+          "line": 200,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 201,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        },
+        {
+          "line": 202,
+          "x": -4.0,
+          "y": 20.0,
+          "text": "-4 20 l"
+        },
+        {
+          "line": 203,
+          "x": -8.0,
+          "y": 13.0,
+          "text": "-8 13 l"
+        },
+        {
+          "line": 204,
+          "x": -13.0,
+          "y": 4.0,
+          "text": "-13 4 l"
+        },
+        {
+          "line": 205,
+          "x": -8.0,
+          "y": 0.0,
+          "text": "-8 0 l"
+        },
+        {
+          "line": 206,
+          "x": -8.0,
+          "y": -4.0,
+          "text": "-8 -4 l"
+        },
+        {
+          "line": 207,
+          "x": -4.0,
+          "y": -4.0,
+          "text": "-4 -4 l"
+        },
+        {
+          "line": 208,
+          "x": -4.0,
+          "y": -9.0,
+          "text": "-4 -9 l"
+        },
+        {
+          "line": 209,
+          "x": -4.0,
+          "y": -20.0,
+          "text": "-4 -20 l"
+        },
+        {
+          "line": 210,
+          "x": 0.0,
+          "y": -12.0,
+          "text": "0 -12 l"
+        },
+        {
+          "line": 211,
+          "x": 4.0,
+          "y": -20.0,
+          "text": "4 -20 l"
+        },
+        {
+          "line": 212,
+          "x": 4.0,
+          "y": -8.0,
+          "text": "4 -8 l"
+        },
+        {
+          "line": 213,
+          "x": 4.0,
+          "y": -4.0,
+          "text": "4 -4 l"
+        },
+        {
+          "line": 214,
+          "x": 8.0,
+          "y": -4.0,
+          "text": "8 -4 l"
+        },
+        {
+          "line": 215,
+          "x": 9.0,
+          "y": 4.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 216,
+          "x": 4.0,
+          "y": 4.0,
+          "text": "4 4 l"
+        },
+        {
+          "line": 217,
+          "x": 4.0,
+          "y": 8.0,
+          "text": "4 8 l"
+        },
+        {
+          "line": 218,
+          "x": 4.0,
+          "y": 20.0,
+          "text": "4 20 l"
+        },
+        {
+          "line": 219,
+          "x": 0.0,
+          "y": 12.0,
+          "text": "0 12 l"
+        }
+      ],
+      "definition": {
+        "name": "l",
+        "start_line": 58,
+        "end_line": 58,
+        "body": "/l {lineto} bind def",
+        "has_fill": false,
+        "has_stroke": false,
+        "local_path_ops": 0
+      }
+    },
+    {
+      "name": "m",
+      "n_invocations": 1923,
+      "n_unique_xy": 592,
+      "bbox": [
+        -342.0,
+        -256.0,
+        158.0,
+        221.0
+      ],
+      "x_span": 500.0,
+      "y_span": 477.0,
+      "first_line": 106,
+      "last_line": 10591,
+      "first_80_invocations": [
+        {
+          "line": 106,
+          "x": 18.0,
+          "y": 144.0,
+          "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+        },
+        {
+          "line": 151,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 151,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 176,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 185,
+          "x": -117.0,
+          "y": 7.0,
+          "text": "-117 7 m -42 0 l"
+        },
+        {
+          "line": 186,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -42 0 l"
+        },
+        {
+          "line": 187,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 188,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 189,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -85 0 l"
+        },
+        {
+          "line": 190,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 190,
+          "x": 36.0,
+          "y": 85.0,
+          "text": "158 -42 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 215,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 224,
+          "x": 57.0,
+          "y": -77.0,
+          "text": "57 -77 m -4 -4 l"
+        },
+        {
+          "line": 228,
+          "x": 56.0,
+          "y": 77.0,
+          "text": "56 77 m -12 -4 l"
+        },
+        {
+          "line": 253,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 8 4 l"
+        },
+        {
+          "line": 262,
+          "x": 56.0,
+          "y": 0.0,
+          "text": "56 0 m -8 -41 l"
+        },
+        {
+          "line": 281,
+          "x": 28.0,
+          "y": 40.0,
+          "text": "28 40 m 8 -4 l"
+        },
+        {
+          "line": 288,
+          "x": -24.0,
+          "y": 85.0,
+          "text": "-24 85 m 40 0 l"
+        },
+        {
+          "line": 289,
+          "x": -40.0,
+          "y": -4.0,
+          "text": "-40 -4 m 20 0 l"
+        },
+        {
+          "line": 291,
+          "x": -334.0,
+          "y": 7.0,
+          "text": "-334 7 m -42 0 l"
+        },
+        {
+          "line": 292,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 293,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 294,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 295,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -85 0 l"
+        },
+        {
+          "line": 296,
+          "x": 158.0,
+          "y": -43.0,
+          "text": "158 -43 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 296,
+          "x": 36.0,
+          "y": 85.0,
+          "text": "158 -43 m 36 85 m -12 -4 l"
+        },
+        {
+          "line": 321,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 330,
+          "x": 57.0,
+          "y": -77.0,
+          "text": "57 -77 m -4 -4 l"
+        },
+        {
+          "line": 334,
+          "x": 44.0,
+          "y": 61.0,
+          "text": "44 61 m 8 4 l"
+        },
+        {
+          "line": 337,
+          "x": -4.0,
+          "y": 81.0,
+          "text": "-4 81 m 0 -81 l"
+        },
+        {
+          "line": 338,
+          "x": -16.0,
+          "y": 0.0,
+          "text": "-16 0 m 36 0 l"
+        },
+        {
+          "line": 339,
+          "x": -254.0,
+          "y": 92.0,
+          "text": "-254 92 m -42 0 l"
+        },
+        {
+          "line": 340,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 341,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 342,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 343,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -85 0 l"
+        },
+        {
+          "line": 344,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 344,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 369,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 378,
+          "x": 57.0,
+          "y": -76.0,
+          "text": "57 -76 m -4 -4 l"
+        },
+        {
+          "line": 382,
+          "x": 44.0,
+          "y": 60.0,
+          "text": "44 60 m 8 4 l"
+        },
+        {
+          "line": 385,
+          "x": -4.0,
+          "y": 80.0,
+          "text": "-4 80 m 0 -80 l"
+        },
+        {
+          "line": 386,
+          "x": -16.0,
+          "y": 0.0,
+          "text": "-16 0 m 36 0 l"
+        },
+        {
+          "line": 387,
+          "x": 40.0,
+          "y": 84.0,
+          "text": "40 84 m -8 -40 l"
+        },
+        {
+          "line": 406,
+          "x": 28.0,
+          "y": 40.0,
+          "text": "28 40 m 8 -4 l"
+        },
+        {
+          "line": 413,
+          "x": -24.0,
+          "y": 84.0,
+          "text": "-24 84 m 40 0 l"
+        },
+        {
+          "line": 414,
+          "x": -40.0,
+          "y": -4.0,
+          "text": "-40 -4 m 20 0 l"
+        },
+        {
+          "line": 416,
+          "x": -334.0,
+          "y": 7.0,
+          "text": "-334 7 m -42 0 l"
+        },
+        {
+          "line": 417,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 418,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -42 0 l"
+        },
+        {
+          "line": 419,
+          "x": 42.0,
+          "y": 50.0,
+          "text": "42 50 m -42 0 l"
+        },
+        {
+          "line": 420,
+          "x": 42.0,
+          "y": 49.0,
+          "text": "42 49 m -85 0 l"
+        },
+        {
+          "line": 421,
+          "x": 158.0,
+          "y": -42.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 421,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "158 -42 m 36 84 m -12 -4 l"
+        },
+        {
+          "line": 447,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 9 4 l"
+        },
+        {
+          "line": 456,
+          "x": 57.0,
+          "y": -76.0,
+          "text": "57 -76 m -4 -4 l"
+        },
+        {
+          "line": 460,
+          "x": 36.0,
+          "y": 60.0,
+          "text": "36 60 m 4 -4 l"
+        },
+        {
+          "line": 479,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "36 84 m 8 -4 l"
+        },
+        {
+          "line": 486,
+          "x": -20.0,
+          "y": -28.0,
+          "text": "-20 -28 m 4 4 l"
+        },
+        {
+          "line": 492,
+          "x": -44.0,
+          "y": 0.0,
+          "text": "-44 0 m 20 -12 l"
+        },
+        {
+          "line": 506,
+          "x": 36.0,
+          "y": 84.0,
+          "text": "361 171 M 36 84 m -12 -4 l"
+        },
+        {
+          "line": 531,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 8 4 l"
+        },
+        {
+          "line": 540,
+          "x": 61.0,
+          "y": 73.0,
+          "text": "61 73 m 0 43 l"
+        },
+        {
+          "line": 541,
+          "x": 64.0,
+          "y": -43.0,
+          "text": "64 -43 m 0 43 l"
+        },
+        {
+          "line": 542,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 543,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 544,
+          "x": 64.0,
+          "y": -43.0,
+          "text": "64 -43 m 0 86 l"
+        },
+        {
+          "line": 545,
+          "x": 20.0,
+          "y": 84.0,
+          "text": "644 171 M 20 84 m -8 -40 l"
+        },
+        {
+          "line": 564,
+          "x": 28.0,
+          "y": 40.0,
+          "text": "28 40 m 8 -4 l"
+        },
+        {
+          "line": 571,
+          "x": -24.0,
+          "y": 84.0,
+          "text": "-24 84 m 40 0 l"
+        },
+        {
+          "line": 572,
+          "x": -40.0,
+          "y": -4.0,
+          "text": "-40 -4 m 20 0 l"
+        },
+        {
+          "line": 574,
+          "x": 57.0,
+          "y": 0.0,
+          "text": "57 0 m -13 -4 l"
+        },
+        {
+          "line": 599,
+          "x": 8.0,
+          "y": 0.0,
+          "text": "8 0 m 8 4 l"
+        },
+        {
+          "line": 608,
+          "x": 20.0,
+          "y": 73.0,
+          "text": "20 73 m 0 43 l"
+        },
+        {
+          "line": 609,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 610,
+          "x": 64.0,
+          "y": -43.0,
+          "text": "64 -43 m 0 43 l"
+        },
+        {
+          "line": 611,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 43 l"
+        },
+        {
+          "line": 612,
+          "x": 65.0,
+          "y": -43.0,
+          "text": "65 -43 m 0 86 l"
+        },
+        {
+          "line": 613,
+          "x": 24.0,
+          "y": 68.0,
+          "text": "927 171 M 24 68 m 8 4 l"
+        },
+        {
+          "line": 616,
+          "x": -4.0,
+          "y": 80.0,
+          "text": "-4 80 m 0 -80 l"
+        }
+      ],
+      "definition": {
+        "name": "m",
+        "start_line": 59,
+        "end_line": 59,
+        "body": "/m {moveto} bind def",
+        "has_fill": false,
+        "has_stroke": false,
+        "local_path_ops": 0
+      }
+    },
+    {
+      "name": "L",
+      "n_invocations": 931,
+      "n_unique_xy": 889,
+      "bbox": [
+        377.0,
+        32.0,
+        1782.0,
+        1313.0
+      ],
+      "x_span": 1405.0,
+      "y_span": 1281.0,
+      "first_line": 143,
+      "last_line": 10593,
+      "first_80_invocations": [
+        {
+          "line": 143,
+          "x": 401.0,
+          "y": 1313.0,
+          "text": "401 1313 L"
+        },
+        {
+          "line": 144,
+          "x": 401.0,
+          "y": 328.0,
+          "text": "401 328 L"
+        },
+        {
+          "line": 501,
+          "x": 401.0,
+          "y": 1313.0,
+          "text": "401 1313 L"
+        },
+        {
+          "line": 502,
+          "x": 401.0,
+          "y": 328.0,
+          "text": "401 328 L"
+        },
+        {
+          "line": 1134,
+          "x": 852.0,
+          "y": 32.0,
+          "text": "836 32 M 16 45 m 852 32 L"
+        },
+        {
+          "line": 1135,
+          "x": 856.0,
+          "y": 32.0,
+          "text": "4 45 m 856 32 L"
+        },
+        {
+          "line": 1194,
+          "x": 1067.0,
+          "y": 32.0,
+          "text": "57 45 m 1067 32 L"
+        },
+        {
+          "line": 1195,
+          "x": 1071.0,
+          "y": 32.0,
+          "text": "4 45 m 1071 32 L"
+        },
+        {
+          "line": 1891,
+          "x": 424.0,
+          "y": 901.0,
+          "text": "413 881 M 424 901 L"
+        },
+        {
+          "line": 1892,
+          "x": 413.0,
+          "y": 921.0,
+          "text": "413 921 L"
+        },
+        {
+          "line": 1893,
+          "x": 389.0,
+          "y": 921.0,
+          "text": "389 921 L"
+        },
+        {
+          "line": 1894,
+          "x": 378.0,
+          "y": 901.0,
+          "text": "378 901 L"
+        },
+        {
+          "line": 1895,
+          "x": 389.0,
+          "y": 881.0,
+          "text": "389 881 L"
+        },
+        {
+          "line": 1896,
+          "x": 413.0,
+          "y": 881.0,
+          "text": "413 881 L"
+        },
+        {
+          "line": 1899,
+          "x": 502.0,
+          "y": 902.0,
+          "text": "77 1 m 502 902 L"
+        },
+        {
+          "line": 1900,
+          "x": 490.0,
+          "y": 922.0,
+          "text": "490 922 L"
+        },
+        {
+          "line": 1901,
+          "x": 467.0,
+          "y": 922.0,
+          "text": "467 922 L"
+        },
+        {
+          "line": 1902,
+          "x": 455.0,
+          "y": 902.0,
+          "text": "455 902 L"
+        },
+        {
+          "line": 1903,
+          "x": 467.0,
+          "y": 882.0,
+          "text": "467 882 L"
+        },
+        {
+          "line": 1904,
+          "x": 490.0,
+          "y": 882.0,
+          "text": "490 882 L"
+        },
+        {
+          "line": 1907,
+          "x": 580.0,
+          "y": 966.0,
+          "text": "78 63 m 580 966 L"
+        },
+        {
+          "line": 1908,
+          "x": 568.0,
+          "y": 986.0,
+          "text": "568 986 L"
+        },
+        {
+          "line": 1909,
+          "x": 545.0,
+          "y": 986.0,
+          "text": "545 986 L"
+        },
+        {
+          "line": 1910,
+          "x": 533.0,
+          "y": 966.0,
+          "text": "533 966 L"
+        },
+        {
+          "line": 1911,
+          "x": 545.0,
+          "y": 945.0,
+          "text": "545 945 L"
+        },
+        {
+          "line": 1912,
+          "x": 568.0,
+          "y": 945.0,
+          "text": "568 945 L"
+        },
+        {
+          "line": 1915,
+          "x": 657.0,
+          "y": 1021.0,
+          "text": "77 55 m 657 1021 L"
+        },
+        {
+          "line": 1916,
+          "x": 645.0,
+          "y": 1041.0,
+          "text": "645 1041 L"
+        },
+        {
+          "line": 1917,
+          "x": 622.0,
+          "y": 1041.0,
+          "text": "622 1041 L"
+        },
+        {
+          "line": 1918,
+          "x": 610.0,
+          "y": 1021.0,
+          "text": "610 1021 L"
+        },
+        {
+          "line": 1919,
+          "x": 622.0,
+          "y": 1001.0,
+          "text": "622 1001 L"
+        },
+        {
+          "line": 1920,
+          "x": 645.0,
+          "y": 1001.0,
+          "text": "645 1001 L"
+        },
+        {
+          "line": 1923,
+          "x": 735.0,
+          "y": 1014.0,
+          "text": "78 -8 m 735 1014 L"
+        },
+        {
+          "line": 1924,
+          "x": 723.0,
+          "y": 1034.0,
+          "text": "723 1034 L"
+        },
+        {
+          "line": 1925,
+          "x": 700.0,
+          "y": 1034.0,
+          "text": "700 1034 L"
+        },
+        {
+          "line": 1926,
+          "x": 688.0,
+          "y": 1014.0,
+          "text": "688 1014 L"
+        },
+        {
+          "line": 1927,
+          "x": 700.0,
+          "y": 994.0,
+          "text": "700 994 L"
+        },
+        {
+          "line": 1928,
+          "x": 723.0,
+          "y": 994.0,
+          "text": "723 994 L"
+        },
+        {
+          "line": 1931,
+          "x": 812.0,
+          "y": 941.0,
+          "text": "78 -73 m 812 941 L"
+        },
+        {
+          "line": 1932,
+          "x": 801.0,
+          "y": 961.0,
+          "text": "801 961 L"
+        },
+        {
+          "line": 1933,
+          "x": 777.0,
+          "y": 961.0,
+          "text": "777 961 L"
+        },
+        {
+          "line": 1934,
+          "x": 766.0,
+          "y": 941.0,
+          "text": "766 941 L"
+        },
+        {
+          "line": 1935,
+          "x": 777.0,
+          "y": 921.0,
+          "text": "777 921 L"
+        },
+        {
+          "line": 1936,
+          "x": 801.0,
+          "y": 921.0,
+          "text": "801 921 L"
+        },
+        {
+          "line": 1939,
+          "x": 890.0,
+          "y": 851.0,
+          "text": "77 -90 m 890 851 L"
+        },
+        {
+          "line": 1940,
+          "x": 878.0,
+          "y": 872.0,
+          "text": "878 872 L"
+        },
+        {
+          "line": 1941,
+          "x": 855.0,
+          "y": 872.0,
+          "text": "855 872 L"
+        },
+        {
+          "line": 1942,
+          "x": 843.0,
+          "y": 851.0,
+          "text": "843 851 L"
+        },
+        {
+          "line": 1943,
+          "x": 855.0,
+          "y": 831.0,
+          "text": "855 831 L"
+        },
+        {
+          "line": 1944,
+          "x": 878.0,
+          "y": 831.0,
+          "text": "878 831 L"
+        },
+        {
+          "line": 1947,
+          "x": 968.0,
+          "y": 779.0,
+          "text": "78 -73 m 968 779 L"
+        },
+        {
+          "line": 1948,
+          "x": 956.0,
+          "y": 799.0,
+          "text": "956 799 L"
+        },
+        {
+          "line": 1949,
+          "x": 932.0,
+          "y": 799.0,
+          "text": "932 799 L"
+        },
+        {
+          "line": 1950,
+          "x": 921.0,
+          "y": 779.0,
+          "text": "921 779 L"
+        },
+        {
+          "line": 1951,
+          "x": 932.0,
+          "y": 758.0,
+          "text": "932 758 L"
+        },
+        {
+          "line": 1952,
+          "x": 956.0,
+          "y": 758.0,
+          "text": "956 758 L"
+        },
+        {
+          "line": 1955,
+          "x": 1045.0,
+          "y": 715.0,
+          "text": "77 -63 m 1045 715 L"
+        },
+        {
+          "line": 1956,
+          "x": 1033.0,
+          "y": 735.0,
+          "text": "1033 735 L"
+        },
+        {
+          "line": 1957,
+          "x": 1010.0,
+          "y": 735.0,
+          "text": "1010 735 L"
+        },
+        {
+          "line": 1958,
+          "x": 998.0,
+          "y": 715.0,
+          "text": "998 715 L"
+        },
+        {
+          "line": 1959,
+          "x": 1010.0,
+          "y": 695.0,
+          "text": "1010 695 L"
+        },
+        {
+          "line": 1960,
+          "x": 1033.0,
+          "y": 695.0,
+          "text": "1033 695 L"
+        },
+        {
+          "line": 1963,
+          "x": 1123.0,
+          "y": 670.0,
+          "text": "78 -45 m 1123 670 L"
+        },
+        {
+          "line": 1964,
+          "x": 1111.0,
+          "y": 691.0,
+          "text": "1111 691 L"
+        },
+        {
+          "line": 1965,
+          "x": 1088.0,
+          "y": 691.0,
+          "text": "1088 691 L"
+        },
+        {
+          "line": 1966,
+          "x": 1076.0,
+          "y": 670.0,
+          "text": "1076 670 L"
+        },
+        {
+          "line": 1967,
+          "x": 1088.0,
+          "y": 650.0,
+          "text": "1088 650 L"
+        },
+        {
+          "line": 1968,
+          "x": 1111.0,
+          "y": 650.0,
+          "text": "1111 650 L"
+        },
+        {
+          "line": 1971,
+          "x": 1200.0,
+          "y": 639.0,
+          "text": "78 -32 m 1200 639 L"
+        },
+        {
+          "line": 1972,
+          "x": 1189.0,
+          "y": 659.0,
+          "text": "1189 659 L"
+        },
+        {
+          "line": 1973,
+          "x": 1165.0,
+          "y": 659.0,
+          "text": "1165 659 L"
+        },
+        {
+          "line": 1974,
+          "x": 1154.0,
+          "y": 639.0,
+          "text": "1154 639 L"
+        },
+        {
+          "line": 1975,
+          "x": 1165.0,
+          "y": 618.0,
+          "text": "1165 618 L"
+        },
+        {
+          "line": 1976,
+          "x": 1189.0,
+          "y": 618.0,
+          "text": "1189 618 L"
+        },
+        {
+          "line": 1979,
+          "x": 1278.0,
+          "y": 582.0,
+          "text": "77 -56 m 1278 582 L"
+        },
+        {
+          "line": 1980,
+          "x": 1266.0,
+          "y": 602.0,
+          "text": "1266 602 L"
+        },
+        {
+          "line": 1981,
+          "x": 1243.0,
+          "y": 602.0,
+          "text": "1243 602 L"
+        },
+        {
+          "line": 1982,
+          "x": 1231.0,
+          "y": 582.0,
+          "text": "1231 582 L"
+        },
+        {
+          "line": 1983,
+          "x": 1243.0,
+          "y": 562.0,
+          "text": "1243 562 L"
+        },
+        {
+          "line": 1984,
+          "x": 1266.0,
+          "y": 562.0,
+          "text": "1266 562 L"
+        }
+      ],
+      "definition": {
+        "name": "L",
+        "start_line": 8557,
+        "end_line": 8557,
+        "body": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def",
+        "has_fill": false,
+        "has_stroke": false,
+        "local_path_ops": 0
+      }
+    },
+    {
+      "name": "tr",
+      "n_invocations": 15,
+      "n_unique_xy": 7,
+      "bbox": [
+        -18.0,
+        -346.0,
+        2446.0,
+        10350.0
+      ],
+      "x_span": 2464.0,
+      "y_span": 10696.0,
+      "first_line": 101,
+      "last_line": 8536,
+      "first_80_invocations": [
+        {
+          "line": 101,
+          "x": 2430.0,
+          "y": 1079.0,
+          "text": "2430 1079 tr"
+        },
+        {
+          "line": 103,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 104,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 2212,
+          "x": 2446.0,
+          "y": 5670.0,
+          "text": "2446 5670 tr"
+        },
+        {
+          "line": 2214,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 2215,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 4169,
+          "x": 2446.0,
+          "y": 10350.0,
+          "text": "2446 10350 tr"
+        },
+        {
+          "line": 4171,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 4172,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 6400,
+          "x": 2437.0,
+          "y": 3375.0,
+          "text": "2437 3375 tr"
+        },
+        {
+          "line": 6402,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 6403,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        },
+        {
+          "line": 8533,
+          "x": 2439.0,
+          "y": 8010.0,
+          "text": "2439 8010 tr"
+        },
+        {
+          "line": 8535,
+          "x": 0.0,
+          "y": -346.0,
+          "text": "0 -346 tr"
+        },
+        {
+          "line": 8536,
+          "x": -18.0,
+          "y": -144.0,
+          "text": "-18 -144 tr"
+        }
+      ],
+      "definition": {
+        "name": "tr",
+        "start_line": 75,
+        "end_line": 75,
+        "body": "/tr {translate} bind def",
+        "has_fill": false,
+        "has_stroke": false,
+        "local_path_ops": 0
+      }
+    }
+  ],
+  "numeric_label_anchors": [],
+  "keyword_lines": [
+    {
+      "line": 49,
+      "text": "-152.0 791.0 translate"
+    },
+    {
+      "line": 95,
+      "text": "% pen to black in case this eps object doesn't set color first"
+    },
+    {
+      "line": 97,
+      "text": "% Begin Imported EPS File: 116readradialgraph.mr.eps"
+    },
+    {
+      "line": 98,
+      "text": "%%BeginDocument: 116readradialgraph.mr.eps"
+    },
+    {
+      "line": 101,
+      "text": "2430 1079 tr"
+    },
+    {
+      "line": 1369,
+      "text": "20 790 M 68 -23 l"
+    },
+    {
+      "line": 1370,
+      "text": "20 790 M 68 0 l"
+    },
+    {
+      "line": 1371,
+      "text": "20 793 M 68 0 l"
+    },
+    {
+      "line": 1683,
+      "text": "1112 1379 M CS [] 0 setdash M"
+    },
+    {
+      "line": 1947,
+      "text": "78 -73 m 968 779 L"
+    },
+    {
+      "line": 1948,
+      "text": "956 799 L"
+    },
+    {
+      "line": 1949,
+      "text": "932 799 L"
+    },
+    {
+      "line": 1950,
+      "text": "921 779 L"
+    },
+    {
+      "line": 1973,
+      "text": "1165 659 L"
+    },
+    {
+      "line": 1975,
+      "text": "1165 618 L"
+    },
+    {
+      "line": 2108,
+      "text": "78 36 m 479 964 L"
+    },
+    {
+      "line": 2113,
+      "text": "78 115 m 556 1079 L"
+    },
+    {
+      "line": 2160,
+      "text": "1279 601 L"
+    },
+    {
+      "line": 2201,
+      "text": "% End Imported PIC File: 116readradialgraph.mr.eps"
+    },
+    {
+      "line": 2206,
+      "text": "% pen to black in case this eps object doesn't set color first"
+    },
+    {
+      "line": 2208,
+      "text": "% Begin Imported EPS File: 79readradialgraph.mr.eps"
+    },
+    {
+      "line": 2209,
+      "text": "%%BeginDocument: 79readradialgraph.mr.eps"
+    },
+    {
+      "line": 3360,
+      "text": "79 719 M 6 -6 l"
+    },
+    {
+      "line": 3418,
+      "text": "79 925 M 102 -58 l"
+    },
+    {
+      "line": 3693,
+      "text": "1112 1379 M CS [] 0 setdash M"
+    },
+    {
+      "line": 3694,
+      "text": "779 1345 M 16 67 m 0 -67 l"
+    },
+    {
+      "line": 3882,
+      "text": "413 1162 L"
+    },
+    {
+      "line": 3883,
+      "text": "389 1162 L"
+    },
+    {
+      "line": 3891,
+      "text": "479 1022 L"
+    },
+    {
+      "line": 3893,
+      "text": "479 981 L"
+    },
+    {
+      "line": 3905,
+      "text": "90 -19 m 694 879 L"
+    },
+    {
+      "line": 3908,
+      "text": "647 879 L"
+    },
+    {
+      "line": 3921,
+      "text": "90 46 m 874 979 L"
+    },
+    {
+      "line": 3924,
+      "text": "827 979 L"
+    },
+    {
+      "line": 3949,
+      "text": "1108 792 L"
+    },
+    {
+      "line": 3950,
+      "text": "1131 792 L"
+    },
+    {
+      "line": 4130,
+      "text": "90 -65 m 1479 425 L"
+    },
+    {
+      "line": 4158,
+      "text": "% End Imported PIC File: 79readradialgraph.mr.eps"
+    },
+    {
+      "line": 4163,
+      "text": "% pen to black in case this eps object doesn't set color first"
+    },
+    {
+      "line": 4787,
+      "text": "579 171 M 17 68 m 4 -4 l"
+    },
+    {
+      "line": 5585,
+      "text": "79 719 M 6 -6 l"
+    },
+    {
+      "line": 5643,
+      "text": "79 925 M 102 -58 l"
+    },
+    {
+      "line": 5918,
+      "text": "1112 1379 M CS [] 0 setdash M"
+    },
+    {
+      "line": 6394,
+      "text": "% pen to black in case this eps object doesn't set color first"
+    },
+    {
+      "line": 7614,
+      "text": "20 790 M 68 -23 l"
+    },
+    {
+      "line": 7615,
+      "text": "20 790 M 68 0 l"
+    },
+    {
+      "line": 7616,
+      "text": "20 793 M 68 0 l"
+    },
+    {
+      "line": 7928,
+      "text": "1112 1379 M CS [] 0 setdash M"
+    },
+    {
+      "line": 8236,
+      "text": "74 41 m 795 974 L"
+    },
+    {
+      "line": 8276,
+      "text": "74 -160 m 1166 589 L"
+    },
+    {
+      "line": 8412,
+      "text": "116 0 m -20 35 l"
+    },
+    {
+      "line": 8435,
+      "text": "600 794 L"
+    },
+    {
+      "line": 8436,
+      "text": "648 794 L"
+    },
+    {
+      "line": 8446,
+      "text": "796 1066 L"
+    },
+    {
+      "line": 8465,
+      "text": "1045 679 L"
+    },
+    {
+      "line": 8466,
+      "text": "1093 679 L"
+    },
+    {
+      "line": 8471,
+      "text": "1167 525 L"
+    },
+    {
+      "line": 8527,
+      "text": "% pen to black in case this eps object doesn't set color first"
+    },
+    {
+      "line": 9582,
+      "text": "79 719 M 6 -6 l"
+    },
+    {
+      "line": 9640,
+      "text": "79 925 M 102 -58 l"
+    },
+    {
+      "line": 9915,
+      "text": "1112 1379 M CS [] 0 setdash M"
+    },
+    {
+      "line": 10117,
+      "text": "45 30 m 515 793 L"
+    },
+    {
+      "line": 10120,
+      "text": "468 793 L"
+    },
+    {
+      "line": 10175,
+      "text": "797 1153 L"
+    },
+    {
+      "line": 10177,
+      "text": "797 1113 L"
+    },
+    {
+      "line": 10441,
+      "text": "421 764 M 401 799 L"
+    },
+    {
+      "line": 10497,
+      "text": "879 1020 L"
+    },
+    {
+      "line": 10547,
+      "text": "1331 579 L"
+    },
+    {
+      "line": 10548,
+      "text": "1372 579 L"
+    },
+    {
+      "line": 10593,
+      "text": "1779 322 L"
+    }
+  ],
+  "long_geometry": [],
+  "next_gate": "identify_panel_order_filled_circle_average_series_and_axes",
+  "boundary": "Targeted continuation from committed Ge04 audit; no PostScript execution/rendering, OCR, raster digitization, map reconstruction, normalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}

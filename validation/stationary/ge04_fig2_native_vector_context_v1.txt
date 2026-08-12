@@ -1,0 +1,593 @@
+===== DEF l lines 58-58 =====
+00056: /sa {save} bind def
+00057: /rs {restore} bind def
+00058: /l {lineto} bind def
+00059: /m {moveto} bind def
+00060: /rm {rmoveto} bind def
+
+===== FIRST CALL l line 106 =====
+00102: 6.287719 -6.245665 sc
+00103: 0 -346 tr
+00104: -18 -144 tr
+00105: sa
+00106: n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n
+00107: countdictstack
+00108: mark
+00109: /showpage {} def
+00110: % EPS file follows:
+00111: %!PS-Adobe-2.0 EPSF-2.0
+00112: %%Creator: SM
+00113: %%BoundingBox: 18 144 588 490
+00114: %%DocumentFonts: Helvetica
+00115: %%EndComments
+00116:  20 dict begin
+00117: 72 300 div dup scale
+00118: 1 setlinejoin 0 setlinecap
+
+===== DEF m lines 59-59 =====
+00057: /rs {restore} bind def
+00058: /l {lineto} bind def
+00059: /m {moveto} bind def
+00060: /rm {rmoveto} bind def
+00061: /n {newpath} bind def
+
+===== FIRST CALL m line 106 =====
+00102: 6.287719 -6.245665 sc
+00103: 0 -346 tr
+00104: -18 -144 tr
+00105: sa
+00106: n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n
+00107: countdictstack
+00108: mark
+00109: /showpage {} def
+00110: % EPS file follows:
+00111: %!PS-Adobe-2.0 EPSF-2.0
+00112: %%Creator: SM
+00113: %%BoundingBox: 18 144 588 490
+00114: %%DocumentFonts: Helvetica
+00115: %%EndComments
+00116:  20 dict begin
+00117: 72 300 div dup scale
+00118: 1 setlinejoin 0 setlinecap
+
+===== DEF L lines 8557-8557 =====
+08555: /CS {currentpoint stroke} def
+08556: /CF {currentpoint eofill} def
+08557: /L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def
+08558: /P {moveto 0 1 rlineto stroke} def
+08559: /T {currentlinecap exch 1 setlinecap show setlinecap} def
+
+===== FIRST CALL L line 143 =====
+00139: /P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def
+00140: CS [] 0 setdash M
+00141: 401 328 M 1422 0 l
+00142: 0 985 l
+00143: 401 1313 L
+00144: 401 328 L
+00145: 1422 0 l
+00146: 401 328 M 1422 0 l
+00147: 401 1313 M 1422 0 l
+00148: 401 328 M 0 985 l
+00149: 1823 328 M 0 985 l
+00150: 1823 328 M -85 0 l
+00151: 158 -42 m 36 84 m -12 -4 l
+00152: -8 -12 l
+00153: -4 -20 l
+00154: 0 -12 l
+00155: 4 -20 l
+
+===== DEF tr lines 75-75 =====
+00073: /scf {scalefont} bind def
+00074: /sw {stringwidth} bind def
+00075: /tr {translate} bind def
+00076: /tnt {dup dup currentrgbcolor
+00077:   4 -2 roll dup 1 exch sub 3 -1 roll mul add
+
+===== FIRST CALL tr line 101 =====
+00097: % Begin Imported EPS File: 116readradialgraph.mr.eps
+00098: %%BeginDocument: 116readradialgraph.mr.eps
+00099: %
+00100: n gs
+00101: 2430 1079 tr
+00102: 6.287719 -6.245665 sc
+00103: 0 -346 tr
+00104: -18 -144 tr
+00105: sa
+00106: n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n
+00107: countdictstack
+00108: mark
+00109: /showpage {} def
+00110: % EPS file follows:
+00111: %!PS-Adobe-2.0 EPSF-2.0
+00112: %%Creator: SM
+00113: %%BoundingBox: 18 144 588 490
+
+===== KEYWORD line 49 =====
+00047: save
+00048: newpath 0 724 moveto 0 0 lineto 229 0 lineto 229 724 lineto closepath clip newpath
+00049: -152.0 791.0 translate
+00050: 1 -1 scale
+00051: 
+
+===== KEYWORD line 95 =====
+00093: % Polyline
+00094: %
+00095: % pen to black in case this eps object doesn't set color first
+00096: 0 0 0 setrgbcolor
+00097: % Begin Imported EPS File: 116readradialgraph.mr.eps
+
+===== KEYWORD line 97 =====
+00095: % pen to black in case this eps object doesn't set color first
+00096: 0 0 0 setrgbcolor
+00097: % Begin Imported EPS File: 116readradialgraph.mr.eps
+00098: %%BeginDocument: 116readradialgraph.mr.eps
+00099: %
+
+===== KEYWORD line 98 =====
+00096: 0 0 0 setrgbcolor
+00097: % Begin Imported EPS File: 116readradialgraph.mr.eps
+00098: %%BeginDocument: 116readradialgraph.mr.eps
+00099: %
+00100: n gs
+
+===== KEYWORD line 101 =====
+00099: %
+00100: n gs
+00101: 2430 1079 tr
+00102: 6.287719 -6.245665 sc
+00103: 0 -346 tr
+
+===== KEYWORD line 1369 =====
+01367: 20 748 M 58 19 l
+01368: 20 745 M 68 22 l
+01369: 20 790 M 68 -23 l
+01370: 20 790 M 68 0 l
+01371: 20 793 M 68 0 l
+
+===== KEYWORD line 1370 =====
+01368: 20 745 M 68 22 l
+01369: 20 790 M 68 -23 l
+01370: 20 790 M 68 0 l
+01371: 20 793 M 68 0 l
+01372: 20 735 M 0 13 l
+
+===== KEYWORD line 1371 =====
+01369: 20 790 M 68 -23 l
+01370: 20 790 M 68 0 l
+01371: 20 793 M 68 0 l
+01372: 20 735 M 0 13 l
+01373: 0 42 m 0 13 l
+
+===== KEYWORD line 1683 =====
+01681: 13 -6 l
+01682: CS [] 0 setdash M
+01683: 1112 1379 M CS [] 0 setdash M
+01684: 746 1345 M 16 67 m 0 -67 l
+01685: 4 67 m 0 -67 l
+
+===== KEYWORD line 1947 =====
+01945: CF M
+01946: B
+01947: 78 -73 m 968 779 L
+01948: 956 799 L
+01949: 932 799 L
+
+===== KEYWORD line 1948 =====
+01946: B
+01947: 78 -73 m 968 779 L
+01948: 956 799 L
+01949: 932 799 L
+01950: 921 779 L
+
+===== KEYWORD line 1949 =====
+01947: 78 -73 m 968 779 L
+01948: 956 799 L
+01949: 932 799 L
+01950: 921 779 L
+01951: 932 758 L
+
+===== KEYWORD line 1950 =====
+01948: 956 799 L
+01949: 932 799 L
+01950: 921 779 L
+01951: 932 758 L
+01952: 956 758 L
+
+===== KEYWORD line 1973 =====
+01971: 78 -32 m 1200 639 L
+01972: 1189 659 L
+01973: 1165 659 L
+01974: 1154 639 L
+01975: 1165 618 L
+
+===== KEYWORD line 1975 =====
+01973: 1165 659 L
+01974: 1154 639 L
+01975: 1165 618 L
+01976: 1189 618 L
+01977: CF M
+
+===== KEYWORD line 2108 =====
+02106: CF M
+02107: B
+02108: 78 36 m 479 964 L
+02109: 454 922 L
+02110: 503 922 L
+
+===== KEYWORD line 2113 =====
+02111: CF M
+02112: B
+02113: 78 115 m 556 1079 L
+02114: 532 1037 L
+02115: 581 1037 L
+
+===== KEYWORD line 2160 =====
+02158: 78 -29 m 1254 643 L
+02159: 1230 601 L
+02160: 1279 601 L
+02161: CF M
+02162: B
+
+===== KEYWORD line 2201 =====
+02199: restore grestore
+02200: %
+02201: % End Imported PIC File: 116readradialgraph.mr.eps
+02202: %%EndDocument
+02203: %
+
+===== KEYWORD line 2206 =====
+02204: % Polyline
+02205: %
+02206: % pen to black in case this eps object doesn't set color first
+02207: 0 0 0 setrgbcolor
+02208: % Begin Imported EPS File: 79readradialgraph.mr.eps
+
+===== KEYWORD line 2208 =====
+02206: % pen to black in case this eps object doesn't set color first
+02207: 0 0 0 setrgbcolor
+02208: % Begin Imported EPS File: 79readradialgraph.mr.eps
+02209: %%BeginDocument: 79readradialgraph.mr.eps
+02210: %
+
+===== KEYWORD line 2209 =====
+02207: 0 0 0 setrgbcolor
+02208: % Begin Imported EPS File: 79readradialgraph.mr.eps
+02209: %%BeginDocument: 79readradialgraph.mr.eps
+02210: %
+02211: n gs
+
+===== KEYWORD line 3360 =====
+03358: -41 -8 m 0 14 l
+03359: 41 -14 m 0 14 l
+03360: 79 719 M 6 -6 l
+03361: 10 -7 l
+03362: 13 -6 l
+
+===== KEYWORD line 3418 =====
+03416: -2 0 l
+03417: 0 -2 l
+03418: 79 925 M 102 -58 l
+03419: -67 81 m 67 0 l
+03420: -67 3 m 67 0 l
+
+===== KEYWORD line 3693 =====
+03691: 13 -6 l
+03692: CS [] 0 setdash M
+03693: 1112 1379 M CS [] 0 setdash M
+03694: 779 1345 M 16 67 m 0 -67 l
+03695: 3 67 m 0 -67 l
+
+===== KEYWORD line 3694 =====
+03692: CS [] 0 setdash M
+03693: 1112 1379 M CS [] 0 setdash M
+03694: 779 1345 M 16 67 m 0 -67 l
+03695: 3 67 m 0 -67 l
+03696: 19 48 m 0 -26 l
+
+===== KEYWORD line 3882 =====
+03880: B
+03881: 413 1122 M 424 1142 L
+03882: 413 1162 L
+03883: 389 1162 L
+03884: 378 1142 L
+
+===== KEYWORD line 3883 =====
+03881: 413 1122 M 424 1142 L
+03882: 413 1162 L
+03883: 389 1162 L
+03884: 378 1142 L
+03885: 389 1122 L
+
+===== KEYWORD line 3891 =====
+03889: 90 -141 m 514 1002 L
+03890: 503 1022 L
+03891: 479 1022 L
+03892: 468 1002 L
+03893: 479 981 L
+
+===== KEYWORD line 3893 =====
+03891: 479 1022 L
+03892: 468 1002 L
+03893: 479 981 L
+03894: 503 981 L
+03895: CF M
+
+===== KEYWORD line 3905 =====
+03903: CF M
+03904: B
+03905: 90 -19 m 694 879 L
+03906: 682 900 L
+03907: 659 900 L
+
+===== KEYWORD line 3908 =====
+03906: 682 900 L
+03907: 659 900 L
+03908: 647 879 L
+03909: 659 859 L
+03910: 682 859 L
+
+===== KEYWORD line 3921 =====
+03919: CF M
+03920: B
+03921: 90 46 m 874 979 L
+03922: 862 999 L
+03923: 839 999 L
+
+===== KEYWORD line 3924 =====
+03922: 862 999 L
+03923: 839 999 L
+03924: 827 979 L
+03925: 839 958 L
+03926: 862 958 L
+
+===== KEYWORD line 3949 =====
+03947: 1108 833 L
+03948: 1096 812 L
+03949: 1108 792 L
+03950: 1131 792 L
+03951: CF M
+
+===== KEYWORD line 3950 =====
+03948: 1096 812 L
+03949: 1108 792 L
+03950: 1131 792 L
+03951: CF M
+03952: B
+
+===== KEYWORD line 4130 =====
+04128: CF M
+04129: B
+04130: 90 -65 m 1479 425 L
+04131: 1455 383 L
+04132: 1503 383 L
+
+===== KEYWORD line 4158 =====
+04156: restore grestore
+04157: %
+04158: % End Imported PIC File: 79readradialgraph.mr.eps
+04159: %%EndDocument
+04160: %
+
+===== KEYWORD line 4163 =====
+04161: % Polyline
+04162: %
+04163: % pen to black in case this eps object doesn't set color first
+04164: 0 0 0 setrgbcolor
+04165: % Begin Imported EPS File: 7339readradialgraph.mr.eps
+
+===== KEYWORD line 4787 =====
+04785: 65 -43 m 0 43 l
+04786: 65 -43 m 0 86 l
+04787: 579 171 M 17 68 m 4 -4 l
+04788: -4 -4 l
+04789: -4 4 l
+
+===== KEYWORD line 5585 =====
+05583: -41 -8 m 0 14 l
+05584: 41 -14 m 0 14 l
+05585: 79 719 M 6 -6 l
+05586: 10 -7 l
+05587: 13 -6 l
+
+===== KEYWORD line 5643 =====
+05641: -2 0 l
+05642: 0 -2 l
+05643: 79 925 M 102 -58 l
+05644: -67 81 m 67 0 l
+05645: -67 3 m 67 0 l
+
+===== KEYWORD line 5918 =====
+05916: 13 -6 l
+05917: CS [] 0 setdash M
+05918: 1112 1379 M CS [] 0 setdash M
+05919: 851 1345 M 16 67 m 0 -67 l
+05920: 3 67 m 39 -61 l
+
+===== KEYWORD line 6394 =====
+06392: % Polyline
+06393: %
+06394: % pen to black in case this eps object doesn't set color first
+06395: 0 0 0 setrgbcolor
+06396: % Begin Imported EPS File: 287readradialgraph.mr.eps
+
+===== KEYWORD line 7614 =====
+07612: 20 748 M 58 19 l
+07613: 20 745 M 68 22 l
+07614: 20 790 M 68 -23 l
+07615: 20 790 M 68 0 l
+07616: 20 793 M 68 0 l
+
+===== KEYWORD line 7615 =====
+07613: 20 745 M 68 22 l
+07614: 20 790 M 68 -23 l
+07615: 20 790 M 68 0 l
+07616: 20 793 M 68 0 l
+07617: 20 735 M 0 13 l
+
+===== KEYWORD line 7616 =====
+07614: 20 790 M 68 -23 l
+07615: 20 790 M 68 0 l
+07616: 20 793 M 68 0 l
+07617: 20 735 M 0 13 l
+07618: 0 42 m 0 13 l
+
+===== KEYWORD line 7928 =====
+07926: 12 -7 l
+07927: CS [] 0 setdash M
+07928: 1112 1379 M CS [] 0 setdash M
+07929: 746 1345 M 16 67 m 0 -67 l
+07930: 4 67 m 0 -67 l
+
+===== KEYWORD line 8236 =====
+08234: CF M
+08235: B
+08236: 74 41 m 795 974 L
+08237: 784 994 L
+08238: 760 994 L
+
+===== KEYWORD line 8276 =====
+08274: CF M
+08275: B
+08276: 74 -160 m 1166 589 L
+08277: 1155 610 L
+08278: 1131 610 L
+
+===== KEYWORD line 8412 =====
+08410: 72 -4 m -22 38 l
+08411: -22 -38 l
+08412: 116 0 m -20 35 l
+08413: -19 -35 l
+08414: 113 0 m -19 35 l
+
+===== KEYWORD line 8435 =====
+08433: B
+08434: 74 74 m 624 836 L
+08435: 600 794 L
+08436: 648 794 L
+08437: CF M
+
+===== KEYWORD line 8436 =====
+08434: 74 74 m 624 836 L
+08435: 600 794 L
+08436: 648 794 L
+08437: CF M
+08438: B
+
+===== KEYWORD line 8446 =====
+08444: 74 153 m 772 1108 L
+08445: 748 1066 L
+08446: 796 1066 L
+08447: CF M
+08448: B
+
+===== KEYWORD line 8465 =====
+08463: B
+08464: 74 -233 m 1069 721 L
+08465: 1045 679 L
+08466: 1093 679 L
+08467: CF M
+
+===== KEYWORD line 8466 =====
+08464: 74 -233 m 1069 721 L
+08465: 1045 679 L
+08466: 1093 679 L
+08467: CF M
+08468: B
+
+===== KEYWORD line 8471 =====
+08469: 74 -154 m 1143 567 L
+08470: 1119 525 L
+08471: 1167 525 L
+08472: CF M
+08473: B
+
+===== KEYWORD line 8527 =====
+08525: % Polyline
+08526: %
+08527: % pen to black in case this eps object doesn't set color first
+08528: 0 0 0 setrgbcolor
+08529: % Begin Imported EPS File: 1090readellintgraph.mr.eps
+
+===== KEYWORD line 9582 =====
+09580: -41 -8 m 0 14 l
+09581: 41 -14 m 0 14 l
+09582: 79 719 M 6 -6 l
+09583: 10 -7 l
+09584: 13 -6 l
+
+===== KEYWORD line 9640 =====
+09638: -2 0 l
+09639: 0 -2 l
+09640: 79 925 M 102 -58 l
+09641: -67 81 m 67 0 l
+09642: -67 3 m 67 0 l
+
+===== KEYWORD line 9915 =====
+09913: 12 -7 l
+09914: CS [] 0 setdash M
+09915: 1112 1379 M CS [] 0 setdash M
+09916: 851 1345 M 16 67 m 0 -67 l
+09917: 3 67 m 39 -61 l
+
+===== KEYWORD line 10117 =====
+10115: CF M
+10116: B
+10117: 45 30 m 515 793 L
+10118: 503 813 L
+10119: 480 813 L
+
+===== KEYWORD line 10120 =====
+10118: 503 813 L
+10119: 480 813 L
+10120: 468 793 L
+10121: 480 773 L
+10122: 503 773 L
+
+===== KEYWORD line 10175 =====
+10173: 45 -6 m 832 1133 L
+10174: 820 1153 L
+10175: 797 1153 L
+10176: 785 1133 L
+10177: 797 1113 L
+
+===== KEYWORD line 10177 =====
+10175: 797 1153 L
+10176: 785 1133 L
+10177: 797 1113 L
+10178: 820 1113 L
+10179: CF M
+
+===== KEYWORD line 10441 =====
+10439: 41 0 l
+10440: B
+10441: 421 764 M 401 799 L
+10442: 381 764 L
+10443: 421 764 L
+
+===== KEYWORD line 10497 =====
+10495: B
+10496: 45 -6 m 899 1055 L
+10497: 879 1020 L
+10498: 919 1020 L
+10499: CF M
+
+===== KEYWORD line 10547 =====
+10545: B
+10546: 46 -36 m 1351 614 L
+10547: 1331 579 L
+10548: 1372 579 L
+10549: CF M
+
+===== KEYWORD line 10548 =====
+10546: 46 -36 m 1351 614 L
+10547: 1331 579 L
+10548: 1372 579 L
+10549: CF M
+10550: B
+
+===== KEYWORD line 10593 =====
+10591: 45 -6 m 1759 357 L
+10592: 1739 322 L
+10593: 1779 322 L
+10594: CF M
+10595: CS [] 0 setdash M
