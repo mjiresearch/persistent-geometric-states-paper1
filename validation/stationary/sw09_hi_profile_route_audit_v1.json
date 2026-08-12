@@ -1,0 +1,1126 @@
+{
+  "status": "SW09_HI_PROFILE_ROUTE_AUDIT_COMPLETE",
+  "source": "Swaters et al. 2009 A&A 493 871; arXiv 0901.4222",
+  "n_priority_frozen_galaxies": 9,
+  "priority_role_counts": {
+    "calibration": 5,
+    "blind": 4
+  },
+  "priority_galaxies": [
+    "UGC00731",
+    "UGC05986",
+    "UGC07125",
+    "UGC07151",
+    "UGC07577",
+    "UGC07603",
+    "UGC08286",
+    "UGC08550",
+    "UGC08837"
+  ],
+  "arxiv_bytes": 943534,
+  "n_arxiv_files": 81,
+  "n_data_like_files": 0,
+  "data_like_files": [],
+  "n_vector_files": 79,
+  "vector_files": [
+    {
+      "name": "0516fg01.eps",
+      "bytes": 20516,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg02.eps",
+      "bytes": 108462,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg03.eps",
+      "bytes": 225221,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg04.eps",
+      "bytes": 18293,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg05.eps",
+      "bytes": 37448,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg06.eps",
+      "bytes": 32892,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg07.eps",
+      "bytes": 19002,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg08.eps",
+      "bytes": 21520,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg09.eps",
+      "bytes": 27549,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg10.eps",
+      "bytes": 18027,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg11.eps",
+      "bytes": 31990,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg12.eps",
+      "bytes": 29140,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg13.eps",
+      "bytes": 47325,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg14.eps",
+      "bytes": 39561,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg15.eps",
+      "bytes": 33578,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg16.eps",
+      "bytes": 48939,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg17.eps",
+      "bytes": 42826,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg18.eps",
+      "bytes": 51351,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg19.eps",
+      "bytes": 33432,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg20.eps",
+      "bytes": 37021,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg21.eps",
+      "bytes": 31506,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg22.eps",
+      "bytes": 48250,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg23.eps",
+      "bytes": 68466,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg24.eps",
+      "bytes": 38624,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg25.eps",
+      "bytes": 22177,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg26.eps",
+      "bytes": 38513,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg27.eps",
+      "bytes": 27941,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg28.eps",
+      "bytes": 78551,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg29.eps",
+      "bytes": 28990,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg30.eps",
+      "bytes": 35046,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg31.eps",
+      "bytes": 24252,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg32.eps",
+      "bytes": 63353,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg33.eps",
+      "bytes": 62677,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg34.eps",
+      "bytes": 38229,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg35.eps",
+      "bytes": 36666,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg36.eps",
+      "bytes": 34431,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg37.eps",
+      "bytes": 37104,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg38.eps",
+      "bytes": 43131,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg39.eps",
+      "bytes": 50662,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg40.eps",
+      "bytes": 41457,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg41.eps",
+      "bytes": 28858,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg42.eps",
+      "bytes": 35536,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg43.eps",
+      "bytes": 69269,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg44.eps",
+      "bytes": 39968,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg45.eps",
+      "bytes": 32158,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg46.eps",
+      "bytes": 29237,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg47.eps",
+      "bytes": 26338,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg48.eps",
+      "bytes": 40222,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg49.eps",
+      "bytes": 55324,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg50.eps",
+      "bytes": 55059,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg51.eps",
+      "bytes": 24667,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg52.eps",
+      "bytes": 41477,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg53.eps",
+      "bytes": 31817,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg54.eps",
+      "bytes": 65472,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg55.eps",
+      "bytes": 43226,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg56.eps",
+      "bytes": 40798,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg57.eps",
+      "bytes": 49846,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg58.eps",
+      "bytes": 25231,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg59.eps",
+      "bytes": 31424,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg60.eps",
+      "bytes": 71154,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg61.eps",
+      "bytes": 42906,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg62.eps",
+      "bytes": 38418,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg63.eps",
+      "bytes": 49810,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg64.eps",
+      "bytes": 37266,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg65.eps",
+      "bytes": 37400,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg66.eps",
+      "bytes": 34193,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg67.eps",
+      "bytes": 39807,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg68.eps",
+      "bytes": 34935,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg69.eps",
+      "bytes": 34115,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg70.eps",
+      "bytes": 31632,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg71.eps",
+      "bytes": 71745,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg72.eps",
+      "bytes": 33054,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg73.eps",
+      "bytes": 81650,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg74.eps",
+      "bytes": 45478,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg75.eps",
+      "bytes": 28598,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg76.eps",
+      "bytes": 47270,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg77.eps",
+      "bytes": 32229,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg78.eps",
+      "bytes": 38039,
+      "suffix": ".eps"
+    },
+    {
+      "name": "0516fg79.eps",
+      "bytes": 29797,
+      "suffix": ".eps"
+    }
+  ],
+  "paper_i_mentions": 3,
+  "surface_density_mentions": 0,
+  "hi_observations_explicitly_refer_back_to_paper_i": false,
+  "appendix_is_rotation_curve_product": true,
+  "text_hits": [
+    {
+      "file": "0516ms.tex",
+      "line": 8,
+      "text": "\\title{The rotation curves shapes of late-type dwarf galaxies}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 45,
+      "text": "  We present rotation curves derived from \\HI\\ observations for a"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 48,
+      "text": "  project. These rotation curves have been derived by interactively"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 53,
+      "text": "  spatial resolution H$\\alpha$ rotation curves available in the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 57,
+      "text": "  the sense that their rotation curves, when expressed in units of"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 60,
+      "text": "  sample have solid-body rotation curves that extend beyond three disk"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 86,
+      "text": "The shape and amplitude of rotation curves are directly related to the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 102,
+      "text": "rotation curves has been a topic of study for many years (e.g., Rubin"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 130,
+      "text": "rotation curves do not extend to large enough radii to measure the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 139,
+      "text": "galaxies have low amplitude, slowly rising rotation curves that keep"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 140,
+      "text": "rising to the last measured point.  Thus, the rotation curves shapes"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 146,
+      "text": "correlations between the outer slopes of the rotation curves and the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 147,
+      "text": "maximum rotation velocities, and found that the rotation curves, when"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 152,
+      "text": "of light and the shape of the rotation curves for dwarf galaxies, a"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 153,
+      "text": "large sample with well-defined rotation curves and optical properties"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 155,
+      "text": "hereafter Paper I); it contains 73 late-type dwarf galaxies.  For"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 158,
+      "text": "the study of the rotation curves of late-type dwarf galaxies presented"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 163,
+      "text": "The structure of this paper is as follows. In Section~\\ref{secsample}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 165,
+      "text": "detail the procedure used to derive the rotation curves.  We give a"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 168,
+      "text": "\\HI\\ rotation curves with long-slit \\Halpha\\ rotation curves available"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 172,
+      "text": "results and present our conclusions.  In Appendix~\\ref{appfigures} we"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 191,
+      "text": "The \\HI\\ observations on which the rotation curves presented here are"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 196,
+      "text": "Appendix~\\ref{appfigures})."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 203,
+      "text": "galaxies. For 62 of those rotation curves have been derived."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 211,
+      "text": "\\section{The rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 214,
+      "text": "\\subsection{Derivation of the rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 229,
+      "text": "Usually, rotation curves are derived by fitting tilted-ring models to"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 237,
+      "text": "rotation curves is not straightforward. In particular the possible"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 249,
+      "text": "rotation curves derived from these velocity fields have shallower"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 268,
+      "text": "resolution data were too low to derive reliable rotation curves, we"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 269,
+      "text": "have derived the rotation curves from the $30''$ data."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 271,
+      "text": "\\subsubsection{Initial estimate of the rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 314,
+      "text": "ourselves we are able to accurately retrieve the rotation curves and"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 360,
+      "text": "rotation curves have been sampled every 15 arcseconds, and the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 361,
+      "text": "individual points in the rotation curves are therefore not"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 369,
+      "text": "\\subsubsection{Final rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 372,
+      "text": "of the rotation curves is that it is subjective. To obtain a more"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 401,
+      "text": "known rotation curves, orientation parameters, and HI distributions,"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 402,
+      "text": "and derived the rotation curves with the method described here. As"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 407,
+      "text": "Section~\\ref{seccomp}, where we compare our \\HI\\ rotation curves with"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 408,
+      "text": "\\Halpha\\ rotation curves available in the literature."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 444,
+      "text": "The final rotation curves are shown in Appendix~\\ref{appfigures}. In"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 445,
+      "text": "the cases where the rotation curves have been derived for both sides"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 448,
+      "text": "described below. In Appendix~\\ref{appfigures} the rotation curves are"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 450,
+      "text": "axes. Where applicable, the rotation curves for the approaching and"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 453,
+      "text": "\\subsection{Rotation curves for edge-on galaxies}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 469,
+      "text": "\\footnote{After we derived the rotation curves for the galaxies in our"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 470,
+      "text": "  sample, alternative methods to derive the rotation curves for"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 474,
+      "text": "  of the rotation curves of edge-on galaxies, and given that we do not"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 476,
+      "text": "  have not rederived the rotation curves.}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 478,
+      "text": "The rotation curves for edge-on galaxies derived in this way for the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 481,
+      "text": "Appendix~\\ref{appfigures}. The average rotation curves are shown in"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 482,
+      "text": "Appendix~\\ref{appfigures} as well."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 486,
+      "text": "The method outlined above to derive the rotation curves does not"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 510,
+      "text": "the rotation curves for the edge-on galaxies may be more uncertain"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 517,
+      "text": "The quality of the derived rotation curves differs from galaxy to"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 522,
+      "text": "curves, whereas for others only lower quality rotation curves could be"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 524,
+      "text": "derived rotation curves into four different categories of quality"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 774,
+      "text": "rotation curves for asymmetric drift, and we assumed that our derived"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 775,
+      "text": "rotation curves corrected for inclination represent the circular"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 780,
+      "text": "The radial scale of the rotation curves derived above is given in"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 782,
+      "text": "curves between galaxies and the comparison between the rotation curves"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 783,
+      "text": "and the light profiles, the rotation curves have been resampled in"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 803,
+      "text": "calculated from the rotation curves expressed in units of disk scale"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 808,
+      "text": "\\section{Notes on individual galaxy rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 813,
+      "text": "derivation of the rotation curves."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 924,
+      "text": "\\section{Comparison to \\Halpha\\ rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 927,
+      "text": "In Fig.~\\ref{figcomphiha} we compare the \\HI\\ rotation curves"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 928,
+      "text": "presented here to high-resolution rotation curves based on long-slit"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 934,
+      "text": "dBB have derived their rotation curves by combining their"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 938,
+      "text": "rotation curves over the range in radii where they have \\Halpha\\ data."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 940,
+      "text": "The comparison between the \\HI\\ and H$\\alpha$ rotation curves shows"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 943,
+      "text": "the \\HI\\ and \\Halpha\\ rotation curves in detail."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 955,
+      "text": "\\notes{1281}. The \\HI\\ and \\Halpha\\ rotation curves for this edge-on"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 965,
+      "text": "\\caption{Comparison of the \\Halpha\\ rotation curves (dots with error"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 966,
+      "text": "bars) with \\HI\\ rotation curves (solid lines).}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 983,
+      "text": "\\notes{4173}. The \\HI\\ and \\Halpha\\ rotation curves are in excellent"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 992,
+      "text": "\\caption{Compilation of the rotation curves of the galaxies in the high"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 993,
+      "text": "  quality sample. The left panel shows the rotation curves with radii"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1018,
+      "text": "\\HI\\ and \\Halpha\\ rotation curves show significant differences. The"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1031,
+      "text": "\\notes{8286}. The \\HI\\ and \\Halpha\\ rotation curves for this edge-on"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1040,
+      "text": "\\notes{8837}. The \\HI\\ and the poorly sampled \\Halpha\\ rotation curves"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1043,
+      "text": "\\notes{9211}. The \\HI\\ and \\Halpha\\ rotation curves are in good agreement."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1048,
+      "text": "\\notes{11557}. The \\HI\\ and \\Halpha\\ rotation curves agree well, but"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1060,
+      "text": "\\notes{12732}. The \\Halpha\\ and \\HI\\ rotation curves are in agreement."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1062,
+      "text": "The detailed comparison of \\HI\\ and \\Halpha\\ rotation curves shows a"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1064,
+      "text": "the method used to derive beam smearing corrected rotation curves is"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1076,
+      "text": "the \\Halpha\\ rotation curves are common in edge-on galaxies (UGC~3137,"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1085,
+      "text": "for the difference between the \\HI\\ and \\Halpha\\ rotation curves. The"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1095,
+      "text": "compared rotation curves derived from Fabry-Perot imaging spectroscopy"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1097,
+      "text": "general agreement between the \\Halpha\\ and \\HI\\ rotation curves for"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1110,
+      "text": "the \\HI\\ rotation curves are therefore reliable, it is obvious that"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1117,
+      "text": "\\subsection{The rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1122,
+      "text": "i\\le 80^\\circ$ and rotation curves with quality $q=1$. A lower limit"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1129,
+      "text": "inclinations $39^\\circ\\le i\\le 80^\\circ$ and rotation curves with"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1133,
+      "text": "In Fig.~\\ref{figallrc} the rotation curves of the galaxies in the high"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1134,
+      "text": "quality sample are shown. The left panel shows the rotation curves"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1137,
+      "text": "of Fig.~\\ref{figallrc} is that the rotation curves of the dwarf"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1140,
+      "text": "lengths: most of the rotation curves rise rapidly in the inner parts"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1144,
+      "text": "rotation curves that are fairly flat, including amplitudes as low as"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1148,
+      "text": "sample have declining rotation curves, even though some of the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1149,
+      "text": "rotation curves extend to beyond 10 disk scale lengths."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1151,
+      "text": "To compare the properties of the rotation curves of the late-type"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1154,
+      "text": "rotation curves. We used the \\HI\\ rotation curves of Ursa Major"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1160,
+      "text": "Broeils (1992a), which consists of a collection of rotation curves"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1322,
+      "text": "  galaxies with high quality rotation curves from the sample presented"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1328,
+      "text": "  \\Halpha\\ rotation curves from the samples of de Blok \\& Bosma (2002)"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1354,
+      "text": "with \\Halpha\\ rotation curves, from the samples of dBB and SMvdBB"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1370,
+      "text": "\\caption{ Rotation curves in bins of absolute magnitude with radii"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1372,
+      "text": "  rotation curves of the galaxies in the high quality sample, the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1378,
+      "text": "tight correlations between the shape of the rotation curves and the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1387,
+      "text": "rotation curves as shallow as seen among the dwarf galaxies in the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1393,
+      "text": "amplitude, and absolute magnitude, we have plotted the rotation curves"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1435,
+      "text": "(1992a), and CvG that rotation curves rise more slowly towards lower"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1511,
+      "text": "rotation curves is needed.  We also note that at the higher mass end"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1521,
+      "text": "rotation curves, and at the low surface brightness end, galaxies tend"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1522,
+      "text": "to have slowly rising rotation curves."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1559,
+      "text": "flat-topped light profile have rotation curves that rise more slowly"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1589,
+      "text": "In this paper, we have presented rotation curves derived from \\HI\\"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1590,
+      "text": "observations for a sample of 62 galaxies.  These rotation curves have"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1595,
+      "text": "Comparison of the derived rotation curves with high resolution"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1596,
+      "text": "H$\\alpha$ rotation curves shows good general agreement, indicating"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1597,
+      "text": "that the scheme used to correct the rotation curves for beam smearing"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1602,
+      "text": "amplitudes of the rotation curves and their relation with the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1623,
+      "text": "galaxies in our sample the rotation curves, when expressed in units of"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1626,
+      "text": "several galaxies with relatively flat rotation curves, and with"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1629,
+      "text": "We found no galaxies with pure solid body rotation curves that extend"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1654,
+      "text": "that the outer rotation curves of galaxies with Hubble types later"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1665,
+      "text": "those derived from rotation curves as published in the"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1668,
+      "text": "therein) will lead to a shallower derived rotation curves, especially"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1670,
+      "text": "may well explain the differences in derived rotation curves."
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1678,
+      "text": "well and explain the falling rotation curves seen in some galaxies"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1694,
+      "text": "also have rotation curves that rise more steeply in the center than"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1695,
+      "text": "the rotation curves of dwarf galaxies that do not have a central"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1859,
+      "text": "(Paper II)"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1894,
+      "text": "\\appendix"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1896,
+      "text": "\\section{Rotation curves}"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1899,
+      "text": "In the next pages overviews are presented of the rotation curves for"
+    },
+    {
+      "file": "0516ms.tex",
+      "line": 1908,
+      "text": "shown. If the rotation curves for the approaching and receding sides"
+    }
+  ],
+  "classification": "downstream_rotation_curve_analysis_reuses_sw02_hi_observations_no_new_radial_profile_product",
+  "interpretation": "Sw09 derives improved H I rotation curves from the WHISP observations described in Swaters et al. 2002 (Paper I). Its appendix product is rotation-curve material, not a new radial H I surface-density publication. Therefore Sw09 is not treated as an independent profile-recovery route for the nine overlapping frozen galaxies.",
+  "boundary": "Acquisition/provenance only; no raster digitization, profile normalization, persistence fitting, or blind-outcome inspection."
+}
