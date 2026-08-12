@@ -1,0 +1,866 @@
+{
+  "status": "TR09_HI_PROFILE_ROUTE_AUDIT_COMPLETE",
+  "source": "Trachternach et al. 2009 A&A 505 577; arXiv:0907.5533",
+  "targets": [
+    "D564-8",
+    "D631-7"
+  ],
+  "source_fetch_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/0907.5533",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/0907.5533",
+      "content_type": "application/gzip",
+      "bytes": 1314824
+    }
+  ],
+  "source_package_sha256": "5027ff09920c1641bcada1cc68e01b1d63f48ab80cfaccc6eeca6430f97353ce",
+  "n_assets": 31,
+  "assets": [
+    {
+      "name": "00README.XXX",
+      "bytes": 23,
+      "sha256": "439a4aea457004e731ecfcea8cb70b796642092fd9770f09eb2ce926adb36435",
+      "ext": ".xxx"
+    },
+    {
+      "name": "11136.bbl",
+      "bytes": 9148,
+      "sha256": "a2586cd9a7716fe68a7408dcb73ad1aaf10ad3e2a3ebb34c96087cec7a0c5999",
+      "ext": ".bbl"
+    },
+    {
+      "name": "11136.tex",
+      "bytes": 78732,
+      "sha256": "87a11d46e1a75363f569e4263a260947a87d5b5f3b3c6d39f49a445313c9d6e7",
+      "ext": ".tex",
+      "profile_language": [
+        "column density",
+        "radial distribution",
+        "azimuthal",
+        "rings"
+      ],
+      "targets_found": [
+        "D564-8",
+        "D631-7"
+      ]
+    },
+    {
+      "name": "11136A10.ps",
+      "bytes": 140354,
+      "sha256": "1be6e90d6a41c0dde3e0afe8c5686a7d3722c486a7e55035940961904cb786b6",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 140354,
+        "sha256": "1be6e90d6a41c0dde3e0afe8c5686a7d3722c486a7e55035940961904cb786b6",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 12,
+        "lineto_tokens": 36,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136A11.ps",
+      "bytes": 187823,
+      "sha256": "822cebc8422ce6e02d94cfd1e129de9cdd1a8e2d9f754c5199996b4ed3d3a96b",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 187823,
+        "sha256": "822cebc8422ce6e02d94cfd1e129de9cdd1a8e2d9f754c5199996b4ed3d3a96b",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 37,
+        "lineto_tokens": 45,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136A12.ps",
+      "bytes": 339873,
+      "sha256": "af029e3166a55778413248755d691015c7a3cdc44d3657cb0007d8d973c02cbc",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 339873,
+        "sha256": "af029e3166a55778413248755d691015c7a3cdc44d3657cb0007d8d973c02cbc",
+        "image_ops": 20,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 175,
+        "lineto_tokens": 227,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136A13.ps",
+      "bytes": 342003,
+      "sha256": "1fc7873291e379205c9b1c551300795cbd1fd06f804f9e615883a23b0dc23c22",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 342003,
+        "sha256": "1fc7873291e379205c9b1c551300795cbd1fd06f804f9e615883a23b0dc23c22",
+        "image_ops": 20,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 160,
+        "lineto_tokens": 270,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136A14.ps",
+      "bytes": 340696,
+      "sha256": "5b1998e3955eda642ed426af5ff18135717a7c45166cdbb0c79cc5bf494ce07b",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 340696,
+        "sha256": "5b1998e3955eda642ed426af5ff18135717a7c45166cdbb0c79cc5bf494ce07b",
+        "image_ops": 20,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 160,
+        "lineto_tokens": 221,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136A15.ps",
+      "bytes": 341279,
+      "sha256": "b997af4ac68e4dd2a7db7b8272e966bd2eb718a2ae2c5a73f103738447088125",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 341279,
+        "sha256": "b997af4ac68e4dd2a7db7b8272e966bd2eb718a2ae2c5a73f103738447088125",
+        "image_ops": 20,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 187,
+        "lineto_tokens": 251,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136A16.ps",
+      "bytes": 335305,
+      "sha256": "2051e7d7279527f5abd51b3bea3229944c2ab32c0a5e5416c7a0e37240061a8a",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 335305,
+        "sha256": "2051e7d7279527f5abd51b3bea3229944c2ab32c0a5e5416c7a0e37240061a8a",
+        "image_ops": 20,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 156,
+        "lineto_tokens": 269,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136A17.ps",
+      "bytes": 487616,
+      "sha256": "68e9aca2673f6838f8801d34b5755363b7ced0a35753ea17dc5bc081117299a2",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 487616,
+        "sha256": "68e9aca2673f6838f8801d34b5755363b7ced0a35753ea17dc5bc081117299a2",
+        "image_ops": 20,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 290,
+        "lineto_tokens": 327,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA1.ps",
+      "bytes": 175985,
+      "sha256": "1c7dc26b4dd7aa3cc5f44cc2a513981fdab0a767bda478f7adb01474627cfdb8",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 175985,
+        "sha256": "1c7dc26b4dd7aa3cc5f44cc2a513981fdab0a767bda478f7adb01474627cfdb8",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 18,
+        "lineto_tokens": 49,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA2.ps",
+      "bytes": 139322,
+      "sha256": "8c94e75e9495f326252fc9bf0dddcf0e957e5d2089b8535dd865fb88b44a9e43",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 139322,
+        "sha256": "8c94e75e9495f326252fc9bf0dddcf0e957e5d2089b8535dd865fb88b44a9e43",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 15,
+        "lineto_tokens": 27,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA3.ps",
+      "bytes": 166586,
+      "sha256": "ab86b835f0637842c6f17dcf4e5e41056d708bf235c6c8b53c5cbda28239a247",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 166586,
+        "sha256": "ab86b835f0637842c6f17dcf4e5e41056d708bf235c6c8b53c5cbda28239a247",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 14,
+        "lineto_tokens": 31,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA4.ps",
+      "bytes": 151360,
+      "sha256": "ebbe4d7e950c62ecad285e3b068fb1f9e439e30ffd1b4637c403a7cb45abab39",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 151360,
+        "sha256": "ebbe4d7e950c62ecad285e3b068fb1f9e439e30ffd1b4637c403a7cb45abab39",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 14,
+        "lineto_tokens": 38,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA5.ps",
+      "bytes": 195909,
+      "sha256": "244ef50e7595f1f057cfd73978b8f79ab3d42e926e9d1f0e4c63d3aa97e24a8e",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 195909,
+        "sha256": "244ef50e7595f1f057cfd73978b8f79ab3d42e926e9d1f0e4c63d3aa97e24a8e",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 17,
+        "lineto_tokens": 71,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA6.ps",
+      "bytes": 165325,
+      "sha256": "3bb67273061b5e0283804073e9728c874f9f460445c8bb886d62d20e54723648",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 165325,
+        "sha256": "3bb67273061b5e0283804073e9728c874f9f460445c8bb886d62d20e54723648",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 15,
+        "lineto_tokens": 37,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA7.ps",
+      "bytes": 255592,
+      "sha256": "fe92d611ac5d0f302afc5c5d10c92394e4f97397e735ee22c4555ebc6973493a",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 255592,
+        "sha256": "fe92d611ac5d0f302afc5c5d10c92394e4f97397e735ee22c4555ebc6973493a",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 25,
+        "lineto_tokens": 80,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA8.ps",
+      "bytes": 155191,
+      "sha256": "cf060f9fc43c5732af9f8c17141078ed1c606ddd04ce75dd27ea2d3cee69356d",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 155191,
+        "sha256": "cf060f9fc43c5732af9f8c17141078ed1c606ddd04ce75dd27ea2d3cee69356d",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 21,
+        "lineto_tokens": 45,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fA9.ps",
+      "bytes": 308598,
+      "sha256": "699a1328e7b7012d8075699ce715a8f0388cc83c0b1211c77ee972453e0abdb7",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 308598,
+        "sha256": "699a1328e7b7012d8075699ce715a8f0388cc83c0b1211c77ee972453e0abdb7",
+        "image_ops": 5,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 50,
+        "lineto_tokens": 111,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg1.ps",
+      "bytes": 19655,
+      "sha256": "79483bebaa9aede69f36287f7899c31c53ed8002aeb55f15192d933ae29e019a",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 19655,
+        "sha256": "79483bebaa9aede69f36287f7899c31c53ed8002aeb55f15192d933ae29e019a",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 6,
+        "lineto_tokens": 5,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg2.ps",
+      "bytes": 15929,
+      "sha256": "1f0667657580049632d71b75f97c68d48322a135d7b96b4ec5febc99a97664f7",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 15929,
+        "sha256": "1f0667657580049632d71b75f97c68d48322a135d7b96b4ec5febc99a97664f7",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 6,
+        "lineto_tokens": 5,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg3.ps",
+      "bytes": 17451,
+      "sha256": "d34ae4d058365044566732603ea221b65d2e20ca78129cb263395566b61f6a0a",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 17451,
+        "sha256": "d34ae4d058365044566732603ea221b65d2e20ca78129cb263395566b61f6a0a",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 6,
+        "lineto_tokens": 5,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg4.ps",
+      "bytes": 20997,
+      "sha256": "d28f1d59a1a60465899e62e7c72faa20fd2dd8914b23c8a2a7e2df283fe69783",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 20997,
+        "sha256": "d28f1d59a1a60465899e62e7c72faa20fd2dd8914b23c8a2a7e2df283fe69783",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 6,
+        "lineto_tokens": 5,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg5.ps",
+      "bytes": 27302,
+      "sha256": "528fdfef93ba0b111da304df970b1cceb270c5f3207fa24baf0672c0e4f670df",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 27302,
+        "sha256": "528fdfef93ba0b111da304df970b1cceb270c5f3207fa24baf0672c0e4f670df",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 6,
+        "lineto_tokens": 5,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg6.ps",
+      "bytes": 7689,
+      "sha256": "63350fa5f1eb1c93ddc393d6bd7f838fd16ad607b2c8bbcc72fe3d02136aae3c",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 7689,
+        "sha256": "63350fa5f1eb1c93ddc393d6bd7f838fd16ad607b2c8bbcc72fe3d02136aae3c",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 31,
+        "lineto_tokens": 7,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg7.ps",
+      "bytes": 12401,
+      "sha256": "eafcc80f0182b7f6336cfe28e99a44ba3d65ad946e604adeb5fe2ba93784dd60",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 12401,
+        "sha256": "eafcc80f0182b7f6336cfe28e99a44ba3d65ad946e604adeb5fe2ba93784dd60",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 30,
+        "lineto_tokens": 5,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "11136fg8.ps",
+      "bytes": 66966,
+      "sha256": "3bd25fefa2e9fd631ab6a057fb4e31411e0678d8623a1bee20e54b397b3322a1",
+      "ext": ".ps",
+      "ps_audit": {
+        "bytes": 66966,
+        "sha256": "3bd25fefa2e9fd631ab6a057fb4e31411e0678d8623a1bee20e54b397b3322a1",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_tokens": 1159,
+        "lineto_tokens": 11,
+        "curveto_tokens": 0,
+        "showpage_tokens": 1
+      }
+    },
+    {
+      "name": "aa.bst",
+      "bytes": 30940,
+      "sha256": "41e5a30316dc52573de6839f105a04be71c6c92550aff52914bbfbd341be2d1c",
+      "ext": ".bst"
+    },
+    {
+      "name": "aa.cls",
+      "bytes": 58126,
+      "sha256": "7182533b9f8826450c15786eabd3e82cf56d91069b031957b6749c2ec0a70a64",
+      "ext": ".cls"
+    },
+    {
+      "name": "morefloats.sty",
+      "bytes": 1883,
+      "sha256": "dd82023505f98eadea292d16e84fc5543839e4ebcdb91c314380bd9adfc59b91",
+      "ext": ".sty"
+    }
+  ],
+  "per_target": {
+    "D564-8": {
+      "text_contexts": [
+        {
+          "asset": "11136.tex",
+          "hits": [
+            {
+              "line": 207,
+              "context": "204:   D500-2  & 01-05-2002 & 12h & 25.0 & 10.6 & 0.0 & 1.0 & 5 & 4.12 \\\\\n205:   D500-3  & 03-05-2002 & 12h & 33.0 & 12.3 & 0.0 & 0.6 & 5 & 4.12  \\\\\n206:   D512-2  & 16-05-2004 & 12h & 28.9 & 13.4 & 0.6 & 0.9 & 4 & 2.10 \\\\\n207:   D564-8  & 08-05-2002 & 12h & 36.4 & 12.8 & 0.0 & 0.6 & 5 & 4.12\\\\\n208:   D572-5  & 10-05-2004 & 12h & 86.6 & 24.0 & $-$0.2 & 1.2 & 4 & 2.10 \\\\\n209:   D575-1\\footnote{The data for D575-1 are combined from two individual observations} & 07-05-2004 & 12h & 48.2 & 18.4 & 0.2 & 0.9 & 4 & 2.10 \\\\\n210:   \\nodata   & 12-05-2004 & 12h &\\nodata & \\nodata&\\nodata &\\nodata & \\nodata& \\nodata&\\\\\n211:   D575-2\\footnote{The data for D575-2 are combined from three individual observations} & 09-05-2004 & 12h & 45.6 & 14.0 & $-$3.5 & 0.6 & 4 & 2.10\\\\\n212:   \\nodata& 13-05-2004 & 10h &\\nodata &\\nodata &\\nodata &\\nodata &\\nodata &\\nodata &\\\\"
+            },
+            {
+              "line": 443,
+              "context": "440: D500-2$^*$ & 10 31 43.0 & +25 18 33 & 1259 & 17.9~ & $-$16.38 & 0.42 & 87.08 & 135 & 120 & 119 & 105 & 57 $\\pm$ 6 & 345 & 68 & 68\\\\ \n441: D500-3  & 10 05 59.5 & +23 52 04 & 1327 & 18.5~ & $-$15.74 & 0.31 & 6.58 & 96 & 83 & 84 & 72 & 55\\footnote{optical \\emph{I}-band inclination from \\cite{pildis-1997}} $\\pm$ 6 & \\nodata & \\nodata & 45\\\\ \n442: D512-2 & 14 33 20.2 & +26 59 54 & 840  & 14.1~ & $-$15.22 & 0.80 & 6.96 & 88 & 74 & 78 & 65 & 56 $\\pm$ 10 & 40 & 35 & 37\\\\ \n443: D564-8$^*$ & 09 02 54.0 & +20 04 28 & 478  & 6.5~ & $-$12.64 & 0.93 & 1.58 & 62 & 48 & 54 & 42 & 63 $\\pm$ 7 & 13 & 25 & 29\\\\ \n444: D575-2$^*$ & 12 52 21.9 & +21 37 46 & 774  & 12.2~ & $-$15.15 & 0.78 & 31.51 & 146 & 119 & 129 & 104 & 57 $\\pm$ 5 & 220 & 74 & \\nodata\\\\ \n445: D631-7$^*$ & 07 57 01.8 & +14 23 27 & 311  & 5.5\\footnote{distance as given in \\cite{karachentsev-2003}} & $-$14.50 & 0.55 & 14.68 & 113 & 89 & 100 & 78 & 59 $\\pm$ 3 & 324 & 58 & 53\\\\ \n446: \\bottomrule\n447: \\end{tabular}\n448: \\end{minipage} {\\sc Notes:} Cols. (1) to (12) as in"
+            },
+            {
+              "line": 603,
+              "context": "600:          \\label{fig:btf:d512-2-rc}\n601:    \\end{figure}\n602: \n603: \\subsection[D564-8]{D564-8 (Data presented in\n604:  Figs.~\\ref{fig:btf:d564-8-rc}, \\ref{fig:btf:d564-8}, and\n605:  \\ref{fig:btf:d564-8-chan})}\n606: For the dwarf irregular D564-8 (also known as F564-V3, see\n607: \\citealt{deblok-1996b}), we assume a distance of $6.5 \\pm 2.6$ Mpc.\n608: The global \\HI\\ profile of D564-8 is asymmetric with its peak flux"
+            },
+            {
+              "line": 604,
+              "context": "601:    \\end{figure}\n602: \n603: \\subsection[D564-8]{D564-8 (Data presented in\n604:  Figs.~\\ref{fig:btf:d564-8-rc}, \\ref{fig:btf:d564-8}, and\n605:  \\ref{fig:btf:d564-8-chan})}\n606: For the dwarf irregular D564-8 (also known as F564-V3, see\n607: \\citealt{deblok-1996b}), we assume a distance of $6.5 \\pm 2.6$ Mpc.\n608: The global \\HI\\ profile of D564-8 is asymmetric with its peak flux\n609: density towards the receding side of the galaxy. The asymmetry of the"
+            },
+            {
+              "line": 605,
+              "context": "602: \n603: \\subsection[D564-8]{D564-8 (Data presented in\n604:  Figs.~\\ref{fig:btf:d564-8-rc}, \\ref{fig:btf:d564-8}, and\n605:  \\ref{fig:btf:d564-8-chan})}\n606: For the dwarf irregular D564-8 (also known as F564-V3, see\n607: \\citealt{deblok-1996b}), we assume a distance of $6.5 \\pm 2.6$ Mpc.\n608: The global \\HI\\ profile of D564-8 is asymmetric with its peak flux\n609: density towards the receding side of the galaxy. The asymmetry of the\n610: global \\HI\\ profile can be traced also in the \\emph{pV}-diagram.  The"
+            },
+            {
+              "line": 606,
+              "context": "603: \\subsection[D564-8]{D564-8 (Data presented in\n604:  Figs.~\\ref{fig:btf:d564-8-rc}, \\ref{fig:btf:d564-8}, and\n605:  \\ref{fig:btf:d564-8-chan})}\n606: For the dwarf irregular D564-8 (also known as F564-V3, see\n607: \\citealt{deblok-1996b}), we assume a distance of $6.5 \\pm 2.6$ Mpc.\n608: The global \\HI\\ profile of D564-8 is asymmetric with its peak flux\n609: density towards the receding side of the galaxy. The asymmetry of the\n610: global \\HI\\ profile can be traced also in the \\emph{pV}-diagram.  The\n611: maximum rotation velocity, obtained from the \\emph{pV}-diagram is"
+            },
+            {
+              "line": 608,
+              "context": "605:  \\ref{fig:btf:d564-8-chan})}\n606: For the dwarf irregular D564-8 (also known as F564-V3, see\n607: \\citealt{deblok-1996b}), we assume a distance of $6.5 \\pm 2.6$ Mpc.\n608: The global \\HI\\ profile of D564-8 is asymmetric with its peak flux\n609: density towards the receding side of the galaxy. The asymmetry of the\n610: global \\HI\\ profile can be traced also in the \\emph{pV}-diagram.  The\n611: maximum rotation velocity, obtained from the \\emph{pV}-diagram is\n612: $\\vpv \\sim29\\kms$.  We use ellipse fitting to the zeroth moment map to\n613: derive initial estimates for our tilted-ring fits.  We set the width"
+            },
+            {
+              "line": 629,
+              "context": "626: \\citealt{pildis-1997}). However, an inclination of 50\\degr, or even\n627: 35\\degr\\ can be ruled out by our kinematic data. Keeping all\n628: parameters except the rotation velocity fixed to their best estimates,\n629: we derive the rotation curve of D564-8. The maximum rotation velocity\n630: is $\\vvf\\sim 25\\kms$ (see Fig.~\\ref{fig:btf:d564-8-rc}).\n631: \n632: \n633: \\begin{figure}[h!]\n634:    \\centering"
+            },
+            {
+              "line": 630,
+              "context": "627: 35\\degr\\ can be ruled out by our kinematic data. Keeping all\n628: parameters except the rotation velocity fixed to their best estimates,\n629: we derive the rotation curve of D564-8. The maximum rotation velocity\n630: is $\\vvf\\sim 25\\kms$ (see Fig.~\\ref{fig:btf:d564-8-rc}).\n631: \n632: \n633: \\begin{figure}[h!]\n634:    \\centering\n635:    \\includegraphics[width=8cm, bb=97 355 340 565,"
+            },
+            {
+              "line": 637,
+              "context": "634:    \\centering\n635:    \\includegraphics[width=8cm, bb=97 355 340 565,\n636:    clip=]{11136fg3.ps}\n637:    \\caption[Tilted-ring analysis of D564-8]{Tilted-ring analysis of\n638:      D564-8. The layout is identical to that of\n639:      Fig.~\\ref{fig:btf:d500-2-rc}.  }\n640:    \\label{fig:btf:d564-8-rc}\n641:    \\end{figure}\n642: "
+            },
+            {
+              "line": 638,
+              "context": "635:    \\includegraphics[width=8cm, bb=97 355 340 565,\n636:    clip=]{11136fg3.ps}\n637:    \\caption[Tilted-ring analysis of D564-8]{Tilted-ring analysis of\n638:      D564-8. The layout is identical to that of\n639:      Fig.~\\ref{fig:btf:d500-2-rc}.  }\n640:    \\label{fig:btf:d564-8-rc}\n641:    \\end{figure}\n642: \n643: \\subsection{D565-5}"
+            },
+            {
+              "line": 640,
+              "context": "637:    \\caption[Tilted-ring analysis of D564-8]{Tilted-ring analysis of\n638:      D564-8. The layout is identical to that of\n639:      Fig.~\\ref{fig:btf:d500-2-rc}.  }\n640:    \\label{fig:btf:d564-8-rc}\n641:    \\end{figure}\n642: \n643: \\subsection{D565-5}\n644: The WSRT observations of D565-5 do not detect any emission at the\n645: reported position and redshift.  We do, however, see strong emission"
+            },
+            {
+              "line": 883,
+              "context": "880: D500-2 & 0.35 & 0.12 & 0.24 $\\pm$ 0.12 &  12.19\t& 0.73\t& 0.26\t& 12.69\\\\\n881: D500-3 & 0.26 & 0.09 & 0.18 $\\pm$ 0.09 &  0.92\t& 0.28\t& 0.09\t& 1.11\\\\\n882: D512-2 & 0.90 & 0.37 & 0.64 $\\pm$ 0.27 &  0.98\t& 0.93\t& 0.38\t& 1.63\\\\\n883: D564-8 & 1.24 & 0.54 & 0.89 $\\pm$ 0.35 &  0.22\t& 0.14\t& 0.06\t& 0.32\\\\\n884: D572-5 & 0.44 & 0.16 & 0.30 $\\pm$ 0.14 &  1.20\t& 0.19\t& 0.07\t& 1.33\\\\\n885: D575-1 & 0.70 & 0.28 & 0.49 $\\pm$ 0.21 &  0.53\t& 0.26\t& 0.10\t& 0.71\\\\\n886: D575-2 & 1.07 & 0.45 & 0.76 $\\pm$ 0.31 &  4.41\t& 1.02\t& 0.43\t& 5.13\\\\\n887: D575-5 & 0.36 & 0.13 & 0.25 $\\pm$ 0.12 &  0.60\t& 0.04\t& 0.02\t& 0.63\\\\\n888: D631-7 & 0.48 & 0.18 & 0.33 $\\pm$ 0.15 &  2.05\t& 0.20\t& 0.08\t& 2.19\\\\"
+            },
+            {
+              "line": 1336,
+              "context": "1333: \\begin{figure*}\n1334:    \\centering\n1335:    \\includegraphics[width=16cm, bb=43 420 560 755, clip=]{11136fA4.ps}\n1336:    \\caption[Summary panel for D564-8]{Summary panel for D564-8. A\n1337:      general description of the panels and levels is given at the\n1338:      beginning of the Appendix. The $3\\sigma$ contour in the\n1339:      zeroth moment map corresponds to a flux of 4.99 mJy,\n1340:      which translates to a column density limit of\n1341:      $n_{HI}=4.9\\cdot10^{19}\\ \\mathrm{cm}^{-2}$.  }"
+            },
+            {
+              "line": 1342,
+              "context": "1339:      zeroth moment map corresponds to a flux of 4.99 mJy,\n1340:      which translates to a column density limit of\n1341:      $n_{HI}=4.9\\cdot10^{19}\\ \\mathrm{cm}^{-2}$.  }\n1342:          \\label{fig:btf:d564-8}\n1343:    \\end{figure*}\n1344: \n1345: \\begin{figure*}\n1346:    \\centering\n1347:    \\includegraphics[width=16cm, bb=43 420 560 755, clip=]{11136fA5.ps}"
+            },
+            {
+              "line": 1467,
+              "context": "1464: \\begin{figure*}\n1465:    \\centering\n1466:    \\includegraphics[width=16cm, bb=59 165 500 690,clip=]{11136A15.ps}\n1467:    \\caption[Channel maps of D564-8]{Channel maps of D564-8. Grayscales\n1468:      run from -0.02 to 7 mJy. Every channel is shown.}\n1469:          \\label{fig:btf:d564-8-chan}\n1470:    \\end{figure*}\n1471: \n1472: \\begin{figure*}"
+            },
+            {
+              "line": 1469,
+              "context": "1466:    \\includegraphics[width=16cm, bb=59 165 500 690,clip=]{11136A15.ps}\n1467:    \\caption[Channel maps of D564-8]{Channel maps of D564-8. Grayscales\n1468:      run from -0.02 to 7 mJy. Every channel is shown.}\n1469:          \\label{fig:btf:d564-8-chan}\n1470:    \\end{figure*}\n1471: \n1472: \\begin{figure*}\n1473:    \\centering\n1474:    \\includegraphics[width=16cm, bb=59 165 500 690,clip=]{11136A16.ps}"
+            }
+          ],
+          "profile_language": [
+            "column density",
+            "radial distribution",
+            "azimuthal",
+            "rings"
+          ]
+        }
+      ],
+      "numeric_tabular_profile_candidates": [],
+      "target_relevant_graphics": [
+        {
+          "name": "11136A14.ps",
+          "audit": {
+            "bytes": 340696,
+            "sha256": "5b1998e3955eda642ed426af5ff18135717a7c45166cdbb0c79cc5bf494ce07b",
+            "image_ops": 20,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 160,
+            "lineto_tokens": 221,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136A15.ps",
+          "audit": {
+            "bytes": 341279,
+            "sha256": "b997af4ac68e4dd2a7db7b8272e966bd2eb718a2ae2c5a73f103738447088125",
+            "image_ops": 20,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 187,
+            "lineto_tokens": 251,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136A16.ps",
+          "audit": {
+            "bytes": 335305,
+            "sha256": "2051e7d7279527f5abd51b3bea3229944c2ab32c0a5e5416c7a0e37240061a8a",
+            "image_ops": 20,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 156,
+            "lineto_tokens": 269,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136fA4.ps",
+          "audit": {
+            "bytes": 151360,
+            "sha256": "ebbe4d7e950c62ecad285e3b068fb1f9e439e30ffd1b4637c403a7cb45abab39",
+            "image_ops": 5,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 14,
+            "lineto_tokens": 38,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136fA5.ps",
+          "audit": {
+            "bytes": 195909,
+            "sha256": "244ef50e7595f1f057cfd73978b8f79ab3d42e926e9d1f0e4c63d3aa97e24a8e",
+            "image_ops": 5,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 17,
+            "lineto_tokens": 71,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        }
+      ]
+    },
+    "D631-7": {
+      "text_contexts": [
+        {
+          "asset": "11136.tex",
+          "hits": [
+            {
+              "line": 215,
+              "context": "212:   \\nodata& 13-05-2004 & 10h &\\nodata &\\nodata &\\nodata &\\nodata &\\nodata &\\nodata &\\\\\n213:   \\nodata& 17-10-2004 & ~7h & \\nodata&\\nodata &\\nodata &\\nodata &\\nodata &\\nodata &\\\\\n214:   D575-5  & 05-05-2004 & 12h & 37.5 & 11.3 &$-$0.1 & 1.1 & 4 & 2.10 \\\\\n215:   D631-7  & 04-11-2004 & 12h & 57.7 & 12.0 & 0.2 & 1.1 & 4 & 2.10 \\\\\n216:   D640-13 & 10-11-2004 & 12h & 70.8 & 11.5 & $-$0.1 & 1.1 & 4 & 2.10 \\\\\n217:   D646-7  & 11-05-2004 & 12h & 133.8 & 20.6 & 0.6 & 1.4 & 4 & 2.10 \\\\\n218:   \\bottomrule\n219: \\end{tabular}\n220: \\end{minipage} "
+            },
+            {
+              "line": 445,
+              "context": "442: D512-2 & 14 33 20.2 & +26 59 54 & 840  & 14.1~ & $-$15.22 & 0.80 & 6.96 & 88 & 74 & 78 & 65 & 56 $\\pm$ 10 & 40 & 35 & 37\\\\ \n443: D564-8$^*$ & 09 02 54.0 & +20 04 28 & 478  & 6.5~ & $-$12.64 & 0.93 & 1.58 & 62 & 48 & 54 & 42 & 63 $\\pm$ 7 & 13 & 25 & 29\\\\ \n444: D575-2$^*$ & 12 52 21.9 & +21 37 46 & 774  & 12.2~ & $-$15.15 & 0.78 & 31.51 & 146 & 119 & 129 & 104 & 57 $\\pm$ 5 & 220 & 74 & \\nodata\\\\ \n445: D631-7$^*$ & 07 57 01.8 & +14 23 27 & 311  & 5.5\\footnote{distance as given in \\cite{karachentsev-2003}} & $-$14.50 & 0.55 & 14.68 & 113 & 89 & 100 & 78 & 59 $\\pm$ 3 & 324 & 58 & 53\\\\ \n446: \\bottomrule\n447: \\end{tabular}\n448: \\end{minipage} {\\sc Notes:} Cols. (1) to (12) as in\n449: Table~\\ref{table:btf:derived-params}, except that for\n450: the starred galaxies, the center position and $V_{\\mathrm{sys}}$ were"
+            },
+            {
+              "line": 737,
+              "context": "734: small velocity range indicates that even this \\HI\\ value is likely to be an\n735: overestimate of the true inclination.\n736: \n737: \\subsection[D631-7]{D631-7 (Data presented in Figs.~\\ref{fig:btf:d631-7-rc}, \\ref{fig:btf:d631-7},  and \\ref{fig:btf:d631-7-chan})}\n738: D631-7 is also known as UGC 4115 and is classified as a dwarf\n739: irregular. \\cite{karachentsev-2003} estimate its distance to be $5.5 \\pm 0.6$\n740: Mpc using the luminosity of the tip of the red giant branch.  The\n741: global \\HI\\ profile of D631-7 is single-peaked. Its velocity field is\n742: well-resolved and shows clear signs of rotation.  The major axis"
+            },
+            {
+              "line": 738,
+              "context": "735: overestimate of the true inclination.\n736: \n737: \\subsection[D631-7]{D631-7 (Data presented in Figs.~\\ref{fig:btf:d631-7-rc}, \\ref{fig:btf:d631-7},  and \\ref{fig:btf:d631-7-chan})}\n738: D631-7 is also known as UGC 4115 and is classified as a dwarf\n739: irregular. \\cite{karachentsev-2003} estimate its distance to be $5.5 \\pm 0.6$\n740: Mpc using the luminosity of the tip of the red giant branch.  The\n741: global \\HI\\ profile of D631-7 is single-peaked. Its velocity field is\n742: well-resolved and shows clear signs of rotation.  The major axis\n743: \\emph{pV}-diagram shows indications of a flat rotation curve in the"
+            },
+            {
+              "line": 741,
+              "context": "738: D631-7 is also known as UGC 4115 and is classified as a dwarf\n739: irregular. \\cite{karachentsev-2003} estimate its distance to be $5.5 \\pm 0.6$\n740: Mpc using the luminosity of the tip of the red giant branch.  The\n741: global \\HI\\ profile of D631-7 is single-peaked. Its velocity field is\n742: well-resolved and shows clear signs of rotation.  The major axis\n743: \\emph{pV}-diagram shows indications of a flat rotation curve in the\n744: outer parts of the galaxy.  Ellipse fitting yields an inclination of\n745: the \\HI\\ disk $\\ihi \\sim 57\\degr$. The ellipse fit results are used as initial\n746: estimates for the tilted ring analysis.  The width of the rings is set"
+            },
+            {
+              "line": 752,
+              "context": "749: center of the \\50 profile. The dynamical center is fitted in the\n750: second run with \\rotcur. The resulting center position is given in\n751: Table~\\ref{table:btf:rotcur-params}, and agrees to within 1\\arcsec\\\n752: with the optical center as given by NED. The PA of D631-7 is obtained\n753: in a subsequent fit with \\rotcur\\ and shows a gradual increase from\n754: $\\sim$\\,318$\\degr$ in the inner parts to $\\sim$\\,330$\\degr$ in the\n755: outer parts. Fixing the PA to these values, we derive the kinematic\n756: inclination of D631-7 to be $\\ikin\\sim 59\\degr \\pm 3\\degr$ by\n757: averaging the individual tilted-ring values for $50\\arcsec \\le r \\le"
+            },
+            {
+              "line": 756,
+              "context": "753: in a subsequent fit with \\rotcur\\ and shows a gradual increase from\n754: $\\sim$\\,318$\\degr$ in the inner parts to $\\sim$\\,330$\\degr$ in the\n755: outer parts. Fixing the PA to these values, we derive the kinematic\n756: inclination of D631-7 to be $\\ikin\\sim 59\\degr \\pm 3\\degr$ by\n757: averaging the individual tilted-ring values for $50\\arcsec \\le r \\le\n758: 150\\arcsec$. This is in good agreement with the inclination of the\n759: \\HI\\ disk ($\\ihi \\sim 57\\degr$), but more face-on than the optical\n760: inclination \\citep[$\\iopt \\sim 66\\degr$, derived\n761: by][]{pildis-1997}. Keeping all parameters except \\VROT\\ fixed, we"
+            },
+            {
+              "line": 762,
+              "context": "759: \\HI\\ disk ($\\ihi \\sim 57\\degr$), but more face-on than the optical\n760: inclination \\citep[$\\iopt \\sim 66\\degr$, derived\n761: by][]{pildis-1997}. Keeping all parameters except \\VROT\\ fixed, we\n762: determine the rotation curve of D631-7 (see\n763: Fig.~\\ref{fig:btf:d631-7-rc}). It shows the typical solid-body\n764: rotation in the inner parts, but reaches a flat part at $\\vvf \\sim\n765: 58\\kms$. Assuming the kinematical inclination we derive $\\vpv \\sim\n766: 53\\kms$ from the $pV$ diagram.\n767: "
+            },
+            {
+              "line": 763,
+              "context": "760: inclination \\citep[$\\iopt \\sim 66\\degr$, derived\n761: by][]{pildis-1997}. Keeping all parameters except \\VROT\\ fixed, we\n762: determine the rotation curve of D631-7 (see\n763: Fig.~\\ref{fig:btf:d631-7-rc}). It shows the typical solid-body\n764: rotation in the inner parts, but reaches a flat part at $\\vvf \\sim\n765: 58\\kms$. Assuming the kinematical inclination we derive $\\vpv \\sim\n766: 53\\kms$ from the $pV$ diagram.\n767: \n768: \\begin{figure}[h!]"
+            },
+            {
+              "line": 771,
+              "context": "768: \\begin{figure}[h!]\n769:    \\centering\n770:    \\includegraphics[width=8cm, bb=97 355 340 565, clip=]{11136fg5.ps}\n771:    \\caption[Tilted-ring analysis of D631-7]{Tilted-ring analysis of\n772:      D631-7. The layout is identical to that of\n773:      Fig.~\\ref{fig:btf:d500-2-rc}.  }\n774:          \\label{fig:btf:d631-7-rc}\n775:    \\end{figure}\n776: "
+            },
+            {
+              "line": 772,
+              "context": "769:    \\centering\n770:    \\includegraphics[width=8cm, bb=97 355 340 565, clip=]{11136fg5.ps}\n771:    \\caption[Tilted-ring analysis of D631-7]{Tilted-ring analysis of\n772:      D631-7. The layout is identical to that of\n773:      Fig.~\\ref{fig:btf:d500-2-rc}.  }\n774:          \\label{fig:btf:d631-7-rc}\n775:    \\end{figure}\n776: \n777: \\subsection[D640-13]{D640-13 (Data presented in Fig.~\\ref{fig:btf:d640-13})}"
+            },
+            {
+              "line": 774,
+              "context": "771:    \\caption[Tilted-ring analysis of D631-7]{Tilted-ring analysis of\n772:      D631-7. The layout is identical to that of\n773:      Fig.~\\ref{fig:btf:d500-2-rc}.  }\n774:          \\label{fig:btf:d631-7-rc}\n775:    \\end{figure}\n776: \n777: \\subsection[D640-13]{D640-13 (Data presented in Fig.~\\ref{fig:btf:d640-13})}\n778: D640-13 is an Im/Sm type galaxy with an adopted distance of $13.4 \\pm 3.4$ Mpc.\n779: Its global \\HI\\ profile has a Gaussian shape. Comparing the size and"
+            },
+            {
+              "line": 837,
+              "context": "834:      $(V-I)$ color for two different population synthesis models. The\n835:      circles are based on the models from \\cite{bell-2001} with a\n836:      scaled Salpeter IMF, the triangles are based on the\n837:      \\cite{portinari-2004} models with a Kroupa IMF. Note that D631-7\n838:      and D640-13 have the same color: for clarity reasons we only plot\n839:      one point.} \\label{fig:btf:comparison-ML-popsynth}\n840: \\end{figure}\n841: \n842: \\begin{figure}[]"
+            },
+            {
+              "line": 888,
+              "context": "885: D575-1 & 0.70 & 0.28 & 0.49 $\\pm$ 0.21 &  0.53\t& 0.26\t& 0.10\t& 0.71\\\\\n886: D575-2 & 1.07 & 0.45 & 0.76 $\\pm$ 0.31 &  4.41\t& 1.02\t& 0.43\t& 5.13\\\\\n887: D575-5 & 0.36 & 0.13 & 0.25 $\\pm$ 0.12 &  0.60\t& 0.04\t& 0.02\t& 0.63\\\\\n888: D631-7 & 0.48 & 0.18 & 0.33 $\\pm$ 0.15 &  2.05\t& 0.20\t& 0.08\t& 2.19\\\\\n889: D640-13 & 0.48 & 0.18 & 0.33 $\\pm$ 0.15 & 0.64\t& 0.18\t& 0.07\t& 0.76\\\\\n890: D646-7 & 0.99 & 0.41 & 0.70 $\\pm$ 0.29 &  0.05\t& 0.09\t& 0.04\t& 0.12\\\\\n891: \\bottomrule\n892: \\end{tabular}\n893: \\end{minipage}"
+            },
+            {
+              "line": 972,
+              "context": "969: where we had to use the optical inclination or that of the \\HI\\ disk.\n970: For the former category, we adopt the scatter of the inclination\n971: values of the individual tilted-ring models (see middle panels in\n972: Figs.~\\ref{fig:btf:d500-2-rc}-\\ref{fig:btf:d631-7-rc}) as the\n973: inclination uncertainty (see Col. (13) of Table\n974: \\ref{table:btf:rotcur-params}).  The average value of the\n975: uncertainties in these kinematically derived inclinations is $6\\degr$\n976: and is used as the uncertainty in the inclination angles of the\n977: remaining galaxies.  The total uncertainty of the"
+            },
+            {
+              "line": 1264,
+              "context": "1261: The Appendix contains summary panels for all galaxies of our sample\n1262: (Figs.~\\ref{fig:btf:d500-2}-\\ref{fig:btf:d646-7}) and channel maps for\n1263: the galaxies from the rotation curve sub-sample\n1264: (Figs.~\\ref{fig:btf:d500-2-chan}-\\ref{fig:btf:d631-7-chan}).\n1265: \n1266: The summary panels consist of two rows with three panels each, and\n1267: contain the following maps:\n1268: \n1269: {\\bf Top row:} \\emph{Left panel:} zeroth moment map with"
+            },
+            {
+              "line": 1404,
+              "context": "1401: \\begin{figure*}\n1402:    \\centering\n1403:    \\includegraphics[width=16cm, bb=43 420 560 755, clip=]{11136fA9.ps}\n1404:    \\caption[Summary panel for D631-7]{Summary panel for D631-7. A\n1405:      general description of the panels and levels is given at the\n1406:      beginning of the Appendix. The $3\\sigma$ contour in the\n1407:      zeroth moment map corresponds to a flux of 11.06 mJy,\n1408:      which translates to a column density limit of\n1409:      $n_{HI}=3.7\\cdot10^{19}\\ \\mathrm{cm}^{-2}$.  }"
+            },
+            {
+              "line": 1410,
+              "context": "1407:      zeroth moment map corresponds to a flux of 11.06 mJy,\n1408:      which translates to a column density limit of\n1409:      $n_{HI}=3.7\\cdot10^{19}\\ \\mathrm{cm}^{-2}$.  }\n1410:          \\label{fig:btf:d631-7}\n1411:    \\end{figure*}\n1412: \n1413: \\begin{figure*}\n1414:    \\centering\n1415:    \\includegraphics[width=16cm, bb=43 420 560 755, clip=]{11136A10.ps}"
+            },
+            {
+              "line": 1483,
+              "context": "1480: \\begin{figure*}\n1481:    \\centering\n1482:    \\includegraphics[width=16cm, bb=59 165 500 690,clip=]{11136A17.ps}\n1483:    \\caption[Channel maps of D631-7]{Channel maps of D631-7. Grayscales\n1484:      run from -0.02 to 25 mJy. Every second channel is shown.}\n1485:          \\label{fig:btf:d631-7-chan}\n1486:    \\end{figure*}\n1487: \\end{appendix}\n1488: "
+            },
+            {
+              "line": 1485,
+              "context": "1482:    \\includegraphics[width=16cm, bb=59 165 500 690,clip=]{11136A17.ps}\n1483:    \\caption[Channel maps of D631-7]{Channel maps of D631-7. Grayscales\n1484:      run from -0.02 to 25 mJy. Every second channel is shown.}\n1485:          \\label{fig:btf:d631-7-chan}\n1486:    \\end{figure*}\n1487: \\end{appendix}\n1488: \n1489: \\end{document}\n1490: "
+            }
+          ],
+          "profile_language": [
+            "column density",
+            "radial distribution",
+            "azimuthal",
+            "rings"
+          ]
+        }
+      ],
+      "numeric_tabular_profile_candidates": [],
+      "target_relevant_graphics": [
+        {
+          "name": "11136A10.ps",
+          "audit": {
+            "bytes": 140354,
+            "sha256": "1be6e90d6a41c0dde3e0afe8c5686a7d3722c486a7e55035940961904cb786b6",
+            "image_ops": 5,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 12,
+            "lineto_tokens": 36,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136A16.ps",
+          "audit": {
+            "bytes": 335305,
+            "sha256": "2051e7d7279527f5abd51b3bea3229944c2ab32c0a5e5416c7a0e37240061a8a",
+            "image_ops": 20,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 156,
+            "lineto_tokens": 269,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136A17.ps",
+          "audit": {
+            "bytes": 487616,
+            "sha256": "68e9aca2673f6838f8801d34b5755363b7ced0a35753ea17dc5bc081117299a2",
+            "image_ops": 20,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 290,
+            "lineto_tokens": 327,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136fA9.ps",
+          "audit": {
+            "bytes": 308598,
+            "sha256": "699a1328e7b7012d8075699ce715a8f0388cc83c0b1211c77ee972453e0abdb7",
+            "image_ops": 5,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 50,
+            "lineto_tokens": 111,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136fg5.ps",
+          "audit": {
+            "bytes": 27302,
+            "sha256": "528fdfef93ba0b111da304df970b1cceb270c5f3207fa24baf0672c0e4f670df",
+            "image_ops": 0,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 6,
+            "lineto_tokens": 5,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136fg6.ps",
+          "audit": {
+            "bytes": 7689,
+            "sha256": "63350fa5f1eb1c93ddc393d6bd7f838fd16ad607b2c8bbcc72fe3d02136aae3c",
+            "image_ops": 0,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 31,
+            "lineto_tokens": 7,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136fg7.ps",
+          "audit": {
+            "bytes": 12401,
+            "sha256": "eafcc80f0182b7f6336cfe28e99a44ba3d65ad946e604adeb5fe2ba93784dd60",
+            "image_ops": 0,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 30,
+            "lineto_tokens": 5,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        },
+        {
+          "name": "11136fg8.ps",
+          "audit": {
+            "bytes": 66966,
+            "sha256": "3bd25fefa2e9fd631ab6a057fb4e31411e0678d8623a1bee20e54b397b3322a1",
+            "image_ops": 0,
+            "colorimage_ops": 0,
+            "imagemask_ops": 0,
+            "moveto_tokens": 1159,
+            "lineto_tokens": 11,
+            "curveto_tokens": 0,
+            "showpage_tokens": 1
+          }
+        }
+      ]
+    }
+  },
+  "decision_fields": {
+    "any_numeric_tabular_profile_candidate": false,
+    "any_target_relevant_graphic": true
+  },
+  "external_crosscheck": "Hua et al. 2025 (A&A 703 A223; arXiv:2510.17770) independently states that D564-8 and D631-7 are among six SPARC galaxies whose HI rotation-curve references do not provide HI surface-density profiles.",
+  "boundary": "Source-package audit only. No OCR, raster digitization, moment-map/cube reconstruction, normalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
