@@ -1,0 +1,71 @@
+{
+  "status": "DB02_TABLE1_HI_SOURCE_CODES_COMPLETE",
+  "source": "de Blok & Bosma 2002 A&A 385 816; arXiv astro-ph/0201276",
+  "transport": {
+    "requested": "https://arxiv.org/e-print/astro-ph/0201276",
+    "final": "https://arxiv.org/src/astro-ph/0201276",
+    "content_type": "application/gzip",
+    "bytes": 371117
+  },
+  "target_rows": {
+    "DDO064": [
+      {
+        "line": 248,
+        "text": "U5272&  DDO64&6.1  &--14.7\\rlap{$^a$}&--  &1.2&60& 2.7& 47 &520 & 525 &97  &1.8&Feb01&(6)\\\\"
+      }
+    ],
+    "NGC0100": [],
+    "UGC01281": [
+      {
+        "line": 234,
+        "text": "U1281  & ---& 5.5  & --16.2   & 22.7 & 1.7 & 90 &  5.2 & 57  & 157 & 157   & 218 & 1.8&Jan00 &(5)\\\\"
+      }
+    ],
+    "UGC04278": [
+      {
+        "line": 246,
+        "text": "U4278&  I2233& 10.5&--17.7   &22.5&2.3&90& 7.4 & 93 &556 & 559 &173 & 1.8&Feb01&(5)\\\\"
+      }
+    ],
+    "UGC05005": [
+      {
+        "line": 240,
+        "text": "U5005  & ---&  52  & --18.6   & 22.9 & 4.4 & 41 & 27.7 & 99  & 3830 & 3844& 226 &5.4&Jan00 &(2)(4)\\\\"
+      }
+    ]
+  },
+  "reference_legend": [
+    {
+      "line": 273,
+      "text": "curve [arcsec] {\\bf (14)} Observing run {\\bf (15)} References: (1)",
+      "context": "Maximum rotation velocity [\\kms] {\\bf (10)} Systemic velocity [\\kms]\n{\\bf (11)} Systemic velocity derived from \\HI data [\\kms] {\\bf (12)}\nPosition angle slit [$^{\\circ}$] {\\bf (13)} Binning interval rotation\ncurve [arcsec] {\\bf (14)} Observing run {\\bf (15)} References: (1)\n\\citet*{Blok96} (2) \\citet*{Blok95} (3) \\citet*{Broeils} (4)\n\\citet*{Hulst} (5) \\citet*{Sw1999} (6) \\citet*{Stil}. {\\bf Notes:}\n$(a)$ $B$-band data. $(b)$: distance from \\citet*{Walter}\n"
+    },
+    {
+      "line": 274,
+      "text": "\\citet*{Blok96} (2) \\citet*{Blok95} (3) \\citet*{Broeils} (4)",
+      "context": "{\\bf (11)} Systemic velocity derived from \\HI data [\\kms] {\\bf (12)}\nPosition angle slit [$^{\\circ}$] {\\bf (13)} Binning interval rotation\ncurve [arcsec] {\\bf (14)} Observing run {\\bf (15)} References: (1)\n\\citet*{Blok96} (2) \\citet*{Blok95} (3) \\citet*{Broeils} (4)\n\\citet*{Hulst} (5) \\citet*{Sw1999} (6) \\citet*{Stil}. {\\bf Notes:}\n$(a)$ $B$-band data. $(b)$: distance from \\citet*{Walter}\n\n\\end{minipage}"
+    }
+  ],
+  "gas_component_context": [
+    {
+      "line": 408,
+      "text": "datasets, if they exist.  The \\HI data are taken from the literature,",
+      "context": "Fig.~3 presents overlays of the H$\\alpha$ data on a major axis\nposition-velocity diagram from the \\HI data. Such a presentation has\nthe advantage of immediately showing any discrepancies between the two\ndatasets, if they exist.  The \\HI data are taken from the literature,\nwith references given in Table~1. Also indicated is the \\HI rotation\ncurve as derived from the position-velocity diagram.\nThese overlays will be discussed in more detail in Sect.~4.\n\n\\begin{figure*}\n\\epsfxsize=0.5\\hsize\n\\epsfbox{blurb.ps}"
+    },
+    {
+      "line": 409,
+      "text": "with references given in Table~1. Also indicated is the \\HI rotation",
+      "context": "position-velocity diagram from the \\HI data. Such a presentation has\nthe advantage of immediately showing any discrepancies between the two\ndatasets, if they exist.  The \\HI data are taken from the literature,\nwith references given in Table~1. Also indicated is the \\HI rotation\ncurve as derived from the position-velocity diagram.\nThese overlays will be discussed in more detail in Sect.~4.\n\n\\begin{figure*}\n\\epsfxsize=0.5\\hsize\n\\epsfbox{blurb.ps}\n\\caption{Raw H$\\alpha$ velocity curves of galaxies not used in modelling."
+    },
+    {
+      "line": 806,
+      "text": "For the gas component we used the \\HI surface densities from the",
+      "context": "reasonable assumption for the range of variation expected from\nplausible stellar populations \\citep{DeJong}.\n\nFor the gas component we used the \\HI surface densities from the\nreferences given in Table 1. They were scaled by a factor of 1.4 to\ntake into account the contribution of helium and metals. Their\nrotation curve was derived assuming the gas is distributed in a thin\ndisk.  For a few nearby galaxies we had to slightly smooth the \\HI\nradial profile, mainly because small-scale structure at small radii\ncause unrealistically large fluctuations in the gas rotation curve\nand hence the potential. At large radii this small-scale structure is"
+    }
+  ],
+  "interpretation_rule": "dB02 says the gas component uses H I surface densities from Table 1 references; source codes are provenance pointers, not new dB02 H I measurements.",
+  "boundary": "Provenance only; no profile extraction, raster digitization, normalization, persistence fitting, or blind outcomes.",
+  "missing_table_rows": [
+    "NGC0100"
+  ]
+}
