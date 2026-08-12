@@ -1,0 +1,81 @@
+{
+  "status": "SW02_FULL_ATLAS_WAYBACK_RECOVERY_COMPLETE",
+  "historical_url": "http://www.robswork.net/publications/WHISPI.ps.gz",
+  "https_variant": "https://www.robswork.net/publications/WHISPI.ps.gz",
+  "availability_api": {
+    "url": "http://www.robswork.net/publications/WHISPI.ps.gz",
+    "archived_snapshots": {
+      "closest": {
+        "status": "200",
+        "available": true,
+        "url": "http://web.archive.org/web/20070824112627/http://www.robswork.net/publications/WHISPI.ps.gz",
+        "timestamp": "20070824112627"
+      }
+    }
+  },
+  "cdx_rows": [
+    {
+      "error": "HTTPError: HTTP Error 400: BAD REQUEST"
+    }
+  ],
+  "attempts": [
+    {
+      "route": "live_http",
+      "url": "http://www.robswork.net/publications/WHISPI.ps.gz",
+      "status": "error",
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "route": "live_https",
+      "url": "https://www.robswork.net/publications/WHISPI.ps.gz",
+      "status": "error",
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "route": "wayback_available",
+      "url": "http://web.archive.org/web/20070824112627/http://www.robswork.net/publications/WHISPI.ps.gz",
+      "status": "fetched",
+      "final_url": "http://web.archive.org/web/20070824112627/http://www.robswork.net/publications/WHISPI.ps.gz",
+      "content_type": "application/x-gzip",
+      "bytes": 39846817,
+      "sha256": "d92b8d94a6ce19686342213532aa79e260e8491424d2b0017e0953897f4b322b",
+      "prefix_hex": "1f8b08080edbce3c00035748495350492e707300acfd7f97",
+      "gzip_valid": true,
+      "decompressed_bytes": 148616120,
+      "decompressed_sha256": "ea05894b16b50723c397584a81fd18a2c0f7b511b552a5bef6aaad970abd51be",
+      "postscript_header": "%!PS-Adobe-2.0\n%",
+      "postscript_like": true,
+      "showpage_count": 89,
+      "image_operator_count": 1228,
+      "colorimage_operator_count": 0,
+      "imagemask_operator_count": 3,
+      "moveto_literal_count": 1821,
+      "lineto_literal_count": 4140
+    }
+  ],
+  "recovered": true,
+  "recovered_route": "wayback_available",
+  "recovered_url": "http://web.archive.org/web/20070824112627/http://www.robswork.net/publications/WHISPI.ps.gz",
+  "recovered_classification": {
+    "route": "wayback_available",
+    "url": "http://web.archive.org/web/20070824112627/http://www.robswork.net/publications/WHISPI.ps.gz",
+    "status": "fetched",
+    "final_url": "http://web.archive.org/web/20070824112627/http://www.robswork.net/publications/WHISPI.ps.gz",
+    "content_type": "application/x-gzip",
+    "bytes": 39846817,
+    "sha256": "d92b8d94a6ce19686342213532aa79e260e8491424d2b0017e0953897f4b322b",
+    "prefix_hex": "1f8b08080edbce3c00035748495350492e707300acfd7f97",
+    "gzip_valid": true,
+    "decompressed_bytes": 148616120,
+    "decompressed_sha256": "ea05894b16b50723c397584a81fd18a2c0f7b511b552a5bef6aaad970abd51be",
+    "postscript_header": "%!PS-Adobe-2.0\n%",
+    "postscript_like": true,
+    "showpage_count": 89,
+    "image_operator_count": 1228,
+    "colorimage_operator_count": 0,
+    "imagemask_operator_count": 3,
+    "moveto_literal_count": 1821,
+    "lineto_literal_count": 4140
+  },
+  "boundary": "Transport/provenance recovery only. Even a recovered atlas is not a promoted source profile until galaxy identity, bottom-left radial profile panel, axes, quantity, and curve geometry pass QC."
+}
