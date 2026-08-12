@@ -1,0 +1,26 @@
+{
+  "status": "HIX2018_NGC289_SOURCE_PACKAGE_AUDIT_COMPLETE",
+  "source": {
+    "requested_url": "https://arxiv.org/e-print/1802.04043",
+    "final_url": "https://arxiv.org/src/1802.04043",
+    "status": 200,
+    "content_type": "application/gzip",
+    "bytes": 5794602,
+    "sha256": "fc3488541be2451a0f51c16b1fde856f26bbdfcda84a89fda8de0c5222722358"
+  },
+  "n_members": 32,
+  "ngc289_contexts": [
+    {
+      "file": "hix2_main.tex",
+      "context": "5-G006. The ``smaller'' of the two galaxies is NGC\\,289. This galaxy has been studied extensively before. \\citep{Walsh1997} has classified NGC\\,289 as a low surface brightness galaxy with a high surface brightness inner disc. Latest photometry shows a central surface brightness in \\rband\\ of $\\sim17$\\magasec \\citep{Li2011}, i.\\,e. the central disc is a high surface brightness disc\\footnote{ for detailed photometric profiles see https://cgs.obs.carnegiescience.edu/CGS/object\\_html\\_pages/NGC289.html}. In addition, NGC\\,289 has been found to host an extended UV disc (XUV disc) and has star forming regions beyond the optical disc \\citep{Meurer2017}. There is a potential dwarf galaxy, PGC\\,708504, which is not detected by \\mass\\ and is not detected as a separate \\hi\\ source in our ATCA data. In particular in that respect NGC\\,289 is remarkably similar to ESO075-G006, which also has a nearby dwarf companion without an \\hi\\ detection (for a more detailed discussion see \\citealp{Lutz2017}). The \\galex\\ \\textit{NUV} image of ESO075-G006 has a much shorter exposure time than the one of NGC\\,289 (207\\,s compared to 1696\\,sec) and optical imaging is of lower quality. Hence, a XUV disc or an extend low surface brightness stellar disc can not be excluded in ESO075-G006. However, given the large \\hi\\ column densities above 1\\msunpcsq\\ well outside the visible disc of ESO075-G0"
+    },
+    {
+      "file": "hix2_main.tex",
+      "context": "e minor axis. Blue contours and grey scale background present the data cube and red contours the TiRiFiC model cube. Panel (h): a position velocity diagram along the major axis. Colour coding as in Panel (g). \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig1.pdf} \\caption{ESO111-G014} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig2.pdf} \\caption{ESO243-G002} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig3.pdf} \\caption{NGC289} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig4.pdf} \\caption{ESO245-G010} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig5.pdf} \\caption{ESO417-G018} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig6.pdf} \\caption{ESO055-G013} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig7.pdf} \\caption{ESO208-G026} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig8.pdf} \\caption{ESO378-G003} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig9.pdf} \\caption{ESO381-G005} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig11.pdf} \\caption{ESO461-G010} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Images/app-fig12.pdf} \\caption{ESO075-G006} \\end{figure*} \\begin{figure*} \\includegraphics[width=5.5in]{Ima"
+    }
+  ],
+  "graphics_references": [],
+  "candidate_assets": [],
+  "data_like_members": [],
+  "boundary": "Later direct ATCA observation rescue route only. No OCR, raster digitization, source execution, persistence fitting, or blind-outcome inspection."
+}
