@@ -1,0 +1,137 @@
+{
+  "status": "BROEILS1992_THESIS_PUBLIC_ROUTE_AUDIT_COMPLETE",
+  "source": "A.H. Broeils 1992 PhD thesis, Dark and visible matter in spiral galaxies, University of Groningen",
+  "publication_page": "https://research.rug.nl/en/publications/dark-and-visible-matter-in-spiral-galaxies/",
+  "n_priority_frozen_galaxies": 6,
+  "priority_role_counts": {
+    "calibration": 3,
+    "blind": 3
+  },
+  "priority_galaxies": [
+    "NGC0801",
+    "NGC1003",
+    "NGC2683",
+    "NGC2998",
+    "NGC5985",
+    "NGC6674"
+  ],
+  "attempts": [
+    {
+      "route": "live",
+      "url": "https://research.rug.nl/files/3332246/broeils.PDF",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "route": "live",
+      "url": "https://pure.rug.nl/ws/portalfiles/portal/3332246/broeils.PDF",
+      "status": "fetched",
+      "final_url": "https://pure.rug.nl/ws/portalfiles/portal/3332246/broeils.PDF",
+      "content_type": "application/pdf",
+      "bytes": 1953361,
+      "prefix_hex": "255044462d312e330d25e2e3cfd30a31",
+      "pdf_audit": {
+        "bytes": 1953361,
+        "sha256": "72a239d918771fd162be6b53c3080fbdb01d891067d0c202ab83da4ce183a11f",
+        "pages": 3,
+        "native_text_characters": 11139,
+        "n_total_drawings": 0,
+        "n_total_images": 3,
+        "n_targets_found": 0,
+        "targets": [
+          {
+            "galaxy": "NGC0801",
+            "n_matching_pages": 0,
+            "pages": []
+          },
+          {
+            "galaxy": "NGC1003",
+            "n_matching_pages": 0,
+            "pages": []
+          },
+          {
+            "galaxy": "NGC2683",
+            "n_matching_pages": 0,
+            "pages": []
+          },
+          {
+            "galaxy": "NGC2998",
+            "n_matching_pages": 0,
+            "pages": []
+          },
+          {
+            "galaxy": "NGC5985",
+            "n_matching_pages": 0,
+            "pages": []
+          },
+          {
+            "galaxy": "NGC6674",
+            "n_matching_pages": 0,
+            "pages": []
+          }
+        ],
+        "n_hi_surface_density_text_pages": 0,
+        "hi_surface_density_text_pages": []
+      }
+    }
+  ],
+  "wayback_diagnostics": [
+    {
+      "original": "https://research.rug.nl/files/3332246/broeils.PDF",
+      "availability": {
+        "url": "https://research.rug.nl/files/3332246/broeils.PDF",
+        "archived_snapshots": {}
+      }
+    }
+  ],
+  "pdf_recovered": true,
+  "recovered_route": "live",
+  "recovered_url": "https://pure.rug.nl/ws/portalfiles/portal/3332246/broeils.PDF",
+  "pdf_audit": {
+    "bytes": 1953361,
+    "sha256": "72a239d918771fd162be6b53c3080fbdb01d891067d0c202ab83da4ce183a11f",
+    "pages": 3,
+    "native_text_characters": 11139,
+    "n_total_drawings": 0,
+    "n_total_images": 3,
+    "n_targets_found": 0,
+    "targets": [
+      {
+        "galaxy": "NGC0801",
+        "n_matching_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC1003",
+        "n_matching_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC2683",
+        "n_matching_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC2998",
+        "n_matching_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC5985",
+        "n_matching_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC6674",
+        "n_matching_pages": 0,
+        "pages": []
+      }
+    ],
+    "n_hi_surface_density_text_pages": 0,
+    "hi_surface_density_text_pages": []
+  },
+  "route_has_target_native_text": false,
+  "route_has_hi_surface_density_native_text": false,
+  "interpretation_rule": "A recovered thesis PDF establishes a public provenance route. Native text/drawing presence is only an acquisition signal; no plotted profile is promoted without direct numerical/vector or analytic recovery and QC.",
+  "boundary": "No OCR, raster digitization, profile-value extraction, helium conversion, persistence fitting, or blind-outcome inspection."
+}
