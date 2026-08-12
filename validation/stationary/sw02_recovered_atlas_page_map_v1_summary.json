@@ -1,0 +1,824 @@
+{
+  "status": "SW02_RECOVERED_ATLAS_PAGE_MAP_AUDIT_COMPLETE",
+  "source": "Swaters et al. 2002 A&A 390 829; full WHISPI atlas recovered from Wayback",
+  "n_published_sample_rows": 73,
+  "appendix_figure_first": 13,
+  "appendix_figure_last": 85,
+  "n_appendix_figures": 73,
+  "n_dsc_chunks": 109,
+  "raw_showpage_token_count": 89,
+  "n_appendix_filenames_retained_in_monolithic_ps": 73,
+  "n_targets": 13,
+  "n_targets_mapped_to_dsc_page": 13,
+  "target_page_map": [
+    {
+      "galaxy": "DDO064",
+      "stationary_role": "calibration",
+      "ugc": 5272,
+      "sample_index_0based": 21,
+      "appendix_figure_number": 34,
+      "figure_byte_offset": 39490484,
+      "dsc_index_0based": 43,
+      "dsc_header": "1 1",
+      "page_bytes": 2059760,
+      "image_ops": 17,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 56,
+      "moveto_tokens": 23,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC00731",
+      "stationary_role": "calibration",
+      "ugc": 731,
+      "sample_index_0based": 0,
+      "appendix_figure_number": 13,
+      "figure_byte_offset": 986072,
+      "dsc_index_0based": 17,
+      "dsc_header": "18 18",
+      "page_bytes": 4076,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 5,
+      "moveto_tokens": 6,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC01281",
+      "stationary_role": "blind",
+      "ugc": 1281,
+      "sample_index_0based": 2,
+      "appendix_figure_number": 15,
+      "figure_byte_offset": 4268685,
+      "dsc_index_0based": 20,
+      "dsc_header": "19 19",
+      "page_bytes": 1142,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 5,
+      "moveto_tokens": 6,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC04278",
+      "stationary_role": "calibration",
+      "ugc": 4278,
+      "sample_index_0based": 16,
+      "appendix_figure_number": 29,
+      "figure_byte_offset": 30371544,
+      "dsc_index_0based": 37,
+      "dsc_header": "1 1",
+      "page_bytes": 1564506,
+      "image_ops": 14,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 47,
+      "moveto_tokens": 20,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC05986",
+      "stationary_role": "blind",
+      "ugc": 5986,
+      "sample_index_0based": 28,
+      "appendix_figure_number": 41,
+      "figure_byte_offset": 52468959,
+      "dsc_index_0based": 52,
+      "dsc_header": "1 1",
+      "page_bytes": 1812962,
+      "image_ops": 15,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 50,
+      "moveto_tokens": 21,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC07125",
+      "stationary_role": "calibration",
+      "ugc": 7125,
+      "sample_index_0based": 35,
+      "appendix_figure_number": 48,
+      "figure_byte_offset": 67212421,
+      "dsc_index_0based": 61,
+      "dsc_header": "1 1",
+      "page_bytes": 2557765,
+      "image_ops": 21,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 68,
+      "moveto_tokens": 27,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC07151",
+      "stationary_role": "blind",
+      "ugc": 7151,
+      "sample_index_0based": 36,
+      "appendix_figure_number": 49,
+      "figure_byte_offset": 70217001,
+      "dsc_index_0based": 62,
+      "dsc_header": "1 1",
+      "page_bytes": 3004580,
+      "image_ops": 24,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 77,
+      "moveto_tokens": 30,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC07577",
+      "stationary_role": "calibration",
+      "ugc": 7577,
+      "sample_index_0based": 47,
+      "appendix_figure_number": 60,
+      "figure_byte_offset": 99563205,
+      "dsc_index_0based": 76,
+      "dsc_header": "1 1",
+      "page_bytes": 1802924,
+      "image_ops": 15,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 50,
+      "moveto_tokens": 21,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC07603",
+      "stationary_role": "calibration",
+      "ugc": 7603,
+      "sample_index_0based": 49,
+      "appendix_figure_number": 62,
+      "figure_byte_offset": 104746357,
+      "dsc_index_0based": 78,
+      "dsc_header": "1 1",
+      "page_bytes": 3202980,
+      "image_ops": 25,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 80,
+      "moveto_tokens": 31,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC08286",
+      "stationary_role": "calibration",
+      "ugc": 8286,
+      "sample_index_0based": 57,
+      "appendix_figure_number": 70,
+      "figure_byte_offset": 120069402,
+      "dsc_index_0based": 88,
+      "dsc_header": "1 1",
+      "page_bytes": 2327543,
+      "image_ops": 19,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 62,
+      "moveto_tokens": 25,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC08550",
+      "stationary_role": "blind",
+      "ugc": 8550,
+      "sample_index_0based": 60,
+      "appendix_figure_number": 73,
+      "figure_byte_offset": 127916148,
+      "dsc_index_0based": 92,
+      "dsc_header": "1 1",
+      "page_bytes": 3199052,
+      "image_ops": 24,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 77,
+      "moveto_tokens": 30,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC08837",
+      "stationary_role": "blind",
+      "ugc": 8837,
+      "sample_index_0based": 62,
+      "appendix_figure_number": 75,
+      "figure_byte_offset": 130620977,
+      "dsc_index_0based": 95,
+      "dsc_header": "34 34",
+      "page_bytes": 1142,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 5,
+      "moveto_tokens": 6,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    },
+    {
+      "galaxy": "UGC11557",
+      "stationary_role": "blind",
+      "ugc": 11557,
+      "sample_index_0based": 67,
+      "appendix_figure_number": 80,
+      "figure_byte_offset": 137828906,
+      "dsc_index_0based": 101,
+      "dsc_header": "1 1",
+      "page_bytes": 955893,
+      "image_ops": 9,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "lineto_tokens": 32,
+      "moveto_tokens": 15,
+      "mapping_status": "mapped_by_table_order_and_embedded_figure_filename"
+    }
+  ],
+  "figure_locator_diagnostics": {
+    "13": {
+      "offsets": [
+        986072
+      ],
+      "dsc_indices": [
+        17
+      ]
+    },
+    "14": {
+      "offsets": [
+        2771305
+      ],
+      "dsc_indices": [
+        18
+      ]
+    },
+    "15": {
+      "offsets": [
+        4268685
+      ],
+      "dsc_indices": [
+        20
+      ]
+    },
+    "16": {
+      "offsets": [
+        6159420
+      ],
+      "dsc_indices": [
+        21
+      ]
+    },
+    "17": {
+      "offsets": [
+        7717813
+      ],
+      "dsc_indices": [
+        22
+      ]
+    },
+    "18": {
+      "offsets": [
+        9949424
+      ],
+      "dsc_indices": [
+        23
+      ]
+    },
+    "19": {
+      "offsets": [
+        10975198
+      ],
+      "dsc_indices": [
+        25
+      ]
+    },
+    "20": {
+      "offsets": [
+        13336763
+      ],
+      "dsc_indices": [
+        26
+      ]
+    },
+    "21": {
+      "offsets": [
+        15756101
+      ],
+      "dsc_indices": [
+        27
+      ]
+    },
+    "22": {
+      "offsets": [
+        17734692
+      ],
+      "dsc_indices": [
+        28
+      ]
+    },
+    "23": {
+      "offsets": [
+        18744945
+      ],
+      "dsc_indices": [
+        30
+      ]
+    },
+    "24": {
+      "offsets": [
+        21138051
+      ],
+      "dsc_indices": [
+        31
+      ]
+    },
+    "25": {
+      "offsets": [
+        22693787
+      ],
+      "dsc_indices": [
+        32
+      ]
+    },
+    "26": {
+      "offsets": [
+        25149529
+      ],
+      "dsc_indices": [
+        33
+      ]
+    },
+    "27": {
+      "offsets": [
+        27336610
+      ],
+      "dsc_indices": [
+        35
+      ]
+    },
+    "28": {
+      "offsets": [
+        28807038
+      ],
+      "dsc_indices": [
+        36
+      ]
+    },
+    "29": {
+      "offsets": [
+        30371544
+      ],
+      "dsc_indices": [
+        37
+      ]
+    },
+    "30": {
+      "offsets": [
+        32644222
+      ],
+      "dsc_indices": [
+        38
+      ]
+    },
+    "31": {
+      "offsets": [
+        35142210
+      ],
+      "dsc_indices": [
+        40
+      ]
+    },
+    "32": {
+      "offsets": [
+        36175027
+      ],
+      "dsc_indices": [
+        41
+      ]
+    },
+    "33": {
+      "offsets": [
+        37430724
+      ],
+      "dsc_indices": [
+        42
+      ]
+    },
+    "34": {
+      "offsets": [
+        39490484
+      ],
+      "dsc_indices": [
+        43
+      ]
+    },
+    "35": {
+      "offsets": [
+        40663034
+      ],
+      "dsc_indices": [
+        45
+      ]
+    },
+    "36": {
+      "offsets": [
+        42135460
+      ],
+      "dsc_indices": [
+        46
+      ]
+    },
+    "37": {
+      "offsets": [
+        45227992
+      ],
+      "dsc_indices": [
+        47
+      ]
+    },
+    "38": {
+      "offsets": [
+        47287850
+      ],
+      "dsc_indices": [
+        48
+      ]
+    },
+    "39": {
+      "offsets": [
+        49072049
+      ],
+      "dsc_indices": [
+        50
+      ]
+    },
+    "40": {
+      "offsets": [
+        50655997
+      ],
+      "dsc_indices": [
+        51
+      ]
+    },
+    "41": {
+      "offsets": [
+        52468959
+      ],
+      "dsc_indices": [
+        52
+      ]
+    },
+    "42": {
+      "offsets": [
+        55655873
+      ],
+      "dsc_indices": [
+        53
+      ]
+    },
+    "43": {
+      "offsets": [
+        57883747
+      ],
+      "dsc_indices": [
+        55
+      ]
+    },
+    "44": {
+      "offsets": [
+        59370909
+      ],
+      "dsc_indices": [
+        56
+      ]
+    },
+    "45": {
+      "offsets": [
+        61695106
+      ],
+      "dsc_indices": [
+        57
+      ]
+    },
+    "46": {
+      "offsets": [
+        62886092
+      ],
+      "dsc_indices": [
+        58
+      ]
+    },
+    "47": {
+      "offsets": [
+        64654656
+      ],
+      "dsc_indices": [
+        60
+      ]
+    },
+    "48": {
+      "offsets": [
+        67212421
+      ],
+      "dsc_indices": [
+        61
+      ]
+    },
+    "49": {
+      "offsets": [
+        70217001
+      ],
+      "dsc_indices": [
+        62
+      ]
+    },
+    "50": {
+      "offsets": [
+        72686743
+      ],
+      "dsc_indices": [
+        63
+      ]
+    },
+    "51": {
+      "offsets": [
+        73704035
+      ],
+      "dsc_indices": [
+        65
+      ]
+    },
+    "52": {
+      "offsets": [
+        75281767
+      ],
+      "dsc_indices": [
+        66
+      ]
+    },
+    "53": {
+      "offsets": [
+        77535445
+      ],
+      "dsc_indices": [
+        67
+      ]
+    },
+    "54": {
+      "offsets": [
+        81874748
+      ],
+      "dsc_indices": [
+        68
+      ]
+    },
+    "55": {
+      "offsets": [
+        84287448
+      ],
+      "dsc_indices": [
+        70
+      ]
+    },
+    "56": {
+      "offsets": [
+        87292476
+      ],
+      "dsc_indices": [
+        71
+      ]
+    },
+    "57": {
+      "offsets": [
+        88453173
+      ],
+      "dsc_indices": [
+        72
+      ]
+    },
+    "58": {
+      "offsets": [
+        90510408
+      ],
+      "dsc_indices": [
+        73
+      ]
+    },
+    "59": {
+      "offsets": [
+        97760281
+      ],
+      "dsc_indices": [
+        75
+      ]
+    },
+    "60": {
+      "offsets": [
+        99563205
+      ],
+      "dsc_indices": [
+        76
+      ]
+    },
+    "61": {
+      "offsets": [
+        101543377
+      ],
+      "dsc_indices": [
+        77
+      ]
+    },
+    "62": {
+      "offsets": [
+        104746357
+      ],
+      "dsc_indices": [
+        78
+      ]
+    },
+    "63": {
+      "offsets": [
+        107828379
+      ],
+      "dsc_indices": [
+        80
+      ]
+    },
+    "64": {
+      "offsets": [
+        109477197
+      ],
+      "dsc_indices": [
+        81
+      ]
+    },
+    "65": {
+      "offsets": [
+        111271911
+      ],
+      "dsc_indices": [
+        82
+      ]
+    },
+    "66": {
+      "offsets": [
+        113063144
+      ],
+      "dsc_indices": [
+        83
+      ]
+    },
+    "67": {
+      "offsets": [
+        114007764
+      ],
+      "dsc_indices": [
+        85
+      ]
+    },
+    "68": {
+      "offsets": [
+        115029917
+      ],
+      "dsc_indices": [
+        86
+      ]
+    },
+    "69": {
+      "offsets": [
+        117741859
+      ],
+      "dsc_indices": [
+        87
+      ]
+    },
+    "70": {
+      "offsets": [
+        120069402
+      ],
+      "dsc_indices": [
+        88
+      ]
+    },
+    "71": {
+      "offsets": [
+        122404634
+      ],
+      "dsc_indices": [
+        90
+      ]
+    },
+    "72": {
+      "offsets": [
+        124717096
+      ],
+      "dsc_indices": [
+        91
+      ]
+    },
+    "73": {
+      "offsets": [
+        127916148
+      ],
+      "dsc_indices": [
+        92
+      ]
+    },
+    "74": {
+      "offsets": [
+        129721147
+      ],
+      "dsc_indices": [
+        93
+      ]
+    },
+    "75": {
+      "offsets": [
+        130620977
+      ],
+      "dsc_indices": [
+        95
+      ]
+    },
+    "76": {
+      "offsets": [
+        132441927
+      ],
+      "dsc_indices": [
+        96
+      ]
+    },
+    "77": {
+      "offsets": [
+        133799498
+      ],
+      "dsc_indices": [
+        97
+      ]
+    },
+    "78": {
+      "offsets": [
+        135954688
+      ],
+      "dsc_indices": [
+        98
+      ]
+    },
+    "79": {
+      "offsets": [
+        136873013
+      ],
+      "dsc_indices": [
+        100
+      ]
+    },
+    "80": {
+      "offsets": [
+        137828906
+      ],
+      "dsc_indices": [
+        101
+      ]
+    },
+    "81": {
+      "offsets": [
+        139618096
+      ],
+      "dsc_indices": [
+        102
+      ]
+    },
+    "82": {
+      "offsets": [
+        141210954
+      ],
+      "dsc_indices": [
+        103
+      ]
+    },
+    "83": {
+      "offsets": [
+        142401789
+      ],
+      "dsc_indices": [
+        105
+      ]
+    },
+    "84": {
+      "offsets": [
+        143961392
+      ],
+      "dsc_indices": [
+        106
+      ]
+    },
+    "85": {
+      "offsets": [
+        146266868
+      ],
+      "dsc_indices": [
+        107
+      ]
+    }
+  },
+  "interpretation_boundary": "Sample order fixes galaxy-to-Appendix-figure identity. A retained embedded filename additionally fixes the exact monolithic-PS DSC page. Neither establishes that the radial H I curve itself is native vector geometry; panel-level isolation and axis QC remain required before numerical extraction.",
+  "boundary": "PostScript parsed as inert bytes only; no rendering, raster digitization, persistence fitting, or blind-outcome inspection."
+}

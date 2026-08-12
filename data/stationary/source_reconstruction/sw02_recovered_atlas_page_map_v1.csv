@@ -1,0 +1,14 @@
+galaxy,stationary_role,ugc,sample_index_0based,appendix_figure_number,figure_byte_offset,dsc_index_0based,dsc_header,page_bytes,image_ops,colorimage_ops,imagemask_ops,lineto_tokens,moveto_tokens,mapping_status
+DDO064,calibration,5272,21,34,39490484,43,1 1,2059760,17,0,0,56,23,mapped_by_table_order_and_embedded_figure_filename
+UGC00731,calibration,731,0,13,986072,17,18 18,4076,0,0,0,5,6,mapped_by_table_order_and_embedded_figure_filename
+UGC01281,blind,1281,2,15,4268685,20,19 19,1142,0,0,0,5,6,mapped_by_table_order_and_embedded_figure_filename
+UGC04278,calibration,4278,16,29,30371544,37,1 1,1564506,14,0,0,47,20,mapped_by_table_order_and_embedded_figure_filename
+UGC05986,blind,5986,28,41,52468959,52,1 1,1812962,15,0,0,50,21,mapped_by_table_order_and_embedded_figure_filename
+UGC07125,calibration,7125,35,48,67212421,61,1 1,2557765,21,0,0,68,27,mapped_by_table_order_and_embedded_figure_filename
+UGC07151,blind,7151,36,49,70217001,62,1 1,3004580,24,0,0,77,30,mapped_by_table_order_and_embedded_figure_filename
+UGC07577,calibration,7577,47,60,99563205,76,1 1,1802924,15,0,0,50,21,mapped_by_table_order_and_embedded_figure_filename
+UGC07603,calibration,7603,49,62,104746357,78,1 1,3202980,25,0,0,80,31,mapped_by_table_order_and_embedded_figure_filename
+UGC08286,calibration,8286,57,70,120069402,88,1 1,2327543,19,0,0,62,25,mapped_by_table_order_and_embedded_figure_filename
+UGC08550,blind,8550,60,73,127916148,92,1 1,3199052,24,0,0,77,30,mapped_by_table_order_and_embedded_figure_filename
+UGC08837,blind,8837,62,75,130620977,95,34 34,1142,0,0,0,5,6,mapped_by_table_order_and_embedded_figure_filename
+UGC11557,blind,11557,67,80,137828906,101,1 1,955893,9,0,0,32,15,mapped_by_table_order_and_embedded_figure_filename
