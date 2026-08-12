@@ -1,0 +1,42 @@
+name: Render Hoekstra Fig1 label Braille QC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/render_hoekstra_fig1_label_braille.py'
+      - '.github/workflows/render_hoekstra_fig1_label_braille.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf
+      - name: Render panel label strips
+        run: python scripts/stationary/render_hoekstra_fig1_label_braille.py
+      - name: Commit label QC
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/hoekstra2001_fig1_label_braille_v1.txt
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Render Hoekstra Fig1 label Braille QC'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
