@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 36,
-  "n_deferred_or_redirected_reference_families": 8,
+  "n_actionable_reference_families": 35,
+  "n_deferred_or_redirected_reference_families": 9,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Br92",
-      "n_untouched_frozen_galaxies": 6,
-      "n_calibration": 3,
-      "n_blind": 3,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Broeils",
-      "bibcode": "...................",
-      "comment": "1992, PhD thesis, University of Groningen",
-      "galaxies": "NGC0801;NGC1003;NGC2683;NGC2998;NGC5985;NGC6674"
-    },
     {
       "sparc_ref_id": "Be91",
       "n_untouched_frozen_galaxies": 5,
@@ -245,6 +229,22 @@
       "bibcode": "2004A&A...420..147B",
       "comment": "Cat. J/A+A/420/147",
       "galaxies": "NGC5985"
+    },
+    {
+      "sparc_ref_id": "CP90",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Carignan and Puche",
+      "bibcode": "1990AJ....100..641C",
+      "comment": "",
+      "galaxies": "NGC0300"
     }
   ],
   "deferred_or_redirected_families": [
@@ -359,6 +359,22 @@
       "bibcode": "2009A&A...493..871S",
       "comment": "",
       "galaxies": "UGC00731;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837"
+    },
+    {
+      "sparc_ref_id": "Br92",
+      "n_untouched_frozen_galaxies": 6,
+      "n_calibration": 3,
+      "n_blind": 3,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "full_broeils_thesis_catalogued_but_current_exact_public_payload_unrecoverable",
+      "disposition_artifact": "validation/stationary/broeils1992_legacy_dissertation_recovery_v1.json",
+      "reopen_rule": "new_full_thesis_archive_copy_machine_readable_profile_or_analytic_republication",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Broeils",
+      "bibcode": "...................",
+      "comment": "1992, PhD thesis, University of Groningen",
+      "galaxies": "NGC0801;NGC1003;NGC2683;NGC2998;NGC5985;NGC6674"
     },
     {
       "sparc_ref_id": "dB96",

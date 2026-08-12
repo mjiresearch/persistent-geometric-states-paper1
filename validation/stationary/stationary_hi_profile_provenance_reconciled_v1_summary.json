@@ -22,7 +22,7 @@
     "vector_profile_candidate_recovered": 17
   },
   "base_sha256": "b7ab05eff77556ee6646fd8733c89b419fc3b469bca11109bc101d2424192fdc",
-  "overlay_sha256": "b69ab8779ab5dc21e09c9541ffc6db46aac0b035e6cfcb9e7fd6db90e1c0869e",
-  "output_sha256": "f21b68f2f477b1e30c7b1a9d9d951aea8483c33f64cb0cb18bf0427a8437b226",
+  "overlay_sha256": "6187f634fabb8cc008bb89cbd0428116afd6c9e96733e540cc723204263c5ca2",
+  "output_sha256": "336ac5e34351cf5728fd8f1010767b3ae10ce91e366321143662bd68904c4034",
   "boundary": "Original provenance inventory retained unchanged; this reconciled view changes only acquisition/source-status metadata. Frozen roles and all persistence-fit locks remain unchanged."
 }
