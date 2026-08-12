@@ -1,0 +1,1248 @@
+{
+  "status": "SW02_ARXIV_ASSET_AUDIT_COMPLETE",
+  "source": "Swaters et al. 2002 A&A 390 829-861; arXiv astro-ph/0204525",
+  "arxiv_url": "https://export.arxiv.org/e-print/astro-ph/0204525",
+  "content_type": "application/gzip",
+  "archive_bytes": 200724,
+  "archive_sha256": "9302f5dbc1e19775d00a1f182a4e99c5b5aa345aed4658f3e95c93f5c30b8cfa",
+  "n_files": 14,
+  "files": [
+    {
+      "name": "aa.cls",
+      "bytes": 47801,
+      "suffix": ".cls"
+    },
+    {
+      "name": "h3074.tex",
+      "bytes": 83120,
+      "suffix": ".tex"
+    },
+    {
+      "name": "h3074f1.ps",
+      "bytes": 18450,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f10.ps",
+      "bytes": 59344,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f11.ps",
+      "bytes": 54566,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f12.ps",
+      "bytes": 21034,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f2.ps",
+      "bytes": 26064,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f3.ps",
+      "bytes": 33451,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f4.ps",
+      "bytes": 190087,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f5.ps",
+      "bytes": 209950,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f6.ps",
+      "bytes": 38357,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f7.ps",
+      "bytes": 18520,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f8.ps",
+      "bytes": 35758,
+      "suffix": ".ps"
+    },
+    {
+      "name": "h3074f9.ps",
+      "bytes": 15481,
+      "suffix": ".ps"
+    }
+  ],
+  "text_hits": [
+    {
+      "file": "h3074.tex",
+      "hits": [
+        {
+          "line": 3,
+          "text": "\\setlength\\paperheight{297mm}"
+        },
+        {
+          "line": 6,
+          "text": "\\usepackage{graphics}"
+        },
+        {
+          "line": 10,
+          "text": "\\title{The Westerbork HI Survey of Spiral and Irregular"
+        },
+        {
+          "line": 11,
+          "text": "  Galaxies\\\\ I. HI Imaging of Late-type Dwarf Galaxies}"
+        },
+        {
+          "line": 27,
+          "text": "%\\def\\HI{\\ifmmode \\hbox{\\scriptsize H\\kern0.5pt{\\footnotesize\\sc i}}\\else "
+        },
+        {
+          "line": 29,
+          "text": "\\def\\HI{\\ion{H}{i}}"
+        },
+        {
+          "line": 30,
+          "text": "\\def\\HII{H\\kern1pt{\\small II}}"
+        },
+        {
+          "line": 31,
+          "text": "%\\def\\figHI{H\\kern1pt{\\footnotesize I}}"
+        },
+        {
+          "line": 32,
+          "text": "\\def\\figHI{\\ion{H}{i}}"
+        },
+        {
+          "line": 46,
+          "text": "These observations are part of the WHISP project (Westerbork \\HI\\ "
+        },
+        {
+          "line": 47,
+          "text": "Survey of Spiral and Irregular Galaxies).  Here we present \\HI\\ "
+        },
+        {
+          "line": 48,
+          "text": "maps, velocity fields, global profiles and radial surface density"
+        },
+        {
+          "line": 49,
+          "text": "profiles of \\HI, as well as \\HI\\ masses, \\HI\\ radii and line widths."
+        },
+        {
+          "line": 51,
+          "text": "\\HI\\ extent to optical diameter, defined as 6.4 disk scale lengths,"
+        },
+        {
+          "line": 53,
+          "text": "Most of the dwarf galaxies in this sample are rich in \\HI\\, with a"
+        },
+        {
+          "line": 54,
+          "text": "typical $M_{\\HI}/L_B$ of 1.5.  The relative \\HI\\ content"
+        },
+        {
+          "line": 55,
+          "text": "$M_\\mathrm{\\HI}/L_R$ increases towards fainter absolute magnitudes"
+        },
+        {
+          "line": 57,
+          "text": "average \\HI\\ column densities also have lower average optical"
+        },
+        {
+          "line": 60,
+          "text": "galaxies in our sample have asymmetric global profiles, a third has"
+        },
+        {
+          "line": 61,
+          "text": "a lopsided \\HI\\ distribution, and about half shows signs of"
+        },
+        {
+          "line": 67,
+          "text": "\\titlerunning{HI Imaging of Late-type Dwarf Galaxies}"
+        },
+        {
+          "line": 73,
+          "text": "\\label{theintro}"
+        },
+        {
+          "line": 75,
+          "text": "Over the past decades there have been numerous surveys of the \\HI\\ "
+        },
+        {
+          "line": 77,
+          "text": "useful for determining the global \\HI\\ properties of galaxies and"
+        },
+        {
+          "line": 78,
+          "text": "for finding relations between \\HI\\ content, morphological type and other"
+        },
+        {
+          "line": 80,
+          "text": "accurate redshifts and line widths for many galaxies.  However, due to"
+        },
+        {
+          "line": 81,
+          "text": "the large beam size, imaging galaxies in \\HI\\ was restricted to the"
+        },
+        {
+          "line": 84,
+          "text": "With the advent of synthesis radio telescopes \\HI\\ imaging became"
+        },
+        {
+          "line": 85,
+          "text": "routinely possible. Their high spatial resolution inspired many"
+        },
+        {
+          "line": 86,
+          "text": "studies of the detailed distribution and kinematics of \\HI\\ in"
+        },
+        {
+          "line": 90,
+          "text": "investigated a sample of about 20 galaxies in \\HI, but these studies"
+        },
+        {
+          "line": 91,
+          "text": "focused on large and \\HI\\ bright galaxies.  Broeils \\& van Woerden"
+        },
+        {
+          "line": 97,
+          "text": "studies of the \\HI\\ distribution in cluster galaxies.  Warmels (1988a)"
+        },
+        {
+          "line": 98,
+          "text": "and Cayatte \\etal\\ (1990) studied the Virgo Cluster, Verheijen \\&"
+        },
+        {
+          "line": 102,
+          "text": "\\HI\\ imaging survey of the local galaxy population.  Clearly, such a"
+        },
+        {
+          "line": 103,
+          "text": "survey is important for a systematic study of the \\HI\\ component,"
+        },
+        {
+          "line": 104,
+          "text": "including its kinematical properties and their relation with optical"
+        },
+        {
+          "line": 105,
+          "text": "properties.  For this reason, the Westerbork \\HI\\ Survey of Spiral and"
+        },
+        {
+          "line": 106,
+          "text": "Irregular Galaxies (WHISP) with the Westerbork Synthesis Radio"
+        },
+        {
+          "line": 107,
+          "text": "Telescope (WSRT) was started. The WHISP survey aims at mapping about"
+        },
+        {
+          "line": 108,
+          "text": "500 spiral and irregular galaxies in \\HI.  There are two main aspects"
+        },
+        {
+          "line": 109,
+          "text": "to the WHISP project.  First, a systematic study of the \\HI\\ component"
+        },
+        {
+          "line": 111,
+          "text": "\\HI\\ in and around galaxies, the frequency of lopsidedness and tidal"
+        },
+        {
+          "line": 112,
+          "text": "features in \\HI, and the variation of these \\HI\\ properties with the"
+        },
+        {
+          "line": 114,
+          "text": "data for other studies, not directly related to the \\HI\\ component."
+        },
+        {
+          "line": 120,
+          "text": "The WHISP project will provide the \\HI\\ maps and velocity fields"
+        },
+        {
+          "line": 121,
+          "text": "necessary for this work.  These data will be useful for other studies"
+        },
+        {
+          "line": 122,
+          "text": "of individual galaxies as well. In addition to the \\HI\\ data, for all"
+        },
+        {
+          "line": 123,
+          "text": "the galaxies in the WHISP sample $R$-band CCD photometry has also been"
+        },
+        {
+          "line": 128,
+          "text": "This paper focuses on the WHISP \\HI\\ data for late-type dwarf"
+        },
+        {
+          "line": 130,
+          "text": "previous \\HI\\ synthesis surveys.  Nonetheless, as has already been"
+        },
+        {
+          "line": 132,
+          "text": "observations have shown that they are generally rich in \\HI, often"
+        },
+        {
+          "line": 133,
+          "text": "with $M_\\mathrm{\\HI}/L_B$ ratios larger than unity (e.g., Roberts \\&"
+        },
+        {
+          "line": 134,
+          "text": "Haynes 1994). The largest \\HI\\ disks, relative to the optical extent,"
+        },
+        {
+          "line": 136,
+          "text": "1996), DDO~154 (Carignan \\& Purton 1998) and NGC~4449 (Hunter \\etal\\ "
+        },
+        {
+          "line": 142,
+          "text": "In this paper we present \\HI\\ observations for a sample of 73"
+        },
+        {
+          "line": 143,
+          "text": "late-type dwarf galaxies and we compare their \\HI\\ properties with"
+        },
+        {
+          "line": 144,
+          "text": "their luminous properties. Sect.~\\ref{thesample} describes the"
+        },
+        {
+          "line": 146,
+          "text": "describes the reduction of the data and the derivation of the \\HI\\ "
+        },
+        {
+          "line": 147,
+          "text": "maps and velocity fields, the radial and global profiles, and global"
+        },
+        {
+          "line": 148,
+          "text": "properties such as the \\HI\\ mass, line widths and \\HI\\ diameters.  In"
+        },
+        {
+          "line": 149,
+          "text": "section~\\ref{theprops} the \\HI\\ properties of these galaxies are"
+        },
+        {
+          "line": 150,
+          "text": "compared to the optical properties, and to the \\HI\\ and optical"
+        },
+        {
+          "line": 155,
+          "text": "To facilitate the reading of this paper, all long tables have been"
+        },
+        {
+          "line": 156,
+          "text": "put into Appendix~A. An atlas of the \\HI\\ observations is"
+        },
+        {
+          "line": 160,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f1.ps}}"
+        },
+        {
+          "line": 161,
+          "text": "\\caption{Histogram of Hubble types in the primary WHISP sample. The"
+        },
+        {
+          "line": 163,
+          "text": "  presented in this paper.}"
+        },
+        {
+          "line": 164,
+          "text": "\\label{fighisttypes}"
+        },
+        {
+          "line": 170,
+          "text": "The galaxies for the WHISP survey have so far been selected from the"
+        },
+        {
+          "line": 171,
+          "text": "Uppsala General Catalogue of Galaxies (UGC, Nilson 1973), taking"
+        },
+        {
+          "line": 176,
+          "text": "declinations north of $20^\\circ$.  This resulted in a sample of 3148"
+        },
+        {
+          "line": 177,
+          "text": "galaxies. For 1560 of these \\HI\\ fluxes are catalogued in the"
+        },
+        {
+          "line": 178,
+          "text": "Third Reference Catalogue of Bright Galaxies (hereafter RC3, de"
+        },
+        {
+          "line": 180,
+          "text": "galaxies with known \\HI\\ flux densities larger than 100 mJy, where the"
+        },
+        {
+          "line": 181,
+          "text": "\\HI\\ flux density is the ratio of the integrated \\HI\\ flux and profile"
+        },
+        {
+          "line": 182,
+          "text": "width at the 50\\% level as listed in the RC3.  This resulted in our"
+        },
+        {
+          "line": 183,
+          "text": "primary WHISP sample of 409 galaxies.  The distribution over"
+        },
+        {
+          "line": 184,
+          "text": "morphological types of this sample is shown in"
+        },
+        {
+          "line": 185,
+          "text": "Fig.~\\ref{fighisttypes}.  Almost half of the galaxies in the sample"
+        },
+        {
+          "line": 191,
+          "text": "than $M_B=-17$. Furthermore, we only selected galaxies with \\HI\\ flux"
+        },
+        {
+          "line": 193,
+          "text": "$|b|>10^\\circ$.  This resulted in a sample of 109 galaxies. To this"
+        },
+        {
+          "line": 195,
+          "text": "primary WHISP sample, except the diameter criterion. This additional"
+        },
+        {
+          "line": 197,
+          "text": "presented in this paper because of the possible uncertainties in using"
+        },
+        {
+          "line": 198,
+          "text": "the optical diameter $D_{25}$ as an indicator of the \\HI\\ diameter"
+        },
+        {
+          "line": 199,
+          "text": "(see Sect.~4.1). The combined sample constructed in this way"
+        },
+        {
+          "line": 201,
+          "text": "of the sample is shown in Fig.~\\ref{fighisttypes} as the shaded area."
+        },
+        {
+          "line": 205,
+          "text": "than dwarf galaxies.  Their data are presented here as well."
+        },
+        {
+          "line": 209,
+          "text": "\\HI\\ data have been obtained by others, although some of these data"
+        },
+        {
+          "line": 213,
+          "text": "Table~\\ref{tabsample}. If available, distances from Cepheids,"
+        },
+        {
+          "line": 214,
+          "text": "brightest stars or group membership were used. In case none of these"
+        },
+        {
+          "line": 224,
+          "text": "The \\HI\\ data presented in this paper were obtained with the WSRT"
+        },
+        {
+          "line": 231,
+          "text": "detailed in the WHISP webpages, http://www.astro.rug.nl/$\\sim$whisp."
+        },
+        {
+          "line": 233,
+          "text": "otherwise stated, the reduction procedure outlined below is the WHISP"
+        },
+        {
+          "line": 234,
+          "text": "pipeline reduction as detailed on the WHISP webpages."
+        },
+        {
+          "line": 245,
+          "text": "without \\HI\\ line emission. Next, the maps were {\\clean}ed in the map"
+        },
+        {
+          "line": 246,
+          "text": "plane in two steps. First, the areas with \\HI\\ emission were"
+        },
+        {
+          "line": 255,
+          "text": "\\subsection{Global profiles, line widths and \\HI\\ masses}"
+        },
+        {
+          "line": 257,
+          "text": "The global profiles were constructed from the flux in the {\\clean}"
+        },
+        {
+          "line": 261,
+          "text": "residual flux in the map. In principle, this residual flux may be"
+        },
+        {
+          "line": 268,
+          "text": "calculate the global profile. On average, the total flux including the"
+        },
+        {
+          "line": 272,
+          "text": "global profiles for all galaxies are shown in Appendix~B."
+        },
+        {
+          "line": 274,
+          "text": "The \\HI\\ flux integral for each galaxy has been obtained by adding the"
+        },
+        {
+          "line": 276,
+          "text": "attenuation. From this, the \\HI\\ mass was calculated with the standard"
+        },
+        {
+          "line": 279,
+          "text": "\\mathrm{M}_\\mathrm{\\HI}=236\\cdot\\mathrm{D}^2\\cdot\\mathrm{S},"
+        },
+        {
+          "line": 280,
+          "text": "\\label{himass}"
+        },
+        {
+          "line": 282,
+          "text": "where $\\mathrm{M}_\\mathrm{\\HI}$ is the \\HI\\ mass in"
+        },
+        {
+          "line": 283,
+          "text": "$\\mathrm{M}_\\odot$, D the distance in Mpc and S the \\HI\\ flux integral"
+        },
+        {
+          "line": 284,
+          "text": "in mJy \\kms. The flux integrals and \\HI\\ masses are listed in"
+        },
+        {
+          "line": 292,
+          "text": "this limit, the fluxes are in general expected to be well determined."
+        },
+        {
+          "line": 293,
+          "text": "VS found that the WSRT \\HI\\ fluxes of the galaxies in his sample are"
+        },
+        {
+          "line": 295,
+          "text": "observations (the galaxies in his sample are all smaller than $10'$)."
+        },
+        {
+          "line": 297,
+          "text": "presented in this paper to the ones derived from the RC3 data, as used"
+        },
+        {
+          "line": 300,
+          "text": "large scatter of about 15\\%. For galaxies with \\HI\\ diameters larger"
+        },
+        {
+          "line": 304,
+          "text": "From the global profiles the line widths at the 20\\% and 50\\% level"
+        },
+        {
+          "line": 305,
+          "text": "were derived. For double-horn profiles, the peaks on both sides were"
+        },
+        {
+          "line": 307,
+          "text": "the overall peaks of the profiles were used.  The line-width"
+        },
+        {
+          "line": 310,
+          "text": "sides of the global profile.  The systemic velocity"
+        },
+        {
+          "line": 312,
+          "text": "between the profile edges at the 20\\% and 50\\% level."
+        },
+        {
+          "line": 324,
+          "text": "for broadening due to random motions of the \\HI\\ gas have been"
+        },
+        {
+          "line": 337,
+          "text": "motions. This formula gives a quadratic subtraction if $W_l<W_{c,l}$,"
+        },
+        {
+          "line": 342,
+          "text": "\\subsection{Integrated \\HI\\ maps}"
+        },
+        {
+          "line": 344,
+          "text": "The integrated \\HI\\ maps were constructed by adding the signal from"
+        },
+        {
+          "line": 345,
+          "text": "the {\\clean}ed channel maps within the areas defined by the \\clean\\ "
+        },
+        {
+          "line": 346,
+          "text": "masks. Integrated \\HI\\ maps were constructed at the full resolution,"
+        },
+        {
+          "line": 348,
+          "text": "masks. These \\HI\\ maps were corrected for primary beam attenuation."
+        },
+        {
+          "line": 350,
+          "text": "The \\HI\\ maps at $30''$ resolution are shown in Appendix~B.  All plots"
+        },
+        {
+          "line": 352,
+          "text": "integrated \\HI\\ map is not constant over the map, because at each"
+        },
+        {
+          "line": 359,
+          "text": "where $\\sigma_{tot}$ is the noise in the integrated \\HI\\ map and"
+        },
+        {
+          "line": 362,
+          "text": "to the integrated \\HI\\ maps is given by $n_l$, and the number of"
+        },
+        {
+          "line": 363,
+          "text": "line-free continuum channels is denoted by $n_c$. With this equation a"
+        },
+        {
+          "line": 364,
+          "text": "noise map was calculated, which was then used to construct a"
+        },
+        {
+          "line": 366,
+          "text": "the integrated \\HI\\ map all pixels with a signal-to-noise ratio"
+        },
+        {
+          "line": 368,
+          "text": "to define the $3\\sigma$ contour indicated by the thick line in the"
+        },
+        {
+          "line": 369,
+          "text": "integrated \\HI\\ maps in the figures in Appendix~B."
+        },
+        {
+          "line": 372,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f2.ps}}"
+        },
+        {
+          "line": 375,
+          "text": "  fit to a skewed model profile. Both the Gaussian fit and the IWM"
+        },
+        {
+          "line": 376,
+          "text": "  fail to recover the peak velocity, which represents the rotation"
+        },
+        {
+          "line": 378,
+          "text": "  ({\\bf b}) The same profile as in panel a, but with a SNR of 3. The"
+        },
+        {
+          "line": 387,
+          "text": "standard WHISP reduction, a moment analysis was done, which yielded"
+        },
+        {
+          "line": 390,
+          "text": "example, if a profile is skewed (e.g., as a result of beam smearing,"
+        },
+        {
+          "line": 391,
+          "text": "high inclination or a thick \\HI\\ disk), the IWM will yield a value"
+        },
+        {
+          "line": 394,
+          "text": "in the IWM velocities is that profiles with low signal-to-noise ratios"
+        },
+        {
+          "line": 395,
+          "text": "will be biased to the midpoint of the velocity range of the profile"
+        },
+        {
+          "line": 401,
+          "text": "to the velocity profile, which is less sensitive to asymmetries and"
+        },
+        {
+          "line": 403,
+          "text": "velocity fields by fitting a single Gaussian to the line profiles at"
+        },
+        {
+          "line": 406,
+          "text": "those fits were used that had amplitudes higher than $3\\sigma$.  The"
+        },
+        {
+          "line": 407,
+          "text": "velocity fields derived in this way are shown in Appendix~B."
+        },
+        {
+          "line": 409,
+          "text": "\\subsection{Radial \\HI\\ surface density profiles and \\HI\\ diameters}"
+        },
+        {
+          "line": 411,
+          "text": "The total \\HI\\ maps have been used to derive radial surface density"
+        },
+        {
+          "line": 412,
+          "text": "profiles of \\HI. Two different methods were used, depending on"
+        },
+        {
+          "line": 413,
+          "text": "inclination and angular size.  For galaxies with inclinations smaller"
+        },
+        {
+          "line": 416,
+          "text": "parameters used for this are the same as those for the rotation curve"
+        },
+        {
+          "line": 419,
+          "text": "approaching and the receding sides separately. Pixels without measured"
+        },
+        {
+          "line": 420,
+          "text": "signal in the total \\HI\\ map were excluded."
+        },
+        {
+          "line": 423,
+          "text": "reliable results for highly inclined galaxies or galaxies that are"
+        },
+        {
+          "line": 424,
+          "text": "poorly resolved. For these galaxies the \\HI\\ radial surface density"
+        },
+        {
+          "line": 425,
+          "text": "profiles were derived following the method described by Warmels"
+        },
+        {
+          "line": 426,
+          "text": "(1988b). First the total \\HI\\ maps were integrated parallel to the"
+        },
+        {
+          "line": 427,
+          "text": "minor axis, resulting in \\HI\\ strip integrals. To get the \\HI\\ surface"
+        },
+        {
+          "line": 428,
+          "text": "density profiles, the iterative deconvolution scheme described by Lucy"
+        },
+        {
+          "line": 429,
+          "text": "(1974) was applied to the \\HI\\ strip integrals, with the assumption"
+        },
+        {
+          "line": 430,
+          "text": "that the \\HI\\ distribution is axisymmetric.  In short, this method"
+        },
+        {
+          "line": 431,
+          "text": "works as follows. An input estimate of the radial profile is converted"
+        },
+        {
+          "line": 433,
+          "text": "observations. Next, this strip integral is compared to the observed"
+        },
+        {
+          "line": 434,
+          "text": "one, and the input profile is adjusted, and used as input for the next"
+        },
+        {
+          "line": 438,
+          "text": "In Fig.~\\ref{figradhi} a comparison is shown between the profiles"
+        },
+        {
+          "line": 440,
+          "text": "deconvolution scheme. For most galaxies that are not highly inclined,"
+        },
+        {
+          "line": 441,
+          "text": "the two profiles agree well, as is seen in Fig.~\\ref{figradhi} for"
+        },
+        {
+          "line": 442,
+          "text": "\\object{UGC~5918} and \\object{UGC~12732}. However, for small and"
+        },
+        {
+          "line": 443,
+          "text": "highly inclined galaxies the profiles differ, as expected. For small"
+        },
+        {
+          "line": 444,
+          "text": "galaxies, illustrated by \\object{UGC~3698} in Fig.~\\ref{figradhi}, the"
+        },
+        {
+          "line": 446,
+          "text": "some of the flux to the central parts. A known problem with this"
+        },
+        {
+          "line": 448,
+          "text": "this, the iteration process to determine the radial profile was"
+        },
+        {
+          "line": 450,
+          "text": "radial profile matched the observed strip integral at the 95\\%"
+        },
+        {
+          "line": 453,
+          "text": "galaxies are optically thin in \\HI, the Lucy method will give the"
+        },
+        {
+          "line": 454,
+          "text": "correct radial \\HI\\ surface density profile."
+        },
+        {
+          "line": 457,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f3.ps}}"
+        },
+        {
+          "line": 458,
+          "text": "\\caption{Comparison between the radial \\figHI\\ surface density profiles"
+        },
+        {
+          "line": 461,
+          "text": "\\label{figradhi}"
+        },
+        {
+          "line": 464,
+          "text": "The surface density profiles have been used to determine the \\HI\\ "
+        },
+        {
+          "line": 465,
+          "text": "radii, $R_\\mathrm{\\HI}$, defined as the radius where the \\HI\\ surface"
+        },
+        {
+          "line": 469,
+          "text": "Most \\HI\\ surface density profiles are close to exponential in their"
+        },
+        {
+          "line": 470,
+          "text": "outer parts. This can be clearly seen in Fig.~\\ref{figexpfits}, where"
+        },
+        {
+          "line": 471,
+          "text": "the profiles have been plotted on a logarithmic scale and the dotted"
+        },
+        {
+          "line": 472,
+          "text": "lines give the exponential fits made to the profile.  The derived \\HI\\ "
+        },
+        {
+          "line": 475,
+          "text": "Finally, the average \\HI\\ surface density within 3.2 optical disk"
+        },
+        {
+          "line": 476,
+          "text": "scale lengths ($\\langle\\Sigma_\\mathrm{\\HI}\\rangle_{3.2h}$, where $h$"
+        },
+        {
+          "line": 479,
+          "text": "The derived average \\HI\\ surface densities are listed in"
+        },
+        {
+          "line": 482,
+          "text": "disk scale lengths within an isophotal radius depends on the central"
+        },
+        {
+          "line": 484,
+          "text": "smaller the number of optical scale lengths within the isophotal"
+        },
+        {
+          "line": 493,
+          "text": "This value was chosen because most spiral galaxies for which the"
+        },
+        {
+          "line": 503,
+          "text": "\\resizebox{0.875\\textwidth}{!}{\\includegraphics{h3074f4.ps}}"
+        },
+        {
+          "line": 504,
+          "text": "\\caption{ Radial \\figHI\\ surface density profiles (full lines) plotted"
+        },
+        {
+          "line": 505,
+          "text": "  on a `magnitude scale', i.e., $2.5\\log \\Sigma_\\mathrm{\\HI}$, so that"
+        },
+        {
+          "line": 506,
+          "text": "  the \\figHI\\ scale lengths are defined in the same way as the optical"
+        },
+        {
+          "line": 508,
+          "text": "  the outer parts of the profiles. The UGC numbers are given in the"
+        },
+        {
+          "line": 515,
+          "text": "\\resizebox{0.875\\textwidth}{!}{\\includegraphics{h3074f5.ps}}"
+        },
+        {
+          "line": 521,
+          "text": "the relations between the \\HI\\ properties of late-type dwarf galaxies"
+        },
+        {
+          "line": 522,
+          "text": "and their optical properties. It is important to find out whether the"
+        },
+        {
+          "line": 527,
+          "text": "Haynes 1994; Hoffman \\etal\\ 1996), we will focus here on \\HI\\ radii"
+        },
+        {
+          "line": 532,
+          "text": "\\section{\\HI\\ properties}"
+        },
+        {
+          "line": 535,
+          "text": "\\subsection{\\HI\\ diameters versus optical diameters}"
+        },
+        {
+          "line": 538,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f6.ps}}"
+        },
+        {
+          "line": 540,
+          "text": "\\caption{The \\figHI\\ diameter $D_\\mathrm{\\HI}$ versus $D_{25}^{\\,B,i}$ ({\\bf"
+        },
+        {
+          "line": 542,
+          "text": "    the relation found between $D_\\mathrm{\\HI}$ and $D_{25}^{\\,B,i}$ by"
+        },
+        {
+          "line": 547,
+          "text": "Broeils \\& Rhee (1997, hereafter BR) have investigated the \\HI\\ "
+        },
+        {
+          "line": 548,
+          "text": "properties of a sample of spiral galaxies mapped in \\HI\\ with the"
+        },
+        {
+          "line": 551,
+          "text": "correlation between the \\HI\\ diameter $D_\\mathrm{\\HI}$ (defined at a"
+        },
+        {
+          "line": 552,
+          "text": "\\HI\\ surface density of 1 \\msun\\pc2) and the absorption-corrected"
+        },
+        {
+          "line": 555,
+          "text": "the optical and the \\HI\\ diameters for the late-type dwarf galaxies in"
+        },
+        {
+          "line": 556,
+          "text": "our sample. To make this comparison, our $R$-band diameters have been"
+        },
+        {
+          "line": 558,
+          "text": "D_{25}^{\\,B,i}=1.4$. This ratio was determined from the 46 galaxies"
+        },
+        {
+          "line": 559,
+          "text": "for which we have both $R$ and $B$-band data (see Paper~II). The full"
+        },
+        {
+          "line": 561,
+          "text": "$D_\\mathrm{\\HI}$ and $D_{25}^{\\,B,i}$ found by BR (we assumed that for"
+        },
+        {
+          "line": 563,
+          "text": "galaxies in our sample have much larger \\HI\\ diameters than expected from"
+        },
+        {
+          "line": 564,
+          "text": "the relation found by BR. However, this is most likely due to the"
+        },
+        {
+          "line": 565,
+          "text": "choice of the definition of the optical diameter. As argued in"
+        },
+        {
+          "line": 569,
+          "text": "brightnesses, only a smaller fraction of the disk is enclosed within"
+        },
+        {
+          "line": 570,
+          "text": "the isophotal diameter. Because most of the dwarfs in this sample have"
+        },
+        {
+          "line": 572,
+          "text": "$D_{25}^{\\,B,i}$ leads to small optical diameters, which could explain"
+        },
+        {
+          "line": 576,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f7.ps}}"
+        },
+        {
+          "line": 578,
+          "text": "\\caption{Histogram of $D_\\mathrm{\\HI}/D_{25}^{\\,B,i}$ (top panel) and of"
+        },
+        {
+          "line": 579,
+          "text": "  $D_\\mathrm{\\HI}/6.4h$ (bottom panel). The horizontal bar in both"
+        },
+        {
+          "line": 580,
+          "text": "  panels indicates the range of $D_\\mathrm{\\HI}/D_{25}^{\\,B,i}$ for"
+        },
+        {
+          "line": 582,
+          "text": "\\label{figradhist}"
+        },
+        {
+          "line": 586,
+          "text": "\\HI\\ diameter is shown, but now the optical diameter has been defined"
+        },
+        {
+          "line": 589,
+          "text": "the $B$-band and $R$-band scale lengths for the 46 galaxies for which"
+        },
+        {
+          "line": 595,
+          "text": "\\HI\\ diameters are less strongly coupled in the dwarf regime, or that"
+        },
+        {
+          "line": 596,
+          "text": "the optical and \\HI\\ diameters are less well defined."
+        },
+        {
+          "line": 599,
+          "text": "clearly in Fig.~\\ref{figradhist}, where the distributions of"
+        },
+        {
+          "line": 600,
+          "text": "$D_\\mathrm{\\HI}/D_{25}^{\\,B,i}$ and $D_\\mathrm{\\HI}/6.4h$ are shown."
+        },
+        {
+          "line": 603,
+          "text": "have extreme properties, with $D_\\mathrm{\\HI}/ D_{25}^{\\,B,i}=3.3\\pm"
+        },
+        {
+          "line": 605,
+          "text": "dwarf galaxies is $D_\\mathrm{\\HI}/ D_{6.4h}=1.8\\pm 0.8$. Summarizing,"
+        },
+        {
+          "line": 606,
+          "text": "we find that the average \\HI\\ extent of late-type dwarf galaxies"
+        },
+        {
+          "line": 609,
+          "text": "most extended \\HI\\ disks, relative to the optical disks, are found"
+        },
+        {
+          "line": 614,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f8.ps}}"
+        },
+        {
+          "line": 616,
+          "text": "\\caption{ \\figHI\\ mass versus \\figHI\\ diameter (filled circles) and versus"
+        },
+        {
+          "line": 621,
+          "text": "\\label{figdiamhimass}"
+        },
+        {
+          "line": 625,
+          "text": "a tight relation between \\HI\\ mass and \\HI\\ diameter. This relation"
+        },
+        {
+          "line": 627,
+          "text": "Fig.~\\ref{figdiamhimass}.  The small scatter about this relation"
+        },
+        {
+          "line": 628,
+          "text": "points to a small spread in mean \\HI\\ surface density for the dwarf"
+        },
+        {
+          "line": 629,
+          "text": "galaxies in our sample.  The \\HI\\ mass also correlates with the"
+        },
+        {
+          "line": 630,
+          "text": "optical diameter, shown in Fig.~\\ref{figdiamhimass} as well, but with"
+        },
+        {
+          "line": 634,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f9.ps}}"
+        },
+        {
+          "line": 635,
+          "text": "\\caption{The distribution of $M_\\mathrm{\\HI}/\\mathrm{L}_R$, the"
+        },
+        {
+          "line": 636,
+          "text": "  horizontal bars indicate the ranges of $M_\\mathrm{\\HI}/"
+        },
+        {
+          "line": 639,
+          "text": "\\label{fighistmhilb}"
+        },
+        {
+          "line": 641,
+          "text": "\\resizebox{\\hsize}{!}{\\includegraphics{h3074f10.ps}}"
+        },
+        {
+          "line": 643,
+          "text": "\\caption{ {\\bf (a)} $M_\\mathrm{\\HI}/\\mathrm{L}_R$"
+        }
+      ]
+    }
+  ],
+  "postscript_assets": [
+    {
+      "name": "h3074f1.ps",
+      "bytes": 18450,
+      "sha256": "6416fe7261db3e2973eb0089638f4ae66f80da13dfc51b8751380db4cb7f5dd0",
+      "bounding_box_lines": [
+        "%%BoundingBox: 0 0 765 575"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f10.ps",
+      "bytes": 59344,
+      "sha256": "e09c44ffed928765c20137cab28318b434efb462c5adb1481c9262f65c7e2bb1",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f11.ps",
+      "bytes": 54566,
+      "sha256": "8f2155d3d72675d5c7fdc54d5e9d80662141e1542f85d8145fa39e6619236d00",
+      "bounding_box_lines": [
+        "%%BoundingBox: 25 50 590 777"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f12.ps",
+      "bytes": 21034,
+      "sha256": "332324c6ac093fc55292f437f486a08878d14da3d91a6c1d552c5713f87726a1",
+      "bounding_box_lines": [
+        "%%BoundingBox: 0 0 765 575"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f2.ps",
+      "bytes": 26064,
+      "sha256": "f12734fb9614f95433c9c943c05911361c3b9199bda8270b3ae9873bcca551e4",
+      "bounding_box_lines": [
+        "%%BoundingBox: 0 0 765 575"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f3.ps",
+      "bytes": 33451,
+      "sha256": "e0a5d427ea85a692bf3af012e150a6400e75895c776d82b9d36d4bbeb74a033a",
+      "bounding_box_lines": [
+        "%%BoundingBox: 0 0 765 575"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f4.ps",
+      "bytes": 190087,
+      "sha256": "71ba63f67b9728f3775a8f7bd077aea3f7bb4a37412767dd703e326036ef4add",
+      "bounding_box_lines": [
+        "%%BoundingBox: 30 125 563 740"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f5.ps",
+      "bytes": 209950,
+      "sha256": "71731ce59917e2c7e8bff267aa48645e8e45e6f2895def6e96aa7e6ebe474596",
+      "bounding_box_lines": [
+        "%%BoundingBox: 30 38 563 740"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f6.ps",
+      "bytes": 38357,
+      "sha256": "b366bdf02308ed16c6df61ed74416e77b90fd24ccb6dffed28fd1ceb16db66af",
+      "bounding_box_lines": [
+        "%%BoundingBox: 0 0 765 575"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f7.ps",
+      "bytes": 18520,
+      "sha256": "67a93d428dfd9c358355b36d81a5485210c3c6205cfec45fa4790b75d1fcc388",
+      "bounding_box_lines": [
+        "%%BoundingBox: 0 0 765 575"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f8.ps",
+      "bytes": 35758,
+      "sha256": "608b80dbf50b054174903c7b54ee2ccdef6655753def79c4147bcd674fe327a3",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    },
+    {
+      "name": "h3074f9.ps",
+      "bytes": 15481,
+      "sha256": "47f7f3dee08145314f7ada70d8729135f14b02f6bcf4b5f05a07f9d4128ca49d",
+      "bounding_box_lines": [
+        "%%BoundingBox: 0 0 765 575"
+      ],
+      "has_setrgbcolor": true,
+      "has_moveto_lineto": true,
+      "ugc_labels": [],
+      "ddo_labels": [],
+      "surface_density_text": false
+    }
+  ],
+  "n_postscript_assets": 12,
+  "interpretation_boundary": "Asset audit only. No numerical HI profile is promoted until its galaxy identity, axes, source quantity and curve geometry are unambiguous."
+}
