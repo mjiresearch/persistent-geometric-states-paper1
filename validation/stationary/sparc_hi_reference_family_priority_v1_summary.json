@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 35,
-  "n_deferred_or_redirected_reference_families": 9,
+  "n_actionable_reference_families": 34,
+  "n_deferred_or_redirected_reference_families": 10,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Be91",
-      "n_untouched_frozen_galaxies": 5,
-      "n_calibration": 4,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Begeman et al.",
-      "bibcode": "1991MNRAS.249..523B",
-      "comment": "",
-      "galaxies": "DDO170;NGC2903;NGC3109;NGC6503;UGC02259"
-    },
     {
       "sparc_ref_id": "SG06",
       "n_untouched_frozen_galaxies": 5,
@@ -245,6 +229,22 @@
       "bibcode": "1990AJ....100..641C",
       "comment": "",
       "galaxies": "NGC0300"
+    },
+    {
+      "sparc_ref_id": "Ca88",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Carignan et al.",
+      "bibcode": "1988AJ.....95...37C",
+      "comment": "",
+      "galaxies": "UGC02259"
     }
   ],
   "deferred_or_redirected_families": [
@@ -375,6 +375,22 @@
       "bibcode": "...................",
       "comment": "1992, PhD thesis, University of Groningen",
       "galaxies": "NGC0801;NGC1003;NGC2683;NGC2998;NGC5985;NGC6674"
+    },
+    {
+      "sparc_ref_id": "Be91",
+      "n_untouched_frozen_galaxies": 5,
+      "n_calibration": 4,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "redirected_to_original_sources",
+      "disposition": "downstream_selected_rotation_curve_analysis_mapped_to_original_21cm_sources",
+      "disposition_artifact": "data/stationary/source_reconstruction/be91_original_hi_source_map_v2.csv",
+      "reopen_rule": "auditable_original_source_route",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Begeman et al.",
+      "bibcode": "1991MNRAS.249..523B",
+      "comment": "",
+      "galaxies": "DDO170;NGC2903;NGC3109;NGC6503;UGC02259"
     },
     {
       "sparc_ref_id": "dB96",
