@@ -1,0 +1,43 @@
+name: Summarize SA87 HEROES NGC5907 panel geometry
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/summarize_sa87_heroes_fig29_ngc5907_panel.py'
+      - '.github/workflows/summarize_sa87_heroes_ngc5907_panel.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet pymupdf
+      - name: Summarize NGC5907 panel geometry
+        run: python scripts/stationary/summarize_sa87_heroes_fig29_ngc5907_panel.py
+      - name: Commit compact summary race-safe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/sa87_heroes_fig29_ngc5907_panel_summary_v1.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Summarize HEROES NGC5907 Figure 29 panel geometry'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/stationary/summarize_sa87_heroes_fig29_ngc5907_panel.py
+            git add validation/stationary/sa87_heroes_fig29_ngc5907_panel_summary_v1.json
+            git commit -m 'Summarize HEROES NGC5907 Figure 29 panel geometry' || true
+            sleep 2
+          done
+          exit 1
