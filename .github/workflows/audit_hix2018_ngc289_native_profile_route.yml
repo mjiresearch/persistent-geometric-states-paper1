@@ -1,0 +1,43 @@
+name: Audit HIX2018 NGC289 native profile route
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/audit_hix2018_ngc289_native_profile_route.py'
+      - '.github/workflows/audit_hix2018_ngc289_native_profile_route.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet pymupdf
+      - name: Inspect HIX2018 public source package
+        run: python scripts/stationary/audit_hix2018_ngc289_native_profile_route.py
+      - name: Commit source-package audit race-safe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/hix2018_ngc289_native_profile_route_v1.json validation/stationary/hix2018_ngc289_native_profile_route_v1.txt
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Audit HIX2018 NGC289 native HI profile route'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/stationary/audit_hix2018_ngc289_native_profile_route.py
+            git add validation/stationary/hix2018_ngc289_native_profile_route_v1.json validation/stationary/hix2018_ngc289_native_profile_route_v1.txt
+            git commit -m 'Audit HIX2018 NGC289 native HI profile route' || true
+            sleep 2
+          done
+          exit 1
