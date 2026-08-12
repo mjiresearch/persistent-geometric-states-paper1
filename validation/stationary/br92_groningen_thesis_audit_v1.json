@@ -1,0 +1,33 @@
+{
+  "status": "BR92_GRONINGEN_THESIS_AUDIT",
+  "source": "Broeils 1992 PhD thesis, Dark and visible matter in spiral galaxies, University of Groningen",
+  "landing_url": "https://research.rug.nl/en/publications/dark-and-visible-matter-in-spiral-galaxies/",
+  "known_pdf_url": "https://research.rug.nl/files/3332246/broeils.PDF",
+  "frozen_targets": [
+    "NGC 801",
+    "NGC 1003",
+    "NGC 2683",
+    "NGC 2998",
+    "NGC 5985",
+    "NGC 6674"
+  ],
+  "boundary": "Institutional-source audit only. No numerical profile is promoted unless a direct table/curve and its physical units/conventions are unambiguous.",
+  "landing": {
+    "ok": true,
+    "bytes": 35367,
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://research.rug.nl/en/publications/dark-and-visible-matter-in-spiral-galaxies/",
+    "sha256": "64d2805a0822a77f5a4768cc2dc9ee79b16b280f291631140d1b2201d354aea1"
+  },
+  "landing_pdf_hrefs": [
+    "/files/3332246/broeils.PDF"
+  ],
+  "pdf_attempts": [
+    {
+      "url": "https://research.rug.nl/files/3332246/broeils.PDF",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
+  "pdf_recovered": false
+}
