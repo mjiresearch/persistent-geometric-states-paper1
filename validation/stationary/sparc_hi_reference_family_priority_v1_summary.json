@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 92,
   "n_reference_families_covering_untouched": 40,
-  "n_actionable_reference_families": 16,
-  "n_deferred_or_redirected_reference_families": 24,
+  "n_actionable_reference_families": 15,
+  "n_deferred_or_redirected_reference_families": 25,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "RA85",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Roelfsema and Allen",
-      "bibcode": "1985A&A...146..213R",
-      "comment": "",
-      "galaxies": "UGC02885"
-    },
     {
       "sparc_ref_id": "SA87",
       "n_untouched_frozen_galaxies": 1,
@@ -245,6 +229,22 @@
       "bibcode": "1996A&AS..115..407R",
       "comment": "Cat. J/A+AS/115/407",
       "galaxies": "NGC0100"
+    },
+    {
+      "sparc_ref_id": "Ri15",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Richards et al.",
+      "bibcode": "2015MNRAS.449.3981R",
+      "comment": "",
+      "galaxies": "NGC5005"
     }
   ],
   "deferred_or_redirected_families": [
@@ -631,6 +631,22 @@
       "bibcode": "2014A&A...566A..71L",
       "comment": "Cat. J/A+A/566/A71",
       "galaxies": "NGC4068"
+    },
+    {
+      "sparc_ref_id": "RA85",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "original_RA85_target_confirmed_but_later_direct_WSRT_profile_public_only_as_JPEG_no_numeric_or_vector_asset",
+      "disposition_artifact": "validation/stationary/ra85_hunter2013_ugc2885_profile_route_v1.json",
+      "reopen_rule": "new_machine_readable_author_table_exact_native_vector_public_profile_array_or_calibrated_HI_map_cube_with_predeclared_reconstruction_protocol",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Roelfsema and Allen",
+      "bibcode": "1985A&A...146..213R",
+      "comment": "",
+      "galaxies": "UGC02885"
     }
   ],
   "interpretation": "Coverage and actionability are separated. Families with no public overlay remain visible, but audited anti-loop dispositions prevent exhausted or redirected source families from reappearing at the head of the live acquisition queue.",
