@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 34,
-  "n_deferred_or_redirected_reference_families": 10,
+  "n_actionable_reference_families": 33,
+  "n_deferred_or_redirected_reference_families": 11,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "SG06",
-      "n_untouched_frozen_galaxies": 5,
-      "n_calibration": 4,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Spekkens and Giovanelli",
-      "bibcode": "2006AJ....132.1426S",
-      "comment": "",
-      "galaxies": "ESO563-G021;IC4202;NGC2955;NGC6195;UGC11455"
-    },
     {
       "sparc_ref_id": "dB01",
       "n_untouched_frozen_galaxies": 5,
@@ -245,6 +229,22 @@
       "bibcode": "1988AJ.....95...37C",
       "comment": "",
       "galaxies": "UGC02259"
+    },
+    {
+      "sparc_ref_id": "El10",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Elson et al.",
+      "bibcode": "2010MNRAS.404.2061E",
+      "comment": "",
+      "galaxies": "NGC2915"
     }
   ],
   "deferred_or_redirected_families": [
@@ -391,6 +391,22 @@
       "bibcode": "1991MNRAS.249..523B",
       "comment": "",
       "galaxies": "DDO170;NGC2903;NGC3109;NGC6503;UGC02259"
+    },
+    {
+      "sparc_ref_id": "SG06",
+      "n_untouched_frozen_galaxies": 5,
+      "n_calibration": 4,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "direct_radial_hi_profiles_published_but_arxiv_summary_figures_raster_dominant",
+      "disposition_artifact": "validation/stationary/sg06_profile_panel_geometry_audit_v1.json",
+      "reopen_rule": "new_machine_readable_profile_table_data_cube_or_exact_vector_republication",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Spekkens and Giovanelli",
+      "bibcode": "2006AJ....132.1426S",
+      "comment": "",
+      "galaxies": "ESO563-G021;IC4202;NGC2955;NGC6195;UGC11455"
     },
     {
       "sparc_ref_id": "dB96",
