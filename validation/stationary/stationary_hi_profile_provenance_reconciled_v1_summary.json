@@ -12,17 +12,17 @@
     "blind": 5
   },
   "effective_status_counts": {
-    "analytic_profile_recovered": 4,
+    "analytic_profile_recovered": 2,
     "available_nonpublic_request_required": 118,
     "direct_profile_identified_numeric_pending": 4,
     "known_unavailable_in_169_compilation": 4,
     "public_HI_map_confirmed_profile_pending": 1,
-    "raw_source_profile_ingested": 12,
+    "raw_source_profile_ingested": 14,
     "recover_exact_extraction_artifact": 1,
     "source_family_identified_numeric_pending": 5
   },
   "base_sha256": "b7ab05eff77556ee6646fd8733c89b419fc3b469bca11109bc101d2424192fdc",
-  "overlay_sha256": "22779e4e48b94a9560a486815e575b364f02d92dd5cafe4b299d01a0c260fa96",
-  "output_sha256": "7d1ebc0774d3d33dd0069bfdefbf860acf5d6e3b7824ea797633541c6c1e1e7d",
+  "overlay_sha256": "7eede4dc1e842ca708fa9bf82b768cdabe2c4b93071356ead5b2c3bb69b3b79c",
+  "output_sha256": "653d9759952f11cebcff999aa31115b44ac232b37ab6bcb5ccebcdada47fc81c",
   "boundary": "Original provenance inventory retained unchanged; this reconciled view changes only acquisition/source-status metadata. Frozen roles and all persistence-fit locks remain unchanged."
 }
