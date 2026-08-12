@@ -1,0 +1,36 @@
+name: Audit Broeils 1992 Groningen thesis
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/audit_br92_groningen_thesis.yml
+      - scripts/stationary/audit_br92_groningen_thesis.py
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit current Groningen thesis deposit
+        run: python scripts/stationary/audit_br92_groningen_thesis.py
+      - name: Commit thesis audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add validation/stationary/br92_groningen_thesis_audit_v1.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Audit Broeils 1992 Groningen thesis source"
+            git pull --rebase origin main
+            git push
+          fi
