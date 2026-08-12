@@ -1,0 +1,60 @@
+{
+  "status": "WEVERS1986_HI_PROFILE_AUDIT_COMPLETE",
+  "source": "Wevers, van der Kruit & Allen 1986, A&AS 66, 505-662",
+  "bibcode": "1986A&AS...66..505W",
+  "title": "The Palomar-Westerbork survey of northern spiral galaxies",
+  "immediate_be91_targets": [
+    "NGC2903",
+    "NGC6503"
+  ],
+  "same_atlas_cross_reference_targets": [
+    "NGC5033",
+    "NGC5371"
+  ],
+  "transport_attempts": [
+    {
+      "url": "https://articles.adsabs.harvard.edu/pdf/1986A%26AS...66..505W",
+      "status": "fetched",
+      "final_url": "https://articles.adsabs.harvard.edu/pdf/1986A%26AS...66..505W",
+      "content_type": "application/pdf",
+      "bytes": 13039452,
+      "prefix_hex": "255044462d312e340a25e7f3cfd30a38",
+      "sha256": "0ccd85b0ddd3b9caab9ce218272b1e9b64adbfbca3f3fd00d69eca0e6a777522"
+    }
+  ],
+  "pdf_recovered": true,
+  "recovered_url": "https://articles.adsabs.harvard.edu/pdf/1986A%26AS...66..505W",
+  "pdf_sha256": "0ccd85b0ddd3b9caab9ce218272b1e9b64adbfbca3f3fd00d69eca0e6a777522",
+  "pdf_audit": {
+    "pages": 157,
+    "native_text_characters": 3140,
+    "targets": [
+      {
+        "galaxy": "NGC2903",
+        "n_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC6503",
+        "n_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC5033",
+        "n_pages": 0,
+        "pages": []
+      },
+      {
+        "galaxy": "NGC5371",
+        "n_pages": 0,
+        "pages": []
+      }
+    ],
+    "targets_found": [],
+    "global_profile_language_pages": [],
+    "target_native_numeric_table_candidates": [],
+    "graphics_summary_on_target_neighbor_pages": []
+  },
+  "promotion_rule": "Only native machine-readable/tabular values or unambiguous vector profile geometry may be promoted. Raster atlas panels are not digitized.",
+  "boundary": "Acquisition/provenance only; no OCR, raster digitization, helium/distance normalization, persistence fitting, or blind-outcome inspection."
+}
