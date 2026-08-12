@@ -1,0 +1,493 @@
+{
+  "status": "VERHEIJEN2001_UMA_PUBLIC_ROUTE_AUDIT_COMPLETE",
+  "source": "Verheijen & Sancisi 2001 A&A 370 765; arXiv astro-ph/0101404; CDS J/A+A/370/765",
+  "n_priority_frozen_galaxies": 27,
+  "priority_role_counts": {
+    "calibration": 19,
+    "blind": 8
+  },
+  "priority_galaxies": [
+    "NGC3726",
+    "NGC3769",
+    "NGC3877",
+    "NGC3893",
+    "NGC3917",
+    "NGC3949",
+    "NGC3953",
+    "NGC3972",
+    "NGC3992",
+    "NGC4010",
+    "NGC4013",
+    "NGC4051",
+    "NGC4085",
+    "NGC4088",
+    "NGC4100",
+    "NGC4138",
+    "NGC4157",
+    "NGC4183",
+    "NGC4217",
+    "UGC06399",
+    "UGC06667",
+    "UGC06818",
+    "UGC06917",
+    "UGC06923",
+    "UGC06930",
+    "UGC06983",
+    "UGC07089"
+  ],
+  "arxiv_bytes": 360466,
+  "n_arxiv_files": 12,
+  "n_vector_files": 11,
+  "n_raster_files": 0,
+  "n_data_like_files": 0,
+  "vector_files": [
+    {
+      "name": "UMaHImap.ps",
+      "bytes": 366172,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig1.ps",
+      "bytes": 54355,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig2.ps",
+      "bytes": 72322,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig3.ps",
+      "bytes": 60342,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig4.ps",
+      "bytes": 51618,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig5.ps",
+      "bytes": 80934,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig6.ps",
+      "bytes": 39232,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig7.ps",
+      "bytes": 29384,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig8.ps",
+      "bytes": 41339,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "figA01a.ps",
+      "bytes": 316409,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "figA01b.ps",
+      "bytes": 210189,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    }
+  ],
+  "data_like_files": [],
+  "candidate_named_assets": [
+    {
+      "name": "UMaHImap.ps",
+      "bytes": 366172,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig1.ps",
+      "bytes": 54355,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig2.ps",
+      "bytes": 72322,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig3.ps",
+      "bytes": 60342,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig4.ps",
+      "bytes": 51618,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig5.ps",
+      "bytes": 80934,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig6.ps",
+      "bytes": 39232,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig7.ps",
+      "bytes": 29384,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "fig8.ps",
+      "bytes": 41339,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "figA01a.ps",
+      "bytes": 316409,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    },
+    {
+      "name": "figA01b.ps",
+      "bytes": 210189,
+      "suffix": ".ps",
+      "vector": true,
+      "raster": false
+    }
+  ],
+  "text_hits": [
+    {
+      "file": "paper.tex",
+      "line": 39,
+      "text": "rotation curves is presented in an atlas together with HI channel maps,"
+    },
+    {
+      "file": "paper.tex",
+      "line": 40,
+      "text": "21cm continuum maps, global HI profiles, radial HI surface density"
+    },
+    {
+      "file": "paper.tex",
+      "line": 76,
+      "text": "generally inferred from the width of its global HI profile and often"
+    },
+    {
+      "file": "paper.tex",
+      "line": 79,
+      "text": "of the HI profile is a complicated convolution of the 2-dimensional"
+    },
+    {
+      "file": "paper.tex",
+      "line": 105,
+      "text": "presented in the form of an atlas. Multi-band optical and near-infrared"
+    },
+    {
+      "file": "paper.tex",
+      "line": 123,
+      "text": "the HI atlas is described in Section 6 with details about the various"
+    },
+    {
+      "file": "paper.tex",
+      "line": 124,
+      "text": "elements of the atlas pages. The HI properties of the Ursa Major cluster"
+    },
+    {
+      "file": "paper.tex",
+      "line": 528,
+      "text": "tabulated in the atlas along with the data. What follows is a brief"
+    },
+    {
+      "file": "paper.tex",
+      "line": 666,
+      "text": "      $^m$ : & \\multicolumn{2}{l}{line width directly measured from the published HI profile.} \\\\"
+    },
+    {
+      "file": "paper.tex",
+      "line": 744,
+      "text": "\\subsection{The HI channel maps and the global HI profiles}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 757,
+      "text": "as the synthesized beam. The global HI profiles were derived by"
+    },
+    {
+      "file": "paper.tex",
+      "line": 761,
+      "text": "global HI profile varies as well.  The noise on the global HI profile"
+    },
+    {
+      "file": "paper.tex",
+      "line": 946,
+      "text": "  \\resizebox{\\hsize}{!}{\\includegraphics{fig1.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 969,
+      "text": "\\subsection{The radial HI surface density profiles}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 972,
+      "text": "surface density profiles by azimuthally averaging in concentric"
+    },
+    {
+      "file": "paper.tex",
+      "line": 980,
+      "text": "to zero. Finally, the entire radial profile was scaled by the total HI"
+    },
+    {
+      "file": "paper.tex",
+      "line": 981,
+      "text": "mass as derived from the global HI profile. No attempt was made to"
+    },
+    {
+      "file": "paper.tex",
+      "line": 984,
+      "text": "This method for extracting the surface density profiles from integrated"
+    },
+    {
+      "file": "paper.tex",
+      "line": 992,
+      "text": "was made to estimate the errors on the radial HI surface density"
+    },
+    {
+      "file": "paper.tex",
+      "line": 1116,
+      "text": "of N3718 and N4138 are motivated in the notes on the atlas pages of"
+    },
+    {
+      "file": "paper.tex",
+      "line": 1973,
+      "text": " \\resizebox{\\hsize}{!}{\\includegraphics{fig2.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2119,
+      "text": "luminosities and global HI profiles of galaxies. In general, the"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2171,
+      "text": " \\resizebox{\\hsize}{!}{\\includegraphics{fig3.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2293,
+      "text": "  \\resizebox{\\hsize}{!}{\\includegraphics{fig4.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2294,
+      "text": "  \\caption{Layout of the HI atlas pages for the 30 galaxies with fully"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2304,
+      "text": "\\section{The atlas}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2306,
+      "text": "The atlas is presented in Appendix B and consists of two parts. The"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2323,
+      "text": "first part of the atlas.  The data for each of the 13 galaxies in the"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2324,
+      "text": "second part of the atlas are presented on a single page which contains"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2379,
+      "text": "global HI profile.  A significant offset from the center could indicate"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2383,
+      "text": "\\noindent\\textsf{\\textbf{Surface density profile --}} The open and"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2402,
+      "text": "atlas. The two vertical arrows show where the ellipse with major axis"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2620,
+      "text": "of the global HI profile corrected for instrumental broadening,"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2627,
+      "text": "  \\resizebox{\\hsize}{!}{\\includegraphics{fig5.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2648,
+      "text": "  \\resizebox{\\hsize}{!}{\\includegraphics{fig6.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2676,
+      "text": "surface density of 1 M$_{\\odot}$pc$^{-2}$, measured from the radial"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2677,
+      "text": "surface density profiles. \\\\"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2715,
+      "text": "disks of lower surface density. In the Hydra Cluster McMahon"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2757,
+      "text": "\\subsection{Sizes of HI disks and radial surface density profiles}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2769,
+      "text": "(defined at an HI surface density of 1 M$_\\odot$pc$^{-2}$) to the"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2780,
+      "text": "This implies a nearly constant mean HI surface density regardless of"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2786,
+      "text": "  \\resizebox{\\hsize}{!}{\\includegraphics{fig7.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2892,
+      "text": "  \\resizebox{\\hsize}{!}{\\includegraphics{fig8.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2893,
+      "text": "  \\caption{Azimuthally averaged deprojected radial HI surface density"
+    },
+    {
+      "file": "paper.tex",
+      "line": 2962,
+      "text": "comments provided on the atlas pages. It should be realized that the"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3479,
+      "text": "\\section{The HI Atlas}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3484,
+      "text": "  \\resizebox{\\hsize}{!}{\\includegraphics{UMaHImap.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3498,
+      "text": "%  \\resizebox{\\hsize}{!}{\\includegraphics{UMaHIbwmap.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3512,
+      "text": "  \\resizebox{!}{\\vsize}{\\includegraphics{figA01a.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3519,
+      "text": "  \\resizebox{!}{\\vsize}{\\includegraphics{figA01b.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3527,
+      "text": "%  \\resizebox{!}{\\vsize}{\\includegraphics{figA02a.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3534,
+      "text": "%  \\resizebox{!}{\\vsize}{\\includegraphics{figA02b.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3542,
+      "text": "%  \\resizebox{!}{\\vsize}{\\includegraphics{figA03a.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3549,
+      "text": "% \\resizebox{!}{\\vsize}{\\includegraphics{figA03b.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3557,
+      "text": "%  \\resizebox{!}{\\vsize}{\\includegraphics{figA04a.ps}}"
+    },
+    {
+      "file": "paper.tex",
+      "line": 3564,
+      "text": "%  \\resizebox{!}{\\vsize}{\\includegraphics{figA04b.ps}}"
+    }
+  ],
+  "cds_known_tables": [
+    "table1: UMa membership/sample (52 rows)",
+    "table2: photometry (52 rows)",
+    "table3: global HI widths/fluxes comparison (57 rows)",
+    "table4: rotation curves (437 rows)",
+    "table5: HI synthesis literature/results (43 rows)"
+  ],
+  "interpretation": "The paper explicitly publishes radial HI surface-density profiles in its atlas, but CDS does not expose them as a numeric radial-SigmaHI table. This audit determines whether the arXiv package supplies vector/profile assets suitable for reproducible extraction.",
+  "boundary": "Acquisition-route audit only. No raster digitization, source normalization, helium conversion, persistence fitting, or blind-outcome inspection."
+}
