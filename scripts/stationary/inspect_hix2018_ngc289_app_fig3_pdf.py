@@ -35,17 +35,10 @@ def main():
         item={'i':i,'type':typ,'color':color,'fill':fill,'width':x.get('width'),'closePath':x.get('closePath'),
               'rect':[round(rect.x0,3),round(rect.y0,3),round(rect.x1,3),round(rect.y1,3)] if rect else None,
               'n_items':len(x.get('items',[]))}
-        # retain compact primitive endpoints for small paths likely markers/lines
         if len(x.get('items',[]))<=8:
-            prim=[]
-            for z in x.get('items',[]):
-                vals=[]
-                for v in z:
-                    if hasattr(v,'x') and hasattr(v,'y'): vals.append([round(v.x,3),round(v.y,3)])
-                    elif hasattr(v,'x0') and hasattr(v,'y0'): vals.append([round(v.x0,3),round(v.y0,3),round(v.x1,3),round(v.y1,3)])
-                    else: vals.append(v)
-                prim.append(vals)
-            item['items']=prim
+            # PyMuPDF primitives may contain Point/Rect/Quad objects; default=str below
+            # preserves them for audit without executing or rasterizing anything.
+            item['items']=x.get('items',[])
         ds.append(item)
     imgs=[]
     for im in p.get_images(full=True):
@@ -62,12 +55,12 @@ def main():
             'stroke_color_counts':dict(color_counts),'fill_color_counts':dict(fill_counts),
             'drawings':ds,
             'boundary':'Static PDF structure only; no OCR/raster digitization or source execution.'}
-    OUT.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
+    OUT.write_text(json.dumps(result,indent=2,default=str)+'\n',encoding='utf-8')
     lines=[f"status={result['status']}",f"member={MEMBER} bytes={len(b)} sha256={sha(b)}",f"page_rect={result['page_rect']}",
            f"words={len(words)} images={len(imgs)} drawings={len(drawings)}",'IMAGES '+json.dumps(imgs),
            'STROKES '+json.dumps(dict(color_counts),sort_keys=True),'FILLS '+json.dumps(dict(fill_counts),sort_keys=True),'TYPES '+json.dumps(dict(type_counts),sort_keys=True)]
     for w in words: lines.append('WORD '+json.dumps(w,ensure_ascii=False))
-    for x in ds: lines.append('DRAW '+json.dumps(x,ensure_ascii=False))
+    for x in ds: lines.append('DRAW '+json.dumps(x,ensure_ascii=False,default=str))
     TXT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print(json.dumps({'status':result['status'],'words':len(words),'images':len(imgs),'drawings':len(drawings),'member_bytes':len(b),'outputs':[str(OUT),str(TXT)]},indent=2))
 if __name__=='__main__':main()
