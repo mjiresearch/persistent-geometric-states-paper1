@@ -1,0 +1,21 @@
+galaxy,stationary_role,source_tex_line,radius_arcsec,radius_kpc_source_paper,vrot_km_s,vrot_err_km_s,position_angle_deg,inclination_deg,sigma_star_36_msun_pc2,sigma_star_36_err_msun_pc2,sigma_star_45_msun_pc2,sigma_star_45_err_msun_pc2,sigma_star_combined_msun_pc2,sigma_star_combined_err_msun_pc2,sigma_gas_msun_pc2,sigma_gas_err_msun_pc2,helium_status,source_table
+NGC0300,calibration,261,100,0.92,43.3,4.7,290.6,39.9,45.4,5.9,41.8,6.1,43.6,4.3,6.3,0.8,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,262,200,1.84,66.5,3.1,289.3,40.5,24.3,3.3,22.8,3.5,23.5,2.4,7.4,1.2,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,263,300,2.76,75.4,2.7,289.5,42.6,10.8,1.6,10.1,1.7,10.4,1.2,7,1.6,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,264,400,3.68,80.3,2.1,290.2,44.6,6.3,1.1,6.2,1.2,6.3,0.8,7.1,1.7,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,265,500,4.61,83.5,2.2,289.9,45.8,3.7,1,3.7,0.9,3.7,0.7,7.2,1.5,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,266,600,5.53,88.4,2.9,290.5,46.5,1.5,0.7,1.7,0.6,1.6,0.4,6.8,2,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,267,700,6.45,92.2,3.3,293.2,49,0.5,0.4,0.5,0.5,0.5,0.3,4.8,1.8,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,268,800,7.37,95.7,3.3,297.8,51,0.2,0.4,0.1,0.6,0.1,0.3,3.5,1.5,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,269,900,8.29,96.8,3.1,304.4,51.3,0.1,0.4,-0.1,0.4,0,0.3,2.7,1.4,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,270,1000,9.21,98.8,3.1,311.1,49.9,0.1,0.4,-0.1,0.5,0,0.3,2.1,1,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,271,1100,10.13,98.3,3.8,316.4,49.3,0,0.5,-0.1,0.5,0,0.3,1.6,0.6,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,272,1200,11.05,95.4,3.5,319.4,49.7,0,0.6,0.1,0.5,0,0.4,1.5,0.6,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,273,1300,11.98,92.8,3,321.6,49.9,-0.1,0.5,0,0.4,0,0.3,1.3,0.5,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,274,1400,12.9,90.7,3.3,324.2,48.9,0,0.5,0.1,0.5,0,0.4,1.1,0.4,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,275,1500,13.82,89.1,3.3,327.1,47,,,,,,,0.8,0.3,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,276,1600,14.74,87.8,2.9,329.6,46.6,,,,,,,0.6,0.3,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,277,1700,15.66,88.4,3.4,331.4,45.3,,,,,,,0.4,0.2,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,278,1800,16.58,89.1,3.8,331.9,44.3,,,,,,,0.3,0.1,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,279,1900,17.5,87.3,3.1,332,42.7,,,,,,,0.2,0.1,already includes helium x1.4,Westmeier et al. 2011 Table 2
+NGC0300,calibration,280,2000,18.42,82.7,2.7,331.7,43.3,,,,,,,0.1,0.1,already includes helium x1.4,Westmeier et al. 2011 Table 2

@@ -1,0 +1,36 @@
+{
+  "status": "CP90_WESTMEIER2011_NGC300_PROFILE_EXTRACTED",
+  "source": "Westmeier, Braun & Koribalski 2011 MNRAS 410 2217; arXiv:1009.0317",
+  "source_package_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/1009.0317",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/1009.0317",
+      "content_type": "application/gzip",
+      "bytes": 2549574
+    }
+  ],
+  "source_package_sha256": "fde0e01486ef70c889eed2ea17ca345333f9bc7b55a659e18dee831f782c4e2a",
+  "source_tex_sha256": "67869ecde981266f79093ff0b1c57854b6a6ea776c8d2508e092028a64c1e1db",
+  "source_table": "Table 2 / tab_parameters",
+  "profile_csv": "data/stationary/source_reconstruction/westmeier2011_ngc300_gas_profile_v1.csv",
+  "n_rows": 20,
+  "radius_arcsec_first": 100.0,
+  "radius_arcsec_last": 2000.0,
+  "radius_kpc_first": 0.92,
+  "radius_kpc_last": 18.42,
+  "sigma_gas_first": 6.3,
+  "sigma_gas_last": 0.1,
+  "n_rows_with_missing_stellar_fields": 6,
+  "helium_status": "Sigma_gas already includes the source paper factor f=1.4 for helium.",
+  "provenance_rule": "Exact native LaTeX Table-2 values; later deeper ATCA public replacement for the CP90/Lelli NGC300 acquisition branch, not a numerical extraction of Puche et al. 1990.",
+  "qc": {
+    "twenty_rows": true,
+    "100_arcsec_grid_100_to_2000": true,
+    "paper_radius_endpoints_match": true,
+    "all_sigma_gas_present_nonnegative": true,
+    "inner_sigma_near_7_including_helium": true,
+    "outer_profile_declines": true
+  },
+  "boundary": "No raster digitization, map/cube reconstruction, re-fitting, common-distance renormalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
