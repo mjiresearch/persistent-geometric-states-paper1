@@ -3,8 +3,8 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 32,
-  "n_deferred_or_redirected_reference_families": 12,
+  "n_actionable_reference_families": 31,
+  "n_deferred_or_redirected_reference_families": 13,
   "top_15_actionable_reference_families": [
     {
       "sparc_ref_id": "dB02",
@@ -37,22 +37,6 @@
       "bibcode": "...................",
       "comment": "1987, PhD thesis, University of Groningen",
       "galaxies": "NGC2903;NGC5033;NGC5371;NGC6503"
-    },
-    {
-      "sparc_ref_id": "VH93",
-      "n_untouched_frozen_galaxies": 3,
-      "n_calibration": 3,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "van der Hulst et al.",
-      "bibcode": "1993AJ....106..548V",
-      "comment": "",
-      "galaxies": "UGC00128;UGC05005;UGC06614"
     },
     {
       "sparc_ref_id": "Fr11",
@@ -245,6 +229,22 @@
       "bibcode": "1990AJ....100..648J",
       "comment": "",
       "galaxies": "NGC3109"
+    },
+    {
+      "sparc_ref_id": "Le12",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Lelli et al.",
+      "bibcode": "2012A&A...544A.145L",
+      "comment": "",
+      "galaxies": "UGC04483"
     }
   ],
   "deferred_or_redirected_families": [
@@ -423,6 +423,22 @@
       "bibcode": "2001AJ....122.2396D",
       "comment": "",
       "galaxies": "D631-7;F571-8;UGC05750;UGC06614;UGC11557"
+    },
+    {
+      "sparc_ref_id": "VH93",
+      "n_untouched_frozen_galaxies": 3,
+      "n_calibration": 3,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "direct_radial_hi_profiles_public_but_current_profile_values_are_figure_scan_only",
+      "disposition_artifact": "validation/stationary/VH93_PUBLIC_PROFILE_ROUTE_AUDIT_V1.md",
+      "reopen_rule": "new_machine_readable_radial_table_calibrated_map_cube_or_exact_vector_republication",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "van der Hulst et al.",
+      "bibcode": "1993AJ....106..548V",
+      "comment": "",
+      "galaxies": "UGC00128;UGC05005;UGC06614"
     },
     {
       "sparc_ref_id": "dB96",
