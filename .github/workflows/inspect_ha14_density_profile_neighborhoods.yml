@@ -1,0 +1,30 @@
+name: Inspect Ha14 density profile neighborhoods
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/inspect_ha14_density_profile_neighborhoods.py'
+      - '.github/workflows/inspect_ha14_density_profile_neighborhoods.yml'
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/inspect_ha14_density_profile_neighborhoods.py
+      - name: Commit inspection
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ha14_density_profile_neighborhoods_v1.json
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Inspect Ha14 density profile neighborhoods'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
