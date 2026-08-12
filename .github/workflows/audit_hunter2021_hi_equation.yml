@@ -1,0 +1,46 @@
+name: Audit Hunter 2021 HI profile equation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/audit_hunter2021_hi_equation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch arXiv source and print equation context
+        run: |
+          python - <<'PY'
+          import io, re, tarfile, urllib.request
+          url='https://export.arxiv.org/e-print/2012.00146'
+          req=urllib.request.Request(url,headers={'User-Agent':'PersistenceFrameworkPaperI/1.0'})
+          raw=urllib.request.urlopen(req,timeout=60).read()
+          tf=tarfile.open(fileobj=io.BytesIO(raw),mode='r:*')
+          hits=[]
+          for m in tf.getmembers():
+              if not m.isfile() or not m.name.lower().endswith(('.tex','.txt')):
+                  continue
+              text=tf.extractfile(m).read().decode('utf-8','ignore')
+              lines=text.splitlines()
+              for i,line in enumerate(lines):
+                  ll=line.lower()
+                  if 'sersic' in ll or 's\\' in ll and 'r_0' in ll or ('sigma' in ll and 'r_0' in ll and 'exp' in ll):
+                      a=max(0,i-3); b=min(len(lines),i+4)
+                      hits.append((m.name,i+1,'\n'.join(lines[a:b])))
+          print('HITS',len(hits))
+          for name,ln,ctx in hits[:40]:
+              print('\n---',name,ln,'---')
+              print(ctx)
+          if not hits:
+              raise SystemExit('No equation context found in arXiv source')
+          PY
