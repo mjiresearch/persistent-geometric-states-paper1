@@ -1,0 +1,4925 @@
+{
+  "status": "SA96_ORIGINAL_SOURCE_PROVENANCE_AUDIT_COMPLETE",
+  "source": "Sanders 1996 ApJ 473 117-129; arXiv astro-ph/9606089",
+  "arxiv_url": "https://export.arxiv.org/e-print/astro-ph/9606089",
+  "content_type": "application/gzip",
+  "archive_bytes": 111622,
+  "archive_sha256": "9abb96bf10190539feae9629f018b71990e4db8fa42127a8a32987895ea2a702",
+  "files": [
+    {
+      "name": "fg1a_rc.ps",
+      "bytes": 46257,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fg1b_rc.ps",
+      "bytes": 42270,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fg1c_rc.ps",
+      "bytes": 68281,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fg1d_rc.ps",
+      "bytes": 34536,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fig2_rc.ps",
+      "bytes": 13859,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fig3_rc.ps",
+      "bytes": 17158,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fig4_rc.ps",
+      "bytes": 15437,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fig5_rc.ps",
+      "bytes": 12822,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fig6_rc.ps",
+      "bytes": 13714,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fig7_rc.ps",
+      "bytes": 11333,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fig8_rc.ps",
+      "bytes": 54520,
+      "suffix": ".ps"
+    },
+    {
+      "name": "rotcur_pp.tex",
+      "bytes": 63951,
+      "suffix": ".tex"
+    }
+  ],
+  "target_count": 13,
+  "targets_with_hits": [
+    "NGC0055",
+    "NGC0247",
+    "NGC0300",
+    "NGC0801",
+    "NGC1003",
+    "NGC2683",
+    "NGC2998",
+    "NGC5033",
+    "NGC5371",
+    "NGC5585",
+    "NGC5907",
+    "NGC6674",
+    "UGC02885"
+  ],
+  "target_contexts": {
+    "NGC0055": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 543,
+            "context_start": 539,
+            "context_end": 547,
+            "lines": [
+              {
+                "line": 539,
+                "text": "seen that the general trend of decreasing M/L with increasing blueness"
+              },
+              {
+                "line": 540,
+                "text": "is present in the MOND values of ${\\rm M^*/L_B}$."
+              },
+              {
+                "line": 541,
+                "text": ""
+              },
+              {
+                "line": 542,
+                "text": "There are, however, five galaxies in Fig.\\ 3 with implied values of "
+              },
+              {
+                "line": 543,
+                "text": "${\\rm M^*/L_B}$ less than 0.25:  NGC 55, DDO 168, NGC 1003, IC 2574, "
+              },
+              {
+                "line": 544,
+                "text": "and DDO 154.  While such low mass-to-light ratios are possible in extreme "
+              },
+              {
+                "line": 545,
+                "text": "starburst galaxies, it should be noted that all of these objects are"
+              },
+              {
+                "line": 546,
+                "text": "nearby ($<$ 4 Mpc) gas-rich dwarfs.  For such objects "
+              },
+              {
+                "line": 547,
+                "text": "the implied ${\\rm M^*/L}$ values are"
+              }
+            ]
+          },
+          {
+            "hit_line": 782,
+            "context_start": 778,
+            "context_end": 786,
+            "lines": [
+              {
+                "line": 778,
+                "text": ""
+              },
+              {
+                "line": 779,
+                "text": "MOND does quite well in reproducing the rotation curves of the "
+              },
+              {
+                "line": 780,
+                "text": "pure disk systems (e.g. M 33); in particular, the scheme works well for the"
+              },
+              {
+                "line": 781,
+                "text": "low surface-brightness galaxy, UGC 128, and for the gas rich"
+              },
+              {
+                "line": 782,
+                "text": "systems such as NGC 2915, NGC 55 and IC 2574.  This not only lends support"
+              },
+              {
+                "line": 783,
+                "text": "to MOND but also to the assumptions which underly the whole procedure,"
+              },
+              {
+                "line": 784,
+                "text": "such as constancy of the mass-to-light ratio within the disk component of"
+              },
+              {
+                "line": 785,
+                "text": "any given galaxy and"
+              },
+              {
+                "line": 786,
+                "text": "the absence of a significant contribution to the detectable mass"
+              }
+            ]
+          },
+          {
+            "hit_line": 1016,
+            "context_start": 1012,
+            "context_end": 1020,
+            "lines": [
+              {
+                "line": 1012,
+                "text": "  NGC 7793 & Scd & 3.1 & .34 & 0.17 & 6.7 & 0.096 & 100 & 0.48 & 16,20 \\\\"
+              },
+              {
+                "line": 1013,
+                "text": "  NGC 300 & Sc & 2.15 & 0.3 & & 12.7 & 0.13 & 90 & 0.21 & 15,16 \\\\"
+              },
+              {
+                "line": 1014,
+                "text": "  NGC 5585 & SBcd & 7.6 & 0.24 & 0.14 & 12 & 0.25 & 90 & 0.22 & 21 \\\\"
+              },
+              {
+                "line": 1015,
+                "text": "  NGC 2915 & BCD & 5.6 & 0.036 &  & 15 & 0.1 & 90 & 0.17 & 22,23 \\\\"
+              },
+              {
+                "line": 1016,
+                "text": "  NGC 55 & SBm & 1.6 & 0.43 &  & 9 & 0.13 & 86 & 0.27 & 24 \\\\"
+              },
+              {
+                "line": 1017,
+                "text": "  IC 2574 & SBm & 3.0 & 0.08 & 0.022 & 8 & 0.067 & 66 & 0.18 & 25 \\\\"
+              },
+              {
+                "line": 1018,
+                "text": "  DDO 168 & Irr & 3.8 & 0.022 & & 3.7 & .032 & 54 & 0.26 & 3 \\\\"
+              },
+              {
+                "line": 1019,
+                "text": "\\tableline"
+              },
+              {
+                "line": 1020,
+                "text": "\\end{tabular}"
+              }
+            ]
+          },
+          {
+            "hit_line": 1099,
+            "context_start": 1095,
+            "context_end": 1103,
+            "lines": [
+              {
+                "line": 1095,
+                "text": "  NGC  300 &  0.22 &  0.73 &     &     & 0.7  & 1.2  &  \\\\"
+              },
+              {
+                "line": 1096,
+                "text": "  NGC 5585 &  0.12 &  0.50 &     &     & 0.5  & 1.5  & 2.6  \\\\"
+              },
+              {
+                "line": 1097,
+                "text": "  NGC 2915 &  0.25 &  6.9  &     &     & 6.9  & 9.7  &  \\\\"
+              },
+              {
+                "line": 1098,
+                "text": "  UGC ${\\rm 2259^*}$ &  0.22 &  2.1  &     &     & 2.1  & 2.6  &  \\\\"
+              },
+              {
+                "line": 1099,
+                "text": "  NGC   55 &  0.10 &  0.23 &     &     & 0.2  & 0.5  &  \\\\"
+              },
+              {
+                "line": 1100,
+                "text": "  NGC ${\\rm 1560^*}$ &  0.034&  1.0  &     &     & 1.0  & 3.8  & 2.1  \\\\"
+              },
+              {
+                "line": 1101,
+                "text": "  IC  2574 &  0.01 &  0.13 &     &     & 0.1  & 1.0  & 3.5  \\\\"
+              },
+              {
+                "line": 1102,
+                "text": "  DDO  ${\\rm 170^*}$ &  0.024 &  1.5 &     &     &  1.5 &  5.3 &  \\\\"
+              },
+              {
+                "line": 1103,
+                "text": "  NGC ${\\rm 3109^*}$ &  0.005 & 0.1  &     &     & 0.1  & 1.4  &  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC0247": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 1010,
+            "context_start": 1006,
+            "context_end": 1014,
+            "lines": [
+              {
+                "line": 1006,
+                "text": "  NGC 2683 & Sb & 5.1 & 0.6 &  & 18 & 0.05  & 155 & 0.43 & 11,12 \\\\"
+              },
+              {
+                "line": 1007,
+                "text": "  NGC 6946 & SABcd & 10.1 & 5.3 & & 30 & 2.7 & 160 & 0.28 & 12 \\\\"
+              },
+              {
+                "line": 1008,
+                "text": "  UGC 128 & LSB & 56.4 & .52 &  & 40 & 0.91 & 130 & 0.14 & 13,14 \\\\"
+              },
+              {
+                "line": 1009,
+                "text": "  NGC 1003 & Scd & 11.8 & 1.5 & 0.45 & 33 & 0.82 & 110 & 0.12 & 3,4 \\\\"
+              },
+              {
+                "line": 1010,
+                "text": "  NGC 247 & SBc & 2.8 & .35 & 0.22 & 11 & 0.13 & 107 & 0.34 & 15,16 \\\\"
+              },
+              {
+                "line": 1011,
+                "text": "   M 33 & Sc & 0.84 & 0.74 & 0.43 & 8.3 & 0.13 & 107 & 0.45 & 17,18,19 \\\\"
+              },
+              {
+                "line": 1012,
+                "text": "  NGC 7793 & Scd & 3.1 & .34 & 0.17 & 6.7 & 0.096 & 100 & 0.48 & 16,20 \\\\"
+              },
+              {
+                "line": 1013,
+                "text": "  NGC 300 & Sc & 2.15 & 0.3 & & 12.7 & 0.13 & 90 & 0.21 & 15,16 \\\\"
+              },
+              {
+                "line": 1014,
+                "text": "  NGC 5585 & SBcd & 7.6 & 0.24 & 0.14 & 12 & 0.25 & 90 & 0.22 & 21 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1092,
+            "context_start": 1088,
+            "context_end": 1096,
+            "lines": [
+              {
+                "line": 1088,
+                "text": "  NGC ${\\rm 2403^*}$ &  1.1 &   1.4 &      &     & 1.4 &  2.0 &  1.6  \\\\"
+              },
+              {
+                "line": 1089,
+                "text": "  UGC  128 &  0.57 &   1.1 &     &     &  1.1 &  2.8 &  \\\\"
+              },
+              {
+                "line": 1090,
+                "text": "  NGC ${\\rm 6503^*}$ &  0.83 &  1.7 &      &     & 1.7  & 2.2  & 2.3 \\\\"
+              },
+              {
+                "line": 1091,
+                "text": "  NGC 1003 &  0.30 &  0.2 &      &     & 0.2  & 0.7  & 2.5  \\\\"
+              },
+              {
+                "line": 1092,
+                "text": "  NGC  247 &  0.40 &  1.1 &      &     & 1.1  & 1.5  & 2.3  \\\\"
+              },
+              {
+                "line": 1093,
+                "text": "  M     33 &  0.48 &  0.65 &     &     & 0.6  & 0.8  & 1.4  \\\\     "
+              },
+              {
+                "line": 1094,
+                "text": "  NGC 7793 &  0.41 &  1.20 &     &     & 1.2  & 1.5  & 2.8   \\\\"
+              },
+              {
+                "line": 1095,
+                "text": "  NGC  300 &  0.22 &  0.73 &     &     & 0.7  & 1.2  &  \\\\"
+              },
+              {
+                "line": 1096,
+                "text": "  NGC 5585 &  0.12 &  0.50 &     &     & 0.5  & 1.5  & 2.6  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC0300": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 192,
+            "context_start": 188,
+            "context_end": 196,
+            "lines": [
+              {
+                "line": 188,
+                "text": "parameter of the MOND fit. The Hubble law distance is taken "
+              },
+              {
+                "line": 189,
+                "text": "for the more distant objects"
+              },
+              {
+                "line": 190,
+                "text": "with ${\\rm H_o = 75\\,\\, km/s/Mpc}$ corrected for local group motion."
+              },
+              {
+                "line": 191,
+                "text": "Recently determined Cephied distances are taken for M 33 (\\cite{mf91})"
+              },
+              {
+                "line": 192,
+                "text": "and NGC 300 (\\cite{feta92}).  Distances to other nearby galaxies"
+              },
+              {
+                "line": 193,
+                "text": "(e.g. the Sculptor group galaxies) have been taken from the listed"
+              },
+              {
+                "line": 194,
+                "text": "references.  For several objects a correction for Virgo-centric "
+              },
+              {
+                "line": 195,
+                "text": "inflow was included following Kran-Korteweg (1986), but in general this"
+              },
+              {
+                "line": 196,
+                "text": "did not differ from the straight Hubble law distance by more than 10\\%. "
+              }
+            ]
+          },
+          {
+            "hit_line": 1013,
+            "context_start": 1009,
+            "context_end": 1017,
+            "lines": [
+              {
+                "line": 1009,
+                "text": "  NGC 1003 & Scd & 11.8 & 1.5 & 0.45 & 33 & 0.82 & 110 & 0.12 & 3,4 \\\\"
+              },
+              {
+                "line": 1010,
+                "text": "  NGC 247 & SBc & 2.8 & .35 & 0.22 & 11 & 0.13 & 107 & 0.34 & 15,16 \\\\"
+              },
+              {
+                "line": 1011,
+                "text": "   M 33 & Sc & 0.84 & 0.74 & 0.43 & 8.3 & 0.13 & 107 & 0.45 & 17,18,19 \\\\"
+              },
+              {
+                "line": 1012,
+                "text": "  NGC 7793 & Scd & 3.1 & .34 & 0.17 & 6.7 & 0.096 & 100 & 0.48 & 16,20 \\\\"
+              },
+              {
+                "line": 1013,
+                "text": "  NGC 300 & Sc & 2.15 & 0.3 & & 12.7 & 0.13 & 90 & 0.21 & 15,16 \\\\"
+              },
+              {
+                "line": 1014,
+                "text": "  NGC 5585 & SBcd & 7.6 & 0.24 & 0.14 & 12 & 0.25 & 90 & 0.22 & 21 \\\\"
+              },
+              {
+                "line": 1015,
+                "text": "  NGC 2915 & BCD & 5.6 & 0.036 &  & 15 & 0.1 & 90 & 0.17 & 22,23 \\\\"
+              },
+              {
+                "line": 1016,
+                "text": "  NGC 55 & SBm & 1.6 & 0.43 &  & 9 & 0.13 & 86 & 0.27 & 24 \\\\"
+              },
+              {
+                "line": 1017,
+                "text": "  IC 2574 & SBm & 3.0 & 0.08 & 0.022 & 8 & 0.067 & 66 & 0.18 & 25 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1095,
+            "context_start": 1091,
+            "context_end": 1099,
+            "lines": [
+              {
+                "line": 1091,
+                "text": "  NGC 1003 &  0.30 &  0.2 &      &     & 0.2  & 0.7  & 2.5  \\\\"
+              },
+              {
+                "line": 1092,
+                "text": "  NGC  247 &  0.40 &  1.1 &      &     & 1.1  & 1.5  & 2.3  \\\\"
+              },
+              {
+                "line": 1093,
+                "text": "  M     33 &  0.48 &  0.65 &     &     & 0.6  & 0.8  & 1.4  \\\\     "
+              },
+              {
+                "line": 1094,
+                "text": "  NGC 7793 &  0.41 &  1.20 &     &     & 1.2  & 1.5  & 2.8   \\\\"
+              },
+              {
+                "line": 1095,
+                "text": "  NGC  300 &  0.22 &  0.73 &     &     & 0.7  & 1.2  &  \\\\"
+              },
+              {
+                "line": 1096,
+                "text": "  NGC 5585 &  0.12 &  0.50 &     &     & 0.5  & 1.5  & 2.6  \\\\"
+              },
+              {
+                "line": 1097,
+                "text": "  NGC 2915 &  0.25 &  6.9  &     &     & 6.9  & 9.7  &  \\\\"
+              },
+              {
+                "line": 1098,
+                "text": "  UGC ${\\rm 2259^*}$ &  0.22 &  2.1  &     &     & 2.1  & 2.6  &  \\\\"
+              },
+              {
+                "line": 1099,
+                "text": "  NGC   55 &  0.10 &  0.23 &     &     & 0.2  & 0.5  &  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC0801": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 170,
+            "context_start": 166,
+            "context_end": 174,
+            "lines": [
+              {
+                "line": 166,
+                "text": ""
+              },
+              {
+                "line": 167,
+                "text": "This is a motley collection of galaxies observed either at"
+              },
+              {
+                "line": 168,
+                "text": "the VLA or at Westerbork, with varying degrees of precision."
+              },
+              {
+                "line": 169,
+                "text": "The sample includes"
+              },
+              {
+                "line": 170,
+                "text": "several very large and luminous galaxies such as UGC 2885 and NGC 801,"
+              },
+              {
+                "line": 171,
+                "text": "originally made famous by Rubin et al. (1985) as examples of spiral galaxies"
+              },
+              {
+                "line": 172,
+                "text": "with extended non-declining rotation curves, as well as gas-dominated"
+              },
+              {
+                "line": 173,
+                "text": "dwarfs such as IC 2574 and DDO 168 with gently rising rotation curves."
+              },
+              {
+                "line": 174,
+                "text": "There are two galaxies with distinctly declining rotation curves,"
+              }
+            ]
+          },
+          {
+            "hit_line": 217,
+            "context_start": 213,
+            "context_end": 221,
+            "lines": [
+              {
+                "line": 213,
+                "text": "to assign a separate mass-to-light ratio to the bulge component, a"
+              },
+              {
+                "line": 214,
+                "text": "decomposition of the profile into bulge and disk components is necessary."
+              },
+              {
+                "line": 215,
+                "text": "The bulge-disk decomposition given in the indicated references "
+              },
+              {
+                "line": 216,
+                "text": "is taken in the cases of NGC 5907,"
+              },
+              {
+                "line": 217,
+                "text": "NGC 3521, and NGC 2683.  In the cases of UGC 2885, NGC 801 and NGC 2998"
+              },
+              {
+                "line": 218,
+                "text": "the light distribution for the bulge is taken from the"
+              },
+              {
+                "line": 219,
+                "text": "double exponential decompositions (i.e., exponential bulge and disk) "
+              },
+              {
+                "line": 220,
+                "text": "by Andredakis and "
+              },
+              {
+                "line": 221,
+                "text": "Sanders (1994).  Additional double exponential decompositions were "
+              }
+            ]
+          },
+          {
+            "hit_line": 761,
+            "context_start": 757,
+            "context_end": 765,
+            "lines": [
+              {
+                "line": 757,
+                "text": "the Hubble law or by more direct methods (in particular Tully-Fisher "
+              },
+              {
+                "line": 758,
+                "text": "distances have not been used since these are, in effect, the MOND distances)."
+              },
+              {
+                "line": 759,
+                "text": ""
+              },
+              {
+                "line": 760,
+                "text": "For the large luminous galaxies with central bulges or light concentrations,"
+              },
+              {
+                "line": 761,
+                "text": "such as NGC 5533 and NGC 801, the MOND fits require a mass "
+              },
+              {
+                "line": 762,
+                "text": "distribution which is even more centrally concentrated than the light"
+              },
+              {
+                "line": 763,
+                "text": "distribution.  This implies (see Table 3) a"
+              },
+              {
+                "line": 764,
+                "text": "bulge M/L which is significantly larger than the disk"
+              },
+              {
+                "line": 765,
+                "text": "M/L, but the exact values depend quite critically upon"
+              }
+            ]
+          },
+          {
+            "hit_line": 1002,
+            "context_start": 998,
+            "context_end": 1006,
+            "lines": [
+              {
+                "line": 998,
+                "text": "  NGC 5533 & Sab & 54 & 5.6 &  & 74 & 3.0 & 250 & 0.27 & 3,4,5 \\\\"
+              },
+              {
+                "line": 999,
+                "text": "  NGC 6674 & SBb & 49 & 6.8 & & 69 & 3.9 & 242 & 0.28 & 3,4 \\\\"
+              },
+              {
+                "line": 1000,
+                "text": "  NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\"
+              },
+              {
+                "line": 1001,
+                "text": "  NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\ "
+              },
+              {
+                "line": 1002,
+                "text": "  NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\"
+              },
+              {
+                "line": 1003,
+                "text": "  NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\"
+              },
+              {
+                "line": 1004,
+                "text": "  NGC 5033 & Sc & 11.9 & 1.9 & 3.9 & 35 & 0.93 & 195 & 0.35 & 8,10 \\\\"
+              },
+              {
+                "line": 1005,
+                "text": "  NGC 3521 & Sbc & 8.9 & 2.4 &  & 28 & 0.63  & 175 & 0.35 & 11,12 \\\\"
+              },
+              {
+                "line": 1006,
+                "text": "  NGC 2683 & Sb & 5.1 & 0.6 &  & 18 & 0.05  & 155 & 0.43 & 11,12 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1050,
+            "context_start": 1046,
+            "context_end": 1054,
+            "lines": [
+              {
+                "line": 1046,
+                "text": "  NGC 5533 & exp & 1.7 & 1.00 & 0.42  & 3,4 \\\\"
+              },
+              {
+                "line": 1047,
+                "text": "  NGC 6674 & exp & 1.1 & 0.90 & 0.79 & 3,4 \\\\"
+              },
+              {
+                "line": 1048,
+                "text": "  NGC 5907 & Hub & 0.2 & 0.45  & 0.17 & 5  \\\\"
+              },
+              {
+                "line": 1049,
+                "text": "  NGC 2998 & exp & 1.0 & 0.49 & 0.10 & 1,2  \\\\ "
+              },
+              {
+                "line": 1050,
+                "text": "  NGC 801 & exp  & 1.1  & 0.75  & 0.35 & 1,2  \\\\"
+              },
+              {
+                "line": 1051,
+                "text": "  NGC 5371 & exp & 0.9  & 1.00  & 0.36  & 3,6  \\\\"
+              },
+              {
+                "line": 1052,
+                "text": "  NGC 3521 & $r^{1\\over 4}$ & 0.5  & 0.52  & 0.17 & 7  \\\\"
+              },
+              {
+                "line": 1053,
+                "text": "  NGC 2683 & $r^{1\\over 4}$ & 1.7  & 0.21 & 0.30  & 7  \\\\"
+              },
+              {
+                "line": 1054,
+                "text": "\\hline"
+              }
+            ]
+          },
+          {
+            "hit_line": 1080,
+            "context_start": 1076,
+            "context_end": 1084,
+            "lines": [
+              {
+                "line": 1076,
+                "text": "  NGC 6674 &  2.5 &   1.8 & 15.5 & 2.9 & 2.6 &  3.2 &  \\\\"
+              },
+              {
+                "line": 1077,
+                "text": "  NGC ${\\rm 7331^*}$ &  8.6 &   3.8 &  4.7 & 1.5 & 2.5 &  2.7 &  0.8  \\\\"
+              },
+              {
+                "line": 1078,
+                "text": "  NGC 5907 &  7.2 &   1.6 &  2.5 & 6.8 & 3.9 &  4.3 &  2.2  \\\\"
+              },
+              {
+                "line": 1079,
+                "text": "  NGC 2998 &  5.4 &   0.9 &  2.9 & 4.3 & 1.2 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1080,
+                "text": "  NGC  801 &  3.5 &   0.7 &  6.5 & 2.5 & 1.4 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1081,
+                "text": "  NGC 5371 &  6.7 &   1.4 &  4.8 & 1.8 & 1.6 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1082,
+                "text": "  NGC 5033 &  8.8 &   4.6 &      &     & 4.6 &  5.1 &  2.5  \\\\"
+              },
+              {
+                "line": 1083,
+                "text": "  NGC ${\\rm 2903^*}$ &  5.5 &   3.6 &      &     & 3.6 &  3.8 &  2.7  \\\\"
+              },
+              {
+                "line": 1084,
+                "text": "  NGC 3521 &  6.2 &   3.1 &  0.3 & 0.7 & 2.7 &      &   \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC1003": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 164,
+            "context_start": 160,
+            "context_end": 168,
+            "lines": [
+              {
+                "line": 160,
+                "text": "accurate surface photometry in at least one color band."
+              },
+              {
+                "line": 161,
+                "text": "There is much overlap with similar lists given by Broeils (1992) and"
+              },
+              {
+                "line": 162,
+                "text": "by Rhee (1996)."
+              },
+              {
+                "line": 163,
+                "text": "Most of the rotation curves here were taken directly from the literature,"
+              },
+              {
+                "line": 164,
+                "text": "but two have not yet been published (M 33, NGC 1003)"
+              },
+              {
+                "line": 165,
+                "text": "and were communicated privately."
+              },
+              {
+                "line": 166,
+                "text": ""
+              },
+              {
+                "line": 167,
+                "text": "This is a motley collection of galaxies observed either at"
+              },
+              {
+                "line": 168,
+                "text": "the VLA or at Westerbork, with varying degrees of precision."
+              }
+            ]
+          },
+          {
+            "hit_line": 543,
+            "context_start": 539,
+            "context_end": 547,
+            "lines": [
+              {
+                "line": 539,
+                "text": "seen that the general trend of decreasing M/L with increasing blueness"
+              },
+              {
+                "line": 540,
+                "text": "is present in the MOND values of ${\\rm M^*/L_B}$."
+              },
+              {
+                "line": 541,
+                "text": ""
+              },
+              {
+                "line": 542,
+                "text": "There are, however, five galaxies in Fig.\\ 3 with implied values of "
+              },
+              {
+                "line": 543,
+                "text": "${\\rm M^*/L_B}$ less than 0.25:  NGC 55, DDO 168, NGC 1003, IC 2574, "
+              },
+              {
+                "line": 544,
+                "text": "and DDO 154.  While such low mass-to-light ratios are possible in extreme "
+              },
+              {
+                "line": 545,
+                "text": "starburst galaxies, it should be noted that all of these objects are"
+              },
+              {
+                "line": 546,
+                "text": "nearby ($<$ 4 Mpc) gas-rich dwarfs.  For such objects "
+              },
+              {
+                "line": 547,
+                "text": "the implied ${\\rm M^*/L}$ values are"
+              }
+            ]
+          },
+          {
+            "hit_line": 1009,
+            "context_start": 1005,
+            "context_end": 1013,
+            "lines": [
+              {
+                "line": 1005,
+                "text": "  NGC 3521 & Sbc & 8.9 & 2.4 &  & 28 & 0.63  & 175 & 0.35 & 11,12 \\\\"
+              },
+              {
+                "line": 1006,
+                "text": "  NGC 2683 & Sb & 5.1 & 0.6 &  & 18 & 0.05  & 155 & 0.43 & 11,12 \\\\"
+              },
+              {
+                "line": 1007,
+                "text": "  NGC 6946 & SABcd & 10.1 & 5.3 & & 30 & 2.7 & 160 & 0.28 & 12 \\\\"
+              },
+              {
+                "line": 1008,
+                "text": "  UGC 128 & LSB & 56.4 & .52 &  & 40 & 0.91 & 130 & 0.14 & 13,14 \\\\"
+              },
+              {
+                "line": 1009,
+                "text": "  NGC 1003 & Scd & 11.8 & 1.5 & 0.45 & 33 & 0.82 & 110 & 0.12 & 3,4 \\\\"
+              },
+              {
+                "line": 1010,
+                "text": "  NGC 247 & SBc & 2.8 & .35 & 0.22 & 11 & 0.13 & 107 & 0.34 & 15,16 \\\\"
+              },
+              {
+                "line": 1011,
+                "text": "   M 33 & Sc & 0.84 & 0.74 & 0.43 & 8.3 & 0.13 & 107 & 0.45 & 17,18,19 \\\\"
+              },
+              {
+                "line": 1012,
+                "text": "  NGC 7793 & Scd & 3.1 & .34 & 0.17 & 6.7 & 0.096 & 100 & 0.48 & 16,20 \\\\"
+              },
+              {
+                "line": 1013,
+                "text": "  NGC 300 & Sc & 2.15 & 0.3 & & 12.7 & 0.13 & 90 & 0.21 & 15,16 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1091,
+            "context_start": 1087,
+            "context_end": 1095,
+            "lines": [
+              {
+                "line": 1087,
+                "text": "  NGC 6946 &  2.7 &   0.5 &      &     & 0.5 &  1.0 &   \\\\"
+              },
+              {
+                "line": 1088,
+                "text": "  NGC ${\\rm 2403^*}$ &  1.1 &   1.4 &      &     & 1.4 &  2.0 &  1.6  \\\\"
+              },
+              {
+                "line": 1089,
+                "text": "  UGC  128 &  0.57 &   1.1 &     &     &  1.1 &  2.8 &  \\\\"
+              },
+              {
+                "line": 1090,
+                "text": "  NGC ${\\rm 6503^*}$ &  0.83 &  1.7 &      &     & 1.7  & 2.2  & 2.3 \\\\"
+              },
+              {
+                "line": 1091,
+                "text": "  NGC 1003 &  0.30 &  0.2 &      &     & 0.2  & 0.7  & 2.5  \\\\"
+              },
+              {
+                "line": 1092,
+                "text": "  NGC  247 &  0.40 &  1.1 &      &     & 1.1  & 1.5  & 2.3  \\\\"
+              },
+              {
+                "line": 1093,
+                "text": "  M     33 &  0.48 &  0.65 &     &     & 0.6  & 0.8  & 1.4  \\\\     "
+              },
+              {
+                "line": 1094,
+                "text": "  NGC 7793 &  0.41 &  1.20 &     &     & 1.2  & 1.5  & 2.8   \\\\"
+              },
+              {
+                "line": 1095,
+                "text": "  NGC  300 &  0.22 &  0.73 &     &     & 0.7  & 1.2  &  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC2683": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 175,
+            "context_start": 171,
+            "context_end": 179,
+            "lines": [
+              {
+                "line": 171,
+                "text": "originally made famous by Rubin et al. (1985) as examples of spiral galaxies"
+              },
+              {
+                "line": 172,
+                "text": "with extended non-declining rotation curves, as well as gas-dominated"
+              },
+              {
+                "line": 173,
+                "text": "dwarfs such as IC 2574 and DDO 168 with gently rising rotation curves."
+              },
+              {
+                "line": 174,
+                "text": "There are two galaxies with distinctly declining rotation curves,"
+              },
+              {
+                "line": 175,
+                "text": "NGC 2683 and NGC 3521, observed by Casertano and van Gorkom (1991) who"
+              },
+              {
+                "line": 176,
+                "text": "emphasize this general trend in high"
+              },
+              {
+                "line": 177,
+                "text": "surface brightness galaxies. There is one recently-observed  "
+              },
+              {
+                "line": 178,
+                "text": "low surface brightness galaxy, UGC 128 (van der Hulst et al. 1993,"
+              },
+              {
+                "line": 179,
+                "text": "de Blok et al. 1995) and one blue compact galaxy, NGC 2915 (Meurer et al."
+              }
+            ]
+          },
+          {
+            "hit_line": 217,
+            "context_start": 213,
+            "context_end": 221,
+            "lines": [
+              {
+                "line": 213,
+                "text": "to assign a separate mass-to-light ratio to the bulge component, a"
+              },
+              {
+                "line": 214,
+                "text": "decomposition of the profile into bulge and disk components is necessary."
+              },
+              {
+                "line": 215,
+                "text": "The bulge-disk decomposition given in the indicated references "
+              },
+              {
+                "line": 216,
+                "text": "is taken in the cases of NGC 5907,"
+              },
+              {
+                "line": 217,
+                "text": "NGC 3521, and NGC 2683.  In the cases of UGC 2885, NGC 801 and NGC 2998"
+              },
+              {
+                "line": 218,
+                "text": "the light distribution for the bulge is taken from the"
+              },
+              {
+                "line": 219,
+                "text": "double exponential decompositions (i.e., exponential bulge and disk) "
+              },
+              {
+                "line": 220,
+                "text": "by Andredakis and "
+              },
+              {
+                "line": 221,
+                "text": "Sanders (1994).  Additional double exponential decompositions were "
+              }
+            ]
+          },
+          {
+            "hit_line": 412,
+            "context_start": 408,
+            "context_end": 416,
+            "lines": [
+              {
+                "line": 408,
+                "text": "rotation curve; i.e., because the galaxy is edge-on the exponential model"
+              },
+              {
+                "line": 409,
+                "text": "for the disk is used rather than the detailed photometry.  "
+              },
+              {
+                "line": 410,
+                "text": ""
+              },
+              {
+                "line": 411,
+                "text": ""
+              },
+              {
+                "line": 412,
+                "text": "{\\it NGC 3521 \\& NGC 2683}:  These are given by Casertano and"
+              },
+              {
+                "line": 413,
+                "text": "van Gorkom (1991) as examples of galaxies with declining rotation curves."
+              },
+              {
+                "line": 414,
+                "text": "The contribution of the gas to the Newtonian rotation curve is not"
+              },
+              {
+                "line": 415,
+                "text": "shown here because the mean radial distribution of the gas is not"
+              },
+              {
+                "line": 416,
+                "text": "given in this reference; in any case, the total gas mass, estimated from"
+              }
+            ]
+          },
+          {
+            "hit_line": 428,
+            "context_start": 424,
+            "context_end": 432,
+            "lines": [
+              {
+                "line": 424,
+                "text": "rotation curve determined from a full two-dimensional "
+              },
+              {
+                "line": 425,
+                "text": "radial velocity field.  In NGC 3521,"
+              },
+              {
+                "line": 426,
+                "text": "the distribution of HI is asymmetric, extending 20\\% further on one"
+              },
+              {
+                "line": 427,
+                "text": "side than on the other, and the velocity structure is asymmetric;"
+              },
+              {
+                "line": 428,
+                "text": "NGC 2683 is near edge-on.  Thus these galaxies fail in several respects"
+              },
+              {
+                "line": 429,
+                "text": "to satisfy the selection criteria of BBS.  Nonetheless, "
+              },
+              {
+                "line": 430,
+                "text": "the rotation curve fits demonstrate that MOND is quite capable"
+              },
+              {
+                "line": 431,
+                "text": "of reproducing declining rotation curves if the mass distribution is"
+              },
+              {
+                "line": 432,
+                "text": "sufficiently centrally concentrated, a point made by Milgrom in his "
+              }
+            ]
+          },
+          {
+            "hit_line": 1006,
+            "context_start": 1002,
+            "context_end": 1010,
+            "lines": [
+              {
+                "line": 1002,
+                "text": "  NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\"
+              },
+              {
+                "line": 1003,
+                "text": "  NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\"
+              },
+              {
+                "line": 1004,
+                "text": "  NGC 5033 & Sc & 11.9 & 1.9 & 3.9 & 35 & 0.93 & 195 & 0.35 & 8,10 \\\\"
+              },
+              {
+                "line": 1005,
+                "text": "  NGC 3521 & Sbc & 8.9 & 2.4 &  & 28 & 0.63  & 175 & 0.35 & 11,12 \\\\"
+              },
+              {
+                "line": 1006,
+                "text": "  NGC 2683 & Sb & 5.1 & 0.6 &  & 18 & 0.05  & 155 & 0.43 & 11,12 \\\\"
+              },
+              {
+                "line": 1007,
+                "text": "  NGC 6946 & SABcd & 10.1 & 5.3 & & 30 & 2.7 & 160 & 0.28 & 12 \\\\"
+              },
+              {
+                "line": 1008,
+                "text": "  UGC 128 & LSB & 56.4 & .52 &  & 40 & 0.91 & 130 & 0.14 & 13,14 \\\\"
+              },
+              {
+                "line": 1009,
+                "text": "  NGC 1003 & Scd & 11.8 & 1.5 & 0.45 & 33 & 0.82 & 110 & 0.12 & 3,4 \\\\"
+              },
+              {
+                "line": 1010,
+                "text": "  NGC 247 & SBc & 2.8 & .35 & 0.22 & 11 & 0.13 & 107 & 0.34 & 15,16 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1053,
+            "context_start": 1049,
+            "context_end": 1057,
+            "lines": [
+              {
+                "line": 1049,
+                "text": "  NGC 2998 & exp & 1.0 & 0.49 & 0.10 & 1,2  \\\\ "
+              },
+              {
+                "line": 1050,
+                "text": "  NGC 801 & exp  & 1.1  & 0.75  & 0.35 & 1,2  \\\\"
+              },
+              {
+                "line": 1051,
+                "text": "  NGC 5371 & exp & 0.9  & 1.00  & 0.36  & 3,6  \\\\"
+              },
+              {
+                "line": 1052,
+                "text": "  NGC 3521 & $r^{1\\over 4}$ & 0.5  & 0.52  & 0.17 & 7  \\\\"
+              },
+              {
+                "line": 1053,
+                "text": "  NGC 2683 & $r^{1\\over 4}$ & 1.7  & 0.21 & 0.30  & 7  \\\\"
+              },
+              {
+                "line": 1054,
+                "text": "\\hline"
+              },
+              {
+                "line": 1055,
+                "text": "\\end{tabular}"
+              },
+              {
+                "line": 1056,
+                "text": "\\end{flushleft}"
+              },
+              {
+                "line": 1057,
+                "text": "\\tablerefs{1, Kent 1985; 2, Andredakis \\& Sanders 1994; 3, Andredakis,"
+              }
+            ]
+          },
+          {
+            "hit_line": 1085,
+            "context_start": 1081,
+            "context_end": 1089,
+            "lines": [
+              {
+                "line": 1081,
+                "text": "  NGC 5371 &  6.7 &   1.4 &  4.8 & 1.8 & 1.6 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1082,
+                "text": "  NGC 5033 &  8.8 &   4.6 &      &     & 4.6 &  5.1 &  2.5  \\\\"
+              },
+              {
+                "line": 1083,
+                "text": "  NGC ${\\rm 2903^*}$ &  5.5 &   3.6 &      &     & 3.6 &  3.8 &  2.7  \\\\"
+              },
+              {
+                "line": 1084,
+                "text": "  NGC 3521 &  6.2 &   3.1 &  0.3 & 0.7 & 2.7 &      &   \\\\"
+              },
+              {
+                "line": 1085,
+                "text": "  NGC 2683 &  3.0 &   6.4 &  0.5 & 2.8 & 5.8 &      &  \\\\"
+              },
+              {
+                "line": 1086,
+                "text": "  NGC ${\\rm 3198^*}$ &  2.3 &   2.6 &      &     & 2.6 &  3.3 &  3.6  \\\\"
+              },
+              {
+                "line": 1087,
+                "text": "  NGC 6946 &  2.7 &   0.5 &      &     & 0.5 &  1.0 &   \\\\"
+              },
+              {
+                "line": 1088,
+                "text": "  NGC ${\\rm 2403^*}$ &  1.1 &   1.4 &      &     & 1.4 &  2.0 &  1.6  \\\\"
+              },
+              {
+                "line": 1089,
+                "text": "  UGC  128 &  0.57 &   1.1 &     &     &  1.1 &  2.8 &  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC2998": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 217,
+            "context_start": 213,
+            "context_end": 221,
+            "lines": [
+              {
+                "line": 213,
+                "text": "to assign a separate mass-to-light ratio to the bulge component, a"
+              },
+              {
+                "line": 214,
+                "text": "decomposition of the profile into bulge and disk components is necessary."
+              },
+              {
+                "line": 215,
+                "text": "The bulge-disk decomposition given in the indicated references "
+              },
+              {
+                "line": 216,
+                "text": "is taken in the cases of NGC 5907,"
+              },
+              {
+                "line": 217,
+                "text": "NGC 3521, and NGC 2683.  In the cases of UGC 2885, NGC 801 and NGC 2998"
+              },
+              {
+                "line": 218,
+                "text": "the light distribution for the bulge is taken from the"
+              },
+              {
+                "line": 219,
+                "text": "double exponential decompositions (i.e., exponential bulge and disk) "
+              },
+              {
+                "line": 220,
+                "text": "by Andredakis and "
+              },
+              {
+                "line": 221,
+                "text": "Sanders (1994).  Additional double exponential decompositions were "
+              }
+            ]
+          },
+          {
+            "hit_line": 1001,
+            "context_start": 997,
+            "context_end": 1005,
+            "lines": [
+              {
+                "line": 997,
+                "text": "  UGC 2885 & Sbc & 79 & 21. &   & 73 & 5.0 & 300 & 0.40 & 1,2 \\\\  "
+              },
+              {
+                "line": 998,
+                "text": "  NGC 5533 & Sab & 54 & 5.6 &  & 74 & 3.0 & 250 & 0.27 & 3,4,5 \\\\"
+              },
+              {
+                "line": 999,
+                "text": "  NGC 6674 & SBb & 49 & 6.8 & & 69 & 3.9 & 242 & 0.28 & 3,4 \\\\"
+              },
+              {
+                "line": 1000,
+                "text": "  NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\"
+              },
+              {
+                "line": 1001,
+                "text": "  NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\ "
+              },
+              {
+                "line": 1002,
+                "text": "  NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\"
+              },
+              {
+                "line": 1003,
+                "text": "  NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\"
+              },
+              {
+                "line": 1004,
+                "text": "  NGC 5033 & Sc & 11.9 & 1.9 & 3.9 & 35 & 0.93 & 195 & 0.35 & 8,10 \\\\"
+              },
+              {
+                "line": 1005,
+                "text": "  NGC 3521 & Sbc & 8.9 & 2.4 &  & 28 & 0.63  & 175 & 0.35 & 11,12 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1049,
+            "context_start": 1045,
+            "context_end": 1053,
+            "lines": [
+              {
+                "line": 1045,
+                "text": "  UGC 2885 & exp & 0.6 & 0.86 & 0.07 & 1,2  \\\\  "
+              },
+              {
+                "line": 1046,
+                "text": "  NGC 5533 & exp & 1.7 & 1.00 & 0.42  & 3,4 \\\\"
+              },
+              {
+                "line": 1047,
+                "text": "  NGC 6674 & exp & 1.1 & 0.90 & 0.79 & 3,4 \\\\"
+              },
+              {
+                "line": 1048,
+                "text": "  NGC 5907 & Hub & 0.2 & 0.45  & 0.17 & 5  \\\\"
+              },
+              {
+                "line": 1049,
+                "text": "  NGC 2998 & exp & 1.0 & 0.49 & 0.10 & 1,2  \\\\ "
+              },
+              {
+                "line": 1050,
+                "text": "  NGC 801 & exp  & 1.1  & 0.75  & 0.35 & 1,2  \\\\"
+              },
+              {
+                "line": 1051,
+                "text": "  NGC 5371 & exp & 0.9  & 1.00  & 0.36  & 3,6  \\\\"
+              },
+              {
+                "line": 1052,
+                "text": "  NGC 3521 & $r^{1\\over 4}$ & 0.5  & 0.52  & 0.17 & 7  \\\\"
+              },
+              {
+                "line": 1053,
+                "text": "  NGC 2683 & $r^{1\\over 4}$ & 1.7  & 0.21 & 0.30  & 7  \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1079,
+            "context_start": 1075,
+            "context_end": 1083,
+            "lines": [
+              {
+                "line": 1075,
+                "text": "  NGC 5533 &  2.0 &   0.6 & 17.0 & 7.2 & 3.4 &  3.9 &  \\\\"
+              },
+              {
+                "line": 1076,
+                "text": "  NGC 6674 &  2.5 &   1.8 & 15.5 & 2.9 & 2.6 &  3.2 &  \\\\"
+              },
+              {
+                "line": 1077,
+                "text": "  NGC ${\\rm 7331^*}$ &  8.6 &   3.8 &  4.7 & 1.5 & 2.5 &  2.7 &  0.8  \\\\"
+              },
+              {
+                "line": 1078,
+                "text": "  NGC 5907 &  7.2 &   1.6 &  2.5 & 6.8 & 3.9 &  4.3 &  2.2  \\\\"
+              },
+              {
+                "line": 1079,
+                "text": "  NGC 2998 &  5.4 &   0.9 &  2.9 & 4.3 & 1.2 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1080,
+                "text": "  NGC  801 &  3.5 &   0.7 &  6.5 & 2.5 & 1.4 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1081,
+                "text": "  NGC 5371 &  6.7 &   1.4 &  4.8 & 1.8 & 1.6 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1082,
+                "text": "  NGC 5033 &  8.8 &   4.6 &      &     & 4.6 &  5.1 &  2.5  \\\\"
+              },
+              {
+                "line": 1083,
+                "text": "  NGC ${\\rm 2903^*}$ &  5.5 &   3.6 &      &     & 3.6 &  3.8 &  2.7  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC5033": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 1004,
+            "context_start": 1000,
+            "context_end": 1008,
+            "lines": [
+              {
+                "line": 1000,
+                "text": "  NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\"
+              },
+              {
+                "line": 1001,
+                "text": "  NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\ "
+              },
+              {
+                "line": 1002,
+                "text": "  NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\"
+              },
+              {
+                "line": 1003,
+                "text": "  NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\"
+              },
+              {
+                "line": 1004,
+                "text": "  NGC 5033 & Sc & 11.9 & 1.9 & 3.9 & 35 & 0.93 & 195 & 0.35 & 8,10 \\\\"
+              },
+              {
+                "line": 1005,
+                "text": "  NGC 3521 & Sbc & 8.9 & 2.4 &  & 28 & 0.63  & 175 & 0.35 & 11,12 \\\\"
+              },
+              {
+                "line": 1006,
+                "text": "  NGC 2683 & Sb & 5.1 & 0.6 &  & 18 & 0.05  & 155 & 0.43 & 11,12 \\\\"
+              },
+              {
+                "line": 1007,
+                "text": "  NGC 6946 & SABcd & 10.1 & 5.3 & & 30 & 2.7 & 160 & 0.28 & 12 \\\\"
+              },
+              {
+                "line": 1008,
+                "text": "  UGC 128 & LSB & 56.4 & .52 &  & 40 & 0.91 & 130 & 0.14 & 13,14 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1082,
+            "context_start": 1078,
+            "context_end": 1086,
+            "lines": [
+              {
+                "line": 1078,
+                "text": "  NGC 5907 &  7.2 &   1.6 &  2.5 & 6.8 & 3.9 &  4.3 &  2.2  \\\\"
+              },
+              {
+                "line": 1079,
+                "text": "  NGC 2998 &  5.4 &   0.9 &  2.9 & 4.3 & 1.2 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1080,
+                "text": "  NGC  801 &  3.5 &   0.7 &  6.5 & 2.5 & 1.4 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1081,
+                "text": "  NGC 5371 &  6.7 &   1.4 &  4.8 & 1.8 & 1.6 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1082,
+                "text": "  NGC 5033 &  8.8 &   4.6 &      &     & 4.6 &  5.1 &  2.5  \\\\"
+              },
+              {
+                "line": 1083,
+                "text": "  NGC ${\\rm 2903^*}$ &  5.5 &   3.6 &      &     & 3.6 &  3.8 &  2.7  \\\\"
+              },
+              {
+                "line": 1084,
+                "text": "  NGC 3521 &  6.2 &   3.1 &  0.3 & 0.7 & 2.7 &      &   \\\\"
+              },
+              {
+                "line": 1085,
+                "text": "  NGC 2683 &  3.0 &   6.4 &  0.5 & 2.8 & 5.8 &      &  \\\\"
+              },
+              {
+                "line": 1086,
+                "text": "  NGC ${\\rm 3198^*}$ &  2.3 &   2.6 &      &     & 2.6 &  3.3 &  3.6  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC5371": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 222,
+            "context_start": 218,
+            "context_end": 226,
+            "lines": [
+              {
+                "line": 218,
+                "text": "the light distribution for the bulge is taken from the"
+              },
+              {
+                "line": 219,
+                "text": "double exponential decompositions (i.e., exponential bulge and disk) "
+              },
+              {
+                "line": 220,
+                "text": "by Andredakis and "
+              },
+              {
+                "line": 221,
+                "text": "Sanders (1994).  Additional double exponential decompositions were "
+              },
+              {
+                "line": 222,
+                "text": "supplied for NGC 5533, NGC 6674 and NGC 5371 "
+              },
+              {
+                "line": 223,
+                "text": "by Andredakis (private communication).  In most of these cases of an"
+              },
+              {
+                "line": 224,
+                "text": "exponential bulge fit, the radial distribution of disk light was "
+              },
+              {
+                "line": 225,
+                "text": "determined by subtracting the smooth bulge profile from the total"
+              },
+              {
+                "line": 226,
+                "text": "radial intensity profile (i.e., the disk light distribution is not"
+              }
+            ]
+          },
+          {
+            "hit_line": 1003,
+            "context_start": 999,
+            "context_end": 1007,
+            "lines": [
+              {
+                "line": 999,
+                "text": "  NGC 6674 & SBb & 49 & 6.8 & & 69 & 3.9 & 242 & 0.28 & 3,4 \\\\"
+              },
+              {
+                "line": 1000,
+                "text": "  NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\"
+              },
+              {
+                "line": 1001,
+                "text": "  NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\ "
+              },
+              {
+                "line": 1002,
+                "text": "  NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\"
+              },
+              {
+                "line": 1003,
+                "text": "  NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\"
+              },
+              {
+                "line": 1004,
+                "text": "  NGC 5033 & Sc & 11.9 & 1.9 & 3.9 & 35 & 0.93 & 195 & 0.35 & 8,10 \\\\"
+              },
+              {
+                "line": 1005,
+                "text": "  NGC 3521 & Sbc & 8.9 & 2.4 &  & 28 & 0.63  & 175 & 0.35 & 11,12 \\\\"
+              },
+              {
+                "line": 1006,
+                "text": "  NGC 2683 & Sb & 5.1 & 0.6 &  & 18 & 0.05  & 155 & 0.43 & 11,12 \\\\"
+              },
+              {
+                "line": 1007,
+                "text": "  NGC 6946 & SABcd & 10.1 & 5.3 & & 30 & 2.7 & 160 & 0.28 & 12 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1051,
+            "context_start": 1047,
+            "context_end": 1055,
+            "lines": [
+              {
+                "line": 1047,
+                "text": "  NGC 6674 & exp & 1.1 & 0.90 & 0.79 & 3,4 \\\\"
+              },
+              {
+                "line": 1048,
+                "text": "  NGC 5907 & Hub & 0.2 & 0.45  & 0.17 & 5  \\\\"
+              },
+              {
+                "line": 1049,
+                "text": "  NGC 2998 & exp & 1.0 & 0.49 & 0.10 & 1,2  \\\\ "
+              },
+              {
+                "line": 1050,
+                "text": "  NGC 801 & exp  & 1.1  & 0.75  & 0.35 & 1,2  \\\\"
+              },
+              {
+                "line": 1051,
+                "text": "  NGC 5371 & exp & 0.9  & 1.00  & 0.36  & 3,6  \\\\"
+              },
+              {
+                "line": 1052,
+                "text": "  NGC 3521 & $r^{1\\over 4}$ & 0.5  & 0.52  & 0.17 & 7  \\\\"
+              },
+              {
+                "line": 1053,
+                "text": "  NGC 2683 & $r^{1\\over 4}$ & 1.7  & 0.21 & 0.30  & 7  \\\\"
+              },
+              {
+                "line": 1054,
+                "text": "\\hline"
+              },
+              {
+                "line": 1055,
+                "text": "\\end{tabular}"
+              }
+            ]
+          },
+          {
+            "hit_line": 1081,
+            "context_start": 1077,
+            "context_end": 1085,
+            "lines": [
+              {
+                "line": 1077,
+                "text": "  NGC ${\\rm 7331^*}$ &  8.6 &   3.8 &  4.7 & 1.5 & 2.5 &  2.7 &  0.8  \\\\"
+              },
+              {
+                "line": 1078,
+                "text": "  NGC 5907 &  7.2 &   1.6 &  2.5 & 6.8 & 3.9 &  4.3 &  2.2  \\\\"
+              },
+              {
+                "line": 1079,
+                "text": "  NGC 2998 &  5.4 &   0.9 &  2.9 & 4.3 & 1.2 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1080,
+                "text": "  NGC  801 &  3.5 &   0.7 &  6.5 & 2.5 & 1.4 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1081,
+                "text": "  NGC 5371 &  6.7 &   1.4 &  4.8 & 1.8 & 1.6 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1082,
+                "text": "  NGC 5033 &  8.8 &   4.6 &      &     & 4.6 &  5.1 &  2.5  \\\\"
+              },
+              {
+                "line": 1083,
+                "text": "  NGC ${\\rm 2903^*}$ &  5.5 &   3.6 &      &     & 3.6 &  3.8 &  2.7  \\\\"
+              },
+              {
+                "line": 1084,
+                "text": "  NGC 3521 &  6.2 &   3.1 &  0.3 & 0.7 & 2.7 &      &   \\\\"
+              },
+              {
+                "line": 1085,
+                "text": "  NGC 2683 &  3.0 &   6.4 &  0.5 & 2.8 & 5.8 &      &  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC5585": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 1014,
+            "context_start": 1010,
+            "context_end": 1018,
+            "lines": [
+              {
+                "line": 1010,
+                "text": "  NGC 247 & SBc & 2.8 & .35 & 0.22 & 11 & 0.13 & 107 & 0.34 & 15,16 \\\\"
+              },
+              {
+                "line": 1011,
+                "text": "   M 33 & Sc & 0.84 & 0.74 & 0.43 & 8.3 & 0.13 & 107 & 0.45 & 17,18,19 \\\\"
+              },
+              {
+                "line": 1012,
+                "text": "  NGC 7793 & Scd & 3.1 & .34 & 0.17 & 6.7 & 0.096 & 100 & 0.48 & 16,20 \\\\"
+              },
+              {
+                "line": 1013,
+                "text": "  NGC 300 & Sc & 2.15 & 0.3 & & 12.7 & 0.13 & 90 & 0.21 & 15,16 \\\\"
+              },
+              {
+                "line": 1014,
+                "text": "  NGC 5585 & SBcd & 7.6 & 0.24 & 0.14 & 12 & 0.25 & 90 & 0.22 & 21 \\\\"
+              },
+              {
+                "line": 1015,
+                "text": "  NGC 2915 & BCD & 5.6 & 0.036 &  & 15 & 0.1 & 90 & 0.17 & 22,23 \\\\"
+              },
+              {
+                "line": 1016,
+                "text": "  NGC 55 & SBm & 1.6 & 0.43 &  & 9 & 0.13 & 86 & 0.27 & 24 \\\\"
+              },
+              {
+                "line": 1017,
+                "text": "  IC 2574 & SBm & 3.0 & 0.08 & 0.022 & 8 & 0.067 & 66 & 0.18 & 25 \\\\"
+              },
+              {
+                "line": 1018,
+                "text": "  DDO 168 & Irr & 3.8 & 0.022 & & 3.7 & .032 & 54 & 0.26 & 3 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1096,
+            "context_start": 1092,
+            "context_end": 1100,
+            "lines": [
+              {
+                "line": 1092,
+                "text": "  NGC  247 &  0.40 &  1.1 &      &     & 1.1  & 1.5  & 2.3  \\\\"
+              },
+              {
+                "line": 1093,
+                "text": "  M     33 &  0.48 &  0.65 &     &     & 0.6  & 0.8  & 1.4  \\\\     "
+              },
+              {
+                "line": 1094,
+                "text": "  NGC 7793 &  0.41 &  1.20 &     &     & 1.2  & 1.5  & 2.8   \\\\"
+              },
+              {
+                "line": 1095,
+                "text": "  NGC  300 &  0.22 &  0.73 &     &     & 0.7  & 1.2  &  \\\\"
+              },
+              {
+                "line": 1096,
+                "text": "  NGC 5585 &  0.12 &  0.50 &     &     & 0.5  & 1.5  & 2.6  \\\\"
+              },
+              {
+                "line": 1097,
+                "text": "  NGC 2915 &  0.25 &  6.9  &     &     & 6.9  & 9.7  &  \\\\"
+              },
+              {
+                "line": 1098,
+                "text": "  UGC ${\\rm 2259^*}$ &  0.22 &  2.1  &     &     & 2.1  & 2.6  &  \\\\"
+              },
+              {
+                "line": 1099,
+                "text": "  NGC   55 &  0.10 &  0.23 &     &     & 0.2  & 0.5  &  \\\\"
+              },
+              {
+                "line": 1100,
+                "text": "  NGC ${\\rm 1560^*}$ &  0.034&  1.0  &     &     & 1.0  & 3.8  & 2.1  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC5907": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 216,
+            "context_start": 212,
+            "context_end": 220,
+            "lines": [
+              {
+                "line": 212,
+                "text": "generally assumed to have a more spheroidal shape and because one may wish"
+              },
+              {
+                "line": 213,
+                "text": "to assign a separate mass-to-light ratio to the bulge component, a"
+              },
+              {
+                "line": 214,
+                "text": "decomposition of the profile into bulge and disk components is necessary."
+              },
+              {
+                "line": 215,
+                "text": "The bulge-disk decomposition given in the indicated references "
+              },
+              {
+                "line": 216,
+                "text": "is taken in the cases of NGC 5907,"
+              },
+              {
+                "line": 217,
+                "text": "NGC 3521, and NGC 2683.  In the cases of UGC 2885, NGC 801 and NGC 2998"
+              },
+              {
+                "line": 218,
+                "text": "the light distribution for the bulge is taken from the"
+              },
+              {
+                "line": 219,
+                "text": "double exponential decompositions (i.e., exponential bulge and disk) "
+              },
+              {
+                "line": 220,
+                "text": "by Andredakis and "
+              }
+            ]
+          },
+          {
+            "hit_line": 395,
+            "context_start": 391,
+            "context_end": 399,
+            "lines": [
+              {
+                "line": 391,
+                "text": "velocity in the inner regions.  Because of the large-scale non-axisymmetric"
+              },
+              {
+                "line": 392,
+                "text": "structure this galaxy is clearly not very suitable for detailed rotation"
+              },
+              {
+                "line": 393,
+                "text": "curve modelling."
+              },
+              {
+                "line": 394,
+                "text": ""
+              },
+              {
+                "line": 395,
+                "text": "{\\it NGC 5907}:  This large, relatively nearby edge-on galaxy has a "
+              },
+              {
+                "line": 396,
+                "text": "well-determined and very extended HI rotation curve (Sancisi and van Albada"
+              },
+              {
+                "line": 397,
+                "text": "1986).  However, it had not been possible to estimate the Newtonian"
+              },
+              {
+                "line": 398,
+                "text": "rotation curve due to the luminous matter because the high dust obscuration"
+              },
+              {
+                "line": 399,
+                "text": "in the plane of the galaxy masks the true radial light distribution."
+              }
+            ]
+          },
+          {
+            "hit_line": 1000,
+            "context_start": 996,
+            "context_end": 1004,
+            "lines": [
+              {
+                "line": 996,
+                "text": "\\tableline"
+              },
+              {
+                "line": 997,
+                "text": "  UGC 2885 & Sbc & 79 & 21. &   & 73 & 5.0 & 300 & 0.40 & 1,2 \\\\  "
+              },
+              {
+                "line": 998,
+                "text": "  NGC 5533 & Sab & 54 & 5.6 &  & 74 & 3.0 & 250 & 0.27 & 3,4,5 \\\\"
+              },
+              {
+                "line": 999,
+                "text": "  NGC 6674 & SBb & 49 & 6.8 & & 69 & 3.9 & 242 & 0.28 & 3,4 \\\\"
+              },
+              {
+                "line": 1000,
+                "text": "  NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\"
+              },
+              {
+                "line": 1001,
+                "text": "  NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\ "
+              },
+              {
+                "line": 1002,
+                "text": "  NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\"
+              },
+              {
+                "line": 1003,
+                "text": "  NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\"
+              },
+              {
+                "line": 1004,
+                "text": "  NGC 5033 & Sc & 11.9 & 1.9 & 3.9 & 35 & 0.93 & 195 & 0.35 & 8,10 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1048,
+            "context_start": 1044,
+            "context_end": 1052,
+            "lines": [
+              {
+                "line": 1044,
+                "text": "\\hline"
+              },
+              {
+                "line": 1045,
+                "text": "  UGC 2885 & exp & 0.6 & 0.86 & 0.07 & 1,2  \\\\  "
+              },
+              {
+                "line": 1046,
+                "text": "  NGC 5533 & exp & 1.7 & 1.00 & 0.42  & 3,4 \\\\"
+              },
+              {
+                "line": 1047,
+                "text": "  NGC 6674 & exp & 1.1 & 0.90 & 0.79 & 3,4 \\\\"
+              },
+              {
+                "line": 1048,
+                "text": "  NGC 5907 & Hub & 0.2 & 0.45  & 0.17 & 5  \\\\"
+              },
+              {
+                "line": 1049,
+                "text": "  NGC 2998 & exp & 1.0 & 0.49 & 0.10 & 1,2  \\\\ "
+              },
+              {
+                "line": 1050,
+                "text": "  NGC 801 & exp  & 1.1  & 0.75  & 0.35 & 1,2  \\\\"
+              },
+              {
+                "line": 1051,
+                "text": "  NGC 5371 & exp & 0.9  & 1.00  & 0.36  & 3,6  \\\\"
+              },
+              {
+                "line": 1052,
+                "text": "  NGC 3521 & $r^{1\\over 4}$ & 0.5  & 0.52  & 0.17 & 7  \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1078,
+            "context_start": 1074,
+            "context_end": 1082,
+            "lines": [
+              {
+                "line": 1074,
+                "text": "  NGC ${ \\rm2841^*}$ & 24.1 &   3.5 & 6.9 & 4.3 & 3.7 &  4.0 &  1.9  \\\\"
+              },
+              {
+                "line": 1075,
+                "text": "  NGC 5533 &  2.0 &   0.6 & 17.0 & 7.2 & 3.4 &  3.9 &  \\\\"
+              },
+              {
+                "line": 1076,
+                "text": "  NGC 6674 &  2.5 &   1.8 & 15.5 & 2.9 & 2.6 &  3.2 &  \\\\"
+              },
+              {
+                "line": 1077,
+                "text": "  NGC ${\\rm 7331^*}$ &  8.6 &   3.8 &  4.7 & 1.5 & 2.5 &  2.7 &  0.8  \\\\"
+              },
+              {
+                "line": 1078,
+                "text": "  NGC 5907 &  7.2 &   1.6 &  2.5 & 6.8 & 3.9 &  4.3 &  2.2  \\\\"
+              },
+              {
+                "line": 1079,
+                "text": "  NGC 2998 &  5.4 &   0.9 &  2.9 & 4.3 & 1.2 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1080,
+                "text": "  NGC  801 &  3.5 &   0.7 &  6.5 & 2.5 & 1.4 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1081,
+                "text": "  NGC 5371 &  6.7 &   1.4 &  4.8 & 1.8 & 1.6 &  1.7 &  \\\\"
+              },
+              {
+                "line": 1082,
+                "text": "  NGC 5033 &  8.8 &   4.6 &      &     & 4.6 &  5.1 &  2.5  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "NGC6674": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 222,
+            "context_start": 218,
+            "context_end": 226,
+            "lines": [
+              {
+                "line": 218,
+                "text": "the light distribution for the bulge is taken from the"
+              },
+              {
+                "line": 219,
+                "text": "double exponential decompositions (i.e., exponential bulge and disk) "
+              },
+              {
+                "line": 220,
+                "text": "by Andredakis and "
+              },
+              {
+                "line": 221,
+                "text": "Sanders (1994).  Additional double exponential decompositions were "
+              },
+              {
+                "line": 222,
+                "text": "supplied for NGC 5533, NGC 6674 and NGC 5371 "
+              },
+              {
+                "line": 223,
+                "text": "by Andredakis (private communication).  In most of these cases of an"
+              },
+              {
+                "line": 224,
+                "text": "exponential bulge fit, the radial distribution of disk light was "
+              },
+              {
+                "line": 225,
+                "text": "determined by subtracting the smooth bulge profile from the total"
+              },
+              {
+                "line": 226,
+                "text": "radial intensity profile (i.e., the disk light distribution is not"
+              }
+            ]
+          },
+          {
+            "hit_line": 378,
+            "context_start": 374,
+            "context_end": 382,
+            "lines": [
+              {
+                "line": 374,
+                "text": "discrepancy in this galaxy, near-infrared photometry would be considerable"
+              },
+              {
+                "line": 375,
+                "text": "interest in this case in estimating the distribution of the stellar"
+              },
+              {
+                "line": 376,
+                "text": "mass in the central regions."
+              },
+              {
+                "line": 377,
+                "text": " "
+              },
+              {
+                "line": 378,
+                "text": "{\\it NGC 6674}:  The global blue M/L of 2.6 implies that MOND successfully"
+              },
+              {
+                "line": 379,
+                "text": "accounts for the magnitude of the discrepancy;  however, the detailed fit"
+              },
+              {
+                "line": 380,
+                "text": "is the worst of the sample. The large central rotation velocities and "
+              },
+              {
+                "line": 381,
+                "text": "mildly declining rotation curve require a strong central mass concentration.   "
+              },
+              {
+                "line": 382,
+                "text": "The double exponential"
+              }
+            ]
+          },
+          {
+            "hit_line": 999,
+            "context_start": 995,
+            "context_end": 1003,
+            "lines": [
+              {
+                "line": 995,
+                "text": " (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) \\\\ "
+              },
+              {
+                "line": 996,
+                "text": "\\tableline"
+              },
+              {
+                "line": 997,
+                "text": "  UGC 2885 & Sbc & 79 & 21. &   & 73 & 5.0 & 300 & 0.40 & 1,2 \\\\  "
+              },
+              {
+                "line": 998,
+                "text": "  NGC 5533 & Sab & 54 & 5.6 &  & 74 & 3.0 & 250 & 0.27 & 3,4,5 \\\\"
+              },
+              {
+                "line": 999,
+                "text": "  NGC 6674 & SBb & 49 & 6.8 & & 69 & 3.9 & 242 & 0.28 & 3,4 \\\\"
+              },
+              {
+                "line": 1000,
+                "text": "  NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\"
+              },
+              {
+                "line": 1001,
+                "text": "  NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\ "
+              },
+              {
+                "line": 1002,
+                "text": "  NGC 801 & Sc & 80 & 7.4 &  & 59 & 2.9 & 208 & 0.24 & 1,3 \\\\"
+              },
+              {
+                "line": 1003,
+                "text": "  NGC 5371 & S(B)b & 34 & 7.4 & & 40 & 1.0 & 208 & 0.35 & 8,9 \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1047,
+            "context_start": 1043,
+            "context_end": 1051,
+            "lines": [
+              {
+                "line": 1043,
+                "text": "(1) & (2) & (3) & (4) & (5) & (6) \\\\ "
+              },
+              {
+                "line": 1044,
+                "text": "\\hline"
+              },
+              {
+                "line": 1045,
+                "text": "  UGC 2885 & exp & 0.6 & 0.86 & 0.07 & 1,2  \\\\  "
+              },
+              {
+                "line": 1046,
+                "text": "  NGC 5533 & exp & 1.7 & 1.00 & 0.42  & 3,4 \\\\"
+              },
+              {
+                "line": 1047,
+                "text": "  NGC 6674 & exp & 1.1 & 0.90 & 0.79 & 3,4 \\\\"
+              },
+              {
+                "line": 1048,
+                "text": "  NGC 5907 & Hub & 0.2 & 0.45  & 0.17 & 5  \\\\"
+              },
+              {
+                "line": 1049,
+                "text": "  NGC 2998 & exp & 1.0 & 0.49 & 0.10 & 1,2  \\\\ "
+              },
+              {
+                "line": 1050,
+                "text": "  NGC 801 & exp  & 1.1  & 0.75  & 0.35 & 1,2  \\\\"
+              },
+              {
+                "line": 1051,
+                "text": "  NGC 5371 & exp & 0.9  & 1.00  & 0.36  & 3,6  \\\\"
+              }
+            ]
+          },
+          {
+            "hit_line": 1076,
+            "context_start": 1072,
+            "context_end": 1080,
+            "lines": [
+              {
+                "line": 1072,
+                "text": "\\hline"
+              },
+              {
+                "line": 1073,
+                "text": "  UGC 2885 & 25.1 &   1.3 &  5.7 & 3.9 & 1.5 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1074,
+                "text": "  NGC ${ \\rm2841^*}$ & 24.1 &   3.5 & 6.9 & 4.3 & 3.7 &  4.0 &  1.9  \\\\"
+              },
+              {
+                "line": 1075,
+                "text": "  NGC 5533 &  2.0 &   0.6 & 17.0 & 7.2 & 3.4 &  3.9 &  \\\\"
+              },
+              {
+                "line": 1076,
+                "text": "  NGC 6674 &  2.5 &   1.8 & 15.5 & 2.9 & 2.6 &  3.2 &  \\\\"
+              },
+              {
+                "line": 1077,
+                "text": "  NGC ${\\rm 7331^*}$ &  8.6 &   3.8 &  4.7 & 1.5 & 2.5 &  2.7 &  0.8  \\\\"
+              },
+              {
+                "line": 1078,
+                "text": "  NGC 5907 &  7.2 &   1.6 &  2.5 & 6.8 & 3.9 &  4.3 &  2.2  \\\\"
+              },
+              {
+                "line": 1079,
+                "text": "  NGC 2998 &  5.4 &   0.9 &  2.9 & 4.3 & 1.2 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1080,
+                "text": "  NGC  801 &  3.5 &   0.7 &  6.5 & 2.5 & 1.4 &  1.7 &  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "UGC02885": [
+      {
+        "file": "rotcur_pp.tex",
+        "contexts": [
+          {
+            "hit_line": 170,
+            "context_start": 166,
+            "context_end": 174,
+            "lines": [
+              {
+                "line": 166,
+                "text": ""
+              },
+              {
+                "line": 167,
+                "text": "This is a motley collection of galaxies observed either at"
+              },
+              {
+                "line": 168,
+                "text": "the VLA or at Westerbork, with varying degrees of precision."
+              },
+              {
+                "line": 169,
+                "text": "The sample includes"
+              },
+              {
+                "line": 170,
+                "text": "several very large and luminous galaxies such as UGC 2885 and NGC 801,"
+              },
+              {
+                "line": 171,
+                "text": "originally made famous by Rubin et al. (1985) as examples of spiral galaxies"
+              },
+              {
+                "line": 172,
+                "text": "with extended non-declining rotation curves, as well as gas-dominated"
+              },
+              {
+                "line": 173,
+                "text": "dwarfs such as IC 2574 and DDO 168 with gently rising rotation curves."
+              },
+              {
+                "line": 174,
+                "text": "There are two galaxies with distinctly declining rotation curves,"
+              }
+            ]
+          },
+          {
+            "hit_line": 217,
+            "context_start": 213,
+            "context_end": 221,
+            "lines": [
+              {
+                "line": 213,
+                "text": "to assign a separate mass-to-light ratio to the bulge component, a"
+              },
+              {
+                "line": 214,
+                "text": "decomposition of the profile into bulge and disk components is necessary."
+              },
+              {
+                "line": 215,
+                "text": "The bulge-disk decomposition given in the indicated references "
+              },
+              {
+                "line": 216,
+                "text": "is taken in the cases of NGC 5907,"
+              },
+              {
+                "line": 217,
+                "text": "NGC 3521, and NGC 2683.  In the cases of UGC 2885, NGC 801 and NGC 2998"
+              },
+              {
+                "line": 218,
+                "text": "the light distribution for the bulge is taken from the"
+              },
+              {
+                "line": 219,
+                "text": "double exponential decompositions (i.e., exponential bulge and disk) "
+              },
+              {
+                "line": 220,
+                "text": "by Andredakis and "
+              },
+              {
+                "line": 221,
+                "text": "Sanders (1994).  Additional double exponential decompositions were "
+              }
+            ]
+          },
+          {
+            "hit_line": 997,
+            "context_start": 993,
+            "context_end": 1001,
+            "lines": [
+              {
+                "line": 993,
+                "text": "   ${\\rm 10^{10}\\,L_\\odot}$ & ${\\rm kpc}$ & ${\\rm 10^{10}\\, M_\\odot}$"
+              },
+              {
+                "line": 994,
+                "text": "   & ${\\rm km/s}$ & ${\\rm 10^{-8}\\, cm/s^2}$ & $ $ \\\\"
+              },
+              {
+                "line": 995,
+                "text": " (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) \\\\ "
+              },
+              {
+                "line": 996,
+                "text": "\\tableline"
+              },
+              {
+                "line": 997,
+                "text": "  UGC 2885 & Sbc & 79 & 21. &   & 73 & 5.0 & 300 & 0.40 & 1,2 \\\\  "
+              },
+              {
+                "line": 998,
+                "text": "  NGC 5533 & Sab & 54 & 5.6 &  & 74 & 3.0 & 250 & 0.27 & 3,4,5 \\\\"
+              },
+              {
+                "line": 999,
+                "text": "  NGC 6674 & SBb & 49 & 6.8 & & 69 & 3.9 & 242 & 0.28 & 3,4 \\\\"
+              },
+              {
+                "line": 1000,
+                "text": "  NGC 5907 & Sc & 11 & 2.4 & 4.9 & 32 & 1.1 & 214 & 0.46 & 6,7 \\\\"
+              },
+              {
+                "line": 1001,
+                "text": "  NGC 2998 & SBc & 67 & 9.0 & & 47 & 3.0 & 213 & 0.31 & 3,4 \\\\ "
+              }
+            ]
+          },
+          {
+            "hit_line": 1045,
+            "context_start": 1041,
+            "context_end": 1049,
+            "lines": [
+              {
+                "line": 1041,
+                "text": "       ${\\rm Ref.}$ \\\\"
+              },
+              {
+                "line": 1042,
+                "text": "$  $ & ${\\rm model}$ & $ {\\rm kpc} $ & $  $ &  $  $ & $  $ \\\\"
+              },
+              {
+                "line": 1043,
+                "text": "(1) & (2) & (3) & (4) & (5) & (6) \\\\ "
+              },
+              {
+                "line": 1044,
+                "text": "\\hline"
+              },
+              {
+                "line": 1045,
+                "text": "  UGC 2885 & exp & 0.6 & 0.86 & 0.07 & 1,2  \\\\  "
+              },
+              {
+                "line": 1046,
+                "text": "  NGC 5533 & exp & 1.7 & 1.00 & 0.42  & 3,4 \\\\"
+              },
+              {
+                "line": 1047,
+                "text": "  NGC 6674 & exp & 1.1 & 0.90 & 0.79 & 3,4 \\\\"
+              },
+              {
+                "line": 1048,
+                "text": "  NGC 5907 & Hub & 0.2 & 0.45  & 0.17 & 5  \\\\"
+              },
+              {
+                "line": 1049,
+                "text": "  NGC 2998 & exp & 1.0 & 0.49 & 0.10 & 1,2  \\\\ "
+              }
+            ]
+          },
+          {
+            "hit_line": 1073,
+            "context_start": 1069,
+            "context_end": 1077,
+            "lines": [
+              {
+                "line": 1069,
+                "text": "  & ${\\rm {M^*}/{L_B}}$ & ${\\rm {M_t}/{L_B}}$ & ${\\rm {M_t}/{L_H}}$ \\\\"
+              },
+              {
+                "line": 1070,
+                "text": "\\  &${\\rm 10^{10}M_\\odot}$ & &${\\rm 10^{10}M_\\odot}$ & & & & \\\\ "
+              },
+              {
+                "line": 1071,
+                "text": "\\ (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) \\\\"
+              },
+              {
+                "line": 1072,
+                "text": "\\hline"
+              },
+              {
+                "line": 1073,
+                "text": "  UGC 2885 & 25.1 &   1.3 &  5.7 & 3.9 & 1.5 &  1.7 &   \\\\"
+              },
+              {
+                "line": 1074,
+                "text": "  NGC ${ \\rm2841^*}$ & 24.1 &   3.5 & 6.9 & 4.3 & 3.7 &  4.0 &  1.9  \\\\"
+              },
+              {
+                "line": 1075,
+                "text": "  NGC 5533 &  2.0 &   0.6 & 17.0 & 7.2 & 3.4 &  3.9 &  \\\\"
+              },
+              {
+                "line": 1076,
+                "text": "  NGC 6674 &  2.5 &   1.8 & 15.5 & 2.9 & 2.6 &  3.2 &  \\\\"
+              },
+              {
+                "line": 1077,
+                "text": "  NGC ${\\rm 7331^*}$ &  8.6 &   3.8 &  4.7 & 1.5 & 2.5 &  2.7 &  0.8  \\\\"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "source_language_hits": [
+    {
+      "file": "rotcur_pp.tex",
+      "line": 3,
+      "text": "\\title{The published extended rotation curves of spiral galaxies:"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 10,
+      "text": "A sample of 22 spiral galaxy rotation curves, measured in the 21 cm line"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 12,
+      "text": "modified dynamics (MOND).  Combined with the previous highly selected"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 13,
+      "text": "sample of Begeman et al. (1990), this comprises the current total sample"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 14,
+      "text": "of galaxies with published (or available) extended rotation curves"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 15,
+      "text": "and photometric observations of the light distribution.  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 16,
+      "text": "This is the observational basis of present quantitative understanding "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 19,
+      "text": "from the observed distribution of luminous"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 22,
+      "text": "curves, and in some cases, the predicted curve agrees with the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 23,
+      "text": "rotation curve in detail.  The fitted rotation curves have, in 13"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 24,
+      "text": "cases, only one free parameter which is the mass-to-light ratio of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 26,
+      "text": "which is M/L of a central bulge or light concentration.  The values"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 28,
+      "text": "mass is also included, show a scatter which is consistent with that"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 30,
+      "text": "in predicting the rotation curves in this larger, less stringently selected"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 51,
+      "text": "The rotation curves of spiral galaxies as measured in the 21 cm"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 52,
+      "text": "line of neutral hydrogen, comprise the ideal body of data to confront "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 53,
+      "text": "such ideas.  This is because the rotation curves usually"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 58,
+      "text": "Rotation curves are not useful as tests of the dark matter"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 62,
+      "text": "concocted to fit the rotation curves (\\cite{mhr96});  by fitting"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 63,
+      "text": "to rotation curves one simply determines"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 67,
+      "text": "to definitively falsify the dark matter hypothesis in this way.  On the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 68,
+      "text": "other hand, MOND, with only one universal parameter which "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 72,
+      "text": "The essential problem with the use of such data"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 73,
+      "text": "for this purpose is that the measured"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 74,
+      "text": "rotation curves are not all equally good approximations to the run"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 76,
+      "text": "from warping of the gas layer in the outer regions; this gives an"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 78,
+      "text": "plane of the disk.  In other galaxies the observation of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 79,
+      "text": "highly asymmetric gas disks"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 81,
+      "text": "Apart from the rotation curves, "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 96,
+      "text": "BBS), applied strict selection criteria to the rotation curves available "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 98,
+      "text": "21 cm line observations:  the rotation curve had to be "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 99,
+      "text": "derived from two-dimensional high spatial resolution data"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 100,
+      "text": "which eliminates distant galaxies (systemic velocity greater than 2000 km/s);"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 101,
+      "text": "galaxies with highly warped or asymmetric gas disks or those with a patchy HI "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 102,
+      "text": "distribution were not considered.  High precision photometric"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 103,
+      "text": "data (CCD in general) had to be available for estimating the contribution"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 107,
+      "text": "The conclusion of the rotation curve fitting was"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 111,
+      "text": "details of the rotation curves, MOND worked even better in several cases."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 113,
+      "text": "from the observed distribution of detectable matter is one of the strongest"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 118,
+      "text": "fitting algorithm for spiral galaxy rotation curves.  This implies that, "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 124,
+      "text": "which eliminate those cases which contradict MOND.  Partly to respond"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 128,
+      "text": "An additional 22 galaxies are considered here, most of which are published"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 129,
+      "text": "or will soon be published.  Because dark halo models have been presented"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 131,
+      "text": "models can always fit rotation curves, the only comparison is with"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 132,
+      "text": "the rotation curve predicted by MOND using the observed distribution of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 136,
+      "text": "The essential result of this work is that MOND, with one free parameter"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 139,
+      "text": "the general shape of the rotation curves of these 22 additional spiral"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 141,
+      "text": "This is particularly striking when one keeps in mind the observational"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 147,
+      "text": "highly-selected BBS sample.  The values of the fitted parameter,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 152,
+      "text": "given further support by comparison with this larger, less stringently"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 153,
+      "text": "selected sample of galaxy rotation curves.     "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 159,
+      "text": "sample of objects with well-measured 21 cm line rotation curves and with"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 163,
+      "text": "Most of the rotation curves here were taken directly from the literature,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 164,
+      "text": "but two have not yet been published (M 33, NGC 1003)"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 167,
+      "text": "This is a motley collection of galaxies observed either at"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 172,
+      "text": "with extended non-declining rotation curves, as well as gas-dominated"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 173,
+      "text": "dwarfs such as IC 2574 and DDO 168 with gently rising rotation curves."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 174,
+      "text": "There are two galaxies with distinctly declining rotation curves,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 175,
+      "text": "NGC 2683 and NGC 3521, observed by Casertano and van Gorkom (1991) who"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 176,
+      "text": "emphasize this general trend in high"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 177,
+      "text": "surface brightness galaxies. There is one recently-observed  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 191,
+      "text": "Recently determined Cephied distances are taken for M 33 (\\cite{mf91})"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 194,
+      "text": "references.  For several objects a correction for Virgo-centric "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 195,
+      "text": "inflow was included following Kran-Korteweg (1986), but in general this"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 198,
+      "text": "references and the near-infrared luminosity (column 5) is calculated from "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 200,
+      "text": "and Burstein (1995).  The extent of the observed HI rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 202,
+      "text": "hydrogen plus helium, assuming that this is 1.3 times the measured"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 203,
+      "text": "HI mass, is given in column 7.  The value of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 207,
+      "text": "references for the rotation curve and for the photometry."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 209,
+      "text": "Nine of the galaxies in this sample show clear evidence in the radial"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 215,
+      "text": "The bulge-disk decomposition given in the indicated references "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 228,
+      "text": "actually observed after subtraction of the bulge)."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 237,
+      "text": "To calculate MOND rotation curves, the same procedure was followed as in"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 238,
+      "text": "BBS.  The first step is to determine the Newtonian rotation curve of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 239,
+      "text": "the detectable matter.  This is done by assuming that the light in"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 241,
+      "text": "variation of M/L in a given galaxy) and that this matter "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 242,
+      "text": "has an axially symmetric distribution in an infinitessimally thin disk."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 250,
+      "text": "that the bulge was highly flattened (a disk), but in general there was"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 251,
+      "text": "no significant difference in the rotation curve fit (although the fitted"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 255,
+      "text": "distribution of neutral hydrogen.  The HI surface density is everywhere"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 257,
+      "text": "This, of course, neglects any contribution of molecular gas, which, in"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 259,
+      "text": "the luminous component (Young 1987).  The gas distribution is also taken to"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 260,
+      "text": "be axisymmetric in an infinitessimally thin disk."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 267,
+      "text": "This commonly assumed form has the appropriate asymptotic behavior"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 268,
+      "text": "yielding Newtonian dynamics in the high acceleration limit and MOND dynamics"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 273,
+      "text": "which means that, with eqs.\\ 1 and 2, as r becomes large"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 279,
+      "text": "but this is computationally difficult.  Moreover, it has been demonstrated"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 280,
+      "text": "that the simple MOND formula gives, in most cases, results which agree quite"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 285,
+      "text": "The observed rotation curve is fit in a least-square program applying"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 290,
+      "text": "In combination with the observed luminosities this yields"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 296,
+      "text": "by the fits to the higher-quality rotation curves of BBS; i.e., "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 302,
+      "text": "rotation curves allowing the distance to a galaxy to be both fixed and"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 304,
+      "text": "Table 1.  This is done because it is desirable to reduce the dimensionality"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 305,
+      "text": "of the parameter space when the data are less precise."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 308,
+      "text": "a multi-dimensional parameter space; i.e., minima in the $\\chi^2$ "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 309,
+      "text": "surface which appear to be sharp are, in fact, very broad due"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 310,
+      "text": "to under-estimated errors in observed rotation velocity."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 311,
+      "text": "In principle, this problem could be "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 312,
+      "text": "eliminated by a realistic estimate of the errors, but in practice this is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 322,
+      "text": "the observed rotation curve (points with error bars) compared with the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 323,
+      "text": "fitted MOND rotation curve (solid line).  The Newtonian rotation curves"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 328,
+      "text": "taken, in general, directly from the reference for the rotation curve"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 330,
+      "text": "errors are formal one-sigma errors returned by the program which fits"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 331,
+      "text": "tilted rings to the two-dimensional HI velocity field.  These are "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 332,
+      "text": "unrealistically low because this technique does not include an "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 335,
+      "text": "two different sides of the galaxy (approaching and receding) and taking"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 336,
+      "text": "the difference between the resulting rotation curves.  This gives a"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 342,
+      "text": "The rotation curves are given as listed in"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 344,
+      "text": "The first rotation curves are those of large luminous systems with "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 346,
+      "text": "galaxies so the spatial resolution of the 21 cm line observations is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 350,
+      "text": "light distribution implying that the bulges have a significantly higher"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 352,
+      "text": "The rotation curves in the last two panels are those"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 361,
+      "text": "{\\it NGC 5533}:  This large Sab galaxy is the earliest type in the sample.  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 362,
+      "text": "The HI surface densities are rather low and the distribution in the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 365,
+      "text": "for a warp (Broeils 1992).  Because of this and the low spatial resolution"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 371,
+      "text": "This leads to a bulge M/L of seven and a disk M/L of about one (both in the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 372,
+      "text": "blue band).  While the overall mass-to-light of three in the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 374,
+      "text": "discrepancy in this galaxy, near-infrared photometry would be considerable"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 375,
+      "text": "interest in this case in estimating the distribution of the stellar"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 381,
+      "text": "mildly declining rotation curve require a strong central mass concentration.   "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 385,
+      "text": "luminosity is in the bulge, and this yields reasonble mass-to-light ratios "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 386,
+      "text": "for the bulge and disk.  But the real difficulty with the use of this "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 387,
+      "text": "rotation curve is that the galaxy is conspicuously barred (Broeils and"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 389,
+      "text": "axis of the galaxy as projected onto the sky which, because of elliptical"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 392,
+      "text": "structure this galaxy is clearly not very suitable for detailed rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 395,
+      "text": "{\\it NGC 5907}:  This large, relatively nearby edge-on galaxy has a "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 396,
+      "text": "well-determined and very extended HI rotation curve (Sancisi and van Albada"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 398,
+      "text": "rotation curve due to the luminous matter because the high dust obscuration"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 400,
+      "text": "This has changed with the near-infrared photometry of Barnaby and"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 401,
+      "text": "Thronson (1992, 1994) which indicates a more centrally concentrated"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 402,
+      "text": "distribution of lumionous material.  This highlights the value of "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 408,
+      "text": "rotation curve; i.e., because the galaxy is edge-on the exponential model"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 413,
+      "text": "van Gorkom (1991) as examples of galaxies with declining rotation curves."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 414,
+      "text": "The contribution of the gas to the Newtonian rotation curve is not"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 416,
+      "text": "given in this reference; in any case, the total gas mass, estimated from"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 417,
+      "text": "global 21 cm line profiles (Table 1), is less than  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 422,
+      "text": "rotation curves.  The observed rotation curves are not ideal for"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 424,
+      "text": "rotation curve determined from a full two-dimensional "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 426,
+      "text": "the distribution of HI is asymmetric, extending 20\\% further on one"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 430,
+      "text": "the rotation curve fits demonstrate that MOND is quite capable"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 431,
+      "text": "of reproducing declining rotation curves if the mass distribution is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 432,
+      "text": "sufficiently centrally concentrated, a point made by Milgrom in his "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 435,
+      "text": "although it would also be problematic for Newtonian dynamics "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 438,
+      "text": "{\\it UGC 128}:  This is a low-surface-brightness (LSB) spiral with"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 440,
+      "text": "23 ${\\rm mag/arcsec^2}$ (de Blok et al. 1995).  Although it is faint,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 441,
+      "text": "the linear size is large with the HI rotation curve extending to 40 kpc."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 442,
+      "text": "Because the implied surface density is below the MOND critical "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 443,
+      "text": "surface density of $a_o/G$, the MOND prediction (Milgrom 1983) is that"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 444,
+      "text": "the discrepancy should be large within the optical disk and that"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 445,
+      "text": "the rotation curve should be slowly rising to its asymptotic limit.  This"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 446,
+      "text": "is seen to be the case and the MOND rotation curve agrees with the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 447,
+      "text": "observed curve in detail.  It should be emphasized that the general"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 448,
+      "text": "MOND prediction of a large discrepancy in low surface density"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 450,
+      "text": "was made long before observations of systems such as this one confirmed it."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 453,
+      "text": "{\\it M33}:  The observed rotation curve of this classic nearby Sc spiral"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 454,
+      "text": "is from an unpublished analysis by Kolkman (1995) based upon observations of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 456,
+      "text": "The large number of independent observed points on the rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 458,
+      "text": "the large angular size this object, and the well-established"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 459,
+      "text": "Cepheid distance (Madore and Freedman 1991), make this a good case"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 460,
+      "text": "for detailed rotation curve fitting; although, there is a "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 463,
+      "text": "{\\it NGC 2915}:  This is a blue compact galaxy (BCG) recently analyzed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 466,
+      "text": "observed rotation curve remains constant with a suggestion of a rise"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 467,
+      "text": "at the outermost measured points.  This implies a very large discrepancy"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 469,
+      "text": "(hence, the authors refer to this object as the darkest disk galaxy)."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 470,
+      "text": "The MOND rotation curve is higher than the observed curve in the inner"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 472,
+      "text": "observed rotation curve in the outer regions.  Here even the apparant"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 474,
+      "text": "contribution of the gas to the dynamical mass.  However, in spite of this"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 475,
+      "text": "agreement, the implied mass-to-blue light ratio for the disk is 6.9 which is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 483,
+      "text": "{\\it DDO 168}:  This is a dwarf with a small bar in the central regions."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 484,
+      "text": "The MOND rotation curve lies noticably above the observed rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 485,
+      "text": "curve in the inner regions.  This should not be given too much significance"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 490,
+      "text": "33 galaxies for which MOND rotation curves have been calculated.  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 500,
+      "text": "those galaxies for which an H-band magnitude has been measured."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 502,
+      "text": "the mass in luminous stars but also any other component which is "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 509,
+      "text": "the star-formation history and metallicities ({\\cite{bc93}, \\cite{wo94}).  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 510,
+      "text": "More importantly, there are no very high"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 511,
+      "text": "values (the highest being for NGC 2915 discussed above) which means that"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 515,
+      "text": "none of the fitted masses is negative (this is possible considering that"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 526,
+      "text": "of increasing ${\\rm M^*/L_B}$ with increasing rotation velocity.  Due to"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 527,
+      "text": "the sensitivity of the blue luminosity to star-formation activity, this"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 529,
+      "text": "gas-rich galaxies in this sample.  But the overall consistency of the "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 531,
+      "text": "demonstrated by Fig.\\ 3.  This is a plot of the MOND ${\\rm M^*/L_B}$ vs."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 533,
+      "text": "B-V listed in the Third Reference Catalogue (de Vaucoleurs et al. 1991).  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 539,
+      "text": "seen that the general trend of decreasing M/L with increasing blueness"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 542,
+      "text": "There are, however, five galaxies in Fig.\\ 3 with implied values of "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 544,
+      "text": "and DDO 154.  While such low mass-to-light ratios are possible in extreme "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 549,
+      "text": "(not plotted here), the distance used by BBS is a Cephied-based"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 550,
+      "text": "estimate of 1.7 Mpc (Sandage and Carlson 1988).  At this distance, "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 552,
+      "text": "mass of gas is almost 100\\% of the MOND mass (eq.\\ 4) which means that"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 553,
+      "text": "that ${\\rm M^*/L_B}\\approx 0$.  A more recent Cephied distance estamate"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 554,
+      "text": "is 1.3 Mpc (Cappacioli et al. 1992).  At this distance the gas mass is reduced"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 555,
+      "text": "to about 60\\% of the MOND mass which means that ${\\rm M^*/L_B}$ is increased"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 559,
+      "text": "fitted parameter and must reflect all uncertainties involved in this"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 562,
+      "text": "Figs.\\ 4 and 5 show the observed B- and H-band luminosity-rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 563,
+      "text": "velocity relationships (Tully-Fisher) for the galaxies in the combined "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 565,
+      "text": "most distant points for which the determination is reliable;  this would"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 574,
+      "text": "rotation curve gives a larger value of the rotation velocity"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 575,
+      "text": "for the low luminosity galaxies than does the global 21 cm line profile."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 580,
+      "text": "implies that the errors in distance (at least for this subsample of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 584,
+      "text": "relation which is {\\it exact} (eq.\\ 4).  There is a similar"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 585,
+      "text": "luminosity-velocity  relation only for a luminosity indicator which"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 588,
+      "text": "  Therefore, the scatter in the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 589,
+      "text": "relation, apart from observational errors (e.g., inaccuracies in the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 592,
+      "text": "The tightness of the observed relation suggests that this might,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 597,
+      "text": "which is relevant to the slope and scatter in the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 600,
+      "text": "a very significant contribution to this total "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 604,
+      "text": "total mass includes the observed neutral hydrogen plus implied helium mass.  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 605,
+      "text": "The range in this quantity is about a factor of 15;  the mean"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 607,
+      "text": "that is, the scatter is now about 90\\% which is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 608,
+      "text": "quite consistent with the 97\\% scatter observed in the blue TF relation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 612,
+      "text": "in Fig.\\ 2.  This is entirely due to the large contribution of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 613,
+      "text": "the (non-luminous) gas to the total mass in these systems.  This increase"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 614,
+      "text": "in actual mass-to-light ratio can result in a steepening of the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 615,
+      "text": "TF law at the low-luminosities-- a steepening which has been previously"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 623,
+      "text": "This scatter of 31\\% is again entirely consistent with"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 624,
+      "text": "the scatter in the observed infrared TF law of 33\\% (Fig.\\ 5).  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 627,
+      "text": "This "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 631,
+      "text": "observed TF relation. "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 635,
+      "text": "The one-parameter MOND rotation curve fits to the galaxies in the "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 636,
+      "text": "highly selected sample of BBS are, with one exception, in very precise"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 637,
+      "text": "agreement with the observed rotation curves.  In the larger sample "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 638,
+      "text": "considered here a number of the rotation curves are not perfectly fit;"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 639,
+      "text": "one can argue that this is because of the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 646,
+      "text": "form of the rotation curves and general trend with luminosity "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 648,
+      "text": "MOND rotation curves of luminous high surface brightness galaxies"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 649,
+      "text": "exhibiting the rapid rise and then decline to an asymptotic value and"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 651,
+      "text": "slowly to the asymptotic value as is observed.  But  because of the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 652,
+      "text": "unknown systematic effects which may give rise to a difference between"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 653,
+      "text": "the measured rotation curve and the true run of circular velocity, it"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 656,
+      "text": "observed rotation curves from the distribution of detectable matter."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 659,
+      "text": "of what would constitute a bad MOND rotation curve fit.  Is it in fact"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 660,
+      "text": "possible to definitively falsfy MOND by this technique?  Can an example"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 661,
+      "text": "be given where MOND fails fundamentally to predict the observed rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 663,
+      "text": "exceptionally bad fit to NGC 2841 in the sample of BBS if this galaxy is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 665,
+      "text": "This MOND rotation curve fit to NGC 2841 is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 666,
+      "text": "reproduced in Fig. 8a.   Not only is the rotation curve badly fit but the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 669,
+      "text": "of the observed rotation curve compared to the Newtonian rotation curve"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 671,
+      "text": "at accelerations larger than $a_o$ which is not possible in the context of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 672,
+      "text": "MOND.  The data on which the measured rotation curve is based are of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 673,
+      "text": "the highest quality in the existing literature (Begeman 1987):  there "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 674,
+      "text": "is sufficient spatial resolution; the HI distribution is reasonably "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 678,
+      "text": "disk itself could allow this rotation curve to be explained by MOND "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 682,
+      "text": "least-square fit, MOND fits for most of their sample improve"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 684,
+      "text": "and is generally within 15\\% of the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 686,
+      "text": "which requires a "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 687,
+      "text": "distance twice as large as the Hubble law distance to achieve a reasonable"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 689,
+      "text": "values for this object"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 690,
+      "text": "given in Table 3 are based upon this larger distance).  The MOND rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 691,
+      "text": "curve fit to this galaxy at the larger distance is shown in Fig.\\ 8b.  Here"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 692,
+      "text": "the fitted curve agrees well with the observed curve and the implied"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 695,
+      "text": "NGC 2841 is the only galaxy out of the total sample of 33 which"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 697,
+      "text": "in order to achieve a reasonable MOND fit to the rotation curve."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 698,
+      "text": "This larger distance is consistent with all Tully-Fisher "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 704,
+      "text": "distance estimate to this"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 705,
+      "text": "galaxy (e.g., Cephieds) offers the possibility of a definitive "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 717,
+      "text": "in order to achieve reasonable fits."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 723,
+      "text": "considered by BBS comprise the current total published "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 725,
+      "text": "with optical or infrared surface photometry and with observed HI rotation "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 727,
+      "text": "this number will rapidly grow due to several large surveys now underway,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 728,
+      "text": "this sample of 33 galaxies constitutes, at present, "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 729,
+      "text": "the entire body of data relevant to the nature "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 731,
+      "text": "galaxies (the several hundred optical rotation curves in the literature"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 733,
+      "text": "the discrepancy).  BBS considered a highly selected sub-sample of this"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 734,
+      "text": "collection of rotation curves-- galaxies for which one can be reasonably "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 735,
+      "text": "sure that the measured 21 cm line rotation curve gives a fairly good"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 737,
+      "text": "beyond the optical image.  They demonstrated that the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 739,
+      "text": "reproduced the observed rotation curves quite accurately, often down"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 743,
+      "text": "i.e., objects which either do not meet the selection criteria of BBS"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 747,
+      "text": "in general, the form and amplitude of the observed rotation curves is also"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 762,
+      "text": "distribution which is even more centrally concentrated than the light"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 763,
+      "text": "distribution.  This implies (see Table 3) a"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 764,
+      "text": "bulge M/L which is significantly larger than the disk"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 767,
+      "text": "Because of this complication of bulge-disk decomposition and the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 769,
+      "text": "to rotation curve analysis, are not as clean as pure disk galaxies."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 770,
+      "text": "But in general a higher bulge M/L would be more consistent with"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 774,
+      "text": "in any single case, a larger central M/L in order to achieve "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 775,
+      "text": "a reasonable fit to the rotation curve; that is to say, the necessity"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 779,
+      "text": "MOND does quite well in reproducing the rotation curves of the "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 782,
+      "text": "systems such as NGC 2915, NGC 55 and IC 2574.  This not only lends support"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 783,
+      "text": "to MOND but also to the assumptions which underly the whole procedure,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 784,
+      "text": "such as constancy of the mass-to-light ratio within the disk component of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 792,
+      "text": "parameter(s).  In this work, if we neglect the ambiguous procedure"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 796,
+      "text": "spanning range from 0.1 to 7, are not so high as to require "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 797,
+      "text": "substantial additional dark matter, which would"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 799,
+      "text": "which would suggest that MOND substantially overcorrects"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 802,
+      "text": "of the theory).  Moreover, the range in this one fitted parameter must "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 807,
+      "text": "those implied by stellar population models and exhibit the trend of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 812,
+      "text": "becomes quite consitent with the observed scatter in the blue Tully-Fisher"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 813,
+      "text": "relation. This is even more "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 815,
+      "text": "mass-to-light ratio is reduced to the order of 30\\% which again is comparable"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 817,
+      "text": "Not all of this scatter is intrinsic; certainly some  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 821,
+      "text": "With this in mind, the overall"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 828,
+      "text": "the MOND fit to the well-determined rotation curve of NGC 2841 is not "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 829,
+      "text": "acceptable.  The failure is serious; not only is the form of the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 830,
+      "text": "rotation curve not reproduced but implied mass-to-light ratios of the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 834,
+      "text": "MOND curve agrees with the observed curve in detail and the implied"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 836,
+      "text": "this galaxy (i.e., independent of the Tully-Fisher relation) is therefore"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 840,
+      "text": "In general, the analysis of this "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 844,
+      "text": "rotation curves.  Given the observed distribution of light and gas in"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 846,
+      "text": "curve which is actually observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 847,
+      "text": "by adjusting only the M/L of the luminous component, and this required"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 848,
+      "text": "M/L (in the near-infrared at least) lies within rather small range "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 851,
+      "text": "to describe rotation curves than do dark halo models.  The philosophy"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 852,
+      "text": "of rotation curve fitting"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 854,
+      "text": "curves are fits which define the properties of the dark halo; "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 855,
+      "text": "MOND rotation curves are predictions which test the validity of the theory."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 861,
+      "text": "be a rapid increase in the number of high-quality rotation curves in"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 864,
+      "text": "in predicting the rotation curves for a larger number of spiral galaxies"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 870,
+      "text": "I am very grateful to a number of people for either sharing their data"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 872,
+      "text": "data in convenient form.  This includes H. Hoekstra, M.-H. Rhee,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 874,
+      "text": "has done this analysis for a number of these galaxies observed as part"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 875,
+      "text": "of his Ph.D. dissertation, and he has recently "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 877,
+      "text": "and C. Carignan for data in advance of publication and for very useful "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 878,
+      "text": "comments on their observations of the blue compact galaxy NGC 2915.  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 879,
+      "text": "I thank Y. Andredakis for his careful bulge-disk decompositions."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 881,
+      "text": "analysis of rotation curves, the advice and help of K.G. Begeman is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 882,
+      "text": "invaluable.  I thank him especially for initiating me into the wonders"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 884,
+      "text": "His comments and insight  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 885,
+      "text": "have been, as always, an enormous help and encouragement in this work."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 930,
+      "text": "    Third Reference Catalog of Bright Galaxies (New York: Springer-Verlag)"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 990,
+      "text": "   & ${\\rm R_{HI}}$ & ${\\rm M_{gas}}$ & ${\\rm V_{rot}}$ & ${\\rm a}$ & "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1039,
+      "text": "\\hline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1044,
+      "text": "\\hline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1054,
+      "text": "\\hline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1067,
+      "text": "\\hline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1072,
+      "text": "\\hline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1106,
+      "text": "\\hline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1115,
+      "text": "\\figcaption[ ]{MOND fits to the rotation curves of the sample galaxies."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1118,
+      "text": "The points with error bars are the observations and the solid line is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1119,
+      "text": "the rotation curve determined from the distribution of light and neutral"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1121,
+      "text": "rotation curves of the various separate components:  the long dashed curve "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1123,
+      "text": "short dashed line is the rotation curve of the gaseous disk (HI plus He);"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1129,
+      "text": "\\figcaption[ ]{A log-log plot of ${\\rm M^*/L_B}$ vs. the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1136,
+      "text": "reddening corrected B-V color from the Third Reference Catalogue (de"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1143,
+      "text": "vs. the observed asymptotic rotational velocity (the B-band Tully-Fisher"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1147,
+      "text": "($10^{10}$ ${\\rm L_\\odot}$) vs. the observed "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1149,
+      "text": "15 galaxies from this sample have measured H-band magnitudes. \\label{fig5}}"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1152,
+      "text": "\\figcaption[ ]{A log-log plot of ${\\rm M_t/L_B}$ vs. the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1154,
+      "text": "This is the total mass of "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1158,
+      "text": "\\figcaption[ ]{A log-log plot of ${\\rm M_t/L_H}$ vs. observed asymptotic"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1160,
+      "text": "magnitudes.  The scatter in this measured M/L is comparable to the scatter"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1161,
+      "text": "in the observed H-band Tully-Fisher relation.  \\label{fig7}}"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1163,
+      "text": "\\figcaption[ ]{a) The MOND fit to the rotation curve of NGC 2841 assuming"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1164,
+      "text": "that this galaxy is at its Hubble law distance ($H_o = 75$ km/s Mpc) of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1165,
+      "text": "9.5 Mpc.  The Newtonian rotation curves of the various components is shown"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1166,
+      "text": "as in Fig.\\ 1.  This is an example of an unacceptable MOND fit.  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1169,
+      "text": "b) The MOND fit to the rotation curve of NGC 2841 allowing"
+    }
+  ],
+  "table_reference_hits": [
+    {
+      "file": "rotcur_pp.tex",
+      "line": 61,
+      "text": "at least three adjustable parameters and can always be"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 84,
+      "text": "force due to the detectable matter"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 113,
+      "text": "from the observed distribution of detectable matter is one of the strongest"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 133,
+      "text": "detectable matter in so far as it is traced by the visible light and"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 157,
+      "text": "The 22 galaxies considered here are listed in Table 1."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 182,
+      "text": "The columns in the table are generally self-explanatory.  The objects"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 194,
+      "text": "references.  For several objects a correction for Virgo-centric "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 198,
+      "text": "references and the near-infrared luminosity (column 5) is calculated from "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 207,
+      "text": "references for the rotation curve and for the photometry."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 211,
+      "text": "Table 2.  Because the bulge is"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 215,
+      "text": "The bulge-disk decomposition given in the indicated references "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 232,
+      "text": "Table 2. "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 239,
+      "text": "the detectable matter.  This is done by assuming that the light in"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 288,
+      "text": "of the luminous disk, and for those cases in Table 2, ${\\rm M_b}$, "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 304,
+      "text": "Table 1.  This is done because it is desirable to reduce the dimensionality"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 321,
+      "text": "The results are given in Fig.\\ 1 and in Table 3.  In the figure we see"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 328,
+      "text": "taken, in general, directly from the reference for the rotation curve"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 329,
+      "text": "(Table 1) and cannot be interpreted in a uniform way.  Often the indicated"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 343,
+      "text": "Table 1, ordered in decreasing asymptotic rotation velocity."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 392,
+      "text": "structure this galaxy is clearly not very suitable for detailed rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 416,
+      "text": "given in this reference; in any case, the total gas mass, estimated from"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 417,
+      "text": "global 21 cm line profiles (Table 1), is less than  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 418,
+      "text": "10\\% of the fitted disk mass (Table 3) in both cases."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 488,
+      "text": "Table 3 lists the fitted disk and bulge masses for all galaxies in the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 523,
+      "text": "galaxies determined from the MOND fits (column 6 of Table 3) plotted as "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 533,
+      "text": "B-V listed in the Third Reference Catalogue (de Vaucoleurs et al. 1991).  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 564,
+      "text": "total sample (Table 3).  Here the rotation velocity is that measured at the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 603,
+      "text": "Table 3) plotted against the asymptotic rotation velocity, where now the"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 619,
+      "text": "(column 8 of Table 3) plotted "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 656,
+      "text": "observed rotation curves from the distribution of detectable matter."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 670,
+      "text": "of the detectable matter, suggests that a large discrepancy is present "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 690,
+      "text": "given in Table 3 are based upon this larger distance).  The MOND rotation"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 738,
+      "text": "distribution of detectable matter in the galaxies, in the context of MOND, "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 752,
+      "text": "adjustable parameters per galaxy and"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 763,
+      "text": "distribution.  This implies (see Table 3) a"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 786,
+      "text": "the absence of a significant contribution to the detectable mass"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 829,
+      "text": "acceptable.  The failure is serious; not only is the form of the observed"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 930,
+      "text": "    Third Reference Catalog of Bright Galaxies (New York: Springer-Verlag)"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 982,
+      "text": "\\begin{table}[p]"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 988,
+      "text": "\\tableline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 991,
+      "text": "   $ {\\rm Ref.}$ \\\\"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 996,
+      "text": "\\tableline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1019,
+      "text": "\\tableline"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1021,
+      "text": "\\tablerefs{1, Kent 1986; 2, Roelfsema \\& Allen 1985; 3, Broeils 1992b;"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1033,
+      "text": "\\end{table}"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1035,
+      "text": "\\begin{table}[p]"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1041,
+      "text": "       ${\\rm Ref.}$ \\\\"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1057,
+      "text": "\\tablerefs{1, Kent 1985; 2, Andredakis \\& Sanders 1994; 3, Andredakis,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1060,
+      "text": "\\end{table}"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1062,
+      "text": "\\begin{table}[p]"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1108,
+      "text": "\\tablecomments{The asterisk denotes galaxies from the sample of BBS}"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1110,
+      "text": "\\end{table}"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1136,
+      "text": "reddening corrected B-V color from the Third Reference Catalogue (de"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1166,
+      "text": "as in Fig.\\ 1.  This is an example of an unacceptable MOND fit.  "
+    }
+  ],
+  "bibliography_like_hits": [
+    {
+      "file": "rotcur_pp.tex",
+      "line": 13,
+      "text": "sample of Begeman et al. (1990), this comprises the current total sample"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 95,
+      "text": "With a view toward minimizing these problems, Begeman et al. (1991, hereafter"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 171,
+      "text": "originally made famous by Rubin et al. (1985) as examples of spiral galaxies"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 178,
+      "text": "low surface brightness galaxy, UGC 128 (van der Hulst et al. 1993,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 179,
+      "text": "de Blok et al. 1995) and one blue compact galaxy, NGC 2915 (Meurer et al."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 440,
+      "text": "23 ${\\rm mag/arcsec^2}$ (de Blok et al. 1995).  Although it is faint,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 464,
+      "text": "by Meurer et al. (1996).  The neutral hydrogen extends well beyond the bright"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 478,
+      "text": "Meurer et al. give $5.3 \\pm 1.3$ Mpc based on the method of brightest "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 533,
+      "text": "B-V listed in the Third Reference Catalogue (de Vaucoleurs et al. 1991).  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 554,
+      "text": "is 1.3 Mpc (Cappacioli et al. 1992).  At this distance the gas mass is reduced"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 888,
+      "text": "\\bibitem [Aaronson et al. 1982]{aaeta82} Aaronson, M., et al. 1982,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 889,
+      "text": "    \\apjs, 50, 241"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 890,
+      "text": "\\bibitem [Aaronson and Mould 1983]{am83} Aaronson, M. and Mould, J. 1983,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 891,
+      "text": "    \\apj, 265, 1"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 892,
+      "text": "\\bibitem [Andredakis and Sanders 1004]{as94} Andredakis, Y.C. and Sanders,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 893,
+      "text": "    R.H. 1994,\\mnras, 267, 283"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 894,
+      "text": "\\bibitem [Barnaby and Thronson 1992]{bt92} Barnaby, D. and Thronson, H.A., Jr."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 895,
+      "text": "    1992, \\aj, 103, 41"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 896,
+      "text": "\\bibitem [Barnaby and Thronson 1994]{bt94} Barnaby, D. and Thronson, H.A., Jr."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 897,
+      "text": "    1994, \\aj, 107, 1717"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 898,
+      "text": "\\bibitem [Begeman 1987]{kgbt} Begeman, K.G. 1987, Ph.D. Thesis, University of"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 900,
+      "text": "\\bibitem [BBS]{BBS} Begeman, K.G., Broeils, A.H. and Sanders, R.H. 1991,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 901,
+      "text": "    \\mnras, 249, 523"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 902,
+      "text": "\\bibitem [Bekenstein and Milgrom 1984]{BM84} Bekenstein, J.D. and Milgrom,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 903,
+      "text": "    M. 1984, \\apj, 286, 7"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 904,
+      "text": "\\bibitem [Brada and Milgrom 1995]{bm95} Brada, R. and Milgrom, M. 1995,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 905,
+      "text": "    \\mnras, 276, 453"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 906,
+      "text": "\\bibitem [Broeils 1992]{brt} Broeils, A.H. 1992, Ph.D. Thesis, University"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 908,
+      "text": "\\bibitem [Broeils and Knapen 1991]{bk} Broeils, A.H. and Knapen, J.H. 1991,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 910,
+      "text": "\\bibitem [Bruzual and Charlot 1993]{bc93} Bruzual, G.A. and Charlot, S."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 911,
+      "text": "    1993, \\apj, 405, 538"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 912,
+      "text": "\\bibitem [Ca[accioli et al. 1992]{cetal92} Capaccioli, M., Piotto, G. "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 913,
+      "text": "    and Bresolin, F. 1992, \\aj, 103, 1151"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 914,
+      "text": "\\bibitem [Carignan 1985]{cc85} Carignan, C. 1985, \\apjs, 58, 107"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 915,
+      "text": "\\bibitem [Carignan and Beaulieu, S. 1989]{cb89} Carignan, C. and Beaulieu, S."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 916,
+      "text": "    1989, \\apj 347, 760"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 917,
+      "text": "\\bibitem [Carignan and Puche 1990a]{cp90a} Carignan, C. and Puche, D."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 918,
+      "text": "    1990a, \\aj, 100, 394"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 919,
+      "text": "\\bibitem [Carignan and Puche 1990b]{cp90b} Carignan, C. and Puche, D."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 920,
+      "text": "    1990b, \\aj, 100, 641"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 921,
+      "text": "\\bibitem [Casertano and van Gorkom 1991]{cvg} Casertano, S. and van Gorkom"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 922,
+      "text": "    J.H. 1991, \\aj, 101, 1231"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 923,
+      "text": "\\bibitem [Cot\\'e et al. 1991]{ccs} Cot\\'e, S., Carignan, C. and Sancisi, R."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 924,
+      "text": "    1991, \\aj 102, 904"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 925,
+      "text": "\\bibitem [Deul and van der Hulst 1987]{dvdh} Deul, E.R. and van der Hulst,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 927,
+      "text": "\\bibitem [de Blok et al. 1995]{db95} de Blok, W.J.G., van der Hulst, J.M.,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 928,
+      "text": "    Bothun, G.D. 1995, \\mnras, 274, 235"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 929,
+      "text": "\\bibitem [de Vaucouleurs et al. 1991]{rc3} de Vaucouleurs, G. et al. 1991,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 931,
+      "text": "\\bibitem [Freedman et al. 1992]{feta92} Freedman, W.L. et al. 1992,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 932,
+      "text": "    \\apj, 396, 80"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 933,
+      "text": "\\bibitem [Kent 1984]{k84} Kent, S.M. 1984, \\apjs, 56, 105"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 934,
+      "text": "\\bibitem [Kent 1985]{k85} Kent, S.M. 1985, \\apjs, 59, 115"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 935,
+      "text": "\\bibitem [Kent 1986]{k86} Kent, S.M. 1986, \\aj, 91, 1301"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 936,
+      "text": "\\bibitem [Kent 1987]{k87} Kent, S.M. 1987, \\aj, 93, 806"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 937,
+      "text": "\\bibitem [Kraan-Korteweg 1986]{kk86} Kraan-Korteweg, R.C. 1986,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 939,
+      "text": "\\bibitem [Larson and Tinsley 1978]{lt78} Larson, R.B. and Tinsley, B.M."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 940,
+      "text": "    1978, \\apj, 219, 46"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 941,
+      "text": "\\bibitem [Madore and Freedman 1991]{mf91} Madore, B.F. and Freedman,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 943,
+      "text": "\\bibitem [Martimbeau and Carignan 1994] {mc94} Martimbeau, N. and "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 944,
+      "text": "    Carignan, C. 1994, \\aj, 107, 543 "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 945,
+      "text": "\\bibitem [Milgrom 1983]{ml83} Milgrom, M. 1983, \\apj, 270, 365"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 946,
+      "text": "\\bibitem [Milgrom 1986]{ml86} Milgrom, M. 1986, \\apj, 302, 617"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 947,
+      "text": "\\bibitem [Milgrom 1988]{ml88} Milgrom, M. 1988, \\apj, 333, 684"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 948,
+      "text": "\\bibitem [Milgrom 1994]{ml94} Milgrom, M. 1994, Ann.Phys., 229, 384"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 949,
+      "text": "\\bibitem [Meurer et al. 1994]{meta94} Meurer, G.R., Mackie, G., and"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 950,
+      "text": "    Carignan, C. 1994, \\aj, 107, 2021"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 951,
+      "text": "\\bibitem [Meurer et al. 1996]{meta96} Meurer, G.R., Carignan, C., "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 952,
+      "text": "    Beaulieu, S.F., and Freeman, K.C. 1996, \\aj, in press"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 953,
+      "text": "\\bibitem [Puche et al. 1991]{peta91} Puche, D., Carignan, C., Wainscoat,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 954,
+      "text": "    R.J. 1991, \\aj, 101, 447"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 955,
+      "text": "\\bibitem [Rhee 1996]{mhr96} Rhee, M.-H. 1996, Ph.D. Thesis, University"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 957,
+      "text": "\\bibitem [Rubin et al. 1985]{reta85} Rubin, V.C., Burstein, D., Ford,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 958,
+      "text": "    W.K., Jr., Thonnard, N. 1985, \\apj, 289, 81"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 959,
+      "text": "\\bibitem [Sancisi and van Albada 1987]{sva87} Sancisi, R. and van Albada,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 962,
+      "text": "\\bibitem [Sandage and Carlson 1988]{sc88} Sandage A. and Carlson, G. 1988,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 963,
+      "text": "    \\aj, 96, 1599"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 964,
+      "text": "\\bibitem [Sanders 1990]{rhs90} Sanders, R.H. 1990, \\aapr, 2, 1"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 965,
+      "text": "\\bibitem [Sanders and Begeman 1994]{sb94} Sanders, R.H. and Begeman, K.G."
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 966,
+      "text": "    1994, \\mnras, 266, 360"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 967,
+      "text": "\\bibitem [Tormen and Burstein 1995]{tb95} Tormen, G. and Burstein, D. 1995,"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 968,
+      "text": "    \\apjs, 96, 123"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 971,
+      "text": "\\bibitem [van der Hulst et al. 1993]{vdeta93} van der Hulst, J.M., "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 973,
+      "text": "    and de Blok, W.J.G. 1993, \\aj, 106, 548"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 974,
+      "text": "\\bibitem [Wevers 1984]{bw84} Wevers, B.M.H.R. 1984, Ph.D. Thesis, University"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 976,
+      "text": "\\bibitem [Worthy 1994] {wo94} Worthy, G. 1994, \\apjs, 95, 107"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 977,
+      "text": "\\bibitem [Young 1987]{y87} Young, J.S. 1987, in Star Forming Regions, IAU"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1026,
+      "text": "12, Carignan et al. 1990; 13, van der Hulst et al. 1993; 14, de Blok"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1027,
+      "text": "et al. 1995; 15, Carignan \\& Puche 1990b; 16, Carignan 1985;  "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1029,
+      "text": "20, Carignan \\& Puche 1990a; 21, Cote et al. 1991; 22, Meurer et al. 1994;"
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1030,
+      "text": "23, Meurer et al. 1996; 24, Puche et al. 1991; 25, Martimbeau \\& Carignan "
+    },
+    {
+      "file": "rotcur_pp.tex",
+      "line": 1137,
+      "text": "Vaucouleurs et al. 1991).  Also shown (dashed line) are theoretical"
+    }
+  ],
+  "interpretation_boundary": "Sanders 1996 is treated as a downstream published-curve analysis. A target is not assigned an original H I source until the Sanders source text explicitly supports that attribution."
+}
