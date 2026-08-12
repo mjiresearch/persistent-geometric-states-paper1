@@ -1,0 +1,406 @@
+{
+  "status": "WA97_NGC0289_PUBLIC_ROUTE_AUDIT_COMPLETE",
+  "galaxy": "NGC0289",
+  "stationary_role": "calibration",
+  "sparc_ref_id": "Wa97",
+  "reference": {
+    "authors": "Walsh, Staveley-Smith & Oosterloo",
+    "year": 1997,
+    "title": "The Giant, Gas-Rich, Low-Surface-Brightness Galaxy NGC 289",
+    "journal": "Astronomical Journal",
+    "volume": 113,
+    "pages": "1591-1606",
+    "doi": "10.1086/118377",
+    "bibcode": "1997AJ....113.1591W"
+  },
+  "frozen_mapping": {
+    "galaxy": "NGC0289",
+    "stationary_role": "calibration",
+    "sparc_ref_id": "Wa97",
+    "reference_resolved_in_cds_refs": "1",
+    "author": "Walsh et al",
+    "bibcode": "1997AJ....113.1591W",
+    "comment": "",
+    "provenance_scope": "SPARC_Table1_column15_HI_Halpha_reference"
+  },
+  "fetch_attempts": [
+    {
+      "requested_url": "https://articles.adsabs.harvard.edu/pdf/1997AJ....113.1591W",
+      "final_url": "https://articles.adsabs.harvard.edu/pdf/1997AJ....113.1591W",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1988688,
+      "sha256": "d6b46865794818ee62566fa37d17f09f807b7a52e272de953f12eb0ca1462810"
+    },
+    {
+      "requested_url": "https://articles.adsabs.harvard.edu/full/1997AJ....113.1591W",
+      "final_url": "https://ui.adsabs.harvard.edu/scan/manifest/1997AJ....113.1591W",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 2099,
+      "sha256": "347e36894079f17e9317217d09fa04ac35ad7e13c69a55b844f22daf47df99ef"
+    },
+    {
+      "requested_url": "https://iopscience.iop.org/article/10.1086/118377/pdf",
+      "error": "<HTTPError 404: ''>"
+    },
+    {
+      "requested_url": "https://journals.uchicago.edu/doi/pdf/10.1086/118377",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    }
+  ],
+  "discovered_links": [],
+  "pdf_structural_audits": [
+    {
+      "pdf": {
+        "requested_url": "https://articles.adsabs.harvard.edu/pdf/1997AJ....113.1591W",
+        "final_url": "https://articles.adsabs.harvard.edu/pdf/1997AJ....113.1591W",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1988688,
+        "sha256": "d6b46865794818ee62566fa37d17f09f807b7a52e272de953f12eb0ca1462810"
+      },
+      "page_count": 16,
+      "pages": [
+        {
+          "page_index": 0,
+          "text_chars": 5160,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 1,
+          "text_chars": 4088,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 2,
+          "text_chars": 5397,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 3,
+          "text_chars": 4334,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 4,
+          "text_chars": 6542,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 5,
+          "text_chars": 2458,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 6,
+          "text_chars": 2047,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 7,
+          "text_chars": 5803,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 8,
+          "text_chars": 641,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 9,
+          "text_chars": 5392,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 10,
+          "text_chars": 4983,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 11,
+          "text_chars": 6378,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 12,
+          "text_chars": 5087,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 13,
+          "text_chars": 6972,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 14,
+          "text_chars": 6519,
+          "n_images": 2,
+          "n_drawings": 0
+        },
+        {
+          "page_index": 15,
+          "text_chars": 1873,
+          "n_images": 2,
+          "n_drawings": 0
+        }
+      ],
+      "native_text_chars": 73689,
+      "contexts": [
+        {
+          "pattern": "surface density",
+          "context": "the center. The projected peak column density is 8.3 X 1020 at- oms cm-2 in the eastern arc and 7.0X 1020 atoms cm-2 in \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1598 WALSH ETAL: NGC 289 1598 Fig. 6. Radial profile of deprojected H i surface density in NGC 289, from azimuthal averaging in concentric annuli with a constant inchnation of 46\u00b0 and constant position angle of 130\u00b0. the western arc, and can be compared to the minima of ~3.5X 1020 atoms cm-2 in the contiguous interarm regions. The radial distribution of HI in"
+        },
+        {
+          "pattern": "surface density",
+          "context": "nsity contrast^ c Pitch angle, iff Crossing Radiusb Pattern speed, ilp a Velocity Dispersion Rotation Velocity0 0.80 20\u00b0 170\" 40 km s\u201c1 kpc-1 12 km s-1 170 km s'1 aDensity wave contrast after Rots (1974): c=(o-max-<jmin)/2cravg with <jmax ,0^ ,<jaVg representing the surface density in the arm, interarm, and azimuthal average, respectively. bRadius at which the spiral pattern first crosses the major axis. Defines the phase of the spiral pattern. dAmplitude of the (flat) model rotation curve. required for an adequate description of NGC 289\u2019s kinemat- i"
+        },
+        {
+          "pattern": "surface density",
+          "context": "e outer disk is not well fitted by a single exponential, but has a shallow profile (with formal scale length of 5.4 kpc). The Parkes and ATCA observations show that the galaxy is gas rich, with Mh^M^ \u2014 0.4. The measured HI disk extends to a radius of nearly 70 kpc where the surface density falls to a few times 1019 cm-2. The op- tical disk in V reaches 1% of the sky level at 24 kpc. When logarithmic plots are compared, the azimuthally averaged ra- dial HI density is flat as far as R25 whereas the stellar disk declines approximately exponentially in that region"
+        },
+        {
+          "pattern": "column density",
+          "context": "ion of emission, and the resultant spectrum is plotted in Fig. 3. The flux integral of 270 Jy km s-1 is adopted as the best measure of the total HI emission, giving a total HI mass (assuming optically thin gas) of 2.8XlO10 M0 for the adopted distance of 21 Mpc. Moment maps (column density, intensity weighted mean velocity and velocity dispersion) were calculated from the naturally weighted data cube using the AIPS task MOMNT. For comparison, a Gaussian fitting technique was also used (AIPS task XGAUS), the results agreeing at the level of the fitting errors,"
+        },
+        {
+          "pattern": "column density",
+          "context": "s also used (AIPS task XGAUS), the results agreeing at the level of the fitting errors, except in the innermost region where the beam- smearing causes the spectra to become broad and non- Gaussian. In all subsequent discussion, we use the results of the moment analysis. The column density map is shown in Fig. 5. 5. RESULTS 5.1 Structure of the Optical Disk Figures 1(a) and 1(b) show the V band image of NGC 289 using logarithmic and linear transfer functions, respectively, to show the central regions and also the faint outer disk. In Fig. 1(b) shows clearly"
+        },
+        {
+          "pattern": "column density",
+          "context": "al (1994). \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1997AJ 113.1591W 1597 WALSH ET AL : NGC 289 1597 03' 06' 09' o o o C\\2 \u00bb-3 12 o w Q 15 18 -31\u00b021 0h53m15s 53 0 45s 30s RA (J2000) 15 52 0 Fig. 5. Contours of H i column density in NGC 289 over the Digital Sky Survey image. Contours are at intervals of 1 X 1020 cm 2, starting from 1 X 10 19 5.2 The Distribution of HI The Hi column density image, Fig. 5, shows the ex- tremely large Hi disk surrounding NGC 289. The disk is approximately elliptical, wi"
+        },
+        {
+          "pattern": "column density",
+          "context": "o o C\\2 \u00bb-3 12 o w Q 15 18 -31\u00b021 0h53m15s 53 0 45s 30s RA (J2000) 15 52 0 Fig. 5. Contours of H i column density in NGC 289 over the Digital Sky Survey image. Contours are at intervals of 1 X 1020 cm 2, starting from 1 X 10 19 5.2 The Distribution of HI The Hi column density image, Fig. 5, shows the ex- tremely large Hi disk surrounding NGC 289. The disk is approximately elliptical, with the major axis aligned with both the optical and kinematic major axes. The 1 X 1019 at- oms cm-2 contour extends \u201422' along the major axis and \u2014 15' along the"
+        },
+        {
+          "pattern": "column density",
+          "context": "from the nucleus, a projected position angle of 20\u00b0 to 120\u00b0 on the east side and 210\u00b0 to 340\u00b0 on the west side. These long and symmetrical arcs appear to be part of the outer spiral arms, but do not occur at the same radii on opposite sides of the center. The projected peak column density is 8.3 X 1020 at- oms cm-2 in the eastern arc and 7.0X 1020 atoms cm-2 in \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1598 WALSH ETAL: NGC 289 1598 Fig. 6. Radial profile of deprojected H i surface density in NGC 289, from azimuthal av"
+        },
+        {
+          "pattern": "column density",
+          "context": "Provided by the NASA Astrophysics Data System 1997AJ 113.1591W 1599 WALSH ET AL : NGC 289 1599 53m0s 45s 30s 15s 52m0s 0h53m15s 53m0s 45s 30s 15s 52m0s RA (J2000) RA (J2000) Fig. 7. Isovelocity contours of NGC 289 overlaid on the Digital Sky Survey photograph (a) and the column density map (b). The contour intervals are 10 km s\u201c1, (the southern half has the higher velocities) and the small cross indicates the position of the unresolved continuum feature (Sec. 2). I I q -10 -8 -6 -4 -2 0 2 4 6 8 10 DEC offset (arcmin; J2000) Fig. 8. Position-velocity diag"
+        },
+        {
+          "pattern": "column density",
+          "context": "in NGC 4013 (Bottema 1996), such a pronounced warp in NGC 289 creates the di- lemma of how such a warp can both survive long enough to produce the approximately symmetric structures in the veloc- ity field and not be smeared out by differential precession. In Fig. 7(b), the column density shows a number of clumps in the inner 200\" possibly associated with the spiral arms or a ring. Close alignment of the kinks and bulges in the isovelocity contours, which indicate departures from cir- cular rotation of up to about 30 km s -1, with these and other overdensiti"
+        },
+        {
+          "pattern": "column density",
+          "context": "er of clumps in the inner 200\" possibly associated with the spiral arms or a ring. Close alignment of the kinks and bulges in the isovelocity contours, which indicate departures from cir- cular rotation of up to about 30 km s -1, with these and other overdensities in the Hi column density is apparent. The kinks in the velocity contours in the outer part of the disk are clearly associated with the spiral arms. As an alternative to the warp hypothesis, we model the gross radial features in NGC 289\u2019s kinematics using the lin- ear SDW approach (Lin et al 1969; B"
+        },
+        {
+          "pattern": "column density",
+          "context": ".0 the kinks in the isovelocity contours seen in Fig. 7 show that is not the whole story. The SDW model\u2019s parameter space is large and, in NGC 289, the data do not constrain a unique set of parameters or determine individual parameters to better than about 30%. Since the Hi column density image does not provide any evidence for a leading SDW in NGC 289, our SDW model cannot claim to represent the true state of the density wave in NGC 289. With an inclination always less than 55\u00b0, and a data cube with velocity resolution of 10 km s_1, NGC 289 is too face-on f"
+        },
+        {
+          "pattern": "column density",
+          "context": "es NGC 801, NGC 6674, and NGC 7331 (Begeman 1987, Broeils 1992), suggesting the possibility that a deep potential well pulled both baryonic and halo material into the center of NGC 289 and NGC 5963, stimulating star formation there. Figure 5 shows that, for NGC 289, the H I column density is enhanced in the vicinity of the outer optical spiral arms, which may indicate SDWs interfering or that the spiral den- sity wave is particularly strong there. In a study of the spiral structure of another giant spiral galaxy, UGC 2885, Canzian et al (1993) speculate that"
+        },
+        {
+          "pattern": "radial distribution",
+          "context": "projected H i surface density in NGC 289, from azimuthal averaging in concentric annuli with a constant inchnation of 46\u00b0 and constant position angle of 130\u00b0. the western arc, and can be compared to the minima of ~3.5X 1020 atoms cm-2 in the contiguous interarm regions. The radial distribution of HI in Fig. 6 was produced by averaging in concentric elliptical annuli, using the disk ori- entation parameters from the kinematical analysis (Sec 5.4). The derived Hi surface densities have been corrected for line-of-sight projection effects (assuming the gas to be opti-"
+        },
+        {
+          "pattern": "radial profile",
+          "context": "e same radii on opposite sides of the center. The projected peak column density is 8.3 X 1020 at- oms cm-2 in the eastern arc and 7.0X 1020 atoms cm-2 in \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1598 WALSH ETAL: NGC 289 1598 Fig. 6. Radial profile of deprojected H i surface density in NGC 289, from azimuthal averaging in concentric annuli with a constant inchnation of 46\u00b0 and constant position angle of 130\u00b0. the western arc, and can be compared to the minima of ~3.5X 1020 atoms cm-2 in the contiguous interarm regions."
+        },
+        {
+          "pattern": "H I surface",
+          "context": "of the center. The projected peak column density is 8.3 X 1020 at- oms cm-2 in the eastern arc and 7.0X 1020 atoms cm-2 in \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1598 WALSH ETAL: NGC 289 1598 Fig. 6. Radial profile of deprojected H i surface density in NGC 289, from azimuthal averaging in concentric annuli with a constant inchnation of 46\u00b0 and constant position angle of 130\u00b0. the western arc, and can be compared to the minima of ~3.5X 1020 atoms cm-2 in the contiguous interarm regions. The radial distribution o"
+        },
+        {
+          "pattern": "HI surface",
+          "context": "ompared to the minima of ~3.5X 1020 atoms cm-2 in the contiguous interarm regions. The radial distribution of HI in Fig. 6 was produced by averaging in concentric elliptical annuli, using the disk ori- entation parameters from the kinematical analysis (Sec 5.4). The derived Hi surface densities have been corrected for line-of-sight projection effects (assuming the gas to be opti- cally thin) and plotted on a linear scale. Our sensitivity limit is close to the interesting level of ~2X 1019 atoms cm-2 at which abrupt truncations are seen in the disks of M3"
+        },
+        {
+          "pattern": "Figure 5",
+          "context": "to rCOre/^25~3 for the bright Sb-c galaxies NGC 801, NGC 6674, and NGC 7331 (Begeman 1987, Broeils 1992), suggesting the possibility that a deep potential well pulled both baryonic and halo material into the center of NGC 289 and NGC 5963, stimulating star formation there. Figure 5 shows that, for NGC 289, the H I column density is enhanced in the vicinity of the outer optical spiral arms, which may indicate SDWs interfering or that the spiral den- sity wave is particularly strong there. In a study of the spiral structure of another giant spiral galaxy"
+        },
+        {
+          "pattern": "Fig. 2",
+          "context": "Average geometric parameters (P.A. = 126\u00b0, z\u2018 = 44\u00b0) were used in IRAF tasks ELAPERT and POLYPHOT to define elliptical rings over which the surface brightness was measured by averaging counts in annuli of 10\" width. The radial luminosity profile thus ob- tained is shown in Fig. 2. The integrated radial surface brightness profiles give total magnitudes of Vr= 10.38\u00b10.07 mag and /r=9.58\u00b10.07 mag (Table 2). Corrections for foreground and internal ab- sorption based on RC3 values for Galactic and internal ex- tinction were applied. We use Rieke & Lebofs"
+        },
+        {
+          "pattern": "Fig. 2",
+          "context": "for internal extinction (A , = 0.22). bAdopted scale length. See text. \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1997AJ 113.1591W 1594 WALSH ET AL : NGC 289 1594 16 18 20 22 24 26 28 1 0 -1 0 5 10 15 20 25 30 Radius (kpc) Fig. 2. Surface brightness profile in V and radial V\u2014I color profile of NGC 289. parison, RC3 lists BT= 11.12 and Lauberts & Valentijn (1989) list 11.36 which transform to 10.99 and VT= 10.63 mag, respectively, when the RC3 value of (B \u2014 V)t=0.13 is used. Both values are dimmer th"
+        },
+        {
+          "pattern": "Fig. 2",
+          "context": "ms, which begin at a radius of about \u201470\", are seen to bifurcate at 110\". The central, high-surface-brightness region, extending to a radius of \u2014100\", does not have the appearance of a typical galactic bulge, although the (V\u2014I) color appears to become more blue out to 200\" (Fig. 2). Beyond this radius, the color is not observed to change, within the uncertainties, although the point-to-point scatter may indicate that the uncertainties have been overestimated. If so, Fig. 2 suggests that NGC 289 exhibits a slight color gradient, in the same sense as se"
+        },
+        {
+          "pattern": "Fig. 2",
+          "context": "actic bulge, although the (V\u2014I) color appears to become more blue out to 200\" (Fig. 2). Beyond this radius, the color is not observed to change, within the uncertainties, although the point-to-point scatter may indicate that the uncertainties have been overestimated. If so, Fig. 2 suggests that NGC 289 exhibits a slight color gradient, in the same sense as seen in most other spiral galaxies (de Jong 1995). Schlosser & Mucsculus (1984), using a Fourier analysis to determine the pitch and number of spiral arms in a sample of large spiral galaxies, foun"
+        },
+        {
+          "pattern": "Fig. 2",
+          "context": "h of the nucleus appears to have disturbed the northern arms, and a very LSB extension to the outermost arm can be seen in the southwest. Unlike many spirals, NGC 289\u2019s surface brightness pro- file is not well fitted by a combination of a central bulge and exponential disk (Fig. 2). NGC 289\u2019s profile is reminiscent of giant LSB galaxies such as 0052\u20140119 and 1300+0144 (Sprayberry et al. 1995b). These galaxies have concave pro- files not well fitted by a bulge and a disk. The appearance of NGC 289\u2019s center indicates that the bulge component, if any, \u00a9"
+        },
+        {
+          "pattern": "Fig. 2",
+          "context": "289 is sufficiently axially symmetric for a rotation curve to provide a meaningful probe of the gravitational po- tential. We follow the method described in Broeils (1992), and references therein. As neither the CCD images (Fig. 1) nor the radial surface brightness profile (Fig. 2) shows clear evidence for a stellar bulge component in NGC 289, we model the rotation curve with just a thick stellar disk, a thick gaseous disk and a spherical halo of \u201cdark matter.\u201d The rotation arising from the gas is obtained from Fig. 6, scaled by 1.3 to allow for heli"
+        },
+        {
+          "pattern": "Fig. 3",
+          "context": "at 1.412 GHz. To estimate the total flux density at each velocity, the data were spatially integrated and normalized by assuming the beam of the Parkes Telescope to be Gaussian with corre- sponding solid angle 2.08 X 10\u201d5 sr. The spatially integrated spectrum is plotted in Fig. 3 on top of the primary beam- corrected ATCA spectrum. The Parkes data in Fig. 3 are smoothed to match the spectral resolution of the ATCA data. Fig. 3. Spatially integrated ATCA and Parkes 64 m spectra of NGC 289, with a Mopra single pointing observation. No flux has been res"
+        },
+        {
+          "pattern": "Fig. 3",
+          "context": "ere spatially integrated and normalized by assuming the beam of the Parkes Telescope to be Gaussian with corre- sponding solid angle 2.08 X 10\u201d5 sr. The spatially integrated spectrum is plotted in Fig. 3 on top of the primary beam- corrected ATCA spectrum. The Parkes data in Fig. 3 are smoothed to match the spectral resolution of the ATCA data. Fig. 3. Spatially integrated ATCA and Parkes 64 m spectra of NGC 289, with a Mopra single pointing observation. No flux has been resolved out in the ATCA observations. The velocity scale is heliocentric. The to"
+        },
+        {
+          "pattern": "Fig. 3",
+          "context": "es Telescope to be Gaussian with corre- sponding solid angle 2.08 X 10\u201d5 sr. The spatially integrated spectrum is plotted in Fig. 3 on top of the primary beam- corrected ATCA spectrum. The Parkes data in Fig. 3 are smoothed to match the spectral resolution of the ATCA data. Fig. 3. Spatially integrated ATCA and Parkes 64 m spectra of NGC 289, with a Mopra single pointing observation. No flux has been resolved out in the ATCA observations. The velocity scale is heliocentric. The total Parkes flux integral of 250\u00b130 Jy km s\u201c1 is slightly lower than the"
+        },
+        {
+          "pattern": "Fig. 3",
+          "context": "ame specifications as each of the six ATCA antennas) in 1993 July. One 20 min observation was made. The Mopra flux integral of 234\u00b1 40 Jy km s~1 is also slightly lower than the ATCA integral, but still consistent within the uncertainties. The Mopra spectrum is also shown in Fig. 3. Previous total flux determinations by Staveley-Smith & Davies (1987) (195\u00b131 Jy km s-1), PB (152\u00b18 Jy km s\u201c1), Reif et al. (1982) (244\u00b18 Jy km s\u201c1), and Fisher & Tully (1981) (161\u00b1 8 Jy km s-1) were not spatially integrated and there- fore represent underestimates. 4.2.2"
+        },
+        {
+          "pattern": "Fig. 3",
+          "context": "e was corrected for primary beam attenuation, and 30 channel maps from the cleaned cube with significant HI emission are shown in Fig. 4. The total emis- sion in each channel was measured by manually selecting the region of emission, and the resultant spectrum is plotted in Fig. 3. The flux integral of 270 Jy km s-1 is adopted as the best measure of the total HI emission, giving a total HI mass (assuming optically thin gas) of 2.8XlO10 M0 for the adopted distance of 21 Mpc. Moment maps (column density, intensity weighted mean velocity and velocity di"
+        },
+        {
+          "pattern": "Fig. 4",
+          "context": "r confusing sources in the beam). The 3cr detection threshold is therefore ~ 1.8X 1019atoms cm-2 for each channel in the final cube. The data cube was corrected for primary beam attenuation, and 30 channel maps from the cleaned cube with significant HI emission are shown in Fig. 4. The total emis- sion in each channel was measured by manually selecting the region of emission, and the resultant spectrum is plotted in Fig. 3. The flux integral of 270 Jy km s-1 is adopted as the best measure of the total HI emission, giving a total HI mass (assuming opt"
+        },
+        {
+          "pattern": "Fig. 4",
+          "context": "1704.028 i\u2014i\u2014i\u2014i\u2014i\u2014r\u2014 - 1714.034 a i i I i r -1 1 i 1 r 1744.058 ~ T I r\" \u00a5' \u2014i i i i i i i_ I-1\u2014i\u2014j\u2014i\u2014i\u2014r- - 1754.068 # * r\u2014i\u2014i\u2014i\u2014i\u2014r~ 1764.078 \u00ed 0 0h53m 52m RA (J2000) 0h53m 52m RA (J2000) 0h53m 52m RA (J2000) 0h53m 52m RA (J2000) 0h53m 52m RA (J2000) Fig. 4. 21 cm H i images of NGC 289 at heliocentric velocities (cAX/\\0) between 1484 and 1774 km s K Velocities are marked in the top left-hand comer of each plane. The greyscale dynamic range is \u20143 to 80 mJy/beam. is very small or diffuse and, indeed, a de Vaucouleurs profile (/=/0"
+        },
+        {
+          "pattern": "Fig. 5",
+          "context": "the results agreeing at the level of the fitting errors, except in the innermost region where the beam- smearing causes the spectra to become broad and non- Gaussian. In all subsequent discussion, we use the results of the moment analysis. The column density map is shown in Fig. 5. 5. RESULTS 5.1 Structure of the Optical Disk Figures 1(a) and 1(b) show the V band image of NGC 289 using logarithmic and linear transfer functions, respectively, to show the central regions and also the faint outer disk. In Fig. 1(b) shows clearly the two innermost spira"
+        },
+        {
+          "pattern": "Fig. 5",
+          "context": "studied by Giovanelli et al (1994). \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1997AJ 113.1591W 1597 WALSH ET AL : NGC 289 1597 03' 06' 09' o o o C\\2 \u00bb-3 12 o w Q 15 18 -31\u00b021 0h53m15s 53 0 45s 30s RA (J2000) 15 52 0 Fig. 5. Contours of H i column density in NGC 289 over the Digital Sky Survey image. Contours are at intervals of 1 X 1020 cm 2, starting from 1 X 10 19 5.2 The Distribution of HI The Hi column density image, Fig. 5, shows the ex- tremely large Hi disk surrounding NGC 289. The disk"
+        },
+        {
+          "pattern": "Fig. 5",
+          "context": "w Q 15 18 -31\u00b021 0h53m15s 53 0 45s 30s RA (J2000) 15 52 0 Fig. 5. Contours of H i column density in NGC 289 over the Digital Sky Survey image. Contours are at intervals of 1 X 1020 cm 2, starting from 1 X 10 19 5.2 The Distribution of HI The Hi column density image, Fig. 5, shows the ex- tremely large Hi disk surrounding NGC 289. The disk is approximately elliptical, with the major axis aligned with both the optical and kinematic major axes. The 1 X 1019 at- oms cm-2 contour extends \u201422' along the major axis and \u2014 15' along the minor axis. At"
+        },
+        {
+          "pattern": "Fig. 5",
+          "context": "is clumpy, with pronounced maxima coincident with the inner and outer spiral arms and the V-shaped feature in the most southern spiral arm. The most striking feature of the HI distribution is the association of bright, regular HI arcs with the outermost optical spiral arms (Fig. 5). These HI arcs subtend, at a radius of \u2014300\" from the nucleus, a projected position angle of 20\u00b0 to 120\u00b0 on the east side and 210\u00b0 to 340\u00b0 on the west side. These long and symmetrical arcs appear to be part of the outer spiral arms, but do not occur at the same radii on opp"
+        },
+        {
+          "pattern": "Fig. 5",
+          "context": "the position angle undergoes something of a discontinuity, varying from 135\u00b0 to 115\u00b0, and thereafter climbs towards #=130\u00b0\u00b15\u00b0. This shift in position angle occurs at approximately the ra- dius at which the bright HI arcs are seen but is also apparent in both the isophotes (Fig. 5) and velocity field (Fig. 7). Figure 9(b) shows how the position angle of each ring varies with radius. We fit the full velocity field and the receding and ap- proaching halves separately. In Fig. 9, triangles represent the two sides and the solid squares represent the enti"
+        },
+        {
+          "pattern": "Fig. 5",
+          "context": "to reproduce numerically a long-lived, leading, single arm spiral pattern when a low-mass companion makes a close retrograde pass by a halo-dominated disk galaxy. However, in the case of NGC 289 we do not see the expected signature of a density wave in the HI density images (Fig. 5 and Fig. 7, cf. Toomre 1983) and therefore cannot conclude that our SDW model provides good evidence for the pres- ence of a leading spiral density wave mode. We also note that the assumed form of the observed rotation curve rests on the assumption of constant inclination."
+        },
+        {
+          "pattern": "helium",
+          "context": "g. 2) shows clear evidence for a stellar bulge component in NGC 289, we model the rotation curve with just a thick stellar disk, a thick gaseous disk and a spherical halo of \u201cdark matter.\u201d The rotation arising from the gas is obtained from Fig. 6, scaled by 1.3 to allow for helium, and we use the I band surface brightness profile to represent the stellar disk. For the vertical density law, we use both an exponential distribution, and a sech-squared distribution. The final results quoted are for an exponential distribution in z which Wain- scoat et al"
+        },
+        {
+          "pattern": "1.4",
+          "context": "s, is accu- rate to \u00b10.02 mag in V and to \u00b10.05 mag in I. These uncertainties are dominated by the aperture and airmass cor- rections. Extinction coefficients were measured to be 0.21 mag airmass-1 in V and 0.15 in I. All of the standard stars were observed at an airmass of 1.45, or less, and the galaxy was observed at an airmass of 1.05, or less. Vignetted re- gions were removed from the images and bright stars and the northern companion galaxy were replaced with a measure of the surrounding sky level plus noise. The sky brightnesses, estimated f"
+        },
+        {
+          "pattern": "1.4",
+          "context": "mmissioned AT correlator. Twenty-five separate pointing centers were observed in a diamond-shaped grid centered on a=00h52m41.9s,<S= \u201431\u00b0 12'19\" (J2000). The grid spacing was 7 ', which is less than half of the FWHP telescope beam- width of 14:7 at the observing frequency of 1.412 GHz, and each position was observed for 300 s. A bandwidth of 32 MHz was used with 1024 spectral channels in each of two polarizations, giving a FWHP resolution of 8 km s-1 after Hanning smoothing. Reference positions 1 \u00b0 east and west of NGC 289 were used for sky subtrac"
+        },
+        {
+          "pattern": "1.4",
+          "context": "l channels in each of two polarizations, giving a FWHP resolution of 8 km s-1 after Hanning smoothing. Reference positions 1 \u00b0 east and west of NGC 289 were used for sky subtraction. The flux density calibrator was PKS B1934-638, with an assumed flux den- sity of 14.9 Jy at 1.412 GHz. To estimate the total flux density at each velocity, the data were spatially integrated and normalized by assuming the beam of the Parkes Telescope to be Gaussian with corre- sponding solid angle 2.08 X 10\u201d5 sr. The spatially integrated spectrum is plotted in Fig. 3"
+        },
+        {
+          "pattern": "1.4",
+          "context": "maximum baseline of 2.0 km. The main details of the observations are summarized in Table 3 and the observing and analysis methods follow those described in Ryder et al. (1995). The bandwidth used was 8 MHz, divided into 512 channels each covering 3.3 km s-1, and centered on 1.412 GHz (corresponding to a heliocentric velocity of 1785 km s_1). The primary ATCA calibra- tor, PKS B1934-638, for which a flux density of 14.9 Jy at 1.4 GHz was assumed, was observed before each 12 h run. These observations also served as the bandpass calibration. Each 12"
+        },
+        {
+          "pattern": "1.4",
+          "context": "n Ryder et al. (1995). The bandwidth used was 8 MHz, divided into 512 channels each covering 3.3 km s-1, and centered on 1.412 GHz (corresponding to a heliocentric velocity of 1785 km s_1). The primary ATCA calibra- tor, PKS B1934-638, for which a flux density of 14.9 Jy at 1.4 GHz was assumed, was observed before each 12 h run. These observations also served as the bandpass calibration. Each 12 h observation consisted of alternate scans of 40 min on NGC 289 and 4 min on the phase and secondary amplitude calibrator PKS B0022\u2014423 (flux density \u20143.0"
+        },
+        {
+          "pattern": "1.4",
+          "context": "nter Velocity resolution of final cube FWHP synthesised beam FWHP primary beam Channel map cell size Channel map area rms noise per map 4 X 12h (2.0km, 2X 1.5km, 0.375km) 00h52m4L9 \u201431\u00b012'19\" 9.9 km s\u201c1 88\"X31\" (9.0X3.1 kpc) 33' 8\"X 8\" 34:iX34:i 1.5 mJy beam-1 at 1.4 GHz). Several time ranges were deleted from the dataset because of interference so, with calibration and drive time, the total integration time on NGC 289 reduces to ap- proximately 40 h. The individual UV databases were pro- cessed using the NRAO\u2019s AIPS package. Both linear"
+        }
+      ],
+      "candidate_pages": [
+        {
+          "page_index": 0,
+          "score": 0,
+          "text_excerpt": "1997AJ 113.1591W THE ASTRONOMICAL JOURNAL VOLUME 113, NUMBER 5 MAY 1997 THE GIANT, GAS-RICH, LOW-SURFACE-BRIGHTNESS GALAXY NGC 2891 Wilfred Walsh2 School of Physics, University of New South Wales, NSW 2052, Australia, and Australia Telescope National Facility, CSIRO, P.O. Box 76, Epping, NSW 2121, Australia Electronic mail: wwalsh@atnf.csiro.au Lister Staveley-Smith and Tom Oosterloo Australia Telescope National Facility, CSIRO, P.O. Box 76, Epping, NSW 2121, Australia Electronic mail: lstavele@atnf.csiro.au, toosterl@atnf.csiro.au Received 1996 September 26; revised 1996 December 26 ABSTRACT Using Australia Telescope Compact Array neutral hydrogen and Anglo-Australian Telescope optical observations, we investigate the distribution of luminous and dark matter in the giant, gas-rich, low-surface-brightness galaxy NGC 289. The observations show NGC 289 to have a high H i-to-stellar mass ratio (M hj/M^CM), and an extremely large HI radius (70 kpc, or ~ 13 disk scale-lengths), making the H l velocity field an excellent probe of a galaxy dark halo to an unusually large radius. Between \u2014 10 kpc and 30 kpc the rotation curve dips by 14% of the maximum velocity. Warped disk and spiral density wave models are investigated to explain this dip and to determine the cause of significant velocity deviations in the vicinity of the HI spiral arms. The best-fit kinematic model has MILI=2.l Mq/Lq for the stellar disk, only slightly lower than the maximum disk value of 2.3. A dark matter halo of 3.5 X 10nMo is present, which is \u20143.5 times as massive as the combined stellar and gaseous components at the last measured point on the rotation curve. \u00a9 1997 American Astronomical Society. [80004-6256(97)01404-0] 1. INTRODUCTION There are now numerous observational lines of evidence corroborating"
+        },
+        {
+          "page_index": 2,
+          "score": 0,
+          "text_excerpt": "1997AJ 113.1591W 1593 WALSH ET AL. \\ NGC 289 1593 Table 1. Distance estimates for NGC 289. Method Distance (Mpc) Reference Tertiary Indicators Redshift Distance^ Redshift Distance 0 Redshift Distance4^ Angular Diameter Inner Ring Structure Revised 5-band TF Relationship Revised 5-band TF Relationship6 22.4 19.4 21.0 21.0 38.0 30.3 16.7 13.7 de Vaucouleurs (1979) Tally (1988) Kraan-Korteweg (1986) This paper (adopted) Sandage (1993) Buta & de Vaucouleurs (1983) Bottinelli et al (1986) This paper aUsing H0 = 15 km s Mpc-1. bCorrected for motion of the local group and Virgocentric infall of 300 km s-1. \u201cCorrected for Virgocentric motion with local infall motion towards Virgo of 440 km s-1 and distance to Virgo of 21.7 Mpc. Corrected for Virgocentric infall-see text. eUsing our corrected total blue magnitude and our kinematically derived inclination and rotation velocity. recessional motion of the Virgo cluster is 1296 km s-1 and the local infall motion towards Virgo is 250 km s-1, we obtain a distance of 21 Mpc. NGC 289 is in a small group of galaxies consisting of NGC 254 (over a degree away) and ES0411-G26 (Maia et al 1989), and we do not expect any significant peculiar velocities to be generated locally to the galaxy. In this paper therefore, we adopt the kinematic dis- tance of 21 Mpc which agrees closely with the 22.4 Mpc adopted by PB on the basis of work described in de Vau- couleurs (1979). 4. OBSERVATIONS 4.1 Optical Observations and Calibration Photometric images in the Cousins V and 1 bands were taken with the //I camera at the prime focus of the Anglo- Australian Telescope (AAT) (Fig. 1 and Table 2). The detec- tor was a 1024X 1024 Thomson CCD array with a pixel size of 0'.'98. The exposure times were 600 s for V and 900 s for /, and the seeing was ~2\". Initial"
+        },
+        {
+          "page_index": 3,
+          "score": 0,
+          "text_excerpt": "1997AJ 113.1591W 1594 WALSH ET AL : NGC 289 1594 16 18 20 22 24 26 28 1 0 -1 0 5 10 15 20 25 30 Radius (kpc) Fig. 2. Surface brightness profile in V and radial V\u2014I color profile of NGC 289. parison, RC3 lists BT= 11.12 and Lauberts & Valentijn (1989) list 11.36 which transform to 10.99 and VT= 10.63 mag, respectively, when the RC3 value of (B \u2014 V)t=0.13 is used. Both values are dimmer than ours. Given the photometric accuracy of our data, it seems likely that the previous magnitude estimates fail to measure accu- rately the luminosity of the extended outer disk, which ex- tends to nearly twice R25. The frames were astrometrically aligned to stars from the Digitised Sky Survey (Lasker et al. 1990) by suitable scaling, shifting and rotation. Astrometric alignment accuracy is about 1\", commensurate with the accuracy of this catalog. 4.2 Radio Observations 4.2.1 Single-dish observations NGC 289 was observed in 1990 August with the Parkes 64 m telescope and again in 1993 December using the newly commissioned AT correlator. Twenty-five separate pointing centers were observed in a diamond-shaped grid centered on a=00h52m41.9s,<S= \u201431\u00b0 12'19\" (J2000). The grid spacing was 7 ', which is less than half of the FWHP telescope beam- width of 14:7 at the observing frequency of 1.412 GHz, and each position was observed for 300 s. A bandwidth of 32 MHz was used with 1024 spectral channels in each of two polarizations, giving a FWHP resolution of 8 km s-1 after Hanning smoothing. Reference positions 1 \u00b0 east and west of NGC 289 were used for sky subtraction. The flux density calibrator was PKS B1934-638, with an assumed flux den- sity of 14.9 Jy at 1.412 GHz. To estimate the total flux density at each velocity, the data were spatially integrated and normalized by assuming the beam of th"
+        },
+        {
+          "page_index": 4,
+          "score": 1,
+          "text_excerpt": "1997AJ 113.1591W 1595 WALSH ET AL : NGC 289 1595 Table 3. AT compact array H i observations of NGC 289. Property Value Configurations a (J2000) pointing center \u00f4 (J2000) pointing center Velocity resolution of final cube FWHP synthesised beam FWHP primary beam Channel map cell size Channel map area rms noise per map 4 X 12h (2.0km, 2X 1.5km, 0.375km) 00h52m4L9 \u201431\u00b012'19\" 9.9 km s\u201c1 88\"X31\" (9.0X3.1 kpc) 33' 8\"X 8\" 34:iX34:i 1.5 mJy beam-1 at 1.4 GHz). Several time ranges were deleted from the dataset because of interference so, with calibration and drive time, the total integration time on NGC 289 reduces to ap- proximately 40 h. The individual UV databases were pro- cessed using the NRAO\u2019s AIPS package. Both linear polar- izations for each of the 10 baselines for each data set were examined and edited for bad data. After amplitude, phase, and bandpass calibration, continuum subtraction of each da- tabase was carried out in the complex visibility domain by subtracting first-order, least-squares fits to the line-free chan- nels on either side of the NGC 289 velocity range. The origi- nal integration period of either 10 or 15 s was extended to 60 s by averaging, without introducing time smearing. Doppler corrections were then applied to align the data sets in a com- mon heliocentric reference frame, and the data were com- bined in the UV plane. The data were averaged into groups of 3 channels (sepa- ration 9.9 km s-1 or 46.875 kHz). The individual planes in the data cube were CLEANed down to 5 mJy, or 1000 itera- tions (using a loop gain of 0.1), whichever came first. Only baselines shorter than 7.5 k\\ were used to form the naturally weighted data cube, which has a FWHP resolution of 88\"X31\". A Gaussian taper of 7 X4 kk applied to basehnes shorter than (7= 10 kX was used t"
+        },
+        {
+          "page_index": 6,
+          "score": 1,
+          "text_excerpt": "1997AJ 113.1591W 1597 WALSH ET AL : NGC 289 1597 03' 06' 09' o o o C\\2 \u00bb-3 12 o w Q 15 18 -31\u00b021 0h53m15s 53 0 45s 30s RA (J2000) 15 52 0 Fig. 5. Contours of H i column density in NGC 289 over the Digital Sky Survey image. Contours are at intervals of 1 X 1020 cm 2, starting from 1 X 10 19 5.2 The Distribution of HI The Hi column density image, Fig. 5, shows the ex- tremely large Hi disk surrounding NGC 289. The disk is approximately elliptical, with the major axis aligned with both the optical and kinematic major axes. The 1 X 1019 at- oms cm-2 contour extends \u201422' along the major axis and \u2014 15' along the minor axis. At the adopted distance, this corresponds to a radial HI extent of nearly 70 kpc. The HI extends well beyond the optical disk, which measures 9'X6' at the 26 mag arcsec-2 isophote. For the adopted scale length for the stellar disk, this corresponds to an HI extent of 13 disk scale lengths. Such an extensive HI com- ponent, somewhat unusual for a grand design spiral, is com- parable to low-luminosity objects such as DDO 154 (Carig- nan & Freeman 1988; Carignan & Beaulieu 1989), NGC 2915 (Meurer et al 1996), NGC 3198 (Begeman 1987, 1989) and NGC 5963 (Bosma et al 1988). The HI distribution is clumpy, with pronounced maxima coincident with the inner and outer spiral arms and the V-shaped feature in the most southern spiral arm. The most striking feature of the HI distribution is the association of bright, regular HI arcs with the outermost optical spiral arms (Fig. 5). These HI arcs subtend, at a radius of \u2014300\" from the nucleus, a projected position angle of 20\u00b0 to 120\u00b0 on the east side and 210\u00b0 to 340\u00b0 on the west side. These long and symmetrical arcs appear to be part of the outer spiral arms, but do not occur at the same radii on opposite sides of the cen"
+        },
+        {
+          "page_index": 7,
+          "score": 3,
+          "text_excerpt": "1598 WALSH ETAL: NGC 289 1598 Fig. 6. Radial profile of deprojected H i surface density in NGC 289, from azimuthal averaging in concentric annuli with a constant inchnation of 46\u00b0 and constant position angle of 130\u00b0. the western arc, and can be compared to the minima of ~3.5X 1020 atoms cm-2 in the contiguous interarm regions. The radial distribution of HI in Fig. 6 was produced by averaging in concentric elliptical annuli, using the disk ori- entation parameters from the kinematical analysis (Sec 5.4). The derived Hi surface densities have been corrected for line-of-sight projection effects (assuming the gas to be opti- cally thin) and plotted on a linear scale. Our sensitivity limit is close to the interesting level of ~2X 1019 atoms cm-2 at which abrupt truncations are seen in the disks of M33 (Corbelli et al. 1989) and NGC 3198 (van Gorkom et al. 1993) and at which it has been suggested that HI can be ionized by extragalactic radiation (e.g., Mal- oney 1993; Corbelli & Salpeter 1993). At our sensitivity level, no sharp edge is seen in the disk of NGC 289, either in Fig. 6 or in deeper cuts made by stacking a few consecutive channels in regions of the disk with low velocity gradients. The azimuthally averaged radial HI distribution shows a central deficiency of atomic H I, as is typical of disk galax- ies. From a peak of 10.1X1020 cm-2 (~8 M0 pc2) at a radius of 12 kpc, the distribution declines linearly out to a radius of approximately 48 kpc, where the decline becomes slightly more gradual out to the limit of detectability at \u2014 70 kpc ( \u2014 2.7 Holmberg radii). The Hi falls off more slowly than the fight distribution, with the logarithmic azi- muthally averaged density being almost flat to R25, whereas the stellar disk declines approximately exponentially in that reg"
+        },
+        {
+          "page_index": 8,
+          "score": 1,
+          "text_excerpt": "1997AJ 113.1591W 1599 WALSH ET AL : NGC 289 1599 53m0s 45s 30s 15s 52m0s 0h53m15s 53m0s 45s 30s 15s 52m0s RA (J2000) RA (J2000) Fig. 7. Isovelocity contours of NGC 289 overlaid on the Digital Sky Survey photograph (a) and the column density map (b). The contour intervals are 10 km s\u201c1, (the southern half has the higher velocities) and the small cross indicates the position of the unresolved continuum feature (Sec. 2). I I q -10 -8 -6 -4 -2 0 2 4 6 8 10 DEC offset (arcmin; J2000) Fig. 8. Position-velocity diagram for NGC 289, using P.A. 130\u00b0. \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System "
+        },
+        {
+          "page_index": 9,
+          "score": 0,
+          "text_excerpt": "1600 WALSH ET AL. : NGC 289 1600 radius (kpc) Fig. 9. Plot (a) shows the ROCUR-determined rotation curve for all disk points further than 30\u00b0 away from the minor axis and with cos2(d) weighting (solid squares) and, similarly, the rotation curve for the two halves of the galaxy (triangles). For the approaching and receding sides, no data points were excluded, but a cos2(0) weighting was applied. The dotted line shows the rotation curve determined in a similar manner for the model velocity field incorporating a two-arm spiral density wave. Panels (b) and (c) show the observed position angle and inclination as a function of radius for the full disk (data points) and for the spiral density wave model (dotted fine). Panel (d) shows the azimuthally averaged rms residuals (first-moment im- age - no density wave model) for the model velocity field generated for the full disk rotation curve with variable position angle and constant inclination (solid squares) and for the model velocity field incorporating the spiral density wave (dotted fine) and for the warp disk model (solid line). See Sec. 5.4. duced by the assumption of circular symmetry. The maxi- mum amplitude ( \u2014 200 km s-1) of the rotation curve de- rived in this way is considerably less than that derived by PB ( \u2014 250 km s-1), apparently because of the effect of exclud- ing points near the minor axis. To derive the kinematic parameters of the Hi gas, we assume circular orbits in a disk of zero thickness coplanar with the stars and follow the method described by Begeman (1989): we use his algorithm as implemented in the aips task ROCUR. The procedure fits, by least-squares, inclined rings rotating in circular motion, to the velocity field, which we approximate with the first-moment image. The width of the rings is the me"
+        },
+        {
+          "page_index": 10,
+          "score": 2,
+          "text_excerpt": "1997AJ 113.1591W 1601 WALSH ET AL. : NGC 289 1601 Table 5. Kinematic model with spiral arms. Parameter Value Density contrast^ c Pitch angle, iff Crossing Radiusb Pattern speed, ilp a Velocity Dispersion Rotation Velocity0 0.80 20\u00b0 170\" 40 km s\u201c1 kpc-1 12 km s-1 170 km s'1 aDensity wave contrast after Rots (1974): c=(o-max-<jmin)/2cravg with <jmax ,0^ ,<jaVg representing the surface density in the arm, interarm, and azimuthal average, respectively. bRadius at which the spiral pattern first crosses the major axis. Defines the phase of the spiral pattern. dAmplitude of the (flat) model rotation curve. required for an adequate description of NGC 289\u2019s kinemat- ics. As in the case of the large warp in NGC 4013 (Bottema 1996), such a pronounced warp in NGC 289 creates the di- lemma of how such a warp can both survive long enough to produce the approximately symmetric structures in the veloc- ity field and not be smeared out by differential precession. In Fig. 7(b), the column density shows a number of clumps in the inner 200\" possibly associated with the spiral arms or a ring. Close alignment of the kinks and bulges in the isovelocity contours, which indicate departures from cir- cular rotation of up to about 30 km s -1, with these and other overdensities in the Hi column density is apparent. The kinks in the velocity contours in the outer part of the disk are clearly associated with the spiral arms. As an alternative to the warp hypothesis, we model the gross radial features in NGC 289\u2019s kinematics using the lin- ear SDW approach (Lin et al 1969; Burton 1971) to com- pute the line-of-sight velocity components arising from the principal density wave mode. For a galaxy with as complex an appearance as NGC 289, we do not expect that this sim- Table 6. Deprojected rotational ve"
+        },
+        {
+          "page_index": 11,
+          "score": 1,
+          "text_excerpt": "1997AJ 113.1591W 1602 WALSH ET AL. : NGC 289 1602 NGC 289, the assumption of constant velocity dispersion is consistent with the data. Figure 9(a) shows the rotation curve observed (solid data points) together with that derived from the velocity field for the adopted SDW model (dotted fine) using the parameters fisted in Table 5. The model\u2019s rotation curve shows a striking similarity to the observed rotation curve. In particular, the \u201chump\u201d in the rotation curve at 12 kpc is well reproduced, as is the dip at 22 kpc. That such features in the apparent rotation curve are not necessarily the result of a peculiar mass distribution has been discussed by Lindblad & Lind- blad (1994). Fridman (1994) reports that at least half of a sample of 25 well-studied spirals with prominent arms ex- hibit \u201cvelocity jumps\u201d of greater than 10% in their rotation curves. In our model, the sudden radial change in NGC 289\u2019s position angle lags the dip in the rotation curve, in the man- ner observed. The amplitude of the position angle is not well fitted beyond the dip. Curiously, we find that the only SDW model data cubes that agree with the data are those that result from leading spiral patterns. Evidence for leading spiral arms in other gal- axies has come from studies of the azimuthal distribution of fight and dust or from 2D Fourier analyses of spiral structure (e.g., Pasha 1985; Beckman & Cepa 1990; Buta et al. 1992; Walterbos 1994). Puerari & Dottori (1992) found both cha- otic (NGC 1313) and regular (NGC 1566) spirals that consist of a mixture of leading and trailing modes. Byrd et al. (1993) are able to reproduce numerically a long-lived, leading, single arm spiral pattern when a low-mass companion makes a close retrograde pass by a halo-dominated disk galaxy. However, in the case of NG"
+        },
+        {
+          "page_index": 12,
+          "score": 0,
+          "text_excerpt": "1603 WALSH ET AL. : NGC 289 1603 Fig. 11. Rotation curve models for NGC 289. The expected rotation due to the gaseous disk (dotted line), the best-fitting stellar disk with M/L/^ 2.13 (dashed line) and the best-fitting halo of \u201cdark matter\u201d (dot-dash line) with rcore=9.77 kpc and p0 = 0.0053 M0 pc-2 are shown, along with result- ing complete model (solid line). Our re-analysis of the optical data from PB (triangles) and the full disk H I rotation curve (solid squares) are shown with \u201cerror bars\u201d computed from the difference between the average rotation over the two sides of the disk (see text). Radius Fig. 12. Contour plot of x2 f\u00b0r \u00dcie maximum disk fitting with MIL^IA and a disk thickness of 1.0 kpc, as a function of core radius (kpc) and halo central density (M0 pc-2). The cross indicates the minimum value of x2 for this model, which corresponds to a core radius of 12.0 kpc and a central density of 0.0037 M0 pc-2. cal equilibrium (Camm 1950). Taking cr^c7z~12 km s 1 (Fig. 10), and assuming a stellar mass-to-light ratio M/Lj= 2.3 (see below), we expect a maximum scale height of ~ 1.8 kpc at radii less than \u2014 35 kpc. Since the presence of a dark halo will tend to compress the disk (Oiling 1995), the actual disk thickness will be lower. We reference our final results to a scale height Zq= 1 kpc. This value is similar to that found by Oiling & van Gorkom (1995) in their global model of NGC 4244. We model the dark halo with a pseudo-isothermal sphere, although note that flattened halos may provide better fits to some data (Oiling & van Gorkom 1995; Sackett & Pogge 1995). Following Casertano (1983), we use a halo with den- sity profile, \u00ed ^ Po P(r) l + (r/rcore)2\u2019 which gives rise to a total enclosed mass: M(r) = 4np0[r2 COKr- r3 caK tan\u201c1 (/\u2022/rC0K )]. (2) (3) For the model"
+        },
+        {
+          "page_index": 13,
+          "score": 2,
+          "text_excerpt": "1997AJ 113.1591W 1604 WALSH ET AL. : NGC 289 1604 7. SUMMARY AND DISCUSSION The giant, LSB spiral galaxy NGC 289 has been observed in the V and I bands and using the 21 cm Hi line. The optical images show that the galaxy has a small bulge, a small bar, and a high surface-brightness inner disk from which two regular spiral arms originate. The arms split into multiple components as they wind out into the very extended outer LSB disk and it is unclear from the morphology whether the galaxy is genuinely multiple-armed or a two- armed grand design spiral perturbed by its northerly dwarf elliptical companion. The outer disk is not well fitted by a single exponential, but has a shallow profile (with formal scale length of 5.4 kpc). The Parkes and ATCA observations show that the galaxy is gas rich, with Mh^M^ \u2014 0.4. The measured HI disk extends to a radius of nearly 70 kpc where the surface density falls to a few times 1019 cm-2. The op- tical disk in V reaches 1% of the sky level at 24 kpc. When logarithmic plots are compared, the azimuthally averaged ra- dial HI density is flat as far as R25 whereas the stellar disk declines approximately exponentially in that region. The HI distribution is reasonably symmetric and clearly traces the outer spiral arms. The first-moment velocity field was used in a standard tilted-ring analysis to derive the rotation curve. The residual velocity field and the comparison of the rotation curve with the position-velocity diagram show that the global kinemat- ics are reasonably well described by circular motions. The rotation curve rises steeply to peak at 200 km s_ 1 and dips at a radius of 22 kpc to 156 km s_1 before rising and flattening at a level of \u2014175 km s-1. Within the uncertainties, there is no observed decline of the rotation curve at t"
+        }
+      ]
+    }
+  ],
+  "boundary": "Public acquisition/provenance only. No OCR, raster digitization, profile fitting, persistence fitting, blind-outcome inspection, or PostScript execution. L_A and C_A remain locked."
+}
