@@ -1,0 +1,1488 @@
+{
+  "status": "FR11_HI_PROFILE_SOURCE_ASSET_AUDIT_COMPLETE",
+  "source": "Fraternali, Sancisi & Kamphuis 2011 A&A 531 A64",
+  "arxiv": "1105.3867",
+  "targets": [
+    "NGC0891",
+    "NGC7814"
+  ],
+  "transport_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/1105.3867",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/1105.3867",
+      "content_type": "application/gzip",
+      "bytes": 1536340
+    }
+  ],
+  "source_bytes": 1536340,
+  "source_sha256": "1440186a4e78c08bdf8546665b37dd9275eeca41cba501257c1c5268ae804918",
+  "members": [
+    {
+      "name": "00README.XXX",
+      "bytes": 28,
+      "suffix": ".xxx"
+    },
+    {
+      "name": "Rprof7814.eps",
+      "bytes": 28890,
+      "suffix": ".eps"
+    },
+    {
+      "name": "Rprof891.eps",
+      "bytes": 44388,
+      "suffix": ".eps"
+    },
+    {
+      "name": "aa.cls",
+      "bytes": 58808,
+      "suffix": ".cls"
+    },
+    {
+      "name": "decomposition7814_MOND.eps",
+      "bytes": 24017,
+      "suffix": ".eps"
+    },
+    {
+      "name": "decomposition7814_freeFit.eps",
+      "bytes": 28527,
+      "suffix": ".eps"
+    },
+    {
+      "name": "decomposition7814_noHalo.eps",
+      "bytes": 28469,
+      "suffix": ".eps"
+    },
+    {
+      "name": "decomposition891_MOND.eps",
+      "bytes": 23665,
+      "suffix": ".eps"
+    },
+    {
+      "name": "decomposition891_freeFit.eps",
+      "bytes": 29870,
+      "suffix": ".eps"
+    },
+    {
+      "name": "decomposition891_noHalo.eps",
+      "bytes": 29778,
+      "suffix": ".eps"
+    },
+    {
+      "name": "fraternali.tex",
+      "bytes": 46988,
+      "suffix": ".tex"
+    },
+    {
+      "name": "galfit7814.eps",
+      "bytes": 531044,
+      "suffix": ".eps"
+    },
+    {
+      "name": "galfit891.eps",
+      "bytes": 651680,
+      "suffix": ".eps"
+    },
+    {
+      "name": "maxplotmod7814.ps",
+      "bytes": 222006,
+      "suffix": ".ps"
+    },
+    {
+      "name": "maxplotmod891.ps",
+      "bytes": 197154,
+      "suffix": ".ps"
+    },
+    {
+      "name": "opticalImages.eps",
+      "bytes": 978939,
+      "suffix": ".eps"
+    },
+    {
+      "name": "rotCurves.eps",
+      "bytes": 23764,
+      "suffix": ".eps"
+    },
+    {
+      "name": "zprof7814.eps",
+      "bytes": 24153,
+      "suffix": ".eps"
+    },
+    {
+      "name": "zprof891.eps",
+      "bytes": 28010,
+      "suffix": ".eps"
+    }
+  ],
+  "data_like_assets": [],
+  "numeric_target_profile_candidates": [],
+  "target_text_hits": {
+    "NGC0891": [
+      {
+        "file": "fraternali.tex",
+        "line": 104,
+        "text": "In NGC 891 bulge and disk can explain the rotation curve without any need ",
+        "context": "observations and have found that the shapes of the rotation curves are\nsignificantly different for the two galaxies. \nThey indicate that in NGC\\,7814 the mass is more concentrated to the\ncentre as compared to NGC\\,891. \nThis reflects the distribution of light which is more centrally\nconcentrated in NGC\\,7814 than in NGC\\,891.\nMass and light do seem to be closely related. \nThis is confirmed by the analysis of the rotation curves in mass \ncomponents: solutions close to the maximum light (bulge $+$ disk) do \nprovide excellent fits. \nIn NGC 891 bulge and disk can explain the rotation curve without any need \nfor dark matter out to $\\sim 15 \\kpc$. \nIn NGC 7814 the bulge dominates in the inner parts;\nfurther out the rotation curve is well reproduced by a maximum disk but its \n$\\ml$ ratio is excessively high. \nA substantial dark matter contribution, \nclosely coupled to the luminous component, seems, therefore, necessary.\n}\n % context heading (optional)\n % {} leave it empty if necessary  \n%   {1}"
+      },
+      {
+        "file": "fraternali.tex",
+        "line": 666,
+        "text": "In conclusion, for NGC 891 a maximum light (bulge+disk) solution is quite satisfactory.",
+        "context": "the stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). \n\\emph{Middle panels:} \\hi\\ surface density.\n\\emph{Bottom panels:} Best fit with an isothermal dark matter halo, \nthe parameters of the fits are given in Table \\ref{tDecomp}.\n$1\\kpc=21.7''$ and $33.4''$ for NGC\\,891 and NGC\\,7814 respectively.\n}\n \\label{decompositions_free}\n\\end{figure*}\n\nIn conclusion, for NGC 891 a maximum light (bulge+disk) solution is quite satisfactory.\nBulge and disk together are able to explain the rotation curve. \nTheir relative contributions, however, are uncertain given the mentioned\ndegeneracy between bulge and thick disk.\nIt is clear, at any rate, that in NGC 891 the disk, which is responsible for most of the light, contributes also the largest part of the mass.\n\nIn the NGC\\,7814 maximum-light decomposition the bulge dominates in\nthe inner parts.  \nBulge and disk together provide an excellent fit to the rotation curve\nout to $R \\sim 13 \\kpc$.\nBeyond that, a mild discrepancy begins to show up between observed and"
+      },
+      {
+        "file": "fraternali.tex",
+        "line": 670,
+        "text": "It is clear, at any rate, that in NGC 891 the disk, which is responsible for most of the light, contributes also the largest part of the mass.",
+        "context": "the parameters of the fits are given in Table \\ref{tDecomp}.\n$1\\kpc=21.7''$ and $33.4''$ for NGC\\,891 and NGC\\,7814 respectively.\n}\n \\label{decompositions_free}\n\\end{figure*}\n\nIn conclusion, for NGC 891 a maximum light (bulge+disk) solution is quite satisfactory.\nBulge and disk together are able to explain the rotation curve. \nTheir relative contributions, however, are uncertain given the mentioned\ndegeneracy between bulge and thick disk.\nIt is clear, at any rate, that in NGC 891 the disk, which is responsible for most of the light, contributes also the largest part of the mass.\n\nIn the NGC\\,7814 maximum-light decomposition the bulge dominates in\nthe inner parts.  \nBulge and disk together provide an excellent fit to the rotation curve\nout to $R \\sim 13 \\kpc$.\nBeyond that, a mild discrepancy begins to show up between observed and\nmodel curve.  \nThis is the kind of discrepancy found in the outer parts of spiral\ngalaxies and usually interpreted as evidence for the presence of a\ndark matter halo. "
+      },
+      {
+        "file": "fraternali.tex",
+        "line": 719,
+        "text": "In NGC 891 the results are very similar to those obtained above with",
+        "context": "the values of the parameters are given in Table \\ref{tDecomp}.\nUsing a NFW profile \\citep{NFW97} would not change significantly\nour results.\nThe best-fit values of the concentration parameters are above 10 for both \ngalaxies.\nIf we fix them to $c=10$ we obtain $\\ml$ ratios comparable to\nthose in Table \\ref{tDecomp}, except for the $\\ml$ of the disk in the \nfree fit of NGC\\,7814, which becomes $\\mlS=2.7$; if however we fix this\nlatter to 0.7 the fit is still acceptable.\n\nIn NGC 891 the results are very similar to those obtained above with\nthe maximum light solution. \nThe fit is still excellent. \nThe values for the $\\mlS$ of bulge and disk differ only slightly and\nthe dark halo plays a minor role. \nThe exclusion of the first point of the rotation curve in the fit \nwould not make any difference.\n\nNGC\\,7814 is more puzzling than NGC\\,891 because of the disk/halo\ndegeneracy.\nHowever, a fit with all four parameters ($\\ml$ ratios and halo parameters)"
+      },
+      {
+        "file": "fraternali.tex",
+        "line": 737,
+        "text": "two galaxies, the disk in NGC 891 and the bulge in NGC 7814, are closely ",
+        "context": "NGC\\,7814 is more puzzling than NGC\\,891 because of the disk/halo\ndegeneracy.\nHowever, a fit with all four parameters ($\\ml$ ratios and halo parameters)\nfree converges and gives acceptable results.\nThe bulge is still dominant in the inner $7-8 \\kpc$ and very close to\nmaximum with only a minimal change in $\\mlS$.\nFurther out, the halo now completely dominates in the place of the\ndisk.\n\nThese results clearly indicate that the two main luminous components in the \ntwo galaxies, the disk in NGC 891 and the bulge in NGC 7814, are closely \nlinked to the distributions of mass as traced by the rotation curves.\n\n\n\\subsection{MOND}\n\nWe also compared both rotation curves with the predictions from the\nMOdified Newton Dynamics (MOND) \\citep{Milgrom83}. \nThe rotation curve of NGC\\,891 is reproduced, using the standard value\nof $a_{\\rm 0}=3700\\,{\\rm km}^2 {\\rm s}^{-2} {\\rm kpc}^{-1}$ with\nbest-fit $\\ml$ ratios for the bulge and disk components of 2.0 and 0.5"
+      }
+    ],
+    "NGC7814": [
+      {
+        "file": "fraternali.tex",
+        "line": 106,
+        "text": "In NGC 7814 the bulge dominates in the inner parts;",
+        "context": "They indicate that in NGC\\,7814 the mass is more concentrated to the\ncentre as compared to NGC\\,891. \nThis reflects the distribution of light which is more centrally\nconcentrated in NGC\\,7814 than in NGC\\,891.\nMass and light do seem to be closely related. \nThis is confirmed by the analysis of the rotation curves in mass \ncomponents: solutions close to the maximum light (bulge $+$ disk) do \nprovide excellent fits. \nIn NGC 891 bulge and disk can explain the rotation curve without any need \nfor dark matter out to $\\sim 15 \\kpc$. \nIn NGC 7814 the bulge dominates in the inner parts;\nfurther out the rotation curve is well reproduced by a maximum disk but its \n$\\ml$ ratio is excessively high. \nA substantial dark matter contribution, \nclosely coupled to the luminous component, seems, therefore, necessary.\n}\n % context heading (optional)\n % {} leave it empty if necessary  \n%   {1}\n % aims heading (mandatory)\n%   {2}"
+      },
+      {
+        "file": "fraternali.tex",
+        "line": 413,
+        "text": "The correspondence with the central concentration of light in NGC 7814 seems evident.",
+        "context": "}\n \\label{rotcurves}\n\\end{figure*}\n\n\n\\section{Comparison of the rotation curves with the distribution of light}\n\nThe rotation curves for the two galaxies are compared in Fig.\\ \\ref{rotcurves}.\nThey have similar amplitudes but significantly different shapes.\nThe rotation curve of NGC\\,7814 indicates a more pronounced mass concentration to the centre than in NGC\\,891. \nThe correspondence with the central concentration of light in NGC 7814 seems evident.\nGiven the potential uncertainties in the interpretation of the first point \nfor NGC\\,891, we indicate it as an open symbol.\nIn order to further investigate the distribution of the mass as compared to that of the light in the two galaxies we made the standard decomposition of the rotation curves in mass components: bulge, stellar and gaseous disks, and dark matter halo.\n\n\n\\subsection{Photometric data}\n\nIn order to avoid problems with dust extinction we used data in the $3.6\\,\\mu{\\rm m}$ band obtained with the Spitzer Space Telescope \\citep{spitzer}.\nBoth NGC\\,891 and NGC\\,7814 had been observed with the Spitzer Telescope and the mosaics were already available in the archive.\nThe observations of NGC\\,891 had an exposure time of 96.8$\\,s$, those of NGC\\,7814 26.8$\\,s$."
+      },
+      {
+        "file": "fraternali.tex",
+        "line": 737,
+        "text": "two galaxies, the disk in NGC 891 and the bulge in NGC 7814, are closely ",
+        "context": "NGC\\,7814 is more puzzling than NGC\\,891 because of the disk/halo\ndegeneracy.\nHowever, a fit with all four parameters ($\\ml$ ratios and halo parameters)\nfree converges and gives acceptable results.\nThe bulge is still dominant in the inner $7-8 \\kpc$ and very close to\nmaximum with only a minimal change in $\\mlS$.\nFurther out, the halo now completely dominates in the place of the\ndisk.\n\nThese results clearly indicate that the two main luminous components in the \ntwo galaxies, the disk in NGC 891 and the bulge in NGC 7814, are closely \nlinked to the distributions of mass as traced by the rotation curves.\n\n\n\\subsection{MOND}\n\nWe also compared both rotation curves with the predictions from the\nMOdified Newton Dynamics (MOND) \\citep{Milgrom83}. \nThe rotation curve of NGC\\,891 is reproduced, using the standard value\nof $a_{\\rm 0}=3700\\,{\\rm km}^2 {\\rm s}^{-2} {\\rm kpc}^{-1}$ with\nbest-fit $\\ml$ ratios for the bulge and disk components of 2.0 and 0.5"
+      }
+    ]
+  },
+  "profile_language_hits": [
+    {
+      "file": "fraternali.tex",
+      "line": 561,
+      "text": "\\emph{Middle panels:} \\hi\\ surface density.",
+      "context": "\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). \n\\emph{Middle panels:} \\hi\\ surface density.\n\\emph{Bottom panels:} Best fit without a dark matter halo, the $\\ml$ ratios\nof bulge and disk components are given in Table \\ref{tDecomp}.\n$1\\kpc=21.7''$ and $33.4''$ for NGC\\,891 and NGC\\,7814 respectively.\n}\n \\label{decompositions_nohalo}\n\\end{figure*}\n\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 601,
+      "text": "The gas surface density (middle panels)",
+      "context": "curve decompositions for NGC\\,891 and NGC\\,7814 using the above \n$3.6\\,\\mu{\\rm m}-$band photometry. \nWe show here the maximum light (bulge + disk) solutions for both galaxies. \nThe fit was obtained by \nfitting simultaneously the $\\mlS$ ratios of bulge and disks \nto the points inside about 3 scale-lengths ($\\sim 15 \\kpc$ for NGC\\,891\nand $\\sim 13 \\kpc$ for NGC\\,7814) as it is customary for maximum light\ntests \\citep{vanAlbada85}.\nThe gas surface density (middle panels)\nwas multiplied by a factor 1.4 to account for Helium.\nThe fitting parameters are given in Table \\ref{tDecomp}.\n\nIn the fit for NGC\\,891 the bulge dominates in the inner parts and\naccounts for the steep rise and the inner peak of the rotation curve. \nThe first point of the rotation curve was  included in this fit in\nspite of the uncertainties about its nature and origin \npointed out above. "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 658,
+      "text": "\\emph{Middle panels:} \\hi\\ surface density.",
+      "context": "\\begin{figure*}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). \n\\emph{Middle panels:} \\hi\\ surface density.\n\\emph{Bottom panels:} Best fit with an isothermal dark matter halo, \nthe parameters of the fits are given in Table \\ref{tDecomp}.\n$1\\kpc=21.7''$ and $33.4''$ for NGC\\,891 and NGC\\,7814 respectively.\n}\n \\label{decompositions_free}\n\\end{figure*}\n\nIn conclusion, for NGC 891 a maximum light (bulge+disk) solution is quite satisfactory."
+    }
+  ],
+  "observation_provenance_hits": [
+    {
+      "file": "fraternali.tex",
+      "line": 60,
+      "text": "         Renzo Sancisi",
+      "context": "  \\title{A tale of two galaxies: light and mass in NGC\\,891 and NGC\\,7814}\n\n  \\subtitle{}\n\n  \\author{Filippo Fraternali\n         \\inst{1, 2}\n         \\, \n         Renzo Sancisi\n         \\inst{2, 3}\n\t  \\and\n\t  Peter Kamphuis\n\t  \\inst{2, 4}\n      }\n\n \\institute{"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 63,
+      "text": "\t  Peter Kamphuis",
+      "context": "\n  \\author{Filippo Fraternali\n         \\inst{1, 2}\n         \\, \n         Renzo Sancisi\n         \\inst{2, 3}\n\t  \\and\n\t  Peter Kamphuis\n\t  \\inst{2, 4}\n      }\n\n \\institute{\n           Astronomy Department, University of Bologna, via Ranzani 1, 40127 Bologna, Italy\\\\\n           \\email{filippo.fraternali@unibo.it}\n           \\and"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 94,
+      "text": "observations and have found that the shapes of the rotation curves are",
+      "context": "It has been argued (van der Kruit 1983) that since the two galaxies, \nwhich are optically so different, have similar rotation curves their \ntotal mass distributions cannot be related in any way to the light \ndistributions. \nThis would lead to the conclusion that dark matter is the dominating \ncomponent of the mass.\nWe have derived new rotation curves from recent, high-sensitivity \\hi\\\nobservations and have found that the shapes of the rotation curves are\nsignificantly different for the two galaxies. \nThey indicate that in NGC\\,7814 the mass is more concentrated to the\ncentre as compared to NGC\\,891. \nThis reflects the distribution of light which is more centrally\nconcentrated in NGC\\,7814 than in NGC\\,891.\nMass and light do seem to be closely related. \nThis is confirmed by the analysis of the rotation curves in mass "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 172,
+      "text": "\\citep{sancisi04}. ",
+      "context": "The conclusion was that ``if the distribution of luminous\nmatter were in any way related to the total mass distribution it would\nnot be possible for the disk-dominated and the bulge-dominated\ngalaxies to have such similar rotation curves''.  \nIf the two galaxies had indeed rotation curves of such similar shape\nthis would be contrary to the rule that in spiral galaxies there is a\nclose correlation between light distribution and rotation curve shape\n\\citep{sancisi04}. \nThe contrast would also exist with non-Newtonian theories of gravity\nwhich  would predict grossly different rotation curves\n\\citep{vdkruit95}. \nThere is little doubt that the light distributions of NGC\\,891 and NGC\\,7814 \nare very different.\nBut, do their rotation curves have indeed essentially identical shapes?\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 191,
+      "text": "\\citep{sancisi79} and for NGC\\,7814 \\citep{vdkruit82} were obtained",
+      "context": "   with the WIRCam at the Canada-France-Hawaii Telescope (CFHT). {\\it\n     Right:} Multi-band (g, r, i) image of NGC\\,7814 from the Sloan\n   Digital Sky Survey.}\n\\label{optical}\n\\end{figure*}\n\nThe rotation curves used by Van der Kruit for NGC\\,891\n\\citep{sancisi79} and for NGC\\,7814 \\citep{vdkruit82} were obtained\nfrom \\hi\\ observations with the Westerbork Synthesis Radio Telescope\n(WSRT).  \nThe rotation curve of NGC\\,891 was obtained directly from the\nobservations using a velocity ``envelope'' method, that of NGC\\,7814\nby constructing models.  \nBoth curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 192,
+      "text": "from \\hi\\ observations with the Westerbork Synthesis Radio Telescope",
+      "context": "     Right:} Multi-band (g, r, i) image of NGC\\,7814 from the Sloan\n   Digital Sky Survey.}\n\\label{optical}\n\\end{figure*}\n\nThe rotation curves used by Van der Kruit for NGC\\,891\n\\citep{sancisi79} and for NGC\\,7814 \\citep{vdkruit82} were obtained\nfrom \\hi\\ observations with the Westerbork Synthesis Radio Telescope\n(WSRT).  \nThe rotation curve of NGC\\,891 was obtained directly from the\nobservations using a velocity ``envelope'' method, that of NGC\\,7814\nby constructing models.  \nBoth curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 193,
+      "text": "(WSRT).  ",
+      "context": "   Digital Sky Survey.}\n\\label{optical}\n\\end{figure*}\n\nThe rotation curves used by Van der Kruit for NGC\\,891\n\\citep{sancisi79} and for NGC\\,7814 \\citep{vdkruit82} were obtained\nfrom \\hi\\ observations with the Westerbork Synthesis Radio Telescope\n(WSRT).  \nThe rotation curve of NGC\\,891 was obtained directly from the\nobservations using a velocity ``envelope'' method, that of NGC\\,7814\nby constructing models.  \nBoth curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could\nnot be derived at all. "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 195,
+      "text": "observations using a velocity ``envelope'' method, that of NGC\\,7814",
+      "context": "\\end{figure*}\n\nThe rotation curves used by Van der Kruit for NGC\\,891\n\\citep{sancisi79} and for NGC\\,7814 \\citep{vdkruit82} were obtained\nfrom \\hi\\ observations with the Westerbork Synthesis Radio Telescope\n(WSRT).  \nThe rotation curve of NGC\\,891 was obtained directly from the\nobservations using a velocity ``envelope'' method, that of NGC\\,7814\nby constructing models.  \nBoth curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could\nnot be derived at all. \n\nIn recent years, new \\hi\\ observations were obtained for these two "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 198,
+      "text": "observations, especially for NGC\\,7814, had poor signal/noise ratios",
+      "context": "\\citep{sancisi79} and for NGC\\,7814 \\citep{vdkruit82} were obtained\nfrom \\hi\\ observations with the Westerbork Synthesis Radio Telescope\n(WSRT).  \nThe rotation curve of NGC\\,891 was obtained directly from the\nobservations using a velocity ``envelope'' method, that of NGC\\,7814\nby constructing models.  \nBoth curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could\nnot be derived at all. \n\nIn recent years, new \\hi\\ observations were obtained for these two \ngalaxies with better sensitivity with the WSRT.\nFrom these observations we derived new rotation curves. \nWe used Spitzer $3.6\\, \\mu{\\rm m}$ observations to derive the photometric"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 202,
+      "text": "In recent years, new \\hi\\ observations were obtained for these two ",
+      "context": "observations using a velocity ``envelope'' method, that of NGC\\,7814\nby constructing models.  \nBoth curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could\nnot be derived at all. \n\nIn recent years, new \\hi\\ observations were obtained for these two \ngalaxies with better sensitivity with the WSRT.\nFrom these observations we derived new rotation curves. \nWe used Spitzer $3.6\\, \\mu{\\rm m}$ observations to derive the photometric\nparameters of the bulge and the disk components and perform\nmass decompositions.\nWe were able to reach new conclusions on the relative\ndistribution of luminous and dark matter, which differ from those"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 203,
+      "text": "galaxies with better sensitivity with the WSRT.",
+      "context": "by constructing models.  \nBoth curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could\nnot be derived at all. \n\nIn recent years, new \\hi\\ observations were obtained for these two \ngalaxies with better sensitivity with the WSRT.\nFrom these observations we derived new rotation curves. \nWe used Spitzer $3.6\\, \\mu{\\rm m}$ observations to derive the photometric\nparameters of the bulge and the disk components and perform\nmass decompositions.\nWe were able to reach new conclusions on the relative\ndistribution of luminous and dark matter, which differ from those\nmentioned above."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 204,
+      "text": "From these observations we derived new rotation curves. ",
+      "context": "Both curves appear to be flat to a first approximation, but the \\hi\\\nobservations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could\nnot be derived at all. \n\nIn recent years, new \\hi\\ observations were obtained for these two \ngalaxies with better sensitivity with the WSRT.\nFrom these observations we derived new rotation curves. \nWe used Spitzer $3.6\\, \\mu{\\rm m}$ observations to derive the photometric\nparameters of the bulge and the disk components and perform\nmass decompositions.\nWe were able to reach new conclusions on the relative\ndistribution of luminous and dark matter, which differ from those\nmentioned above.\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 205,
+      "text": "We used Spitzer $3.6\\, \\mu{\\rm m}$ observations to derive the photometric",
+      "context": "observations, especially for NGC\\,7814, had poor signal/noise ratios\nin the central regions and the curves had large uncertainties or could\nnot be derived at all. \n\nIn recent years, new \\hi\\ observations were obtained for these two \ngalaxies with better sensitivity with the WSRT.\nFrom these observations we derived new rotation curves. \nWe used Spitzer $3.6\\, \\mu{\\rm m}$ observations to derive the photometric\nparameters of the bulge and the disk components and perform\nmass decompositions.\nWe were able to reach new conclusions on the relative\ndistribution of luminous and dark matter, which differ from those\nmentioned above.\n\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 241,
+      "text": "(6) \\citet{Oosterloo+07},",
+      "context": "\\end{tabular}\\\\\n\\begin{flushleft}\n(1) \\citet{vdkruit81},\n(2) \\citet{garcia95},\n(3) \\citet{deVaucouleurs91},\n(4) \\citet{jarrett03},\n(5) \\citet{sdss},\n(6) \\citet{Oosterloo+07},\n(7) this work.\\\\\n$^a$ More recent determinations of the distances of NGC\\,891 and NGC\\,7814 using the tip of the red giant branch are fully consistent with these values, i.e.\\ $9.1 \\pm 0.4 \\Mpc$ and $14.8^{+0.7}_{-0.6} \\Mpc$ respectively \\citep{Radburn-Smith+11}.\\\\\n$^b$ Corrected for internal and Milky Way extinction. \\\\\n\\end{flushleft}\n\\end{table}\n\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 251,
+      "text": "For NGC\\,891 we used the \\hi\\ observations by \\citet{Oosterloo+07} and for NGC\\,7814 ",
+      "context": "$^b$ Corrected for internal and Milky Way extinction. \\\\\n\\end{flushleft}\n\\end{table}\n\n\n\\section{Derivation of the rotation curves}\n\nFor NGC\\,891 we used the \\hi\\ observations by \\citet{Oosterloo+07} and for NGC\\,7814 \nthose obtained by \\citet{kamphuis08}. The latter consist of 4x12 hours integration with the WSRT (September 2004). The reduction was done with the MIRIAD package and standard calibration was applied. The result is a data cube consisting of 160 channels \nwith a spatial resolution (FWHM) of $54.5\" \\times 12.9\"$ and with a velocity spacing of 4.12 $\\kms$. \n\nThe derivation of the rotation curves was done in two steps. \nA first estimate was obtained by taking the envelope on the high rotational velocity side of the position-velocity diagram along the major axis. \nFor a description of the method and a discussion of the uncertanties involved see \\citet{sancisi79}.\nThe rotational velocity was derived by fitting Gaussian functions with fixed dispersions to the high rotational velocity sides of the line profiles (i.e.\\ the lowest radial velocities on the approaching side and the highest on the receding one)."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 252,
+      "text": "those obtained by \\citet{kamphuis08}. The latter consist of 4x12 hours integration with the WSRT (September 2004). The reduction was done with the MIRIAD package and standard calibration was applied. The result is a data cube consisting of 160 channels ",
+      "context": "\\end{flushleft}\n\\end{table}\n\n\n\\section{Derivation of the rotation curves}\n\nFor NGC\\,891 we used the \\hi\\ observations by \\citet{Oosterloo+07} and for NGC\\,7814 \nthose obtained by \\citet{kamphuis08}. The latter consist of 4x12 hours integration with the WSRT (September 2004). The reduction was done with the MIRIAD package and standard calibration was applied. The result is a data cube consisting of 160 channels \nwith a spatial resolution (FWHM) of $54.5\" \\times 12.9\"$ and with a velocity spacing of 4.12 $\\kms$. \n\nThe derivation of the rotation curves was done in two steps. \nA first estimate was obtained by taking the envelope on the high rotational velocity side of the position-velocity diagram along the major axis. \nFor a description of the method and a discussion of the uncertanties involved see \\citet{sancisi79}.\nThe rotational velocity was derived by fitting Gaussian functions with fixed dispersions to the high rotational velocity sides of the line profiles (i.e.\\ the lowest radial velocities on the approaching side and the highest on the receding one).\nIt was assumed that the gas is in circular motion, that there is gas emission at the line of nodes and that the velocity dispersion is constant and equal to $8\\kms$."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 257,
+      "text": "For a description of the method and a discussion of the uncertanties involved see \\citet{sancisi79}.",
+      "context": "\nFor NGC\\,891 we used the \\hi\\ observations by \\citet{Oosterloo+07} and for NGC\\,7814 \nthose obtained by \\citet{kamphuis08}. The latter consist of 4x12 hours integration with the WSRT (September 2004). The reduction was done with the MIRIAD package and standard calibration was applied. The result is a data cube consisting of 160 channels \nwith a spatial resolution (FWHM) of $54.5\" \\times 12.9\"$ and with a velocity spacing of 4.12 $\\kms$. \n\nThe derivation of the rotation curves was done in two steps. \nA first estimate was obtained by taking the envelope on the high rotational velocity side of the position-velocity diagram along the major axis. \nFor a description of the method and a discussion of the uncertanties involved see \\citet{sancisi79}.\nThe rotational velocity was derived by fitting Gaussian functions with fixed dispersions to the high rotational velocity sides of the line profiles (i.e.\\ the lowest radial velocities on the approaching side and the highest on the receding one).\nIt was assumed that the gas is in circular motion, that there is gas emission at the line of nodes and that the velocity dispersion is constant and equal to $8\\kms$.\nSubsequently this rotation curve was used, together with the observed radial \\hi\\ density profile, as input for the modelling of the data cube.\nThis was done by assuming concentric rings. \nEach ring has its own rotational velocity and gas density. \nThe inclination angle is fixed to $90\\de$, determined by modelling the \\hi\\ datacube.\nThe position angle was measured using the total \\hi\\ map and the Spitzer data, the values agreed within $<0.5 \\de$."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 265,
+      "text": "There is no evidence for a change of more than $2\\de$ in position angle and $4 \\de$ inclination out to the outer radius from which the rotation curve is derived \\citep[for NGC\\,891 see also][]{Oosterloo+07}.",
+      "context": "The rotational velocity was derived by fitting Gaussian functions with fixed dispersions to the high rotational velocity sides of the line profiles (i.e.\\ the lowest radial velocities on the approaching side and the highest on the receding one).\nIt was assumed that the gas is in circular motion, that there is gas emission at the line of nodes and that the velocity dispersion is constant and equal to $8\\kms$.\nSubsequently this rotation curve was used, together with the observed radial \\hi\\ density profile, as input for the modelling of the data cube.\nThis was done by assuming concentric rings. \nEach ring has its own rotational velocity and gas density. \nThe inclination angle is fixed to $90\\de$, determined by modelling the \\hi\\ datacube.\nThe position angle was measured using the total \\hi\\ map and the Spitzer data, the values agreed within $<0.5 \\de$.\nThere is no evidence for a change of more than $2\\de$ in position angle and $4 \\de$ inclination out to the outer radius from which the rotation curve is derived \\citep[for NGC\\,891 see also][]{Oosterloo+07}.\nThe effect on the rotation curves of these changes would be less than $1 \\kms$.\n\nThe gas density as a function of $R$ was obtained by deprojecting the total \\hi\\ maps.\nThe model position-velocity diagram was compared (by eye) with the observed one.\nWhen necessary, the initial input values of the rotational velocity were changed and the procedure was iterated until a satisfactory matching of model and observations was reached. \nThis was done independently for the two sides of the galaxies. \nThe final adopted rotation curves are shown plotted on the position-velocity maps (Figs.\\ \\ref{pv891} \\& \\ref{pv7814}). "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 270,
+      "text": "When necessary, the initial input values of the rotational velocity were changed and the procedure was iterated until a satisfactory matching of model and observations was reached. ",
+      "context": "The inclination angle is fixed to $90\\de$, determined by modelling the \\hi\\ datacube.\nThe position angle was measured using the total \\hi\\ map and the Spitzer data, the values agreed within $<0.5 \\de$.\nThere is no evidence for a change of more than $2\\de$ in position angle and $4 \\de$ inclination out to the outer radius from which the rotation curve is derived \\citep[for NGC\\,891 see also][]{Oosterloo+07}.\nThe effect on the rotation curves of these changes would be less than $1 \\kms$.\n\nThe gas density as a function of $R$ was obtained by deprojecting the total \\hi\\ maps.\nThe model position-velocity diagram was compared (by eye) with the observed one.\nWhen necessary, the initial input values of the rotational velocity were changed and the procedure was iterated until a satisfactory matching of model and observations was reached. \nThis was done independently for the two sides of the galaxies. \nThe final adopted rotation curves are shown plotted on the position-velocity maps (Figs.\\ \\ref{pv891} \\& \\ref{pv7814}). \nThe averaged curves are shown in Fig.\\ \\ref{rotcurves}.\nFor each point, the error is the larger between the formal error of the fit and an uncertainty due to asymmetries between the approaching and the receding sides. \nThe latter was calculated assuming that the difference between the two sides corresponds to a $2 \\sigma$ deviation \\citep{swaters99}.\n\n\\begin{figure}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 291,
+      "text": "As pointed out by \\citet{sancisi79} it could be due to the location of the gas away from the line of nodes. ",
+      "context": " \\label{pv891}\n\\end{figure}\n\nThe \\hi\\ disk of NGC\\,891 is known to be lopsided \\citep{baldwin80}.\nOn its southern receding side, it has an extended tail (Fig.\\ \\ref{pv891}) \nat a lower radial velocity with respect to the central part of the disk.\nHowever, this decrease in radial velocity does not necessarily mean a decline in rotational velocity. \nAs pointed out by \\citet{sancisi79} it could be due to the location of the gas away from the line of nodes. \nAlso, it is possible that non-circular motions dominate in these outer parts where the galaxy becomes so asymmetric. \nWe derived, therefore, the rotation curve only for the symmetric part, inside $\\sim6$ arcmin ($\\sim 17 \\kpc$) from the centre (Table \\ref{tRC891}).\nThe sharp rise and peak near the centre ($R \\lsim 1 \\kpc$) indicate the presence of a fast rotating inner \\hi\\ disk or ring. \nAlthough this seems the straightforward explanation the possibility of a bar and associated non-circular motions cannot be ruled out \\citep{garcia95}.\nHowever, in the present data there is no indication of non-circular motions.\nJust outside this central disk or ring the rotation curve is not well defined due to some beam-smearing and blending with the emission from the inner disk. \nThe second point shown here is, therefore, rather uncertain."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 303,
+      "text": "\\citet{sancisi79}",
+      "context": "However, in the present data there is no indication of non-circular motions.\nJust outside this central disk or ring the rotation curve is not well defined due to some beam-smearing and blending with the emission from the inner disk. \nThe second point shown here is, therefore, rather uncertain.\nWe used different density distributions for the inner ring and estimate an error of about $12 \\kms$.\nIn these central parts, the rotation curve is slightly asymmetrical: on the receding side it is somewhat steeper.\nFurther out the approaching and receding rotational velocities are the same within $<10 \\kms$.\nThe rotation curve derived here differs from that obtained by \n\\citet{sancisi79}\nespecially in the inner parts where the higher\nsensitivity observations by \\citet{Oosterloo+07} used here show the\ninner steep rise and the fast-rotating component.  \nThe radial extent is about the same.\n\n\\begin{table}\n\\caption{Rotation curve of NGC\\,891}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 305,
+      "text": "sensitivity observations by \\citet{Oosterloo+07} used here show the",
+      "context": "The second point shown here is, therefore, rather uncertain.\nWe used different density distributions for the inner ring and estimate an error of about $12 \\kms$.\nIn these central parts, the rotation curve is slightly asymmetrical: on the receding side it is somewhat steeper.\nFurther out the approaching and receding rotational velocities are the same within $<10 \\kms$.\nThe rotation curve derived here differs from that obtained by \n\\citet{sancisi79}\nespecially in the inner parts where the higher\nsensitivity observations by \\citet{Oosterloo+07} used here show the\ninner steep rise and the fast-rotating component.  \nThe radial extent is about the same.\n\n\\begin{table}\n\\caption{Rotation curve of NGC\\,891}\n\\label{tRC891} \n\\centering    "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 362,
+      "text": "Because of the better signal/noise ratio of the new observations it was possible to  derive it also in the inner region (within 1 arcmin $\\sim 4 \\kpc$ from the centre) where it has a steep rise to a maximum of $250 \\kms$ at about $0.6 \\kpc$ from the centre followed by a slow decline to about $214 \\kms$ in the outer parts. ",
+      "context": "The value of the rotational velocity near the centre (first two points) could \nbe higher than given here. \nThe third point of the rotation curve is well determined (see Fig.\\ \\ref{pv7814}).\nThere are no large asymmetries; only at large distances from the centre the two sides of the galaxy are not completely symmetrical. \nFig.\\ \\ref{pv7814} shows that there are differences in the \\hi\\ density distribution and also in the kinematics. \nOn the approaching side the rotational velocity begins to drop off around 2 arcmin from the centre whereas on the receding side the decrease seems to start a little further out.\nThis rotation curve is different from the flat curve derived by Van der Kruit and Searle (1982). \nBecause of the better signal/noise ratio of the new observations it was possible to  derive it also in the inner region (within 1 arcmin $\\sim 4 \\kpc$ from the centre) where it has a steep rise to a maximum of $250 \\kms$ at about $0.6 \\kpc$ from the centre followed by a slow decline to about $214 \\kms$ in the outer parts. \nIts radial extent is about the same. \n\n\n\\begin{table}\n\\caption{Rotation curve of NGC\\,7814}\n\\label{tRC7814} \n\\centering    "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 423,
+      "text": "The observations of NGC\\,891 had an exposure time of 96.8$\\,s$, those of NGC\\,7814 26.8$\\,s$.",
+      "context": "In order to further investigate the distribution of the mass as compared to that of the light in the two galaxies we made the standard decomposition of the rotation curves in mass components: bulge, stellar and gaseous disks, and dark matter halo.\n\n\n\\subsection{Photometric data}\n\nIn order to avoid problems with dust extinction we used data in the $3.6\\,\\mu{\\rm m}$ band obtained with the Spitzer Space Telescope \\citep{spitzer}.\nBoth NGC\\,891 and NGC\\,7814 had been observed with the Spitzer Telescope and the mosaics were already available in the archive.\nThe observations of NGC\\,891 had an exposure time of 96.8$\\,s$, those of NGC\\,7814 26.8$\\,s$.\nWe converted from the Spitzer units of ${\\rm MJy}\\,{\\rm sr}^{-1}$ to \n$\\magasec$  in $3.6\\,\\mu{\\rm m}$ band assuming an absolute magnitude for \nthe Sun of $M_{3.6\\,\\mu{\\rm m}}=3.24$ \\citep{Oh+08}.\nWe applied the surface brightness correction simply by multiplying our fluxes by 0.91 (Spitzer Handbook).\nWe estimated the values of the background in the two images to be 21.06 and $20.70\\magasec$ respectively for NGC\\,891 and NGC\\,7814. \nThe $3.6\\,\\mu{\\rm m}$ images for the two galaxies are shown in Fig. 5 and in Fig. 6.\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 823,
+      "text": "We thank T.S.\\ van Albada, P.C.\\ van der Kruit, T.\\ Oosterloo, R.\\",
+      "context": "It would be interesting to repeat the same study on galaxies with \nextreme morphologies such as NGC\\,7814 and NGC\\,891 but\nseen at lower inclination angles. \n\n\n\\begin{acknowledgements}\n\nWe thank T.S.\\ van Albada, P.C.\\ van der Kruit, T.\\ Oosterloo, R.\\\nPeletier, R.\\ Sanders, M.\\ Verheijen, and E.\\ Xilouris \nfor helpful comments and stimulating discussions.\nWe thank C.\\ Peng for advice about the fitting of edge-on disks with GALFIT\nand D.\\ Radburn-Smith for providing the new distances of NGC\\,891 and NGC\\,7814.\nFF is supported by the PRIN-MIUR 2008SPTACC.\nPK is supported by the Alexander von Humboldt Foundation.\nThe Westerbork Synthesis Radio Telescope is operated By ASTRON (Netherlands Institute for Radio Astronomy) with support from the Netherlands Foundation for Scientific Research (NWO)."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 831,
+      "text": "This work is based in part on observations made with the Spitzer Space Telescope, which is operated by the Jet Propulsion Laboratory, California Institute of Technology under a contract with NASA.",
+      "context": "Peletier, R.\\ Sanders, M.\\ Verheijen, and E.\\ Xilouris \nfor helpful comments and stimulating discussions.\nWe thank C.\\ Peng for advice about the fitting of edge-on disks with GALFIT\nand D.\\ Radburn-Smith for providing the new distances of NGC\\,891 and NGC\\,7814.\nFF is supported by the PRIN-MIUR 2008SPTACC.\nPK is supported by the Alexander von Humboldt Foundation.\nThe Westerbork Synthesis Radio Telescope is operated By ASTRON (Netherlands Institute for Radio Astronomy) with support from the Netherlands Foundation for Scientific Research (NWO).\nThis work is based in part on observations made with the Spitzer Space Telescope, which is operated by the Jet Propulsion Laboratory, California Institute of Technology under a contract with NASA.\nWe are grateful to David W. Hogg, Michael R. Blanton, and the Sloan Digital Sky Survey Collaboration for the gri mosaics of NGC\\,7814 and to C. Marmo (TERAPIX) for the WIRCam/CFHT multi-color image of NGC\\,891.\nTERAPIX is funded by the French national research agency (CNRS/INSU), the Programme National de Cosmologie (PNC), the Service d'Astrophysique of the Commissariat l'Energie Atomique (CEA/SAp), the Institut d'Astrophysique de Paris (IAP), and the European FP5 RTD contracts \"Astrowise\" and \"AVO\" (Astrophysical Virtual Observatory).\n\\end{acknowledgements}\n\n\n\\begin{thebibliography}{}\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 840,
+      "text": "\\bibitem[Baldwin, Lynden-Bell \\& Sancisi(1980)]{baldwin80} Baldwin, J., Lynden-Bell, D. \\& Sancisi, R. 1980, MNRAS, 193, 313",
+      "context": "TERAPIX is funded by the French national research agency (CNRS/INSU), the Programme National de Cosmologie (PNC), the Service d'Astrophysique of the Commissariat l'Energie Atomique (CEA/SAp), the Institut d'Astrophysique de Paris (IAP), and the European FP5 RTD contracts \"Astrowise\" and \"AVO\" (Astrophysical Virtual Observatory).\n\\end{acknowledgements}\n\n\n\\begin{thebibliography}{}\n\n\\bibitem[Abazajian et al.(2004)]{sdss} {Abazajian}, K., {Adelman-McCarthy}, J.~K., {Ag{\\\"u}eros}, M.~A. et al. 2004, The Second Data Release of the Sloan Digital Sky Survey, AJ, 128, 502\n\\bibitem[Baldwin, Lynden-Bell \\& Sancisi(1980)]{baldwin80} Baldwin, J., Lynden-Bell, D. \\& Sancisi, R. 1980, MNRAS, 193, 313\n\\bibitem[Kalnajs(1983)]{kalnajs83} Kalnajs, A.J. 1983, in Internal Kinematics of Galaxies, IAU Symposium No 100,\ned. E. Athanassoula (Dordrecht: Reidel), p.87\n\\bibitem[de Vaucouleurs et al.(1991)]{deVaucouleurs91} de Vaucouleurs\n G., de Vaucouleurs A., Corwin H. G., Buta R. J., Paturel G., Fouque\n P. 1991, Third Reference Catalog of Bright Galaxies, Vols. 1-3,\n XII. Springer-Verlag, (RC3)\n\\bibitem[Famaey \\& Binney(2005)]{famaey05} Famaey B., Binney J. 2005, MNRAS, 363, 603"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 850,
+      "text": "\\bibitem[Kamphuis(2008)]{kamphuis08} Kamphuis P. 2008, PhD Thesis, University of Groningen",
+      "context": "\\bibitem[de Vaucouleurs et al.(1991)]{deVaucouleurs91} de Vaucouleurs\n G., de Vaucouleurs A., Corwin H. G., Buta R. J., Paturel G., Fouque\n P. 1991, Third Reference Catalog of Bright Galaxies, Vols. 1-3,\n XII. Springer-Verlag, (RC3)\n\\bibitem[Famaey \\& Binney(2005)]{famaey05} Famaey B., Binney J. 2005, MNRAS, 363, 603\n\\bibitem[Garcia-Burillo \\& Guelin(1995)]{garcia95} Garcia-Burillo, S., Guelin, M. 1995, A\\&A, 299, 657\n\\bibitem[Jarrett et al.(2003)]{jarrett03} Jarrett, T.H., Chester, T., Cutri, R., Schneider, S.E., Huchra, J.P. 2003, AJ, 125, 525\n\\bibitem[Kamphuis(2008)]{kamphuis08} Kamphuis P. 2008, PhD Thesis, University of Groningen\n\\bibitem[Kent(1986)]{kent86} Kent, S.M. 1986, AJ, 91, 1301\n\\bibitem[Oh et al.(2008)]{Oh+08} Oh, S.-H., de Blok, W.J.G., Walter, F., Brinks, E., Kennicutt, R.C. 2008, AJ, 136, 2761 \n\\bibitem[Oosterloo, Fraternali \\& Sancisi(2007)]{Oosterloo+07} Oosterloo, T., Fraternali, F., \\& Sancisi, R. 2007, AJ, 134, 1019\n\\bibitem[Milgrom(1983)]{Milgrom83} Milgrom, M. 1983, ApJ, 270, 365\n\\bibitem[Navarro, Frenk \\& White(1997)]{NFW97} Navarro, J.F., Frenk, C.S., White, S.D.M. 1997, ApJ, 490, 493\n\\bibitem[Peng et al.(2002)]{galfit1} Peng, C.Y., Ho, L.C., Impey,\n  C.D., Rix, H.-W. 2002, AJ, 124, 266"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 853,
+      "text": "\\bibitem[Oosterloo, Fraternali \\& Sancisi(2007)]{Oosterloo+07} Oosterloo, T., Fraternali, F., \\& Sancisi, R. 2007, AJ, 134, 1019",
+      "context": " XII. Springer-Verlag, (RC3)\n\\bibitem[Famaey \\& Binney(2005)]{famaey05} Famaey B., Binney J. 2005, MNRAS, 363, 603\n\\bibitem[Garcia-Burillo \\& Guelin(1995)]{garcia95} Garcia-Burillo, S., Guelin, M. 1995, A\\&A, 299, 657\n\\bibitem[Jarrett et al.(2003)]{jarrett03} Jarrett, T.H., Chester, T., Cutri, R., Schneider, S.E., Huchra, J.P. 2003, AJ, 125, 525\n\\bibitem[Kamphuis(2008)]{kamphuis08} Kamphuis P. 2008, PhD Thesis, University of Groningen\n\\bibitem[Kent(1986)]{kent86} Kent, S.M. 1986, AJ, 91, 1301\n\\bibitem[Oh et al.(2008)]{Oh+08} Oh, S.-H., de Blok, W.J.G., Walter, F., Brinks, E., Kennicutt, R.C. 2008, AJ, 136, 2761 \n\\bibitem[Oosterloo, Fraternali \\& Sancisi(2007)]{Oosterloo+07} Oosterloo, T., Fraternali, F., \\& Sancisi, R. 2007, AJ, 134, 1019\n\\bibitem[Milgrom(1983)]{Milgrom83} Milgrom, M. 1983, ApJ, 270, 365\n\\bibitem[Navarro, Frenk \\& White(1997)]{NFW97} Navarro, J.F., Frenk, C.S., White, S.D.M. 1997, ApJ, 490, 493\n\\bibitem[Peng et al.(2002)]{galfit1} Peng, C.Y., Ho, L.C., Impey,\n  C.D., Rix, H.-W. 2002, AJ, 124, 266\n\\bibitem[Peng et al.(2010)]{galfit2} Peng, C.Y., Ho, L.C., Impey, C.D., Rix, H.-W. 2010, AJ, 139, 2097\n\\bibitem[Radburn-Smith et al.(2011)]{Radburn-Smith+11} Radburn-Smith, D., et al. 2011, ApJS, submitted\n\\bibitem[Sancisi \\& Allen(1979)]{sancisi79} Sancisi, R., \\& Allen, R.J. 1979, A\\&A, 74, 73"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 860,
+      "text": "\\bibitem[Sancisi \\& Allen(1979)]{sancisi79} Sancisi, R., \\& Allen, R.J. 1979, A\\&A, 74, 73",
+      "context": "\\bibitem[Oosterloo, Fraternali \\& Sancisi(2007)]{Oosterloo+07} Oosterloo, T., Fraternali, F., \\& Sancisi, R. 2007, AJ, 134, 1019\n\\bibitem[Milgrom(1983)]{Milgrom83} Milgrom, M. 1983, ApJ, 270, 365\n\\bibitem[Navarro, Frenk \\& White(1997)]{NFW97} Navarro, J.F., Frenk, C.S., White, S.D.M. 1997, ApJ, 490, 493\n\\bibitem[Peng et al.(2002)]{galfit1} Peng, C.Y., Ho, L.C., Impey,\n  C.D., Rix, H.-W. 2002, AJ, 124, 266\n\\bibitem[Peng et al.(2010)]{galfit2} Peng, C.Y., Ho, L.C., Impey, C.D., Rix, H.-W. 2010, AJ, 139, 2097\n\\bibitem[Radburn-Smith et al.(2011)]{Radburn-Smith+11} Radburn-Smith, D., et al. 2011, ApJS, submitted\n\\bibitem[Sancisi \\& Allen(1979)]{sancisi79} Sancisi, R., \\& Allen, R.J. 1979, A\\&A, 74, 73\n\\bibitem[Sancisi(2004)]{sancisi04} Sancisi, R. 2004, in IAU Symposium,\n Vol.\\ 220, Dark Matter in Galaxies, eds.\\ S. Ryder, D. Pisano,\n M. Walker, \\& K. Freeman, 233\n\\bibitem[Shaw \\& Gilmore(1989)]{ShawGilmore89} Shaw, M.A., Gilmore, G. 1989,\n MNRAS, 237, 903\n\\bibitem[Swaters(1999)]{swaters99} Swaters, R.A. 1999, PhD Thesis, University of Groningen\n\\bibitem[van Albada et al.(1985)]{vanAlbada85} van Albada T.S., Bahcall J.N., Begeman K., Sancisi R. 1985, ApJ, 295, 305"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 861,
+      "text": "\\bibitem[Sancisi(2004)]{sancisi04} Sancisi, R. 2004, in IAU Symposium,",
+      "context": "\\bibitem[Milgrom(1983)]{Milgrom83} Milgrom, M. 1983, ApJ, 270, 365\n\\bibitem[Navarro, Frenk \\& White(1997)]{NFW97} Navarro, J.F., Frenk, C.S., White, S.D.M. 1997, ApJ, 490, 493\n\\bibitem[Peng et al.(2002)]{galfit1} Peng, C.Y., Ho, L.C., Impey,\n  C.D., Rix, H.-W. 2002, AJ, 124, 266\n\\bibitem[Peng et al.(2010)]{galfit2} Peng, C.Y., Ho, L.C., Impey, C.D., Rix, H.-W. 2010, AJ, 139, 2097\n\\bibitem[Radburn-Smith et al.(2011)]{Radburn-Smith+11} Radburn-Smith, D., et al. 2011, ApJS, submitted\n\\bibitem[Sancisi \\& Allen(1979)]{sancisi79} Sancisi, R., \\& Allen, R.J. 1979, A\\&A, 74, 73\n\\bibitem[Sancisi(2004)]{sancisi04} Sancisi, R. 2004, in IAU Symposium,\n Vol.\\ 220, Dark Matter in Galaxies, eds.\\ S. Ryder, D. Pisano,\n M. Walker, \\& K. Freeman, 233\n\\bibitem[Shaw \\& Gilmore(1989)]{ShawGilmore89} Shaw, M.A., Gilmore, G. 1989,\n MNRAS, 237, 903\n\\bibitem[Swaters(1999)]{swaters99} Swaters, R.A. 1999, PhD Thesis, University of Groningen\n\\bibitem[van Albada et al.(1985)]{vanAlbada85} van Albada T.S., Bahcall J.N., Begeman K., Sancisi R. 1985, ApJ, 295, 305\n\\bibitem[van Albada \\& Sancisi(1986)]{vanAlbada86} van Albada, T.S.\\ \\& Sancisi, R. 1986, Phil.\\ Trans.\\ R.\\ Soc.\\ London, Ser.\\ A, 320, 447"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 867,
+      "text": "\\bibitem[van Albada et al.(1985)]{vanAlbada85} van Albada T.S., Bahcall J.N., Begeman K., Sancisi R. 1985, ApJ, 295, 305",
+      "context": "\\bibitem[Sancisi \\& Allen(1979)]{sancisi79} Sancisi, R., \\& Allen, R.J. 1979, A\\&A, 74, 73\n\\bibitem[Sancisi(2004)]{sancisi04} Sancisi, R. 2004, in IAU Symposium,\n Vol.\\ 220, Dark Matter in Galaxies, eds.\\ S. Ryder, D. Pisano,\n M. Walker, \\& K. Freeman, 233\n\\bibitem[Shaw \\& Gilmore(1989)]{ShawGilmore89} Shaw, M.A., Gilmore, G. 1989,\n MNRAS, 237, 903\n\\bibitem[Swaters(1999)]{swaters99} Swaters, R.A. 1999, PhD Thesis, University of Groningen\n\\bibitem[van Albada et al.(1985)]{vanAlbada85} van Albada T.S., Bahcall J.N., Begeman K., Sancisi R. 1985, ApJ, 295, 305\n\\bibitem[van Albada \\& Sancisi(1986)]{vanAlbada86} van Albada, T.S.\\ \\& Sancisi, R. 1986, Phil.\\ Trans.\\ R.\\ Soc.\\ London, Ser.\\ A, 320, 447\n\\bibitem[van der Kruit \\& Searle(1981)]{vdkruit81} van der Kruit, P. C.\\ \\& Searle, L. 1981, A\\&A, 95, 116\n\\bibitem[van der Kruit \\& Searle(1982)]{vdkruit82} van der Kruit, P.C. \\& Searle, L. 1982, A\\&A, 110, 79\n\\bibitem[van der Kruit(1983)]{vdkruit83} Van der Kruit, P. 1983, PASAu, 5, 136\n\\bibitem[van der Kruit(1995)]{vdkruit95} van der Kruit, P.C. 1995, in Stellar Populations IAU Symp 164, eds. P.C. van der Kruit and G. Gilmore, Kluwer Acad. Publ., Dordrecht, p. 205\n\\bibitem[van der Kruit(1999)]{vdkruit99} van der Kruit, P.C. 1999, Astrophysics and Space Science 267, 227\n\\bibitem[Verheijen(1997)]{verheijen97} Verheijen, M. 1997, PhD Thesis, Groningen University"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 868,
+      "text": "\\bibitem[van Albada \\& Sancisi(1986)]{vanAlbada86} van Albada, T.S.\\ \\& Sancisi, R. 1986, Phil.\\ Trans.\\ R.\\ Soc.\\ London, Ser.\\ A, 320, 447",
+      "context": "\\bibitem[Sancisi(2004)]{sancisi04} Sancisi, R. 2004, in IAU Symposium,\n Vol.\\ 220, Dark Matter in Galaxies, eds.\\ S. Ryder, D. Pisano,\n M. Walker, \\& K. Freeman, 233\n\\bibitem[Shaw \\& Gilmore(1989)]{ShawGilmore89} Shaw, M.A., Gilmore, G. 1989,\n MNRAS, 237, 903\n\\bibitem[Swaters(1999)]{swaters99} Swaters, R.A. 1999, PhD Thesis, University of Groningen\n\\bibitem[van Albada et al.(1985)]{vanAlbada85} van Albada T.S., Bahcall J.N., Begeman K., Sancisi R. 1985, ApJ, 295, 305\n\\bibitem[van Albada \\& Sancisi(1986)]{vanAlbada86} van Albada, T.S.\\ \\& Sancisi, R. 1986, Phil.\\ Trans.\\ R.\\ Soc.\\ London, Ser.\\ A, 320, 447\n\\bibitem[van der Kruit \\& Searle(1981)]{vdkruit81} van der Kruit, P. C.\\ \\& Searle, L. 1981, A\\&A, 95, 116\n\\bibitem[van der Kruit \\& Searle(1982)]{vdkruit82} van der Kruit, P.C. \\& Searle, L. 1982, A\\&A, 110, 79\n\\bibitem[van der Kruit(1983)]{vdkruit83} Van der Kruit, P. 1983, PASAu, 5, 136\n\\bibitem[van der Kruit(1995)]{vdkruit95} van der Kruit, P.C. 1995, in Stellar Populations IAU Symp 164, eds. P.C. van der Kruit and G. Gilmore, Kluwer Acad. Publ., Dordrecht, p. 205\n\\bibitem[van der Kruit(1999)]{vdkruit99} van der Kruit, P.C. 1999, Astrophysics and Space Science 267, 227\n\\bibitem[Verheijen(1997)]{verheijen97} Verheijen, M. 1997, PhD Thesis, Groningen University\n\\bibitem[Wainscoat, Hyland \\& Freeman(1990)]{wainscoat90} Wainscoat,"
+    }
+  ],
+  "figure_references": [
+    {
+      "file": "fraternali.tex",
+      "line": 182,
+      "text": " \\includegraphics[width=0.9\\textwidth]{opticalImages.eps}",
+      "context": "But, do their rotation curves have indeed essentially identical shapes?\n\n\\begin{figure*}\n \\centering\n \\includegraphics[width=0.9\\textwidth]{opticalImages.eps}\n \\caption{{\\it Left:} Multi-band (Y, J, K) image of NGC\\,891 obtained\n   with the WIRCam at the Canada-France-Hawaii Telescope (CFHT). {\\it\n     Right:} Multi-band (g, r, i) image of NGC\\,7814 from the Sloan\n   Digital Sky Survey.}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 279,
+      "text": " \\includegraphics[width=0.5\\textwidth]{maxplotmod891.ps}",
+      "context": "The latter was calculated assuming that the difference between the two sides corresponds to a $2 \\sigma$ deviation \\citep{swaters99}.\n\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.5\\textwidth]{maxplotmod891.ps}\n \\caption{$Upper$: Position-velocity diagram along the major axis of the edge-on galaxy NGC\\,891. The squares show the rotation curves derived separately for the approaching and the receding side. The contour levels are: 0.2, 0.45, 1.0, 2.0, 4.0, 10, 20, 40 ${\\rm mJy}\\,{\\rm beam}^{-1}$.\n$Lower$: Position-velocity diagram along the major axis for the model galaxy.\nThe model has been constructed for the symmetric part of the disk. \n1 arcmin$=2.76 \\kpc$.}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 343,
+      "text": " \\includegraphics[width=0.5\\textwidth]{maxplotmod7814.ps}",
+      "context": "\n\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.5\\textwidth]{maxplotmod7814.ps}\n \\caption{$Upper$: Position-velocity diagram along the major axis of the edge-on galaxy NGC\\,7814. The squares show the rotation curves derived separately for the approaching and the receding side. The contour levels are: 0.5, 1, 2, 4, 10, 20 ${\\rm mJy}\\,{\\rm beam}^{-1}$.\n$Lower$: Position-velocity diagram along the major axis for the model galaxy. \n1 arcmin$=4.25 \\kpc$.}\n \\label{pv7814}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 399,
+      "text": " \\includegraphics[width=\\textwidth]{rotCurves.eps}",
+      "context": "\\end{table}\n\n\\begin{figure*}\n \\centering\n \\includegraphics[width=\\textwidth]{rotCurves.eps}\n \\caption{The rotation curves of NGC\\,891 and NGC\\,7814.\nThe open symbol for NGC\\,891 outlines some potential contribution\nfrom non-circular motions in the centre.\n}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 433,
+      "text": " \\includegraphics[width=0.45\\textwidth, angle=-90]{galfit891.eps}",
+      "context": "The $3.6\\,\\mu{\\rm m}$ images for the two galaxies are shown in Fig. 5 and in Fig. 6.\n\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.45\\textwidth, angle=-90]{galfit891.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof891.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}\n \\caption{\n $3.6\\,\\mu{\\rm m}$ photometry for NGC\\,891. \\emph{Top panel:} distribution of light "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 434,
+      "text": " \\includegraphics[width=0.495\\textwidth]{zprof891.eps}",
+      "context": "\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.45\\textwidth, angle=-90]{galfit891.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof891.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}\n \\caption{\n $3.6\\,\\mu{\\rm m}$ photometry for NGC\\,891. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 435,
+      "text": " \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}",
+      "context": "\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.45\\textwidth, angle=-90]{galfit891.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof891.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}\n \\caption{\n $3.6\\,\\mu{\\rm m}$ photometry for NGC\\,891. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and\nthin and thick disks, see Table \\ref{tPhot}."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 471,
+      "text": " \\includegraphics[width=0.33\\textwidth, angle=-90]{galfit7814.eps}",
+      "context": "parameters converge for both galaxies.\n\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.33\\textwidth, angle=-90]{galfit7814.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}\n \\caption{\n$3.6\\,\\mu{\\rm m}$ photometry for NGC\\,7814. \\emph{Top panel:} distribution of light "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 472,
+      "text": " \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}",
+      "context": "\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.33\\textwidth, angle=-90]{galfit7814.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}\n \\caption{\n$3.6\\,\\mu{\\rm m}$ photometry for NGC\\,7814. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 473,
+      "text": " \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}",
+      "context": "\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.33\\textwidth, angle=-90]{galfit7814.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}\n \\caption{\n$3.6\\,\\mu{\\rm m}$ photometry for NGC\\,7814. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and\ndisk, see Table \\ref{tPhot}."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 555,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}",
+      "context": "\\subsection{Maximum light (bulge + disk)}\n\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 556,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}",
+      "context": "\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 652,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}",
+      "context": "\\end{table}\n\n\\begin{figure*}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 653,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}",
+      "context": "\n\\begin{figure*}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 778,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition891_MOND.eps}",
+      "context": "be decreased by a factor $>2$, incompatible with the new determinations.\n\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_MOND.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_MOND.eps}\n \\caption{Comparison between the rotation curves of NGC\\,891 and\n   NGC\\,7814 and the MOND predictions.\nFor NGC\\,7814 we show the predictions obtained using the standard"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 779,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition7814_MOND.eps}",
+      "context": "\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_MOND.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_MOND.eps}\n \\caption{Comparison between the rotation curves of NGC\\,891 and\n   NGC\\,7814 and the MOND predictions.\nFor NGC\\,7814 we show the predictions obtained using the standard\ninterpolation function (thin blue curve) and the so-called ``simple'' "
+    }
+  ],
+  "decomposition_figure_references": [
+    {
+      "file": "fraternali.tex",
+      "line": 279,
+      "text": " \\includegraphics[width=0.5\\textwidth]{maxplotmod891.ps}",
+      "context": "The latter was calculated assuming that the difference between the two sides corresponds to a $2 \\sigma$ deviation \\citep{swaters99}.\n\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.5\\textwidth]{maxplotmod891.ps}\n \\caption{$Upper$: Position-velocity diagram along the major axis of the edge-on galaxy NGC\\,891. The squares show the rotation curves derived separately for the approaching and the receding side. The contour levels are: 0.2, 0.45, 1.0, 2.0, 4.0, 10, 20, 40 ${\\rm mJy}\\,{\\rm beam}^{-1}$.\n$Lower$: Position-velocity diagram along the major axis for the model galaxy.\nThe model has been constructed for the symmetric part of the disk. \n1 arcmin$=2.76 \\kpc$.}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 434,
+      "text": " \\includegraphics[width=0.495\\textwidth]{zprof891.eps}",
+      "context": "\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.45\\textwidth, angle=-90]{galfit891.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof891.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}\n \\caption{\n $3.6\\,\\mu{\\rm m}$ photometry for NGC\\,891. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 435,
+      "text": " \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}",
+      "context": "\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.45\\textwidth, angle=-90]{galfit891.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof891.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}\n \\caption{\n $3.6\\,\\mu{\\rm m}$ photometry for NGC\\,891. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and\nthin and thick disks, see Table \\ref{tPhot}."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 472,
+      "text": " \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}",
+      "context": "\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.33\\textwidth, angle=-90]{galfit7814.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}\n \\caption{\n$3.6\\,\\mu{\\rm m}$ photometry for NGC\\,7814. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 473,
+      "text": " \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}",
+      "context": "\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.33\\textwidth, angle=-90]{galfit7814.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}\n \\caption{\n$3.6\\,\\mu{\\rm m}$ photometry for NGC\\,7814. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and\ndisk, see Table \\ref{tPhot}."
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 555,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}",
+      "context": "\\subsection{Maximum light (bulge + disk)}\n\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 556,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}",
+      "context": "\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 652,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}",
+      "context": "\\end{table}\n\n\\begin{figure*}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 653,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}",
+      "context": "\n\\begin{figure*}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 778,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition891_MOND.eps}",
+      "context": "be decreased by a factor $>2$, incompatible with the new determinations.\n\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_MOND.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_MOND.eps}\n \\caption{Comparison between the rotation curves of NGC\\,891 and\n   NGC\\,7814 and the MOND predictions.\nFor NGC\\,7814 we show the predictions obtained using the standard"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 779,
+      "text": " \\includegraphics[width=0.49\\textwidth]{decomposition7814_MOND.eps}",
+      "context": "\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_MOND.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_MOND.eps}\n \\caption{Comparison between the rotation curves of NGC\\,891 and\n   NGC\\,7814 and the MOND predictions.\nFor NGC\\,7814 we show the predictions obtained using the standard\ninterpolation function (thin blue curve) and the so-called ``simple'' "
+    }
+  ],
+  "captions": [
+    {
+      "file": "fraternali.tex",
+      "line": 183,
+      "context": "But, do their rotation curves have indeed essentially identical shapes?\n\n\\begin{figure*}\n \\centering\n \\includegraphics[width=0.9\\textwidth]{opticalImages.eps}\n \\caption{{\\it Left:} Multi-band (Y, J, K) image of NGC\\,891 obtained\n   with the WIRCam at the Canada-France-Hawaii Telescope (CFHT). {\\it\n     Right:} Multi-band (g, r, i) image of NGC\\,7814 from the Sloan\n   Digital Sky Survey.}\n\\label{optical}\n\\end{figure*}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 214,
+      "context": "distribution of luminous and dark matter, which differ from those\nmentioned above.\n\n\n\\begin{table}\n\\caption{Optical and \\hi\\ parameters for the two galaxies}\n\\label{tPars} \n\\centering    \n\\begin{tabular}{lccc}\n\\hline\\hline             \nParameter                         &     NGC\\,891      &     NGC\\,7814 & Ref.\\\\ "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 280,
+      "context": "The latter was calculated assuming that the difference between the two sides corresponds to a $2 \\sigma$ deviation \\citep{swaters99}.\n\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.5\\textwidth]{maxplotmod891.ps}\n \\caption{$Upper$: Position-velocity diagram along the major axis of the edge-on galaxy NGC\\,891. The squares show the rotation curves derived separately for the approaching and the receding side. The contour levels are: 0.2, 0.45, 1.0, 2.0, 4.0, 10, 20, 40 ${\\rm mJy}\\,{\\rm beam}^{-1}$.\n$Lower$: Position-velocity diagram along the major axis for the model galaxy.\nThe model has been constructed for the symmetric part of the disk. \n1 arcmin$=2.76 \\kpc$.}\n \\label{pv891}\n\\end{figure}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 310,
+      "context": "sensitivity observations by \\citet{Oosterloo+07} used here show the\ninner steep rise and the fast-rotating component.  \nThe radial extent is about the same.\n\n\\begin{table}\n\\caption{Rotation curve of NGC\\,891}\n\\label{tRC891} \n\\centering    \n\\begin{tabular}{lcc}\n\\hline\\hline\nRadius & Radius & v$_{\\rm c}$ \\\\"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 344,
+      "context": "\n\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.5\\textwidth]{maxplotmod7814.ps}\n \\caption{$Upper$: Position-velocity diagram along the major axis of the edge-on galaxy NGC\\,7814. The squares show the rotation curves derived separately for the approaching and the receding side. The contour levels are: 0.5, 1, 2, 4, 10, 20 ${\\rm mJy}\\,{\\rm beam}^{-1}$.\n$Lower$: Position-velocity diagram along the major axis for the model galaxy. \n1 arcmin$=4.25 \\kpc$.}\n \\label{pv7814}\n\\end{figure}\n"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 367,
+      "context": "Because of the better signal/noise ratio of the new observations it was possible to  derive it also in the inner region (within 1 arcmin $\\sim 4 \\kpc$ from the centre) where it has a steep rise to a maximum of $250 \\kms$ at about $0.6 \\kpc$ from the centre followed by a slow decline to about $214 \\kms$ in the outer parts. \nIts radial extent is about the same. \n\n\n\\begin{table}\n\\caption{Rotation curve of NGC\\,7814}\n\\label{tRC7814} \n\\centering    \n\\begin{tabular}{lcc}\n\\hline\\hline\nRadius & Radius & v$_{\\rm c}$ \\\\"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 400,
+      "context": "\\end{table}\n\n\\begin{figure*}\n \\centering\n \\includegraphics[width=\\textwidth]{rotCurves.eps}\n \\caption{The rotation curves of NGC\\,891 and NGC\\,7814.\nThe open symbol for NGC\\,891 outlines some potential contribution\nfrom non-circular motions in the centre.\n}\n \\label{rotcurves}\n\\end{figure*}"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 436,
+      "context": "\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.45\\textwidth, angle=-90]{galfit891.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof891.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof891.eps}\n \\caption{\n $3.6\\,\\mu{\\rm m}$ photometry for NGC\\,891. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and\nthin and thick disks, see Table \\ref{tPhot}.\n\\emph{Bottom left:} Light distribution along the vertical direction\nabove and below the plane (circles and triangles) compared with our best model"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 474,
+      "context": "\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.33\\textwidth, angle=-90]{galfit7814.eps}\n \\includegraphics[width=0.495\\textwidth]{zprof7814.eps}\n \\includegraphics[width=0.495\\textwidth]{Rprof7814.eps}\n \\caption{\n$3.6\\,\\mu{\\rm m}$ photometry for NGC\\,7814. \\emph{Top panel:} distribution of light \nin the sky in thin (blue) contours overlaid with our best model with bulge and\ndisk, see Table \\ref{tPhot}.\n\\emph{Bottom left:} Light distribution along the vertical direction\nabove and below the plane (circles and triangles) compared with our best model"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 512,
+      "context": "The truncation is the same for both the thin and the thick disk.\nThe disk of NGC\\,7814 does not require any truncation.\n\n\n\\begin{table}\n\\caption{Spitzer $3.6\\,\\mu{\\rm m}-$band photometric parameters for the two galaxies}  \n\\label{tPhot} \n\\centering    \n\\begin{tabular}{lccc}\n\\hline\\hline             \nParameter & \\multicolumn{2}{c}{NGC\\,891} & NGC\\,7814 \\\\ "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 557,
+      "context": "\n\\begin{figure*}[ht]\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_noHalo.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_noHalo.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). \n\\emph{Middle panels:} \\hi\\ surface density.\n\\emph{Bottom panels:} Best fit without a dark matter halo, the $\\ml$ ratios"
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 625,
+      "context": "and out to radii where usually the halo becomes conspicuous. \nThe values obtained for the $\\ml$ ratios of bulge and disk (Table\n\\ref{tDecomp}) seem reasonable \\citep[cf.][]{verheijen97}. \n\n\\begin{table}\n\\caption{Fits to the rotation curves}\n\\label{tDecomp} \n\\centering    \n\\begin{tabular}{lcc}\n\\hline\\hline\nParameter                            & NGC\\,891           & NGC\\,7814 \\\\ "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 654,
+      "context": "\n\\begin{figure*}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_freeFit.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_freeFit.eps}\n \\caption{Rotation curve decompositions for NGC\\,891 and NGC\\,7814. \n\\emph{Top panels:} surface brightness profiles at $3.6\\, \\mu{\\rm m}$ for the bulge and\nthe stellar disks built from the parameters of Table \\ref{tPhot}\n(for NGC\\,891 the two disks have been added). \n\\emph{Middle panels:} \\hi\\ surface density.\n\\emph{Bottom panels:} Best fit with an isothermal dark matter halo, "
+    },
+    {
+      "file": "fraternali.tex",
+      "line": 780,
+      "context": "\n\\begin{figure}\n \\centering\n \\includegraphics[width=0.49\\textwidth]{decomposition891_MOND.eps}\n \\includegraphics[width=0.49\\textwidth]{decomposition7814_MOND.eps}\n \\caption{Comparison between the rotation curves of NGC\\,891 and\n   NGC\\,7814 and the MOND predictions.\nFor NGC\\,7814 we show the predictions obtained using the standard\ninterpolation function (thin blue curve) and the so-called ``simple'' \n(FB) function of \\citet{famaey05} (thick blue curve).\n}"
+    }
+  ],
+  "postscript_assets": [
+    {
+      "name": "Rprof7814.eps",
+      "bytes": 28890,
+      "sha256": "c9897b6b1c9217c53d212e743d2d0d8bfcc56fdb9e8d082576c815c37499638f",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 410 302"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sun Jan 30 17:21:53 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 25,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 104,
+      "show_ops": 8,
+      "literal_strings": 50,
+      "useful_strings": [
+        "Surface Brightness \\(mag arcsec",
+        "Bulge + Disk"
+      ]
+    },
+    {
+      "name": "Rprof891.eps",
+      "bytes": 44388,
+      "sha256": "c29bdb264d60b3081d919683e2e6867c688b1f28074cca27e80f1b2eec300f96",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 410 302"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Fri Jan 28 16:13:13 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 25,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 109,
+      "show_ops": 8,
+      "literal_strings": 63,
+      "useful_strings": [
+        "Surface Brightness \\(mag/arcsec",
+        "Bulge + Thin ",
+        "Thick Disks"
+      ]
+    },
+    {
+      "name": "decomposition7814_MOND.eps",
+      "bytes": 24017,
+      "sha256": "d0cd2fc29e4f8c71fa496151d40f957ae7990181860cf4a574482e812663e1b3",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 410 302"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sun Jan 30 18:22:05 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 25,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 106,
+      "show_ops": 8,
+      "literal_strings": 50,
+      "useful_strings": [
+        "Radius \\(kpc\\)",
+        "NGC 7814 - MOND",
+        "Gas",
+        "Disk",
+        "Bulge"
+      ]
+    },
+    {
+      "name": "decomposition7814_freeFit.eps",
+      "bytes": 28527,
+      "sha256": "513373d76d97a89d70d5e115c26bea0fed6677c6eda01387206517a07fc659a4",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 338 357"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sun Jan 30 18:08:24 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 27,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 125,
+      "show_ops": 8,
+      "literal_strings": 92,
+      "useful_strings": [
+        "Radius \\(kpc\\)",
+        "Gas",
+        "Disk",
+        "Bulge",
+        "HI \\(M",
+        "/pc",
+        "NGC 7814",
+        "Bulge",
+        "Disk"
+      ]
+    },
+    {
+      "name": "decomposition7814_noHalo.eps",
+      "bytes": 28469,
+      "sha256": "9a2bf5c4812b1e4ffae9016d96058a516fb8afcc54c5ce2b93185f7eb33fdaad",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 338 357"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sun Jan 30 18:04:32 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 27,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 125,
+      "show_ops": 8,
+      "literal_strings": 90,
+      "useful_strings": [
+        "Radius \\(kpc\\)",
+        "Gas",
+        "Disk",
+        "Bulge",
+        "HI \\(M",
+        "/pc",
+        "NGC 7814",
+        "Bulge",
+        "Disk"
+      ]
+    },
+    {
+      "name": "decomposition891_MOND.eps",
+      "bytes": 23665,
+      "sha256": "49036f06863654c16675f9c54f7a250a266689536b5f86cafb53ddb2c47371c5",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 410 302"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sat Jan 29 10:16:17 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 25,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 108,
+      "show_ops": 8,
+      "literal_strings": 54,
+      "useful_strings": [
+        "Radius \\(kpc\\)",
+        "NGC 891 - MOND",
+        "Gas",
+        "Disks",
+        "Bulge"
+      ]
+    },
+    {
+      "name": "decomposition891_freeFit.eps",
+      "bytes": 29870,
+      "sha256": "5a18b8ba89962952890483830dfc0f99ebdbe9bd0f3ee5a161e3b61994c4ef3a",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 338 357"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sat Jan 29 10:05:03 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 27,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 131,
+      "show_ops": 8,
+      "literal_strings": 106,
+      "useful_strings": [
+        "Radius \\(kpc\\)",
+        "Gas",
+        "Disks",
+        "Bulge",
+        "HI \\(M",
+        " pc",
+        "NGC 891",
+        "Bulge",
+        "Disks"
+      ]
+    },
+    {
+      "name": "decomposition891_noHalo.eps",
+      "bytes": 29778,
+      "sha256": "6984d405df77a5d69b840e80cfb9a4a4b414525e1d269ed19883e626bf7ce58b",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 338 357"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sat Jan 29 10:06:52 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 27,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 131,
+      "show_ops": 8,
+      "literal_strings": 104,
+      "useful_strings": [
+        "Radius \\(kpc\\)",
+        "Gas",
+        "Disks",
+        "Bulge",
+        "HI \\(M",
+        " pc",
+        "NGC 891",
+        "Bulge",
+        "Disks"
+      ]
+    },
+    {
+      "name": "galfit7814.eps",
+      "bytes": 531044,
+      "sha256": "73303e2f772e3c7d83a8159fbec3f465e48914d9da22df78406e7125f6d42749",
+      "bounding_boxes": [
+        "%%BoundingBox: 14 14 357 801"
+      ],
+      "creator_lines": [
+        "%%Creator: GIMP PostScript file plugin V 1.17 by Peter Kirchgessner",
+        "%%Title: galfit7814.eps",
+        "%%CreationDate: Sat May 14 00:32:19 2011"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_ops": 0,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 0,
+      "show_ops": 0,
+      "literal_strings": 2024,
+      "useful_strings": [
+        "9ejSoA,mHsW@qu?WRs6]^`s5F\"FrVu`fli7\"Pc2[h&gAh2^s/l@hnG`U7s8VKVrs/8t\ns4GQqs5EMJs24lhn,NF]hZ*WCRfEBfeGk%~>\n!ri6#nGi4_!7g]AS,`Eee,T@Hr;Z`rrVuisqZ$QqnGiIf!<<#uo",
+        "9fs8MKes8Moqs82igs82iqs81pXs8N&mp]('imJm4\\r;c`ps7cQms7cQc!;lZo\nrVlQk!;H<irVults5O(5!oa1[r;Zfos8Mios82ch\"7uQnqtpC!pAb3\\!!",
+        "9fs814Ds82ics7Gs`s7H3gs82Wls82fr\neGk%~>\n\"TJH%s231_!8-?3s7W_ts6]IY\"PC2mY-.U#!9*kVs5EkT\"7?-giVifV\\,-+*mJm+bkPkPLiW&lM\nr;Zf\"pAY,Yrr323bflfUNK*Q0s7X_;s5F\"Fo`+sYn,NCfeGk%~>\n!ri6#kl:P\\n,N@e!<<#uq>^Hp!<<#u`rGr:m/R\"apAb'krr;Nhrr;osr;ZZprVults8W&u!<<#u\ns8W#tm/Qt`rr;osi;`ZSrr;Wkr;ZcsRfEBfeGk%~>\n\"TJH%p\\4Xds8N&ms8MiorVcfsquH3crVurfrVurfqZ$Qq!9sI_`rGr:p&G'hs8Mus!;HEl!;lTl\ns8Mrss8N",
+        "_qZ$Korr;corr;rtqu?Zrs8W#t\nlMpkarVucqi;``Urr;os!<;forr;rtRfEBfeGk%~>\n\"TJH%p\\4Xds8N&ms8MiorVlcr!;HHmnc/Fcs7#pcrW!&bm/R.+s82lsrr<&os8Vurrr",
+        "6nrr;uuiW&fUl2UPZs8Vusp]($hirArW!<<#ur;Z`rrr;rtqu?Zrs8Voq\no",
+        "-Hs8Vubs8E#urpBac!7_%!~>\n!ri6#cMmn3bPqS0li..^s8V'%bl7VBpAY'liUd'Lp>,cJ!;lfobk_;=f`01q_u9T8!<2uube!fS\niS4D4p9+Gq!7_%!~>\n!ri6#_Z0N6i;`]Tq>^HpoDedi!<<#urr;uu!ri6#o`+ghirAuXrVuisrVuisrr;rtr;Z`r!<;ut\ns8Vusq>^<lq>^BnhuE]Vrr;`nqu?QoRK*9eeGk%~>\n!ri6#fDkmJs8N&js7$'\\s82Wl!;lZos8M$Xqu?fjqtp<krr<3$qtpBlq>UHhrVur_rW",
+        "bmJlnZrr^K>U::+$!5ng9\"RZ6hiSj/'\nrU':Xs7Z3es6ZN[!oX+ZeGk%~>\n!ri6#ZiBn&pAajejT#5[r;Zcs!ri6#r;ZTns8W&uqu?TprVufrrr;uurr;osr;Zcsn,N=dq#C9m\nl2Ub`rr;cor;Q`srr;iq!<;lqK`CrM!ri6#eGk%~>\n!ri6#jo>ATg].6Oqu?Nn!:]a_pAk0dkl:Y_%di02f@L!&pAb3_l07?mq>gQ[rW",
+        "r!!(X1inN2fgZIY_l/L_\"!<:sVirA9A\nmJ?n`rqHHmrr;`mqu?E`s8Vik!<;'Yk5X]GjoFE?!<<'!rq$3ds8V`kpY5`Jqu?<as8N*!ro!hT\nrr;`m!7_%!~>\n!ri6#p](9eR/d3[qYpQSq>UHIo",
+        "3m#3GmcqtpEnquHWor;Zs\"\nqtp-e!<:[L!<<'%rVur_mJR\"fn,NI1anGc:fAbfek5XECjo>D2r;cl7s1&*Ds3:Sj!6t6<\"Q/J.\nmHsl3s69@[!pS_(rT=.>!:]sfs5O%Ys5NtWs6TgUrW!&t!!",
+        "j8].gs.TM;lMpn%s0r$Gs8W,mr;Qc@qZ$Qq!lMLVriZ9es.]P2\ns.]OZrr2tXrW!(2Ci\"ZRrr3:LCi!0S@q1(@D#OD<JcGb9U8%UP!5nd8\"PCrus6]gc!<C%/rrU*I\n\\,FPIrrKUQq#CBfs6]jd!;?Bks6]j[s6]aa!9*hTs6\\/4s7Z?is7Y=Ls6]R\\rrCRKJ,~>\n!<;orX8i/!!ri6#rr;QipAb*lr;ZTnq#C0jr;Z`rr;Zcs\"TJH%s8W#trVultrVultr;Zcs!<;ut\nrVucqq#C3kqZ$Korr;rt!<;utqZ$Nps8W*!qZ$Nps8W*!!<<#up](0lb5_D?^&Rs0eGk%~>\n!<;oriW&rIs7cQmkPtSVpAb0iqZ$Np\"m,dbo`+s_!<",
+        "XL!!:d3ir8HIklBW?!<:=Cd/<qKajADZc,n*+_Yq\"E_Z.^Z\n!6rme!<:[NhZ*ZUir@d5hu<]TrrDrk!<<&us8V`jrr2s$mHNm&mJ-bZs8VinrqQNnrr<#urW",
+        "JG\nrr<\"Crdk\"J#&JjAG^+%@rE&qXs&]5:!rmLrrr2rurr<\"as/lA%rjVp%s/tbhs6]aa\"PCrBf\\#fq\ns7YgZs/lIAs8VJNs8N",
+        "9equ6Zimf*C_s8UaM\\,H@,_Z0]6rr@WIs8A\\l\nY5c!1s8Qp6A,QE+:B+DqA,f=(3WDGE3WDGG=8ue/D#FA4D#\\b[rrB4trs@Z:f`1uqbeq?$r;Zi,\nmf*:>f`2!Frr<#Ns8N8is8Ua(bjbW4pAP!kmD/c%!7_%!~>\n!<;utOoPC\\qu6Wrqu?Nnrr;uuq#C<nr;Z`r!<;rsrr;rtp](6n!ri6#qu?Wqli6k_rr;rtr;Z`r\n!<;lqpAb$j!<<#urr;rts8Vfnqu?Kmrr;lrs8W*!!<<#uo`+dg!ri6#rVuisoDeah^]4<6eGk%~>\n!<;uts7\"Y?s7c'`s8MZjs82ijp](9cs7$!es7cEjs7H<jrW",
+        "C%>\"QZU;OnKs4Gu_iRlf^\ni;g@_s8N'+@ol_u6<@5u@mWNZ/cRj2:B,PCs.YgFJUq>0!<-I3D#aO$bfoe\\#K,3H_o",
+        ":s8U^Obl.PCiNB?ZrrDcgrrDH[rrDH^s8DZ$s8VKdpAY-Bs*t~>\n!ri6#V>pPqmf2t\\q#C<n!<<#u!<;fos8Vuss8Vfnm/R\"anGiLg!<<#uo`+Rarr;lrnGiCdpAb'k\nq>^Eos8W&u!<<#u!ri6#qYpTss8W&us8VcmVuQbseGk%~>\n!ri6#]Dqp*s82`os8N&ms7H?jr;Zcsr;Zfrs82Qjp&G0gl080+s6]dc!<2rt!:]a`!VGXS!<;'Q\n!<:[NirA9AhuDj=hu",
+        "-Ls8V`knE0cN!7_%!~>\n!ri6#MZ<_Mp&>$cq>UQj_o&t]!<2uupAP$kmJ6e^_uH&&NW5=EUAt8nGlDLZGl7XBNVrhVGlLkF\n6N9gZ3WDkS6N9(Es8O\\N:B,P=NW/tXQN.!a!!d>\"NIcXsCj>mXs24l&s/uCGqnrBAs4Hc>!8.;N\ns5F!qp](9;oDejas8W&bjo>AShuE`Ds5E,?rrCRKJ,~>\n!<;rs^]495pAashrVuZnqZ$HnqZ$Qq!<<#urr;rtrVufrrVucqs8W&uqZ$Blp](6nqu?Tprr;os\npAagdq>^Hps8Vusq#C3kn,N+^qu?Tpq>^Eos8VioO8o4[eGk%~>\n!<;rs!:]gas7GFQs8N&us8MEc!;HHms8Mfnq>^Wirr2fj!!",
+        "pQ!<;]kp](6mqu?0c!<;9`!<1jUiqrfVeGmenanGc>f@8<lahPUi!<0\"l\n!!]R4[(Ere_YqLSd/M;g!!L<Y_TBpuc2Gc`!!M3Ak2PCu!!;Q>fDF>&hu<ZViqrc[m/R.`s8W&p\nr;ciZrTO=Eq>gQpq#C<ns8MlprW",
+        "\\iUm0L!<;$Xf`/kYrrD$WpA=jkY*PCJs8L[NrrVT]p9al\"!7_%!~>\n!ri6#]`7s2mJm1do",
+        "h[[rr<\".quH_4rE'%!rO;g0rr31^\nbfp+ebfot%s5F\"1!6k<>r;ciUs2+ihj8T,<qYpcD_o(.,s6[,lrrCRKJ,~>\n!ri6#^An04!ri6#gAggGs8Voqmf37dp](3mrr;rt!<;rsq#C<nq#C9mp](-kn,N=drr;osqZ$Qq\nk5YD\\!<;lqqZ$KoirB#YrVultZ2ah(eGk%~>\n!ri6#mJm4`eGoLJ\"6':\\p\\+Xerr;Whs8Drqqu?ZkrrDrh!!2Thq>gQTs6]jNs5O(@s69RNs69RN\n!8IJQrS.A(rS.;O!oi+prVurJqu?f8`l@o#rW",
+        "g],n(g],n*iqEHQ_Z.XPc2H#h`rE[J!;il'V>pUnXfVT.rW!52^V@._]=Z",
+        "9s47h_gY^oNk2PCTgY^oJinN5Iir8*?ir@p9irA0>!<;3]\nhZW'A!;H-`!!DHc!;-$cs7cQms82frs8N",
+        "q^:s%`Mos#L*2s%`Q's%`S\\\">0ZR!!*#urttbHrr_imrr`9<rt#,/r;cg`\ns#L*Ss&]51s&]51s*4SDs,I&'rF>kDs*4PC\"TY^.UAt8mJcBuos8K2$UAq_&f`/khUAh=q\\,FPL\n_Z0]7rrAe`rrDcYs8VfkrrBt8rrDH's8N",
+        "a`;ff:mJm1deGk%~>\n!ri6#kPtJ\\s82]ns7cQcs8Mio!;H6gnGi=b!<2QhquHcrrVufrs5O(Cs6]jKs5Nq5s5s@=s4dS9\n!<DB_iWA!;!<14CeGB4MeBlRaahkpn^]21N`rF0\\`r3dO^\\\\$/XoG9oTDP#SSH\"uVSH#JdXTAL-\nXo&2!^]1qC\\Ga\\P_Y:hF_Z.mW!<1mUg]-:5l2TZ?!!D!8ipcmHs6]jN!:]mds82]o!U9\"N!<;rr\np](6cs8W",
+        ":@!<;Hd!<:=BaoBBT^]21N^AtY8!<9>&WrJjmR/NQTR/N0GNr>+=\nNrPCER/`]VU\\Lk_!<9G+]DoYE_Z.XUaoBWcd/VAjaoBW`!!q?2fA#'>io]D\"irA0@l2C,Ol2TcC\nhZN*C!;-3is7cQjrVufrs7cQjrr;uu\"7>=Q!<2`mo`+[_qtpEnrm^uJp[S:`!7_%!~>\n!ri6#a8c/4q#CBfr;ZfLrknX5!:BCXs4I>0r;[,4Y--!m_o'^BrSddcs.Tmes8U<GY*PBVY/A0V\nrr[NGrrE&us4IAOs*4KYs'tdus&]4q!%msFs!7ORh#R3\\s8W&uqu?[Js$H`\\rE'#/s(q^[s+12p\ns(q^[s8W&u#bmWNU8#-+_o",
+        "pT!<(1A!#=#@hr<Y[l/L^WgApC*\nnFZA;l/q-qn,WLGs5s=]s8Mcms82iqrVuinrr;lrnc/Xgp&Fshs7cQmnc/UheGk%~>\n!ri6#rVuoVci=%(o",
+        "CF!<:gQ!!:p\"\nc2I\\CeFrtCeGmPc\\Gj8A!\"?KS^An89XeqtjUS\"1WSH\"lQ!!7n-KDU/uI/e?fEW9qVC@u6<DZ=_V\nFo?^fIfP,t!<&&YQ2d6OTDtegWrE&![/0h'Z2M<7\\GsGGc2Gc`!!;07g\\:dKc2ReDirANFmJl\\U\nk5F<>hZ2p>!!;QPl2CY`rr;lr!<;ut!posfrVQTps82iqr;cNjs7H<ks8M9_rr2ris8MQgrrCRK\nJ,~>\n!ri6#[/^0bmJd:hs8N",
+        "Cs6U!jl/q-fio^+<\"mt=/gY:W`!<;3]gB-L;!<2uup\\Y$i\nrr;`kqtL-krqZTmrojC^rql`qqu?]r!8%5P!<<(L~>\n!ri6#oDedVnc/XJj8]/Qm/R+Es7ZEkr;c]o$14nqs-BCRs8VK[rrAA`rsXHpCh$sV=&",
+        "G\\mJQ,H!!`/t!9WG'ir/oXqu-Nu\npAjs^rr2`ns82Wm!;G@MrV-3hs8N&urrCRKJ,~>\n!ri6#huE`Ml2U_Ukl:\\Ms7ZKms7ZBkqu?]K!3Z>$!2B8gs24f0$c;rEs8S'pCfa\\5:Am3Q:Ao#-\n=8`.!3WB$[(_7/M!<<",
+        "(\ns#L#Xs#C'2rr<!#pAk3mnc8[hirK",
+        "*WrJjoVZ3FkSH\"uTOo#.YI/e?gDZ=JOBDhi1;ZBDM8,l3^\n:Ak/$=^YWMB5VU0Fa/.\\J,KBILB!;6Q2dKTVZ3[l!<9S/_Z.XSc2Ylibl@auhr!2e!<;'W!<:gR\nhuD^9l2U/Nl2BB:joFfF!<(mWl21P]l2(J\\qu-Ql!<",
+        "d.iqrfVklB?7\n!<:gR!<<&s!<:dRl2(G^k2PCu!!*#ss8N*!iWJEF!;l`os82]n\"7uQnmJZ;J!;6Bjrr",
+        "CB!!(C?aoBWc`rEpU\\,`o5!!9:\"VYd\"cQ2cjEMZ*VUJ,acnFoQ@YBDhi1;ZBMi8,NAW\n8,NA^7fZ<_!\"*+HB521$EHQDKGl@[OL5LkKNg5m\"S=cFNVZ*Uo!!'P-]DobH`rF0\\c2Yocc2Z/e\n!<1@E!<:XUgAh6@k2tFQrSdhAq#CNZl07U5!<;rps8W",
+        "CAaU/$ic-=8J_SWgm[/'e&VYd\"cQ2cmB!![ptG]e.HDZ4;I!<5ss:AdW\\!:NGU!;T+b:Ak/\"\n?tX+eC2n69Fa/00!<7rVNrPCESH#5]VZ*Ul!<9\\2_YqLSaoBWcaoBW]!!(XLd/F\"NfA#'ImH3Qc\ng\\p+3l1P,WmJ?n^s8W",
+        "0ls7ZEAr;ccGquHQC\nquHWEr;ccG!9*kVp](0lo`+dgn,N7b!<;rslMph`qu?Zrp](-k!ri6#nGiCddJs4Hir9",
+        "CC!!(CE`rEpU]D]8<!<92\"WrJjoTDt2UOo57dIs?3\\F`DD9C1.#@!`_uj\nrC?herC?bcr^Zebr^ZkdrC?edqa^Sbs'Yk>s(_RVs*t\"J%Z6:,OcbooS=H@LVP^Anr;cf.rODm>\nrPJTLs2P&_o`5$Ls5O(@s5O\">!:B[as69:Y!<2rss7$'_qu6Zqq#CEerVuinrVuols829bs82iq\nq#CBknc/Uhi;WcWpA]X~>\n!ri6#b5VP1p@eFa!q#^Tl2LbWrVuis\"O+?aQBqLLs5F\"1rQP;Ns/u>#rhBAls8N(Mqu6YIrF>k/\ns$HZErrE*!rtt\\Fp&P-mp&P-mq#LHpquHcsq>gNpq>gQqqZ-Zrq#LHpp&P-mo`5!ort#/0rrE!a\nrAjmErE'\"os'u%Q!",
+        "0l!rqQN\nrmgrIrRLlIs4.#Is4-uHs4.&JrmgrIrRLr,r;cTlr;cHhquH-ar;cltqZ$WrquHEiqu?`sqZ-Ek\nquHWorW'_5rrD'Yq#L<lJ,~>\n!ri6#rUfpcs8MWis8N&qp](9mp&G$lrT=.ErrDrrs7cHl!;-6i#58",
+        "9s4dS9qu?`kqZ-Zqs8W,u\ns7ZNcquHWorVurqq>^Kos7Gj]rVl]os7cQjr;Zfrnc/UhirAfSqu;0~>\n!ri6#rU%f.rPSZZq>^KgrVllbrVm&ps8V'OpAP$kbl.VBrrV03f_s%o\\,EH<QN-uEU8#-+s8RY$\nD#XG7!<0/$UAt8nGlMUYA,fX1:B*?RrrrHK,T%@#\"8Dlqs7HBls7u`qs82lss8;rss82lrs8E#t\ns82lss7u`ps7QHls6p$frsUnh=(>`A=#i9B=*SugJc9lt!<<'!Y-.[%!5na7rPSZEs/uBrs24j9\nrr<&mp&G'c!:B\"Ms6]\"Ls7Y[VrrD'Yq#L<lJ,~>\n!ri6#f`1sOo`+pkqu?Zrq>^Hpq>^Hpr;Zcss8Vrro`+pkr;Zcsrr;",
+        "Nr8tXJ,acnEW9qU\nBDhi1;ZBDg8,NAU8,NA_7fZ<_!\"*+HB521$EHl_UI/O'FMZ8_:OoLgKTDtefXo/5\"[/IW:_Z.aX\nc2Yoc`rF0\\c2Yoa!!^OF!8H8fir/-Ak5X$5g\\_'OhuD=.hZ2F-!<;<]!!",
+        "<gpAbfml07*_f@T-b\n!;,O?mHs0&htR0Og\\h*PeG[boc2Yoc`rEpU^]1qF!!]R&VPBoVSGS]ROT:::!<7HHFoQI\\C&hZ?\n!!6%n:ARKX!;8q[!;T.b9DnkjA,g3ACB&;RHiSZp!\"XgENffHhQ(4A>USaogWic7#\"0DP'[/IW:\n^\\u1PaoBW[!!:p7ir/$>mJl>Kg],n*irA9AhuD[9l1\"`To`\"jf!!",
+        "EH-5J\nJ,B<HNrPCER/`fYU]74kWr",
+        "OKJ,~>\n!ri6#_>aN/q#C?\\q#:?3p](3mqZ$T>s0r$2s0r$2!6kHB!5ng9!.k.Lr;cejrr2tXq18Q^s%`Rn\nrr<$0r<*'1p&P*lnc8[hi;ilWoDnmjnGrS\"\";q1=!!",
+        "!cA,gfRD#\\#F\nC]J_Zs8;rsUAq\\&Y581u\\,X\\P_uJBhiW$gqbl?;s_Z0]6rs.3#bh2sqmIp5Q\"SVlqp@e=^s6[c",
+        "3cr;QcaqZ$T_n,EC?qu6]aiVicXfWMCTs8TS+s8U\":bkhA>!\"=EpCj:2UJTuEU\nCh$uRGlM:R:At4l!!!l&!<3#L!<3#f!<3T/",
+        ".;!<1aQ\nhuDs@k5X]Gir@X1gApC5!!;EIk5,,YmJ[(fn,NIXrVQQnrW!/il07[;!;HBjs81RNrVQWhrql<e\ns8MusrrCRKJ,~>\n!ri6#nc/X_fDkmEqu?]irVuljrVuoVrO;gEqYpQJr;Z]qriZ%r\"Kn&VU8%Uhs2+uBs8RY$r;Qj!\nG[k7^D#JVYD#[T::AmNX3W9$Ys8F;D",
+        "=anO'[aoBB\\^\\tbE\\GZF(Wr8gpU]-e`R/N-INqrbUKE$?!GlMpdEW(%[\nGl<$gIfP,t!<%fTNrPCCR/`fWU]%%iWr2nt\\GNo<^]2=Pc2Ylcc2I_BfD,CHeG@r\"iW/BF!<;'Y\ngBlj>!;H?j!:B%8r;[,q!!",
+        "OKJ,~>\n!ri6#m/I(Eq>UQjs8VKIrs%ljs6]4IpAP$jpAb0mp@eLliU-%+p?h8@p@nUepAP$j!;c`qbl=jG\n[fHI-iW$CcY5c!2XoOdes8JblrrI?Err<\"ms8N(MqeZ:Bs*4Qps(qU.s&]4qs$?iK!<<'!rYYY;\nnGrIts8N-;!sAK%s8W*Ns$H`\\s$H`2rAjmEs'u\"Ps'ttCrrE&u!0.!Xq4dnls24fEs3(Jqqu?]*\nqZ$Ko!3Z%q!:B:Us4I2J!5n1'!;>=Ms7Z?is7ZHls4IAO\"RZ6h!!(OKJ,~>\n!ri6#j8]",
+        "q^FqH*\\ls#L*G!'1&Yrtt\\7rt#,3qZ-Wus8W#tq+gs\"\ns(q^:rF>k/s'u(Rs(q^[!+Z!.rr;tl!1*Was.]P;s/uBrs/u=<s.]Pns/u@RqYpcD\\$uD;!!",
+        "s0Vg2s0Vg<s2\"r]!!(O#fD5LHfDjb.l2U/L!<;HbhuDj=ir&lWhuDj=l2C\\_s82j#\npAb3UmHsiPr;Hik!!",
+        "U[k1A5>gY^oCgXk':inrYQio]D#!!M'=k2PCt!<:1<^]21N^]1hD]DoYG\n_Y_=SaT",
+        "9#Nc!d\np\\Xjfs7u`qp\\t3nnGN@emJZ&E!<;9`mJHqgnEoW*k1eYg!!(.:^]21L`rERK^]2RX!!(dP!<(mW\ng\\h*]fAGK?gY^oNk2PC_k2Q:=#Q=]'l/1CcmJ6h^qu-QqmJZ&Ek5G>\\o_njjk552^nEBoQo[WsA\nqu-TqrpBacp](-jrr<#up\\k*poDemRiqrfVhuD^8l2CYap\\t0i!!",
+        "s0r$Ps24lG!8-rDrq??k!6kBA\"Lk,\"\\$u>9s24m:$/sOhiSi#",
+        "3mr;Zcs!<;fop](6nqu?Wq!ri6#nc/Rgs8V`lr;ZZpci<e@qu?Wqh>dKT\neGk%~>\n!ri6#p](9mkPkPZrW",
+        "@rVuur\ns82lqk5XfKl2C\\_rqHI'qu?]q!!",
+        "GrW!#LaiXJ]s3UcGrSRGO\n$J4G&l07?ml073erRV&3q>gQX$/tpbs8N'!k2PCs!!VcLin",
+        "k2PCfm/R.Yo_\\Ocs8;rtg],n*ir9#Vs8Dios8;ounDaEIs82igp](9ms82ZmrW",
+        "pp^mDHi-\nQEL8fp&G*ms8Bh=bl@_1p@eC`s6\\YBs7Z*brV$9krU'(Rs7ZK[qu6Z?q#CB]qu?]ili7\"Pdf9=I\neGk%~>\n!ri6#qZ$Ems8W&us8W&us8Vusrr;rtp](3m!ri6#q#C9mkl:V^s8W*!nc/LecN!eBp](3m!<<#u\nq#C9ms8Vusp](6n!<;ors8W&uqu?Zr^]4<6s8W*!n,N@e!<<#uX8i2\"eGk%~>\n!ri6#qu6ZqqZ-ZRrW",
+        "co_JOc!<;]h!\"AA]l/L^b\nk2PCX!!",
+        "XOs82?drrE#tq#K@QJ,~>\n!ri6#q#:?]rV#pas7Vi[!;?Els6]CW\"PCrus7YaX\"2k0=iVriWp@eOb!:Tse!7h,Lp>Q#OiQ(uu\n\\&A=H!<",
+        "YeGTC9rr`6#!:]gas7cQms8W,urVucq\"QnV!!!",
+        "3miW&iVs8W&uaoD>?huETSp](6njo>8ZX8i+u^&S*4eGk%~>\n!ri6#j8]/Ojo=uRp](3mkPtSZs8N&ur;clTrVurtb5_G@pAb0ip&G'ds82cp!;HBks82]ns8N#u\ns7H?gnc/XgrV-?ar;c`ps80V3s82Nir;aP2rrCRKJ,~>\n!ri6#j8]/HW;ln#WrN+mqu6ZinGiOUmJm.Ys6YC;huE]VeGk%~>\n!ri6#`rGZ2q#C6liW&iVs8W&up\\t3nec5UKh>dKTqZ$KooDe[fp&G$lX8i+u^&S*4eGk%~>\n!ri6#h>dNLs8MHdoDn[dqu?`hirArW!U9\"N!;HKo!;l<ds7H?gli-tWrVurcli7\"^s7cEjs7ZWp\n!!",
+        "6neGk%~>\n!ri6#a8Z/,rVloN\\+BY\"p<!@7Y0R(If`(mNmJ[(bpA\"XhiU-%1rrM",
+        "1As8N&js7cKls8M9_s8L+>\nrW(mVrVP\"BrqHHin,NCfeGk%~>\n!ri6#ZN'sur;QcLh#@B5h#@Al`rH"
+      ]
+    },
+    {
+      "name": "galfit891.eps",
+      "bytes": 651680,
+      "sha256": "6dba42dd59a4693ce58a932808641863b3c1cc87600e0534420926bf7950840c",
+      "bounding_boxes": [
+        "%%BoundingBox: 14 14 390 801"
+      ],
+      "creator_lines": [
+        "%%Creator: GIMP PostScript file plugin V 1.17 by Peter Kirchgessner",
+        "%%Title: galfit891.eps",
+        "%%CreationDate: Sat May 14 00:30:54 2011"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_ops": 0,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 0,
+      "show_ops": 0,
+      "literal_strings": 2430,
+      "useful_strings": [
+        "sX!!'n9!!'n9!!'n9!!(LJrrDusqZ+5-J,~>\nYlF_'pAY0\\kPbD\\q>C6okO&*Em/ut[kM,_1#M]:Aq>^Kj!<2uuoD\\aiq=jmhiVNQSq;",
+        "Mt\\!<2or\"T%ons7l?g\"75IU!<3!$r:ojPn:CUjs8N&u\n!<3#n!5&8]~>\nYlF_'!:AYCs7uHis766drVlo]oCW%bq>^Kjp\\t9Eg\\_!Qq<-_qJcC<$rr;uurr;`n]DmB~>\nYlF_'iW&iVm/I%ck5YD\\JcC<$p](6nrVultrr3$\"rrB\\2J,~>\nYlF_'!<2lq!W",
+        "Ms+C@O!3cEQ~>\nYlF_'r;Qfoq#:9oq!e4]#OqNgs8;oso]cA[pAb0jqZ$?irri,rs8Vln!;uj\"nF$&Os7cQrq!\\7`\nqu6lmnc/[hs7CmBLB%8RYQ'+~>\nYlF_'qu6Zlrr3#piV`]ViVEEO!:B%N!;$-g!;ZWo!;ZWo!;ZHj!o_o0pAY0hiVEKSmH=HJ!:>@;\nLB%8RYQ'+~>\nYlF_'r;Q`sa8c,=q>]sbqZ$Qqrr;rtJcCT,rrB8&J,~>\nYlF_'r;Qm\"qY'p`qZ$Qirr3#or;$Bmp&k<os8",
+        "$j=76(hiVA'",
+        "s8;rqs8;qKs4mYS\n!3cEQ~>\nYlF_'qu6Zlqu?]T!WVQcrrMrequ6Zlrr<#oq>^Hi!o`bHq#:?io`#$VmJl/CrrDH_rrDlirrDlh\nrrMNArVluMoD.Rks8;rqs8;qKs4mYS!3cEQ~>\nYlF_'q#C9mb5_JAp&Fpinc/Le^An-3qu?TpJcFO*rrB8&J,~>\nYlF_'qu6`qs8W#t\"8qlbnG`Foo'lSWs7lTns7lTn!<2Zk#4V?[rqQ-ZrVm<(pA\"F^s8W#nqYpNq\nqu6ipnF#`6nGE:drrVunrqHEmqYU?mrrDoprs/Q$rq>jZs7jk=r;c`pr;_EKh#IBSYQ'+~>\nYlF_'oD\\m`mG\\'E!U&G@rrDlorrDlbrs%HRoDeXRoDJUioD/4Qrrr5WgY:]GqYpQ",
+        "r.3s8;rks8;qKs5a4V!3cEQ~>\nYlFP\"m/I(]oDejdq>^Hi\"m=k'mJm\"\\rrMrYrVlocoB6,RoD&@cm/cD/q>^Kj#4pgRs6'FXec5RJ\npAb'kJcFg2q>d`!J,~>\nYlF_'kPtM]mf37dp](3mo",
+        "'hrr`&co(`1`!r2]irr;osqZ$Qq!<;rsrVllq\nr;Zljr;Q]sr;-Em!ri5lpAb9cs7H*e!<;Wj!7(E@!<;utrr;corr;osrVuisqu?TpJcG9?rrB8&\nJ,~>\nYlF_'ao;G6q<e.\\s5<tRr;QlpiTL%8rrDlQrrDH[rrDH\\rrVB`mHX]OHi=$Cs8;rss7lZos8;rr\ns8E#qs8;qKs7--h!3cEQ~>\nYlFY%cN!nEjT#,Xqu?Ekr;Z`rnc/Ofs8W*!r;ZTn!<;Kf!<;lqrr;corr;osrVufrr;Z]qJcG9?\nrrB8&J,~>\nYlFY%!:neB!W;Zfs8N",
+        "mJd6sZ+']3$36od\nLQ.;nrr<$crr;os!!`?$qu?Qoq#C<nqu?Tpr;Z]qJcGZJrrB8&J,~>\nYlFY%s8V`lh#I<Qmf37drVultq>^Eomf34cq#BIVqu?Tp\"9/?$s8;rts7?<js7QHis8;rqs8;qK\ns8;os!3cEQ~>\nYlFY%!WW",
+        "?kMc18s7uHi!;ZBh!;ZKk#5S<!q<deFqYpceq>^'ds7>sarq$0cs8W,p\nq>UK/\\,-+",
+        "]D_d2Vk`nb\"DVgjDJoCQ!Iob#!!A^]SY?#_!3Q5#!P?&+!!3,pquDo[rrB8&J,~>\nYlF_'s7uKjs7>p`s7uHi!;Z0b!9a@]rqQQorqZ?h!r;$TqYpTlmJ6b_iU-XE!V>LRrrDZiq>UBu\nkO&<LiU-I?rrCCErrDH]rrCUJ!!CR%caWcN\"I#[G!!*#u$Y*7584*@V!!WH's8;rss7cTns8;rt\ns7u]q",
+        "<hr;Zljq#13mpo4;n!3cEQ~>\nYlF_'m/I(]jo5>Vli6t[s5<tRp&>$fnc&dgs8VoRiVriWebT7FaTCE$!:g*h!;uj+BjFI6s8O,Q\n$jH\\3s8W&us8V]krr;lrrr;fprVls^6:al4rr^CCs7uHi!;ZTn!U]^]rrDkos8N",
+        "PCW]6s8QA=Bk'L/!<3!%&dA=9s8W&urr;Qirr;iqs8W#t#mLe<\ns8Ou84@iQOrrS18Jc,NJeb]=G!!2'SgA_0K[/^.+rVu]o]",
+        "!<<'!rrBY1J,~>\nYlF_'mf37]rr2uoo`\"p_n,EC`q#:Bdq=O^eq>^Hqq>^Hi!rr",
+        "rCd\nrq>pZs8Vrlrt,,-qY^Bnr;Zflo_A.TpA\"FZ!!MWg!:&eF!!MBBioK1u!!1m-qZ$fD!!'sS^&%d2\nX/D`k!!8:>L&CuPC1dAD!*]=$!bcCfrW!%OKo:ri!!Sd[SY;gVr;Zu.]=ktmec5^Fr;Zioqu?`f\nr;cil!<;`m^]4<6YQ'+~>\nYlF_'i;WfKqu6]gmJ[%dq=FFWs8Dclrs%lRiSj2(kPbD]oB5?;#Pmc_oD/\"Rq>1*oec5Zqanu",
+        "MYLs8Vlhrr;uu#4VZhs8VlhrVuuiq\"t*nlKII/!!1g/q>^ZJf$`'pqu?i=\naMPRe!!BF,Xeksr\"-JRuKDkiOEbt[S\"&r/p;YL.mJVfBb!!SpcUSXlfrW!,0]=l",
+        "lTDefn\nPECo_L&M&QChinK!D#WX!!5V\\;Z-RrAo.GH\"FYoXMi[i;\"IG[OTr%Ye\"M",
+        "\nWMTOn\"-&.mL&CuPChW\\G!B",
+        ";eTr;?'RrW!N#q\"X@JqYp?bq\"XI]nFlnWpAb6Jh\"h!Pj8e?<!<:ONdaZdnqu?i6\n_SX\"`!!B@(Vk<nf\"-JLsL&CuPChEYH#uF(k!'1",
+        "`7_qYL6iq\"XmhqZ$9[o`+sjrW!>uq#C3es8Vrps8;Zkrs8>fp@\\L[\nr;Zfr!!2rkpAb6`o_SUgnEKuRiqNNPf_PRNaMtj(^&7p6XfJM#U\\b#mObnek!!77_CAn28<_u=V\nr^$]T85N4_!!-bPr;ZtQM2R@UrW!(jT;/Bbqu?f5_SZ0M!SH!&e,e\"KlMptHlM(>_q!dqJs8Mut\n!q?![q>^NZrVurNquH`rr;Zusrr;ioq#:Beq#16lq#C?rr:^0jr;c0`rrB8&J,~>\nYlF_'rqQQ]rV>j\\!U':Us8VonrrVfTmJHnamJ6PW!;ZWo\"nU^EoDeFYrrDlhrrM*Gqu6ZTlMgjn\nqZ$QqrL*Zb!!*#u\"_hI56:_+UrrX",
+        "MLD=8i1'2ZNdo&e+^=s8Vuss8W#trr;Wk\ns8Vrrs8Vuss8Vus!!`H&!%RpIs%WPbr;Zcsrr2t^rgEcdo`\"p/r;[/GceI!r^\"^[/chd\\>anbr:\nq>L<rmG[%\"q=4Icq>^Hi$1n2[iU,U_s7u9OrrDHas8N",
+        "0or:p'drrE&l!!2NO\nkPtYOkk+oUiq!-Qf%AUT!<1@B!<:+@`4u6N\"gn=1Xf\\Z$!!8@BM>[DUEc,^m!!-1squ?^Zqu?^n\nqu?b4D#F>9KnkYKqZ$\\oVlfgr!PcMN_uRmV!!1<hrm^u'oDf$Rjo>DFquHc^rpK[a!9j\"SrqQNn\n!;c]i$31#&s8",
+        "Q1Q:Ak.r0`V.i(_ZfJrr;oss8Vuss8W#trr3$\"s8W#trr;os\nrr;lrs8Vus!<sD?s8E!!:07F#!,;B2!HibgNW5jT!!3*\"q#:Q-_uKbY!!*#us3L]!r;Qc=oDegc\nrr;unqu6Zlrr;unp\\t?_iSj1urrDllrrVffq=FUfo",
+        "Pcm-\"H9\nkiDC:!qu3UrqQHm$1dTXq\"jp`r;Zfr!!W;or;ZQirVllkp](3m\"8MN\\o",
+        "qu6ZBrr<#?o`#$hiUcmCrrDZiq>C9mkPYA[q>L?noCr7fq>^K^iV``Uo",
+        "H^kiV*mmf<CW!<<#m!:opc\n!W",
+        "BBda[Xa!TrbF!!2HImJmFar:p'Vo_SUjo(;k[rW!$\"\nq\"jphs7lWo$3'YfnG`4\\s75a[rs\\brnFln^q\"Xder:p'cs8N'!s8;p\"s8DuuYQ'+~>\nYlF_'!:Bdcs5<tRkl:\\YpAY-Uqu6ccs6&A'rrD$Is8N",
+        "'jq$?BHiTKV.s5EeNrrDHcrrVfTs8MierrVur!3cEQ~>\nYlF_'o",
+        ";t^\nq\"Oghrr3*\"q#CBl!;$6jq?$Zs!3cEQ~>\nYlF_'pAY-gqYpQSp&>$frr;unqu6`hiU-F?!9a@]!;ZNl!9*hT\"7uQmg[Y=C!!1!fp\\t8RTDSZg\n!!]9lR@0\\2L]7>P!!$a4@ff_,:Ak1mrrX;Z&e+^=s8Vrrs8W#ts8W&us8Vlps8W#ts8W#ts8Vrr\ns8W#trrrQ6",
+        "!hs7uHi$2Nc[s5ESLs4dAGrrCCCrrhrV\niU-%/s8E#trr^U+ccQ1d!0dB]!h]Mmr;ckKs+gT",
+        "gP!<:IPcIC:nf$MjnqZ$Z:`;[UR]D2F.X/Dfn!!Sbj!0N1rr;Zq?E,94d!!#jo!!+c&rZqRm\n.K'5H9",
+        "6\nrrDsf!EWe0!;uiuNIcZ[NVrhWRJQp`\\,?:+aTB0Us8E!\"_mdP\\rrC19rrD6\\rrMN_r;Qoks8V'@\nrr2ucli-t\\qZ$Tkq#:?irr;uuYQ'+~>\nYlF_'rVuisjT##U!<;orrVultrVu<d!<;lq!<;lqr;ZEis8W#tqu?Hl!ri9#p](Bq!!*#uqZ-Tp\nr;cfrrVuumlMU\\`ML5>@!Hitl!!1a5rW",
+        "mR@0oM!!&korrA\\hrrAJ`s8;p'\\&lbHgW@.N\nanPf:iW%m9rrDlirrhrhs8VojrrDH`rrDlorrW#ZiVicVmJ[%bq>1*lkO&9KrrB8&J,~>\nYlF_'rVufrjo>,V!<;orq#C!e!<;or!<;Wjqu?<h!<;utqu?Ekrr;uus8Vlprr;iqrVufrrVuis\n!VYgW!!.t(rbhg[Hi3pFf]<#3rVufrrVu`pqu?Tpq>^6jqu?Tprr;uu!<;ut!<;]lr;Q`srVucq\ns8W*!pAb'kqu?Wqf`1sOYQ'+~>\nYlF_'\"98;us8;p%s8",
+        "qZ$Q^!;$!c!VtpVrrC1:rrDZgs8;otchIG?_o_]R\n\"ot'NR>mVuqZ$NpraPt78H(sS!<3!\"(^pWI!<3#r!<<",
+        "?7`;[OO]`>\\B!!TL*WMcSfqZ$_\\NJWAf!!@=\\ChWbI!DZ>f\n!!4u--iPCn-RghM!!,P]r;Zq1BPMMb!!@k-NK<r:\"/D]lX8;ku\\%B?O^Au.J!!:Nqdf._ud*gLl\nr;ZiMp&G*FrW!&]!!",
+        "[8o!;uiuJVT$[N<=`ePC`]5!WSS]rrAJdrr]t7s4.&Jo",
+        "U!<;ut!:opc!Vl0`!<;Nm\nr:9^aq\"\"(Vs8W#qp]C0YqYgEqo'l/J!\"&Gso(",
+        "Ys7lHip]1<irri2r!!",
+        "Bhq#:*i\"Shins8;cp$2X]%q\"k$jr;Z]lrrDoms8N",
+        "oCHk5XEAk32+2!:p*hs8W,krrE#m!:p!es7dB0qXFObr:K^Xq#CBls7lHjq>^Nqs8N#t!;cWn\nrrB8&J,~>\nYlF_'s7lftq<d/:q#:BjiVriWkPkJ]q>('ji;i]KrrVfNoCMt^oCW%`oD/:`s3L__\"l%/.]tMPc\n\\,64*!;uiuV4WbFJc>]L!!-SDrDs(f84!=SrrEN4q>gQqqZ-ZrqZ-Zrr;cltr;clt!W`9#r;clt\nrW",
+        "'drVulm\"6\\Y%oD&=ckP+uVan5W5eHiYaaoDCM\\%T]Y\n\\,64",
+        "_nY\n\"nqHTo^qqM!\".lPm,mHiki`$7kl(S^iq`ZSf`'A'd*gFldes.P`kApl]u%Y$]t+%@s/cC(WMcTi\n!!JFDMhd#b!!ILbDJWk_!!62!;#L@q1b^<V!<4>G-SG>t!CTKW!!H\\?C2S\"h!!S\"/M2dR[qu?no\nUT(;rXo&/(\\%/uW^Vn.1q#LH=!6Y3>!57n&!8.5Ms6'ILpAbB^nF#`.kkkDuq#BjQo(MSBo(_eL\nq\"jpZrqQEdp@.YNr:p9k!<2rl!;cWgr;Zfl!<2rs!;c]p\"8Miq!3cEQ~>\nYlF_'rr3",
+        "-@VT^ur;[%QK8#;GO-0A@#+qZe\nVl?`#r;[,2\\[f2_^Vn(3q>^NBq>^N1n,NRCdJs:HiqEHQkl1Y^kktM]p]0manGi7qnFlSJqYp3X\no(`\"PpA\"[fr;-?k!W",
+        "\\#3YUXq>'FFrVllVqu6ZZr;QiWq=EnO\"P_JKcdhjk%]bSWV58s,PC\\LQ\nPDtP%rVlq5@pT(/r^d%hs8N-A(_$BJquHcsq>gQqq>gQqquHcso`5$lqZ-ZrqZ-Zrq#LHpq>gO\"\nrr;uus#g<P!",
+        "$jq>UBoq=jpc!3cEQ~>\nYlF_'n,MqYmJleYs8VThs8VusqZ$EmoDe^gq#C9mq>^?mqu?Wqqu?Tp!V#CQ!\"5NeOF",
+        "Pi\"k(cEcHar7!!1m/q#CTXk2P[kkk4uZjQHRDm.C>]o`\"mjpA4h&rq?!Zq#(!g\ns7Z$UpA\"FZp@S4T!<;frr;Q`sYQ'+~>\nYlF_'pAY?giSjV4s7u6c!;ZTnrqQQcrqQTpq>L?niUm-NkMbt2!Sb`orrCUKaoB6Y\\,612V3@=D\nV3@=>PPpI@L]%/QBk.-Ds%Wnl63%#crtlRc$jQS/s8Voqs8Voqs8Vuss8V`ls8Vrrs8Vrrs8Vlp\ns8Vlp!!`H&rr<9^4@2A*:01Nrs8E!#JcGasrIG0.JUr/pN<&eS!MuFarromL\\'NCBr;c]o\"MMqW\ns4-fB!:Bdc!;$'e\"7tpUq>L=!oB5N4q>('^mIgMZq>^Kp!3cEQ~>\nYlF_'mf2hXp](6nqZ$-e!<;T",
+        "?[k5OB:!!1Zt\nnGiXMlK7pC%JK;`q#C3js7lTnqXFF^p]LNho",
+        "!k6LnqYpZhiU-I>rrDlorrM*YrqQWqoB5oK!:B^a\"Sr",
+        ";eYs8;ir\"oA#h!;,pV!!;WinG3+cmcaQK$gQm6\nioK=ckiUmajS/]Wg=Y!-rR:kpcM@MG`5]m<`59:(qZ-Ys\"0&2pU\\t/rOc>3OK73Xt\"DVOZA7GH:\n\"Ahie8k/d[\"$/Cs0",
+        "MqXq#CBnq\"X^`\ns8Vlhr;ZQkpA\"FVr;Zcmo_SRe!;cZo!W;`ks8Mlpq#:?Ts8E#trr<&Js*t~>\nYlF_'q>UThq;L`:rr<#orr2uop\\t?YoCMAKq>^Kpq>UBpiU-X?s6TjYmJd+ciV*9O!;ZWrgW@A4\nrrprp_mdb0rr2ruqu6hrPC[k-L]386T9K-O#\"W$0s8QS(r;['Ps8O,W$k*@>!<<",
+        "iikPtVFk2PCak2b_+!93#8!!V-X!8?/`rR:kpdes.Gbl.VA`WNoh^UsIF#e'd6YH=k'V5*th\n#*Y11M2-_5rW!+BDJEco@f-3/:eXJP7fEAi3&E<>rW",
+        "`+_!3cEQ~>\nYlF_'qu6Z`r;Zcls7?6i!;ZWorqZTQs8NJoiVENLoCMeRoCN\"]iVriXq<.>K!QhhGrt*Mus8U!S\n\\$sJs]ug<S\\$lA8rro8!s.>parJ^i/L]%2QFoMF?@fo7s:.\"p[\"ucM]*Z,Lor;cltq>gQqq>gQq\nq#LHpqZ-ZrquHcsquHcsq#LHpq>gQqq>gQqr;cj%!t>50.fKGGrrte\\@qkuCHi=$FJc5TLNLB_E\n!3>tr!5ng9!5n]U!k6(\\o`+s5!Q3%SrrM`ep&>$frr2uomf*Rgs8VKLq>UEpYQ'+~>\nYlF_'s8W&uo",
+        "rqufrr;ZQiqYU?nrrDurrrDuorrhidq>^N!s*t~>\nYlF_'!9a=\\!oa1Tr;Qcmrr2uoqZ$Tkr;Qcmr;QfnmJd+nmG[$kiU-I:oDej4rr2uWn,EX=aoDCM\n_md>Yao;>?\\,QI-rs#NlPF72oV>ckaPD=_g!<7EFrrHhDrE&pt\"tKZQ*Z,LorW",
+        "p!Pc>H!<9M4[/^31Xf&#n!!JFFNJWAf!!RC^\nChREir;Zsu:/\"2Hr;ZmW0J!",
+        "]=\"Ahie7R[1T!]DY]r;caAr;ZmF.k^`\"\"%#CH9`+ko?=[Y_DJoFR\"atlS\nLPq5k!!T!iUSk5rqZ$f5]=knm`;T`;bg-.es3Ubps47/L!8R8Js60I_#k$mV!:K(5kihjC!:'F]\n!WN,t!<;9_!!i;mnG",
+        "pA4gas8Vffs8;ZknFZMFq\"Oghiq39Ok552\\iooV",
+        "[G!<;$]k3VO\"kl(Pekj7g$io9+apAk-d\n!V#[Z!\"Sl*s8;N_o^MYNp@e:Tq#:9so^MAFs8W#t#la\\qp&G*fs8;iq#Pe/ps8Mcn!9=(Z!7(Up~>\nYlF_'!U]LXq>:3lq#L$^rrDlmrtb\"\\kP=rRoBlALmH<m\"oD.S.s8VoXq=jphiVrHDrrglus8U4?\nrrKUHrQ5'=!!",
+        ":?r;cjD!%\\!J\"%#OP:Ak.q@V0:kE;]b=JVf5C\nq>^VmV5LHp!!'A(!!L!P`5]gq!!1<jrW!#FdanBL\"5Mbeh\"LgKiqqpAjPo=equ?`lq>^Njp](?g\nnGN%ko'lGSq#:<iq\"X^`q#'pc!!W6!s7#[OpAY?pq#:?n!!",
+        "LJJ,~>\nYlF_'!;ZWos7u]ps7lm!q>('jgX#m!%.3$Fs8VoRs8Vo^oD/7_#OVQes8VodiU[!OoASm4s8E#u\nrrp`j_md>$qu6l6_md+[[fH4'#HO8\\s8S(BL].8RHiF'F@g#k.='&/q!!bXdruN!i$k3(7s8Voq\ns8Vrrs8Vrrs8Vuss8W*!s8W#trr;rts8Vuss8Vusrr;lrs8Vrrrr;iq!<sD?rr=PI!!Gho?\"7CC\nrrI7nrW!\"HLQh\\)\"/W&jV>^Gn!<3#u\\,48L]sko*r;Qcmrr2rurr2uoq#:BdiV`KSkMc7:q>UEo\nq>^Hrq>^9errV0HkOniTq>UEo!9F.[!;uis!7Usu~>\nYlF_'pAb'ks8W*!kPt;W!<;ips8VoqqZ$Emrr;Qis8W*!r",
+        "EX/5gqs.p@#NW9$*!!*'!HiO+O@q04e=',>#rr3'A(^pWJ!<3#n!<<",
+        "eGmno!!gN\\^V@Im\\%2A9!NiF%WW/jsUS7Sc\"d+k(LP:<Y\n!![OcE,&uq@f690;G^%Z8GrMi3&EDa!!4i03;ig[6:=@<9`+ko?=7;WC2WtM\"atrWM2dYr!!o-h\nUSXpi!40$2!!KpI^V[qf!!1Hlr;clI#hIYVf%Sj1g>",
+        "q>^Hi!WVukrt>/-q>^KdiUc6ks5EAFs5Dr4oD\\aiiVNTRao;>L\ns231/akQjq]ueC*\\,61-\\,ZI.r;QeoTDb/XNV3;P(_$3>pAk3mq>gQqq#LEoq#LHpnGrUhq#LEo\nq#LHpq>gQqr;[!*$kiU?0`D%R85<7^s8;ouNIgs+\"c&;0V4X1TrrW87ag_8_!RJmdrr]aJ]ufaC\n!9*DH!Vu?^rs@lgs6'FXs8VKLqu6rtiW&rRs8N'!k5YG]qu6Wre,Op~>\nYlF_'oDe[fhZ*6Ks8W#trVuisqZ$Qq!<;lqq#C'grr;Zlq>^Bnqu?QoqZ$Np\"T7cSjPKh8!j8Jf\nr;Zh9r;Zn\\QCRmR\"ObrZjRE*Jqu?Qoqu?Tpqu?Nnqu?Tp!<;uts8W*!!<;uts8W*",
+        "Nbmd/p5!:9O^#NFn0\nk2PC]i:R*Mf`0_1f\\5!/eC=Hts2=g8!3>bm!M,k\\T`LdTrW!.dO,]!MK7Wt$#&nHrC1q'ar;Zpt\n:ej^_!!>>C1,/P",
+        "P^g@>4E\nd+J<t!p&S-o`,ESgt^K3eC`@%da6Fjqu?i9^V[kd]`GaSqu?f'WMf`l!29;j\"d+k(M2-`^!<7-C\nDJX&ur;Zn\";GR/j\"?\\Lr/gpWE\"=GWK0Jrb/\"%GgV;#UG!>[h5UC2S\"i!!dq%K85;ANK=#<#+_B]\nVl?Yrqu?r1\\[fDe_SZ$I!n,TJrn.5$!nc#Rq#C``iooaoki1agipZsJnFZbarq,dVq\"aspq\"4.J\npA\"R`rrDim!!Vleq\"FafqZ-Zr\"TJH$!!'5&J,~>\nYlF_'rr2uorVuons8N8us8Vopq==Rcq#TIGrVulgs8N8ciVDHkq>C9maoDA@ao;;?TCW!_JXQN;\n!kl^np](6n%%jAmPEUuoPDt?KLPPg-\"'86!=8bYj68nfCs8N",
+        "4@0&Is8NK0&e\"sKquH`rq#LHpqZ-ZrquHcso`5$lquHcs\nqZ-Zrq#LEoqZ$g/\"pY,-!!*!V%mif^='&[;!!*'!JV!k$Hi8p-R@jNZR@4!R!2'#c!PQVNs8Duu\n^&J'3anPf8oDS[hq=t!iq>^Hrq;LN/s8V'TrrM`YrVu]oYQ'+~>\nYlF_'pAapgo",
+        "OPC\\)[N<#CFrrAJc!;?Ep\\&lb$rk/KEag_9M\n!:p-ianPi3q=jphq=FUfoATNBrri/trr<&&s*t~>\nYlF_'g&LgIqZ$Np!<;ut!<;Ngnc/FcpAapgq>^<lqu?Wq!ri6#r;Z]qr;Z`r!rqu`r;ZqiQATh_\n!!.\"brW!#Df\\ZQ,r;Z]qqu?Qoq>^Eop](-kq#C<ns8VWiqu6Wrrr;iq!<;?bn,N=dlMpkaYQ'+~>\nYlF_'!;QKl\"8`&tqYpNpp^R",
+        "#\\bcC,XTPW#USI\\d\n\"I\"n+M1ba,\"F\"s*ChinK!E;no!!>&5/gpPs!@98q!!5PZ9`4qnA7fXsqu?kPKnkYKqZ$hiSY`6`\nX/l1!\"gthM\\\\5cW_>qOQ!<:7Jd+$Llf%/@#rVurNqZ$c_joFQ+r;[#`ioKIck5G>\\k2QFGq\"FLZ\ns8",
+        "*jr;ZWor;ZZprVufr!W;Hc!\"#BcMJiIp\nDZBcUr;ZoCf]<#3r;ZZpr;ZZpq>^Bnp](0lqu?Qorr;fpp&F(Qdf9.DYQ'+~>\nYlF_'!rr8rqZ$Qi#5\\B\"rqQNnrqHTdq\"Xddrs/Q's8;ojq\"XC[\"S2'WnFH>S!po.1qu?c_kktJ`\nkj%U(quHcZ#3=e+k2PC]qZ$`Rf\\5'Ye-=LVf[A'hf",
+        "sQ!!;6@jR<-OkjIZsq#Ciup@.kTs8;B[q\"Xjfr;clm!;ucp!W;`l!!N<!s8Mlmrs&Dt\ns8W#fqYU<m!3cEQ~>\nYlF_'rVuonqu6Zlp&>Bps7u]joCN\"^q>'jd!pBUZrVm#fq>('Rjo5Pcs8UWkaoDD?ao90X\\+K\\#\nTDacLL]<>6Jc,NJC&VB@=&",
+        "$irqZQn!;ZTnrqZBi\"6'(OkPbDcq=Ee.q>^Kdmf3=/!OocArrCUKaT06X\n^&Q1S^%q^.R0K:[V2'VWHiF'E!\"`4,='%pZ69I.+s8O,](_R&N!<3#q!<3#s!<<",
+        "TqX=OVp?Vb]\nk32\"/rojCC\"6Sh0k4\\i_g].?0f$r:#eBlS?!!pN[^V.Co\\%B9M!!TL*WM?5\\qu?k`O,]!Mr;Zq=\nDJEe^!!,nerW!!V0IQfF!@KDs!!,P[r;Zq+Anl/\\!<7`RM3%N6s.KRjVl?`!r;Zo0^VBc]!PcMG\n!<1=IdaZ^nq>^WQ!8-$%!!M<FkiUt\"!!",
+        "oDegjYQ'+~>\nYlF_'ec5FF!ri6#p&F[b!<;fo!<;uts8W&u!<;lq!<;rsr;Z`rs8Vrrq>^?mqu?Qor;Z]qrVufr\n!V\"b@!!8[PFo6.XHi=!Gbhi9urVufrrVu`prVu]oq>^6jq>^9k\"TJH%s8Viorr;lrrr;oss8W&u\n!<;Zkrr;Qii;`]TYQ'+~>\nYlF_'qYpWpq#($h'`.V\"pAF^Zq\"XFLo_AIYo_.kJq#:-bq#CZn!!",
+        "'J:011l@q5K<!,;H4!.4]r\"G_u#NK*o;oD\\g(rr3GLccQ4e\n!!'pYcd2Xkao;;?anPf8q>C6mmJ$V\\g\\q-Vq;M/Fs7uKfrrDlkrrM*Mq>UHdr;ZcsYQ'+~>\nYlF_'g].6Qo`\"mkrVucqrr;rt!<;Ed!<<#upAb-ms8W#t!<;Wjq#C6lr;ZZpr;ZZprr;os!VY1F\n!!8mVHi.g\\!!1O",
+        "#YWDZ0V=JV/`9NVibZTqeB^X8;kt\\%2IL!PcMK!<::C\nd/VAnd*gFnr;ZiMqu?l`k3",
+        "!gpAb'kq>^BnqZ$Koqu?WqrVufr!VY1E!!8I5\nFoH:ZHi3pFdbas'rVufrr;ZZpqu?Tpq>^3iqZ$Hns8V`l\"9/?$s8;ots6TgZs8N",
+        "'jq>L<nq>:3l!3cEQ~>\nYlF_'s8VoqrVu`pj8\\ZMp&F@YqZ$Bl!<;utp](-kq>^EoqZ$Koqu?TprVuis!VYCK!!8I;FoH:Z\nHi3pFf]<#3rVufrrVu`prVu`pq>^6jqZ$Kos8VZjrr;6`s8W&uqu?EkrVuisg].9RYQ'+~>\nYlF_'s8Voq\"7Z*`s8",
+        "$miW&rRrr3<#s8Vopq>^'ds8Da!kO\\NLs7u]jq==OiiVDm.kO%I2i;iKAs8E#r\nrr^fngX#l@qYpSg!<3!\"PDt@sJc9cnHiO-F!!cS#83Adg0JNM+ruM1R#5nQ$s7u`qs82lss8;rt\ns7cTns8E#us82lss82lss7lZns8N",
+        "a!r;$Tq#C?h!9*_Q!r:gBrr2ucq#CBiqYpQkrr3,[s8N'!YQ'+~>\nYlF_'rr;fprr;iqjT\"lQoDeC^s8Vrrq#C$fr;ZKkrVuZnrVu`pqu?TprVuis!VYCK!!8[AFoH:Z\nHi3pFf]<#3rVufrrVucqr;ZWoq>^6jqZ$NprVucq!<;ips8VBb!<;ut!<;utrr;uurr;rtq>^Eo\nhuE]VYQ'+~>\nYlF_'s8N",
+        "-k!<;utrVuTlrVuZnrr;fpqu?TprVuis!W;$W\n!!\\a?F`22@Hi3pEf_kgKs8;rrs82lps8",
+        "q>^HirVulmrVm#rmJle:rVllnkl1YY\nq#C?oYQ'+~>\nYlF_'X8i\"r!<<#urVufr!<;cnrr;co!<;lqqZ$Hnr;Z]qr;Z]qrr;rt!V#1K!!A+$Df>OR!6kBA\nrr;rtr;ZZpr;ZZpqu?NnqZ$Npr;ZWorr;lrs8W&ur;ZEiqu?Hli;`KNnc/UhYQ'+~>\nYlF_'\"o.rns8W#jrrVi`q#:<nrWN/oo(`4]s8Vj+qZ$?eq\"k$jqY9jcr:p'dr:'^\\%f62\"q\"!qF\nq\"Xmcq\"\"4NrpTsZq#'U^o^_hY!9jC^\"7578lMU\\_lLt8[hV?u`!!(CB!!^BV]=YVa\\,64/YGnFt\nU\\t/qPE1][L&CuQE,94e!!,nir;ZpP-RC",
+        ";_HnFZ_TqZ$WWq#LH_q#CHXkk>&Wh#.3XeBlXn!!'sPr;[#<]tM%g]DDR1\nXfJFrr;ZtaNJiXKr;Zn:ChinK!DZ8d!!=`!,piHh!(Qne!Ff[>!!Rk'Ko:qOrW!(lUSXfdqu?`",
+        "'*&\"2!!P8I:/4klqYp\\:NIckWr;ck]s.odhNLBJ>s2k6>!8IMQ!4Vk*#0Hn_\ns8VodqZ$Tkr;Qoqs7u]jrr3#jkP>,\\q>^KRiVWWXq>^KdkN`*Iq>UGus*t~>\nYlF_'jT#,XfDkdL!<;cn!<;cns8W#trVu]os8W#tr;Z6dr;Z]qqu?Wqrr;os!V#1K!!7^uHi3pF\n`n:7jrr;osr;Z]qr;ZZpr;ZQmr;Z]qqu?3es8W&u!<;Wj!<;orrVu`pm/Qq_nc/Uh!<;cns8W*!\nYQ'+~>\nYlF_'s8N,tq\"Odgrr2p#rquQdqYgEpr:p0i!;QQn!rW&mrr<#ns8N",
+        "aL!<1INda6FjcLLr<XfJ@pU&G#qPE1WYLP,R+!ci6r\nr;Zjp9`4tj-2dfD7f<;g?=mmL!!@k/MiIW7!hlHiqZ$f1^V[q/`;BT9cIDdm!7LfG#M.V_f[ed3\ng@bOHiWA?/kjncTm-+<H%.NoYp@@kNoDna]qYpKhrr<#ts7lW`!;?El\"o/,tr;Q`o!!rT(o_AId\nq\"X^arrW2pq#13prqcZpr;Zuip@nUfYQ'+~>\nYlF_'kl1YYqu6Zlp&G$e!;$*f!qYCBrVllhqZ$Hgp\\t68pAY-Urr3#L_u0N:_o^$6rVlkirr;os\nrf%&9JVT#-pAY*mrr3$:&dJ=8s8Voqs8W#ts8W&us8Voqs8W&us8W#trr;oss8Vus!\"Al,rW!*a\n:01_2?2X^'H]A\"(%",
+        "$jq>('j!3cEQ~>\nYlF_'n,N1`bQ%M@s8Voqrr;rt\"9/?$s8;rss8;rrs7QHis8E#qs82lps8;rrs8;rss8;otlLk2X\ndes1Gs8;rqs8E#ss8",
+        "M_Fp@RkJr;Zflp](<dq\"Xgg!;QHls7#pd!:'L_!TrJBiqNKXeCN:'d+$_H!<9n<`594&\nr;Zu&WMQA`r;Zt[Mi!(9rW!\"?DJ&hI!",
+        "mJm4cq>^Huq=FFXiUd'E\n!U\\kFq#KgZrr_6OmG\\'E!;ZNl!S[VPrrKUHqu?Wq#*XgtPC\\:?qu?[ts%*.is8W*9!\"Af+s8Vus\ns8Vuss8W*!s8Voqs8W*!rr;oss8Vuss8W#t!YYP5rW!'Z6:aFKr;QeKHh[OABk'p;rrSg\\TDJQj\n\\$='0ci!eD_o_NM\"7>(Cq>L<qiU,V\"nc&XKq>1*liUd$J!71?<!;ZBh!;ZWo#Nt^Ys7uZp!3cEQ~>\nYlF_'n,N7bdJs.Fo",
+        "Y\nNW/qZ\\&l>^\\,XSKrrC1>rrCUArrDZhrrD$QrsAMamJm4RkPt/Lq>^His5=\"MkPP8Z_u'H9oAS[(\nqYpQ;qu?ZrYQ'+~>\nYlF_'qZ$Npr;ZWo[K$\"%rr;Zls8W*!!<;utr;ZZpqu?Tpqu?Wqr;Z]qs8W#t#k6Kp!!'0rS<j!O\ns8W#trVufrr;ZZpr;Z<f!<<#us8Voqrr;rtqZ$Np!<;rsrr;Wks8W#th>d0K!ri6#r;Z`rrr;rt\n!ri6#YQ'+~>\nYlF_'rVuoo!<<#u\"TSDps8Vrrs6p$fr;QcrrqJGPqY:'bqY9jcs8;Zko^MALs8N#mo^qYHq#'jT\npAY*lpA4^eq\"X^\\q!e(Xs8Mriq!deFq\"F:Xq#9a`s75pbrp]U]\"QJJB!8RMQ\"OPTH",
+        "IcJVX4(#@hIR:.R\\O!<3!!$jQ\\2s8Vrrs8W#t\ns8W&urr;oss8W*!s8W#ts8Vusrr;lrs8W&u\"[#=W>ut>.s8REHJH5WJ!GPj3rrRtDV=sreao;>?\nq=Xafq>UBqkO\\NIrrDlhrrW#fiVEKTq>^'RrrDlhrrSem!3cEQ~>\nYlFY%li6VXm/Qh\\rr;fpmf34crr;rtr;Z`r!<;ut!<;`mqu?Tpqu?QorVufrr;Z`rrr;rt!q>'p\nrW",
+        "E[m,m=(!!20Eq#LHIs4%(qrW",
+        "Z=!<<(err3%lPC``5rr<*e\n4?WWC!/L.F\"3LTCg]%3Qq==Rcq#TmAr;Zfm#N=kAkND[\"q<%\\\\q>^Kds6]aa!;ZTn!5ng9rrB8&\nJ,~>\nYlF_'pAb!io`+7XpAb-mi;`ELrr3!!s8;rrs7lZls82lqs8;rps8E#rs8;rts8;p!jOh]T!!9sU\nbl%PAs8;rrs8;rqs82lrs8",
+        "[Ng]6\"'\n!<:OPd`g(feC+<r!93_Q!:'L_!qu-Qr;[Q.q\"X@Lo(MkRrq,^Lq\"4(Up@S4ZrW!2mpAb0jo^__S\ns8Vrqrs8VtqZ$Qks8;ZkrrrDqq#:<nrW!*$nFZMRr;clt!;-3hrrB8&J,~>\nYlF_'nGiLHqYpc_mIT<.s7>j^!6P0=!9*kU!;ZTn!:Bd]rVuon!rqZ`rr3",
+        "q#CHJgAV'Pf_kdPg].?@\nr;Zl`k4nuaq\"FLXqY9XZr;ZWm!<2Hfr;HWsq#CBnq#(0ms8;p+q#C-ao_/([r:^0jpAP!or;Q?X\nrqZQsr:^!erqlcrp]Bpb!<3#u!3cEQ~>\nYlF_'j8T,Tqu6][oDS[hiV<HQo",
+        "'bq#'pds8M`eo(N.ap]:*Zq#CKqp@/%]#5%EU\nqYp9br;QfsqY^Bpp@.hW!;?!a!U/hI!!MZPk2bP!!<:[PeBn!krk7q(\"HeV!LOoF",
+        "aK\n!<;$^k3hBokii$.!94\"An,NLYq#(0mr;Q^&qZ$Tnq!dqTq\"F[e\"7Z$Tq\"+Ler;-?drs8W(s7lBg\ns7lHhrri&ls7#a\\!!rW&s8Mrkp](;ts*t~>\nYlF_'q#:?iq#:Eks7uQls6]jdrqZNm\"8Vusq<.eXi=GPCs8VKds7u]jq=FF^q>^His8N5hoDe\":\nq>UNfmJ6\\[\"Sr",
+        "Nr;ZogpAY'k\nr;ZiUpAk6n#5n8ks8Mfgrr3Dtrr<#nqZ$Tpr;ZWmq>UHirUBjes7c]in,NHls*t~>\nYlF_'kl:\\Y$gmccs7uKXq>^Kdq>:3kq>:3lq==OdoDegcrVlo]q=jmhoDS^gq>UBumJm4Xs8V9[\nrrgZuaiOPYs8TS-rt(T^LQ.:Es8N'!=&",
+        "<Rr;ZiMrR:hor;Zu;^V@Iq\nr;[#'WMcM`Sc/TkO,]!Kr;Zk9CAe,8;G]tT7/fOO!!-\\HrW!%MK8GTd!!SpcT;/BdrW!,0\\\\5bp\n`r,l?d*0_\\d/<qEf_b^LkktJ_kiV+.!!VTSlKI[\"m/[1]qu6lkpA\".Ns8W&us8N5uq\"X^^oDepe\nrqud#qXF(Us8;`lrrDocrsS\\uqY:*eq\"X^c!!'5&J,~>\nYlF_'p&G'fqu6ZlrVlr^oD/@b!:Babr;#RV!;ZTn!qZHlrqZQn\"8Vusq=O[qoB6/Rq>('LoD/\"X\nq>UBsaj8",
+        "9r;cltr;cfrr;ccqr;ccq\nr;ccqp]1?or;cfrr;ccq!<E/q!;HNk!:p0b!7q2L!;ZZp!3cEQ~>\nYlF_'s8N0\"q#'a`\"Shins8",
+        "1&nFH5Bnc8^iq\"Oghk2PCe\n!!r5rs8",
+        "6L&CuPC1dDEr_NSmr;Zk+AGlK0ItNOT!!JjdV5L<k!!9dG^\\\\$2e,n4Rf_YXM\ngtLKL!!`2uo'lGSrqufspA4glpAb0hrVurnrW",
+        "/>s^G-rr3$\"$jQ\\2rr;osrr;rtrr;osrr;lr\ns8Vuss8W#t!<ru3s8P1_2F:^Js8RZMN<+g&o`\"s6^%hU1kO&<LoDS[imJ6SX\"6'(Uq>L=.q>^9d\ns8VojkMcI4iSjh:oD/FdkND%.!;ZKks7u9d\"8Vusq>:3l!<2uu!;c]q!5&8]~>\nYlF_'q>^HpcN!kDi;`fWqu?Qo!<;forr;Qir;Z]qr;Z]qr;Z]qrr;oss8W#trr;oss8W#trr;os\nr;Z]qr;Z]qqu?9g!<;fos8W#t!ri6#r;ZWoiW&ZQf",
+        "r;clA\"45QMh\"h!Oki2(3!rVQWmf<Cf\"o.TVpAFjbrsAK#\nqXXRarr2rqrqHNjr;H[!q#CBnrr2rtr;6KsqY:*cr;-Eqr;Zfrr;Qfqq\"Oghiq`ZSrr<&qrr<&2\ns*t~>\nYlF_'o`+se!V?-ds8Vomrri/ts6'\"PrrM*MoD\\g^p\\t9Qq>L<nq=O[gq<.AKq>UC\"q<deRq;L`@\nq>1*kan#K1!;c`q!</AdNW/tX!!Z_(84Z",
+        "A'\nC2EkL!dfKTqu?_bo`,!,rW!,IeCN.!de!M>kk4uXnFHAB!!2ZarVlupr;Zfk!!2fcrr<#n$Msf&\nrr2cos8;ZarVlojrr2rtnc8I[s8W#mrrDim!!i<!s8;Zerr2`orr;rtrr;rt]DmB~>\nYlF_'o`#$PoDejiq=O[eq=aggq:,EEq>C9mq#^TloBlPX^%_O,V>UAsT:([WHiF$J!",
+        "7uH]=5KNJ@K6q#C?o!6Os7!o`><mf*=NoDS[hq=O[f\noBlPWs7uHi!Vu-]rrDHbs8V6^q<n7_q>L<nq>UEoq>1-k!<3#t!<3#t!5&8]~>\nYlFP\"WrN",
+        "MHiAd#NV<DP!!(.>rrVffq>T@Fs8DcgrrD6PrrDlkrrDlerrDllrrDlors%lR\nq>^Kjq=XahmIU/Ps8V$XoDARf!<2uu!<",
+        "!;Q'U\no_A\"J!;Q?hr;?TupA\"R\\q#(1%s7l0Sq\"Xmhq\"XmhqYpHn#5nN$r;-9hq#:?dqu6s$s8Vffrq?'b\nq>UKjr:g6e!<<'#qY9j^rrhibrr<&prr<&/s*t~>\nYlF_'p&>9giVENRq>^9crrD$VrrDlirrDHTrs//SkPtSXs7uTmrqZEjs7uHi!U]^^rr_Zgs7uZo\n!o`PBq>UHdr;Zcs!WN/rs8N'$T:",
+        "K%SfPc69I@1!<<'9$jH\\3rr;lrs8Vcm\nrr;lrrr;rt!!`E%&.AR=s%$Gqrr<%YV5p#P!!",
+        "0ls8W#tr;Z]qrVu`prVu]o\n!<;`m!ri6#f`1pNhZ*NSqu?Qo!<<#unGiLgq>UEp\\Gq'~>\nYlF_'\"8;Nbrql]unG*%Urqucuq#CBlq#:Tos8Vrdq#('Yrri,ho(;qMrrDuo!!2lorr3H,nFZSW\nr;?TprqQ3VpA=mjq\"4Uek5>8[kkP2]f[S?pcM[_G_S<k!^&7p6X/W\"lTD\\`jO,<c7!d&I%rG2OQ\nE,baU!JcO1!!Jd`TqeI_!!B^@\\\\J\"A\"45]QgA1dLkk4u[li7%cq\"4RT,4tp1q#'jTo(r\"Jrr2ih\no'lAJq#:<es8V`ds8W#jnGN=drW",
+        "N+am/6ndk2POkquH`Ks3q%orW!,C`4s1+^&7p5XfJ@pqu?bY\nMu3PUGB3Y$!HN;\\!!7e.M>[DWSY;m\\Xo8;'\\\\#Je^\\n-7eBlFjqu?fXk3DR='DDJ\"nFlYNnF6/H\no`+sfr:]pcs82j'q#C!WqXF:Vo_A=`!<2utp]13k!VH*_rrMuoqu6Zqq>UHknc&^dr;-?js8W",
+        "-rmUqrr;ZiMq#CHXipZpLpAapc!<;Ni\nqY:!_s82lrq\"k$kr;HWtq\"F:Rq#L!c\"n;<es7lThrsei\"r;-EfrqQ?hq\"X^`rr2upr;Qloq>^N!\ns*t~>\nYlF_'!;#IT!;Z<f!9*eSs7u9d!;Z'_!;YmZ!;ZTn\"Sq$>q<dqVs3LWD%KG2#aiXS_!!&FTPC[lU\nrt,64=&",
+        "'inc/Id`W,o;n,N=d!ri6#rr;QirVuisqu?TprVufrs8Vfn!<;uts8W#trVufrrr;iq\nr;Z]qs8V3]rr;uunc/IdrVucqp]('ibQ%SBYQ'+~>\nYlF_'!quEaqZ$Bl!;cZo\"TJ2oq\"Xjg!rDorqZ$]tq\"jje!;cHi!rhuorr<#trVlorrq??nq\"k!`\ns8E!\"q\"4@\\rrE&trs/Puq\"F^dnF6AV\"nVcpmdB<1!!(IHf_tjS`koL&\\[DA9\"0&,jSc&NhOcB",
+        "[(q>^THf\\$0's2Y;^^V.2U\n!!9-tU\\t/nPE5P?\"*X_FHi3pFNKO/>\"/2QjWVlf!\\%BDlquHcH!nQ#Vr;ZoQgt_Z",
+        "]=7b>\"KeYuT:Pr]!g/P!rVut>E;fh<\nI=_@t!K2s9!!AdcUSn%j\"Ll(]`l@oV\"4GiWh\"^pMlK/'Io_AFc!W;rrrrMokrr;uoqu6]lr;Q]r\nr:9jhr:p3frrW,jq\"Xjhr;-Hnq#C?pqY^<l!VlZmrrW9$q#:0j!;cWnrrB8&J,~>\nYlF_'qu6Zfq#CBipAY6Rs6]FUrrDZJrrW#rq<e1^q=jmniVDm.s7u9Vs8N'#rrBP*s8N'%LQ.(9\nHi<sO>uscr68nlD!#Q.D!<<",
+        "-tr;-HipAFsjrqQL\"rqcZp\nq#:<kq#(-k!;cEh\"T88orr;co\"TSDrs8;lk!;ufq&,u(ls8VTZpAb0fqY:'j!3cEQ~>\nYlF_'r;Qcmq>UNfs7uZo#5RljoCN\"Xli-t\\r;Qcmp\\t6\\iW&oQs8N>qmHs`@q>^9irrM*MrVllh\np&>!lqZ$Qq!0-gS!(-M]!>5h?!<<",
+        "cn,NCfs8V*Z!<;orrVuisrr;rtrVufrs8W#trVufr\nr;Z]qrVuEg!<;lqs8W#ts8W#t!<;utr;Z`r`W,`6r;ZWonc/UhYQ'+~>\nYlF_'s7ZBk\"Shigq#:3k!r2fqq>^ooq#:<gq\"\"F`qYL3i!!",
+        "rr;os\".u!LNVre]=(=ul4?!6>qZ-Zro`5!kqZ-Zr\ns\"FmK84W^\\s8Rk<PC`c6!;uls\\+fn&anl#;ci!hBq#L$arrDZ`rrDlkrrDlErrDZIs8N",
+        "9hiVroRjo5>Vrr3,ss8VodoD\\gdqZ$Npr;Z]q\"f7iTRK*<d!!5nd\n6N-ra!!!Z1!<3#n!<<",
+        "HA!PcMK!!9'pU&\"cgQ2:O_SY`1\\!!9R=^&.m1bl>rgdes.Hf%Tp\"\n(\"`KdkPtVF!!*#hnG",
+        "'daSu8-kPke_kNDI(q>]F9rrE+`rVufr\"\\:s<,ldo@!;QTi\n!<3!\"2FpC;!!-SDrr3\"G!;QQo!;lcranG`7q>('jm0*Ibq<.S5s8VKYrrDl\\s8Vo^rrMrqrqZEj\nrrB8&J,~>\nYlF_'qZ$<jq#C9mf`1gKdJrY8s8Vcm!<;utrVufrrr;Qirr;lrrr;osrr;Eer;ZNlg&M'Pi;`WR\nh#IBSYQ'+~>\nYlF_'!W;fls7cR\"o'l/Hs8W",
+        "rr3'M2FpC;!!$*prrSCVTDnio!4TY`ah?s=!U&k@\nrrDl^rrDlhrrDlOrrDlZs8N",
+        "sIq>UHjpAY9ks8VojrVllVqYpQkrVloiq>UBsiW&rR\nq>UBoq=jmh^&A$,rr<&trrHD#rVusW4T>B[!!*K4p&G'srVlsF2FpC<!!$O.rr@WLs8N'!s8JGb\nrr`>2_pum!s8VokrrM<Sq>UKemJR\"aq542l!3cEQ~>\nYlF_'_>j60df9=IqZ#p_!<;orrr;os!<;orrr;corr;osrr;fprr;Tjrr;Kgr;Z]qP5kO^YQ'+~>\nYlF_'rr2unq#:Kps8VlorqHQos8",
+        "E%`s8MQh!93kU\"4dGPgA1gL^\\n-5\\[VJ:s/Q1\"U\\b&kV#dKnr;Zo2\\$Po2s3LbqrVurRmf3@f\nq#LHirVufrrr3/qo_/(Trqucsr:p9k!;?9h!VlNfrrMomqu6]nq\"Xjhr;HWtrqcQljT#8X\"8`&t\nr:U*i!3cEQ~>\nYlF_'n,EFOq>1*kq>UBpq;L!+!U':BrrW#TkPkJ_q>^9drrW#ZoBuVY\\,61-PQ1ZTr;ciss%`Lm\n!B`:>s8N*!&c`@8!!*94rr3-%68g:n!;ulsJH1]/!!&kms8E#es8Vogrrhr\\oD/4YrrDlorrDZe\nrrDljrrDljrrDl1s8N",
+        "VB2Hi3pFJVX($!Q37[rr^BVakQdo\"m>LW\nq;M/=s8VlpmJ-\\]q<e1^oBQ>XiVENLeGoOKYQ'+~>\nYlF_'huENQYlF\\&r;Z]qrr;fpr;Z`rrr;uu!<;ors8W#trr;]mrr;fp!<;ut!<;fos8W*!!<;ut\nrr;lrg].'Lb5_JAkPtP^YQ'+~>\nYlF_'q#:?hrr3&prr2lr!rVcer;Zfr!;QQnq>gNp\"9/?#qXFLhr:L$hq\"FLXrs/E#s8N#ts8M?a\n!;cHirW",
+        "PrrM*GkPkS5ao25F!<<(_NN8HI\n!;uisA,ZK,:Ab(o:01q8qu6\\>L]%2VV4!aJN<&kU!5n+%!5nd8!;ZBh!9a:[s6%Q",
+        "SHi3sELB<I'RJd'c]ufpH#3YUXs6\\e.rpp-ck5YJW]",
+        "$jq>C6m\nq=jmhiV`]Uq=jphq<n:_q>^Hpq<It^oBlSRoD\\j_q=t!i!3cEQ~>\nYlF_'jo>,VfDkgMmJm(arVuisoDedim/Qt`!<;rs\"oeT&!!*&d!!*&t!<3#p!94%S!:Bgc!3#qt\n!3cEQ~>\nYlF_'rr2upq>UKjqYgEqrqu]mrrVobs7lX!r;-?ks8",
+        "o(`(Xs8Vlns7l6_s8V]kqtL<ns8Vrpm/ILhs8Vrdq#(0lrquQdqYpTm\no(N.UrrW,nqYL3oqZ$Qor;Zimq>^fjo^qqPo_eFTrVuuoqYU<m!3cEQ~>\nYlF_'li.%@s7uHis7s\\7!;Z9e!9`tR!Vu-Qrrr5us7u]jq>UHjr;QfnkPk8^iW&rLq>('drr3$\"\nq>(!h!:Bd]s8W,js7l`fs7?0g!U':Wrri/ts7u'Ps82WTrrDlorrM<Yr;Zfmq>UHXkl1YYnc&Ub\nqYpi[mHs`@mJleFrr2uoqZ$QqYQ'+~>\nYlF_'mf37do",
+        "9\\!;ZKk!;Z$^s7uHis7ts[!;#d]\n!;ZNl!;ZEirrB8&J,~>\nYlF_'g&LsMirAfSec5@DjT\"fOnc/Ofs8W&up](0ls8Voqh#I6Oci<Y<mJm1dYQ'+~>\nYlF_'nG`Ldq>UHkqu6m\"s8V`bqY9sg!;Q'`!;ucp!V$$bs7lWrqY'XLs8W#ps8Voqq#:9nq#13n\nr;ZKk!V6$bs8Vj#qZ$?eq\"j^ZqY:'i!rhucqu?6fs8NQ+s8;BUqZ$Tjr;ZQirquisq#19np]C<l\nqYpKqq#C9m!W",
+        "SiVE<Hs8V$XmJR\"ai;rQGp\\t6\\r;Qoeq=ES@\npAYBns7u9^s6]\"JrrM*ArVlocoD&=eoD/4VrrDlnrrDlls8VlpoAflLq>^HqkP=6>s7uHi!V?-X\ns8N",
+        "\\rVlrk\nnGN:cs8;Tjq#CEkrr3&rq\"jmfs8;olr;QfqqYgEsp@A([rq??lrqud+r;Zcko_A4Zs8Mrrs7lNk\nrrMoor;Qcprr;lrs8N9!pAb-m!3cEQ~>\nYlF_'PlCaZrr2uoo`\"perVm&smG[6eq=agomH=NLkPtSXiV`]UmJcn_oDeX`rrVT`q>UBpq>^Hi\nrVuonq>^KXs7uTm!U\\kArrr5cq>^Kjrr2uWqYpT`iT'q<q=t!iq=aghoB5E=\"8V?[q>:0lq>L<n\nq=\"=doDegj!3cEQ~>\nYlF_'JcGHDr;ZitqZ,s^!!"
+      ]
+    },
+    {
+      "name": "maxplotmod7814.ps",
+      "bytes": 222006,
+      "sha256": "7c298f795ca8d6021e4e99eec2a35cdd2aae2375a27c617f8e3f4a083469a4da",
+      "bounding_boxes": [
+        "%%BoundingBox: 17 41 578 797"
+      ],
+      "creator_lines": [
+        "%%Creator: GPLOT",
+        "%%Title: GIPSY PostScript plot",
+        "%%CreationDate: Fri May 21 13:08:53 2010"
+      ],
+      "image_ops": 2,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 8,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "show_ops": 0,
+      "literal_strings": 96,
+      "useful_strings": [
+        "VQBn\\VY-+q1Q@EUG;*#pHz!!\"5g3]\n];_;,M%ABk`'HIt",
+        "NGY/SA_Y/T2fs8W-!s7\n>jRoCN\"^s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s\n8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!\ns8W-!s8W-!s8W-!s8W-!oCLbmgr6F^QBmhdIq`V2Bk_9qBk`'HIt"
+      ]
+    },
+    {
+      "name": "maxplotmod891.ps",
+      "bytes": 197154,
+      "sha256": "d45a08c2e2355e388fedd99c8693b6949deac059663e856b280f2f0e9c71dbf0",
+      "bounding_boxes": [
+        "%%BoundingBox: 17 41 578 797"
+      ],
+      "creator_lines": [
+        "%%Creator: GPLOT",
+        "%%Title: GIPSY PostScript plot",
+        "%%CreationDate: Thu Dec 17 12:58:41 2009"
+      ],
+      "image_ops": 2,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 8,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "show_ops": 0,
+      "literal_strings": 55,
+      "useful_strings": []
+    },
+    {
+      "name": "opticalImages.eps",
+      "bytes": 978939,
+      "sha256": "8c483ae88aa2290612a40839285ea57eaac859318b7d7af87a3333253654408a",
+      "bounding_boxes": [
+        "%%BoundingBox: 14 14 665 383"
+      ],
+      "creator_lines": [
+        "%%Creator: GIMP PostScript file plugin V 1.17 by Peter Kirchgessner",
+        "%%Title: opticalImages.eps",
+        "%%CreationDate: Sat May 14 00:36:25 2011"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 1,
+      "imagemask_ops": 0,
+      "moveto_ops": 0,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 0,
+      "show_ops": 0,
+      "literal_strings": 5361,
+      "useful_strings": [
+        "M;#oOfk%0.1e#65#G#n@7D(`!/^!!ro>$kF<c!\"9k]$5WjM#Qk&,#SIRM#65#2\n$NL\\V$P*=E$k*dL\":,MJ&Hi7B!\"KSB%h]6N$NL_E!!*'-!!EW5'`\\CD&HE+L\"U>2F$OHe:\"oj",
+        "SA$3U\\>%h]3]%L*1='FPce&J>ib%Klt?&H`LD\"UbPI&ebKM$4@%C%La6^!<<fG\":d.6$\n315?\"qCV52%:*$$kX3Y#TsWa!!aDN!sSi1$kE@O\"9K&>!XK5H\"!A'c!s&B1\"pPG9\"UZ4_!X9&9\"\n:5$X~>\n\"Uk\\E#mq(>$3LYC$OZk@rsB/C%LijU$4@.I$k!COrX8i8$OZh?rsAo<$4@:N$iUJ:#RLhG$4-V<\n&e,-S$O[:M#mq1M$Oda_$OdCOr<j2G$4@7K$k*LN#n%+I$jm@J#lY,9$O@(G$4.\"E#lG#O#mq\"I\n#m^nG#RCeE$4.(K$P*aR#RUhA!sf,:#RLbDrX&T1\"UYPC#n.4@$NCD6$4@4?$k*RQ%1NdU$4@4K\n$4[@@$O[1I$OI4O$OR4K",
+        "D7\"V1hI$O$nJ\"9SZ;$kE=D\":,G?\"rR^I'Fk?P!\nWX",
+        "hP+\"gYu(_$HI(E!_o$k+Ws!!O#A%h/dP!t,MC$O[+K!sK8A#mLAF\":Y\\O(^g`V",
+        "V9#7(M;(^'pg!#,PB#m1JH&m,PO'd!GV#6bD9&J5HS!!j5H$4IL[#64i-\"\n;27U$kN[E&dAOF(((<]$31PC%29-[#6PMC!\"]M<!X8l6%L3IT$O6e=&d\\XL!>uOV#n.FH#m:J>%\n1W>f~>\n#7:hI%13LP(B+[D$4@7LrX8`5rsKVM$OI.H$OI.J$47.L$4@1J$Od@M$4@7@$4I:N$4@1K$4I=M\n$O[=@%/pY7$NCK%$4@4K$k3RO$Od:J$O[@O#R_%P%LWUP$O@(G$OR1H$kF^#$O@%G#RLeB#m^eD\n$4.(J#RCbD$4I1H$4.(E#6kG@$2t/;\"U>;=\"U>;>$4$nBrX/W2%13CL$4.+J$4@7P$k!OB$i^V?%\n1`jV%1!@Nq?mo_%1<RP$P!^W%1EUP",
+        "h?&JkEI'*o$W\"98o3\"T\\T+\"TSN($igA8!sJc1!<E0(\"UGYB!!*<,!XA]/%L3IL\n#m1>5\"98c/!!3W7\":PS=\"pY&,D[?RM%1!:N\"9ei3\"pY,3#6tY;!<`]>#nR=A!\"T&0$j[1G\"qLkF\n(]t!M#7gh8!#5tD\"q^h<\"TSf.$NpV7#7(;9\"9JZ.#R^eB$OR\"G&eb]W(^LTU$igeG\"V(bG(CUHI\n-3G%a!\"f5>&fM",
+        "EO,*'aP<c'*JIP\n$4%.T+W1h\"(^:]]%1<XY$69le$3h.J%L*IV.2WL.'+kon'HIVn%KHY9!\"g:d!\"0AN%2Kur%ic;a\n#RptP'+P`f!s]bu&I/:9&e4mK#Smm`%1EIN$OI4S$O?b4J,~>\n#7:hF$OR7K$2t;6#mq\"<$j-kD$46V;!=]hD$3CSB$iLD?$OdFM$4@.J$47.Jr!NK2rX/o>&If'S\n$OZk@!=TG:$jR4O$k3RQ$k<1E&J>H]$OdCN$k*LN$O[:L$4@4=#r2kp#m^eC$4@+H#R^qF$4@1J\n#71\\E$OR7K#n..J#mq\"G#7(S>#mpqE#m^kE#RCbD#l=u,s8NE7$jmCN$ig64$4@7M%K6;/$k!LN\nrVm(,$4@1I$4?b3!t#DJQi@!m>RCiJ$",
+        "sn(CgWP!sel4!!ilV(_%&`\"r.pc",
+        "H$Ea?g5mn&0&7etJs8NK7$2t;L$k!FM-3+!h$P!ZKs8NN:$Od\"7XpYXGY5\\J\"\n$N^YC?2jj3$k!CL$OR7M$Od@Mr<iN3\"q1hI$k!IQrX:ars8O&S,VMbp:GX+8*XMfH",
+        "CpTZ!ttnC$OQq=#pBp\"'b:9I'+\"XF'G;E$%2o3N#SI:Z\"\np,2F\"9ANJ'atWR#7qRQ%2Tok+rq$l(^(EQ#QbD9#65/B#mL\\=#lk&,J,~>\nrX/Z5\"UYPC$k*OC$4R@M$OdFO%2K<[$OdCQrX&r@$4@4M$4I:N$N:G5$3LYB$4QnA!t#DD$N:GS\n$OdCM$OR=O$O[@M$P!RS$k*LP$OR7N$k<^S$k*\"B$O[:L$k3ON$Od@L$2k59$4.%H$OdFA$j$kH%\nK-Y<$k!IO%h8LH",
+        "Cgl_%L`dV%L`gV%1WaS$k<^T%1Em[%K6e9%LN^V$kEdX$P!XW&H3.U$k3[Y%h9'X%LrpV%hB3]%\n1WjY%M00irXSr;\":bqR%M&IKrsf#<r=8i=#n@OX%h9'[%hT?N%Kd.M$k<1G$k*RR$OdFR%M0-\\%\nhARJrsf5A%1Wp[$P!(F$4I@N%1N^T$4@7PrX9&>#RUtJ$OR7MrX'PMs8S8^s2b]Z$k*RQs8Q@3$\nOa-;s'uZM$k3+E4Utfurs]>E%70%S57%T'$P!aY%KHI2$O[:J#n%(J$XE`3$Of9n%fcP7#n!j8r\nsT;C$k&6ursK2C$a$T1s8EB",
+        "'XaG\"p#;@\"pc.Z&eG-G%KQb>'ab<h'FkW`!<<<.$P+0m&./LF\"qVac\"q1h@'+YTl'*egD$\nj[.L#R_(I!Y>JJ\";;7J&/Z$&%1F$T&dSaH\"U>>7'ES7:\"We9e#mhOY$Od.?\"9eu@\"T],5J,~>\nrXKAG$OmOR%LijU%1N[R$iCJ5%LNXR%1N^S%1WgW%/gVA$P!RT$k*LP%1N4Fr<rc9%1EaG%K$\\?%\n1`pY%h0'I%06qLrXAl:%fQnB$k<^V%h/sYr='&A%1<RS$k!FO%/pVP%1WgV$k3UR%1E^U$OdCO$\nk3RS%1j!W$4?P9\"ptYF$4@4MrX0>I%1E^Gs'-$5rsT;F$k*ODs'5O3s8N1-%LrmG$p\"_($4[%8$\nk!FM>lXg4%1EUR$4I=N?2sp5$O",
+        "g:3&.pcF-7:Z\"',2<*#\no!jY!<<K0%59:B\"ptSD#n$h;#RLM6%0mCG!<a",
+        "_d/W*Zb[s+pJ8P\";(h<$5`s^\"U\"lF!>Q=P#R1tE#lk#0$\nNUJK-i\\\\~>\n!Y#VKr=8i8\":bkM%M&II!=fP9%K?hX%1E[S%LW^T%LimX%1NdW%1NdU%1N^R$k*RP%1NgG$O$qK%\n1WgWr=(+a$k<dV%1`mX%h&mV%h0!Z%1E^T%1N[T%L`dW%1WgU%1N^T%1<UC$iUP7%K6e8$i^VP$\nOmIN%1E[R$ls!r$jm=L$4R=L$OdCN$2t8]#RUqJ#n.t8%h&F;>n!n9s'6'@$Od\"7>n.:Gs8P@o%\n1<RQ%L`^R$O[CB$O[FDrsK8D$OR=P%LrCGrsJi:%fQh?$4@2Gs8PCa$O^5>rsB",
+        "(d::ds&B9(s8Q13\":,&.s&]:0X8i2\\$N^G8!\n<<-*!<iK-!!ro3s8N'#\":\"o/\"98f0!!3-#&-i4=!XSi0&dAUA%0Z`<s8W#tHia9I>6\"[2!g*H^!\n\"0;=#64l?s8N9'!!ri0#m:E3s5F1]rriK2\"qh1Q%gWOI&d&@G!#Q\"F&.&pM#mpq=&IJL@!\"TVB$\nNgP=!Wi?&!rrQ7\"98T0\":5P>\"9er=!t#YI#9aNf&I]3[(]amS&eP`b$QC0+%0m.G\"U,A9%L`XJ$\n3p\\9%KQeC",
+        "DR5k&el;j$OR\"J!\"&oG%0@.P\"TSN-!t5Y?!\n\"fnR(G#N9~>\n!\"8`6r<`N4r!NH1!\"Af5$4@1L$OI.M$OR4KrX&]7$4?b?!\"/]5rsBJL$OI1K$47.L$OdCP$O[:M\n$O[FS%/pV;$4I:M%fQk8$j[1K%64n+$k*UC%0$Yk%13IM$OmLP$k3OO$4$tG$OI1L$OmIL$OdIP\n$OdCO$k!LR-IrtA$k3RP$47(H$4I:L$2k2>$OR7N;Q:37s8Q=3%0$8A%1<ROs8Q@6%'KX1%h/pV\n$O[LS$P!%C%grdSs8NK:$O[@N$4@1K%/pV;$k3UT$N:DD-ia5,%1GN%s2bWW%KHI3q[<H(&?ZBJ\n$OdCN%0->8$k*LO$k*\"@rsJf6r!WN5EXN9`%21/Vr`oL'('b",
+        "JrWrW5$Om\"B$P*XQ$4I7K#n%%H$iUJL$OI.J$471M#mgtI#mq\"I$OR7J\n$OR7LrX/Z5#7:hI$O[CP$iLP7%0$\\G$4I:P$k*LQ$O[@N$OR7Lr<b:f$3pnC#71bD#6kD<#RW'j\n#mgkD#RUnF#n6tD#mC\\H&.K$S#71S?#RUhC#mUb@#7(266jaD9&e,6Ks',m>Y5eN,$471@s',s?\nY5eM0$k!CI%LijU$OmCN#n%%Js8NH6#n%%H$4@1K$jd:K$4@1K$OdFK$Oln3&./dO$ig7/$k*IN\n$=*W2XUG+8rX8c+!=K85$i^N2$4@4K$4@.K$Od@M$k!IN$kF[lF?'=##S\\C,+=7X?(`ab,*A&HC\n!=&oB,o$^j!!33%!X8o2\"9A],%LNIR#7;\"I%M&a",
+        "C_H%+qPCr*Wm,j\n!<=",
+        "F!=fbJ#7hIS(CgEY!WiT.!\n!N?0",
+        "^glZ(+9at$Np\\=&Hi@V\n",
+        "C\"q1hI$k!@KrX0DI$OI.I#mptH$\njm:J$OI.K#n%(JrXAf6&.K$T'+5-R$4@1K$47.J$lT$Q-OL:k$4I=Bs',s@$OmLDrsK88s'6$@Y\n5eM2$k!FO$O[:L$OR7@s8EH,s8NH,%/pV7%K6b8%0$\\B$k!CN$k!CL?N:'",
+        "C'pJ#RgeC#n%.E\"oo&D!Y,kL%Km.@\"UP5@&JY`^&e-T?#m_@M'+Y*W'*]*V\n'bM&]!='8I!t,2C&If-]&0;Dg#mhIW'+Plk%M''X&e\"sK>S%P]$kNIO%h\\jZ'E\\^M!WrQ0$5j*V\n*\"E2R!#>h@$5!FG#TOa-",
+        "=$iUSW$k!LO#n%\"H$4@1H#7:_C$4.%F#R(M@#R:S?$4$nBrWjkU\n#71_D#n%%F#6kD=\"pbJA\"ptY@#mgeA$47(H\"UYPC#7:eMs8Q@'$3(AGY5eMfs8Q=4%1W@;a:&F`\n$k*OC$nD^gs8NK8%$LYj$4@.J$4$tF%ESSL$k!=J#n%(J$ig58$k!@M$Od\"7$k3(B'FG6V$UOgm\n5n\",0$OmIOs8NB6$OQb=$k<XO#R^qD$OR7K$OltAIgQPk$k319%1`IB%h8aS\"U#&;!\"'",
+        "_Rbt'bLKa$5a$W#mjfK%1!:F!!3c<'HI;[+V#h-*Z>Fg$m?T1$6'f^\":Pk\\$5!RL$\nPFL!\":Hk%*s`D[!=fDJ(DR8i(Bb-Z(",
+        "H%0I.L#m:VG#R1_C!<<?,'+>-H$jm:L#R;\"C#mLY>%KHeN',L`b%g3:V%\n0I=P&-s3^#6=f.$Np\\G$3185\"Uu(^'+PQX'+,6\\%M0]r&.]'S'+G-O$5sHW\"V2^g#RM%C&Hi^J/\nghYI*Y0V+\"pYVA&e#*X",
+        "G!Y#k_!Xf/?'F+dW!\ns8oP#602~>\n#RUqH$OR:N%12t@rX&c9$4@4Kr<rW4!XT5ErX&u=$OR:N%13FO$jutA!\"/Z4#71_E$O[@W%/gP;\n$4I:M$4?_?!tPeN%fHnN&.]<`%hB*Z%1WmY$k*RT$k<[E%0m@O$OR7N$Om\"BrsAo;#mq\"G$iLDN\n$jmCO$4@1J$OmFN$4.(K$OR1J$jm:J#n%+>$i^P7$Om\"A\"pbPC$O[@PrX9,C%M&pT$k3UR$P!%C\nrX/`8%K6_S%1EXP$4I:O$4I:O$4@7N$O[:M$k!OS$jmCMrX/i<$O[FUrXAi9rX0/D$4ICR+:S_f\n$Od@M%/pVH$4@1L%1N[Q$k*IO$4@4N$jun?!\"Jo8*=N;`$k*LCrrN0%!!`o<!<rN0#6",
+        "^(c^'c.Ak<=8d/$4%7N#7hIS$OR:Y#QPP=\n'F5KZ%1s9h#n7\"=&J-",
+        "ENqk&/Pcm%h&gY%ic<'&J,3X%gigh'+5Ns",
+        "^g`d%28gN'+b?M%\nK[.W#T4$]%f_%~>\n*=WJe$k3ON$k!CM$4I7K$OdCM$k*LO$k*LM#mq(>$6BQ^$4I4J$4.(M'atEW$OdCN$4@+H$4I@P\n$4@7N%K-Y@$k!IQ%LimX%1`=I%1s-`&J>Wc&.f?\\%L`gF$m>ue$Od@N$jm:I#RUkE#R:V@#7(SA\n#RUkD#7(P?#mgqGrWrQ1rWr`8#mghB#Q4o2$4.\"E#lY,1$N(2A#R:YD$4.\"G$O[@N$k*IM%/pV9\n$k!FA$O@(G$OR7K$k*IA$NCJE$4@7M$47.K$4@IT$OR4IrX8`5\"q(hI$OR7Kr<k\"^$O[:L$OR:N\n$PEmW%1EUR$O[:K$OdCM$4@1L$O[:L$k*IM$O[:Lr!NE2D@R'`$NL,-!!NK.!\"TV",
+        "Gr(\n_@,]%fd=Y',h/l!sfMN((M/t!=95:%h]ER#RM(E$5WpK&HE1D%1!OK#7;\"R$5aHb#7V\"Q%hAjI#\nmCS7#m1_A#65&3$j[Fc'atEX$N^>:\"9f5A!s/`5&e>c`\"UYPN%KZ_@'Ee^G!XoG<((:f\\!<7Q~>\n.29pp&If-V$k!CM$OR4K$OmIM$4@7L%1<LL#n%(I$Ps-Z$OR4K$471?$3:G@rX/Z5rX'bW%L`aT\n$4@1L$P!OP$k*RQ$k3UU&.f<a%hK<b&ePchrY#5A\"qD.S%1NdTr<r]7$2k3\"\"pbG>#6tM?#6kA;\n#mUY<\":,5:#mU_>#6tM?\"pY>;\"pkM=\"ptYD\"pbJA$4-tB#mgqE$Od=J$4$qC#RLhF#n@CP#mpS=\n*XiA^$OR1G&do$R#",
+        "EX,,&eYZm&dJ^K&dTiq%2'<j'dO_7*X<2a(CpWN$j$D1'HIPr\n!##t^#7UhTs*t~>\n\"W,@[&e,9D$NLY7$O[@M$jm=L$4@1K$PNFHrsB#>$47.K$k!@LrX/Z5rX'_T%1<RQ$4I7M$OmIP\n$k3XR$k3UT&.f9_%hK<a&J,TS&I9![%h9*\\%1NgF$ip_Cr<i`7$O[@MrX0GI$4@1L$47(G$OR1J\n$4@1K#n%(J$2t85$OR7?$RH2g$4@7N$OR1H$OdCN$jm@N$O[7J$OdCM%1N[R$OmLO$jm=LrX&uF\n$k*RP$k*LO$k*%C!=K>7$NU\\Fr<iT6rX8`7!\"8c7!Xf>Dr!NW7$OdCNrX/Z5%1EUO$k*LN$k*IN\n$OR=?$i^Y8$N:D5%/pY7$NCJM$4@1K",
+        "B\n!sAo1!!r`3\"UbVD$4$k;!!Ec<%29*O(^^HP#R_@P\"pPDH!!!H:%L3\"@!<rN(\"9\\`3$l'!a$jd1D\n!!36,!<rl=&e,<Z.hN6n$O^kU!s/W,\"p4u.#Qk&0!sJ]0#7:V=#71_O$k*^V8;pCW!=fAA",
+        "KYW,%1!=G&-i[N#7:_>!sSc-!sAW-\"9f/;$O6b:\"\n;1tE!\"f;9$OHe9(Bb$I&Hi1L\":58<%fle:!=o2@!s8`2$4$VJ#Qt,A&detp&O&>d!<rc>$jdUP'\n+5?Q%Kce@&f:WR$4I+L#7V4R#RCkB!##SF!X8`8",
+        "hI$4@4KrXAW2#7:hG$4@4M$N:EN$NL,/\"9ni-&.8OC!tZ:[$3^V=\"p\"u=!X]/?!sJc.!\n<<0-#T+'P&HE.?\"Teo/!!<39!\"K",
+        "C^3K((1QY$4@4K$4@1J#mgtH#mgqH#RUqGrX&W5rX'JM$47(G\n$47.K$4.(J%1N^Q$OmLS%hK6`rY,;ErtPAE((q2k%LrpX%LW[P%1ERN#mgqE\"pP;;r!<</rs&K.\n&d8LF\"Tno8%4MPc#7(G8\"UG><rWif8\"ptM@#m^eC$N15<$4-tE\"pkVE$47(HrX0eV$OdFN%1E^T%\n1EUQ%1F!h&J#?Z$4RCP$O[:J$OR4>$NLP4$RH,`#Rh(M$k3XR%1!@N$O[:VE!m'_$O[@N$Od@N$\n47(I$4I:MrXAf7r<iQ4@L<DK$k!FM$Od=L$4@4M$4@4K$4@:Ms8NN2\":PG?!sT/:%L3@F'FFsL!\n#-CQ$OI\"O%0-MC#mg_7+t*m3$l0<]\"p>#A%29a%',_],$",
+        "C$NLG4'*JCE#7q%A!!WE3!\"TJ?!rrE.%L<7N!!``/!WW3(!WW?'!!3-'\"on`1\"\n98E+!sJZ1!!a,B\"9AW/#ljr.#6P&6!!XJL$3^M2!GhiG\"98Z,!rru7$jR=K!s]&7\"p4i2%0-G=!\nsel4\"VV7D!\"&]+%LrIG'b_&m\"98E1\"pG,A',LcO!\"]J;\"UtY9&I&4J!<`B.!sA]1!!!-0&./gP%\nhf6W'`\\IN\"oo#2$k*:O\"p$\"V$jHoO!#H4I%1`mJ%2fs",
+        "5:!\"^Lf$j6\\;\"q1qE#mUJ2#RUnH!<W]=#71_D$j6P<\"pc(e\"pS]B!=],B'bUoZ%L3:H\"\nqDLc&Ju6$0Nh[0#mM\"_&-rs_!Xo/3$lh?-/.Vgi\"9JZ2%iYKL%NQQO-P$1X%gWgd&IJaN!sfVY+\n:f=r\"rA!g((Lcb$4$V4!=]YL#Qu7h",
+        "`!f!&J>Ta$P!LQ$4I@N#mpkB\"U\"u5\n#m^G6!sJl7\"TAW0\"9eu6#7(54rs/Q-&dJ[I%L3=G#R:S@#mq%I$jm=HrWiN2\"o\\oH&ONNB%L`[Q\n$Od@O$k!FM$k*dV$O[@Kr<rl<$k3UP%LW1ArsTDG$4I=L$4@1K$jm:J$4I:?$i^M7$4I=A$3:D=\nr<j;H%13FK$OR4K#mq%J$k*IN$OmLQrX02C$OR7K$O[7J$ORV%%1E.D8.5It\"T\\T2#Qt;>&Hi=A\n!sJ`2\"Tni0&-ij`#SRd]&/H0'&K3,O0-`1a",
+        "E+,*'GV;s&ePWc%h9$W$iUM5%2fK\\$4@1K$\n4@1I$47%E#mgkE$Od@N$4.(JrWrif#mq%I#n%(KrX/N1!X];CrX'>K$O[:M%1WpZ%1E[S$k3XS$\njmLPrX/u?%1EXP$4I:OrX9GJ%1<RQ$OmLS%LidR$k3RO%13L@%K-\\7%0$_7$j6nF#n%.?$N(86%\n13IOr<rT3rsT;D$k!CM$jm@M$k!IQrX8f8$N:DL$k!LDrs&]5&Hi1>!!!-2#QOr/!!!*.r;\\AQ!\nY>PF!s/fC\"pb_>%M0<e(_75^!#,tE#S7.\\(^C0D$3^P<\"Tel2#Qb&9rW#Ij#m(",
+        "2A\"Tnr6$j6b7$OmUT#ndCZ-OL4i&ek<Qr\nW#J#!X0,8#7(e?#64r4\"TSZ:!!`K,&J5ZX\":GA;!W`K/$4@CJ!s8o2%MB*O%KR(J(0`O%&/,$E!\nX\\r=!#c@O$31,:!ttkCHiO0R&e#$\\!tH7d\"q:_D!\"9JU&IB'h&crCV",
+        "`#8.II\"UtMB(CCI=,oRL;&./FI%\n0QhC*si;g&e50HJ,~>\nq$IE:$OI.H$47.J$iCA3#mUhF$OR4K$4Hb=\":GPC$4-S:rs/c7$4.%F$2t84$OH_=7LKP2$4.(J\n$k*LP%1E[T$k3XV&.oHf'GhZ-*?ZLN+WqgL,T[j@(_mc!&J,Ka%LigR$O[:L#n/6r$5EmU(`3Yg\n\"pkM<rWiH-'aP$K#R(>8#7(M=#7(P?#RUkE&e>?J#m(G>#lY/1$5<dS$4.\"D#mq%I$4@1K$4I4J\n$O[=@$O$kC$4.\"Er<`N4rX/Z5,74ec$OI1J$OdCM$Od@M$jm@L$OR7K$4@1I$OdOR$k!FL$N:G5%\n0$e9$N^_D$N:D:$k!IN$OltA!t5PE%/gS6$NCJV$4@1?rr<$",
+        "`OM<+sSH[+<VjN*ZQ\"6'bpWYrX]#=rsU\"X#n%(I#mptG\n$PF'[#mUY=#7(P<#R:V?#7(M=\"pbJ=rWi?-#RCeI$4.%G$46\\;rsBJK#mq%K#RUkF$4.+J$OI.J\n$4@1K$iUG:#RUqJ'+#!E$31J4$NCJ6$N:G4$NCM6%0$\\7%/pV@$jmCM$OR7L$4?_>\"UkbI$4@4?\n$OI.K$4@7L$O[:Lr<`l>%gr^O$O[:L$4ZtB!XT2@r<m$@s8N9,!sA`,\"q(Y=!!<3&\"pGGH!!`Z4\n#mh%K\"pu\"_,:Y<(9R*hid^O<r1ajL]",
+        "apCT+<",
+        "IO?9h7;p,9.\"('abEd(CL][&Hi[G$O$kI!rrH,!!<WH\"UP\\I\"r%=T#lk2A",
+        "@,Rb%h$PX!W$OdCP$\nOdCO$O[@O$4@4M$O[:L$OR7L%13FM$Olh=rsW`P$4Hn6!rrE'!<E<<!!39(#6t><$k*:R%KcnI!\n>,DB!\"'&E$j-_B-m9B>%MTWX\"U+o4%LrUB!!WE8!=];?$NpS@$3U>0%0-PC%14![%g;q;$kERL#\n65",
+        "_ISn%29Nh+;,.s*\"NPc$47@M+:Sbm&ekf_&/Yl]%0HS8#Rh@I\":GeD!!NoA%1!FD$\nkj*P!rmc~>\n$O[:J$O[CT+U\\Ya$2k5E$4@1K$Od=M$4I1I$OR7M#Rh(>$NpbC$jd=?#m(A>$Mk",
+        "#t,'HIo.*tB.s(`!Vp#SIX]*X`th$4ILk",
+        "^Eeo\"pkA9$4Rdd#7D@W\":PPC\":kY?!#[=90`VId&.]3Z&Le5*$4$hK%\ngiC=#7D1Y!\"B,;#mCb<",
+        "+1\"F!@K0C+\"&'I(`j8-(]YEe(^D&q,nVO?\"UPhX%MBHd#8.dm(`!Do&IJmW%Km[^#n%aY\n$Q'*U#7D+M!>kqVs*t~>\n!\"/]5rsAc7$2b,1$2t8:$OI.K$k!CMr<iQ4%LNLM$OR1I$4$tG#mq\"GrX',A$4-tC#RLbC$4.%G\n#RL;6rX/Z5!=B55$ip_FrXL\"]&J#Ni(Dn/7,9nTc.k2np.OZPc+<",
+        "H$4@4K#n$V;#7ChC#RC_D%/pV5\n#lt;=rWrQ4rWrT4$2b/5%1E^VrXCar&.oNh'c@r4+X\\`i.k3##.Ochp,X!4d(DRYu'+bWa%1EUO\n$4.(J#mgkB#7(P?#7(S?\"pk24%gN@G#6b;8#6bA=#7(P@#Q>#:$O@(H#m^hF$OdC?#o3jS$47.H\n#RUkG$4@1J$OR4I$4@.I$2t24#7(VDrX'#@#n%(I#n%+L$4@4=$Qoca$47.J$4@4M$OR7M$4@4K\n$O[:M%LW^Q$OR1J$OdFB$3gkF#n%+L$N:D5$2b/4$4@7@$rRK5rrW6$#7(J8#lk&0\"98N*'FFpJ\n!WW3($N^A0!\"]AF!sSc9'EAUQ!WrT7$kWUI$60Zc(`a;=&Hi.>$4[%D",
+        "&/Yin$lflj!u`*e&0VW\"-571.*Wc?W'GD&b#9jEd\n$5j!c%NQ#YJ,~>\n!=B/4$NUS@rX/c6$46Y<rsAZ3\":5DB$OQb>rs:%\\$4@1H$4.\"G$OI:L$OR1H%LECI#RLhH/5-H[\n#RLkI#RLbA#RLh8$iUPc$OR=O%1NdW&.]Ef'c.f/+<r?e/h\\_-.4H_s-R0]Q",
+        "X'g;pQ0\n+e6t!X8]+'GUi_%2Blf#QtGC%LNmP&HiRc'GCf[",
+        "_J,~>\n\"UYPC$4@7>$3LSA#n-_>!=K86#m:SA$4.%;$5sE_$47.I$O[@N$471N$OI+H#mgkC#mpqE$2t51\n#mL_E#RLeB$2t51#mgtF#n%+J$4@4MrXC[l%M'-a',;E(+X89^.kE;-0fCmF/1;be*#]\\2'G;#i\n&.K*Y$OI+H$4$nE$4T?S#mCP>rW`E-rWa",
+        "gO4#f/`2`WfY2Ej,f3^>hi4#]/g7R9I06:\"(",
+        "YG&-iRS&Hi[X",
+        "M;#6tG<#R(J>#mghC#RC_B#mq\"G#RUkF#RhLX$\n47(H#RLhG$4@.I$N:DC$4-tE#RC_C$4$qE#RUk:#mCYD#n%1Nr<il;$jm=L$k*FLr<if<$O[:M$\nOlt@!t,GD%/pV=$4@1K$OdIC$N(;3$@W?i$4I7L$4@.I$4@4Ms8NK2!!3B+!Wir?#QPJ@$N^P<\"\nUG;5!W`E0$O-k;$3hIX!t>\\V&I]*d(_R`%,qCZ=;J:Q<H\"Bc92(TLd",
+        "J$OR7M$4R=M$jm=>\n$31D3$NLG2$3(>4$2t8i$qM$>$Od@N$jm=N%1a!]%h]Hi(`489,:\"NX+sJ-V,psr^+WVC6'GD",
+        "-7-%iPcm",
+        "+:LL-mBoQ-5n<Z0JkL8,q1;m.jlMg,9.^C+<;gS*?HIK-n-2a,Tn-Y/0u_o",
+        "D[\\u&J,K`\n$k3OOrX&i9$4.%G#RLD7!sf&8#lOuH\"U5,8\"U5/9#7(M=#7(S>#mU\\A$O@(H$OR4>$iLDD$OR4I\n$OR4K$OR4K#n%(G$N:>>$OI(E$4.\"E$4.\"Hr<``8$OI+J$Om\"B!=B56$5O!X$OR4K$OR7L$k!IN\n$4@4K$jm@L%/gS5$3pqG$4@7M$k*%A#7CqJ$47.J$N:E@$NL,2((:KP!>,;9!!<9&!=Sr/\"9J`7\n\"UtVE!!a2F#nI\">\"V_XV&I''t+s\\<[0JPCC;e_\\r_4J#`>\"CV",
+        "DnMN.Q8\\'*$c[J.kr1k/JoQO.537s/\n0QYo.4ZPc.4m2,1bpF//i5^Z:L9=L`J.J]3Ar]R2",
+        "I$4.%J$k!IO$jd4J$OI+H$OdFK$4.\"G#mq\"J$4@7N#mgtI$k!FO$O@1?$P<dT$OR:M\n#R^tG$4I:N$k!INr<iuB$4@:N$4[@L$4.(=$i^S6$jR%E$O[:L%1<(BrsXAb$k319&KVSm$jI(E\n\"q:nJ!so/3$3C>6#m^k@\"pc\"W\"q(MD\":GJJ",
+        ">G$OI1I#n%+H#n.7N#n.1K$O[@OrX8Z5r<rT5!\n\"Jo8rsSu=%LW^D$i^V=%L`dV%h/FH#7LtJ$k3RQ%/p\\C$k!CN$OR7L#mq+>$NUYCr<j5I$OR:L$\nk*IP$4.(I$O[:K$OltArsAc8$N:G5$qC[6$ig5.%grXP\"9ec*!s];=$3pP=!s\\i/!sSc-!\"0#7%\ng34>#6P#:&dA=L&fr,5\"q;7f*\\'-68OY`j,oI1=%0mLM#n-_Brs\\o3-j'MO\"99#F\"UkGP!!!l?#\nm^hI!tG\\=\"ptYL%h/L^&.SdF'b:fq%M/OF9G.O7&HDq?'bD8f('+sR%iHH$%2]TY\";;Ri&JY9P'\nb:la%hf`k%gW[T%NH,i',qYl(D-id*YKM,+<2.6-RpPd-R]fH*>TY6*\\%",
+        "*N]#&K(lm'*8.6\"r@dY'ab?a$3hIh!!F",
+        "BU\n\"Tn`3#7VIV.0pCu$P3m`!Z;7N&.0<^$OILa",
+        "Cp]]#SS7/-4p_7'+5Bj&/Pcg&pP,u*t&tn\"UGSS\"qD1P%h0-b'+Y`[\n&-<@R+;PJ&+;#>.(C(Wh%hBX",
+        ";4#6tG:#6b89\":529\"ptV@#m^nH$kjis%1<RQ\nE]\"48%1<RS$OmXX%hT<\\r=/l?%MAXM!t>YK%K6hI%hK?m.<;JM7NNBq-PR-g&-!1R%hK6^&.oNc%\nhT?`&J,Nc&J>`S&/5]e&eYcf&J5ll&fVT!(_mYq&eYlW&Ub3'&J,TTrrE3($k!.>$j-J9&-",
+        "<&LA\\0(CCoi*#/kc%flhI%13^c&N<&r*#etr#RqIa(\n_6TY%3Pul%MB[!0K^Qj*ZH@='c@c6*$5q1'-8G8",
+        "(UoS%K?bA$O@(G#7:eD\"pt87&depN#RL\\A\"pbA;#R:VA#R1M@rWs,C#mq%I$O[:P$k*FN\n$k3URrX1\"\\%1<OP%1<UR$k!IO%1EXQ$OR=Q%1Wsg384E2;B?Ja&If0X%K6e5%K?k9%K?hD$P!UR%\n1EXS%1<XE%fZt;%0-e8%1<OQ%LipY&k.0b%Li7E!=fY>%KHHI\"U>,0#65&2$j$G0\"TSN'#Qb/7%\ngE+=\"pt_C('4RN\"To&3%Kd\"@'a,!K$k3Xd(BapT*[DXW(^Uod%g3:N',q2c!<NQ8\";",
+        "g\\<*rd3?WK`_1bU@*\n+W_U?'GN50#mLY>#7(52!X/].rW<N0\"9\\l4\"U,,7\"U520\":tb@\"U5,7#R1S@$47\"H#mq\"<$5NjR\n#m^nF#mq%I$4@.J#mq\"I$OR1K$N:G5$5<^O$O[@P'.HI]:,<[t$k!CM$471=$60E\\$OR1F$OR7K\n#n%(H$47.K$k!IN$O[@N%1<O@$P*RP$k!Y^`=r^g$47.L$OltAs8RKT#65#2!=K2@\"U,DJ&IejC\n\"TeZ9%ho6M!sK2H%giRE$NUJ<%MfEj&fr#(*#TYJ*#^+B.6T.%-RKiP.N\\j&#S%=P#T4cm'+\"mJ\n&Him_!X'2P%1WaT'GM#]%N#ff*[",
+        "(q<*&eP]q#T+I*-7'lX+s/-I*[i!N,:b2l+Z1nr+Xncd*[iB]*%WEa-nI>*.P<M4\n1+tC8/1EA93'0,\\,t:<_3]K&^6:<mk3]8iP3]oJh4?>\\a4?5Pc4$>\\f6pNt*5=%R67\"%Nn5XIP!\n7n,d39MS;V8Ol694Z>A\\3'0,]2E!BN0JbC?2",
+        "27!W`Z8#Qt>:#Rh%?!!<?,'FYKR\n!!*9+\":>J@!X\\u2!X/o2%LEp\\\"UbJ:'ESFM\"U5n_&IoEY#S7FF!X/]8#65>S\";;:L!tPJI$NL/9\n#RCS6\"UPbF!!!3'!\"BY\\(aLt!//BHP'*o$W&/#QT#SIU[!!EoK$O_>(%hoQV'b1r^%fe$n*=<;o%\nMf6^#TG!,#pC",
+        ".kN\"t/1WV>5YPci5r^JT/\n0?,Q,U*s9+;Gh9*?l==",
+        "^!\"BGK#R^M1$j@%E$O6kG$O7(?$NGV~>\n\":GPC#n-_>rX8]4r<i]7%giU@$i^MO$4-tG#mptE#mq\"G#R_\"H$4@1I#mptE#71Y7$;:a5#mq\"E\n#RLeC#R:V@\"pkP@#6kA<#6b;;\"pG;;\":,>A$jmCO%M''^&JPus*?Z^[0KDNo<",
+        ".PNM/1HINU2E*HK/i+t-/Mo790IS:o*@`9\\,:Y#e>U:C8*$d$]+W;IL(*4G2(EXG7.45iH'\nF#Hd",
+        "S>r<EH2%1*:FrX&Q23=-*&%1WgW%hB6b'G_Q,+=/Hh1HIim6U*7d7S#X'0eFk$,9Ig?\n'b_",
+        "E$47%G#QtA;$4@.H$4I7L$47.L$O[f'%L`[N$4I4K$k*\"@\n$4@7M$OmIN$4@1LrX3EI$OR:M$47(H$k!FM$OdCP1(\"<o$jmCBrr`K,\"To,C%LE=@\"9f5@!t>>9\n$k*@M!<E0(!sT&7$P`aI#71J5$3^J<%14*s\"UkYG*X3Jb#Ug]%\":PDE'Fk<M'atKW&Hi@E$ka-]%\n64h,$P<LJ(*aG\"\"\"Zl-+W_@'(EOS@3']hd.NoNF*#Anh$lg5k$4I\\#+;,\"e'cn/4+;-@P",
+        ",UO9L(*G(J-5n]_+=SZg0deG!5\\R!A5<:AL0J4e.3\\Vj00J4du1GLpC\n.P<",
+        "CqH%&eG]k'FkN_(_mMl&K(f]&IApc(",
+        "EF\\X4!Q((,UXu\\.4ZPf.4?Ss-6jfes!'?I/L`&$\n,:G/j.5`_4.Olen-n?o(1GCU?1GCI?0JkUA1HRTS0f:mL2`3HS3]K/Z3&riTr]4sT1,h$J0f1aG\n0/,7>0JkF90dS>#1bpg=2CpC3/N51.-Rg8c,pju],pacY*[W3N",
+        "Fppc,UOZL",
+        "1c7*G1c@3Q3\n\\``V4$Pth4ZGMd3'mO+I7$7b7RTL05t41*6q9X777K^;6UaF57n-'?7nQEF8P;iR;,C%_:/4GR8\nPWMl:/+Va:eXJR9MJ,J6:XL676j+!3'TPk6:*[h2E*EO1H.!;0K(:/-mpc#.4Qeu/h&G\"-RBc\\+\n!MgT-5\\*U*t&l%",
+        "d;c6Ce\n;c-@h9hJ2R8PDfH6:4137n#d65!_S'4[;.p3Ai`Q.Pj%@48pc1/m0YQ.46f$+X\\Z_+s/?Z,ShUC\n*#]nG.LdOF'IFe>*XNMm,7t;,&HE1L'+\"X^%1EsZ!uN.''aklf",
+        "`=>.(`O>0#8n0f(`!Mf!\nt$(b%Mf6Z&I/^R#Rg\\@(]k0]$ig;3$O77S!sA`2$3^bC!Wi`1(`*Sc$5EOP!!ET0#7^hB#7CK]~>\n$O[@N%1<aU$OR=O%/1,7$4.%H#R^tIr<WH2rWskX#mgkD$k!@L#RUkD#RL_C#mptF\"UYPC$4-tG\n&M#:E#mgkB!rW<1#os3R!X/W-\"p>52\"ucel\"pYJB#mq%M%hTBf(",
+        "D\\&,*Y&A^&dKKg!\"p+X(ChSn&LJ_E5YEaF$lBNS!!E]:!##Y;\n!\"^\"]'b:o^$4?h8&HiFQ%MJel~>\nrsAf8$4?_>6ja;/$Od@N$O[:K$O[:L$4.\"H$OI.H#mUbC$47.I#m^hD$4.\"H$OR7K#m^eC#RLhF\n#nRFM$OI1W;H\"8=$4-tE#RUD7$O-b<#R1G;#RCY@#lY,\\$OdIS%M'*]&JQ$$.Nfo`/i#FO6UXL8\n92ekl<(T>80e4Xq*uPh/'+tcbrX9,A'FG0R$47(I$OZe<#7:bF$Od=I$N(/K#m^eC#R^nE#R:S@\n#RLeC$4.%G#n%%H$4@CQrX&W5rWs;H#RLeE#m^hD$4-tD#m^kE$4-tE#lP",
+        "9eZe^#mL_D&d&@I#mgqM'+4dB!\"KPC!!s",
+        "C#RUqI$k<XP$k3+C%LNRN$OdCL$k!FO$OdCMrX/r<$jm=J#mq%=$O7(J$Od@N$Om\"A\n\"Ub_H$k!LC$3gkH$47.J$N18<#71VA#RC_E#m^h9#r;no$k3UQ$k3XS%1<^Y&ePcm",
+        "L$4I:NrX/c9$46Y=#71_E$Od@O&H3%A$k!IM$k!L@$O@(I$4IB.4Uhi!$O[:N\n#n.1L$47.J$OZY:G74ie$4I@Q&?d#]$4@7N$OI4K$4@;<$k*+8!!NZ5!YGP:#QPJI\"pY;7#R(>9\n\"U,55$P3pP!<W<'$O[CJ&c`%:",
+        "FL1K*>oS*\n,7u%6'HIu$((hGm\"qMau%2TTZ\"s-2^*>KS'#R_LV\":t_J&I9+#(B=jc\"q(bG*!H<B!<Wr=\"9nu:\n#7M1DJ,~>\n!=K>8$O-qH$47.K%/^J6$k*%Ars8c8%1*IB$N^_E%/gP>$4I7L$4I:K$N(;3$N:G5$4[IR$4I:N\n$k!IM$k*IK$iUK",
+        "D@/b$iLM1$i^VO#n%1L\n$OdFO$4@4N%13LP$OnHp$k*IMr<rW4r<mWQs8NH?\"9o#8$P!OO!!!<0!=&c9\"VhIU\"98o;!!!<*\n$jR:C#R:><#65u49NFVC.hW!s\"U,86\"98N*\"UG\\P$OZq?*Zkap%13+>%0-SM",
+        "p4[(tk5=.P!4?u1u5!T$1?TL;23&ru\\4#f/R/hf(>2E<]W1GUsN2E*QP1G^^B2\nE*WS1G1I3/M/D$.4-Vt/M\\Ls-mToW*uu^P(EG4R(*+M=&fM*(4Zshr%O;r3&f2/c'F>Zf#oF9_%\nh9EV!$r6u'`\\FE!X0?\"-6Ej2$4$_D!X0PN%0uqG-Pcji(]agI%NbrYrW!6<#Qb#,#R(VMs*t~>\n!t>YG$N:D6$4Qk@!t5ME$2t>3$NCDl$OR7J$jm@I#mpqE#RLkE#6tM@$3phC#RC_B#RUkD#n%(H\n$4-tF$4$kC#RUhC\"pbJ@#6b88\"TAW*\"E=SG!s8Z0\"pYG>#R:VA$jd=N$4RIV&el",
+        "`\"2#%0HbA$31/;&IJmT\"\n;hIG!tQ\"N&I/8c~>\n!t5PE$N:D6$4Qk@((:NX#n%+L$OR7J#mq\"I#n..K#mgqEr<`K0-OC%b$4$qE#RLeC#RUnF#n%%I\n$47(I$OI(F#RUkE#6tMA#6tG<\"oJW*#6+o9#RLhG$k!IO$jmCPrXLRm%h]Ql(`4;;,:kN/5\"A4D\nB5CUE=A_RW4#8N?,p=0E(DRPp&.T*W%1N[R$jd7=$i^M9$OI(F$N:A3$4@.G#RUeA#mghB#R^P:%\n0d(C#m^eE$4.\"H$OR4=$3geD$4-tF$N:>>$4$tE#RLbA#n'92rX&T1rWri<#mgqG$OR1Ir<`H1!\n\"&Q1rsJf6q[3E>%K6_8$N(8<$k!@K$4@.H%L`7C$k!CArsAf3!!*0*#6k",
+        "(^ut+;cI=\n*\"WSr&ec?#,9e$D&fVr:,UFKY-R1#\\*[<!T-m^5k1FOe&/0QSn/2/V.0eb:;0f(L<0/bXI2_d-C\n2`<NQ3BB/\\4?GG]4ZbYc3]fJe5<hIs4$kqh4Ztto5s[h#5<_=u5s7L44(1003B0,]3&`TI2EODj\n4utbb2`3<J1G^dD1cRHM2",
+        ",Xi&/#<T\n!t>bI%gE\"E*\"Nkp$NpG8#6PM;%i,Nc$lL3\"!tPVN&Hia`',(lm%Nd,;",
+        "K$jlt6#m152!!30,!<WT1\n'`nF?!sAi7!X/f@!sAc-%N#`c%LE1E&dA[b-oO=c8N&.6&ebQ\\$NLD>%LW[F#9Epc#o*^V$QTZZ\n#nR7R$j?b;!\"TJL&I&XN(^^Ze&.AIJEt/`n!Z",
+        "P@$4.+I#R1P?r<Wl:#6tSA\n#RLeB\"pP>>rWrN1!<r`+#6\"c.#6P#0rWHI0$ORXe(_I5f$OmLV&.K0_&el3&+XAHh3'Tl/?tse6\nKn4AW=A2+C0e=[p",
+        "0./_/,V:W/0/baQ3AiWO3]o_p4>f;g5!hM(6:F=891qiH9hJ/[92//_=BJR$92S\\j\n=B8L,=]\\^-='Jp5?XI;RB4YR]@q0(\\B4PUfBP1mhD.m[&Df0B/EGoc#E,ff<Ecc;>BP;4#Df0H-\nBk1RV>?b99<E!\"%<(p+e;c67`7n?3<5X.P!5taO18j,-q3]/cU2D[$B.4m&",
+        "`jJ.(*+G.*sE\\i&\neu3%'G_Ml$3^hP%M8sR&chn=0F&.##SR@M!=o;A&.T$M\"UY_L\"UtV<!Y5bU$31S<'EepV#QP85!\nrr<:#lkM>!WRZ~>\n$4@1J$OR4K$4@:OrX/c5#mpS=!\"&W4rX&l=$4.%H#mgt;$2t/D#m^eC#mUY?#m^_=#m^kE#m^hD\n#lY#A#RLeE#RCY@#6kA<#mU_A\"pY;7rWRKJ\"p\"l/\"9eo8&KWn_*YAhi%1NdW&J,Wl(E+><-7Ui9\n8m#YEF+]+",
+        "9Y$4@:Brt,V=#6=i/#R(82\":5,:\n&.SgC\"pc1[$P3FJ\"onc5!X/W/#724a$jZhQ$jHt>!sAW/!!rr=#mLA1\"9o25%1WIJ\"q_4C!\"0&=\n$P!1M(CpoZ',2#j!rrfQ$lT?e'`\\gM$OI^b#S7XZ&HiCS%3,li",
+        "(pcV%ho`l'`\\aE!XoP\\'ab]]&.f-R%i>]Y*u5@m#SIIL\":bG9!W`E,#nR:>\n!!iT*!\"0;=!!*%L~>\nrsSi6!\"8c4p'^m-rsSi8rsAf8#RLD:$4-tE$4-tE$4-tFrWii;#71YA#m:M@$46\\;rs9VK#mL\\A\n#7(M>$O$b=#7(J=#Qt;8!sf&7!sAi-!_*7n\"pkYK(EFJ1&.K-[%LWdZ&ec'!*$6OZ1-J$$?#jt1\nVNQUF>uO3X2D?L(*uu43'+b]_#R(G9\"pY>>$OI(G%1*7G$N:;]\"9o&4#6kA8\"U+o/!sJo6#mpnB\n#m^kE$4.\"I$4$tH$47(G#71YA#mgqCrX'eT#RCV:!XAu;#mUV;#7(P@#m^kD$4-qD#RCbE#n%.Z\n$N:D6%13\"@\"q(bF$OI",
+        "BbB`&-3:B%0dCL',(`t\n#pC-*((1ET'b_;j\";",
+        "Hr!WN5&.JsU$Od@M$OdIO$O[:M$OZkArsK,A-41+g$47.J$iUS7$3CVB%/pS5%/pY7$j[1K\n$k!IO&028Z$Q9H^&If$T$4R@M$OdIP$OR4K$4I4L$4@1J$iUJ<$OZq6!sJl5rW7!<#QP28!!*N4\n$3LP6$NL;;!WW`<!=]G@$O$nF%0-A8#mUG1\":5AB!##>4&I8XK%L3+L\"r@[Q!>P\\D\";1nO&I9Ha\n*#9J0$jHqI$kisJ%0dCT$l0ct\":#8D(`Neu(_Him&IoKb,o-t4((Uq'*Zu^V$Pt!-",
+        "0f(O@4\"rTM2E!EP3&`l\\4Zb_f4[21p4[21u6UsO46\nUF427nH9E7nQ<E9M8&P8k_oM91r#N91hiI7n,p76UF\"#5<h:l2_Zj@3Boht6pa0<6#K+Y5X7Ut4\n$5bl5!(bb3]&cO1+P%31G(=6/hAJ&-n-Vo/0u;^+sJ-Q*[r$L+;58#*Z5tT,7kS,'+#?e+Vb\\%$\n6g-#",
+        "2`!-D1cdld7/fPc6:F:06pa1",
+        "B/2/h&(g*#TD'&.K*\\%h/sU$OR7M$P!OM#mLbG#RCVA#R1J<\n#mgqH$4$h?\"UGA4#mgtF$47%C#mge?r<FAO#6kA9\"pP;?$OHk9\"pbG=#R:YB#7(M>\"pY>;\"U=r2\n'*ngH#R:P;$4$qG$4$nF$4@4K%/gPC#n@:K$4@.J#7:hG$46\\=9FVC=$47.Hs8NB4&-E+B$NgA5\n!\"oYC%0-A/#R^kC\"p5GR%grs\\\"TSW/&-`RJ#8@da\"9Ji9#7:G2\"9Jl0&I]$Q',(oi%KH_;!<HpG\n",
+        "CLgA8L\"?Q+<Ma@+s.^A<#-`!.3fTP/KPcU",
+        "SC#pC",
+        "K7nr5LPCV?Mi!:LOc#$SN/s0iR[fk2N/j'eOGegDH$ORSFE;J@EGfN",
+        "\\E+;,>*(D@bp'a4[V\"<\\im*Z5M/&0Vi1(_//C+=J3T/1i;#-8-nu,q:>l1G17;0\n/P=93(5qg4>o2^5W_D#5t\"%*5XRt37n69L9N\"V[;HI.(=]np4>74V=?X.",
+        "<D#P91+an#*ul+4',CKY*=i_n%1NjX%1<OT'+G?U$O[.D#R:bN\n'GD&d#mC_9#mUY@#RUkC#RUG8(^^KQ\"p>,<$4@7K#m^\\:#6kG?#mpqB#7(54&Hi=C#7(_B#RCYB\n$3pkD$4.+>#m1M@#71;:$OR1J$47.I$47\"G#lP,8$4.%F$4.\":$<7K6rtH.J!!N?'!sf59!<<*",
+        "4<PCR\";M.S%1*mW#os3e#8djc",
+        "1H[EN2\n`!HS2E<fZ4$>hmr]^KK4@DI66nLu'9285Y;bpCp<ENXA?sR,J?XdMVB4tsoD/=*0EcQ8EG'SCXI\n=-EkIXcm!re19'rdo3AI=-HlJ:iDsBjtgsF`qtOG'7tJEGfZ1CMRQp@qK.U?<gT9=]e[(;,U4f;\n+XJU8l/5P6U=+",
+        "S6#mLY?#mpqE#Q=u/#6\"o.#n[FJ#R1J:#71Y@#7(YD#mq(MrXLgt'+tom\n'c.]+*$6IS/i>aX9j(nAF`(&RI$B\\;D-^%25rpqW.4HJ_*?5n5(D[]!',(uk&JG'SrX]#<!tYnM%\nK6bS$Od@N#mgqE#7:eC#R:VA#RLeC$4-tD#m^h9$3(A4#m1MB$46\\=!\"&W3I0g5d#mgtH#mgkC$\nOI(C#71\\B$4$qD#mgkD#RUkE$OR4K$jm=M$4@4K$4@:P$OR7R$47.J#mptG$NL,1\"9Ai4!XoAD(\n(LNK\"p4u.!!3<,#m:A8!s/H-%KHJ?\"pb\\F!=]5B\"9]hI!Y,VJ&.B$P\"UZ\"T!sJZ7%giYZ$k<ma'\n,28`#S7CM&If`o&/#`l#oali(_@]%(_%90#TX",
+        "`aS=,q(B'4@DV,9hIZ.7UB\\0<(oV@2",
+        "O\":>eV!!*''&Hi1F('FUO'E\\=C#m^h;!!EuF!X0Jb!!!T7'`n@:'*nUG#TX$J!\nXK",
+        "(hT\"(`O2,.k_n`+rhF=(aC4F*$H1A-RL&p/hRhl/g;tq.Prn0/M&bcYBrMn4ZG5Wr\n]^?J,=Opc6pO:19M.rR;,C%d<E<4'?!CWD?t3YU@qB:gCMn'0EW1+\\G9qTeOG8=<KS>/9Ll%\"HM\ni!:JMi*=GL4b5<N/N1%AnGq*I=?Tnrd8s=H$FIREc,]0C2@Hi@prbO>Zk02>uFNr:Jak`9M/",
+        "S?#mCM;\"U>59!X8o8#mUV<!XB#=\"pkM<#QtD<\"pkPA#6kM?\"\n:#/<\"U5AB$3pk@$4.(H#RChJ$O[7H#n%.M$4@4K$OI+F#mgtH#mptF%1<LP$4Hn6#n-q<rs0&6#\npC&k#6keU%1<7?$N:'K',1iW\"pbYI!<a5V!!<B,$k3[^$3gqN!tPA3&dedW%0[UZ$O6_:\"!RdN%\nLraU&d0-`&HN1G(**kt",
+        "A4$3(>?#mpqF$4$qD#RUhEr<`K2!\"&N0!\"&W3\n#RM(n$O[:N$4QnArsAu=$k!@L$4@7>$>p.Y$4@:Os8N'!!=]#/\"U,2:$jH\\4\"98W+!<a#J$3CGC\n#m(/=#7_=G!\"8i2#Sn*n!!*B5\"TSo2#R^hC&K;?\"\":Z4N'GV#f(^L*M\":>_d(DJAI#QOi:$PX?d\n2('1W,8qpC+rhmJ",
+        "Z?t'%Bs'HID<\n`E!t=&;=D/MT1N7o*,f=B\\a.r`9n8<E2sp:/=PW91_WF6Ua=.5X7V\"5s@F13.EqL3B8rW5Z0[\"1\nbC+0/hJCr-RC,p.Ocbh+Y\"WR*$cCG*#TeF*>TFk*ZlC:&K;Z/(C1T`(D.>q\"pu7W$5!aJ&.8pX\"\n98]9&/?/u\"W.OZ'+b``%i,]W!#,J<$NL/5!<``?\"oo,B!!396&I8UA!\"fA:!WW?3#R:G:#mgP9\"\n98N",
+        "H??t*PSAnYjmBP;*qC2%EsB\nkM'iA6iDA;GBbD/hf7L5tFdP=^PND@:<MK>?Y-1=&`0u:f:\"^?VF0d845a46U3q$4?GPc3B&rT2\n",
+        "_dS_'F4aF!\n!ic;'*\\mY&c[@~>\n&J,EZ$OdCO$jm@M$4I@P$OdFB$5EsV$O[7J$OR7M$O[@N$4RIQ$OR4KrX&`5#n%+>#o3aP#RC_B\n#71Y@#m^b@#R:M<$O?tC#lOuJ#RUeB#RLb@#m^_@#RLbA#71\\A#mgkC#m^hC#Q>$%#71_E$OdFS%\nhTEh'cJ&6,:=ur2a0]-AmA_M>#84\"C6G-^PCmmmBk:IF9LV'$0.J:p,9\\*K",
+        "(^fX\"p\"f4'EJ:?#R;.K&./CA!s]DG$Q'-L!=&c<%h/XA\"\nooPc\"p\"]-\":>/=\":>*Y~>\n\"Ub_F$474?$i^Pb#n%4L$jm@M#mq%K$OR1I#mq%K$OdFN#mq(L$OI.I&e#'Q#RCbD#mUb@#lY&<\n\"9f#:#R(G<#R1J=\"9n`.!<i],#QFu?#7(P?\"U>27#6tD9\"9nr3\"pOo,70N_o\"9\\f0!sSu;#mUnM\n&/,is",
+        "KEG]Q/Anbmh@pWGF>Zb$';uKO4\n:JF8L853&U5\".e(6:=!u4>f2X0ePC=2",
+        "'\"aC#7(SF&\n.f<]!=f2@&fC`N$NLSD\"TNu~>\n!=K55$P<dT$jmCN$4@1P$O[:M$4@1Kr<a5I$O[@N$jm@L$4I=M#mgtR'FP6SrX&f8%hApN$2t23\n#mL\\7#m1G<#6t,3rrrN0#R:55&-iLJ#S@XS#mU\\>#R:V>\"pb#2\"pYD>\"pYD>rX&T457A#3%hTHi\n(",
+        "]XJi\"jTU_F:P`UodN.lq:J:N&nG]\\\"HDf09'C2ITo?XI2D>$\"Tt;bg(]92J/J7\n7]p>5Wq=q5=Rst4Y\\ZR6S^\\R1ase&-nQbo/0lDi-m]]Y0fi'?>[pc",
+        "'\"[R'+>?Z!!=2D\"V1hI!\"Au8\"!%sa%LWsN&IK-\\$6'K]#6l\"W%KI@d#nR[Y+\n:Shl%3cu1#6ktW+!21/",
+        "\nCCTO!!XS^1]\\Eo'*eaM!=K8@\"99#9$l/mG.NT!+!s];>'a\"L;\"onlF!\"T&M#7h%I#7MUf&Hi(7$\n4[:C\":,D?!rrW,J,~>\nrX'GN$k!CL$OR4K$4@1J#n%+J%1<ON$O[=?$P*RR#mq(K$4I=N$4.%J$4?b=rsAl7#7(SBr<XhW\n#6kG?#RCS>#7(S>\"p>",
+        "C!<EH3&Hi(F+pJ#g'aFsY%i#is!#ZL^&e>9k(",
+        "4p>$G?>@:WkZBk_F%DfKlCH$XjfJ:iN1MN!UZQ(+>;V5gW%[^s5nbg\",3PC.kBU91]*Y\nH4[uTq7^=PE:c]LP1;2J:2`hGB@kEDf'3&An>L\\?X6i>='/I!;Z9Jt92&#G7nQ9<r'5R!;*$`t3\n'92X1,(@2/N,(-0dA+n.j?Gf-6XWY*Z61C1+Y+1.3KQX,pX`B.iT--*[DL-*=3/a!!j5U+:f;$\"\nqM:U$P3CK!YYVF!!N]D%KHP4!u:tN'FPT\\'`\\OI!tke@$31",
+        "hi4ZYS_3&WlY1+t=8/\nMJn-.k2qn,;:bu,9J$R0-;\\o,TdmG(*3r'*?6%3((^ip,pj-.#Rh4`(]P+M$O@:V%LN@P%N5<Z$\nO@.O'+PQ`%1EdJ\";",
+        "84Q0C8\n4uQK9hnVc=BAa2?!h&XC1_0oCi4-3Fa&%UI\"$TuL5(PCO-5csStMgUXKSt@^;RaeNHTB#S$0WH^\nUpqYXJhqfS=#V+O,SsNKS\"]$H?j[WF",
+        "5\"R^r\n3^#WR2_?^6/gWA2/0ZJq/2Jb\".NU2t,:t8k-PR+2.h3C:+!VdF+qPD*#o!m^'cS&0(_dT&*u,n%%\nOVi0',:]O%h]Qf#RpbA%LraN\"U>>A#RqIb$31eL\"pP2D'ET'W\"UGMD!!`fC\"p58L'F>'G#6kS@'\nbCHP!X&f2s*t~>\n\"Ub_G$4@:A$O7+K$OR4L$4Hh?rsT,?%1N[Q$474?$O-nF('t<S$iUJc$OI1K#mq%J#m^nF$5j0W\n$4.(I$Od:I#R:V?#RLbA#7(SA\"pYD>#mU\\@#6tS7#lY,?$4-qD#mq(K$p+h'#mpt;#m:VC$OdIC%\nf[%r&JPoo(`XYD.4m>;5tb0bDL%,-W2>u=@U?PCs8VuEZ_*>-Bj=M(4>noD,pFBY*#B>('`J[",
+        "*`Y`rWsJM$O[@M#n..J$jd=M$4I:L$OR7J$OR1H$4?_>s8W*%HiaBf!!*9-#6Y/0\n!soA9\":ttS#7(J@#SRgN!Y#P?%2f-V&e>?R#n81!0-(la73`Q`'aG0`&g.;o-P?Y,'dbq44Z4r7\n*#TM%",
+        "[F2CpC20IS=r.\nk2qo,Tn<W+W_UG,97sG'-Jq\\(",
+        "JE,9E.C2%6g@UWPI>$b<3<E2mm:In2N8Ol*85=@b&4#o>$1_Dc.1HI?H2`*-C0\nfLmA.PrS*r[;_<00LX!.NTHK*@2[P#oY0=",
+        "IA3^5P]5!V.h5<D%p5XIh.8khiK9MeD^<`E7,\n>$PBD?tEtaC2Rp/EHcq\\H@:3lJV8f:N/s'`PaIr4TqeB[SVhTAQD(:][^ilS['$I-V4sQNR?a\"t\nNJWICK7JArG^\"=PEG]H*BP(je@pi\\L>$5'2;c6Rk:]=",
+        "@9c\n-n'Qm.Pr4f+<2gU.PN\\./1E8\"/0Zf(1c6mB2_[*N4Zbbf6UF(+7Rfa::eaSY;,^Ip=Ar7(@:<bZ\nAS5^kCi=?8G'8+VI=6^#LQ.=SP*D?&SY;aPVm*P9\\%BDqcI^k-jRDd5mcWTbe^;Xa`PT=![^30=\nW26/YS=5e/OcPP&Mf\"3#Isl]kH['XSDf9K-BP1pc?<g`9=BS^-<**0q9M.fD7R]s=5s[_%5s.1j\n01%l`1,q9M1b^=3.PWJ+0-25P.kE+k-R'TS+uL8N+\"S]X+X%U;",
+        "\n(gcS\"VhIH&H`.A$4[7@%3lAk&IT'Y$P!^U(**bn'*ega*=35b",
+        "0\n.\\M%.jcPc+snTQ.4?Mm&,dDQ(b$aF(",
+        ">$+p8@\nUihWBkhI&E-$#>Fa8C_JV/T1MMm@QP*D<%S=cLPXgPdMY-c![,/M\"'['HsBYHG%1XJr.rV50iWS\n=>q5Q'7AmNJi^NK7\\Z'rd0$:G'.hHE,KH,B4PL]ART%K=&r:#:JFV]:J4>O84H!568h+r3C?%o6\nTHqV1b:RA3BA]F2D-g/.jR/-,U+BW-n$8Q+;5t=",
+        "'jK7nr6MhuapAnuO@Ll%\"JNK=(!'p\"B7N/NUOLPCS<K7\\T$H[C$_G\n&q[&D[gQ!B4bdgA7T.U?<g`=r`F;C;Gp7c8lAV_9h@Q85=.P#5X@Cl3A`cN2EN]R0J+q+.PrCo+\n\"&Wg-mp2h+<_OM",
+        "]X^?%LWOI&-rLH&eP6S!WW6.\"9]SI!!!E1!!!?+#m:>5$jHtC!!3KB#65/E!\n!*'*\":P6[~>\n!=TP=$3CJ@#lY/5$OR4LrX1Cg$4@4K$jm@N$4@4K$jmCN$k!FM$4@+J#RUqG$OR7K#mLYA\"pbJ@\n#n%+I$4-tEr<N?.I0g#^#RLeB\":5/:#m:J;\"pY;9#7(M>\"UG>;#6k;9\"pbG@$4$kC\"U55=\"pbPC\n#mUbA$O@%F$k3XU&eGZn(",
+        "B=mC\"Xk-\"&f:cX!tbhB%LidY!rr`8*!ll]%0?\\?!\"BDE\"onf3!!!96!<WW,&JPHM\":Q\"K#\nm^\\G\"sYSu$j$qD\"9AIP~>\n#7D4S$jm=L$iUJ@#n%(J$OdCL$OR4Kr<iN4'ab?W$4@4I$4.\"H#mq\"G$4.\"G#RLe9$4$nE#mgkD\n$4.+>$3geB#m^eC#lY,5#RLbB$2t0M#RL\\>#7(M<#R:S=#R(D9#6b8:#RLhD#RLhE#7(S?\"pbPC\n$k!=J$OdFR%1EUU&KT^F(",
+        "_.N\"#n%F\\%M]]o%Ls3X!<`]5(^'t3-lF$2\n!!a,N!\"B#D#RLhF$jmCG#RLk?#87=H#QP2=&Hi4B#7",
+        "`!r%$lfcf$ig_N*![,c\n!tteC*=3Sq!>,qO$NpV5$53[K!<j/J#o!UE&HWFO&H`1S!!*H4!!\"&C!>#hI$3183\"qLkD&I/RJ\n!=f29!<<*&'+>*T\"9JK%!<rLR~>\nrsJl8$OcqB\"pkYE$4.+KrX'JM$k!CM$OI1I$4@:N$k!FM$OR7K$O[7KrX/T1%gWLM$k*LL$jd4I\n$5PK+#Q>#N#R:VA#71YA$4$qE#R1SA\"pP><#6k>:#RL\\?\"pYD4\"rRXM#7(V?#m^eC#RLeE#mUhG\n$k3OP$4I=NrXJi:rY%F0(`FA:,UkN15XnCF>@hSdE,o,K4$QJKNK&F",
+        "YB$47%E$4-tG#n$tG$k3URq[3];$OI.H$OR7L$N(;3s*kS\"%MAdL$O.=R\"!.gb$j$P=&029#\n#71tR\"p>Pc#T+6\\%gE7['F5*W%gEIC%MT[$$P3gY%074^+r(b4(DR`(,T@aP",
+        "+t4*A&f(lo&K2E#&Hi7F!\"'/D%Mog('H72o((Cuo!\n!!-,&-igS!#c%F!YPS<!\"]J;#S@FK$3ge=!=B,5#lt;:',",
+        "Dn,6+s\\`o2*F5q:K1Y+A7\\S%/j`*GMjAd.@oc5h4>JT>,T[pC\n(_mYq%hK9ki>N16$OR4H$4$tG#m^hE#71_9#7h(I#mL\\C#RUkD#m^eC#6k&1rs&Q1$2k",
+        "M!WrT-#lt#5#7:b;%1`F@#QY,0!!N?'!s]#;\n\"TSQ'%K[%>\"p#A@\"93l~>\n$4@7N#n%.K$4@7Or<rW6*=E2^%13FM$4I7L$jm@M$jmCN$4@1K$4I:N$O[FC$NCJO$4@1K$4@4K\n&KVAg$4I@O$OI.J$4@4M$Ocq@,mt%f$4.(I$4@7L$4I:L$4.\"G#RLeB#mq%I$O7\"J*\"Nts#mq(>%\n0$b?$k!LR$k3(F>7_;V&ePcl'c.c/+!rBe0f:pQ5Xe%075?83.P*qjBin/%5r^YR-R^,Z",
+        "./LW.g+<qO@$5Fg%+q>+t\":tnA%0d[O\"X4Q_!tbe>#\n7h4T#T!LR&I8dG\"98Z9$k3dO\":#VK-nuDC$3q4Z#R(J=%L*.A$N^D9!tktK#R(;5&Hi@C\":Y>4!\n!WT1!WiH,!sJr0J,~>\nrsK8E$4I:M$k!CM$4.%H%/pV7%/pV:$4@4Mr<i]7$k!F>$NLP5$iUM4$Npk[r#-\"B$NCM5$j$bB\n#l4lB#RLbD$4.%F#m^hC#mgqE#mgkE#lY/0#65&/\"o\\f-$3(;2$<7?=#RLhF$O[:I$O[IS$k3XW%\nhB3^&.oQi(`+",
+        "C'GM/f*\"<kp#Rq\"I#7qOd(CpN`&eYBc'+Z&u+;$.R#pCZ/\"Ulk#-PS0N,8:h=/Lhqf+t\"HR,\n:=6L/1rJ'.l947.jcc+0f:gZ3A2p=6:3t\"4$>ej5\"e@;852]N8kVuZ>?P!+>$,':?=72NAS5UiC\nM[d(F",
+        "dr_@W28PMiM8PMfK8\nP2ND91;985<qFt5!:kb3]T2V0JPCC3AN<F1bUO3-n6bm.5EG'-S-Di,p=cd+r2@H-7L>e,S_%8&\n/YZn*$#Y+'GV</&f2-",
+        "(2&j#7^nP'Fbui$OmUS%\n2T$L&cij\\!=&r:#S$kJ!!il;!\"05A!!<3&!\"C(Y%1NC>!$VRJ&.J[M#QOo2!<`E/'aOjF%1*7D\"\nUPG;$4%\"G!!<lJs*t~>\n#7:hI$jm:J$iLG2$ip_Eq[<E2!=9/1$4%\"H$OmFN$OdFB%0$\\;$4@1KrX/Z5$OR.H#RUkE$4$qE\n#Q>#2#R:V6#m(G?$N:>;#R:YA#mU_B$2k-Z#m^b?\"UG89#6tG<#6kG>#m^hC$O[@M$4.%I$OdFQ\n$k3RQ%1WmZ&.oNe(",
+        "hI\n#o\"-X!tPPA$N^M7\"rRsi!s]AC'd!Z!$PigT%L*pc&/uQ2+sdp=(`OP=(`OG8$6:6/",
+        "^M'$(_Zl^$3187%hTTY!rr`9$3UK'#7(qI\n*Y\\e[&e4pC!!Wr<!!!3'\"9AlG2#maZ$PNL?\"q1M<\";;\"K!!!$+!s\\r/!WWE*!!iQ,!Y#A?%131=\n!X'&B!!!6-&-%.~>\n(^^WY#n%.K$4@7N$4.\"H$47.J$O[@M#n$Y>#RUqH$O$nH$OZk@!\"Ac4'FY?V$O[7I$4@.J$47%H\n#n%(I$OZk>rX&i5#RLeF#R:87!\"/]3#R^h@\"U>8>#6t/6<Wr^3#RLbA#RC_B#mU_A$O6qE$4I7L\n$jR+H$OmOR%LEOP%1`sX%M03`'+bci'c%c,",
+        "AJ0/bXJ3@us;1*%`!0I\\ka=>MBR\n,:FWW(*PC^.4K!Z0-`\"t*\\K9,5>l*1FCeNB3@Q[3+;PRr",
+        "VV&IA[K#RLeB#mghD'+G9V$4I=@$kE^Q%LNRO$471J$k!FQ&IJFDIgc\\ls8N9(#7_[n%KH\\7!\n=9/J$4-h?#mM1X$OmFU#T\"$Q&-*1V$k*[_#nRXX&eQ021(Y3?&IK6b*Yp(I=.>pu7P#l.+W_(2+\nXeHX+WMUT/L;Y_-m^<&1GCLA2D@$N1,:jK4ubYp6q'R66UaR:91hoT;c6Xs>$P$0>5r\"0@0pCQA\nS5guF*",
+        "E*_q&-rIN#R_%V\n\"oni-%1`LE'HIVi&Ie^R#6Y;F\"oo3;>U(+#%icSi'IOtL6u(c6F$Cfm.O#cN,8DR[-R'oP*[!*c\n*@N9Z.k",
+        "(:Et$O-qS%1N=K%L34C*X_uR!<<*3%1*:A!\"]PC\n&-N1=%h0U.+;+e`$2t8d$O?b;$4RRQ#6G2=!rrH6!Wru7!XT>:!=f",
+        ";LLDJsH8\nGlE\"5Df^2MGBS1SF`MMDEH6,@EH,r9D/X</DJj<+C2@WtB4PcVBKTp=A7T:_@q/nP>?tK>>$P34\n<*<:%<`Dpo;GTn[;G9\\R7S#j;8ju'15\"7b#5<qFq/itsX7klhN-nm>q.5i\\$+=8Qc/4hHQ-QXWb\n+\"J<Q+Wh:,\"s+U\"&f;-1/gN:o.k_qq/gVbj,82(>&0Vhu*\"r].&-NUP$PX0i\"U>A@$k*LF%3,fW\n\":5;?&.]<U',3$-_66uk%0d%A$5WgQ$NpnG\"UkMD!!iZ0\"TSNE!<<E5!Y>bA#8@aV$ka!Q!s\\f4\n!=K5=%2'$K!WrH&J,~>\n&df$S$OR:M$47.L%1ERO$OR7MrX/u=#mq%J#mgqFr<a/F$47(G$O[:L$jmCM$jmCL#n",
+        "i$k*LR$k3[F$uZL^$4@4M%1EXErs]29#R:G7,Rskr%K[.L$3pnL\n\":kbJ&HiXO#Qt>5!\"02>#mphH'ET'c$k*UR&doct",
+        ";bpCl\n;GBeV9iF_X84c<A84c<66:!b-AkYoq;GTSD2`WQJ1GL^F0.f(?/1<;.*?m!`+\"JN`.4$2U,TI.5\n.ju>X1",
+        "E*J^IKU,o%L`gL'+tKT+<(@h$k3pc&JZ",
+        "V@#71hI$4@1Z(EFYA(`Nnm$k!@L&/#H]$2b/u#mq\"I$OR:Ars]5C#Qb#9#7:\\>%\nLiLO$ka*j&d8jI!#QIb((:ck!!<uZ&c_nE$5F3u'H[l%*X`Dk\"r7pq*tf_6rZEL3*>0S8'HnJ?,\npt;s1HB",
+        "5=@k/8k_uT+\\bL$;,URp='f0=@p`h^B4u$sC2[m(D.mTq\n@qB%QART!G?=[8?>$P36=^,69='/X0>?4m0>Zk31<E<7&;bp4d:Jakc9L_TUBQe,m:.I`G8khiD\n6pF+15=%J!4Z>D]1--sD3_qRd0ekOD0Io\";/hJ2#0-;/]-70cY0.eIl,;(5Z+\"/OK'+c",
+        "%M(Fp1G-RX-S,ShI;$P+6m",
+        ">5#6>29#7D\"?!##JD#QOu4#9!pL!=B58\n#652A%f_%~>\n\"UPPC$k!LA$P!LP$4.\"I$471L$4@:P$N:D8$k\"Epq$R97$OI4?$4RCQ$k*LN$O[CQ$Od@MrXAc6\n!XK/@r<iZ8%1E(@",
+        "+\"&0V+;l.5*uc.p*ZHIM*$cmN\n-m9l\\-m1&e.4m&#0M*rP0/,(50J+t50Jk[H3&ENQ4?>>W2`Wl[2_m'A2E3]X3BfPh5sRUr5<V%p\n4[D:o6U!Il4Zk_cr]C6B4Z`R&+uV;81c@3L2D['C1,LdG0eP.41,Ld>-S.,82^L@7.5*8",
+        "D\":G54#QFcJ!s\\i0$31PA$j-nD&J,T\\!tH(Y%\nL3^O&ci@@#m(PC\"qCT_~>\nrX/i8$4I:Mr=&]6!t#>A$N:G4$31J5$jd7L$k3RO$Od=Kr!N]9$OI1J#n-\\=#n%(K$Od@L#mq%=\n#ltAArWri9#mptG#mgkCrWrl<#mptF$4.\"G$N:>6$4.\"Gq?R'+rWs/A#m^eA#RCbD#R:S?\"pbPC\n$2t86#mq+LrWrW5$jutArs\\o:2@L$&%1N^U&.T<f'c.c1,:4lr4$c.p6p3%L.lB[^3]8W?,p=<J\n(D[`!&J5N`%h/mU#n.1Jr<WE.%gWII#6tG=#R:VB#RLeC$2t2A#m^kE#m^hD$4.\"E#m^hC#lP&M\n#7(P@#7(SB#RLbC#mq%G#mptF$4%\"H#n%.N$",
+        "B+pc&.]<^%1N^R%LW[Q$jd1F#mq\"I$k!=J#m^hDrX/Z5!=B56$4mRP$k!FL$O[@O$OR7K\n$O[=?$QKH[#n%%H$4I7L$4@1L%13LQ$O[@N%1EXT%1N^E%;Q:Z$P!UR%0->=#64f.!<N9/&H`(D\n(`!/]!\"'AG#m:eO\":c%\\\"98c@$47=J",
+        "EFPC\n*Zu+D(Ej_B*#ohC*[W*`/Li.t.P3D:.OmM11GU[B0J5182",
+        "D?cV!!`f3#R^_B'+Pcf\n",
+        "8No4&4$,Jj91:j*\n4Y\\lM1HI6S7pSSC.O-/c0/5OJ0HMMf,pF]f+Wr*D/MJ4m",
+        "`<ep!rrT/\n$jZn>!\"8i;!=&`8\"UbA:rW!0*#R(8C!!*N-!\"',E\"V;UU!rrE-!r`E;#S[:A\"9SW.\"UP5=!WrW.\n\":\"mV~>\n!\"8c5!\"Ai7rXA`5!t5kO$iUJ=$OR4I$O[@M$iUS7$3:PCrX9&?%1E[T$O[:Lr<rf9$k*LPrX&`6\n$4@:@$NpeF$OdFB$j-hE$Om\"B\":>MD$4Hh?\"q(bH$O[COrX'\\S$4.\"H$4I=M#mq%J$4.(K$47(H\n#mpqE$4@1I$k3+Cr!`Q4\"V(tO%1WgF%870?%1j!Y%M9Bn3?0.c,:G,s1G^='+X&En0eFh%-6F3F\n(DRSu&.K*[$k!FO%1WgS$OR1J#m^hC$4-tD$4.%G$47(H$4@1K$OR7?$S2Sk$4.%J$4.%H$O[:L\n$O",
+        "!<EE:,>ub-1=]/-t<EE-r91r#T;,0nW77L!B8O,L/6:=C66:*k&5XI\\\"3^-;:\n6TdOh5!(ea1b^aV?:6@q,qCDr3[?=0.j6Vh,pOT[+t5,e+>\"`f&0`SX*u\"l*.3K]C.3]BJ$S3#A\n2f6+KMHi\"h(De>>#n7.W(CLNi(",
+        "5XRh%5!;%n3&`TN2*!ZY76idg2_I'I1bUU:\n/N63U,:b/n-RU_k-RgPh0-DPc,:=]^.396I.1d^J-ls?>-6!s>'-J/'*>0h7/N7(LgkSZV+;u(.\n&d\\mQ*>An_%i#Zd$jR:Q!=TJ=\"9^%Z%1EUF&-`4=\"qCVG\"U,MK&I9*O#7qa^\"U#ME$4@\"B!<rf@\n!!W?%2ZX6i!WW?(\"9T/A#6>&2$4-nJ$kipP!=B",
+        "F$k*LP$4.+K$k<^F$O7\"J%1`mU$jutBrs^Li&JGfl(E=PC-7U`-0Mj8G5:%[+0.SIt\n+s7jB(DnD3%Ls!Z%LigT$4I:KrX&W5r<X;G#mgtI#RM:S$O[7J$O[:K$OR:M$4@7MrX&W5rX'/D\n$jm:J$4I:L$OR4K$OI1>$O[@P$477N$OR:M$jutArsSr:$k3+Crs\\r-FUeT`!\"T&2\"pkt_-l*3k\n#n$qK$5*a[#8maZ&HE%B$NL_?#6>;O#otQT-k6\\*(^C6j&KMc.&eP6b",
+        "G\nrX'GL$47.J$O[:L#RL_@$47(G$OI4J$OR4>$47%G#mghE$4.\"C$2k/0#65&/$3(;2$\"=5I#R:YA\n#m^_?\"9\\l1\"Tnr3\":#,7\"p>,9#mU\\A#Up;k$OR.F#6kA9\"UbSB$OmUY',;B+,:G-&4[`+G?=@>M\n<`<*m4uP,F,T[mF[Mohi%h/jT$3pe?\"9\\l2\"9JW/!WE0\"\"9/K.#7(JX;%!^/#R^qE#7(J>#m^bE\n#mgJ9#mpqD#m^hE#RUq<#mLYA#m^hE$N:>8$OI\"D#RUJ;ILQSj$O[:L$OdFCrt#J:%ibWY'a#*S\n!\"8u8&.]*N'+Z",
+        "hI$47(IrX&u?\n$47(G$OR4K#mpS:#n%%H$4@@N$OR4>$N:>6#RLkGr<X\\V$4$nD#RC_C#RLeE#mgkE#RLbC#mU_@\n#6kG?#mpqC#n@7?$2t8g$OmIn&./gR$4I7L$jmFQ$k<aX&JGoq",
+        "Dn\\J-8nP$3\\DHk%\nh]We&e>QY\":#A?'HISu$ig83$69c`&Kjh;*XWA`&I&UJ!\"]8E\"oni.\"onc+%1<7U\"9]><%0?e>#\nQbJ>\"ono6!XSo.$OR1K\"pY,/#6P&U\"V",
+        "_I/`#n.II#mUh@'*J[E&J#-T#S@(O$4%:U\"pZAC0F@md!\"9,E$jm(='+=pC!s8f:!sJrB\n!!<fF\"8r3`#mUG3%0?S@\":>,6!!io7#QP>A!!WE/$4?h;#m^M2\"UkkK!Y>GG$NpJ;!!<Z3!!N`?\n#QtM>%LW=C!!*%L~>\n\"q(hI$OR7Kr<iW5$2t;Y$k!FO$k!IQ$OR=O$k3XS$OdCP$k3XX'+bQ[$4@4K$OR7L$4Hh?rsA]5\n\"pkVC$OR7LrX'JK$47.J#71\\D#RLeF#mgkB$kipR#7(VBrX&W3r!<9.!s],=$N19*#RLeA#7(M:\n\"pY>:!sAi4!sAf4\"U##5#R(G<\"pY>A#m^e@#6bA<\"U5,9#mq4Q&/,`q*$cj[1-Irt>%",
+        "hI$OR7Kr<iT4r<ir@$Od@N#n.7O$k<+C$4@7M%1E[T%hfK_r<if:$OR7L$4Hh?$4@1K$OI.I\n$OR7LrX'&?$47.J#RLeE#RUkGrWrc7$ks!T#mpJ9q$@-/#mq%<#lk8/#m1D=#RUJ8rWrc6#R^qF\n$4-V;!\"/]5\":>PG$4?b?0anEt$4@7P%M93_'G_Q,,:4lo3^#l+9i4PC4[_e&3&3$1+<DL?'bqDq\n'+bZa%MK9M$N(/2#71Y7#R^hB#RL_@$3phA$4?b=",
+        "hI$OR7Kr<rW4rX0&A%1EXT$k*RR$P!(D(C^c\\$k!LQ%1Nj^&.ApU$O[:L$k!FM$iLD=$k3XR\n$k*LN$OcqB$k!IN$Od@M$Od@N$P!(C$jmIT$Od@M$k*IN$k2q>!X];Br!Nf<$O[:L$OI+H$iUGA\n$OR4H#n.1K$4.%I$4HhA#n%1M$k!IP$OmOD$SMr!%M0*[&JGrt*ZuXQ.k`Y<2E!68.4d2(.OH;[\n",
+        "P\"q(_G+;GXm&0_r2%M0EZ(_mi*-6X!4$P4U-&I/gl*t]5&*Yoq=,9/3`*[<'h*%<Hi+>,0!/\n2TFH/1rk;2_[3J2`<KN3'BVh76s4",
+        "(UcU!sf#3!<r]7#6k25$jm=H#m^\\=$3pk9\n!&P/l!!!-'%06G1!!j,J\":bD;#n[=H#7^_=\"9Jr<\":55C%0[4O$igSA%fcS4&d/UE!=&RS~>\n!X];CrX'hW$47(I'akEW$4@4M$O[@P%M0<g(E\"#''GV#c$k!LQ$OltArsAo9$OR4K$2t;2$O[:J\n$47\"G$jd.F$46Y<!?MXG#m:M@#mUb8#mgeA#RLeE#m^kDr<XGN#7(V@#mgkD#7(PC$3pb@#6b88\n#6Y,3!X8f1rWWE,#71;6EWugS#mq%H\"pG27#6b;5\"U+o3#n%1Q&/?$%+XJWm2*FH(<F9<EEGo&U\n5WCMK,9IjB(",
+        "VB\"U58<#71YB$3pkC#mgkD\n#RUkE#RUkE#RUkErWiT4#R1S6$3:MAr<[r\\#71YC#mptG$jmCP$ORUJrs\\r8'FY!P#8%UM&I&UP\n&Hi4C((UES#QtAM",
+        "85#7(YBrWsJK#mh\"J$4@1L$jm@M$4@1J$OR7K$O[@N$Om\"B\n(^pc[$k!CL$O[7K$4@.J%1N[P$4@7M$Om\"B!\"Af6I1H\\o%1W@;!!E97%fm+F!YGeI%0-hJ(",
+        "hI$47(HrWrc9#mghD#mpS<!XT2Dr<`T<$OZk>!!iK1#71_D#mpkD$N:;1#S7:J\n#7(YE#mq\"F#7(M>#mL_8$4-tE$OR7K$k3XQrX2g:$47.J$4.%J$k3a]',;B",
+        "qH!!F#S!=&T2%131;$kOIG5UHI8#S$t<$O@%B#RgeB$k<F@$ipA4'F+sF!<iH*!X&K'#R_\"K!\nWW<'!!EZB#mgeE\"onr0$k*+9!<<<(!\"]P=!$;=P!\"'SU\"9K,<'a>9S$3q\"?#6Y#8%KZV3\"p+c.$\nib_~>\nrXAo=%1W:F#n7@Q%1<RQ$P![G%K?tH&fj=3rqA`!'+b]R%K?hD%LijU%1E[T$k3RC$j$kF%K-\\8%\nK6b>&LS\"q$k*%C'+G?Y$Od@M$k*LO$4I7J$4@1K$iUPE$4@4J#n%.J$O[:L$OR4=$i^PJ$jm:I#\n6tM@$4.\"E\"pbD:#7(V=#Q\"f;$O@(I$4@1H#m^kA\"p\"i*\"[NJ",
+        "8]/0cZ\"1HIBI\n0f;$C3]T2]3A`QT5sd=d6psO27R]mC91hiS:JsnZ:JXV];,^.c;bKkZ7nEYO>Y7ac8jl$68PhcB\n6V'[<7S6'95X7\\\"4[Vh8A6:uX6Ua=*4Z,>]2`<]h5rL\\O0.f\";2(^d=1G1LH,;(N'/1re7/M8_(\n/1;hq-m]of0.J+g*@*!V',;?.+!5JO+s.g<+rh=C&K2N.$mQl'%M]Ql%M]<W',qW/'H%",
+        "`3nt%1NgV%13CH\"pkM;\"pY>6!X/T,\"9&H.\":#,7\"pYA3#6G2;$2k/0#m^eD#RUeD$j[7>$4@.G\n#mq\"I#RCbC$OH_<#RC_C#RLbA#7LG:(^pcZ%KHG?#n[FP$4I7L'+\"XN",
+        "%i'FkKY$k!IN$Od@M$OdCO$jm=M$kNjV$O[@N$jmCO$OmLTr<rl>$k!FO$juq@#7:hI#n.1K\n$N1A5$iUPY$Od@K$OR7M$OdCN$jm@M$47.J$k!FO$Od@N$OdD%$OdIA$iLJ=$P3gW$jd7KrX&]8\n$4Qn@%LECJ$4@7L$4$nD#m^nGrX1Ch$47.K$4@7V&.8aN$4@4K$k*RT&.oKg'c@u5+sSHb0/5(/\n/ghhi.3fiS*#KM-rXo8D%hJXL$OdLS$k*LN$4@4K#lP&4#RLhE$2k52$2k2D$OR7L$4@1K$k!IP\n$OR:M$OdIC$NpeF$4@7@$kWgS$k!FO$O[@O%1<LO$k!IQrX=#\\s8NB;$NgM:!!WE+$jmOV#8msY%\ng*1H$3gJ3\"UbD4'bVc,!#?",
+        "4ZbP^3&hs<2E3fX3&3]V3\\iNN0f1pE1HI3M1H$m<\n2D-gC3]-goIk*301aXh0-RpVu0f^g>,qC,Z2'OOu-l3^F.QSh$,TeQc(Cq$$+V+tu(DS,=*#U4O\n//K3K+rq@8(Ch8h*Zu\"2(",
+        "rf%h9$Y$k!CJ$4.(H#R:V>#5e`+#lb,0$2k/*#lk81$31D1$3^\\A#mptF\nrX/W2\"pbMA#RLeEq[%BP$OI+H$4@1K$OZq6&dn[C&Hi:@$3LP<\"UGGB&dK'Y%h&dO('bTY&d]-]\n$QK9X\"9fh`(D[hq',2H1*@DU;((2Dq*Y05",
+        "a^^K+s\\F^\n-m'9H-Rg8_+Y+6G+rV%;'H%\\t%LF0m&JHN4+s.7-%1rpc'cn(l%Li[V%La6n%13RF%13Xa!!!?F\n$4%FR!s]",
+        "Q(DnA5$Q(-:*>/u*+X.g>*%r`j-P8$R+WM[M-7pJh-S$i(.4Qf!\n/iGCC2*!QS1Gq?V4@V@q9LhB;8P23D8jPd45=%M#78$3=6pj7#2EsDg3][C/5!(njIkilA4Z,,V\n0/u'Z4?5hi1-7ET0f1X8/2Aq3+X/Np/L;qq/1E1o4\"r'6",
+        "55#nI=I\":G5J#lk>I\"T\\l2'*S@<\"U#,6!\"TVO#\n65&8!!3E;#6YA9!!!*(!s&E(!rrT/\"T8<I\"pY51#7(M='a>-c.QCXgWfq?c*Zc(1%L*II!YYkB%\nh8^I\"9eaT~>\nrsJc6(C^ZX$O[:L$OdCQ$O[@M$OR:O$OR:O$N1>:$k!FP%LrsI%0$\\<%1Ea_%fHe8$NCJ:$k3RP\n$N:D5%/pY5%0$_5$3L\\E$Oln?(^pc[$jmCN$471L$k!IO$47(I$OdCM$4Hh?!\"Ai6rsJo9$OR:@\n$4%\"H$O[:K#7:b9$3(;2$9AP%#mgkD#mq\"I$O@\"E#mUbC$47/l%L`^V%Lj!`'GM?&*?ZOQ.4m",
+        ",VLPq/1N7r0J\"Lj,:Y2e+rqjC,U4WZ0IS(c&KDo8%3-E0\n&fhi/-Q3pF+WN-g+U05/'F,Ec*>&quIif=6&IKEf'+tHU&/5Tc'c%;q*<ZEW%g*@I%M&UP#8%.S\n$Od%M#nmjS'+PTY!!!<1#m:D<\"WIUV%0-M6\"oo8:\":GMG%3l8_!!``;\"9Jo1!sSuA\"9B8W%fcS>\n&HE(@\"T\\o2%0HqD!!3N5%KZV<!\"/l<%hTBT$N^M;$N:&R!!3-#$Od+K$O$YW0-iPsf(86b==bC(%\n0?b=$O7+S#RUP7!=&]+J,~>\n'+>6U$O[@O#mptH$k*IM$O[@M$N1A4$31D2$i^V@$OR7M$O[7K$iUP<%13LQ$4?b?\"UtkK$4R@>\n$N^bG$iUPC$OR7L%gi[O%1EUQ",
+        "=#m(;2%13[U$NUkQ$4.7N!tkSK!tPYE$53[N!!aDV&HEXR\n\"TSu5&deUI!!s,D%LW=F\"9Af5!<rN-$540j!<WB+!!N]0!Y5PC\"98Q,%L<%?$O$M;!<<Q5\"p+f*\n\":bM8!WE*!\">pMk!XfeL#Qt_G!!!$",
+        "DRPq&.T-X$k!CL$O[1E$4-qA#Q=o8\"U55;#7(M<#m^b?rWa\\T#RL_A\n#71VC%hK3X#mU_B$47(H#R_\"I#RC_D$4$hB$46tDrWrN3D[?[V$O@%<rsTAO!Z(q@#QbVN$5!OJ\n('kW[%290q$4mLR'Fk0M%1<mb%3QZ.',;<(&f_Gr+?rji+VPnE*[`Hi/2/@l*Z#kP2^C%$-Rpbt\n.P3M73\\NBD2`39K6qT[284Gm-4?#;_3BB;i6@M$R5=R\\\"5WCV[4#JcR/3,XN1,h3M3*f`F1H7!A\n3B&ED/hAJ5,pk-%1GC7.2D?4+2^pC6*["
+      ]
+    },
+    {
+      "name": "rotCurves.eps",
+      "bytes": 23764,
+      "sha256": "e578645a1cda19fd426ace075eac9195863f55146a5352f6e615e75e7a65907b",
+      "bounding_boxes": [
+        "%%BoundingBox: 62 102 407 232"
+      ],
+      "creator_lines": [
+        "%%Title: rotcurves.eps",
+        "%%Creator: gnuplot 4.2 patchlevel 5 ",
+        "%%CreationDate: Sun Mar  7 15:28:05 2010",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 24,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 119,
+      "show_ops": 8,
+      "literal_strings": 66,
+      "useful_strings": [
+        "Radius \\(kpc\\)",
+        "NGC 891",
+        "Radius \\(kpc\\)",
+        "NGC 7814"
+      ]
+    },
+    {
+      "name": "zprof7814.eps",
+      "bytes": 24153,
+      "sha256": "665fbf192a3a41718c28a57d5b62aa437069379410f027bdc188ede1d53d50c0",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 410 302"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sun Jan 30 17:25:34 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 25,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 102,
+      "show_ops": 8,
+      "literal_strings": 58,
+      "useful_strings": [
+        "Surface Brightness \\(mag arcsec",
+        "Bulge + Disk",
+        "Disk only"
+      ]
+    },
+    {
+      "name": "zprof891.eps",
+      "bytes": 28010,
+      "sha256": "ab36253758c15a491a78a308db15e8e6b019f90f67875ec78598b27b9e8298c1",
+      "bounding_boxes": [
+        "%%BoundingBox: 50 50 410 302"
+      ],
+      "creator_lines": [
+        "%%Title: plot.eps",
+        "%%Creator: gnuplot 4.4 patchlevel 0-rc1",
+        "%%CreationDate: Sun Jan 30 17:11:38 2011",
+        "%  /Producer (gnuplot)"
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 25,
+      "lineto_ops": 4,
+      "curveto_ops": 0,
+      "stroke_ops": 102,
+      "show_ops": 8,
+      "literal_strings": 61,
+      "useful_strings": [
+        "Surface Brightness \\(mag arcsec",
+        "Bulge + Thin ",
+        "Thick Disks",
+        "Disks only"
+      ]
+    }
+  ],
+  "decision_fields": {
+    "machine_readable_target_profile_candidate": false,
+    "n_postscript_assets": 16,
+    "n_decomposition_figure_references": 11
+  },
+  "promotion_rule": "Fr11 profile values may be promoted only if the H I middle panels are source-native numeric rows or unambiguously recoverable vector geometry with calibrated axes. Raster figures are not digitized.",
+  "boundary": "Acquisition/provenance only. PostScript is parsed, never executed. No raster digitization, normalization, persistence fitting, or blind-outcome inspection."
+}
