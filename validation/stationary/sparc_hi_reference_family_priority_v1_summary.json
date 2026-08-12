@@ -1,0 +1,175 @@
+{
+  "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
+  "n_frozen_galaxies": 149,
+  "n_untouched_no_public_overlay": 106,
+  "n_reference_families_covering_untouched": 45,
+  "top_15_reference_families": [
+    {
+      "sparc_ref_id": "SV98",
+      "n_untouched_frozen_galaxies": 27,
+      "n_calibration": 19,
+      "n_blind": 8,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Sanders and Verheijen",
+      "bibcode": "1998ApJ...503...97S",
+      "comment": "",
+      "galaxies": "NGC3726;NGC3769;NGC3877;NGC3893;NGC3917;NGC3949;NGC3953;NGC3972;NGC3992;NGC4010;NGC4013;NGC4051;NGC4085;NGC4088;NGC4100;NGC4138;NGC4157;NGC4183;NGC4217;UGC06399;UGC06667;UGC06818;UGC06917;UGC06923;UGC06930;UGC06983;UGC07089"
+    },
+    {
+      "sparc_ref_id": "VS01",
+      "n_untouched_frozen_galaxies": 27,
+      "n_calibration": 19,
+      "n_blind": 8,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Verheijen and Sancisi",
+      "bibcode": "2001A&A...370..765V",
+      "comment": "Cat. J/A+A/370/765",
+      "galaxies": "NGC3726;NGC3769;NGC3877;NGC3893;NGC3917;NGC3949;NGC3953;NGC3972;NGC3992;NGC4010;NGC4013;NGC4051;NGC4085;NGC4088;NGC4100;NGC4138;NGC4157;NGC4183;NGC4217;UGC06399;UGC06667;UGC06818;UGC06917;UGC06923;UGC06930;UGC06983;UGC07089"
+    },
+    {
+      "sparc_ref_id": "Sw02",
+      "n_untouched_frozen_galaxies": 13,
+      "n_calibration": 7,
+      "n_blind": 6,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Swaters et al.",
+      "bibcode": "2002A&A...390..829S",
+      "comment": "",
+      "galaxies": "DDO064;UGC00731;UGC01281;UGC04278;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837;UGC11557"
+    },
+    {
+      "sparc_ref_id": "Sa96",
+      "n_untouched_frozen_galaxies": 13,
+      "n_calibration": 6,
+      "n_blind": 7,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Sanders",
+      "bibcode": "1996ApJ...473..117S",
+      "comment": "",
+      "galaxies": "NGC0055;NGC0247;NGC0300;NGC0801;NGC1003;NGC2683;NGC2998;NGC5033;NGC5371;NGC5585;NGC5907;NGC6674;UGC02885"
+    },
+    {
+      "sparc_ref_id": "No05",
+      "n_untouched_frozen_galaxies": 12,
+      "n_calibration": 10,
+      "n_blind": 2,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Noordermeer et al.",
+      "bibcode": "2005A&A...442..137N",
+      "comment": "Cat. J/A+A/442/137",
+      "galaxies": "UGC02487;UGC02916;UGC02953;UGC03205;UGC03546;UGC03580;UGC05253;UGC06786;UGC06787;UGC08699;UGC09133;UGC11914"
+    },
+    {
+      "sparc_ref_id": "No07",
+      "n_untouched_frozen_galaxies": 12,
+      "n_calibration": 10,
+      "n_blind": 2,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Noordermeer et al.",
+      "bibcode": "2007MNRAS.376.1513N",
+      "comment": "",
+      "galaxies": "UGC02487;UGC02916;UGC02953;UGC03205;UGC03546;UGC03580;UGC05253;UGC06786;UGC06787;UGC08699;UGC09133;UGC11914"
+    },
+    {
+      "sparc_ref_id": "Sw09",
+      "n_untouched_frozen_galaxies": 9,
+      "n_calibration": 5,
+      "n_blind": 4,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Swaters et al.",
+      "bibcode": "2009A&A...493..871S",
+      "comment": "",
+      "galaxies": "UGC00731;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837"
+    },
+    {
+      "sparc_ref_id": "dB96",
+      "n_untouched_frozen_galaxies": 8,
+      "n_calibration": 6,
+      "n_blind": 2,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok et al.",
+      "bibcode": "1996MNRAS.283...18D",
+      "comment": "",
+      "galaxies": "F565-V2;F568-3;F568-V1;F571-8;F571-V1;F574-1;F583-1;F583-4"
+    },
+    {
+      "sparc_ref_id": "dB01",
+      "n_untouched_frozen_galaxies": 7,
+      "n_calibration": 5,
+      "n_blind": 2,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok et al.",
+      "bibcode": "2001AJ....122.2396D",
+      "comment": "",
+      "galaxies": "D631-7;F568-V1;F571-8;F574-1;UGC05750;UGC06614;UGC11557"
+    },
+    {
+      "sparc_ref_id": "Br92",
+      "n_untouched_frozen_galaxies": 6,
+      "n_calibration": 3,
+      "n_blind": 3,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Broeils",
+      "bibcode": "...................",
+      "comment": "1992, PhD thesis, University of Groningen",
+      "galaxies": "NGC0801;NGC1003;NGC2683;NGC2998;NGC5985;NGC6674"
+    },
+    {
+      "sparc_ref_id": "Be91",
+      "n_untouched_frozen_galaxies": 5,
+      "n_calibration": 4,
+      "n_blind": 1,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Begeman et al.",
+      "bibcode": "1991MNRAS.249..523B",
+      "comment": "",
+      "galaxies": "DDO170;NGC2903;NGC3109;NGC6503;UGC02259"
+    },
+    {
+      "sparc_ref_id": "SG06",
+      "n_untouched_frozen_galaxies": 5,
+      "n_calibration": 4,
+      "n_blind": 1,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Spekkens and Giovanelli",
+      "bibcode": "2006AJ....132.1426S",
+      "comment": "",
+      "galaxies": "ESO563-G021;IC4202;NGC2955;NGC6195;UGC11455"
+    },
+    {
+      "sparc_ref_id": "dB02",
+      "n_untouched_frozen_galaxies": 5,
+      "n_calibration": 3,
+      "n_blind": 2,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok and Bosma",
+      "bibcode": "2002A&A...385..816D",
+      "comment": "Cat. J/A+A/385/816",
+      "galaxies": "DDO064;NGC0100;UGC01281;UGC04278;UGC05005"
+    },
+    {
+      "sparc_ref_id": "Be87",
+      "n_untouched_frozen_galaxies": 4,
+      "n_calibration": 3,
+      "n_blind": 1,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Begeman, K.G.",
+      "bibcode": "...................",
+      "comment": "1987, PhD thesis, University of Groningen",
+      "galaxies": "NGC2903;NGC5033;NGC5371;NGC6503"
+    },
+    {
+      "sparc_ref_id": "KN08",
+      "n_untouched_frozen_galaxies": 3,
+      "n_calibration": 3,
+      "n_blind": 0,
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Kuzio de Naray et al.",
+      "bibcode": "2008ApJ...676..920K",
+      "comment": "",
+      "galaxies": "F568-3;F583-1;F583-4"
+    }
+  ],
+  "interpretation": "Ranks only galaxies with no current public-source overlay. Existing Cote/van Zee/Begum/Leroy/Iorio/WHISP/Taylor/etc. work is not reopened by this ranking.",
+  "boundary": "Acquisition priority only; no profile normalization, persistence fitting, or blind-outcome inspection."
+}
