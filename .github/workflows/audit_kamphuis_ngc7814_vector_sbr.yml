@@ -1,0 +1,40 @@
+name: Audit Kamphuis NGC7814 vector SBR
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/audit_kamphuis_ngc7814_vector_sbr.py'
+      - '.github/workflows/audit_kamphuis_ngc7814_vector_sbr.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyMuPDF
+      - name: Extract vector/text coordinates from Figure 5.1
+        run: python scripts/stationary/audit_kamphuis_ngc7814_vector_sbr.py
+      - name: Commit coordinate audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/kamphuis2008_ngc7814_vector_sbr_audit_v1.json
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Audit Kamphuis NGC7814 vector SBR panel'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
