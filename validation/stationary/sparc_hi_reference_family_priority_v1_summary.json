@@ -1,27 +1,11 @@
 {
   "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
   "n_frozen_galaxies": 149,
-  "n_untouched_no_public_overlay": 93,
-  "n_reference_families_covering_untouched": 41,
-  "n_actionable_reference_families": 20,
+  "n_untouched_no_public_overlay": 92,
+  "n_reference_families_covering_untouched": 40,
+  "n_actionable_reference_families": 19,
   "n_deferred_or_redirected_reference_families": 21,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "CP90",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Carignan and Puche",
-      "bibcode": "1990AJ....100..641C",
-      "comment": "",
-      "galaxies": "NGC0300"
-    },
     {
       "sparc_ref_id": "Ca88",
       "n_untouched_frozen_galaxies": 1,
@@ -245,6 +229,22 @@
       "bibcode": "2008MNRAS.385..553D",
       "comment": "",
       "galaxies": "NGC0024"
+    },
+    {
+      "sparc_ref_id": "Ke07",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Kepley et al.",
+      "bibcode": "2007AJ....133.2242K",
+      "comment": "",
+      "galaxies": "UGCA444"
     }
   ],
   "deferred_or_redirected_families": [
@@ -330,8 +330,8 @@
     },
     {
       "sparc_ref_id": "Sa96",
-      "n_untouched_frozen_galaxies": 11,
-      "n_calibration": 5,
+      "n_untouched_frozen_galaxies": 10,
+      "n_calibration": 4,
       "n_blind": 6,
       "queue_actionable_now": "0",
       "queue_status": "redirected_to_original_sources",
@@ -342,7 +342,7 @@
       "author": "Sanders",
       "bibcode": "1996ApJ...473..117S",
       "comment": "",
-      "galaxies": "NGC0055;NGC0247;NGC0300;NGC0801;NGC1003;NGC2683;NGC2998;NGC5585;NGC5907;NGC6674;UGC02885"
+      "galaxies": "NGC0055;NGC0247;NGC0801;NGC1003;NGC2683;NGC2998;NGC5585;NGC5907;NGC6674;UGC02885"
     },
     {
       "sparc_ref_id": "Sw09",
