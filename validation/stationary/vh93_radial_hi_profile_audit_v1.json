@@ -1,0 +1,52 @@
+{
+  "status": "VH93_RADIAL_HI_PROFILE_AUDIT_COMPLETE",
+  "source": "van der Hulst et al. 1993 AJ 106 548-559",
+  "bibcode": "1993AJ....106..548V",
+  "title": "Star Formation Thresholds in Low Surface Brightness Galaxies",
+  "transport_attempts": [
+    {
+      "url": "https://drum.lib.umd.edu/bitstreams/d1a54927-5c0d-4398-adcb-e7c8be1323ad/download",
+      "status": "fetched",
+      "final_url": "https://api.drum.lib.umd.edu/server/api/core/bitstreams/d1a54927-5c0d-4398-adcb-e7c8be1323ad/content",
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 1963634,
+      "prefix_hex": "255044462d312e310a25183018311832",
+      "sha256": "039e363d9865157f46849a47243315aa428e800b8acd19950fbde5815d41cfe8"
+    }
+  ],
+  "pdf_bytes": 1963634,
+  "pdf_sha256": "039e363d9865157f46849a47243315aa428e800b8acd19950fbde5815d41cfe8",
+  "targets": [
+    {
+      "galaxy": "UGC00128",
+      "pages": []
+    },
+    {
+      "galaxy": "UGC05005",
+      "pages": []
+    },
+    {
+      "galaxy": "UGC05750",
+      "pages": []
+    },
+    {
+      "galaxy": "UGC06614",
+      "pages": []
+    }
+  ],
+  "table2_aggregate_property_contexts": [],
+  "profile_language_pages": [],
+  "geometry": {
+    "pages": 12,
+    "native_text_chars_total": 240,
+    "pages_with_native_text": 12,
+    "pages_with_drawings": 0,
+    "pages_with_images": 12,
+    "pages_with_images_no_drawings": 12,
+    "max_drawing_items": 0
+  },
+  "classification": "public_copy_page_image_scan_no_exact_vector_or_radial_table_route",
+  "table2_boundary": "Table 2 reports global/aggregate quantities including peak H I surface density and one peak radial average per galaxy; these are not radius-versus-Sigma_HI profiles and are not promoted.",
+  "promotion_rule": "Only native radius-versus-Sigma_HI rows or unambiguous vector profile geometry may enter the source-profile overlay. Raster figures are not digitized.",
+  "boundary": "Acquisition/provenance only; no OCR, raster digitization, helium/distance normalization, persistence fitting, or blind-outcome inspection."
+}
