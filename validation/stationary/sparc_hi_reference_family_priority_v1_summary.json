@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 95,
   "n_reference_families_covering_untouched": 42,
-  "n_actionable_reference_families": 25,
-  "n_deferred_or_redirected_reference_families": 17,
+  "n_actionable_reference_families": 24,
+  "n_deferred_or_redirected_reference_families": 18,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Tr09",
-      "n_untouched_frozen_galaxies": 2,
-      "n_calibration": 2,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Trachternarch et al.",
-      "bibcode": "2009A&A...505..577T",
-      "comment": "",
-      "galaxies": "D564-8;D631-7"
-    },
     {
       "sparc_ref_id": "Ge04",
       "n_untouched_frozen_galaxies": 2,
@@ -245,6 +229,22 @@
       "bibcode": "1997AJ....113.1591W",
       "comment": "",
       "galaxies": "NGC0289"
+    },
+    {
+      "sparc_ref_id": "Bl99",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Blais-Ouellette et al.",
+      "bibcode": "1999AJ....118.2123B",
+      "comment": "",
+      "galaxies": "NGC5585"
     }
   ],
   "deferred_or_redirected_families": [
@@ -487,6 +487,22 @@
       "bibcode": "2011A&A...531A..64F",
       "comment": "",
       "galaxies": "NGC0891;NGC7814"
+    },
+    {
+      "sparc_ref_id": "Tr09",
+      "n_untouched_frozen_galaxies": 2,
+      "n_calibration": 2,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "original_hi_observations_public_but_no_exact_radial_hi_profile_published_in_source_products",
+      "disposition_artifact": "validation/stationary/tr09_target_figure_inventory_v1.json",
+      "reopen_rule": "new_machine_readable_radial_hi_profile_exact_vector_republication_or_public_author_derived_profile_array",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Trachternarch et al.",
+      "bibcode": "2009A&A...505..577T",
+      "comment": "",
+      "galaxies": "D564-8;D631-7"
     },
     {
       "sparc_ref_id": "Be87",
