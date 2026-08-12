@@ -1,0 +1,314 @@
+{
+  "status": "GE04_HI_PROFILE_VECTOR_ROUTE_AUDIT_COMPLETE",
+  "source": "Gentile et al. 2004 MNRAS 351 903; astro-ph/0403154",
+  "source_fetch_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/astro-ph/0403154",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/astro-ph/0403154",
+      "content_type": "application/gzip",
+      "bytes": 640665
+    }
+  ],
+  "source_package_sha256": "f0c8804c4815f3cfcce2beb6d4e6283005b51199d372c9b3c04b243132338b6f",
+  "n_source_files": 16,
+  "figure2_contexts": [
+    {
+      "tex": "paper.tex",
+      "line": 417,
+      "context": "397: \n398: \\begin{figure*}\n399:  \\centerline{\\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}\n400:   \\caption{Optical DSS images (greyscale) superimposed with the\n401:   H{\\sc i} total intensity map (contours). The first contour is\n402:   the ``pseudo 3-$\\sigma$'' defined similarly to \\citet{V&S:01} and \n403:   is equal to: $1.0 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 116-G12; \n404: $1.1 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 287-G13;\n405: $1.7 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 79-G14;\n406: $1.5 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for NGC 1090;\n407: $3.4 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for NGC 7339;\n408: the remaining contours are (15, 30, 45,...)~$\\times~ \\sigma$, except for\n409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\\times~ \\sigma$.\n410: The beam is shown in the upper left corner.\n411: }\n412: \\label{radopt2}\n413: \\end{figure*}\n414: \n415: \\begin{figure}\n416:   \\centerline{\\psfig{figure=fig2.eps,width=6.85cm}}\n417:   \\caption{Radial distribution of the neutral hydrogen surface density\n418: ($\\Sigma_{\\rm HI}$):  \n419: the filled triangles denote the approaching side,\n420: the empty triangles the receding side and the filled circles \n421: the average. The solid line refers to the ratio \n422: ${\\rm M}_{\\rm HI}(<r)/r$, where ${\\rm M}_{\\rm HI}(<r)$ is the H{\\sc i} mass inside\n423: radius $r$.\n424:  }\n425: \\label{raddens}\n426: \\end{figure}\n427: \n428: \\begin{figure*}\n429:   \\centerline{\\psfig{figure=fig3.test.eps,width=17.7cm}}\n430: \\caption{A typical spectrum of the galaxy ESO 79-G14 \n431: at an intermediate galactocentric distance.\n432: The arrows indicate the systemic velocity as well as the positions of the \n433: velocities derived from the MET/WAMET method, the first-moment\n434: analysis and by fitting\n435: a single Gaussian to the profiles.}\n436: \\label{spectrum}"
+    },
+    {
+      "tex": "paper.tex",
+      "line": 484,
+      "context": "464: \n465: From Fig.~\\ref{radopt2} we note that the galaxies \n466: have a relatively high inclination\n467: and the {H{\\sc i}} emission has a large (up to $\\sim$ 3 times) extent compared to the\n468: optical disc. \n469: The {H{\\sc i}} masses ($M_{\\rm HI}$) given in Table \\ref{physical} were\n470: calculated from the total intensity maps after primary-beam \n471: correction using the following relation:\n472: \n473: \\begin{equation}\n474: M_{\\rm HI}=2.36 \\times 10^5 D^2 \\int S {\\rm d} V\n475: \\end{equation}\n476: \n477: where $M_{\\rm HI}$ is in ${\\rm M}_{\\odot}$, $D$ is the distance of the galaxy in Mpc\n478: and $\\int S {\\rm d} V$ is the total {H{\\sc i}}\n479: flux density in the total intensity map, measured in Jy km s$^{-1}$.\n480: The {H{\\sc i}} masses are in agreement\n481: with previous single-dish measurements to within 20\\%, implying that we are not\n482: losing much extended emission due to missing zero spacings.\n483: \n484: The radial distribution of the neutral hydrogen surface density\n485: is computed by integrating the total intensity map over concentric ellipses \n486: for NGC 1090 and \n487: by means of the Lucy method \\citep{W:88}\n488: for the other galaxies. The results are shown in Fig.~\\ref{raddens}, where\n489: one can notice that the data reach the region where ${\\rm M}_{\\rm HI}(<r)/r$\n490: starts to decrease.\n491: \n492: Since the velocity field of NGC 1090 is sufficiently sampled,\n493: it could be subjected to tilted-ring modelling \\citep{B:89}. \n494: In this case the MET method was applied\n495: (see the next Section) to construct the velocity field and then the first estimate of the \n496: rotation curve was derived by performing a tilted-ring fit to the velocity\n497: field.\n498: In the other cases the combination of high inclination\n499: and a large beam (compared to the size of the galaxy)\n500: requires the use of the WAMET method:\n501: we traced the rotation curve \n502: along the warp on points defined like in \\citet{G:02} and\n503: implemented for studies of the kinematics by \\citet{V:04} on the total "
+    }
+  ],
+  "candidate_profile_assets": [
+    {
+      "name": "fig1.test.eps",
+      "audit": {
+        "bytes": 669510,
+        "sha256": "d96e0dcc6e650879c98e6a71ccdda8725d8df69072851a2fc8ccb99912938801",
+        "image_ops": 2,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_literal": 0,
+        "lineto_literal": 0,
+        "rlineto_literal": 0,
+        "curveto_literal": 0,
+        "stroke_literal": 0,
+        "fill_literal": 0,
+        "show_literal": 1,
+        "one_letter_counts": {
+          "M": 0,
+          "R": 0,
+          "P": 0,
+          "D": 0,
+          "F": 0,
+          "L": 0,
+          "m": 0,
+          "l": 0,
+          "p": 0,
+          "s": 2
+        },
+        "bounding_box_lines": [
+          "%%BoundingBox: -128 44 737 749"
+        ]
+      }
+    },
+    {
+      "name": "fig12.eps",
+      "audit": {
+        "bytes": 163893,
+        "sha256": "ea3dc4f410207b54ba0b6bbe5934da41cdc0280373d3e20bc8c219cfd81cbb2e",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_literal": 133,
+        "lineto_literal": 74,
+        "rlineto_literal": 60,
+        "curveto_literal": 0,
+        "stroke_literal": 71,
+        "fill_literal": 11,
+        "show_literal": 31,
+        "one_letter_counts": {
+          "M": 673,
+          "R": 0,
+          "P": 50,
+          "D": 0,
+          "F": 10,
+          "L": 1474,
+          "m": 3885,
+          "l": 10860,
+          "p": 0,
+          "s": 3
+        },
+        "bounding_box_lines": [
+          "%%BoundingBox: 0 0 514 701",
+          "%%BoundingBox: 18 144 592 718",
+          "%%BoundingBox: 171 362 568 691",
+          "%%BoundingBox: 171 362 568 691",
+          "%%BoundingBox: 171 362 568 691",
+          "%%BoundingBox: 171 362 568 691",
+          "%%BoundingBox: 171 362 568 691",
+          "%%BoundingBox: 18 144 592 718",
+          "%%BoundingBox: 18 144 592 718",
+          "%%BoundingBox: 18 144 592 718",
+          "%%BoundingBox: 18 144 592 718"
+        ]
+      }
+    },
+    {
+      "name": "fig2.eps",
+      "audit": {
+        "bytes": 108443,
+        "sha256": "a5466d2a2d492850d49cc6e11e0785735d76d7651a27a24550e8d8a29ecc4591",
+        "image_ops": 0,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_literal": 68,
+        "lineto_literal": 39,
+        "rlineto_literal": 30,
+        "curveto_literal": 0,
+        "stroke_literal": 36,
+        "fill_literal": 6,
+        "show_literal": 16,
+        "one_letter_counts": {
+          "M": 543,
+          "R": 0,
+          "P": 25,
+          "D": 0,
+          "F": 5,
+          "L": 936,
+          "m": 1929,
+          "l": 8823,
+          "p": 0,
+          "s": 1
+        },
+        "bounding_box_lines": [
+          "%%BoundingBox: 0 0 229 724",
+          "%%BoundingBox: 18 144 588 490",
+          "%%BoundingBox: 18 144 588 490",
+          "%%BoundingBox: 18 144 588 490",
+          "%%BoundingBox: 18 144 588 490",
+          "%%BoundingBox: 18 144 588 490"
+        ]
+      }
+    },
+    {
+      "name": "fig3.test.eps",
+      "audit": {
+        "bytes": 71630,
+        "sha256": "df3c115f6ee38acf0e94945f361e05a9e7dac461759dd65c47c31e72a4b147bf",
+        "image_ops": 2,
+        "colorimage_ops": 0,
+        "imagemask_ops": 0,
+        "moveto_literal": 0,
+        "lineto_literal": 0,
+        "rlineto_literal": 0,
+        "curveto_literal": 0,
+        "stroke_literal": 0,
+        "fill_literal": 0,
+        "show_literal": 1,
+        "one_letter_counts": {
+          "M": 0,
+          "R": 0,
+          "P": 0,
+          "D": 0,
+          "F": 0,
+          "L": 0,
+          "m": 0,
+          "l": 0,
+          "p": 0,
+          "s": 2
+        },
+        "bounding_box_lines": [
+          "%%BoundingBox: -74 174 687 617"
+        ]
+      }
+    }
+  ],
+  "target_text_contexts": {
+    "ESO 116-G12": [
+      {
+        "tex": "paper.tex",
+        "line": 170,
+        "context": "166: \\vspace{0.3cm}}\n167: \\begin{tabular}{l l l l l l}\n168: \\hline\n169: \\hline\n170: Galaxy name                      & ESO 116-G12        & ESO 287-G13       & ESO 79-G14 & NGC 1090 & NGC 7339    \\\\ \n171: \\hline \n172: M$_I$ (mag)                      & -20.0              & -21.7             & -21.4      & -21.8    & -20.6       \\\\\n173: M$_{\\rm HI}$  (M$_{\\odot}$)      &1.5$\\times 10^{9}$  & 1.1$\\times 10^{10}$&3.5 $\\times 10^{9}$ &8.5$\\times 10^{9}$ &5.5$\\times 10^{8}$    \\\\\n174: Inclination ($^{\\circ}$)         & 74                 &78                 &84          &64        &79           \\\\\n175: $r_{\\rm HI}/r_{d}$          & 6.7                &7.4                & 4.8        &8.8       &4.1          \\\\"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 188,
+        "context": "184: \n185: We have developed a new method for both of these considerations:\n186: a) concerning the positions, we traced the rotation curve along the ridge of the warp \n187: (this step is discussed in \\citealt{V:04}),\n188: when the velocity field was not sufficiently sampled (i.e., for the galaxies ESO 116-G12,\n189: ESO 287-G13, ESO 79-G14 and NGC 7339) and the\n190: tilted-ring modelling of the velocity field was therefore not possible;\n191: b) for the velocities \n192: we only considered the velocity side of the profiles opposite to the systemic velocity, and then\n193: corrected for the effects that artificially broaden the profile, i.e.:"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 241,
+        "context": "237: \\hline\n238: \\hline\n239: Galaxy       &OR/$r_{core}$     & RR/$r_{core}$ &OR/$r_{s}$  &RR/$r_{s}$   &   $r_{f}$/$r_{core}$  & $r_{f}$/$r_s$     \\\\\n240: \\hline\n241: ESO\\,116-G12 & 0.03              & 0.49  & 0.02   & 0.29         & 2.7        & 1.6                    \\\\\n242: ESO\\,287-G13 & 0.01              & 0.18  & 0.02   & 0.29         & 1.0        & 1.7                    \\\\\n243: ESO\\,79-G14  & 0.04              & 0.43  & 0.02   & 0.24         & 2.1        & 1.2                    \\\\\n244: NGC\\,1090    & 0.04              & 0.32  & 0.03   & 0.23         & 3.4        & 2.5                    \\\\\n245: NGC\\,7339    & 0.02              & 0.15  & 0.01   & 0.08         & 0.6        & 0.3                    \\\\\n246: \\hline"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 334,
+        "context": "330: \\label{observational}\n331: \\begin{tabular}{l l l l l l}\n332: \\hline\n333: \\hline\n334: Galaxy name  & ESO 116-G12                             & ESO 287-G13                              & ESO 79-G14           & NGC 1090       & NGC 7339 \\\\ \n335: \\hline\n336: RA           & 3$^{\\rm h}$13$^{\\rm m}$03$^{\\rm s}$.9  & 21$^{\\rm h}$23$^{\\rm m}$13$^{\\rm s}$.7  & 1$^{\\rm h}$02$^{\\rm m}$51$^{\\rm s}$.2& 2$^{\\rm h}$46$^{\\rm m}$33$^{\\rm s}$.9           &    22$^{\\rm h}$37$^{\\rm m}$46$^{\\rm s}$.9  \\\\\n337: Dec          &$-57\\degr 23\\arcmin27\\arcsec$             & $-45\\degr46\\arcmin20\\arcsec$               &$-65\\degr36\\arcmin36\\arcsec$&$ -0\\degr14\\arcmin50\\arcsec$         & $23\\degr47\\arcmin12\\arcsec$ \\\\\n338: Number of channels  & 256                              & 256                                      & 256                  & 2 $\\times$ 64           &  2 $\\times$ 64\\\\\n339: Channel separation (kHz) & 31.2                        & 31.2                                     &31.2                  &24.4              & 24.4 \\\\"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 348,
+        "context": "344: \\end{tabular}\n345: \\end{footnotesize}\n346: \\end{table*}\n347: \n348: We observed ESO 116-G12, ESO 287-G13 and ESO 79-G14 with\n349: the Australia Telescope Compact Array in the 750 m and 1.5 km\n350: configurations; the resulting baselines range from 31 m to 1500 m.\n351: The galaxies were observed for 12 hrs in each configuration.\n352: The correlator setup yielded\n353: 512 channels of width 15.6 kHz, resulting in a total bandwidth of 8 MHz."
+      },
+      {
+        "tex": "paper.tex",
+        "line": 403,
+        "context": "399:  \\centerline{\\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}\n400:   \\caption{Optical DSS images (greyscale) superimposed with the\n401:   H{\\sc i} total intensity map (contours). The first contour is\n402:   the ``pseudo 3-$\\sigma$'' defined similarly to \\citet{V&S:01} and \n403:   is equal to: $1.0 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 116-G12; \n404: $1.1 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 287-G13;\n405: $1.7 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 79-G14;\n406: $1.5 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for NGC 1090;\n407: $3.4 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for NGC 7339;\n408: the remaining contours are (15, 30, 45,...)~$\\times~ \\sigma$, except for"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 660,
+        "context": "656: \\begin{figure*}\n657:   \\centerline{\\psfig{figure=fig6.eps,width=17.6cm}}\n658:   \\caption{\n659: Comparison between the {\\it observed} data cube and two {\\it model} data cubes\n660: for ESO 116-G12: \n661: the MET/WAMET rotation curve (left) and the \n662: first-moment analysis rotation curve (right);\n663: the black contours trace the observed data cube and the\n664: grey contours trace the model data cubes. \n665: On the top we show some representative channel maps "
+      },
+      {
+        "tex": "paper.tex",
+        "line": 735,
+        "context": "731: observations. \n732: All the galaxies of our sample were successfully modelled with a small warp in\n733: the outer parts or with no\n734: warp at all. In particular, we found necessary to include in our model parameters a\n735: 5$^{\\circ}$ clockwise warp in ESO 116-G12, a 2$^{\\circ}$ clockwise warp in\n736: ESO 79-G14 and a 2$^{\\circ}$ anti-clockwise warp in NGC 1090. Concerning the inclination\n737: as a function of radius, it was kept constant at the values given in Table \\ref{physical},\n738: except for the galaxy ESO 79-G14, where a 5$^{\\circ}$ decrease of the inclination in the\n739: outer parts was necessary to reproduce the shape of the extreme channels. The errors\n740: on the derived orientation angles are of a few degrees (\\citealt{Gea:03})."
+      },
+      {
+        "tex": "paper.tex",
+        "line": 744,
+        "context": "740: on the derived orientation angles are of a few degrees (\\citealt{Gea:03}).\n741: \n742: Using the rotation curves derived from other methods provided data cubes\n743: that were clearly different from those observed.  In Fig.~\\ref{compar},\n744: for the galaxy ESO 116-G12,\n745: we show some channel maps and the position-velocity diagram along\n746: the major axis of the observed data cube, of a model created from the corrected MET/WAMET\n747: rotation curve and of a model created from the first-moment rotation curve. The latter\n748: clearly fails in reproducing some of the observed features, like the shape of \n749: the extreme channels and the slope of the position-velocity diagram. Fitting "
+      },
+      {
+        "tex": "paper.tex",
+        "line": 779,
+        "context": "775: one can see that the H$\\alpha$ data lie above the {H{\\sc i}} rotation curve; the figure \n776: shows that it is not \n777: an error in the {H{\\sc i}} data reduction, but rather an intrinsic difference, maybe \n778: due to non-circular motions associated with the small bar visible in the optical image.\n779: The optical image of ESO 116-G12 looks a bit asymmetric, but the kinematics is not, while\n780: the other galaxies look symmetric in both the kinematics and the photometry, which tells\n781: us that apart from NGC 1090 the effects of possible hidden bars are negligible.\n782: We plot about two points per beam for the {H{\\sc i}} rotation curve: this was done in order\n783: to have a comparable number of {H{\\sc i}} and H$\\alpha$ points. Plotting fewer {H{\\sc i}}\n784: points would result in the H$\\alpha$ data outnumbering the {H{\\sc i}} data and biasing the "
+      },
+      {
+        "tex": "paper.tex",
+        "line": 1017,
+        "context": "1013: \\label{tab-param}\n1014: \\begin{tabular} {l c c c c c c} \n1015: \\hline\n1016: \\hline\n1017: Halo type \\vspace{0.2cm}& Parameter& ESO 116-G12         & ESO 287-G13            & ESO 79-G14             & NGC 1090               & NGC 7339          \\\\ \n1018: \\hline  \n1019: \n1020: \\vspace{0.2cm}\n1021: \n1022: Burkert          & $a          $& 0.79$^{+0.21}_{-0.18}$ & 2.29$^{+0.56}_{-0.41}$ & 0.67$^{+0.08}_{-0.07}$ & 0.81$^{+0.23}_{-0.22}$   & 1.60$^{+ \\infty}_{-0.79}$ \\\\ \\vspace{0.2cm}"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 1090,
+        "context": "1086: \n1087: \n1088: \\begin{figure*}\n1089:   \\centerline{\\psfig{figure=fig9.eps,width=157.1mm}}\n1090:   \\caption{Mass models for the galaxy ESO 116-G12. The solid line represents\n1091: the best-fitting model, the long-dashed line is the contribution of the dark matter\n1092: halo, and the dotted and short-dashed lines are the contributions\n1093: of the stellar and gaseous discs, respectively. 1 kpc corresponds to \n1094: 13{\\hbox{$.\\!\\!^{\\prime\\prime}$}}4.\n1095: Below the rotation curves we show the residuals ($V_{obs}~-~V_{model}$)."
+      }
+    ],
+    "ESO 79-G14": [
+      {
+        "tex": "paper.tex",
+        "line": 170,
+        "context": "166: \\vspace{0.3cm}}\n167: \\begin{tabular}{l l l l l l}\n168: \\hline\n169: \\hline\n170: Galaxy name                      & ESO 116-G12        & ESO 287-G13       & ESO 79-G14 & NGC 1090 & NGC 7339    \\\\ \n171: \\hline \n172: M$_I$ (mag)                      & -20.0              & -21.7             & -21.4      & -21.8    & -20.6       \\\\\n173: M$_{\\rm HI}$  (M$_{\\odot}$)      &1.5$\\times 10^{9}$  & 1.1$\\times 10^{10}$&3.5 $\\times 10^{9}$ &8.5$\\times 10^{9}$ &5.5$\\times 10^{8}$    \\\\\n174: Inclination ($^{\\circ}$)         & 74                 &78                 &84          &64        &79           \\\\\n175: $r_{\\rm HI}/r_{d}$          & 6.7                &7.4                & 4.8        &8.8       &4.1          \\\\"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 189,
+        "context": "185: We have developed a new method for both of these considerations:\n186: a) concerning the positions, we traced the rotation curve along the ridge of the warp \n187: (this step is discussed in \\citealt{V:04}),\n188: when the velocity field was not sufficiently sampled (i.e., for the galaxies ESO 116-G12,\n189: ESO 287-G13, ESO 79-G14 and NGC 7339) and the\n190: tilted-ring modelling of the velocity field was therefore not possible;\n191: b) for the velocities \n192: we only considered the velocity side of the profiles opposite to the systemic velocity, and then\n193: corrected for the effects that artificially broaden the profile, i.e.:\n194: the turbulence of the ISM, the instrumental velocity resolution and"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 243,
+        "context": "239: Galaxy       &OR/$r_{core}$     & RR/$r_{core}$ &OR/$r_{s}$  &RR/$r_{s}$   &   $r_{f}$/$r_{core}$  & $r_{f}$/$r_s$     \\\\\n240: \\hline\n241: ESO\\,116-G12 & 0.03              & 0.49  & 0.02   & 0.29         & 2.7        & 1.6                    \\\\\n242: ESO\\,287-G13 & 0.01              & 0.18  & 0.02   & 0.29         & 1.0        & 1.7                    \\\\\n243: ESO\\,79-G14  & 0.04              & 0.43  & 0.02   & 0.24         & 2.1        & 1.2                    \\\\\n244: NGC\\,1090    & 0.04              & 0.32  & 0.03   & 0.23         & 3.4        & 2.5                    \\\\\n245: NGC\\,7339    & 0.02              & 0.15  & 0.01   & 0.08         & 0.6        & 0.3                    \\\\\n246: \\hline\n247: \\end{tabular}\n248: \\end{footnotesize}"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 334,
+        "context": "330: \\label{observational}\n331: \\begin{tabular}{l l l l l l}\n332: \\hline\n333: \\hline\n334: Galaxy name  & ESO 116-G12                             & ESO 287-G13                              & ESO 79-G14           & NGC 1090       & NGC 7339 \\\\ \n335: \\hline\n336: RA           & 3$^{\\rm h}$13$^{\\rm m}$03$^{\\rm s}$.9  & 21$^{\\rm h}$23$^{\\rm m}$13$^{\\rm s}$.7  & 1$^{\\rm h}$02$^{\\rm m}$51$^{\\rm s}$.2& 2$^{\\rm h}$46$^{\\rm m}$33$^{\\rm s}$.9           &    22$^{\\rm h}$37$^{\\rm m}$46$^{\\rm s}$.9  \\\\\n337: Dec          &$-57\\degr 23\\arcmin27\\arcsec$             & $-45\\degr46\\arcmin20\\arcsec$               &$-65\\degr36\\arcmin36\\arcsec$&$ -0\\degr14\\arcmin50\\arcsec$         & $23\\degr47\\arcmin12\\arcsec$ \\\\\n338: Number of channels  & 256                              & 256                                      & 256                  & 2 $\\times$ 64           &  2 $\\times$ 64\\\\\n339: Channel separation (kHz) & 31.2                        & 31.2                                     &31.2                  &24.4              & 24.4 \\\\"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 348,
+        "context": "344: \\end{tabular}\n345: \\end{footnotesize}\n346: \\end{table*}\n347: \n348: We observed ESO 116-G12, ESO 287-G13 and ESO 79-G14 with\n349: the Australia Telescope Compact Array in the 750 m and 1.5 km\n350: configurations; the resulting baselines range from 31 m to 1500 m.\n351: The galaxies were observed for 12 hrs in each configuration.\n352: The correlator setup yielded\n353: 512 channels of width 15.6 kHz, resulting in a total bandwidth of 8 MHz."
+      },
+      {
+        "tex": "paper.tex",
+        "line": 405,
+        "context": "401:   H{\\sc i} total intensity map (contours). The first contour is\n402:   the ``pseudo 3-$\\sigma$'' defined similarly to \\citet{V&S:01} and \n403:   is equal to: $1.0 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 116-G12; \n404: $1.1 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 287-G13;\n405: $1.7 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for ESO 79-G14;\n406: $1.5 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for NGC 1090;\n407: $3.4 \\times 10^{20} {\\rm atom~ cm}^{-2}$ for NGC 7339;\n408: the remaining contours are (15, 30, 45,...)~$\\times~ \\sigma$, except for\n409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\\times~ \\sigma$.\n410: The beam is shown in the upper left corner."
+      },
+      {
+        "tex": "paper.tex",
+        "line": 430,
+        "context": "426: \\end{figure}\n427: \n428: \\begin{figure*}\n429:   \\centerline{\\psfig{figure=fig3.test.eps,width=17.7cm}}\n430: \\caption{A typical spectrum of the galaxy ESO 79-G14 \n431: at an intermediate galactocentric distance.\n432: The arrows indicate the systemic velocity as well as the positions of the \n433: velocities derived from the MET/WAMET method, the first-moment\n434: analysis and by fitting\n435: a single Gaussian to the profiles.}"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 525,
+        "context": "521: \n522: \\begin{figure}\n523:   \\centerline{\\psfig{figure=fig4.eps,width=8.85cm}}\n524: \\caption{Model of the radial velocities in the plane of the galaxy\n525: ESO 79-G14 and the regions that would be intercepted by the beam\n526: in the edge-on case.}\n527: \\label{plane}\n528: \\end{figure}\n529: \n530: Moreover, from recent results (\\citealt*{S:97}, \\citealt{F:01}),"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 736,
+        "context": "732: All the galaxies of our sample were successfully modelled with a small warp in\n733: the outer parts or with no\n734: warp at all. In particular, we found necessary to include in our model parameters a\n735: 5$^{\\circ}$ clockwise warp in ESO 116-G12, a 2$^{\\circ}$ clockwise warp in\n736: ESO 79-G14 and a 2$^{\\circ}$ anti-clockwise warp in NGC 1090. Concerning the inclination\n737: as a function of radius, it was kept constant at the values given in Table \\ref{physical},\n738: except for the galaxy ESO 79-G14, where a 5$^{\\circ}$ decrease of the inclination in the\n739: outer parts was necessary to reproduce the shape of the extreme channels. The errors\n740: on the derived orientation angles are of a few degrees (\\citealt{Gea:03}).\n741: "
+      },
+      {
+        "tex": "paper.tex",
+        "line": 738,
+        "context": "734: warp at all. In particular, we found necessary to include in our model parameters a\n735: 5$^{\\circ}$ clockwise warp in ESO 116-G12, a 2$^{\\circ}$ clockwise warp in\n736: ESO 79-G14 and a 2$^{\\circ}$ anti-clockwise warp in NGC 1090. Concerning the inclination\n737: as a function of radius, it was kept constant at the values given in Table \\ref{physical},\n738: except for the galaxy ESO 79-G14, where a 5$^{\\circ}$ decrease of the inclination in the\n739: outer parts was necessary to reproduce the shape of the extreme channels. The errors\n740: on the derived orientation angles are of a few degrees (\\citealt{Gea:03}).\n741: \n742: Using the rotation curves derived from other methods provided data cubes\n743: that were clearly different from those observed.  In Fig.~\\ref{compar},"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 842,
+        "context": "838: (e.g. \\citealt{Cor:00}). \n839: The available photometry shows that the luminous matter in these galaxies\n840: is distributed like in an exponential thin disc, whose value is given\n841: in Table \\ref{physical} \\citep*{Ma:92}.\n842: The exception to this is ESO 79-G14, whose profile is significantly \n843: different from exponential: for this galaxy the actual surface brightness\n844: profile was used.\n845: $\\Upsilon_{*}^{\\rm I}$ (assumed to be constant\n846: with radius) is a free parameter in each model, however, with the condition \n847: of being larger than 0.2."
+      },
+      {
+        "tex": "paper.tex",
+        "line": 936,
+        "context": "932: that, for a low luminosity spiral,\n933: it must presumably be substantially lower than that of the Milky Way \n934: and other very luminous galaxies, for which it is\n935: safely estimated : $M_{vir} \\simeq 2 \\times 10^{12}$ M$_{\\odot}$ (\\citealt{C:93}, \\citealt{W:99}).\n936: This constraint affects only N7339 and ESO 79-G14, due to the relatively limited extension \n937: of their {H{\\sc i}} rotation curves, which prevents to rule out\n938: large $\\Lambda$CDM haloes.\n939: \n940: \n941: \\subsubsection{Moore halo}"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 1017,
+        "context": "1013: \\label{tab-param}\n1014: \\begin{tabular} {l c c c c c c} \n1015: \\hline\n1016: \\hline\n1017: Halo type \\vspace{0.2cm}& Parameter& ESO 116-G12         & ESO 287-G13            & ESO 79-G14             & NGC 1090               & NGC 7339          \\\\ \n1018: \\hline  \n1019: \n1020: \\vspace{0.2cm}\n1021: \n1022: Burkert          & $a          $& 0.79$^{+0.21}_{-0.18}$ & 2.29$^{+0.56}_{-0.41}$ & 0.67$^{+0.08}_{-0.07}$ & 0.81$^{+0.23}_{-0.22}$   & 1.60$^{+ \\infty}_{-0.79}$ \\\\ \\vspace{0.2cm}"
+      },
+      {
+        "tex": "paper.tex",
+        "line": 1118,
+        "context": "1114: \\end{figure*}\n1115: \n1116: \\begin{figure*}\n1117:   \\centerline{\\psfig{figure=fig11.eps,width=157.1mm}}\n1118:   \\caption{Mass models for the galaxy ESO 79-G14 (see Fig.~\\ref{116} for an \n1119: explanation of layout and symbols). 1 kpc corresponds to \n1120: 6{\\hbox{$.\\!\\!^{\\prime\\prime}$}}8.\n1121: }\n1122: \\label{79}\n1123: \\end{figure*}"
+      }
+    ]
+  },
+  "decision_fields": {
+    "n_candidate_profile_assets": 4,
+    "any_raster_operator": true,
+    "any_vector_path_signal": true
+  },
+  "boundary": "Source-native asset audit only. No PostScript execution, OCR, raster digitization, gas normalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
