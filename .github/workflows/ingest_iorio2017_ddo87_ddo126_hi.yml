@@ -1,0 +1,41 @@
+name: Ingest Iorio 2017 DDO87 and DDO126 HI profiles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/ingest_iorio2017_ddo87_ddo126_hi_profiles.py'
+      - '.github/workflows/ingest_iorio2017_ddo87_ddo126_hi.yml'
+      - 'validation/stationary/stationary_split_v1.csv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch and validate public Iorio DDO87/DDO126 profiles
+        run: python scripts/stationary/ingest_iorio2017_ddo87_ddo126_hi_profiles.py
+      - name: Show summary
+        run: cat validation/stationary/iorio2017_ddo87_ddo126_hi_profiles_v1_summary.json
+      - name: Commit generated source products
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            data/stationary/source_reconstruction/iorio2017_ddo87_ddo126_hi_profiles_v1.csv \
+            validation/stationary/iorio2017_ddo87_ddo126_hi_profiles_v1_summary.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Ingest public Iorio 2017 DDO87 and DDO126 HI profiles"
+            git push origin HEAD:main
+          fi
