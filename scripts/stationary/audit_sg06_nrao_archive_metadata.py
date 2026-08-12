@@ -5,7 +5,11 @@ The published SG06 Sigma_HI panels are rasterized in the arXiv source package,
 but the paper reports new VLA observations in 2001-2002. NRAO's current archive
 provides scripted metadata access through TAP. This audit first discovers the
 actual registered archive table/column names from TAP_SCHEMA, then queries SG06
-target-name variants in the paper's date window and L-band frequency range.
+target-number substrings in the paper's date window and L-band frequency range.
+
+The NRAO TAP dialect does not expose SQL UPPER(), so all string matching in ADQL
+uses numeric target substrings only; final target/instrument classification is
+done locally in Python.
 
 Metadata/provenance only. No visibility download, calibration, imaging, radial
 profile reconstruction, persistence fitting, or blind-outcome inspection occurs.
@@ -57,8 +61,6 @@ def discover_archive_table(service):
         low = (name + " " + r["description"]).lower()
         if "obscore" in low or "observation" in low or "archive" in low:
             candidates.append(name)
-    # Inspect columns and choose the table containing the NRAO fields documented
-    # on the scripted-access page. This avoids hard-coding a schema/table case.
     scored = []
     for name in candidates or [r["table_name"] for r in tables]:
         qname = name.replace("'", "''")
@@ -88,13 +90,16 @@ def main() -> None:
     start = mjd("2001-06-01")
     end = mjd("2003-02-01")
 
-    clauses = []
-    for vals in TARGETS.values():
+    digits_by_target = {}
+    for g, vals in TARGETS.items():
+        digs = set()
         for n in vals:
-            digits = "".join(re.findall(r"\d+", n))
-            if len(digits) >= 4:
-                clauses.append(f"UPPER(target_name) LIKE '%{digits}%'")
-    clauses = sorted(set(clauses))
+            d = "".join(re.findall(r"\d+", n))
+            if len(d) >= 4:
+                digs.add(d)
+        digits_by_target[g] = sorted(digs)
+    all_digits = sorted({d for vals in digits_by_target.values() for d in vals})
+    clauses = [f"target_name LIKE '%{d}%'" for d in all_digits]
 
     wanted = [
         "obs_id", "obs_publisher_did", "target_name", "t_min", "t_max", "t_exptime",
@@ -108,23 +113,34 @@ def main() -> None:
     SELECT TOP 10000 {', '.join(selected)}
     FROM {table_name}
     WHERE t_min >= {start:.8f} AND t_min <= {end:.8f}
-      AND UPPER(instrument_name) LIKE '%VLA%'
       AND freq_min < 1.50e9 AND freq_max > 1.30e9
       AND ({' OR '.join(clauses)})
     """
     table = service.search(query).to_table()
-    rows = [{name: safe(r[name]) for name in table.colnames} for r in table]
+    raw_rows = [{name: safe(r[name]) for name in table.colnames} for r in table]
+
+    # Keep VLA-family rows locally rather than using unsupported SQL case functions.
+    rows = []
+    for rec in raw_rows:
+        inst = str(rec.get("instrument_name") or "").upper()
+        fac = str(rec.get("facility_name") or "").upper()
+        coll = str(rec.get("obs_collection") or "").upper()
+        if "VLA" in inst or "VLA" in fac or "VLA" in coll:
+            rows.append(rec)
 
     per = {g: [] for g in TARGETS}
     for rec in rows:
         tn = str(rec.get("target_name") or "").upper().replace(" ", "").replace("-", "")
         for g, aliases in TARGETS.items():
+            matched = False
             for a in aliases:
                 aa = a.upper().replace(" ", "").replace("-", "")
                 digits = "".join(re.findall(r"\d+", aa))
                 if (aa and aa in tn) or (len(digits) >= 4 and digits in tn):
-                    per[g].append(rec)
+                    matched = True
                     break
+            if matched:
+                per[g].append(rec)
 
     id_fields = [c for c in ("proposal_id", "project_code", "obs_id", "obs_publisher_did", "obs_collection") if c in selected]
     ids = sorted({
@@ -142,6 +158,7 @@ def main() -> None:
         "query": " ".join(query.split()),
         "date_window": ["2001-06-01", "2003-02-01"],
         "frequency_window_hz": [1.30e9, 1.50e9],
+        "n_query_rows_before_local_vla_filter": len(raw_rows),
         "n_rows": len(rows),
         "archive_identifiers": ids,
         "target_match_counts": {g: len(v) for g, v in per.items()},
@@ -163,6 +180,7 @@ def main() -> None:
         "status": result["status"],
         "resolved_table_name": table_name,
         "selected_columns": selected,
+        "n_query_rows_before_local_vla_filter": len(raw_rows),
         "n_rows": len(rows),
         "target_match_counts": result["target_match_counts"],
         "archive_identifiers": ids,
