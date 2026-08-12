@@ -1,0 +1,48 @@
+name: Extract Elson 2017 WHISP vector profiles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/extract_elson2017_whisp_vector_profiles.py'
+      - 'validation/stationary/elson2017_whisp_vector_axis_calibration_v1.json'
+      - '.github/workflows/extract_elson2017_whisp_vector_profiles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install vector PDF parser
+        run: pip install --disable-pip-version-check pymupdf
+      - name: Extract calibrated source curves
+        run: python scripts/stationary/extract_elson2017_whisp_vector_profiles.py
+      - name: Show compact summary
+        run: |
+          python - <<'PY'
+          import json
+          p='validation/stationary/elson2017_whisp_vector_profiles_candidate_v1_summary.json'
+          d=json.load(open(p))
+          for k in ['status','n_galaxies','n_rows','role_counts','basic_qc_failed_galaxies','max_axis_tick_nice_score','max_rhi_crossing_relative_error']:
+              print(k, d[k])
+          PY
+      - name: Commit candidate extraction products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/elson2017_whisp_vector_profiles_candidate_v1.csv validation/stationary/elson2017_whisp_vector_profiles_candidate_v1_summary.json
+          if git diff --cached --quiet; then
+            echo 'No generated changes'
+          else
+            git commit -m 'Extract candidate WHISP vector HI profiles'
+            git push
+          fi
