@@ -1,0 +1,323 @@
+===== U4483.tex:260 =====
+248: for details.}
+249: \label{fig:PVmod}
+250: \end{figure*}
+251: \begin{figure}[h!]
+252: \centering
+253: \includegraphics[width=8cm, angle=-90]{Fig4.eps}
+254: \caption{Observed \hi rotation curve (blue-filled circles) and asymmetric-drift-corrected
+255: rotation curve (red-open circles).}
+256: \label{fig:asymDrift}
+257: \end{figure}
+258: As a final step in the derivation of the rotation curve, we built 3D kinematic models, similarly to
+259: \citet{Swaters2009} and \citet{Lelli2010, Lelli2012}. The disk kinematics is assumed to be axisymmetric, while
+260: the \hi distribution is clumpy, i.e. the surface density varies with position as in the observed \hi map.
+261: The procedure is as follows: i) a disk with \textit{uniform} surface density and constant thickness is constructed
+262: by fixing the velocity dispersion $\sigma_{\hi}$, the rotation velocity $V_{\rm{rot}}$ and the radial velocity
+263: $V_{\rm{rad}}$ at every radius; ii) the disk is projected on the sky using the geometrical parameters
+264: $(x_{0}, y_{0})$, V$_{\rm{sys}}$, P.A., and $i$ and a model-cube is created; iii) the model-cube
+265: is convolved with the observational beam; and iv) the \hi line profiles are rescaled to reproduce
+266: the observed \hi map, i.e. the flux density is recovered at every spatial pixel.
+267: For the geometrical parameters, we used the values in table \ref{tab:prop}.
+268: For the vertical distribution, we assumed an exponential-law $exp(-z/z_{0})$ with $z_{0}$=100~pc.
+269: We also assumed that $\sigma_{\hi}$=8 km~s$^{-1}$ over the entire disk; a mean velocity dispersion
+270: higher than 10 km~s$^{-1}$ can be ruled out by comparing the shape of position-velocity (PV)
+271: diagrams obtained from the models and the observations. The values of $z_{0}$ and $\sigma_{\hi}$
+272: are slightly degenerate, but do not significantly affect the final results. For the rotation curve,
+
+===== U4483.tex:261 =====
+249: \label{fig:PVmod}
+250: \end{figure*}
+251: \begin{figure}[h!]
+252: \centering
+253: \includegraphics[width=8cm, angle=-90]{Fig4.eps}
+254: \caption{Observed \hi rotation curve (blue-filled circles) and asymmetric-drift-corrected
+255: rotation curve (red-open circles).}
+256: \label{fig:asymDrift}
+257: \end{figure}
+258: As a final step in the derivation of the rotation curve, we built 3D kinematic models, similarly to
+259: \citet{Swaters2009} and \citet{Lelli2010, Lelli2012}. The disk kinematics is assumed to be axisymmetric, while
+260: the \hi distribution is clumpy, i.e. the surface density varies with position as in the observed \hi map.
+261: The procedure is as follows: i) a disk with \textit{uniform} surface density and constant thickness is constructed
+262: by fixing the velocity dispersion $\sigma_{\hi}$, the rotation velocity $V_{\rm{rot}}$ and the radial velocity
+263: $V_{\rm{rad}}$ at every radius; ii) the disk is projected on the sky using the geometrical parameters
+264: $(x_{0}, y_{0})$, V$_{\rm{sys}}$, P.A., and $i$ and a model-cube is created; iii) the model-cube
+265: is convolved with the observational beam; and iv) the \hi line profiles are rescaled to reproduce
+266: the observed \hi map, i.e. the flux density is recovered at every spatial pixel.
+267: For the geometrical parameters, we used the values in table \ref{tab:prop}.
+268: For the vertical distribution, we assumed an exponential-law $exp(-z/z_{0})$ with $z_{0}$=100~pc.
+269: We also assumed that $\sigma_{\hi}$=8 km~s$^{-1}$ over the entire disk; a mean velocity dispersion
+270: higher than 10 km~s$^{-1}$ can be ruled out by comparing the shape of position-velocity (PV)
+271: diagrams obtained from the models and the observations. The values of $z_{0}$ and $\sigma_{\hi}$
+272: are slightly degenerate, but do not significantly affect the final results. For the rotation curve,
+273: we used the rotation velocities obtained by fitting the velocity field, then we corrected them
+
+===== U4483.tex:341 =====
+329: that is estimated as $\sigma{_{\rm{asym}}} = (V_{\rm{rot, app}} - V_{\rm{rot, rec}})/4$
+330: \citep{Swaters2009}. We point out that the observed \hi line profiles are quite broad and,
+331: therefore, it is very difficult to trace the rotation curve in the innermost parts. We
+332: compared models that have an inner solid-body rise and flatten at different radii and
+333: estimated that the rotation curve must flatten between $\sim$0.3 and $\sim$0.6 kpc, giving
+334: an inner rotation-velocity gradient between $\sim$35 and $\sim$65 km~s$^{-1}$~kpc$^{-1}$.
+335: We adopted an intermediate value for the rotation-velocity gradient.
+336: 
+337: In UGC~4483 the \hi velocity dispersion $\sigma_{\hi}$ is only a factor $\sim$2-3 smaller than
+338: the observed rotation velocity $V_{\rm{rot}}$. Thus, in order to trace the gravitational potential,
+339: the rotation curve has to be corrected for pressure support. We calculated the asymmetric-drift
+340: correction following \citet{Meurer1996}. We assumed that the \hi disk has constant scale-height
+341: and velocity dispersion, and fitted the \hi surface density profile (Fig.~\ref{fig:HIdens})
+342: with the Gaussian function $\Sigma_{\hi}\left(R\right) =\Sigma_{0} \times \exp {\left(-R^2 / 2 s^2 \right)}$,
+343: obtaining $\Sigma_{0} = 10.5$ $M_{\odot}$~pc$^{-2}$ and $s = 580$ pc. The circular velocity $V_{\rm{circ}}$,
+344: corrected for asymmetric-drift, is thus given by $V_{\rm{circ}}^2 = V_{\rm{rot}}^2 + \sigma_{\hi}^2 (R^2/s^2)$.
+345: Using the 3D models, we can constrain the mean velocity dispersion between $\sim$6 and $\sim$10 km~s$^{-1}$.
+346: We assumed the intermediate value of 8~km~s$^{-1}$. The asymmetric-drift correction is significant
+347: only in the outer parts (see Fig. \ref{fig:asymDrift}). Depending on the assumed value of $\sigma_{\hi}$,
+348: the correction at the last measured points may be between $\sim$2 and $\sim$8 km~s$^{-1}$, giving
+349: a dynamical mass between about 1 and 2 $\times10^{8}$ $M_{\odot}$.
+350: 
+351: In the above analysis, we used the centre and the P.A. derived from the stellar and \hi
+352: morphologies. However, the differences between the observed and the best-model velocity fields 
+353: (Fig. \ref{fig:residuals}, top-right) show a systematic pattern that may point to a different location of the
+
+===== U4483.tex:368 =====
+356: reduces the pattern significantly. Moreover, a disk-model with an off-set centre and a P.A.$\simeq$10$^{\circ}$
+357: can reproduce the observed velocity field without radial motions (Fig. \ref{fig:residuals}, bottom). 
+358: However, these values for the centre and the P.A. are in marked contrast with the observed stellar and 
+359: \hi morphologies. In particular, the distribution
+360: of the old stars (which constitute an important fraction of the dynamical mass in the inner parts,
+361: see Sect.~\ref{sec:dyn}) is remarkably symmetric and consistent with the centre and P.A. previously 
+362: adopted (see Fig.~6 of \citealt{Dolphin2001} and Fig.~9 of \citealt{Izotov2002}). 
+363: Thus, in the following, we keep the dynamical centre coincident with the optical one.
+364: This has no significant effects on the derived rotation curve.
+365: 
+366: \begin{figure}[tbp]
+367: \centering
+368: \includegraphics[width=6.5cm, angle=-90]{Fig6.eps}
+369: \caption{\hi surface density profiles (inclination corrected), derived separately for the
+370: northern (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).}
+371: \label{fig:HIdens}
+372: \end{figure}
+373: \begin{figure}[tbp]
+374: \centering
+375: \includegraphics[width=6.5cm, angle=-90]{Fig7.eps}
+376: \caption{R-band surface brightness profiles, derived separately for the northern
+377: (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).
+378: The profiles are not corrected for internal extinction and inclination.
+379: The red-dotted line shows an exponential fit to the southern profile,
+380: giving $\mu_{0} = 22.0$ mag~arcsec$^{-2}$
+
+===== U4483.tex:369 =====
+357: can reproduce the observed velocity field without radial motions (Fig. \ref{fig:residuals}, bottom). 
+358: However, these values for the centre and the P.A. are in marked contrast with the observed stellar and 
+359: \hi morphologies. In particular, the distribution
+360: of the old stars (which constitute an important fraction of the dynamical mass in the inner parts,
+361: see Sect.~\ref{sec:dyn}) is remarkably symmetric and consistent with the centre and P.A. previously 
+362: adopted (see Fig.~6 of \citealt{Dolphin2001} and Fig.~9 of \citealt{Izotov2002}). 
+363: Thus, in the following, we keep the dynamical centre coincident with the optical one.
+364: This has no significant effects on the derived rotation curve.
+365: 
+366: \begin{figure}[tbp]
+367: \centering
+368: \includegraphics[width=6.5cm, angle=-90]{Fig6.eps}
+369: \caption{\hi surface density profiles (inclination corrected), derived separately for the
+370: northern (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).}
+371: \label{fig:HIdens}
+372: \end{figure}
+373: \begin{figure}[tbp]
+374: \centering
+375: \includegraphics[width=6.5cm, angle=-90]{Fig7.eps}
+376: \caption{R-band surface brightness profiles, derived separately for the northern
+377: (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).
+378: The profiles are not corrected for internal extinction and inclination.
+379: The red-dotted line shows an exponential fit to the southern profile,
+380: giving $\mu_{0} = 22.0$ mag~arcsec$^{-2}$
+381: ($\sim40$ $L{\odot}$~pc$^{-2}$) and $R_{0} = 13.1'' \pm 0.1''$ ($\sim 203$~pc).}
+
+===== U4483.tex:431 =====
+419: the stellar mass formed more than 500 Myr ago is $\sim$1.31$\times$10$^{7}$~$M_{\odot}$.
+420: Thus, to calculate the gravitational contribution of the stars, we used the southern
+421: surface brightness profile, as it provides a better approximation of the stellar mass surface
+422: density. Assuming that $30\%\pm10\%$ of the gas is returned to the inter stellar medium by
+423: supernovae and stellar winds, the total stellar mass is $(1.0 \pm 0.3) \times 10^{7}$~$M_{\odot}$
+424: (cf. \citealt{McQuinn2010b}), giving a stellar mass-to-light ratio $M_{*}/L_{\rm{R}}=1.1\pm0.3$.
+425: The southern surface brightness profile can be fitted by an exponential-law with
+426: $\mu_{0} = 22.0 \pm 0.1$ mag~arcsec$^{-2}$ ($\sim40$ $L_{\odot}$~pc$^{-2}$) and $R_{0} = 13.1'' \pm 0.1''$
+427: ($\sim 203$~pc). We assumed that the stars are located in a disk with vertical density distribution given
+428: by $\rho(\rm{z})=\rm{sech}^{2}(z/z_{0})$ \citep{vanDerKruit1981} with z$_{0} \simeq 0.5 R_{0} \simeq 100$~pc.
+429: 
+430: The gravitational contribution of the gaseous disk was calculated using the azimuthally-averaged
+431: \hi surface density profile, which was derived from the total \hi map. Figure \ref{fig:HIdens}
+432: shows the \hi density profiles derived by azimuthally-averaging over the entire galaxy and over
+433: the southern (approaching) and northern (receding) sides separately. There is a difference of the
+434: order of $\sim$2-3 $M_{\odot}$~pc$^{-2}$ between the two halves, that has a small effect on the
+435: resulting gravitational contribution. In agreement with the models in Sect.~\ref{sec:kin}, we
+436: assumed an exponential vertical distribution with z$_{0}=100$~pc. The mass of the \hi disk was
+437: calculated from the total \hi flux (see table \ref{tab:prop}) and multiplied by a factor
+438: of 1.32 to take into account the presence of helium. Molecular gas was not explicitly
+439: considered in the mass model because its amount is unknown.
+440: 
+441: For the dark matter distribution, we assumed a pseudo-isothermal halo described
+442: by the equation
+443: \begin{equation} \label{eq:ISO}
+
+===== U4483.tex:432 =====
+420: Thus, to calculate the gravitational contribution of the stars, we used the southern
+421: surface brightness profile, as it provides a better approximation of the stellar mass surface
+422: density. Assuming that $30\%\pm10\%$ of the gas is returned to the inter stellar medium by
+423: supernovae and stellar winds, the total stellar mass is $(1.0 \pm 0.3) \times 10^{7}$~$M_{\odot}$
+424: (cf. \citealt{McQuinn2010b}), giving a stellar mass-to-light ratio $M_{*}/L_{\rm{R}}=1.1\pm0.3$.
+425: The southern surface brightness profile can be fitted by an exponential-law with
+426: $\mu_{0} = 22.0 \pm 0.1$ mag~arcsec$^{-2}$ ($\sim40$ $L_{\odot}$~pc$^{-2}$) and $R_{0} = 13.1'' \pm 0.1''$
+427: ($\sim 203$~pc). We assumed that the stars are located in a disk with vertical density distribution given
+428: by $\rho(\rm{z})=\rm{sech}^{2}(z/z_{0})$ \citep{vanDerKruit1981} with z$_{0} \simeq 0.5 R_{0} \simeq 100$~pc.
+429: 
+430: The gravitational contribution of the gaseous disk was calculated using the azimuthally-averaged
+431: \hi surface density profile, which was derived from the total \hi map. Figure \ref{fig:HIdens}
+432: shows the \hi density profiles derived by azimuthally-averaging over the entire galaxy and over
+433: the southern (approaching) and northern (receding) sides separately. There is a difference of the
+434: order of $\sim$2-3 $M_{\odot}$~pc$^{-2}$ between the two halves, that has a small effect on the
+435: resulting gravitational contribution. In agreement with the models in Sect.~\ref{sec:kin}, we
+436: assumed an exponential vertical distribution with z$_{0}=100$~pc. The mass of the \hi disk was
+437: calculated from the total \hi flux (see table \ref{tab:prop}) and multiplied by a factor
+438: of 1.32 to take into account the presence of helium. Molecular gas was not explicitly
+439: considered in the mass model because its amount is unknown.
+440: 
+441: For the dark matter distribution, we assumed a pseudo-isothermal halo described
+442: by the equation
+443: \begin{equation} \label{eq:ISO}
+444:  \rho_{\rm{ISO}}(r) = \frac{\rho_{\rm{0}}}{1 + (r/r_{\rm{c}})^{2}} ,
+
+===== U4483.tex:503 =====
+491: $\sim$3 times higher than obtained from the study of the resolved stellar populations. This mass may be
+492: provided by molecules, if they are distributed in a way similar to the stars. We also find a good fit by fixing
+493: $M_{*}/L_{\rm{R}}=1.1$ and scaling the \hi contribution by a factor of $\sim$5, similarly to the results
+494: of \citealt{Hoekstra2001} for other gas-rich galaxies. These results suggest that the distribution of the
+495: dynamical mass is closely coupled to that of the baryonic mass (see e.g. \citealt{Sancisi2004} and
+496: \citealt{Swaters2011}). We also checked the position of UGC~4483 on the baryonic Tully-Fisher relation and
+497: found that it follows the correlation within the observed scatter (cf. \citealt{McGaugh2011}).
+498: 
+499: \begin{figure}[tbp]
+500: \centering
+501: \includegraphics[width=13cm, angle=-90]{Fig9.eps}
+502: \caption{Comparison between UGC~4483 (blue line) and the dwarf irregular galaxy
+503: DDO~125 (UGC~7577) (red line). \textit{Top:} HI surface density profiles.
+504: \textit{Middle:} R-band surface brightness profiles, corrected for the inclination
+505: assuming that the disk is transparent and using the ellipticity from \citet{Swaters2002b}.
+506: \textit{Bottom:} HI rotation curves (not corrected for asymmetric drift).}
+507: \label{fig:compa}
+508: \end{figure}
+509: Finally, we considered the predictions of the MOdified Newtonian Dynamics (MOND) (\citealt{Milgrom1983},
+510: see \citealt{Famaey2011} for a review). Using UGC~4483, we can test MOND without any free parameter,
+511: as the value of $M_{*}/L$ is provided by the colour-magnitude diagram of the resolved stellar populations
+512: and the distance is well determined from the tip of the red giant branch \citep{Dolphin2001, Izotov2002}.
+513: We found that MOND systematically over-predicts the observed rotation curve by $\sim$5-6 km~s$^{-1}$.
+514: The discrepancy does not strongly depend on the assumed $M_{*}/L$, as it is mainly driven by the atomic gas
+515: content, and it would further increase if molecules are also considered in the mass model. However, the
+
+===== U4483.tex:533 =====
+521: \section{Discussion \label{sec:discuss}}
+522: 
+523: \begin{figure*}[tbp]
+524: \centering
+525: \includegraphics[width=8.5cm, angle=-90]{Fig10.eps}
+526: \caption{Comparison between the properties of BCDs (squares) and of dIrrs (dots).
+527: The dIrrs are taken from \citet{Swaters2009}, selecting the objects with high-quality
+528: rotation curves and $V_{\rm{rot}} < 70$ km~s$^{-1}$ at the last measured point.
+529: The BCDs are UGC~4483 (this work), I~Zw~18 \citep{Lelli2012}, NGC~6789 (Lelli et al. in preparation),
+530: and NGC~1705 \citep{Meurer1998}. Some galaxies are labelled according to their UGC number.
+531: \textit{Left:} R-band central surface brightness (inclination corrected) versus the inner
+532: rotation-velocity gradient $V_{\rm{rot}}(R_{0})/R_{0}$, where $R_{0}$ is the optical scale-length.
+533: \textit{Right:} peak \hi surface density $\Sigma_{\hiV, \, \rm{peak}}$ versus $V_{\rm{rot}}(R_{0})/R_{0}$.
+534: $\Sigma_{\hiV, \, \rm{peak}}$ is derived from the azimuthally-averaged \hi surface density
+535: profiles. See Sect.~\ref{sec:discuss} for details.}
+536: \label{fig:GradPlot}
+537: \end{figure*}
+538: In Sect. \ref{sec:kin}, we showed that UGC~4483 has a steeply-rising rotation curve that flattens
+539: in the outer parts at a velocity of $\sim$18-20 km~s$^{-1}$. As far as we know, this is the
+540: lowest-mass galaxy with a differentially rotating \hi disk. The steep rise of the rotation
+541: curve points to a strong central concentration of mass, which seems to be a characterizing property
+542: of BCDs. Indeed, similar results have been found also for other BCDs, e.g. I~Zw~18 \citep{Lelli2012},
+543: NGC~2537 \citep{Matthews2008}, and NGC~1705 \citep{Meurer1998}. The steeply-rising and flat rotation
+544: curves of these BCDs are remarkable, as dIrrs typically have slowly-rising rotation curves
+545: (e.g. \citealt{Swaters2009}). The terms ``steeply-rising'' and ``slowly-rising'' are referred
+
+===== U4483.tex:534 =====
+522: 
+523: \begin{figure*}[tbp]
+524: \centering
+525: \includegraphics[width=8.5cm, angle=-90]{Fig10.eps}
+526: \caption{Comparison between the properties of BCDs (squares) and of dIrrs (dots).
+527: The dIrrs are taken from \citet{Swaters2009}, selecting the objects with high-quality
+528: rotation curves and $V_{\rm{rot}} < 70$ km~s$^{-1}$ at the last measured point.
+529: The BCDs are UGC~4483 (this work), I~Zw~18 \citep{Lelli2012}, NGC~6789 (Lelli et al. in preparation),
+530: and NGC~1705 \citep{Meurer1998}. Some galaxies are labelled according to their UGC number.
+531: \textit{Left:} R-band central surface brightness (inclination corrected) versus the inner
+532: rotation-velocity gradient $V_{\rm{rot}}(R_{0})/R_{0}$, where $R_{0}$ is the optical scale-length.
+533: \textit{Right:} peak \hi surface density $\Sigma_{\hiV, \, \rm{peak}}$ versus $V_{\rm{rot}}(R_{0})/R_{0}$.
+534: $\Sigma_{\hiV, \, \rm{peak}}$ is derived from the azimuthally-averaged \hi surface density
+535: profiles. See Sect.~\ref{sec:discuss} for details.}
+536: \label{fig:GradPlot}
+537: \end{figure*}
+538: In Sect. \ref{sec:kin}, we showed that UGC~4483 has a steeply-rising rotation curve that flattens
+539: in the outer parts at a velocity of $\sim$18-20 km~s$^{-1}$. As far as we know, this is the
+540: lowest-mass galaxy with a differentially rotating \hi disk. The steep rise of the rotation
+541: curve points to a strong central concentration of mass, which seems to be a characterizing property
+542: of BCDs. Indeed, similar results have been found also for other BCDs, e.g. I~Zw~18 \citep{Lelli2012},
+543: NGC~2537 \citep{Matthews2008}, and NGC~1705 \citep{Meurer1998}. The steeply-rising and flat rotation
+544: curves of these BCDs are remarkable, as dIrrs typically have slowly-rising rotation curves
+545: (e.g. \citealt{Swaters2009}). The terms ``steeply-rising'' and ``slowly-rising'' are referred
+546: to rotation-velocity gradients measured in physical units (km~s$^{-1}$~kpc$^{-1}$) that can be directly
+
+===== U4483.tex:601 =====
+589: $V_{\rm{rot}}(R)/R$ as an estimate of central mass concentration. This is calculated at $R = R_{0}$, where
+590: $R_{0}$ is the galaxy scale-length in the R-band; thus we take into account the different sizes of the systems.
+591: In Fig.~\ref{fig:GradPlot}, $V_{\rm{rot}}(R_{0})/R_{0}$ is plotted versus the central disk surface brightness
+592: $\mu_{0}$ (left) and the peak \hi column density $\Sigma_{\hiV,\, \rm{peak}}$ (right) for a sample of both BCDs and dIrrs.
+593: The BCDs are UGC~4483, I~Zw~18, NGC~1705, and NGC~6789. For I~Zw~18 we used the R-band structural parameters from
+594: \citet{Papaderos2002}, the rotation curve from \citet{Lelli2012}, and a distance of 18.2 Mpc \citep{Aloisi2007}.
+595: For NGC~1705 we used the R-band structural parameters from \citet{GilDePaz2005}, the rotation curve from
+596: \citet{Meurer1998} named ``model DD'' (see their Fig.~10), and a distance of 5.1 Mpc \citep{Tosi2001}.
+597: For NGC~6789 we used the R-band structural parameters and the rotation curve from Lelli et al. (in preparation),
+598: and a distance of 3.6~Mpc \citep{Drozdovsky2001}.
+599: The dIrrs were taken from the sample of \citet{Swaters2009}, by selecting the objects that have high-quality
+600: rotation curves ($q\leq2$, see \citealt{Swaters2009}) and $V_{\rm{rot}} < 70$ km~s$^{-1}$ at the last measured
+601: point. For $\Sigma_{\hiV,\, \rm{peak}}$, we used the peak value of the azimuthally-averaged \hi density profile.
+602: The value of $\Sigma_{\hiV,\, \rm{peak}}$ depends on the linear resolution of the \hi observations, but we checked
+603: that this does not strongly bias our analysis as the trend in Fig.~\ref{fig:GradPlot} does not significantly
+604: change if one considers only galaxies with linear resolution $\lesssim$ 500~pc (corresponding to distances
+605: $\lesssim$ 7 Mpc). We also point out that BCDs usually have clumpy \hi distributions and locally the \hi
+606: column densities can reach even higher values, up to 40-50 $M_{\odot}$~pc$^{-2}$, much higher than in dIrrs.
+607: 
+608: The two diagrams in figure \ref{fig:GradPlot} show a clear trend: galaxies with a high rotation-velocity
+609: gradient have also high central surface brightness (left) and high peak \hi surface density (right). The BCDs
+610: are in the upper parts of these distributions: they have $V_{\rm{rot}}(R_{0})/R_{0}>40$ km s$^{-1}$ kpc$^{-1}$
+611: whereas dIrrs typically have $V_{\rm{rot}}(R_{0})/R_{0}<40$ km s$^{-1}$ kpc$^{-1}$. However, some dIrrs
+612: (UGC~3966, UGC~8550, UGC~7232, and UGC~7690) have inner rotation-velocity gradients comparable to those
+613: of BCDs and thus, in this respect, are dynamically similar to BCDs. These objects have peak \hi column
+
+===== U4483.tex:609 =====
+597: For NGC~6789 we used the R-band structural parameters and the rotation curve from Lelli et al. (in preparation),
+598: and a distance of 3.6~Mpc \citep{Drozdovsky2001}.
+599: The dIrrs were taken from the sample of \citet{Swaters2009}, by selecting the objects that have high-quality
+600: rotation curves ($q\leq2$, see \citealt{Swaters2009}) and $V_{\rm{rot}} < 70$ km~s$^{-1}$ at the last measured
+601: point. For $\Sigma_{\hiV,\, \rm{peak}}$, we used the peak value of the azimuthally-averaged \hi density profile.
+602: The value of $\Sigma_{\hiV,\, \rm{peak}}$ depends on the linear resolution of the \hi observations, but we checked
+603: that this does not strongly bias our analysis as the trend in Fig.~\ref{fig:GradPlot} does not significantly
+604: change if one considers only galaxies with linear resolution $\lesssim$ 500~pc (corresponding to distances
+605: $\lesssim$ 7 Mpc). We also point out that BCDs usually have clumpy \hi distributions and locally the \hi
+606: column densities can reach even higher values, up to 40-50 $M_{\odot}$~pc$^{-2}$, much higher than in dIrrs.
+607: 
+608: The two diagrams in figure \ref{fig:GradPlot} show a clear trend: galaxies with a high rotation-velocity
+609: gradient have also high central surface brightness (left) and high peak \hi surface density (right). The BCDs
+610: are in the upper parts of these distributions: they have $V_{\rm{rot}}(R_{0})/R_{0}>40$ km s$^{-1}$ kpc$^{-1}$
+611: whereas dIrrs typically have $V_{\rm{rot}}(R_{0})/R_{0}<40$ km s$^{-1}$ kpc$^{-1}$. However, some dIrrs
+612: (UGC~3966, UGC~8550, UGC~7232, and UGC~7690) have inner rotation-velocity gradients comparable to those
+613: of BCDs and thus, in this respect, are dynamically similar to BCDs. These objects have peak \hi column
+614: densities much smaller than those found in I~Zw~18 and NGC~1705 (Fig. \ref{fig:GradPlot}, right)
+615: and are candidate progenitors/descendants of BCDs. It would be interesting to study the SFHs of
+616: these compact dIrrs and investigate if they experienced a starburst in the recent past.
+617: 
+618: Finally, we have seen that the asymmetries in the velocity field of UGC~4483
+619: can be described as a global radial motion of 5 km~s$^{-1}$. Radial motions have been found in two other BCDs: NGC~2915
+620: \citep{Elson2011, Elson2011b} and I~Zw~18 \citep{Lelli2012}. \citet{Elson2011} assumed that
+621: the spiral arms in the \hi disk of NGC~2915 are trailing and concluded that the radial motions

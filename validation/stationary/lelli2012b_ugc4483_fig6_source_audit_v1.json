@@ -1,0 +1,532 @@
+{
+  "status": "LELLI2012B_UGC4483_FIG6_SOURCE_AUDIT_COMPLETE",
+  "arxiv": "1207.2696",
+  "source_url": "https://arxiv.org/e-print/1207.2696",
+  "final_url": "https://arxiv.org/src/1207.2696",
+  "content_type": "application/gzip",
+  "source_package_bytes": 900969,
+  "source_package_sha256": "b2bc91d5e3fc978113a45ed3bee8238c962e82c9af06cf8789b8cde16a108c24",
+  "n_members": 15,
+  "members": [
+    "Fig1.eps",
+    "Fig10.eps",
+    "Fig2.eps",
+    "Fig3.eps",
+    "Fig4.eps",
+    "Fig5.eps",
+    "Fig6.eps",
+    "Fig7.eps",
+    "Fig8.eps",
+    "Fig9.eps",
+    "U4483.bbl",
+    "U4483.tex",
+    "aa.bst",
+    "aa.cls",
+    "natbib.sty"
+  ],
+  "relevant_tex_contexts": [
+    {
+      "file": "U4483.tex",
+      "line": 260,
+      "context": "248: for details.}\n249: \\label{fig:PVmod}\n250: \\end{figure*}\n251: \\begin{figure}[h!]\n252: \\centering\n253: \\includegraphics[width=8cm, angle=-90]{Fig4.eps}\n254: \\caption{Observed \\hi rotation curve (blue-filled circles) and asymmetric-drift-corrected\n255: rotation curve (red-open circles).}\n256: \\label{fig:asymDrift}\n257: \\end{figure}\n258: As a final step in the derivation of the rotation curve, we built 3D kinematic models, similarly to\n259: \\citet{Swaters2009} and \\citet{Lelli2010, Lelli2012}. The disk kinematics is assumed to be axisymmetric, while\n260: the \\hi distribution is clumpy, i.e. the surface density varies with position as in the observed \\hi map.\n261: The procedure is as follows: i) a disk with \\textit{uniform} surface density and constant thickness is constructed\n262: by fixing the velocity dispersion $\\sigma_{\\hi}$, the rotation velocity $V_{\\rm{rot}}$ and the radial velocity\n263: $V_{\\rm{rad}}$ at every radius; ii) the disk is projected on the sky using the geometrical parameters\n264: $(x_{0}, y_{0})$, V$_{\\rm{sys}}$, P.A., and $i$ and a model-cube is created; iii) the model-cube\n265: is convolved with the observational beam; and iv) the \\hi line profiles are rescaled to reproduce\n266: the observed \\hi map, i.e. the flux density is recovered at every spatial pixel.\n267: For the geometrical parameters, we used the values in table \\ref{tab:prop}.\n268: For the vertical distribution, we assumed an exponential-law $exp(-z/z_{0})$ with $z_{0}$=100~pc.\n269: We also assumed that $\\sigma_{\\hi}$=8 km~s$^{-1}$ over the entire disk; a mean velocity dispersion\n270: higher than 10 km~s$^{-1}$ can be ruled out by comparing the shape of position-velocity (PV)\n271: diagrams obtained from the models and the observations. The values of $z_{0}$ and $\\sigma_{\\hi}$\n272: are slightly degenerate, but do not significantly affect the final results. For the rotation curve,"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 261,
+      "context": "249: \\label{fig:PVmod}\n250: \\end{figure*}\n251: \\begin{figure}[h!]\n252: \\centering\n253: \\includegraphics[width=8cm, angle=-90]{Fig4.eps}\n254: \\caption{Observed \\hi rotation curve (blue-filled circles) and asymmetric-drift-corrected\n255: rotation curve (red-open circles).}\n256: \\label{fig:asymDrift}\n257: \\end{figure}\n258: As a final step in the derivation of the rotation curve, we built 3D kinematic models, similarly to\n259: \\citet{Swaters2009} and \\citet{Lelli2010, Lelli2012}. The disk kinematics is assumed to be axisymmetric, while\n260: the \\hi distribution is clumpy, i.e. the surface density varies with position as in the observed \\hi map.\n261: The procedure is as follows: i) a disk with \\textit{uniform} surface density and constant thickness is constructed\n262: by fixing the velocity dispersion $\\sigma_{\\hi}$, the rotation velocity $V_{\\rm{rot}}$ and the radial velocity\n263: $V_{\\rm{rad}}$ at every radius; ii) the disk is projected on the sky using the geometrical parameters\n264: $(x_{0}, y_{0})$, V$_{\\rm{sys}}$, P.A., and $i$ and a model-cube is created; iii) the model-cube\n265: is convolved with the observational beam; and iv) the \\hi line profiles are rescaled to reproduce\n266: the observed \\hi map, i.e. the flux density is recovered at every spatial pixel.\n267: For the geometrical parameters, we used the values in table \\ref{tab:prop}.\n268: For the vertical distribution, we assumed an exponential-law $exp(-z/z_{0})$ with $z_{0}$=100~pc.\n269: We also assumed that $\\sigma_{\\hi}$=8 km~s$^{-1}$ over the entire disk; a mean velocity dispersion\n270: higher than 10 km~s$^{-1}$ can be ruled out by comparing the shape of position-velocity (PV)\n271: diagrams obtained from the models and the observations. The values of $z_{0}$ and $\\sigma_{\\hi}$\n272: are slightly degenerate, but do not significantly affect the final results. For the rotation curve,\n273: we used the rotation velocities obtained by fitting the velocity field, then we corrected them"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 341,
+      "context": "329: that is estimated as $\\sigma{_{\\rm{asym}}} = (V_{\\rm{rot, app}} - V_{\\rm{rot, rec}})/4$\n330: \\citep{Swaters2009}. We point out that the observed \\hi line profiles are quite broad and,\n331: therefore, it is very difficult to trace the rotation curve in the innermost parts. We\n332: compared models that have an inner solid-body rise and flatten at different radii and\n333: estimated that the rotation curve must flatten between $\\sim$0.3 and $\\sim$0.6 kpc, giving\n334: an inner rotation-velocity gradient between $\\sim$35 and $\\sim$65 km~s$^{-1}$~kpc$^{-1}$.\n335: We adopted an intermediate value for the rotation-velocity gradient.\n336: \n337: In UGC~4483 the \\hi velocity dispersion $\\sigma_{\\hi}$ is only a factor $\\sim$2-3 smaller than\n338: the observed rotation velocity $V_{\\rm{rot}}$. Thus, in order to trace the gravitational potential,\n339: the rotation curve has to be corrected for pressure support. We calculated the asymmetric-drift\n340: correction following \\citet{Meurer1996}. We assumed that the \\hi disk has constant scale-height\n341: and velocity dispersion, and fitted the \\hi surface density profile (Fig.~\\ref{fig:HIdens})\n342: with the Gaussian function $\\Sigma_{\\hi}\\left(R\\right) =\\Sigma_{0} \\times \\exp {\\left(-R^2 / 2 s^2 \\right)}$,\n343: obtaining $\\Sigma_{0} = 10.5$ $M_{\\odot}$~pc$^{-2}$ and $s = 580$ pc. The circular velocity $V_{\\rm{circ}}$,\n344: corrected for asymmetric-drift, is thus given by $V_{\\rm{circ}}^2 = V_{\\rm{rot}}^2 + \\sigma_{\\hi}^2 (R^2/s^2)$.\n345: Using the 3D models, we can constrain the mean velocity dispersion between $\\sim$6 and $\\sim$10 km~s$^{-1}$.\n346: We assumed the intermediate value of 8~km~s$^{-1}$. The asymmetric-drift correction is significant\n347: only in the outer parts (see Fig. \\ref{fig:asymDrift}). Depending on the assumed value of $\\sigma_{\\hi}$,\n348: the correction at the last measured points may be between $\\sim$2 and $\\sim$8 km~s$^{-1}$, giving\n349: a dynamical mass between about 1 and 2 $\\times10^{8}$ $M_{\\odot}$.\n350: \n351: In the above analysis, we used the centre and the P.A. derived from the stellar and \\hi\n352: morphologies. However, the differences between the observed and the best-model velocity fields \n353: (Fig. \\ref{fig:residuals}, top-right) show a systematic pattern that may point to a different location of the"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 368,
+      "context": "356: reduces the pattern significantly. Moreover, a disk-model with an off-set centre and a P.A.$\\simeq$10$^{\\circ}$\n357: can reproduce the observed velocity field without radial motions (Fig. \\ref{fig:residuals}, bottom). \n358: However, these values for the centre and the P.A. are in marked contrast with the observed stellar and \n359: \\hi morphologies. In particular, the distribution\n360: of the old stars (which constitute an important fraction of the dynamical mass in the inner parts,\n361: see Sect.~\\ref{sec:dyn}) is remarkably symmetric and consistent with the centre and P.A. previously \n362: adopted (see Fig.~6 of \\citealt{Dolphin2001} and Fig.~9 of \\citealt{Izotov2002}). \n363: Thus, in the following, we keep the dynamical centre coincident with the optical one.\n364: This has no significant effects on the derived rotation curve.\n365: \n366: \\begin{figure}[tbp]\n367: \\centering\n368: \\includegraphics[width=6.5cm, angle=-90]{Fig6.eps}\n369: \\caption{\\hi surface density profiles (inclination corrected), derived separately for the\n370: northern (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).}\n371: \\label{fig:HIdens}\n372: \\end{figure}\n373: \\begin{figure}[tbp]\n374: \\centering\n375: \\includegraphics[width=6.5cm, angle=-90]{Fig7.eps}\n376: \\caption{R-band surface brightness profiles, derived separately for the northern\n377: (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).\n378: The profiles are not corrected for internal extinction and inclination.\n379: The red-dotted line shows an exponential fit to the southern profile,\n380: giving $\\mu_{0} = 22.0$ mag~arcsec$^{-2}$"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 369,
+      "context": "357: can reproduce the observed velocity field without radial motions (Fig. \\ref{fig:residuals}, bottom). \n358: However, these values for the centre and the P.A. are in marked contrast with the observed stellar and \n359: \\hi morphologies. In particular, the distribution\n360: of the old stars (which constitute an important fraction of the dynamical mass in the inner parts,\n361: see Sect.~\\ref{sec:dyn}) is remarkably symmetric and consistent with the centre and P.A. previously \n362: adopted (see Fig.~6 of \\citealt{Dolphin2001} and Fig.~9 of \\citealt{Izotov2002}). \n363: Thus, in the following, we keep the dynamical centre coincident with the optical one.\n364: This has no significant effects on the derived rotation curve.\n365: \n366: \\begin{figure}[tbp]\n367: \\centering\n368: \\includegraphics[width=6.5cm, angle=-90]{Fig6.eps}\n369: \\caption{\\hi surface density profiles (inclination corrected), derived separately for the\n370: northern (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).}\n371: \\label{fig:HIdens}\n372: \\end{figure}\n373: \\begin{figure}[tbp]\n374: \\centering\n375: \\includegraphics[width=6.5cm, angle=-90]{Fig7.eps}\n376: \\caption{R-band surface brightness profiles, derived separately for the northern\n377: (up-triangles) and southern (down-triangles) sides and for the entire galaxy (dots).\n378: The profiles are not corrected for internal extinction and inclination.\n379: The red-dotted line shows an exponential fit to the southern profile,\n380: giving $\\mu_{0} = 22.0$ mag~arcsec$^{-2}$\n381: ($\\sim40$ $L{\\odot}$~pc$^{-2}$) and $R_{0} = 13.1'' \\pm 0.1''$ ($\\sim 203$~pc).}"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 431,
+      "context": "419: the stellar mass formed more than 500 Myr ago is $\\sim$1.31$\\times$10$^{7}$~$M_{\\odot}$.\n420: Thus, to calculate the gravitational contribution of the stars, we used the southern\n421: surface brightness profile, as it provides a better approximation of the stellar mass surface\n422: density. Assuming that $30\\%\\pm10\\%$ of the gas is returned to the inter stellar medium by\n423: supernovae and stellar winds, the total stellar mass is $(1.0 \\pm 0.3) \\times 10^{7}$~$M_{\\odot}$\n424: (cf. \\citealt{McQuinn2010b}), giving a stellar mass-to-light ratio $M_{*}/L_{\\rm{R}}=1.1\\pm0.3$.\n425: The southern surface brightness profile can be fitted by an exponential-law with\n426: $\\mu_{0} = 22.0 \\pm 0.1$ mag~arcsec$^{-2}$ ($\\sim40$ $L_{\\odot}$~pc$^{-2}$) and $R_{0} = 13.1'' \\pm 0.1''$\n427: ($\\sim 203$~pc). We assumed that the stars are located in a disk with vertical density distribution given\n428: by $\\rho(\\rm{z})=\\rm{sech}^{2}(z/z_{0})$ \\citep{vanDerKruit1981} with z$_{0} \\simeq 0.5 R_{0} \\simeq 100$~pc.\n429: \n430: The gravitational contribution of the gaseous disk was calculated using the azimuthally-averaged\n431: \\hi surface density profile, which was derived from the total \\hi map. Figure \\ref{fig:HIdens}\n432: shows the \\hi density profiles derived by azimuthally-averaging over the entire galaxy and over\n433: the southern (approaching) and northern (receding) sides separately. There is a difference of the\n434: order of $\\sim$2-3 $M_{\\odot}$~pc$^{-2}$ between the two halves, that has a small effect on the\n435: resulting gravitational contribution. In agreement with the models in Sect.~\\ref{sec:kin}, we\n436: assumed an exponential vertical distribution with z$_{0}=100$~pc. The mass of the \\hi disk was\n437: calculated from the total \\hi flux (see table \\ref{tab:prop}) and multiplied by a factor\n438: of 1.32 to take into account the presence of helium. Molecular gas was not explicitly\n439: considered in the mass model because its amount is unknown.\n440: \n441: For the dark matter distribution, we assumed a pseudo-isothermal halo described\n442: by the equation\n443: \\begin{equation} \\label{eq:ISO}"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 432,
+      "context": "420: Thus, to calculate the gravitational contribution of the stars, we used the southern\n421: surface brightness profile, as it provides a better approximation of the stellar mass surface\n422: density. Assuming that $30\\%\\pm10\\%$ of the gas is returned to the inter stellar medium by\n423: supernovae and stellar winds, the total stellar mass is $(1.0 \\pm 0.3) \\times 10^{7}$~$M_{\\odot}$\n424: (cf. \\citealt{McQuinn2010b}), giving a stellar mass-to-light ratio $M_{*}/L_{\\rm{R}}=1.1\\pm0.3$.\n425: The southern surface brightness profile can be fitted by an exponential-law with\n426: $\\mu_{0} = 22.0 \\pm 0.1$ mag~arcsec$^{-2}$ ($\\sim40$ $L_{\\odot}$~pc$^{-2}$) and $R_{0} = 13.1'' \\pm 0.1''$\n427: ($\\sim 203$~pc). We assumed that the stars are located in a disk with vertical density distribution given\n428: by $\\rho(\\rm{z})=\\rm{sech}^{2}(z/z_{0})$ \\citep{vanDerKruit1981} with z$_{0} \\simeq 0.5 R_{0} \\simeq 100$~pc.\n429: \n430: The gravitational contribution of the gaseous disk was calculated using the azimuthally-averaged\n431: \\hi surface density profile, which was derived from the total \\hi map. Figure \\ref{fig:HIdens}\n432: shows the \\hi density profiles derived by azimuthally-averaging over the entire galaxy and over\n433: the southern (approaching) and northern (receding) sides separately. There is a difference of the\n434: order of $\\sim$2-3 $M_{\\odot}$~pc$^{-2}$ between the two halves, that has a small effect on the\n435: resulting gravitational contribution. In agreement with the models in Sect.~\\ref{sec:kin}, we\n436: assumed an exponential vertical distribution with z$_{0}=100$~pc. The mass of the \\hi disk was\n437: calculated from the total \\hi flux (see table \\ref{tab:prop}) and multiplied by a factor\n438: of 1.32 to take into account the presence of helium. Molecular gas was not explicitly\n439: considered in the mass model because its amount is unknown.\n440: \n441: For the dark matter distribution, we assumed a pseudo-isothermal halo described\n442: by the equation\n443: \\begin{equation} \\label{eq:ISO}\n444:  \\rho_{\\rm{ISO}}(r) = \\frac{\\rho_{\\rm{0}}}{1 + (r/r_{\\rm{c}})^{2}} ,"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 503,
+      "context": "491: $\\sim$3 times higher than obtained from the study of the resolved stellar populations. This mass may be\n492: provided by molecules, if they are distributed in a way similar to the stars. We also find a good fit by fixing\n493: $M_{*}/L_{\\rm{R}}=1.1$ and scaling the \\hi contribution by a factor of $\\sim$5, similarly to the results\n494: of \\citealt{Hoekstra2001} for other gas-rich galaxies. These results suggest that the distribution of the\n495: dynamical mass is closely coupled to that of the baryonic mass (see e.g. \\citealt{Sancisi2004} and\n496: \\citealt{Swaters2011}). We also checked the position of UGC~4483 on the baryonic Tully-Fisher relation and\n497: found that it follows the correlation within the observed scatter (cf. \\citealt{McGaugh2011}).\n498: \n499: \\begin{figure}[tbp]\n500: \\centering\n501: \\includegraphics[width=13cm, angle=-90]{Fig9.eps}\n502: \\caption{Comparison between UGC~4483 (blue line) and the dwarf irregular galaxy\n503: DDO~125 (UGC~7577) (red line). \\textit{Top:} HI surface density profiles.\n504: \\textit{Middle:} R-band surface brightness profiles, corrected for the inclination\n505: assuming that the disk is transparent and using the ellipticity from \\citet{Swaters2002b}.\n506: \\textit{Bottom:} HI rotation curves (not corrected for asymmetric drift).}\n507: \\label{fig:compa}\n508: \\end{figure}\n509: Finally, we considered the predictions of the MOdified Newtonian Dynamics (MOND) (\\citealt{Milgrom1983},\n510: see \\citealt{Famaey2011} for a review). Using UGC~4483, we can test MOND without any free parameter,\n511: as the value of $M_{*}/L$ is provided by the colour-magnitude diagram of the resolved stellar populations\n512: and the distance is well determined from the tip of the red giant branch \\citep{Dolphin2001, Izotov2002}.\n513: We found that MOND systematically over-predicts the observed rotation curve by $\\sim$5-6 km~s$^{-1}$.\n514: The discrepancy does not strongly depend on the assumed $M_{*}/L$, as it is mainly driven by the atomic gas\n515: content, and it would further increase if molecules are also considered in the mass model. However, the"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 533,
+      "context": "521: \\section{Discussion \\label{sec:discuss}}\n522: \n523: \\begin{figure*}[tbp]\n524: \\centering\n525: \\includegraphics[width=8.5cm, angle=-90]{Fig10.eps}\n526: \\caption{Comparison between the properties of BCDs (squares) and of dIrrs (dots).\n527: The dIrrs are taken from \\citet{Swaters2009}, selecting the objects with high-quality\n528: rotation curves and $V_{\\rm{rot}} < 70$ km~s$^{-1}$ at the last measured point.\n529: The BCDs are UGC~4483 (this work), I~Zw~18 \\citep{Lelli2012}, NGC~6789 (Lelli et al. in preparation),\n530: and NGC~1705 \\citep{Meurer1998}. Some galaxies are labelled according to their UGC number.\n531: \\textit{Left:} R-band central surface brightness (inclination corrected) versus the inner\n532: rotation-velocity gradient $V_{\\rm{rot}}(R_{0})/R_{0}$, where $R_{0}$ is the optical scale-length.\n533: \\textit{Right:} peak \\hi surface density $\\Sigma_{\\hiV, \\, \\rm{peak}}$ versus $V_{\\rm{rot}}(R_{0})/R_{0}$.\n534: $\\Sigma_{\\hiV, \\, \\rm{peak}}$ is derived from the azimuthally-averaged \\hi surface density\n535: profiles. See Sect.~\\ref{sec:discuss} for details.}\n536: \\label{fig:GradPlot}\n537: \\end{figure*}\n538: In Sect. \\ref{sec:kin}, we showed that UGC~4483 has a steeply-rising rotation curve that flattens\n539: in the outer parts at a velocity of $\\sim$18-20 km~s$^{-1}$. As far as we know, this is the\n540: lowest-mass galaxy with a differentially rotating \\hi disk. The steep rise of the rotation\n541: curve points to a strong central concentration of mass, which seems to be a characterizing property\n542: of BCDs. Indeed, similar results have been found also for other BCDs, e.g. I~Zw~18 \\citep{Lelli2012},\n543: NGC~2537 \\citep{Matthews2008}, and NGC~1705 \\citep{Meurer1998}. The steeply-rising and flat rotation\n544: curves of these BCDs are remarkable, as dIrrs typically have slowly-rising rotation curves\n545: (e.g. \\citealt{Swaters2009}). The terms ``steeply-rising'' and ``slowly-rising'' are referred"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 534,
+      "context": "522: \n523: \\begin{figure*}[tbp]\n524: \\centering\n525: \\includegraphics[width=8.5cm, angle=-90]{Fig10.eps}\n526: \\caption{Comparison between the properties of BCDs (squares) and of dIrrs (dots).\n527: The dIrrs are taken from \\citet{Swaters2009}, selecting the objects with high-quality\n528: rotation curves and $V_{\\rm{rot}} < 70$ km~s$^{-1}$ at the last measured point.\n529: The BCDs are UGC~4483 (this work), I~Zw~18 \\citep{Lelli2012}, NGC~6789 (Lelli et al. in preparation),\n530: and NGC~1705 \\citep{Meurer1998}. Some galaxies are labelled according to their UGC number.\n531: \\textit{Left:} R-band central surface brightness (inclination corrected) versus the inner\n532: rotation-velocity gradient $V_{\\rm{rot}}(R_{0})/R_{0}$, where $R_{0}$ is the optical scale-length.\n533: \\textit{Right:} peak \\hi surface density $\\Sigma_{\\hiV, \\, \\rm{peak}}$ versus $V_{\\rm{rot}}(R_{0})/R_{0}$.\n534: $\\Sigma_{\\hiV, \\, \\rm{peak}}$ is derived from the azimuthally-averaged \\hi surface density\n535: profiles. See Sect.~\\ref{sec:discuss} for details.}\n536: \\label{fig:GradPlot}\n537: \\end{figure*}\n538: In Sect. \\ref{sec:kin}, we showed that UGC~4483 has a steeply-rising rotation curve that flattens\n539: in the outer parts at a velocity of $\\sim$18-20 km~s$^{-1}$. As far as we know, this is the\n540: lowest-mass galaxy with a differentially rotating \\hi disk. The steep rise of the rotation\n541: curve points to a strong central concentration of mass, which seems to be a characterizing property\n542: of BCDs. Indeed, similar results have been found also for other BCDs, e.g. I~Zw~18 \\citep{Lelli2012},\n543: NGC~2537 \\citep{Matthews2008}, and NGC~1705 \\citep{Meurer1998}. The steeply-rising and flat rotation\n544: curves of these BCDs are remarkable, as dIrrs typically have slowly-rising rotation curves\n545: (e.g. \\citealt{Swaters2009}). The terms ``steeply-rising'' and ``slowly-rising'' are referred\n546: to rotation-velocity gradients measured in physical units (km~s$^{-1}$~kpc$^{-1}$) that can be directly"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 601,
+      "context": "589: $V_{\\rm{rot}}(R)/R$ as an estimate of central mass concentration. This is calculated at $R = R_{0}$, where\n590: $R_{0}$ is the galaxy scale-length in the R-band; thus we take into account the different sizes of the systems.\n591: In Fig.~\\ref{fig:GradPlot}, $V_{\\rm{rot}}(R_{0})/R_{0}$ is plotted versus the central disk surface brightness\n592: $\\mu_{0}$ (left) and the peak \\hi column density $\\Sigma_{\\hiV,\\, \\rm{peak}}$ (right) for a sample of both BCDs and dIrrs.\n593: The BCDs are UGC~4483, I~Zw~18, NGC~1705, and NGC~6789. For I~Zw~18 we used the R-band structural parameters from\n594: \\citet{Papaderos2002}, the rotation curve from \\citet{Lelli2012}, and a distance of 18.2 Mpc \\citep{Aloisi2007}.\n595: For NGC~1705 we used the R-band structural parameters from \\citet{GilDePaz2005}, the rotation curve from\n596: \\citet{Meurer1998} named ``model DD'' (see their Fig.~10), and a distance of 5.1 Mpc \\citep{Tosi2001}.\n597: For NGC~6789 we used the R-band structural parameters and the rotation curve from Lelli et al. (in preparation),\n598: and a distance of 3.6~Mpc \\citep{Drozdovsky2001}.\n599: The dIrrs were taken from the sample of \\citet{Swaters2009}, by selecting the objects that have high-quality\n600: rotation curves ($q\\leq2$, see \\citealt{Swaters2009}) and $V_{\\rm{rot}} < 70$ km~s$^{-1}$ at the last measured\n601: point. For $\\Sigma_{\\hiV,\\, \\rm{peak}}$, we used the peak value of the azimuthally-averaged \\hi density profile.\n602: The value of $\\Sigma_{\\hiV,\\, \\rm{peak}}$ depends on the linear resolution of the \\hi observations, but we checked\n603: that this does not strongly bias our analysis as the trend in Fig.~\\ref{fig:GradPlot} does not significantly\n604: change if one considers only galaxies with linear resolution $\\lesssim$ 500~pc (corresponding to distances\n605: $\\lesssim$ 7 Mpc). We also point out that BCDs usually have clumpy \\hi distributions and locally the \\hi\n606: column densities can reach even higher values, up to 40-50 $M_{\\odot}$~pc$^{-2}$, much higher than in dIrrs.\n607: \n608: The two diagrams in figure \\ref{fig:GradPlot} show a clear trend: galaxies with a high rotation-velocity\n609: gradient have also high central surface brightness (left) and high peak \\hi surface density (right). The BCDs\n610: are in the upper parts of these distributions: they have $V_{\\rm{rot}}(R_{0})/R_{0}>40$ km s$^{-1}$ kpc$^{-1}$\n611: whereas dIrrs typically have $V_{\\rm{rot}}(R_{0})/R_{0}<40$ km s$^{-1}$ kpc$^{-1}$. However, some dIrrs\n612: (UGC~3966, UGC~8550, UGC~7232, and UGC~7690) have inner rotation-velocity gradients comparable to those\n613: of BCDs and thus, in this respect, are dynamically similar to BCDs. These objects have peak \\hi column"
+    },
+    {
+      "file": "U4483.tex",
+      "line": 609,
+      "context": "597: For NGC~6789 we used the R-band structural parameters and the rotation curve from Lelli et al. (in preparation),\n598: and a distance of 3.6~Mpc \\citep{Drozdovsky2001}.\n599: The dIrrs were taken from the sample of \\citet{Swaters2009}, by selecting the objects that have high-quality\n600: rotation curves ($q\\leq2$, see \\citealt{Swaters2009}) and $V_{\\rm{rot}} < 70$ km~s$^{-1}$ at the last measured\n601: point. For $\\Sigma_{\\hiV,\\, \\rm{peak}}$, we used the peak value of the azimuthally-averaged \\hi density profile.\n602: The value of $\\Sigma_{\\hiV,\\, \\rm{peak}}$ depends on the linear resolution of the \\hi observations, but we checked\n603: that this does not strongly bias our analysis as the trend in Fig.~\\ref{fig:GradPlot} does not significantly\n604: change if one considers only galaxies with linear resolution $\\lesssim$ 500~pc (corresponding to distances\n605: $\\lesssim$ 7 Mpc). We also point out that BCDs usually have clumpy \\hi distributions and locally the \\hi\n606: column densities can reach even higher values, up to 40-50 $M_{\\odot}$~pc$^{-2}$, much higher than in dIrrs.\n607: \n608: The two diagrams in figure \\ref{fig:GradPlot} show a clear trend: galaxies with a high rotation-velocity\n609: gradient have also high central surface brightness (left) and high peak \\hi surface density (right). The BCDs\n610: are in the upper parts of these distributions: they have $V_{\\rm{rot}}(R_{0})/R_{0}>40$ km s$^{-1}$ kpc$^{-1}$\n611: whereas dIrrs typically have $V_{\\rm{rot}}(R_{0})/R_{0}<40$ km s$^{-1}$ kpc$^{-1}$. However, some dIrrs\n612: (UGC~3966, UGC~8550, UGC~7232, and UGC~7690) have inner rotation-velocity gradients comparable to those\n613: of BCDs and thus, in this respect, are dynamically similar to BCDs. These objects have peak \\hi column\n614: densities much smaller than those found in I~Zw~18 and NGC~1705 (Fig. \\ref{fig:GradPlot}, right)\n615: and are candidate progenitors/descendants of BCDs. It would be interesting to study the SFHs of\n616: these compact dIrrs and investigate if they experienced a starburst in the recent past.\n617: \n618: Finally, we have seen that the asymmetries in the velocity field of UGC~4483\n619: can be described as a global radial motion of 5 km~s$^{-1}$. Radial motions have been found in two other BCDs: NGC~2915\n620: \\citep{Elson2011, Elson2011b} and I~Zw~18 \\citep{Lelli2012}. \\citet{Elson2011} assumed that\n621: the spiral arms in the \\hi disk of NGC~2915 are trailing and concluded that the radial motions"
+    }
+  ],
+  "relevant_graphics_refs": [
+    {
+      "tex_file": "U4483.tex",
+      "near_line": 349,
+      "graphic_ref": "Fig6.eps"
+    },
+    {
+      "tex_file": "U4483.tex",
+      "near_line": 355,
+      "graphic_ref": "Fig7.eps"
+    },
+    {
+      "tex_file": "U4483.tex",
+      "near_line": 369,
+      "graphic_ref": "Fig8.eps"
+    },
+    {
+      "tex_file": "U4483.tex",
+      "near_line": 483,
+      "graphic_ref": "Fig9.eps"
+    },
+    {
+      "tex_file": "U4483.tex",
+      "near_line": 505,
+      "graphic_ref": "Fig10.eps"
+    }
+  ],
+  "resolved_assets": [
+    {
+      "ref": {
+        "tex_file": "U4483.tex",
+        "near_line": 349,
+        "graphic_ref": "Fig6.eps"
+      },
+      "name": "Fig6.eps",
+      "bytes": 22149,
+      "sha256": "335c2befde39ba7b6d61c5129215dd97247a781c86a5d472240a9df4ce35ff7e",
+      "type": "postscript",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "moveto_tokens": 136,
+      "lineto_tokens": 1,
+      "rlineto_tokens": 59,
+      "fill_tokens": 56,
+      "stroke_tokens": 107,
+      "setrgbcolor_tokens": 8,
+      "setdash_tokens": 62,
+      "n_lines": 845,
+      "sample_numeric_lines": [
+        {
+          "line": 114,
+          "text": "/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def"
+        },
+        {
+          "line": 115,
+          "text": "/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def"
+        },
+        {
+          "line": 116,
+          "text": "/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def"
+        },
+        {
+          "line": 117,
+          "text": "/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def"
+        },
+        {
+          "line": 118,
+          "text": "/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def"
+        },
+        {
+          "line": 351,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} "
+        },
+        {
+          "line": 355,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke"
+        },
+        {
+          "line": 356,
+          "text": "\t0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}"
+        },
+        {
+          "line": 376,
+          "text": "\t0 12 M 8 -4 L 4 12 M 10 0 L stroke}"
+        },
+        {
+          "line": 381,
+          "text": "\t0 -4 M 8 12 L 4 -4 M 10 8 L stroke}"
+        },
+        {
+          "line": 386,
+          "text": "\t12 0 M -4 8 L 12 4 M 0 10 L stroke}"
+        },
+        {
+          "line": 391,
+          "text": "\t-4 0 M 12 8 L -4 4 M 8 10 L stroke}"
+        }
+      ],
+      "native_vector_candidate": true
+    },
+    {
+      "ref": {
+        "tex_file": "U4483.tex",
+        "near_line": 355,
+        "graphic_ref": "Fig7.eps"
+      },
+      "name": "Fig7.eps",
+      "bytes": 26151,
+      "sha256": "334d2ed4ceab08992de904b11ffcb8a2b2bb13901ca996836b54a46f63854211",
+      "type": "postscript",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "moveto_tokens": 147,
+      "lineto_tokens": 1,
+      "rlineto_tokens": 62,
+      "fill_tokens": 56,
+      "stroke_tokens": 112,
+      "setrgbcolor_tokens": 8,
+      "setdash_tokens": 62,
+      "n_lines": 1189,
+      "sample_numeric_lines": [
+        {
+          "line": 114,
+          "text": "/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def"
+        },
+        {
+          "line": 115,
+          "text": "/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def"
+        },
+        {
+          "line": 116,
+          "text": "/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def"
+        },
+        {
+          "line": 117,
+          "text": "/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def"
+        },
+        {
+          "line": 118,
+          "text": "/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def"
+        },
+        {
+          "line": 351,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} "
+        },
+        {
+          "line": 355,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke"
+        },
+        {
+          "line": 356,
+          "text": "\t0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}"
+        },
+        {
+          "line": 376,
+          "text": "\t0 12 M 8 -4 L 4 12 M 10 0 L stroke}"
+        },
+        {
+          "line": 381,
+          "text": "\t0 -4 M 8 12 L 4 -4 M 10 8 L stroke}"
+        },
+        {
+          "line": 386,
+          "text": "\t12 0 M -4 8 L 12 4 M 0 10 L stroke}"
+        },
+        {
+          "line": 391,
+          "text": "\t-4 0 M 12 8 L -4 4 M 8 10 L stroke}"
+        }
+      ],
+      "native_vector_candidate": true
+    },
+    {
+      "ref": {
+        "tex_file": "U4483.tex",
+        "near_line": 369,
+        "graphic_ref": "Fig8.eps"
+      },
+      "name": "Fig8.eps",
+      "bytes": 27085,
+      "sha256": "2463125fc00c80b54dc8683ca5e321e58619641f94d882a96846421ccab195a3",
+      "type": "postscript",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "moveto_tokens": 221,
+      "lineto_tokens": 1,
+      "rlineto_tokens": 144,
+      "fill_tokens": 56,
+      "stroke_tokens": 138,
+      "setrgbcolor_tokens": 9,
+      "setdash_tokens": 62,
+      "n_lines": 1312,
+      "sample_numeric_lines": [
+        {
+          "line": 114,
+          "text": "/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def"
+        },
+        {
+          "line": 115,
+          "text": "/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def"
+        },
+        {
+          "line": 116,
+          "text": "/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def"
+        },
+        {
+          "line": 117,
+          "text": "/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def"
+        },
+        {
+          "line": 118,
+          "text": "/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def"
+        },
+        {
+          "line": 351,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} "
+        },
+        {
+          "line": 355,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke"
+        },
+        {
+          "line": 356,
+          "text": "\t0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}"
+        },
+        {
+          "line": 376,
+          "text": "\t0 12 M 8 -4 L 4 12 M 10 0 L stroke}"
+        },
+        {
+          "line": 381,
+          "text": "\t0 -4 M 8 12 L 4 -4 M 10 8 L stroke}"
+        },
+        {
+          "line": 386,
+          "text": "\t12 0 M -4 8 L 12 4 M 0 10 L stroke}"
+        },
+        {
+          "line": 391,
+          "text": "\t-4 0 M 12 8 L -4 4 M 8 10 L stroke}"
+        }
+      ],
+      "native_vector_candidate": true
+    },
+    {
+      "ref": {
+        "tex_file": "U4483.tex",
+        "near_line": 483,
+        "graphic_ref": "Fig9.eps"
+      },
+      "name": "Fig9.eps",
+      "bytes": 24769,
+      "sha256": "e5de26903c24ad630946e5901ba8bffbe4459650c10edd605b4e928e6ccaeaff",
+      "type": "postscript",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "moveto_tokens": 184,
+      "lineto_tokens": 1,
+      "rlineto_tokens": 83,
+      "fill_tokens": 56,
+      "stroke_tokens": 125,
+      "setrgbcolor_tokens": 8,
+      "setdash_tokens": 62,
+      "n_lines": 1138,
+      "sample_numeric_lines": [
+        {
+          "line": 114,
+          "text": "/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def"
+        },
+        {
+          "line": 115,
+          "text": "/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def"
+        },
+        {
+          "line": 116,
+          "text": "/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def"
+        },
+        {
+          "line": 117,
+          "text": "/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def"
+        },
+        {
+          "line": 118,
+          "text": "/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def"
+        },
+        {
+          "line": 351,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} "
+        },
+        {
+          "line": 355,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke"
+        },
+        {
+          "line": 356,
+          "text": "\t0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}"
+        },
+        {
+          "line": 376,
+          "text": "\t0 12 M 8 -4 L 4 12 M 10 0 L stroke}"
+        },
+        {
+          "line": 381,
+          "text": "\t0 -4 M 8 12 L 4 -4 M 10 8 L stroke}"
+        },
+        {
+          "line": 386,
+          "text": "\t12 0 M -4 8 L 12 4 M 0 10 L stroke}"
+        },
+        {
+          "line": 391,
+          "text": "\t-4 0 M 12 8 L -4 4 M 8 10 L stroke}"
+        }
+      ],
+      "native_vector_candidate": true
+    },
+    {
+      "ref": {
+        "tex_file": "U4483.tex",
+        "near_line": 505,
+        "graphic_ref": "Fig10.eps"
+      },
+      "name": "Fig10.eps",
+      "bytes": 26226,
+      "sha256": "75abda5eeada6212c872fa22b36974b15a8cc7a62c097c5d2902e33c88d760b8",
+      "type": "postscript",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "moveto_tokens": 195,
+      "lineto_tokens": 1,
+      "rlineto_tokens": 142,
+      "fill_tokens": 56,
+      "stroke_tokens": 110,
+      "setrgbcolor_tokens": 7,
+      "setdash_tokens": 62,
+      "n_lines": 1186,
+      "sample_numeric_lines": [
+        {
+          "line": 114,
+          "text": "/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def"
+        },
+        {
+          "line": 115,
+          "text": "/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def"
+        },
+        {
+          "line": 116,
+          "text": "/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def"
+        },
+        {
+          "line": 117,
+          "text": "/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def"
+        },
+        {
+          "line": 118,
+          "text": "/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def"
+        },
+        {
+          "line": 351,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} "
+        },
+        {
+          "line": 355,
+          "text": " /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke"
+        },
+        {
+          "line": 356,
+          "text": "\t0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}"
+        },
+        {
+          "line": 376,
+          "text": "\t0 12 M 8 -4 L 4 12 M 10 0 L stroke}"
+        },
+        {
+          "line": 381,
+          "text": "\t0 -4 M 8 12 L 4 -4 M 10 8 L stroke}"
+        },
+        {
+          "line": 386,
+          "text": "\t12 0 M -4 8 L 12 4 M 0 10 L stroke}"
+        },
+        {
+          "line": 391,
+          "text": "\t-4 0 M 12 8 L -4 4 M 8 10 L stroke}"
+        }
+      ],
+      "native_vector_candidate": true
+    }
+  ],
+  "all_graphics": [
+    {
+      "name": "Fig1.eps",
+      "bytes": 1357264,
+      "sha256": "70a3a613d26d6b48544e89c8a8747d90e8110530972e1bb920b7617a21523f93"
+    },
+    {
+      "name": "Fig10.eps",
+      "bytes": 26226,
+      "sha256": "75abda5eeada6212c872fa22b36974b15a8cc7a62c097c5d2902e33c88d760b8"
+    },
+    {
+      "name": "Fig2.eps",
+      "bytes": 881933,
+      "sha256": "b1a416659afe373ed4cf52b74a2908ebd7d8a2e4ed63a915b5540b9203d5e2b1"
+    },
+    {
+      "name": "Fig3.eps",
+      "bytes": 427685,
+      "sha256": "c29eba7cd9ee5f57a5311d9065bc82e31bd01892d754c2c817dc0acccee08352"
+    },
+    {
+      "name": "Fig4.eps",
+      "bytes": 21956,
+      "sha256": "ff9907a947126479ca07a0e47006f6e3f99ae36445af053e8d90a0500ec96007"
+    },
+    {
+      "name": "Fig5.eps",
+      "bytes": 595211,
+      "sha256": "fcccb053eb32a57af3c416269e10f58fc7e6f31ef5377fd27e8a7780bbe2707a"
+    },
+    {
+      "name": "Fig6.eps",
+      "bytes": 22149,
+      "sha256": "335c2befde39ba7b6d61c5129215dd97247a781c86a5d472240a9df4ce35ff7e"
+    },
+    {
+      "name": "Fig7.eps",
+      "bytes": 26151,
+      "sha256": "334d2ed4ceab08992de904b11ffcb8a2b2bb13901ca996836b54a46f63854211"
+    },
+    {
+      "name": "Fig8.eps",
+      "bytes": 27085,
+      "sha256": "2463125fc00c80b54dc8683ca5e321e58619641f94d882a96846421ccab195a3"
+    },
+    {
+      "name": "Fig9.eps",
+      "bytes": 24769,
+      "sha256": "e5de26903c24ad630946e5901ba8bffbe4459650c10edd605b4e928e6ccaeaff"
+    }
+  ],
+  "next_gate": "parse_source_native_profile_geometry",
+  "boundary": "Source/acquisition audit only; no PostScript execution, raster digitization, map-to-profile reconstruction, normalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
