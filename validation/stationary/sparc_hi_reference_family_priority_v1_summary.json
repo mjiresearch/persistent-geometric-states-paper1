@@ -1,27 +1,11 @@
 {
   "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
   "n_frozen_galaxies": 149,
-  "n_untouched_no_public_overlay": 90,
-  "n_reference_families_covering_untouched": 38,
-  "n_actionable_reference_families": 11,
+  "n_untouched_no_public_overlay": 89,
+  "n_reference_families_covering_untouched": 37,
+  "n_actionable_reference_families": 10,
   "n_deferred_or_redirected_reference_families": 27,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Wa97",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Walsh et al",
-      "bibcode": "1997AJ....113.1591W",
-      "comment": "",
-      "galaxies": "NGC0289"
-    },
     {
       "sparc_ref_id": "Bl99",
       "n_untouched_frozen_galaxies": 1,

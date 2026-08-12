@@ -1,5 +1,4 @@
 sparc_ref_id,n_untouched_frozen_galaxies,n_calibration,n_blind,queue_actionable_now,queue_status,disposition,disposition_artifact,reopen_rule,reference_resolved_in_cds_refs,author,bibcode,comment,galaxies
-Wa97,1,1,0,1,actionable_unreviewed,,,,1,Walsh et al,1997AJ....113.1591W,,NGC0289
 Bl99,1,0,1,1,actionable_unreviewed,,,,1,Blais-Ouellette et al.,1999AJ....118.2123B,,NGC5585
 Ca90,1,0,1,1,actionable_unreviewed,,,,1,Carignan and Puche,1990AJ....100..394C,,NGC0247
 Ch06,1,0,1,1,actionable_unreviewed,,,,1,Chemin et al.,2006AJ....132.2527C,,NGC0024
