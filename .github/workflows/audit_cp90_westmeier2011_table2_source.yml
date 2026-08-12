@@ -1,0 +1,30 @@
+name: Audit CP90 Westmeier 2011 Table 2 source
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/audit_cp90_westmeier2011_table2_source.py'
+      - '.github/workflows/audit_cp90_westmeier2011_table2_source.yml'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/audit_cp90_westmeier2011_table2_source.py
+      - name: Commit source-table audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/cp90_westmeier2011_table2_source_audit_v1.json
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Audit Westmeier 2011 Table 2 source for CP90'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
