@@ -1,0 +1,39 @@
+name: Trace dB01 Paper I original HI sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/trace_db01_paper1_original_hi_sources.py'
+      - '.github/workflows/trace_db01_paper1_original_hi_sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  trace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Trace Paper I source references
+        run: python scripts/stationary/trace_db01_paper1_original_hi_sources.py
+      - name: Commit trace
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/db01_paper1_original_hi_source_trace_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Trace dB01 Paper I original HI sources'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
