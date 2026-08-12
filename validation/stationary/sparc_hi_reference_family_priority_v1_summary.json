@@ -1,27 +1,11 @@
 {
   "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
   "n_frozen_galaxies": 149,
-  "n_untouched_no_public_overlay": 91,
-  "n_reference_families_covering_untouched": 39,
-  "n_actionable_reference_families": 13,
+  "n_untouched_no_public_overlay": 90,
+  "n_reference_families_covering_untouched": 38,
+  "n_actionable_reference_families": 12,
   "n_deferred_or_redirected_reference_families": 26,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "VM97",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Verdes-Montenegro et al.",
-      "bibcode": "1997A&A...321..754V",
-      "comment": "",
-      "galaxies": "NGC6015"
-    },
     {
       "sparc_ref_id": "VdH93",
       "n_untouched_frozen_galaxies": 1,
