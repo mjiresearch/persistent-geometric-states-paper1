@@ -1,0 +1,44 @@
+name: Recover Broeils 1992 legacy dissertation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/recover_broeils1992_legacy_dissertation.py'
+      - '.github/workflows/recover_broeils1992_legacy_dissertation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF inspection dependency
+        run: pip install pymupdf
+      - name: Recover full Groningen dissertation
+        run: python scripts/stationary/recover_broeils1992_legacy_dissertation.py
+      - name: Commit recovery audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/broeils1992_legacy_dissertation_recovery_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Audit Broeils legacy dissertation recovery'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Push attempt ${attempt} lost a race; retrying after refresh"
+              sleep 2
+            done
+            exit 1
+          fi
