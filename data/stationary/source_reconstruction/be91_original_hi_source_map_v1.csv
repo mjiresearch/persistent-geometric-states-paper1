@@ -1,6 +1,6 @@
-galaxy,be91_reference_number,cited_source,table_page,mapping_status
-DDO170,,,,unresolved_table_geometry
-NGC2903,7,"Wevers, van der Kruit & Allen (1986)",3,mapped_from_native_table1_geometry
-NGC3109,,,,unresolved_table_geometry
-NGC6503,7,"Wevers, van der Kruit & Allen (1986)",3,mapped_from_native_table1_geometry
-UGC02259,,,,unresolved_table_geometry
+galaxy,original_hi_source,mapping_status,be91_evidence
+DDO170,"Lake, Schommer & van Gorkom 1990",mapped_to_original_observing_source,explicit Be91 text: DDO 170 observed by Lake et al. (1990) at the VLA
+NGC2903,Begeman 1987 PhD thesis,mapped_to_original_observing_source,Be91 primary six-galaxy Begeman (1987) WSRT subset
+NGC3109,Jobin & Carignan 1990,mapped_to_original_observing_source,explicit Be91 Addendum: new NGC 3109 curve from VLA observations by Jobin & Carignan (1990)
+NGC6503,Begeman 1987 PhD thesis,mapped_to_original_observing_source,Be91 primary six-galaxy Begeman (1987) WSRT subset
+UGC02259,"Carignan, Sancisi & van Albada 1988",mapped_to_original_observing_source,Be91 four-added-source branch plus 21-cm source legend for the UGC 2259 Westerbork study
