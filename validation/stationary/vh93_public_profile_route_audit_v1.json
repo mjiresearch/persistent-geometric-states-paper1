@@ -1,0 +1,127 @@
+{
+  "status": "VH93_PUBLIC_PROFILE_ROUTE_AUDIT_COMPLETE",
+  "source": "van der Hulst et al. 1993 AJ 106 548-559",
+  "bibcode": "1993AJ....106..548V",
+  "public_pdf_url": "https://drum.lib.umd.edu/bitstreams/d1a54927-5c0d-4398-adcb-e7c8be1323ad/download",
+  "final_url": "https://api.drum.lib.umd.edu/server/api/core/bitstreams/d1a54927-5c0d-4398-adcb-e7c8be1323ad/content",
+  "content_type": "application/pdf;charset=UTF-8",
+  "bytes": 1963634,
+  "sha256": "039e363d9865157f46849a47243315aa428e800b8acd19950fbde5815d41cfe8",
+  "pages": 12,
+  "target_galaxies": [
+    "UGC00128",
+    "UGC05005",
+    "UGC05750",
+    "UGC06614"
+  ],
+  "target_pages": {
+    "UGC00128": [],
+    "UGC05005": [],
+    "UGC05750": [],
+    "UGC06614": []
+  },
+  "page_structure": [
+    {
+      "page_number_1based": 1,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 2,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 3,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 4,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 5,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 6,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 7,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 8,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 9,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 10,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 11,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    },
+    {
+      "page_number_1based": 12,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "n_images": 1,
+      "has_figure2_text": false,
+      "has_hi_surface_density_text": false
+    }
+  ],
+  "figure2_candidate_pages": [],
+  "total_drawings": 0,
+  "total_images": 12,
+  "all_pages_zero_drawings": true,
+  "interpretation_rule": "VH93 explicitly publishes radial H I surface-density profiles in Figure 2. Promotion requires native numerical values or exact vector geometry; a scanned/raster figure is not digitized.",
+  "boundary": "Acquisition/provenance only; no OCR, raster digitization, helium scaling, persistence fitting, or blind outcomes."
+}
