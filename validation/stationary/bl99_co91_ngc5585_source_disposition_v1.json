@@ -1,0 +1,17 @@
+{
+  "status": "BL99_CO91_NGC5585_CHAIN_DISPOSITIONED",
+  "galaxy": "NGC5585",
+  "stationary_role": "blind",
+  "bl99": {
+    "decision": "redirect_to_Co91_original_direct_HI_source",
+    "reason": "Bl99 is new CFHT Halpha analysis using pre-existing 20-arcsec Westerbork H I; its text says H I kinematics are from Cote, Carignan & Sancisi 1991 and the gas contribution uses that H I radial profile scaled by 1.33 for helium. Public source package has TeX plus figures but no numerical H I profile sidecar.",
+    "audit": "validation/stationary/bl99_ngc5585_hi_provenance_profile_audit_v1.json"
+  },
+  "co91": {
+    "decision": "defer_exact_numeric_profile_pending_new_public_mechanism",
+    "reason": "Co91 directly publishes Figure 6 raw radial H I surface density, derived from average H I brightness in concentric ellipses with cos(i) correction; helium x4/3 is applied only later in mass modeling. Current bounded public ADS copy is scan/raster-only with zero native drawings and no exact machine-readable series established.",
+    "audit": "validation/stationary/co91_ngc5585_public_hi_profile_route_v1.json"
+  },
+  "reopen_rule": "reopen_for_machine_readable_Co91_or_author_table_exact_native_vector_republication_or_public_calibrated_HI_map_cube_under_a_predeclared_reconstruction_protocol_or_documented_source_correction",
+  "boundary": "No OCR, raster digitization, ad-hoc map/cube reconstruction, blind rotation-outcome inspection, profile fitting, or persistence fitting. L_A and C_A remain locked."
+}
