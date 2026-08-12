@@ -1,0 +1,2734 @@
+{
+  "status": "DB96_ARXIV_ASSET_AUDIT_COMPLETE",
+  "source": "de Blok, McGaugh & van der Hulst 1996 MNRAS 283 18-54; arXiv astro-ph/9605069",
+  "arxiv_url": "https://export.arxiv.org/e-print/astro-ph/9605069",
+  "content_type": "application/gzip",
+  "archive_bytes": 238413,
+  "archive_sha256": "22969503d1c81dc24cf8b29315aeeaf9e5e2b7a0c0bd9e404e2d94efe8ae1ab1",
+  "files": [
+    {
+      "name": "Compactness.ps",
+      "bytes": 18642,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DataMN.tex",
+      "bytes": 94791,
+      "suffix": ".tex"
+    },
+    {
+      "name": "F5631comp.ps",
+      "bytes": 46722,
+      "suffix": ".ps"
+    },
+    {
+      "name": "F5718majax.ps",
+      "bytes": 87553,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Fluxes.ps",
+      "bytes": 25277,
+      "suffix": ".ps"
+    },
+    {
+      "name": "JKTpanel.ps",
+      "bytes": 85176,
+      "suffix": ".ps"
+    },
+    {
+      "name": "LargeRoelof.ps",
+      "bytes": 36804,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Radprof.ps",
+      "bytes": 22635,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Rot_HSB_LSB.ps",
+      "bytes": 36060,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Rotkpc.ps",
+      "bytes": 28362,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Slope_scale.ps",
+      "bytes": 17557,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Sysvel.ps",
+      "bytes": 23056,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Vmax_h.ps",
+      "bytes": 25826,
+      "suffix": ".ps"
+    },
+    {
+      "name": "Wevers.ps",
+      "bytes": 28511,
+      "suffix": ".ps"
+    },
+    {
+      "name": "f5831panel.ps",
+      "bytes": 92377,
+      "suffix": ".ps"
+    },
+    {
+      "name": "large.ps",
+      "bytes": 66073,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mn.sty",
+      "bytes": 57858,
+      "suffix": ".sty"
+    },
+    {
+      "name": "surf.ps",
+      "bytes": 15832,
+      "suffix": ".ps"
+    }
+  ],
+  "text_hits": [
+    {
+      "file": "DataMN.tex",
+      "hits": [
+        {
+          "line": 8,
+          "text": "of Terrestrial Magnetism, Carnegie Institution of Washington,"
+        },
+        {
+          "line": 9,
+          "text": "5241 Broad Branch Road NW, Washington, DC 20015, USA}"
+        },
+        {
+          "line": 27,
+          "text": "evolved.  LSB galaxies are more gas-rich than their high surface"
+        },
+        {
+          "line": 33,
+          "text": "densities.  We use the average total mass surface density "
+        },
+        {
+          "line": 36,
+          "text": "compact, least evolved galaxies.  We show that both $M_{\\rm HI}/L_B$ and"
+        },
+        {
+          "line": 40,
+          "text": "slowly evolving galaxies, and may well be low surface density systems in"
+        },
+        {
+          "line": 53,
+          "text": "surveys many of these galaxies have been discovered, both in clusters"
+        },
+        {
+          "line": 58,
+          "text": "The main property which distinguishes LSB galaxies from normal"
+        },
+        {
+          "line": 59,
+          "text": "``classical'' galaxies that define the Hubble sequence is their low"
+        },
+        {
+          "line": 60,
+          "text": "surface brightness ($\\mu_0(B) \\ga 23$) and not their size.  LSB galaxies"
+        },
+        {
+          "line": 63,
+          "text": "Blok et al.  1995 [hereafter BHB95]) i.e., in the same size range as typical high surface"
+        },
+        {
+          "line": 64,
+          "text": "brightness (HSB) galaxies.  The faintest LSB disk galaxies hitherto"
+        },
+        {
+          "line": 66,
+          "text": "arcsec$^{-2}$ (Turner et al.  1993; Irwin et al.  1990; Davies, Phillips"
+        },
+        {
+          "line": 67,
+          "text": "\\& Disney 1988).  This is almost two orders of magnitude fainter than"
+        },
+        {
+          "line": 68,
+          "text": "those of the disk galaxies that obey Freeman's Law (1970), which states"
+        },
+        {
+          "line": 73,
+          "text": "deviating many $\\sigma$ from the Freeman value indicates that this law"
+        },
+        {
+          "line": 83,
+          "text": "sample of 86 face-on spiral galaxies from the UGC (including a few"
+        },
+        {
+          "line": 86,
+          "text": "galaxies, but only an upper limit in surface brightness which galaxies"
+        },
+        {
+          "line": 91,
+          "text": "In general the range of properties exhibited by LSB galaxies is much"
+        },
+        {
+          "line": 102,
+          "text": "POSS-II survey, and applying the UGC diameter selection criteria to the"
+        },
+        {
+          "line": 104,
+          "text": "the discovery of many LSB galaxies that would have been in the UGC had"
+        },
+        {
+          "line": 106,
+          "text": "claims about completeness in their survey, but rather that "
+        },
+        {
+          "line": 110,
+          "text": "paper is written in this spirit. "
+        },
+        {
+          "line": 112,
+          "text": "With this in mind it is striking that LSB galaxy surveys that have"
+        },
+        {
+          "line": 120,
+          "text": "will always implicitly mean this sub-group, unless noted otherwise."
+        },
+        {
+          "line": 138,
+          "text": "presented in Zwaan et al (1995) (cf. Romanishin et al. 1982).  "
+        },
+        {
+          "line": 143,
+          "text": "its overall mass-to-light ratio.  In order to hope to understand this"
+        },
+        {
+          "line": 145,
+          "text": "our understanding of galaxy properties and their history, resolved H{\\sc"
+        },
+        {
+          "line": 153,
+          "text": "the Netherlands Foundation for Research in Astronomy with financial"
+        },
+        {
+          "line": 155,
+          "text": "(NWO).} synthesis radio telescopes.  In this paper we present the data"
+        },
+        {
+          "line": 162,
+          "text": "technical details on the observations.  In Section 4 we discuss the"
+        },
+        {
+          "line": 165,
+          "text": "graphical form.  Section~7 contains a discussion of the H{\\sc i} surface"
+        },
+        {
+          "line": 168,
+          "text": "main points of this paper are summarized. "
+        },
+        {
+          "line": 179,
+          "text": "The redshift distribution is similar to those of the UGC galaxies, with"
+        },
+        {
+          "line": 180,
+          "text": "only small deviations at the low and high velocity tails, where the LSB"
+        },
+        {
+          "line": 189,
+          "text": "galaxies are just as likely to contain H{\\sc i} as their HSB counterparts of"
+        },
+        {
+          "line": 191,
+          "text": "properties of the galaxies in their catalogue. "
+        },
+        {
+          "line": 196,
+          "text": "the UGC, but typically more extreme in surface brightness."
+        },
+        {
+          "line": 202,
+          "text": " \\item The galaxy should have been detected in H{\\sc i}.  This"
+        },
+        {
+          "line": 204,
+          "text": "observed with Arecibo, but as explained in SBSM this does not bias the"
+        },
+        {
+          "line": 207,
+          "text": "higher if not for the limits imposed by the observable velocity range). "
+        },
+        {
+          "line": 210,
+          "text": "Fig.  5 in SBSM), we have selected only galaxies with H{\\sc i} masses in"
+        },
+        {
+          "line": 211,
+          "text": "the range $8.5 < \\log M_{\\rm HI} < 9.5$.  This leaves 132 galaxies. "
+        },
+        {
+          "line": 213,
+          "text": "have furthermore restricted the sample to those galaxies with redshifts"
+        },
+        {
+          "line": 214,
+          "text": "between 3000 and 8000 km s$^{-1}$, which SBSM define as ``LSB disks''"
+        },
+        {
+          "line": 215,
+          "text": "(cf.  their Fig.  3).  This leaves 95 galaxies. "
+        },
+        {
+          "line": 216,
+          "text": " \\item From this sample of 95 galaxies, we selected 16 galaxies at"
+        },
+        {
+          "line": 217,
+          "text": "random. This subsample represents in our opinion a typical cross-section"
+        },
+        {
+          "line": 226,
+          "text": "redshifts smaller than 3000 km s$^{-1}$.  These are F564-V3, F571-V2 and"
+        },
+        {
+          "line": 227,
+          "text": "F583-1. "
+        },
+        {
+          "line": 230,
+          "text": "Although their H{\\sc i} masses are slightly larger, they set themselves"
+        },
+        {
+          "line": 231,
+          "text": "apart from our main LSB sample mostly because of their larger optical"
+        },
+        {
+          "line": 232,
+          "text": "scale lengths, and because of the fact that despite their low central"
+        },
+        {
+          "line": 233,
+          "text": "surface brightness, they were included in the UGC catalogue."
+        },
+        {
+          "line": 236,
+          "text": "a sample of galaxies which is representative of the"
+        },
+        {
+          "line": 238,
+          "text": "can use this sample to extend the range in surface brightness over which"
+        },
+        {
+          "line": 247,
+          "text": "them DDO dwarfs (Carignan \\& Beaulieu 1988, Hoffman et al. 1996).  This is"
+        },
+        {
+          "line": 252,
+          "text": "depends very much on evidence provided by this same handful of rotation"
+        },
+        {
+          "line": 256,
+          "text": "galaxies in this still ill-charted LSB area of parameter space.  This is"
+        },
+        {
+          "line": 257,
+          "text": "currently the largest sample of LSB galaxies for which detailed optical,"
+        },
+        {
+          "line": 275,
+          "text": "72m increments.  Both IF systems were used and the correlator was set up"
+        },
+        {
+          "line": 277,
+          "text": "smoothing was performed, so the highest possible velocity resolution is"
+        },
+        {
+          "line": 278,
+          "text": "9.9 km s$^{-1}$.  Off-line Hanning smoothing reduces the velocity"
+        },
+        {
+          "line": 288,
+          "text": "\\hline"
+        },
+        {
+          "line": 291,
+          "text": "\\hfil(1)\\hfill&\\hfil(2)\\hfill&(3)\\ \\ \\ \\ &(4)&(5)&(6)&(7)\\\\"
+        },
+        {
+          "line": 292,
+          "text": "\\hline"
+        },
+        {
+          "line": 293,
+          "text": "F563-V1  & 08 43 48.1 & 19 04 26   &  3931     &  VLA   &  13.2 $\\times$ 14.1 &   1.0 \\\\"
+        },
+        {
+          "line": 294,
+          "text": "F563-V2  & 08 50 14.8 & 18 37 34   &  4316     &  VLA   &  13.1 $\\times$ 14.0 &   1.1\\\\"
+        },
+        {
+          "line": 295,
+          "text": "F567-2   & 10 15 11.4 & 21 18 47   &  5683     &  VLA   &  13.4 $\\times$ 14.6 &   1.2\\\\"
+        },
+        {
+          "line": 296,
+          "text": "F568-1   & 10 23 22.8 & 22 40 58   &  6522     &  VLA   &  13.6 $\\times$ 15.5 &   1.3\\\\"
+        },
+        {
+          "line": 297,
+          "text": "F568-3   & 10 24 14   & 22 28 51   &  5912     &  VLA   &  12.9 $\\times$ 14.0 &   1.0\\\\"
+        },
+        {
+          "line": 298,
+          "text": "F568-V1  & 10 42 19.9 & 22 19 20   &  5796     &  VLA   &  13.3 $\\times$ 13.9 &   1.2\\\\"
+        },
+        {
+          "line": 299,
+          "text": "F571-V1  & 11 23 41.2 & 19 06 24   &  5705     &  VLA   &  13.4 $\\times$ 14.3 &   1.1\\\\"
+        },
+        {
+          "line": 300,
+          "text": "F574-2   & 12 44 19   & 22 04 34   &  6322     &  VLA   &  13.6 $\\times$ 15.3 &   1.6\\\\"
+        },
+        {
+          "line": 301,
+          "text": "F577-V1  & 13 47 56.4 & 18 31 01   &  7777     &  VLA   &  13.3 $\\times$ 14.7 &   1.2\\\\"
+        },
+        {
+          "line": 302,
+          "text": "F579-V1  & 14 30 38   & 22 58 59   &  6302     &  VLA   &  12.9 $\\times$ 14.3 &   1.1\\\\"
+        },
+        {
+          "line": 304,
+          "text": "F561-1   & 08 06 35   & 22 42 25   &  4810     &  WSRT  &  13.0 $\\times$ 33.0 &   1.7\\\\"
+        },
+        {
+          "line": 305,
+          "text": "F563-1   & 08 52 10   & 19 56 35   &  3495     &  WSRT  &  12.8 $\\times$ 37.1 &   1.7\\\\"
+        },
+        {
+          "line": 306,
+          "text": "F564-V3  & 09 00 03   & 20 16 23   & \\ 480&  WSRT  &  12.6 $\\times$ 36.1 &   1.5\\\\"
+        },
+        {
+          "line": 307,
+          "text": "F565-V2  & 09 34 47   & 21 59 46   &  3677     &  WSRT  &  12.7 $\\times$ 37.2 &   1.5\\\\"
+        },
+        {
+          "line": 308,
+          "text": "F571-8   & 11 31 18   & 19 37 53   &  3720     &  WSRT  &  13.2 $\\times$ 39.3 &   1.5\\\\"
+        },
+        {
+          "line": 309,
+          "text": "F571-V2  & 11 34 53   & 18 41 10   & \\ 958&  WSRT  &  12.8 $\\times$ 39.7 &   1.7\\\\"
+        },
+        {
+          "line": 310,
+          "text": "F574-1   & 12 35 38   & 22 35 20   &  6888     &  WSRT  &  13.0 $\\times$ 33.0 &   1.6  \\\\"
+        },
+        {
+          "line": 311,
+          "text": "F583-1   & 15 55 17   & 20 48 21   &  2277     &  WSRT  &  13.0 $\\times$ 35.0 &   1.6\\\\"
+        },
+        {
+          "line": 312,
+          "text": "F583-4   & 15 49 58   & 18 55 58   &  3621     &  WSRT  &  12.8 $\\times$ 39.2 &   1.8\\\\"
+        },
+        {
+          "line": 313,
+          "text": "\\hline"
+        },
+        {
+          "line": 340,
+          "text": "from the data cubes by subtracting the average of channels which"
+        },
+        {
+          "line": 350,
+          "text": "velocity resolution after Hanning smoothing was 20.6~km~s$^{-1}$."
+        },
+        {
+          "line": 353,
+          "text": "after Hanning smoothing was 1.1~mJy/beam, except for one galaxy (F574-2)"
+        },
+        {
+          "line": 356,
+          "text": "$(3\\sigma)$ column density in the full-resolution channel maps was $1.5"
+        },
+        {
+          "line": 365,
+          "text": "cubes were inspected visually to determine which channel maps contained"
+        },
+        {
+          "line": 371,
+          "text": "high noise level caused by the decreasing gain at the edges of the"
+        },
+        {
+          "line": 372,
+          "text": "passband.  This usually meant that the fits to the central continuum"
+        },
+        {
+          "line": 379,
+          "text": "noise in the channel maps (after Hanning smoothing) was "
+        },
+        {
+          "line": 380,
+          "text": "1.6~mJy/beam, corresponding to a minimum detectable column density"
+        },
+        {
+          "line": 387,
+          "text": "In the rest of this paper we will refer to the number of atoms"
+        },
+        {
+          "line": 390,
+          "text": "density''}, while the term {\\it ``surface density''} will be used for"
+        },
+        {
+          "line": 394,
+          "text": "\\subsection{Total column density maps and velocity fields}"
+        },
+        {
+          "line": 396,
+          "text": "In order to construct the total column density maps -- showing the"
+        },
+        {
+          "line": 398,
+          "text": "were smoothed to approximately half of their original spatial resolution"
+        },
+        {
+          "line": 406,
+          "text": "profile moments were determined to construct"
+        },
+        {
+          "line": 407,
+          "text": "the total H{\\sc i} column density maps and velocity fields. "
+        },
+        {
+          "line": 414,
+          "text": "was determined either from the column density map after correcting for"
+        },
+        {
+          "line": 421,
+          "text": "is well determined, and usually accurate to within 5 degrees.  Errors in"
+        },
+        {
+          "line": 424,
+          "text": "are accurate to at least within 5 degrees, in most cases even better. "
+        },
+        {
+          "line": 426,
+          "text": "\\subsection{Radial column density profiles and position-velocity diagrams}"
+        },
+        {
+          "line": 428,
+          "text": "Radial column density profiles were produced by integrating the column"
+        },
+        {
+          "line": 440,
+          "text": "\\hline"
+        },
+        {
+          "line": 443,
+          "text": "\\hline"
+        },
+        {
+          "line": 444,
+          "text": "F561-1  \t&1 \t&24\t&55\\\\"
+        },
+        {
+          "line": 445,
+          "text": "F563-1  \t&1,2,3\t&25\t&-19\\\\"
+        },
+        {
+          "line": 446,
+          "text": "F563-V1 \t&2\t&60\t&-40\\\\"
+        },
+        {
+          "line": 447,
+          "text": "F563-V2 \t&2\t&29\\rlap{$^a$}& -32\\\\ "
+        },
+        {
+          "line": 448,
+          "text": "F564-V3\t\t&1\t&30\t&156\\\\"
+        },
+        {
+          "line": 449,
+          "text": "F565-V2 \t&1,2\t&60\t&-155\\\\"
+        },
+        {
+          "line": 450,
+          "text": "F567-2  \t&2\t&20\t&119\\\\"
+        },
+        {
+          "line": 451,
+          "text": "F568-1  \t&1,2,3\t&26\t&13\\\\"
+        },
+        {
+          "line": 452,
+          "text": "F568-3  \t&1,2\t&40\t&169\\\\"
+        },
+        {
+          "line": 453,
+          "text": "F568-V1 \t&1,2\t&40\t&-44\\\\"
+        },
+        {
+          "line": 454,
+          "text": "F571-8  \t&1,2,3\t&90\t&165\\\\"
+        },
+        {
+          "line": 455,
+          "text": "F571-V1 \t&1,2\t&35\t&45\\\\"
+        },
+        {
+          "line": 456,
+          "text": "F571-V2 \t&2\t&45\t&-150\\\\"
+        },
+        {
+          "line": 457,
+          "text": "F574-1  \t&1,2\t&65\t&100\\\\ "
+        },
+        {
+          "line": 458,
+          "text": "F574-2  \t&1,2\t&30\t&53\\\\"
+        },
+        {
+          "line": 459,
+          "text": "F577-V1 \t&1,2\t&35\t&40\\\\"
+        },
+        {
+          "line": 460,
+          "text": "F579-V1 \t&1,2\t&26\t&120\\\\"
+        },
+        {
+          "line": 461,
+          "text": "F583-1  \t&1,2,3\t&63\t&-5\\\\"
+        },
+        {
+          "line": 462,
+          "text": "F583-4  \t&1,2\t&55\t&115\\\\"
+        },
+        {
+          "line": 463,
+          "text": "\\hline"
+        },
+        {
+          "line": 470,
+          "text": "(4) The position angle in degrees of the approaching side of the major axis, measured"
+        },
+        {
+          "line": 488,
+          "text": "within the errors.  "
+        },
+        {
+          "line": 493,
+          "text": "minimize asymmetries; usually each is approximately the half way point"
+        },
+        {
+          "line": 495,
+          "text": "velocities determined in this way are in excellent agreement with the"
+        },
+        {
+          "line": 496,
+          "text": "single dish values from SBSM (Fig.  \\ref{Sysvel}).  The mean absolute"
+        },
+        {
+          "line": 497,
+          "text": "difference is 4 km s$^{-1}$, which is less than half of one of our"
+        },
+        {
+          "line": 502,
+          "text": "The data are presented in Fig.~2 and in"
+        },
+        {
+          "line": 504,
+          "text": "Fig.~2, and the columns in Table~3."
+        },
+        {
+          "line": 506,
+          "text": "\\subsection{Figures}"
+        },
+        {
+          "line": 525,
+          "text": "For galaxies F571-8, F574-1, F579-V1, F583-1 and F583-4 a $B$-band"
+        },
+        {
+          "line": 527,
+          "text": "Galaxy F571-V2"
+        },
+        {
+          "line": 529,
+          "text": "star. We have instead retrieved an image of this galaxy from the red digital"
+        },
+        {
+          "line": 530,
+          "text": "Palomar Sky Survey which is presented here."
+        },
+        {
+          "line": 532,
+          "text": "\\subparagraph{\\bf (c) H{\\sc i}\\ column density maps and velocity fields}"
+        },
+        {
+          "line": 542,
+          "text": "The velocity field is shown in white contours superimposed on the column"
+        },
+        {
+          "line": 545,
+          "text": "Fig.~2. "
+        },
+        {
+          "line": 553,
+          "text": "our symmetrization of the rotation curve, while the vertical line shows"
+        },
+        {
+          "line": 557,
+          "text": "\\subparagraph{\\bf (e) Radial surface density profiles}"
+        },
+        {
+          "line": 559,
+          "text": "Radial column density profiles were determined from averaging in"
+        },
+        {
+          "line": 561,
+          "text": "corrected for inclination.  Shown are therefore the radial {\\it surface"
+        },
+        {
+          "line": 562,
+          "text": "density} profiles.  The error bars indicate the uncertainties in the"
+        },
+        {
+          "line": 563,
+          "text": "values, and their size is given by:"
+        },
+        {
+          "line": 568,
+          "text": "total column density map ($N\\simeq 3$), and $\\sigma_{\\rm ch}$ is the r.m.s."
+        },
+        {
+          "line": 575,
+          "text": "In the case of F571-8 we show both the {\\it observed} (edge-on) column"
+        },
+        {
+          "line": 576,
+          "text": "density distribution and the deduced face-on surface density"
+        },
+        {
+          "line": 577,
+          "text": "distribution.  As F571-8 is an edge-on galaxy, deriving the latter"
+        },
+        {
+          "line": 579,
+          "text": "the inset in panel (e) of the F571-8 panels, by dividing the galaxy into"
+        },
+        {
+          "line": 583,
+          "text": "account the lines of sight through each particular ring.  This assumes"
+        },
+        {
+          "line": 584,
+          "text": "of course that the H{\\sc i} is optically thin everywhere. "
+        },
+        {
+          "line": 591,
+          "text": "always correspond to the receding side of the galaxy, while the filled dots"
+        },
+        {
+          "line": 592,
+          "text": "correspond to the approaching side. Again the bottom axis shows the"
+        },
+        {
+          "line": 593,
+          "text": "radius in kpc, while the top axis shows the angular distance in"
+        },
+        {
+          "line": 605,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 607,
+          "text": "\\hfil\\epsfbox{Sysvel.ps}\\hfil  "
+        },
+        {
+          "line": 612,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 619,
+          "text": "{\\bf Column (4):} Logarithm of the total H{\\sc i} mass $M_{\\rm HI}$.  The total"
+        },
+        {
+          "line": 622,
+          "text": " \\[ M_{\\rm HI}/M_{\\odot} = 2.36 \\cdot 10^{5} D({\\rm Mpc})^2 \\int S({\\rm"
+        },
+        {
+          "line": 625,
+          "text": "single dish fluxes from SBSM.  Figure \\ref{Fluxes} compares the synthesis"
+        },
+        {
+          "line": 632,
+          "text": "{\\bf Column (6):} Outer rotation velocity $V_{\\rm out}$.  This is the"
+        },
+        {
+          "line": 634,
+          "text": "the rotation curve.  This value is not corrected for inclination. "
+        },
+        {
+          "line": 636,
+          "text": "{\\bf Column (7):} Outermost radius $R_{\\rm out}$.  This is the radius in"
+        },
+        {
+          "line": 638,
+          "text": "which the rotation curve could be measured. "
+        },
+        {
+          "line": 641,
+          "text": "encompassed at the last measured point.  This"
+        },
+        {
+          "line": 646,
+          "text": "{\\bf Column (9):} Ratio $M_{\\rm HI}/M_{\\rm dyn}$, the ratio of H{\\sc i} mass and"
+        },
+        {
+          "line": 649,
+          "text": "{\\bf Column (10):} H{\\sc i} radius $R_{\\rm HI}$.  The radius $R_{\\rm HI}$ is defined"
+        },
+        {
+          "line": 651,
+          "text": "$M_{\\sun}$ pc$^{-2}$.  Note that this radius is measured in the"
+        },
+        {
+          "line": 652,
+          "text": "inclination corrected radial {\\it surface} density profile. As F571-8 is"
+        },
+        {
+          "line": 661,
+          "text": "{\\bf Column (13):} Peak smoothed column density $\\sigma_{\\rm smo}$.  In"
+        },
+        {
+          "line": 664,
+          "text": "\\times 13$ arcseconds resolution (which is the {\\sc wsrt} resolution) "
+        },
+        {
+          "line": 667,
+          "text": "{\\bf Column (14):} Peak column density $\\sigma_{\\rm peak}$.  This is the"
+        },
+        {
+          "line": 668,
+          "text": "peak column density in each galaxy expressed in $M_{\\sun}$ pc$^{-2}$. "
+        },
+        {
+          "line": 670,
+          "text": "\\setcounter{figure}{2}"
+        },
+        {
+          "line": 675,
+          "text": "\\hline"
+        },
+        {
+          "line": 676,
+          "text": "Name    &$V_{sys}$&$D$&$M_{\\rm HI}$&$V_{max}$&$V_{out}$&$R_{out}$&$M_{dyn}$&${M_{\\rm HI}\\over M_{dyn}}$&$R_{\\rm HI}$&$R_{25}$&$i$\\\\"
+        },
+        {
+          "line": 678,
+          "text": "\\hline"
+        },
+        {
+          "line": 679,
+          "text": " F561-1 &  4809& 47& 8.91& 21& 21& 33& 9.66& 0.177& 33.2&21&24\\\\"
+        },
+        {
+          "line": 680,
+          "text": " F563-1 &  3492& 34& 9.19& 47& 47& 81&10.58& 0.041& 99.0&23&25\\\\"
+        },
+        {
+          "line": 681,
+          "text": " F563-V1&  3932& 38& 8.48& 26& 24& 30& 9.00& 0.283& 26.1&13&60\\\\"
+        },
+        {
+          "line": 682,
+          "text": " F563-V2&  4312& 46& 9.11& 54& 54& 31&10.30& 0.064& 39.3&23&29\\\\"
+        },
+        {
+          "line": 683,
+          "text": " F564-V3&   476&  6& 7.11& * &  *&  *&    *&     *& 37.8&11&30\\\\"
+        },
+        {
+          "line": 684,
+          "text": " F565-V2&  3681& 36& 8.53& 44& 44& 36& 9.58& 0.089& 29.1&10&60\\\\"
+        },
+        {
+          "line": 685,
+          "text": " F567-2 &  5698& 56& 9.09& 22& 22& 31& 9.91& 0.152& 39.0&9&20\\\\"
+        },
+        {
+          "line": 686,
+          "text": " F568-1 &  6517& 64& 9.35& 52& 51& 36&10.55& 0.064& 37.1&18&26\\\\"
+        },
+        {
+          "line": 687,
+          "text": " F568-3 &  5913& 58& 9.20& 77& 77& 44&10.62& 0.038& 40.4&21&40\\\\"
+        },
+        {
+          "line": 688,
+          "text": " F568-V1&  5768& 60& 9.14& 80& 80& 49&10.71& 0.027& 36.8&16&40\\\\"
+        },
+        {
+          "line": 689,
+          "text": " F571-8 &  3754& 36& 8.91&133&133& 67&10.68& 0.017& (95)& 33&90\\\\"
+        },
+        {
+          "line": 690,
+          "text": " F571-V1&  5719& 59& 8.82& 42& 42& 38&10.13& 0.049& 26.0&10&35\\\\"
+        },
+        {
+          "line": 691,
+          "text": " F571-V2&   955& 12& 7.81& 32& 32& 47& 9.12& 0.049& 41.1&*&45\\\\"
+        },
+        {
+          "line": 692,
+          "text": " F574-1 &  6889& 72& 9.29& 91& 91& 33&10.43& 0.072& 34.5&38&65\\\\"
+        },
+        {
+          "line": 693,
+          "text": " F574-2 &  6319& 66& 8.97& 20& 20& 25& 9.50& 0.293& 29.2&9&30\\\\"
+        },
+        {
+          "line": 694,
+          "text": " F577-V1&  7783& 80& 9.15& 17& 16& 23& 9.20& 0.891& 28.4&17&35\\\\"
+        },
+        {
+          "line": 695,
+          "text": " F579-V1&  6305& 64& 9.06& 52& 44& 42&10.49& 0.037& 48.3&27&26\\\\"
+        },
+        {
+          "line": 696,
+          "text": " F583-1 &  2264& 24& 8.99& 79& 79& 94&10.27& 0.052& 91.2&21&63\\\\"
+        },
+        {
+          "line": 697,
+          "text": " F583-4 &  3612& 37& 8.49& 55& 55& 42&9.90& 0.0389& 30.2&27&55\\\\"
+        },
+        {
+          "line": 698,
+          "text": "\\hline"
+        },
+        {
+          "line": 699,
+          "text": "Name&$\\sigma_{smo}$&$\\sigma_{peak}$&$\\sigma_{aver}$&$\\mu_B(0)$&$\\alpha_B$&$R_{\\rm HI}\\over R_{25}$&$M_B$&$L_B$&$M_{\\rm HI}\\over L_B$&$M_{dyn}\\over L_B$&slope\\\\"
+        },
+        {
+          "line": 701,
+          "text": "\\hline"
+        },
+        {
+          "line": 702,
+          "text": " F561-1 &5.88&5.88 & 4.80& 23.28&11.9& 1.58&--17.2& 9.08&0.68& 3.9&0.144\\\\"
+        },
+        {
+          "line": 703,
+          "text": " F563-1 &6.28&6.28 & 4.94& 23.63&19.7& 4.30&--16.7& 8.88&2.06&50.1&0.186\\\\"
+        },
+        {
+          "line": 704,
+          "text": " F563-V1&6.45&8.91 & 6.88& 24.30& 9.7& 2.01&--15.7& 8.49&0.91& 3.2&0.209\\\\"
+        },
+        {
+          "line": 705,
+          "text": " F563-V2&8.89&14.46& 7.92& 22.10& 7.0& 1.71&--17.6& 9.23&0.76&11.8&0.204\\\\"
+        },
+        {
+          "line": 706,
+          "text": " F564-V3&4.82&4.82 & 2.56& 24.05&11.2& 3.60&--12.1& 7.04&1.18&    *&   *\\\\"
+        },
+        {
+          "line": 707,
+          "text": " F565-V2&7.13&7.13 & 6.16& 24.73&11.5& 2.91&--14.8& 8.11&2.62&29.4&0.607\\\\"
+        },
+        {
+          "line": 708,
+          "text": " F567-2 &4.83&7.6  & 4.23& 24.42&15.8& 4.33&--16.8& 8.90&1.56&10.3&0.251\\\\"
+        },
+        {
+          "line": 709,
+          "text": " F568-1 &8.63&13.39& 8.93& 23.77&12.9& 2.06&--17.5& 9.19&1.45&22.8&0.093\\\\"
+        },
+        {
+          "line": 710,
+          "text": " F568-3 &6.79&8.67 & 6.09& 23.08&10.8& 1.92&--17.7& 9.27&0.86&22.5&0.324\\\\"
+        },
+        {
+          "line": 711,
+          "text": " F568-V1&7.04&10.32& 5.24& 23.30& 8.2& 2.30&--17.3& 9.10&1.11&41.1&0.293\\\\"
+        },
+        {
+          "line": 712,
+          "text": " F571-8 &21.35&21.35&20.41&22.12&16.0& 2.87&--17.0& 8.99& 0.83&49.0&0.575\\\\"
+        },
+        {
+          "line": 713,
+          "text": " F571-V1&4.85&7.21 & 6.05& 24.00& 8.4& 2.61&--16.4& 8.76&1.14&23.4&0.345\\\\"
+        },
+        {
+          "line": 714,
+          "text": " F571-V2&8.09&8.09 & 5.05&     *&   *&    *&     *&    *&    *&    *&0.429\\\\"
+        },
+        {
+          "line": 715,
+          "text": " F574-1 &10.33&10.33& 6.81&23.31&10.0& 0.91&--17.8& 9.32&0.93&12.9&0.714\\\\"
+        },
+        {
+          "line": 716,
+          "text": " F574-2 &4.32&7.84 & 4.36& 24.35&14.0& 3.24&--17.0& 9.00&0.93& 3.2&0.665\\\\"
+        },
+        {
+          "line": 717,
+          "text": " F577-V1&5.83&8.81 & 5.00& 23.95&11.1& 1.67&--17.6& 9.23&0.83& 0.9&-0.085\\\\"
+        },
+        {
+          "line": 718,
+          "text": " F579-V1&4.53&7.65 & 3.99& 22.83&10.0& 1.79&--18.2& 9.48&0.38&10.2&-0.015\\\\"
+        },
+        {
+          "line": 719,
+          "text": " F583-1 &14.18&14.18&10.12&24.03&10.2& 4.34&--15.9& 8.55&2.74&52.3&0.368\\\\"
+        },
+        {
+          "line": 720,
+          "text": " F583-4 &3.99 &3.99 & 3.14&23.76&11.3& 1.11 &--16.3& 8.72&0.59&15.1&0.747\\\\"
+        },
+        {
+          "line": 721,
+          "text": "\\hline"
+        },
+        {
+          "line": 729,
+          "text": "(1) Name of galaxy&(13) Smoothed peak column density ($M_{\\sun}$~pc$^{-2}$)\\\\"
+        },
+        {
+          "line": 730,
+          "text": "(2) Systemic velocity (km s$^{-1}$)&(14) Actual peak column density ($M_{\\sun}$~pc$^{-2}$)\\\\"
+        },
+        {
+          "line": 731,
+          "text": "(3) Distance (Mpc)& (15) Radial peak column density ($M_{\\sun}$~pc$^{-2}$)\\\\"
+        },
+        {
+          "line": 735,
+          "text": "(17) Optical scale length in $B$ (arcseconds)\\\\"
+        },
+        {
+          "line": 752,
+          "text": "{\\bf Column (15):} Peak radial averaged surface density $\\sigma_{\\rm aver}$. "
+        },
+        {
+          "line": 753,
+          "text": "This is the maximum of the radial profile in $M_{\\sun}$~pc$^{-2}$. "
+        },
+        {
+          "line": 757,
+          "text": "The optical properties of F571-8, F574-1, F579-V1 and F583-4 are"
+        },
+        {
+          "line": 768,
+          "text": "$R_{\\rm HI}/R_{25}$. "
+        },
+        {
+          "line": 777,
+          "text": "$M_{\\rm HI}/L_B$, expressed in solar units."
+        },
+        {
+          "line": 781,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 783,
+          "text": "\\hfil\\epsfbox{Fluxes.ps}\\hfil"
+        },
+        {
+          "line": 788,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 795,
+          "text": "In this section we will compare our data with samples of HSB galaxies,"
+        },
+        {
+          "line": 800,
+          "text": "Hubble sequence.  One of these properties is the average surface density"
+        },
+        {
+          "line": 801,
+          "text": "of the atomic hydrogen $\\sigma_{\\rm HI}$.  This changes from a value of"
+        },
+        {
+          "line": 804,
+          "text": "Observations by vdH93 did show that LSB galaxies do not follow this"
+        },
+        {
+          "line": 805,
+          "text": "trend.  The $\\sigma_{\\rm HI}$ of the LSB galaxies investigated in vdH93"
+        },
+        {
+          "line": 807,
+          "text": "morphological type. Note that this does not mean that LSB galaxies are"
+        },
+        {
+          "line": 809,
+          "text": "significantly higher than in HSB galaxies, as we will show in Section~9."
+        },
+        {
+          "line": 813,
+          "text": "and surface density -- the relation between stars formed, and material"
+        },
+        {
+          "line": 814,
+          "text": "from which to form stars -- which can tell us something about the"
+        },
+        {
+          "line": 821,
+          "text": "Cayatte et al.\\ (1994) have composed such a sample.  Their field galaxy"
+        },
+        {
+          "line": 826,
+          "text": "chosen.  This sample therefore constitutes a sample of undisturbed HSB"
+        },
+        {
+          "line": 829,
+          "text": "Freeman value down to values approaching those of the LSB sample.  One"
+        },
+        {
+          "line": 830,
+          "text": "should therefore not think of the HSB sample as a collection of Freeman"
+        },
+        {
+          "line": 837,
+          "text": "Cayatte et al.\\ defined the average H{\\sc i} surface density"
+        },
+        {
+          "line": 838,
+          "text": "$\\sigma_{\\rm HI}$ as the"
+        },
+        {
+          "line": 839,
+          "text": "average surface density of the H{\\sc i} within half of the optical"
+        },
+        {
+          "line": 840,
+          "text": "radius $R_{25}$.  The distribution of average surface density with"
+        },
+        {
+          "line": 841,
+          "text": "Hubble-type is shown in Fig.  \\ref{surf}.  The surface density increases"
+        },
+        {
+          "line": 844,
+          "text": "We have computed $\\sigma_{\\rm HI}$ for our LSB galaxies in a similar"
+        },
+        {
+          "line": 845,
+          "text": "manner.  The average surface density of LSB galaxies is also shown in"
+        },
+        {
+          "line": 846,
+          "text": "Fig.  \\ref{surf}.  It is clear that late-type LSB galaxies in our sample"
+        },
+        {
+          "line": 847,
+          "text": "have average H{\\sc i} surface densities which are on average a factor of"
+        },
+        {
+          "line": 852,
+          "text": "the trend of decreasing H{\\sc i} surface density seen in Fig. "
+        },
+        {
+          "line": 856,
+          "text": "density from S0 to Sc, and decreasing surface density for the later"
+        },
+        {
+          "line": 857,
+          "text": "types.  A very interesting question is whether this decreasing trend"
+        },
+        {
+          "line": 861,
+          "text": "Dalcanton, Spergel \\& Summers (1995) and Maloney (1993) show that this"
+        },
+        {
+          "line": 863,
+          "text": "10$^{19}$ cm$^{-2}$.  This would imply a minimum"
+        },
+        {
+          "line": 864,
+          "text": "surface brightness a galaxy can have below which it will become completely"
+        },
+        {
+          "line": 865,
+          "text": "ionized (Quinn, Katz \\& Efstathiou 1995)."
+        },
+        {
+          "line": 869,
+          "text": "consumption due to the high star formation rate in these galaxies (see"
+        },
+        {
+          "line": 870,
+          "text": "e.g.  Guiderdoni \\& Rocca-Volmerange 1987).  In this picture the peak in"
+        },
+        {
+          "line": 871,
+          "text": "Fig.  \\ref{surf} would then shift towards later types as time (and gas"
+        },
+        {
+          "line": 874,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 876,
+          "text": "\\hfil\\epsfbox{surf.ps}\\hfil"
+        },
+        {
+          "line": 877,
+          "text": "\\caption{LSB galaxies and their place in the Hubble-type -- average"
+        },
+        {
+          "line": 879,
+          "text": "density diagram. The average surface density is defined as the average"
+        },
+        {
+          "line": 880,
+          "text": "surface density of the H{\\sc i} within half of the optical radius"
+        },
+        {
+          "line": 887,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 894,
+          "text": "determine average quantities, like the average surface density within"
+        },
+        {
+          "line": 897,
+          "text": "brightnesses, and may loose their meaning altogether (in this specific"
+        },
+        {
+          "line": 901,
+          "text": "This of course also applies to ratios of such quantities, like the ratio"
+        },
+        {
+          "line": 902,
+          "text": "$R_{\\rm HI}/R_{25}$ (see column~(18) of Table~3).  This is not a very"
+        },
+        {
+          "line": 907,
+          "text": "quantities like $\\sigma_{\\rm HI}$, as defined above, will then also be"
+        },
+        {
+          "line": 910,
+          "text": "In this case $R_{25}$ will, however, always decrease faster with"
+        },
+        {
+          "line": 912,
+          "text": "parameters.  This alone will already artificially raise the computed"
+        },
+        {
+          "line": 913,
+          "text": "average surface density, so that the discrepancy between HSB and LSB"
+        },
+        {
+          "line": 914,
+          "text": "galaxies might in reality be larger than suggested by Fig.  \\ref{surf}. "
+        },
+        {
+          "line": 915,
+          "text": "We will come back to this in the next section. "
+        },
+        {
+          "line": 917,
+          "text": "$R_{\\rm HI}$ can also suffer from the same problem as $R_{25}$: as the"
+        },
+        {
+          "line": 918,
+          "text": "H{\\sc i} surface density in LSB galaxies is much lower than in HSB"
+        },
+        {
+          "line": 919,
+          "text": "galaxies, it will underestimate the size of the H{\\sc i} disc.  This is"
+        },
+        {
+          "line": 920,
+          "text": "apparent if one compares the distribution of values of $R_{\\rm HI}$ of"
+        },
+        {
+          "line": 922,
+          "text": "comparable, which one naively would not expect as LSB galaxies are more"
+        },
+        {
+          "line": 923,
+          "text": "extended.  However, as the surface density is lower in LSB galaxies,"
+        },
+        {
+          "line": 924,
+          "text": "this simply means that, for a HSB and a LSB galaxy with the same total"
+        },
+        {
+          "line": 925,
+          "text": "H{\\sc i}-mass and $R_{\\rm HI}$, there is more H{\\sc i} present outside"
+        },
+        {
+          "line": 926,
+          "text": "$R_{\\rm HI}$ in the LSB galaxy.  So comparing galaxies with identical"
+        },
+        {
+          "line": 927,
+          "text": "H{\\sc i} mass {\\it inside} $R_{\\rm HI}$ is not correct, as one then"
+        },
+        {
+          "line": 930,
+          "text": "This once again shows that isophote and iso-density effects should"
+        },
+        {
+          "line": 934,
+          "text": "\\subsection{Radial density profiles}"
+        },
+        {
+          "line": 938,
+          "text": "radial H{\\sc i} profiles of LSB galaxies with those of a sample of"
+        },
+        {
+          "line": 941,
+          "text": "For this we again use the sample of Cayatte et al. (1994) as they"
+        },
+        {
+          "line": 942,
+          "text": "have calculated the average H{\\sc i} surface density profiles of"
+        },
+        {
+          "line": 945,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 947,
+          "text": "\\hfil\\epsfbox{Radprof.ps}\\hfil"
+        },
+        {
+          "line": 948,
+          "text": "\\caption{The average radial distribution of H{\\sc i} for HSB galaxies of"
+        },
+        {
+          "line": 951,
+          "text": "been normalized to $R_{\\rm HI}$ (see text).}"
+        },
+        {
+          "line": 953,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 955,
+          "text": "Unfortunately they give the average radial H{\\sc i} profile for each"
+        },
+        {
+          "line": 957,
+          "text": "in the optical than in H{\\sc i}, we have re-normalized the radial"
+        },
+        {
+          "line": 958,
+          "text": "profiles of the HSB galaxies to $R/R_{\\rm HI}$, using the mean values of"
+        },
+        {
+          "line": 959,
+          "text": "$R_{25}/R_{\\rm HI}$ as given in Cayatte et al.\\ (1994). We have made a"
+        },
+        {
+          "line": 960,
+          "text": "correction for the different definition they use for $R_{\\rm HI}$. "
+        },
+        {
+          "line": 962,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 964,
+          "text": "\\hfil\\epsfbox{Wevers.ps}\\hfil"
+        },
+        {
+          "line": 966,
+          "text": "surface density. The HSB galaxies from Wevers et al. (1986) are represented by"
+        },
+        {
+          "line": 970,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 972,
+          "text": "These profiles are presented in Fig.  \\ref{Radprof}.  Note that the"
+        },
+        {
+          "line": 973,
+          "text": "trend shown in Fig.  \\ref{surf} of surface density with Hubble-type is"
+        },
+        {
+          "line": 974,
+          "text": "also apparent in the local surface densities.  Local surface density"
+        },
+        {
+          "line": 976,
+          "text": "average radial surface density profile of our sample of LSB galaxies is"
+        },
+        {
+          "line": 977,
+          "text": "shown as the heavy line in Fig.  \\ref{Radprof}. "
+        },
+        {
+          "line": 979,
+          "text": "It is clear from Fig.  \\ref{Radprof} that the H{\\sc i} surface density"
+        },
+        {
+          "line": 981,
+          "text": "profiles of early-type HSB galaxies, and again a factor of 3 lower than"
+        },
+        {
+          "line": 982,
+          "text": "those of late-type galaxies.  This of course requires a LSB galaxies of"
+        },
+        {
+          "line": 986,
+          "text": "\\subsection{Surface brightness and surface density}"
+        },
+        {
+          "line": 988,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 990,
+          "text": "\\hfil\\epsfbox{Rotkpc.ps}\\hfil"
+        },
+        {
+          "line": 993,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 997,
+          "text": "there is a relation between the luminosity surface density and the gas"
+        },
+        {
+          "line": 998,
+          "text": "surface density.  We have tested this idea by taking the photometry and"
+        },
+        {
+          "line": 1000,
+          "text": "have converted his $J$-band photometry to $B$-band photometry using the"
+        },
+        {
+          "line": 1001,
+          "text": "conversion formulae given by him.  The maximum error in the conversion"
+        },
+        {
+          "line": 1005,
+          "text": "0.20$ mag arcsec$^{-2}$.  As we will see this is of sufficient quality"
+        },
+        {
+          "line": 1008,
+          "text": "Figure \\ref{Wevers} shows the result.  Here local H{\\sc i} surface"
+        },
+        {
+          "line": 1015,
+          "text": "outside these central dips the surface density-surface brightness"
+        },
+        {
+          "line": 1018,
+          "text": "Note that U6614 (the dashed line in the lower-left of the figure) turns"
+        },
+        {
+          "line": 1019,
+          "text": "out to be the odd galaxy in the LSB samples.  It has high surface"
+        },
+        {
+          "line": 1023,
+          "text": "been omitted from this plot, also show similar profiles. "
+        },
+        {
+          "line": 1025,
+          "text": "Figure \\ref{Wevers} shows that the normal LSB galaxies follow a"
+        },
+        {
+          "line": 1026,
+          "text": "relationship between $\\sigma_{\\rm HI}$ and $\\mu_B$ that is similar to that of"
+        },
+        {
+          "line": 1027,
+          "text": "late-type HSB galaxies (albeit starting at a lower $\\sigma_{\\rm HI}$), suggesting"
+        },
+        {
+          "line": 1029,
+          "text": "late-type HSB galaxies, and that {\\it local} baryonic surface density"
+        },
+        {
+          "line": 1034,
+          "text": "lower abundances (McGaugh 1994) than HSB galaxies.  This is most likely"
+        },
+        {
+          "line": 1035,
+          "text": "an effect of the different evolutionary history of LSB galaxies. "
+        },
+        {
+          "line": 1036,
+          "text": "Summarizing, {\\it local} surface density controls the current"
+        },
+        {
+          "line": 1037,
+          "text": "evolutionary rate, i.e.  the rate at which processes happen at this"
+        },
+        {
+          "line": 1038,
+          "text": "moment, while the {\\it global} properties show us the total amount of"
+        },
+        {
+          "line": 1045,
+          "text": "In order to intercompare the rotation curves in Fig.  2 we present them"
+        },
+        {
+          "line": 1046,
+          "text": "again in Fig.  \\ref{Rotkpc}.  The rotation velocity is given as a"
+        },
+        {
+          "line": 1061,
+          "text": "The rotation curves are shown in Fig.  \\ref{Rot_HSB_LSB}, together with"
+        },
+        {
+          "line": 1067,
+          "text": "in Fig.  \\ref{Rot_HSB_LSB}. "
+        },
+        {
+          "line": 1069,
+          "text": "It is clear from Fig.  \\ref{Rot_HSB_LSB} that the rotation curves of LSB"
+        },
+        {
+          "line": 1072,
+          "text": "as this is the only easily observable length scale in a galaxy, which is"
+        },
+        {
+          "line": 1077,
+          "text": "expressed in kpc, the rotation curves will rise more slowly to their"
+        },
+        {
+          "line": 1082,
+          "text": "rotation curve of a HSB galaxy (cf.  Fig.\\ \\ref{Rot_HSB_LSB}). "
+        },
+        {
+          "line": 1086,
+          "text": "\\begin{figure*}"
+        },
+        {
+          "line": 1088,
+          "text": "\\hfil\\epsfbox{Rot_HSB_LSB.ps}\\hfil"
+        },
+        {
+          "line": 1095,
+          "text": "\\end{figure*}"
+        },
+        {
+          "line": 1098,
+          "text": "shown in Fig.  \\ref{Vmax_h}, where the scale lengths in the HSB and LSB"
+        },
+        {
+          "line": 1099,
+          "text": "samples are shown versus their corresponding maximum rotation"
+        },
+        {
+          "line": 1102,
+          "text": "It is striking that the LSB galaxies only occupy the part of the figure"
+        },
+        {
+          "line": 1106,
+          "text": "among the likes of UGC 6614: the Malin-1 cousins (Sprayberry et al. 1995a). "
+        },
+        {
+          "line": 1115,
+          "text": "diffusely.  A naive extrapolation would then suggest that this might"
+        },
+        {
+          "line": 1116,
+          "text": "also apply to the dark matter, but an answer to this question will have"
+        },
+        {
+          "line": 1117,
+          "text": "to wait for full disc-halo decompositions of the rotation curves, which"
+        },
+        {
+          "line": 1121,
+          "text": "If the differences in surface density are the fundamental"
+        },
+        {
+          "line": 1128,
+          "text": "leads to the above result.  Here $M$ is the dynamical mass within a"
+        },
+        {
+          "line": 1131,
+          "text": " \\begin{figure}"
+        },
+        {
+          "line": 1133,
+          "text": "\\hfil\\epsfbox{Vmax_h.ps}\\hfil"
+        },
+        {
+          "line": 1140,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1147,
+          "text": "the edge of the observed H{\\sc i} disc.  Compact high-luminosity"
+        },
+        {
+          "line": 1148,
+          "text": "galaxies (with high rotation velocities) have declining rotation curves. "
+        },
+        {
+          "line": 1150,
+          "text": "velocity this implies a relation between the compactness of a galaxy and"
+        },
+        {
+          "line": 1154,
+          "text": "the slope as the slope of a straight-line fit to the logarithmic"
+        },
+        {
+          "line": 1155,
+          "text": "rotation curve (i.e., $d \\log V / d \\log R$, as this ratio is distance-independent),"
+        },
+        {
+          "line": 1156,
+          "text": "between an inner radius, defined as two-thirds of the optical radius"
+        },
+        {
+          "line": 1161,
+          "text": "Figure \\ref{Compactness} shows the comparison of compactness and slope"
+        },
+        {
+          "line": 1164,
+          "text": "classical HSB galaxies.  In fact the only thing that distinguishes the"
+        },
+        {
+          "line": 1165,
+          "text": "LSB galaxies from the HSB galaxies is that their ``compactness'' or mass"
+        },
+        {
+          "line": 1166,
+          "text": "surface density is significantly lower than that of HSB galaxies with"
+        },
+        {
+          "line": 1167,
+          "text": "comparable slope.  It is important to note that this surface density"
+        },
+        {
+          "line": 1170,
+          "text": "\\begin{figure} "
+        },
+        {
+          "line": 1172,
+          "text": "\\hfil\\epsfbox{Compactness.ps}"
+        },
+        {
+          "line": 1173,
+          "text": "\\hfil "
+        },
+        {
+          "line": 1174,
+          "text": " \\caption{The compactness or mass surface density of HSB and LSB"
+        },
+        {
+          "line": 1178,
+          "text": "(1992), while the filled circles represent the LSB galaxies from this"
+        },
+        {
+          "line": 1180,
+          "text": "\\label{Compactness} \\end{figure}"
+        },
+        {
+          "line": 1182,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 1184,
+          "text": "\\hfil\\epsfbox{Slope_scale.ps}\\hfil"
+        },
+        {
+          "line": 1185,
+          "text": "\\caption{The distribution of logarithmic slope $d \\log V / d \\log R$ of"
+        },
+        {
+          "line": 1187,
+          "text": "dots denote the galaxies from Broeils (1992), while the filled circles"
+        },
+        {
+          "line": 1188,
+          "text": "represent the LSB galaxies from this work. Filled triangles are LSB"
+        },
+        {
+          "line": 1191,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1195,
+          "text": "Fig.  \\ref{Slope_scale}).  At scale lengths smaller than 5 kpc the whole"
+        },
+        {
+          "line": 1201,
+          "text": "selection effects.  Galaxies with identical scale lengths can have"
+        },
+        {
+          "line": 1208,
+          "text": "compactness of a galaxy.  This strongly suggests that the mass is not"
+        },
+        {
+          "line": 1215,
+          "text": "\\subsection{Relation of $M_{\\rm HI}/L$ with central surface brightness}"
+        },
+        {
+          "line": 1218,
+          "text": "HI}/L_B$.  In order to get a good picture of how this ratio changes with"
+        },
+        {
+          "line": 1222,
+          "text": "this purpose. "
+        },
+        {
+          "line": 1224,
+          "text": "We have taken the luminosities and H{\\sc i} masses of this sample of 86"
+        },
+        {
+          "line": 1227,
+          "text": "HI}/L_B$ of the galaxies in the sample. The H{\\sc i} data was taken from"
+        },
+        {
+          "line": 1229,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 1231,
+          "text": "\\hfil\\epsfbox{LargeRoelof.ps}\\hfil"
+        },
+        {
+          "line": 1233,
+          "text": "and our sample plotted versus their luminosities. The top panel contains"
+        },
+        {
+          "line": 1240,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1242,
+          "text": "The top panel in Fig.  \\ref{Bband} shows the H{\\sc i} masses of the"
+        },
+        {
+          "line": 1243,
+          "text": "galaxies in the sample plotted against their $B$-band luminosities.  It"
+        },
+        {
+          "line": 1245,
+          "text": "luminosity than HSB galaxies.  To show that this effect is real and not"
+        },
+        {
+          "line": 1248,
+          "text": "panel of Fig.  \\ref{Bband}, this time using the $I$-magnitudes.  This"
+        },
+        {
+          "line": 1250,
+          "text": "atomic gas per solar luminosity than their HSB counterparts. "
+        },
+        {
+          "line": 1251,
+          "text": "This may indicate that either LSB galaxies are really"
+        },
+        {
+          "line": 1252,
+          "text": "gas-rich (i.e.  have a high gas-fraction $M_{\\rm gas}/M_{\\rm stars}$), or that"
+        },
+        {
+          "line": 1254,
+          "text": "higher surface brightnesses (so that $M_{\\rm gas}/M_{\\rm stars}$ might still have"
+        },
+        {
+          "line": 1257,
+          "text": "$\\sim 10$ times more molecular gas than atomic gas in the highest surface"
+        },
+        {
+          "line": 1259,
+          "text": "of molecular gas, which seems to be supported by"
+        },
+        {
+          "line": 1264,
+          "text": "conversion factor.  This is not enough to allow for much H$_2$ in LSB"
+        },
+        {
+          "line": 1270,
+          "text": "The ratio $M_{\\rm HI}/L$ is therefore larger for LSB galaxies, but as"
+        },
+        {
+          "line": 1271,
+          "text": "Fig.  6 shows, both HSB and LSB galaxies have the same ratio"
+        },
+        {
+          "line": 1272,
+          "text": "$\\sigma_{\\rm HI}/\\mu_B$.  As LSB galaxies do form (and have formed)"
+        },
+        {
+          "line": 1273,
+          "text": "fewer stars than HSB galaxies, but have higher gas fractions, the"
+        },
+        {
+          "line": 1275,
+          "text": "surface densities.  This means that the H{\\sc i} disks {\\it must} be more"
+        },
+        {
+          "line": 1276,
+          "text": "extended in order to still reach their measured total H{\\sc i} masses,"
+        },
+        {
+          "line": 1277,
+          "text": "which are quite similar to those of HSB galaxies.  Clear "
+        },
+        {
+          "line": 1280,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 1282,
+          "text": "\\hfil\\epsfbox{large.ps}\\hfil"
+        },
+        {
+          "line": 1285,
+          "text": "used, together with LSB galaxies from this work with well-determined "
+        },
+        {
+          "line": 1291,
+          "text": "the data.  The middle panel shows the ratio of total mass within 4$h$ to"
+        },
+        {
+          "line": 1294,
+          "text": "the ratio of hydrogen mass and total mass within 4$h$.  The dotted line"
+        },
+        {
+          "line": 1297,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1303,
+          "text": "will only discuss this parameter in a very global way.  An extensive"
+        },
+        {
+          "line": 1307,
+          "text": "exists.  This is shown in the middle panel of Fig.  \\ref {large} where"
+        },
+        {
+          "line": 1312,
+          "text": "optical radius, where we determine both the mass and the light.  This"
+        },
+        {
+          "line": 1313,
+          "text": "then is the $M/L$ within the adopted ``optical radius'' $R_{\\rm opt} ="
+        },
+        {
+          "line": 1318,
+          "text": "which have adequate inclination determinations.  Errorbars in Fig.  \\ref"
+        },
+        {
+          "line": 1324,
+          "text": "which this can be taken directly from a full rotation curve.  A strong"
+        },
+        {
+          "line": 1325,
+          "text": "correlation is apparent: this is the mass-to-light-ratio ($\\Upsilon$) -- surface"
+        },
+        {
+          "line": 1326,
+          "text": "brightness ($\\Sigma$) relation from ZHBM.  At the highest surface"
+        },
+        {
+          "line": 1330,
+          "text": "domination within the optical disc as surface brightness decreases,"
+        },
+        {
+          "line": 1332,
+          "text": "The slope of the full line in Fig.  \\ref{large} was forced to equal the"
+        },
+        {
+          "line": 1333,
+          "text": "value required by the $\\Upsilon\\Sigma$-relation and has been shifted to"
+        },
+        {
+          "line": 1336,
+          "text": "within the errors. "
+        },
+        {
+          "line": 1338,
+          "text": "\\subsection{Hydrogen and total masses} In the top panel of Fig. "
+        },
+        {
+          "line": 1339,
+          "text": "\\ref{large} we have plotted $M_{\\rm HI}/L_B$ for the same galaxies as a"
+        },
+        {
+          "line": 1340,
+          "text": "function of central surface brightness.  It is striking that this"
+        },
+        {
+          "line": 1342,
+          "text": "$\\Upsilon\\Sigma$-relation.  The full line shown in the top panel of Fig. "
+        },
+        {
+          "line": 1344,
+          "text": "least-squares fit to the data.  The $\\Upsilon\\Sigma$-relation, which is"
+        },
+        {
+          "line": 1349,
+          "text": "The relation shown in the top panel of Fig.  \\ref{large} is independent"
+        },
+        {
+          "line": 1350,
+          "text": "of the dynamics of the galaxies, while the $\\Upsilon\\Sigma$-relation is"
+        },
+        {
+          "line": 1351,
+          "text": "not.  This strong relation of $M_{\\rm HI}/L_B$ strongly suggests an"
+        },
+        {
+          "line": 1353,
+          "text": "This could, for"
+        },
+        {
+          "line": 1361,
+          "text": "Fig.  \\ref{large} introduces a small residual trend of $M_{\\rm HI}/M_T$"
+        },
+        {
+          "line": 1362,
+          "text": "with surface brightness.  This is presented in the bottom panel of Fig. "
+        },
+        {
+          "line": 1363,
+          "text": "\\ref{large}.  The dotted line is a least-squares fit to the data.  This"
+        },
+        {
+          "line": 1366,
+          "text": "Rotation curve decompositions are needed to solve this puzzle."
+        },
+        {
+          "line": 1367,
+          "text": "However, real variations in $M_{\\rm HI}/M_T$ would make evolutionary"
+        },
+        {
+          "line": 1371,
+          "text": "galaxies, implying that they have systematically higher gas-fractions. "
+        },
+        {
+          "line": 1372,
+          "text": "This shows again clearly that evolutionary differences exist between galaxies"
+        },
+        {
+          "line": 1377,
+          "text": "In this paper we have presented the H{\\sc i} properties of a sample of"
+        },
+        {
+          "line": 1388,
+          "text": "brightness--atomic gas surface density trend.  LSB galaxies may in"
+        },
+        {
+          "line": 1391,
+          "text": "that they may be less evolved.  Local surface density seems to control"
+        },
+        {
+          "line": 1396,
+          "text": "They rise more slowly towards their asymptotic value than those of"
+        },
+        {
+          "line": 1399,
+          "text": "even the dark matter of LSB galaxies may have a lower surface density. "
+        },
+        {
+          "line": 1400,
+          "text": "A confirmation of this will have to wait for full disc-halo"
+        },
+        {
+          "line": 1403,
+          "text": "The late-type LSB galaxies in our sample have higher gas fractions than"
+        },
+        {
+          "line": 1404,
+          "text": "HSB galaxies, and establish a relation between $M_{\\rm HI}/L_B$ and"
+        },
+        {
+          "line": 1406,
+          "text": "dyn}/L_B$ and central surface brightness also exists.  This confirms the"
+        },
+        {
+          "line": 1407,
+          "text": "$\\Upsilon\\Sigma$-relation found by ZHBM.  All of this may point at an"
+        },
+        {
+          "line": 1408,
+          "text": "evolutionary solution for the $\\Upsilon\\Sigma$-relation, but the high"
+        },
+        {
+          "line": 1409,
+          "text": "values for $M_{\\rm dyn}/L$ argue against this.  This remains a major"
+        },
+        {
+          "line": 1412,
+          "text": "Evolution, compactness, surface density and surface brightness are"
+        },
+        {
+          "line": 1419,
+          "text": "We thank Adrick Broeils for making some of his tables available in"
+        },
+        {
+          "line": 1425,
+          "text": "of this paper. We thank Jon Davies for his comments on an earlier"
+        },
+        {
+          "line": 1426,
+          "text": "version of this paper."
+        },
+        {
+          "line": 1465,
+          "text": "Davies, J. I., Disney, M. J., Phillips, S., Boyle, B. J., Xouch, W. J,"
+        },
+        {
+          "line": 1468,
+          "text": "Davies, J. I., Phillips, S., Disney, M. J., 1988, MNRAS, 231, 69p"
+        },
+        {
+          "line": 1481,
+          "text": "Fouqu\\'e P.,  Paturel G., 1991, { Third Reference Catalogue of Bright"
+        },
+        {
+          "line": 1497,
+          "text": "Irwin, M. J., Davies, J. I., Disney, M. J.; Phillipps, S., 1990, MNRAS,"
+        },
+        {
+          "line": 1530,
+          "text": "Quinn, T., Katz, N., Efstathiou, G., 1995, preprint"
+        },
+        {
+          "line": 1536,
+          "text": "Romanishin, W.,  Krumm, N.,  Salpeter, E.,  Knapp, G.,  Strom, K. M.,"
+        },
+        {
+          "line": 1550,
+          "text": "Schwartzenberg J.M., Phillips S., Smith R.M., Couch W.J., Boyle B.J., 1995,"
+        },
+        {
+          "line": 1557,
+          "text": "Turner, J. A.,  Phillipps, S.,  Davies, J. I., Disney, M. J., MNRAS,"
+        },
+        {
+          "line": 1560,
+          "text": "van Albada T.S, Sancisi R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447"
+        },
+        {
+          "line": 1585,
+          "text": "CCD imaging for a couple of galaxies in our sample, for which previously"
+        },
+        {
+          "line": 1586,
+          "text": "no optical information was available (F571-8, F571-V2, F574-1, F579-V1,"
+        },
+        {
+          "line": 1587,
+          "text": "F583-1 and  F583-4), was obtained at the 1 meter"
+        },
+        {
+          "line": 1596,
+          "text": "$R$-band imaging was obtained using the 1124$^2$ TEK chip at the JKT,"
+        },
+        {
+          "line": 1597,
+          "text": "which was binned to 562$^2$ due to the poor seeing conditions. The pixel"
+        },
+        {
+          "line": 1607,
+          "text": "much better than this. "
+        },
+        {
+          "line": 1609,
+          "text": "Many images showed a gradient across the sky background. This gradient"
+        },
+        {
+          "line": 1611,
+          "text": "the mean sky background resulting from this gradient were later used to"
+        },
+        {
+          "line": 1613,
+          "text": "This procedure is also described in BHB95."
+        },
+        {
+          "line": 1616,
+          "text": "$BRI$ CCD imaging of F583-1 was obtained at the 90 cm Dutch Telescope at"
+        },
+        {
+          "line": 1617,
+          "text": "ESO, Chile, during the night of April 14-15 1994. Conditions were "
+        },
+        {
+          "line": 1619,
+          "text": "using a 512$^2$ TEK chip, with a pixel size of 0.457 arcsec. Images were"
+        },
+        {
+          "line": 1629,
+          "text": "\\hline"
+        },
+        {
+          "line": 1632,
+          "text": "\\hline"
+        },
+        {
+          "line": 1634,
+          "text": "F563-1 & \tMar 7 '95  &R&\t4$\\times$900\\\\"
+        },
+        {
+          "line": 1636,
+          "text": "F571-8 & \tMar 2  &R&\t4$\\times$900, 600 \\\\"
+        },
+        {
+          "line": 1637,
+          "text": "F571-V2& \tMar 2  &R&\t2$\\times$900, 600 \\\\"
+        },
+        {
+          "line": 1638,
+          "text": "F574-1 & \tMar 2  &R&        4$\\times$900\\\\"
+        },
+        {
+          "line": 1639,
+          "text": "F579-V1 &       Mar 2  &R&        3$\\times$900\\\\"
+        },
+        {
+          "line": 1640,
+          "text": "F583-1 &        Mar 7  &R&        3$\\times$900\\\\"
+        },
+        {
+          "line": 1641,
+          "text": "F583-4 &  \tMar 8  &R&\t2$\\times$900\\\\"
+        },
+        {
+          "line": 1642,
+          "text": "\\hline"
+        },
+        {
+          "line": 1644,
+          "text": "F583-1 & \tApr 14 '94 &B&\t9$\\times$300\\\\"
+        },
+        {
+          "line": 1647,
+          "text": "\\hline"
+        },
+        {
+          "line": 1657,
+          "text": "\\subsection{Radial profiles} "
+        },
+        {
+          "line": 1660,
+          "text": "the outer isophotes, and radial profiles were produced using the"
+        },
+        {
+          "line": 1663,
+          "text": "decomposition of the profile in an exponential disc and an exponential"
+        },
+        {
+          "line": 1671,
+          "text": "Figure A1 presents the radial $R$-band profiles of F563-1, F574-1, F579-V1 and"
+        },
+        {
+          "line": 1672,
+          "text": "F583-4.  "
+        },
+        {
+          "line": 1674,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 1676,
+          "text": "\\hfil\\epsfbox{JKTpanel.ps}\\hfil"
+        },
+        {
+          "line": 1677,
+          "text": "\\caption{Radial $R$-band profile of F563-1, F574-1, F579-V1 and F583-4.}"
+        },
+        {
+          "line": 1679,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1681,
+          "text": "\\subsubsection{Note on F563-1: Comparison with other data}"
+        },
+        {
+          "line": 1683,
+          "text": "inclination of F563-1 given here is substantially different from their"
+        },
+        {
+          "line": 1684,
+          "text": "inclination. This is because the image in BHB95 suffered from a"
+        },
+        {
+          "line": 1686,
+          "text": "extended face-on like structure around F563-1 was real or not. The"
+        },
+        {
+          "line": 1687,
+          "text": "images obtained at the JKT show that indeed this galaxy is surrounded by"
+        },
+        {
+          "line": 1693,
+          "text": "We have determined the radial profile of F563-1 from the new JKT imaging"
+        },
+        {
+          "line": 1695,
+          "text": "This is shown in Fig. A2, where we have also plotted their INT profile of"
+        },
+        {
+          "line": 1696,
+          "text": "F563-1. The two profiles are clearly indistinguishable."
+        },
+        {
+          "line": 1697,
+          "text": "Only at very low surface brightnesses does the JKT profile diverge from"
+        },
+        {
+          "line": 1698,
+          "text": "the INT profile. This is simply because the JKT imaging has a lower"
+        },
+        {
+          "line": 1700,
+          "text": "This suggests that the surface brightnesses presented here are likely to"
+        },
+        {
+          "line": 1701,
+          "text": "be more accurate than the uncertainty of 0.2 magnitudes which is given"
+        },
+        {
+          "line": 1704,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 1706,
+          "text": "\\hfil\\epsfbox{F5631comp.ps}\\hfil"
+        },
+        {
+          "line": 1707,
+          "text": "\\caption{Comparison of the radial profiles of F563-1, using the new data"
+        },
+        {
+          "line": 1709,
+          "text": "(open dots). To produce the profiles the ellipse parameters from BHB95"
+        },
+        {
+          "line": 1711,
+          "text": "\\label{F5631comp}"
+        },
+        {
+          "line": 1712,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1714,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 1716,
+          "text": "\\hfil\\epsfbox{F5718majax.ps}\\hfil"
+        },
+        {
+          "line": 1717,
+          "text": "\\caption{Major axis $R$-band profile of F571-8. The profile has a width"
+        },
+        {
+          "line": 1721,
+          "text": "\\label{F5718comp}"
+        },
+        {
+          "line": 1722,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1724,
+          "text": "\\subsubsection{Notes on F571-8: an edge-on LSB galaxy}"
+        },
+        {
+          "line": 1726,
+          "text": "This galaxy is the only edge-on galaxy in our sample.  During the"
+        },
+        {
+          "line": 1730,
+          "text": "the radial profile, do not work for edge-on galaxies, we have produced"
+        },
+        {
+          "line": 1731,
+          "text": "the radial profile as follows.  A major axis cut of 2 arcsec width"
+        },
+        {
+          "line": 1732,
+          "text": "(corresponding to one seeing FWHM) was made, and this profile was"
+        },
+        {
+          "line": 1733,
+          "text": "subsequently decomposed into a bulge and disc component.  This profile is"
+        },
+        {
+          "line": 1734,
+          "text": "shown in Fig. A3, where the profile is folded around the central"
+        },
+        {
+          "line": 1737,
+          "text": "profile.  Structural parameters of these components can be found in"
+        },
+        {
+          "line": 1738,
+          "text": "Table A2.  This galaxy is also special in the sense that it has a very"
+        },
+        {
+          "line": 1744,
+          "text": "bulge-to-disc ratio for F571-8 of $\\sim 2$, which is  much larger"
+        },
+        {
+          "line": 1748,
+          "text": "equatorial dust lane. This is confirmed by the minor axis profiles: the"
+        },
+        {
+          "line": 1750,
+          "text": "If F571-8 were representative for the face-on LSB galaxies in this"
+        },
+        {
+          "line": 1751,
+          "text": "sample, this would confirm the low dust contents for LSB galaxies"
+        },
+        {
+          "line": 1753,
+          "text": "However, the large bulge of this galaxy probably means that this galaxy"
+        },
+        {
+          "line": 1756,
+          "text": "some more light on this."
+        },
+        {
+          "line": 1758,
+          "text": "\\subsubsection{Notes on F583-1: Comparison and colours}"
+        },
+        {
+          "line": 1760,
+          "text": "Using the procedures described in BHB95 we have determined the radial"
+        },
+        {
+          "line": 1761,
+          "text": "luminosity and colour profiles of F583-1. These are presented in Fig."
+        },
+        {
+          "line": 1762,
+          "text": "A4. The leftmost panels show the radial profiles in $B$, $R$ and $I$."
+        },
+        {
+          "line": 1764,
+          "text": "value of the sky background. Even though this uncertainty was 3 counts"
+        },
+        {
+          "line": 1767,
+          "text": "in Table A2. Comparison with other galaxies from BHB95 shows that this"
+        },
+        {
+          "line": 1769,
+          "text": "top-right panel of Fig. A4) are also quite normal for LSB galaxies."
+        },
+        {
+          "line": 1770,
+          "text": "We find that in F583-1 the average (area weighted) value for $B-R$ is"
+        },
+        {
+          "line": 1771,
+          "text": "0.95, which is slightly redder than the typical value of the sample of"
+        },
+        {
+          "line": 1772,
+          "text": "BHB95, but still well within the range covered by LSB galaxies. The area"
+        },
+        {
+          "line": 1773,
+          "text": "weighted value for $B-I$ is 1.35, which is almost the typical value"
+        },
+        {
+          "line": 1779,
+          "text": "derived from that data are usually accurate to within a tenth of a"
+        },
+        {
+          "line": 1782,
+          "text": "\\begin{figure}"
+        },
+        {
+          "line": 1784,
+          "text": "\\hfil\\epsfbox{f5831panel.ps}\\hfil"
+        },
+        {
+          "line": 1785,
+          "text": "\\caption{Radial profiles of F583-1. Left row shows, from top to bottom,"
+        },
+        {
+          "line": 1786,
+          "text": "the measured radial luminosity profiles in  the $B$, $R$ and $I$ bands"
+        },
+        {
+          "line": 1788,
+          "text": "$B-R$ radial colour profiles; the middle panel shows a comparison"
+        },
+        {
+          "line": 1789,
+          "text": "between the $R$ band profiles as obtained with the JKT (open circles)"
+        },
+        {
+          "line": 1791,
+          "text": "difference between these two profiles $\\Delta \\mu = \\mu_{Dutch} - \\mu_{JKT}$.}"
+        },
+        {
+          "line": 1792,
+          "text": "\\label{F5831pan}"
+        },
+        {
+          "line": 1793,
+          "text": "\\end{figure}"
+        },
+        {
+          "line": 1797,
+          "text": "In order to make this data directly comparable with the data from BHB95,"
+        },
+        {
+          "line": 1798,
+          "text": "used in this paper to discuss the properties of LSB galaxies, we have"
+        },
+        {
+          "line": 1799,
+          "text": "converted the $R$ surface brightnesses and magnitudes of F571-8, F574-1,"
+        },
+        {
+          "line": 1800,
+          "text": "F579-V1 and F583-4 to the $B$-band using the median colours of the"
+        },
+        {
+          "line": 1804,
+          "text": "that $\\mu_B(0) = \\mu_R(0) + 0.78$.  This value for $\\mu_B(0)$ was"
+        },
+        {
+          "line": 1809,
+          "text": "between $B$ and $R$-band. However this change is much smaller than the"
+        },
+        {
+          "line": 1815,
+          "text": "m_{T,R} + 0.78$. From this one can compute values for  $L_B$ and $M_B$,"
+        },
+        {
+          "line": 1816,
+          "text": "which are given in Table 3."
+        },
+        {
+          "line": 1822,
+          "text": "\\hline"
+        },
+        {
+          "line": 1826,
+          "text": "\\hline"
+        },
+        {
+          "line": 1827,
+          "text": "F563-1 &R& 25 & 168 & 22.55 & 13.0 & 2.1 & 15.1 & 26 & 16.3 & --17.6 & 0.04& \\\\"
+        },
+        {
+          "line": 1828,
+          "text": "F571-8 &R& 90 & 167 &   *   &  *   &  *  & 15.0 & 33 & 15.0 & --17.8  & 0.00& $a$\\\\"
+        },
+        {
+          "line": 1831,
+          "text": "F574-1 &R& 65 & 92  & 21.60 &  9.1 & 3.2 & 15.7 & 38 & 15.8 & --18.6 & 0.05& \\\\"
+        },
+        {
+          "line": 1832,
+          "text": "F579-V1&R& 26 & 113 & 21.90 & 10.0 & 3.8 & 15.0 & 27 & 15.9 & --19.0 & 0.04& \\\\"
+        },
+        {
+          "line": 1833,
+          "text": "F583-1 &B& 63 & 175 & 23.05 & 10.2 & 1.2 & 16.0 & 21 & 16.5 & --15.9 & 0.09\\\\"
+        },
+        {
+          "line": 1836,
+          "text": "F583-4 &R& 55 & 116 & 22.38 & 11.3 & 2.0 & 15.7 & 27 & 16.1 & --17.1 & 0.02& \\\\"
+        },
+        {
+          "line": 1837,
+          "text": "\\hline "
+        },
+        {
+          "line": 1849,
+          "text": "(10) Total magnitude $m_{25}$ within 25 $R$-mag arcsec$^{-2}$ ellipse.\\\\"
+        },
+        {
+          "line": 1854,
+          "text": "presented in Fig. A3. {\\bf b)} The magnitudes of"
+        },
+        {
+          "line": 1861,
+          "text": "The corrections made to the values derived for F571-8 are of a different"
+        },
+        {
+          "line": 1863,
+          "text": "measured from the major axis profile, to a face-on surface brightness,"
+        },
+        {
+          "line": 1864,
+          "text": "we have assumed the disc to be completely optically thin. This is"
+        },
+        {
+          "line": 1869,
+          "text": "half that as measured edge-on (0.75 magnitudes fainter). To this face-on"
+        },
+        {
+          "line": 1873,
+          "text": "disc: optically thin, and a colour correction of 0.78 magnitudes."
+        },
+        {
+          "line": 1875,
+          "text": "\\subsection{Identification of galaxies in Fig. 13}"
+        },
+        {
+          "line": 1879,
+          "text": "\\caption[]{Identification of galaxies in Fig. \\ref{large}}"
+        },
+        {
+          "line": 1881,
+          "text": "\\hline"
+        }
+      ]
+    }
+  ],
+  "postscript_assets": [
+    {
+      "name": "Compactness.ps",
+      "bytes": 18642,
+      "sha256": "9100aea84bdabfe9409aff2de80cf6f7a8fb206b398212b589dcb6a94206d077",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "F5631comp.ps",
+      "bytes": 46722,
+      "sha256": "eca5863d03ce914bd3b30398627df6b9d7d42a3c882f3ad58ab4541c8c3cae77",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 6,
+      "lineto_count": 3,
+      "show_count": 2,
+      "stroke_count": 5,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "F5718majax.ps",
+      "bytes": 87553,
+      "sha256": "59e1d5a125ca6588b522cac1eba1b722a861fd39f69c9a7e9fe70d1395faf3ef",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "Fluxes.ps",
+      "bytes": 25277,
+      "sha256": "66f04e57898313403e6171cb2314c079a467d9be53612a2ed5c79b6714612fb4",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "JKTpanel.ps",
+      "bytes": 85176,
+      "sha256": "16ac92b7cfbcd81c4313ada75dc57efe55d7478e80347e8503e3e41accb43555",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 30,
+      "lineto_count": 15,
+      "show_count": 2,
+      "stroke_count": 17,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "LargeRoelof.ps",
+      "bytes": 36804,
+      "sha256": "adfdf95fc9d8b57042c8f0181fadfed9599b6671eab703964533b7de38c82ff7",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 18 610 720 "
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "Radprof.ps",
+      "bytes": 22635,
+      "sha256": "7ba10b2254b08c5abbaf657aafd360b1088d2cf338968283752e9670e5f767af",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 16,
+      "lineto_count": 8,
+      "show_count": 2,
+      "stroke_count": 10,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "Rot_HSB_LSB.ps",
+      "bytes": 36060,
+      "sha256": "44ce776a0eba78deae849a5e652b74c66ee130829b6847be095e5f29c4a8095c",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 12,
+      "lineto_count": 6,
+      "show_count": 2,
+      "stroke_count": 8,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "Rotkpc.ps",
+      "bytes": 28362,
+      "sha256": "6650871dbf37f46542bbb11d4a45bd17abf0bb117ea66cf51a5938c52ed3d800",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "Slope_scale.ps",
+      "bytes": 17557,
+      "sha256": "fe44a70182904be3391b60cdc441534e7798f0ceaa64e224de3958fd4bf271aa",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "Sysvel.ps",
+      "bytes": 23056,
+      "sha256": "30f0ba2cd5298e58c9ae971f3646e4f57ecd9b3275372686883ac10a8adaf75e",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "Vmax_h.ps",
+      "bytes": 25826,
+      "sha256": "fb780dff24202a409f44830f660f0825061fbd053b98b53390bcbe9b2db287c5",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "Wevers.ps",
+      "bytes": 28511,
+      "sha256": "fda41654eba96cd6347c97e3866b5552a286ac3d6b7bbbde284def2f34a9e922",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 12,
+      "lineto_count": 6,
+      "show_count": 2,
+      "stroke_count": 8,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "f5831panel.ps",
+      "bytes": 92377,
+      "sha256": "e7ed6e75c32fdc168d61b690ed5e24fb5671e210ad4bd54d8ba53a5be25f5d36",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    },
+    {
+      "name": "large.ps",
+      "bytes": 66073,
+      "sha256": "3efbd5eea4b700807e7cc11651e615ba5beee9c49c836ba8128bcef9956309ee",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 10,
+      "lineto_count": 5,
+      "show_count": 2,
+      "stroke_count": 7,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "surf.ps",
+      "bytes": 15832,
+      "sha256": "aabd82eb994e15f0d0fc5d38673642c553d3825809985e5655d8d061132e25a9",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "moveto_count": 8,
+      "lineto_count": 4,
+      "show_count": 2,
+      "stroke_count": 6,
+      "literal_string_count": 0,
+      "useful_strings": []
+    }
+  ],
+  "interpretation_boundary": "Asset/provenance audit only. No profile values are promoted until the source figure/table and physical axes are unambiguous."
+}
