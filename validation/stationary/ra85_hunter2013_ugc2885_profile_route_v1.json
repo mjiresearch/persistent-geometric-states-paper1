@@ -1,0 +1,251 @@
+{
+  "status": "RA85_HUNTER2013_UGC2885_PROFILE_ROUTE_AUDIT_COMPLETE",
+  "source": "Hunter et al. 2013 AJ 146 92; arXiv:1307.7116",
+  "route_role": "later independent WHISP/WSRT replacement for RA85 target, not RA85 numerical recovery",
+  "source_fetch_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/1307.7116",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/1307.7116",
+      "content_type": "application/gzip",
+      "bytes": 3412821
+    }
+  ],
+  "source_package_sha256": "dc655522f644fa5cf7cbb203ebf7b3fa2b39cda0ad1b80e00b15666b053caab6",
+  "n_source_files": 17,
+  "file_inventory": [
+    {
+      "name": "fig1.jpg",
+      "bytes": 143136,
+      "sha256": "244305af8c1c1ee0ae025967a92435dfaea40b4509153a2802e174a551b2543b",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig10.jpg",
+      "bytes": 32230,
+      "sha256": "42f435c3785d9be4eaa5d5525b8d812fc720258b3113e4db91caf18a358ac583",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig11.jpg",
+      "bytes": 40339,
+      "sha256": "a886ec6e254cbfab3bec3a95083e6e0be61d025fb6fcc28fd6293e000f0ac5a4",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig12.jpg",
+      "bytes": 49712,
+      "sha256": "f9a4fabaac4d41ddecf8dbcc4316691f60667cf255e6a43bb417646bb6443494",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig13.jpg",
+      "bytes": 52844,
+      "sha256": "06c389c8ea4a78091cf1e24bfe46eacf728edc3913788397c4405b695c813cad",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig14.jpg",
+      "bytes": 52318,
+      "sha256": "8b7eb1ef04a5d1190e013d0208e9b5a981af21f6b356be8b13aa5ab034ea00d2",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig15.jpg",
+      "bytes": 39219,
+      "sha256": "ca7f36dc28073bc4b3a4d9c67a2fa348cc4ec97f80f68e54d9851908aca1f9f8",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig2.jpg",
+      "bytes": 1214552,
+      "sha256": "5561c43730e75e93f7d5bc15b516a6ffe1667cf793e3c9263c4649d724012662",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig3.jpg",
+      "bytes": 1423639,
+      "sha256": "843d2eebfb46a8f6833821044ed41b3654ed840a94c9be3b82e23676f7d80d95",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig4.jpg",
+      "bytes": 32368,
+      "sha256": "82f51ace6556c7720e67c33be87d877e8e6f631a25ec1435ac5aa707e794d5d8",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig5.jpg",
+      "bytes": 108683,
+      "sha256": "fddd37e45bd0186b4ae4d3a3fed35dffc7049df3c5463d7f1c47ab9689fde6f7",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig6.jpg",
+      "bytes": 112155,
+      "sha256": "d98d6e37925f77bb89e2db6b9f02b88d154fb0b7d216c6817eb9bc2364a34efd",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig7.jpg",
+      "bytes": 68983,
+      "sha256": "f7e21c99b19462c18906661f2853e0702b0cd7615ea8f51a8a1a34a4268c5147",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig8.jpg",
+      "bytes": 125172,
+      "sha256": "40d2333f81c2cebbc4b887d4d7f34163daefaa5b31a0de3aa67104eb1c00a70b",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "fig9.jpg",
+      "bytes": 130895,
+      "sha256": "9d8402fc3f9491b6374772c6ed849c5c74d1bbb82881914ddcc0e25567ecf7e6",
+      "suffixes": [
+        ".jpg"
+      ]
+    },
+    {
+      "name": "ms.tex",
+      "bytes": 93227,
+      "sha256": "867fd48fefccbe1b4d1ad3ccdb385c72d3f03895f05e5b3213f5f8cf52aadc14",
+      "suffixes": [
+        ".tex"
+      ]
+    },
+    {
+      "name": "natbib.sty",
+      "bytes": 34790,
+      "sha256": "eb0773783449aadac8b7b5cd2ee4c565e752edb3559cb56c988585b4480528a0",
+      "suffixes": [
+        ".sty"
+      ]
+    }
+  ],
+  "profile_contexts": [
+    {
+      "tex": "ms.tex",
+      "line": 454,
+      "context": "434: This is shown in Figure \\ref{fig-metal}. \\oh\\ starts at 9.0 in the\n435: center and drops to 8.58, 78\\% solar, at $R/R_{25}=3.5$. We use a solar oxygen\n436: abundance of 8.69 (Asplund \\et\\ 2009).\n437: \n438: \\subsubsection{The SFR Formula}\n439: \n440: To convert $\\Sigma_{H\\alpha}$ in units of ergs s$^{-1}$ pc$^{-2}$, as shown in\n441: Figures \\ref{fig-n801sb} and \\ref{fig-u2885sb}, to SFR in units of M\\solar\\\n442: yr$^{-1}$ kpc$^{-2}$, we begin with the formula of Kennicutt (1998): ${\\rm\n443: SFR}_{H\\alpha} {\\rm (M\\solar\\ yr^{-1})} = 7.9\\times10^{-42} L_{H\\alpha} {\\rm (ergs ~\n444: s^{-1})}$. We multiply the \\ha\\ surface density by 0.82 to remove [NII] and then\n445: adjust the formula for the deviation of the metallicity from solar, the abundance\n446: that Kennicutt used. For the latter, we use the synthesis models of STARBURST99\n447: (Leitherer \\et\\ 1999), with constant SFR and a Salpeter (1955) stellar initial mass\n448: function. Their Figure 78, which gives the number of photons below 912 \\AA, enables\n449: us to find the average flux of ionizing photons per second from a stellar population\n450: relative to that at solar and so to modify Kennicutt's \\ha\\ formula as a function of\n451: $Z$ from twice solar to below solar. \n452: The correction factor at twice solar metallicity is 1.18 and at 40\\% solar is 0.87. \n453: We interpolate to determine the correction factor for the metallicity at a given radius.\n454: The derived SFRs for NGC 801 and UGC 2885 are shown in Figure \\ref{fig-sfr}. \n455: \n456: Integrated SFRs use the oxygen abundance at the\n457: half-light radius to determine the SFR formula. For both galaxies this is approximately\n458: $z=0.03$. Thus, the SFRs need to be multiplied by a factor of 1.089 to adjust\n459: for the metallicity.\n460: The integrated SFRs are given in Table \\ref{tab-gal}.\n461: \n462: We have also computed a SFR necessary to form the stellar mass that currently exists\n463: in each galaxy, SFR$_V$. For this we used the $V$-band surface brightness to\n464: determine the mass in stars and assume a timescale of 12 Gyr for the formation of\n465: that stellar mass. We obtain $M/L_V$ as a function of (B$-$V)$_0$ from Bell \\& de\n466: Jong (2001). If the uncertainty in the color is  greater than 0.1 mag, we use the\n467: average  (B$-$V)$_0$ in the outer disk. SFR$_V$ is the SFR necessary to produce the\n468: original mass in stars. Because the $M/L_V$ yields the mass currently in stars, we\n469: correct this by a factor of two for the mass recycled back into the interstellar\n470: medium (Brinchmann \\et\\ 2004) in order to use the total mass ever formed into stars\n471: in computing the lifetime average ${\\rm SFR}_V$. The ratio ${\\rm SFR}_{H\\alpha}/{\\rm\n472: SFR}_V$ is shown in Figure \\ref{fig-rat}. We also compute the current surface\n473: density of the stellar mass $\\Sigma_*$ in units of M\\solar\\ pc$^{-2}$.\n474: \n475: \\section{Discussion} \\label{sec-disc}\n476: \n477: \\subsection{Extent of \\ha\\ emission}\n478: "
+    },
+    {
+      "tex": "ms.tex",
+      "line": 1033,
+      "context": "1013: taking place in regions of locally higher gas densities, namely, spiral arms.\n1014: The traditional Toomre (1964) gravitational instability parameter $Q$ is everywhere larger than 1, implying a stable gas.\n1015: However, when we include the\n1016: stellar disk thickness with dissipative gas and both radial and azimuthal forcing ($Q_{eff}$), the outer regions become\n1017: marginally unstable to form spiral arms. Star formation occurs in these arms with higher local densities than the surrounding average.\n1018: Generally spirals grow at higher $Q$ than the radial stability threshold, so the spirals are the primary instability,\n1019: from which star formation follows at the locally increased densities in the arms.\n1020: \n1021: We have traced smooth exponential stellar disks over 3-orders of magnitude and 4-6 disk scale lengths,\n1022: in spite of a highly variable gravitational instability parameter. Thus, gravitational instability thresholds\n1023: do not seem relevant to the stellar disk.\n1024: One possibility for creating an exponential disk is that\n1025: the star formation activity has an exponential profile and this forces the stellar disk to build up such a profile too.\n1026: Another possibility is that the stellar disk is continuously adjusted to an exponential shape regardless of the star formation profile.\n1027: The latter could be due to global dynamical processes that scatter the stars.\n1028: However, the known scattering processes only operate in spiral systems and cannot explain the same situation of smooth exponential\n1029: disks observed in \\dirr\\ galaxies.\n1030: Perhaps clumps in \\dirr\\ galaxies play the role of scattering centers to make the disks exponential (Hunter \\et\\ 2011).\n1031: \n1032: \\acknowledgments\n1033: We are grateful to J. M. van der Hulst for help in retrieving the \\HI\\ data of UGC 2885 from the WHISP archives.\n1034: The WHISP observation were carried out with the Westerbork Synthesis Radio Telescope, which is operated by\n1035: the Netherlands Foundation for Research in Astronomy (ASTRON) with financial support from the\n1036: Netherlands Foundation for Scientific Research (NWO). The WHISP project was carried out at the\n1037: Kapteyn Astronomical Institute by J.\\ Kamphuis, D.\\ Sijbring and Y.\\ Tang under the supervision of\n1038: T.\\ S.\\ van Albada, J.\\ M.\\ van der Hulst and R.\\ Sancisi.\n1039: Support for this work was provided to DAH by the Mt.\\ Cuba Astronomical Foundation and by grant AST-0707563 from\n1040: the National Science Foundation. BGE received support from National Science Foundation grant AST-0707426.\n1041: AA and TW are grateful for participation in the Northern Arizona University Research\n1042: Experiences for Undergraduates program in the summers of 2012 and 2010.\n1043: This program is run by Dr.\\ Kathy Eastwood and funded by the National Science Foundation through grant AST-1004107.\n1044: This research has made use of NED which is operated by the\n1045: Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.\n1046: \n1047: Facilities: \\facility{Hall 1.1 m}, \\facility{KPNO}, \\facility{WSRT}\n1048: \n1049: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n1050: \n1051: \\begin{thebibliography}{}\n1052: \n1053: \\bibitem[Asplund et al.(2009)]{asplund09} Asplund, M., Grevesse, N., Sauval, A. J., \\& Scott, P. 2009, ARA\\&A, 47, 481\n1054: \\bibitem[Barker et al.(2012)]{barker12} Barker, M. K., Ferguson, A. M. N., Irwin, M. J., Arimoto, N., \\& Jablonka, P.\n1055: 2012, MNRAS, 419, 1489\n1056: \\bibitem[Barnes et al.(2012)]{barnes12} Barnes, K.\\ L., van Zee, L., C\\^ot\\'e, S., \\& Schade, D.\\ 2012, ApJ, 757, 64\n1057: \\bibitem[Beckman et al.(2000)]{beckman00} Beckman, J. E., Rozas, M., Zurita, A., Watson, R. A., \\& Knapen, J. H. 2000, AJ, 119, 2728"
+    },
+    {
+      "tex": "ms.tex",
+      "line": 1364,
+      "context": "1344: \\begin{figure}\n1345: \\epsscale{1.0}\n1346: %\\plotone{fig12.eps}\n1347: \\includegraphics[angle=0,width=1.0\\textwidth]{fig12.jpg}\n1348: \\caption{SFR derived from H$\\alpha$ divided by the lifetime-averaged SFR derived from the stellar mass, determined from the $V$-band\n1349: surface brightness corrected to face-on. The horizontal dashed line at 0 marks the value for equal SFRs. The current star formation activity,\n1350: SFR$_{H\\alpha}$, is everywhere much lower than that averaged over the lifetime of the galaxies, SFR$_V$.\n1351: For UGC 2885, there is no \\ha\\ emission in the third to last azimuthally-averaged annulus (60 kpc radius);\n1352: hence, there is a discontinuity in the SFR$_{H\\alpha}$ profile.\n1353: \\label{fig-rat}}\n1354: \\end{figure}\n1355: \n1356: \\clearpage\n1357: \n1358: % fig13\n1359: \\begin{figure}\n1360: \\epsscale{1.0}\n1361: %\\plotone{fig13.eps}\n1362: \\includegraphics[angle=0,width=1.0\\textwidth]{fig13.jpg}\n1363: \\caption{Stellar mass surface density $\\Sigma_*$,\n1364: \\HI$+$He surface density $\\Sigma_{\\rm HI+He}$, and SFR density $\\Sigma_{\\rm SFR, H\\alpha}$ plotted as a function of radius\n1365: for NGC 801.\n1366: The gas and stellar mass surface densities have been corrected to face-on.\n1367: The logarithmic interval is the same for all three quantities, but the SFR zero point is different.\n1368: \\label{fig-n801himasssfr}}\n1369: \\end{figure}\n1370: \n1371: \\clearpage\n1372: \n1373: % fig14\n1374: \\begin{figure}\n1375: \\epsscale{1.0}\n1376: %\\plotone{fig14.eps}\n1377: \\includegraphics[angle=0,width=1.0\\textwidth]{fig14.jpg}\n1378: \\caption{Stellar mass surface density $\\Sigma_*$,\n1379: \\HI$+$He surface density $\\Sigma_{\\rm HI+He}$, and SFR density $\\Sigma_{\\rm SFR, H\\alpha}$ plotted as a function of radius\n1380: for UGC 2885.\n1381: The gas and stellar mass surface densities have been corrected to face-on.\n1382: The logarithmic interval is the same for all three quantities, but the SFR zero point is different.\n1383: There is no \\ha\\ emission in the third to last azimuthally-averaged annulus (60 kpc radius);\n1384: hence, there is a discontinuity in the SFR$_{H\\alpha}$ profile.\n1385: \\label{fig-u2885himasssfr}}\n1386: \\end{figure}\n1387: \n1388: \\clearpage"
+    },
+    {
+      "tex": "ms.tex",
+      "line": 1379,
+      "context": "1359: \\begin{figure}\n1360: \\epsscale{1.0}\n1361: %\\plotone{fig13.eps}\n1362: \\includegraphics[angle=0,width=1.0\\textwidth]{fig13.jpg}\n1363: \\caption{Stellar mass surface density $\\Sigma_*$,\n1364: \\HI$+$He surface density $\\Sigma_{\\rm HI+He}$, and SFR density $\\Sigma_{\\rm SFR, H\\alpha}$ plotted as a function of radius\n1365: for NGC 801.\n1366: The gas and stellar mass surface densities have been corrected to face-on.\n1367: The logarithmic interval is the same for all three quantities, but the SFR zero point is different.\n1368: \\label{fig-n801himasssfr}}\n1369: \\end{figure}\n1370: \n1371: \\clearpage\n1372: \n1373: % fig14\n1374: \\begin{figure}\n1375: \\epsscale{1.0}\n1376: %\\plotone{fig14.eps}\n1377: \\includegraphics[angle=0,width=1.0\\textwidth]{fig14.jpg}\n1378: \\caption{Stellar mass surface density $\\Sigma_*$,\n1379: \\HI$+$He surface density $\\Sigma_{\\rm HI+He}$, and SFR density $\\Sigma_{\\rm SFR, H\\alpha}$ plotted as a function of radius\n1380: for UGC 2885.\n1381: The gas and stellar mass surface densities have been corrected to face-on.\n1382: The logarithmic interval is the same for all three quantities, but the SFR zero point is different.\n1383: There is no \\ha\\ emission in the third to last azimuthally-averaged annulus (60 kpc radius);\n1384: hence, there is a discontinuity in the SFR$_{H\\alpha}$ profile.\n1385: \\label{fig-u2885himasssfr}}\n1386: \\end{figure}\n1387: \n1388: \\clearpage\n1389: \n1390: % fig15\n1391: \\begin{figure}\n1392: \\epsscale{1.0}\n1393: %\\plotone{fig15.eps}\n1394: \\includegraphics[angle=0,width=1.0\\textwidth]{fig15.jpg}\n1395: \\caption{Ratio of \\HI$+$He gas surface\n1396: density to critical gas density predicted by the gravitational\n1397: instability model of Toomre (1964) versus radius in units of disk scale length.\n1398: \\label{fig-sigcrit}}\n1399: \\end{figure}\n1400: \n1401: \n1402: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n1403: "
+    }
+  ],
+  "hi_provenance_lines": [
+    {
+      "tex": "ms.tex",
+      "line": 227,
+      "text": "Observations of Neutral Hydrogen in Irregular and Spiral Galaxies (WHISP, see van der Hulst \\et\\ 2001) project"
+    },
+    {
+      "tex": "ms.tex",
+      "line": 234,
+      "text": "\\HI\\ mass of $2.6 \\times 10^{10}$ M\\solar, corrected for distance, given by the WHISP project"
+    },
+    {
+      "tex": "ms.tex",
+      "line": 235,
+      "text": "(http://www.astro.rug.nl/\\~{}whisp/)."
+    },
+    {
+      "tex": "ms.tex",
+      "line": 288,
+      "text": "integrated \\HI\\ maps using the Groningen Image Processing System (GIPSY, Vogelaar \\&"
+    },
+    {
+      "tex": "ms.tex",
+      "line": 1033,
+      "text": "We are grateful to J. M. van der Hulst for help in retrieving the \\HI\\ data of UGC 2885 from the WHISP archives."
+    },
+    {
+      "tex": "ms.tex",
+      "line": 1034,
+      "text": "The WHISP observation were carried out with the Westerbork Synthesis Radio Telescope, which is operated by"
+    },
+    {
+      "tex": "ms.tex",
+      "line": 1036,
+      "text": "Netherlands Foundation for Scientific Research (NWO). The WHISP project was carried out at the"
+    }
+  ],
+  "candidate_profile_assets": [
+    {
+      "name": "fig12.jpg",
+      "bytes": 49712,
+      "sha256": "f9a4fabaac4d41ddecf8dbcc4316691f60667cf255e6a43bb417646bb6443494",
+      "extension": ".jpg",
+      "magic_hex": "ffd8ffe000104a464946000101010096"
+    },
+    {
+      "name": "fig13.jpg",
+      "bytes": 52844,
+      "sha256": "06c389c8ea4a78091cf1e24bfe46eacf728edc3913788397c4405b695c813cad",
+      "extension": ".jpg",
+      "magic_hex": "ffd8ffe000104a464946000101010096"
+    },
+    {
+      "name": "fig14.jpg",
+      "bytes": 52318,
+      "sha256": "8b7eb1ef04a5d1190e013d0208e9b5a981af21f6b356be8b13aa5ab034ea00d2",
+      "extension": ".jpg",
+      "magic_hex": "ffd8ffe000104a464946000101010096"
+    },
+    {
+      "name": "fig15.jpg",
+      "bytes": 39219,
+      "sha256": "ca7f36dc28073bc4b3a4d9c67a2fa348cc4ec97f80f68e54d9851908aca1f9f8",
+      "extension": ".jpg",
+      "magic_hex": "ffd8ffe000104a464946000101010096"
+    }
+  ],
+  "numeric_sidecar_candidates": [],
+  "decision_fields": {
+    "n_candidate_profile_assets": 4,
+    "n_numeric_sidecars": 0,
+    "any_ps_vector_signal": false,
+    "any_ps_raster_signal": false
+  },
+  "boundary": "Source-asset audit only; no rendering, PostScript execution, OCR, raster digitization, map/cube reconstruction, profile fitting, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
