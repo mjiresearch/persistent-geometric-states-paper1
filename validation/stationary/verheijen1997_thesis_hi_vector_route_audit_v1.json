@@ -1,0 +1,38 @@
+{
+  "status": "VERHEIJEN1997_THESIS_HI_VECTOR_ROUTE_AUDIT_COMPLETE",
+  "source": "Verheijen 1997 PhD thesis, University of Groningen",
+  "publication_page": "https://research.rug.nl/en/publications/the-ursa-major-cluster-of-galaxies-tf-relations-and-dark-matter/",
+  "discovered_pdf_links": {
+    "c4.pdf": "https://research.rug.nl/files/3235440/c4.pdf",
+    "c5.pdf": "https://research.rug.nl/files/3235441/c5.pdf",
+    "c6.pdf": "https://research.rug.nl/files/3235442/c6.pdf",
+    "thesis.pdf": "https://research.rug.nl/files/3235445/thesis.pdf"
+  },
+  "attempted": [
+    {
+      "document": "c4.pdf",
+      "url": "https://research.rug.nl/files/3235440/c4.pdf"
+    },
+    {
+      "document": "thesis.pdf",
+      "url": "https://research.rug.nl/files/3235445/thesis.pdf"
+    }
+  ],
+  "errors": [
+    "c4.pdf: HTTPError: HTTP Error 403: Forbidden",
+    "thesis.pdf: HTTPError: HTTP Error 403: Forbidden"
+  ],
+  "n_priority_frozen_galaxies": 27,
+  "priority_role_counts": {
+    "calibration": 19,
+    "blind": 8
+  },
+  "audits": [],
+  "best_document": null,
+  "best_n_priority_galaxies_found": 0,
+  "best_n_with_surface_density_text": 0,
+  "best_n_with_long_vector_candidate": 0,
+  "route_viable_for_vector_extraction": false,
+  "interpretation_rule": "Vector-path presence is only a route-viability signal. It does not promote a profile. A subsequent extractor must isolate the radial H I surface-density panel, recover axes, and pass profile-level QC before any source profile is accepted.",
+  "boundary": "Public provenance/vector audit only. No raster digitization, helium scaling, frozen-distance conversion, persistence fitting, or blind-outcome inspection."
+}
