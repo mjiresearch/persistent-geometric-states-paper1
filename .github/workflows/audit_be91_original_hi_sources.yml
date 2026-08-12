@@ -1,0 +1,43 @@
+name: Audit Be91 original HI sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/audit_be91_original_hi_sources.py'
+      - '.github/workflows/audit_be91_original_hi_sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF text dependency
+        run: python -m pip install --quiet PyMuPDF
+      - name: Trace Be91 targets to original sources
+        run: python scripts/stationary/audit_be91_original_hi_sources.py
+      - name: Commit provenance audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/be91_original_hi_source_audit_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Audit Be91 original HI source provenance'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
