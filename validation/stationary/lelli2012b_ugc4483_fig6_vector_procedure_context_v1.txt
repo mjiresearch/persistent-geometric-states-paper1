@@ -1,0 +1,97 @@
+===== V first invocation line 470 =====
+0467: 1.000 UL
+0468: LTb
+0469: 882 807 M
+0470: 31 0 V
+0471: -31 308 R
+0472: 31 0 V
+0473: -31 307 R
+0474: 31 0 V
+0475: -31 308 R
+0476: 31 0 V
+0477: -31 308 R
+0478: 63 0 V
+
+===== M first invocation line 469 =====
+0466: (Helvetica) findfont 180 scalefont setfont
+0467: 1.000 UL
+0468: LTb
+0469: 882 807 M
+0470: 31 0 V
+0471: -31 308 R
+0472: 31 0 V
+0473: -31 307 R
+0474: 31 0 V
+0475: -31 308 R
+0476: 31 0 V
+0477: -31 308 R
+
+===== R first invocation line 471 =====
+0468: LTb
+0469: 882 807 M
+0470: 31 0 V
+0471: -31 308 R
+0472: 31 0 V
+0473: -31 307 R
+0474: 31 0 V
+0475: -31 308 R
+0476: 31 0 V
+0477: -31 308 R
+0478: 63 0 V
+0479: stroke
+
+===== CircleF first invocation line 755 =====
+0752: 540 -240 V
+0753: 5471 850 L
+0754: 6011 738 L
+0755: 1152 3647 CircleF
+0756: 1692 3653 CircleF
+0757: 2232 3179 CircleF
+0758: 2772 2475 CircleF
+0759: 3311 1906 CircleF
+0760: 3851 1555 CircleF
+0761: 4391 1291 CircleF
+0762: 4931 1051 CircleF
+0763: 5471 850 CircleF
+
+===== TriUF first invocation line 786 =====
+0783: 4931 994 L
+0784: 5471 786 L
+0785: 6011 670 L
+0786: 1152 3533 TriUF
+0787: 1692 3890 TriUF
+0788: 2232 3602 TriUF
+0789: 2772 2799 TriUF
+0790: 3311 2043 TriUF
+0791: 3851 1489 TriUF
+0792: 4391 1190 TriUF
+0793: 4931 994 TriUF
+0794: 5471 786 TriUF
+
+===== TriDF first invocation line 817 =====
+0814: 540 -285 V
+0815: 5471 914 L
+0816: 6011 806 L
+0817: 1152 3762 TriDF
+0818: 1692 3416 TriDF
+0819: 2232 2755 TriDF
+0820: 2772 2152 TriDF
+0821: 3311 1768 TriDF
+0822: 3851 1621 TriDF
+0823: 4391 1392 TriDF
+0824: 4931 1107 TriDF
+0825: 5471 914 TriDF
+
+===== L first invocation line 689 =====
+0686: 0 -31 V
+0687: stroke
+0688: 882 4500 N
+0689: 882 576 L
+0690: 5220 0 V
+0691: 0 3924 V
+0692: -5220 0 V
+0693: Z stroke
+0694: LCb setrgbcolor
+0695: 360 2538 M
+0696: currentpoint gsave translate 90 rotate 0 0 moveto
+0697: [ [(Symbol) 180.0 0.0 true true 0 (S)]

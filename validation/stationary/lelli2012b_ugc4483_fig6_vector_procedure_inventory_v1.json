@@ -1,0 +1,4661 @@
+{
+  "status": "LELLI2012B_UGC4483_FIG6_VECTOR_PROCEDURE_INVENTORY_COMPLETE",
+  "arxiv": "1207.2696",
+  "source_package_sha256": "b2bc91d5e3fc978113a45ed3bee8238c962e82c9af06cf8789b8cde16a108c24",
+  "fig6_sha256": "335c2befde39ba7b6d61c5129215dd97247a781c86a5d472240a9df4ce35ff7e",
+  "fig6_bytes": 22149,
+  "n_lines": 845,
+  "definitions": [
+    {
+      "name": "showpage",
+      "start_line": 13,
+      "end_line": 13,
+      "body": "/showpage {} def /setpagedevice /pop load def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "dl1",
+      "start_line": 34,
+      "end_line": 37,
+      "body": "/dl1 {\n  10.0 Dashlength mul mul\n  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if\n} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "dl2",
+      "start_line": 38,
+      "end_line": 41,
+      "body": "/dl2 {\n  10.0 Dashlength mul mul\n  Rounded { currentlinewidth 0.75 mul add } if\n} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "M",
+      "start_line": 65,
+      "end_line": 65,
+      "body": "/M {moveto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "L",
+      "start_line": 66,
+      "end_line": 66,
+      "body": "/L {lineto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "R",
+      "start_line": 67,
+      "end_line": 67,
+      "body": "/R {rmoveto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "V",
+      "start_line": 68,
+      "end_line": 68,
+      "body": "/V {rlineto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "N",
+      "start_line": 69,
+      "end_line": 69,
+      "body": "/N {newpath moveto} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Z",
+      "start_line": 70,
+      "end_line": 70,
+      "body": "/Z {closepath} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C",
+      "start_line": 71,
+      "end_line": 71,
+      "body": "/C {setrgbcolor} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "f",
+      "start_line": 72,
+      "end_line": 72,
+      "body": "/f {rlineto fill} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Lshow",
+      "start_line": 75,
+      "end_line": 76,
+      "body": "/Lshow {currentpoint stroke M 0 vshift R \n\tBlacktext {gsave 0 setgray show grestore} {show} ifelse} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Rshow",
+      "start_line": 77,
+      "end_line": 78,
+      "body": "/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R\n\tBlacktext {gsave 0 setgray show grestore} {show} ifelse} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Cshow",
+      "start_line": 79,
+      "end_line": 80,
+      "body": "/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R \n\tBlacktext {gsave 0 setgray show grestore} {show} ifelse} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "UP",
+      "start_line": 81,
+      "end_line": 82,
+      "body": "/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def\n  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "DL",
+      "start_line": 83,
+      "end_line": 84,
+      "body": "/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}\n {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "BL",
+      "start_line": 85,
+      "end_line": 86,
+      "body": "/BL {stroke userlinewidth 2 mul setlinewidth\n\tRounded {1 setlinejoin 1 setlinecap} if} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "AL",
+      "start_line": 87,
+      "end_line": 88,
+      "body": "/AL {stroke userlinewidth 2 div setlinewidth\n\tRounded {1 setlinejoin 1 setlinecap} if} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "UL",
+      "start_line": 89,
+      "end_line": 90,
+      "body": "/UL {dup gnulinewidth mul /userlinewidth exch def\n\tdup 1 lt {pop 1} if 10 mul /udl exch def} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "PL",
+      "start_line": 91,
+      "end_line": 92,
+      "body": "/PL {stroke userlinewidth setlinewidth\n\tRounded {1 setlinejoin 1 setlinecap} if} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LCw",
+      "start_line": 94,
+      "end_line": 94,
+      "body": "/LCw {1 1 1} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LCb",
+      "start_line": 95,
+      "end_line": 95,
+      "body": "/LCb {0 0 0} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LCa",
+      "start_line": 96,
+      "end_line": 96,
+      "body": "/LCa {0 0 0} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC0",
+      "start_line": 97,
+      "end_line": 97,
+      "body": "/LC0 {1 0 0} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC1",
+      "start_line": 98,
+      "end_line": 98,
+      "body": "/LC1 {0 1 0} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC2",
+      "start_line": 99,
+      "end_line": 99,
+      "body": "/LC2 {0 0 1} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC3",
+      "start_line": 100,
+      "end_line": 100,
+      "body": "/LC3 {1 0 1} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC4",
+      "start_line": 101,
+      "end_line": 101,
+      "body": "/LC4 {0 1 1} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC5",
+      "start_line": 102,
+      "end_line": 102,
+      "body": "/LC5 {1 1 0} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC6",
+      "start_line": 103,
+      "end_line": 103,
+      "body": "/LC6 {0 0 0} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC7",
+      "start_line": 104,
+      "end_line": 104,
+      "body": "/LC7 {1 0.3 0} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LC8",
+      "start_line": 105,
+      "end_line": 105,
+      "body": "/LC8 {0.5 0.5 0.5} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LTw",
+      "start_line": 107,
+      "end_line": 107,
+      "body": "/LTw {PL [] 1 setgray} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LTb",
+      "start_line": 108,
+      "end_line": 108,
+      "body": "/LTb {BL [] LCb DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LTa",
+      "start_line": 109,
+      "end_line": 109,
+      "body": "/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT0",
+      "start_line": 110,
+      "end_line": 110,
+      "body": "/LT0 {PL [] LC0 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT1",
+      "start_line": 111,
+      "end_line": 111,
+      "body": "/LT1 {PL [4 dl1 2 dl2] LC1 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT2",
+      "start_line": 112,
+      "end_line": 112,
+      "body": "/LT2 {PL [2 dl1 3 dl2] LC2 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT3",
+      "start_line": 113,
+      "end_line": 113,
+      "body": "/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT4",
+      "start_line": 114,
+      "end_line": 114,
+      "body": "/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT5",
+      "start_line": 115,
+      "end_line": 115,
+      "body": "/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT6",
+      "start_line": 116,
+      "end_line": 116,
+      "body": "/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT7",
+      "start_line": 117,
+      "end_line": 117,
+      "body": "/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "LT8",
+      "start_line": 118,
+      "end_line": 118,
+      "body": "/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Pnt",
+      "start_line": 119,
+      "end_line": 119,
+      "body": "/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Dia",
+      "start_line": 120,
+      "end_line": 123,
+      "body": "/Dia {stroke [] 0 setdash 2 copy vpt add M\n  hpt neg vpt neg V hpt vpt neg V\n  hpt vpt V hpt neg vpt V closepath stroke\n  Pnt} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Pls",
+      "start_line": 124,
+      "end_line": 127,
+      "body": "/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V\n  currentpoint stroke M\n  hpt neg vpt neg R hpt2 0 V stroke\n } def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Box",
+      "start_line": 128,
+      "end_line": 131,
+      "body": "/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M\n  0 vpt2 neg V hpt2 0 V 0 vpt2 V\n  hpt2 neg 0 V closepath stroke\n  Pnt} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Crs",
+      "start_line": 132,
+      "end_line": 134,
+      "body": "/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M\n  hpt2 vpt2 neg V currentpoint stroke M\n  hpt2 neg 0 R hpt2 vpt2 V stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriU",
+      "start_line": 135,
+      "end_line": 139,
+      "body": "/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M\n  hpt neg vpt -1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt 1.62 mul V closepath stroke\n  Pnt} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Star",
+      "start_line": 140,
+      "end_line": 140,
+      "body": "/Star {2 copy Pls Crs} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "BoxF",
+      "start_line": 141,
+      "end_line": 143,
+      "body": "/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M\n  0 vpt2 neg V hpt2 0 V 0 vpt2 V\n  hpt2 neg 0 V closepath fill} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriUF",
+      "start_line": 144,
+      "end_line": 147,
+      "body": "/TriUF {stroke [] 0 setdash vpt 1.12 mul add M\n  hpt neg vpt -1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt 1.62 mul V closepath fill} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriD",
+      "start_line": 148,
+      "end_line": 152,
+      "body": "/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M\n  hpt neg vpt 1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt -1.62 mul V closepath stroke\n  Pnt} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriDF",
+      "start_line": 153,
+      "end_line": 156,
+      "body": "/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M\n  hpt neg vpt 1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt -1.62 mul V closepath fill} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "DiaF",
+      "start_line": 157,
+      "end_line": 159,
+      "body": "/DiaF {stroke [] 0 setdash vpt add M\n  hpt neg vpt neg V hpt vpt neg V\n  hpt vpt V hpt neg vpt V closepath fill} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Pent",
+      "start_line": 160,
+      "end_line": 162,
+      "body": "/Pent {stroke [] 0 setdash 2 copy gsave\n  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat\n  closepath stroke grestore Pnt} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "PentF",
+      "start_line": 163,
+      "end_line": 165,
+      "body": "/PentF {stroke [] 0 setdash gsave\n  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat\n  closepath fill grestore} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Circle",
+      "start_line": 166,
+      "end_line": 167,
+      "body": "/Circle {stroke [] 0 setdash 2 copy\n  hpt 0 360 arc stroke Pnt} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "CircleF",
+      "start_line": 168,
+      "end_line": 168,
+      "body": "/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C0",
+      "start_line": 169,
+      "end_line": 169,
+      "body": "/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C1",
+      "start_line": 170,
+      "end_line": 172,
+      "body": "/C1 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 0 90 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C2",
+      "start_line": 173,
+      "end_line": 175,
+      "body": "/C2 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 90 180 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C3",
+      "start_line": 176,
+      "end_line": 178,
+      "body": "/C3 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 0 180 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C4",
+      "start_line": 179,
+      "end_line": 181,
+      "body": "/C4 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 180 270 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C5",
+      "start_line": 182,
+      "end_line": 186,
+      "body": "/C5 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 0 90 arc\n\t2 copy moveto\n\t2 copy vpt 180 270 arc closepath fill\n\tvpt 0 360 arc} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C6",
+      "start_line": 187,
+      "end_line": 189,
+      "body": "/C6 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 90 270 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C7",
+      "start_line": 190,
+      "end_line": 192,
+      "body": "/C7 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 0 270 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C8",
+      "start_line": 193,
+      "end_line": 195,
+      "body": "/C8 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 270 360 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C9",
+      "start_line": 196,
+      "end_line": 198,
+      "body": "/C9 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 270 450 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C10",
+      "start_line": 199,
+      "end_line": 202,
+      "body": "/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill\n\t2 copy moveto\n\t2 copy vpt 90 180 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C11",
+      "start_line": 203,
+      "end_line": 207,
+      "body": "/C11 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 0 180 arc closepath fill\n\t2 copy moveto\n\t2 copy vpt 270 360 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C12",
+      "start_line": 208,
+      "end_line": 210,
+      "body": "/C12 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 180 360 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C13",
+      "start_line": 211,
+      "end_line": 215,
+      "body": "/C13 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 0 90 arc closepath fill\n\t2 copy moveto\n\t2 copy vpt 180 360 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C14",
+      "start_line": 216,
+      "end_line": 218,
+      "body": "/C14 {BL [] 0 setdash 2 copy moveto\n\t2 copy vpt 90 360 arc closepath fill\n\tvpt 0 360 arc} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "C15",
+      "start_line": 219,
+      "end_line": 220,
+      "body": "/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill\n\tvpt 0 360 arc closepath} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Rec",
+      "start_line": 221,
+      "end_line": 222,
+      "body": "/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto\n\tneg 0 rlineto closepath} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Square",
+      "start_line": 223,
+      "end_line": 223,
+      "body": "/Square {dup Rec} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Bsquare",
+      "start_line": 224,
+      "end_line": 224,
+      "body": "/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S0",
+      "start_line": 225,
+      "end_line": 225,
+      "body": "/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S1",
+      "start_line": 226,
+      "end_line": 226,
+      "body": "/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S2",
+      "start_line": 227,
+      "end_line": 227,
+      "body": "/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S3",
+      "start_line": 228,
+      "end_line": 228,
+      "body": "/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S4",
+      "start_line": 229,
+      "end_line": 229,
+      "body": "/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S5",
+      "start_line": 230,
+      "end_line": 231,
+      "body": "/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill\n\texch vpt sub exch vpt sub vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S6",
+      "start_line": 232,
+      "end_line": 232,
+      "body": "/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S7",
+      "start_line": 233,
+      "end_line": 234,
+      "body": "/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill\n\t2 copy vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S8",
+      "start_line": 235,
+      "end_line": 235,
+      "body": "/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S9",
+      "start_line": 236,
+      "end_line": 236,
+      "body": "/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S10",
+      "start_line": 237,
+      "end_line": 238,
+      "body": "/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill\n\tBsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S11",
+      "start_line": 239,
+      "end_line": 240,
+      "body": "/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill\n\tBsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S12",
+      "start_line": 241,
+      "end_line": 241,
+      "body": "/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S13",
+      "start_line": 242,
+      "end_line": 243,
+      "body": "/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill\n\t2 copy vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S14",
+      "start_line": 244,
+      "end_line": 245,
+      "body": "/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill\n\t2 copy exch vpt sub exch vpt Square fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "S15",
+      "start_line": 246,
+      "end_line": 246,
+      "body": "/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D0",
+      "start_line": 247,
+      "end_line": 247,
+      "body": "/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D1",
+      "start_line": 248,
+      "end_line": 248,
+      "body": "/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D2",
+      "start_line": 249,
+      "end_line": 249,
+      "body": "/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D3",
+      "start_line": 250,
+      "end_line": 250,
+      "body": "/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D4",
+      "start_line": 251,
+      "end_line": 251,
+      "body": "/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D5",
+      "start_line": 252,
+      "end_line": 252,
+      "body": "/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D6",
+      "start_line": 253,
+      "end_line": 253,
+      "body": "/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D7",
+      "start_line": 254,
+      "end_line": 254,
+      "body": "/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D8",
+      "start_line": 255,
+      "end_line": 255,
+      "body": "/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D9",
+      "start_line": 256,
+      "end_line": 256,
+      "body": "/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D10",
+      "start_line": 257,
+      "end_line": 257,
+      "body": "/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D11",
+      "start_line": 258,
+      "end_line": 258,
+      "body": "/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D12",
+      "start_line": 259,
+      "end_line": 259,
+      "body": "/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D13",
+      "start_line": 260,
+      "end_line": 260,
+      "body": "/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D14",
+      "start_line": 261,
+      "end_line": 261,
+      "body": "/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "D15",
+      "start_line": 262,
+      "end_line": 262,
+      "body": "/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "DiaE",
+      "start_line": 263,
+      "end_line": 265,
+      "body": "/DiaE {stroke [] 0 setdash vpt add M\n  hpt neg vpt neg V hpt vpt neg V\n  hpt vpt V hpt neg vpt V closepath stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "BoxE",
+      "start_line": 266,
+      "end_line": 268,
+      "body": "/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M\n  0 vpt2 neg V hpt2 0 V 0 vpt2 V\n  hpt2 neg 0 V closepath stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriUE",
+      "start_line": 269,
+      "end_line": 272,
+      "body": "/TriUE {stroke [] 0 setdash vpt 1.12 mul add M\n  hpt neg vpt -1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt 1.62 mul V closepath stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriDE",
+      "start_line": 273,
+      "end_line": 276,
+      "body": "/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M\n  hpt neg vpt 1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt -1.62 mul V closepath stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "PentE",
+      "start_line": 277,
+      "end_line": 279,
+      "body": "/PentE {stroke [] 0 setdash gsave\n  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat\n  closepath stroke grestore} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "CircE",
+      "start_line": 280,
+      "end_line": 281,
+      "body": "/CircE {stroke [] 0 setdash \n  hpt 0 360 arc stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Opaque",
+      "start_line": 282,
+      "end_line": 282,
+      "body": "/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "DiaW",
+      "start_line": 283,
+      "end_line": 285,
+      "body": "/DiaW {stroke [] 0 setdash vpt add M\n  hpt neg vpt neg V hpt vpt neg V\n  hpt vpt V hpt neg vpt V Opaque stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "BoxW",
+      "start_line": 286,
+      "end_line": 288,
+      "body": "/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M\n  0 vpt2 neg V hpt2 0 V 0 vpt2 V\n  hpt2 neg 0 V Opaque stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriUW",
+      "start_line": 289,
+      "end_line": 292,
+      "body": "/TriUW {stroke [] 0 setdash vpt 1.12 mul add M\n  hpt neg vpt -1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt 1.62 mul V Opaque stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "TriDW",
+      "start_line": 293,
+      "end_line": 296,
+      "body": "/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M\n  hpt neg vpt 1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt -1.62 mul V Opaque stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "PentW",
+      "start_line": 297,
+      "end_line": 299,
+      "body": "/PentW {stroke [] 0 setdash gsave\n  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat\n  Opaque stroke grestore} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "CircW",
+      "start_line": 300,
+      "end_line": 301,
+      "body": "/CircW {stroke [] 0 setdash \n  hpt 0 360 arc Opaque stroke} def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "BoxFill",
+      "start_line": 302,
+      "end_line": 302,
+      "body": "/BoxFill {gsave Rec 1 setgray fill grestore} def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Density",
+      "start_line": 303,
+      "end_line": 310,
+      "body": "/Density {\n  /Fillden exch def\n  currentrgbcolor\n  /ColB exch def /ColG exch def /ColR exch def\n  /ColR ColR Fillden mul Fillden sub 1 add def\n  /ColG ColG Fillden mul Fillden sub 1 add def\n  /ColB ColB Fillden mul Fillden sub 1 add def\n  ColR ColG ColB setrgbcolor} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "BoxColFill",
+      "start_line": 311,
+      "end_line": 311,
+      "body": "/BoxColFill {gsave Rec PolyFill} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "PolyFill",
+      "start_line": 312,
+      "end_line": 312,
+      "body": "/PolyFill {gsave Density fill grestore grestore} def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "h",
+      "start_line": 313,
+      "end_line": 313,
+      "body": "/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": true,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "PatternFill",
+      "start_line": 322,
+      "end_line": 335,
+      "body": "/PatternFill {gsave /PFa [ 9 2 roll ] def\n  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate\n  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec\n  gsave 1 setgray fill grestore clip\n  currentlinewidth 0.5 mul setlinewidth\n  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def\n  0 0 M PFa 5 get rotate PFs -2 div dup translate\n  0 1 PFs PFa 4 get div 1 add floor cvi\n\t{PFa 4 get mul 0 M 0 PFs V} for\n  0 PFa 6 get ne {\n\t0 1 PFs PFa 4 get div 1 add floor cvi\n\t{PFa 4 get mul 0 2 1 roll M PFs 0 V} for\n } if\n  stroke grestore} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 1
+    },
+    {
+      "name": "Level2PatternFill",
+      "start_line": 346,
+      "end_line": 401,
+      "body": "/Level2PatternFill {\n/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}\n\tbind def\n/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} \n>> matrix makepattern\n/Pat1 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke\n\t0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}\n>> matrix makepattern\n/Pat2 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L\n\t8 8 L 8 0 L 0 0 L fill}\n>> matrix makepattern\n/Pat3 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L\n\t0 12 M 12 0 L stroke}\n>> matrix makepattern\n/Pat4 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L\n\t0 -4 M 12 8 L stroke}\n>> matrix makepattern\n/Pat5 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L\n\t0 12 M 8 -4 L 4 12 M 10 0 L stroke}\n>> matrix makepattern\n/Pat6 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L\n\t0 -4 M 8 12 L 4 -4 M 10 8 L stroke}\n>> matrix makepattern\n/Pat7 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L\n\t12 0 M -4 8 L 12 4 M 0 10 L stroke}\n>> matrix makepattern\n/Pat8 exch def\n<< Tile8x8\n /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L\n\t-4 0 M 12 8 L -4 4 M 8 10 L stroke}\n>> matrix makepattern\n/Pat9 exch def\n/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def\n/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def\n/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def\n/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def\n/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def\n/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def\n/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def\n} def",
+      "has_fill": true,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 50
+    },
+    {
+      "name": "PatternBgnd",
+      "start_line": 406,
+      "end_line": 408,
+      "body": "/PatternBgnd {\n  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse\n} def",
+      "has_fill": true,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "Level1PatternFill",
+      "start_line": 413,
+      "end_line": 421,
+      "body": "/Level1PatternFill {\n/Pattern1 {0.250 Density} bind def\n/Pattern2 {0.500 Density} bind def\n/Pattern3 {0.750 Density} bind def\n/Pattern4 {0.125 Density} bind def\n/Pattern5 {0.375 Density} bind def\n/Pattern6 {0.625 Density} bind def\n/Pattern7 {0.875 Density} bind def\n} def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "MFshow",
+      "start_line": 430,
+      "end_line": 442,
+      "body": "/MFshow {\n   { dup 5 get 3 ge\n     { 5 get 3 eq {gsave} {grestore} ifelse }\n     {dup dup 0 get findfont exch 1 get scalefont setfont\n     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6\n     get exch 4 get {show} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq\n     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5\n     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div\n     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get\n     show 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop\n     pop aload pop M} ifelse }ifelse }ifelse }\n     ifelse }\n   forall} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "MFwidth",
+      "start_line": 443,
+      "end_line": 445,
+      "body": "/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }\n {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont\n     6 get stringwidth pop add} {pop} ifelse} ifelse} forall} bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "MLshow",
+      "start_line": 446,
+      "end_line": 448,
+      "body": "/MLshow { currentpoint stroke M\n  0 exch R\n  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "MRshow",
+      "start_line": 449,
+      "end_line": 451,
+      "body": "/MRshow { currentpoint stroke M\n  exch dup MFwidth neg 3 -1 roll R\n  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "MCshow",
+      "start_line": 452,
+      "end_line": 454,
+      "body": "/MCshow { currentpoint stroke M\n  exch dup MFwidth -2 div 3 -1 roll R\n  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def",
+      "has_fill": false,
+      "has_stroke": true,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "XYsave",
+      "start_line": 455,
+      "end_line": 455,
+      "body": "/XYsave    { [( ) 1 2 true false 3 ()] } bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    },
+    {
+      "name": "XYrestore",
+      "start_line": 456,
+      "end_line": 456,
+      "body": "/XYrestore { [( ) 1 2 true false 4 ()] } bind def",
+      "has_fill": false,
+      "has_stroke": false,
+      "has_closepath": false,
+      "local_ML_commands": 0
+    }
+  ],
+  "one_line_aliases": [
+    {
+      "line": 13,
+      "name": "showpage",
+      "body": ""
+    },
+    {
+      "line": 65,
+      "name": "M",
+      "body": "moveto"
+    },
+    {
+      "line": 66,
+      "name": "L",
+      "body": "lineto"
+    },
+    {
+      "line": 67,
+      "name": "R",
+      "body": "rmoveto"
+    },
+    {
+      "line": 68,
+      "name": "V",
+      "body": "rlineto"
+    },
+    {
+      "line": 69,
+      "name": "N",
+      "body": "newpath moveto"
+    },
+    {
+      "line": 70,
+      "name": "Z",
+      "body": "closepath"
+    },
+    {
+      "line": 71,
+      "name": "C",
+      "body": "setrgbcolor"
+    },
+    {
+      "line": 72,
+      "name": "f",
+      "body": "rlineto fill"
+    },
+    {
+      "line": 94,
+      "name": "LCw",
+      "body": "1 1 1"
+    },
+    {
+      "line": 95,
+      "name": "LCb",
+      "body": "0 0 0"
+    },
+    {
+      "line": 96,
+      "name": "LCa",
+      "body": "0 0 0"
+    },
+    {
+      "line": 97,
+      "name": "LC0",
+      "body": "1 0 0"
+    },
+    {
+      "line": 98,
+      "name": "LC1",
+      "body": "0 1 0"
+    },
+    {
+      "line": 99,
+      "name": "LC2",
+      "body": "0 0 1"
+    },
+    {
+      "line": 100,
+      "name": "LC3",
+      "body": "1 0 1"
+    },
+    {
+      "line": 101,
+      "name": "LC4",
+      "body": "0 1 1"
+    },
+    {
+      "line": 102,
+      "name": "LC5",
+      "body": "1 1 0"
+    },
+    {
+      "line": 103,
+      "name": "LC6",
+      "body": "0 0 0"
+    },
+    {
+      "line": 104,
+      "name": "LC7",
+      "body": "1 0.3 0"
+    },
+    {
+      "line": 105,
+      "name": "LC8",
+      "body": "0.5 0.5 0.5"
+    },
+    {
+      "line": 107,
+      "name": "LTw",
+      "body": "PL [] 1 setgray"
+    },
+    {
+      "line": 108,
+      "name": "LTb",
+      "body": "BL [] LCb DL"
+    },
+    {
+      "line": 109,
+      "name": "LTa",
+      "body": "AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor"
+    },
+    {
+      "line": 110,
+      "name": "LT0",
+      "body": "PL [] LC0 DL"
+    },
+    {
+      "line": 111,
+      "name": "LT1",
+      "body": "PL [4 dl1 2 dl2] LC1 DL"
+    },
+    {
+      "line": 112,
+      "name": "LT2",
+      "body": "PL [2 dl1 3 dl2] LC2 DL"
+    },
+    {
+      "line": 113,
+      "name": "LT3",
+      "body": "PL [1 dl1 1.5 dl2] LC3 DL"
+    },
+    {
+      "line": 114,
+      "name": "LT4",
+      "body": "PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL"
+    },
+    {
+      "line": 115,
+      "name": "LT5",
+      "body": "PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL"
+    },
+    {
+      "line": 116,
+      "name": "LT6",
+      "body": "PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL"
+    },
+    {
+      "line": 117,
+      "name": "LT7",
+      "body": "PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL"
+    },
+    {
+      "line": 118,
+      "name": "LT8",
+      "body": "PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL"
+    },
+    {
+      "line": 119,
+      "name": "Pnt",
+      "body": "stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore"
+    },
+    {
+      "line": 140,
+      "name": "Star",
+      "body": "2 copy Pls Crs"
+    },
+    {
+      "line": 168,
+      "name": "CircleF",
+      "body": "stroke [] 0 setdash hpt 0 360 arc fill"
+    },
+    {
+      "line": 169,
+      "name": "C0",
+      "body": "BL [] 0 setdash 2 copy moveto vpt 90 450 arc"
+    },
+    {
+      "line": 223,
+      "name": "Square",
+      "body": "dup Rec"
+    },
+    {
+      "line": 224,
+      "name": "Bsquare",
+      "body": "vpt sub exch vpt sub exch vpt2 Square"
+    },
+    {
+      "line": 225,
+      "name": "S0",
+      "body": "BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare"
+    },
+    {
+      "line": 226,
+      "name": "S1",
+      "body": "BL [] 0 setdash 2 copy vpt Square fill Bsquare"
+    },
+    {
+      "line": 227,
+      "name": "S2",
+      "body": "BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare"
+    },
+    {
+      "line": 228,
+      "name": "S3",
+      "body": "BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare"
+    },
+    {
+      "line": 229,
+      "name": "S4",
+      "body": "BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare"
+    },
+    {
+      "line": 232,
+      "name": "S6",
+      "body": "BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare"
+    },
+    {
+      "line": 235,
+      "name": "S8",
+      "body": "BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare"
+    },
+    {
+      "line": 236,
+      "name": "S9",
+      "body": "BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare"
+    },
+    {
+      "line": 241,
+      "name": "S12",
+      "body": "BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare"
+    },
+    {
+      "line": 246,
+      "name": "S15",
+      "body": "BL [] 0 setdash 2 copy Bsquare fill Bsquare"
+    },
+    {
+      "line": 247,
+      "name": "D0",
+      "body": "gsave translate 45 rotate 0 0 S0 stroke grestore"
+    },
+    {
+      "line": 248,
+      "name": "D1",
+      "body": "gsave translate 45 rotate 0 0 S1 stroke grestore"
+    },
+    {
+      "line": 249,
+      "name": "D2",
+      "body": "gsave translate 45 rotate 0 0 S2 stroke grestore"
+    },
+    {
+      "line": 250,
+      "name": "D3",
+      "body": "gsave translate 45 rotate 0 0 S3 stroke grestore"
+    },
+    {
+      "line": 251,
+      "name": "D4",
+      "body": "gsave translate 45 rotate 0 0 S4 stroke grestore"
+    },
+    {
+      "line": 252,
+      "name": "D5",
+      "body": "gsave translate 45 rotate 0 0 S5 stroke grestore"
+    },
+    {
+      "line": 253,
+      "name": "D6",
+      "body": "gsave translate 45 rotate 0 0 S6 stroke grestore"
+    },
+    {
+      "line": 254,
+      "name": "D7",
+      "body": "gsave translate 45 rotate 0 0 S7 stroke grestore"
+    },
+    {
+      "line": 255,
+      "name": "D8",
+      "body": "gsave translate 45 rotate 0 0 S8 stroke grestore"
+    },
+    {
+      "line": 256,
+      "name": "D9",
+      "body": "gsave translate 45 rotate 0 0 S9 stroke grestore"
+    },
+    {
+      "line": 257,
+      "name": "D10",
+      "body": "gsave translate 45 rotate 0 0 S10 stroke grestore"
+    },
+    {
+      "line": 258,
+      "name": "D11",
+      "body": "gsave translate 45 rotate 0 0 S11 stroke grestore"
+    },
+    {
+      "line": 259,
+      "name": "D12",
+      "body": "gsave translate 45 rotate 0 0 S12 stroke grestore"
+    },
+    {
+      "line": 260,
+      "name": "D13",
+      "body": "gsave translate 45 rotate 0 0 S13 stroke grestore"
+    },
+    {
+      "line": 261,
+      "name": "D14",
+      "body": "gsave translate 45 rotate 0 0 S14 stroke grestore"
+    },
+    {
+      "line": 262,
+      "name": "D15",
+      "body": "gsave translate 45 rotate 0 0 S15 stroke grestore"
+    },
+    {
+      "line": 282,
+      "name": "Opaque",
+      "body": "gsave closepath 1 setgray fill grestore 0 setgray closepath"
+    },
+    {
+      "line": 302,
+      "name": "BoxFill",
+      "body": "gsave Rec 1 setgray fill grestore"
+    },
+    {
+      "line": 311,
+      "name": "BoxColFill",
+      "body": "gsave Rec PolyFill"
+    },
+    {
+      "line": 312,
+      "name": "PolyFill",
+      "body": "gsave Density fill grestore grestore"
+    },
+    {
+      "line": 313,
+      "name": "h",
+      "body": "rlineto rlineto rlineto gsave closepath fill grestore"
+    },
+    {
+      "line": 349,
+      "name": "KeepColor",
+      "body": "currentrgbcolor [/Pattern /DeviceRGB] setcolorspace"
+    },
+    {
+      "line": 394,
+      "name": "Pattern1",
+      "body": "PatternBgnd KeepColor Pat1 setpattern"
+    },
+    {
+      "line": 395,
+      "name": "Pattern2",
+      "body": "PatternBgnd KeepColor Pat2 setpattern"
+    },
+    {
+      "line": 396,
+      "name": "Pattern3",
+      "body": "PatternBgnd KeepColor Pat3 setpattern"
+    },
+    {
+      "line": 414,
+      "name": "Pattern1",
+      "body": "0.250 Density"
+    },
+    {
+      "line": 415,
+      "name": "Pattern2",
+      "body": "0.500 Density"
+    },
+    {
+      "line": 416,
+      "name": "Pattern3",
+      "body": "0.750 Density"
+    },
+    {
+      "line": 417,
+      "name": "Pattern4",
+      "body": "0.125 Density"
+    },
+    {
+      "line": 418,
+      "name": "Pattern5",
+      "body": "0.375 Density"
+    },
+    {
+      "line": 419,
+      "name": "Pattern6",
+      "body": "0.625 Density"
+    },
+    {
+      "line": 420,
+      "name": "Pattern7",
+      "body": "0.875 Density"
+    },
+    {
+      "line": 455,
+      "name": "XYsave",
+      "body": "[( ) 1 2 true false 3 ()]"
+    },
+    {
+      "line": 456,
+      "name": "XYrestore",
+      "body": "[( ) 1 2 true false 4 ()]"
+    }
+  ],
+  "procedure_invocation_summaries": [
+    {
+      "name": "V",
+      "n_invocations": 84,
+      "n_unique_xy": 32,
+      "bbox": [
+        -5220.0,
+        -803.0,
+        5220.0,
+        3924.0
+      ],
+      "x_span": 10440.0,
+      "y_span": 4727.0,
+      "first_line": 470,
+      "last_line": 834,
+      "first_40_invocations": [
+        {
+          "line": 470,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 472,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 474,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 476,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 478,
+          "x": 63.0,
+          "y": 0.0,
+          "text": "63 0 V"
+        },
+        {
+          "line": 486,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 488,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 490,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 492,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 494,
+          "x": 63.0,
+          "y": 0.0,
+          "text": "63 0 V"
+        },
+        {
+          "line": 502,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 504,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 506,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 508,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 516,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 518,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 526,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 528,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 536,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 538,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 546,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 548,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 556,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 558,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 566,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 568,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 576,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 578,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 586,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 588,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 590,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 592,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 594,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 596,
+          "x": -63.0,
+          "y": 0.0,
+          "text": "-63 0 V"
+        },
+        {
+          "line": 604,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 606,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 608,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 610,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 612,
+          "x": -63.0,
+          "y": 0.0,
+          "text": "-63 0 V"
+        },
+        {
+          "line": 620,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        }
+      ]
+    },
+    {
+      "name": "M",
+      "n_invocations": 51,
+      "n_unique_xy": 51,
+      "bbox": [
+        360.0,
+        126.0,
+        6839.0,
+        4949.0
+      ],
+      "x_span": 6479.0,
+      "y_span": 4823.0,
+      "first_line": 469,
+      "last_line": 805,
+      "first_40_invocations": [
+        {
+          "line": 469,
+          "x": 882.0,
+          "y": 807.0,
+          "text": "882 807 M"
+        },
+        {
+          "line": 480,
+          "x": 774.0,
+          "y": 2038.0,
+          "text": "774 2038 M"
+        },
+        {
+          "line": 485,
+          "x": 882.0,
+          "y": 2346.0,
+          "text": "882 2346 M"
+        },
+        {
+          "line": 496,
+          "x": 774.0,
+          "y": 3577.0,
+          "text": "774 3577 M"
+        },
+        {
+          "line": 501,
+          "x": 882.0,
+          "y": 3884.0,
+          "text": "882 3884 M"
+        },
+        {
+          "line": 507,
+          "x": 882.0,
+          "y": 576.0,
+          "text": "882 576 M"
+        },
+        {
+          "line": 510,
+          "x": 882.0,
+          "y": 396.0,
+          "text": "882 396 M"
+        },
+        {
+          "line": 515,
+          "x": 1230.0,
+          "y": 576.0,
+          "text": "1230 576 M"
+        },
+        {
+          "line": 520,
+          "x": 1578.0,
+          "y": 396.0,
+          "text": "1578 396 M"
+        },
+        {
+          "line": 525,
+          "x": 1926.0,
+          "y": 576.0,
+          "text": "1926 576 M"
+        },
+        {
+          "line": 530,
+          "x": 2274.0,
+          "y": 396.0,
+          "text": "2274 396 M"
+        },
+        {
+          "line": 535,
+          "x": 2622.0,
+          "y": 576.0,
+          "text": "2622 576 M"
+        },
+        {
+          "line": 540,
+          "x": 2970.0,
+          "y": 396.0,
+          "text": "2970 396 M"
+        },
+        {
+          "line": 545,
+          "x": 3318.0,
+          "y": 576.0,
+          "text": "3318 576 M"
+        },
+        {
+          "line": 550,
+          "x": 3666.0,
+          "y": 396.0,
+          "text": "3666 396 M"
+        },
+        {
+          "line": 555,
+          "x": 4014.0,
+          "y": 576.0,
+          "text": "4014 576 M"
+        },
+        {
+          "line": 560,
+          "x": 4362.0,
+          "y": 396.0,
+          "text": "4362 396 M"
+        },
+        {
+          "line": 565,
+          "x": 4710.0,
+          "y": 576.0,
+          "text": "4710 576 M"
+        },
+        {
+          "line": 570,
+          "x": 5058.0,
+          "y": 396.0,
+          "text": "5058 396 M"
+        },
+        {
+          "line": 575,
+          "x": 5406.0,
+          "y": 576.0,
+          "text": "5406 576 M"
+        },
+        {
+          "line": 580,
+          "x": 5754.0,
+          "y": 396.0,
+          "text": "5754 396 M"
+        },
+        {
+          "line": 585,
+          "x": 6102.0,
+          "y": 576.0,
+          "text": "6102 576 M"
+        },
+        {
+          "line": 598,
+          "x": 6210.0,
+          "y": 1720.0,
+          "text": "6210 1720 M"
+        },
+        {
+          "line": 603,
+          "x": 6102.0,
+          "y": 1965.0,
+          "text": "6102 1965 M"
+        },
+        {
+          "line": 614,
+          "x": 6210.0,
+          "y": 2942.0,
+          "text": "6210 2942 M"
+        },
+        {
+          "line": 619,
+          "x": 6102.0,
+          "y": 3186.0,
+          "text": "6102 3186 M"
+        },
+        {
+          "line": 630,
+          "x": 6210.0,
+          "y": 4163.0,
+          "text": "6210 4163 M"
+        },
+        {
+          "line": 635,
+          "x": 6102.0,
+          "y": 4407.0,
+          "text": "6102 4407 M"
+        },
+        {
+          "line": 637,
+          "x": 882.0,
+          "y": 4500.0,
+          "text": "882 4500 M"
+        },
+        {
+          "line": 640,
+          "x": 882.0,
+          "y": 4680.0,
+          "text": "882 4680 M"
+        },
+        {
+          "line": 645,
+          "x": 1421.0,
+          "y": 4500.0,
+          "text": "1421 4500 M"
+        },
+        {
+          "line": 650,
+          "x": 1961.0,
+          "y": 4680.0,
+          "text": "1961 4680 M"
+        },
+        {
+          "line": 655,
+          "x": 2500.0,
+          "y": 4500.0,
+          "text": "2500 4500 M"
+        },
+        {
+          "line": 660,
+          "x": 3040.0,
+          "y": 4680.0,
+          "text": "3040 4680 M"
+        },
+        {
+          "line": 665,
+          "x": 3579.0,
+          "y": 4500.0,
+          "text": "3579 4500 M"
+        },
+        {
+          "line": 670,
+          "x": 4118.0,
+          "y": 4680.0,
+          "text": "4118 4680 M"
+        },
+        {
+          "line": 675,
+          "x": 4658.0,
+          "y": 4500.0,
+          "text": "4658 4500 M"
+        },
+        {
+          "line": 680,
+          "x": 5197.0,
+          "y": 4680.0,
+          "text": "5197 4680 M"
+        },
+        {
+          "line": 685,
+          "x": 5737.0,
+          "y": 4500.0,
+          "text": "5737 4500 M"
+        },
+        {
+          "line": 695,
+          "x": 360.0,
+          "y": 2538.0,
+          "text": "360 2538 M"
+        }
+      ]
+    },
+    {
+      "name": "R",
+      "n_invocations": 35,
+      "n_unique_xy": 9,
+      "bbox": [
+        -4734.0,
+        -31.0,
+        540.0,
+        308.0
+      ],
+      "x_span": 5274.0,
+      "y_span": 339.0,
+      "first_line": 471,
+      "last_line": 807,
+      "first_40_invocations": [
+        {
+          "line": 471,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 473,
+          "x": -31.0,
+          "y": 307.0,
+          "text": "-31 307 R"
+        },
+        {
+          "line": 475,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 477,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 487,
+          "x": -31.0,
+          "y": 307.0,
+          "text": "-31 307 R"
+        },
+        {
+          "line": 489,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 491,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 493,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 503,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 505,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 517,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 527,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 537,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 547,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 557,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 567,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 577,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 587,
+          "x": 0.0,
+          "y": 136.0,
+          "text": "0 136 R"
+        },
+        {
+          "line": 589,
+          "x": 31.0,
+          "y": 245.0,
+          "text": "31 245 R"
+        },
+        {
+          "line": 591,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 593,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 595,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 605,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 607,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 609,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 611,
+          "x": 31.0,
+          "y": 245.0,
+          "text": "31 245 R"
+        },
+        {
+          "line": 621,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 623,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 625,
+          "x": 31.0,
+          "y": 245.0,
+          "text": "31 245 R"
+        },
+        {
+          "line": 627,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 647,
+          "x": 540.0,
+          "y": 31.0,
+          "text": "540 31 R"
+        },
+        {
+          "line": 657,
+          "x": 540.0,
+          "y": 31.0,
+          "text": "540 31 R"
+        },
+        {
+          "line": 667,
+          "x": 539.0,
+          "y": 31.0,
+          "text": "539 31 R"
+        },
+        {
+          "line": 677,
+          "x": 539.0,
+          "y": 31.0,
+          "text": "539 31 R"
+        },
+        {
+          "line": 807,
+          "x": -4734.0,
+          "y": 0.0,
+          "text": "-4734 0 R"
+        }
+      ]
+    },
+    {
+      "name": "CircleF",
+      "n_invocations": 11,
+      "n_unique_xy": 11,
+      "bbox": [
+        1152.0,
+        738.0,
+        6011.0,
+        4302.0
+      ],
+      "x_span": 4859.0,
+      "y_span": 3564.0,
+      "first_line": 755,
+      "last_line": 765,
+      "first_40_invocations": [
+        {
+          "line": 755,
+          "x": 1152.0,
+          "y": 3647.0,
+          "text": "1152 3647 CircleF"
+        },
+        {
+          "line": 756,
+          "x": 1692.0,
+          "y": 3653.0,
+          "text": "1692 3653 CircleF"
+        },
+        {
+          "line": 757,
+          "x": 2232.0,
+          "y": 3179.0,
+          "text": "2232 3179 CircleF"
+        },
+        {
+          "line": 758,
+          "x": 2772.0,
+          "y": 2475.0,
+          "text": "2772 2475 CircleF"
+        },
+        {
+          "line": 759,
+          "x": 3311.0,
+          "y": 1906.0,
+          "text": "3311 1906 CircleF"
+        },
+        {
+          "line": 760,
+          "x": 3851.0,
+          "y": 1555.0,
+          "text": "3851 1555 CircleF"
+        },
+        {
+          "line": 761,
+          "x": 4391.0,
+          "y": 1291.0,
+          "text": "4391 1291 CircleF"
+        },
+        {
+          "line": 762,
+          "x": 4931.0,
+          "y": 1051.0,
+          "text": "4931 1051 CircleF"
+        },
+        {
+          "line": 763,
+          "x": 5471.0,
+          "y": 850.0,
+          "text": "5471 850 CircleF"
+        },
+        {
+          "line": 764,
+          "x": 6011.0,
+          "y": 738.0,
+          "text": "6011 738 CircleF"
+        },
+        {
+          "line": 765,
+          "x": 5638.0,
+          "y": 4302.0,
+          "text": "5638 4302 CircleF"
+        }
+      ]
+    },
+    {
+      "name": "TriUF",
+      "n_invocations": 11,
+      "n_unique_xy": 11,
+      "bbox": [
+        1152.0,
+        670.0,
+        6011.0,
+        4032.0
+      ],
+      "x_span": 4859.0,
+      "y_span": 3362.0,
+      "first_line": 786,
+      "last_line": 796,
+      "first_40_invocations": [
+        {
+          "line": 786,
+          "x": 1152.0,
+          "y": 3533.0,
+          "text": "1152 3533 TriUF"
+        },
+        {
+          "line": 787,
+          "x": 1692.0,
+          "y": 3890.0,
+          "text": "1692 3890 TriUF"
+        },
+        {
+          "line": 788,
+          "x": 2232.0,
+          "y": 3602.0,
+          "text": "2232 3602 TriUF"
+        },
+        {
+          "line": 789,
+          "x": 2772.0,
+          "y": 2799.0,
+          "text": "2772 2799 TriUF"
+        },
+        {
+          "line": 790,
+          "x": 3311.0,
+          "y": 2043.0,
+          "text": "3311 2043 TriUF"
+        },
+        {
+          "line": 791,
+          "x": 3851.0,
+          "y": 1489.0,
+          "text": "3851 1489 TriUF"
+        },
+        {
+          "line": 792,
+          "x": 4391.0,
+          "y": 1190.0,
+          "text": "4391 1190 TriUF"
+        },
+        {
+          "line": 793,
+          "x": 4931.0,
+          "y": 994.0,
+          "text": "4931 994 TriUF"
+        },
+        {
+          "line": 794,
+          "x": 5471.0,
+          "y": 786.0,
+          "text": "5471 786 TriUF"
+        },
+        {
+          "line": 795,
+          "x": 6011.0,
+          "y": 670.0,
+          "text": "6011 670 TriUF"
+        },
+        {
+          "line": 796,
+          "x": 5638.0,
+          "y": 4032.0,
+          "text": "5638 4032 TriUF"
+        }
+      ]
+    },
+    {
+      "name": "TriDF",
+      "n_invocations": 11,
+      "n_unique_xy": 11,
+      "bbox": [
+        1152.0,
+        806.0,
+        6011.0,
+        3762.0
+      ],
+      "x_span": 4859.0,
+      "y_span": 2956.0,
+      "first_line": 817,
+      "last_line": 827,
+      "first_40_invocations": [
+        {
+          "line": 817,
+          "x": 1152.0,
+          "y": 3762.0,
+          "text": "1152 3762 TriDF"
+        },
+        {
+          "line": 818,
+          "x": 1692.0,
+          "y": 3416.0,
+          "text": "1692 3416 TriDF"
+        },
+        {
+          "line": 819,
+          "x": 2232.0,
+          "y": 2755.0,
+          "text": "2232 2755 TriDF"
+        },
+        {
+          "line": 820,
+          "x": 2772.0,
+          "y": 2152.0,
+          "text": "2772 2152 TriDF"
+        },
+        {
+          "line": 821,
+          "x": 3311.0,
+          "y": 1768.0,
+          "text": "3311 1768 TriDF"
+        },
+        {
+          "line": 822,
+          "x": 3851.0,
+          "y": 1621.0,
+          "text": "3851 1621 TriDF"
+        },
+        {
+          "line": 823,
+          "x": 4391.0,
+          "y": 1392.0,
+          "text": "4391 1392 TriDF"
+        },
+        {
+          "line": 824,
+          "x": 4931.0,
+          "y": 1107.0,
+          "text": "4931 1107 TriDF"
+        },
+        {
+          "line": 825,
+          "x": 5471.0,
+          "y": 914.0,
+          "text": "5471 914 TriDF"
+        },
+        {
+          "line": 826,
+          "x": 6011.0,
+          "y": 806.0,
+          "text": "6011 806 TriDF"
+        },
+        {
+          "line": 827,
+          "x": 5638.0,
+          "y": 3762.0,
+          "text": "5638 3762 TriDF"
+        }
+      ]
+    },
+    {
+      "name": "L",
+      "n_invocations": 9,
+      "n_unique_xy": 8,
+      "bbox": [
+        882.0,
+        576.0,
+        6011.0,
+        994.0
+      ],
+      "x_span": 5129.0,
+      "y_span": 418.0,
+      "first_line": 689,
+      "last_line": 831,
+      "first_40_invocations": [
+        {
+          "line": 689,
+          "x": 882.0,
+          "y": 576.0,
+          "text": "882 576 L"
+        },
+        {
+          "line": 753,
+          "x": 5471.0,
+          "y": 850.0,
+          "text": "5471 850 L"
+        },
+        {
+          "line": 754,
+          "x": 6011.0,
+          "y": 738.0,
+          "text": "6011 738 L"
+        },
+        {
+          "line": 783,
+          "x": 4931.0,
+          "y": 994.0,
+          "text": "4931 994 L"
+        },
+        {
+          "line": 784,
+          "x": 5471.0,
+          "y": 786.0,
+          "text": "5471 786 L"
+        },
+        {
+          "line": 785,
+          "x": 6011.0,
+          "y": 670.0,
+          "text": "6011 670 L"
+        },
+        {
+          "line": 815,
+          "x": 5471.0,
+          "y": 914.0,
+          "text": "5471 914 L"
+        },
+        {
+          "line": 816,
+          "x": 6011.0,
+          "y": 806.0,
+          "text": "6011 806 L"
+        },
+        {
+          "line": 831,
+          "x": 882.0,
+          "y": 576.0,
+          "text": "882 576 L"
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "n_invocations": 6,
+      "n_unique_xy": 1,
+      "bbox": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "x_span": 0.0,
+      "y_span": 0.0,
+      "first_line": 739,
+      "last_line": 805,
+      "first_40_invocations": [
+        {
+          "line": 739,
+          "x": 1.0,
+          "y": 0.0,
+          "text": "0.00 1.00 0.00 C LTb"
+        },
+        {
+          "line": 743,
+          "x": 1.0,
+          "y": 0.0,
+          "text": "0.00 1.00 0.00 C 5391 4302 M"
+        },
+        {
+          "line": 769,
+          "x": 1.0,
+          "y": 0.0,
+          "text": "0.00 1.00 0.00 C LTb"
+        },
+        {
+          "line": 774,
+          "x": 1.0,
+          "y": 0.0,
+          "text": "0.00 1.00 0.00 C 5391 4032 M"
+        },
+        {
+          "line": 800,
+          "x": 1.0,
+          "y": 0.0,
+          "text": "0.00 1.00 0.00 C LTb"
+        },
+        {
+          "line": 805,
+          "x": 1.0,
+          "y": 0.0,
+          "text": "0.00 1.00 0.00 C 5391 3762 M"
+        }
+      ]
+    },
+    {
+      "name": "N",
+      "n_invocations": 2,
+      "n_unique_xy": 1,
+      "bbox": [
+        882.0,
+        4500.0,
+        882.0,
+        4500.0
+      ],
+      "x_span": 0.0,
+      "y_span": 0.0,
+      "first_line": 688,
+      "last_line": 830,
+      "first_40_invocations": [
+        {
+          "line": 688,
+          "x": 882.0,
+          "y": 4500.0,
+          "text": "882 4500 N"
+        },
+        {
+          "line": 830,
+          "x": 882.0,
+          "y": 4500.0,
+          "text": "882 4500 N"
+        }
+      ]
+    }
+  ],
+  "candidate_coordinate_procedures": [
+    {
+      "name": "V",
+      "n_invocations": 84,
+      "n_unique_xy": 32,
+      "bbox": [
+        -5220.0,
+        -803.0,
+        5220.0,
+        3924.0
+      ],
+      "x_span": 10440.0,
+      "y_span": 4727.0,
+      "first_line": 470,
+      "last_line": 834,
+      "first_40_invocations": [
+        {
+          "line": 470,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 472,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 474,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 476,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 478,
+          "x": 63.0,
+          "y": 0.0,
+          "text": "63 0 V"
+        },
+        {
+          "line": 486,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 488,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 490,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 492,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 494,
+          "x": 63.0,
+          "y": 0.0,
+          "text": "63 0 V"
+        },
+        {
+          "line": 502,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 504,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 506,
+          "x": 31.0,
+          "y": 0.0,
+          "text": "31 0 V"
+        },
+        {
+          "line": 508,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 516,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 518,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 526,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 528,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 536,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 538,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 546,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 548,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 556,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 558,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 566,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 568,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 576,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 578,
+          "x": 0.0,
+          "y": 63.0,
+          "text": "0 63 V"
+        },
+        {
+          "line": 586,
+          "x": 0.0,
+          "y": 31.0,
+          "text": "0 31 V"
+        },
+        {
+          "line": 588,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 590,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 592,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 594,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 596,
+          "x": -63.0,
+          "y": 0.0,
+          "text": "-63 0 V"
+        },
+        {
+          "line": 604,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 606,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 608,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 610,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        },
+        {
+          "line": 612,
+          "x": -63.0,
+          "y": 0.0,
+          "text": "-63 0 V"
+        },
+        {
+          "line": 620,
+          "x": -31.0,
+          "y": 0.0,
+          "text": "-31 0 V"
+        }
+      ],
+      "definition": {
+        "name": "V",
+        "start_line": 68,
+        "end_line": 68,
+        "body": "/V {rlineto} bind def",
+        "has_fill": false,
+        "has_stroke": false,
+        "has_closepath": false,
+        "local_ML_commands": 0
+      }
+    },
+    {
+      "name": "M",
+      "n_invocations": 51,
+      "n_unique_xy": 51,
+      "bbox": [
+        360.0,
+        126.0,
+        6839.0,
+        4949.0
+      ],
+      "x_span": 6479.0,
+      "y_span": 4823.0,
+      "first_line": 469,
+      "last_line": 805,
+      "first_40_invocations": [
+        {
+          "line": 469,
+          "x": 882.0,
+          "y": 807.0,
+          "text": "882 807 M"
+        },
+        {
+          "line": 480,
+          "x": 774.0,
+          "y": 2038.0,
+          "text": "774 2038 M"
+        },
+        {
+          "line": 485,
+          "x": 882.0,
+          "y": 2346.0,
+          "text": "882 2346 M"
+        },
+        {
+          "line": 496,
+          "x": 774.0,
+          "y": 3577.0,
+          "text": "774 3577 M"
+        },
+        {
+          "line": 501,
+          "x": 882.0,
+          "y": 3884.0,
+          "text": "882 3884 M"
+        },
+        {
+          "line": 507,
+          "x": 882.0,
+          "y": 576.0,
+          "text": "882 576 M"
+        },
+        {
+          "line": 510,
+          "x": 882.0,
+          "y": 396.0,
+          "text": "882 396 M"
+        },
+        {
+          "line": 515,
+          "x": 1230.0,
+          "y": 576.0,
+          "text": "1230 576 M"
+        },
+        {
+          "line": 520,
+          "x": 1578.0,
+          "y": 396.0,
+          "text": "1578 396 M"
+        },
+        {
+          "line": 525,
+          "x": 1926.0,
+          "y": 576.0,
+          "text": "1926 576 M"
+        },
+        {
+          "line": 530,
+          "x": 2274.0,
+          "y": 396.0,
+          "text": "2274 396 M"
+        },
+        {
+          "line": 535,
+          "x": 2622.0,
+          "y": 576.0,
+          "text": "2622 576 M"
+        },
+        {
+          "line": 540,
+          "x": 2970.0,
+          "y": 396.0,
+          "text": "2970 396 M"
+        },
+        {
+          "line": 545,
+          "x": 3318.0,
+          "y": 576.0,
+          "text": "3318 576 M"
+        },
+        {
+          "line": 550,
+          "x": 3666.0,
+          "y": 396.0,
+          "text": "3666 396 M"
+        },
+        {
+          "line": 555,
+          "x": 4014.0,
+          "y": 576.0,
+          "text": "4014 576 M"
+        },
+        {
+          "line": 560,
+          "x": 4362.0,
+          "y": 396.0,
+          "text": "4362 396 M"
+        },
+        {
+          "line": 565,
+          "x": 4710.0,
+          "y": 576.0,
+          "text": "4710 576 M"
+        },
+        {
+          "line": 570,
+          "x": 5058.0,
+          "y": 396.0,
+          "text": "5058 396 M"
+        },
+        {
+          "line": 575,
+          "x": 5406.0,
+          "y": 576.0,
+          "text": "5406 576 M"
+        },
+        {
+          "line": 580,
+          "x": 5754.0,
+          "y": 396.0,
+          "text": "5754 396 M"
+        },
+        {
+          "line": 585,
+          "x": 6102.0,
+          "y": 576.0,
+          "text": "6102 576 M"
+        },
+        {
+          "line": 598,
+          "x": 6210.0,
+          "y": 1720.0,
+          "text": "6210 1720 M"
+        },
+        {
+          "line": 603,
+          "x": 6102.0,
+          "y": 1965.0,
+          "text": "6102 1965 M"
+        },
+        {
+          "line": 614,
+          "x": 6210.0,
+          "y": 2942.0,
+          "text": "6210 2942 M"
+        },
+        {
+          "line": 619,
+          "x": 6102.0,
+          "y": 3186.0,
+          "text": "6102 3186 M"
+        },
+        {
+          "line": 630,
+          "x": 6210.0,
+          "y": 4163.0,
+          "text": "6210 4163 M"
+        },
+        {
+          "line": 635,
+          "x": 6102.0,
+          "y": 4407.0,
+          "text": "6102 4407 M"
+        },
+        {
+          "line": 637,
+          "x": 882.0,
+          "y": 4500.0,
+          "text": "882 4500 M"
+        },
+        {
+          "line": 640,
+          "x": 882.0,
+          "y": 4680.0,
+          "text": "882 4680 M"
+        },
+        {
+          "line": 645,
+          "x": 1421.0,
+          "y": 4500.0,
+          "text": "1421 4500 M"
+        },
+        {
+          "line": 650,
+          "x": 1961.0,
+          "y": 4680.0,
+          "text": "1961 4680 M"
+        },
+        {
+          "line": 655,
+          "x": 2500.0,
+          "y": 4500.0,
+          "text": "2500 4500 M"
+        },
+        {
+          "line": 660,
+          "x": 3040.0,
+          "y": 4680.0,
+          "text": "3040 4680 M"
+        },
+        {
+          "line": 665,
+          "x": 3579.0,
+          "y": 4500.0,
+          "text": "3579 4500 M"
+        },
+        {
+          "line": 670,
+          "x": 4118.0,
+          "y": 4680.0,
+          "text": "4118 4680 M"
+        },
+        {
+          "line": 675,
+          "x": 4658.0,
+          "y": 4500.0,
+          "text": "4658 4500 M"
+        },
+        {
+          "line": 680,
+          "x": 5197.0,
+          "y": 4680.0,
+          "text": "5197 4680 M"
+        },
+        {
+          "line": 685,
+          "x": 5737.0,
+          "y": 4500.0,
+          "text": "5737 4500 M"
+        },
+        {
+          "line": 695,
+          "x": 360.0,
+          "y": 2538.0,
+          "text": "360 2538 M"
+        }
+      ],
+      "definition": {
+        "name": "M",
+        "start_line": 65,
+        "end_line": 65,
+        "body": "/M {moveto} bind def",
+        "has_fill": false,
+        "has_stroke": false,
+        "has_closepath": false,
+        "local_ML_commands": 0
+      }
+    },
+    {
+      "name": "R",
+      "n_invocations": 35,
+      "n_unique_xy": 9,
+      "bbox": [
+        -4734.0,
+        -31.0,
+        540.0,
+        308.0
+      ],
+      "x_span": 5274.0,
+      "y_span": 339.0,
+      "first_line": 471,
+      "last_line": 807,
+      "first_40_invocations": [
+        {
+          "line": 471,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 473,
+          "x": -31.0,
+          "y": 307.0,
+          "text": "-31 307 R"
+        },
+        {
+          "line": 475,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 477,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 487,
+          "x": -31.0,
+          "y": 307.0,
+          "text": "-31 307 R"
+        },
+        {
+          "line": 489,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 491,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 493,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 503,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 505,
+          "x": -31.0,
+          "y": 308.0,
+          "text": "-31 308 R"
+        },
+        {
+          "line": 517,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 527,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 537,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 547,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 557,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 567,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 577,
+          "x": 348.0,
+          "y": -31.0,
+          "text": "348 -31 R"
+        },
+        {
+          "line": 587,
+          "x": 0.0,
+          "y": 136.0,
+          "text": "0 136 R"
+        },
+        {
+          "line": 589,
+          "x": 31.0,
+          "y": 245.0,
+          "text": "31 245 R"
+        },
+        {
+          "line": 591,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 593,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 595,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 605,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 607,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 609,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 611,
+          "x": 31.0,
+          "y": 245.0,
+          "text": "31 245 R"
+        },
+        {
+          "line": 621,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 623,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 625,
+          "x": 31.0,
+          "y": 245.0,
+          "text": "31 245 R"
+        },
+        {
+          "line": 627,
+          "x": 31.0,
+          "y": 244.0,
+          "text": "31 244 R"
+        },
+        {
+          "line": 647,
+          "x": 540.0,
+          "y": 31.0,
+          "text": "540 31 R"
+        },
+        {
+          "line": 657,
+          "x": 540.0,
+          "y": 31.0,
+          "text": "540 31 R"
+        },
+        {
+          "line": 667,
+          "x": 539.0,
+          "y": 31.0,
+          "text": "539 31 R"
+        },
+        {
+          "line": 677,
+          "x": 539.0,
+          "y": 31.0,
+          "text": "539 31 R"
+        },
+        {
+          "line": 807,
+          "x": -4734.0,
+          "y": 0.0,
+          "text": "-4734 0 R"
+        }
+      ],
+      "definition": {
+        "name": "R",
+        "start_line": 67,
+        "end_line": 67,
+        "body": "/R {rmoveto} bind def",
+        "has_fill": false,
+        "has_stroke": false,
+        "has_closepath": false,
+        "local_ML_commands": 0
+      }
+    },
+    {
+      "name": "CircleF",
+      "n_invocations": 11,
+      "n_unique_xy": 11,
+      "bbox": [
+        1152.0,
+        738.0,
+        6011.0,
+        4302.0
+      ],
+      "x_span": 4859.0,
+      "y_span": 3564.0,
+      "first_line": 755,
+      "last_line": 765,
+      "first_40_invocations": [
+        {
+          "line": 755,
+          "x": 1152.0,
+          "y": 3647.0,
+          "text": "1152 3647 CircleF"
+        },
+        {
+          "line": 756,
+          "x": 1692.0,
+          "y": 3653.0,
+          "text": "1692 3653 CircleF"
+        },
+        {
+          "line": 757,
+          "x": 2232.0,
+          "y": 3179.0,
+          "text": "2232 3179 CircleF"
+        },
+        {
+          "line": 758,
+          "x": 2772.0,
+          "y": 2475.0,
+          "text": "2772 2475 CircleF"
+        },
+        {
+          "line": 759,
+          "x": 3311.0,
+          "y": 1906.0,
+          "text": "3311 1906 CircleF"
+        },
+        {
+          "line": 760,
+          "x": 3851.0,
+          "y": 1555.0,
+          "text": "3851 1555 CircleF"
+        },
+        {
+          "line": 761,
+          "x": 4391.0,
+          "y": 1291.0,
+          "text": "4391 1291 CircleF"
+        },
+        {
+          "line": 762,
+          "x": 4931.0,
+          "y": 1051.0,
+          "text": "4931 1051 CircleF"
+        },
+        {
+          "line": 763,
+          "x": 5471.0,
+          "y": 850.0,
+          "text": "5471 850 CircleF"
+        },
+        {
+          "line": 764,
+          "x": 6011.0,
+          "y": 738.0,
+          "text": "6011 738 CircleF"
+        },
+        {
+          "line": 765,
+          "x": 5638.0,
+          "y": 4302.0,
+          "text": "5638 4302 CircleF"
+        }
+      ],
+      "definition": {
+        "name": "CircleF",
+        "start_line": 168,
+        "end_line": 168,
+        "body": "/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def",
+        "has_fill": true,
+        "has_stroke": true,
+        "has_closepath": false,
+        "local_ML_commands": 0
+      }
+    },
+    {
+      "name": "TriUF",
+      "n_invocations": 11,
+      "n_unique_xy": 11,
+      "bbox": [
+        1152.0,
+        670.0,
+        6011.0,
+        4032.0
+      ],
+      "x_span": 4859.0,
+      "y_span": 3362.0,
+      "first_line": 786,
+      "last_line": 796,
+      "first_40_invocations": [
+        {
+          "line": 786,
+          "x": 1152.0,
+          "y": 3533.0,
+          "text": "1152 3533 TriUF"
+        },
+        {
+          "line": 787,
+          "x": 1692.0,
+          "y": 3890.0,
+          "text": "1692 3890 TriUF"
+        },
+        {
+          "line": 788,
+          "x": 2232.0,
+          "y": 3602.0,
+          "text": "2232 3602 TriUF"
+        },
+        {
+          "line": 789,
+          "x": 2772.0,
+          "y": 2799.0,
+          "text": "2772 2799 TriUF"
+        },
+        {
+          "line": 790,
+          "x": 3311.0,
+          "y": 2043.0,
+          "text": "3311 2043 TriUF"
+        },
+        {
+          "line": 791,
+          "x": 3851.0,
+          "y": 1489.0,
+          "text": "3851 1489 TriUF"
+        },
+        {
+          "line": 792,
+          "x": 4391.0,
+          "y": 1190.0,
+          "text": "4391 1190 TriUF"
+        },
+        {
+          "line": 793,
+          "x": 4931.0,
+          "y": 994.0,
+          "text": "4931 994 TriUF"
+        },
+        {
+          "line": 794,
+          "x": 5471.0,
+          "y": 786.0,
+          "text": "5471 786 TriUF"
+        },
+        {
+          "line": 795,
+          "x": 6011.0,
+          "y": 670.0,
+          "text": "6011 670 TriUF"
+        },
+        {
+          "line": 796,
+          "x": 5638.0,
+          "y": 4032.0,
+          "text": "5638 4032 TriUF"
+        }
+      ],
+      "definition": {
+        "name": "TriUF",
+        "start_line": 144,
+        "end_line": 147,
+        "body": "/TriUF {stroke [] 0 setdash vpt 1.12 mul add M\n  hpt neg vpt -1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt 1.62 mul V closepath fill} def",
+        "has_fill": true,
+        "has_stroke": true,
+        "has_closepath": true,
+        "local_ML_commands": 0
+      }
+    },
+    {
+      "name": "TriDF",
+      "n_invocations": 11,
+      "n_unique_xy": 11,
+      "bbox": [
+        1152.0,
+        806.0,
+        6011.0,
+        3762.0
+      ],
+      "x_span": 4859.0,
+      "y_span": 2956.0,
+      "first_line": 817,
+      "last_line": 827,
+      "first_40_invocations": [
+        {
+          "line": 817,
+          "x": 1152.0,
+          "y": 3762.0,
+          "text": "1152 3762 TriDF"
+        },
+        {
+          "line": 818,
+          "x": 1692.0,
+          "y": 3416.0,
+          "text": "1692 3416 TriDF"
+        },
+        {
+          "line": 819,
+          "x": 2232.0,
+          "y": 2755.0,
+          "text": "2232 2755 TriDF"
+        },
+        {
+          "line": 820,
+          "x": 2772.0,
+          "y": 2152.0,
+          "text": "2772 2152 TriDF"
+        },
+        {
+          "line": 821,
+          "x": 3311.0,
+          "y": 1768.0,
+          "text": "3311 1768 TriDF"
+        },
+        {
+          "line": 822,
+          "x": 3851.0,
+          "y": 1621.0,
+          "text": "3851 1621 TriDF"
+        },
+        {
+          "line": 823,
+          "x": 4391.0,
+          "y": 1392.0,
+          "text": "4391 1392 TriDF"
+        },
+        {
+          "line": 824,
+          "x": 4931.0,
+          "y": 1107.0,
+          "text": "4931 1107 TriDF"
+        },
+        {
+          "line": 825,
+          "x": 5471.0,
+          "y": 914.0,
+          "text": "5471 914 TriDF"
+        },
+        {
+          "line": 826,
+          "x": 6011.0,
+          "y": 806.0,
+          "text": "6011 806 TriDF"
+        },
+        {
+          "line": 827,
+          "x": 5638.0,
+          "y": 3762.0,
+          "text": "5638 3762 TriDF"
+        }
+      ],
+      "definition": {
+        "name": "TriDF",
+        "start_line": 153,
+        "end_line": 156,
+        "body": "/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M\n  hpt neg vpt 1.62 mul V\n  hpt 2 mul 0 V\n  hpt neg vpt -1.62 mul V closepath fill} def",
+        "has_fill": true,
+        "has_stroke": true,
+        "has_closepath": true,
+        "local_ML_commands": 0
+      }
+    },
+    {
+      "name": "L",
+      "n_invocations": 9,
+      "n_unique_xy": 8,
+      "bbox": [
+        882.0,
+        576.0,
+        6011.0,
+        994.0
+      ],
+      "x_span": 5129.0,
+      "y_span": 418.0,
+      "first_line": 689,
+      "last_line": 831,
+      "first_40_invocations": [
+        {
+          "line": 689,
+          "x": 882.0,
+          "y": 576.0,
+          "text": "882 576 L"
+        },
+        {
+          "line": 753,
+          "x": 5471.0,
+          "y": 850.0,
+          "text": "5471 850 L"
+        },
+        {
+          "line": 754,
+          "x": 6011.0,
+          "y": 738.0,
+          "text": "6011 738 L"
+        },
+        {
+          "line": 783,
+          "x": 4931.0,
+          "y": 994.0,
+          "text": "4931 994 L"
+        },
+        {
+          "line": 784,
+          "x": 5471.0,
+          "y": 786.0,
+          "text": "5471 786 L"
+        },
+        {
+          "line": 785,
+          "x": 6011.0,
+          "y": 670.0,
+          "text": "6011 670 L"
+        },
+        {
+          "line": 815,
+          "x": 5471.0,
+          "y": 914.0,
+          "text": "5471 914 L"
+        },
+        {
+          "line": 816,
+          "x": 6011.0,
+          "y": 806.0,
+          "text": "6011 806 L"
+        },
+        {
+          "line": 831,
+          "x": 882.0,
+          "y": 576.0,
+          "text": "882 576 L"
+        }
+      ],
+      "definition": {
+        "name": "L",
+        "start_line": 66,
+        "end_line": 66,
+        "body": "/L {lineto} bind def",
+        "has_fill": false,
+        "has_stroke": false,
+        "has_closepath": false,
+        "local_ML_commands": 0
+      }
+    }
+  ],
+  "axis_numeric_strings": [
+    {
+      "line": 52,
+      "strings": [
+        "(U4483_HIprofile.ps)"
+      ],
+      "text": "/Title (U4483_HIprofile.ps)"
+    },
+    {
+      "line": 54,
+      "strings": [
+        "(gnuplot 4.2 patchlevel 6 )"
+      ],
+      "text": "/Creator (gnuplot 4.2 patchlevel 6 )"
+    },
+    {
+      "line": 55,
+      "strings": [
+        "(F.   Lelli,148, 4060)"
+      ],
+      "text": "/Author (F.   Lelli,148, 4060)"
+    },
+    {
+      "line": 58,
+      "strings": [
+        "(Wed Jul 11 17:38:54 2012)"
+      ],
+      "text": "/CreationDate (Wed Jul 11 17:38:54 2012)"
+    },
+    {
+      "line": 63,
+      "strings": [
+        "(August 2006)"
+      ],
+      "text": "% Gnuplot Prolog Version 4.2 (August 2006)"
+    },
+    {
+      "line": 481,
+      "strings": [
+        "(Helvetica)",
+        "(5)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (5)]"
+    },
+    {
+      "line": 497,
+      "strings": [
+        "(Helvetica)",
+        "(10)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (10)]"
+    },
+    {
+      "line": 511,
+      "strings": [
+        "(Helvetica)",
+        "( 0)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 0)]"
+    },
+    {
+      "line": 521,
+      "strings": [
+        "(Helvetica)",
+        "( 0.2)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 0.2)]"
+    },
+    {
+      "line": 531,
+      "strings": [
+        "(Helvetica)",
+        "( 0.4)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 0.4)]"
+    },
+    {
+      "line": 541,
+      "strings": [
+        "(Helvetica)",
+        "( 0.6)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 0.6)]"
+    },
+    {
+      "line": 551,
+      "strings": [
+        "(Helvetica)",
+        "( 0.8)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 0.8)]"
+    },
+    {
+      "line": 561,
+      "strings": [
+        "(Helvetica)",
+        "( 1)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 1)]"
+    },
+    {
+      "line": 571,
+      "strings": [
+        "(Helvetica)",
+        "( 1.2)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 1.2)]"
+    },
+    {
+      "line": 581,
+      "strings": [
+        "(Helvetica)",
+        "( 1.4)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 1.4)]"
+    },
+    {
+      "line": 599,
+      "strings": [
+        "(Helvetica)",
+        "( 0.5)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 0.5)]"
+    },
+    {
+      "line": 615,
+      "strings": [
+        "(Helvetica)",
+        "( 1)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 1)]"
+    },
+    {
+      "line": 631,
+      "strings": [
+        "(Helvetica)",
+        "( 1.5)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 ( 1.5)]"
+    },
+    {
+      "line": 641,
+      "strings": [
+        "(Helvetica)",
+        "(0)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (0)]"
+    },
+    {
+      "line": 651,
+      "strings": [
+        "(Helvetica)",
+        "(20)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (20)]"
+    },
+    {
+      "line": 661,
+      "strings": [
+        "(Helvetica)",
+        "(40)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (40)]"
+    },
+    {
+      "line": 671,
+      "strings": [
+        "(Helvetica)",
+        "(60)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (60)]"
+    },
+    {
+      "line": 681,
+      "strings": [
+        "(Helvetica)",
+        "(80)"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (80)]"
+    },
+    {
+      "line": 700,
+      "strings": [
+        "(Helvetica)",
+        "( \\(Msun pc)"
+      ],
+      "text": "[(Helvetica) 180.0 0.0 true true 0 ( \\(Msun pc)]"
+    },
+    {
+      "line": 702,
+      "strings": [
+        "(Helvetica)",
+        "(2)"
+      ],
+      "text": "[(Helvetica) 144.0 90.0 true true 0 (2)]"
+    },
+    {
+      "line": 713,
+      "strings": [
+        "(Helvetica)",
+        "( \\(10)"
+      ],
+      "text": "[(Helvetica) 180.0 0.0 true true 0 ( \\(10)]"
+    },
+    {
+      "line": 714,
+      "strings": [
+        "(Helvetica)",
+        "(2)"
+      ],
+      "text": "[(Helvetica) 144.0 90.0 true true 0 (2)]"
+    },
+    {
+      "line": 715,
+      "strings": [
+        "(Helvetica)",
+        "(1)"
+      ],
+      "text": "[(Helvetica) 144.0 90.0 true true 0 (1)]"
+    },
+    {
+      "line": 718,
+      "strings": [
+        "(Helvetica)",
+        "(2)"
+      ],
+      "text": "[(Helvetica) 144.0 90.0 true true 0 (2)]"
+    },
+    {
+      "line": 725,
+      "strings": [
+        "(Helvetica)",
+        "(Radius \\(kpc\\))"
+      ],
+      "text": "[ [(Helvetica) 180.0 0.0 true true 0 (Radius \\(kpc\\))]"
+    }
+  ],
+  "long_native_segments": [
+    {
+      "line": 471,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 473,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        307.0
+      ],
+      "text": "-31 307 R"
+    },
+    {
+      "line": 475,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 477,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 487,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        307.0
+      ],
+      "text": "-31 307 R"
+    },
+    {
+      "line": 489,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 491,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 493,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 503,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 505,
+      "kind": "R",
+      "delta": [
+        -31.0,
+        308.0
+      ],
+      "text": "-31 308 R"
+    },
+    {
+      "line": 517,
+      "kind": "R",
+      "delta": [
+        348.0,
+        -31.0
+      ],
+      "text": "348 -31 R"
+    },
+    {
+      "line": 527,
+      "kind": "R",
+      "delta": [
+        348.0,
+        -31.0
+      ],
+      "text": "348 -31 R"
+    },
+    {
+      "line": 537,
+      "kind": "R",
+      "delta": [
+        348.0,
+        -31.0
+      ],
+      "text": "348 -31 R"
+    },
+    {
+      "line": 547,
+      "kind": "R",
+      "delta": [
+        348.0,
+        -31.0
+      ],
+      "text": "348 -31 R"
+    },
+    {
+      "line": 557,
+      "kind": "R",
+      "delta": [
+        348.0,
+        -31.0
+      ],
+      "text": "348 -31 R"
+    },
+    {
+      "line": 567,
+      "kind": "R",
+      "delta": [
+        348.0,
+        -31.0
+      ],
+      "text": "348 -31 R"
+    },
+    {
+      "line": 577,
+      "kind": "R",
+      "delta": [
+        348.0,
+        -31.0
+      ],
+      "text": "348 -31 R"
+    },
+    {
+      "line": 587,
+      "kind": "R",
+      "delta": [
+        0.0,
+        136.0
+      ],
+      "text": "0 136 R"
+    },
+    {
+      "line": 589,
+      "kind": "R",
+      "delta": [
+        31.0,
+        245.0
+      ],
+      "text": "31 245 R"
+    },
+    {
+      "line": 591,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 593,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 595,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 605,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 607,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 609,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 611,
+      "kind": "R",
+      "delta": [
+        31.0,
+        245.0
+      ],
+      "text": "31 245 R"
+    },
+    {
+      "line": 621,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 623,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 625,
+      "kind": "R",
+      "delta": [
+        31.0,
+        245.0
+      ],
+      "text": "31 245 R"
+    },
+    {
+      "line": 627,
+      "kind": "R",
+      "delta": [
+        31.0,
+        244.0
+      ],
+      "text": "31 244 R"
+    },
+    {
+      "line": 647,
+      "kind": "R",
+      "delta": [
+        540.0,
+        31.0
+      ],
+      "text": "540 31 R"
+    },
+    {
+      "line": 657,
+      "kind": "R",
+      "delta": [
+        540.0,
+        31.0
+      ],
+      "text": "540 31 R"
+    },
+    {
+      "line": 667,
+      "kind": "R",
+      "delta": [
+        539.0,
+        31.0
+      ],
+      "text": "539 31 R"
+    },
+    {
+      "line": 677,
+      "kind": "R",
+      "delta": [
+        539.0,
+        31.0
+      ],
+      "text": "539 31 R"
+    },
+    {
+      "line": 807,
+      "kind": "R",
+      "delta": [
+        -4734.0,
+        0.0
+      ],
+      "text": "-4734 0 R"
+    }
+  ],
+  "next_gate": "identify_whole_galaxy_dot_procedure_and_axis_mapping_from_native_source",
+  "boundary": "Static source geometry only; no PostScript execution, rendering, OCR, raster digitization, map reconstruction, profile fitting, persistence fitting, normalization, or blind-outcome inspection. L_A and C_A remain locked."
+}
