@@ -1,0 +1,42 @@
+name: Map Be91 Table 1 original HI sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/map_be91_table1_original_sources.py'
+      - 'data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv'
+      - '.github/workflows/map_be91_table1_original_sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  map:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF inspection dependency
+        run: pip install pymupdf
+      - name: Map Be91 Table 1 source references
+        run: python scripts/stationary/map_be91_table1_original_sources.py
+      - name: Commit source map
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/be91_original_hi_source_map_v1.csv validation/stationary/be91_original_hi_source_map_v1_summary.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Map Be91 Table 1 original HI sources'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
