@@ -1,0 +1,94 @@
+{
+  "status": "HOEKSTRA2001_BE87_VECTOR_PROFILE_CANDIDATES_RECOVERED",
+  "source_pdf": "https://arxiv.org/pdf/astro-ph/0010569",
+  "pdf_page_index": 3,
+  "x_edges": [
+    105.36100006103516,
+    199.94400024414062,
+    294.7430114746094,
+    389.5419921875,
+    484.125
+  ],
+  "y_edges": [
+    141.56402587890625,
+    204.76397705078125,
+    267.74700927734375,
+    330.94598388671875,
+    394.14599609375,
+    457.3450012207031,
+    520.3280029296875
+  ],
+  "x_axis_mapping": "R/Rout = 1.1*(x-x_left)/(x_right-x_left); native ticks 0.0..1.1 in 0.1 steps",
+  "y_major_tick_calibration": {
+    "native_y": [
+      469.8979797363281,
+      495.2209777832031,
+      520.3280029296875
+    ],
+    "printed_log10_sigma_labels": [
+      1.0,
+      0.0,
+      -1.0
+    ],
+    "local_linear_slope": -0.039658672476762295,
+    "local_linear_intercept": -0.9985663533237414
+  },
+  "y_axis_mapping": "log10 Sigma_HI [Msun pc^-2] from printed +1,0,-1 major labels; Sigma=10^logSigma",
+  "targets": {
+    "NGC2903": {
+      "panel": [
+        1,
+        1
+      ],
+      "n_drawing_objects": 1,
+      "drawing_indices": [
+        89
+      ],
+      "n_vertices": 30,
+      "r_over_rout_min": 0.0,
+      "r_over_rout_max": 1.1,
+      "sigma_hi_min": 0.18515770529614597,
+      "sigma_hi_max": 7.029269205537684,
+      "log_sigma_min": -0.73245821017156,
+      "log_sigma_max": 0.846910176157812
+    },
+    "NGC5033": {
+      "panel": [
+        1,
+        2
+      ],
+      "n_drawing_objects": 1,
+      "drawing_indices": [
+        93
+      ],
+      "n_vertices": 23,
+      "r_over_rout_min": 0.0,
+      "r_over_rout_max": 0.8890481635501714,
+      "sigma_hi_min": 0.1003306548074814,
+      "sigma_hi_max": 8.233770995645962,
+      "log_sigma_min": -0.9985663533237414,
+      "log_sigma_max": 0.9155987838771165
+    },
+    "NGC5371": {
+      "panel": [
+        3,
+        4
+      ],
+      "n_drawing_objects": 1,
+      "drawing_indices": [
+        67
+      ],
+      "n_vertices": 10,
+      "r_over_rout_min": 0.0,
+      "r_over_rout_max": 0.9162462055899147,
+      "sigma_hi_min": 0.4596060129329892,
+      "sigma_hi_max": 6.000971558481389,
+      "log_sigma_min": -0.3376142981592636,
+      "log_sigma_max": 0.7782215684385076
+    }
+  },
+  "n_total_rows": 63,
+  "qc_expectation": "Hoekstra text states inner maximum HI surface densities are about 6 Msun pc^-2; recovered maxima should be of that order, with galaxy-specific structure retained.",
+  "provenance_boundary": "NGC6503 intentionally excluded from Be87 candidate because Hoekstra Table 1 cites Broeils 1992b + Wevers 1984, not Begeman 1987, for that panel's profile provenance.",
+  "freeze_boundary": "Candidate-level only pending exact Rout-to-physical-radius recovery. No helium scaling, distance normalization, persistence fitting, or blind outcomes."
+}
