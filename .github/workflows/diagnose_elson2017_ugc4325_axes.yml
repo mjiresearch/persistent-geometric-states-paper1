@@ -1,0 +1,36 @@
+name: Diagnose Elson 2017 UGC4325 axes
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/diagnose_elson2017_ugc4325_axes.py'
+      - '.github/workflows/diagnose_elson2017_ugc4325_axes.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --disable-pip-version-check pymupdf
+      - name: Diagnose UGC4325 vector axes
+        run: python scripts/stationary/diagnose_elson2017_ugc4325_axes.py
+      - name: Commit diagnostic
+        run: |
+          git config user.name "mjiresearch"
+          git config user.email "michael.iuliano.research@gmail.com"
+          git add validation/stationary/elson2017_ugc4325_axis_diagnostic_v1.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Record UGC4325 vector-axis diagnostic"
+            git push
+          fi
