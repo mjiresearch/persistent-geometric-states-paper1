@@ -1,0 +1,41 @@
+name: Audit Bluedisk SPARC overlap
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/audit_bluedisk_sparc_overlap.py'
+      - '.github/workflows/audit_bluedisk_sparc_overlap.yml'
+      - 'validation/stationary/stationary_split_v1.csv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Crossmatch Bluedisk coordinates against SPARC
+        run: python scripts/stationary/audit_bluedisk_sparc_overlap.py
+      - name: Show summary
+        run: cat validation/stationary/bluedisk_sparc_overlap_audit_v1_summary.json
+      - name: Commit audit products
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            data/stationary/source_reconstruction/bluedisk_sparc_overlap_audit_v1.csv \
+            validation/stationary/bluedisk_sparc_overlap_audit_v1_summary.json
+          if git diff --cached --quiet; then
+            echo "No audit changes to commit."
+          else
+            git commit -m "Audit Bluedisk overlap with frozen SPARC sample"
+            git push origin HEAD:main
+          fi
