@@ -1,0 +1,412 @@
+{
+  "status": "EL10_NGC2915_HI_PROFILE_ROUTE_AUDIT_COMPLETE",
+  "source": "Elson, de Blok & Kraan-Korteweg 2010 MNRAS 404 2061; arXiv:1002.0403",
+  "source_fetch_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/1002.0403",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/1002.0403",
+      "content_type": "application/gzip",
+      "bytes": 4533415
+    }
+  ],
+  "source_package_sha256": "a370421fee4055cdcf6133c6dcc285ada2e4c0096d440ca78f8c6b0a74a5afd0",
+  "n_source_files": 18,
+  "file_inventory": [
+    {
+      "name": "10as_17as_vrotsV2.eps",
+      "bytes": 58917,
+      "sha256": "1df1d0a15acff65a8684b817b0e8856e3b0bda21f91e4c4700fd205b328517be",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "17as_channel_maps_23_45V2.eps",
+      "bytes": 3156888,
+      "sha256": "46151565b77b8147618d1011369eba5b0c23f8d7c7b60b8af7005688a77d72ca",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "17as_channel_maps_47_69V2.eps",
+      "bytes": 3156590,
+      "sha256": "e9381b772c8b40ab2de5d034a6c35baa370f02284d4a6458a903c5c7e5aefdd6",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "HI_disp_profile_paperV2.eps",
+      "bytes": 36890,
+      "sha256": "dab17e1e0df08a0f889abd210c00d281982887781aa895d9de603170365067dc",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "HI_surface_density_profileV2.eps",
+      "bytes": 36708,
+      "sha256": "54ffc20ffc08a3320d6ff1e9b4c8dff63378c4969e2e9ebc10f0cfed22958ced",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "THINGS_mm_paperV2.eps",
+      "bytes": 27563,
+      "sha256": "7101a05e6a22f8b26e0903ba84987351d9d164a1989e04de4d3379b9d822a349",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "TR_resultsV2.eps",
+      "bytes": 161696,
+      "sha256": "7190ab125a9a0e54fc1ddad76a925be7d89c5d268a9efd37c009ba74516cb757",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "globalHI_paperV2.eps",
+      "bytes": 22873,
+      "sha256": "b3faada577e6f3eb31860e92a4155a45185e5fb41b054d382c2f466eda73fc4f",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "irac_paperV2.eps",
+      "bytes": 88308,
+      "sha256": "d91a12e17f9efdb85dd61e28adb3cfa81256d42f6c1806621fca3aacae56f1d2",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "main_eps.tex",
+      "bytes": 97828,
+      "sha256": "7502fc93e7a389c48894d9859a75581c5053335f1ab8c6f13efae6194c7301f5",
+      "suffixes": [
+        ".tex"
+      ]
+    },
+    {
+      "name": "mn2e.cls",
+      "bytes": 50683,
+      "sha256": "5c5c40af773db9ce4d314d53b7daf24be1702055b0df9055c0de9fcab77346c9",
+      "suffixes": [
+        ".cls"
+      ]
+    },
+    {
+      "name": "mom0_paperV2.eps",
+      "bytes": 1027052,
+      "sha256": "990b7b899455f9678874bb6861d6251f9c34850d9c545bd4a4af6d3ddf34796c",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "mom1_paperV2.eps",
+      "bytes": 650961,
+      "sha256": "afd269ddbda553fc4e9cb8cb9b81760be9c3b7bc3842a578634a74e54cd2c90a",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "mom2_paperV2.eps",
+      "bytes": 975278,
+      "sha256": "2bd0e67f66bcbe7f3b6196b7aa84642bcc47db825d264ce56e39b980fce0e5e2",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "non_gauss_lines_paperV2.eps",
+      "bytes": 373732,
+      "sha256": "9ff5fc5b78235862474551da85f720ba10c5809bd329161e7f7cf797fc0dc7e6",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "pv_overlays_SI_paperV2.eps",
+      "bytes": 995014,
+      "sha256": "91b4f624a2b7cbef48125707cd289fa982ea3dac666edc5e1c21ab5a6ede1598",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "rotmas_results_paperV2.eps",
+      "bytes": 201078,
+      "sha256": "decdfe47e2de911c4ba2f94cee54b9789aadd8e8aeaf54442761b65cbf52fa57",
+      "suffixes": [
+        ".eps"
+      ]
+    },
+    {
+      "name": "vrot_app_recV2.eps",
+      "bytes": 48711,
+      "sha256": "9d3e8fe3ff1d0cdfbedd98ab8418eb28e07895e2881362b9d7b4761e96febf25",
+      "suffixes": [
+        ".eps"
+      ]
+    }
+  ],
+  "profile_contexts": [
+    {
+      "tex": "main_eps.tex",
+      "line": 337,
+      "context": "319: %-----------------------------------------------------------------------------------------------------------------------------------------------------------------\n320: \\subsection{Total intensity map}\\label{total_intensity}\n321: The full \\hi\\ total intensity map extracted from the NA \\hi\\ data cube is shown in the upper panel of Fig. \\ref{mom0}.  The edge of the \\hi\\ disk (the outer-most contour level) lies at $R\\sim$~510$''$ and therefore extends out to $R\\sim$~20 $B$-band scale lengths.  For comparative purposes the IRAC 3.6~\\micron\\ image of the stellar disk is shown in Fig. \\ref{IRAC_image}.  To determine the photometric centre we fitted ellipses to three 3.6~\\micron\\ flux density annuli near the edge of the old stellar disk.  A 3.6~\\micron\\ flux density contour at a level of 1.2~MJy~ster$^{-1}$, the average flux density of the second annulus, is shown in Fig.~\\ref{IRAC_image}.  The average flux densities of the other two annuli are 0.8 and 1.7~MJy~ster$^{-1}$.  The average centre position of the ellipses fitted to the flux density annuli, $\\alpha_{2000}$~=~09$^\\mathrm{h}$~26$^\\mathrm{m}$~12.611$^\\mathrm{s}$, $\\delta_{2000}$~=~$-76$\\deg~37$'$~37.80$''$,  was used to estimate the position of the photometric centre (shown as a cross in Fig.~\\ref{IRAC_image}).  For comparison, the 2MASS determination of the centre of the system is  $\\alpha_{2000}$~=~09$^\\mathrm{h}$~26$^\\mathrm{m}$~11.53$^\\mathrm{s}$, $\\delta_{2000}$~=~$-76$\\deg~37$'$~34.80$''$ \\citep{skrutskie_2006}.  To facilitate length-scale comparisons between IR and \\hi\\ images, an ellipse with semi-major axis length $a=50''$, roughly equal to the $R$-band $R_{25}$ radius determined by \\citet{meurer1}, is included in the figures.  In their study of the \\hi\\ content of 73 late-type dwarf galaxies, \\citet{WHISP_swaters} found that the ratio of the \\hi\\ extent to the optical diameter, defined as 6.4 disk scale lengths, is 1.8 $\\pm$ 0.8 on average.  The same ratio for NGC~2915 is $\\sim 3.4$, close to double that value.\n322: \n323: \\begin{figure}\n324: \t\\centering\n325: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{mom0_paperV2.eps}\n326: \t\\caption{Grey-scale plot of the \\hi\\ total-intensity map (top panel) with a zoom-in of the central region (bottom panel).  In both panels the intensity scale runs from 5~mJy~beam$^{-1}$~(white) to 0.2~Jy~beam$^{-1}$ (black).  Contour levels run from  10~--~60~mJy~beam$^{-1}$ in steps of 10~mJy~beam$^{-1}$ and from 80~--~230~mJy~beam$^{-1}$ in steps of 20~mJy~beam$^{-1}$.  The position of the photometric centre estimated using the 3.6~\\micron\\ image is marked with a cross.  The hatched circles in the lower corners represent the half power beam width of the synthesised beam.  The black and white ellipses have a semi-major axis length $a=50''$, an inclination $i=55^{\\circ}$, a position angle $PA=317^{\\circ}$ and a centre position equal to our determination of the photometric centre.  The solid black lines represent the position-velocity slices shown in Fig.~\\ref{pv_slices}.}\n327: \t\\label{mom0}\n328: \\end{figure}\n329: \n330: \\begin{figure}\n331: \t\\centering\n332: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{irac_paperV2.eps}\t\n333: \t\\caption{Grey scale plot of the 3.6~\\micron\\ IRAC Spitzer image.  The intensity scale runs from -0.2~MJy~ster$^{-1}$~(white) to 2.0~MJy~ster$^{-1}$~(black).  The single white contour is at a level of 1.2~MJy~ster$^{-1}$ and represents the average flux of one of three flux annuli used to estimate the position of the photometric centre.  The estimated photometric centre is marked with a cross.  The black ellipse is the same as that shown in Fig.~\\ref{mom0}}\n334: \t\\label{IRAC_image}\n335: \\end{figure}\n336: \n337: Our high-resolution \\hi\\ observations resolve the central regions of NGC~2915 into two distinct \\hi\\ concentrations (Fig.~\\ref{mom0}, lower panel).  Their centres are separated by $\\sim$~60$''$ (1.1~kpc) and have a combined mass of $\\sim 1.9\\times 10^7$~\\msun.  Also visible is a plume-like \\hi\\ feature to the North-West of these central \\hi\\ concentrations with a mass of $\\sim 2.8\\times 10^7$~\\msun.  The observed spiral structure of the outer disk is asymmetric: the arm beginning at the North-Western central \\hi\\ concentration can be traced over $\\sim$ 200$^{\\circ}$ in azimuthal angle while the arm beginning at the South-Eastern \\hi\\ concentration can be traced for only $\\sim$ 120$^{\\circ}$.  From the H\\,{\\sc i} total intensity map an azimuthally averaged, inclination-corrected H\\,{\\sc i} surface density profile was constructed.  Each ring has a width of $dR=17''$, a position angle (measured anti-clockwise from North to the receding major axis) of $PA=285^{\\circ}$ and an inclination of $i=55$\\deg.  The profile is shown in Fig. \\ref{surf_dens_prof}.\n338: \n339: In an attempt to better constrain the \\hi\\ distribution of NGC~2915, an \\hi\\ total intensity map was extracted from the RW \\hi\\ data cube.  For the sake of brevity this map is not shown here, yet it suffices to say that the higher spatial resolution confirms the above-mentioned nature of the central \\hi\\ concentrations.  However, the very low S/N ratio in the outer parts of this map yields it unsuitable for the study of low column density \\hi\\ features, with only the central-most \\hi\\ features standing out about the noise.  This map does not allow for a more accurate study of the \\hi\\ distribution and is therefore not discussed further.   %\\citet{WHISP_swaters} found the average \\hi\\ mass of their sample 73 late-type galaxies to be $\\sim 13.0\\times10^8$ \\msun.  Thirty one out of their 73 galaxies did, however, have a total \\hi\\ mass $\\le$ 5.0 $\\times$ 10$^8$ \\msun.\n340: \n341: %from /Volumes/PORTABLE/science/ngc2915/ellint2\n342: \\begin{figure}\n343: \t\\centering\n344: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{HI_surface_density_profileV2.eps}\t\n345: \t\\caption{\\hi\\ surface density radial profile.  All surface densities have been inclination-corrected.  Error bars represent the r.m.s. spread of the surface densities in each azimuthally averaged ring.}\n346: \t\\label{surf_dens_prof}\n347: \\end{figure}\n348: %------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n349: \\subsection{Velocity field}\\label{vel_field}\n350: The third-order Gauss-Hermite velocity field extracted from the NA \\hi\\ data cube is shown in Fig.~\\ref{mom1}.  The blank pixels in this map are those that were rejected by the fitting routine according to the criteria mentioned in Sec. \\ref{moment_maps}.  \\citet{THINGS_deblok} showed that the Gauss-Hermite parameterisation of a line profile gives a robust estimate of the peak-associated velocity of the profile.  Inner contours running approximately parallel to the kinematic minor axis are caused by $V(R)\\propto R$ rotation while the outer contours running radially away from the centre are due to a constant rotation speed.  The overall ``S-shaped'' distortion of the contours is indicative of a kinematic warp within the disk.  Small wiggles along the outer contours are caused by streaming gas motions.  The sharp kinks at inner radii suggest the presence of non-circular velocity components within the gas.  Finally, differences in the shapes of the iso-velocity contours on the receding and approaching halves of the galaxy suggest a certain degree of kinematic lopsidedness within the galaxy.  \n351: \n352: A third-order Gauss-Hermite velocity field was also extracted from the RW \\hi\\ data cube.  Due to the high noise levels in the RW \\hi\\ cube, most line profiles were rejected by the fitting filters and hence not fitted.  The general characteristics of the fitted peaks of the remaining profiles are very similar to those of the NA velocity field, differing on average by $\\sim 5$~\\kms.   Rather than showing this \\hi\\ velocity field here, a tilted ring model is fitted to it in Sec.~\\ref{TR_output} to demonstrate that the resulting rotation curve is very similar to the one derived using the NA third-order Gauss-Hermite velocity field.   Motivated by this result is the decision to use only the NA velocity field for our kinematic analyses.\n353: \n354: \\begin{figure}\n355: \t\\centering\n356: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{mom1_paperV2.eps}\n357: \t\\caption{Top panel: Grey-scale plot of the third-order Gauss-Hermite H\\,{\\sc i} velocity field.  Bottom panel: A zoom-in of the central region.  The intensity scale runs from 300 -- 600 \\kms.  Contours are separated by 15 km s$^{-1}$ with the thick contour marking the systemic velocity at 465 km s$^{-1}$ derived by fitting a tilted ring model to the velocity field.  White and black contours represent receding and approaching halves of the galaxy respectively.  The hatched circles in the lower corners represent the half power beam width of the synthesised beam.  The ellipse is the same as that shown in Fig. \\ref{IRAC_image}.}\n358: \t\\label{mom1}"
+    },
+    {
+      "tex": "main_eps.tex",
+      "line": 345,
+      "context": "327: \t\\label{mom0}\n328: \\end{figure}\n329: \n330: \\begin{figure}\n331: \t\\centering\n332: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{irac_paperV2.eps}\t\n333: \t\\caption{Grey scale plot of the 3.6~\\micron\\ IRAC Spitzer image.  The intensity scale runs from -0.2~MJy~ster$^{-1}$~(white) to 2.0~MJy~ster$^{-1}$~(black).  The single white contour is at a level of 1.2~MJy~ster$^{-1}$ and represents the average flux of one of three flux annuli used to estimate the position of the photometric centre.  The estimated photometric centre is marked with a cross.  The black ellipse is the same as that shown in Fig.~\\ref{mom0}}\n334: \t\\label{IRAC_image}\n335: \\end{figure}\n336: \n337: Our high-resolution \\hi\\ observations resolve the central regions of NGC~2915 into two distinct \\hi\\ concentrations (Fig.~\\ref{mom0}, lower panel).  Their centres are separated by $\\sim$~60$''$ (1.1~kpc) and have a combined mass of $\\sim 1.9\\times 10^7$~\\msun.  Also visible is a plume-like \\hi\\ feature to the North-West of these central \\hi\\ concentrations with a mass of $\\sim 2.8\\times 10^7$~\\msun.  The observed spiral structure of the outer disk is asymmetric: the arm beginning at the North-Western central \\hi\\ concentration can be traced over $\\sim$ 200$^{\\circ}$ in azimuthal angle while the arm beginning at the South-Eastern \\hi\\ concentration can be traced for only $\\sim$ 120$^{\\circ}$.  From the H\\,{\\sc i} total intensity map an azimuthally averaged, inclination-corrected H\\,{\\sc i} surface density profile was constructed.  Each ring has a width of $dR=17''$, a position angle (measured anti-clockwise from North to the receding major axis) of $PA=285^{\\circ}$ and an inclination of $i=55$\\deg.  The profile is shown in Fig. \\ref{surf_dens_prof}.\n338: \n339: In an attempt to better constrain the \\hi\\ distribution of NGC~2915, an \\hi\\ total intensity map was extracted from the RW \\hi\\ data cube.  For the sake of brevity this map is not shown here, yet it suffices to say that the higher spatial resolution confirms the above-mentioned nature of the central \\hi\\ concentrations.  However, the very low S/N ratio in the outer parts of this map yields it unsuitable for the study of low column density \\hi\\ features, with only the central-most \\hi\\ features standing out about the noise.  This map does not allow for a more accurate study of the \\hi\\ distribution and is therefore not discussed further.   %\\citet{WHISP_swaters} found the average \\hi\\ mass of their sample 73 late-type galaxies to be $\\sim 13.0\\times10^8$ \\msun.  Thirty one out of their 73 galaxies did, however, have a total \\hi\\ mass $\\le$ 5.0 $\\times$ 10$^8$ \\msun.\n340: \n341: %from /Volumes/PORTABLE/science/ngc2915/ellint2\n342: \\begin{figure}\n343: \t\\centering\n344: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{HI_surface_density_profileV2.eps}\t\n345: \t\\caption{\\hi\\ surface density radial profile.  All surface densities have been inclination-corrected.  Error bars represent the r.m.s. spread of the surface densities in each azimuthally averaged ring.}\n346: \t\\label{surf_dens_prof}\n347: \\end{figure}\n348: %------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n349: \\subsection{Velocity field}\\label{vel_field}\n350: The third-order Gauss-Hermite velocity field extracted from the NA \\hi\\ data cube is shown in Fig.~\\ref{mom1}.  The blank pixels in this map are those that were rejected by the fitting routine according to the criteria mentioned in Sec. \\ref{moment_maps}.  \\citet{THINGS_deblok} showed that the Gauss-Hermite parameterisation of a line profile gives a robust estimate of the peak-associated velocity of the profile.  Inner contours running approximately parallel to the kinematic minor axis are caused by $V(R)\\propto R$ rotation while the outer contours running radially away from the centre are due to a constant rotation speed.  The overall ``S-shaped'' distortion of the contours is indicative of a kinematic warp within the disk.  Small wiggles along the outer contours are caused by streaming gas motions.  The sharp kinks at inner radii suggest the presence of non-circular velocity components within the gas.  Finally, differences in the shapes of the iso-velocity contours on the receding and approaching halves of the galaxy suggest a certain degree of kinematic lopsidedness within the galaxy.  \n351: \n352: A third-order Gauss-Hermite velocity field was also extracted from the RW \\hi\\ data cube.  Due to the high noise levels in the RW \\hi\\ cube, most line profiles were rejected by the fitting filters and hence not fitted.  The general characteristics of the fitted peaks of the remaining profiles are very similar to those of the NA velocity field, differing on average by $\\sim 5$~\\kms.   Rather than showing this \\hi\\ velocity field here, a tilted ring model is fitted to it in Sec.~\\ref{TR_output} to demonstrate that the resulting rotation curve is very similar to the one derived using the NA third-order Gauss-Hermite velocity field.   Motivated by this result is the decision to use only the NA velocity field for our kinematic analyses.\n353: \n354: \\begin{figure}\n355: \t\\centering\n356: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{mom1_paperV2.eps}\n357: \t\\caption{Top panel: Grey-scale plot of the third-order Gauss-Hermite H\\,{\\sc i} velocity field.  Bottom panel: A zoom-in of the central region.  The intensity scale runs from 300 -- 600 \\kms.  Contours are separated by 15 km s$^{-1}$ with the thick contour marking the systemic velocity at 465 km s$^{-1}$ derived by fitting a tilted ring model to the velocity field.  White and black contours represent receding and approaching halves of the galaxy respectively.  The hatched circles in the lower corners represent the half power beam width of the synthesised beam.  The ellipse is the same as that shown in Fig. \\ref{IRAC_image}.}\n358: \t\\label{mom1}\n359: \\end{figure}\n360: %------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n361: \\subsection{Second-order moment map}\\label{disp_map}\n362: The second-order \\hi\\ moment map extracted from the NA \\hi\\ data cube is shown in Fig.~\\ref{mom2}.  The highest second-order moments are found near the stellar core of the galaxy.  The radial profile of the second-order moment map is shown in Fig.~\\ref{disp_prof}.  If the second-order moments are interpreted as a measure of the gas velocity dispersion, then the average outer disk dispersion of $\\sigma_{gas}\\sim$ 10 km s$^{-1}$ is close to the constant gas velocity dispersion value of  $\\sigma_{gas}=11$~\\kms\\ found by \\citet{leroy_THINGS} for a sample of THINGS dwarf galaxies.\n363: \n364: \\begin{figure}\n365: \t\\centering\n366: \t\\includegraphics[angle=0,width=1.0\\columnwidth]{mom2_paperV2.eps}"
+    },
+    {
+      "tex": "main_eps.tex",
+      "line": 477,
+      "context": "459:  \t\\includegraphics[width=1\\columnwidth]{10as_17as_vrotsV2.eps}\n460: \t\\caption{The model SI rotation curve (open circles) compared to the rotation curve derived by fitting a tilted ring model to the \\hi\\ velocity field extracted from the RW  \\hi\\ data cubes (black filled circles).   Error bars represent the r.m.s. spread of the velocities in a single ring of the tilited ring model fitted to the RW velocity field.  For the sake of clarity, error bars are not shown for the model SI rotation curve.}\n461: \t\\label{10as_17as_vrots}\n462: \t\\end{centering}\n463: \\end{figure}\n464: %-----------------------------------------------------------------------------------------------------------------------------------------------------------------\n465: \\section{Mass modeling}\\label{mass_modeling}\n466: %Their low stellar surface densities allow their rotation curves to be an almost direct measure of the distribution of DM.  They therefore allow us to test more directly the predictions of numerical cold dark matter simulations.\n467: Dwarf galaxies such as NGC 2915 serve as useful probes of dark matter (DM).  In this section we derive two mass models for NGC 2915, one for each of the tilted ring models CI and SI.\n468: \n469: The gravitational potential within a galaxy is determined by the combined gravitational potentials of all the mass components.  The derived 3.6~\\micron\\ surface brightness profile of NGC 2915 shows little deviation from an exponential light distribution at any radius.  We therefore concluded that the galaxy does not contain a significant central stellar bulge.  The total mass was treated as the sum of the masses of the stellar and gas disks as well as the DM halo.  Since $M\\propto V^2$ at a given $R$, the rotation curves of the individual mass components, when summed in quadrature, will yield the square of total rotation curve, $V_{tot}$:\n470: \\begin{equation}\n471: V_{tot}^2=\\alpha_{gas} V_{gas}^2+\\Upsilon_* V_*^2+V_{DM}^2,\n472: \\label{vtot} \n473: \\end{equation}\n474: where $V_{gas}$, $V_*$, and $V_{DM}$ are the contributions to the total rotation curve of the gas, the stars and the DM respectively.  $V_{tot}$ should match the observed rotation curve.  $\\Upsilon_*$ is the stellar mass-to-light ratio used to convert the observed distribution of star light to a stellar mass distribution while $\\alpha_{gas}=1.37$ is the scaling factor used for all mass models to take into account the contribution of helium to the rotation curve.\n475: %------------------------------------------------------------------------------------------------------------------------------------------------------------\n476: \\subsection{Gas and stellar distributions}\\label{bary_vrots}\n477: We used the GIPSY task ROTMOD \\citep{rotmod} to convert the observed mass distributions into rotation curves.  Each of the fitted tilted ring models (Sec. \\ref{TR_output}) was used together with the \\hi\\ total intensity map to yield an \\hi\\ surface density profile.  These profiles were used as ROTMOD input which, assuming an infinitely thin gas disk, yielded two different \\hi\\ rotation curves.  Ellipses fitted to 3.6~\\micron\\ surface brightness isophotes suggest a constant inclination of $i\\sim 55^{\\circ}$ for the old stellar population.  Using this inclination and a position angle of  306\\deg, a single surface density profile for this mass component was derived.  This surface density profile was extrapolated out to $R=510''$ to match the radial extent of the observed rotation curve, and then converted into a stellar rotation curve assuming a $\\sec$h$^2$ vertical distribution \\citep{van_der_kruit_1981} and $h/z_0=5$, yielding $z_0=0.12$~kpc.  \n478: \n479: In principle the DM density distribution of a suitably rotating system can be determined knowing the contributions to the observed rotation curve from the gas and the stars.  The \\hi\\ rotation curve is directly related to the observed \\hi\\ distribution, assuming that the \\hi\\ is optically thin.  The situation is not as simple for the stellar component of a galaxy, however, since a stellar mass-to-light ratio is needed to link the stellar light and mass distributions.  Determining the stellar mass-to-light ratio from the rotation curve alone is problematic.  Given an observed rotation curve, equally well-fitted mass models can be obtained for a range of stellar mass-to-light ratios \\citep[e.g.][]{van_albada_1985,swaters_thesis}.  This degeneracy therefore leads to uncertainties in stellar mass-to-light ratios determined solely by rotation curves.\n480: \n481: \\citet{bell_dejong} used spectroscopic and photometric spiral galaxy evolution models to show that a reasonable correlation exists between the optical and infrared stellar mass-to-light ratios and the colours of integrated stellar populations.  They further showed that the relative trends between model stellar mass-to-light ratios and colours are fairly insensitive to uncertainties in stellar population and galaxy evolution modeling.  \\citet{THINGS_oh} used stellar population synthesis models (together with a scaled Salpeter 1955 IMF) to determine a relationship between the stellar mass-to-light ratios in the 3.6~\\micron\\ and $K$ bands ($\\Upsilon_*^{3.6}$ and $\\Upsilon_*^K$  respectively):\n482: \\begin{equation}\n483: \\Upsilon_*^{3.6}=0.92\\times \\Upsilon_*^K-0.05.\n484: \\label{emp_ML}\n485: \\end{equation}\n486: From \\citet{bell_dejong}, the relation between the $B-V$ colours and the $K$-band mass-to-light ratio is\n487: \\begin{equation}\n488: \\log_{10}\\left(\\Upsilon_*^K\\right)=b^K\\times (B-V)+a^k,\n489: \\label{k-colour}\n490: \\end{equation}\n491: where $a^K$ and $b^k$ for varying colours and metallicities are provided in their Table 4.  By combining these two equations we can estimate the stellar mass-to-light ratio at 3.6~\\micron.  We use $a^K=-0.59$ and $b^K=0.60$ for $B-V$ colours as used by \\citet{THINGS_oh} for IC 2574, the justification being that IC~2574 is also a low metallicity, star-forming dwarf galaxy with $B-V\\sim 0.6$, much like NGC 2915.  $B-V\\sim 0.3 \\pm 0.2$ for NGC~2915 \\citep{RC3,schlegel} thereby yielding (from Eqn.~\\ref{k-colour}) $\\Upsilon_*^K\\approx 0.39$.  Substituting this value into Eqn. \\ref{emp_ML} yields $\\Upsilon_*^{3.6}\\approx 0.3$.  \\citet{leroy_THINGS}, applying the \\citet{bell_et_al_2003} relation between $B-V$ colour and $\\Upsilon_*^K$ and assuming a \\cite{kroupa_IMF} IMF, found $\\Upsilon_*^K=~0.48-0.60$ for the $K-$band stellar mass-to-light ratios of all of the THINGS galaxies in their sample.\n492: \n493: %---------------------------------------------------------------------------------------------------------------------\n494: \\subsection{Dark matter halos}\n495: The way in which dark matter is distributed on galactic length-scales has been a topic of much debate.  Over the past decade, the constant increase in computational power has allowed detailed $N$-body simulations of the clustering properties of cold dark matter particles to be carried out.  One of the first large-scale studies was carried out by \\citet{NFW} in which they studied the equilibrium density profiles of dark matter halos in a hierarchial galaxy clustering scenario.  Their results suggested the existence of a ``universal dark matter density profile'' \\citep{NFW_1997} which is independent of clustering scale, mass or size as well as the power spectrum of initial fluctuations.  Their parameterisation of this universal profile is\n496: \\begin{equation}\n497: {\\rho(r)_{NFW}\\over \\rho_{crit}}= {\\delta_c \\over {(r/r_s)(1+r/r_s)^2}}\n498: \\end{equation}"
+    }
+  ],
+  "candidate_profile_assets": [
+    {
+      "name": "10as_17as_vrotsV2.eps",
+      "bytes": 58917,
+      "sha256": "1df1d0a15acff65a8684b817b0e8856e3b0bda21f91e4c4700fd205b328517be",
+      "extension": ".eps",
+      "magic_hex": "252150532d41646f62652d332e302045",
+      "ps_audit": {
+        "bytes": 58917,
+        "sha256": "1df1d0a15acff65a8684b817b0e8856e3b0bda21f91e4c4700fd205b328517be",
+        "image_ops": 2,
+        "colorimage_ops": 1,
+        "imagemask_ops": 2,
+        "moveto": 2,
+        "lineto": 4,
+        "rlineto": 3,
+        "curveto": 1,
+        "stroke": 2,
+        "fill": 3,
+        "one_letter": {
+          "M": 1,
+          "R": 0,
+          "P": 7,
+          "D": 0,
+          "F": 6,
+          "L": 0,
+          "m": 2,
+          "l": 1,
+          "p": 3,
+          "s": 1
+        }
+      }
+    },
+    {
+      "name": "HI_disp_profile_paperV2.eps",
+      "bytes": 36890,
+      "sha256": "dab17e1e0df08a0f889abd210c00d281982887781aa895d9de603170365067dc",
+      "extension": ".eps",
+      "magic_hex": "252150532d41646f62652d332e302045",
+      "ps_audit": {
+        "bytes": 36890,
+        "sha256": "dab17e1e0df08a0f889abd210c00d281982887781aa895d9de603170365067dc",
+        "image_ops": 2,
+        "colorimage_ops": 1,
+        "imagemask_ops": 2,
+        "moveto": 2,
+        "lineto": 4,
+        "rlineto": 3,
+        "curveto": 1,
+        "stroke": 2,
+        "fill": 3,
+        "one_letter": {
+          "M": 1,
+          "R": 0,
+          "P": 7,
+          "D": 0,
+          "F": 6,
+          "L": 0,
+          "m": 2,
+          "l": 1,
+          "p": 3,
+          "s": 1
+        }
+      }
+    },
+    {
+      "name": "HI_surface_density_profileV2.eps",
+      "bytes": 36708,
+      "sha256": "54ffc20ffc08a3320d6ff1e9b4c8dff63378c4969e2e9ebc10f0cfed22958ced",
+      "extension": ".eps",
+      "magic_hex": "252150532d41646f62652d332e302045",
+      "ps_audit": {
+        "bytes": 36708,
+        "sha256": "54ffc20ffc08a3320d6ff1e9b4c8dff63378c4969e2e9ebc10f0cfed22958ced",
+        "image_ops": 2,
+        "colorimage_ops": 1,
+        "imagemask_ops": 2,
+        "moveto": 2,
+        "lineto": 4,
+        "rlineto": 3,
+        "curveto": 1,
+        "stroke": 2,
+        "fill": 3,
+        "one_letter": {
+          "M": 1,
+          "R": 0,
+          "P": 7,
+          "D": 0,
+          "F": 6,
+          "L": 0,
+          "m": 2,
+          "l": 1,
+          "p": 3,
+          "s": 1
+        }
+      }
+    },
+    {
+      "name": "irac_paperV2.eps",
+      "bytes": 88308,
+      "sha256": "d91a12e17f9efdb85dd61e28adb3cfa81256d42f6c1806621fca3aacae56f1d2",
+      "extension": ".eps",
+      "magic_hex": "252150532d41646f62652d332e302045",
+      "ps_audit": {
+        "bytes": 88308,
+        "sha256": "d91a12e17f9efdb85dd61e28adb3cfa81256d42f6c1806621fca3aacae56f1d2",
+        "image_ops": 3,
+        "colorimage_ops": 1,
+        "imagemask_ops": 2,
+        "moveto": 2,
+        "lineto": 4,
+        "rlineto": 3,
+        "curveto": 1,
+        "stroke": 2,
+        "fill": 3,
+        "one_letter": {
+          "M": 1,
+          "R": 28,
+          "P": 41,
+          "D": 17,
+          "F": 10,
+          "L": 42,
+          "m": 5,
+          "l": 228,
+          "p": 5,
+          "s": 2
+        }
+      }
+    },
+    {
+      "name": "mom0_paperV2.eps",
+      "bytes": 1027052,
+      "sha256": "990b7b899455f9678874bb6861d6251f9c34850d9c545bd4a4af6d3ddf34796c",
+      "extension": ".eps",
+      "magic_hex": "252150532d41646f62652d332e302045",
+      "ps_audit": {
+        "bytes": 1027052,
+        "sha256": "990b7b899455f9678874bb6861d6251f9c34850d9c545bd4a4af6d3ddf34796c",
+        "image_ops": 6,
+        "colorimage_ops": 1,
+        "imagemask_ops": 2,
+        "moveto": 2,
+        "lineto": 4,
+        "rlineto": 3,
+        "curveto": 1,
+        "stroke": 2,
+        "fill": 3,
+        "one_letter": {
+          "M": 58,
+          "R": 126,
+          "P": 186,
+          "D": 102,
+          "F": 116,
+          "L": 73,
+          "m": 82,
+          "l": 41,
+          "p": 187,
+          "s": 60
+        }
+      }
+    },
+    {
+      "name": "mom1_paperV2.eps",
+      "bytes": 650961,
+      "sha256": "afd269ddbda553fc4e9cb8cb9b81760be9c3b7bc3842a578634a74e54cd2c90a",
+      "extension": ".eps",
+      "magic_hex": "252150532d41646f62652d332e302045",
+      "ps_audit": {
+        "bytes": 650961,
+        "sha256": "afd269ddbda553fc4e9cb8cb9b81760be9c3b7bc3842a578634a74e54cd2c90a",
+        "image_ops": 6,
+        "colorimage_ops": 1,
+        "imagemask_ops": 2,
+        "moveto": 2,
+        "lineto": 4,
+        "rlineto": 3,
+        "curveto": 1,
+        "stroke": 2,
+        "fill": 3,
+        "one_letter": {
+          "M": 144,
+          "R": 199,
+          "P": 194,
+          "D": 177,
+          "F": 170,
+          "L": 70,
+          "m": 67,
+          "l": 143,
+          "p": 90,
+          "s": 453
+        }
+      }
+    },
+    {
+      "name": "mom2_paperV2.eps",
+      "bytes": 975278,
+      "sha256": "2bd0e67f66bcbe7f3b6196b7aa84642bcc47db825d264ce56e39b980fce0e5e2",
+      "extension": ".eps",
+      "magic_hex": "252150532d41646f62652d332e302045",
+      "ps_audit": {
+        "bytes": 975278,
+        "sha256": "2bd0e67f66bcbe7f3b6196b7aa84642bcc47db825d264ce56e39b980fce0e5e2",
+        "image_ops": 5,
+        "colorimage_ops": 1,
+        "imagemask_ops": 2,
+        "moveto": 2,
+        "lineto": 4,
+        "rlineto": 3,
+        "curveto": 1,
+        "stroke": 2,
+        "fill": 3,
+        "one_letter": {
+          "M": 77,
+          "R": 71,
+          "P": 60,
+          "D": 30,
+          "F": 48,
+          "L": 50,
+          "m": 79,
+          "l": 88,
+          "p": 26,
+          "s": 96
+        }
+      }
+    }
+  ],
+  "numeric_sidecar_candidates": [],
+  "decision_fields": {
+    "n_candidate_profile_assets": 7,
+    "n_numeric_sidecars": 0,
+    "any_ps_vector_signal": true,
+    "any_ps_raster_signal": true
+  },
+  "boundary": "Source-asset audit only; no rendering, PostScript execution, OCR, raster digitization, map/cube reconstruction, helium correction, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
