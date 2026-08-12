@@ -1,0 +1,21 @@
+{
+  "status": "HA14_DENSITY_Z_MARKER_EXTRACTION_COMPLETE",
+  "asset_sha256": "40c1b8d7e2690d0c884fff56e000be8ffb2eac598278512c17896c9d29cf58f7",
+  "z_definition": "/Z {gsave currentpoint lineto 20 setlinewidth 1 setlinecap stroke grestore}",
+  "n_z_markers": 0,
+  "all_markers": [],
+  "black_markers_inside_plot": {
+    "UGC09037": [],
+    "UGC12506": []
+  },
+  "unique_black_markers_inside_plot": {
+    "UGC09037": [],
+    "UGC12506": []
+  },
+  "n_p_segments": 0,
+  "black_p_segments_inside_plot": {
+    "UGC09037": [],
+    "UGC12506": []
+  },
+  "boundary": "Static IDL alias interpretation only; no PostScript execution, OCR, raster digitization, map reconstruction, normalization, persistence fitting, or blind-outcome inspection."
+}
