@@ -1,0 +1,1455 @@
+{
+  "status": "GE04_FIG2_VECTOR_STRUCTURE_INSPECTED",
+  "asset_sha256": "a5466d2a2d492850d49cc6e11e0785735d76d7651a27a24550e8d8a29ecc4591",
+  "n_lines": 10639,
+  "top_level_bounding_boxes": [
+    {
+      "line": 6,
+      "text": "%%BoundingBox: 0 0 229 724"
+    },
+    {
+      "line": 113,
+      "text": "%%BoundingBox: 18 144 588 490"
+    },
+    {
+      "line": 2224,
+      "text": "%%BoundingBox: 18 144 588 490"
+    },
+    {
+      "line": 4181,
+      "text": "%%BoundingBox: 18 144 588 490"
+    },
+    {
+      "line": 6412,
+      "text": "%%BoundingBox: 18 144 588 490"
+    },
+    {
+      "line": 8545,
+      "text": "%%BoundingBox: 18 144 588 490"
+    }
+  ],
+  "procedure_definitions": [
+    {
+      "line": 12,
+      "text": "/col-1 {0 setgray} bind def"
+    },
+    {
+      "line": 13,
+      "text": "/col0 {0.000 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 14,
+      "text": "/col1 {0.000 0.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 15,
+      "text": "/col2 {0.000 1.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 16,
+      "text": "/col3 {0.000 1.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 17,
+      "text": "/col4 {1.000 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 18,
+      "text": "/col5 {1.000 0.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 19,
+      "text": "/col6 {1.000 1.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 20,
+      "text": "/col7 {1.000 1.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 21,
+      "text": "/col8 {0.000 0.000 0.560 srgb} bind def"
+    },
+    {
+      "line": 22,
+      "text": "/col9 {0.000 0.000 0.690 srgb} bind def"
+    },
+    {
+      "line": 23,
+      "text": "/col10 {0.000 0.000 0.820 srgb} bind def"
+    },
+    {
+      "line": 24,
+      "text": "/col11 {0.530 0.810 1.000 srgb} bind def"
+    },
+    {
+      "line": 25,
+      "text": "/col12 {0.000 0.560 0.000 srgb} bind def"
+    },
+    {
+      "line": 26,
+      "text": "/col13 {0.000 0.690 0.000 srgb} bind def"
+    },
+    {
+      "line": 27,
+      "text": "/col14 {0.000 0.820 0.000 srgb} bind def"
+    },
+    {
+      "line": 28,
+      "text": "/col15 {0.000 0.560 0.560 srgb} bind def"
+    },
+    {
+      "line": 29,
+      "text": "/col16 {0.000 0.690 0.690 srgb} bind def"
+    },
+    {
+      "line": 30,
+      "text": "/col17 {0.000 0.820 0.820 srgb} bind def"
+    },
+    {
+      "line": 31,
+      "text": "/col18 {0.560 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 32,
+      "text": "/col19 {0.690 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 33,
+      "text": "/col20 {0.820 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 34,
+      "text": "/col21 {0.560 0.000 0.560 srgb} bind def"
+    },
+    {
+      "line": 35,
+      "text": "/col22 {0.690 0.000 0.690 srgb} bind def"
+    },
+    {
+      "line": 36,
+      "text": "/col23 {0.820 0.000 0.820 srgb} bind def"
+    },
+    {
+      "line": 37,
+      "text": "/col24 {0.500 0.190 0.000 srgb} bind def"
+    },
+    {
+      "line": 38,
+      "text": "/col25 {0.630 0.250 0.000 srgb} bind def"
+    },
+    {
+      "line": 39,
+      "text": "/col26 {0.750 0.380 0.000 srgb} bind def"
+    },
+    {
+      "line": 40,
+      "text": "/col27 {1.000 0.500 0.500 srgb} bind def"
+    },
+    {
+      "line": 41,
+      "text": "/col28 {1.000 0.630 0.630 srgb} bind def"
+    },
+    {
+      "line": 42,
+      "text": "/col29 {1.000 0.750 0.750 srgb} bind def"
+    },
+    {
+      "line": 43,
+      "text": "/col30 {1.000 0.880 0.880 srgb} bind def"
+    },
+    {
+      "line": 44,
+      "text": "/col31 {1.000 0.840 0.000 srgb} bind def"
+    },
+    {
+      "line": 52,
+      "text": "/cp {closepath} bind def"
+    },
+    {
+      "line": 53,
+      "text": "/ef {eofill} bind def"
+    },
+    {
+      "line": 54,
+      "text": "/gr {grestore} bind def"
+    },
+    {
+      "line": 55,
+      "text": "/gs {gsave} bind def"
+    },
+    {
+      "line": 56,
+      "text": "/sa {save} bind def"
+    },
+    {
+      "line": 57,
+      "text": "/rs {restore} bind def"
+    },
+    {
+      "line": 58,
+      "text": "/l {lineto} bind def"
+    },
+    {
+      "line": 59,
+      "text": "/m {moveto} bind def"
+    },
+    {
+      "line": 60,
+      "text": "/rm {rmoveto} bind def"
+    },
+    {
+      "line": 61,
+      "text": "/n {newpath} bind def"
+    },
+    {
+      "line": 62,
+      "text": "/s {stroke} bind def"
+    },
+    {
+      "line": 63,
+      "text": "/sh {show} bind def"
+    },
+    {
+      "line": 64,
+      "text": "/slc {setlinecap} bind def"
+    },
+    {
+      "line": 65,
+      "text": "/slj {setlinejoin} bind def"
+    },
+    {
+      "line": 66,
+      "text": "/slw {setlinewidth} bind def"
+    },
+    {
+      "line": 67,
+      "text": "/srgb {setrgbcolor} bind def"
+    },
+    {
+      "line": 68,
+      "text": "/rot {rotate} bind def"
+    },
+    {
+      "line": 69,
+      "text": "/sc {scale} bind def"
+    },
+    {
+      "line": 70,
+      "text": "/sd {setdash} bind def"
+    },
+    {
+      "line": 71,
+      "text": "/ff {findfont} bind def"
+    },
+    {
+      "line": 72,
+      "text": "/sf {setfont} bind def"
+    },
+    {
+      "line": 73,
+      "text": "/scf {scalefont} bind def"
+    },
+    {
+      "line": 74,
+      "text": "/sw {stringwidth} bind def"
+    },
+    {
+      "line": 75,
+      "text": "/tr {translate} bind def"
+    },
+    {
+      "line": 109,
+      "text": "/showpage {} def"
+    },
+    {
+      "line": 120,
+      "text": "/B {CS newpath moveto} def"
+    },
+    {
+      "line": 121,
+      "text": "/F {moveto 0 setlinecap} def"
+    },
+    {
+      "line": 122,
+      "text": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def"
+    },
+    {
+      "line": 123,
+      "text": "/CS {currentpoint stroke} def"
+    },
+    {
+      "line": 124,
+      "text": "/CF {currentpoint eofill} def"
+    },
+    {
+      "line": 125,
+      "text": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def"
+    },
+    {
+      "line": 126,
+      "text": "/P {moveto 0 1 rlineto stroke} def"
+    },
+    {
+      "line": 127,
+      "text": "/T {currentlinecap exch 1 setlinecap show setlinecap} def"
+    },
+    {
+      "line": 136,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 139,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 1132,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 1889,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 2220,
+      "text": "/showpage {} def"
+    },
+    {
+      "line": 2231,
+      "text": "/B {CS newpath moveto} def"
+    },
+    {
+      "line": 2232,
+      "text": "/F {moveto 0 setlinecap} def"
+    },
+    {
+      "line": 2233,
+      "text": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def"
+    },
+    {
+      "line": 2234,
+      "text": "/CS {currentpoint stroke} def"
+    },
+    {
+      "line": 2235,
+      "text": "/CF {currentpoint eofill} def"
+    },
+    {
+      "line": 2236,
+      "text": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def"
+    },
+    {
+      "line": 2237,
+      "text": "/P {moveto 0 1 rlineto stroke} def"
+    },
+    {
+      "line": 2238,
+      "text": "/T {currentlinecap exch 1 setlinecap show setlinecap} def"
+    },
+    {
+      "line": 2247,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 2250,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 3142,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 3879,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 4177,
+      "text": "/showpage {} def"
+    },
+    {
+      "line": 4188,
+      "text": "/B {CS newpath moveto} def"
+    },
+    {
+      "line": 4189,
+      "text": "/F {moveto 0 setlinecap} def"
+    },
+    {
+      "line": 4190,
+      "text": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def"
+    },
+    {
+      "line": 4191,
+      "text": "/CS {currentpoint stroke} def"
+    },
+    {
+      "line": 4192,
+      "text": "/CF {currentpoint eofill} def"
+    },
+    {
+      "line": 4193,
+      "text": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def"
+    },
+    {
+      "line": 4194,
+      "text": "/P {moveto 0 1 rlineto stroke} def"
+    },
+    {
+      "line": 4195,
+      "text": "/T {currentlinecap exch 1 setlinecap show setlinecap} def"
+    },
+    {
+      "line": 4204,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 4207,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 5367,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 6128,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 6408,
+      "text": "/showpage {} def"
+    },
+    {
+      "line": 6419,
+      "text": "/B {CS newpath moveto} def"
+    },
+    {
+      "line": 6420,
+      "text": "/F {moveto 0 setlinecap} def"
+    },
+    {
+      "line": 6421,
+      "text": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def"
+    },
+    {
+      "line": 6422,
+      "text": "/CS {currentpoint stroke} def"
+    },
+    {
+      "line": 6423,
+      "text": "/CF {currentpoint eofill} def"
+    },
+    {
+      "line": 6424,
+      "text": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def"
+    },
+    {
+      "line": 6425,
+      "text": "/P {moveto 0 1 rlineto stroke} def"
+    },
+    {
+      "line": 6426,
+      "text": "/T {currentlinecap exch 1 setlinecap show setlinecap} def"
+    },
+    {
+      "line": 6435,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 6438,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 7378,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 8194,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 8541,
+      "text": "/showpage {} def"
+    },
+    {
+      "line": 8552,
+      "text": "/B {CS newpath moveto} def"
+    },
+    {
+      "line": 8553,
+      "text": "/F {moveto 0 setlinecap} def"
+    },
+    {
+      "line": 8554,
+      "text": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def"
+    },
+    {
+      "line": 8555,
+      "text": "/CS {currentpoint stroke} def"
+    },
+    {
+      "line": 8556,
+      "text": "/CF {currentpoint eofill} def"
+    },
+    {
+      "line": 8557,
+      "text": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def"
+    },
+    {
+      "line": 8558,
+      "text": "/P {moveto 0 1 rlineto stroke} def"
+    },
+    {
+      "line": 8559,
+      "text": "/T {currentlinecap exch 1 setlinecap show setlinecap} def"
+    },
+    {
+      "line": 8568,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 8571,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 9364,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 10099,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    }
+  ],
+  "all_strings": [
+    "Gianfranco Gentile",
+    "setrgbcolor",
+    "pop pop pop",
+    "setrgbcolor",
+    "pop pop pop",
+    "setrgbcolor",
+    "pop pop pop",
+    "setrgbcolor",
+    "pop pop pop",
+    "setrgbcolor",
+    "pop pop pop"
+  ],
+  "n_top_level_begin_document_blocks": 5,
+  "blocks": [
+    {
+      "index": 1,
+      "start_line": 98,
+      "end_line": 2202,
+      "header": "%%BeginDocument: 116readradialgraph.mr.eps",
+      "bytes": 21021,
+      "sha256": "0a27f908c6487cdad8faa6c087d878c66ea97da7e23fbf70d1658f6fbadf1c2b",
+      "bounding_boxes": [
+        "%%BoundingBox: 18 144 588 490"
+      ],
+      "strings": [
+        "setrgbcolor",
+        "pop pop pop"
+      ],
+      "one_letter_counts": {
+        "M": 116,
+        "R": 0,
+        "P": 5,
+        "D": 0,
+        "F": 1,
+        "L": 171,
+        "m": 383,
+        "l": 1790,
+        "p": 0,
+        "s": 0,
+        "f": 0,
+        "S": 0
+      },
+      "explicit_ops": {
+        "moveto": 8,
+        "lineto": 1,
+        "rlineto": 6,
+        "curveto": 0,
+        "stroke": 7,
+        "fill": 0,
+        "arc": 0,
+        "newpath": 1
+      }
+    },
+    {
+      "index": 2,
+      "start_line": 2209,
+      "end_line": 4159,
+      "header": "%%BeginDocument: 79readradialgraph.mr.eps",
+      "bytes": 19653,
+      "sha256": "a6d105deffa6c87e37953c26077803e3300e79779c0721d20027c99611cb1c79",
+      "bounding_boxes": [
+        "%%BoundingBox: 18 144 588 490"
+      ],
+      "strings": [
+        "setrgbcolor",
+        "pop pop pop"
+      ],
+      "one_letter_counts": {
+        "M": 92,
+        "R": 0,
+        "P": 5,
+        "D": 0,
+        "F": 1,
+        "L": 153,
+        "m": 378,
+        "l": 1662,
+        "p": 0,
+        "s": 0,
+        "f": 0,
+        "S": 0
+      },
+      "explicit_ops": {
+        "moveto": 8,
+        "lineto": 1,
+        "rlineto": 6,
+        "curveto": 0,
+        "stroke": 7,
+        "fill": 0,
+        "arc": 0,
+        "newpath": 1
+      }
+    },
+    {
+      "index": 3,
+      "start_line": 4166,
+      "end_line": 6390,
+      "header": "%%BeginDocument: 7339readradialgraph.mr.eps",
+      "bytes": 21768,
+      "sha256": "29801f790ebd36949c30d3bbf16f1075c28b86a3d1a388d215b9b7b5016472f4",
+      "bounding_boxes": [
+        "%%BoundingBox: 18 144 588 490"
+      ],
+      "strings": [
+        "setrgbcolor",
+        "pop pop pop"
+      ],
+      "one_letter_counts": {
+        "M": 93,
+        "R": 0,
+        "P": 5,
+        "D": 0,
+        "F": 1,
+        "L": 144,
+        "m": 391,
+        "l": 1948,
+        "p": 0,
+        "s": 0,
+        "f": 0,
+        "S": 0
+      },
+      "explicit_ops": {
+        "moveto": 8,
+        "lineto": 1,
+        "rlineto": 6,
+        "curveto": 0,
+        "stroke": 7,
+        "fill": 0,
+        "arc": 0,
+        "newpath": 1
+      }
+    },
+    {
+      "index": 4,
+      "start_line": 6397,
+      "end_line": 8523,
+      "header": "%%BeginDocument: 287readradialgraph.mr.eps",
+      "bytes": 21189,
+      "sha256": "a10c5a6b3615911d0f5e929864a049d0cf25986e11a1fbd11cf6597f57cd1808",
+      "bounding_boxes": [
+        "%%BoundingBox: 18 144 588 490"
+      ],
+      "strings": [
+        "setrgbcolor",
+        "pop pop pop"
+      ],
+      "one_letter_counts": {
+        "M": 119,
+        "R": 0,
+        "P": 5,
+        "D": 0,
+        "F": 1,
+        "L": 180,
+        "m": 382,
+        "l": 1799,
+        "p": 0,
+        "s": 0,
+        "f": 0,
+        "S": 0
+      },
+      "explicit_ops": {
+        "moveto": 8,
+        "lineto": 1,
+        "rlineto": 6,
+        "curveto": 0,
+        "stroke": 7,
+        "fill": 0,
+        "arc": 0,
+        "newpath": 1
+      }
+    },
+    {
+      "index": 5,
+      "start_line": 8530,
+      "end_line": 10636,
+      "header": "%%BeginDocument: 1090readellintgraph.mr.eps",
+      "bytes": 21241,
+      "sha256": "678c67f863928c4a6286893de02112f0112c967fdd99c1a79fdb81a2401496a5",
+      "bounding_boxes": [
+        "%%BoundingBox: 18 144 588 490"
+      ],
+      "strings": [
+        "setrgbcolor",
+        "pop pop pop"
+      ],
+      "one_letter_counts": {
+        "M": 123,
+        "R": 0,
+        "P": 5,
+        "D": 0,
+        "F": 1,
+        "L": 288,
+        "m": 394,
+        "l": 1623,
+        "p": 0,
+        "s": 0,
+        "f": 0,
+        "S": 0
+      },
+      "explicit_ops": {
+        "moveto": 8,
+        "lineto": 1,
+        "rlineto": 6,
+        "curveto": 0,
+        "stroke": 7,
+        "fill": 0,
+        "arc": 0,
+        "newpath": 1
+      }
+    }
+  ],
+  "head_lines": [
+    {
+      "line": 1,
+      "text": "%!PS-Adobe-2.0 EPSF-2.0"
+    },
+    {
+      "line": 2,
+      "text": "%%Title: raddens.draft.mr.eps"
+    },
+    {
+      "line": 3,
+      "text": "%%Creator: fig2dev Version 3.2 Patchlevel 3c"
+    },
+    {
+      "line": 4,
+      "text": "%%CreationDate: Wed Jun 25 11:49:33 2003"
+    },
+    {
+      "line": 5,
+      "text": "%%For: ggentile@aibn186 (Gianfranco Gentile)"
+    },
+    {
+      "line": 6,
+      "text": "%%BoundingBox: 0 0 229 724"
+    },
+    {
+      "line": 7,
+      "text": "%%Magnification: 1.0000"
+    },
+    {
+      "line": 8,
+      "text": "%%EndComments"
+    },
+    {
+      "line": 9,
+      "text": "/$F2psDict 200 dict def"
+    },
+    {
+      "line": 10,
+      "text": "$F2psDict begin"
+    },
+    {
+      "line": 11,
+      "text": "$F2psDict /mtrx matrix put"
+    },
+    {
+      "line": 12,
+      "text": "/col-1 {0 setgray} bind def"
+    },
+    {
+      "line": 13,
+      "text": "/col0 {0.000 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 14,
+      "text": "/col1 {0.000 0.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 15,
+      "text": "/col2 {0.000 1.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 16,
+      "text": "/col3 {0.000 1.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 17,
+      "text": "/col4 {1.000 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 18,
+      "text": "/col5 {1.000 0.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 19,
+      "text": "/col6 {1.000 1.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 20,
+      "text": "/col7 {1.000 1.000 1.000 srgb} bind def"
+    },
+    {
+      "line": 21,
+      "text": "/col8 {0.000 0.000 0.560 srgb} bind def"
+    },
+    {
+      "line": 22,
+      "text": "/col9 {0.000 0.000 0.690 srgb} bind def"
+    },
+    {
+      "line": 23,
+      "text": "/col10 {0.000 0.000 0.820 srgb} bind def"
+    },
+    {
+      "line": 24,
+      "text": "/col11 {0.530 0.810 1.000 srgb} bind def"
+    },
+    {
+      "line": 25,
+      "text": "/col12 {0.000 0.560 0.000 srgb} bind def"
+    },
+    {
+      "line": 26,
+      "text": "/col13 {0.000 0.690 0.000 srgb} bind def"
+    },
+    {
+      "line": 27,
+      "text": "/col14 {0.000 0.820 0.000 srgb} bind def"
+    },
+    {
+      "line": 28,
+      "text": "/col15 {0.000 0.560 0.560 srgb} bind def"
+    },
+    {
+      "line": 29,
+      "text": "/col16 {0.000 0.690 0.690 srgb} bind def"
+    },
+    {
+      "line": 30,
+      "text": "/col17 {0.000 0.820 0.820 srgb} bind def"
+    },
+    {
+      "line": 31,
+      "text": "/col18 {0.560 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 32,
+      "text": "/col19 {0.690 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 33,
+      "text": "/col20 {0.820 0.000 0.000 srgb} bind def"
+    },
+    {
+      "line": 34,
+      "text": "/col21 {0.560 0.000 0.560 srgb} bind def"
+    },
+    {
+      "line": 35,
+      "text": "/col22 {0.690 0.000 0.690 srgb} bind def"
+    },
+    {
+      "line": 36,
+      "text": "/col23 {0.820 0.000 0.820 srgb} bind def"
+    },
+    {
+      "line": 37,
+      "text": "/col24 {0.500 0.190 0.000 srgb} bind def"
+    },
+    {
+      "line": 38,
+      "text": "/col25 {0.630 0.250 0.000 srgb} bind def"
+    },
+    {
+      "line": 39,
+      "text": "/col26 {0.750 0.380 0.000 srgb} bind def"
+    },
+    {
+      "line": 40,
+      "text": "/col27 {1.000 0.500 0.500 srgb} bind def"
+    },
+    {
+      "line": 41,
+      "text": "/col28 {1.000 0.630 0.630 srgb} bind def"
+    },
+    {
+      "line": 42,
+      "text": "/col29 {1.000 0.750 0.750 srgb} bind def"
+    },
+    {
+      "line": 43,
+      "text": "/col30 {1.000 0.880 0.880 srgb} bind def"
+    },
+    {
+      "line": 44,
+      "text": "/col31 {1.000 0.840 0.000 srgb} bind def"
+    },
+    {
+      "line": 45,
+      "text": ""
+    },
+    {
+      "line": 46,
+      "text": "end"
+    },
+    {
+      "line": 47,
+      "text": "save"
+    },
+    {
+      "line": 48,
+      "text": "newpath 0 724 moveto 0 0 lineto 229 0 lineto 229 724 lineto closepath clip newpath"
+    },
+    {
+      "line": 49,
+      "text": "-152.0 791.0 translate"
+    },
+    {
+      "line": 50,
+      "text": "1 -1 scale"
+    },
+    {
+      "line": 51,
+      "text": ""
+    },
+    {
+      "line": 52,
+      "text": "/cp {closepath} bind def"
+    },
+    {
+      "line": 53,
+      "text": "/ef {eofill} bind def"
+    },
+    {
+      "line": 54,
+      "text": "/gr {grestore} bind def"
+    },
+    {
+      "line": 55,
+      "text": "/gs {gsave} bind def"
+    },
+    {
+      "line": 56,
+      "text": "/sa {save} bind def"
+    },
+    {
+      "line": 57,
+      "text": "/rs {restore} bind def"
+    },
+    {
+      "line": 58,
+      "text": "/l {lineto} bind def"
+    },
+    {
+      "line": 59,
+      "text": "/m {moveto} bind def"
+    },
+    {
+      "line": 60,
+      "text": "/rm {rmoveto} bind def"
+    },
+    {
+      "line": 61,
+      "text": "/n {newpath} bind def"
+    },
+    {
+      "line": 62,
+      "text": "/s {stroke} bind def"
+    },
+    {
+      "line": 63,
+      "text": "/sh {show} bind def"
+    },
+    {
+      "line": 64,
+      "text": "/slc {setlinecap} bind def"
+    },
+    {
+      "line": 65,
+      "text": "/slj {setlinejoin} bind def"
+    },
+    {
+      "line": 66,
+      "text": "/slw {setlinewidth} bind def"
+    },
+    {
+      "line": 67,
+      "text": "/srgb {setrgbcolor} bind def"
+    },
+    {
+      "line": 68,
+      "text": "/rot {rotate} bind def"
+    },
+    {
+      "line": 69,
+      "text": "/sc {scale} bind def"
+    },
+    {
+      "line": 70,
+      "text": "/sd {setdash} bind def"
+    },
+    {
+      "line": 71,
+      "text": "/ff {findfont} bind def"
+    },
+    {
+      "line": 72,
+      "text": "/sf {setfont} bind def"
+    },
+    {
+      "line": 73,
+      "text": "/scf {scalefont} bind def"
+    },
+    {
+      "line": 74,
+      "text": "/sw {stringwidth} bind def"
+    },
+    {
+      "line": 75,
+      "text": "/tr {translate} bind def"
+    },
+    {
+      "line": 76,
+      "text": "/tnt {dup dup currentrgbcolor"
+    },
+    {
+      "line": 77,
+      "text": "  4 -2 roll dup 1 exch sub 3 -1 roll mul add"
+    },
+    {
+      "line": 78,
+      "text": "  4 -2 roll dup 1 exch sub 3 -1 roll mul add"
+    },
+    {
+      "line": 79,
+      "text": "  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}"
+    },
+    {
+      "line": 80,
+      "text": "  bind def"
+    },
+    {
+      "line": 81,
+      "text": "/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul"
+    },
+    {
+      "line": 82,
+      "text": "  4 -2 roll mul srgb} bind def"
+    },
+    {
+      "line": 83,
+      "text": "/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def"
+    },
+    {
+      "line": 84,
+      "text": "/$F2psEnd {$F2psEnteredState restore end} def"
+    },
+    {
+      "line": 85,
+      "text": ""
+    },
+    {
+      "line": 86,
+      "text": "$F2psBegin"
+    },
+    {
+      "line": 87,
+      "text": "%%Page: 1 1"
+    },
+    {
+      "line": 88,
+      "text": "10 setmiterlimit"
+    },
+    {
+      "line": 89,
+      "text": " 0.06299 0.06299 sc"
+    },
+    {
+      "line": 90,
+      "text": "%"
+    },
+    {
+      "line": 91,
+      "text": "% Fig objects follow"
+    },
+    {
+      "line": 92,
+      "text": "%"
+    },
+    {
+      "line": 93,
+      "text": "% Polyline"
+    },
+    {
+      "line": 94,
+      "text": "%"
+    },
+    {
+      "line": 95,
+      "text": "% pen to black in case this eps object doesn't set color first"
+    },
+    {
+      "line": 96,
+      "text": "0 0 0 setrgbcolor"
+    },
+    {
+      "line": 97,
+      "text": "% Begin Imported EPS File: 116readradialgraph.mr.eps"
+    },
+    {
+      "line": 98,
+      "text": "%%BeginDocument: 116readradialgraph.mr.eps"
+    },
+    {
+      "line": 99,
+      "text": "%"
+    },
+    {
+      "line": 100,
+      "text": "n gs"
+    },
+    {
+      "line": 101,
+      "text": "2430 1079 tr"
+    },
+    {
+      "line": 102,
+      "text": "6.287719 -6.245665 sc"
+    },
+    {
+      "line": 103,
+      "text": "0 -346 tr"
+    },
+    {
+      "line": 104,
+      "text": "-18 -144 tr"
+    },
+    {
+      "line": 105,
+      "text": "sa"
+    },
+    {
+      "line": 106,
+      "text": "n 18 144 m 588 144 l 588 490 l 18 490 l cp clip n"
+    },
+    {
+      "line": 107,
+      "text": "countdictstack"
+    },
+    {
+      "line": 108,
+      "text": "mark"
+    },
+    {
+      "line": 109,
+      "text": "/showpage {} def"
+    },
+    {
+      "line": 110,
+      "text": "% EPS file follows:"
+    },
+    {
+      "line": 111,
+      "text": "%!PS-Adobe-2.0 EPSF-2.0"
+    },
+    {
+      "line": 112,
+      "text": "%%Creator: SM"
+    },
+    {
+      "line": 113,
+      "text": "%%BoundingBox: 18 144 588 490"
+    },
+    {
+      "line": 114,
+      "text": "%%DocumentFonts: Helvetica"
+    },
+    {
+      "line": 115,
+      "text": "%%EndComments"
+    },
+    {
+      "line": 116,
+      "text": " 20 dict begin"
+    },
+    {
+      "line": 117,
+      "text": "72 300 div dup scale"
+    },
+    {
+      "line": 118,
+      "text": "1 setlinejoin 0 setlinecap"
+    },
+    {
+      "line": 119,
+      "text": "/Helvetica findfont 55 scalefont setfont "
+    },
+    {
+      "line": 120,
+      "text": "/B {CS newpath moveto} def"
+    },
+    {
+      "line": 121,
+      "text": "/F {moveto 0 setlinecap} def"
+    },
+    {
+      "line": 122,
+      "text": "/C {CS M 1 1 3 {pop 3 1 roll 255 div} for SET_COLOUR} def"
+    },
+    {
+      "line": 123,
+      "text": "/CS {currentpoint stroke} def"
+    },
+    {
+      "line": 124,
+      "text": "/CF {currentpoint eofill} def"
+    },
+    {
+      "line": 125,
+      "text": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def"
+    },
+    {
+      "line": 126,
+      "text": "/P {moveto 0 1 rlineto stroke} def"
+    },
+    {
+      "line": 127,
+      "text": "/T {currentlinecap exch 1 setlinecap show setlinecap} def"
+    },
+    {
+      "line": 128,
+      "text": "errordict /nocurrentpoint {pop 0 0 M currentpoint} put"
+    },
+    {
+      "line": 129,
+      "text": "/SET_COLOUR statusdict begin /processcolors where"
+    },
+    {
+      "line": 130,
+      "text": "  {pop processcolors 1 gt} {false} ifelse"
+    },
+    {
+      "line": 131,
+      "text": "  {(setrgbcolor)} {(pop pop pop)} ifelse cvx end def"
+    },
+    {
+      "line": 132,
+      "text": " 80 600 translate"
+    },
+    {
+      "line": 133,
+      "text": "gsave"
+    },
+    {
+      "line": 134,
+      "text": "CS [] 0 setdash M"
+    },
+    {
+      "line": 135,
+      "text": "CS M 1 100 mul 72 div dup setlinewidth"
+    },
+    {
+      "line": 136,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 137,
+      "text": " 0 0 0 C"
+    },
+    {
+      "line": 138,
+      "text": "CS M 3 100 mul 72 div dup setlinewidth"
+    },
+    {
+      "line": 139,
+      "text": "/P [ /moveto cvx 0 5 -1 roll .05 add dup -2 div 0 exch /rmoveto cvx /rlineto cvx /stroke cvx ] cvx def"
+    },
+    {
+      "line": 140,
+      "text": "CS [] 0 setdash M"
+    },
+    {
+      "line": 141,
+      "text": "401 328 M 1422 0 l"
+    },
+    {
+      "line": 142,
+      "text": "0 985 l"
+    },
+    {
+      "line": 143,
+      "text": "401 1313 L"
+    },
+    {
+      "line": 144,
+      "text": "401 328 L"
+    },
+    {
+      "line": 145,
+      "text": "1422 0 l"
+    },
+    {
+      "line": 146,
+      "text": "401 328 M 1422 0 l"
+    },
+    {
+      "line": 147,
+      "text": "401 1313 M 1422 0 l"
+    },
+    {
+      "line": 148,
+      "text": "401 328 M 0 985 l"
+    },
+    {
+      "line": 149,
+      "text": "1823 328 M 0 985 l"
+    },
+    {
+      "line": 150,
+      "text": "1823 328 M -85 0 l"
+    },
+    {
+      "line": 151,
+      "text": "158 -42 m 36 84 m -12 -4 l"
+    },
+    {
+      "line": 152,
+      "text": "-8 -12 l"
+    },
+    {
+      "line": 153,
+      "text": "-4 -20 l"
+    },
+    {
+      "line": 154,
+      "text": "0 -12 l"
+    },
+    {
+      "line": 155,
+      "text": "4 -20 l"
+    },
+    {
+      "line": 156,
+      "text": "8 -12 l"
+    },
+    {
+      "line": 157,
+      "text": "12 -4 l"
+    },
+    {
+      "line": 158,
+      "text": "8 0 l"
+    },
+    {
+      "line": 159,
+      "text": "13 4 l"
+    },
+    {
+      "line": 160,
+      "text": "8 12 l"
+    },
+    {
+      "line": 161,
+      "text": "4 20 l"
+    },
+    {
+      "line": 162,
+      "text": "0 12 l"
+    },
+    {
+      "line": 163,
+      "text": "-4 20 l"
+    },
+    {
+      "line": 164,
+      "text": "-8 12 l"
+    },
+    {
+      "line": 165,
+      "text": "-13 4 l"
+    },
+    {
+      "line": 166,
+      "text": "-8 0 l"
+    },
+    {
+      "line": 167,
+      "text": "-8 -4 l"
+    },
+    {
+      "line": 168,
+      "text": "-4 -4 l"
+    },
+    {
+      "line": 169,
+      "text": "-4 -8 l"
+    },
+    {
+      "line": 170,
+      "text": "-4 -20 l"
+    },
+    {
+      "line": 171,
+      "text": "0 -12 l"
+    },
+    {
+      "line": 172,
+      "text": "4 -20 l"
+    },
+    {
+      "line": 173,
+      "text": "4 -8 l"
+    },
+    {
+      "line": 174,
+      "text": "4 -4 l"
+    },
+    {
+      "line": 175,
+      "text": "8 -4 l"
+    },
+    {
+      "line": 176,
+      "text": "8 0 m 9 4 l"
+    },
+    {
+      "line": 177,
+      "text": "4 4 l"
+    },
+    {
+      "line": 178,
+      "text": "4 8 l"
+    },
+    {
+      "line": 179,
+      "text": "4 20 l"
+    },
+    {
+      "line": 180,
+      "text": "0 12 l"
+    }
+  ],
+  "boundary": "Static source text/vector grammar inspection only; no PostScript execution, OCR, raster digitization, persistence fitting, or blind-outcome inspection."
+}
