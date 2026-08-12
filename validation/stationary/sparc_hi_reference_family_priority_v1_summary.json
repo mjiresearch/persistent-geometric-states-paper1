@@ -1,27 +1,11 @@
 {
   "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
   "n_frozen_galaxies": 149,
-  "n_untouched_no_public_overlay": 98,
-  "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 28,
+  "n_untouched_no_public_overlay": 96,
+  "n_reference_families_covering_untouched": 43,
+  "n_actionable_reference_families": 27,
   "n_deferred_or_redirected_reference_families": 16,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Ha14",
-      "n_untouched_frozen_galaxies": 2,
-      "n_calibration": 2,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Hallenbeck et al.",
-      "bibcode": "2014AJ....148...69H",
-      "comment": "",
-      "galaxies": "UGC09037;UGC12506"
-    },
     {
       "sparc_ref_id": "Le14",
       "n_untouched_frozen_galaxies": 2,
@@ -245,6 +229,22 @@
       "bibcode": "",
       "comment": "",
       "galaxies": "UGC00128"
+    },
+    {
+      "sparc_ref_id": "VM97",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Verdes-Montenegro et al.",
+      "bibcode": "1997A&A...321..754V",
+      "comment": "",
+      "galaxies": "NGC6015"
     }
   ],
   "deferred_or_redirected_families": [
