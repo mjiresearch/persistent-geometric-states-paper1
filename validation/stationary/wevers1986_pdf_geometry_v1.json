@@ -1,0 +1,1117 @@
+{
+  "status": "WEVERS1986_PDF_GEOMETRY_AUDIT_COMPLETE",
+  "source": "Wevers, van der Kruit & Allen 1986 A&AS 66 505-662",
+  "url": "https://articles.adsabs.harvard.edu/pdf/1986A%26AS...66..505W",
+  "bytes": 13039452,
+  "sha256": "0ccd85b0ddd3b9caab9ce218272b1e9b64adbfbca3f3fd00d69eca0e6a777522",
+  "pages": 157,
+  "native_text_chars_total": 3140,
+  "pages_with_any_native_text": 157,
+  "pages_with_drawings": 0,
+  "pages_with_images": 157,
+  "pages_with_images_and_no_drawings": 157,
+  "max_drawing_items_on_any_page": 0,
+  "page_geometry": [
+    {
+      "page_number_1based": 1,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 2,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 3,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 4,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 5,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 6,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 7,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 8,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 9,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 10,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 11,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 12,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 13,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 14,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 15,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 16,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 17,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 18,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 19,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 20,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 21,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 22,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 23,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 24,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 25,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 26,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 27,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 28,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 29,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 30,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 31,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 32,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 33,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 34,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 35,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 36,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 37,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 38,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 39,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 40,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 41,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 42,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 43,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 44,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 45,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 46,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 47,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 48,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 49,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 50,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 51,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 52,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 53,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 54,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 55,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 56,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 57,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 58,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 59,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 60,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 61,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 62,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 63,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 64,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 65,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 66,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 67,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 68,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 69,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 70,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 71,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 72,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 73,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 74,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 75,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 76,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 77,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 78,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 79,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 80,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 81,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 82,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 83,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 84,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 85,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 86,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 87,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 88,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 89,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 90,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 91,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 92,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 93,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 94,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 95,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 96,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 97,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 98,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 99,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 100,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 101,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 102,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 103,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 104,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 105,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 106,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 107,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 108,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 109,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 110,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 111,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 112,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 113,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 114,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 115,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 116,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 117,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 118,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 119,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 120,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 121,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 122,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 123,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 124,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 125,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 126,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 127,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 128,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 129,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 130,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 131,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 132,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 133,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 134,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 135,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 136,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 137,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 138,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 139,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 140,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 141,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 142,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 143,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 144,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 145,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 146,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 147,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 148,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 149,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 150,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 151,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 152,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 153,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 154,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 2
+    },
+    {
+      "page_number_1based": 155,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 156,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    },
+    {
+      "page_number_1based": 157,
+      "native_text_chars": 20,
+      "n_drawings": 0,
+      "drawing_items_total": 0,
+      "n_images": 1
+    }
+  ],
+  "classification": "page_image_scan_no_native_vector_profile_route",
+  "boundary": "Geometry classification only. No OCR, raster digitization, profile extraction, persistence fitting or blind inspection."
+}
