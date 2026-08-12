@@ -3,7 +3,7 @@
 **Canonical cross-session checkpoint**  
 **Repository:** `mjiresearch/persistent-geometric-states-paper1`  
 **Established:** 2026-08-12  
-**Last reconciled:** 2026-08-12 — public radial H I database build through Iorio/LITTLE THINGS DDO168 ingestion
+**Last reconciled:** 2026-08-12 — public radial H I database build through Hunter 2021 and Iorio 2017 DDO87/DDO126 ingestion
 
 > **Authority rule:** this ledger summarizes project state. Frozen protocol/data/provenance/validation artifacts remain authoritative if any discrepancy is found. The original H I provenance inventory is retained unchanged for auditability; the versioned reconciled provenance view is the current acquisition-status view.
 
@@ -87,9 +87,13 @@ Current posture:
 | A22 | **COMPLETE alias audit** | FIGGS aliases fixed: **CamB = KK44**, **KK98-251 = KK251**, NGC3741 direct. All three are public Begum/FIGGS-block calibration targets. |
 | A23 | **COMPLETE source audit** | **UGC05829** (blind): Taylor et al. (1994) public VLA H I synthesis source confirmed. Direct azimuthally averaged radial profile remains unverified, so it is not marked ingested. |
 | A24 | **RAW PROFILE INGESTED** | **Leroy et al. (2008) / THINGS:** public VizieR `J/AJ/136/2782/table7` ingested for **11 frozen galaxies = 6 calibration + 5 blind**, yielding **369 radial H I rows** with source radius, helium-inclusive `SigmaHI`, and uncertainties preserved. Output SHA-256 `d0cc498aaf7b378bf9affe19f0ca5ea7f638622e23517986ee2ee6477d7ddc75`. |
-| A25 | **COMPLETE** | Public-source overlay and reconciled **149-galaxy acquisition-status view** created and made reproducible. Current overlay covers **25 frozen galaxies = 15 calibration + 10 blind**. |
+| A25 | **COMPLETE** | Public-source overlay and reconciled **149-galaxy acquisition-status view** created and made reproducible. |
 | A26 | **RAW PROFILE INGESTED** | **Iorio et al. (2017) / LITTLE THINGS — DDO168** (calibration): OUP supplementary `finalrot/ddo168_onlinetab.txt` selectively ingested as **15 raw-H I radial rows** from 0.31–4.69 kpc. Source `Sdens` is primary-beam corrected and not helium-corrected. Output SHA-256 `37dea9a3b5d42cb8a2a976e8a9e42ff75f36a6f4fdefeb7730ef3de804053953`. |
-| A27 | **COMPLETE** | Reconciled public-source counts after DDO168: **14 frozen galaxies = 9 calibration + 5 blind** have an actual recovered analytic or ingested numerical profile; untouched `available_nonpublic_request_required` pool reduced to **120**. |
+| A27 | **COMPLETE** | Iorio publisher supplement recursively inspected and archived by manifest, exposing additional machine-readable H I tables including DDO87 and DDO126 rather than requiring graph digitization. |
+| A28 | **SOURCE RECOVERED / SECONDARY QC** | **Hunter et al. (2021) / LITTLE THINGS:** VizieR H I Sérsic parameters recovered for DDO154, DDO168, UGC05918/DDO87 and UGC07559/DDO126. Primary arXiv source verifies `Sigma_HI(R)=Sigma0 exp[-(R/R0)^(1/n)]`. DDO154/DDO168 and, after Iorio ingestion, UGC05918/UGC07559 use higher-information numerical profiles as preferred sources; Hunter models are retained as independent analytic cross-checks. |
+| A29 | **RAW PROFILE INGESTED** | **Iorio 2017 — UGC05918/DDO87:** **12 raw-H I rows**, 0.43–5.17 kpc, source `Sigma_HI=0.97–2.79 Msun pc^-2`, source distance 7.4 Mpc, mean inclination 42.7 deg, PA 238.6 deg. |
+| A30 | **RAW PROFILE INGESTED** | **Iorio 2017 — UGC07559/DDO126:** **13 raw-H I rows**, 0.48–3.33 kpc, source `Sigma_HI=1.29–5.06 Msun pc^-2`, source distance 4.9 Mpc, mean inclination 62.2 deg, PA 140.7 deg. Combined DDO87/DDO126 output SHA-256 `639717da95d78ff1002a4e16b73e4d221d963404e052c08b4986a7c14b6289df`. |
+| A31 | **COMPLETE** | Current reconciled acquisition state: **27 public-overlay galaxies = 17 calibration + 10 blind**; **16 unique galaxies = 11 calibration + 5 blind** have an actual preferred analytic or numerical profile. Preferred-source statuses are **14 raw numerical profiles + 2 analytic profiles**. Untouched nonpublic-request-required pool is now **118**. |
 
 ---
 
@@ -125,7 +129,7 @@ Primary: Begum & Chengalur, A&A 424, 509–517; DOI `10.1051/0004-6361:20041210`
 - source profile is **raw H I**; paper applies helium `x1.4` separately
 - frozen-distance QC only: `r0 = 1.12748 kpc`, `c = 0.632972 kpc`
 
-Canonical analytic table:
+Canonical Begum analytic table:
 `data/stationary/source_reconstruction/begum_chengalur_analytic_profile_parameters_v1.csv`
 
 ### B. Leroy/THINGS machine-readable profiles ingested
@@ -149,24 +153,42 @@ Canonical raw-source file:
 
 **Total: 369 rows.** Leroy `SigmaHI` is source-published **including helium**. Values are preserved unchanged. No second helium correction, assumed raw-H-I back-conversion, distance rescaling, inclination rescaling, interpolation, extrapolation or taper has been applied.
 
-### C. Iorio/LITTLE THINGS DDO168 profile ingested
+### C. Iorio/LITTLE THINGS numerical H I profiles ingested
 
 Primary: Iorio et al. (2017), MNRAS 466, 4159–4192, DOI `10.1093/mnras/stw3285`.
 
-Canonical raw-source file:
-`data/stationary/source_reconstruction/iorio2017_ddo168_hi_profile_v1.csv`
+Preferred numerical source products:
 
-- galaxy: **DDO168 — calibration**
-- rows: **15**
-- source radius: **15–225 arcsec / 0.31–4.69 kpc**
-- source `Sigma_HI`: **0.86–16.43 Msun pc^-2**
-- source distance: **4.3 Mpc**; frozen distance: **4.25 Mpc**
-- source mean inclination: **62 deg**; frozen inclination: **63 deg**
-- source mean PA: **272.7 deg**
-- source H I surface density is **not helium-corrected**
-- source member SHA-256: `b6616306fd12e01c56d87a8d50ef1fe57d94e817c01adb616d19b24c8aba11fc`
+- `data/stationary/source_reconstruction/iorio2017_ddo168_hi_profile_v1.csv`
+- `data/stationary/source_reconstruction/iorio2017_ddo87_ddo126_hi_profiles_v1.csv`
 
-No distance/inclination rescaling, helium application, interpolation, extrapolation or taper has been performed.
+| Frozen galaxy | Source alias | Role | Rows | Source radial range (kpc) | Helium |
+|---|---|---|---:|---:|---|
+| DDO168 | DDO168 | calibration | 15 | 0.31–4.69 | raw H I / not included |
+| UGC05918 | DDO87 | calibration | 12 | 0.43–5.17 | raw H I / not included |
+| UGC07559 | DDO126 | calibration | 13 | 0.48–3.33 | raw H I / not included |
+
+**Total Iorio rows used as preferred profiles: 40.** No distance/inclination rescaling, helium application, interpolation, extrapolation or taper has been performed.
+
+### D. Hunter/LITTLE THINGS analytic cross-check models
+
+Public VizieR parameters: `J/AJ/161/71`. Primary source equation verified directly from arXiv `2012.00146`:
+
+`Sigma_HI(R) = Sigma0 exp[-(R/R0)^(1/n)]`.
+
+Canonical parameter product:
+`data/stationary/source_reconstruction/hunter2021_littlethings_hi_sersic_parameters_v1.csv`
+
+Frozen matches:
+
+- DDO154 — calibration — preferred profile remains Leroy numerical
+- DDO168 — calibration — preferred profile remains Iorio numerical
+- UGC05918 / DDO87 — calibration — preferred profile is Iorio numerical
+- UGC07559 / DDO126 — calibration — preferred profile is Iorio numerical
+
+Hunter is retained as independent analytic QC for these systems. Its exact helium convention remains explicitly pending; no helium transformation is applied to the Hunter parameters.
+
+**Current preferred-source total:** **409 machine-readable radial rows across 14 galaxies + 2 additional analytic profiles = 16 unique recovered/ingested galaxies.**
 
 ---
 
@@ -174,16 +196,17 @@ No distance/inclination rescaling, helium application, interpolation, extrapolat
 
 | Source block | Frozen targets | Durable state | Next action |
 |---|---|---|---|
-| Leroy 2008 / THINGS | DDO154, IC2574, NGC2403, NGC2841, NGC2976, NGC3198, NGC3521, NGC5055, NGC6946, NGC7331, NGC7793 | **369 raw radial rows ingested / Actions validated** | ingest source metadata needed for common normalization; run radial-coverage QC versus frozen SPARC domains |
-| Iorio 2017 / LITTLE THINGS | DDO168 — calibration | **15 raw-H I radial rows ingested / Actions validated** | common source metadata/radial-coverage QC; DDO154 overlap may be retained only as independent source comparison, not double counted |
+| Leroy 2008 / THINGS | DDO154, IC2574, NGC2403, NGC2841, NGC2976, NGC3198, NGC3521, NGC5055, NGC6946, NGC7331, NGC7793 | **369 raw radial rows ingested / Actions validated** | source metadata + radial-coverage QC versus frozen SPARC domains |
+| Iorio 2017 / LITTLE THINGS | DDO168, UGC05918/DDO87, UGC07559/DDO126 — calibration | **40 raw-H I rows ingested / Actions validated** | source metadata + radial-coverage QC; use Hunter models only as cross-checks |
+| Hunter 2021 / LITTLE THINGS | DDO154, DDO168, UGC05918, UGC07559 — calibration | **verified analytic Sérsic models recovered** | retain as secondary QC where numerical source exists; verify helium convention before any transformed use |
 | Begum/Chengalur — CamB | CamB — calibration | **analytic raw-H I profile recovered** | retain native analytic model; downstream common normalization later |
 | Begum/Chengalur — KK98-251 | KK98-251 — calibration | **analytic raw-H I profile recovered** | retain native analytic model; downstream common normalization later |
-| Begum/Chengalur — NGC3741 | NGC3741 — calibration | profile/convention complete | numerical Figure 5 pending; do not loop unless a new high-fidelity route appears |
-| Côté 2000 | UGCA442 — blind; DDO161 — calibration; ESO444-G084 — blind | source/crossmatch/conventions complete | numerical Figure 3 curves pending; revisit only through a new defensible vector/data route |
-| van Zee 1997 | UGC00191 — calibration; UGC00891 — calibration; UGC05716 — blind; UGC05764 — calibration; UGC11820 — blind | crossmatch/alias audit complete | primary numerical profiles/conventions pending; no invented sixth overlap |
-| Taylor 1994 | UGC05829 — blind | public VLA H I map source confirmed | radial profile/map reconstruction remains pending; do not stall here |
-| NGC1090 | NGC1090 — calibration | extraction choice settled; coordinate/QC artifact missing | **RECOVER before final freeze** |
-| Remaining public blocks | pending | **IN PROGRESS** | prioritize electronic tables, VizieR, public survey profile products and analytic forms before graph digitization |
+| Begum/Chengalur — NGC3741 | NGC3741 — calibration | profile/convention complete | numerical Figure 5 pending; do not retry unless a genuinely new high-fidelity route appears |
+| Côté 2000 | UGCA442 — blind; DDO161 — calibration; ESO444-G084 — blind | source/crossmatch/conventions complete | numerical Figure 3 curves pending; do not retry old failed extraction route |
+| van Zee 1997 | UGC00191 — calibration; UGC00891 — calibration; UGC05716 — blind; UGC05764 — calibration; UGC11820 — blind | crossmatch/alias audit complete | primary numerical profiles/conventions pending; no invented sixth overlap; do not retry old failed route |
+| Taylor 1994 | UGC05829 — blind | public VLA H I map source confirmed | radial profile/map reconstruction pending; do not retry old bounded route unless a new data product appears |
+| NGC1090 | NGC1090 — calibration | extraction choice settled; coordinate/QC artifact missing | **RECOVER before final freeze**; do not redo source selection |
+| Remaining public blocks | pending | **IN PROGRESS** | prioritize untouched electronic tables, VizieR, survey profile products, supplements and analytic forms before graph digitization |
 
 Known systems absent from the target 169-profile private compilation at the frozen audit boundary remain:
 
@@ -213,19 +236,20 @@ Reconciliation summary:
 Current reconciled counts:
 
 - frozen galaxies: **149**
-- public-overlay galaxies: **25 = 15 calibration + 10 blind**
-- recovered/ingested profiles: **14 = 9 calibration + 5 blind**
-- analytic profiles recovered: **2**
-- raw machine-readable profiles ingested: **12**
+- public-overlay galaxies: **27 = 17 calibration + 10 blind**
+- recovered/ingested preferred profiles: **16 = 11 calibration + 5 blind**
+- analytic preferred profiles recovered: **2**
+- raw machine-readable preferred profiles ingested: **14**
+- preferred raw radial rows: **409**
 - direct profiles identified but numerical data pending: **4**
 - source-family identified/numeric pending: **5**
 - public H I map confirmed/profile pending: **1**
 - exact extraction artifact to recover: **1**
 - known unavailable in the private 169 compilation: **4**
-- still listed as nonpublic-request-required with no superseding public overlay yet: **120**
+- still listed as nonpublic-request-required with no superseding public overlay: **118**
 
 Current reconciled output SHA-256:
-`379c070c3da61d762d014d4c8c4fc73a8da861c80c3603db64c9e80ca4c7c396`
+`653d9759952f11cebcff999aa31115b44ac232b37ab6bcb5ccebcdada47fc81c`
 
 The reconciled view changes **acquisition/source-status metadata only**. It does not alter frozen membership, roles, source equations, model parameters or blind-test rules.
 
@@ -248,14 +272,22 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 - `validation/stationary/leroy2008_things_hi_profiles_v1_summary.json`
 - `scripts/stationary/ingest_leroy2008_things_hi_profiles.py`
 - `.github/workflows/ingest_leroy2008_things_hi.yml`
-- `validation/stationary/IORIO2017_DDO168_PROFILE_AUDIT_V1.md`
 - `validation/stationary/iorio2017_supplement_manifest_v1.json`
+- `validation/stationary/IORIO2017_DDO168_PROFILE_AUDIT_V1.md`
 - `data/stationary/source_reconstruction/iorio2017_ddo168_hi_profile_v1.csv`
 - `validation/stationary/iorio2017_ddo168_hi_profile_v1_summary.json`
-- `scripts/stationary/inspect_iorio2017_supplement.py`
-- `.github/workflows/inspect_iorio2017_supplement.yml`
 - `scripts/stationary/ingest_iorio2017_ddo168_hi_profile.py`
 - `.github/workflows/ingest_iorio2017_ddo168_hi.yml`
+- `validation/stationary/IORIO2017_DDO87_DDO126_PROFILE_AUDIT_V1.md`
+- `data/stationary/source_reconstruction/iorio2017_ddo87_ddo126_hi_profiles_v1.csv`
+- `validation/stationary/iorio2017_ddo87_ddo126_hi_profiles_v1_summary.json`
+- `scripts/stationary/ingest_iorio2017_ddo87_ddo126_hi_profiles.py`
+- `.github/workflows/ingest_iorio2017_ddo87_ddo126_hi.yml`
+- `validation/stationary/HUNTER2021_LITTLETHINGS_HI_AUDIT_V1.md`
+- `data/stationary/source_reconstruction/hunter2021_littlethings_hi_sersic_parameters_v1.csv`
+- `validation/stationary/hunter2021_littlethings_hi_sersic_parameters_v1_summary.json`
+- `scripts/stationary/ingest_hunter2021_littlethings_hi_sersic.py`
+- `.github/workflows/ingest_hunter2021_littlethings_hi_sersic.yml`
 - `data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv`
 - `scripts/stationary/reconcile_public_hi_source_overlay_v1.py`
 - `.github/workflows/reconcile_public_hi_source_overlay.yml`
@@ -272,14 +304,16 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 | public-source overlay | **COMPLETE for currently audited/recovered blocks** |
 | reconciled 149-galaxy acquisition view | **COMPLETE / current acquisition-status authority** |
 | Leroy/THINGS 11-galaxy raw source profiles | **COMPLETE — 369 rows** |
-| Iorio/LITTLE THINGS DDO168 raw source profile | **COMPLETE — 15 rows** |
+| Iorio/LITTLE THINGS 3-galaxy preferred raw profiles | **COMPLETE — 40 rows** |
+| Hunter/LITTLE THINGS 4 analytic models | **COMPLETE source recovery / secondary QC** |
 | CamB + KK98-251 analytic profiles | **COMPLETE source recovery** |
+| current unique preferred profile set | **16 galaxies = 14 numerical + 2 analytic** |
 | Côté source audit | **COMPLETE; numerical points pending** |
 | van Zee source audit | **COMPLETE; numerical points/conventions pending** |
 | NGC3741 direct profile | **SOURCE IDENTIFIED; numerical points pending** |
 | Taylor/UGC05829 | **PUBLIC MAP CONFIRMED; radial profile pending** |
 | NGC1090 extraction artifact | **RECOVER** |
-| common source metadata / radial-coverage QC | **IN PROGRESS / NEXT** |
+| common source metadata / radial-coverage QC | **NEXT** |
 | `stationary_hi_profiles_v1.csv` | **NOT YET COMPLETE/FROZEN** |
 | `stationary_source_profiles_v1.csv` | **NOT YET COMPLETE/FROZEN** |
 | common radius/helium/inclination/interpolation/coverage rules | **NOT YET FROZEN** |
@@ -313,17 +347,20 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 | D17 | If a public numerical route stalls, record `numeric_pending` and move on unless a genuinely new high-fidelity route appears. |
 | D18 | Leroy/THINGS `SigmaHI` is source-published **including helium**. Preserve it unchanged in acquisition products; do not apply another helium factor or assume a back-conversion factor before the global convention is frozen. |
 | D19 | The original H I provenance inventory remains immutable audit history. The versioned overlay + reconciled view carry current public-source acquisition status and may be regenerated reproducibly. |
-| D20 | Iorio DDO168 `Sdens` is raw H I, primary-beam corrected and **not corrected for helium**. Preserve it unchanged until the global Paper I helium convention is frozen. |
+| D20 | Iorio `Sdens` is raw H I, primary-beam corrected and **not corrected for helium**. Preserve it unchanged until the global Paper I helium convention is frozen. |
+| D21 | Hunter 2021 LITTLE THINGS uses the verified Sérsic form `Sigma_HI(R)=Sigma0 exp[-(R/R0)^(1/n)]`. Retain the published parameters as analytic source models; do not invent a different Sérsic convention. |
+| D22 | When both numerical and analytic public sources exist for the same galaxy, prefer the higher-information numerical radial profile and retain the analytic model as an independent QC/cross-source check. |
+| D23 | Do **not retry** the already exhausted Côté, van Zee, NGC3741-image, or Taylor bounded extraction routes unless a genuinely new public table/vector/map product appears. Continue from untouched source blocks instead. |
 
 ---
 
 ## 11. Current live queue
 
-1. **IN PROGRESS — exploit high-yield public machine-readable H I sources:** continue survey/electronic-catalog search beyond Leroy and Iorio before returning to low-fidelity digitization branches.
-2. **NEXT — common-source QC for the 14 recovered/ingested galaxies:** ingest source distance/inclination metadata and calculate radial coverage against each frozen SPARC rotation-curve domain without resampling or persistence fitting.
-3. **NEXT — normalize recovered analytic source metadata:** CamB and KK98-251 remain native angular analytic profiles until the same global conversion rule is declared.
-4. **PENDING NUMERICAL:** Côté three curves, van Zee five curves, NGC3741 Figure 5; revisit only through a genuinely new defensible data/vector route.
-5. **PENDING MAP ROUTE:** UGC05829/Taylor 1994; do not stall unless a reusable public map/cube or radial table is found.
+1. **IN PROGRESS — continue untouched high-yield public machine-readable H I source blocks:** electronic tables, VizieR catalogs, publisher supplements, survey radial-profile products and analytic forms. Do not retry previously exhausted figure/image routes.
+2. **NEXT — common-source QC for the 16 recovered/ingested galaxies:** collect/verify source distance and inclination metadata and calculate radial coverage against each frozen SPARC rotation-curve domain without resampling or persistence fitting.
+3. **NEXT — use cross-source overlaps as QC only:** Hunter vs Leroy for DDO154 and Hunter vs Iorio for DDO168/UGC05918/UGC07559; do not double count or select based on persistence performance.
+4. **PENDING NUMERICAL:** Côté three curves, van Zee five curves, NGC3741 Figure 5; leave pending unless a genuinely new high-fidelity public route appears.
+5. **PENDING MAP ROUTE:** UGC05829/Taylor 1994; leave pending unless a new reusable public map/cube or radial table appears.
 6. **RECOVER before source freeze:** NGC1090 `fig2.eps` filled-circle extraction/QC artifact.
 7. Extend `stationary_public_hi_source_overlay_v1.csv` and regenerate the reconciled 149-galaxy view at every newly cleared source block.
 8. Freeze common radius conversion, helium convention, inclination/deprojection handling, interpolation/extrapolation/taper, duplicate and coverage rules.
@@ -353,4 +390,4 @@ At every meaningful milestone:
 3. record failures/blockers/nulls as well as successes; and
 4. establish the exact next resume point.
 
-**Current resume point:** the galaxy database now has **14 frozen galaxies with actual public analytic or numerical radial H I profiles**, including **369 Leroy/THINGS rows for 11 galaxies**, **15 Iorio/LITTLE THINGS rows for DDO168**, and two analytic Begum profiles. Continue high-yield public machine-readable source blocks, then run common-source metadata and radial-coverage QC. `L_A` and `\mathcal C_A` remain locked.
+**Current resume point:** the stationary galaxy database now has **16 unique frozen galaxies with an actual preferred public H I profile/model**: **14 machine-readable numerical profiles totaling 409 radial rows + 2 analytic profiles**. The public-source overlay covers **27 frozen galaxies**, and **118** remain without a superseding public route in the current audit. Continue with the next untouched high-yield machine-readable public H I source block; do not retry exhausted figure routes. `L_A` and `\mathcal C_A` remain locked.
