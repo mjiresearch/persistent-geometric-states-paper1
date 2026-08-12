@@ -12,6 +12,8 @@
       "is_dir": false
     }
   ],
+  "ddo168_member": "results.zip::finalrot/ddo168_onlinetab.txt",
+  "ddo168_member_sha256": "b6616306fd12e01c56d87a8d50ef1fe57d94e817c01adb616d19b24c8aba11fc",
   "members": [
     {
       "path": "BTFR_data.txt",
@@ -248,5 +250,5 @@
       "is_dir": false
     }
   ],
-  "boundary": "Only archive metadata is committed at this stage; the full publisher supplement is not redistributed. Numerical DDO168 source data will be extracted selectively only after the relevant member is identified."
+  "boundary": "Only archive metadata is committed at this stage; the full publisher supplement is not redistributed. The DDO168 table is printed only to the acquisition audit log so its schema can be verified before selective ingestion."
 }
