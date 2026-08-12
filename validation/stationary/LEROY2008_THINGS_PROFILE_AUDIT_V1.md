@@ -1,6 +1,6 @@
 # Leroy et al. (2008) / THINGS radial H I profile audit v1
 
-**Status:** PUBLIC MACHINE-READABLE RADIAL PROFILE BLOCK IDENTIFIED — 11 FROZEN PAPER I GALAXIES  
+**Status:** COMPLETE RAW-SOURCE ACQUISITION — 11 FROZEN PAPER I GALAXIES / 369 RADIAL ROWS  
 **Date:** 2026-08-12  
 **Scientific boundary:** source acquisition only. `L_A` and `\mathcal C_A` remain locked.
 
@@ -10,98 +10,82 @@ A. K. Leroy, F. Walter, E. Brinks, F. Bigiel, W. J. G. de Blok, B. Madore & M. D
 
 Public machine-readable catalog: **VizieR J/AJ/136/2782**, DOI `10.26093/cds/vizier.51362782`.
 
-The catalog states that the work uses H I maps from **THINGS** and provides an electronic table of radial profiles. VizieR `table7` contains **687 radial rows** for the 23-galaxy Leroy sample.
+VizieR `table7` contains **687 radial rows** for the 23-galaxy Leroy sample. Relevant source columns are `Name`, galactocentric `r` in kpc, `r.n`, `SigmaHI`, and `e_SigmaHI`.
 
-Relevant `table7` columns are:
+VizieR Note (2) explicitly states that the tabulated gas surface densities are **including helium**. Paper I therefore preserves the source-published `SigmaHI` and uncertainty unchanged. No second helium correction or assumed raw-H-I back-conversion is applied in this acquisition product.
 
-- `Name` — galaxy name;
-- `r` — galactocentric ring-center radius in **kpc**;
-- `r.n` — radius normalized to `r25`;
-- `SigmaHI` — H I surface density in `Msun pc^-2`;
-- `e_SigmaHI` — RMS uncertainty in `SigmaHI`.
+## Frozen Paper I overlap and acquired rows
 
-VizieR Note (2) explicitly states that the tabulated `SigmaHI`/`SigmaH2` surface densities are **including helium**. The source-published `SigmaHI` column is therefore preserved unchanged as the authoritative acquisition quantity. No second helium correction is permitted.
+| Galaxy | Frozen role | Acquired radial rows |
+|---|---|---:|
+| DDO154 | calibration | 7 |
+| IC2574 | calibration | 46 |
+| NGC2403 | blind | 57 |
+| NGC2841 | calibration | 25 |
+| NGC2976 | calibration | 26 |
+| NGC3198 | calibration | 23 |
+| NGC3521 | blind | 30 |
+| NGC5055 | blind | 43 |
+| NGC6946 | blind | 41 |
+| NGC7331 | calibration | 33 |
+| NGC7793 | blind | 38 |
 
-The exact numerical helium factor used to define the published Leroy column is **not required for source preservation**. Until its primary-source convention is frozen explicitly, no raw-H-I column is produced by dividing the catalog values by an assumed factor.
+**Total acquired:** **369 radial profile rows across 11 frozen galaxies = 6 calibration + 5 blind.**
 
-## Exact crossmatch to the frozen 149-galaxy Paper I master
+## Reproducible ingestion result
 
-Eleven Leroy/THINGS galaxies are members of the frozen Paper I stationary sample:
-
-| Galaxy | Frozen role | Leroy numeric source status |
-|---|---|---|
-| DDO154 | calibration | machine-readable `table7` profile available |
-| IC2574 | calibration | machine-readable `table7` profile available |
-| NGC2403 | blind | machine-readable `table7` profile available |
-| NGC2841 | calibration | machine-readable `table7` profile available |
-| NGC2976 | calibration | machine-readable `table7` profile available |
-| NGC3198 | calibration | machine-readable `table7` profile available |
-| NGC3521 | blind | machine-readable `table7` profile available |
-| NGC5055 | blind | machine-readable `table7` profile available |
-| NGC6946 | blind | machine-readable `table7` profile available |
-| NGC7331 | calibration | machine-readable `table7` profile available |
-| NGC7793 | blind | machine-readable `table7` profile available |
-
-**Total:** 11 frozen galaxies = **6 calibration + 5 blind**.
-
-No additional Leroy galaxy is promoted unless it is an exact/verified alias of a frozen master member.
-
-## Why this source block is high-value
-
-Unlike the Côté, van Zee and NGC3741 figure-recovery branches, this block does **not require graph digitization**. It provides public numerical radius/surface-density pairs and uncertainties directly from the electronic journal catalog.
-
-This makes Leroy/THINGS a preferred direct-profile source for the 11 overlapping galaxies, subject to the global Paper I normalization and radial-coverage QC that will be frozen later.
-
-## Source-coordinate and normalization rule
-
-At acquisition time:
-
-1. preserve Leroy `r` in kpc exactly as published;
-2. preserve `r.n` exactly as published;
-3. preserve helium-inclusive `SigmaHI` and `e_SigmaHI` exactly as published;
-4. store the Leroy source distance/inclination separately from the frozen Paper I metadata when the sample-properties table is ingested;
-5. do **not** silently rescale the published radius to the frozen SPARC distance yet;
-6. do **not** apply a second helium factor;
-7. do **not** interpolate, extrapolate or taper the profile yet;
-8. do **not** inspect persistence fit quality while deciding source inclusion.
-
-Any later transformation from the source-published coordinate/convention to the final Paper I canonical source profile must be explicit, versioned, and applied under one globally frozen rule.
-
-## Reproducible acquisition path
-
-A repository ingestion script is maintained at:
+The repository script
 
 `scripts/stationary/ingest_leroy2008_things_hi_profiles.py`
 
-It queries VizieR's tab-separated interface for `J/AJ/136/2782/table7`, retains only the predeclared 11-galaxy overlap, validates the expected frozen role mapping, and writes a provenance-preserving raw-source CSV.
-
-Target output:
+queries VizieR's public TSV interface, normalizes only catalogue-name spacing for the frozen-master crossmatch while preserving the original VizieR name separately, verifies all immutable calibration/blind roles, checks nonnegative/increasing source radii and duplicate keys, and writes:
 
 `data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv`
 
-The output is a **source-data product**, not yet the final normalized `stationary_hi_profiles_v1.csv`.
+The successful GitHub Actions run ingested all 687 public source rows, retained the predeclared 369 rows belonging to the 11 frozen overlaps, and committed the generated source product to `main`.
 
-## Acceptance/QC gates
+Canonical machine-generated summary:
 
-Before the Leroy profiles are promoted into the final stationary H I source freeze:
+`validation/stationary/leroy2008_things_hi_profiles_v1_summary.json`
 
-- all 11 expected galaxies must be present;
-- every retained galaxy must have at least one finite `r`/`SigmaHI` row;
-- radii must be nonnegative and monotonically ordered within galaxy after source-row ordering is checked;
-- no duplicate `(galaxy, r)` keys may be silently collapsed;
-- missing/upper-limit surface-density values must remain explicitly missing/flagged rather than imputed;
-- source and frozen distance/inclination conventions must be stored separately;
-- radial coverage relative to the frozen SPARC rotation-curve domain must be reported;
-- helium-inclusive status must remain explicit.
+Recorded output SHA-256:
+
+`d0cc498aaf7b378bf9affe19f0ca5ea7f638622e23517986ee2ee6477d7ddc75`
+
+Recorded frozen-split SHA-256 used for role validation:
+
+`eceac43dc287326eb126b150a940d6681b4bbfe0015e5efc8ef4769876f9a9d1`
+
+## What has and has not been transformed
+
+The committed Leroy CSV is deliberately a **raw-source profile product**:
+
+- source radius in kpc is preserved as published;
+- source normalized radius is preserved as published;
+- source helium-inclusive `SigmaHI` is preserved as published;
+- source uncertainty is preserved as published;
+- no frozen-distance radius rescaling has been applied;
+- no inclination-amplitude rescaling has been applied;
+- no helium removal/reapplication has been performed;
+- no interpolation, extrapolation, taper or common-grid resampling has been performed;
+- no persistence parameter or blind-test outcome has been evaluated.
+
+The Leroy source distance/inclination metadata and radial coverage relative to the frozen SPARC rotation-curve domains remain part of the later common normalization/QC stage.
+
+## Scientific/database consequence
+
+This is the first large Paper I source block in which public numerical radial H I profiles have been ingested directly rather than reconstructed or digitized. These 11 profiles therefore move from `public_source_available` to **`raw_source_profile_ingested`**.
+
+They are **not yet** the final `stationary_hi_profiles_v1.csv`; that promotion occurs only after the common distance/inclination/helium/interpolation rules are globally frozen and the coverage QC is completed.
 
 ## Current disposition
 
 - public source identity: **COMPLETE**
-- machine-readable radial profile catalog: **COMPLETE / AVAILABLE**
+- machine-readable radial profile catalog: **COMPLETE**
 - frozen-master crossmatch: **COMPLETE — 11 galaxies**
-- frozen-role split: **6 calibration + 5 blind**
-- source `SigmaHI` helium status: **CONFIRMED — already includes helium**
-- reproducible ingestion code: **OPENED / TO BE RUN AGAINST VIZIER**
-- raw-source profile CSV committed from catalog: **PENDING EXECUTION**
-- global distance/inclination/helium normalization: **LOCKED pending common source-profile rules**
+- raw numerical profile ingestion: **COMPLETE — 369 rows**
+- source helium status: **CONFIRMED — already includes helium**
+- reproducible Actions validation: **PASSED**
+- common source normalization / radial-coverage QC: **NEXT**
+- final `stationary_hi_profiles_v1.csv`: **NOT YET FROZEN**
 - `L_A`, `\mathcal C_A`: **LOCKED**
