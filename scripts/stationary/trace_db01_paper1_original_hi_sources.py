@@ -12,7 +12,10 @@ import io, json, re, tarfile
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-URL="https://export.arxiv.org/e-print/astro-ph/0107326"
+# export.arxiv.org returned HTTP 429 on the first bounded pass.  Use the
+# canonical arxiv.org e-print endpoint as a genuinely distinct transport route;
+# do not loop the failed export endpoint.
+URL="https://arxiv.org/e-print/astro-ph/0107326"
 OUT=Path("validation/stationary/db01_paper1_original_hi_source_trace_v1.json")
 TARGETS={
     "D631-7":["D631-7","D6317"],
@@ -23,14 +26,16 @@ TARGETS={
 }
 
 def fetch(u):
-    with urlopen(Request(u,headers={"User-Agent":"PersistenceFrameworkPaperI/1.0"}),timeout=120) as h:return h.read()
+    req=Request(u,headers={"User-Agent":"Mozilla/5.0 PersistenceFrameworkPaperI/1.0","Accept":"application/x-eprint-tar,application/gzip,application/octet-stream,*/*;q=0.5"})
+    with urlopen(req,timeout=120) as h:return h.read(),h.geturl(),h.headers.get("Content-Type","")
 
 def compact(s):return re.sub(r"[^A-Z0-9]","",s.upper())
 
 def ctx(lines,i,r=10):return "\n".join(lines[max(0,i-r):min(len(lines),i+r+1)])[:10000]
 
 def main():
-    raw=fetch(URL); tf=tarfile.open(fileobj=io.BytesIO(raw),mode="r:*")
+    raw,final_url,content_type=fetch(URL)
+    tf=tarfile.open(fileobj=io.BytesIO(raw),mode="r:*")
     texts=[]; members=[]
     for m in tf.getmembers():
         if not m.isfile():continue
@@ -55,6 +60,7 @@ def main():
     result={
       "status":"DB01_PAPER1_ORIGINAL_HI_SOURCE_TRACE_COMPLETE",
       "paper":"McGaugh, Rubin & de Blok 2001 AJ 122 2381 (Paper I; arXiv astro-ph/0107326)",
+      "source_transport":{"url":URL,"final_url":final_url,"content_type":content_type},
       "arxiv_bytes":len(raw),"n_files":len(members),"members":members,
       "targets":list(TARGETS),"target_hits":target_hits,
       "reference_legend_hits":reference_legend[:300],"provenance_hits":provenance[:500],
