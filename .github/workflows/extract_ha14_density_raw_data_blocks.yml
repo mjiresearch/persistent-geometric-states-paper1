@@ -1,0 +1,30 @@
+name: Extract Ha14 density raw data blocks
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/extract_ha14_density_raw_data_blocks.py'
+      - '.github/workflows/extract_ha14_density_raw_data_blocks.yml'
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/extract_ha14_density_raw_data_blocks.py
+      - name: Commit source block
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ha14_density_raw_data_blocks_v1.txt
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Extract Ha14 density raw vector blocks'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
