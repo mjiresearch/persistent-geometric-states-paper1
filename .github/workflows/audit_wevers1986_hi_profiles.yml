@@ -1,0 +1,43 @@
+name: Audit Wevers 1986 HI profiles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/audit_wevers1986_hi_profiles.py'
+      - '.github/workflows/audit_wevers1986_hi_profiles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF inspection dependency
+        run: python -m pip install --quiet PyMuPDF
+      - name: Audit full Wevers 1986 atlas
+        run: python scripts/stationary/audit_wevers1986_hi_profiles.py
+      - name: Commit profile audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/wevers1986_hi_profile_audit_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Audit Wevers 1986 HI profiles'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
