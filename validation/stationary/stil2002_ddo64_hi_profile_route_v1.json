@@ -1,0 +1,1202 @@
+{
+  "status": "STIL2002_DDO64_HI_PROFILE_ROUTE_AUDIT_COMPLETE",
+  "source": "Stil & Israel 2002, Neutral hydrogen in dwarf galaxies I. The spatial distribution of HI",
+  "arxiv": "astro-ph/0203128",
+  "provenance_chain": "Lelli/SPARC DDO064 -> dB02 Table 1 code 6 -> Stil 1999 thesis -> Stil & Israel 2002 Paper I",
+  "transport_attempts": [
+    {
+      "url": "https://arxiv.org/e-print/astro-ph/0203128",
+      "status": "fetched",
+      "final_url": "https://arxiv.org/src/astro-ph/0203128",
+      "content_type": "application/gzip",
+      "bytes": 446192
+    }
+  ],
+  "source_bytes": 446192,
+  "source_sha256": "d97bae8fca1dc69f577b62a51c009dd268ce57ebd579f8ddcc604d1720af3e09",
+  "members": [
+    {
+      "name": "7ZW347tpl.NHI.ps",
+      "bytes": 41613,
+      "suffix": ".ps"
+    },
+    {
+      "name": "D83A.cont.ps",
+      "bytes": 31388,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO101.NHI.ps",
+      "bytes": 30765,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO123.NHI.ps",
+      "bytes": 47552,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO125A469F.NHI.ps",
+      "bytes": 42612,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO133.NHI.ps",
+      "bytes": 48609,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO165.NHI.ps",
+      "bytes": 43171,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO166.NHI.ps",
+      "bytes": 36940,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO168.NHI.ps",
+      "bytes": 66663,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO185.NHI.ps",
+      "bytes": 52069,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO190.NHI.ps",
+      "bytes": 40498,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO216.NHI.ps",
+      "bytes": 44188,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO217.NHI.ps",
+      "bytes": 100872,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO22.NHI.ps",
+      "bytes": 33917,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO43.NHI.ps",
+      "bytes": 32028,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO46.NHI.ps",
+      "bytes": 36115,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO47.NHI.ps",
+      "bytes": 104607,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO48.NHI.ps",
+      "bytes": 39948,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO52tpl.NHI.ps",
+      "bytes": 36102,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO63.NHI.ps",
+      "bytes": 59880,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO64.NHI.ps",
+      "bytes": 43134,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO68.NHI.ps",
+      "bytes": 48613,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO73.NHI.ps",
+      "bytes": 33160,
+      "suffix": ".ps"
+    },
+    {
+      "name": "DDO83A468K.NHI.ps",
+      "bytes": 35276,
+      "suffix": ".ps"
+    },
+    {
+      "name": "HIdwarf.tex",
+      "bytes": 55169,
+      "suffix": ".tex"
+    },
+    {
+      "name": "HIprof1.ps",
+      "bytes": 172068,
+      "suffix": ".ps"
+    },
+    {
+      "name": "HIprof2.ps",
+      "bytes": 149177,
+      "suffix": ".ps"
+    },
+    {
+      "name": "IZW36.NHI.ps",
+      "bytes": 32820,
+      "suffix": ".ps"
+    },
+    {
+      "name": "MKN178.NHI.ps",
+      "bytes": 29066,
+      "suffix": ".ps"
+    },
+    {
+      "name": "N2537.NHI.ps",
+      "bytes": 44604,
+      "suffix": ".ps"
+    },
+    {
+      "name": "N2537.cont.ps",
+      "bytes": 27906,
+      "suffix": ".ps"
+    },
+    {
+      "name": "N2976.NHI.ps",
+      "bytes": 57052,
+      "suffix": ".ps"
+    },
+    {
+      "name": "N2976.cont.ps",
+      "bytes": 39433,
+      "suffix": ".ps"
+    },
+    {
+      "name": "N3738.NHI.ps",
+      "bytes": 48528,
+      "suffix": ".ps"
+    },
+    {
+      "name": "N3738.cont.ps",
+      "bytes": 37483,
+      "suffix": ".ps"
+    },
+    {
+      "name": "U4278.NHI.ps",
+      "bytes": 51479,
+      "suffix": ".ps"
+    },
+    {
+      "name": "fluxflux.ps",
+      "bytes": 34135,
+      "suffix": ".ps"
+    }
+  ],
+  "data_like_assets": [],
+  "numeric_target_candidates": [],
+  "target_hits": [
+    {
+      "file": "HIdwarf.tex",
+      "line": 800,
+      "text": "\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO64.NHI.ps}}",
+      "context": "\\begin{minipage}[b]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO63.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\begin{minipage}[t]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{N2976.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\hfill\n\\begin{minipage}[b]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO64.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\hfill\n\\begin{minipage}[b]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO68.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\caption{HI column density maps at 13.5$''$ resolution. \nContours ($\\cm2$) are in steps printed below object name. \n%"
+    }
+  ],
+  "profile_language_hits": [
+    {
+      "file": "HIdwarf.tex",
+      "line": 114,
+      "text": "Name  & \\multicolumn{2}{c}{Fringe Stopping Center} \\vline &  dist. & $\\rm Q_{dist}$  &\\ \\  $M_B$ &{\\footnotesize $B-V$}& log$FIR$ & \\ \\ \\ \\ \\ group & Other names \\\\",
+      "context": "\n% TABLE 1\n%\n\\begin{table*}\n\\caption[]{Basic data on sample dwarf galaxies}\n\\begin{center}\n\\begin{tabular}{|  l  | l  l  | c c | l c r | l | l |} \n\\hline \nName  & \\multicolumn{2}{c}{Fringe Stopping Center} \\vline &  dist. & $\\rm Q_{dist}$  &\\ \\  $M_B$ &{\\footnotesize $B-V$}& log$FIR$ & \\ \\ \\ \\ \\ group & Other names \\\\\n\\hline \n      & $\\alpha(1950)$  &  \\ \\ \\ $\\delta(1950)$ &  Mpc &      & mag           & mag     & W m$^{-2}$   &                     & \\\\\n\\hline \n\\ \\ \\ [1]     &\\ \\ \\ [2]  &\\ \\ \\ \\ \\ \\ [3] &  [4] & [5]  &\\ \\ \\ [6]   & [7]  & [8]\\ \\ &\\ \\ \\ \\ \\ \\ \\ \\ [9]  &\\ \\ \\ \\ \\ \\ [10] \\\\\n\\hline \nD~22  &  $\\rm 02^h\\ 29^m\\ 36^s.0 $  & $\\rm 38^\\circ\\ 27'\\ 30'' $ & $9.9$  & $2$ & $-14.9$ &$0.09$ & $<-14.49$&{\\footnotesize G7}   &{\\footnotesize U~2014} \\\\\n% N1569  &  $\\rm 04^h\\  26^m\\ 05^s.8 $ & $\\rm  64^\\circ\\ 44 18 $ & $2.2$ & \t  & $-16.1$  & & IC342 & \\\\\nD~43  &  $\\rm 07^h\\ 24^m\\ 48^s.0 $  & $\\rm 40^\\circ\\ 52'\\ 00'' $ & $4.9$  & $3$ & $-13.9$ &$0.20$ & $<-14.23$&{\\footnotesize close to  G6}& {\\footnotesize U~3860} \\\\",
+      "mentions_hi": false,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 155,
+      "text": "U = UGC; [2, 3] Adopted position for aperture synthesis fringe-stopping ",
+      "context": "D~190 &  $\\rm 14^h\\ 22^m\\ 48^s.0 $  & $\\rm 44^\\circ\\ 44'\\ 00'' $ & $6 $   & $2$ & $-15.8$ &$0.24$ & $ -14.03$&{\\footnotesize (Uma/M101)}&{\\footnotesize U~9240} \\\\\nD~216 &  $\\rm 23^h\\ 26^m\\ 06^s.0 $  & $\\rm 14^\\circ\\ 28'\\ 00'' $ & $1.0$  & $1$ & $-13.1$ &$0.62$ & $<-14.07$&{\\footnotesize Local Group}&{\\footnotesize U~12613}$^e$ \\\\\nD~217 &  $\\rm 23^h\\ 27^m\\ 33^s.0 $  & $\\rm 40^\\circ\\ 43'\\ 07'' $ & $9.3$  & $3$ & $-17.6$ &$0.58$ &$ -13.66$&{\\footnotesize N~7640}&{\\footnotesize U~12632} \\\\\n\\hline \n\\end{tabular} \n\\label{phys-sample-tab}\n\\end{center}\nColumn Designations: [1] Object name: D = DDO, Mk = Markarian, N = NGC, \nU = UGC; [2, 3] Adopted position for aperture synthesis fringe-stopping \ncenter; [4] Distances \ncompiled from the literature. Stellar distances for {\\small DDO\\,}63, \n{\\small NGC\\,}2976, {\\small NGC\\,}3738, {\\small DDO\\,}165, \n{\\small DDO\\,}168 and {\\small DDO\\,}216 (Karachentsev $\\&$ Tikhonov 1994;\nRozanski $\\&$ Rowan-Robinson 1994). Group distances from the larger spiral \ngroup members and based on stellar indicators wherever possible \n(Rowan-Robinson 1988, Rozanski $\\&$ Rowan-Robinson 1994) and the blue\nTully-Fisher relation (Kraan-Korteweg et~al. 1988; data from ",
+      "mentions_hi": false,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 173,
+      "text": "appearing as a group member in Garcia (1993) are listed as L = LGG. ",
+      "context": "were used, corrected for Local Group peculiar motion and H$_{0}$ = 75 \n$\\kms$\\, Mpc$^{-1}$. [5] Distance quality flag: 1 = reliable distance from \ntwo or more independent indicators (excluding Hubble expansion); 2 = \ndistance from only one reliable indicator; 3 = tentative distance based \non group membership or recession velocity. [6, 7, 8] Absolute B band \nmagnitudes, corrected for Galactic foreground absorption, ($B-V$) colours \nand log(FIR) luminosities all taken from Melisse $\\&$ Israel (1994); [9] \nGroup membership according to de Vaucouleurs et~al. (1983). Objects \nappearing as a group member in Garcia (1993) are listed as L = LGG. \n[10] Any  other names, mostly UGC.\n\\\\\n\\\\\nNotes : {\\it a:} {\\small NGC~}2537 and {\\small UGC~}4278 are a pair of\ngalaxies; The galaxy {\\small NGC~}2537A ($\\alpha_{1950}=\\rm 8^h10^m09^s.0$,\n$\\delta_{1950}=\\rm 46^\\circ8'46''$) could be associated with this pair, but\nit is not visible in the HI data. {\\it b:} {\\small DDO~}64 has a small \ncompanion (see text); {\\it c:} {\\small DDO~}125 is a companion of the irregular",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 388,
+      "text": "Table~\\ref{farthest} are accompanied by late-type galaxies with radial ",
+      "context": "{\\small DDO\\,}52, but at nearly the same velocity. The nearest neighbour \nof {\\small DDO\\,}83 is {\\small DDO\\,}84, at a very similar velocity but\nat a projected distance of 500 kpc, just as {\\small NGC\\,}3413 and \n{\\small NGC\\,}3274. {\\small DDO\\,}123 appears to be the most isolated galaxy \nin the sample. The data in Table~\\ref{farthest} suggest that \n{\\small DDO\\,}123 is associated with {\\small UGC\\,}7544 and \n{\\small UGC\\,}8146, so that the nearest neighbour is a dwarf galaxy \nat least 800 kpc distant. Four of the `isolated' objects in \nTable~\\ref{farthest} are accompanied by late-type galaxies with radial \nvelocities not differing by more than 50 $\\kms$. As the number density of \ngalaxies along the velocity axis is low, it is highly unlikely that these\ngalaxies are unrelated.\n\n\\section{Observations and reduction}              \n\nAll observations discussed in this paper were made with the Westerbork \nSynthesis Radio Telescope (WSRT) between 1984 en 1991. At the",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 389,
+      "text": "velocities not differing by more than 50 $\\kms$. As the number density of ",
+      "context": "of {\\small DDO\\,}83 is {\\small DDO\\,}84, at a very similar velocity but\nat a projected distance of 500 kpc, just as {\\small NGC\\,}3413 and \n{\\small NGC\\,}3274. {\\small DDO\\,}123 appears to be the most isolated galaxy \nin the sample. The data in Table~\\ref{farthest} suggest that \n{\\small DDO\\,}123 is associated with {\\small UGC\\,}7544 and \n{\\small UGC\\,}8146, so that the nearest neighbour is a dwarf galaxy \nat least 800 kpc distant. Four of the `isolated' objects in \nTable~\\ref{farthest} are accompanied by late-type galaxies with radial \nvelocities not differing by more than 50 $\\kms$. As the number density of \ngalaxies along the velocity axis is low, it is highly unlikely that these\ngalaxies are unrelated.\n\n\\section{Observations and reduction}              \n\nAll observations discussed in this paper were made with the Westerbork \nSynthesis Radio Telescope (WSRT) between 1984 en 1991. At the\nobserving fequency of 1.4 GHz, the primary beam is 40$'$ (FWHM),",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 473,
+      "text": "Crosses indicate the fringe stopping center, which is outside the",
+      "context": "\\end{minipage}\n}\n\\caption{\\small Clockwise from top left: continuum maps of NGC~2537, \nNGC~2976, DDO~83 and NGC~3738 at 27$''$ resolution. The thin contours \ngive the 1.4 GHz continuum at the levels $-2$, $2$, $4$, $6$ times \nthe rms noise of $0.7$, $0.3$, $0.5$ and $0.6$ mJy per beam area for\nNGC~2537, NGC~2976, DDO~83 and NGC~3738 respectively.  The thick contour\nis the $3\\cdot 10^{20}\\rm\\, cm^{-2}$ HI column density contour.\nCrosses indicate the fringe stopping center, which is outside the\nfield of view for NGC~2976.\n\\vspace{0.3cm}\n}\n\\label{cont-sample}\n\\end{figure*}\n\n% TABLE 5\n%",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 946,
+      "text": "WSRT maps, not suffering from missing flux problems and (b) should have ",
+      "context": "by Tifft $\\&$ Huchtmeier (1990) for seven of the eight galaxies\nin common (excluding the relatively extended DDO~217). The single-dish\nintegrals listed by those authors were determined with the Effelsberg \n100 m and NRAO 300 ft telescopes (HPBW 9.3$'$ and 10$'$ respectively) on\npractically identical flux scales; no correction for extent was applied.\nWe find that the seven WSRT integrals are on average 10$\\%$ {\\it higher} \nthan the single-dish vales by Tifft $\\&$ Huchtmeier 1990). This suggests\nthat at least these seven galaxies (a) are correctly represented by the \nWSRT maps, not suffering from missing flux problems and (b) should have \noverall HI sizes of order 3$'$ as indeed shown in Fig.~\\ref{NHI-sample},\nalthough the flux scale uncertainties are easily of the same magnitude.\n \nThe actual shape of an HI line profile depends on both the HI gas \ndistribution and on the HI gas kinematics. For instance, a \ndouble-peaked line profile may result from a uniform surface density \ndisk with a flat rotation curve, but it may also be the signature of \na rotating ring. Inspection of Figs.~\\ref{prof-sample} and ",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 954,
+      "text": "a rotating ring. Inspection of Figs.~\\ref{prof-sample} and ",
+      "context": "WSRT maps, not suffering from missing flux problems and (b) should have \noverall HI sizes of order 3$'$ as indeed shown in Fig.~\\ref{NHI-sample},\nalthough the flux scale uncertainties are easily of the same magnitude.\n \nThe actual shape of an HI line profile depends on both the HI gas \ndistribution and on the HI gas kinematics. For instance, a \ndouble-peaked line profile may result from a uniform surface density \ndisk with a flat rotation curve, but it may also be the signature of \na rotating ring. Inspection of Figs.~\\ref{prof-sample} and \n~\\ref{NHI-sample} shows that the HI distribution of galaxies having \na double-peaked profile is indeed relatively homogeneous. In contrast, \nthe line profiles of galaxies with a distinct central minimum ({\\small \nDDO\\,}63, {\\small DDO\\,}125, {\\small DDO\\,}165, Mk 178) are all \nsingle-peaked. Galaxies with a double peaked profile are on average more\nluminous, but the low luminosity objects {\\small DDO\\,}52 and {\\small\nDDO\\,}87 ($M_{\\rm B} > -14$) also have a double-peaked line profile.\nThese objects have nearly flat rotation curves at the outermost",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 981,
+      "text": "In comparing HI column density maps, one should take into account",
+      "context": "intensities into HI column densities (H atoms per $\\cm2$), by using:\n$$\nN_{\\rm HI}={ {1.104 \\cdot 10^{21}} \\over {b_\\alpha b_\\delta}} \\int I_v dv \n$$\nwhere $I_v$ is in mJy, $v$ is in $\\kms$, and $b_\\alpha$ and $b_\\delta$ \nare the {\\small FWHM} beamsizes (in arcsec) in right ascension and \ndeclination respectively.\n\nIn comparing HI column density maps, one should take into account\nthe linear resolution of the maps. For example, the small {\\small DDO\\,}43 \nis, in fact, approximately the same linear size as the larger \n{\\small DDO\\,}47. The size of condensations at a particular column density\nlevel relative to the overall HI distribution is a useful parameter in\ncomparisons of HI column density maps, because it is relatively\ninsensitive to the linear resolution. The greyscales in Fig.~4 are \nthe same for all objects in order to facilitate such comparisons. \n",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 1004,
+      "text": "shape of a (sometimes broken) ring is present, comparable in size to the ",
+      "context": "regions ($\\rm N_{\\rm HI}>2 \\cdot 10^{21}\\ \\cm2$) do not occur. \nOn the whole, these objects are rather featureless.\nThe morphology resembles the HI distribution in Sc galaxies. \n{\\small DDO\\,}43, {\\small DDO\\,}47, {\\small DDO\\,}52, \n{\\small DDO\\,}73, {\\small DDO\\,}87, {\\small DDO\\,}123, {\\small DDO\\,}133 \nand {\\small DDO\\,}217 all belong to this class.\n\nB. A high-column-density region ($\\rm N_{\\rm HI}>10^{21}\\ \\cm2$) in the \nshape of a (sometimes broken) ring is present, comparable in size to the \nHI disk. The central parts of the galaxy have relatively low column\ndensities. Objects in this class are {\\small DDO\\,}46, {\\small NGC\\,}2537, \n{\\small DDO\\,}63, {\\small NGC\\,}2976, {\\small DDO\\,}68, {\\small DDO\\,}83, \nMk~178, {\\small DDO\\,}125, {\\small DDO\\,}165 and {\\small DDO\\,}166.\n \nC. The structure is dominated by a single prominent complex of very high \ncolumn density ($\\rm N_{\\rm HI}>3 \\cdot 10^{21}\\ \\cm2$). Galaxies in this \nclass are {\\small NGC\\,}3738, Mk209, {\\small DDO\\,}168 and {\\small DDO\\,}190.",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 1084,
+      "text": "\tBright Galaxies', 1991, Springer Verlag, N.Y.",
+      "context": "\t\\apjs 99, 247\n\\bibitem[]{} Thuan T.X., $\\&$ Seitzer P.O, 1979 \\apj 231, 327\n\\bibitem[]{} Thuan T.X., $\\&$ Martin G.E., 1981 \\apj 247, 823\n\\bibitem[]{} Tifft W.G., Huchtmeier W.K., \\auas 84, 47\n\\bibitem[de Vaucouleurs et~al. (1983) ]{dVdVB} de Vaucouleurs G., de \n\tVaucouleurs A., $\\&$ Buta R., 1983, \\aj 88, 764 \n\\bibitem[de Vaucouleurs et~al. (1991), RC3]{RC3} de Vaucouleurs G., de \n\tVaucouleurs A., Corwin H.G. et~al., `Third Reference Catalogue of\n\tBright Galaxies', 1991, Springer Verlag, N.Y.\n\\bibitem[]{} Walter F., Brinks E., 2001, \\aj 121, 3026\n\\end{thebibliography}\n\n\\end{document}\n",
+      "mentions_hi": true,
+      "mentions_target": false
+    }
+  ],
+  "target_radial_hi_contexts": [],
+  "global_radial_hi_contexts": [
+    {
+      "file": "HIdwarf.tex",
+      "line": 173,
+      "text": "appearing as a group member in Garcia (1993) are listed as L = LGG. ",
+      "context": "were used, corrected for Local Group peculiar motion and H$_{0}$ = 75 \n$\\kms$\\, Mpc$^{-1}$. [5] Distance quality flag: 1 = reliable distance from \ntwo or more independent indicators (excluding Hubble expansion); 2 = \ndistance from only one reliable indicator; 3 = tentative distance based \non group membership or recession velocity. [6, 7, 8] Absolute B band \nmagnitudes, corrected for Galactic foreground absorption, ($B-V$) colours \nand log(FIR) luminosities all taken from Melisse $\\&$ Israel (1994); [9] \nGroup membership according to de Vaucouleurs et~al. (1983). Objects \nappearing as a group member in Garcia (1993) are listed as L = LGG. \n[10] Any  other names, mostly UGC.\n\\\\\n\\\\\nNotes : {\\it a:} {\\small NGC~}2537 and {\\small UGC~}4278 are a pair of\ngalaxies; The galaxy {\\small NGC~}2537A ($\\alpha_{1950}=\\rm 8^h10^m09^s.0$,\n$\\delta_{1950}=\\rm 46^\\circ8'46''$) could be associated with this pair, but\nit is not visible in the HI data. {\\it b:} {\\small DDO~}64 has a small \ncompanion (see text); {\\it c:} {\\small DDO~}125 is a companion of the irregular",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 388,
+      "text": "Table~\\ref{farthest} are accompanied by late-type galaxies with radial ",
+      "context": "{\\small DDO\\,}52, but at nearly the same velocity. The nearest neighbour \nof {\\small DDO\\,}83 is {\\small DDO\\,}84, at a very similar velocity but\nat a projected distance of 500 kpc, just as {\\small NGC\\,}3413 and \n{\\small NGC\\,}3274. {\\small DDO\\,}123 appears to be the most isolated galaxy \nin the sample. The data in Table~\\ref{farthest} suggest that \n{\\small DDO\\,}123 is associated with {\\small UGC\\,}7544 and \n{\\small UGC\\,}8146, so that the nearest neighbour is a dwarf galaxy \nat least 800 kpc distant. Four of the `isolated' objects in \nTable~\\ref{farthest} are accompanied by late-type galaxies with radial \nvelocities not differing by more than 50 $\\kms$. As the number density of \ngalaxies along the velocity axis is low, it is highly unlikely that these\ngalaxies are unrelated.\n\n\\section{Observations and reduction}              \n\nAll observations discussed in this paper were made with the Westerbork \nSynthesis Radio Telescope (WSRT) between 1984 en 1991. At the",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 389,
+      "text": "velocities not differing by more than 50 $\\kms$. As the number density of ",
+      "context": "of {\\small DDO\\,}83 is {\\small DDO\\,}84, at a very similar velocity but\nat a projected distance of 500 kpc, just as {\\small NGC\\,}3413 and \n{\\small NGC\\,}3274. {\\small DDO\\,}123 appears to be the most isolated galaxy \nin the sample. The data in Table~\\ref{farthest} suggest that \n{\\small DDO\\,}123 is associated with {\\small UGC\\,}7544 and \n{\\small UGC\\,}8146, so that the nearest neighbour is a dwarf galaxy \nat least 800 kpc distant. Four of the `isolated' objects in \nTable~\\ref{farthest} are accompanied by late-type galaxies with radial \nvelocities not differing by more than 50 $\\kms$. As the number density of \ngalaxies along the velocity axis is low, it is highly unlikely that these\ngalaxies are unrelated.\n\n\\section{Observations and reduction}              \n\nAll observations discussed in this paper were made with the Westerbork \nSynthesis Radio Telescope (WSRT) between 1984 en 1991. At the\nobserving fequency of 1.4 GHz, the primary beam is 40$'$ (FWHM),",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 473,
+      "text": "Crosses indicate the fringe stopping center, which is outside the",
+      "context": "\\end{minipage}\n}\n\\caption{\\small Clockwise from top left: continuum maps of NGC~2537, \nNGC~2976, DDO~83 and NGC~3738 at 27$''$ resolution. The thin contours \ngive the 1.4 GHz continuum at the levels $-2$, $2$, $4$, $6$ times \nthe rms noise of $0.7$, $0.3$, $0.5$ and $0.6$ mJy per beam area for\nNGC~2537, NGC~2976, DDO~83 and NGC~3738 respectively.  The thick contour\nis the $3\\cdot 10^{20}\\rm\\, cm^{-2}$ HI column density contour.\nCrosses indicate the fringe stopping center, which is outside the\nfield of view for NGC~2976.\n\\vspace{0.3cm}\n}\n\\label{cont-sample}\n\\end{figure*}\n\n% TABLE 5\n%",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 946,
+      "text": "WSRT maps, not suffering from missing flux problems and (b) should have ",
+      "context": "by Tifft $\\&$ Huchtmeier (1990) for seven of the eight galaxies\nin common (excluding the relatively extended DDO~217). The single-dish\nintegrals listed by those authors were determined with the Effelsberg \n100 m and NRAO 300 ft telescopes (HPBW 9.3$'$ and 10$'$ respectively) on\npractically identical flux scales; no correction for extent was applied.\nWe find that the seven WSRT integrals are on average 10$\\%$ {\\it higher} \nthan the single-dish vales by Tifft $\\&$ Huchtmeier 1990). This suggests\nthat at least these seven galaxies (a) are correctly represented by the \nWSRT maps, not suffering from missing flux problems and (b) should have \noverall HI sizes of order 3$'$ as indeed shown in Fig.~\\ref{NHI-sample},\nalthough the flux scale uncertainties are easily of the same magnitude.\n \nThe actual shape of an HI line profile depends on both the HI gas \ndistribution and on the HI gas kinematics. For instance, a \ndouble-peaked line profile may result from a uniform surface density \ndisk with a flat rotation curve, but it may also be the signature of \na rotating ring. Inspection of Figs.~\\ref{prof-sample} and ",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 954,
+      "text": "a rotating ring. Inspection of Figs.~\\ref{prof-sample} and ",
+      "context": "WSRT maps, not suffering from missing flux problems and (b) should have \noverall HI sizes of order 3$'$ as indeed shown in Fig.~\\ref{NHI-sample},\nalthough the flux scale uncertainties are easily of the same magnitude.\n \nThe actual shape of an HI line profile depends on both the HI gas \ndistribution and on the HI gas kinematics. For instance, a \ndouble-peaked line profile may result from a uniform surface density \ndisk with a flat rotation curve, but it may also be the signature of \na rotating ring. Inspection of Figs.~\\ref{prof-sample} and \n~\\ref{NHI-sample} shows that the HI distribution of galaxies having \na double-peaked profile is indeed relatively homogeneous. In contrast, \nthe line profiles of galaxies with a distinct central minimum ({\\small \nDDO\\,}63, {\\small DDO\\,}125, {\\small DDO\\,}165, Mk 178) are all \nsingle-peaked. Galaxies with a double peaked profile are on average more\nluminous, but the low luminosity objects {\\small DDO\\,}52 and {\\small\nDDO\\,}87 ($M_{\\rm B} > -14$) also have a double-peaked line profile.\nThese objects have nearly flat rotation curves at the outermost",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 981,
+      "text": "In comparing HI column density maps, one should take into account",
+      "context": "intensities into HI column densities (H atoms per $\\cm2$), by using:\n$$\nN_{\\rm HI}={ {1.104 \\cdot 10^{21}} \\over {b_\\alpha b_\\delta}} \\int I_v dv \n$$\nwhere $I_v$ is in mJy, $v$ is in $\\kms$, and $b_\\alpha$ and $b_\\delta$ \nare the {\\small FWHM} beamsizes (in arcsec) in right ascension and \ndeclination respectively.\n\nIn comparing HI column density maps, one should take into account\nthe linear resolution of the maps. For example, the small {\\small DDO\\,}43 \nis, in fact, approximately the same linear size as the larger \n{\\small DDO\\,}47. The size of condensations at a particular column density\nlevel relative to the overall HI distribution is a useful parameter in\ncomparisons of HI column density maps, because it is relatively\ninsensitive to the linear resolution. The greyscales in Fig.~4 are \nthe same for all objects in order to facilitate such comparisons. \n",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 1004,
+      "text": "shape of a (sometimes broken) ring is present, comparable in size to the ",
+      "context": "regions ($\\rm N_{\\rm HI}>2 \\cdot 10^{21}\\ \\cm2$) do not occur. \nOn the whole, these objects are rather featureless.\nThe morphology resembles the HI distribution in Sc galaxies. \n{\\small DDO\\,}43, {\\small DDO\\,}47, {\\small DDO\\,}52, \n{\\small DDO\\,}73, {\\small DDO\\,}87, {\\small DDO\\,}123, {\\small DDO\\,}133 \nand {\\small DDO\\,}217 all belong to this class.\n\nB. A high-column-density region ($\\rm N_{\\rm HI}>10^{21}\\ \\cm2$) in the \nshape of a (sometimes broken) ring is present, comparable in size to the \nHI disk. The central parts of the galaxy have relatively low column\ndensities. Objects in this class are {\\small DDO\\,}46, {\\small NGC\\,}2537, \n{\\small DDO\\,}63, {\\small NGC\\,}2976, {\\small DDO\\,}68, {\\small DDO\\,}83, \nMk~178, {\\small DDO\\,}125, {\\small DDO\\,}165 and {\\small DDO\\,}166.\n \nC. The structure is dominated by a single prominent complex of very high \ncolumn density ($\\rm N_{\\rm HI}>3 \\cdot 10^{21}\\ \\cm2$). Galaxies in this \nclass are {\\small NGC\\,}3738, Mk209, {\\small DDO\\,}168 and {\\small DDO\\,}190.",
+      "mentions_hi": true,
+      "mentions_target": false
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 1084,
+      "text": "\tBright Galaxies', 1991, Springer Verlag, N.Y.",
+      "context": "\t\\apjs 99, 247\n\\bibitem[]{} Thuan T.X., $\\&$ Seitzer P.O, 1979 \\apj 231, 327\n\\bibitem[]{} Thuan T.X., $\\&$ Martin G.E., 1981 \\apj 247, 823\n\\bibitem[]{} Tifft W.G., Huchtmeier W.K., \\auas 84, 47\n\\bibitem[de Vaucouleurs et~al. (1983) ]{dVdVB} de Vaucouleurs G., de \n\tVaucouleurs A., $\\&$ Buta R., 1983, \\aj 88, 764 \n\\bibitem[de Vaucouleurs et~al. (1991), RC3]{RC3} de Vaucouleurs G., de \n\tVaucouleurs A., Corwin H.G. et~al., `Third Reference Catalogue of\n\tBright Galaxies', 1991, Springer Verlag, N.Y.\n\\bibitem[]{} Walter F., Brinks E., 2001, \\aj 121, 3026\n\\end{thebibliography}\n\n\\end{document}\n",
+      "mentions_hi": true,
+      "mentions_target": false
+    }
+  ],
+  "target_context_figure_refs": [
+    {
+      "file": "HIdwarf.tex",
+      "line": 800,
+      "target_context_figure_refs": [
+        "-90"
+      ],
+      "context": "\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO52tpl.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\hfill\n\\begin{minipage}[b]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO63.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\begin{minipage}[t]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{N2976.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\hfill\n\\begin{minipage}[b]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO64.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\hfill\n\\begin{minipage}[b]{5.7cm}\n\\resizebox{5.7cm}{!}{\\includegraphics[angle=-90,clip=true]{DDO68.NHI.ps}}\n\\noindent\n\\end{minipage}\n\\caption{HI column density maps at 13.5$''$ resolution. \nContours ($\\cm2$) are in steps printed below object name. \n%\n%Logarithmic greyscales range from $5 \\cdot \n%10^{20}\\,\\cm2$ to $5 \\cdot 10^{21}\\,\\cm2$. \n}\n%All maps are at resolution $\\approx"
+    }
+  ],
+  "relevant_sections": [
+    {
+      "file": "HIdwarf.tex",
+      "line": 551,
+      "text": "\\section{Results}"
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 672,
+      "text": "\\subsection{Integrated HI emission}     "
+    },
+    {
+      "file": "HIdwarf.tex",
+      "line": 965,
+      "text": "\\subsection{HI distribution in dwarf galaxies} "
+    }
+  ],
+  "postscript_assets": [
+    {
+      "name": "7ZW347tpl.NHI.ps",
+      "bytes": 41613,
+      "sha256": "d7ae468b0265df70b4cde8add4224a21e0f14440c3d939aacf09980ce23dd1ca",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:35 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "D83A.cont.ps",
+      "bytes": 31388,
+      "sha256": "7d1aa7d6ca7b1df46600cff0e1d6aadbb349edd205ae708ba9b0bee8b7b72642",
+      "bounding_box_lines": [
+        "%%BoundingBox: 148 80 540 505"
+      ],
+      "creator_lines": [
+        "%%Creator: GPLOT",
+        "%%Title: GIPSY PostScript plot",
+        "%%CreationDate: Thu Jul  3 16:56:33 1997"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO101.NHI.ps",
+      "bytes": 30765,
+      "sha256": "b71dca0170d83e1528834cfb5b7e8d9f522b58825662853edb57dce019e77fb2",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:47 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO123.NHI.ps",
+      "bytes": 47552,
+      "sha256": "7d5d16cf8f53103b40d8618ce69841cbf645f46c1ad47600acb8a122a9673b97",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:52 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO125A469F.NHI.ps",
+      "bytes": 42612,
+      "sha256": "9af94b7a2fa13464ef99fefaaaa72d986e94ec51e0914ee4ba9853f90b924609",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:28:06 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO133.NHI.ps",
+      "bytes": 48609,
+      "sha256": "739f261e7a7c6baa44d53de1b3e028215295a9c3345756dfc0124f0fcfc8ee42",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:28:10 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO165.NHI.ps",
+      "bytes": 43171,
+      "sha256": "dbdc2dee5d0dfc78ca82f0050f5bb9f43b94fe97a2ffefcf06af332d619892b8",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:28:14 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO166.NHI.ps",
+      "bytes": 36940,
+      "sha256": "7e3ed253ceacca26af5eb01b221e060150f5c0a3703ac1063fe6b985ce0b4674",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Thu Aug 21 12:42:53 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO168.NHI.ps",
+      "bytes": 66663,
+      "sha256": "bf85af70566c9ee2b4300062f7f95860f9576eebc096ad98db0702d0d53dbbfb",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:28:23 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO185.NHI.ps",
+      "bytes": 52069,
+      "sha256": "55112fe531ee4f0e261bb2aaf8540279a152e5a732c5183f6751e5d7212da104",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:28:27 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO190.NHI.ps",
+      "bytes": 40498,
+      "sha256": "3416f067de1438867580c8eb73d66a50ee9c1de4c43956a98075f80045001126",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:28:31 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO216.NHI.ps",
+      "bytes": 44188,
+      "sha256": "e1269b221fe481ac961f6dea0a8582ee63dfef0ffc9724e8b2b9288fd6c690e5",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:28:35 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO217.NHI.ps",
+      "bytes": 100872,
+      "sha256": "7fb8050cc29a8c7219e7b113fcab53f08421b866e24f0c78038facc9f4f2ec19",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Thu Aug 21 13:23:05 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO22.NHI.ps",
+      "bytes": 33917,
+      "sha256": "dd5edcb9100bfadc90dd10adfe2125844440c5c6e1baa53ea32ff4eaa0a5f9a1",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Thu Aug 21 12:42:25 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO43.NHI.ps",
+      "bytes": 32028,
+      "sha256": "c10d1fd7a65545288000111a992024a1af0682b43090dfb17cc66ce7a00bdc2d",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:26:38 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO46.NHI.ps",
+      "bytes": 36115,
+      "sha256": "6fb2aae9108f106b63ea770285b21df26d85547f5354d9f9cf4dadaf708ca030",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:26:42 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO47.NHI.ps",
+      "bytes": 104607,
+      "sha256": "37abc2039d46a965ef71da64a8ade69d940ec3cc904e8bd285f1c90219b59c37",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Thu Aug 21 12:42:29 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO48.NHI.ps",
+      "bytes": 39948,
+      "sha256": "2ef59f5efc83f585d229cea83795a7812ba1ba3f36030b99f03f4db5be8a7d0b",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:26:53 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO52tpl.NHI.ps",
+      "bytes": 36102,
+      "sha256": "22ea70adc7dfb4c58ffbb538b5651a05c96c1005b128530dec9f72d5e75942ef",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Thu Aug 21 12:51:20 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO63.NHI.ps",
+      "bytes": 59880,
+      "sha256": "085ca56066fd9bd909ba45467ed889b7b9477b14b2ea124b8eb46e9ce19672bd",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:06 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO64.NHI.ps",
+      "bytes": 43134,
+      "sha256": "3b63bc7bbd7f88623eb75759c497d19ebac4ede2b00a387bc9dcf0590f0915c9",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:15 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO68.NHI.ps",
+      "bytes": 48613,
+      "sha256": "59adacfda3ee5ea561cf75474b3c35a787cec641fafb41722aca3b20857a3aab",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:19 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO73.NHI.ps",
+      "bytes": 33160,
+      "sha256": "708ce65d18bfd0b1b7a4af549fdf541da60e6ffb953c31663fe336bea2412ee0",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:23 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "DDO83A468K.NHI.ps",
+      "bytes": 35276,
+      "sha256": "d05962461b18f1cb7892a991e3a325bcbf52a6bf4bf05fc85853a411b9f5ce56",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Thu Aug 21 12:42:49 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "HIprof1.ps",
+      "bytes": 172068,
+      "sha256": "26a06161fda67ed05f5fbc7d6e03eaaffb5ac5f72c36dd62324245b10365de4c",
+      "bounding_box_lines": [
+        "%%BoundingBox: 52 181 564 692"
+      ],
+      "creator_lines": [
+        "%%Creator: SM"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 41,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 40,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "HIprof2.ps",
+      "bytes": 149177,
+      "sha256": "e53b9519daf8a203a45fb86632b0f94f0a79f4d7084cf5e3f1def611e953b8db",
+      "bounding_box_lines": [
+        "%%BoundingBox: 52 181 564 692"
+      ],
+      "creator_lines": [
+        "%%Creator: SM"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 35,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 34,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "IZW36.NHI.ps",
+      "bytes": 32820,
+      "sha256": "6f61c7637d71c3d599ec3b4765d0031c49da1b9f1042bd8f86ffb66853059712",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:57 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "MKN178.NHI.ps",
+      "bytes": 29066,
+      "sha256": "af38ec64e3dd92b12867f9aa26e24ef86468418e81051d45e56bdf4e736a07e7",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:39 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "N2537.NHI.ps",
+      "bytes": 44604,
+      "sha256": "7e41a6fda56a79bbad5236e655a6cebcc43331a4cc25e726c75d95c5003ba2dc",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:26:57 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "N2537.cont.ps",
+      "bytes": 27906,
+      "sha256": "8984c935dd4e3ffac3240204baed92bd7daae4db69a67ed11bc4bada0558fdd4",
+      "bounding_box_lines": [
+        "%%BoundingBox: 148 80 540 505"
+      ],
+      "creator_lines": [
+        "%%Creator: GPLOT",
+        "%%Title: GIPSY PostScript plot",
+        "%%CreationDate: Thu Jul  3 17:05:28 1997"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "N2976.NHI.ps",
+      "bytes": 57052,
+      "sha256": "dbcba9ad0cdd4138e9fc8c45e5d4e595197d1093edc203bdeb8a6220dfd4b354",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:11 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "N2976.cont.ps",
+      "bytes": 39433,
+      "sha256": "735d22c76f8052250a3343e455ff2718a005f903bd5af2206b9717d5ebb369b7",
+      "bounding_box_lines": [
+        "%%BoundingBox: 148 80 540 505"
+      ],
+      "creator_lines": [
+        "%%Creator: GPLOT",
+        "%%Title: GIPSY PostScript plot",
+        "%%CreationDate: Thu Jul  3 16:49:07 1997"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "N3738.NHI.ps",
+      "bytes": 48528,
+      "sha256": "2cc62edb8d96f59475e26c938f4a1eae8cc6e69d0980bbbb482a126f0a033b97",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Tue Jun 24 14:27:43 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "N3738.cont.ps",
+      "bytes": 37483,
+      "sha256": "dd02a143ffbaafff36572e52823624ce926027b271c5cb961299b190310810e3",
+      "bounding_box_lines": [
+        "%%BoundingBox: 148 80 540 505"
+      ],
+      "creator_lines": [
+        "%%Creator: GPLOT",
+        "%%Title: GIPSY PostScript plot",
+        "%%CreationDate: Thu Jul  3 17:16:11 1997"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "U4278.NHI.ps",
+      "bytes": 51479,
+      "sha256": "928fd337383e46ded8e3b4264f5e6baaf8dbd94a42740705d103676d29468ab6",
+      "bounding_box_lines": [
+        "%%BoundingBox: 134 157 557 612 "
+      ],
+      "creator_lines": [
+        "%%Creator: CPLOT ",
+        "%%Title: GIPSY PostScript plot ",
+        "%%CreationDate: Thu Aug 21 12:51:25 1997 "
+      ],
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 7,
+      "lineto_ops": 0,
+      "curveto_ops": 0,
+      "stroke_ops": 4,
+      "literal_string_count": 2,
+      "useful_strings": []
+    },
+    {
+      "name": "fluxflux.ps",
+      "bytes": 34135,
+      "sha256": "2c728433191af715f4f9f48787400c7834f8ec005caf6cd1a21fd7036ac0be02",
+      "bounding_box_lines": [
+        "%%BoundingBox: 18 159 564 689"
+      ],
+      "creator_lines": [
+        "%%Creator: SM"
+      ],
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 5,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 5,
+      "literal_string_count": 2,
+      "useful_strings": []
+    }
+  ],
+  "decision_fields": {
+    "ddo64_present_in_source_text": true,
+    "machine_readable_target_profile_candidate": false,
+    "target_specific_radial_hi_text_evidence": false,
+    "n_postscript_assets": 36
+  },
+  "interpretation_rule": "A 2-D H I column-density map, global H I mass/diameter, or profile discussed only as a visual figure does not count as an exact radial Sigma_HI(R) product. Only source-native numeric rows or clearly isolated vector radial-profile geometry can be promoted.",
+  "boundary": "Acquisition/provenance only. PostScript is parsed but never executed. No OCR, raster digitization, map-to-profile reconstruction, normalization, persistence fitting, or blind-outcome inspection."
+}
