@@ -1,0 +1,41 @@
+name: Decode Hoekstra 2001 Fig1 labels
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/decode_hoekstra2001_profs_labels.py'
+      - '.github/workflows/decode_hoekstra2001_profs_labels.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Decode static EPS labels
+        run: python scripts/stationary/decode_hoekstra2001_profs_labels.py
+      - name: Commit decode
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/hoekstra2001_profs_label_decode_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Decode Hoekstra Fig1 labels'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
