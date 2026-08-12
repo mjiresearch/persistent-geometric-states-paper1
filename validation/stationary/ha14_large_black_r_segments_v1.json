@@ -1,0 +1,10 @@
+{
+  "status": "HA14_LARGE_BLACK_R_SEGMENT_AUDIT_COMPLETE",
+  "asset_sha256": "40c1b8d7e2690d0c884fff56e000be8ffb2eac598278512c17896c9d29cf58f7",
+  "criterion": "black L0 native R segment; endpoints strictly inside panel; |dx|>=150; |dy|>=20; before colored curves",
+  "panels": {
+    "UGC09037": [],
+    "UGC12506": []
+  },
+  "boundary": "Native vector geometry only; no PostScript execution, OCR, raster digitization, normalization, persistence fitting, or blind-outcome inspection."
+}
