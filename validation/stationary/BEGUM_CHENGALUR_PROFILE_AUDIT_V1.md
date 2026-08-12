@@ -1,20 +1,28 @@
 # Begum / Chengalur direct H I profile audit v1
 
-**Status:** THREE FROZEN TARGETS IDENTIFIED; KK98-251 ANALYTIC PROFILE RECOVERED; NGC3741 AND CamB NUMERICAL/PROFILE REPRESENTATIONS PENDING  
+**Status:** THREE FROZEN TARGETS CONFIRMED IN THE PUBLIC BEGUM/FIGGS BLOCK; KK98-251 ANALYTIC PROFILE RECOVERED; NGC3741 AND CamB NUMERICAL/PROFILE REPRESENTATIONS PENDING  
 **Date:** 2026-08-12  
 **Scientific boundary:** pre-fit source acquisition only. `L_A` and `C_A` remain locked.
 
 ## 1. Frozen-master matches / targets
 
-The Begum/Chengalur literature supplies three confirmed frozen Paper I targets worth pursuing through public primary H I sources:
+The Begum/Chengalur literature supplies three confirmed frozen Paper I targets through public primary H I sources:
 
-| Frozen galaxy | Frozen role | Frozen distance (Mpc) | Frozen inclination (deg) | Direct source status |
-|---|---|---:|---:|---|
-| CamB | calibration | 3.36 | 65 | dedicated public GMRT H I paper identified; exact radial surface-density representation pending |
-| KK98-251 | calibration | 6.80 | 59 | **exact analytic H I radial profile recovered** |
-| NGC3741 | calibration | 3.21 | 70 | direct radial gas profile identified; numerical curve recovery pending |
+| Frozen galaxy | Frozen role | FIGGS identity | Frozen distance (Mpc) | Frozen inclination (deg) | Direct source status |
+|---|---|---|---:|---:|---|
+| CamB | calibration | **KK 44** | 3.36 | 65 | dedicated public GMRT H I paper identified; exact radial surface-density representation pending |
+| KK98-251 | calibration | **KK 251** | 6.80 | 59 | **exact analytic H I radial profile recovered** |
+| NGC3741 | calibration | NGC 3741 | 3.21 | 70 | direct radial gas profile identified; numerical curve recovery pending |
 
-The FIGGS overview contains 65 dwarf galaxies. Direct-name comparison identifies NGC3741 as the immediate exact frozen-master overlap in that survey table; a final catalogue-alias reconciliation remains part of the later full provenance audit. No extra galaxy is promoted merely from a similar catalogue number.
+The FIGGS overview/sample tables now independently confirm all three targets once catalogue aliases are reconciled. The earlier direct-name-only statement that NGC3741 was the sole obvious FIGGS overlap is superseded.
+
+### Alias reconciliation
+
+- **CamB = KK 44.** FIGGS Table 1 lists KK 44 at RA 04:53:06.90, Dec +67:05:57, matching the CamB identification used in the dedicated Begum, Chengalur & Hopp literature. FIGGS therefore provides an additional public survey-level H I inventory route for CamB.
+- **KK98-251 = KK 251.** FIGGS Table 3 explicitly lists KK 251 and gives reference 13, Begum & Chengalur (2004b), matching the dedicated KK98 250/251 GMRT study. This confirms the catalogue mapping used by the Paper I frozen master.
+- **NGC3741** appears directly under the same name in FIGGS.
+
+No new galaxy is added to the frozen 149-member sample; this is source/alias reconciliation only.
 
 ---
 
@@ -53,11 +61,12 @@ The final Paper I global helium convention is applied exactly once downstream af
 - source distance: 5.6 Mpc
 - frozen Paper I distance: 6.80 Mpc
 - source H I inclination: 62 +/- 5 deg
+- FIGGS H I inclination: 59 +/- 5 deg
 - frozen Paper I inclination: 59 deg
 
 The analytic source is preserved in its native angular-radius form so no source-distance assumption is baked into the radial coordinate. For QC only, the frozen-distance conversion is `1 arcsec = 0.0329673 kpc`, giving `r0 = 1.12748 kpc` and `c = 0.632972 kpc` at 6.8 Mpc. These are derived checks, not replacements for the native angular parameters.
 
-No inclination-amplitude rescaling is applied ad hoc here; source and frozen inclinations are both retained for the later single global normalization rule.
+No inclination-amplitude rescaling is applied ad hoc here; source and frozen inclinations are retained for the later single global normalization rule.
 
 ### Promotion state
 
@@ -96,16 +105,17 @@ Because NGC3741 is warped and the source geometry is radius-dependent, no single
 ### Numerical status
 
 - primary radial profile source: **confirmed**
+- FIGGS membership: **confirmed**
 - helium convention: **confirmed (x1.3 already applied in Figure 5)**
 - map resolution: **confirmed (11 x 9 arcsec)**
 - source distance: **confirmed (3.03 Mpc)**
 - numerical Figure 5 curve coordinates: **pending**
 
-The publisher exposes the Figure 5 image, but the current retrieval path has not provided a machine-readable/vector point table. No points are inferred from axis ranges, a later reconstruction, or SPARC `Vgas`.
+The publisher exposes the Figure 5 image, but the current retrieval path has not provided a machine-readable/vector point table. A direct high-resolution publisher image route was attempted and did not yield a reusable extraction object in the current environment. Per the project anti-loop rule, the curve remains `numeric_pending` unless a genuinely new high-fidelity route appears; no points are inferred from axis ranges, a later reconstruction, or SPARC `Vgas`.
 
 ---
 
-## 4. CamB — dedicated public GMRT route
+## 4. CamB / KK 44 — dedicated public GMRT route
 
 ### Primary source
 
@@ -113,15 +123,15 @@ A. Begum, J. N. Chengalur & U. Hopp, **“The little galaxy that could: kinemati
 
 The paper presents deep high-velocity-resolution GMRT H I imaging of CamB and adopts a source distance of **2.2 Mpc**. The frozen Paper I values are **3.36 Mpc** and **65 deg**.
 
-This establishes a public primary H I route for a frozen calibration galaxy that had previously remained listed as requiring nonpublic profile acquisition.
+FIGGS independently includes the same object as **KK 44**, providing a public survey-level H I inventory entry for the frozen CamB calibration galaxy.
 
 ### Current profile status
 
-The paper clearly contains the H I imaging and mass-model inputs, but in this audit pass the exact radial H I surface-density representation, its helium treatment, profile radius coordinate, and source deprojection convention have **not yet been verified to the standard required for numerical promotion**.
+The dedicated paper clearly contains the H I imaging and mass-model inputs, but in this audit pass the exact radial H I surface-density representation, its helium treatment, profile radius coordinate, and source deprojection convention have **not yet been verified to the standard required for numerical promotion**.
 
 Therefore CamB is currently:
 
-`primary_public_HI_paper_identified / radial_profile_representation_pending`.
+`primary_public_HI_paper_identified / FIGGS_alias_confirmed / radial_profile_representation_pending`.
 
 This is a real public-source upgrade, but it is intentionally not mislabeled as `profile_data_ingested` yet.
 
@@ -129,9 +139,15 @@ This is a real public-source upgrade, but it is intentionally not mislabeled as 
 
 ## 5. FIGGS context / alias control
 
-The FIGGS overview (Begum et al. 2008, MNRAS 386, 1667–1682; arXiv `0802.3982`) defines a 65-galaxy sample and supplies an authoritative public sample table. It provides useful acquisition inventory but is not treated as proof that every FIGGS galaxy belongs to the frozen SPARC sample.
+Begum et al. (2008), **“FIGGS: Faint Irregular Galaxies GMRT Survey — overview, observations and first results,”** MNRAS 386, 1667–1682; DOI `10.1111/j.1365-2966.2008.13150.x`; arXiv `0802.3982`, supplies a public primary sample/observation inventory.
 
-Direct canonical-name comparison confirms NGC3741. Plausible near-name UGC/DDO systems remain subject to the final global alias sweep; no alias is accepted without a positive catalogue identity match.
+For this Paper I block, the durable FIGGS crossmatch is:
+
+- KK 44 -> **CamB** -> calibration
+- KK 251 -> **KK98-251** -> calibration
+- NGC 3741 -> **NGC3741** -> calibration
+
+This alias mapping is now part of the provenance record and must be used in later global source reconciliation.
 
 ---
 
@@ -145,11 +161,11 @@ Direct canonical-name comparison confirms NGC3741. Plausible near-name UGC/DDO s
 ### NGC3741
 
 **Recovered source profile:** source/convention yes; numerical curve no.  
-**Safe next action:** pursue public Figure 5/vector/data recovery once, then park as numerical-pending if unavailable rather than looping.
+**Safe next action:** retain `numeric_pending` unless a new vector/table/data route appears; do not loop on the failed image route.
 
 ### CamB
 
-**Recovered source profile:** public primary H I paper yes; exact radial representation no.  
-**Safe next action:** inspect the primary text/figures for a direct radial surface-density representation or analytic fit; if unavailable at sufficient fidelity, retain as public-source identified and continue the larger public-block sweep.
+**Recovered source profile:** public primary H I paper and FIGGS alias yes; exact radial representation no.  
+**Safe next action:** one primary-text/figure verification pass for a direct radial surface-density representation or analytic fit; if unavailable at sufficient fidelity, retain as public-source identified and continue the larger public-block sweep.
 
 No persistence parameter has been evaluated and no blind-set result was inspected while building this audit.
