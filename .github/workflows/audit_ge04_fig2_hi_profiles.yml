@@ -1,0 +1,30 @@
+name: Audit Ge04 Figure 2 native HI profiles
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/audit_ge04_fig2_hi_profiles.py'
+      - '.github/workflows/audit_ge04_fig2_hi_profiles.yml'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/audit_ge04_fig2_hi_profiles.py
+      - name: Commit Ge04 Figure 2 source checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ge04_fig2_hi_profile_source_audit_v1.json validation/stationary/ge04_fig2_hi_profile_source_context_v1.txt
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Audit Ge04 Figure 2 native HI profile source'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
