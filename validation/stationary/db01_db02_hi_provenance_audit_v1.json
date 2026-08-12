@@ -1,0 +1,1970 @@
+{
+  "status": "DB01_DB02_HI_PROVENANCE_AUDIT_COMPLETE",
+  "audits": [
+    {
+      "ref_id": "dB01",
+      "citation": "de Blok, McGaugh & Rubin 2001 AJ 122 2396",
+      "arxiv": "https://export.arxiv.org/e-print/astro-ph/0107366",
+      "arxiv_bytes": 308038,
+      "n_files": 15,
+      "data_like_files": [],
+      "vector_files": [
+        {
+          "name": "deblok.fig10.ps",
+          "bytes": 65269,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig11.ps",
+          "bytes": 78124,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig12.ps",
+          "bytes": 38679,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig13.ps",
+          "bytes": 24216,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig14.ps",
+          "bytes": 92327,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig1a.ps",
+          "bytes": 60605,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig1b.ps",
+          "bytes": 54306,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig2.ps",
+          "bytes": 58481,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig4.ps",
+          "bytes": 26884,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig5.ps",
+          "bytes": 35685,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig6.ps",
+          "bytes": 33673,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig7.ps",
+          "bytes": 11837,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig8.ps",
+          "bytes": 44438,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "deblok.fig9.ps",
+          "bytes": 79488,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        }
+      ],
+      "raster_files": [],
+      "vector_structure": [
+        {
+          "name": "deblok.fig10.ps",
+          "bytes": 65269,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 49,
+          "lineto_tokens": 25,
+          "curveto_tokens": 0,
+          "stroke_tokens": 25
+        },
+        {
+          "name": "deblok.fig11.ps",
+          "bytes": 78124,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 25,
+          "lineto_tokens": 13,
+          "curveto_tokens": 0,
+          "stroke_tokens": 13
+        },
+        {
+          "name": "deblok.fig12.ps",
+          "bytes": 38679,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 13,
+          "lineto_tokens": 7,
+          "curveto_tokens": 0,
+          "stroke_tokens": 7
+        },
+        {
+          "name": "deblok.fig13.ps",
+          "bytes": 24216,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "deblok.fig14.ps",
+          "bytes": 92327,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 53,
+          "lineto_tokens": 27,
+          "curveto_tokens": 0,
+          "stroke_tokens": 27
+        },
+        {
+          "name": "deblok.fig1a.ps",
+          "bytes": 60605,
+          "image_ops": 1,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 1,
+          "lineto_tokens": 0,
+          "curveto_tokens": 0,
+          "stroke_tokens": 0
+        },
+        {
+          "name": "deblok.fig1b.ps",
+          "bytes": 54306,
+          "image_ops": 1,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 1,
+          "lineto_tokens": 0,
+          "curveto_tokens": 0,
+          "stroke_tokens": 0
+        },
+        {
+          "name": "deblok.fig2.ps",
+          "bytes": 58481,
+          "image_ops": 1,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 1,
+          "lineto_tokens": 0,
+          "curveto_tokens": 0,
+          "stroke_tokens": 0
+        },
+        {
+          "name": "deblok.fig4.ps",
+          "bytes": 26884,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 15,
+          "lineto_tokens": 8,
+          "curveto_tokens": 0,
+          "stroke_tokens": 8
+        },
+        {
+          "name": "deblok.fig5.ps",
+          "bytes": 35685,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 9,
+          "lineto_tokens": 5,
+          "curveto_tokens": 0,
+          "stroke_tokens": 5
+        },
+        {
+          "name": "deblok.fig6.ps",
+          "bytes": 33673,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "deblok.fig7.ps",
+          "bytes": 11837,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 9,
+          "lineto_tokens": 5,
+          "curveto_tokens": 0,
+          "stroke_tokens": 5
+        },
+        {
+          "name": "deblok.fig8.ps",
+          "bytes": 44438,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "deblok.fig9.ps",
+          "bytes": 79488,
+          "image_ops": 1,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 1,
+          "lineto_tokens": 0,
+          "curveto_tokens": 0,
+          "stroke_tokens": 0
+        }
+      ],
+      "target_text_hits": {
+        "D631-7": [],
+        "F571-8": [
+          {
+            "file": "deblok.tex",
+            "line": 498,
+            "text": "component as short-dashed lines. In two cases (U6614 and F571-8) a",
+            "context": "\\ref{isoesotable} show the results for the pseudo-isothermal halo.\nFigure~\\ref{nfwiso} presents the results of the NFW halo and\npseudo-isothermal halo mass modelling for each galaxy side-by-side.  The two\nleftmost columns show the results for NFW halo fitting.  The two\nrightmost columns show the pseudo-isothermal halo fitting results.\n\nThe first and third columns show the best-fitting models. The rotation\ncurves of the gas are shown as dotted lines, those of the stellar disk\ncomponent as short-dashed lines. In two cases (U6614 and F571-8) a\nsignificant bulge was present which was modelled separately; this is\nshown as the dot-dashed line (see also Section 4.3). The resulting\nhalo rotation curve is shown as the long-dashed line. The final total\nmodel curve is drawn as the full line.  In each of the model panels we\nalso give the reduced $\\chi^2$ of the fit and the chance $p$ that the\ndata and the model could result from the same parent\ndistribution. This probability was derived using a simple $\\chi^2$\ntest; it is an indicator for the compatibility of the data and the"
+          },
+          {
+            "file": "deblok.tex",
+            "line": 665,
+            "text": "{\\bf F571-8} This is the only edge-on galaxy in Sample I, so we are",
+            "context": "overestimating the outer velocities again are also present here. Again\nmaximum disk is the best of the NFW models, which is another way of\nsaying that the shapes of the (inner) rotation curves are more like\nthat expected for the stars (albeit with the wrong $\\MLstar$).\n\n{\\bf F568-3} This is a well determined curve, for which there are\nseveral consistent independent measurements (see Paper I).\n\n{\\bf F571-8} This is the only edge-on galaxy in Sample I, so we are\nconcerned about optical depth and projection effects in the optical\ndata. (The \\HI data are not used for this galaxy.) These effects could\ncause us to measure the rotation velocity at a ring where the optical\ndepth becomes unity. Recently,\n\\citet{matthews_edgeon} have used radiative transfer models to\ninvestigate optical depth effects on rotation curves in edge-on LSB\ngalaxies, and they conclude that these effect are likely to be small\ndue to the low dust content in LSB galaxies. \\citet{bosma92}, in a"
+          },
+          {
+            "file": "deblok.tex",
+            "line": 1477,
+            "text": "F571-8 & 48 & 23.9\\tablenotemark{a} & 5.2& -17.6\\tablenotemark{a} & 15.6 & 144 & 3768 & 90\\\\ ",
+            "context": "\\colhead{(1)}& \\colhead{(2)}& \\colhead{(3)}& \\colhead{(4)}& \\colhead{(5)}& \\colhead{(6)} & \\colhead{(7)}& \\colhead{(8)}& \\colhead{(9)}\n}\n\\startdata\nF563-1 & 45 & 23.6 & 2.8 & -17.3 & 17.7 & 112 & 3502 & 25 \\\\ \nF563-V2 & 61 & 22.1 & 2.1 & -18.2 & 9.2 & 118 & 4312 & 29\\\\ \nF568-1 & 85& 23.8 & 5.3 & -18.1 & 14.9 & 142 & 6524 & 26\\\\ \nF568-3 & 77 & 23.1 & 4.0 &-18.3 & 16.5 & 105 & 5913 & 40\\\\ \nF568-V1 & 80 & 23.3 & 3.2 & -17.9& 19.0 & 118 &5768 & 40\\\\ \nF571-8 & 48 & 23.9\\tablenotemark{a} & 5.2& -17.6\\tablenotemark{a} & 15.6 & 144 & 3768 & 90\\\\ \nF574-1 & 96 & 23.3\\tablenotemark{a} & 4.3 &  -18.4\\tablenotemark{a} & 15.4 & 100& 6889 & 65\\\\ \nF579-V1 & 85 & 22.8\\tablenotemark{a} & 5.1 &  -18.8\\tablenotemark{a} & 17.3 & 114& 6305 & 26\\\\ \nF583-1 & 32 & 24.1 & 1.6 &  -16.5 & 14.6 & 87 & 2264 & 63\\\\\nF583-4 & 49 & 23.8\\tablenotemark{a} & 2.7 &   -16.9\\tablenotemark{a} & 10.0 & 70 &3617 & 55\\\\ \nU5750 & 56 & 23.5\\tablenotemark{a} & 5.6 &  -18.7\\tablenotemark{a} & 21.8 & 79 &4177 & 64\\\\ \nU6614 & 85 &\n  23.4 & 8.1 &  -20.3 &   62& 204 & 6371 & 36 \n\\enddata"
+          },
+          {
+            "file": "deblok.tex",
+            "line": 1613,
+            "text": "F571-8 & 7.8   & 1.1 &163.8 &20.2 & 1.501   & 0.123 && 7.8   & 1.1  &163.3  & 20.1  &  1.477  &  0.132&\\\\",
+            "context": "\\tablehead{\n\\noalign{\\vskip 2pt}\n\\colhead{}&\\multicolumn{6}{c}{minimum disk}&\\colhead{}&\\multicolumn{6}{c}{minimum disk + gas}\\\\\n\\cline{2-7}\\cline{9-14}\\\\\n\\colhead{Galaxy}&\\colhead{$c$}&\\colhead{$\\Delta c$}&\\colhead{$V_{200}$}&\\colhead{$\\Delta V$}&\\colhead{$\\chi^2_{red}$}&\\colhead{$p$}&\\colhead{}&\\colhead{$c$}&\\colhead{$\\Delta c$}&\\colhead{$V_{200}$}&\\colhead{$\\Delta V$}&\\colhead{$\\chi^2_{red}$}&\\colhead{$p$}}\n\\startdata\nF563-1 & 10.7  & 1.2 & 93.1 & 4.3 & 0.092   & 0.999 && 11.3  & 1.3  & 87.5  &  3.9  &  0.089  &  0.999&\\\\\nF568-3 & 3.2   & 3.7 &214.6 &233.9& 2.239   & 0.017 && 4.2   & 3.3  &161.3  &118.9  &  2.386  &  0.011&\\\\\nF571-8 & 7.8   & 1.1 &163.8 &20.2 & 1.501   & 0.123 && 7.8   & 1.1  &163.3  & 20.1  &  1.477  &  0.132&\\\\\nF579-V1& 20.9  & 1.5 & 78.4 &  2.6& 0.211   & 0.998 && 22.1  & 1.6  & 75.1  &  2.5  &  0.217  &  0.998&\\\\\nF583-1 &  5.1  & 1.0 &106.6 & 17.0& 0.740   & 0.746 && 6.2   & 1.1  & 86.6  & 12.4  &  0.827  &  0.648&\\\\\nF583-4 &  5.7  & 1.4 & 89.5 & 19.0& 0.322   & 0.944 && 6.1   & 1.4  & 82.2  & 15.5  &  0.321  &  0.945&\\\\\nU5750  &  2.6  & 1.5 &123.1 & 58.8& 1.243   & 0.262 && 2.9   & 1.6  &105.8  & 47.7  &  1.203  &  0.288&\\\\\nU6614  & 10.3  & 2.0 &169.8 & 17.7& 4.626   & 0.000 && 11.0  & 2.2  &163.9  & 17.1  &  4.712  &  0.000&\\\\\n\\sidehead{\\emph{SMT data, our analysis}}\nF563-V2 & 7.5 & 3.7 & 153.1 & 70.5 & 1.391 & 0.195 && 8.3 & 3.8 & 133.1 & 54.1 & 1.484 & 0.157 & \\\\\nF568-1  & 6.4 & 2.4 & 194.6 & 71.9 & 0.804 & 0.625 && 7.5 & 2.4 & 160.1 & 46.7 & 0.869 & 0.562 & \\\\"
+          },
+          {
+            "file": "deblok.tex",
+            "line": 1634,
+            "text": "F571-8 & 1.6  &5.7  &591.4 &\\nodata&3.776 & 0.012 &&\\emph{1.0}&\\nodata&\\emph{500.0}&\\nodata&7.060&  0.000  &4.2\\\\",
+            "context": "\\noalign{\\vskip 2pt}\n&\\multispan{6}{\\hfill constant ${\\MLstar}(R)=1.4$\\hfill }&&\\multispan{6}{\\hfill maximum disk\\hfill\\ }\\\\[2pt]\n\\cline{2-7}\\cline{9-15}\\\\\nGalaxy&$c$&$\\Delta c$&$V_{200}$&$\\Delta V$&$\\chi^2_{red}$&$p$&&$c$&$\\Delta c$&$V_{200}$&$\\Delta V$&$\\chi^2_{red}$&$p$&$\\Upsilon_*^R$\\\\[2pt]\n\\tableline\n\\noalign{\\vskip 2pt}\nF563-1 & 9.9  &1.2  & 88.8 & 4.6 & 0.089   & 0.999 && 4.0   & 1.2  &  110.0& 20.1  &  0.098  &  0.999  &6.9\\\\\nF568-3 & 2.3  &4.9  &218.6 &410.9& 2.127   & 0.024 && 0.4   &19.5  &  595.0&$\\infty$& 2.015  &  0.024  &2.2\\\\\nF571-8 & 1.6  &5.7  &591.4 &\\nodata&3.776 & 0.012 &&\\emph{1.0}&\\nodata&\\emph{500.0}&\\nodata&7.060&  0.000  &4.2\\\\\nF579-V1&23.2  &1.9  & 67.9 &  2.4& 0.215   & 0.998 && 43.4  &14.6  & 31.6  & 3.9 & 0.671 & 0.781 &  7.9 \\\\\nF583-1& 5.4&1.1&90.6& 14.7&0.767&0.716&&2.2&  1.5&145.5&78.7&0.680&0.804&6.5\\\\\nF583-4&5.9&1.4&76.0& 14.5&0.271&0.965&&11.4&  6.1&12.9&  3.3&0.196&0.986&9.6\\\\ \nU5750&1.9& 1.7 &116.9& 80.4 &1.105&0.354&&1.9& 1.7 &116.9& 80.4 &1.105&0.354&1.4\\\\\nU6614&1.7&1.8&303.0&206.5&4.005&0.001&&\\emph{0.4}&   \\nodata &\\emph{145.6}&   \\nodata &7.828&0.737&7.7\\\\\n\\sidehead{\\emph{SMT data, our analysis}}\nF563-V2&6.5&3.8&136.0&73.3&1.047&0.397&&\\emph{1.0}&   \\nodata &\\emph{350.0}&   \\nodata &0.449&0.878&4.1\\\\\nF568-1&6.7&2.5&163.8& 56.1&0.803&0.626&&\\emph{0.6}&   \\nodata &\\emph{669.2}&   \\nodata &0.636&0.898&9.0\\\\"
+          },
+          {
+            "file": "deblok.tex",
+            "line": 1699,
+            "text": "F571-8 & 2.12 & 0.19 & 106.9 & 14.0 & 1.525 & 0.114 & & 2.12 & 0.19 & 106.3 & 14.0 & 1.512 & 0.118\\\\",
+            "context": "\\tablehead{\n\\noalign{\\vskip 2pt}\n\\colhead{}&\\multicolumn{6}{c}{minimum disk}&\\colhead{}&\\multicolumn{6}{c}{minimum disk + gas}\\\\\n\\cline{2-7}\\cline{9-14}\\\\\n\\colhead{Galaxy}&\\colhead{$R_C$}&\\colhead{$\\Delta R$}&\\colhead{$\\rho_0$}&\\colhead{$\\Delta \\rho$}&\\colhead{$\\chi^2_{red}$}&\\colhead{$p$}&\\colhead{}&\\colhead{$Rc$}&\\colhead{$\\Delta R$}&\\colhead{$\\rho_0$}&\\colhead{$\\Delta \\rho$}&\\colhead{$\\chi^2_{red}$}&\\colhead{$p$}}\n\\startdata\nF563-1 & 1.72 & 0.23 & 91.9 & 21.6 & 0.085 & 1.000 & & 1.55 & 0.22 & 102.0 & 25.2 & 0.078 & 1.000\\\\\nF568-3  & 2.92 & 0.36 & 36.6 & 5.4 & 0.522 & 0.860 &  & 2.71 & 0.39 & 38.3 & 6.8 & 0.676 & 0.731\\\\\nF571-8 & 2.12 & 0.19 & 106.9 & 14.0 & 1.525 & 0.114 & & 2.12 & 0.19 & 106.3 & 14.0 & 1.512 & 0.118\\\\\nF579-V1 & 0.67 & 0.02 & 574.8 & 37.3 & 0.026 & 1.000 &  & 0.63 & 0.03 & 630.8 & 50.2 & 0.037 & 1.000\\\\\nF583-1 & 2.44 & 0.06 & 33.0 & 1.1 & 0.037 & 1.000 & & 2.08 & 0.11 & 37.7 & 2.5 & 0.117 & 1.000\\\\\nF583-4 & 1.10 & 0.13 & 85.5 & 15.8 & 0.329 & 0.941 & & 1.06 & 0.11 & 88.2 & 15.1 & 0.267 & 0.967\\\\\nU5750 & 4.25 & 0.39 & 10.6 & 1.0 & 0.154 & 0.998 & & 3.96 & 0.49 & 10.4 & 1.3 & 0.214 & 0.993\\\\\nU6614 & 1.86 & 0.49 & 218.4 & 102.5 & 1.942 & 0.021 & & 1.73 & 0.44 & 244.7 & 111.6 & 1.777 & 0.040\\\\\n\\sidehead{\\emph{SMT data, our analysis}}\nF563-V2 & 1.69 & 0.17 & 131.2 & 19.4 & 0.283 & 0.972 & & 1.58 & 0.20 & 135.3 & 24.7 & 0.393 & 0.925\\\\\nF568-1 & 2.22 & 0.10 & 97.2 & 6.2 & 0.066 & 1.000 &  & 2.03 & 0.12 & 104.6 & 8.9 & 0.106 & 1.000\\\\"
+          },
+          {
+            "file": "deblok.tex",
+            "line": 1720,
+            "text": "F571-8 & 4.19 & 0.28 & 34.4 & 2.7 & 0.405 & 0.954 &  & 9.97 & 3.43 & 9.8 & 2.3 & 2.639 & 0.002 & 4.2\\\\",
+            "context": "\\noalign{\\vskip 2pt}\n&\\multispan{6}{\\hfill constant ${\\MLstar}(R)=1.4$\\hfill }&&\\multispan{6}{\\hfill maximum disk\\hfill\\ }\\\\[2pt]\n\\cline{2-7}\\cline{9-15}\\\\\nGalaxy&$R_C$&$\\Delta R$&$\\rho_0$&$\\Delta \\rho$&$\\chi^2_{red}$&$p$&&$R_C$&$\\Delta R$&$\\rho_0$&$\\Delta \\rho$&$\\chi^2_{red}$&$p$&$\\Upsilon_\\star^R$\\\\[2pt]\n\\tableline\n\\noalign{\\vskip 2pt}\nF563-1 & 1.72 & 0.26 & 79.0 & 21.3 & 0.083 & 1.000 & & 4.09 & 1.01 & 13.2 & 4.9 & 0.124 & 0.998 & 6.9\\\\\nF568-3 & 3.07 & 0.63 & 25.7 & 6.3 & 0.793 & 0.623 &  & 3.36 & 0.88 & 19.7 & 5.9 & 0.89 & 0.536 & 2.2\\\\\nF571-8 & 4.19 & 0.28 & 34.4 & 2.7 & 0.405 & 0.954 &  & 9.97 & 3.43 & 9.8 & 2.3 & 2.639 & 0.002 & 4.2\\\\\nF579-V1 & 0.55 & 0.04 & 694.4 & 84.0 & 0.06 & 1.000 &  & 0.17 & 0.16 & 1970 & 3234 & 1.032 & 0.415 & 7.9\\\\\nF583-1 & 2.26 & 0.11 & 31.5 & 2.0 & 0.103 & 1.000 & & 3.41 & 0.24 & 14.3 & 1.2 & 0.121 & 1.000 & 6.5\\\\\nF583-4 & 1.02 & 0.12 & 80.6 & 15.2 & 0.249 & 0.972 &  & 0.23 & 0.15 & 103.4 & 114.1 & 0.188 & 0.988 & 9.6\\\\\nU5750 & 4.67 & 0.74 & 7.1 & 1.1 & 0.262 & 0.984 &  & 4.67 & 0.74 & 7.1 & 1.1 & 0.262 & 0.984 & 1.4\\\\\nU6614 & 12.18 & 2.87 & 6.3 & 1.9 & 1.938 & 0.022 &  & 112.0 & 506.7 & 0.4 & 0.4 & 4.762 & 0.000 & 7.4\\\\\n\\sidehead{\\emph{SMT data, our analysis}}\nF563-V2 & 1.70 & 0.24 & 96.6 & 19.8 & 0.298 & 0.967 & & 2.32 & 0.63 & 30.8 & 11.5 & 0.191 & 0.992 & 4.1\\\\\nF568-1 & 2.11 & 0.15 & 90.7 & 9.0 & 0.120 & 1.000 & & 3.08 & 0.73 & 27.6 & 8.5 & 0.270 & 0.988 & 9.0\\\\"
+          },
+          {
+            "file": "deblok.tex",
+            "line": 1805,
+            "text": "F571-8\t\t& 0\t& +\t& ?  & edge-on\t\\\\",
+            "context": "\\noalign{\\vskip 2pt}\n\\colhead{Galaxy}&\\colhead{prob.\\tablenotemark{a}}&\\colhead{core\\tablenotemark{b}}&\\colhead{bar\\tablenotemark{b}}&\\colhead{morphology}}\n\\startdata\nF563-1\t\t& +\t& --\t& +  & mag.~irr. \\\\\nF563-V2\t\t& 0\t& --\t& +  & mag. bar\t\\\\\nF568-1\t\t& 0\t& +\t& -- & spiral\t\\\\\nF568-3\t\t& --\t& --\t& +  & spiral with mag. bar\\\\\nF568-V1\t\t& +\t& +\t& -- & spiral\t\\\\\nF571-8\t\t& 0\t& +\t& ?  & edge-on\t\\\\\nF574-1\t\t& --\t& + \t& -- & disk\t\\\\\nF579-V1\t\t& +\t& +\t& -- & core, flocc.~arms\t\\\\\nF583-1\t\t& 0\t& +\t& -- & mag.~irr.\t\\\\\nF583-4\t\t& +\t& +?\t& +? & fuzzy\t\\\\\nF730-V1\t\t& 0\t& +\t& -- & spiral \\\\\nU4115 \t\t& 0     & +?    & -- & fuzzy \\\\\nU5750\t\t& 0\t& --\t& +  & mag.~bar\t\\\\\nU6614\t\t& --\t& +\t& -- & faint, with bulge\t\\\\"
+          }
+        ],
+        "UGC05750": [],
+        "UGC06614": [],
+        "UGC11557": []
+      },
+      "n_targets_named": 1,
+      "source_provenance_hits": [
+        {
+          "file": "deblok.tex",
+          "line": 12,
+          "text": "\\shortauthors{de Blok, McGaugh \\& Rubin}",
+          "context": "\\newcommand{\\MLstar}{\\ensuremath{\\Upsilon_{\\star}}}\n\n\\renewcommand{\\arraystretch}{.6} \n\n\\shortauthors{de Blok, McGaugh \\& Rubin}\n\\shorttitle{LSB rotation curves}\n\n\\begin{document}\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 18,
+          "text": "\\title{High-resolution rotation curves of LSB galaxies: Mass Models}",
+          "context": "\n\\begin{document}\n\n\n\\title{High-resolution rotation curves of LSB galaxies: Mass Models}\n\n\n\\author{W.J.G.~de~Blok\\altaffilmark{1}}\n\\affil{Australia Telescope National Facility}"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 29,
+          "text": "\\author{Stacy S. McGaugh} ",
+          "context": "\\altaffiltext{1}{Bolton Fellow}\n\n\\bigskip\n\n\\author{Stacy S. McGaugh} \n\\affil{Department of Astronomy, University of Maryland} \n\\affil{College Park, MD 20742-2421, USA}\n\\email{ssm@astro.umd.edu}\n "
+        },
+        {
+          "file": "deblok.tex",
+          "line": 45,
+          "text": "We present mass models for a sample of 30 high-resolution rotation",
+          "context": "\\email{rubin@dtm.ciw.edu}\n\n\\begin{abstract}\n\nWe present mass models for a sample of 30 high-resolution rotation\ncurves of low surface brightness (LSB) galaxies. We fit both\npseudo-isothermal (core-dominated) and Cold Dark Matter (CDM)\n(cusp-dominated) halos for a wide variety of assumptions about the\nstellar mass-to-light ratio.  We find that the pseudo-isothermal model"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 86,
+          "text": "low stellar density. Yet, the extended, low surface density stellar",
+          "context": "(TF) relation requires (in the conventional picture) that LSB galaxies\nare dominated by dark matter (DM)\n\\citep{zwaan_tf95,spray_tf95,marc_phd97,edb_hsblsb96}. For reasonable\nstellar mass-to-light ratios \\MLstar\\ low surface brightness implies\nlow stellar density. Yet, the extended, low surface density stellar\ndisks cannot be the major contributors to the dynamics in LSB\ngalaxies, as no shift in the zero-point of the TF relation with\nsurface brightness is observed.  This contrasts with the dominance of\nthe stellar population in HSB galaxies of similar luminosity."
+        },
+        {
+          "file": "deblok.tex",
+          "line": 173,
+          "text": "\\HI data, and thus to derive the true ``infinite",
+          "context": "\\citep{mcg_barytf}.\n\nA different approach was taken by \\citet{frankvdb}. They attempted to\napply a rigorous correction for beamsmearing to the BMH\n\\HI data, and thus to derive the true ``infinite\nresolution'' rotation curve.  They conclude that the data are not of\nhigh enough resolution to accept or reject the NFW hypothesis with any\nsignificance.  However, as they use a modified NFW profile with the\ninner slope of the mass-density distribution as an (additional) free"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 198,
+          "text": "galaxies presented in McGaugh, Rubin \\& de Blok (2001) (herafter Paper",
+          "context": "\nIn this paper we present an analysis of high-resolution high-quality\nhybrid H$\\alpha$/\\HI rotation curves of a sample of 30 LSB galaxies.\nOf this sample 26 curves were taken from the large sample of 50 LSB\ngalaxies presented in McGaugh, Rubin \\& de Blok (2001) (herafter Paper\nI). In that paper an extensive description is given of the data, the\nsample and reduction method.  We also refer to that paper for a\ncomparison of the new H$\\alpha$ data with the BMH \\HI curves.  We also\nre-analyse the data for an additional 5 curves taken from \\citet{SMT}."
+        },
+        {
+          "file": "deblok.tex",
+          "line": 203,
+          "text": "In this paper we derive mass models under various assumptions for",
+          "context": "I). In that paper an extensive description is given of the data, the\nsample and reduction method.  We also refer to that paper for a\ncomparison of the new H$\\alpha$ data with the BMH \\HI curves.  We also\nre-analyse the data for an additional 5 curves taken from \\citet{SMT}.\nIn this paper we derive mass models under various assumptions for\n\\MLstar\\ and fit these models both with NFW halos and\npseudo-isothermal halos. A similar analysis for a different set of\nrotation curves of dwarf and LSB galaxies is given in de Blok \\& Bosma\n(2001)."
+        },
+        {
+          "file": "deblok.tex",
+          "line": 206,
+          "text": "rotation curves of dwarf and LSB galaxies is given in de Blok \\& Bosma",
+          "context": "re-analyse the data for an additional 5 curves taken from \\citet{SMT}.\nIn this paper we derive mass models under various assumptions for\n\\MLstar\\ and fit these models both with NFW halos and\npseudo-isothermal halos. A similar analysis for a different set of\nrotation curves of dwarf and LSB galaxies is given in de Blok \\& Bosma\n(2001).\n\nIn Section 2 we discuss the sample, and discuss the derivation of the\nrotation curves. We also show internal and external comparisons of the"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 212,
+          "text": "various mass models. Section 4 contains the results of the model",
+          "context": "\nIn Section 2 we discuss the sample, and discuss the derivation of the\nrotation curves. We also show internal and external comparisons of the\ndata and discuss possible systematics.  In Section 3 we discuss the\nvarious mass models. Section 4 contains the results of the model\nfitting.  Section 5 discusses the implications for the various halo\nmodels. In Section 6 we turn our attention to the maximum disk and a\nsummary is given in Section 7.\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 231,
+          "text": "As the aim of this excercise is to derive mass models which can yield",
+          "context": "100$''$ telescope at Las Campanas in November 1998.  Velocities were\nderived from the intensity weighted centroid of the H$\\alpha$ and\n[N{\\sc ii}] lines.\n\nAs the aim of this excercise is to derive mass models which can yield\nsignificant constraints on the distribution of DM we select\nonly the 26 high quality galaxies from Paper I.  We split this\nhigh-quality sample in two sub-samples.  Sample I contains LSB\ngalaxies from BMH and"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 236,
+          "text": "\\citet{vdh93} for which a full set of photometry and \\HI data ",
+          "context": "significant constraints on the distribution of DM we select\nonly the 26 high quality galaxies from Paper I.  We split this\nhigh-quality sample in two sub-samples.  Sample I contains LSB\ngalaxies from BMH and\n\\citet{vdh93} for which a full set of photometry and \\HI data \nis available.  In Sample I we also include the five galaxies presented\nin SMT. For these galaxies \\HI and optical photometry are taken\nfrom BMH.  Tables~\\ref{fgalsample} and \\ref{esosample} contain a full\nlist of the galaxies analysed here, along with some of their global"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 247,
+          "text": "For the galaxies in Sample I, \\HI observations are available which",
+          "context": "Sample II consists of ESO-LV and UGC LSB galaxies, for which an\noptical rotation curve is available but no optical or\n\\HI photometry.\n\nFor the galaxies in Sample I, \\HI observations are available which\noften extend to larger radii than the H$\\alpha$ data.  To make the\nbest use of both types of data, we have constructed hybrid rotation\ncurves.  These consist of the H$\\alpha$ data over the range of radii\nwhere available, and 21-cm data to define the outermost points.  No"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 251,
+          "text": "where available, and 21-cm data to define the outermost points.  No",
+          "context": "For the galaxies in Sample I, \\HI observations are available which\noften extend to larger radii than the H$\\alpha$ data.  To make the\nbest use of both types of data, we have constructed hybrid rotation\ncurves.  These consist of the H$\\alpha$ data over the range of radii\nwhere available, and 21-cm data to define the outermost points.  No\nattempt has been made to ``average'' the different types of data:\nH$\\alpha$ is given precedence over the range of radii where it is\navailable.\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 258,
+          "text": "One of the main assumptions made when deriving mass models from",
+          "context": "available.\n\n\\subsection{Derivation of the smooth curves}\n\nOne of the main assumptions made when deriving mass models from\nrotation curves is that the gas and stars trace circular orbits in an\naxisymmetric potential.  Though the shape of the optical rotation\ncurves in Paper I is well-defined, the scatter between individual\ndatapoints means we cannot simply use the raw rotation curves to"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 296,
+          "text": "mass models. Figure~\\ref{smoraw} show overlays of both the raw hybrid",
+          "context": "values given in Tables~\\ref{fgalsample} and \\ref{esosample}.\n\nThe end result is a smooth representation of the data, which is\nreproducible and as objective as possible, to use as input for the\nmass models. Figure~\\ref{smoraw} show overlays of both the raw hybrid\ncurves and the smooth versions. It is easy to verify that no\nsystematic differences in slope or shape have been introduced.  The\nerror bars in the smooth curves are also a good representation of the\nuncertainties in the underlying raw data."
+        },
+        {
+          "file": "deblok.tex",
+          "line": 335,
+          "text": "\\section{Mass models}",
+          "context": "slightly different interpretation of the sparse raw data. In summary,\nthe smooth curves we present here give a good and reproducable\nrepresentation of the data.\n\n\\section{Mass models}\n\nIn order to find the signature of the dark halo one needs to model\nthe observed rotation curve using a number of separate dynamical\ncomponents, described below. "
+        },
+        {
+          "file": "deblok.tex",
+          "line": 352,
+          "text": "\\subsection{Gas disk} The \\HI surface density profiles presented in BMH",
+          "context": "radius. While one expects some modest variation in $\\MLstar$ with\nradius \\citep{dejong_grad}, the color gradients in LSB galaxies tend\nto be small, so this effect is not likely to be significant.\n\n\\subsection{Gas disk} The \\HI surface density profiles presented in BMH\nand \\citet{vdh93} were used. They were scaled by a factor of 1.4 to\ntake the contribution of helium and metals into account. Their\nrotation curve was derived assuming the gas was distributed in a thin\ndisk. The gas rotation curves were resampled at the radii of the"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 361,
+          "text": "The dark halo component differs from the previous two in that we are",
+          "context": "smooth observed rotation curve.\n\n\\subsection{Dark halo} \n\nThe dark halo component differs from the previous two in that we are\ninterested in parametrizing this component assuming some fiducial\nmodel. The choice of this model is the crux of most of the DM\nanalyses in the literature, and many models exist.  These can be\nbroadly distinguished in two groups: halo models with a core, and halo"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 374,
+          "text": "the data lead us: is there a preference for models with a core or",
+          "context": "category to the high-resolution LSB galaxy rotation curves, we will\npresent models derived using both models. We do realize there are many\nintermediate models described in the literature that probably can fit\nour data equally well. However, our goal here is simply to see where\nthe data lead us: is there a preference for models with a core or\nwith a cusp? We now describe the details of both models.\n\n\\subsubsection{Pseudo-isothermal halo}\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 424,
+          "text": "One of largest uncertainties in any mass model is the value of ",
+          "context": "not independent and are set by the cosmology.\n\n\\subsection{Mass-to-light ratios and weighting}\n\nOne of largest uncertainties in any mass model is the value of \n\\MLstar. Though broad trends in \\MLstar\\  have been measured and modelled \n\\citep[e.g.][]{botje97,bell_pops}, the precise value for an individual galaxy\nis not well known, and depends on extinction, star formation history,\nInitial Mass Function, etc.  Rotation curve fitting is a problem with"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 492,
+          "text": "pseudo-isothermal halo mass modelling for each galaxy side-by-side.  The two",
+          "context": "Tables \\ref{nfwtable} and \\ref{nfwesotable} give the results of the\nmodel fitting using the NFW halo model. Tables \\ref{isotable} and\n\\ref{isoesotable} show the results for the pseudo-isothermal halo.\nFigure~\\ref{nfwiso} presents the results of the NFW halo and\npseudo-isothermal halo mass modelling for each galaxy side-by-side.  The two\nleftmost columns show the results for NFW halo fitting.  The two\nrightmost columns show the pseudo-isothermal halo fitting results.\n\nThe first and third columns show the best-fitting models. The rotation"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 584,
+          "text": "\\subsection{Mass models: smooth and raw}",
+          "context": "parameters.  It is clear that these agree well, showing that the\nresults presented here are robust against the precise definition of\nthe errorbars.\n\n\\subsection{Mass models: smooth and raw}\n\nHas the procedure used to derive the smooth rotation curves affected\nsome of the model results? We established in Sect.~2.4 that this\nprocedure introduced no systematic differences between the smooth"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 610,
+          "text": "Fig.~\\ref{nfwswaters} we compare the $c$ values derived for each",
+          "context": "independently by two of us using independent fit codes on the smoothed\n(dB) and unsmoothed (McG) data.  Table~\\ref{comptable} lists the\nderived parameter values. For comparison, we also list the results for\nour own independent observation of F568-3 from Paper I.  In\nFig.~\\ref{nfwswaters} we compare the $c$ values derived for each\ngalaxy.\n\nWe see that the galaxies for which our smooth curves and the ones\npresented in SMT agree, also have similar model parameters, which"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 635,
+          "text": "from de Blok \\& Bosma (2001). See Paper I for a comparison. Note that",
+          "context": "\n\\subsection{Remarks on individual galaxies}\n\n{\\bf F563-1} For this galaxy independent observations are available\nfrom de Blok \\& Bosma (2001). See Paper I for a comparison. Note that\nthe observed curve differs significantly from the ``beam-smearing\ncorrected'' model presented in \\citet{frankvdb}. The model presented\nthere shows an almost flat rotation curve over most of the radial\nrange, which clearly disagrees with the new data. Beam-smearing"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 667,
+          "text": "data. (The \\HI data are not used for this galaxy.) These effects could",
+          "context": "several consistent independent measurements (see Paper I).\n\n{\\bf F571-8} This is the only edge-on galaxy in Sample I, so we are\nconcerned about optical depth and projection effects in the optical\ndata. (The \\HI data are not used for this galaxy.) These effects could\ncause us to measure the rotation velocity at a ring where the optical\ndepth becomes unity. Recently,\n\\citet{matthews_edgeon} have used radiative transfer models to\ninvestigate optical depth effects on rotation curves in edge-on LSB"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 673,
+          "text": "due to the low dust content in LSB galaxies. \\citet{bosma92}, in a",
+          "context": "depth becomes unity. Recently,\n\\citet{matthews_edgeon} have used radiative transfer models to\ninvestigate optical depth effects on rotation curves in edge-on LSB\ngalaxies, and they conclude that these effect are likely to be small\ndue to the low dust content in LSB galaxies. \\citet{bosma92}, in a\ncomparison of the optical and \\HI curves of the edge-on galaxy N100,\nalso finds that late-type galaxies tend to be transparant, even when\nseen edge-on.  Nevertheless, we cannot exclude the possibility that\nthe shape of the optical curve is affected. If this is so then"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 678,
+          "text": "\\emph{in this case} the mass model will change.",
+          "context": "comparison of the optical and \\HI curves of the edge-on galaxy N100,\nalso finds that late-type galaxies tend to be transparant, even when\nseen edge-on.  Nevertheless, we cannot exclude the possibility that\nthe shape of the optical curve is affected. If this is so then\n\\emph{in this case} the mass model will change.\nFor the constant \\MLstar\\ and maximum disk cases we have added an\nexponential bulge with $\\MLstar{}(R)_{\\rm bulge} = 0.5$. See BMH for a\ndescription of the bulge-disk decomposition.\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 708,
+          "text": "{\\bf U5750} This curve was observed both by us and de Blok \\& Bosma",
+          "context": "large \\emph{systematic\\/} error. Beam smearing can no longer be\ninvoked as the cause of such a systematic error now that this object\nhas been resolved to sub-kpc scales.\n\n{\\bf U5750} This curve was observed both by us and de Blok \\& Bosma\n(2001), and the two data sets show good agreement (see Paper I).  This\ncurve is difficult to model with a standard NFW profile, but the\npseudo-isothermal model provides a good fit.  The outermost point is taken\nfrom the \\HI curve, and provides an important constraint for the NFW"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 757,
+          "text": "maximum radius of the rotation curve. As described in the previous",
+          "context": "Fig.~\\ref{residuals} shows the residuals of the best-fitting minimum\ndisk models versus the observed data. Residuals are plotted against\nhalo scale size ($R_{200}$ for NFW and $R_C$ for pseudo-isothermal halos),\nradius in kpc, number of optical disk scale lengths and fraction of\nmaximum radius of the rotation curve. As described in the previous\nsection, the NFW fits that fail do so in a systematic way: the inner\nvelocity is overestimated, then the model drops below the observed\nvelocities in the middle and in the outer parts it once again\noverpredicts the velocity.  The NFW residuals are most pronounced when"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 788,
+          "text": "\\citet{broeils} of (mainly) luminous HSB galaxies, and",
+          "context": "describes the data.  Here we briefly explore some correlations between\nthe pseudo-isothermal halo model parameters and the parameters\ndescribing the luminous components of the galaxies.  To increase the\nrange of the parameters we also consider the samples of\n\\citet{broeils} of (mainly) luminous HSB galaxies, and\n\\citet{swaters_phd} of late-type dwarf galaxies.  From these samples\nwe only select bulge-less galaxies brighter than $M_B=-16.5$ to be\nconsistent with the range of luminosities found in our sample.\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 789,
+          "text": "\\citet{swaters_phd} of late-type dwarf galaxies.  From these samples",
+          "context": "the pseudo-isothermal halo model parameters and the parameters\ndescribing the luminous components of the galaxies.  To increase the\nrange of the parameters we also consider the samples of\n\\citet{broeils} of (mainly) luminous HSB galaxies, and\n\\citet{swaters_phd} of late-type dwarf galaxies.  From these samples\nwe only select bulge-less galaxies brighter than $M_B=-16.5$ to be\nconsistent with the range of luminosities found in our sample.\n\nFig.~\\ref{isocor} presents the results for the three samples. We show"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 854,
+          "text": "\\HI surface density that gives rises to imaginary rotation",
+          "context": "\nAs an aside we note here that the min+gas case sometimes gives\nslightly higher $c$-values than the simple minimum disk case. In most\ncases this is due to a central depression in the\n\\HI surface density that gives rises to imaginary rotation\nvelocities, which have to be compensated for by the halo. Also some of\nthe outer rotation velocity is explained by the gas rotation curve,\nyielding a halo curve that bends more at small radii. Consequently the\nhalo model tends to be slightly more concentrated."
+        },
+        {
+          "file": "deblok.tex",
+          "line": 978,
+          "text": "better determined than those of the Broeils HSB galaxies. The color",
+          "context": "In Fig.~\\ref{mlhisto} we compare the maximum disk $B$-band \\MLstar\\\nratios\\footnote{These were derived by converting our $R$-band values\nusing the $B-R$ color. We converted our data to $B$-band, rather than\nconverting the HSB data to $R$-band, as the colors of LSB galaxies are\nbetter determined than those of the Broeils HSB galaxies. The color\ngradients in LSB galaxies are small, so systematic effects are\nnegligible.}  for Sample I, with those derived by\n\\citet{broeils} for a sample of mostly HSB galaxies and by  \n\\citet{swaters_phd} for a sample of dwarfs.  We again show "
+        },
+        {
+          "file": "deblok.tex",
+          "line": 981,
+          "text": "\\citet{broeils} for a sample of mostly HSB galaxies and by  ",
+          "context": "converting the HSB data to $R$-band, as the colors of LSB galaxies are\nbetter determined than those of the Broeils HSB galaxies. The color\ngradients in LSB galaxies are small, so systematic effects are\nnegligible.}  for Sample I, with those derived by\n\\citet{broeils} for a sample of mostly HSB galaxies and by  \n\\citet{swaters_phd} for a sample of dwarfs.  We again show \nonly bulge-less galaxies brighter than $M_B = -16.5$.  Also indicated\nare \\MLstar\\ values from \\citet{bell_tfproc}, who tabulate stellar\nmass-to-light ratios for various star formation histories and"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 982,
+          "text": "\\citet{swaters_phd} for a sample of dwarfs.  We again show ",
+          "context": "better determined than those of the Broeils HSB galaxies. The color\ngradients in LSB galaxies are small, so systematic effects are\nnegligible.}  for Sample I, with those derived by\n\\citet{broeils} for a sample of mostly HSB galaxies and by  \n\\citet{swaters_phd} for a sample of dwarfs.  We again show \nonly bulge-less galaxies brighter than $M_B = -16.5$.  Also indicated\nare \\MLstar\\ values from \\citet{bell_tfproc}, who tabulate stellar\nmass-to-light ratios for various star formation histories and\npopulation synthesis models as a function of color. Here we show"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1019,
+          "text": "\\subsection{The maximum surface density of a disk}",
+          "context": "are too large for the stellar populations in these\ngalaxies. The mass discrepancies are still large; all this does is\nmove the DM from halo to disk.\n\n\\subsection{The maximum surface density of a disk}\n\nJust as the minimum disk assumption gives us an upper\nlimit on the amount of DM implied by rotation curves, the\nmaximum disk hypothesis gives us an upper limit on the amount of mass"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1028,
+          "text": "Maximum disk means maximum surface density (luminous surface density",
+          "context": "that could potentially be hidden in a disk. It is therefore still\nuseful to ask ourselves what these maximum disk upper limits imply for\nthe stellar disks.\n\nMaximum disk means maximum surface density (luminous surface density\ntimes \\MLstar), and therefore gives an absolute upper limit on the\nmass surface density in stellar disks (for mass components that are\ndistributed like the stars).  Figure~\\ref{maxdisk} summarizes the\nmaximum disk results for the Sample I LSB galaxies as well as the"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1030,
+          "text": "mass surface density in stellar disks (for mass components that are",
+          "context": "the stellar disks.\n\nMaximum disk means maximum surface density (luminous surface density\ntimes \\MLstar), and therefore gives an absolute upper limit on the\nmass surface density in stellar disks (for mass components that are\ndistributed like the stars).  Figure~\\ref{maxdisk} summarizes the\nmaximum disk results for the Sample I LSB galaxies as well as the\n\\citet{broeils} and \\citet{swaters_phd} HSB and dwarf samples.\nWe plot the maximum disk \\MLstar\\ values, as well as the luminosity,"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1033,
+          "text": "\\citet{broeils} and \\citet{swaters_phd} HSB and dwarf samples.",
+          "context": "times \\MLstar), and therefore gives an absolute upper limit on the\nmass surface density in stellar disks (for mass components that are\ndistributed like the stars).  Figure~\\ref{maxdisk} summarizes the\nmaximum disk results for the Sample I LSB galaxies as well as the\n\\citet{broeils} and \\citet{swaters_phd} HSB and dwarf samples.\nWe plot the maximum disk \\MLstar\\ values, as well as the luminosity,\nrotation velocity, surface brightness, and maximum disk surface\ndensity.  The data are divided into three surface brightness bins. As\nalready shown in \\citet{edb_rot}, at fixed $V_{\\rm max}$ LSB galaxies"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1040,
+          "text": "Figure~\\ref{maxdisk} also shows the maximum surface density $\\sigma$.",
+          "context": "density.  The data are divided into three surface brightness bins. As\nalready shown in \\citet{edb_rot}, at fixed $V_{\\rm max}$ LSB galaxies\nhave higher maximum \\MLstar\\ values than HSB galaxies.\n\nFigure~\\ref{maxdisk} also shows the maximum surface density $\\sigma$.\nAs the decrease in surface brightness is faster than the increase in\nmaximum disk $\\MLstar$, towards low surface brightnesses the maximum\nsurface density $\\sigma$ in a disk decreases with surface\nbrightness. The $\\mu_0 - \\sigma$ panel suggests that there is a"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1043,
+          "text": "surface density $\\sigma$ in a disk decreases with surface",
+          "context": "\nFigure~\\ref{maxdisk} also shows the maximum surface density $\\sigma$.\nAs the decrease in surface brightness is faster than the increase in\nmaximum disk $\\MLstar$, towards low surface brightnesses the maximum\nsurface density $\\sigma$ in a disk decreases with surface\nbrightness. The $\\mu_0 - \\sigma$ panel suggests that there is a\nwell-defined upper limit to the maximum surface density disks can\nattain. Even under maximum disk, LSB galaxy disks have on average\nlower surface densities than HSB galaxy disks, again putting limits on"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1045,
+          "text": "well-defined upper limit to the maximum surface density disks can",
+          "context": "As the decrease in surface brightness is faster than the increase in\nmaximum disk $\\MLstar$, towards low surface brightnesses the maximum\nsurface density $\\sigma$ in a disk decreases with surface\nbrightness. The $\\mu_0 - \\sigma$ panel suggests that there is a\nwell-defined upper limit to the maximum surface density disks can\nattain. Even under maximum disk, LSB galaxy disks have on average\nlower surface densities than HSB galaxy disks, again putting limits on\nthe amount of baryonic mass one can hide in these disk.\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1099,
+          "text": "analysis. Figure~\\ref{nfwswaters} illustrates that opposite claims can",
+          "context": "\nIt is worrying that for one or two extreme cases the difference\nbetween ``CDM does work'' or ``CDM doesn't work'' depends on subtle\ndifferences in data, data handling, or\nanalysis. Figure~\\ref{nfwswaters} illustrates that opposite claims can\nsometimes be made from the same data. Hence we re-iterate the need for\nthe highest quality data of a large sample, in order to minimize these\neffects.\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1130,
+          "text": "the disk mass surface density that is strongly correlated with surface",
+          "context": "\\item The maximum disk prescription works to predict the inner rotation \ncurve shape to some extent, but gives mass-to-light ratios which are\ntoo high to be accounted for by stellar population synthesis models.\n\\item Applying the maximum disk  values yields absolute upper limits on \nthe disk mass surface density that is strongly correlated with surface\nbrightness.\n\n\n\\end{itemize}"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1138,
+          "text": "We thank Roelof Bottema and Rob Swaters for their helpful comments on",
+          "context": "\\end{itemize}\n\n\\acknowledgements\n\nWe thank Roelof Bottema and Rob Swaters for their helpful comments on\nearly drafts of this paper. We thank the anonymous referee for a\nthorough examination of the data. The work of SSM is supported in part\nby NSF grant AST9901663.  This research has made use of the NASA/IPAC\nExtragalactic Database (NED) which is operated by the Jet Propulsion"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1149,
+          "text": "\\bibitem[Athannasoula, Bosma \\& Papaioannou(1987)]{athan87} Athannasoula, E., Bosma, A., Papaioannou, S., 1987, \\aap, 179, 23",
+          "context": "made use of NASA's Astrophysics Data System Abstract Service.\n\n\n\\begin{thebibliography}{}\n\\bibitem[Athannasoula, Bosma \\& Papaioannou(1987)]{athan87} Athannasoula, E., Bosma, A., Papaioannou, S., 1987, \\aap, 179, 23\n\\bibitem[Begeman(1987)]{beeg_phd} Begeman, K., 1987, PhD Thesis, University of Groningen\n\\bibitem[Bell \\& de Jong(2000a)]{bell_pops} Bell, E.F., de Jong, R.S., 2000, \\mnras, 312, 497 \n\\bibitem[Bell \\& de Jong(2000b)]{bell_tfproc} Bell, E. F., \\& de Jong, R. S. 2001, ApJ, submitted \n\\bibitem[Bell et al.(2000)]{bell_lsb00} Bell, E.F., Barnaby, D., Bower, R.G., de Jong, R.S., Harper, D.A., Hereld, M., Loewenstein, R.F., Rauscher, B.J., 2000, \\mnras, 312, 470"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1150,
+          "text": "\\bibitem[Begeman(1987)]{beeg_phd} Begeman, K., 1987, PhD Thesis, University of Groningen",
+          "context": "\n\n\\begin{thebibliography}{}\n\\bibitem[Athannasoula, Bosma \\& Papaioannou(1987)]{athan87} Athannasoula, E., Bosma, A., Papaioannou, S., 1987, \\aap, 179, 23\n\\bibitem[Begeman(1987)]{beeg_phd} Begeman, K., 1987, PhD Thesis, University of Groningen\n\\bibitem[Bell \\& de Jong(2000a)]{bell_pops} Bell, E.F., de Jong, R.S., 2000, \\mnras, 312, 497 \n\\bibitem[Bell \\& de Jong(2000b)]{bell_tfproc} Bell, E. F., \\& de Jong, R. S. 2001, ApJ, submitted \n\\bibitem[Bell et al.(2000)]{bell_lsb00} Bell, E.F., Barnaby, D., Bower, R.G., de Jong, R.S., Harper, D.A., Hereld, M., Loewenstein, R.F., Rauscher, B.J., 2000, \\mnras, 312, 470\n\\bibitem[Blais-Ouellette, Amram \\& Carignan(2001)]{blais00} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, \\aj, in press (astro-ph/0006449)"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1154,
+          "text": "\\bibitem[Blais-Ouellette, Amram \\& Carignan(2001)]{blais00} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, \\aj, in press (astro-ph/0006449)",
+          "context": "\\bibitem[Begeman(1987)]{beeg_phd} Begeman, K., 1987, PhD Thesis, University of Groningen\n\\bibitem[Bell \\& de Jong(2000a)]{bell_pops} Bell, E.F., de Jong, R.S., 2000, \\mnras, 312, 497 \n\\bibitem[Bell \\& de Jong(2000b)]{bell_tfproc} Bell, E. F., \\& de Jong, R. S. 2001, ApJ, submitted \n\\bibitem[Bell et al.(2000)]{bell_lsb00} Bell, E.F., Barnaby, D., Bower, R.G., de Jong, R.S., Harper, D.A., Hereld, M., Loewenstein, R.F., Rauscher, B.J., 2000, \\mnras, 312, 470\n\\bibitem[Blais-Ouellette, Amram \\& Carignan(2001)]{blais00} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, \\aj, in press (astro-ph/0006449)\n\\bibitem[Bosma et al.(1992)]{bosma92}\n Bosma A., Byun Y., Freeman K.C., Athanassoula E., 1992, \\apjl, 400, 21\n\\bibitem[Bothun, Impey \\& McGaugh(1997)]{lsbreview} Bothun G.D., Impey C.D., McGaugh S.S., 1997, \\pasp, 109, 745\n\\bibitem[Bottema(1997)]{botje97} Bottema, R., 1997, \\aap, 328, 517"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1155,
+          "text": "\\bibitem[Bosma et al.(1992)]{bosma92}",
+          "context": "\\bibitem[Bell \\& de Jong(2000a)]{bell_pops} Bell, E.F., de Jong, R.S., 2000, \\mnras, 312, 497 \n\\bibitem[Bell \\& de Jong(2000b)]{bell_tfproc} Bell, E. F., \\& de Jong, R. S. 2001, ApJ, submitted \n\\bibitem[Bell et al.(2000)]{bell_lsb00} Bell, E.F., Barnaby, D., Bower, R.G., de Jong, R.S., Harper, D.A., Hereld, M., Loewenstein, R.F., Rauscher, B.J., 2000, \\mnras, 312, 470\n\\bibitem[Blais-Ouellette, Amram \\& Carignan(2001)]{blais00} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, \\aj, in press (astro-ph/0006449)\n\\bibitem[Bosma et al.(1992)]{bosma92}\n Bosma A., Byun Y., Freeman K.C., Athanassoula E., 1992, \\apjl, 400, 21\n\\bibitem[Bothun, Impey \\& McGaugh(1997)]{lsbreview} Bothun G.D., Impey C.D., McGaugh S.S., 1997, \\pasp, 109, 745\n\\bibitem[Bottema(1997)]{botje97} Bottema, R., 1997, \\aap, 328, 517\n\\bibitem[Broeils(1992)]{broeils} Broeils, A.H., 1992, PhD Thesis, University of Groningen"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1156,
+          "text": " Bosma A., Byun Y., Freeman K.C., Athanassoula E., 1992, \\apjl, 400, 21",
+          "context": "\\bibitem[Bell \\& de Jong(2000b)]{bell_tfproc} Bell, E. F., \\& de Jong, R. S. 2001, ApJ, submitted \n\\bibitem[Bell et al.(2000)]{bell_lsb00} Bell, E.F., Barnaby, D., Bower, R.G., de Jong, R.S., Harper, D.A., Hereld, M., Loewenstein, R.F., Rauscher, B.J., 2000, \\mnras, 312, 470\n\\bibitem[Blais-Ouellette, Amram \\& Carignan(2001)]{blais00} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, \\aj, in press (astro-ph/0006449)\n\\bibitem[Bosma et al.(1992)]{bosma92}\n Bosma A., Byun Y., Freeman K.C., Athanassoula E., 1992, \\apjl, 400, 21\n\\bibitem[Bothun, Impey \\& McGaugh(1997)]{lsbreview} Bothun G.D., Impey C.D., McGaugh S.S., 1997, \\pasp, 109, 745\n\\bibitem[Bottema(1997)]{botje97} Bottema, R., 1997, \\aap, 328, 517\n\\bibitem[Broeils(1992)]{broeils} Broeils, A.H., 1992, PhD Thesis, University of Groningen\n\\bibitem[Bruzual \\& Charlot(1993)]{ch_bruz} Bruzual, A.G., Charlot, S, \\apj, 405, 538"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1157,
+          "text": "\\bibitem[Bothun, Impey \\& McGaugh(1997)]{lsbreview} Bothun G.D., Impey C.D., McGaugh S.S., 1997, \\pasp, 109, 745",
+          "context": "\\bibitem[Bell et al.(2000)]{bell_lsb00} Bell, E.F., Barnaby, D., Bower, R.G., de Jong, R.S., Harper, D.A., Hereld, M., Loewenstein, R.F., Rauscher, B.J., 2000, \\mnras, 312, 470\n\\bibitem[Blais-Ouellette, Amram \\& Carignan(2001)]{blais00} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, \\aj, in press (astro-ph/0006449)\n\\bibitem[Bosma et al.(1992)]{bosma92}\n Bosma A., Byun Y., Freeman K.C., Athanassoula E., 1992, \\apjl, 400, 21\n\\bibitem[Bothun, Impey \\& McGaugh(1997)]{lsbreview} Bothun G.D., Impey C.D., McGaugh S.S., 1997, \\pasp, 109, 745\n\\bibitem[Bottema(1997)]{botje97} Bottema, R., 1997, \\aap, 328, 517\n\\bibitem[Broeils(1992)]{broeils} Broeils, A.H., 1992, PhD Thesis, University of Groningen\n\\bibitem[Bruzual \\& Charlot(1993)]{ch_bruz} Bruzual, A.G., Charlot, S, \\apj, 405, 538\n\\bibitem[Bullock et al.(1999)]{bul99} Bullock, J.S., Kolatt, T.S., Sigad, Y., Somerville, R.S.,"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1159,
+          "text": "\\bibitem[Broeils(1992)]{broeils} Broeils, A.H., 1992, PhD Thesis, University of Groningen",
+          "context": "\\bibitem[Bosma et al.(1992)]{bosma92}\n Bosma A., Byun Y., Freeman K.C., Athanassoula E., 1992, \\apjl, 400, 21\n\\bibitem[Bothun, Impey \\& McGaugh(1997)]{lsbreview} Bothun G.D., Impey C.D., McGaugh S.S., 1997, \\pasp, 109, 745\n\\bibitem[Bottema(1997)]{botje97} Bottema, R., 1997, \\aap, 328, 517\n\\bibitem[Broeils(1992)]{broeils} Broeils, A.H., 1992, PhD Thesis, University of Groningen\n\\bibitem[Bruzual \\& Charlot(1993)]{ch_bruz} Bruzual, A.G., Charlot, S, \\apj, 405, 538\n\\bibitem[Bullock et al.(1999)]{bul99} Bullock, J.S., Kolatt, T.S., Sigad, Y., Somerville, R.S.,\n        Kravtsov, A.V., Klypin, A.A., Primack, J.R., \\& Dekel, A.\n        1999 (astro-ph/9908159), \\mnras, submitted"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1166,
+          "text": "\\bibitem[C\\^ot\\'e, Carignan \\& Freeman(2000)]{cote00} C\\^ot\\'e, S., Carignan, C. \\& Freeman, K.C. 2000, \\aj, 120, 3027",
+          "context": "        Kravtsov, A.V., Klypin, A.A., Primack, J.R., \\& Dekel, A.\n        1999 (astro-ph/9908159), \\mnras, submitted\n\\bibitem[Casertano(1993)]{cas93} Casertano, S. 1983, \\mnras, 203, 735\n\\bibitem[Cole et al.(2000)]{cole00} Cole, S., Lacey, C.G., Baugh, C.M., Frenk, C.S., 2000 (astro-ph/0007281), \\mnras, in press\n\\bibitem[C\\^ot\\'e, Carignan \\& Freeman(2000)]{cote00} C\\^ot\\'e, S., Carignan, C. \\& Freeman, K.C. 2000, \\aj, 120, 3027\n\\bibitem[de Blok \\& van der Hulst(1998)]{edb_abund98}\n de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421\n\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1167,
+          "text": "\\bibitem[de Blok \\& van der Hulst(1998)]{edb_abund98}",
+          "context": "        1999 (astro-ph/9908159), \\mnras, submitted\n\\bibitem[Casertano(1993)]{cas93} Casertano, S. 1983, \\mnras, 203, 735\n\\bibitem[Cole et al.(2000)]{cole00} Cole, S., Lacey, C.G., Baugh, C.M., Frenk, C.S., 2000 (astro-ph/0007281), \\mnras, in press\n\\bibitem[C\\^ot\\'e, Carignan \\& Freeman(2000)]{cote00} C\\^ot\\'e, S., Carignan, C. \\& Freeman, K.C. 2000, \\aj, 120, 3027\n\\bibitem[de Blok \\& van der Hulst(1998)]{edb_abund98}\n de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421\n\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89\n\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1168,
+          "text": " de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421",
+          "context": "\\bibitem[Casertano(1993)]{cas93} Casertano, S. 1983, \\mnras, 203, 735\n\\bibitem[Cole et al.(2000)]{cole00} Cole, S., Lacey, C.G., Baugh, C.M., Frenk, C.S., 2000 (astro-ph/0007281), \\mnras, in press\n\\bibitem[C\\^ot\\'e, Carignan \\& Freeman(2000)]{cote00} C\\^ot\\'e, S., Carignan, C. \\& Freeman, K.C. 2000, \\aj, 120, 3027\n\\bibitem[de Blok \\& van der Hulst(1998)]{edb_abund98}\n de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421\n\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89\n\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press\n\\bibitem[de Blok, McGaugh \\& van der Hulst(1996)]{edb_bmh96}  de Blok W.J.G., McGaugh S.S.,  van der Hulst J.M., 1996, \\mnras, 283, 18 "
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1169,
+          "text": "\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235",
+          "context": "\\bibitem[Cole et al.(2000)]{cole00} Cole, S., Lacey, C.G., Baugh, C.M., Frenk, C.S., 2000 (astro-ph/0007281), \\mnras, in press\n\\bibitem[C\\^ot\\'e, Carignan \\& Freeman(2000)]{cote00} C\\^ot\\'e, S., Carignan, C. \\& Freeman, K.C. 2000, \\aj, 120, 3027\n\\bibitem[de Blok \\& van der Hulst(1998)]{edb_abund98}\n de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421\n\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89\n\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press\n\\bibitem[de Blok, McGaugh \\& van der Hulst(1996)]{edb_bmh96}  de Blok W.J.G., McGaugh S.S.,  van der Hulst J.M., 1996, \\mnras, 283, 18 \n\\bibitem[de Blok \\& McGaugh(1997)]{edb_rot} de Blok, W.J.G.,  McGaugh, S.S., 1997, \\mnras, 290, 533"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1170,
+          "text": "\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89",
+          "context": "\\bibitem[C\\^ot\\'e, Carignan \\& Freeman(2000)]{cote00} C\\^ot\\'e, S., Carignan, C. \\& Freeman, K.C. 2000, \\aj, 120, 3027\n\\bibitem[de Blok \\& van der Hulst(1998)]{edb_abund98}\n de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421\n\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89\n\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press\n\\bibitem[de Blok, McGaugh \\& van der Hulst(1996)]{edb_bmh96}  de Blok W.J.G., McGaugh S.S.,  van der Hulst J.M., 1996, \\mnras, 283, 18 \n\\bibitem[de Blok \\& McGaugh(1997)]{edb_rot} de Blok, W.J.G.,  McGaugh, S.S., 1997, \\mnras, 290, 533\n\\bibitem[de Jong(1996)]{dejong_grad} de Jong, R.S., 1996, \\aap, 313, 377"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1171,
+          "text": "\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press",
+          "context": "\\bibitem[de Blok \\& van der Hulst(1998)]{edb_abund98}\n de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421\n\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89\n\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press\n\\bibitem[de Blok, McGaugh \\& van der Hulst(1996)]{edb_bmh96}  de Blok W.J.G., McGaugh S.S.,  van der Hulst J.M., 1996, \\mnras, 283, 18 \n\\bibitem[de Blok \\& McGaugh(1997)]{edb_rot} de Blok, W.J.G.,  McGaugh, S.S., 1997, \\mnras, 290, 533\n\\bibitem[de Jong(1996)]{dejong_grad} de Jong, R.S., 1996, \\aap, 313, 377\n\\bibitem[Debattista \\& Sellwood(2000)]{victor_maxdisk} Debattista, V.P., Sellwood, J.A., 2000 (astro-ph/0006275)"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1172,
+          "text": "\\bibitem[de Blok, McGaugh \\& van der Hulst(1996)]{edb_bmh96}  de Blok W.J.G., McGaugh S.S.,  van der Hulst J.M., 1996, \\mnras, 283, 18 ",
+          "context": " de Blok W.J.G., van der Hulst J.M., 1998, \\aap, 335, 421\n\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89\n\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press\n\\bibitem[de Blok, McGaugh \\& van der Hulst(1996)]{edb_bmh96}  de Blok W.J.G., McGaugh S.S.,  van der Hulst J.M., 1996, \\mnras, 283, 18 \n\\bibitem[de Blok \\& McGaugh(1997)]{edb_rot} de Blok, W.J.G.,  McGaugh, S.S., 1997, \\mnras, 290, 533\n\\bibitem[de Jong(1996)]{dejong_grad} de Jong, R.S., 1996, \\aap, 313, 377\n\\bibitem[Debattista \\& Sellwood(2000)]{victor_maxdisk} Debattista, V.P., Sellwood, J.A., 2000 (astro-ph/0006275)\n\\bibitem[Flores \\& Primack(1994)]{floresprimack94} Flores, R.A., Primack, "
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1173,
+          "text": "\\bibitem[de Blok \\& McGaugh(1997)]{edb_rot} de Blok, W.J.G.,  McGaugh, S.S., 1997, \\mnras, 290, 533",
+          "context": "\\bibitem[de Blok, van der Hulst \\& Bothun(1995)]{edb_phot95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, \\mnras, 274, 235\n\\bibitem[de Blok \\& McGaugh(1996)]{edb_hsblsb96} de Blok, W.J.G.,  McGaugh, S.S. 1996, \\apjl, 469, L89\n\\bibitem[de Blok et al.(2001)]{paper3}  de Blok, W.J.G.,  McGaugh, S.S, Bosma, A., Rubin, V., 2001, \\apjl, in press\n\\bibitem[de Blok, McGaugh \\& van der Hulst(1996)]{edb_bmh96}  de Blok W.J.G., McGaugh S.S.,  van der Hulst J.M., 1996, \\mnras, 283, 18 \n\\bibitem[de Blok \\& McGaugh(1997)]{edb_rot} de Blok, W.J.G.,  McGaugh, S.S., 1997, \\mnras, 290, 533\n\\bibitem[de Jong(1996)]{dejong_grad} de Jong, R.S., 1996, \\aap, 313, 377\n\\bibitem[Debattista \\& Sellwood(2000)]{victor_maxdisk} Debattista, V.P., Sellwood, J.A., 2000 (astro-ph/0006275)\n\\bibitem[Flores \\& Primack(1994)]{floresprimack94} Flores, R.A., Primack, \nJ.R., 1994, \\apjl, 427, L1"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1185,
+          "text": "\\bibitem[McGaugh(1994)]{mcg_abund94}McGaugh S.S., 1994, \\apj, 426, 135",
+          "context": "\\bibitem[Loader(1999)]{LG} Loader, C., 1999, \\emph{Local Regression and Likelihood}, Springer-Verlag: New York\n\\bibitem[Mac Low \\& Ferrara(1998)]{maclow} Mac Low, M.-M., Ferrara, A., 1998, \\apj, 513, 142\n\\bibitem[Mateo(1998)]{mateo98} Mateo, M.L., 1998, \\araa, 36, 435\n\\bibitem[Matthews \\& Wood(2000)]{matthews_edgeon} Matthews, L.D., Wood, K., 2000, astro-ph/0010033\n\\bibitem[McGaugh(1994)]{mcg_abund94}McGaugh S.S., 1994, \\apj, 426, 135\n\\bibitem[McGaugh \\& Bothun(1994)]{mcg_opt94} McGaugh S.S.,  Bothun G.D., 1994, \\aj, 107, 530\n\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689\n\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41\n\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1186,
+          "text": "\\bibitem[McGaugh \\& Bothun(1994)]{mcg_opt94} McGaugh S.S.,  Bothun G.D., 1994, \\aj, 107, 530",
+          "context": "\\bibitem[Mac Low \\& Ferrara(1998)]{maclow} Mac Low, M.-M., Ferrara, A., 1998, \\apj, 513, 142\n\\bibitem[Mateo(1998)]{mateo98} Mateo, M.L., 1998, \\araa, 36, 435\n\\bibitem[Matthews \\& Wood(2000)]{matthews_edgeon} Matthews, L.D., Wood, K., 2000, astro-ph/0010033\n\\bibitem[McGaugh(1994)]{mcg_abund94}McGaugh S.S., 1994, \\apj, 426, 135\n\\bibitem[McGaugh \\& Bothun(1994)]{mcg_opt94} McGaugh S.S.,  Bothun G.D., 1994, \\aj, 107, 530\n\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689\n\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41\n\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted\n\\bibitem[McGaugh et al.(2000)]{mcg_barytf} McGaugh, S.S., Schombert, J.M., Bothun, G.D., de Blok, W.J.G., 2000, \\apjl, 533, L99"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1187,
+          "text": "\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689",
+          "context": "\\bibitem[Mateo(1998)]{mateo98} Mateo, M.L., 1998, \\araa, 36, 435\n\\bibitem[Matthews \\& Wood(2000)]{matthews_edgeon} Matthews, L.D., Wood, K., 2000, astro-ph/0010033\n\\bibitem[McGaugh(1994)]{mcg_abund94}McGaugh S.S., 1994, \\apj, 426, 135\n\\bibitem[McGaugh \\& Bothun(1994)]{mcg_opt94} McGaugh S.S.,  Bothun G.D., 1994, \\aj, 107, 530\n\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689\n\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41\n\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted\n\\bibitem[McGaugh et al.(2000)]{mcg_barytf} McGaugh, S.S., Schombert, J.M., Bothun, G.D., de Blok, W.J.G., 2000, \\apjl, 533, L99\n\\bibitem[Mihos, McGaugh \\& de Blok(1997)]{mihos_lsb} Mihos, J.C., McGaugh, S.S., de Blok, W.J.G., 1997, \\apjl, 477, L79"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1188,
+          "text": "\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41",
+          "context": "\\bibitem[Matthews \\& Wood(2000)]{matthews_edgeon} Matthews, L.D., Wood, K., 2000, astro-ph/0010033\n\\bibitem[McGaugh(1994)]{mcg_abund94}McGaugh S.S., 1994, \\apj, 426, 135\n\\bibitem[McGaugh \\& Bothun(1994)]{mcg_opt94} McGaugh S.S.,  Bothun G.D., 1994, \\aj, 107, 530\n\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689\n\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41\n\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted\n\\bibitem[McGaugh et al.(2000)]{mcg_barytf} McGaugh, S.S., Schombert, J.M., Bothun, G.D., de Blok, W.J.G., 2000, \\apjl, 533, L99\n\\bibitem[Mihos, McGaugh \\& de Blok(1997)]{mihos_lsb} Mihos, J.C., McGaugh, S.S., de Blok, W.J.G., 1997, \\apjl, 477, L79\n\\bibitem[Moore(1994)]{moore94} Moore, B. 1994, \\nat, 370, 629 "
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1189,
+          "text": "\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted",
+          "context": "\\bibitem[McGaugh(1994)]{mcg_abund94}McGaugh S.S., 1994, \\apj, 426, 135\n\\bibitem[McGaugh \\& Bothun(1994)]{mcg_opt94} McGaugh S.S.,  Bothun G.D., 1994, \\aj, 107, 530\n\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689\n\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41\n\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted\n\\bibitem[McGaugh et al.(2000)]{mcg_barytf} McGaugh, S.S., Schombert, J.M., Bothun, G.D., de Blok, W.J.G., 2000, \\apjl, 533, L99\n\\bibitem[Mihos, McGaugh \\& de Blok(1997)]{mihos_lsb} Mihos, J.C., McGaugh, S.S., de Blok, W.J.G., 1997, \\apjl, 477, L79\n\\bibitem[Moore(1994)]{moore94} Moore, B. 1994, \\nat, 370, 629 \n\\bibitem[Moore et al.(1999)]{moore99} Moore, B., Quinn, T., Governato, F., Stadel, J., Lake, G., 1999, \\mnras, 310, 1147"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1190,
+          "text": "\\bibitem[McGaugh et al.(2000)]{mcg_barytf} McGaugh, S.S., Schombert, J.M., Bothun, G.D., de Blok, W.J.G., 2000, \\apjl, 533, L99",
+          "context": "\\bibitem[McGaugh \\& Bothun(1994)]{mcg_opt94} McGaugh S.S.,  Bothun G.D., 1994, \\aj, 107, 530\n\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689\n\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41\n\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted\n\\bibitem[McGaugh et al.(2000)]{mcg_barytf} McGaugh, S.S., Schombert, J.M., Bothun, G.D., de Blok, W.J.G., 2000, \\apjl, 533, L99\n\\bibitem[Mihos, McGaugh \\& de Blok(1997)]{mihos_lsb} Mihos, J.C., McGaugh, S.S., de Blok, W.J.G., 1997, \\apjl, 477, L79\n\\bibitem[Moore(1994)]{moore94} Moore, B. 1994, \\nat, 370, 629 \n\\bibitem[Moore et al.(1999)]{moore99} Moore, B., Quinn, T., Governato, F., Stadel, J., Lake, G., 1999, \\mnras, 310, 1147\n\\bibitem[Navarro, Frenk \\& White(1996)]{NFW96} Navarro, J.F., Frenk, C.S.,  White, S.D.M. 1996, \\apj, 462, 563"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1191,
+          "text": "\\bibitem[Mihos, McGaugh \\& de Blok(1997)]{mihos_lsb} Mihos, J.C., McGaugh, S.S., de Blok, W.J.G., 1997, \\apjl, 477, L79",
+          "context": "\\bibitem[McGaugh \\& de Blok(1997)]{mcg_gas97} McGaugh, S.S., de Blok, W.J.G., 1997, \\apj, 481, 689\n\\bibitem[McGaugh \\& de Blok(1998)]{mcg_nodm98} McGaugh, S.S., de Blok, W.J.G., 1998, \\apj, 499, 41\n\\bibitem[McGaugh, Rubin \\& de Blok(2000)]{optcur_data} McGaugh, S.S., Rubin, V., de Blok, W.J.G., 2000, \\apj, submitted\n\\bibitem[McGaugh et al.(2000)]{mcg_barytf} McGaugh, S.S., Schombert, J.M., Bothun, G.D., de Blok, W.J.G., 2000, \\apjl, 533, L99\n\\bibitem[Mihos, McGaugh \\& de Blok(1997)]{mihos_lsb} Mihos, J.C., McGaugh, S.S., de Blok, W.J.G., 1997, \\apjl, 477, L79\n\\bibitem[Moore(1994)]{moore94} Moore, B. 1994, \\nat, 370, 629 \n\\bibitem[Moore et al.(1999)]{moore99} Moore, B., Quinn, T., Governato, F., Stadel, J., Lake, G., 1999, \\mnras, 310, 1147\n\\bibitem[Navarro, Frenk \\& White(1996)]{NFW96} Navarro, J.F., Frenk, C.S.,  White, S.D.M. 1996, \\apj, 462, 563\n\\bibitem[Navarro, Frenk \\& White(1997)]{NFW97} Navarro, J.F., Frenk, C.S., \\& White, S.D.M. 1997, \\apj, 490, 493"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1201,
+          "text": "\\bibitem[Swaters(1999)]{swaters_phd} Swaters, R.A., 1999, PhD Thesis, University of Groningen",
+          "context": "\\bibitem[Persic, Salucci \\& Stel(1996)]{ps_univ96} Persic M., Salucci P., Stel., F., 1996, \\mnras, 281, 27\n\\bibitem[Pickering et al.(1997)]{tim_rot97} Pickering, T.E., Impey, C.D., van Gorkom, J.H., Bothun, G.D., 1997, \\aj, 114, 1858\n\\bibitem[Sprayberry et al.(1995)]{spray_tf95}\nSprayberry D., Impey C.D., Bothun G.D., Irwin M., 1995, \\aj 109, 558\n\\bibitem[Swaters(1999)]{swaters_phd} Swaters, R.A., 1999, PhD Thesis, University of Groningen\n\\bibitem[Swaters, Madore \\& Trewhella(2000)]{SMT} Swaters, R.A., Madore, B.F., Trewhella, M., 2000, \\apjl, 531, L107\n\\bibitem[Tully \\& Verheijen(1998)]{marc_bimodal} Tully, R.B., Verheijen, M.A.W., 1997, \\apj, 484, 145\n\\bibitem[van Albada \\& Sancisi(1986)]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[van den Bosch et al.(2000)]{frankvdb} van den Bosch, F.C., Robertson, B.E., Dalcanton, J.J., de Blok, W.J.G., 2000, \\aj, 119, 1579"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1202,
+          "text": "\\bibitem[Swaters, Madore \\& Trewhella(2000)]{SMT} Swaters, R.A., Madore, B.F., Trewhella, M., 2000, \\apjl, 531, L107",
+          "context": "\\bibitem[Pickering et al.(1997)]{tim_rot97} Pickering, T.E., Impey, C.D., van Gorkom, J.H., Bothun, G.D., 1997, \\aj, 114, 1858\n\\bibitem[Sprayberry et al.(1995)]{spray_tf95}\nSprayberry D., Impey C.D., Bothun G.D., Irwin M., 1995, \\aj 109, 558\n\\bibitem[Swaters(1999)]{swaters_phd} Swaters, R.A., 1999, PhD Thesis, University of Groningen\n\\bibitem[Swaters, Madore \\& Trewhella(2000)]{SMT} Swaters, R.A., Madore, B.F., Trewhella, M., 2000, \\apjl, 531, L107\n\\bibitem[Tully \\& Verheijen(1998)]{marc_bimodal} Tully, R.B., Verheijen, M.A.W., 1997, \\apj, 484, 145\n\\bibitem[van Albada \\& Sancisi(1986)]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[van den Bosch et al.(2000)]{frankvdb} van den Bosch, F.C., Robertson, B.E., Dalcanton, J.J., de Blok, W.J.G., 2000, \\aj, 119, 1579\n\\bibitem[van den Hoek et al.(2000)]{vdhoek00} van den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T., 2000, \\aap, 357, 397"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1205,
+          "text": "\\bibitem[van den Bosch et al.(2000)]{frankvdb} van den Bosch, F.C., Robertson, B.E., Dalcanton, J.J., de Blok, W.J.G., 2000, \\aj, 119, 1579",
+          "context": "\\bibitem[Swaters(1999)]{swaters_phd} Swaters, R.A., 1999, PhD Thesis, University of Groningen\n\\bibitem[Swaters, Madore \\& Trewhella(2000)]{SMT} Swaters, R.A., Madore, B.F., Trewhella, M., 2000, \\apjl, 531, L107\n\\bibitem[Tully \\& Verheijen(1998)]{marc_bimodal} Tully, R.B., Verheijen, M.A.W., 1997, \\apj, 484, 145\n\\bibitem[van Albada \\& Sancisi(1986)]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[van den Bosch et al.(2000)]{frankvdb} van den Bosch, F.C., Robertson, B.E., Dalcanton, J.J., de Blok, W.J.G., 2000, \\aj, 119, 1579\n\\bibitem[van den Hoek et al.(2000)]{vdhoek00} van den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T., 2000, \\aap, 357, 397\n\\bibitem[van der Hulst et al.(1993)]{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh S.S.,  de Blok W.J.G., 1993, \\aj, 106, 548\n\\bibitem[van der Kruit \\& Searle(1981)]{kruit81}\nvan der Kruit, P.C., \\& Searle, L. 1981, \\aap, 95, 105"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1206,
+          "text": "\\bibitem[van den Hoek et al.(2000)]{vdhoek00} van den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T., 2000, \\aap, 357, 397",
+          "context": "\\bibitem[Swaters, Madore \\& Trewhella(2000)]{SMT} Swaters, R.A., Madore, B.F., Trewhella, M., 2000, \\apjl, 531, L107\n\\bibitem[Tully \\& Verheijen(1998)]{marc_bimodal} Tully, R.B., Verheijen, M.A.W., 1997, \\apj, 484, 145\n\\bibitem[van Albada \\& Sancisi(1986)]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[van den Bosch et al.(2000)]{frankvdb} van den Bosch, F.C., Robertson, B.E., Dalcanton, J.J., de Blok, W.J.G., 2000, \\aj, 119, 1579\n\\bibitem[van den Hoek et al.(2000)]{vdhoek00} van den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T., 2000, \\aap, 357, 397\n\\bibitem[van der Hulst et al.(1993)]{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh S.S.,  de Blok W.J.G., 1993, \\aj, 106, 548\n\\bibitem[van der Kruit \\& Searle(1981)]{kruit81}\nvan der Kruit, P.C., \\& Searle, L. 1981, \\aap, 95, 105\n\\bibitem[Verheijen(1997)]{marc_phd97} Verheijen, M.A.W., PhD Thesis, University of Groningen"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1207,
+          "text": "\\bibitem[van der Hulst et al.(1993)]{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh S.S.,  de Blok W.J.G., 1993, \\aj, 106, 548",
+          "context": "\\bibitem[Tully \\& Verheijen(1998)]{marc_bimodal} Tully, R.B., Verheijen, M.A.W., 1997, \\apj, 484, 145\n\\bibitem[van Albada \\& Sancisi(1986)]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[van den Bosch et al.(2000)]{frankvdb} van den Bosch, F.C., Robertson, B.E., Dalcanton, J.J., de Blok, W.J.G., 2000, \\aj, 119, 1579\n\\bibitem[van den Hoek et al.(2000)]{vdhoek00} van den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T., 2000, \\aap, 357, 397\n\\bibitem[van der Hulst et al.(1993)]{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh S.S.,  de Blok W.J.G., 1993, \\aj, 106, 548\n\\bibitem[van der Kruit \\& Searle(1981)]{kruit81}\nvan der Kruit, P.C., \\& Searle, L. 1981, \\aap, 95, 105\n\\bibitem[Verheijen(1997)]{marc_phd97} Verheijen, M.A.W., PhD Thesis, University of Groningen\n\\bibitem[Weiner, Sellwood \\& Williams(2000)]{weiner00} Weiner, B.J., Sellwood, J.A., Williams, T.B., 2000 (astro-ph/0008205)"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1212,
+          "text": "\\bibitem[Zwaan et al.(1995)]{zwaan_tf95} Zwaan M.A., van der Hulst J.M., de Blok W.J.G., McGaugh S.S., 1995, \\mnras 273, L35",
+          "context": "\\bibitem[van der Kruit \\& Searle(1981)]{kruit81}\nvan der Kruit, P.C., \\& Searle, L. 1981, \\aap, 95, 105\n\\bibitem[Verheijen(1997)]{marc_phd97} Verheijen, M.A.W., PhD Thesis, University of Groningen\n\\bibitem[Weiner, Sellwood \\& Williams(2000)]{weiner00} Weiner, B.J., Sellwood, J.A., Williams, T.B., 2000 (astro-ph/0008205)\n\\bibitem[Zwaan et al.(1995)]{zwaan_tf95} Zwaan M.A., van der Hulst J.M., de Blok W.J.G., McGaugh S.S., 1995, \\mnras 273, L35\n\\end{thebibliography}\n\n\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1259,
+          "text": "\\figcaption{Mass models assuming NFW halo (left) and",
+          "context": "\\end{figure} \n\n\\begin{figure} \n\\begin{center} \n\\figcaption{Mass models assuming NFW halo (left) and\npseudo-isothermal halo (right). Within each panel the left column shows the\nbest fitting model, the right column shows the probability\ndistribution of the halo parameters. For a full description see text\n(Sect.~4). {\\bf Figure 3 not available due to size limitations. All figures"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1325,
+          "text": "\\label{nfwswaters}}",
+          "context": "concentrations.  While the formal fits differ significantly in these\ncases, the differences in the curves being fit are subtle (see\nFig.~\\ref{swcomp}).  This illustrates the importance of high accuracy\ndata.\n\\label{nfwswaters}}\n\\end{center}\n\\end{figure}\n\n"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1368,
+          "text": "galaxies brighter than $M_B = -16.5$ from Broeils (1992) and the",
+          "context": "$V_{\\rm max}$ [km s$^{-1}$], surface brightness $\\mu_0 $[$B$-mag\narcsec$^{-2}$], central halo density $\\rho_0$ [$10^{-3}\\ M_{\\odot}$\npc$^{-3}$], halo core radius $R_C$ [kpc], and the ratio of core radius\nand optical disk scale length $R_C/h$. Included are the bulge-less HSB\ngalaxies brighter than $M_B = -16.5$ from Broeils (1992) and the\nhigh-quality ($q = 0$ or 1) curves of bright $M_B < -16.5$ dwarfs from\nSwaters (1999).  Black circles: $\\mu_0(B) < 21.9$ mag arcsec$^{-2}$;\nopen squares: $21.9 \\leq \\mu_0(B)\n\\leq 23.2$; stars: $\\mu_0(B) > 23.2$ mag arcsec$^{-2}$. See text for details."
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1370,
+          "text": "Swaters (1999).  Black circles: $\\mu_0(B) < 21.9$ mag arcsec$^{-2}$;",
+          "context": "pc$^{-3}$], halo core radius $R_C$ [kpc], and the ratio of core radius\nand optical disk scale length $R_C/h$. Included are the bulge-less HSB\ngalaxies brighter than $M_B = -16.5$ from Broeils (1992) and the\nhigh-quality ($q = 0$ or 1) curves of bright $M_B < -16.5$ dwarfs from\nSwaters (1999).  Black circles: $\\mu_0(B) < 21.9$ mag arcsec$^{-2}$;\nopen squares: $21.9 \\leq \\mu_0(B)\n\\leq 23.2$; stars: $\\mu_0(B) > 23.2$ mag arcsec$^{-2}$. See text for details.\n\\label{isocor}\n}"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1422,
+          "text": "refers to bulge-less galaxies from the collection of Broeils (1992)",
+          "context": "\\begin{figure} \n\\begin{center} \n\\epsfxsize=0.8\\hsize \\epsfbox{deblok.fig13.ps}\n\\figcaption[fig13.ps]{Histograms of the maximum disk \\MLstar\\ values. The top panel\nrefers to bulge-less galaxies from the collection of Broeils (1992)\nbrighter than $M_B = -16.5$. The middle panel refers to dwarf galaxies\nbrighter than $M_B = -16.5$ from Swaters (1999) with quality index 0\nor 1 (very good to good). The bottom panel shows Sample I. Also\nindicated are the values for \\MLstar\\ using population synthesis"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1424,
+          "text": "brighter than $M_B = -16.5$ from Swaters (1999) with quality index 0",
+          "context": "\\epsfxsize=0.8\\hsize \\epsfbox{deblok.fig13.ps}\n\\figcaption[fig13.ps]{Histograms of the maximum disk \\MLstar\\ values. The top panel\nrefers to bulge-less galaxies from the collection of Broeils (1992)\nbrighter than $M_B = -16.5$. The middle panel refers to dwarf galaxies\nbrighter than $M_B = -16.5$ from Swaters (1999) with quality index 0\nor 1 (very good to good). The bottom panel shows Sample I. Also\nindicated are the values for \\MLstar\\ using population synthesis\nmodels by Bell \\& de Jong (2001) assuming a simple Salpeter IMF.\n\\label{mlhisto}}"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1436,
+          "text": "\\figcaption[fig14.ps]{Correlations between maximum disk surface density $\\sigma $[$M_{\\odot}$ pc$^{-2}$], ",
+          "context": "\n\\begin{figure} \n\\begin{center} \n\\epsfxsize=0.8\\hsize \\epsfbox{deblok.fig14.ps}\n\\figcaption[fig14.ps]{Correlations between maximum disk surface density $\\sigma $[$M_{\\odot}$ pc$^{-2}$], \nsurface brightness $\\mu_0 $[$B$-mag arcsec$^{-2}$], maximum disk\n\\MLstar(B) [$M_{\\odot}/L_{\\odot,B}$], maximum observed rotation\nvelocity $V_{\\rm max}$ [km s$^{-1}$] and luminosity $M_B$ [mag].  Included\nare again the bulge-less bright HSB galaxies from Broeils (1992) and"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1440,
+          "text": "are again the bulge-less bright HSB galaxies from Broeils (1992) and",
+          "context": "\\figcaption[fig14.ps]{Correlations between maximum disk surface density $\\sigma $[$M_{\\odot}$ pc$^{-2}$], \nsurface brightness $\\mu_0 $[$B$-mag arcsec$^{-2}$], maximum disk\n\\MLstar(B) [$M_{\\odot}/L_{\\odot,B}$], maximum observed rotation\nvelocity $V_{\\rm max}$ [km s$^{-1}$] and luminosity $M_B$ [mag].  Included\nare again the bulge-less bright HSB galaxies from Broeils (1992) and\nthe high-quality curves of bright dwarfs from Swaters (1999), as\ndescribed in the previous figure caption.  Black circles: $\\mu_0(B) <\n21.9$ mag arcsec$^{-2}$; open circles: $21.9 \\leq \\mu_0(B)\n\\leq 23.2$; stars: $\\mu_0(B) > 23.2$ mag arcsec$^{-2}$."
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1441,
+          "text": "the high-quality curves of bright dwarfs from Swaters (1999), as",
+          "context": "surface brightness $\\mu_0 $[$B$-mag arcsec$^{-2}$], maximum disk\n\\MLstar(B) [$M_{\\odot}/L_{\\odot,B}$], maximum observed rotation\nvelocity $V_{\\rm max}$ [km s$^{-1}$] and luminosity $M_B$ [mag].  Included\nare again the bulge-less bright HSB galaxies from Broeils (1992) and\nthe high-quality curves of bright dwarfs from Swaters (1999), as\ndescribed in the previous figure caption.  Black circles: $\\mu_0(B) <\n21.9$ mag arcsec$^{-2}$; open circles: $21.9 \\leq \\mu_0(B)\n\\leq 23.2$; stars: $\\mu_0(B) > 23.2$ mag arcsec$^{-2}$.\nThe inset panel in the lower-right corner shows the product"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1442,
+          "text": "described in the previous figure caption.  Black circles: $\\mu_0(B) <",
+          "context": "\\MLstar(B) [$M_{\\odot}/L_{\\odot,B}$], maximum observed rotation\nvelocity $V_{\\rm max}$ [km s$^{-1}$] and luminosity $M_B$ [mag].  Included\nare again the bulge-less bright HSB galaxies from Broeils (1992) and\nthe high-quality curves of bright dwarfs from Swaters (1999), as\ndescribed in the previous figure caption.  Black circles: $\\mu_0(B) <\n21.9$ mag arcsec$^{-2}$; open circles: $21.9 \\leq \\mu_0(B)\n\\leq 23.2$; stars: $\\mu_0(B) > 23.2$ mag arcsec$^{-2}$.\nThe inset panel in the lower-right corner shows the product\n$\\Sigma_0(\\Upsilon_*)^2$, where $\\Sigma_0$ is the central surface"
+        },
+        {
+          "file": "deblok.tex",
+          "line": 1488,
+          "text": "Photometric and distance data from de Blok \\& McGaugh (1997). $R_{\\rm max}$, $V_{\\rm max}$ and $V_{\\rm sys}$ derived from new optical curves.}",
+          "context": "  23.4 & 8.1 &  -20.3 &   62& 204 & 6371 & 36 \n\\enddata\n\\tablecomments{(2) Distance computed assuming Hubble flow after correction for\ngalactic rotation and Virgocentric flow. (6) Maximum radius of rotation curve. (7) Maximum velocity in rotation curve. (8) Heliocentric systemic velocity.\nPhotometric and distance data from de Blok \\& McGaugh (1997). $R_{\\rm max}$, $V_{\\rm max}$ and $V_{\\rm sys}$ derived from new optical curves.}\n\\tablenotetext{a}{Converted from $R$-band assuming $B-R = 0.9$.}\n\\end{deluxetable}\n\n\\begin{deluxetable}{lrrrrrr}"
+        }
+      ],
+      "priority_role_counts": {
+        "calibration": 4,
+        "blind": 1
+      }
+    },
+    {
+      "ref_id": "dB02",
+      "citation": "de Blok & Bosma 2002 A&A 385 816",
+      "arxiv": "https://export.arxiv.org/e-print/astro-ph/0201276",
+      "arxiv_bytes": 371117,
+      "n_files": 31,
+      "data_like_files": [],
+      "vector_files": [
+        {
+          "name": "blurb.ps",
+          "bytes": 2915,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "bosmacomp.ps",
+          "bytes": 36051,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "bosmacomprev.ps",
+          "bytes": 43386,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "comparechi2.ps",
+          "bytes": 24266,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "comparechi2short.ps",
+          "bytes": 15818,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "csumm.ps",
+          "bytes": 65304,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "nfwmodelcurve.ps",
+          "bytes": 27672,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "nfwmodelcurvec04.ps",
+          "bytes": 39612,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "nfwmodelcurvec09.ps",
+          "bytes": 39852,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "nfwmodelcurvec20.ps",
+          "bytes": 38927,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "rho_alpha_min_feb01.ps",
+          "bytes": 197409,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "rho_compareswaters_feb01.ps",
+          "bytes": 175636,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "rho_swaters.ps",
+          "bytes": 11520,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "slope_radius_con_feb01.ps",
+          "bytes": 11185,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        },
+        {
+          "name": "slope_radius_min_feb01.ps",
+          "bytes": 16530,
+          "suffix": ".ps",
+          "data_like": false,
+          "vector": true,
+          "raster": false
+        }
+      ],
+      "raster_files": [
+        {
+          "name": "fig1a.gif",
+          "bytes": 17116,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig1b.gif",
+          "bytes": 5913,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig2.gif",
+          "bytes": 7687,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig3a.gif",
+          "bytes": 20313,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig3b.gif",
+          "bytes": 12525,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig4.gif",
+          "bytes": 19859,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig5.gif",
+          "bytes": 17978,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig7.gif",
+          "bytes": 20333,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig8a.gif",
+          "bytes": 15123,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig8b.gif",
+          "bytes": 16754,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig8c.gif",
+          "bytes": 16105,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig8d.gif",
+          "bytes": 15805,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig8e.gif",
+          "bytes": 8337,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        },
+        {
+          "name": "fig8f.gif",
+          "bytes": 8361,
+          "suffix": ".gif",
+          "data_like": false,
+          "vector": false,
+          "raster": true
+        }
+      ],
+      "vector_structure": [
+        {
+          "name": "blurb.ps",
+          "bytes": 2915,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 2,
+          "lineto_tokens": 1,
+          "curveto_tokens": 0,
+          "stroke_tokens": 1
+        },
+        {
+          "name": "bosmacomp.ps",
+          "bytes": 36051,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "bosmacomprev.ps",
+          "bytes": 43386,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "comparechi2.ps",
+          "bytes": 24266,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "comparechi2short.ps",
+          "bytes": 15818,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "csumm.ps",
+          "bytes": 65304,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 25,
+          "lineto_tokens": 13,
+          "curveto_tokens": 0,
+          "stroke_tokens": 13
+        },
+        {
+          "name": "nfwmodelcurve.ps",
+          "bytes": 27672,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 7,
+          "lineto_tokens": 4,
+          "curveto_tokens": 0,
+          "stroke_tokens": 4
+        },
+        {
+          "name": "nfwmodelcurvec04.ps",
+          "bytes": 39612,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 23,
+          "lineto_tokens": 12,
+          "curveto_tokens": 0,
+          "stroke_tokens": 12
+        },
+        {
+          "name": "nfwmodelcurvec09.ps",
+          "bytes": 39852,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 23,
+          "lineto_tokens": 12,
+          "curveto_tokens": 0,
+          "stroke_tokens": 12
+        },
+        {
+          "name": "nfwmodelcurvec20.ps",
+          "bytes": 38927,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 23,
+          "lineto_tokens": 12,
+          "curveto_tokens": 0,
+          "stroke_tokens": 12
+        },
+        {
+          "name": "rho_alpha_min_feb01.ps",
+          "bytes": 197409,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 215,
+          "lineto_tokens": 108,
+          "curveto_tokens": 0,
+          "stroke_tokens": 108
+        },
+        {
+          "name": "rho_compareswaters_feb01.ps",
+          "bytes": 175636,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 157,
+          "lineto_tokens": 79,
+          "curveto_tokens": 0,
+          "stroke_tokens": 79
+        },
+        {
+          "name": "rho_swaters.ps",
+          "bytes": 11520,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 29,
+          "lineto_tokens": 15,
+          "curveto_tokens": 0,
+          "stroke_tokens": 15
+        },
+        {
+          "name": "slope_radius_con_feb01.ps",
+          "bytes": 11185,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 29,
+          "lineto_tokens": 15,
+          "curveto_tokens": 0,
+          "stroke_tokens": 15
+        },
+        {
+          "name": "slope_radius_min_feb01.ps",
+          "bytes": 16530,
+          "image_ops": 0,
+          "colorimage_ops": 0,
+          "imagemask_ops": 0,
+          "moveto_tokens": 21,
+          "lineto_tokens": 11,
+          "curveto_tokens": 0,
+          "stroke_tokens": 11
+        }
+      ],
+      "target_text_hits": {
+        "DDO064": [
+          {
+            "file": "lsbohp7b.tex",
+            "line": 248,
+            "text": "U5272&  DDO64&6.1  &--14.7\\rlap{$^a$}&--  &1.2&60& 2.7& 47 &520 & 525 &97  &1.8&Feb01&(6)\\\\",
+            "context": "U5005  & ---&  52  & --18.6   & 22.9 & 4.4 & 41 & 27.7 & 99  & 3830 & 3844& 226 &5.4&Jan00 &(2)(4)\\\\\nU5750  & ---&  56  & --19.5   & 22.6 & 5.6 & 64 & 21.8 & 79  & 4169 & 4168& 167 & 1.8&Jan00 &(2)(4)\\\\\n\\hline\nU3851 & N2366&  3.4&--16.9   &22.6&1.5&59& 5.4 & 55 &102 & 104&42  &1.8&Feb01&(5)\\\\\n%      & N2366&     &&&&& & &&&&\\\\\nU3974&  DDO47&4\\rlap{$^b$}    &--14.9\\rlap{$^a$}&--  &1.0&30& 3.2 & 67 &282 & 274 &319 &5.4&Feb01&(6)\\\\\nU4278&  I2233& 10.5&--17.7   &22.5&2.3&90& 7.4 & 93 &556 & 559 &173 & 1.8&Feb01&(5)\\\\\nU4426&  DDO52&5.3  &--13.8\\rlap{$^a$}&--  &0.6&60& 3.1 & 50 &382\\rlap{:} & 395 &185&1.8&Feb01&(6)\\\\\nU5272&  DDO64&6.1  &--14.7\\rlap{$^a$}&--  &1.2&60& 2.7& 47 &520 & 525 &97  &1.8&Feb01&(6)\\\\\nU5721&  N3274&6.7  &--16.7   &20.2&0.5&61& 7.3 &79 &542 & 542 &279 &1.8&Feb01&(5)\\\\\nU7524&  N4395&3.5  &--18.1   &22.2&2.3&46& 7.9 &83 &319 & 320 &327 &1.8&Feb01&(5)\\\\\nU7603&  N4455&6.8  &--16.9   &20.8&0.7&78& 5.9& 64&655 & 644  &197 &1.8&Feb01&(5)\\\\\nU8286&  N5023&4.8  &--17.2   &20.9&0.8&90& 5.9 &84 &403& 407& 208 &1.8&Feb01&(5)\\\\\nU8837&  DDO185&5.1 &--15.7   &23.2&1.2&80& 2.1 & 50 &148& 135 & 22  &1.8&Feb01&(5)\\\\\nU9211&  DDO189&12.6&--16.2   &22.6&1.2&44& 8.3 & 64 &685& 686 & 287 &5.4&Feb01&(5)\\\\\nU10310& Arp 2&15.6 &--17.9   &22.0&1.9&34& 9.0& 75&720 & 718 &202 &1.8&Feb01&(5)\\\\\n"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 606,
+            "text": "{\\bf DDO64/U5272:} Good H$\\alpha$ data show that the \\HI curve suffers from",
+            "context": "\n{\\bf DDO47/U3974:} The H$\\alpha$ curve is rather poor in quality, but shows\nreasonable agreement with the \\HI curve.\n\n{\\bf DDO52/U4426:} Rather poor H$\\alpha$ data but a reasonable match with the\n\\HI\\ curve, except in the outer parts, where beam smearing effects presumable\ncause a small discrepancy.\n\n{\\bf DDO64/U5272:} Good H$\\alpha$ data show that the \\HI curve suffers from\nslight beam smearing effects. Non-circular motions presumably cause the\ndifference between approaching and receding sides at $r\\sim 30\\arcsec$.\n\n{\\bf DDO185/U8837:} The H$\\alpha$ data are of good quality, but do not\ncorrespond very well with the \\HI position-velocity overlay nor the\n\\HI curve. The most likely explanation is non-circular motions in\nespecially the approaching side, where the DSS image shows what is\nlikely a large star formation complex. The receding side does show a"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 699,
+            "text": "U1230   & 90  &DDO64    &80\\\\",
+            "context": "\\begin{tabular}{lrlr}\n\\hline\nName & $r_{{\\rm H}\\alpha} (\\arcsec)$&Name & $r_{{\\rm H}\\alpha} (\\arcsec)$  \\\\\n\\hline\nF563-1  & 60     &N1560   & 200\\\\\nU628    &---$^a$&IC2233 &---$^b$\\\\\nU711    &---$^a$&N2366  &200\\\\\nU731    & 40    &N3274  &70\\\\\nU1230   & 90  &DDO64    &80\\\\\nU1281   & 115 &DDO52    &80\\\\\nU3137   & 88  &DDO47    &100\\\\  \nU3371   & 104 &DDO185   &---$^b$\\\\\nU4173   & 10   &DDO189  &60\\\\\nU4325   & ---$^b$&N5023 &180\\\\\nU5005   & 65  &N4455    &100\\\\\nU5750   & 39  &N4395    &250\\\\\nN100    &---$^a$&U10310 &70\\\\"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 788,
+            "text": "\\citet{Broeils}.  For DDO47 and DDO64 we used the radial surface",
+            "context": "In order to find the signature of the dark matter halo one needs to\ndecompose the observed rotation curve in a number of separate\ndynamical components, described below.\n\n\\subsection{Stellar and gas components} For the stellar disk the $R$-band\nphotometry presented in \\citet{Blok95} and \\citet{Sw1999} (see also\n\\citealt{Sw2002opt}) was used.  For NGC 1560 we used the $B$-band\nphotometry presented in\n\\citet{Broeils}.  For DDO47 and DDO64 we used the radial surface\nbrightness profiles from \\citet{Stil}. These profiles are presented\nas relative to the sky-level without absolute calibration and we\ntherefore used the surface photometry presented in \\citet{Hopp}\nand \\citet{Makarova} to put the profiles on an absolute $R$-band surface\nbrightness scale. (Since the Stil photometry is in the $I$-band, this assumes\nthat there are no strong $R-I$ gradients.)\nSee Table 1 for more details. \n"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 975,
+            "text": "DDO64&\\emph{0.1}& -  &\\emph{1182.3}&   -  & 0.838 & 0.539&& -        & -  &   -         &  -  & -    &-    & \\\\",
+            "context": "U4173&\\emph{0.1}& -  &\\emph{319.6} &   -  & 0.058 & 1.000&&  2.0     & 0.7&  74.4       & 17.4& 0.116&0.999& \\\\\nU4325&\\emph{0.1}& -  &\\emph{3331.6}&   -  & 1.330 & 0.132&&\\emph{0.1}& -  &\\emph{3203.9}&  -  & 1.132&0.257& \\\\\nN1560&  5.3     & 0.5& 106.1       &   8.8& 2.969 & 0.000&&  5.4     & 0.5&  92.9       &  7.3& 2.630&0.000& \\\\\nU3371&\\emph{0.1}& -  &\\emph{875.6} &   -  & 0.287 & 0.996&&\\emph{0.1}& -  &\\emph{814.7} &  -  & 0.273&0.997& \\\\\nU628 & 12.9     & 1.2& 101.2       &   5.7& 0.347 & 0.912&& 12.9     & 1.2& 101.2       &  5.7& 0.346&0.912& \\\\\nDDO185&\\emph{0.1}& - &\\emph{784.5} &   -  & 2.677 & 0.005&&\\emph{0.1}& -  &\\emph{651.1} &  -  & 2.326&0.012& \\\\\nDDO189& 9.9     & 1.3& 59.2408     &   4.3& 0.171 & 0.997&& 11.0     &1.2 &  50.6    &2.8  & 0.119   &0.999&\\\\ \nDDO47&\\emph{0.1}& -  &\\emph{1332.5}&   -  & 0.320 & 0.897&&\\emph{0.1}& -  &\\emph{1248.2}&  -  & 0.250&0.941& \\\\\nDDO64&\\emph{0.1}& -  &\\emph{1182.3}&   -  & 0.838 & 0.539&& -        & -  &   -         &  -  & -    &-    & \\\\\nN2366& 11.2     & 2.4& 50.8487     &   7.5& 2.154 & 0.001&& 12.8     & 2.8& 41.1        & 5.8 & 2.240&0.000& \\\\\nN3274& 30.4     & 2.1& 49.6296     &   1.6& 0.894 & 0.600&&  31.0    & 2.2& 47.7        & 1.5 & 0.830&0.685&\\\\ \nN4395& 12.1     & 0.9& 69.7218     &   3.8& 0.762 & 0.898&&  13.2    & 1.0& 63.3        & 3.2 & 0.733&0.927&\\\\ \nN4455& 5.2      & 1.0&  99.7369    &  19.3& 0.452 & 0.976&&  5.4     & 1.0& 86.8        & 14.7& 0.393&0.990&\\\\ \nK124 &  0.2     & 6.0& 661.1       &4320.4& 1.668 & 0.034&&   - & -  & -    &  -  & -    &-& \\\\\nN100 &  8.3     & 1.2& 104.7       &  13.2& 0.939 & 0.018&&   - & -  & -    &  -  & -    &-& \\\\\nU1281&\\emph{0.1}& -  & \\emph{785.0}&   -  & 1.376 & 0.080&&   - & -  & -    &  -  & -    &-& \\\\\nU3137& 10.0     & 0.8& 88.2        &   2.6& 2.188 & 0.000&&   - & -  & -    &  -  & -    &-& \\\\"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 1006,
+            "text": "DDO64&\\emph{0.1}&  - &\\emph{966.0} &   -  & 0.770&0.615&& \\emph{0.1}& -  &\\emph{562.1} &   -  & 0.739&0.651&  4.1\\\\",
+            "context": "U4173&\\emph{0.1}& -  &\\emph{176.2} &   -  & 0.129&1.000&& \\emph{0.1}& -  & \\emph{128.9}&   -  & 0.236&0.993&  2.4\\\\\nU4325&\\emph{0.1}& -  &\\emph{2655.1}&   -  & 1.157&0.237&& \\emph{0.1}& -  &\\emph{1724.1}&   -  & 1.225&0.172&  4.6\\\\\nN1560&  1.8     & 1.0& 218.9       & 105.2& 2.243&0.000&& \\emph{0.1}& -  & \\emph{520.6}&   -  & 8.859&0.000&  4.9\\\\\nU3371&\\emph{0.1}& -  &\\emph{735.3} &   -  & 0.278&0.997&& \\emph{0.1}& -  & \\emph{533.1}&   -  & 0.391&0.980&  5.0\\\\\nU628 & 12.0     & 1.3& 97.2        &   6.3& 0.341&0.915&& \\emph{0.1}& -  & \\emph{273.5}&   -  & 0.619&0.689&  9.8\\\\\nDDO185&\\emph{0.1}& - &\\emph{575.0} &   -  & 2.269&0.014&& \\emph{0.1}& -  & \\emph{382.9}&   -  & 2.137&0.021&  5.0\\\\\nDDO189& 9.6     &1.1 & 52.3        &  3.3 & 0.099&1.000&& 1.5       & 3.0& 148.6       & 220.0& 0.156&0.998&  8.3\\\\\nDDO47&\\emph{0.1}&  - &\\emph{1178.0}&   -  & 0.307&0.905&& \\emph{0.1}& -  &\\emph{1029.8}&   -  & 0.455&0.785&  4.4\\\\\nDDO64&\\emph{0.1}&  - &\\emph{966.0} &   -  & 0.770&0.615&& \\emph{0.1}& -  &\\emph{562.1} &   -  & 0.739&0.651&  4.1\\\\\nN2366& 11.9     & 3.0& 36.4        & 5.8  & 1.932&0.003&& 8.6       & 7.3& 14.9        & 7.0  & 1.245&0.181&  5.4\\\\   \nN3274& 23.7     & 2.1& 50.4        & 2.2  & 0.928&0.554&& 12.6      & 2.6& 61.8        & 7.7  & 1.804&0.013&  3.9\\\\\nN4395& 12.6     & 1.1& 58.0        & 3.1  & 0.646&0.979&& 11.9      & 1.2& 50.8        & 3.1  & 0.577&0.994&  3.0\\\\  \nN4455&\\emph{0.1}& -  &\\emph{708.3} & 32.1 & 0.630&0.849&& \\emph{0.1}& -  & \\emph{602.4}&  -   & 1.495&0.056&  2.3\\\\\n\\hline\n\\end{tabular}\n\\end{center}\n\\end{minipage}"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 1043,
+            "text": "DDO64& 1.2& 0.2&  72.7& 11.9& 0.423&0.955&& 1.2& 0.2&  72.7& 11.9& 0.423&0.955&\\\\",
+            "context": "U4173& 3.5& 0.2&   7.3&  0.7& 0.066&1.000&& 2.6& 0.2&   7.9&  0.8& 0.041&1.000&\\\\\nU4325& 2.7& 0.1& 100.1&  2.1& 0.017&1.000&& 2.5& 0.1& 100.6&  2.0& 0.015&1.000&\\\\\nN1560& 1.6& 0.1&  57.1&  4.3& 4.343&0.000&& 1.5& 0.1&  54.6&  4.8& 4.306&0.000&\\\\\nU3371& 3.7& 0.1&  18.0&  0.3& 0.003&1.000&& 3.3& 0.1&  19.2&  0.6& 0.009&1.000&\\\\\nU628 & 1.5& 0.2& 151.9& 27.8& 0.392&0.883&& 1.5& 0.2& 151.9& 27.8& 0.392&0.883&\\\\\nDDO185&$\\infty$&-&22.4&  2.0& 0.669&0.672&&$\\infty$&-& 20.7&  2.5& 1.020&0.372&\\\\\nDDO189&1.0& 0.1&  97.9& 11.3& 0.064&1.000&& 0.8& 0.1& 115.0& 13.7& 0.053&1.000&\\\\ \nDDO47& 2.1& 0.5&  47.5& 10.2& 0.205&0.975&& 1.9& 0.4&  48.4& 10.4& 0.173&0.984&\\\\\nDDO64& 1.2& 0.2&  72.7& 11.9& 0.423&0.955&& 1.2& 0.2&  72.7& 11.9& 0.423&0.955&\\\\\nN2366& 0.7& 0.1& 147.3& 26.4& 1.043&0.402&& 0.6& 0.1& 154.7& 37.2& 1.316&0.129&\\\\\nN3274& 0.3& 0.1&1259.4&255.6& 0.918&0.565&& 0.3& 0.1&1340.2&290.2& 0.906&0.582&\\\\\nN4395& 0.9& 0.1& 175.6& 18.9& 0.601&0.991&& 0.8& 0.1& 202.0& 21.8& 0.513&0.999&\\\\\nN4455& 1.3& 0.1&  63.2&  5.1& 0.299&0.998&& 1.2& 0.1&  61.0&  5.4& 0.283&0.999&\\\\\nK124 & 4.4& 0.2&  13.5&  0.8& 0.236&1.000&& -  & -  & -    & -   & -&-\\\\\nN100 & 1.4& 0.1& 105.3&  4.1& 0.106&0.688&& -  & -  & -    & -   & -&- \\\\\nU1281& 2.2& 0.1&  28.0&  1.7& 0.169&1.000&& -  & -  & -    & -   & -&- \\\\\nU3137& 2.0& 0.2&  61.2&  8.7& 1.491&0.278&& -  & -  & -    & -   & -&- \\\\"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 1074,
+            "text": "DDO64& 1.4& 0.3&  52.7& 10.1& 0.413&0.959&&  2.7& 1.9&  22.0& 6.5 & 0.439&0.948& 4.1\\\\",
+            "context": "U4173& 4.2& 0.6&   3.2&  0.5& 0.062&1.000&&  7.0& 2.2&   1.4&  0.4& 0.118&1.000& 2.4\\\\\nU4325& 3.2& 0.1&  72.2&  1.1& 0.006&1.000&&  9.1& 4.7&  35.2&  2.4& 0.076&1.000& 3.8\\\\\nN1560& 2.1& 0.2&  29.4&  2.9& 4.298&0.000&& 13.2& 4.2&   4.8&  0.4& 2.445&0.000& 4.9\\\\\nU3371& 3.7& 0.1&  14.7&  0.7& 0.016&1.000&&  5.9& 0.8&   6.5&  0.8& 0.080&1.000& 5.0\\\\\nU628 & 1.5& 0.2& 132.0& 29.3& 0.447&0.847&&  0.4& 0.8& 223.6&893.1& 0.946&0.460& 9.8\\\\\nDDO185&$\\infty$&-&16.9&  2.4& 1.043&0.392&&$\\infty$&-&  11.6& 2.7 & 1.321&0.257& 5.0\\\\\nDDO189&0.9& 0.1&  88.6& 10.3& 0.042&1.000&&  2.8& 0.4& 11.9 & 2.4 & 0.047&1.000& 8.3\\\\\nDDO47& 2.4& 0.7&  37.6&  7.8& 0.152&0.989&&  7.7& 9.1&  21.3& 3.5 & 0.101&0.996& 4.4\\\\\nDDO64& 1.4& 0.3&  52.7& 10.1& 0.413&0.959&&  2.7& 1.9&  22.0& 6.5 & 0.439&0.948& 4.1\\\\\nN2366& 0.6& 0.1& 126.0& 37.5& 1.258&0.171&&  0.5& 0.4& 35.5 & 46.5& 1.165&0.256& 5.4\\\\\nN3274& 0.4& 0.1& 585.3&120.7& 0.787&0.738&&  1.0& 0.2& 132.0& 33.2& 1.064&0.376& 4.0\\\\\nN4395& 0.8& 0.1& 184.2& 23.2& 0.478&1.000&&  0.7& 0.1& 167.1& 27.0& 0.454&1.000& 3.0\\\\\nN4455& 2.4& 0.2&  22.6&  2.0& 0.225&1.000&&  4.0& 0.7& 12.4 & 1.7 & 0.400&0.988& 2.3\\\\   \n\\hline\n\\end{tabular}\n\\end{center}\n\\end{minipage}"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 1174,
+            "text": "{\\bf DDO64:} This curve shows a bump in the inner parts, that is very",
+            "context": "{\\bf DDO185:} This is a very linear curve that is reasonably fitted by\npseudo-isothermal models, but poorly by NFW models. The curve is\nhowever only of average quality, and better observations are needed to\nconstrain the models further.\n\n{\\bf DDO189:} This curve is equally well fitted by pseudo-isothermal\nand NFW models.\n\n{\\bf DDO64:} This curve shows a bump in the inner parts, that is very\nwell fitted by the stellar disk in the maximum disk model, perhaps\nindicating that the inner part of this galaxy is dominated by\nstars. Similar bumps have been found in other highly resolved\nobservations of dwarf galaxies \\citep[e.g.][]{Blais}.\nThe pseudo-isothermal model is a better fit.\n\n{\\bf N2366:} This curve is a challenge for both ISO and NFW\nmodels. The very linear rise in the inner parts rapidly changes in a"
+          },
+          {
+            "file": "lsbohp7b.tex",
+            "line": 1659,
+            "text": "DDO64 & --0.21& 0.11 &   0.09& --0.16 &0.58 \\\\",
+            "context": "N2366&   0.24& 0.13 &   0.09&  0.45 &0.45 \\\\\nN4395&  --0.40& 0.07 &   0.05& --0.52 &0.02 \\\\\nN3274&  --0.90& 0.13 &   0.10& --0.67 &0.17 \\\\\nN4455&  --0.57& 0.21 &   0.10& --0.70 &0.25 \\\\\nU10310&  0.10& 0.36 &   0.22& -- & -- \\\\ \nN5023 & --0.39& 0.14 &   0.07& -- & -- \\\\ \nIC2233& --0.20& 0.22 &   0.15& -- & -- \\\\ \nDDO52 &  0.34& 0.50 &   0.14& -- & -- \\\\ \nDDO64 & --0.21& 0.11 &   0.09& --0.16 &0.58 \\\\\nDDO47&  --0.42& 0.25 &   0.27& --0.28 &0.30 \\\\\nDDO185& --0.18& 0.29 &   0.07& --0.23 &0.61 \\\\\nDDO189& --0.82& 0.05 &   0.46& --0.87 &0.35\\\\\n\\hline\n\\end{tabular}\n\\end{center}\n\\end{table}\n"
+          }
+        ],
+        "NGC0100": [
+          {
+            "file": "lsbohp7b.tex",
+            "line": 194,
+            "text": "well-known nearby dwarf galaxies (NGC 1560 and NGC 100) and a galaxy",
+            "context": "\\subsection{Sample selection}\n\nWe constructed a sample of galaxies to observe in H$\\alpha$ from lists\nof LSB galaxies already observed in the 21-cm \\HI line by\n\\citet*{Hulst} and\n\\citet*{Blok96}. A representative sample of nearby dwarf galaxies from\nthe theses of \\citet*{Sw1999} and \\citet*{Stil} was also included (see\nalso \\citealt{Sw2002opt,Sw2002hi}). The sample was supplemented by two\nwell-known nearby dwarf galaxies (NGC 1560 and NGC 100) and a galaxy\n(UGC 711) from the Flat Galaxy Catalog\n\\citep{fgc}.  \\HI velocity fields were  available for all galaxies \n(except U711 and N100).\nSince we observed with a long-slit spectrograph, we determined for\neach galaxy the position angle of the major axis of the velocity\nfield, using the position angle of the major axis of the light\ndistribution as an additional check.  For U711 and N100 we only used\nthe position angle of the light distribution: since these are edge-on"
+          }
+        ],
+        "UGC01281": [],
+        "UGC04278": [],
+        "UGC05005": []
+      },
+      "n_targets_named": 2,
+      "source_provenance_hits": [
+        {
+          "file": "lsbohp7b.tex",
+          "line": 61,
+          "text": "\\author{W.J.G. de Blok\\inst{1} \\and A. Bosma\\inst{2}}",
+          "context": "\n\\title{High-resolution rotation curves of Low Surface\nBrightness galaxies\\thanks{based on observations at the\nObservatoire de Haute Provence}}\n\\author{W.J.G. de Blok\\inst{1} \\and A. Bosma\\inst{2}}\n\\institute{ATNF, CSIRO, P.O. Box 76, Epping NSW 1710, Australia \\and\n         Observatoire de Marseille,\n        2 Place Le Verrier,\n        F-13248 Marseille Cedex 4, France}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 79,
+          "text": "\\authorrunning{de Blok \\& Bosma}",
+          "context": "inconsistent with the observed curves. The latter indicate a\ncore-dominated structure, rather than the theoretically preferred\ncuspy structure.}\n\n\\authorrunning{de Blok \\& Bosma}\n\\titlerunning{LSB galaxy rotation curves}\n\n\\maketitle\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 115,
+          "text": "Early work on LSB galaxies used 21-cm \\HI line work to determine the",
+          "context": "present and in the past indicate that star formation in such galaxies\nmight never have been important enough to modify their structure\ndrastically.\n\nEarly work on LSB galaxies used 21-cm \\HI line work to determine the\nrotation curves \\citep[e.g.][]{Hulst,Blok96}, and as such the results\nare likely to suffer from modest angular resolution effects (commonly\ncalled beam smearing).  Even though these can be partly modelled,\nexperience shows that direct measurements are preferable (cf.\\"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 124,
+          "text": "has sprung up to combine optical and 21-cm line rotation curves of all",
+          "context": "discussions in \\citealt{B78,KGB}); in particular, supplementary data\nin the optical emission lines, such as H$\\alpha$ and [N{\\sc ii}] are\nalways useful\n\\citep[cf.][]{vdK+B, Rub89, Corradi, Sw2000}. Thus a whole industry\nhas sprung up to combine optical and 21-cm line rotation curves of all\nsorts of gas rich galaxies.\n\nFor the particular problem of the dark matter distribution in LSB\ngalaxies \\citet*{Sw2000} presented supplementary H$\\alpha$ data for five"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 134,
+          "text": "and concluded that the discrepancy between H$\\alpha$ and \\HI data is",
+          "context": "concluded that the influence of beam smearing on the \\HI curves was\nsevere enough to question earlier conclusions regarding dark matter\ncontent and rotation curve shape of LSB galaxies. \n\\citet{MRdB} and  \\citet*{dBMR} (hereafter dBMR) reanalysed these data,\nand concluded that the discrepancy between H$\\alpha$ and \\HI data is\nonly really significant for one of these five galaxies. Conclusions\nregarding the dark matter content and the shape of the dark matter\ndistribution in LSB galaxies are thus not affected.\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 157,
+          "text": "constructing these mass models.",
+          "context": "can be made to fit the data.  The higher-resolution data presented in\n\\citet*{dBMBR} now seem to have settled the observational side of the\ndebate in favour of core-dominated LSB galaxy halos.  These results\nare independent of the stellar mass-to-light ratios one assumes in\nconstructing these mass models.\n\nIt would therefore seem that current models of structure formation and\ngalaxy evolution need to take into account the fact that most\nlate-type galaxies have a constant density dark matter \\emph{core}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 178,
+          "text": "final rotation curves.  The mass models are then presented in Section",
+          "context": "\nThis paper is organised as follows: we describe our data in Section 2,\nand present the rotation curves in Section 3. Section 4 describes\nindividual galaxies. In Section 5 we describe the derivation of the\nfinal rotation curves.  The mass models are then presented in Section\n6. In Section 7 we discuss these models. Section 8 digresses into the\nconsequences that systematic observational effects may or may not\nhave on the data. In Section 9 we discuss the mass densities profiles\ninferred from the rotation curves. Section 10 summarises the paper."
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 189,
+          "text": "of LSB galaxies already observed in the 21-cm \\HI line by",
+          "context": "\n\\subsection{Sample selection}\n\nWe constructed a sample of galaxies to observe in H$\\alpha$ from lists\nof LSB galaxies already observed in the 21-cm \\HI line by\n\\citet*{Hulst} and\n\\citet*{Blok96}. A representative sample of nearby dwarf galaxies from\nthe theses of \\citet*{Sw1999} and \\citet*{Stil} was also included (see\nalso \\citealt{Sw2002opt,Sw2002hi}). The sample was supplemented by two"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 206,
+          "text": "obtain useful, high S/N data that will be used in our mass modelling.",
+          "context": "the position angle of the light distribution: since these are edge-on\ngalaxies these angles are well determined.\n\nTable 1 lists parameters of these galaxies for which we managed to\nobtain useful, high S/N data that will be used in our mass modelling.\nThe last column in Table 1 gives references to the data presented in\nTable 1 not derived in this paper. Images and surface brightness\nprofiles can also be found in these references. See also Sect.~2.4. \nTable 2 gives a brief"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 207,
+          "text": "The last column in Table 1 gives references to the data presented in",
+          "context": "galaxies these angles are well determined.\n\nTable 1 lists parameters of these galaxies for which we managed to\nobtain useful, high S/N data that will be used in our mass modelling.\nThe last column in Table 1 gives references to the data presented in\nTable 1 not derived in this paper. Images and surface brightness\nprofiles can also be found in these references. See also Sect.~2.4. \nTable 2 gives a brief\nsummary of those galaxies that we did observe, but which for various"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 209,
+          "text": "profiles can also be found in these references. See also Sect.~2.4. ",
+          "context": "Table 1 lists parameters of these galaxies for which we managed to\nobtain useful, high S/N data that will be used in our mass modelling.\nThe last column in Table 1 gives references to the data presented in\nTable 1 not derived in this paper. Images and surface brightness\nprofiles can also be found in these references. See also Sect.~2.4. \nTable 2 gives a brief\nsummary of those galaxies that we did observe, but which for various\nreasons were deemed to be of insufficient quality to warrant mass\nmodelling. Our main sample therefore consists of the galaxies listed"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 271,
+          "text": "{\\bf (11)} Systemic velocity derived from \\HI data [\\kms] {\\bf (12)}",
+          "context": "$R$-band, corrected for Galactic extinction and inclination [mag\narcsec$^{-2}$] {\\bf (6)} Scale length [kpc] {\\bf (7)} Inclination\n[$^{\\circ}$] {\\bf (8)} Maximum radius rotation curve [kpc] {\\bf (9)}\nMaximum rotation velocity [\\kms] {\\bf (10)} Systemic velocity [\\kms]\n{\\bf (11)} Systemic velocity derived from \\HI data [\\kms] {\\bf (12)}\nPosition angle slit [$^{\\circ}$] {\\bf (13)} Binning interval rotation\ncurve [arcsec] {\\bf (14)} Observing run {\\bf (15)} References: (1)\n\\citet*{Blok96} (2) \\citet*{Blok95} (3) \\citet*{Broeils} (4)\n\\citet*{Hulst} (5) \\citet*{Sw1999} (6) \\citet*{Stil}. {\\bf Notes:}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 273,
+          "text": "curve [arcsec] {\\bf (14)} Observing run {\\bf (15)} References: (1)",
+          "context": "[$^{\\circ}$] {\\bf (8)} Maximum radius rotation curve [kpc] {\\bf (9)}\nMaximum rotation velocity [\\kms] {\\bf (10)} Systemic velocity [\\kms]\n{\\bf (11)} Systemic velocity derived from \\HI data [\\kms] {\\bf (12)}\nPosition angle slit [$^{\\circ}$] {\\bf (13)} Binning interval rotation\ncurve [arcsec] {\\bf (14)} Observing run {\\bf (15)} References: (1)\n\\citet*{Blok96} (2) \\citet*{Blok95} (3) \\citet*{Broeils} (4)\n\\citet*{Hulst} (5) \\citet*{Sw1999} (6) \\citet*{Stil}. {\\bf Notes:}\n$(a)$ $B$-band data. $(b)$: distance from \\citet*{Walter}\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 274,
+          "text": "\\citet*{Blok96} (2) \\citet*{Blok95} (3) \\citet*{Broeils} (4)",
+          "context": "Maximum rotation velocity [\\kms] {\\bf (10)} Systemic velocity [\\kms]\n{\\bf (11)} Systemic velocity derived from \\HI data [\\kms] {\\bf (12)}\nPosition angle slit [$^{\\circ}$] {\\bf (13)} Binning interval rotation\ncurve [arcsec] {\\bf (14)} Observing run {\\bf (15)} References: (1)\n\\citet*{Blok96} (2) \\citet*{Blok95} (3) \\citet*{Broeils} (4)\n\\citet*{Hulst} (5) \\citet*{Sw1999} (6) \\citet*{Stil}. {\\bf Notes:}\n$(a)$ $B$-band data. $(b)$: distance from \\citet*{Walter}\n\n\\end{minipage}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 354,
+          "text": "Since our aim is to make mass models of our galaxies, we collected",
+          "context": "averaged every 9 pixels (5.4\\arcsec) as indicated in Table~1.\n\n\\subsection{Data collected from the literature}\n\nSince our aim is to make mass models of our galaxies, we collected\nsupplementary data from the literature, basically optical surface\nphotometry and \\HI data. The references are listed in the notes to\nTable~1 (see also \\citealt{Sw2002opt,Sw2002hi}).  For 22 out of the 26\ngalaxies studied here optical $R$-band ($B$-band where noted in"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 356,
+          "text": "photometry and \\HI data. The references are listed in the notes to",
+          "context": "\\subsection{Data collected from the literature}\n\nSince our aim is to make mass models of our galaxies, we collected\nsupplementary data from the literature, basically optical surface\nphotometry and \\HI data. The references are listed in the notes to\nTable~1 (see also \\citealt{Sw2002opt,Sw2002hi}).  For 22 out of the 26\ngalaxies studied here optical $R$-band ($B$-band where noted in\nTable~1) is available, as well as \\HI imaging and \\HI and H$\\alpha$\nrotation curves. Of these 22 galaxies, 5 are (close to) edge-on and"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 368,
+          "text": "we can construct only limited mass models.",
+          "context": "\nFor U628 we only have $R$-band photometry and H$\\alpha$ velocity data.\nFor two galaxies (U711 and N100) we only have H$\\alpha$ data. For\nU10310 we only have \\HI and H$\\alpha$ data.  For these four galaxies\nwe can construct only limited mass models.\n\nGenerally we adopted the distances given in the source papers\n(corrected to $H_0 = 75$ km s$^{-1}$ Mpc$^{-1}$), except for DDO 47\nwhere we used the revised distance given in \\citet{Walter}, and for"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 381,
+          "text": "are also taken from the references listed in Table~1.  We refer to",
+          "context": "and hence applicability of any particular model does not depend on\ninclination, and thus an uncertainty of a few degrees does not affect\nour main conclusions.  \nThe scale lengths and surface brightnesses were\nare also taken from the references listed in Table~1.  We refer to\nthese papers for precise details.  Here it suffices to say that they\nwere derived using a simple straight-line fit to the exponential part\nof the profile (most of the sample galaxies are dominated by an\nexponential disk)."
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 406,
+          "text": "position-velocity diagram from the \\HI data. Such a presentation has",
+          "context": "\\end{figure*}\n\n\nFig.~3 presents overlays of the H$\\alpha$ data on a major axis\nposition-velocity diagram from the \\HI data. Such a presentation has\nthe advantage of immediately showing any discrepancies between the two\ndatasets, if they exist.  The \\HI data are taken from the literature,\nwith references given in Table~1. Also indicated is the \\HI rotation\ncurve as derived from the position-velocity diagram."
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 408,
+          "text": "datasets, if they exist.  The \\HI data are taken from the literature,",
+          "context": "\nFig.~3 presents overlays of the H$\\alpha$ data on a major axis\nposition-velocity diagram from the \\HI data. Such a presentation has\nthe advantage of immediately showing any discrepancies between the two\ndatasets, if they exist.  The \\HI data are taken from the literature,\nwith references given in Table~1. Also indicated is the \\HI rotation\ncurve as derived from the position-velocity diagram.\nThese overlays will be discussed in more detail in Sect.~4.\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 409,
+          "text": "with references given in Table~1. Also indicated is the \\HI rotation",
+          "context": "Fig.~3 presents overlays of the H$\\alpha$ data on a major axis\nposition-velocity diagram from the \\HI data. Such a presentation has\nthe advantage of immediately showing any discrepancies between the two\ndatasets, if they exist.  The \\HI data are taken from the literature,\nwith references given in Table~1. Also indicated is the \\HI rotation\ncurve as derived from the position-velocity diagram.\nThese overlays will be discussed in more detail in Sect.~4.\n\n\\begin{figure*}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 427,
+          "text": "See Table~1 for the source of the \\HI data. The H$\\alpha$ data are",
+          "context": "\\begin{center}\n\\epsfxsize=0.5\\hsize\n\\epsfbox{blurb.ps}\n\\caption{Overlay of the raw H$\\alpha$ data on \\HI position velocity diagrams. \nSee Table~1 for the source of the \\HI data. The H$\\alpha$ data are\nindicated by the black dots. The rotation curves based on \\HI data are\nindicated by a dark-grey line.}\n\\end{center}\n\\end{figure*}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 428,
+          "text": "indicated by the black dots. The rotation curves based on \\HI data are",
+          "context": "\\epsfxsize=0.5\\hsize\n\\epsfbox{blurb.ps}\n\\caption{Overlay of the raw H$\\alpha$ data on \\HI position velocity diagrams. \nSee Table~1 for the source of the \\HI data. The H$\\alpha$ data are\nindicated by the black dots. The rotation curves based on \\HI data are\nindicated by a dark-grey line.}\n\\end{center}\n\\end{figure*}\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 442,
+          "text": "comparison with the systemic velocities derived from the HI data (also",
+          "context": "cases (DDO185, U10310, U5999) the centre was not seen and we varied\nthe central position and systemic velocity over a small range until we\nfound the values that gave the maximum symmetry.  The systemic\nvelocities based on the H$\\alpha$ data are given in Table~1.  A\ncomparison with the systemic velocities derived from the HI data (also\nlisted in Table~1 and taken from the source papers) shows a good\ncorrespondence with the H$\\alpha$ velocities. The absolute difference\nis 5 km s$^{-1}$ or less, except in 6 cases where the difference lies\nbetween 10 and 14 km s$^{-1}$.  In 4 of the 6 cases the HI data were"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 446,
+          "text": "between 10 and 14 km s$^{-1}$.  In 4 of the 6 cases the HI data were",
+          "context": "comparison with the systemic velocities derived from the HI data (also\nlisted in Table~1 and taken from the source papers) shows a good\ncorrespondence with the H$\\alpha$ velocities. The absolute difference\nis 5 km s$^{-1}$ or less, except in 6 cases where the difference lies\nbetween 10 and 14 km s$^{-1}$.  In 4 of the 6 cases the HI data were\nobtained using a velocity resolution of over 20 km s$^{-1}$, implying\nthat the comparison with H$\\alpha$ is still very favourable.  Only for\nDDO 47 and DDO 52 do we find a difference of $\\sim 1.5$ HI channel\nwidths.  Given the limited spatial and velocity resolution of the HI"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 479,
+          "text": "(see Table 1 for references).  It is clear that \\emph{grosso modo}",
+          "context": "\\end{figure*}\n\nFigure~\\ref{compare} compares the folded H$\\alpha$ rotation curves with the\n\\HI rotation curves as presented in the literature \n(see Table 1 for references).  It is clear that \\emph{grosso modo}\nthere is reasonable agreement. A small number of galaxies were\nobviously affected by beam-smearing, just as for some galaxies the\nH$\\alpha$ rotation curve shows signs of non-circular motion.\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 493,
+          "text": "\\HI data, showing that beamsmearing is not a major problem. At the",
+          "context": "and 3-5. For some galaxies we make a comparison with independent data\nfrom the literature.\n\n{\\bf F563-1}: The H$\\alpha$ data show reasonable agreement with the\n\\HI data, showing that beamsmearing is not a major problem. At the\nreceding side the H$\\alpha$ data disagree slightly with the \\HI\ncurve. An independent observation by dBMR of this galaxy is available\nand agrees with our observation (see Fig.~6); any systematic\ndifferences between the data sets is less than the uncertainties in"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 503,
+          "text": "than the \\HI curve.  The \\HI data have only a low spatial resolution",
+          "context": "curves of LSB galaxies is thus a repeatable exercise.\n\n{\\bf U5005}: The H$\\alpha$ data agree with the \\HI position-velocity\ndiagram, but the resulting high-resolution curve rises less steeply\nthan the \\HI curve.  The \\HI data have only a low spatial resolution\nof $40\\arcsec$ \\citep{Hulst} and uncertain corrections for beam\nsmearing are thus unavoidable.\n\n{\\bf U1230}: The H$\\alpha$ data are of high-quality, and shows that"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 512,
+          "text": "{\\bf U5750}: The \\HI data are poor, but in agreement with the",
+          "context": "beamsmearing has affected the $40''$-resolution \\HI curve\n\\citep{Hulst}. The high-resolution curve rises more steeply,\nthough still with a solid-body signature.\n\n{\\bf U5750}: The \\HI data are poor, but in agreement with the\nH$\\alpha$ data. The linearly rising \\HI curve also shows reasonable\nagreement with the H$\\alpha$ data. For this galaxy an independent\nobservation of dBMR is available and shows excellent agreement\n(Fig.~6), again showing that systematic effects due to telescope pointing"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 544,
+          "text": "the \\HI data. While suited for correcting for large-scale resolution",
+          "context": "and H$\\alpha$ rotation curves for U4325 and U3371. In these cases the\n\\HI curves rise more steeply than the H$\\alpha$ data. The agreement\nbetween the \\emph{raw} \\HI and H$\\alpha$ data suggests that the cause\nof this disagreement is likely an overcorrection for beamsmearing in\nthe \\HI data. While suited for correcting for large-scale resolution\neffects, beam smearing corrections thus give non-unique solutions on\nsmall scales --- a rotation curve that looks like it has linear rise,\ncan in reality be a steeply rising rotation curve (as the\nbeam-smearing corrections in this case usually assume),"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 553,
+          "text": "seem to agree with the \\HI data.",
+          "context": "\\emph{or} it can be an intrinsically linearly rising curve, as the\nH$\\alpha$ data in this case show.\n\n{\\bf U4173}: the H$\\alpha$ data are rather poor in quality, but do\nseem to agree with the \\HI data.\n\n{\\bf N100/U231}: good agreement between the data sets. Given the edge-on\norientation of the galaxy, it reaffirms the transparency of this small\ngalaxy, cf. \\citet{B92}."
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 585,
+          "text": "the \\HI data is, however, 25 \\kms, so this difference may not be significant.",
+          "context": "diagram.  The \\HI rotation curve seems to over-estimate the rotation\nvelocity in the outer parts by a significant amount. For this galaxy\nwe found a $\\sim 10$ km s$^{-1}$ difference between the systemic\nvelocities of the \\HI and H$\\alpha$ curves. The velocity resolution of\nthe \\HI data is, however, 25 \\kms, so this difference may not be significant.\n\n{\\bf N5023/U8286:} Excellent agreement between the data sets, except between\n$\\sim 50\\arcsec$ and $\\sim 100\\arcsec$ where the \\HI curve\noverestimates the "
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 595,
+          "text": "in quality than the previous couple of data sets. Nevertheless the",
+          "context": "The good agreement in the inner parts of this edge-on galaxy confirm again \nthat  these late-type galaxies are virtually transparent.\n\n{\\bf U10310/Arp2:} The H$\\alpha$ data of this galaxy is rather poorer\nin quality than the previous couple of data sets. Nevertheless the\ndata sets are in good agreement, except perhaps the \\HI rotation curve\nwhich seems to overestimate the true rotation velocity.\n\n{\\bf DDO47/U3974:} The H$\\alpha$ curve is rather poor in quality, but shows"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 637,
+          "text": "\\epsfbox[18 157 565 690]{bosmacomp.ps}",
+          "context": "beam-smearing corrections; U4325 is a good example.\n\n\\begin{figure}\n\\epsfxsize=0.95\\hsize\n\\epsfbox[18 157 565 690]{bosmacomp.ps}\n%\\special{psfile=bosmacomp.ps hoffset=-16.0 voffset=-320.0 hscale=45 vscale=45}\n%\\vspace{9.0truecm}\n\\caption{Comparison of the data obtained by dBMR\n(open circles) and our data (filled circles), for two galaxies in"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 638,
+          "text": "%\\special{psfile=bosmacomp.ps hoffset=-16.0 voffset=-320.0 hscale=45 vscale=45}",
+          "context": "\n\\begin{figure}\n\\epsfxsize=0.95\\hsize\n\\epsfbox[18 157 565 690]{bosmacomp.ps}\n%\\special{psfile=bosmacomp.ps hoffset=-16.0 voffset=-320.0 hscale=45 vscale=45}\n%\\vspace{9.0truecm}\n\\caption{Comparison of the data obtained by dBMR\n(open circles) and our data (filled circles), for two galaxies in\ncommon. At left is the folded original data, and at right the final"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 645,
+          "text": "\\label{bosmacomp}",
+          "context": "(open circles) and our data (filled circles), for two galaxies in\ncommon. At left is the folded original data, and at right the final\nadopted smooth rotation curves. The agreement is reasonable for UGC\n5750 and F563-1.}\n\\label{bosmacomp}\n\\end{figure}\n\nThis comparison underscores the need for this kind of high-resolution\nH$\\alpha$ data even in moderately well-resolved"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 660,
+          "text": "In many cases the \\HI data extend further out than the H$\\alpha$",
+          "context": "ambiguous.\n\n\\section{Deriving hybrid rotation curves}\n\nIn many cases the \\HI data extend further out than the H$\\alpha$\ndata. Due to the flattening of the \\HI curve towards larger radii,\nresolution effects become less important, and to get a more extended\nrotation curve it therefore makes sense to combine the \\HI and\nH$\\alpha$ data. We have defined hybrid H{\\sc i}/H$\\alpha$ curves,"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 665,
+          "text": "always giving preference to H$\\alpha$ data where available. In",
+          "context": "data. Due to the flattening of the \\HI curve towards larger radii,\nresolution effects become less important, and to get a more extended\nrotation curve it therefore makes sense to combine the \\HI and\nH$\\alpha$ data. We have defined hybrid H{\\sc i}/H$\\alpha$ curves,\nalways giving preference to H$\\alpha$ data where available. In\npractice this meant that we simply adopt the H$\\alpha$ rotation\nvelocities interior to a radius $r_{\\rm{H}\\alpha}$, usually\ncorresponding to the outermost point of the H$\\alpha$ rotation curve,\nand the \\HI velocities outside that radius.  Table~\\ref{tab:comb}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 717,
+          "text": "Some of the main assumptions that are made when deriving mass models",
+          "context": "\\end{minipage}\n\\end{table}\n\n\\subsection{Deriving smooth rotation curves}\nSome of the main assumptions that are made when deriving mass models\nfrom rotation curves is that there is symmetry, that all mass is on\ncircular orbits and  there is continuity with radius. The raw data\nstill show some scatter and non-circular motions, which can\noccasionally result in virtual or ambiguous rotation velocities.  In"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 772,
+          "text": "original raw hybrid H$\\alpha$\\HI data (grey symbols). The smooth",
+          "context": "\\centering\n\\epsfxsize=0.5\\hsize\n\\epsfbox{blurb.ps}\n\\caption{Final hybrid smooth rotation curves (full and dashed line) overlaid on\noriginal raw hybrid H$\\alpha$\\HI data (grey symbols). The smooth\ncurves are a good representation of the raw data.\n\\label{smoothcomp}}\n\\end{figure*}\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 778,
+          "text": "\\section{Mass models}",
+          "context": "\\label{smoothcomp}}\n\\end{figure*}\n\n\n\\section{Mass models}\n\nIn order to find the signature of the dark matter halo one needs to\ndecompose the observed rotation curve in a number of separate\ndynamical components, described below."
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 788,
+          "text": "\\citet{Broeils}.  For DDO47 and DDO64 we used the radial surface",
+          "context": "\\subsection{Stellar and gas components} For the stellar disk the $R$-band\nphotometry presented in \\citet{Blok95} and \\citet{Sw1999} (see also\n\\citealt{Sw2002opt}) was used.  For NGC 1560 we used the $B$-band\nphotometry presented in\n\\citet{Broeils}.  For DDO47 and DDO64 we used the radial surface\nbrightness profiles from \\citet{Stil}. These profiles are presented\nas relative to the sky-level without absolute calibration and we\ntherefore used the surface photometry presented in \\citet{Hopp}\nand \\citet{Makarova} to put the profiles on an absolute $R$-band surface"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 806,
+          "text": "For the gas component we used the \\HI surface densities from the",
+          "context": "curves. We assume $\\MLstar$ constant with radius, which is a\nreasonable assumption for the range of variation expected from\nplausible stellar populations \\citep{DeJong}.\n\nFor the gas component we used the \\HI surface densities from the\nreferences given in Table 1. They were scaled by a factor of 1.4 to\ntake into account the contribution of helium and metals. Their\nrotation curve was derived assuming the gas is distributed in a thin\ndisk.  For a few nearby galaxies we had to slightly smooth the \\HI"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 807,
+          "text": "references given in Table 1. They were scaled by a factor of 1.4 to",
+          "context": "reasonable assumption for the range of variation expected from\nplausible stellar populations \\citep{DeJong}.\n\nFor the gas component we used the \\HI surface densities from the\nreferences given in Table 1. They were scaled by a factor of 1.4 to\ntake into account the contribution of helium and metals. Their\nrotation curve was derived assuming the gas is distributed in a thin\ndisk.  For a few nearby galaxies we had to slightly smooth the \\HI\nradial profile, mainly because small-scale structure at small radii"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 814,
+          "text": "averaged out so the \\HI profile there is a good description of the",
+          "context": "disk.  For a few nearby galaxies we had to slightly smooth the \\HI\nradial profile, mainly because small-scale structure at small radii\ncause unrealistically large fluctuations in the gas rotation curve\nand hence the potential. At large radii this small-scale structure is\naveraged out so the \\HI profile there is a good description of the\nglobal \\HI structure.\n\n\\subsection{Dark halo} \n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 871,
+          "text": "One of largest uncertainties in any mass model is the precise value of",
+          "context": "where $x = R/R_{200}$.\n\n\\subsection{Stellar Mass-to-light ratios}\n\nOne of largest uncertainties in any mass model is the precise value of\n$\\MLstar$. Though broad trends in $\\MLstar$ have been measured and\nmodelled \\citep{Bott,Bell}, the precise value from\ngalaxy to galaxy is unknown, and depends on extinction, star formation\nhistory, initial mass function, etc.  Because of this problem we"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 943,
+          "text": "\\caption{Mass models. First and third",
+          "context": "\n\\begin{figure*}\n\\epsfxsize=0.5\\hsize\n\\epsfbox{blurb.ps}\n\\caption{Mass models. First and third\ncolumn show fits using the NFW halo model; second and fourth column\nshow models using the pseudo-isothermal halo model.  Reduced $\\chi^2$\nand $p$-values are given in the bottom-right of each panel.\\label{decomps}}\n\\end{figure*}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1085,
+          "text": "\\subsection{Comments on the mass modelling of individual galaxies}",
+          "context": "\\end{center}\n\\end{minipage}\n\\end{table*}\n \n\\subsection{Comments on the mass modelling of individual galaxies}\n\n{\\bf F563-1:} The pseudo-isothermal halo fits are comparable in quality to\nthe NFW fits. We can compare our results with the independent fits by\ndBMR.  For the minimum disk pseudo-isothermal halo we find $R_C = 2.0"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1102,
+          "text": "should note that for this galaxy no \\HI data are available, and that",
+          "context": "are thus able to reproduce the same parameters, showing that systematic effects\ndue to telescope pointing, smoothing etc.\\ are small.\n\n{\\bf U628:} The pseudo-isothermal and NFW fits are comparable. One\nshould note that for this galaxy no \\HI data are available, and that\nthe ``minimum disk'' and ``minimum disk+gas'' fits are identical. Also\nno gas rotation curve is included in the ``constant $\\MLstar$'' and\n``maximum disk'' cases. The gas rotation curve does however usually\nhave only a small impact on the fit parameters, and the values"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1124,
+          "text": "models fit equally well. The \\HI surface density profile given in",
+          "context": "galaxies \\citep{Hoek}.\n\n{\\bf U4173:} This rotation curve is virtually identical to the \\HI\ncurve as the H$\\alpha$ data do not add much extra constraint. Both\nmodels fit equally well. The \\HI surface density profile given in\n\\citet{Sw1999} gives rise to large fluctuations in the inner gas\nrotation curve and was therefore smoothed slightly as explained above.\n\n{\\bf U4325:} Good fits for the pseudo-isothermal models, bad ones for"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1147,
+          "text": "higher-resolution \\HI observations of the \\emph{outer} parts are",
+          "context": "described by that model. This is mainly caused by the very linear rise\nof the inner rotation curve.  For the NFW model the only constraint is\nimposed by the two \\HI points at the flat part of the curve. Without\nthese the fit would diverge to $c=0$ and $V_{200} = \\infty$. Clearly,\nhigher-resolution \\HI observations of the \\emph{outer} parts are\nneeded further fill in the flat part of the curve and bring down the\nuncertainties of the fit parameters. This would however not change the\nconclusion that this galaxy is very hard to fit with the NFW\nmodel. Again we see that independent observations are capable of"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1235,
+          "text": "preference for the pseudo-isothermal model. This conclusion is",
+          "context": "between pseudo-isothermal and NFW are found in the inner parts, as\nexpected, but it is clear that also in the outer parts\npseudo-isothermal models generally provide better fits.  It is\nremarkable that despite the large errorbars, there is still an obvious\npreference for the pseudo-isothermal model. This conclusion is\nindependent of any over- or underestimate of the true error: a less conservative\nestimate would even strengthen the trends observed here.\n\n\\begin{table}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1368,
+          "text": "\\epsfbox{bosmacomprev.ps}",
+          "context": "same direction every time.\n\n\\begin{figure}\n\\epsfxsize=\\hsize\n\\epsfbox{bosmacomprev.ps}\n\\caption{The rotation curves derived from independent H$\\alpha$ \nobservations for four LSB galaxies. Open squares are the data\npresented here. Solid circles are from \\citet{MRdB}. Open circles in\nthe top-left panel (F568-3) are from \\citet{Sw2000} and stars are from"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1588,
+          "text": "systematic decrease in inner slope when moving from the pure \\HI data",
+          "context": "The current data set puts us in an excellent position to test this\nprediction.  For a large number of galaxies we now have\nhigh-resolution rotation curves, as well as independent\nlower-resolution curves from \\citet{Sw1999}. We should thus see a\nsystematic decrease in inner slope when moving from the pure \\HI data\nto the high-resolution data.\n\n\\subsection{Results}\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1726,
+          "text": "sample, as published in dBMBR.  Filled circles indicate the new",
+          "context": "\\epsfbox{slope_radius_min_feb01.ps}\n\\caption{Value of the inner slope $\\alpha$ of the mass-density\nprofiles plotted against the radius of the innermost point. Open\ncircles are from the dBMR sample, stars are the Jan00 part of our\nsample, as published in dBMBR.  Filled circles indicate the new\ngalaxies from the Feb01 part of the sample.  Over-plotted are the\ntheoretical slopes of a pseudo-isothermal halo model (dotted lines)\nwith core radii of 0.5 (left-most), 1 (centre) and 2 (right-most) kpc.\nThe full line represents a NFW model, the dashed line a"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1759,
+          "text": "\\epsfbox[21 160 569 510]{rho_compareswaters_feb01.ps}",
+          "context": "\n\n\\begin{figure*}\n\\epsfxsize=\\hsize\n\\epsfbox[21 160 569 510]{rho_compareswaters_feb01.ps}\n\\caption{Comparison of mass density profiles for a number of galaxies as derived \nfrom the high-resolution curves (grey data points) and from medium\nresolution \\HI curves (black points). The dashed lines indicate the\nrange over which the inner slope is fitted. Derived values are"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1771,
+          "text": "\\epsfbox{rho_swaters.ps}",
+          "context": "\n\n\\begin{figure}\n\\epsfxsize=\\hsize\n\\epsfbox{rho_swaters.ps}\n\\caption{Comparison of the inner slopes $\\alpha$ and innermost\nradii $r_{\\rm in}$ of the high-resolution curves and the medium\nresolution \\HI curves shown in Fig.~\\ref{hiprofiles}. The filled\nsquares indicate the values derived from the high-resolution curves;"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1779,
+          "text": "\\label{slopeswaters}}",
+          "context": "squares indicate the values derived from the high-resolution curves;\nopen circles indicate values derived from the \\HI\ncurves. Corresponding pairs are connected. Galaxies move along the\nisothermal halo curves when resolution is increased.\n\\label{slopeswaters}}\n\\end{figure}\n\nIn Fig.~\\ref{hiprofiles} we plot the inversions of the high-resolution\nhybrid curves and the lower-resolution \\HI curves. The slopes as"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1788,
+          "text": "Fig.~\\ref{massprofiles}. This is because the \\HI profiles generally",
+          "context": "derived from these curves are shown in the Figure.  Those derived from\nthe \\HI curves tend to be steeper than those from the equivalent\nhigh-resolution curves.  The values of the slopes in\nFig.~\\ref{hiprofiles} are slightly different from those given in\nFig.~\\ref{massprofiles}. This is because the \\HI profiles generally\ndid not extend as far inward as the hybrid profiles, and we had to\nchoose a larger upper fitting radius.  In Fig.~\\ref{slopeswaters} we\nplot the positions that the high-resolution and \\HI curves occupy in\nthe $\\alpha-r_{\\rm in}$ diagram. The general trend is indeed that as"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1790,
+          "text": "choose a larger upper fitting radius.  In Fig.~\\ref{slopeswaters} we",
+          "context": "high-resolution curves.  The values of the slopes in\nFig.~\\ref{hiprofiles} are slightly different from those given in\nFig.~\\ref{massprofiles}. This is because the \\HI profiles generally\ndid not extend as far inward as the hybrid profiles, and we had to\nchoose a larger upper fitting radius.  In Fig.~\\ref{slopeswaters} we\nplot the positions that the high-resolution and \\HI curves occupy in\nthe $\\alpha-r_{\\rm in}$ diagram. The general trend is indeed that as\nthe resolution is increased, the galaxies move towards smaller slopes,\nmore or less along the pseudo-isothermal halo model curves."
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1802,
+          "text": "resolution of the \\HI data. It is clear that this was because the",
+          "context": "galaxies for which we now have high-resolution data. Their conclusion\nwas that the majority of the galaxies they investigated was consistent\nwith a $\\Lambda$CDM scenario, but they also noted that it is difficult\nto distinguish between a cusp and a core model at the typical\nresolution of the \\HI data. It is clear that this was because the\nlower spatial and velocity resolution makes it possible to force a NFW\nfit on the data, even though it is not always of the shape preferred\nby the data.  We will discuss the galaxies they consider in turn.\n"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1822,
+          "text": "derived from the \\HI data is optimum for CDM, whereas the slope",
+          "context": "constant-density core. We were unable to derive a sensible NFW model\nfit.\n\n{\\bf U4325:} This galaxy shows the same behaviour as U3371: the slope\nderived from the \\HI data is optimum for CDM, whereas the slope\nderived from the high-resolution data is consistent with a constant\ndensity core. \n\n{\\bf N4395 (U7524):} This is the best-resolved \\HI curve in the vdBS"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1890,
+          "text": "runs at the Observatoire de Haute Provence. We thank Stacy McGaugh for",
+          "context": "\\section*{Acknowledgements}\nEdB would like to thank ANSTO for their financial support which made\nattending the February 2001 observing run possible. AB thanks the\nProgramme National Galaxies for financial support of his observing\nruns at the Observatoire de Haute Provence. We thank Stacy McGaugh for\nuseful discussions.\n\n\n\\begin{thebibliography}{}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1895,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Begeman}{1987}]{KGB}",
+          "context": "useful discussions.\n\n\n\\begin{thebibliography}{}\n\\bibitem[\\protect\\citeauthoryear{Begeman}{1987}]{KGB}\nBegeman, K.G., 1987, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bell \\& De Jong}{2000}]{Bell}\nBell, E. F., \\& de Jong, R. S. 2001, ApJ, 550, 212\n\\bibitem[\\protect\\citeauthoryear{Blais-Ouellette et al.}{2001}]"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1896,
+          "text": "Begeman, K.G., 1987, PhD thesis, University of Groningen",
+          "context": "\n\n\\begin{thebibliography}{}\n\\bibitem[\\protect\\citeauthoryear{Begeman}{1987}]{KGB}\nBegeman, K.G., 1987, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bell \\& De Jong}{2000}]{Bell}\nBell, E. F., \\& de Jong, R. S. 2001, ApJ, 550, 212\n\\bibitem[\\protect\\citeauthoryear{Blais-Ouellette et al.}{2001}]\n{Blais} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, AJ, 121, 1952"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1900,
+          "text": "{Blais} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, AJ, 121, 1952",
+          "context": "Begeman, K.G., 1987, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bell \\& De Jong}{2000}]{Bell}\nBell, E. F., \\& de Jong, R. S. 2001, ApJ, 550, 212\n\\bibitem[\\protect\\citeauthoryear{Blais-Ouellette et al.}{2001}]\n{Blais} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, AJ, 121, 1952\n\\bibitem[\\protect\\citeauthoryear{Bolatto et al.}{2001}]{Bol} Bolatto, A.D., Simon, \nJ.D., Leroy, A., Blitz, L., 2001, ApJ, Letters (in press) (astro-ph/0108050)\n\\bibitem[\\protect\\citeauthoryear{Borriello \\& Salucci}{2001}]{Bor} Borriello, A., Salucci, P., 2001, MNRAS, 323, 285\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1978}]{B78}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1904,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Bosma}{1978}]{B78}",
+          "context": "{Blais} Blais-Ouellette, S., Amram, P., Carignan, C., 2001, AJ, 121, 1952\n\\bibitem[\\protect\\citeauthoryear{Bolatto et al.}{2001}]{Bol} Bolatto, A.D., Simon, \nJ.D., Leroy, A., Blitz, L., 2001, ApJ, Letters (in press) (astro-ph/0108050)\n\\bibitem[\\protect\\citeauthoryear{Borriello \\& Salucci}{2001}]{Bor} Borriello, A., Salucci, P., 2001, MNRAS, 323, 285\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1978}]{B78}\nBosma, A., 1978, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1999}]{B99}\nBosma, A., 1999, in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~339\n\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1905,
+          "text": "Bosma, A., 1978, PhD thesis, University of Groningen",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Bolatto et al.}{2001}]{Bol} Bolatto, A.D., Simon, \nJ.D., Leroy, A., Blitz, L., 2001, ApJ, Letters (in press) (astro-ph/0108050)\n\\bibitem[\\protect\\citeauthoryear{Borriello \\& Salucci}{2001}]{Bor} Borriello, A., Salucci, P., 2001, MNRAS, 323, 285\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1978}]{B78}\nBosma, A., 1978, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1999}]{B99}\nBosma, A., 1999, in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~339\n\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}\nBosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1906,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Bosma}{1999}]{B99}",
+          "context": "J.D., Leroy, A., Blitz, L., 2001, ApJ, Letters (in press) (astro-ph/0108050)\n\\bibitem[\\protect\\citeauthoryear{Borriello \\& Salucci}{2001}]{Bor} Borriello, A., Salucci, P., 2001, MNRAS, 323, 285\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1978}]{B78}\nBosma, A., 1978, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1999}]{B99}\nBosma, A., 1999, in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~339\n\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}\nBosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23\n\\bibitem[\\protect\\citeauthoryear{Bottema}{1997}]{Bott}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1907,
+          "text": "Bosma, A., 1999, in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~339",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Borriello \\& Salucci}{2001}]{Bor} Borriello, A., Salucci, P., 2001, MNRAS, 323, 285\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1978}]{B78}\nBosma, A., 1978, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1999}]{B99}\nBosma, A., 1999, in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~339\n\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}\nBosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23\n\\bibitem[\\protect\\citeauthoryear{Bottema}{1997}]{Bott}\nBottema, R., 1997, A\\&A, 328, 517"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1908,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Bosma}{1978}]{B78}\nBosma, A., 1978, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1999}]{B99}\nBosma, A., 1999, in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~339\n\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}\nBosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23\n\\bibitem[\\protect\\citeauthoryear{Bottema}{1997}]{Bott}\nBottema, R., 1997, A\\&A, 328, 517\n\\bibitem[\\protect\\citeauthoryear{Broeils}{1992}]{Broeils}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1909,
+          "text": "Bosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23",
+          "context": "Bosma, A., 1978, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Bosma}{1999}]{B99}\nBosma, A., 1999, in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~339\n\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}\nBosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23\n\\bibitem[\\protect\\citeauthoryear{Bottema}{1997}]{Bott}\nBottema, R., 1997, A\\&A, 328, 517\n\\bibitem[\\protect\\citeauthoryear{Broeils}{1992}]{Broeils}\nBroeils, A.H., 1992, A\\&A, 256, 19"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1912,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Broeils}{1992}]{Broeils}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Bosma et al.}{1992}]{B92}\nBosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23\n\\bibitem[\\protect\\citeauthoryear{Bottema}{1997}]{Bott}\nBottema, R., 1997, A\\&A, 328, 517\n\\bibitem[\\protect\\citeauthoryear{Broeils}{1992}]{Broeils}\nBroeils, A.H., 1992, A\\&A, 256, 19\n\\bibitem[\\protect\\citeauthoryear{Bullock et al.}{2001}]{Bullock} Bullock, \nJ.S., Kolatt, T.S., Sigad, Y., Somerville, R.S., Kravtsov, A.V.,\nKlypin, A.A., Primack, J.R., \\& Dekel, A.  2001,"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1913,
+          "text": "Broeils, A.H., 1992, A\\&A, 256, 19",
+          "context": "Bosma, A., Byun, Y.I., Freeman, K.C., Athanassoula, E., 1992, ApJL, 400, L23\n\\bibitem[\\protect\\citeauthoryear{Bottema}{1997}]{Bott}\nBottema, R., 1997, A\\&A, 328, 517\n\\bibitem[\\protect\\citeauthoryear{Broeils}{1992}]{Broeils}\nBroeils, A.H., 1992, A\\&A, 256, 19\n\\bibitem[\\protect\\citeauthoryear{Bullock et al.}{2001}]{Bullock} Bullock, \nJ.S., Kolatt, T.S., Sigad, Y., Somerville, R.S., Kravtsov, A.V.,\nKlypin, A.A., Primack, J.R., \\& Dekel, A.  2001,\nMNRAS, 321, 559"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1919,
+          "text": "R.L.M., Boulesteix, J., Bosma, A., Amram, P., Capaccioli, M. 1991, A\\&A 244, 27",
+          "context": "J.S., Kolatt, T.S., Sigad, Y., Somerville, R.S., Kravtsov, A.V.,\nKlypin, A.A., Primack, J.R., \\& Dekel, A.  2001,\nMNRAS, 321, 559\n\\bibitem[\\protect\\citeauthoryear{Corradi et al.}{1991}]{Corradi} Corradi, \nR.L.M., Boulesteix, J., Bosma, A., Amram, P., Capaccioli, M. 1991, A\\&A 244, 27\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1995}]{Blok95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, MNRAS, 274, 235\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18\n\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1920,
+          "text": "\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1995}]{Blok95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, MNRAS, 274, 235",
+          "context": "Klypin, A.A., Primack, J.R., \\& Dekel, A.  2001,\nMNRAS, 321, 559\n\\bibitem[\\protect\\citeauthoryear{Corradi et al.}{1991}]{Corradi} Corradi, \nR.L.M., Boulesteix, J., Bosma, A., Amram, P., Capaccioli, M. 1991, A\\&A 244, 27\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1995}]{Blok95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, MNRAS, 274, 235\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18\n\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1921,
+          "text": "\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18",
+          "context": "MNRAS, 321, 559\n\\bibitem[\\protect\\citeauthoryear{Corradi et al.}{1991}]{Corradi} Corradi, \nR.L.M., Boulesteix, J., Bosma, A., Amram, P., Capaccioli, M. 1991, A\\&A 244, 27\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1995}]{Blok95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, MNRAS, 274, 235\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18\n\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}\nde Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1922,
+          "text": "\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Corradi et al.}{1991}]{Corradi} Corradi, \nR.L.M., Boulesteix, J., Bosma, A., Amram, P., Capaccioli, M. 1991, A\\&A 244, 27\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1995}]{Blok95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, MNRAS, 274, 235\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18\n\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}\nde Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001b}]{dBMBR}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1923,
+          "text": "de Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533",
+          "context": "R.L.M., Boulesteix, J., Bosma, A., Amram, P., Capaccioli, M. 1991, A\\&A 244, 27\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1995}]{Blok95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, MNRAS, 274, 235\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18\n\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}\nde Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001b}]{dBMBR}\nde Blok, W.J.G., McGaugh, S.S., Bosma, A., Rubin, V.C., 2001b, ApJL, 552, L23  (dBMBR)"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1924,
+          "text": "\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1995}]{Blok95} de Blok W.J.G., van der Hulst J.M., Bothun G.D., 1995, MNRAS, 274, 235\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18\n\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}\nde Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001b}]{dBMBR}\nde Blok, W.J.G., McGaugh, S.S., Bosma, A., Rubin, V.C., 2001b, ApJL, 552, L23  (dBMBR)\n\\bibitem[\\protect\\citeauthoryear{de Jong}{1996}]{DeJong}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1925,
+          "text": "de Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)",
+          "context": "\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{1996}]{Blok96} de Blok W.J.G., McGaugh S.S., van der Hulst J.M., 1996, MNRAS, 283, 18\n\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}\nde Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001b}]{dBMBR}\nde Blok, W.J.G., McGaugh, S.S., Bosma, A., Rubin, V.C., 2001b, ApJL, 552, L23  (dBMBR)\n\\bibitem[\\protect\\citeauthoryear{de Jong}{1996}]{DeJong}\nde Jong, R.S., 1996, PhD Thesis, University of Groningen"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1926,
+          "text": "\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001b}]{dBMBR}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{de Blok \\& McGaugh}{1997}]{Blok97}\nde Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}\nde Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001b}]{dBMBR}\nde Blok, W.J.G., McGaugh, S.S., Bosma, A., Rubin, V.C., 2001b, ApJL, 552, L23  (dBMBR)\n\\bibitem[\\protect\\citeauthoryear{de Jong}{1996}]{DeJong}\nde Jong, R.S., 1996, PhD Thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Hopp \\& Schulte-Ladbeck}{1991}]{Hopp}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1927,
+          "text": "de Blok, W.J.G., McGaugh, S.S., Bosma, A., Rubin, V.C., 2001b, ApJL, 552, L23  (dBMBR)",
+          "context": "de Blok, W.J.G., McGaugh, S.S., 1997, MNRAS, 290, 533\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001a}]{dBMR}\nde Blok, W.J.G., McGaugh, S.S., Rubin, V.C., 2001a, AJ, in press (dBMR)\n\\bibitem[\\protect\\citeauthoryear{de Blok et al.}{2001b}]{dBMBR}\nde Blok, W.J.G., McGaugh, S.S., Bosma, A., Rubin, V.C., 2001b, ApJL, 552, L23  (dBMBR)\n\\bibitem[\\protect\\citeauthoryear{de Jong}{1996}]{DeJong}\nde Jong, R.S., 1996, PhD Thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Hopp \\& Schulte-Ladbeck}{1991}]{Hopp}\nHopp, U., Schulte-Ladbeck, R.E. 1991, A\\&A, 248, 1"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1946,
+          "text": "\\bibitem[\\protect\\citeauthoryear{McGaugh et al.}{2001}]{MRdB}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Loader}{1999}]{Loader}\nLoader, C., 1999, \\emph{Local Regression and Likelihood}, Springer-Verlag: New York\n\\bibitem[\\protect\\citeauthoryear{Makarova}{1999}]{Makarova}\nMakarova, L., 1999, A\\&AS, 139, 491\n\\bibitem[\\protect\\citeauthoryear{McGaugh et al.}{2001}]{MRdB}\nMcGaugh, S.S., Rubin, V.C., 2001, de Blok, W.J.G., AJ, in press \n\\bibitem[\\protect\\citeauthoryear{Moore}{1994}]{Moore}\nMoore, B., 1994, Nature, 370, 629\n\\bibitem[\\protect\\citeauthoryear{Moore et al.}{1999}]{moore99} "
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1947,
+          "text": "McGaugh, S.S., Rubin, V.C., 2001, de Blok, W.J.G., AJ, in press ",
+          "context": "Loader, C., 1999, \\emph{Local Regression and Likelihood}, Springer-Verlag: New York\n\\bibitem[\\protect\\citeauthoryear{Makarova}{1999}]{Makarova}\nMakarova, L., 1999, A\\&AS, 139, 491\n\\bibitem[\\protect\\citeauthoryear{McGaugh et al.}{2001}]{MRdB}\nMcGaugh, S.S., Rubin, V.C., 2001, de Blok, W.J.G., AJ, in press \n\\bibitem[\\protect\\citeauthoryear{Moore}{1994}]{Moore}\nMoore, B., 1994, Nature, 370, 629\n\\bibitem[\\protect\\citeauthoryear{Moore et al.}{1999}]{moore99} \nMoore, B., Quinn, T., Governato, F., Stadel, J., Lake, G., 1999, MNRAS, 310, 1147"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1965,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Swaters}{1999}]{Sw1999}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Sellwood}{1999}]{Sellwood}\nSellwood, J.A., 1999,  in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~351\n\\bibitem[\\protect\\citeauthoryear{Stil}{1999}]{Stil}\nStil, J., 1999, PhD thesis, University of Leiden\n\\bibitem[\\protect\\citeauthoryear{Swaters}{1999}]{Sw1999}\nSwaters, R.A., 1999, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{1999}]{Swlop1999}\nSwaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, \nMNRAS, 304, 330"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1966,
+          "text": "Swaters, R.A., 1999, PhD thesis, University of Groningen",
+          "context": "Sellwood, J.A., 1999,  in ``Galaxy Dynamics'', ASP Conf.~Series Vol.~182 (San Francisco: ASP), eds. D.R. Merritt, M. Valluri, J. A. Sellwood, p.~351\n\\bibitem[\\protect\\citeauthoryear{Stil}{1999}]{Stil}\nStil, J., 1999, PhD thesis, University of Leiden\n\\bibitem[\\protect\\citeauthoryear{Swaters}{1999}]{Sw1999}\nSwaters, R.A., 1999, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{1999}]{Swlop1999}\nSwaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, \nMNRAS, 304, 330\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} "
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1967,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{1999}]{Swlop1999}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Stil}{1999}]{Stil}\nStil, J., 1999, PhD thesis, University of Leiden\n\\bibitem[\\protect\\citeauthoryear{Swaters}{1999}]{Sw1999}\nSwaters, R.A., 1999, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{1999}]{Swlop1999}\nSwaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, \nMNRAS, 304, 330\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} \nSwaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1968,
+          "text": "Swaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, ",
+          "context": "Stil, J., 1999, PhD thesis, University of Leiden\n\\bibitem[\\protect\\citeauthoryear{Swaters}{1999}]{Sw1999}\nSwaters, R.A., 1999, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{1999}]{Swlop1999}\nSwaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, \nMNRAS, 304, 330\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} \nSwaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1970,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} ",
+          "context": "Swaters, R.A., 1999, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{1999}]{Swlop1999}\nSwaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, \nMNRAS, 304, 330\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} \nSwaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}\nSwaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1971,
+          "text": "Swaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{1999}]{Swlop1999}\nSwaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, \nMNRAS, 304, 330\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} \nSwaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}\nSwaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}\nSwaters, R.A., Balcells, M., A\\&A, 2002, submitted"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1972,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}",
+          "context": "Swaters, R.A., Schoenmakers, R.H.M., Sancisi, R., van Albada, T.S., 1999, \nMNRAS, 304, 330\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} \nSwaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}\nSwaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}\nSwaters, R.A., Balcells, M., A\\&A, 2002, submitted\n\\bibitem[\\protect\\citeauthoryear{van Albada \\& Sancisi}{1986}]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 "
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1973,
+          "text": "Swaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press",
+          "context": "MNRAS, 304, 330\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} \nSwaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}\nSwaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}\nSwaters, R.A., Balcells, M., A\\&A, 2002, submitted\n\\bibitem[\\protect\\citeauthoryear{van Albada \\& Sancisi}{1986}]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[\\protect\\citeauthoryear{van den Bosch \\& Swaters}{2001}]{BS2001}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1974,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2000}]{Sw2000} \nSwaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}\nSwaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}\nSwaters, R.A., Balcells, M., A\\&A, 2002, submitted\n\\bibitem[\\protect\\citeauthoryear{van Albada \\& Sancisi}{1986}]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[\\protect\\citeauthoryear{van den Bosch \\& Swaters}{2001}]{BS2001}\nvan den Bosch, F., Swaters, R.A., 2001, MNRAS, in press (astro-ph/0006048)"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1975,
+          "text": "Swaters, R.A., Balcells, M., A\\&A, 2002, submitted",
+          "context": "Swaters, R.A., Madore, B.F., Trewhella, M., 2000, ApJL, 531, L107\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002b}]{Sw2002hi}\nSwaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}\nSwaters, R.A., Balcells, M., A\\&A, 2002, submitted\n\\bibitem[\\protect\\citeauthoryear{van Albada \\& Sancisi}{1986}]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[\\protect\\citeauthoryear{van den Bosch \\& Swaters}{2001}]{BS2001}\nvan den Bosch, F., Swaters, R.A., 2001, MNRAS, in press (astro-ph/0006048)\n\\bibitem[\\protect\\citeauthoryear{van den Hoek et al.}{2000}]{Hoek} "
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1977,
+          "text": "\\bibitem[\\protect\\citeauthoryear{van den Bosch \\& Swaters}{2001}]{BS2001}",
+          "context": "Swaters, R.A., van Albada, T.S., van der Hulst,  J.M., Sancisi, A\\&A, 2002, in press\n\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}\nSwaters, R.A., Balcells, M., A\\&A, 2002, submitted\n\\bibitem[\\protect\\citeauthoryear{van Albada \\& Sancisi}{1986}]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[\\protect\\citeauthoryear{van den Bosch \\& Swaters}{2001}]{BS2001}\nvan den Bosch, F., Swaters, R.A., 2001, MNRAS, in press (astro-ph/0006048)\n\\bibitem[\\protect\\citeauthoryear{van den Hoek et al.}{2000}]{Hoek} \nvan den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T.,\n2000, A\\&A, 357, 397"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1978,
+          "text": "van den Bosch, F., Swaters, R.A., 2001, MNRAS, in press (astro-ph/0006048)",
+          "context": "\\bibitem[\\protect\\citeauthoryear{Swaters et al.}{2002a}]{Sw2002opt}\nSwaters, R.A., Balcells, M., A\\&A, 2002, submitted\n\\bibitem[\\protect\\citeauthoryear{van Albada \\& Sancisi}{1986}]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[\\protect\\citeauthoryear{van den Bosch \\& Swaters}{2001}]{BS2001}\nvan den Bosch, F., Swaters, R.A., 2001, MNRAS, in press (astro-ph/0006048)\n\\bibitem[\\protect\\citeauthoryear{van den Hoek et al.}{2000}]{Hoek} \nvan den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T.,\n2000, A\\&A, 357, 397\n\\bibitem[\\protect\\citeauthoryear{van der Hulst et al.}{1993}]{Hulst} "
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1980,
+          "text": "van den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T.,",
+          "context": "\\bibitem[\\protect\\citeauthoryear{van Albada \\& Sancisi}{1986}]{maxdisk86} van Albada, T.S, Sancisi, R., 1986, Phil. Trans. R. Soc. Lond. A, 320, 447 \n\\bibitem[\\protect\\citeauthoryear{van den Bosch \\& Swaters}{2001}]{BS2001}\nvan den Bosch, F., Swaters, R.A., 2001, MNRAS, in press (astro-ph/0006048)\n\\bibitem[\\protect\\citeauthoryear{van den Hoek et al.}{2000}]{Hoek} \nvan den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T.,\n2000, A\\&A, 357, 397\n\\bibitem[\\protect\\citeauthoryear{van der Hulst et al.}{1993}]{Hulst} \nvan der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh\nS.S., de Blok W.J.G., 1993, AJ, 106, 548"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1982,
+          "text": "\\bibitem[\\protect\\citeauthoryear{van der Hulst et al.}{1993}]{Hulst} ",
+          "context": "van den Bosch, F., Swaters, R.A., 2001, MNRAS, in press (astro-ph/0006048)\n\\bibitem[\\protect\\citeauthoryear{van den Hoek et al.}{2000}]{Hoek} \nvan den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T.,\n2000, A\\&A, 357, 397\n\\bibitem[\\protect\\citeauthoryear{van der Hulst et al.}{1993}]{Hulst} \nvan der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh\nS.S., de Blok W.J.G., 1993, AJ, 106, 548\n\\bibitem[\\protect\\citeauthoryear{van der Kruit \\& Searle}{1981}]{vdK}\nvan der Kruit, P.C. \\& Searle, L. 1981, A\\&A, 95, 105"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1983,
+          "text": "van der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh",
+          "context": "\\bibitem[\\protect\\citeauthoryear{van den Hoek et al.}{2000}]{Hoek} \nvan den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T.,\n2000, A\\&A, 357, 397\n\\bibitem[\\protect\\citeauthoryear{van der Hulst et al.}{1993}]{Hulst} \nvan der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh\nS.S., de Blok W.J.G., 1993, AJ, 106, 548\n\\bibitem[\\protect\\citeauthoryear{van der Kruit \\& Searle}{1981}]{vdK}\nvan der Kruit, P.C. \\& Searle, L. 1981, A\\&A, 95, 105\n\\bibitem[\\protect\\citeauthoryear{Van der Kruit \\& Bosma}{1978}]{vdK+B}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1984,
+          "text": "S.S., de Blok W.J.G., 1993, AJ, 106, 548",
+          "context": "van den Hoek, L.B., de Blok, W.J.G., van der Hulst, J.M., de Jong, T.,\n2000, A\\&A, 357, 397\n\\bibitem[\\protect\\citeauthoryear{van der Hulst et al.}{1993}]{Hulst} \nvan der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh\nS.S., de Blok W.J.G., 1993, AJ, 106, 548\n\\bibitem[\\protect\\citeauthoryear{van der Kruit \\& Searle}{1981}]{vdK}\nvan der Kruit, P.C. \\& Searle, L. 1981, A\\&A, 95, 105\n\\bibitem[\\protect\\citeauthoryear{Van der Kruit \\& Bosma}{1978}]{vdK+B}\nVan der Kruit, P.C., Bosma, A., 1978, A\\&AS, 34, 259"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1987,
+          "text": "\\bibitem[\\protect\\citeauthoryear{Van der Kruit \\& Bosma}{1978}]{vdK+B}",
+          "context": "van der Hulst J.M., Skillman E.D., Smith T.R., Bothun G.D., McGaugh\nS.S., de Blok W.J.G., 1993, AJ, 106, 548\n\\bibitem[\\protect\\citeauthoryear{van der Kruit \\& Searle}{1981}]{vdK}\nvan der Kruit, P.C. \\& Searle, L. 1981, A\\&A, 95, 105\n\\bibitem[\\protect\\citeauthoryear{Van der Kruit \\& Bosma}{1978}]{vdK+B}\nVan der Kruit, P.C., Bosma, A., 1978, A\\&AS, 34, 259\n\\bibitem[\\protect\\citeauthoryear{Verheijen}{1997}]{Verheijen}\nVerheijen, M.A.W., 1997, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Walter \\& Brinks}{2001}]{Walter}"
+        },
+        {
+          "file": "lsbohp7b.tex",
+          "line": 1988,
+          "text": "Van der Kruit, P.C., Bosma, A., 1978, A\\&AS, 34, 259",
+          "context": "S.S., de Blok W.J.G., 1993, AJ, 106, 548\n\\bibitem[\\protect\\citeauthoryear{van der Kruit \\& Searle}{1981}]{vdK}\nvan der Kruit, P.C. \\& Searle, L. 1981, A\\&A, 95, 105\n\\bibitem[\\protect\\citeauthoryear{Van der Kruit \\& Bosma}{1978}]{vdK+B}\nVan der Kruit, P.C., Bosma, A., 1978, A\\&AS, 34, 259\n\\bibitem[\\protect\\citeauthoryear{Verheijen}{1997}]{Verheijen}\nVerheijen, M.A.W., 1997, PhD thesis, University of Groningen\n\\bibitem[\\protect\\citeauthoryear{Walter \\& Brinks}{2001}]{Walter}\nWalter, F., Brinks, E., 2001, AJ, 121, 3026"
+        }
+      ],
+      "priority_role_counts": {
+        "calibration": 3,
+        "blind": 2
+      }
+    }
+  ],
+  "interpretation_rule": "A cited H I observation or gas mass model is an acquisition pointer, not automatically a radial Sigma_HI profile. Each target must be resolved to the earliest defensible observing/profile source before promotion.",
+  "boundary": "Acquisition/provenance only; no raster digitization, inverse disk reconstruction, helium correction, persistence fitting, or blind outcomes."
+}
