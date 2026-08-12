@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 31,
-  "n_deferred_or_redirected_reference_families": 13,
+  "n_actionable_reference_families": 30,
+  "n_deferred_or_redirected_reference_families": 14,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "dB02",
-      "n_untouched_frozen_galaxies": 5,
-      "n_calibration": 3,
-      "n_blind": 2,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "de Blok and Bosma",
-      "bibcode": "2002A&A...385..816D",
-      "comment": "Cat. J/A+A/385/816",
-      "galaxies": "DDO064;NGC0100;UGC01281;UGC04278;UGC05005"
-    },
     {
       "sparc_ref_id": "Be87",
       "n_untouched_frozen_galaxies": 4,
@@ -245,6 +229,22 @@
       "bibcode": "2012A&A...544A.145L",
       "comment": "",
       "galaxies": "UGC04483"
+    },
+    {
+      "sparc_ref_id": "RA85",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Roelfsema and Allen",
+      "bibcode": "1985A&A...146..213R",
+      "comment": "",
+      "galaxies": "UGC02885"
     }
   ],
   "deferred_or_redirected_families": [
@@ -423,6 +423,22 @@
       "bibcode": "2001AJ....122.2396D",
       "comment": "",
       "galaxies": "D631-7;F571-8;UGC05750;UGC06614;UGC11557"
+    },
+    {
+      "sparc_ref_id": "dB02",
+      "n_untouched_frozen_galaxies": 5,
+      "n_calibration": 3,
+      "n_blind": 2,
+      "queue_actionable_now": "0",
+      "queue_status": "redirected_to_original_sources",
+      "disposition": "downstream_halpha_mass_model_paper_decomposed_by_table1_hi_source_codes",
+      "disposition_artifact": "data/stationary/source_reconstruction/db02_original_hi_source_map_v1.csv",
+      "reopen_rule": "auditable_original_source_route",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok and Bosma",
+      "bibcode": "2002A&A...385..816D",
+      "comment": "Cat. J/A+A/385/816",
+      "galaxies": "DDO064;NGC0100;UGC01281;UGC04278;UGC05005"
     },
     {
       "sparc_ref_id": "VH93",
