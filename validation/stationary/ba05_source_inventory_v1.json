@@ -1,0 +1,337 @@
+{
+  "status": "BA05_SOURCE_INVENTORY_COMPLETE",
+  "source": "Barbieri et al. 2005 / astro-ph/0504534",
+  "source_package_sha256": "7a1226830d4484a03926f8f9bb6157a83107bd80a35e478955397ebd186e9095",
+  "n_files": 18,
+  "files": [
+    {
+      "name": "2comp_noncor_art_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 51213,
+      "sha256": "a86730bc5c2b5ca00bd095a9d5db270084039c13f51e7a2a0d3bc7fa5ed29969",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "3D-art_2_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 77847,
+      "sha256": "46f2f56dea394518717d6db458ed4047f7b5c50ced4d9e357dcb9cb9fd7e5387",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "aa.cls",
+      "suffixes": [
+        ".cls"
+      ],
+      "bytes": 51590,
+      "sha256": "4add4f15480f0963b7c4d62814a495703fe2a27b9eb1d19618c83b49d94b8c1d",
+      "magic_hex": "2520546869732069732061612e636c730a25204126412044",
+      "magic_text": "% This is aa.cls\n% A&A DOCUMENT CLASS -- version 5.3 for LaTeX2e\n%\n% LaTeX docum"
+    },
+    {
+      "name": "barbieri.tex",
+      "suffixes": [
+        ".tex"
+      ],
+      "bytes": 49293,
+      "sha256": "1d6ff37a887569be96333d01f17f6fe18b8edbbc20cc74cee9fa3c1b0567ec74",
+      "magic_hex": "255c646f63756d656e74636c6173735b74776f636f6c756d",
+      "magic_text": "%\\documentclass[twocolumn]{aa}\n\\documentclass[onecolumn]{aa}\n%\\documentclass[ref",
+      "graphics_reference_lines": [
+        {
+          "line": 215,
+          "text": "\\includegraphics[width=140mm]{t4_rev_r.eps}"
+        },
+        {
+          "line": 244,
+          "text": "\\includegraphics[width=120mm]{chan1_art_r2.eps}"
+        },
+        {
+          "line": 253,
+          "text": "\\includegraphics[width=120mm]{chan2_art_r2.eps}"
+        },
+        {
+          "line": 259,
+          "text": "\\includegraphics[width=120mm]{chan3_art_r2.eps}"
+        },
+        {
+          "line": 264,
+          "text": "\\includegraphics[width=120mm]{chan4_art_r2.eps}"
+        },
+        {
+          "line": 270,
+          "text": "\\includegraphics[width=120mm]{chan5_art_r2.eps}"
+        },
+        {
+          "line": 275,
+          "text": "\\includegraphics[width=120mm]{chan6_art_r2.eps}"
+        },
+        {
+          "line": 382,
+          "text": "\\includegraphics[width=140mm]{global_rev_r.eps}"
+        },
+        {
+          "line": 388,
+          "text": "\\includegraphics[width=100mm]{sovrapp_curve15_art_r.eps}"
+        },
+        {
+          "line": 410,
+          "text": "\\includegraphics[width=140mm]{mod_cod30_art_r.eps}"
+        },
+        {
+          "line": 450,
+          "text": "\\includegraphics[width=140mm]{t2gas_art_r.eps}"
+        },
+        {
+          "line": 462,
+          "text": "\\includegraphics[width=100mm]{curva_gas_art1_r.eps}"
+        },
+        {
+          "line": 586,
+          "text": "\\includegraphics[width=140mm]{3D-art_2_r2.eps}"
+        },
+        {
+          "line": 609,
+          "text": "\\includegraphics[width=140mm]{buco15_art2_r2.eps}"
+        },
+        {
+          "line": 695,
+          "text": "\\includegraphics[width=140mm]{2comp_noncor_art_r.eps}"
+        },
+        {
+          "line": 894,
+          "text": "\\includegraphics[width=140mm]{isotermo_art_r.eps}"
+        }
+      ]
+    },
+    {
+      "name": "buco15_art2_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 78547,
+      "sha256": "83da00b01561887b593b344b7e3b4b36a773666b1040ff525809bf76afb46f01",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "chan1_art_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 71776,
+      "sha256": "a60671c5d9c9bc8af51ea1eb84ba334f14ebe972cc63907b4d02cc6e6d0c5669",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "chan2_art_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 79700,
+      "sha256": "a0ded237ae290407be0cf3002fa767fb7d7fe30b80f68832e12ded94066e5b21",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "chan3_art_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 75111,
+      "sha256": "8cf8346c5d7937ebe0f1a5753ff942f8a8e85fa8df6a07e65ce40583671fc399",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "chan4_art_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 73012,
+      "sha256": "8c0fb1a7c5948241c80d9220f3f24a0dd194895050bc7f79a6b5ae61d164ea4b",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "chan5_art_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 77457,
+      "sha256": "fda9690146eb27e1fc9e5e7ebd0d1c6cd893aea5d99a26714f1765dffc9c7241",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "chan6_art_r2.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 69650,
+      "sha256": "7e5c105cc9aabf10522bf86bec1fe956fe871aa90d38cd6f35d231e5899aceba",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "curva_gas_art1_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 16517,
+      "sha256": "cd021184d35c7d9fac6ca65f6a5ba5917354be17c78f4ed648b71455cc9d344f",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "global_rev_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 9411,
+      "sha256": "f29682aaadcf93c982b66c9400167705c51dd291f176ee512c2eabae207d814a",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "isotermo_art_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 10737,
+      "sha256": "e0d7809f52162ae000481bb50216b9fe0f19b5e99d9f804b00b675264330e7c4",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "mod_cod30_art_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 55260,
+      "sha256": "134ba737751ff284aca86208a9662d6246fc0760259beb30f33d6fac298d0851",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "sovrapp_curve15_art_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 11202,
+      "sha256": "c6a2f2e9008189419f835140986e7fa128e6036c2080908427bc7cae87c077bf",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "t2gas_art_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 34483,
+      "sha256": "91bf11e6bab8ce3d772877b014eee7ec389aa54319eabd3c016f1f6036754a01",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    },
+    {
+      "name": "t4_rev_r.eps",
+      "suffixes": [
+        ".eps"
+      ],
+      "bytes": 40435,
+      "sha256": "9386d6964f898d6c93a616f7e8001ad0f5388408ce4c6343b37e56055d4dd8e0",
+      "magic_hex": "252150532d41646f62652d332e3020455053462d332e300a",
+      "magic_text": "%!PS-Adobe-3.0 EPSF-3.0\n%%Creator: GIMP PostScript file plugin V 1.15 by Peter K"
+    }
+  ],
+  "all_tex_graphics_references": [
+    {
+      "tex": "barbieri.tex",
+      "line": 215,
+      "text": "\\includegraphics[width=140mm]{t4_rev_r.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 244,
+      "text": "\\includegraphics[width=120mm]{chan1_art_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 253,
+      "text": "\\includegraphics[width=120mm]{chan2_art_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 259,
+      "text": "\\includegraphics[width=120mm]{chan3_art_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 264,
+      "text": "\\includegraphics[width=120mm]{chan4_art_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 270,
+      "text": "\\includegraphics[width=120mm]{chan5_art_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 275,
+      "text": "\\includegraphics[width=120mm]{chan6_art_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 382,
+      "text": "\\includegraphics[width=140mm]{global_rev_r.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 388,
+      "text": "\\includegraphics[width=100mm]{sovrapp_curve15_art_r.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 410,
+      "text": "\\includegraphics[width=140mm]{mod_cod30_art_r.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 450,
+      "text": "\\includegraphics[width=140mm]{t2gas_art_r.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 462,
+      "text": "\\includegraphics[width=100mm]{curva_gas_art1_r.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 586,
+      "text": "\\includegraphics[width=140mm]{3D-art_2_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 609,
+      "text": "\\includegraphics[width=140mm]{buco15_art2_r2.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 695,
+      "text": "\\includegraphics[width=140mm]{2comp_noncor_art_r.eps}"
+    },
+    {
+      "tex": "barbieri.tex",
+      "line": 894,
+      "text": "\\includegraphics[width=140mm]{isotermo_art_r.eps}"
+    }
+  ],
+  "boundary": "Archive inventory only; no OCR, rendering, raster digitization, map reconstruction, persistence fitting, or blind-outcome inspection."
+}
