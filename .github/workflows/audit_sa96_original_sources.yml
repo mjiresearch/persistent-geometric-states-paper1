@@ -1,0 +1,36 @@
+name: Audit Sanders 1996 original H I sources
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/audit_sa96_original_sources.yml
+      - scripts/stationary/audit_sa96_original_sources.py
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit Sanders source provenance
+        run: python scripts/stationary/audit_sa96_original_sources.py
+      - name: Commit provenance audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add validation/stationary/sa96_original_source_provenance_audit_v1.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Audit Sanders 1996 original H I source provenance"
+            git pull --rebase origin main
+            git push
+          fi
