@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 93,
   "n_reference_families_covering_untouched": 41,
-  "n_actionable_reference_families": 21,
-  "n_deferred_or_redirected_reference_families": 20,
+  "n_actionable_reference_families": 20,
+  "n_deferred_or_redirected_reference_families": 21,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Bl04",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Blais-Ouellette et al.",
-      "bibcode": "2004A&A...420..147B",
-      "comment": "Cat. J/A+A/420/147",
-      "galaxies": "NGC5985"
-    },
     {
       "sparc_ref_id": "CP90",
       "n_untouched_frozen_galaxies": 1,
@@ -245,6 +229,22 @@
       "bibcode": "1991AJ....102..904C",
       "comment": "",
       "galaxies": "NGC5585"
+    },
+    {
+      "sparc_ref_id": "Di08",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Dicaire et al.",
+      "bibcode": "2008MNRAS.385..553D",
+      "comment": "",
+      "galaxies": "NGC0024"
     }
   ],
   "deferred_or_redirected_families": [
@@ -551,6 +551,22 @@
       "bibcode": "...................",
       "comment": "1987, PhD thesis, University of Groningen",
       "galaxies": "NGC6503"
+    },
+    {
+      "sparc_ref_id": "Bl04",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "redirected_to_original_sources",
+      "disposition": "NGC5055_already_resolved_via_THINGS_remaining_NGC5985_HI_redirects_to_WHISP_without_published_radial_profile",
+      "disposition_artifact": "validation/stationary/CHECKPOINT_AFTER_BL04_DISPOSITION.md",
+      "reopen_rule": "reopen_only_for_later_public_NGC5985_WHISP_machine_readable_radial_HI_profile_source_native_vector_profile_or_exact_analytic_republication",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Blais-Ouellette et al.",
+      "bibcode": "2004A&A...420..147B",
+      "comment": "Cat. J/A+A/420/147",
+      "galaxies": "NGC5985"
     },
     {
       "sparc_ref_id": "Le14",
