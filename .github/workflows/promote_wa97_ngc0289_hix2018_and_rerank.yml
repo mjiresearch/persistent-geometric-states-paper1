@@ -1,0 +1,58 @@
+name: Promote Wa97 NGC289 HIX2018 profile and rerank
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/integrate_hix2018_ngc0289_profile_into_overlay.py'
+      - '.github/workflows/promote_wa97_ngc0289_hix2018_and_rerank.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Promote recovered NGC289 profile
+        run: python scripts/stationary/integrate_hix2018_ngc0289_profile_into_overlay.py
+      - name: Reconcile public overlay
+        run: python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+      - name: Rerank Lelli source families
+        run: python scripts/stationary/rank_sparc_hi_reference_families.py
+      - name: Update project ledger checkpoint
+        run: python scripts/stationary/update_project_ledger_hi_checkpoint.py
+      - name: Commit promotion and rerank race-safe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv \
+                  data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv \
+                  data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv \
+                  data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv \
+                  validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json \
+                  validation/stationary/sparc_hi_reference_family_priority_v1_summary.json \
+                  validation/stationary/CHECKPOINT_AFTER_WA97_NGC0289_HIX2018_PROMOTION.md \
+                  PROJECT_LEDGER.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Promote Wa97 NGC289 HIX2018 HI profile and rerank'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/stationary/integrate_hix2018_ngc0289_profile_into_overlay.py
+            python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+            python scripts/stationary/rank_sparc_hi_reference_families.py
+            python scripts/stationary/update_project_ledger_hi_checkpoint.py
+            git add data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json validation/stationary/sparc_hi_reference_family_priority_v1_summary.json validation/stationary/CHECKPOINT_AFTER_WA97_NGC0289_HIX2018_PROMOTION.md PROJECT_LEDGER.md
+            git commit -m 'Promote Wa97 NGC289 HIX2018 HI profile and rerank' || true
+            sleep 2
+          done
+          exit 1
