@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 33,
-  "n_deferred_or_redirected_reference_families": 11,
+  "n_actionable_reference_families": 32,
+  "n_deferred_or_redirected_reference_families": 12,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "dB01",
-      "n_untouched_frozen_galaxies": 5,
-      "n_calibration": 4,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "de Blok et al.",
-      "bibcode": "2001AJ....122.2396D",
-      "comment": "",
-      "galaxies": "D631-7;F571-8;UGC05750;UGC06614;UGC11557"
-    },
     {
       "sparc_ref_id": "dB02",
       "n_untouched_frozen_galaxies": 5,
@@ -245,6 +229,22 @@
       "bibcode": "2010MNRAS.404.2061E",
       "comment": "",
       "galaxies": "NGC2915"
+    },
+    {
+      "sparc_ref_id": "JC90",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Jobin and Carignan",
+      "bibcode": "1990AJ....100..648J",
+      "comment": "",
+      "galaxies": "NGC3109"
     }
   ],
   "deferred_or_redirected_families": [
@@ -407,6 +407,22 @@
       "bibcode": "2006AJ....132.1426S",
       "comment": "",
       "galaxies": "ESO563-G021;IC4202;NGC2955;NGC6195;UGC11455"
+    },
+    {
+      "sparc_ref_id": "dB01",
+      "n_untouched_frozen_galaxies": 5,
+      "n_calibration": 4,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "redirected_to_original_sources",
+      "disposition": "downstream_mass_model_and_halpha_paper_decomposed_to_prior_hi_sources",
+      "disposition_artifact": "data/stationary/source_reconstruction/db01_original_hi_source_map_v1.csv",
+      "reopen_rule": "auditable_original_source_route",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok et al.",
+      "bibcode": "2001AJ....122.2396D",
+      "comment": "",
+      "galaxies": "D631-7;F571-8;UGC05750;UGC06614;UGC11557"
     },
     {
       "sparc_ref_id": "dB96",
