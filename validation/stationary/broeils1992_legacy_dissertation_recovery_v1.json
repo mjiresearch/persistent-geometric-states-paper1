@@ -1,0 +1,147 @@
+{
+  "status": "BROEILS1992_LEGACY_DISSERTATION_RECOVERY_COMPLETE",
+  "source": "A.H. Broeils 1992 PhD thesis, University of Groningen",
+  "legacy_bases": [
+    "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/",
+    "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/",
+    "http://dissertations.ub.rug.nl/nl/FILES/faculties/science/1992/a.h.broeils/",
+    "https://dissertations.ub.rug.nl/nl/FILES/faculties/science/1992/a.h.broeils/"
+  ],
+  "live_directory_probes": [
+    {
+      "url": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/",
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "url": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/",
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "url": "http://dissertations.ub.rug.nl/nl/FILES/faculties/science/1992/a.h.broeils/",
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "url": "https://dissertations.ub.rug.nl/nl/FILES/faculties/science/1992/a.h.broeils/",
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    }
+  ],
+  "cdx_indexes": [
+    {
+      "base": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/",
+      "query": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fdissertations.ub.rug.nl%2Ffaculties%2Fscience%2F1992%2Fa.h.broeils%2F%2A&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,digest,length",
+      "rows": []
+    },
+    {
+      "base": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/",
+      "query": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fdissertations.ub.rug.nl%2Ffaculties%2Fscience%2F1992%2Fa.h.broeils%2F%2A&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,digest,length",
+      "rows": []
+    },
+    {
+      "base": "http://dissertations.ub.rug.nl/nl/FILES/faculties/science/1992/a.h.broeils/",
+      "query": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fdissertations.ub.rug.nl%2Fnl%2FFILES%2Ffaculties%2Fscience%2F1992%2Fa.h.broeils%2F%2A&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,digest,length",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable",
+      "rows": []
+    },
+    {
+      "base": "https://dissertations.ub.rug.nl/nl/FILES/faculties/science/1992/a.h.broeils/",
+      "query": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fdissertations.ub.rug.nl%2Fnl%2FFILES%2Ffaculties%2Fscience%2F1992%2Fa.h.broeils%2F%2A&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,digest,length",
+      "rows": []
+    }
+  ],
+  "n_pdf_candidates_attempted": 12,
+  "attempts": [
+    {
+      "route": "legacy_filename_guess",
+      "url": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/thesis.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/broeils.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/broeils.PDF",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/dissertation.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/title.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "http://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/contents.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/thesis.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/broeils.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/broeils.PDF",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/dissertation.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/title.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "route": "legacy_filename_guess",
+      "url": "https://dissertations.ub.rug.nl/faculties/science/1992/a.h.broeils/contents.pdf",
+      "cdx": null,
+      "status": "error",
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    }
+  ],
+  "full_thesis_recovered": false,
+  "best_recovered_url": null,
+  "best_pdf_audit": null,
+  "interpretation_rule": "Only a recovered multi-page dissertation with target/native profile evidence can advance to exact table/vector extraction. A catalogue wrapper is not treated as the thesis.",
+  "boundary": "Bounded legacy-repository recovery only; no OCR, raster digitization, normalization, persistence fitting, or blind-outcome inspection."
+}
