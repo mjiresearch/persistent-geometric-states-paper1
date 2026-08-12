@@ -23,7 +23,7 @@ def main():
  if len(hits)!=1 or hits[0]['galaxy']!='UGC02259' or hits[0]['stationary_role']!='calibration':
   raise RuntimeError(f'Ca88 frozen mapping changed: {hits}')
  t=AUDIT.read_text()
- required=['UGC02259 -> Carignan, Sancisi & van Albada (1988)','Figure 5','Table IV is the rotation curve','not raster-digitized']
+ required=['`UGC02259` -> Carignan, Sancisi & van Albada (1988)','Figure 5','Table IV is the rotation curve','not raster-digitized']
  for s in required:
   if s not in t:raise RuntimeError(f'Existing UGC02259 audit no longer contains expected evidence: {s}')
  rows=read(DISP);fields=list(rows[0]);by={r['sparc_ref_id']:r for r in rows}
