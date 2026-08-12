@@ -1,5 +1,4 @@
 sparc_ref_id,n_untouched_frozen_galaxies,n_calibration,n_blind,queue_actionable_now,queue_status,disposition,disposition_artifact,reopen_rule,reference_resolved_in_cds_refs,author,bibcode,comment,galaxies
-Le14,2,2,0,1,actionable_unreviewed,,,,1,Lelli et al.,2014A&A...566A..71L,Cat. J/A+A/566/A71,NGC4068;UGC04483
 Tr09,2,2,0,1,actionable_unreviewed,,,,1,Trachternarch et al.,2009A&A...505..577T,,D564-8;D631-7
 Ge04,2,1,1,1,actionable_unreviewed,,,,1,Gentile et al.,2004MNRAS.351..903G,,ESO079-G014;ESO116-G012
 dB97,2,1,1,1,actionable_unreviewed,,,,1,de Blok and McGaugh,1997MNRAS.290..533D,,F565-V2;F571-V1
@@ -9,7 +8,6 @@ CP90,1,1,0,1,actionable_unreviewed,,,,1,Carignan and Puche,1990AJ....100..641C,,
 Ca88,1,1,0,1,actionable_unreviewed,,,,1,Carignan et al.,1988AJ.....95...37C,,UGC02259
 El10,1,1,0,1,actionable_unreviewed,,,,1,Elson et al.,2010MNRAS.404.2061E,,NGC2915
 JC90,1,1,0,1,actionable_unreviewed,,,,1,Jobin and Carignan,1990AJ....100..648J,,NGC3109
-Le12,1,1,0,1,actionable_unreviewed,,,,1,Lelli et al.,2012A&A...544A.145L,,UGC04483
 RA85,1,1,0,1,actionable_unreviewed,,,,1,Roelfsema and Allen,1985A&A...146..213R,,UGC02885
 SA87,1,1,0,1,actionable_unreviewed,,,,1,Sancisi and vanAlbada,1987IAUS..117...67S,,NGC5907
 VB99,1,1,0,1,actionable_unreviewed,,,,0,,,,UGC00128
@@ -42,3 +40,4 @@ VH93,3,3,0,0,defer_until_new_mechanism,direct_radial_hi_profiles_public_but_curr
 dB96,3,2,1,0,partially_resolved,five_of_eight_frozen_targets_recovered_via_public_analytic_republication,validation/stationary/DB96_JADHAV2019_PROFILE_RECOVERY_V1.md,new_direct_public_profile_map_table_or_republication_for_remaining_three,1,de Blok et al.,1996MNRAS.283...18D,,F565-V2;F571-8;F571-V1
 Fr11,2,2,0,0,defer_until_new_mechanism,fr11_radial_hi_profiles_are_derived_from_upstream_total_hi_maps_but_exact_public_numeric_vector_route_exhausted,validation/stationary/fr11_upstream_hi_source_audit_v1.json,new_machine_readable_radial_profile_exact_vector_republication_or_public_derived_profile_array,1,Fraternali et al.,2011A&A...531A..64F,,NGC0891;NGC7814
 Be87,1,1,0,0,partially_resolved,three_of_four_frozen_targets_recovered_as_exact_public_vector_hi_profiles_via_begeman_linked_republication,validation/stationary/hoekstra2001_be87_hi_vector_profiles_candidate_v1_summary.json,exact_Rout_physical_radius_for_three_or_new_Begeman_linked_numeric_route_for_NGC6503,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",NGC6503
+Le14,1,1,0,0,partially_resolved_upstream_split_closed,ugc04483_recovered_ngc4068_redirects_to_already_deferred_sw02,validation/stationary/lelli2012b_ugc4483_hi_profile_recovery_v1.json,new_machine_readable_or_exact_vector_profile_for_ngc4068_or_documented_source_correction,1,Lelli et al.,2014A&A...566A..71L,Cat. J/A+A/566/A71,NGC4068

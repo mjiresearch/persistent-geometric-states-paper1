@@ -1,27 +1,11 @@
 {
   "status": "SPARC_HI_REFERENCE_FAMILY_PRIORITY_COMPLETE",
   "n_frozen_galaxies": 149,
-  "n_untouched_no_public_overlay": 96,
-  "n_reference_families_covering_untouched": 43,
-  "n_actionable_reference_families": 27,
-  "n_deferred_or_redirected_reference_families": 16,
+  "n_untouched_no_public_overlay": 95,
+  "n_reference_families_covering_untouched": 42,
+  "n_actionable_reference_families": 25,
+  "n_deferred_or_redirected_reference_families": 17,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Le14",
-      "n_untouched_frozen_galaxies": 2,
-      "n_calibration": 2,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Lelli et al.",
-      "bibcode": "2014A&A...566A..71L",
-      "comment": "Cat. J/A+A/566/A71",
-      "galaxies": "NGC4068;UGC04483"
-    },
     {
       "sparc_ref_id": "Tr09",
       "n_untouched_frozen_galaxies": 2,
@@ -167,22 +151,6 @@
       "galaxies": "NGC3109"
     },
     {
-      "sparc_ref_id": "Le12",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Lelli et al.",
-      "bibcode": "2012A&A...544A.145L",
-      "comment": "",
-      "galaxies": "UGC04483"
-    },
-    {
       "sparc_ref_id": "RA85",
       "n_untouched_frozen_galaxies": 1,
       "n_calibration": 1,
@@ -245,6 +213,38 @@
       "bibcode": "1997A&A...321..754V",
       "comment": "",
       "galaxies": "NGC6015"
+    },
+    {
+      "sparc_ref_id": "VdH93",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "0",
+      "author": "",
+      "bibcode": "",
+      "comment": "",
+      "galaxies": "UGC05750"
+    },
+    {
+      "sparc_ref_id": "Wa97",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Walsh et al",
+      "bibcode": "1997AJ....113.1591W",
+      "comment": "",
+      "galaxies": "NGC0289"
     }
   ],
   "deferred_or_redirected_families": [
@@ -503,6 +503,22 @@
       "bibcode": "...................",
       "comment": "1987, PhD thesis, University of Groningen",
       "galaxies": "NGC6503"
+    },
+    {
+      "sparc_ref_id": "Le14",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "partially_resolved_upstream_split_closed",
+      "disposition": "ugc04483_recovered_ngc4068_redirects_to_already_deferred_sw02",
+      "disposition_artifact": "validation/stationary/lelli2012b_ugc4483_hi_profile_recovery_v1.json",
+      "reopen_rule": "new_machine_readable_or_exact_vector_profile_for_ngc4068_or_documented_source_correction",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Lelli et al.",
+      "bibcode": "2014A&A...566A..71L",
+      "comment": "Cat. J/A+A/566/A71",
+      "galaxies": "NGC4068"
     }
   ],
   "interpretation": "Coverage and actionability are separated. Families with no public overlay remain visible, but audited anti-loop dispositions prevent exhausted or redirected source families from reappearing at the head of the live acquisition queue.",
