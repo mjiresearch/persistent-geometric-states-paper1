@@ -1,0 +1,40 @@
+name: Audit Begeman thesis HI profiles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/audit_begeman1987_thesis_hi_profiles.py'
+      - '.github/workflows/audit_begeman1987_thesis_hi_profiles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet PyMuPDF
+      - name: Audit official Groningen thesis files
+        run: python scripts/stationary/audit_begeman1987_thesis_hi_profiles.py
+      - name: Commit thesis audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/begeman1987_thesis_hi_profile_audit_v1.json
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Audit Begeman thesis HI profiles'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
