@@ -1,0 +1,30 @@
+name: Resolve Tr09 target figure inventory
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/resolve_tr09_target_figure_inventory.py'
+      - '.github/workflows/resolve_tr09_target_figure_inventory.yml'
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/resolve_tr09_target_figure_inventory.py
+      - name: Commit Tr09 target gate
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/tr09_target_figure_inventory_v1.json validation/stationary/tr09_target_figure_inventory_context_v1.txt
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Resolve Tr09 target radial-profile source gate'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
