@@ -1,0 +1,124 @@
+{
+  "status": "GE04_NATIVE_VECTOR_HI_PROFILES_RECOVERED",
+  "source": "Gentile et al. 2004 MNRAS 351 903; astro-ph/0403154",
+  "source_figure": "Figure 2 / fig2.eps",
+  "geometry_input": "validation/stationary/ge04_fig2_axis_geometry_v1.json",
+  "profile_csv": "data/stationary/source_reconstruction/ge04_vector_hi_profiles_v1.csv",
+  "profiles": {
+    "ESO116-G012": {
+      "stationary_role": "blind",
+      "n_profile_points": 14,
+      "source_block": "116readradialgraph.mr.eps",
+      "axis_mapping": {
+        "source_x": [
+          401.0,
+          1823.0
+        ],
+        "radius_arcsec": [
+          0.0,
+          220.0
+        ],
+        "source_y": [
+          328.0,
+          1313.0
+        ],
+        "sigma_hi_msun_pc2": [
+          0.0,
+          10.0
+        ],
+        "arcsec_per_kpc_source_paper": 13.4
+      },
+      "native_grid_qc": {
+        "expected_grid_arcsec": [
+          0.0,
+          60.0,
+          72.0,
+          84.0,
+          96.0,
+          108.0,
+          120.0,
+          132.0,
+          144.0,
+          156.0,
+          168.0,
+          180.0,
+          192.0,
+          204.0
+        ],
+        "max_abs_delta_arcsec": 0.09423347398029591,
+        "passes": true
+      },
+      "table1_rhi_qc": {
+        "definition": "radius where Sigma_HI falls below 1 Msun/pc^2",
+        "interpolated_vector_crossing_arcsec": 150.62456530810962,
+        "interpolated_vector_crossing_kpc_source_scale": 11.240639202097732,
+        "ropt_kpc_paper": 5.4,
+        "rd_kpc_from_ropt_over_3p2": 1.6875,
+        "rhi_over_rd_paper": 6.7,
+        "expected_rhi_kpc_from_table1": 11.30625,
+        "delta_kpc": -0.0656107979022682,
+        "fractional_abs_delta": 0.005803055646413992,
+        "passes": true
+      }
+    },
+    "ESO079-G014": {
+      "stationary_role": "calibration",
+      "n_profile_points": 12,
+      "source_block": "79readradialgraph.mr.eps",
+      "axis_mapping": {
+        "source_x": [
+          401.0,
+          1823.0
+        ],
+        "radius_arcsec": [
+          0.0,
+          190.0
+        ],
+        "source_y": [
+          328.0,
+          1313.0
+        ],
+        "sigma_hi_msun_pc2": [
+          0.0,
+          6.0
+        ],
+        "arcsec_per_kpc_source_paper": 6.8
+      },
+      "native_grid_qc": {
+        "expected_grid_arcsec": [
+          0.0,
+          60.0,
+          72.0,
+          84.0,
+          96.0,
+          108.0,
+          120.0,
+          132.0,
+          144.0,
+          156.0,
+          168.0,
+          180.0
+        ],
+        "max_abs_delta_arcsec": 0.0780590717299674,
+        "passes": true
+      },
+      "table1_rhi_qc": {
+        "definition": "radius where Sigma_HI falls below 1 Msun/pc^2",
+        "interpolated_vector_crossing_arcsec": 127.4914800389484,
+        "interpolated_vector_crossing_kpc_source_scale": 18.748747064551235,
+        "ropt_kpc_paper": 12.4,
+        "rd_kpc_from_ropt_over_3p2": 3.875,
+        "rhi_over_rd_paper": 4.8,
+        "expected_rhi_kpc_from_table1": 18.599999999999998,
+        "delta_kpc": 0.14874706455123743,
+        "fractional_abs_delta": 0.007997154008131046,
+        "passes": true
+      }
+    }
+  },
+  "total_profile_rows": 26,
+  "provenance_rule": "Values are converted only from source-native filled-circle vector marker centers in the authors Figure-2 EPS. Filled circles are explicitly defined in the paper caption as the average radial neutral-hydrogen surface-density profile.",
+  "helium_status": "No helium factor applied. Recovered quantity is Sigma_HI; the paper applies a separate 1.33 factor only when constructing the gaseous mass contribution.",
+  "distance_status": "radius_kpc_source_scale uses the source paper printed angular scales only. No frozen/common distance renormalization has been applied.",
+  "boundary": "Acquisition/provenance only. No raster digitization, PostScript execution, moment-map/cube reconstruction, helium correction, common-grid resampling, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}

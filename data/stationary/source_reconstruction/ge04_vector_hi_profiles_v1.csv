@@ -1,0 +1,27 @@
+galaxy,stationary_role,sample_index,radius_arcsec_vector,radius_arcsec_native_grid,radius_grid_delta_arcsec,radius_kpc_source_scale,sigma_hi_msun_pc2,source_x,source_y,source_marker_line,source_block,source_figure,helium_applied
+ESO116-G012,blind,0,0,0,0,0,5.817258883,401,901,1800,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,1,60.0281294,60,0.02812939522,4.479711149,6.223350254,789,941,1840,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,2,72.01828411,72,0.01828410689,5.374498814,5.314720812,866.5,851.5,1848,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,3,84.08579466,84,0.08579465541,6.275059303,4.573604061,944.5,778.5,1856,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,4,95.99859353,96,-0.001406469761,7.164074144,3.92893401,1021.5,715,1864,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,5,108.0661041,108,0.06610407876,8.064634633,3.47715736,1099.5,670.5,1872,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,6,120.0562588,120,0.05625879044,8.959422298,3.152284264,1177,638.5,1880,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,7,132.0464135,132,0.04641350211,9.854209963,2.578680203,1254.5,582,1888,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,8,144.0365682,144,0.03656821378,10.74899763,1.507614213,1332,476.5,1896,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,9,156.0267229,156,0.02672292546,11.64378529,0.5837563452,1409.5,385.5,1904,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,10,168.0942335,168,0.09423347398,12.54434578,0.2030456853,1487.5,348,1912,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,11,180.0070323,180,0.007032348805,13.43336062,0.08629441624,1564.5,336.5,1920,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,12,192.0745429,192,0.07454289733,14.33392111,0.03553299492,1642.5,331.5,1928,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO116-G012,blind,13,204.0646976,204,0.064697609,15.22870878,0.0152284264,1720,329.5,1936,116readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,0,0,0,0,0,4.958375635,401,1142,1679,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,1,60.05977496,60,0.05977496484,8.832319848,3.962436548,850.5,978.5,1719,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,2,72.01828411,72,0.01828410689,10.59092413,3.919796954,940,971.5,1727,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,3,84.04360056,84,0.04360056259,12.35935302,3.624365482,1030,923,1735,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,4,96.0021097,96,0.002109704641,14.11795731,2.951269036,1119.5,812.5,1743,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,5,108.0274262,108,0.02742616034,15.8863862,2.150253807,1209.5,681,1751,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,6,120.0527426,120,0.05274261603,17.65481509,1.391878173,1299.5,556.5,1759,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,7,132.0780591,132,0.07805907173,19.42324398,0.7583756345,1389.5,452.5,1767,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,8,144.0365682,144,0.03656821378,21.18184827,0.3807106599,1479,390.5,1775,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,9,156.0618847,156,0.06188466948,22.95027716,0.1827411168,1569,358,1783,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,10,168.0203938,168,0.02039381153,24.70888144,0.1005076142,1658.5,344.5,1791,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
+ESO079-G014,calibration,11,180.0457103,180,0.04571026723,26.47731033,0.0578680203,1748.5,337.5,1799,79readradialgraph.mr.eps,Gentile et al. 2004 Figure 2 / fig2.eps,no
