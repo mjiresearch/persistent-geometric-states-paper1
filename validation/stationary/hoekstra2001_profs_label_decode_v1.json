@@ -1,0 +1,15 @@
+{
+  "status": "HOEKSTRA2001_PROFS_LABEL_DECODE_COMPLETE",
+  "n_show_lines": 1,
+  "show_lines": [
+    {
+      "line": 17,
+      "text": "/T {currentlinecap exch 1 setlinecap show setlinecap} def",
+      "literal": [],
+      "hex_decoded": [],
+      "context": "/L {lineto} def /l {rlineto} def /M {moveto} def /m {rmoveto} def\n/P {moveto 0 1 rlineto stroke} def\n/T {currentlinecap exch 1 setlinecap show setlinecap} def\nerrordict /nocurrentpoint {pop 0 0 M currentpoint} put\n/SET_COLOUR statusdict begin /processcolors where"
+    }
+  ],
+  "hex_lines": [],
+  "boundary": "Static PS text parsing only; no execution."
+}
