@@ -1,0 +1,4041 @@
+===== paper.tex:397 =====
+377: Astronomical Image Processing Software (AIPS).
+378: The rest of the reduction was performed in MIRIAD.  
+379: 
+380: Using a number of line-free channels (10 \dots 40) on 
+381: each side of the line, the continuum contribution to the $u-v$ data
+382: was calculated performing a linear fit; this contribution
+383: was then subtracted from the data. Then, 
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+
+===== paper.tex:398 =====
+378: The rest of the reduction was performed in MIRIAD.  
+379: 
+380: Using a number of line-free channels (10 \dots 40) on 
+381: each side of the line, the continuum contribution to the $u-v$ data
+382: was calculated performing a linear fit; this contribution
+383: was then subtracted from the data. Then, 
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+
+===== paper.tex:399 =====
+379: 
+380: Using a number of line-free channels (10 \dots 40) on 
+381: each side of the line, the continuum contribution to the $u-v$ data
+382: was calculated performing a linear fit; this contribution
+383: was then subtracted from the data. Then, 
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+
+===== paper.tex:400 =====
+380: Using a number of line-free channels (10 \dots 40) on 
+381: each side of the line, the continuum contribution to the $u-v$ data
+382: was calculated performing a linear fit; this contribution
+383: was then subtracted from the data. Then, 
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+
+===== paper.tex:401 =====
+381: each side of the line, the continuum contribution to the $u-v$ data
+382: was calculated performing a linear fit; this contribution
+383: was then subtracted from the data. Then, 
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+
+===== paper.tex:402 =====
+382: was calculated performing a linear fit; this contribution
+383: was then subtracted from the data. Then, 
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+
+===== paper.tex:403 =====
+383: was then subtracted from the data. Then, 
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+
+===== paper.tex:404 =====
+384: we produced a data cube with ROBUST parameters \citep{Br:95} ranging 
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+
+===== paper.tex:405 =====
+385: from 0 to 0.3,
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+
+===== paper.tex:406 =====
+386: to reach an ideal compromise between high signal-to-noise ratio and 
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+
+===== paper.tex:407 =====
+387: small beam size;
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+
+===== paper.tex:408 =====
+388: these values correspond to a weighting scheme of the $u-v$ data
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+
+===== paper.tex:409 =====
+389: intermediate between uniform and natural weighting. 
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+
+===== paper.tex:410 =====
+390: The data were then CLEANed, first on a small region with emission
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+
+===== paper.tex:411 =====
+391: and then on the whole map, with a total of 2500 iterations per channel map.
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+
+===== paper.tex:412 =====
+392: The data were then restored with a Gaussian beam.
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+
+===== paper.tex:413 =====
+393: Depending on the galaxies, we obtained beam sizes ranging
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+
+===== paper.tex:414 =====
+394: from $13 \arcsec$ to $33\arcsec$. The observational parameters are listed
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+
+===== paper.tex:415 =====
+395: in Table \ref{observational}.
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+
+===== paper.tex:416 =====
+396: 
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+
+===== paper.tex:417 =====
+397: 
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+
+===== paper.tex:418 =====
+398: \begin{figure*}
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+
+===== paper.tex:419 =====
+399:  \centerline{\psfig{figure=fig1.test.eps,width=17.35cm,angle=90}}
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+
+===== paper.tex:420 =====
+400:   \caption{Optical DSS images (greyscale) superimposed with the
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+
+===== paper.tex:421 =====
+401:   H{\sc i} total intensity map (contours). The first contour is
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+
+===== paper.tex:422 =====
+402:   the ``pseudo 3-$\sigma$'' defined similarly to \citet{V&S:01} and 
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+
+===== paper.tex:423 =====
+403:   is equal to: $1.0 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 116-G12; 
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+
+===== paper.tex:424 =====
+404: $1.1 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 287-G13;
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+
+===== paper.tex:425 =====
+405: $1.7 \times 10^{20} {\rm atom~ cm}^{-2}$ for ESO 79-G14;
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+
+===== paper.tex:426 =====
+406: $1.5 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 1090;
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+
+===== paper.tex:427 =====
+407: $3.4 \times 10^{20} {\rm atom~ cm}^{-2}$ for NGC 7339;
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+
+===== paper.tex:428 =====
+408: the remaining contours are (15, 30, 45,...)~$\times~ \sigma$, except for
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+
+===== paper.tex:429 =====
+409: NGC 1090 and NGC 7339 where they are (6, 12, 18,...)~$\times~ \sigma$.
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+
+===== paper.tex:430 =====
+410: The beam is shown in the upper left corner.
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+
+===== paper.tex:431 =====
+411: }
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+
+===== paper.tex:432 =====
+412: \label{radopt2}
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+
+===== paper.tex:433 =====
+413: \end{figure*}
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+
+===== paper.tex:434 =====
+414: 
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+
+===== paper.tex:435 =====
+415: \begin{figure}
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+
+===== paper.tex:436 =====
+416:   \centerline{\psfig{figure=fig2.eps,width=6.85cm}}
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+
+===== paper.tex:437 =====
+417:   \caption{Radial distribution of the neutral hydrogen surface density
+418: ($\Sigma_{\rm HI}$):  
+419: the filled triangles denote the approaching side,
+420: the empty triangles the receding side and the filled circles 
+421: the average. The solid line refers to the ratio 
+422: ${\rm M}_{\rm HI}(<r)/r$, where ${\rm M}_{\rm HI}(<r)$ is the H{\sc i} mass inside
+423: radius $r$.
+424:  }
+425: \label{raddens}
+426: \end{figure}
+427: 
+428: \begin{figure*}
+429:   \centerline{\psfig{figure=fig3.test.eps,width=17.7cm}}
+430: \caption{A typical spectrum of the galaxy ESO 79-G14 
+431: at an intermediate galactocentric distance.
+432: The arrows indicate the systemic velocity as well as the positions of the 
+433: velocities derived from the MET/WAMET method, the first-moment
+434: analysis and by fitting
+435: a single Gaussian to the profiles.}
+436: \label{spectrum}
+437: \end{figure*}
+438: 
+439: \section{Data analysis}
+440: 
+441: From the CLEANed cubes, new cubes with lower resolution were constructed
+442: (with a beam size about twice the original). This was done in order to distinguish 
+443: genuine emission from spurious one; we considered as having reliable emission all the regions with an
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+
+===== paper.tex:464 =====
+444: intensity $> 2 \times \sigma$ in the low-resolution cube;
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+
+===== paper.tex:465 =====
+445: spurious noise was also removed. 
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+
+===== paper.tex:466 =====
+446: Moment-0 maps (total intensity maps) were derived based on the ``masked'' cubes. They are shown in
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+
+===== paper.tex:467 =====
+447: Fig.~\ref{radopt2}, superimposed with optical DSS images. The first contour
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+
+===== paper.tex:468 =====
+448: is the ``pseudo 3-$\sigma$'' level defined in a way similar to \citet{V&S:01}:
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+
+===== paper.tex:469 =====
+449: we define the noise at a certain position in
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+
+===== paper.tex:470 =====
+450: the total intensity map as:
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+
+===== paper.tex:471 =====
+451: 
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+
+===== paper.tex:472 =====
+452: \begin{equation}
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+
+===== paper.tex:473 =====
+453: \sigma_N^h=\left(\frac{N}{2}-\frac{1}{8}\right)^{\frac{1}{2}}
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+
+===== paper.tex:474 =====
+454: \frac{4}{\sqrt{6}} \sigma^h
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+
+===== paper.tex:475 =====
+455: \end{equation}
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+
+===== paper.tex:476 =====
+456: 
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+
+===== paper.tex:477 =====
+457: where $N$ is the number of channels that have been added at each position 
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+
+===== paper.tex:478 =====
+458: in the total intensity map and $\sigma^h$ is the noise in the 
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+
+===== paper.tex:479 =====
+459: Hanning-smoothed channel maps. The ``pseudo 3-$\sigma$'' level is
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+
+===== paper.tex:480 =====
+460: obtained by averaging all the pixels with a signal-to-noise ratio
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+
+===== paper.tex:481 =====
+461: between 2.75 and 3.25. 
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+
+===== paper.tex:482 =====
+462: 
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+
+===== paper.tex:483 =====
+463: \section{Observational results}
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+
+===== paper.tex:484 =====
+464: 
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+
+===== paper.tex:485 =====
+465: From Fig.~\ref{radopt2} we note that the galaxies 
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+
+===== paper.tex:486 =====
+466: have a relatively high inclination
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+
+===== paper.tex:487 =====
+467: and the {H{\sc i}} emission has a large (up to $\sim$ 3 times) extent compared to the
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+
+===== paper.tex:488 =====
+468: optical disc. 
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+
+===== paper.tex:489 =====
+469: The {H{\sc i}} masses ($M_{\rm HI}$) given in Table \ref{physical} were
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+
+===== paper.tex:490 =====
+470: calculated from the total intensity maps after primary-beam 
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+
+===== paper.tex:491 =====
+471: correction using the following relation:
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+
+===== paper.tex:492 =====
+472: 
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+
+===== paper.tex:493 =====
+473: \begin{equation}
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+
+===== paper.tex:494 =====
+474: M_{\rm HI}=2.36 \times 10^5 D^2 \int S {\rm d} V
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+
+===== paper.tex:495 =====
+475: \end{equation}
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+
+===== paper.tex:496 =====
+476: 
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+
+===== paper.tex:497 =====
+477: where $M_{\rm HI}$ is in ${\rm M}_{\odot}$, $D$ is the distance of the galaxy in Mpc
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+
+===== paper.tex:498 =====
+478: and $\int S {\rm d} V$ is the total {H{\sc i}}
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+518: represents the extreme edge-on case: the galaxies studied
+
+===== paper.tex:499 =====
+479: flux density in the total intensity map, measured in Jy km s$^{-1}$.
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+518: represents the extreme edge-on case: the galaxies studied
+519: here were chosen to have lower inclinations, so the portion of 
+
+===== paper.tex:500 =====
+480: The {H{\sc i}} masses are in agreement
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+518: represents the extreme edge-on case: the galaxies studied
+519: here were chosen to have lower inclinations, so the portion of 
+520: the disc intercepted by the line-of-sight is smaller.
+
+===== paper.tex:501 =====
+481: with previous single-dish measurements to within 20\%, implying that we are not
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+518: represents the extreme edge-on case: the galaxies studied
+519: here were chosen to have lower inclinations, so the portion of 
+520: the disc intercepted by the line-of-sight is smaller.
+521: 
+
+===== paper.tex:502 =====
+482: losing much extended emission due to missing zero spacings.
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+518: represents the extreme edge-on case: the galaxies studied
+519: here were chosen to have lower inclinations, so the portion of 
+520: the disc intercepted by the line-of-sight is smaller.
+521: 
+522: \begin{figure}
+
+===== paper.tex:503 =====
+483: 
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+518: represents the extreme edge-on case: the galaxies studied
+519: here were chosen to have lower inclinations, so the portion of 
+520: the disc intercepted by the line-of-sight is smaller.
+521: 
+522: \begin{figure}
+523:   \centerline{\psfig{figure=fig4.eps,width=8.85cm}}
+
+===== paper.tex:504 =====
+484: The radial distribution of the neutral hydrogen surface density
+485: is computed by integrating the total intensity map over concentric ellipses 
+486: for NGC 1090 and 
+487: by means of the Lucy method \citep{W:88}
+488: for the other galaxies. The results are shown in Fig.~\ref{raddens}, where
+489: one can notice that the data reach the region where ${\rm M}_{\rm HI}(<r)/r$
+490: starts to decrease.
+491: 
+492: Since the velocity field of NGC 1090 is sufficiently sampled,
+493: it could be subjected to tilted-ring modelling \citep{B:89}. 
+494: In this case the MET method was applied
+495: (see the next Section) to construct the velocity field and then the first estimate of the 
+496: rotation curve was derived by performing a tilted-ring fit to the velocity
+497: field.
+498: In the other cases the combination of high inclination
+499: and a large beam (compared to the size of the galaxy)
+500: requires the use of the WAMET method:
+501: we traced the rotation curve 
+502: along the warp on points defined like in \citet{G:02} and
+503: implemented for studies of the kinematics by \citet{V:04} on the total 
+504: intensity map,
+505: we fit Gaussians to the density profiles parallel the minor axis,
+506: defining the position of the peak of the Gaussian as the ``ridge'' of the warp. 
+507: 
+508: Concerning the analysis of the velocity profiles, particular
+509: care was taken in deriving the rotation velocity because
+510: they were in general asymmetric.
+511: In Fig.~\ref {spectrum} we show an example of a 
+512: typical profile at an intermediate galactocentric distance: it
+513: is not symmetric and it has a tail towards the systemic velocity. This
+514: is what we expect in case of a highly inclined galaxy,
+515: because (see Fig.~\ref {plane}) what we observe is the integration along 
+516: a large portion of the disc, so that material with lower radial velocities
+517: also contributes to the velocity profile. Note, however, that Fig.~\ref {plane}
+518: represents the extreme edge-on case: the galaxies studied
+519: here were chosen to have lower inclinations, so the portion of 
+520: the disc intercepted by the line-of-sight is smaller.
+521: 
+522: \begin{figure}
+523:   \centerline{\psfig{figure=fig4.eps,width=8.85cm}}
+524: \caption{Model of the radial velocities in the plane of the galaxy
+
+===== paper.tex:696 =====
+676:   \centerline{\psfig{figure=fig7.eps,width=16.3cm}}
+677:   \caption{H$\alpha$ (filled circles) and H{\sc i} (empty circles)
+678: rotation curves projected onto the H{\sc i} position-velocity diagram
+679: along the major axis.
+680: The contours are n $\times~ \sigma$, with n=2,4,6,... 
+681:  }
+682: \label{pvrc2}
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+
+===== paper.tex:697 =====
+677:   \caption{H$\alpha$ (filled circles) and H{\sc i} (empty circles)
+678: rotation curves projected onto the H{\sc i} position-velocity diagram
+679: along the major axis.
+680: The contours are n $\times~ \sigma$, with n=2,4,6,... 
+681:  }
+682: \label{pvrc2}
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+
+===== paper.tex:698 =====
+678: rotation curves projected onto the H{\sc i} position-velocity diagram
+679: along the major axis.
+680: The contours are n $\times~ \sigma$, with n=2,4,6,... 
+681:  }
+682: \label{pvrc2}
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+
+===== paper.tex:699 =====
+679: along the major axis.
+680: The contours are n $\times~ \sigma$, with n=2,4,6,... 
+681:  }
+682: \label{pvrc2}
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+
+===== paper.tex:700 =====
+680: The contours are n $\times~ \sigma$, with n=2,4,6,... 
+681:  }
+682: \label{pvrc2}
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+
+===== paper.tex:701 =====
+681:  }
+682: \label{pvrc2}
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+721: In two cases (ESO 287-G13 and NGC 1090, the galaxies with the steepest rotation curves) the 
+
+===== paper.tex:702 =====
+682: \label{pvrc2}
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+721: In two cases (ESO 287-G13 and NGC 1090, the galaxies with the steepest rotation curves) the 
+722: rotation curve derived with MET/WAMET had to be slightly modified in order to better reproduce
+
+===== paper.tex:703 =====
+683: \end{figure*}
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+721: In two cases (ESO 287-G13 and NGC 1090, the galaxies with the steepest rotation curves) the 
+722: rotation curve derived with MET/WAMET had to be slightly modified in order to better reproduce
+723: the observed data cubes. We found out that it was necessary to increase the value of the 
+
+===== paper.tex:704 =====
+684: 
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+721: In two cases (ESO 287-G13 and NGC 1090, the galaxies with the steepest rotation curves) the 
+722: rotation curve derived with MET/WAMET had to be slightly modified in order to better reproduce
+723: the observed data cubes. We found out that it was necessary to increase the value of the 
+724: rotation velocity of the 2--3 innermost 
+
+===== paper.tex:705 =====
+685: \begin{figure*}
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+721: In two cases (ESO 287-G13 and NGC 1090, the galaxies with the steepest rotation curves) the 
+722: rotation curve derived with MET/WAMET had to be slightly modified in order to better reproduce
+723: the observed data cubes. We found out that it was necessary to increase the value of the 
+724: rotation velocity of the 2--3 innermost 
+725: points by values of the order of their $1~ \sigma$ error; this is probably due to the fact that,
+
+===== paper.tex:706 =====
+686:   \centerline{\psfig{figure=fig8.eps,width=17.7cm}}
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+721: In two cases (ESO 287-G13 and NGC 1090, the galaxies with the steepest rotation curves) the 
+722: rotation curve derived with MET/WAMET had to be slightly modified in order to better reproduce
+723: the observed data cubes. We found out that it was necessary to increase the value of the 
+724: rotation velocity of the 2--3 innermost 
+725: points by values of the order of their $1~ \sigma$ error; this is probably due to the fact that,
+726: even with the MET/WAMET method, when the rotation curve rises steeply we are not able
+
+===== paper.tex:707 =====
+687:   \caption{The rotation curves: the H$\alpha$ (filled circles)
+688: rotation curves, the {H{\sc i}}  
+689: corrected MET/WAMET rotation curves (filled triangles) and
+690: the {H{\sc i}} first-moment analysis rotation curves (empty circles).
+691: The line connects the points of the corrected MET/WAMET rotation curves.
+692:  }
+693: \label{rc}
+694: \end{figure*}
+695: 
+696: 
+697: In order to derive the rotation curves, we applied the tilted-ring 
+698: modelling of the velocity field for NGC 1090. For the other galaxies we determined the kinematical 
+699: centre and the systemic velocity by minimising the differences between the two
+700: sides. The errors are the maximum of the three following values: the difference
+701: between the velocities of the approaching and the receding sides, our correction for 
+702: beam broadening of the profiles, and a ``minimum error'' 
+703: equal to ($2/sin~i$) km s$^{-1}$.
+704: 
+705: The MET/WAMET rotation curve served as an input to 
+706: construct model data cubes with the task GALMOD within GIPSY \citep{vdH:92}; 
+707: these models
+708: have been then compared to the observed data cubes. 
+709: Such models are built with the assumption that the neutral hydrogen moves along
+710: circular orbits; a series of geometrical and physical parameters, among which
+711: the rotation curve, allows us to create model observations of the {H{\sc i}}
+712: discs. These models, when compared to the real data cubes,
+713: verify whether they are a fair representation of the {H{\sc i}} disc.
+714: Some input parameters are inferred directly from the observations and
+715: kept fixed (e.g., the
+716: surface density profile), while others (e.g., the kinematical 
+717: centre and the systemic velocity) are first estimated from the
+718: observations and then adjusted in order to optimise the match between
+719: the observed and the model cubes.
+720: 
+721: In two cases (ESO 287-G13 and NGC 1090, the galaxies with the steepest rotation curves) the 
+722: rotation curve derived with MET/WAMET had to be slightly modified in order to better reproduce
+723: the observed data cubes. We found out that it was necessary to increase the value of the 
+724: rotation velocity of the 2--3 innermost 
+725: points by values of the order of their $1~ \sigma$ error; this is probably due to the fact that,
+726: even with the MET/WAMET method, when the rotation curve rises steeply we are not able
+727: to retrieve precisely the true rotation velocity; this is however possible by modelling the data cube. 
