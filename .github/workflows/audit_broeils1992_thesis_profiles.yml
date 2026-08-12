@@ -1,0 +1,46 @@
+name: Audit Broeils 1992 thesis HI profiles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/audit_broeils1992_thesis_profiles.py'
+      - '.github/workflows/audit_broeils1992_thesis_profiles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF inspection dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          python -m pip install --quiet PyMuPDF
+      - name: Audit official/archived Broeils thesis
+        run: python scripts/stationary/audit_broeils1992_thesis_profiles.py
+      - name: Commit bounded thesis audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/broeils1992_thesis_profile_audit_v1.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Audit Broeils 1992 thesis HI profiles'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
