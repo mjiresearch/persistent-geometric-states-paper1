@@ -1,0 +1,21 @@
+{
+  "status": "HA14_IDL_V2_BLACK_SEGMENT_STITCH_COMPLETE",
+  "asset_sha256": "40c1b8d7e2690d0c884fff56e000be8ffb2eac598278512c17896c9d29cf58f7",
+  "tolerance_source_units": 18.0,
+  "n_relative_moves_N": 0,
+  "panels": {
+    "UGC09037": {
+      "n_segments": 1666,
+      "exact_candidates": [],
+      "tolerant_candidates": [],
+      "large_individual_segments": []
+    },
+    "UGC12506": {
+      "n_segments": 1958,
+      "exact_candidates": [],
+      "tolerant_candidates": [],
+      "large_individual_segments": []
+    }
+  },
+  "boundary": "Corrected static M/N/R/P IDL source geometry only; no PostScript execution, OCR, raster digitization, normalization, persistence fitting, or blind-outcome inspection."
+}
