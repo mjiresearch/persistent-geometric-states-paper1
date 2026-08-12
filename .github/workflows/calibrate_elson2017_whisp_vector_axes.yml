@@ -31,17 +31,22 @@ jobs:
           p='validation/stationary/elson2017_whisp_vector_axis_calibration_v1.json'
           d=json.load(open(p))
           print('STATUS', d['status'])
-          print('TARGETS', d['n_targets'])
+          print('TARGETS', d['n_targets'], 'WITH_CANDIDATE', d['n_with_candidate'], 'UNSOLVED', d['unsolved_galaxies'])
           for r in d['targets']:
               b=r['best']
+              if b is None:
+                  print(r['galaxy'], r['stationary_role'], 'NO_CANDIDATE',
+                        'valid_samples', r['search_valid_samples'],
+                        'a_range', r['search_a_min'], r['search_a_max'])
+                  continue
               print(r['galaxy'], r['stationary_role'],
-                    'roots', len(r['candidates']),
+                    'candidates', len(r['candidates']),
                     'a', round(b['kpc_per_pdf_x'],6),
                     'b', round(b['sigma_per_pdf_y'],6),
                     'xtick', None if b['x_tick_kpc'] is None else round(b['x_tick_kpc'],5),
                     'ytick', None if b['y_tick_sigma'] is None else round(b['y_tick_sigma'],5),
                     'score', round(b['nice_score'],5),
-                    'mean', round(b['mean_pred'],5), '/', r['source_mean_sigma_hi_3p2h'])
+                    'meanerr', round(b['mean_abs_error'],6))
           PY
       - name: Commit calibration audit
         run: |
