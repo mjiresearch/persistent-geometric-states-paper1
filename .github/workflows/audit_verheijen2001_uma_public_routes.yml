@@ -31,5 +31,14 @@ jobs:
             echo 'No changes'
           else
             git commit -m 'Audit Verheijen 2001 UMa HI public routes'
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Push attempt ${attempt} lost a race; retrying after refresh"
+              sleep 2
+            done
+            echo 'Failed to publish audit after 3 synchronized push attempts'
+            exit 1
           fi
