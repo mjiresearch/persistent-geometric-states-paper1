@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 91,
   "n_reference_families_covering_untouched": 39,
-  "n_actionable_reference_families": 14,
-  "n_deferred_or_redirected_reference_families": 25,
+  "n_actionable_reference_families": 13,
+  "n_deferred_or_redirected_reference_families": 26,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "VB99",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "0",
-      "author": "",
-      "bibcode": "",
-      "comment": "",
-      "galaxies": "UGC00128"
-    },
     {
       "sparc_ref_id": "VM97",
       "n_untouched_frozen_galaxies": 1,
@@ -631,6 +615,22 @@
       "bibcode": "1985A&A...146..213R",
       "comment": "",
       "galaxies": "UGC02885"
+    },
+    {
+      "sparc_ref_id": "VB99",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "redirect_existing_source_family",
+      "disposition": "downstream_UGC128_rotation_curve_decomposition_uses_same_van_der_Hulst1993_HI_source_already_audited_as_VH93",
+      "disposition_artifact": "validation/stationary/vb99_ugc128_provenance_redirect_v1.json",
+      "reopen_rule": "reopen_only_for_a_genuinely_new_machine_readable_radial_table_exact_native_vector_direct_profile_array_or_documented_independent_HI_source_for_UGC00128",
+      "reference_resolved_in_cds_refs": "0",
+      "author": "",
+      "bibcode": "",
+      "comment": "",
+      "galaxies": "UGC00128"
     }
   ],
   "interpretation": "Coverage and actionability are separated. Families with no public overlay remain visible, but audited anti-loop dispositions prevent exhausted or redirected source families from reappearing at the head of the live acquisition queue.",

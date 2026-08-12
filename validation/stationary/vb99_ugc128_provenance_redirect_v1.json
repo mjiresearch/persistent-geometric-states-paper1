@@ -1,0 +1,62 @@
+{
+  "status": "VB99_UGC00128_REDIRECT_TO_VH93_CONFIRMED",
+  "galaxy": "UGC00128",
+  "stationary_role": "calibration",
+  "sparc_ref_id": "VB99",
+  "vb99_resolution": {
+    "reference": "Verheijen & de Blok 1999, The HSB/LSB Galaxies NGC 2403 and UGC 128",
+    "publication": "Astrophysics and Space Science 269, 673-674",
+    "doi": "10.1023/A:1017015229229",
+    "scope": "two-page rotation-curve decomposition/comparison; not treated as an independent 21-cm observing source"
+  },
+  "sparc_dual_reference": {
+    "VB99": {
+      "galaxy": "UGC00128",
+      "stationary_role": "calibration",
+      "sparc_ref_id": "VB99",
+      "reference_resolved_in_cds_refs": "0",
+      "author": "",
+      "bibcode": "",
+      "comment": "",
+      "provenance_scope": "SPARC_Table1_column15_HI_Halpha_reference"
+    },
+    "VH93": {
+      "galaxy": "UGC00128",
+      "stationary_role": "calibration",
+      "sparc_ref_id": "VH93",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "van der Hulst et al.",
+      "bibcode": "1993AJ....106..548V",
+      "comment": "",
+      "provenance_scope": "SPARC_Table1_column15_HI_Halpha_reference"
+    },
+    "interpretation": "SPARC/Lelli lists both VB99 and VH93 for the same frozen UGC00128 calibration target."
+  },
+  "upstream_provenance_check": {
+    "source": "de Blok & McGaugh 1996, Does low surface brightness mean low surface density?, arXiv:astro-ph/9607042",
+    "source_url": "https://arxiv.org/src/astro-ph/9607042",
+    "source_sha256": "4b5f1fa9adfcaa86ffee9685115f1c0b70d9d846a69ab9cdca247d61df275064",
+    "matching_contexts": [
+      {
+        "file": "Comparison2.tex",
+        "match": "face-on assuming the disks are optically thin. As both galaxies have almost identical inclinations (60$\\arcdeg$ for NGC 2403 and 57$\\arcdeg$ for UGC 128) any systematic error in these corrections will affect both surface brightnesses equally. The data from NGC 2403 were taken from Begeman (1987) and Kent (1987), those for UGC 128 from van der Hulst et al.\\ (1993). NGC 2403 is at a distance of 3.3 Mpc, while UGC 128 is at 60 Mpc. Both galaxies have well-defined rotation curves; that of NGC 2403 was derived with a beam of $45\\arcsec \\times 45\\arcsec$, while the rotation curve of UGC 128 was derived using a"
+      },
+      {
+        "file": "Comparison2.tex",
+        "match": "a large difference in surface brightness. NGC 2403 has a central surface brightness of 21.4 $B$-mag arcsec$^{-2}$, and is therefore representative of the group of galaxies that obeys Freeman's Law (Freeman 1970). The central surface brightness of UGC 128 is 24.2 $B$-mag arcsec$^{-2}$. It belongs to the group of LSB disk galaxies that have been extensively described in van der Hulst et al.\\ (1993), McGaugh \\& Bothun (1994), de Blok, van der Hulst \\& Bothun (1995) and de Blok, McGaugh \\& van der Hulst (1996). The central surface brightness values are corrected towards face-on assuming the disks are optically thin. As both galaxies have almo"
+      },
+      {
+        "file": "Comparison2.tex",
+        "match": "identical inclinations (60$\\arcdeg$ for NGC 2403 and 57$\\arcdeg$ for UGC 128) any systematic error in these corrections will affect both surface brightnesses equally. The data from NGC 2403 were taken from Begeman (1987) and Kent (1987), those for UGC 128 from van der Hulst et al.\\ (1993). NGC 2403 is at a distance of 3.3 Mpc, while UGC 128 is at 60 Mpc. Both galaxies have well-defined rotation curves; that of NGC 2403 was derived with a beam of $45\\arcsec \\times 45\\arcsec$, while the rotation curve of UGC 128 was derived using a"
+      }
+    ],
+    "conclusion": "The related UGC128 comparison literature explicitly attributes UGC128 data to van der Hulst et al. 1993."
+  },
+  "existing_vh93_state": {
+    "artifact": "validation/stationary/VH93_PUBLIC_PROFILE_ROUTE_AUDIT_V1.md",
+    "conclusion": "VH93 directly publishes the UGC00128 radial H I surface-density profile in Figure 2, but the currently recovered public profile values are figure-scan only; no exact numerical/native-vector route was found."
+  },
+  "decision": "Redirect VB99 to existing VH93 source state; do not repeat VH93 public scan/table searches under the VB99 label.",
+  "reopen_rule": "reopen_only_for_a_genuinely_new_machine_readable_radial_table_exact_native_vector_direct_profile_array_or_documented_independent_HI_source_for_UGC00128",
+  "boundary": "No raster digitization, map/cube reconstruction, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}

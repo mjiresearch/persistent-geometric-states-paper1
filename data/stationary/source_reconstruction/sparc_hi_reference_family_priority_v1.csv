@@ -1,5 +1,4 @@
 sparc_ref_id,n_untouched_frozen_galaxies,n_calibration,n_blind,queue_actionable_now,queue_status,disposition,disposition_artifact,reopen_rule,reference_resolved_in_cds_refs,author,bibcode,comment,galaxies
-VB99,1,1,0,1,actionable_unreviewed,,,,0,,,,UGC00128
 VM97,1,1,0,1,actionable_unreviewed,,,,1,Verdes-Montenegro et al.,1997A&A...321..754V,,NGC6015
 VdH93,1,1,0,1,actionable_unreviewed,,,,0,,,,UGC05750
 Wa97,1,1,0,1,actionable_unreviewed,,,,1,Walsh et al,1997AJ....113.1591W,,NGC0289
@@ -38,3 +37,4 @@ El10,1,1,0,0,deferred_public_route_exhausted,original_ATCA_HI_profile_published_
 JC90,1,1,0,0,redirect_existing_source_family,same_original_NGC3109_HI_source_already_exhaustively_audited_through_Be91_branch,validation/stationary/BE91_ORIGINAL_SOURCE_PROFILE_DISPOSITION_V1.md,reopen_only_for_genuinely_new_machine_readable_vector_or_fully_specified_analytic_NGC3109_HI_profile_route,1,Jobin and Carignan,1990AJ....100..648J,,NGC3109
 Le14,1,1,0,0,partially_resolved_upstream_split_closed,ugc04483_recovered_ngc4068_redirects_to_already_deferred_sw02,validation/stationary/lelli2012b_ugc4483_hi_profile_recovery_v1.json,new_machine_readable_or_exact_vector_profile_for_ngc4068_or_documented_source_correction,1,Lelli et al.,2014A&A...566A..71L,Cat. J/A+A/566/A71,NGC4068
 RA85,1,1,0,0,defer_until_new_mechanism,original_RA85_target_confirmed_but_later_direct_WSRT_profile_public_only_as_JPEG_no_numeric_or_vector_asset,validation/stationary/ra85_hunter2013_ugc2885_profile_route_v1.json,new_machine_readable_author_table_exact_native_vector_public_profile_array_or_calibrated_HI_map_cube_with_predeclared_reconstruction_protocol,1,Roelfsema and Allen,1985A&A...146..213R,,UGC02885
+VB99,1,1,0,0,redirect_existing_source_family,downstream_UGC128_rotation_curve_decomposition_uses_same_van_der_Hulst1993_HI_source_already_audited_as_VH93,validation/stationary/vb99_ugc128_provenance_redirect_v1.json,reopen_only_for_a_genuinely_new_machine_readable_radial_table_exact_native_vector_direct_profile_array_or_documented_independent_HI_source_for_UGC00128,0,,,,UGC00128
