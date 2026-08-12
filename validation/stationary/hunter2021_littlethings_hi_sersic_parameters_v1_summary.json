@@ -1,5 +1,5 @@
 {
-  "status": "PUBLIC_HI_SERSIC_PARAMETERS_ACQUIRED",
+  "status": "PUBLIC_HI_SERSIC_MODELS_ACQUIRED",
   "source_catalog": "J/AJ/161/71",
   "source_rows": 40,
   "n_frozen_matches": 4,
@@ -49,7 +49,10 @@
     "Mrk 178",
     "VIIZw403"
   ],
-  "formula_boundary": "Fit parameters are source data, but no analytic Sigma_HI(R) is instantiated until Hunter et al.'s exact Sersic functional convention is verified from the primary paper.",
+  "profile_formula": "Sigma_HI(R)=Sigma0*exp[-(R/R0)^(1/n)]",
+  "formula_verification": "Verified directly from Hunter et al. 2021 arXiv source 2012.00146: I(R)=I0 exp[-(R/R0)^(1/n)].",
+  "helium_boundary": "No helium correction or back-conversion is applied until the Hunter source convention is explicitly verified and the global Paper I helium rule is frozen.",
+  "normalization_boundary": "No source-to-frozen distance rescaling, inclination rescaling, common-grid interpolation, extrapolation, taper, or persistence evaluation performed.",
   "split_sha256": "eceac43dc287326eb126b150a940d6681b4bbfe0015e5efc8ef4769876f9a9d1",
-  "output_sha256": "fd14e7471c591defe76ac690e7ea7fac56a78500c24477749cdbf5c07286dc6c"
+  "output_sha256": "7115f78c6d1d32a6ce18ee26d6f38306a9f2c402d53b0c40c5b9c25ebfe2d91a"
 }
