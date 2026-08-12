@@ -1,0 +1,53 @@
+name: Disposition VB99 and rerank
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/disposition_vb99_ugc128_to_vh93.py'
+      - '.github/workflows/disposition_vb99_and_rerank.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  disposition:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Resolve VB99 and redirect to existing VH93 state
+        run: python scripts/stationary/disposition_vb99_ugc128_to_vh93.py
+      - name: Rerank Lelli source families
+        run: python scripts/stationary/rank_sparc_hi_reference_families.py
+      - name: Update ledger checkpoint
+        run: python scripts/stationary/update_project_ledger_hi_checkpoint.py
+      - name: Commit disposition and rerank race-safe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv \
+                  data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv \
+                  validation/stationary/sparc_hi_reference_family_priority_v1_summary.json \
+                  validation/stationary/vb99_ugc128_provenance_redirect_v1.json \
+                  validation/stationary/CHECKPOINT_VB99_REDIRECT_TO_VH93.md \
+                  PROJECT_LEDGER.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Redirect VB99 UGC128 to existing VH93 source state and rerank'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/stationary/disposition_vb99_ugc128_to_vh93.py
+            python scripts/stationary/rank_sparc_hi_reference_families.py
+            python scripts/stationary/update_project_ledger_hi_checkpoint.py
+            git add data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv validation/stationary/sparc_hi_reference_family_priority_v1_summary.json validation/stationary/vb99_ugc128_provenance_redirect_v1.json validation/stationary/CHECKPOINT_VB99_REDIRECT_TO_VH93.md PROJECT_LEDGER.md
+            git commit -m 'Redirect VB99 UGC128 to existing VH93 source state and rerank' || true
+            sleep 2
+          done
+          exit 1
