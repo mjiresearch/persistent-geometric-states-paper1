@@ -1,0 +1,11 @@
+{
+  "status": "BLUEDISK_SPARC_COORDINATE_CROSSMATCH_COMPLETE",
+  "n_bluedisk_overview": 50,
+  "n_bluedisk_observed": 49,
+  "n_sparc_coordinate_rows": 175,
+  "match_radius_arcsec": 15.0,
+  "n_sparc_matches_within_radius": 0,
+  "n_frozen_149_matches": 0,
+  "frozen_matches": [],
+  "boundary": "No H I profile row is promoted unless coordinate identity is unambiguous and frozen membership is confirmed. No persistence quantity evaluated."
+}
