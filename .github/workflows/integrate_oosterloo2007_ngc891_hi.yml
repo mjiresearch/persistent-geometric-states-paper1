@@ -1,0 +1,53 @@
+name: Integrate Oosterloo 2007 NGC891 HI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stationary/recover_oosterloo2007_ngc891_analytic_hi.py'
+      - 'scripts/stationary/integrate_oosterloo2007_ngc891_into_overlay.py'
+      - '.github/workflows/integrate_oosterloo2007_ngc891_hi.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recover exact published NGC891 analytic H I profile
+        run: python scripts/stationary/recover_oosterloo2007_ngc891_analytic_hi.py
+      - name: Integrate analytic profile into public-source overlay
+        run: python scripts/stationary/integrate_oosterloo2007_ngc891_into_overlay.py
+      - name: Reconcile frozen-149 provenance
+        run: python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+      - name: Re-rank Lelli source families
+        run: python scripts/stationary/rank_sparc_hi_reference_families.py
+      - name: Commit acquisition state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            data/stationary/source_reconstruction/oosterloo2007_ngc891_hi_analytic_profile_v1.csv \
+            validation/stationary/oosterloo2007_ngc891_hi_analytic_profile_v1.json \
+            data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv \
+            data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv \
+            validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json \
+            data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv \
+            validation/stationary/sparc_hi_reference_family_priority_v1_summary.json
+          if git diff --cached --quiet; then echo 'No generated changes'; else
+            git commit -m 'Integrate NGC891 analytic H I profile'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 2
+            done
+            exit 1
+          fi
