@@ -1,0 +1,252 @@
+{
+  "status": "PUBLIC_SUPPLEMENT_INSPECTED",
+  "article_doi": "10.1093/mnras/stw3285",
+  "outer_zip_sha256": "967110269d59357ee3a94d1d6e46c2402aef38da3f674180d42044ceaf094173",
+  "outer_zip_bytes": 18512,
+  "n_recursive_members": 39,
+  "ddo168_name_matches": [
+    {
+      "path": "results.zip::finalrot/ddo168_onlinetab.txt",
+      "size": 2123,
+      "compressed_size": 860,
+      "is_dir": false
+    }
+  ],
+  "members": [
+    {
+      "path": "BTFR_data.txt",
+      "size": 2732,
+      "compressed_size": 1052,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip",
+      "size": 23473,
+      "compressed_size": 17166,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/",
+      "size": 0,
+      "compressed_size": 0,
+      "is_dir": true
+    },
+    {
+      "path": "results.zip::finalrot/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/",
+      "size": 0,
+      "compressed_size": 0,
+      "is_dir": true
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/",
+      "size": 0,
+      "compressed_size": 0,
+      "is_dir": true
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._.DS_Store",
+      "size": 120,
+      "compressed_size": 52,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/cvidwa_onlinetab.txt",
+      "size": 1474,
+      "compressed_size": 644,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._cvidwa_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo101_onlinetab.txt",
+      "size": 1583,
+      "compressed_size": 637,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo126_onlinetab.txt",
+      "size": 2121,
+      "compressed_size": 901,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo126_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo133_onlinetab.txt",
+      "size": 2122,
+      "compressed_size": 851,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo133_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo154_onlinetab.txt",
+      "size": 3311,
+      "compressed_size": 1196,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo210_onlinetab.txt",
+      "size": 1382,
+      "compressed_size": 613,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo210_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo216_onlinetab.txt",
+      "size": 1814,
+      "compressed_size": 729,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo216_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo47_onlinetab.txt",
+      "size": 2144,
+      "compressed_size": 887,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo47_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo50_onlinetab.txt",
+      "size": 3310,
+      "compressed_size": 1217,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo50_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo53_onlinetab.txt",
+      "size": 1474,
+      "compressed_size": 633,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo87_onlinetab.txt",
+      "size": 1798,
+      "compressed_size": 730,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ngc1569_onlinetab.txt",
+      "size": 1696,
+      "compressed_size": 773,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ngc1569_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ngc2366_onlinetab.txt",
+      "size": 2987,
+      "compressed_size": 1135,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ngc2366_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ugc8508_onlinetab.txt",
+      "size": 1884,
+      "compressed_size": 836,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ugc8508_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/wlm_onlinetab.txt",
+      "size": 3092,
+      "compressed_size": 1109,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._wlm_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo216b_onlinetab.txt",
+      "size": 1637,
+      "compressed_size": 681,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo216b_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo52_onlinetab.txt",
+      "size": 1797,
+      "compressed_size": 714,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/finalrot/._ddo52_onlinetab.txt",
+      "size": 171,
+      "compressed_size": 99,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::finalrot/ddo168_onlinetab.txt",
+      "size": 2123,
+      "compressed_size": 860,
+      "is_dir": false
+    },
+    {
+      "path": "results.zip::__MACOSX/._finalrot",
+      "size": 218,
+      "compressed_size": 120,
+      "is_dir": false
+    }
+  ],
+  "boundary": "Only archive metadata is committed at this stage; the full publisher supplement is not redistributed. Numerical DDO168 source data will be extracted selectively only after the relevant member is identified."
+}
