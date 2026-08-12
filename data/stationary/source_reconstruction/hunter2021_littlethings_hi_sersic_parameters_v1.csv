@@ -1,0 +1,5 @@
+galaxy,stationary_role,source_galaxy_name,source_ned_name,match_method,source_distance_mpc,log10_sigma0_msun_pc2,e_log10_sigma0_msun_pc2,r0_kpc,e_r0_kpc,n_hi,e_n_hi,r50_hi_kpc,e_r50_hi_kpc,profile_formula_status,source_values_transformed,source_catalog,source_table,source_bibcode,source_doi
+DDO154,calibration,DDO 154,NGC 4789A,source_name,3.7,0.74,0.03,3.54,0.13,0.73,0.02,3.64,0.12,pending_exact_primary_equation_verification,0,J/AJ/161/71,table2,2021AJ....161...71H,10.3847/1538-3881/abd089
+DDO168,calibration,DDO 168,UGC 08320,source_name,4.3,1.25,0.05,1.91,0.13,0.79,0.03,2.09,0.08,pending_exact_primary_equation_verification,0,J/AJ/161/71,table2,2021AJ....161...71H,10.3847/1538-3881/abd089
+UGC05918,calibration,DDO 87,UGC 05918,NED_name,7.7,0.33,0.02,6.26,0.14,0.35,0.01,4.65,0.12,pending_exact_primary_equation_verification,0,J/AJ/161/71,table2,2021AJ....161...71H,10.3847/1538-3881/abd089
+UGC07559,calibration,DDO 126,UGC 07559,NED_name,4.9,0.8,0.04,2.59,0.1,0.5,0.02,2.32,0.06,pending_exact_primary_equation_verification,0,J/AJ/161/71,table2,2021AJ....161...71H,10.3847/1538-3881/abd089
