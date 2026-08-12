@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 30,
-  "n_deferred_or_redirected_reference_families": 14,
+  "n_actionable_reference_families": 29,
+  "n_deferred_or_redirected_reference_families": 15,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Be87",
-      "n_untouched_frozen_galaxies": 4,
-      "n_calibration": 3,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Begeman, K.G.",
-      "bibcode": "...................",
-      "comment": "1987, PhD thesis, University of Groningen",
-      "galaxies": "NGC2903;NGC5033;NGC5371;NGC6503"
-    },
     {
       "sparc_ref_id": "Fr11",
       "n_untouched_frozen_galaxies": 2,
@@ -245,6 +229,22 @@
       "bibcode": "1985A&A...146..213R",
       "comment": "",
       "galaxies": "UGC02885"
+    },
+    {
+      "sparc_ref_id": "SA87",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Sancisi and vanAlbada",
+      "bibcode": "1987IAUS..117...67S",
+      "comment": "",
+      "galaxies": "NGC5907"
     }
   ],
   "deferred_or_redirected_families": [
@@ -439,6 +439,22 @@
       "bibcode": "2002A&A...385..816D",
       "comment": "Cat. J/A+A/385/816",
       "galaxies": "DDO064;NGC0100;UGC01281;UGC04278;UGC05005"
+    },
+    {
+      "sparc_ref_id": "Be87",
+      "n_untouched_frozen_galaxies": 4,
+      "n_calibration": 3,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "official_full_thesis_recovered_but_entire_document_is_page_image_scan",
+      "disposition_artifact": "validation/stationary/begeman1987_thesis_hi_profile_audit_v1.json",
+      "reopen_rule": "new_machine_readable_radial_table_calibrated_map_cube_or_exact_vector_republication",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Begeman, K.G.",
+      "bibcode": "...................",
+      "comment": "1987, PhD thesis, University of Groningen",
+      "galaxies": "NGC2903;NGC5033;NGC5371;NGC6503"
     },
     {
       "sparc_ref_id": "VH93",
