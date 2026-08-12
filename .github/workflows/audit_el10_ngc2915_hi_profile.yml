@@ -1,0 +1,34 @@
+name: Audit El10 NGC2915 HI profile assets
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/audit_el10_ngc2915_hi_profile.py'
+      - '.github/workflows/audit_el10_ngc2915_hi_profile.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit public El10 source package
+        run: python scripts/stationary/audit_el10_ngc2915_hi_profile.py
+      - name: Commit audit products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/el10_ngc2915_public_profile_asset_audit_v1.json validation/stationary/el10_ngc2915_fig5_source_context_v1.txt
+          if git diff --cached --quiet; then echo 'No generated changes'; else
+            git commit -m 'Audit El10 NGC2915 public HI profile assets'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
