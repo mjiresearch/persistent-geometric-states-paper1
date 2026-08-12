@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 93,
   "n_reference_families_covering_untouched": 41,
-  "n_actionable_reference_families": 22,
-  "n_deferred_or_redirected_reference_families": 19,
+  "n_actionable_reference_families": 21,
+  "n_deferred_or_redirected_reference_families": 20,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Ba05",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Barbieri et al.",
-      "bibcode": "2005A&A...439..947B",
-      "comment": "",
-      "galaxies": "NGC4559"
-    },
     {
       "sparc_ref_id": "Bl04",
       "n_untouched_frozen_galaxies": 1,
@@ -245,6 +229,22 @@
       "bibcode": "2006AJ....132.2527C",
       "comment": "",
       "galaxies": "NGC0024"
+    },
+    {
+      "sparc_ref_id": "Co91",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Cote et al.",
+      "bibcode": "1991AJ....102..904C",
+      "comment": "",
+      "galaxies": "NGC5585"
     }
   ],
   "deferred_or_redirected_families": [
@@ -519,6 +519,22 @@
       "bibcode": "1997MNRAS.290..533D",
       "comment": "",
       "galaxies": "F565-V2;F571-V1"
+    },
+    {
+      "sparc_ref_id": "Ba05",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "deferred_public_route_exhausted",
+      "disposition": "original_HI_profile_published_but_public_source_asset_is_raster_wrapped_and_no_numeric_sidecar_exists",
+      "disposition_artifact": "validation/stationary/ba05_fig3_asset_classification_v1.json",
+      "reopen_rule": "reopen_only_for_machine_readable_author_table_source_native_vector_profile_or_other_documented_exact_numeric_republication",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Barbieri et al.",
+      "bibcode": "2005A&A...439..947B",
+      "comment": "",
+      "galaxies": "NGC4559"
     },
     {
       "sparc_ref_id": "Be87",
