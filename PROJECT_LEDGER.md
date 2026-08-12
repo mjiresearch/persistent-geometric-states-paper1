@@ -14,19 +14,18 @@
 **Status:** PUBLIC-DATA ACQUISITION IN PROGRESS. `L_A` and `\mathcal C_A` remain **LOCKED**.
 
 - Frozen stationary sample remains **149 galaxies = 104 calibration + 45 blind**.
-- Current reconciled public-source overlay covers **43/149 galaxies = 30 calibration + 13 blind**.
-- Preferred source-quality state remains **16 actual recovered/ingested profiles = 11 calibration + 5 blind**: **14 machine-readable raw/source profiles + 2 analytic profiles**.
-- Elson/WHISP public vector Appendix route is now recovered for **19 frozen galaxies = 15 calibration + 4 blind**, yielding **947 numerical candidate rows** with zero basic QC failures.
-- WHISP distinction is locked: the **red H I curve geometry is exact vector data from the published Appendix PDFs**, while physical axis scales are reconstructed from audited source `R_HI` and mean-`Sigma_HI` anchors. These rows remain `vector_profile_candidate_recovered`, not final frozen source profiles.
-- UGC05918/DDO87 and UGC07559/DDO126 retain their superior Iorio machine-readable profiles as preferred sources; WHISP is secondary QC for them. UGC05829 is upgraded from Taylor-map-only to a numerical WHISP candidate while Taylor 1994 provenance is retained.
-- Lelli et al. (2016) SPARC Table 1 provenance has been converted into `sparc_hi_reference_map_v1.csv` for **all 149 frozen galaxies**, producing **271 galaxy-reference rows across 58 distinct SPARC reference IDs**. Five CDS shorthand IDs (`Ba06`, `Bm05`, `Fr02`, `VB99`, `VdH93`) remain explicitly unresolved rather than dropped.
-- Lelli's per-galaxy `Ref` field is now the authoritative acquisition map to the original H I/Halpha observations. It does **not** establish that the later 169-galaxy azimuthally averaged H I profile compilation is publicly downloadable.
-- Ranking only galaxies with **no current public-source overlay** leaves **106 untouched frozen galaxies across 45 Lelli/SPARC reference families**.
-- Highest-yield untouched family is the **Ursa Major / Verheijen & Sancisi 2001 (`VS01`) / Sanders & Verheijen 1998 (`SV98`) block: 27 frozen galaxies = 19 calibration + 8 blind**.
-- Verheijen & Sancisi (2001) explicitly published radial H I surface-density profiles in its 43-galaxy WSRT atlas. CDS `J/A+A/370/765` exposes membership, photometry, global H I, rotation-curve and synthesis-result tables, but not a numerical radial-`Sigma_HI` table. The live acquisition step is therefore a one-pass audit of the public arXiv/original atlas for reusable vector profile assets.
-- **Do not retry** closed routes (dead legacy WHISP host, Bluedisk zero-overlap block, Stevens arXiv-no-array block, exhausted low-fidelity Cote/van Zee/NGC3741/Taylor routes) unless a genuinely new data mechanism appears.
+- Current reconciled public-source overlay covers **48/149 galaxies = 34 calibration + 14 blind**.
+- **21 galaxies now have an actual recovered/ingested profile or analytic model = 15 calibration + 6 blind**.
+- Preferred recovered-source breakdown: **14 machine-readable raw/source profiles + 7 analytic profiles**. An additional **17 WHISP vector-profile candidates** remain candidate-level rather than final frozen source profiles.
+- Lelli et al. (2016) SPARC provenance has been converted into a per-galaxy H I/Halpha source map for **all 149 frozen galaxies**. The current acquisition queue is therefore source-directed rather than a blind literature search.
+- Lelli's `Ref` field identifies the underlying observational/source publication, but it does **not** by itself prove that the cited paper contains a direct machine-readable radial `Sigma_HI(R)` profile; each family is classified separately as direct profile, map/cube, downstream analysis, or unresolved.
+- Current untouched pool after public-source overlay: **101 galaxies** across **44 reference families**; **36** are currently actionable before applying newly landed dispositions.
+- Durable anti-loop dispositions: `VS01` → defer_until_new_mechanism / public_direct_profile_confirmed_numeric_route_exhausted; `SV98` → defer_until_new_mechanism / same_ursa_major_chain_covered_by_vs01_audit; `Sw02` → defer_until_new_mechanism / full_public_atlas_recovered_but_target_figures_raster_dominant; `Sw09` → redirected_to_original_sources / downstream_rotation_curve_analysis_uses_sw02_whisp_hi_observations; `Sa96` → redirected_to_original_sources / downstream_rotation_curve_compilation_mapped_to_original_observing_sources; `No05` → defer_until_new_mechanism / direct_profile_atlas_confirmed_public_numeric_route_exhausted; `No07` → defer_until_new_mechanism / downstream_same_hi_data_as_no05.
+- `dB96` is **partially resolved**: public analytic atomic-H I profiles are recovered for F568-3, F568-V1, F574-1, F583-1 and F583-4; only F565-V2, F571-8 and F571-V1 remain pending.
+- `Sa96` has been decomposed into its original observing citations; do not treat Sanders 1996 itself as an H I profile source again.
+- **Do not retry** a dispositioned source mechanism unless the file's explicit `reopen_rule` is satisfied by a genuinely new public mechanism.
 
-**Current resume point:** Ursa Major `VS01/SV98` 27-galaxy public atlas/vector audit, then ingest if a defensible vector/numeric route exists; otherwise advance to the next Lelli-ranked family without looping.
+**Current resume point:** **Br92 — Broeils**: 6 untouched frozen galaxies (3 calibration + 3 blind): NGC0801;NGC1003;NGC2683;NGC2998;NGC5985;NGC6674.
 
 <!-- AUTO-STATIONARY-HI-CHECKPOINT-END -->
 
