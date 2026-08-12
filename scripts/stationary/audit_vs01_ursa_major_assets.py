@@ -4,10 +4,14 @@
 Live Paper I source family: SPARC Ref IDs VS01 / SV98.
 This script performs acquisition-route inspection only. It does not digitize,
 normalize, interpolate, or fit any persistence quantity.
+
+The A&A PostScript endpoint returned HTTP 403 to the GitHub runner on the first
+bounded audit. Per the project's no-loop rule, that route is recorded as closed
+and is not requested again here. This pass uses only the successful arXiv source
+package route.
 """
 from __future__ import annotations
 
-import gzip
 import hashlib
 import io
 import json
@@ -17,7 +21,6 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 ARXIV = "https://export.arxiv.org/e-print/astro-ph/0101404"
-AANDA_PS = "https://www.aanda.org/articles/aa/ps/2001/18/aa10469.ps.gz"
 UA = "PersistenceFrameworkPaperI/1.0"
 
 
@@ -37,7 +40,7 @@ def text_hits(text: str) -> list[dict]:
     for i,line in enumerate(text.splitlines(),1):
         if pats.search(line):
             out.append({"line":i,"text":line[:700]})
-    return out[:250]
+    return out[:300]
 
 
 def audit_arxiv(raw: bytes) -> dict:
@@ -50,7 +53,7 @@ def audit_arxiv(raw: bytes) -> dict:
         rec={"name":m.name,"bytes":m.size,"suffix":suffix}
         result["files"].append(rec)
         low=m.name.lower()
-        if suffix in {".eps",".ps",".pdf",".fig"} and any(k in low for k in ("atlas","surf","dens","prof","hi","gal")):
+        if suffix in {".eps",".ps",".pdf",".fig"} and any(k in low for k in ("atlas","surf","dens","prof","hi","gal","fig","app")):
             result["candidate_profile_assets"].append(rec)
         if suffix in {".tex",".txt",".dat",".tbl"}:
             try:
@@ -65,34 +68,14 @@ def audit_arxiv(raw: bytes) -> dict:
     return result
 
 
-def audit_ps(raw_gz: bytes) -> dict:
-    ps=gzip.decompress(raw_gz)
-    txt=ps.decode("latin-1",errors="replace")
-    # PostScript often retains plot labels and embedded figure comments even if the
-    # manuscript text is typeset. Capture structural signals, not numerical data.
-    lines=txt.splitlines()
-    keys=re.compile(r"BoundingBox|BeginDocument|BeginFile|Surface|surface|density|Sigma|helium|atlas|UGC|NGC",re.I)
-    hits=[]
-    for i,l in enumerate(lines,1):
-        if keys.search(l): hits.append({"line":i,"text":l[:500]})
-        if len(hits)>=300: break
-    return {
-        "compressed_bytes":len(raw_gz),"compressed_sha256":sha(raw_gz),
-        "postscript_bytes":len(ps),"postscript_sha256":sha(ps),
-        "n_lines":len(lines),"structural_hits":hits,
-        "has_epsf_markers":("EPSF" in txt or "BeginDocument" in txt),
-        "has_color_commands":("setrgbcolor" in txt),
-    }
-
-
 def main() -> None:
     arxiv_raw, arxiv_ct=get(ARXIV)
-    ps_raw, ps_ct=get(AANDA_PS)
+    arxiv=audit_arxiv(arxiv_raw)
     out={
-        "status":"VS01_PUBLIC_ASSET_AUDIT_COMPLETE",
+        "status":"VS01_ARXIV_ASSET_AUDIT_COMPLETE",
         "source":"Verheijen & Sancisi 2001 A&A 370 765-867; arXiv astro-ph/0101404",
-        "arxiv_url":ARXIV,"arxiv_content_type":arxiv_ct,"arxiv":audit_arxiv(arxiv_raw),
-        "aanda_ps_url":AANDA_PS,"aanda_ps_content_type":ps_ct,"aanda_postscript":audit_ps(ps_raw),
+        "arxiv_url":ARXIV,"arxiv_content_type":arxiv_ct,"arxiv":arxiv,
+        "aanda_postscript_route":"CLOSED_AFTER_FIRST_PASS_HTTP_403_FROM_GITHUB_RUNNER_NO_RETRY",
         "interpretation_boundary":"Asset/provenance audit only. No profile values, source geometry, helium scaling, interpolation, persistence parameters, or blind outcomes changed or evaluated."
     }
     p=Path("validation/stationary/vs01_ursa_major_public_asset_audit_v1.json")
@@ -100,12 +83,10 @@ def main() -> None:
     p.write_text(json.dumps(out,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({
         "status":out["status"],
-        "arxiv_n_files":out["arxiv"]["n_files"],
-        "arxiv_candidates":out["arxiv"]["candidate_profile_assets"],
-        "text_hit_files":[x["file"] for x in out["arxiv"]["text_hits"]],
-        "aanda_ps_bytes":out["aanda_postscript"]["postscript_bytes"],
-        "aanda_has_epsf_markers":out["aanda_postscript"]["has_epsf_markers"],
-        "aanda_has_color_commands":out["aanda_postscript"]["has_color_commands"],
+        "arxiv_n_files":arxiv["n_files"],
+        "arxiv_candidates":arxiv["candidate_profile_assets"],
+        "text_hit_files":[x["file"] for x in arxiv["text_hits"]],
+        "aanda_postscript_route":out["aanda_postscript_route"],
     },indent=2))
 
 
