@@ -1,0 +1,11 @@
+VM97 / NGC6015 Figure 3d native-axis calibration
+
+Source-native PGPLOT major-label decode (stroke geometry; no OCR/rendering):
+  lower radius axis: x=[435,1318,2200,3083] -> [0,100,200,300] arcsec
+  H I surface-density axis: y=[326,592,857,1123,1388] -> [0,2,4,6,8] M_sun pc^-2
+
+Linear fit residuals: x max=0.0339930484 arcsec; y max=0.00226073723 M_sun pc^-2.
+31 M3 marker centers map to native 15,25,...315 arcsec grid with max |delta|=0.0849698 arcsec.
+Independent source-text QC: first-bin/peak=0.575412 vs paper ~0.57.
+Independent mass-scale QC: annular integral=3.673461e+09 M_sun vs paper M_HI=3.900000e+09 M_sun (fractional delta=5.8087%).
+The mass-scale check strongly rejects a hidden helium multiplication: source values are retained as raw H I.

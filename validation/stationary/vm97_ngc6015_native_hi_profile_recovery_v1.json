@@ -1,0 +1,107 @@
+{
+  "status": "VM97_NGC6015_NATIVE_VECTOR_HI_PROFILE_RECOVERED",
+  "sparc_ref_id": "VM97",
+  "galaxy": "NGC6015",
+  "stationary_role": "calibration",
+  "source": "Verdes-Montenegro, Bosma & Athanassoula 1997 A&A 321, 754-764",
+  "source_url": "https://cdsarc.cds.unistra.fr/ftp/vizier/aa/papers/7321003/2300754.ps.gz",
+  "legacy_article_ps_gz_sha256": "9d107e1eec298c5a9354a120a507e63ed44b39df1087a6b5de82fdb4f333c0d5",
+  "legacy_article_ps_sha256": "24faeea7672ca9da91538f4960e1f016f0e12e56eaea8db9fce952752fd24bdf",
+  "figure3_embedded_asset": "07540003.eps",
+  "figure3_eps_sha256": "838b632eda88cf913eeec8d9858d1a0b49ec35f9a884c904df3af7ae44ad176e",
+  "figure3_native_structure": {
+    "creator": "PGPLOT",
+    "raster_operator_count": 0,
+    "panel": "3d",
+    "marker_primitive": "M3",
+    "n_profile_points": 31
+  },
+  "source_conventions": {
+    "quantity": "H I surface density / radial H I column-density distribution",
+    "units": "M_sun pc^-2; confirmed by native numeric axis scale plus independent integrated M_HI consistency",
+    "helium": "not applied; source H I profile reproduces the paper H I mass scale without helium multiplication",
+    "source_distance_mpc": 13.9,
+    "source_inclination_deg": 63.0,
+    "radius_caption": "lower scale arcsec, upper scale kpc for D=13.9 Mpc"
+  },
+  "axis_calibration": {
+    "x_major_native": [
+      435.0,
+      1318.0,
+      2200.0,
+      3083.0
+    ],
+    "x_major_labels_arcsec": [
+      0.0,
+      100.0,
+      200.0,
+      300.0
+    ],
+    "radius_arcsec_slope_per_pgplot_unit": 0.11330160306492006,
+    "radius_arcsec_intercept": -49.29751979119438,
+    "max_x_major_residual_arcsec": 0.03399304837026307,
+    "x_residuals_arcsec": [
+      -0.011322457954157983,
+      0.033993048370234646,
+      -0.03399304837026307,
+      0.011322457954179299
+    ],
+    "y_major_native": [
+      326.0,
+      592.0,
+      857.0,
+      1123.0,
+      1388.0
+    ],
+    "y_major_labels_sigma_hi": [
+      0.0,
+      2.0,
+      4.0,
+      6.0,
+      8.0
+    ],
+    "sigma_slope_per_pgplot_unit": 0.007532953479543566,
+    "sigma_intercept": -2.457247722664741,
+    "max_y_major_residual_msun_pc2": 0.0022607372250496027,
+    "y_residuals_msun_pc2": [
+      -0.0015048883335389007,
+      0.0022607372250496027,
+      -0.0015065906959055297,
+      0.002259034862683862,
+      -0.0015082930582721588
+    ],
+    "label_decode_note": "numeric labels decoded statically from source-native PGPLOT stroke-glyph groups; no rendered-image reading/OCR"
+  },
+  "native_grid_qc": {
+    "expected_centers_arcsec": "15 + 10*n, n=0..30",
+    "max_abs_delta_arcsec": 0.08496978367174535,
+    "rms_delta_arcsec": 0.04298756429474428,
+    "passes": true
+  },
+  "source_statement_qc": {
+    "paper_central_HI_depression_fraction_of_peak_approx": 0.57,
+    "recovered_first_bin_over_peak": 0.5754120151585203,
+    "abs_delta": 0.0054120151585203,
+    "passes": true,
+    "paper_total_HI_mass_msun": 3900000000.0,
+    "profile_annular_integral_10_to_320_arcsec_msun": 3673460978.5752435,
+    "mass_fractional_abs_delta": 0.05808692857045039,
+    "mass_qc_note": "simple midpoint-annulus integral over profile-covered 10-320 arcsec only; used as independent scale/unit QC, not a replacement mass measurement"
+  },
+  "profile_ranges": {
+    "radius_arcsec": [
+      14.94448914661529,
+      315.08043566558854
+    ],
+    "radius_kpc_source_scale": [
+      1.0070947525656437,
+      21.232967569639445
+    ],
+    "sigma_hi_msun_pc2": [
+      0.3902086926027266,
+      7.132202056794219
+    ]
+  },
+  "profile_csv": "data/stationary/source_reconstruction/vm97_ngc6015_hi_profile_v1.csv",
+  "boundary": "No PostScript execution, raster digitization, OCR, profile fitting, helium scaling, common-distance normalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
