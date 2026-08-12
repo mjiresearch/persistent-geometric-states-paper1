@@ -1,0 +1,1303 @@
+{
+  "status": "BEGEMAN1991_ORIGINAL_HI_SOURCE_AUDIT_COMPLETE",
+  "source": "Begeman, Broeils & Sanders 1991 MNRAS 249 523-537",
+  "pdf_url": "https://articles.adsabs.harvard.edu/pdf/1991MNRAS.249..523B",
+  "pdf_bytes": 1343135,
+  "pdf_sha256": "079adcac7a0ca031ab6171e82bd9bc5d9ab557349846df1c484c7fafa31598ed",
+  "pdf_pages": 15,
+  "transport_attempts": [
+    {
+      "route": "live",
+      "url": "https://academic.oup.com/mnras/article-pdf/249/3/523/18160929/mnras249-0523.pdf",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "route": "live",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1991MNRAS.249..523B",
+      "status": "fetched",
+      "final_url": "https://articles.adsabs.harvard.edu/pdf/1991MNRAS.249..523B",
+      "content_type": "application/pdf",
+      "bytes": 1343135,
+      "prefix_hex": "255044462d312e350a25ecf5f2e1e4ef"
+    }
+  ],
+  "n_priority_frozen_galaxies": 5,
+  "priority_role_counts": {
+    "calibration": 4,
+    "blind": 1
+  },
+  "priority_galaxies": [
+    "DDO170",
+    "NGC2903",
+    "NGC3109",
+    "NGC6503",
+    "UGC02259"
+  ],
+  "target_contexts": [
+    {
+      "galaxy": "DDO170",
+      "n_hit_pages": 5,
+      "pages": [
+        {
+          "page_number_1based": 3,
+          "contexts": [
+            {
+              "line": 87,
+              "context": "galaxy \nNGC 2403 \nNGC 2841 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 7331 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \ntype \ndistance\n1 \nSc(s)III \nSb \nSc(s)I-II \nSc(rs)I-I \nSc(s)II.8 \nSb(rs)I-I \nSd "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 4,
+          "contexts": [
+            {
+              "line": 9,
+              "context": "19 91MNRAS.249. .523B \n526 K. G. Begeman, A. H, Broeils and R. H. Sanders \nobserved by Carignan, van Albada & Sancisi (1988) at \nWesterbork. The rotation curve is accurately determined and \nextends well beyond the optical disc. The ring-fitting tech- \nnique indicates that the effects of kinematic warping are \nminimal. NGC 1560 is a small gas-dominated dwarf with a \nsymmetric gas distribution and velocity field recently \nobserved at Westerbork (Broeils 1991). DDO 170 is a \nhighly inclined gas-rich dwarf with a symmetric regular \nvelocity field observed by Lake et al (1990) at the VLA. The \nring-fitting technique implies that there is no significant sys- \ntematic kinematic warp. DDO 154 is a dwarf with a well- \ndetermined and regular velocity field observed at the VLA \nby Carignan & Freeman (1988) and considered by Milgrom \n& Braun (1988) as being an acute test of MOND. It is also \none of the objects considered by Lake (1989) in his criticism \nof MOND. The remaining five galaxies in Lake\u2019s sample \nfailed to meet the selection criteria fisted here. "
+            }
+          ],
+          "surface_density_on_page": true,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 7,
+          "contexts": [
+            {
+              "line": 17,
+              "context": "galaxy \nNGC 2403 \nNGC 28412 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73312 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \nthree parameter halo fit \n(M/L)d \n(kpc) \n4.66 \n0.61 \n8.24 \n1.57 \n7.78 \n1.66 \n5.37 "
+            },
+            {
+              "line": 105,
+              "context": "a0 (M/L)d \n(xlO-8 cm s-2) \nvariable distance fit \nDistance\n2 (M/L)d \nNote 1 - the second row of each entry shows the formal 1 o error in \nthe fitted parameter. All M/L values are in solar units. \nNote 2 - the M/L of the bulges for NGC 2841 and 7331 are \n6.68\u00b10.74and 1.11 \u00b10.05. \nNote 3 - the least-square fitting routine found a negative M/L. The \nvalues given in this table for DDO 154 and DDO 170 are actually \ntwo parameter fits with M/L of stellar disc fixed at 0.0. \nNote 4 - the ratio between dark and luminous (disc + bulge) mass \nNGC 2403 \nNGC 28413 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73313 \nNGC 1560 \nUGC 2259 "
+            },
+            {
+              "line": 117,
+              "context": "Note 4 - the ratio between dark and luminous (disc + bulge) mass \nNGC 2403 \nNGC 28413 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73313 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \n1.43 \n0.02 \n14.49 \n1.31 \n3.61 \n0.04 \n2.56 \n0.06 \n1.73 \n0.02 "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": false,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 8,
+          "contexts": [
+            {
+              "line": 26,
+              "context": "Radius (kpc) \n400 \n300 \nJ 200 \n100 \n 1 1 I 1 I 1 1 I 1. I 1 1 I I 1 I I I 1 1 \n10 20 30 40 50 \nRadius (kpc) \nFigure 2. MOND fits to the rotation curves of the sample galaxies. The value of a0 is fixed at 1.21 x 10 - 8 cm s-2. The dotted curves show the \none-parameter fits (MjL ) and the solid curves are the two-parameter fits (M/L and distance). In the gas-rich galaxies, NGC 1560, DDO 154, \nand DDO 170, M/L effectively disappears as a fitting parameter because of the dominant contribution of the gas to the total mass. Best-fit \nvalues of M/L are given in columns 2 and 5 and the best-fit distance in column 6 of Table 3. \n\u00a9 Royal Astronomical Society \u2022 Provided by the NASA Astrophysics Data System "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": false,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 13,
+          "contexts": [
+            {
+              "line": 30,
+              "context": "observational uncertainties (primarily the distance estimate), \nand there is no systematic variation of a0 with galaxy lumino- \nsity or rotation velocity in contrast to the conclusion of Lake \n(1989). However, Lake\u2019s claim is based primarily upon \ngalaxies with lower luminosities and internal accelerations \nthan those considered here, and his study does point to the \nneed for precise rotation curves of these extreme systems \nwhere the systematics of the discrepancy remains poorly \nunderstood. \nThe good MOND fits to the rotation curves of the three \ngas-rich systems included here (DDO 154, DDO 170 and \nNGC 1560) are noteworthy because the visible matter \nmakes a small contribution to the total mass and M/L effec- \ntively disappears as a free parameter. As pointed out by \nMilgrom & Braun (1988) and by Lake (1989), these systems \nare in the extreme MOND regime ( V2/r<a0), and thus \nprovide particularly sensitive tests because the form of the \npredicted rotation curve is insensitive to the assumed form of \n/i (equations 3 and 4). The general prediction is that the \nobserved rotation curve should be very sensitive to fluctua- \ntions in the mass distribution as it is seen to be in the case of "
+            }
+          ],
+          "surface_density_on_page": true,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        }
+      ]
+    },
+    {
+      "galaxy": "NGC2903",
+      "n_hit_pages": 3,
+      "pages": [
+        {
+          "page_number_1based": 3,
+          "contexts": [
+            {
+              "line": 70,
+              "context": "tion in the outer regions (extension ratio 2/3). In all cases the \nrotation curve was derived by using the entire two-dimen- \nsional velocity field of the galaxy and fitting concentric rings \nwhere the inclination, line-of-nodes, and circular velocity of \nthe rings is aUowed to vary. This procedure, which is a first- \norder correction to the effects of warping, is described in \ndetail by Begeman (1987, 1989). Those cases where this \nmodel-fitting procedure has a strong effect on the shape of \nthe observed rotation curve should be given less weight than \nthose objects which show no strong evidence for such kine- \nmatic warps. This is particularly true of NGC 2903 and \n2841, where either the inclination or the position angle of the \nline-of-nodes of the rings varies systematically by more than \n10\u00b0. \nTo these six galaxies four more are added from other \nsources. UGC 2259 is a very small but regular spiral galaxy \nTable 1. Sample galaxies. \ngalaxy \nNGC 2403 \nNGC 2841 \nNGC 2903 "
+            },
+            {
+              "line": 80,
+              "context": "matic warps. This is particularly true of NGC 2903 and \n2841, where either the inclination or the position angle of the \nline-of-nodes of the rings varies systematically by more than \n10\u00b0. \nTo these six galaxies four more are added from other \nsources. UGC 2259 is a very small but regular spiral galaxy \nTable 1. Sample galaxies. \ngalaxy \nNGC 2403 \nNGC 2841 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 7331 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \ntype \ndistance\n1 "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 6,
+          "contexts": [
+            {
+              "line": 25,
+              "context": "halo. \n4.2 MOND one-parameter fits \nFig. 2 illustrates MOND fits (dotted curves) to the observed \nrotation curves where M/L for the disc is the only free para- \nmeter. The assumed value of \u00f60 (1.21 in units of 10\"8 cm s~2) \nis justified below, and is roughly the same value (1.3) used by \nKent in the curves shown by Milgrom (1988). \nIn general, the fits are comparable to those reported by \nMilgrom (1988) and not significantly inferior to those of the \nthree parameter dark-halo models. In particular, for two \ngalaxies (NGC 2903 and 7331) which were in Kent\u2019s sample \nand now have considerably more accurte rotation curves \nbased upon better data and analysis, the MOND fits are \nnoticeably improved. The only exceptionally bad fit is to the \nrotation curve of NGC 2841. In this large galaxy with high \nrotational velocity, the measured centripetal accelerations \nare larger than the adopted a0 within 20 kpc. Thus MOND \nwould predict no discrepancy within this radius and the pre- \ndicted rotation curve should be essentially Newtonian. This \nobviously is not the case. On the other hand, the agreement \nbetween the MOND and observed rotation curves for the "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": false,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 7,
+          "contexts": [
+            {
+              "line": 10,
+              "context": "19 91MNRAS.249. .523B \nExtended rotation curves of spiral galaxies 529 \nTable 2. HALO solutions.\n1 \nTable 3. MOND solutions.\n1 \ngalaxy \nNGC 2403 \nNGC 28412 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73312 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \nthree parameter halo fit \n(M/L)d \n(kpc) "
+            },
+            {
+              "line": 110,
+              "context": "Note 1 - the second row of each entry shows the formal 1 o error in \nthe fitted parameter. All M/L values are in solar units. \nNote 2 - the M/L of the bulges for NGC 2841 and 7331 are \n6.68\u00b10.74and 1.11 \u00b10.05. \nNote 3 - the least-square fitting routine found a negative M/L. The \nvalues given in this table for DDO 154 and DDO 170 are actually \ntwo parameter fits with M/L of stellar disc fixed at 0.0. \nNote 4 - the ratio between dark and luminous (disc + bulge) mass \nNGC 2403 \nNGC 28413 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73313 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \n1.43 \n0.02 \n14.49 "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": false,
+          "n_drawings": 0,
+          "n_images": 2
+        }
+      ]
+    },
+    {
+      "galaxy": "NGC3109",
+      "n_hit_pages": 2,
+      "pages": [
+        {
+          "page_number_1based": 13,
+          "contexts": [
+            {
+              "line": 80,
+              "context": "right coupling rules, but the important point is that there are \nstrong systematic aspects of the mass discrepancy in spiral \ngalaxies as implied by the quality of the MOND fits. In the \ncontext of the standard scenario for spiral galaxy formation - \ndissipational collapse in the presence of a pre-existing dark \nhalo stochastically spun up by tidal torques - one would not, \na priori, expect such strong systematics (Sanders 1990). If the \nexplanation of the discrepancy is dark haloes, then theories \nof galaxy formation are tightly constrained by the pheno- \nmenology so accurately described by the MOND formula. \n7 ADDENDUM: NGC 3109 \nSubsequent to the initial submission of this paper, Jobin & \nCarignan (1990) published a new determination of the rota- \ntion curve of NGC 3109. Whereas the old rotation curve was \ndetermined from low-resolution single-dish observations \n(Huchtmeier 1975; Carignan 1985), the new curve is based \nupon VLA observations and has been derived from the data \nby the tilted ring method. Thus, NGC 3109 now satisfies \nour selection criteria, and we consider it separately in this \nsection. \nThis galaxy presents an important test for MOND. It is "
+            },
+            {
+              "line": 83,
+              "context": "context of the standard scenario for spiral galaxy formation - \ndissipational collapse in the presence of a pre-existing dark \nhalo stochastically spun up by tidal torques - one would not, \na priori, expect such strong systematics (Sanders 1990). If the \nexplanation of the discrepancy is dark haloes, then theories \nof galaxy formation are tightly constrained by the pheno- \nmenology so accurately described by the MOND formula. \n7 ADDENDUM: NGC 3109 \nSubsequent to the initial submission of this paper, Jobin & \nCarignan (1990) published a new determination of the rota- \ntion curve of NGC 3109. Whereas the old rotation curve was \ndetermined from low-resolution single-dish observations \n(Huchtmeier 1975; Carignan 1985), the new curve is based \nupon VLA observations and has been derived from the data \nby the tilted ring method. Thus, NGC 3109 now satisfies \nour selection criteria, and we consider it separately in this \nsection. \nThis galaxy presents an important test for MOND. It is \nclose enough to allow a distance determination via Cepheids \nand bright stars (Sandage & Carlson 1988), and its observ- \nable mass is dominated by neutral hydrogen. The inclination "
+            },
+            {
+              "line": 87,
+              "context": "explanation of the discrepancy is dark haloes, then theories \nof galaxy formation are tightly constrained by the pheno- \nmenology so accurately described by the MOND formula. \n7 ADDENDUM: NGC 3109 \nSubsequent to the initial submission of this paper, Jobin & \nCarignan (1990) published a new determination of the rota- \ntion curve of NGC 3109. Whereas the old rotation curve was \ndetermined from low-resolution single-dish observations \n(Huchtmeier 1975; Carignan 1985), the new curve is based \nupon VLA observations and has been derived from the data \nby the tilted ring method. Thus, NGC 3109 now satisfies \nour selection criteria, and we consider it separately in this \nsection. \nThis galaxy presents an important test for MOND. It is \nclose enough to allow a distance determination via Cepheids \nand bright stars (Sandage & Carlson 1988), and its observ- \nable mass is dominated by neutral hydrogen. The inclination \nis large ( \u00ab 80\u00b0), and therefore the effects of warping are mini- \nmal. The internal accelerations are very low and the galaxy is \ntherefore completely within the MOND regime. It has previ- \nously been noted that this galaxy provides a possible "
+            }
+          ],
+          "surface_density_on_page": true,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 14,
+          "contexts": [
+            {
+              "line": 4,
+              "context": "19 91MNRAS.249. .523B \n536 K. G. Begeman, A. H. Broeils and R. H. Sanders \nFigure 7. The predicted MOND rotation curve (solid line) for \nNGC 3109 compared to the rotation curve (points) derived from \nthe VLA observations of Jobin & Carignan (1990). The value of aQ \nis taken to be that of the one-parameter MOND fits shown in Fig. 2 \n(1.2x10\u201c8 cm s\u201c2). The dashed and dotted curves are the \nNewtonian rotation curves for the visible disc and for the gas \nrespectively. A mass-to-light ratio of 0.1 has been assumed for the \nvisible component. The neutral hydrogen surface densities observed \nat the VLA have been increased by a factor of 1.67 to account for \nthe 21 cm line flux missed in the synthesis observations. The \ndistance is taken to be 1.6 Mpc (Sandage & Carlson 1988). \nvalue of a0 taken above (1.2 x 10\u201c8 cm s-2), a distance of 1.6 "
+            },
+            {
+              "line": 33,
+              "context": "observations lies beyond the extent of the VLA observations. \nAs a compromise we have multiplied the VLA surface den- \nsities by 1.67. This factor is suggested by comparing the \nobserved VLA surface densities with the model single dish \nsurface densities proposed by Huchtmeier, Seiradakis & \nMaterne (1980). It should be kept in mind that this factor \ncould be as small as 1 and as large as 2. \nThe MOND rotation curve is seen to agree well with the \nobserved curve, particularly in the outer regions where the \ndetailed structure of the rotation curve is reproduced. In this \nway NGC 3109 is quite similar (but less striking) than \nNGC 1560 where the observed rotation curve reflects real \nvariations in the H i surface density. There is no indication \nthat a0 needs to be significantly lower than the value required \nfor the more luminous galaxies. If the H i surface densities \nwere scaled up by a factor of 2 (instead of 1.67) then a com- \nparable fit is obtained with \u00f60 = 1 x 10 \"8 cm s - 2, a factor of 4 \nlarger than Lake\u2019s value determined for the old NGC 3109 \nrotation curve at his adopted distance of 1.8 Mpc. The one \nstrong requirement is that M/L for the visible disc be quite \nsmall (less than about 0.1). This is also true for DDO 154 "
+            },
+            {
+              "line": 40,
+              "context": "The MOND rotation curve is seen to agree well with the \nobserved curve, particularly in the outer regions where the \ndetailed structure of the rotation curve is reproduced. In this \nway NGC 3109 is quite similar (but less striking) than \nNGC 1560 where the observed rotation curve reflects real \nvariations in the H i surface density. There is no indication \nthat a0 needs to be significantly lower than the value required \nfor the more luminous galaxies. If the H i surface densities \nwere scaled up by a factor of 2 (instead of 1.67) then a com- \nparable fit is obtained with \u00f60 = 1 x 10 \"8 cm s - 2, a factor of 4 \nlarger than Lake\u2019s value determined for the old NGC 3109 \nrotation curve at his adopted distance of 1.8 Mpc. The one \nstrong requirement is that M/L for the visible disc be quite \nsmall (less than about 0.1). This is also true for DDO 154 \nand may not be unreasonable for such gas-rich galaxies. \nEven with this low M/L the predicted rotation curve is seen \nto lie somewhat above the observed 21-cm line curve in the \ninner regions. However, the measured 21-cm line rotation \ncurve is probably lower than the true circular velocity in \nthese regions as is indicated by the higher rotational veloci- \nties determined optically (Carignan 1985). In any case, it is "
+            }
+          ],
+          "surface_density_on_page": true,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        }
+      ]
+    },
+    {
+      "galaxy": "NGC6503",
+      "n_hit_pages": 2,
+      "pages": [
+        {
+          "page_number_1based": 3,
+          "contexts": [
+            {
+              "line": 82,
+              "context": "line-of-nodes of the rings varies systematically by more than \n10\u00b0. \nTo these six galaxies four more are added from other \nsources. UGC 2259 is a very small but regular spiral galaxy \nTable 1. Sample galaxies. \ngalaxy \nNGC 2403 \nNGC 2841 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 7331 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \ntype \ndistance\n1 \nSc(s)III \nSb "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 7,
+          "contexts": [
+            {
+              "line": 12,
+              "context": "Extended rotation curves of spiral galaxies 529 \nTable 2. HALO solutions.\n1 \nTable 3. MOND solutions.\n1 \ngalaxy \nNGC 2403 \nNGC 28412 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73312 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \nthree parameter halo fit \n(M/L)d \n(kpc) \n4.66 \n0.61 "
+            },
+            {
+              "line": 112,
+              "context": "Note 2 - the M/L of the bulges for NGC 2841 and 7331 are \n6.68\u00b10.74and 1.11 \u00b10.05. \nNote 3 - the least-square fitting routine found a negative M/L. The \nvalues given in this table for DDO 154 and DDO 170 are actually \ntwo parameter fits with M/L of stellar disc fixed at 0.0. \nNote 4 - the ratio between dark and luminous (disc + bulge) mass \nNGC 2403 \nNGC 28413 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73313 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \n1.43 \n0.02 \n14.49 \n1.31 \n3.61 "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": false,
+          "n_drawings": 0,
+          "n_images": 2
+        }
+      ]
+    },
+    {
+      "galaxy": "UGC02259",
+      "n_hit_pages": 2,
+      "pages": [
+        {
+          "page_number_1based": 3,
+          "contexts": [
+            {
+              "line": 75,
+              "context": "order correction to the effects of warping, is described in \ndetail by Begeman (1987, 1989). Those cases where this \nmodel-fitting procedure has a strong effect on the shape of \nthe observed rotation curve should be given less weight than \nthose objects which show no strong evidence for such kine- \nmatic warps. This is particularly true of NGC 2903 and \n2841, where either the inclination or the position angle of the \nline-of-nodes of the rings varies systematically by more than \n10\u00b0. \nTo these six galaxies four more are added from other \nsources. UGC 2259 is a very small but regular spiral galaxy \nTable 1. Sample galaxies. \ngalaxy \nNGC 2403 \nNGC 2841 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 7331 \nNGC 1560 \nUGC 2259 "
+            },
+            {
+              "line": 85,
+              "context": "sources. UGC 2259 is a very small but regular spiral galaxy \nTable 1. Sample galaxies. \ngalaxy \nNGC 2403 \nNGC 2841 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 7331 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \ntype \ndistance\n1 \nSc(s)III \nSb \nSc(s)I-II \nSc(rs)I-I \nSc(s)II.8 "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": true,
+          "n_drawings": 0,
+          "n_images": 2
+        },
+        {
+          "page_number_1based": 7,
+          "contexts": [
+            {
+              "line": 15,
+              "context": "Table 3. MOND solutions.\n1 \ngalaxy \nNGC 2403 \nNGC 28412 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73312 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \nthree parameter halo fit \n(M/L)d \n(kpc) \n4.66 \n0.61 \n8.24 \n1.57 \n7.78 "
+            },
+            {
+              "line": 115,
+              "context": "values given in this table for DDO 154 and DDO 170 are actually \ntwo parameter fits with M/L of stellar disc fixed at 0.0. \nNote 4 - the ratio between dark and luminous (disc + bulge) mass \nNGC 2403 \nNGC 28413 \nNGC 2903 \nNGC 3198 \nNGC 6503 \nNGC 73313 \nNGC 1560 \nUGC 2259 \nDDO 154 \nDDO 170 \n1.43 \n0.02 \n14.49 \n1.31 \n3.61 \n0.04 \n2.56 \n0.06 "
+            }
+          ],
+          "surface_density_on_page": false,
+          "hi_or_21cm_on_page": false,
+          "n_drawings": 0,
+          "n_images": 2
+        }
+      ]
+    }
+  ],
+  "candidate_original_source_reference_lines": [
+    {
+      "line": 5,
+      "text": "K. G. Begeman, A. H. Broeils and R. H. Sanders "
+    },
+    {
+      "line": 14,
+      "text": "modified Newtonian dynamics (MOND). This is done by means of least-squares fits "
+    },
+    {
+      "line": 33,
+      "text": "a firmly established observational result (reviewed in Sancisi "
+    },
+    {
+      "line": 34,
+      "text": "& van Albada 1987). In principle, the extended rotation "
+    },
+    {
+      "line": 42,
+      "text": "van Albada 1990, and references therein). But it is clear that "
+    },
+    {
+      "line": 65,
+      "text": "laws of Newtonian gravity or dynamics break down on the "
+    },
+    {
+      "line": 74,
+      "text": "524 K. G. Begeman, A. H. Broeils and R. H. Sanders "
+    },
+    {
+      "line": 75,
+      "text": "for modified Newtonian dynamics) has been notably suc- "
+    },
+    {
+      "line": 139,
+      "text": "Subsequently, Lake (1989) has considered the observed "
+    },
+    {
+      "line": 148,
+      "text": "depends only upon the adopted distance. Lake concludes "
+    },
+    {
+      "line": 154,
+      "text": "small irregular systems considered by Lake have uncertain "
+    },
+    {
+      "line": 160,
+      "text": "of Kent and of Lake to our set of refined rotation curves: we "
+    },
+    {
+      "line": 182,
+      "text": "observations (Begeman 1987; Carignan & Freeman 1988; "
+    },
+    {
+      "line": 183,
+      "text": "Lake, Schommer & van Gorkom 1990; Broeils 1991) and/or "
+    },
+    {
+      "line": 185,
+      "text": "observed velocity field (Begeman 1987). Four of the "
+    },
+    {
+      "line": 256,
+      "text": "Six out of the 10 galaxies are from the sample of Begeman "
+    },
+    {
+      "line": 268,
+      "text": "detail by Begeman (1987, 1989). Those cases where this "
+    },
+    {
+      "line": 400,
+      "text": "Note 4 - references for photometry and 21-cm rotation curve: 1, Begeman (1987); 2, "
+    },
+    {
+      "line": 401,
+      "text": "Broeils (1990); 3, Carignan, Sancisi & van Albada (1988); 4, Carignan & Beaulieu (1989); "
+    },
+    {
+      "line": 402,
+      "text": "5, Kent (1987); 6, Lake, Schommer & van Gorkom (1990); 7, Wevers, van der Kruit & "
+    },
+    {
+      "line": 409,
+      "text": "526 K. G. Begeman, A. H, Broeils and R. H. Sanders "
+    },
+    {
+      "line": 410,
+      "text": "observed by Carignan, van Albada & Sancisi (1988) at "
+    },
+    {
+      "line": 416,
+      "text": "observed at Westerbork (Broeils 1991). DDO 170 is a "
+    },
+    {
+      "line": 418,
+      "text": "velocity field observed by Lake et al (1990) at the VLA. The "
+    },
+    {
+      "line": 422,
+      "text": "by Carignan & Freeman (1988) and considered by Milgrom "
+    },
+    {
+      "line": 424,
+      "text": "one of the objects considered by Lake (1989) in his criticism "
+    },
+    {
+      "line": 425,
+      "text": "of MOND. The remaining five galaxies in Lake\u2019s sample "
+    },
+    {
+      "line": 434,
+      "text": "tribution with Newtonian dynamics (Kent 1986; van Albada "
+    },
+    {
+      "line": 435,
+      "text": "& Sancisi 1986). Thus M/L is always a free parameter in the "
+    },
+    {
+      "line": 454,
+      "text": "cedure outlined by Begeman (1987). We assume that the halo "
+    },
+    {
+      "line": 475,
+      "text": "the Newtonian gravitational acceleration, gn, as "
+    },
+    {
+      "line": 521,
+      "text": "Begeman (1987), it is also found here that, with the exception "
+    },
+    {
+      "line": 544,
+      "text": "( Vh). The galaxies from the sample of Begeman are shown in (a) and the lower luminosity galaxies in (b). Best-fit values for the free parameters "
+    },
+    {
+      "line": 551,
+      "text": "528 K. G. Begeman, A. H. Broeils and R. H. Sanders "
+    },
+    {
+      "line": 562,
+      "text": "in the Newtonian rotation curve of the gaseous component, "
+    },
+    {
+      "line": 582,
+      "text": "dicted rotation curve should be essentially Newtonian. This "
+    },
+    {
+      "line": 833,
+      "text": "maximum rotational velocity of the galaxy. Lake (1989) has "
+    },
+    {
+      "line": 859,
+      "text": "1977). Taking the observed correlation as given by Shostak "
+    },
+    {
+      "line": 885,
+      "text": "530 K. G. Begeman, A. H. Broeils and R. H. Sanders "
+    },
+    {
+      "line": 932,
+      "text": "532 K. G. Begeman, A. H. Broeils and R. H. Sanders "
+    },
+    {
+      "line": 935,
+      "text": "is taken from Shostak (1978) or Aaronson & Mould (1983). Error "
+    },
+    {
+      "line": 939,
+      "text": "rent star-formation rate (Casertano & van Albada 1990). "
+    },
+    {
+      "line": 969,
+      "text": "NGC 2841 (Begeman 1987) yields M/L- 10 for the disc if "
+    },
+    {
+      "line": 986,
+      "text": "Albada & Sancisi 1986) that, in the context of dark haloes, "
+    },
+    {
+      "line": 1013,
+      "text": "disc-halo fits to the six galaxies in Begeman\u2019s sample; these "
+    },
+    {
+      "line": 1082,
+      "text": "534 K. G. Begeman, A. H. Broeils and R. H. Sanders "
+    },
+    {
+      "line": 1086,
+      "text": "effect recently pointed out by Casertano & van Gorkom "
+    },
+    {
+      "line": 1092,
+      "text": "s-1)1/2 (kpc)_1/4. For the more luminous galaxies (Begeman\u2019s "
+    },
+    {
+      "line": 1111,
+      "text": "low-luminosity, gas-dominated systems. In particular, Broeils "
+    },
+    {
+      "line": 1117,
+      "text": "present in the Newtonian rotation curve of the gas and the "
+    },
+    {
+      "line": 1154,
+      "text": "sity or rotation velocity in contrast to the conclusion of Lake "
+    },
+    {
+      "line": 1155,
+      "text": "(1989). However, Lake\u2019s claim is based primarily upon "
+    },
+    {
+      "line": 1166,
+      "text": "Milgrom & Braun (1988) and by Lake (1989), these systems "
+    },
+    {
+      "line": 1176,
+      "text": "tion dilutes features in the Newtonian rotation curve which "
+    },
+    {
+      "line": 1180,
+      "text": "critical for comparing MOND with dark haloes. Bosma "
+    },
+    {
+      "line": 1181,
+      "text": "(1978) and Sancisi (1990, private communication) have "
+    },
+    {
+      "line": 1185,
+      "text": "ponent - a point which is discussed in detail by Carignan et "
+    },
+    {
+      "line": 1213,
+      "text": "Subsequent to the initial submission of this paper, Jobin & "
+    },
+    {
+      "line": 1214,
+      "text": "Carignan (1990) published a new determination of the rota- "
+    },
+    {
+      "line": 1217,
+      "text": "(Huchtmeier 1975; Carignan 1985), the new curve is based "
+    },
+    {
+      "line": 1233,
+      "text": "observed. This point is taken up by Lake (1989) who "
+    },
+    {
+      "line": 1246,
+      "text": "tion of the predicted Newtonian or MOND rotation curves. "
+    },
+    {
+      "line": 1249,
+      "text": "been presented by Jobin & Carignan and this is not repeated "
+    },
+    {
+      "line": 1252,
+      "text": "ponent, which is evident here by comparing the Newtonian "
+    },
+    {
+      "line": 1261,
+      "text": "536 K. G. Begeman, A. H. Broeils and R. H. Sanders "
+    },
+    {
+      "line": 1264,
+      "text": "the VLA observations of Jobin & Carignan (1990). The value of aQ "
+    },
+    {
+      "line": 1267,
+      "text": "Newtonian rotation curves for the visible disc and for the gas "
+    },
+    {
+      "line": 1277,
+      "text": "VLA. Jobin & Carignan note that the synthesis observations "
+    },
+    {
+      "line": 1299,
+      "text": "larger than Lake\u2019s value determined for the old NGC 3109 "
+    },
+    {
+      "line": 1309,
+      "text": "ties determined optically (Carignan 1985). In any case, it is "
+    },
+    {
+      "line": 1312,
+      "text": "Fig. 7 with Lake\u2019s Fig. 1 reinforces the impression that as the "
+    },
+    {
+      "line": 1318,
+      "text": "T. S. van Albada and R. Sancisi for useful discussions and "
+    },
+    {
+      "line": 1324,
+      "text": "Begeman, K. G., 1987. PhD thesis, University of Groningen. "
+    },
+    {
+      "line": 1325,
+      "text": "Begeman, K. G., 1989. Astr. Astrophys., 223, 47. "
+    },
+    {
+      "line": 1327,
+      "text": "Bosma, A., 1978. PhD thesis, University of Groningen. "
+    },
+    {
+      "line": 1328,
+      "text": "Broeils, A. H., 1991. Astr. Astrophys., submitted. "
+    },
+    {
+      "line": 1329,
+      "text": "Carignan, C, 1985. Astrophys. J., 299, 59. "
+    },
+    {
+      "line": 1330,
+      "text": "Carignan, C. & Beaulieu, S., 1989. Astrophys. J., 347, 192. "
+    },
+    {
+      "line": 1331,
+      "text": "Carignan, C. & Freeman, K. C, 1988. Astrophys. J., 332, L33. "
+    },
+    {
+      "line": 1332,
+      "text": "Carignan, C, van Albada, T. S. & Sancisi, R., 1988. Astr. J., 95, 37. "
+    },
+    {
+      "line": 1333,
+      "text": "Carignan, C., Carbonneau, R, Boulanger, F. & Viallefond, F, 1990. "
+    },
+    {
+      "line": 1335,
+      "text": "Casertano, S. & van Albada, T. S., 1990. In: Baryonic Dark Matter, "
+    },
+    {
+      "line": 1337,
+      "text": "Casertano, S. & van Gorkom, J. H., 1990. Astrophys. J., in press. "
+    },
+    {
+      "line": 1341,
+      "text": "Jobin, M. & Carignan, C, 1990. Astr. J., 100, 648. "
+    },
+    {
+      "line": 1347,
+      "text": "Lake, G., 1989. Astrophys. J., 345, LI7. "
+    },
+    {
+      "line": 1348,
+      "text": "Lake, G., Schommer, R. A. & van Gorkom, J. H., 1990. Astr. J., 99, "
+    },
+    {
+      "line": 1358,
+      "text": "Sancisi, R. & van Albada, T. S., 1987. In: Dark Matter in the Uni- "
+    },
+    {
+      "line": 1364,
+      "text": "Shostak, G. S., 1978. Astr. Astrophys., 68, 321. "
+    },
+    {
+      "line": 1378,
+      "text": "van Albada, T. S. & Sancisi, R., 1986. Phil. Trans. R. Soc. Lond. A, "
+    }
+  ],
+  "hi_profile_language_hits": [
+    {
+      "page_number_1based": 1,
+      "line": 3,
+      "text": "Extended rotation curves of spiral galaxies: dark haloes and modified "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 10,
+      "text": "curves in order to select those objects for which the observed rotation curve is an "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 15,
+      "text": "to the rotation curves. Three-parameter dark-halo models (M/L for the visible disc, "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 17,
+      "text": "ducing the observed rotation curves, and it is found that, for the higher luminosity "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 21,
+      "text": "generally works well in predicting the form of the rotation curves, in some cases better "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 27,
+      "text": "produce satisfactory fits to the rotation curves. The overall conclusion is that MOND "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 35,
+      "text": "curves of spiral galaxies as measured in the 21-cm line of "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 41,
+      "text": "measured extended 21-cm line rotation curves (Casertano & "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 43,
+      "text": "not all such rotation curves should be interpreted as unambi- "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 45,
+      "text": "asymmetries in the gas distribution or kinematics would sug- "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 47,
+      "text": "the gas layer. The rotation curves derived for such systems "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 52,
+      "text": "the sample of galaxies with observed 21-cm line rotation "
+    },
+    {
+      "page_number_1based": 1,
+      "line": 54,
+      "text": "selected rotation curves accurately trace the gravitational "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 8,
+      "text": "is that the precise form of the rotation curve of a spiral galaxy "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 21,
+      "text": "Moreover, the appearance of rotation curves which are "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 38,
+      "text": "respect to fitting observed galaxy rotation curves as "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 39,
+      "text": "measured optically and in the 21-cm line of neutral hydro- "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 43,
+      "text": "the neutral hydrogen defines the rotation curve. He further "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 45,
+      "text": "observed rotation curves (the parameters being the mass-to- "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 57,
+      "text": "tion curves is wrong in principle; MOND rotation curves are "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 60,
+      "text": "metric rotation curves and neglect of the contribution of gas "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 62,
+      "text": "cant in the outer regions. Milgrom shows the rotation curves "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 65,
+      "text": "In most cases the MOND rotation curves agree well with the "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 68,
+      "text": "rotation curves of six low-mass, gas-dominated galaxies. "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 74,
+      "text": "calculating the predicted rotation curve. The neutral hydro- "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 77,
+      "text": "that MOND fits to the rotation curves demonstrate that \u00e60 is "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 88,
+      "text": "of Kent and of Lake to our set of refined rotation curves: we "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 92,
+      "text": "a least-squares fit to the observed rotation curves. In this "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 105,
+      "text": "work is in the definition of the sample: the rotation curves "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 108,
+      "text": "Kent\u2019s sample; the rotation curves considered here are based "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 112,
+      "text": "an improved derivation of the rotation curve from the "
+    },
+    {
+      "page_number_1based": 2,
+      "line": 124,
+      "text": "in predicting the form of galaxy rotation curves from the "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 16,
+      "text": "measured extended rotation curves, we apply the following "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 18,
+      "text": "(i) The rotation curve is measured in the 21-cm line of "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 19,
+      "text": "neutral hydrogen. Moreover, the gas distribution extends far "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 37,
+      "text": "Extended rotation curves of spiral galaxies 525 "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 44,
+      "text": "used in the determination of the rotation curve. "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 48,
+      "text": "graphic or CCD) so that the form of the rotation curve can "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 51,
+      "text": "The 10 galaxy rotation curves in the literature or soon to "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 61,
+      "text": "rotation curve was derived by using the entire two-dimen- "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 68,
+      "text": "the observed rotation curve should be given less weight than "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 196,
+      "text": "Note 2 - radius of the last measured point on the rotation curve. "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 197,
+      "text": "Note 3 - acceleration at the last measured point of the rotation curve. "
+    },
+    {
+      "page_number_1based": 3,
+      "line": 198,
+      "text": "Note 4 - references for photometry and 21-cm rotation curve: 1, Begeman (1987); 2, "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 4,
+      "text": "Westerbork. The rotation curve is accurately determined and "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 8,
+      "text": "symmetric gas distribution and velocity field recently "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 25,
+      "text": "small and where the form of the observed rotation curve is "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 29,
+      "text": "fitting of rotation curves. In two of these galaxies (NGC 2841 "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 36,
+      "text": "the calculated rotation curves in the outer regions where the "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 39,
+      "text": "bution of the neutral hydrogen surface density is directly "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 56,
+      "text": "observed rotation curve is then fitted via a non-linear least- "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 59,
+      "text": "In order to calculate MOND rotation curves from the "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 64,
+      "text": "prescription gives results for galaxy rotation curves which "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 82,
+      "text": "The observed rotation curve, V{r), is fit applying "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 103,
+      "text": "tion curves where the rotation curves of the individual com- "
+    },
+    {
+      "page_number_1based": 4,
+      "line": 106,
+      "text": "the observed rotation curves is generally quite good which is "
+    },
+    {
+      "page_number_1based": 5,
+      "line": 6,
+      "text": "Extended rotation curves of spiral galaxies 527 "
+    },
+    {
+      "page_number_1based": 5,
+      "line": 10,
+      "text": "Moreover, the appearance of flat rotation curves does in "
+    },
+    {
+      "page_number_1based": 5,
+      "line": 24,
+      "text": "Figure 1. Three-parameter dark-halo fits (solid curves) to the rotation curves of sample galaxies. The rotation curves of the individual "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 6,
+      "text": "curve and the rising halo rotation curve - the \u2018conspiracy\u2019. In "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 11,
+      "text": "rotation curves, such as the noticeable kink in the rotation "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 13,
+      "text": "in the Newtonian rotation curve of the gaseous component, "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 18,
+      "text": "rotation curves where M/L for the disc is the only free para- "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 26,
+      "text": "and now have considerably more accurte rotation curves "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 29,
+      "text": "rotation curve of NGC 2841. In this large galaxy with high "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 33,
+      "text": "dicted rotation curve should be essentially Newtonian. This "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 35,
+      "text": "between the MOND and observed rotation curves for the "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 38,
+      "text": "the very weak dependence of the form of the rotation curve "
+    },
+    {
+      "page_number_1based": 6,
+      "line": 41,
+      "text": "rotation curve. "
+    },
+    {
+      "page_number_1based": 7,
+      "line": 2,
+      "text": "Extended rotation curves of spiral galaxies 529 "
+    },
+    {
+      "page_number_1based": 7,
+      "line": 240,
+      "text": "The rotation curve fits for variable a0 are not shown but "
+    },
+    {
+      "page_number_1based": 8,
+      "line": 24,
+      "text": "Figure 2. MOND fits to the rotation curves of the sample galaxies. The value of a0 is fixed at 1.21 x 10 - 8 cm s-2. The dotted curves show the "
+    },
+    {
+      "page_number_1based": 9,
+      "line": 2,
+      "text": "Extended rotation curves of spiral galaxies 531 "
+    },
+    {
+      "page_number_1based": 9,
+      "line": 6,
+      "text": "parameter MOND fits (M/L and fl0) to the sample rotation curves "
+    },
+    {
+      "page_number_1based": 10,
+      "line": 30,
+      "text": "form of the rotation curve from the observed distribution of "
+    },
+    {
+      "page_number_1based": 10,
+      "line": 38,
+      "text": "distance. A maximum disc fit to the rotation curve of "
+    },
+    {
+      "page_number_1based": 10,
+      "line": 57,
+      "text": "the appearance of flat rotation curves for galaxies covering a "
+    },
+    {
+      "page_number_1based": 10,
+      "line": 77,
+      "text": "rotation curves (in bulgeless cases) is reduced to one - M/L "
+    },
+    {
+      "page_number_1based": 10,
+      "line": 79,
+      "text": "These one-parameter dark-halo fits to the rotation curves "
+    },
+    {
+      "page_number_1based": 11,
+      "line": 5,
+      "text": "central surface density of spiral discs; if the central surface "
+    },
+    {
+      "page_number_1based": 11,
+      "line": 7,
+      "text": "Extended rotation curves of spiral galaxies 533 "
+    },
+    {
+      "page_number_1based": 11,
+      "line": 11,
+      "text": "the rotation curve should be slowly rising in such systems at "
+    },
+    {
+      "page_number_1based": 11,
+      "line": 13,
+      "text": "galaxies (high Fd) the rotation curves should generally be "
+    },
+    {
+      "page_number_1based": 11,
+      "line": 39,
+      "text": "Figure 6. One-parameter (M/L ) coupled dark-halo fits to the sample rotation curves. The dotted curves are the fits for the simple linear "
+    },
+    {
+      "page_number_1based": 12,
+      "line": 9,
+      "text": "to the observed rotation curves where the halo properties "
+    },
+    {
+      "page_number_1based": 12,
+      "line": 33,
+      "text": "rotation curve of NGC 1560 (a fit which reproduces the fine "
+    },
+    {
+      "page_number_1based": 12,
+      "line": 34,
+      "text": "structure in the rotation curve) can be obtained if this galaxy "
+    },
+    {
+      "page_number_1based": 12,
+      "line": 36,
+      "text": "because the fluctuations observed in the rotation curve are "
+    },
+    {
+      "page_number_1based": 12,
+      "line": 37,
+      "text": "present in the Newtonian rotation curve of the gas and the "
+    },
+    {
+      "page_number_1based": 12,
+      "line": 41,
+      "text": "We have restricted our analysis of rotation curves to those "
+    },
+    {
+      "page_number_1based": 12,
+      "line": 46,
+      "text": "fits to the observed rotation curves and, except for the low- "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 2,
+      "text": "observed rotation curves then do seem to require a rather "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 9,
+      "text": "then the MOND rotation curves derived from the observed "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 11,
+      "text": "rotation curves as well as, and in some cases better than, "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 18,
+      "text": "in the least-square fits to rotation curves, then the dispersion "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 26,
+      "text": "need for precise rotation curves of these extreme systems "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 29,
+      "text": "The good MOND fits to the rotation curves of the three "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 37,
+      "text": "predicted rotation curve is insensitive to the assumed form of "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 39,
+      "text": "observed rotation curve should be very sensitive to fluctua- "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 41,
+      "text": "NGC 1560. For this galaxy, the MOND rotation curve "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 42,
+      "text": "clearly matches the observed rotation curve better than a "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 44,
+      "text": "tion dilutes features in the Newtonian rotation curve which "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 45,
+      "text": "are caused by real fluctuations in the gas surface density dis- "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 47,
+      "text": "structure in the rotation curves would indeed appear to be "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 63,
+      "text": "free parameters) of the systematics of galaxy rotation curves. "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 64,
+      "text": "Extended rotation curves of spiral galaxies 535 "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 83,
+      "text": "tion curve of NGC 3109. Whereas the old rotation curve was "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 104,
+      "text": "rotation curve requires a value of aQ which is significantly "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 109,
+      "text": "The new high-resolution rotation curve is about 25-30 "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 110,
+      "text": "per cent higher than the old single dish rotation curve upon "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 114,
+      "text": "tion of the predicted Newtonian or MOND rotation curves. "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 116,
+      "text": "Fig. 7. Dark-halo fits to the observed rotation curve have "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 122,
+      "text": "The MOND rotation curve shown in Fig. 7 is not a least- "
+    },
+    {
+      "page_number_1based": 13,
+      "line": 123,
+      "text": "square fit but is the predicted rotation curve assuming the "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 3,
+      "text": "Figure 7. The predicted MOND rotation curve (solid line) for "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 4,
+      "text": "NGC 3109 compared to the rotation curve (points) derived from "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 8,
+      "text": "Newtonian rotation curves for the visible disc and for the gas "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 12,
+      "text": "the 21 cm line flux missed in the synthesis observations. The "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 17,
+      "text": "the hydrogen surface density distribution observed at the "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 30,
+      "text": "The MOND rotation curve is seen to agree well with the "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 32,
+      "text": "detailed structure of the rotation curve is reproduced. In this "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 34,
+      "text": "NGC 1560 where the observed rotation curve reflects real "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 35,
+      "text": "variations in the H i surface density. There is no indication "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 41,
+      "text": "rotation curve at his adopted distance of 1.8 Mpc. The one "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 45,
+      "text": "Even with this low M/L the predicted rotation curve is seen "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 46,
+      "text": "to lie somewhat above the observed 21-cm line curve in the "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 47,
+      "text": "inner regions. However, the measured 21-cm line rotation "
+    },
+    {
+      "page_number_1based": 14,
+      "line": 55,
+      "text": "the MOND and the observed rotation curves. "
+    },
+    {
+      "page_number_1based": 15,
+      "line": 2,
+      "text": "Extended rotation curves of spiral galaxies 537 "
+    }
+  ],
+  "classification": "downstream_selected_rotation_curve_analysis_requires_per_galaxy_original_source_resolution",
+  "interpretation_rule": "Be91 is not promoted as a direct radial H I profile source merely because it models gas contributions. Each target must be traced to the underlying observing publication identified in the paper/context before acquisition.",
+  "boundary": "No OCR, raster digitization, profile-value extraction, persistence fitting, or blind-outcome inspection."
+}
