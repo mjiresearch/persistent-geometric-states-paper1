@@ -1,0 +1,165 @@
+{
+  "status": "WHISP2017_FROZEN_CROSSMATCH_COMPLETE",
+  "source_sample_size": 37,
+  "n_frozen_matches": 19,
+  "role_counts": {
+    "calibration": 15,
+    "blind": 4
+  },
+  "frozen_matches": [
+    {
+      "whisp_ugc_number": 4325,
+      "canonical_candidate": "UGC04325",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 4499,
+      "canonical_candidate": "UGC04499",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 5414,
+      "canonical_candidate": "UGC05414",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 5721,
+      "canonical_candidate": "UGC05721",
+      "stationary_role": "blind",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 5829,
+      "canonical_candidate": "UGC05829",
+      "stationary_role": "blind",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 5918,
+      "canonical_candidate": "UGC05918",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 6446,
+      "canonical_candidate": "UGC06446",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 7261,
+      "canonical_candidate": "UGC07261",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 7323,
+      "canonical_candidate": "UGC07323",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 7399,
+      "canonical_candidate": "UGC07399",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 7524,
+      "canonical_candidate": "UGC07524",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 7559,
+      "canonical_candidate": "UGC07559",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 7690,
+      "canonical_candidate": "UGC07690",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 7866,
+      "canonical_candidate": "UGC07866",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 8490,
+      "canonical_candidate": "UGC08490",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 9992,
+      "canonical_candidate": "UGC09992",
+      "stationary_role": "blind",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 10310,
+      "canonical_candidate": "UGC10310",
+      "stationary_role": "blind",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 12632,
+      "canonical_candidate": "UGC12632",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    },
+    {
+      "whisp_ugc_number": 12732,
+      "canonical_candidate": "UGC12732",
+      "stationary_role": "calibration",
+      "in_frozen_149": 1,
+      "source_study": "Butler et al. 2017 MNRAS 472 4551",
+      "source_profile_route": "30arcsec_WHISP_total_intensity_map_reconstruction"
+    }
+  ],
+  "source_method": "Butler et al. 2017 selected 37 WHISP galaxies and derived HI mass surface-density profiles from publicly downloaded 30-arcsec WHISP HI total-intensity maps.",
+  "boundary": "Crossmatch only; no map/profile reconstruction, source normalization, helium correction, interpolation, persistence fitting, or blind inspection."
+}
