@@ -1,0 +1,54 @@
+name: Inspect Iorio 2017 LITTLE THINGS supplement
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/stationary/inspect_iorio2017_supplement.py"
+      - ".github/workflows/inspect_iorio2017_supplement.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Inspect public supplement
+        run: |
+          python scripts/stationary/inspect_iorio2017_supplement.py
+
+      - name: Show DDO168 matches
+        run: |
+          python - <<'PY'
+          import json
+          p='validation/stationary/iorio2017_supplement_manifest_v1.json'
+          d=json.load(open(p))
+          print('recursive members:', d['n_recursive_members'])
+          print('DDO168 matches:')
+          for x in d['ddo168_name_matches']:
+              print(x)
+          PY
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add validation/stationary/iorio2017_supplement_manifest_v1.json
+          if git diff --cached --quiet; then
+            echo "No manifest change."
+          else
+            git commit -m "Inspect public Iorio 2017 supplement"
+            git push origin HEAD:main
+          fi
