@@ -1,0 +1,49 @@
+name: Integrate Jadhav 2019 LSB H I profiles
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/integrate_jadhav2019_lsb_profiles.yml
+      - scripts/stationary/integrate_jadhav2019_lsb_analytic_into_overlay.py
+      - data/stationary/source_reconstruction/jadhav_banerjee2019_lsb_hi_analytic_profiles_v1.csv
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Integrate analytic profiles into public overlay
+        run: python scripts/stationary/integrate_jadhav2019_lsb_analytic_into_overlay.py
+      - name: Reconcile frozen provenance view
+        run: python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+      - name: Regenerate Lelli source-family priority
+        run: python scripts/stationary/rank_sparc_hi_reference_families.py
+      - name: Show summaries
+        run: |
+          cat validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json
+          cat validation/stationary/sparc_hi_reference_family_priority_v1_summary.json
+      - name: Commit generated database state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv \
+                  data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv \
+                  validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json \
+                  data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv \
+                  validation/stationary/sparc_hi_reference_family_priority_v1_summary.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Integrate five public dB96-family analytic H I profiles"
+            git pull --rebase origin main
+            git push
+          fi
