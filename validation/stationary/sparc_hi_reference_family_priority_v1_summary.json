@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 93,
   "n_reference_families_covering_untouched": 41,
-  "n_actionable_reference_families": 23,
-  "n_deferred_or_redirected_reference_families": 18,
+  "n_actionable_reference_families": 22,
+  "n_deferred_or_redirected_reference_families": 19,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "dB97",
-      "n_untouched_frozen_galaxies": 2,
-      "n_calibration": 1,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "de Blok and McGaugh",
-      "bibcode": "1997MNRAS.290..533D",
-      "comment": "",
-      "galaxies": "F565-V2;F571-V1"
-    },
     {
       "sparc_ref_id": "Ba05",
       "n_untouched_frozen_galaxies": 1,
@@ -245,6 +229,22 @@
       "bibcode": "1990AJ....100..394C",
       "comment": "",
       "galaxies": "NGC0247"
+    },
+    {
+      "sparc_ref_id": "Ch06",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Chemin et al.",
+      "bibcode": "2006AJ....132.2527C",
+      "comment": "",
+      "galaxies": "NGC0024"
     }
   ],
   "deferred_or_redirected_families": [
@@ -503,6 +503,22 @@
       "bibcode": "2009A&A...505..577T",
       "comment": "",
       "galaxies": "D564-8;D631-7"
+    },
+    {
+      "sparc_ref_id": "dB97",
+      "n_untouched_frozen_galaxies": 2,
+      "n_calibration": 1,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "redirect_existing_source_family",
+      "disposition": "downstream_mass_model_redirect_to_existing_db96_original_HI_source_state",
+      "disposition_artifact": "validation/stationary/CHECKPOINT_DB97_REDIRECT.md",
+      "reopen_rule": "reopen_only_for_genuinely_new_public_numeric_vector_or_analytic_profile_route_for_F565-V2_or_F571-V1",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok and McGaugh",
+      "bibcode": "1997MNRAS.290..533D",
+      "comment": "",
+      "galaxies": "F565-V2;F571-V1"
     },
     {
       "sparc_ref_id": "Be87",
