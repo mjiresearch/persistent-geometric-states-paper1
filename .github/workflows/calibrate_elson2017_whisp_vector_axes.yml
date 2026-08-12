@@ -1,0 +1,56 @@
+name: Calibrate Elson 2017 WHISP vector axes
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/calibrate_elson2017_whisp_vector_axes.py'
+      - '.github/workflows/calibrate_elson2017_whisp_vector_axes.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install vector PDF parser
+        run: pip install --disable-pip-version-check pymupdf
+      - name: Calibrate WHISP Appendix vector axes
+        run: python scripts/stationary/calibrate_elson2017_whisp_vector_axes.py
+      - name: Show calibration summary
+        run: |
+          python - <<'PY'
+          import json
+          p='validation/stationary/elson2017_whisp_vector_axis_calibration_v1.json'
+          d=json.load(open(p))
+          print('STATUS', d['status'])
+          print('TARGETS', d['n_targets'])
+          for r in d['targets']:
+              b=r['best']
+              print(r['galaxy'], r['stationary_role'],
+                    'roots', len(r['candidates']),
+                    'a', round(b['kpc_per_pdf_x'],6),
+                    'b', round(b['sigma_per_pdf_y'],6),
+                    'xtick', None if b['x_tick_kpc'] is None else round(b['x_tick_kpc'],5),
+                    'ytick', None if b['y_tick_sigma'] is None else round(b['y_tick_sigma'],5),
+                    'score', round(b['nice_score'],5),
+                    'mean', round(b['mean_pred'],5), '/', r['source_mean_sigma_hi_3p2h'])
+          PY
+      - name: Commit calibration audit
+        run: |
+          git config user.name "mjiresearch"
+          git config user.email "michael.iuliano.research@gmail.com"
+          git add validation/stationary/elson2017_whisp_vector_axis_calibration_v1.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Record WHISP vector-axis calibration audit"
+            git push
+          fi
