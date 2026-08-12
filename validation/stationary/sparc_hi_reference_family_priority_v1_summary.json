@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 92,
   "n_reference_families_covering_untouched": 40,
-  "n_actionable_reference_families": 19,
-  "n_deferred_or_redirected_reference_families": 21,
+  "n_actionable_reference_families": 18,
+  "n_deferred_or_redirected_reference_families": 22,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Ca88",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 1,
-      "n_blind": 0,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Carignan et al.",
-      "bibcode": "1988AJ.....95...37C",
-      "comment": "",
-      "galaxies": "UGC02259"
-    },
     {
       "sparc_ref_id": "El10",
       "n_untouched_frozen_galaxies": 1,
@@ -245,6 +229,22 @@
       "bibcode": "2007AJ....133.2242K",
       "comment": "",
       "galaxies": "UGCA444"
+    },
+    {
+      "sparc_ref_id": "La90",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Lake et al.",
+      "bibcode": "1990AJ.....99..547L",
+      "comment": "",
+      "galaxies": "DDO170"
     }
   ],
   "deferred_or_redirected_families": [
@@ -567,6 +567,22 @@
       "bibcode": "2004A&A...420..147B",
       "comment": "Cat. J/A+A/420/147",
       "galaxies": "NGC5985"
+    },
+    {
+      "sparc_ref_id": "Ca88",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "0",
+      "queue_status": "redirect_existing_source_family",
+      "disposition": "same_original_UGC02259_HI_source_already_exhaustively_audited_through_Be91_branch",
+      "disposition_artifact": "validation/stationary/BE91_ORIGINAL_SOURCE_PROFILE_DISPOSITION_V1.md",
+      "reopen_rule": "reopen_only_for_genuinely_new_machine_readable_vector_or_fully_specified_analytic_UGC02259_HI_profile_route",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Carignan et al.",
+      "bibcode": "1988AJ.....95...37C",
+      "comment": "",
+      "galaxies": "UGC02259"
     },
     {
       "sparc_ref_id": "Le14",
