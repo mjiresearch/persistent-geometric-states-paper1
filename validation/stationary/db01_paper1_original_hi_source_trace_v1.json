@@ -1,0 +1,395 @@
+{
+  "status": "DB01_PAPER1_ORIGINAL_HI_SOURCE_TRACE_COMPLETE",
+  "paper": "McGaugh, Rubin & de Blok 2001 AJ 122 2381 (Paper I; arXiv astro-ph/0107326)",
+  "source_transport": {
+    "url": "https://arxiv.org/e-print/astro-ph/0107326",
+    "final_url": "https://arxiv.org/src/astro-ph/0107326",
+    "content_type": "application/gzip"
+  },
+  "arxiv_bytes": 613919,
+  "n_files": 13,
+  "members": [
+    {
+      "name": "RCdataPP.tex",
+      "bytes": 38161,
+      "suffix": ".tex"
+    },
+    {
+      "name": "mcgaugh.fig1.ps",
+      "bytes": 505951,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig2a.ps",
+      "bytes": 179966,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig2b.ps",
+      "bytes": 186641,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig3a.ps",
+      "bytes": 281197,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig3b.ps",
+      "bytes": 136632,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig4a.ps",
+      "bytes": 143446,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig4b.ps",
+      "bytes": 129761,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig4c.ps",
+      "bytes": 116630,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig5.ps",
+      "bytes": 197162,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.fig6.ps",
+      "bytes": 58445,
+      "suffix": ".ps"
+    },
+    {
+      "name": "mcgaugh.tab1.tex",
+      "bytes": 4119,
+      "suffix": ".tex"
+    },
+    {
+      "name": "mcgaugh.tab2.tex",
+      "bytes": 843,
+      "suffix": ".tex"
+    }
+  ],
+  "targets": [
+    "D631-7",
+    "F571-8",
+    "UGC05750",
+    "UGC06614",
+    "UGC11557"
+  ],
+  "target_hits": {
+    "D631-7": [
+      {
+        "file": "mcgaugh.tab1.tex",
+        "line": 32,
+        "text": "UGC 4115 & 343 & 74 & 140 & 1 & N & Y & = D631-7; knotty and diffuse \\\\",
+        "context": "F571-8 \t& 3768 & $\\sim$90 & 168 & 1 & Y & Y & edge-on\\\\ \nF571-V1\t& 5721 & 35 & 45 & 2 & Y & N & faint, ragged\\\\ \nF574-2\t& 6320 & 30 & 53 & 3 & Y & N & core, faint disk\\\\\nF577-V1\t& 7788 & 35 & 40 & 2 & Y & N & Mag.\\ Irr\\\\\nF579-V1\t& 6305 & 26 & 120 & 1 & Y & Y & core, flocc. arms\\\\ \nF583-1 \t& 2264 & 63 & 175 & 1 & Y & Y & Mag.\\ Irr\\\\\nF583-4 \t& 3617 & 55 & 115 & 1 & Y & Y & fuzzy\\\\ \nF730-V1 & 10714 & 50 & 16 & 1 & N & Y & spiral\\\\\nD646-5\t& 1045 & \\nodata & 29 & 2 & N & N & small; diffuse\\\\\nD723-4\t& 2175: & \\nodata & 94 & 2 & N & N & small, irr\\\\\nUGC 4115 & 343 & 74 & 140 & 1 & N & Y & = D631-7; knotty and diffuse \\\\\nUGC 5209 & 530: & 53 & 158 & 3 & Y & N & fuzzy, small\\\\\nUGC 5750 & 4177 & 64 & 167 & 1 & Y & Y & Mag.\\ bar\\\\\nUGC 6614 & 6371 & 36 & 108 & 1 & Y & Y & bulge; spiral ring\\\\\nUGC 9992 & 430 & 30 & 35 & 2 & N & N & fuzzy, small\\\\\nUGC 10310 & 724 & 34 & 19 & 2 & N & N & knotty spiral arms; slit missed nuc.?\\\\ \nUGC 11454 & 6628 & 64 & 106 & 1 & N & Y & fuzzy spiral, small core\\\\\nUGC 11557 & 1390 & 36 & 94 & 1 & N\\tablenotemark{e} & Y & fuzzy spiral, small core\\\\ \nUGC 11583 & 128 & 83 & 88 & 1 & N & Y & faint Mag.\\ bar\\\\\nUGC 11616 & 5244 & 60 & 99 & 1 & N & Y & fuzzy, Irr\\\\\nUGC 11648 & 3350 & 83 & 145 & 1 & N & Y & Irr\\\\"
+      }
+    ],
+    "F571-8": [
+      {
+        "file": "RCdataPP.tex",
+        "line": 444,
+        "text": "(F563-V2, F568-V1, F571-8, F574-1, F583-4, and UGC 6614)",
+        "context": "21 cm rotation curves is merely a matter of large error bars.  For the other\ngalaxies the agreement is genuine, and sometimes quite good (e.g., F568-3,\nF583-1, and UGC 5750).  Indeed, the asymmetric structure of\nF579-V1\\footnote{De Blok \\& McGaugh (1997) had already noted the difficulty\nthis case posed for attributing to beam smearing the slow rise of\nthe rotation curves derived from the 21 cm data.}\nis apparent in both \\Ha\\ and 21 cm data, with particularly good\nagreement between the two on the shape of the receding side (Fig. 4).\n\nThe remaining 6 galaxies\n(F563-V2, F568-V1, F571-8, F574-1, F583-4, and UGC 6614)\nhave optical rotation curves which differ more noticeably\nfrom the earlier \\HI\\ curves.  The reasons for this varies form case to case.\nUnlike most of the LSB galaxies in this sample, UGC 6614 has a strong bulge\ncomponent for which one expects a rapidly rising then quickly falling\nrotation curve.  This is apparent in the \\Ha\\ data, which hardly extend\ninto the range of disk-halo domination.  The 21 cm data do not probe\nsmall radii, as there is a central hole in the HI distribution of this galaxy\n(van der Hulst et al.\\ 1993).\nF571-8 is an edge-on galaxy, with the associated problems of optical\ndepth and projection effects (Matthews \\& Wood 2001)."
+      },
+      {
+        "file": "RCdataPP.tex",
+        "line": 453,
+        "text": "F571-8 is an edge-on galaxy, with the associated problems of optical",
+        "context": "The remaining 6 galaxies\n(F563-V2, F568-V1, F571-8, F574-1, F583-4, and UGC 6614)\nhave optical rotation curves which differ more noticeably\nfrom the earlier \\HI\\ curves.  The reasons for this varies form case to case.\nUnlike most of the LSB galaxies in this sample, UGC 6614 has a strong bulge\ncomponent for which one expects a rapidly rising then quickly falling\nrotation curve.  This is apparent in the \\Ha\\ data, which hardly extend\ninto the range of disk-halo domination.  The 21 cm data do not probe\nsmall radii, as there is a central hole in the HI distribution of this galaxy\n(van der Hulst et al.\\ 1993).\nF571-8 is an edge-on galaxy, with the associated problems of optical\ndepth and projection effects (Matthews \\& Wood 2001).\nF574-1 and F583-4 do suffer from significant beam smearing as a result\nof an elliptical beam shape which projects to a large physical size on\nthe galaxy.  This is convolved with the intrinsic HI distribution, which can\ncomplicate matters further if emission is lacking from particular regions\n(e.g., from a central hole).  The situation for F563-V2 and F568-V1 is less\nclear as the optical data in these cases (from Swaters \\etal\\ 2000) has\nsubstantial scatter.\n\nThe agreement or disagreement between the optical and 21 cm rotation"
+      },
+      {
+        "file": "RCdataPP.tex",
+        "line": 691,
+        "text": "f) F571-8, 4 m telescope, 3600 s exposure.",
+        "context": "b) UGC 11616, 4 m telescope, 3600 s exposure.\nThe discreet knots reflect a knotty\nmorphology, and also very good seeing.\nc) F563-1, 4 m telescope, 5400 s exposure, H$\\alpha$ only.\nWeak or absent [NII] is indicative of galaxies of low luminosity.\nd) ESO 3520470,  Las Campanas 2.5 m telescope, 3600 s exposure. A Magellanic\nirregular with relatively strong [SII]. The slit was placed along the bar,\nbut little or no rotation is observed.  No mass model was constructed\nfor this galaxy.\ne) ESO 2060140, Las Campanas 2.5 m telescope, 3600 s exposure.\nf) F571-8, 4 m telescope, 3600 s exposure.\nA cosmic flaw decorates the bottom of H$\\alpha$.}\n\\end{figure}\n\n\\clearpage\n\\begin{figure}\n\\figurenum{2}\n\\epsscale{0.9}\n\\plotone{mcgaugh.fig2a.ps}\n\\caption{Observed heliocentric\nvelocity plotted against angular distance from the center of each galaxy."
+      },
+      {
+        "file": "mcgaugh.tab1.tex",
+        "line": 22,
+        "text": "F571-8 \t& 3768 & $\\sim$90 & 168 & 1 & Y & Y & edge-on\\\\ ",
+        "context": "\\colhead{$(^{\\circ})$} & \\colhead{$(^{\\circ})$} &\n\\colhead{} & \\colhead{} & \\colhead{Model} & \\colhead{}\n}\n\\startdata\nF561-1 \t& 4809 & 24 & 55 & 2 & Y & N & bulge, faint disk \\\\ \nF563-1 \t& 3502 & 25 & 161 & 1 & Y & Y & Mag.\\ Irr\\\\ \nF563-V1\\tablenotemark{d} & 3890 & 60 & 140 & 3 & Y & N & faint, bar\\\\\nF565-V2\t& 3681 & 60 & 20 & 2 & Y & N & ragged \\\\\nF567-2\t& 5675 & 20 & 119 & 3 & Y & N & faint \\\\\nF568-3 \t& 5913 & 40 & 169 & 1 & Y & Y & spiral with Mag.\\ bar\\\\ \nF571-8 \t& 3768 & $\\sim$90 & 168 & 1 & Y & Y & edge-on\\\\ \nF571-V1\t& 5721 & 35 & 45 & 2 & Y & N & faint, ragged\\\\ \nF574-2\t& 6320 & 30 & 53 & 3 & Y & N & core, faint disk\\\\\nF577-V1\t& 7788 & 35 & 40 & 2 & Y & N & Mag.\\ Irr\\\\\nF579-V1\t& 6305 & 26 & 120 & 1 & Y & Y & core, flocc. arms\\\\ \nF583-1 \t& 2264 & 63 & 175 & 1 & Y & Y & Mag.\\ Irr\\\\\nF583-4 \t& 3617 & 55 & 115 & 1 & Y & Y & fuzzy\\\\ \nF730-V1 & 10714 & 50 & 16 & 1 & N & Y & spiral\\\\\nD646-5\t& 1045 & \\nodata & 29 & 2 & N & N & small; diffuse\\\\\nD723-4\t& 2175: & \\nodata & 94 & 2 & N & N & small, irr\\\\\nUGC 4115 & 343 & 74 & 140 & 1 & N & Y & = D631-7; knotty and diffuse \\\\"
+      }
+    ],
+    "UGC05750": [
+      {
+        "file": "RCdataPP.tex",
+        "line": 409,
+        "text": "F563-1, F561-1, and UGC 5750 have been observed by  de Blok \\&",
+        "context": "of the ratio r(21cm)/r(\\Ha) = 1.5.\n\n\\placefigure{Fig5}\n\nFour of the galaxies we have observed have independent \\Ha\\ observations\nfrom other sources.  F568-3 has been observed by us, and \nalso by Pickering \\etal\\ (1998) and Swaters \\etal\\ (2000).  The\nslow rise of its rotation curve, first indicated by 21 cm\nobservations (de Blok \\etal\\ 1996), has\nbeen confirmed by all three independent optical data sets.\nF563-1, F561-1, and UGC 5750 have been observed by  de Blok \\&\nBosma (2002), with good general agreement with our observations\n(Fig. 6).  In the case of F561-1, the error\nbars are unusually large due to its low ($24^{\\circ}$)\ninclination combined with very limited emission.\nEach of our points in this case is a single measure with\nan adopted $\\pm 10 \\kms$\nerror, which projects to 25 \\kms\\ in the plane of the galaxy.  The\nuncorrected data are in good agreement:  this is a repeatable\nexperiment.\n"
+      },
+      {
+        "file": "RCdataPP.tex",
+        "line": 425,
+        "text": "F579-V1, F583-1, UGC 5750, and UGC 11557)",
+        "context": "an adopted $\\pm 10 \\kms$\nerror, which projects to 25 \\kms\\ in the plane of the galaxy.  The\nuncorrected data are in good agreement:  this is a repeatable\nexperiment.\n\n\\placefigure{Fig6}\n\nThe consistency of the \\Ha\\ and \\HI\\ data can be quantified by comparing\nthe measured velocities at small radii.\nFor 9 of the 15 galaxies (F561-1, F563-1, F568-1, F568-3, F571-V1,\nF579-V1, F583-1, UGC 5750, and UGC 11557)\nthe velocity differences at 20$''$ are $\\lesssim 8 \\kms$.\nNote that these are rotation velocities projected\nto the plane of the galaxies; as observed on the plane of the sky,\nthey correspond to $V(r) \\sin(i) < 5 \\kms$.  Hence these\ngalaxies exhibit the same velocity rise that was observed at 21 cm. \n\nThis can be seen directly in Figures 4 and 5.\nIn two cases (F561-1 and F571-V1) the agreement between the optical and\n21 cm rotation curves is merely a matter of large error bars.  For the other\ngalaxies the agreement is genuine, and sometimes quite good (e.g., F568-3,"
+      },
+      {
+        "file": "RCdataPP.tex",
+        "line": 436,
+        "text": "F583-1, and UGC 5750).  Indeed, the asymmetric structure of",
+        "context": "the velocity differences at 20$''$ are $\\lesssim 8 \\kms$.\nNote that these are rotation velocities projected\nto the plane of the galaxies; as observed on the plane of the sky,\nthey correspond to $V(r) \\sin(i) < 5 \\kms$.  Hence these\ngalaxies exhibit the same velocity rise that was observed at 21 cm. \n\nThis can be seen directly in Figures 4 and 5.\nIn two cases (F561-1 and F571-V1) the agreement between the optical and\n21 cm rotation curves is merely a matter of large error bars.  For the other\ngalaxies the agreement is genuine, and sometimes quite good (e.g., F568-3,\nF583-1, and UGC 5750).  Indeed, the asymmetric structure of\nF579-V1\\footnote{De Blok \\& McGaugh (1997) had already noted the difficulty\nthis case posed for attributing to beam smearing the slow rise of\nthe rotation curves derived from the 21 cm data.}\nis apparent in both \\Ha\\ and 21 cm data, with particularly good\nagreement between the two on the shape of the receding side (Fig. 4).\n\nThe remaining 6 galaxies\n(F563-V2, F568-V1, F571-8, F574-1, F583-4, and UGC 6614)\nhave optical rotation curves which differ more noticeably\nfrom the earlier \\HI\\ curves.  The reasons for this varies form case to case."
+      },
+      {
+        "file": "mcgaugh.tab1.tex",
+        "line": 34,
+        "text": "UGC 5750 & 4177 & 64 & 167 & 1 & Y & Y & Mag.\\ bar\\\\",
+        "context": "F574-2\t& 6320 & 30 & 53 & 3 & Y & N & core, faint disk\\\\\nF577-V1\t& 7788 & 35 & 40 & 2 & Y & N & Mag.\\ Irr\\\\\nF579-V1\t& 6305 & 26 & 120 & 1 & Y & Y & core, flocc. arms\\\\ \nF583-1 \t& 2264 & 63 & 175 & 1 & Y & Y & Mag.\\ Irr\\\\\nF583-4 \t& 3617 & 55 & 115 & 1 & Y & Y & fuzzy\\\\ \nF730-V1 & 10714 & 50 & 16 & 1 & N & Y & spiral\\\\\nD646-5\t& 1045 & \\nodata & 29 & 2 & N & N & small; diffuse\\\\\nD723-4\t& 2175: & \\nodata & 94 & 2 & N & N & small, irr\\\\\nUGC 4115 & 343 & 74 & 140 & 1 & N & Y & = D631-7; knotty and diffuse \\\\\nUGC 5209 & 530: & 53 & 158 & 3 & Y & N & fuzzy, small\\\\\nUGC 5750 & 4177 & 64 & 167 & 1 & Y & Y & Mag.\\ bar\\\\\nUGC 6614 & 6371 & 36 & 108 & 1 & Y & Y & bulge; spiral ring\\\\\nUGC 9992 & 430 & 30 & 35 & 2 & N & N & fuzzy, small\\\\\nUGC 10310 & 724 & 34 & 19 & 2 & N & N & knotty spiral arms; slit missed nuc.?\\\\ \nUGC 11454 & 6628 & 64 & 106 & 1 & N & Y & fuzzy spiral, small core\\\\\nUGC 11557 & 1390 & 36 & 94 & 1 & N\\tablenotemark{e} & Y & fuzzy spiral, small core\\\\ \nUGC 11583 & 128 & 83 & 88 & 1 & N & Y & faint Mag.\\ bar\\\\\nUGC 11616 & 5244 & 60 & 99 & 1 & N & Y & fuzzy, Irr\\\\\nUGC 11648 & 3350 & 83 & 145 & 1 & N & Y & Irr\\\\\nUGC 11748 & 5265 & 81 & 103 & 1 & N & Y & Irr, bright core/bar?\\\\\nUGC 11819 & 4261  & 66 & 167 & 1 & N & Y & fuzzy\\\\"
+      }
+    ],
+    "UGC06614": [
+      {
+        "file": "RCdataPP.tex",
+        "line": 444,
+        "text": "(F563-V2, F568-V1, F571-8, F574-1, F583-4, and UGC 6614)",
+        "context": "21 cm rotation curves is merely a matter of large error bars.  For the other\ngalaxies the agreement is genuine, and sometimes quite good (e.g., F568-3,\nF583-1, and UGC 5750).  Indeed, the asymmetric structure of\nF579-V1\\footnote{De Blok \\& McGaugh (1997) had already noted the difficulty\nthis case posed for attributing to beam smearing the slow rise of\nthe rotation curves derived from the 21 cm data.}\nis apparent in both \\Ha\\ and 21 cm data, with particularly good\nagreement between the two on the shape of the receding side (Fig. 4).\n\nThe remaining 6 galaxies\n(F563-V2, F568-V1, F571-8, F574-1, F583-4, and UGC 6614)\nhave optical rotation curves which differ more noticeably\nfrom the earlier \\HI\\ curves.  The reasons for this varies form case to case.\nUnlike most of the LSB galaxies in this sample, UGC 6614 has a strong bulge\ncomponent for which one expects a rapidly rising then quickly falling\nrotation curve.  This is apparent in the \\Ha\\ data, which hardly extend\ninto the range of disk-halo domination.  The 21 cm data do not probe\nsmall radii, as there is a central hole in the HI distribution of this galaxy\n(van der Hulst et al.\\ 1993).\nF571-8 is an edge-on galaxy, with the associated problems of optical\ndepth and projection effects (Matthews \\& Wood 2001)."
+      },
+      {
+        "file": "RCdataPP.tex",
+        "line": 447,
+        "text": "Unlike most of the LSB galaxies in this sample, UGC 6614 has a strong bulge",
+        "context": "F579-V1\\footnote{De Blok \\& McGaugh (1997) had already noted the difficulty\nthis case posed for attributing to beam smearing the slow rise of\nthe rotation curves derived from the 21 cm data.}\nis apparent in both \\Ha\\ and 21 cm data, with particularly good\nagreement between the two on the shape of the receding side (Fig. 4).\n\nThe remaining 6 galaxies\n(F563-V2, F568-V1, F571-8, F574-1, F583-4, and UGC 6614)\nhave optical rotation curves which differ more noticeably\nfrom the earlier \\HI\\ curves.  The reasons for this varies form case to case.\nUnlike most of the LSB galaxies in this sample, UGC 6614 has a strong bulge\ncomponent for which one expects a rapidly rising then quickly falling\nrotation curve.  This is apparent in the \\Ha\\ data, which hardly extend\ninto the range of disk-halo domination.  The 21 cm data do not probe\nsmall radii, as there is a central hole in the HI distribution of this galaxy\n(van der Hulst et al.\\ 1993).\nF571-8 is an edge-on galaxy, with the associated problems of optical\ndepth and projection effects (Matthews \\& Wood 2001).\nF574-1 and F583-4 do suffer from significant beam smearing as a result\nof an elliptical beam shape which projects to a large physical size on\nthe galaxy.  This is convolved with the intrinsic HI distribution, which can"
+      },
+      {
+        "file": "RCdataPP.tex",
+        "line": 468,
+        "text": "galaxy of highest luminosity (UGC 6614; $M_B = -20.3$) ",
+        "context": "complicate matters further if emission is lacking from particular regions\n(e.g., from a central hole).  The situation for F563-V2 and F568-V1 is less\nclear as the optical data in these cases (from Swaters \\etal\\ 2000) has\nsubstantial scatter.\n\nThe agreement or disagreement between the optical and 21 cm rotation\ncurves shows no correlation with LSB luminosity, apparent magnitude,\ncentral surface brightness, or inclination. \nWe do observe that the galaxy of lowest luminosity\n(F565-V2; $M_B = -14.8$) has slowly rising velocities while the LSB\ngalaxy of highest luminosity (UGC 6614; $M_B = -20.3$) \nhas steeply rising velocities.  This is consistent with the previously noted\nrelation between luminosity and rotation curve shape\n(Rubin \\etal\\ 1985; Persic \\& Salucci 1991; McGaugh \\& de Blok 1998a).\nLittle further can be said about this here as \nthe remaining galaxies are restricted to the fairly narrow\nrange $-18.8 < M_B < -16.5$.\n\nBeam smearing effects are present in the 21 cm data, but are only\nsignificant in a few cases.  Beam smearing has not caused us to mistake\nsteeply rising rotation curves for shallow ones."
+      },
+      {
+        "file": "mcgaugh.tab1.tex",
+        "line": 35,
+        "text": "UGC 6614 & 6371 & 36 & 108 & 1 & Y & Y & bulge; spiral ring\\\\",
+        "context": "F577-V1\t& 7788 & 35 & 40 & 2 & Y & N & Mag.\\ Irr\\\\\nF579-V1\t& 6305 & 26 & 120 & 1 & Y & Y & core, flocc. arms\\\\ \nF583-1 \t& 2264 & 63 & 175 & 1 & Y & Y & Mag.\\ Irr\\\\\nF583-4 \t& 3617 & 55 & 115 & 1 & Y & Y & fuzzy\\\\ \nF730-V1 & 10714 & 50 & 16 & 1 & N & Y & spiral\\\\\nD646-5\t& 1045 & \\nodata & 29 & 2 & N & N & small; diffuse\\\\\nD723-4\t& 2175: & \\nodata & 94 & 2 & N & N & small, irr\\\\\nUGC 4115 & 343 & 74 & 140 & 1 & N & Y & = D631-7; knotty and diffuse \\\\\nUGC 5209 & 530: & 53 & 158 & 3 & Y & N & fuzzy, small\\\\\nUGC 5750 & 4177 & 64 & 167 & 1 & Y & Y & Mag.\\ bar\\\\\nUGC 6614 & 6371 & 36 & 108 & 1 & Y & Y & bulge; spiral ring\\\\\nUGC 9992 & 430 & 30 & 35 & 2 & N & N & fuzzy, small\\\\\nUGC 10310 & 724 & 34 & 19 & 2 & N & N & knotty spiral arms; slit missed nuc.?\\\\ \nUGC 11454 & 6628 & 64 & 106 & 1 & N & Y & fuzzy spiral, small core\\\\\nUGC 11557 & 1390 & 36 & 94 & 1 & N\\tablenotemark{e} & Y & fuzzy spiral, small core\\\\ \nUGC 11583 & 128 & 83 & 88 & 1 & N & Y & faint Mag.\\ bar\\\\\nUGC 11616 & 5244 & 60 & 99 & 1 & N & Y & fuzzy, Irr\\\\\nUGC 11648 & 3350 & 83 & 145 & 1 & N & Y & Irr\\\\\nUGC 11748 & 5265 & 81 & 103 & 1 & N & Y & Irr, bright core/bar?\\\\\nUGC 11819 & 4261  & 66 & 167 & 1 & N & Y & fuzzy\\\\\nUGC 11820 & 1100: & 50 & 48 & 2 & N & N & blobby, irr.\\ streamers SW/NE, sp?\\\\"
+      }
+    ],
+    "UGC11557": [
+      {
+        "file": "RCdataPP.tex",
+        "line": 425,
+        "text": "F579-V1, F583-1, UGC 5750, and UGC 11557)",
+        "context": "an adopted $\\pm 10 \\kms$\nerror, which projects to 25 \\kms\\ in the plane of the galaxy.  The\nuncorrected data are in good agreement:  this is a repeatable\nexperiment.\n\n\\placefigure{Fig6}\n\nThe consistency of the \\Ha\\ and \\HI\\ data can be quantified by comparing\nthe measured velocities at small radii.\nFor 9 of the 15 galaxies (F561-1, F563-1, F568-1, F568-3, F571-V1,\nF579-V1, F583-1, UGC 5750, and UGC 11557)\nthe velocity differences at 20$''$ are $\\lesssim 8 \\kms$.\nNote that these are rotation velocities projected\nto the plane of the galaxies; as observed on the plane of the sky,\nthey correspond to $V(r) \\sin(i) < 5 \\kms$.  Hence these\ngalaxies exhibit the same velocity rise that was observed at 21 cm. \n\nThis can be seen directly in Figures 4 and 5.\nIn two cases (F561-1 and F571-V1) the agreement between the optical and\n21 cm rotation curves is merely a matter of large error bars.  For the other\ngalaxies the agreement is genuine, and sometimes quite good (e.g., F568-3,"
+      },
+      {
+        "file": "RCdataPP.tex",
+        "line": 783,
+        "text": "In the case of UGC 11557 the 21 cm data are taken from Swaters (1999).",
+        "context": "\n\\clearpage\n\\begin{figure}\n\\figurenum{5}\n\\epsscale{0.9}\n\\plotone{mcgaugh.fig5.ps}\n\\caption{The rotation\ncurves derived from the 21 cm\ndata of van der Hulst \\etal\\ (1993) and de Blok \\etal (1996) are plotted\nas solid lines together with the H$\\alpha$ data (points with error bars).\nIn the case of UGC 11557 the 21 cm data are taken from Swaters (1999).\nDifferent symbols denote the different sources of the \\Ha\\ data:\nfilled circles: this work; open circles: Swaters \\etal\\ (2000).\nCases of consistency and inconsistency are obvious from inspection,\nand are discussed in the text.}\n\\end{figure}\n\n\\clearpage\n\\begin{figure}\n\\figurenum{6}\n\\epsscale{0.9}"
+      },
+      {
+        "file": "mcgaugh.tab1.tex",
+        "line": 39,
+        "text": "UGC 11557 & 1390 & 36 & 94 & 1 & N\\tablenotemark{e} & Y & fuzzy spiral, small core\\\\ ",
+        "context": "F730-V1 & 10714 & 50 & 16 & 1 & N & Y & spiral\\\\\nD646-5\t& 1045 & \\nodata & 29 & 2 & N & N & small; diffuse\\\\\nD723-4\t& 2175: & \\nodata & 94 & 2 & N & N & small, irr\\\\\nUGC 4115 & 343 & 74 & 140 & 1 & N & Y & = D631-7; knotty and diffuse \\\\\nUGC 5209 & 530: & 53 & 158 & 3 & Y & N & fuzzy, small\\\\\nUGC 5750 & 4177 & 64 & 167 & 1 & Y & Y & Mag.\\ bar\\\\\nUGC 6614 & 6371 & 36 & 108 & 1 & Y & Y & bulge; spiral ring\\\\\nUGC 9992 & 430 & 30 & 35 & 2 & N & N & fuzzy, small\\\\\nUGC 10310 & 724 & 34 & 19 & 2 & N & N & knotty spiral arms; slit missed nuc.?\\\\ \nUGC 11454 & 6628 & 64 & 106 & 1 & N & Y & fuzzy spiral, small core\\\\\nUGC 11557 & 1390 & 36 & 94 & 1 & N\\tablenotemark{e} & Y & fuzzy spiral, small core\\\\ \nUGC 11583 & 128 & 83 & 88 & 1 & N & Y & faint Mag.\\ bar\\\\\nUGC 11616 & 5244 & 60 & 99 & 1 & N & Y & fuzzy, Irr\\\\\nUGC 11648 & 3350 & 83 & 145 & 1 & N & Y & Irr\\\\\nUGC 11748 & 5265 & 81 & 103 & 1 & N & Y & Irr, bright core/bar?\\\\\nUGC 11819 & 4261  & 66 & 167 & 1 & N & Y & fuzzy\\\\\nUGC 11820 & 1100: & 50 & 48 & 2 & N & N & blobby, irr.\\ streamers SW/NE, sp?\\\\\nUGC 11944 & 1753 & 72 & 30 & 3 & N & N & bar\\\\\nESO 0130200 & 1123 & 56 & 124 & 2 & N & N & bulge, faint disk\\\\ %bj05\nESO 0140040 & 16064 & 35 & 125 & 1 & N & Y & bulge, tight spiral arms\\\\ %bj07\nESO 0350090 & 1124 & 85 & 24 & 3 & N & N & Irr\\\\ %sp05"
+      }
+    ]
+  },
+  "reference_legend_hits": [],
+  "provenance_hits": [
+    {
+      "file": "RCdataPP.tex",
+      "line": 106,
+      "text": "de Blok, McGaugh, \\& van der Hulst (1996) were adequate to demonstrate",
+      "context": "become much less severe in LSB galaxies.\n\nIn order to exploit this property of LSB galaxies to map out the dark\nmatter distribution, it is desirable\nto obtain high spatial resolution data.  The \\HI\\ data presented by\nde Blok, McGaugh, \\& van der Hulst (1996) were adequate to demonstrate\nmany of the systematic properties which make LSB galaxy\nrotation curves particularly\ninteresting.  However, the beam size of those observations ($\\ge 13''$)\nled to concern over the effects of beam smearing on the\nderived shapes of the rotation curves (van den Bosch \\etal\\ 2000;"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 112,
+      "text": "Swaters, Madore, \\& Trewahla 2000). ",
+      "context": "many of the systematic properties which make LSB galaxy\nrotation curves particularly\ninteresting.  However, the beam size of those observations ($\\ge 13''$)\nled to concern over the effects of beam smearing on the\nderived shapes of the rotation curves (van den Bosch \\etal\\ 2000;\nSwaters, Madore, \\& Trewahla 2000). \nThough de Blok \\& McGaugh (1997) had shown that beam smearing\nwas unlikely to be important in most (though not all)\ncases, controversy persists because  these data are important in\ntesting the cuspy halos predicted in cosmological simulations with cold\ndark matter (Navarro, Frenk, \\& White 1997 [NFW]; Moore \\etal\\ 1999).  A"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 127,
+      "text": "smaller than in previous 21 cm studies (van der Hulst \\etal\\ 1993;",
+      "context": "corresponding to sub-kpc physical scales for the LSB galaxies in the\nsample, these new data represent over an order of magnitude improvement in\nspatial resolution.\n\nFor these new data, the error bars are often considerably\nsmaller than in previous 21 cm studies (van der Hulst \\etal\\ 1993;\nde Blok \\etal\\ 1996).  This accuracy, as well as the improved\nspatial resolution, are essential for improving constraints on detailed\nmass models, which are presented in a companion paper\n(de Blok, McGaugh, \\& Rubin 2001; hereafter Paper II).\nOur aim is to probe in detail the rotation curves, and hence the implied"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 149,
+      "text": "the \\HI\\ sample of de Blok \\etal\\ (1996) and van der Hulst \\etal\\ (1993),",
+      "context": "\\section{The Data}\n\n\\subsection{Sample}\n\nThe principal targets for optical rotation curves are the LSB galaxies in\nthe \\HI\\ sample of de Blok \\etal\\ (1996) and van der Hulst \\etal\\ (1993),\nwith surface photometry and\ncolors as reported in those papers and by McGaugh \\& Bothun (1994)\nand de Blok, van der Hulst \\& Bothun (1995).\nThese galaxies are blue, late type LSB galaxies\nfound in searches of deep photographic plates (Schombert"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 152,
+      "text": "and de Blok, van der Hulst \\& Bothun (1995).",
+      "context": "\nThe principal targets for optical rotation curves are the LSB galaxies in\nthe \\HI\\ sample of de Blok \\etal\\ (1996) and van der Hulst \\etal\\ (1993),\nwith surface photometry and\ncolors as reported in those papers and by McGaugh \\& Bothun (1994)\nand de Blok, van der Hulst \\& Bothun (1995).\nThese galaxies are blue, late type LSB galaxies\nfound in searches of deep photographic plates (Schombert\n\\etal\\ 1992; Impey \\etal\\ 1996) and exemplify the regime of\nlow stellar mass surface density.  We also have observed a few of\nthe LSB dwarf galaxies of Schombert, Pildis, \\& Eder (1997), which"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 206,
+      "text": "from van der Hulst \\etal\\ (1993) and de Blok \\etal\\ (1996).",
+      "context": "discussions in de Blok \\& McGaugh 1997 and McGaugh \\& de Blok 1998a). \nOf the 26 galaxies (Table 1) which are modeled in Paper II, 25 have Q = 1\n(good).\n\nThe \\HI\\ data are taken\nfrom van der Hulst \\etal\\ (1993) and de Blok \\etal\\ (1996).\nWhen available, the \\HI\\\ndata provide a good kinematic indication of the position angle.\nThis generally corresponds to the optical major axis of the galaxy, which\nis used as the position angle when \\HI\\ data are not available.  Disk\ninclinations are adopted from previous studies (van der Hulst \\etal\\ 1993;"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 211,
+      "text": "inclinations are adopted from previous studies (van der Hulst \\etal\\ 1993;",
+      "context": "from van der Hulst \\etal\\ (1993) and de Blok \\etal\\ (1996).\nWhen available, the \\HI\\\ndata provide a good kinematic indication of the position angle.\nThis generally corresponds to the optical major axis of the galaxy, which\nis used as the position angle when \\HI\\ data are not available.  Disk\ninclinations are adopted from previous studies (van der Hulst \\etal\\ 1993;\nde Blok \\etal\\ 1996) or are measured from optical axis ratios using\n$\\cos^2(i) = 1.042(b/a)^2 - 0.042$.  Photometric inclinations\nfor LSB galaxies are intrinsically uncertain because of their generally\nragged, late type morphologies and the low signal-to-noise in the outermost\nisophotes (see de Blok \\& McGaugh 1998 for a more extensive discussion"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 255,
+      "text": "(see also O'Neil, Verheijen, \\& McGaugh 2000).  Still, the frequency",
+      "context": "In addition to major axis spectra, minor axis and intermediate slit positions\nwere obtained for a few galaxies in order to check for the presence of\nnon-circular motions (see Table 1).  Though only a few cases could\nbe tested, these were chosen for their suggestive morphologies. \nApparently, LSB galaxies are fairly quiescent rotators\n(see also O'Neil, Verheijen, \\& McGaugh 2000).  Still, the frequency\nand magnitude of noncircular motions in LSB galaxies merits further\ninvestigation.\n\nImmediately prior to the spectrographic portion of this observing run,\n$R$-band images of target galaxies were obtained with the LCO 40 inch"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 376,
+      "text": "position-velocity diagrams (van der Hulst \\etal\\ 1993;",
+      "context": "curves with curves derived from 21 cm studies.  We wish to investigate\nwhether the beam size of the \\HI\\ observations ($13''$ to $45''$)\ndegraded steeply rising rotation curves, causing them to\nappear as slowly rising ones.  \nThe optical data points are overplotted on 21 cm\nposition-velocity diagrams (van der Hulst \\etal\\ 1993;\nde Blok \\etal\\ 1996) in Figure 4.  In addition to the \\Ha\\ data presented\nhere, we also make use of the \noptical observations of 5 LSB galaxies by Swaters \\etal\\ (2000), of which\nF568-3 is a duplicate. This results in 18 galaxies observed both at\n\\HI\\ and H$\\alpha$ for which a meaningful comparison can be made. This"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 379,
+      "text": "optical observations of 5 LSB galaxies by Swaters \\etal\\ (2000), of which",
+      "context": "appear as slowly rising ones.  \nThe optical data points are overplotted on 21 cm\nposition-velocity diagrams (van der Hulst \\etal\\ 1993;\nde Blok \\etal\\ 1996) in Figure 4.  In addition to the \\Ha\\ data presented\nhere, we also make use of the \noptical observations of 5 LSB galaxies by Swaters \\etal\\ (2000), of which\nF568-3 is a duplicate. This results in 18 galaxies observed both at\n\\HI\\ and H$\\alpha$ for which a meaningful comparison can be made. This\nrepresents a significant fraction of the two dozen galaxies in the\nLSB \\HI\\ samples.\n"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 393,
+      "text": "Figure 5 shows the 21 cm rotation curves (van der Hulst \\etal\\ 1993;",
+      "context": "a case by case basis.\nThe general shapes of many rotation curves are similar in \\Ha\\ and 21 cm,\nbut some are noticeably discrepant. In a few cases, the quality of the\noptical curves are poor, so a meaningful comparison is not possible. \n\nFigure 5 shows the 21 cm rotation curves (van der Hulst \\etal\\ 1993;\nde Blok \\etal\\ 1996) with the optical points superposed. \nThe comparison sample has now decreased to 15, as 4 galaxies with poor\noptical rotation curves are not included.\nThe 21 cm velocities generally extend to\nlarger radial distances than the optical.  The median value"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 405,
+      "text": "also by Pickering \\etal\\ (1998) and Swaters \\etal\\ (2000).  The",
+      "context": "\n\\placefigure{Fig5}\n\nFour of the galaxies we have observed have independent \\Ha\\ observations\nfrom other sources.  F568-3 has been observed by us, and \nalso by Pickering \\etal\\ (1998) and Swaters \\etal\\ (2000).  The\nslow rise of its rotation curve, first indicated by 21 cm\nobservations (de Blok \\etal\\ 1996), has\nbeen confirmed by all three independent optical data sets.\nF563-1, F561-1, and UGC 5750 have been observed by  de Blok \\&\nBosma (2002), with good general agreement with our observations"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 452,
+      "text": "(van der Hulst et al.\\ 1993).",
+      "context": "Unlike most of the LSB galaxies in this sample, UGC 6614 has a strong bulge\ncomponent for which one expects a rapidly rising then quickly falling\nrotation curve.  This is apparent in the \\Ha\\ data, which hardly extend\ninto the range of disk-halo domination.  The 21 cm data do not probe\nsmall radii, as there is a central hole in the HI distribution of this galaxy\n(van der Hulst et al.\\ 1993).\nF571-8 is an edge-on galaxy, with the associated problems of optical\ndepth and projection effects (Matthews \\& Wood 2001).\nF574-1 and F583-4 do suffer from significant beam smearing as a result\nof an elliptical beam shape which projects to a large physical size on\nthe galaxy.  This is convolved with the intrinsic HI distribution, which can"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 460,
+      "text": "clear as the optical data in these cases (from Swaters \\etal\\ 2000) has",
+      "context": "F574-1 and F583-4 do suffer from significant beam smearing as a result\nof an elliptical beam shape which projects to a large physical size on\nthe galaxy.  This is convolved with the intrinsic HI distribution, which can\ncomplicate matters further if emission is lacking from particular regions\n(e.g., from a central hole).  The situation for F563-V2 and F568-V1 is less\nclear as the optical data in these cases (from Swaters \\etal\\ 2000) has\nsubstantial scatter.\n\nThe agreement or disagreement between the optical and 21 cm rotation\ncurves shows no correlation with LSB luminosity, apparent magnitude,\ncentral surface brightness, or inclination. "
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 488,
+      "text": "derived shapes of the rotation curves (van den Bosch \\etal\\ 2000; Swaters",
+      "context": "\nWith the new \\Ha\\ data for many objects which previously had been studied\nin \\HI, it is possible to assess the scientific impact of higher spatial\nresolution.  Concerns have been expressed\nthat beam smearing in the \\HI\\ data might have seriously impacted the\nderived shapes of the rotation curves (van den Bosch \\etal\\ 2000; Swaters\n\\etal\\ 2000), and hence compromised conclusions which depend on these shapes.\nThere are two issues to which the initial rate of rise of the rotation\ncurve is particularly important:  maximal disks and cuspy halos.\n\nOne significant conclusion from the H$\\alpha$ rotation curves is that "
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 495,
+      "text": "stellar mass-to-light ratios (Swaters \\etal\\ 2000; Paper II)",
+      "context": "There are two issues to which the initial rate of rise of the rotation\ncurve is particularly important:  maximal disks and cuspy halos.\n\nOne significant conclusion from the H$\\alpha$ rotation curves is that \none can now consider substantially higher maximum disk\nstellar mass-to-light ratios (Swaters \\etal\\ 2000; Paper II)\nthan were inferred by de Blok \\& McGaugh (1997).  A modest\nchange in the rate of rise of a rotation curve can lead to a large\nchange in the maximum disk \\MLs.  For example, in the case of F583-1,\nwhere only a small change in the shape of the rotation curve is found,\nthe maximum disk mass-to-light ratio rises from $\\MLs^R = 1.5$ as determined"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 504,
+      "text": "pushed considerably higher still (to $\\sim 12$) if one were to permit",
+      "context": "where only a small change in the shape of the rotation curve is found,\nthe maximum disk mass-to-light ratio rises from $\\MLs^R = 1.5$ as determined\nby the \\HI\\ curve (de Blok \\& McGaugh 1997) to $\\MLs^R = 6.5$ from the\n\\Ha\\ data (Paper II).  This happens in spite of the rather modest change\nin the input data, and this maximum disk mass-to-light ratio could be\npushed considerably higher still (to $\\sim 12$) if one were to permit\nconsideration of a hollow halo or a modest overshoot of the innermost\ndata points (e.g., Palunas \\& Williams 2000).  The maximum disk \\MLs\\\ndetermined from the 21 cm data are already often uncomfortably high\ncompared to the expectations for stellar populations (de Blok \\& McGaugh\n1997).  As anticipated then, the H$\\alpha$ data permit even more"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 514,
+      "text": "The mass discrepancies of LSB galaxies are still large; this merely",
+      "context": "1997).  As anticipated then, the H$\\alpha$ data permit even more\nimplausible maximal values of \\MLs.  Nevertheless, if one puts\nlittle weight on stellar population mass-to-light ratios, it is\nnow formally possible to consider higher disk\nmass-to-light ratios than were indicated by the 21 cm data alone.\nThe mass discrepancies of LSB galaxies are still large; this merely\ntransfers the missing mass from halo to disk.\n\nThe situation for cuspy (NFW) halos is less promising.\nThe \\Ha\\ data have a clear preference for dark matter halos\nwith constant density cores (Paper II; see also C\\^ot\\'e, Carignan \\& Freeman"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 536,
+      "text": "Hulst \\etal\\ 1993; de Blok \\etal\\ 1996).  The optical data complement",
+      "context": "these galaxies make them useful probes of the dark matter problem\n(de Blok \\etal\\ 2001; Paper II).\n\nThese data represent an order of magnitude improvement in\nspatial resolution over 21 cm studies of the same galaxies (van der\nHulst \\etal\\ 1993; de Blok \\etal\\ 1996).  The optical data complement\nthe radio data.  The H$\\alpha$ data define the inner rise of\nthe rotation velocities, and thus provide a more accurate determination of\nthe shape of the inner potential of the galaxy.  This is critical to\nthe question of whether dark matter halos have cusps or\ncores. The 21 cm data extend to larger radii, probing the extent of"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 547,
+      "text": "Bosch \\etal\\ 2000; Swaters \\etal\\ 2000).  Beam smearing turns out",
+      "context": "the dark matter halo and mapping out the gas, an important component\nof the total baryonic mass in these systems. \n\nThese new data allow us to address directly the concerns which have\nbeen raised concerning the lower resolution of the radio data (van den \nBosch \\etal\\ 2000; Swaters \\etal\\ 2000).  Beam smearing turns out\nto be no problem for about half of the galaxies with both optical and 21\ncm observations, and a serious problem in a only few.  \nThe basic scientific conclusions reached previously\n(e.g., McGaugh \\& de Blok 1998a,b) remain unaltered\nas the systematic properties of the"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 568,
+      "text": "to Rob Swaters and Renzo Sancisi for their comments, and to the",
+      "context": "\n\\acknowledgements\n\nWe thank the observatories for providing telescope time, and their\nstaffs for the excellent level of support received.  We are grateful\nto Rob Swaters and Renzo Sancisi for their comments, and to the\nreferee for a thorough examination of the data.\nThe work of SSM is supported in part by NSF grant AST9901663.\n%These data are available electronically through the journal\n%website and www.astro.umd.edu/\\~{}ssm/astro.\n"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 597,
+      "text": "        van der Hulst, J.M., Bothun, G.D., 1995, \\mnras, 274, 235",
+      "context": "\\reference{edBssMaBvR} de Blok, W.J.G., McGaugh, S.S., Bosma, A., \\&\n\tRubin, V.C. 2001, \\apjl, 552, L23\n\\reference{edBssMvR} de Blok, W.J.G., McGaugh, S.S., \\& Rubin, V.C. 2001,\n\tin press (Paper II)\n\\reference{edbphot95} de Blok, W.J.G.,\n        van der Hulst, J.M., Bothun, G.D., 1995, \\mnras, 274, 235\n\\reference{edbbmh96}  de Blok, W.J.G., McGaugh, S.S., \\&\n\tvan der Hulst, J.M. 1996, \\mnras, 283, 18\n\\reference{HSFRWH} Hoffman, G. L., Salpeter, E. E., Farhat, B., Roos, T.,\n        Williams, H. \\& Helou, G. 1996, \\apjs, 105, 269\n\\reference{IBrev} Impey, C., \\& Bothun, G. 1997, \\araa, 35, 267"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 599,
+      "text": "\tvan der Hulst, J.M. 1996, \\mnras, 283, 18",
+      "context": "\\reference{edBssMvR} de Blok, W.J.G., McGaugh, S.S., \\& Rubin, V.C. 2001,\n\tin press (Paper II)\n\\reference{edbphot95} de Blok, W.J.G.,\n        van der Hulst, J.M., Bothun, G.D., 1995, \\mnras, 274, 235\n\\reference{edbbmh96}  de Blok, W.J.G., McGaugh, S.S., \\&\n\tvan der Hulst, J.M. 1996, \\mnras, 283, 18\n\\reference{HSFRWH} Hoffman, G. L., Salpeter, E. E., Farhat, B., Roos, T.,\n        Williams, H. \\& Helou, G. 1996, \\apjs, 105, 269\n\\reference{IBrev} Impey, C., \\& Bothun, G. 1997, \\araa, 35, 267\n\\reference{ISIBcat} Impey, C.D., Sprayberry, D., Irwin, M.J., \\&\n\tBothun, G.D. 1996, \\apjs, 105, 209"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 655,
+      "text": "\\reference{Rob} Swaters, R.A. 1999, Ph.D. thesis, University of Groningen",
+      "context": "\\reference{SR} Sofue, Y. \\& Rubin, V.C. 2001, \\araa, in press\n\t(astro-ph/0010594)\n\\reference{SpSt} Spergel, D.N., \\& Steinhardt, P.J. 2000, \\prl, 84, 3760\n\\reference{spraytf95} Sprayberry D., Impey C.D., Bothun G.D., \n\t\\& Irwin M., 1995, \\aj, 109, 558\n\\reference{Rob} Swaters, R.A. 1999, Ph.D. thesis, University of Groningen\n\\reference{SMT} Swaters, R.A., Madore, B.F., \\&\n\tTrewhella, M., 2000, \\apjl, 531, L107\n\\reference{vdBD} van den Bosch, F.C., \\& Dalcanton, J.J. 2000, \\apj, 534, 146\n\\reference{beamsmear} van den Bosch, F.C., Robertson, B.E.,\n\tDalcanton, J.J., \\& de Blok, W.J.G., 2000, \\aj, 119, 1579"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 656,
+      "text": "\\reference{SMT} Swaters, R.A., Madore, B.F., \\&",
+      "context": "\t(astro-ph/0010594)\n\\reference{SpSt} Spergel, D.N., \\& Steinhardt, P.J. 2000, \\prl, 84, 3760\n\\reference{spraytf95} Sprayberry D., Impey C.D., Bothun G.D., \n\t\\& Irwin M., 1995, \\aj, 109, 558\n\\reference{Rob} Swaters, R.A. 1999, Ph.D. thesis, University of Groningen\n\\reference{SMT} Swaters, R.A., Madore, B.F., \\&\n\tTrewhella, M., 2000, \\apjl, 531, L107\n\\reference{vdBD} van den Bosch, F.C., \\& Dalcanton, J.J. 2000, \\apj, 534, 146\n\\reference{beamsmear} van den Bosch, F.C., Robertson, B.E.,\n\tDalcanton, J.J., \\& de Blok, W.J.G., 2000, \\aj, 119, 1579\n\\reference{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R.,"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 661,
+      "text": "\\reference{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R.,",
+      "context": "\\reference{SMT} Swaters, R.A., Madore, B.F., \\&\n\tTrewhella, M., 2000, \\apjl, 531, L107\n\\reference{vdBD} van den Bosch, F.C., \\& Dalcanton, J.J. 2000, \\apj, 534, 146\n\\reference{beamsmear} van den Bosch, F.C., Robertson, B.E.,\n\tDalcanton, J.J., \\& de Blok, W.J.G., 2000, \\aj, 119, 1579\n\\reference{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R.,\n\tBothun G.D., McGaugh S.S.,  de Blok W.J.G., 1993, \\aj, 106, 548\n\\reference{zwaantf95} Zwaan M.A., van der Hulst J.M., de Blok W.J.G.,\n\t\\& McGaugh S.S., 1995, \\mnras 273, L35\n\\end{references}\n"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 663,
+      "text": "\\reference{zwaantf95} Zwaan M.A., van der Hulst J.M., de Blok W.J.G.,",
+      "context": "\\reference{vdBD} van den Bosch, F.C., \\& Dalcanton, J.J. 2000, \\apj, 534, 146\n\\reference{beamsmear} van den Bosch, F.C., Robertson, B.E.,\n\tDalcanton, J.J., \\& de Blok, W.J.G., 2000, \\aj, 119, 1579\n\\reference{vdh93} van der Hulst J.M., Skillman E.D., Smith T.R.,\n\tBothun G.D., McGaugh S.S.,  de Blok W.J.G., 1993, \\aj, 106, 548\n\\reference{zwaantf95} Zwaan M.A., van der Hulst J.M., de Blok W.J.G.,\n\t\\& McGaugh S.S., 1995, \\mnras 273, L35\n\\end{references}\n\n\\clearpage\n\\input mcgaugh.tab1"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 754,
+      "text": "de Blok \\etal\\ (1996) and van der Hulst \\etal\\ (1993).",
+      "context": "\\epsscale{0.9}\n\\plotone{mcgaugh.fig4a.ps}\n\\caption{Position-velocity diagrams\nfrom the H$\\alpha$ data (points with error bars)\noverplotted on the 21 cm contours of\nde Blok \\etal\\ (1996) and van der Hulst \\etal\\ (1993).\nThis allows direct comparison between the two data sets.}\n\\end{figure}\n\n\\clearpage\n\\begin{figure}"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 781,
+      "text": "data of van der Hulst \\etal\\ (1993) and de Blok \\etal (1996) are plotted",
+      "context": "\\figurenum{5}\n\\epsscale{0.9}\n\\plotone{mcgaugh.fig5.ps}\n\\caption{The rotation\ncurves derived from the 21 cm\ndata of van der Hulst \\etal\\ (1993) and de Blok \\etal (1996) are plotted\nas solid lines together with the H$\\alpha$ data (points with error bars).\nIn the case of UGC 11557 the 21 cm data are taken from Swaters (1999).\nDifferent symbols denote the different sources of the \\Ha\\ data:\nfilled circles: this work; open circles: Swaters \\etal\\ (2000).\nCases of consistency and inconsistency are obvious from inspection,"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 783,
+      "text": "In the case of UGC 11557 the 21 cm data are taken from Swaters (1999).",
+      "context": "\\plotone{mcgaugh.fig5.ps}\n\\caption{The rotation\ncurves derived from the 21 cm\ndata of van der Hulst \\etal\\ (1993) and de Blok \\etal (1996) are plotted\nas solid lines together with the H$\\alpha$ data (points with error bars).\nIn the case of UGC 11557 the 21 cm data are taken from Swaters (1999).\nDifferent symbols denote the different sources of the \\Ha\\ data:\nfilled circles: this work; open circles: Swaters \\etal\\ (2000).\nCases of consistency and inconsistency are obvious from inspection,\nand are discussed in the text.}\n\\end{figure}"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 785,
+      "text": "filled circles: this work; open circles: Swaters \\etal\\ (2000).",
+      "context": "curves derived from the 21 cm\ndata of van der Hulst \\etal\\ (1993) and de Blok \\etal (1996) are plotted\nas solid lines together with the H$\\alpha$ data (points with error bars).\nIn the case of UGC 11557 the 21 cm data are taken from Swaters (1999).\nDifferent symbols denote the different sources of the \\Ha\\ data:\nfilled circles: this work; open circles: Swaters \\etal\\ (2000).\nCases of consistency and inconsistency are obvious from inspection,\nand are discussed in the text.}\n\\end{figure}\n\n\\clearpage"
+    },
+    {
+      "file": "RCdataPP.tex",
+      "line": 798,
+      "text": "the top left panel (F568-3) are from Swaters et al.\\ (2000) and",
+      "context": "\\epsscale{0.9}\n\\plotone{mcgaugh.fig6.ps}\n\\caption{The rotation curves derived from independent\nH$\\alpha$ observations for four LSB galaxies.  Solid circles are the data\npresented here.  Open circles in\nthe top left panel (F568-3) are from Swaters et al.\\ (2000) and\nstars are from Pickering et al.\\ (1998).  In the other panels,\nopen squares are from de Blok \\& Bosma (2002).\nAgreement between independent observations is good.}\n\\end{figure}\n"
+    },
+    {
+      "file": "mcgaugh.tab1.tex",
+      "line": 74,
+      "text": "\\tablenotetext{e}{This galaxy was observed at 21 cm by Swaters (1999).}",
+      "context": "\\tablenotetext{b}{If multiple position angles are listed, the major axis\nis given first.}\n\\tablenotetext{c}{H$\\alpha$ rotation curve quality:\n1 = good; 2 = fair; 3 = poor.}\n\\tablenotetext{d}{Low quality data not displayed in Fig.\\ 2.}\n\\tablenotetext{e}{This galaxy was observed at 21 cm by Swaters (1999).}\n\\end{deluxetable}\n"
+    }
+  ],
+  "boundary": "Provenance only; no raster digitization, normalization, persistence fitting, or blind outcomes."
+}
