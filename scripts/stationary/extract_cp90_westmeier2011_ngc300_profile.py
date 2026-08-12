@@ -8,6 +8,7 @@ Puche+1990 VLA profile.
 
 The final Table-2 column is Sigma_gas and already includes the paper's factor
 f=1.4 for helium. Values and quoted uncertainties are retained unchanged.
+Missing non-gas table entries denoted by `--` are preserved as null.
 """
 from __future__ import annotations
 
@@ -41,9 +42,11 @@ def scalar(field):
     return float(m.group(0))
 
 
-def valerr(field):
+def valerr(field, *, allow_missing=False):
     s=field.strip().strip('$').strip()
     s=s.replace('~',' ').replace('{','').replace('}','')
+    if allow_missing and re.fullmatch(r'-+',s):
+        return None, None
     nums=[float(x) for x in re.findall(r'[-+]?\d+(?:\.\d+)?(?:[Ee][-+]?\d+)?',s)]
     if not nums: raise ValueError(f'No numeric value in field {field!r}')
     return nums[0], (nums[1] if len(nums)>1 else None)
@@ -62,11 +65,10 @@ def main():
         if '&' not in line: continue
         parts=[p.strip() for p in line.split('&')]
         if len(parts)!=9: continue
-        # Native data rows begin with a math-mode integer radius; headers begin with $r$.
         if not re.search(r'\$\s*\d{2,4}\s*\$',parts[0]): continue
         parts[-1]=re.sub(r'\\\\\s*$','',parts[-1]).strip()
         r_arc=scalar(parts[0]);r_kpc=scalar(parts[1]);vrot,vrot_err=valerr(parts[2]);pa=scalar(parts[3]);inc=scalar(parts[4])
-        s36,s36e=valerr(parts[5]);s45,s45e=valerr(parts[6]);sstar,sstare=valerr(parts[7]);sgas,sgase=valerr(parts[8])
+        s36,s36e=valerr(parts[5],allow_missing=True);s45,s45e=valerr(parts[6],allow_missing=True);sstar,sstare=valerr(parts[7],allow_missing=True);sgas,sgase=valerr(parts[8])
         parsed.append({
             'galaxy':'NGC0300','stationary_role':'calibration','source_tex_line':line_no,
             'radius_arcsec':r_arc,'radius_kpc_source_paper':r_kpc,
@@ -84,7 +86,7 @@ def main():
     if got!=expected: raise RuntimeError(f'Radius grid mismatch: {got}')
     if abs(parsed[0]['radius_kpc_source_paper']-0.92)>1e-9 or abs(parsed[-1]['radius_kpc_source_paper']-18.42)>0.06:
         raise RuntimeError(f'Physical radius endpoint QC failed: {parsed[0]["radius_kpc_source_paper"]}, {parsed[-1]["radius_kpc_source_paper"]}')
-    if any(r['sigma_gas_msun_pc2']<0 for r in parsed):raise RuntimeError('Negative Sigma_gas encountered')
+    if any(r['sigma_gas_msun_pc2'] is None or r['sigma_gas_msun_pc2']<0 for r in parsed):raise RuntimeError('Missing/negative Sigma_gas encountered')
     inner=[r['sigma_gas_msun_pc2'] for r in parsed[:6]]
     if not (5.5 <= sum(inner)/len(inner) <= 8.0):raise RuntimeError(f'Inner-profile QC failed: mean={sum(inner)/len(inner)}')
     if parsed[-1]['sigma_gas_msun_pc2'] >= parsed[9]['sigma_gas_msun_pc2']:
@@ -95,7 +97,7 @@ def main():
     with OUTCSV.open('w',newline='',encoding='utf-8') as f:
         w=csv.DictWriter(f,fieldnames=fields);w.writeheader()
         for r in parsed:
-            q={k:(f'{v:.10g}' if isinstance(v,float) else v) for k,v in r.items()};w.writerow(q)
+            q={k:(f'{v:.10g}' if isinstance(v,float) else ('' if v is None else v)) for k,v in r.items()};w.writerow(q)
     out={
         'status':'CP90_WESTMEIER2011_NGC300_PROFILE_EXTRACTED',
         'source':'Westmeier, Braun & Koribalski 2011 MNRAS 410 2217; arXiv:1009.0317',
@@ -105,9 +107,10 @@ def main():
         'radius_arcsec_first':parsed[0]['radius_arcsec'],'radius_arcsec_last':parsed[-1]['radius_arcsec'],
         'radius_kpc_first':parsed[0]['radius_kpc_source_paper'],'radius_kpc_last':parsed[-1]['radius_kpc_source_paper'],
         'sigma_gas_first':parsed[0]['sigma_gas_msun_pc2'],'sigma_gas_last':parsed[-1]['sigma_gas_msun_pc2'],
+        'n_rows_with_missing_stellar_fields':sum(any(r[k] is None for k in ['sigma_star_36_msun_pc2','sigma_star_45_msun_pc2','sigma_star_combined_msun_pc2']) for r in parsed),
         'helium_status':'Sigma_gas already includes the source paper factor f=1.4 for helium.',
         'provenance_rule':'Exact native LaTeX Table-2 values; later deeper ATCA public replacement for the CP90/Lelli NGC300 acquisition branch, not a numerical extraction of Puche et al. 1990.',
-        'qc':{'twenty_rows':True,'100_arcsec_grid_100_to_2000':True,'paper_radius_endpoints_match':True,'inner_sigma_near_7_including_helium':True,'outer_profile_declines':True},
+        'qc':{'twenty_rows':True,'100_arcsec_grid_100_to_2000':True,'paper_radius_endpoints_match':True,'all_sigma_gas_present_nonnegative':True,'inner_sigma_near_7_including_helium':True,'outer_profile_declines':True},
         'boundary':'No raster digitization, map/cube reconstruction, re-fitting, common-distance renormalization, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked.'
     }
     OUTJSON.parent.mkdir(parents=True,exist_ok=True);OUTJSON.write_text(json.dumps(out,indent=2)+'\n')
