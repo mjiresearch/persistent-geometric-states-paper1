@@ -1,0 +1,367 @@
+{
+  "status": "HOEKSTRA2001_BEGEMAN_HI_PROFILE_ROUTE_AUDIT_COMPLETE",
+  "source": "Hoekstra, van Albada & Sancisi 2001 MNRAS 323 453; arXiv astro-ph/0010569",
+  "transport": {
+    "requested": "https://arxiv.org/e-print/astro-ph/0010569",
+    "final": "https://arxiv.org/src/astro-ph/0010569",
+    "content_type": "application/gzip",
+    "bytes": 85968
+  },
+  "members": [
+    {
+      "name": "dmhi.tex",
+      "bytes": 35650,
+      "suffix": ".tex"
+    },
+    {
+      "name": "freqrati.eps",
+      "bytes": 10067,
+      "suffix": ".eps"
+    },
+    {
+      "name": "mnsty.sty",
+      "bytes": 59202,
+      "suffix": ".sty"
+    },
+    {
+      "name": "profs.eps",
+      "bytes": 102994,
+      "suffix": ".eps"
+    },
+    {
+      "name": "rot.eps",
+      "bytes": 242619,
+      "suffix": ".eps"
+    }
+  ],
+  "data_like_assets": [],
+  "target_text_hits": {
+    "NGC2903": [
+      {
+        "file": "dmhi.tex",
+        "line": 233,
+        "text": "NGC 2903 & Sbc & 6.4  & --20.0 & 216 & 13, 14 & UGC 2259 & Sdm & 9.8  & --17.0 & ",
+        "context": "NGC 801  & Sc  & 79.2 & --21.7 & 238 & 3, 10  & NGC 6503 & Scd & 5.9  & --18.7 & \n121 & 12, 20 \\\\\nNGC 1560 & Sd  & 3.0  & --15.9 & 79  & 12     & NGC 6674 & Sb  & 49.3 & --21.6 & \n291 & 3,9    \\\\\nNGC 2403 & Scd & 3.3  & --19.3 & 136 & 13, 14, 23 & NGC 6946 & Scd & 10.1 & --21.4 & \n170 & 11, 17 \\\\\nNGC 2841 & Sb  & 18.0 & --21.7 & 326 & 13, 14 & NGC 7331 & Sb  & 14.9 & --21.4 & \n257 & 12, 14 \\\\\nNGC 2903 & Sbc & 6.4  & --20.0 & 216 & 13, 14 & UGC 2259 & Sdm & 9.8  & --17.0 & \n90  & 21, 14 \\\\\nNGC 2998 & Sc  & 67.4 & --21.9 & 214 & 3, 10  & UGC 2285 & Sc  & 78.7 & --22.8 & \n298 & 10, 22 \\\\\n\\hline\n\\end{tabular}\n\\parbox{16cm}{ Galaxy types, listed in column (2), have been taken\nfrom Broeils (1992a) or from the original papers. Distances as given in\nBroeils (1992a) have been adopted ($H_o={\\rm 75 km/s/Mpc}$).  Total"
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 389,
+        "text": "NGC 2903 & Sbc & 2.7 & -   & 37.0 & 43    & -   & 2.4  & 130 \\\\",
+        "context": "DDO 170  & Sm  & 3.5 & -   & 9.5  & 0.34  & -   & 0.45 & 5.3 \\\\\nNGC 55   & Sm  & 0.5 & -   & 7.0  & 2.2   & -   & 0.9  & 9.4 \\\\\nNGC 247  & Sd  & 4.4 & -   & 8.0  & 11    & -   & 0.8  & 18 \\\\\nNGC 300  & Sd  & 2.8 & -   & 11.0 & 5.9   & -   & 0.7  & 14 \\\\\nNGC 801  & Sc  & 2.8 & 4.5 & 9.0  & 160   & 72  & 22   & 450 \\\\\nNGC 1560 & Sd  & 1.0 & -   & 7.0  & 0.36  & -   & 0.82 & 6.9 \\\\\nNGC 2403 & Scd & 1.8 & -   & 9.5  & 15    & -   & 3.1  & 46 \\\\\nNGC 2841 & Sb  & 5.3 & 3.1 & 23.0 & 280   & 68  & 16   & 730 \\\\\nNGC 2903 & Sbc & 2.7 & -   & 37.0 & 43    & -   & 2.4  & 130 \\\\\nNGC 2998 & Sc  & 1.5 & 5.0 & 7.0  & 130   & 8.5 & 23   & 320 \\\\\nNGC 3109 & Sm  & 0.8 & -   & 13.5 & 0.66  & -   & 0.49 & 7.8 \\\\\nNGC 3198 & Sc  & 3.9 & -   & 12.5 & 35    & -   & 5.0  & 100 \\\\\nNGC 5033 & Sbc & 5.8 & -   & 12.0 & 110   & -   & 6.5  & 190 \\\\\nNGC 5371 & Sb  & 2.9 & 3.3 & 8.0  & 120   & 60  & 8.6  & 260 \\\\\nNGC 5533 & Sab & 5.0 & 8.0 & 16.5 & 220   & 96  & 25   & 750 \\\\\nNGC 5585 & Sd  & 2.0 & -   & 9.0  & 3.2   & -   & 1.3  & 16 \\\\\nNGC 6503 & Scd & 1.2 & -   & 17.5 & 5.6   & -   & 1.6  & 35 \\\\"
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 439,
+        "text": "NGC~2841, NGC~2903 and NGC~300. In estimating the contribution of the",
+        "context": "the optical rotation curve by Blais-Ouellette et al. 1999). In the\ncase of DDO 168 the published rotation curve may be too low in the\ninner parts and the model rotation curve is in fact consistent with\nthe observations. The fits for the other dwarf galaxies in Table~2 are\nquite acceptable.}\n\n\\item[(2)]{The model rotation curve shows large wiggles that are not\npresent in the observed rotation curve. This effect is seen for\nNGC~2841, NGC~2903 and NGC~300. In estimating the contribution of the\ngas to the rotation velocity, we have used a radial profile that is an\nazimuthal average of the HI distribution.  Features such as spiral\narms or blobs of HI, however, may cause bumps in the radial\nprofile. In the model rotation curve strong features will then show\nup, because the scaling of HI amplifies the irregularities in the HI\ndistribution. Indeed the HI map of NGC 2903 shows\nclear spiral structure and blobs related to the wiggles.\nFor NGC 2841 and NGC 300 the situation is less clear."
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 445,
+        "text": "distribution. Indeed the HI map of NGC 2903 shows",
+        "context": "\\item[(2)]{The model rotation curve shows large wiggles that are not\npresent in the observed rotation curve. This effect is seen for\nNGC~2841, NGC~2903 and NGC~300. In estimating the contribution of the\ngas to the rotation velocity, we have used a radial profile that is an\nazimuthal average of the HI distribution.  Features such as spiral\narms or blobs of HI, however, may cause bumps in the radial\nprofile. In the model rotation curve strong features will then show\nup, because the scaling of HI amplifies the irregularities in the HI\ndistribution. Indeed the HI map of NGC 2903 shows\nclear spiral structure and blobs related to the wiggles.\nFor NGC 2841 and NGC 300 the situation is less clear.\nThe presence of wiggles in the rotation curves shows that\nthe distribution of dark matter can not be an exact copy of the\ndistribution of HI. At best, the smeared-out distribution of HI is\na tracer of dark matter.}\n\n\\item[(3)]{The model rotation curve drops below the observed rotation"
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 492,
+        "text": "Two galaxies, NGC~2841 (23) and NGC~2903 (37), have $\\Sigma_{\\rm",
+        "context": "In Fig.~\\ref{freq} the frequency distribution of the scaling factor is\nshown. It is strongly peaked around a value of approximately\n9. Correcting for primordial helium we find that the dark matter\nsurface density is approximately 6.5 times the gas surface density\n(i.e. HI + He). As can be seen from Table~2, the HI scaling factor\ndoes not change much with galaxy type, although the scatter increases\ntowards earlier types.\n\nTwo galaxies, NGC~2841 (23) and NGC~2903 (37), have $\\Sigma_{\\rm\ndark}/\\Sigma_{\\rm HI}>20$. These galaxies are the two most\ncompact ones in the sense that they have small scale lengths in\ncomparison to their maximum rotation velocities; they therefore\nrequire a relatively massive dark halo. Their HI surface densities do\nnot differ much from those of other galaxies and this results in an HI\nscale factor that is above average.\n\n\\begin{figure}"
+      }
+    ],
+    "NGC5033": [
+      {
+        "file": "dmhi.tex",
+        "line": 217,
+        "text": "DDO 170  & Sm  & 12.0 & --14.5 & 66  & 4      & NGC 5033 & Sbc & 11.9 & --20.2 & ",
+        "context": "\\hline\n     &      & [Mpc]    & [mag]       & [km/s]    &         &      &      & [Mpc]    \n& [mag]       & [km/s]    &         \\\\\n\\hline\nDDO 154  & Irr & 4.0  & --13.8 & 48  & 1, 2   & NGC 3109 & Sm  & 1.7  & --16.8 & \n67  & 14, 15 \\\\\nDDO 168  & Irr & 3.5  & --15.2 & 55  & 3      & NGC 3198 & Sc  & 9.4  & --19.4 & \n157 & 14, 16 \\\\\nDDO 170  & Sm  & 12.0 & --14.5 & 66  & 4      & NGC 5033 & Sbc & 11.9 & --20.2 & \n225 & 10, 13 \\\\\nNGC 55   & Sm  & 1.6  & --18.6 & 87  & 5      & NGC 5371 & Sb  & 34.8 & --21.7 & \n242 & 13, 20 \\\\\nNGC 247  & Sd  & 2.5  & --18.0 & 108 & 6, 7   & NGC 5533 & Sab & 55.8 & --21.4 & \n302 & 3, 9, 18 \\\\\nNGC 300  & Sd  & 1.8  & --17.8 & 97  & 8, 7   & NGC 5585 & Sd  & 6.2  & --17.5 & \n92  & 19     \\\\\nNGC 801  & Sc  & 79.2 & --21.7 & 238 & 3, 10  & NGC 6503 & Scd & 5.9  & --18.7 & "
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 393,
+        "text": "NGC 5033 & Sbc & 5.8 & -   & 12.0 & 110   & -   & 6.5  & 190 \\\\",
+        "context": "NGC 801  & Sc  & 2.8 & 4.5 & 9.0  & 160   & 72  & 22   & 450 \\\\\nNGC 1560 & Sd  & 1.0 & -   & 7.0  & 0.36  & -   & 0.82 & 6.9 \\\\\nNGC 2403 & Scd & 1.8 & -   & 9.5  & 15    & -   & 3.1  & 46 \\\\\nNGC 2841 & Sb  & 5.3 & 3.1 & 23.0 & 280   & 68  & 16   & 730 \\\\\nNGC 2903 & Sbc & 2.7 & -   & 37.0 & 43    & -   & 2.4  & 130 \\\\\nNGC 2998 & Sc  & 1.5 & 5.0 & 7.0  & 130   & 8.5 & 23   & 320 \\\\\nNGC 3109 & Sm  & 0.8 & -   & 13.5 & 0.66  & -   & 0.49 & 7.8 \\\\\nNGC 3198 & Sc  & 3.9 & -   & 12.5 & 35    & -   & 5.0  & 100 \\\\\nNGC 5033 & Sbc & 5.8 & -   & 12.0 & 110   & -   & 6.5  & 190 \\\\\nNGC 5371 & Sb  & 2.9 & 3.3 & 8.0  & 120   & 60  & 8.6  & 260 \\\\\nNGC 5533 & Sab & 5.0 & 8.0 & 16.5 & 220   & 96  & 25   & 750 \\\\\nNGC 5585 & Sd  & 2.0 & -   & 9.0  & 3.2   & -   & 1.3  & 16 \\\\\nNGC 6503 & Scd & 1.2 & -   & 17.5 & 5.6   & -   & 1.6  & 35 \\\\\nNGC 6674 & Sb  & 4.5 & 7.0 & 9.0  & 210   & 110 & 30   & 620 \\\\   \nNGC 6946 & Scd & 1.2 & -   & 4.5  & 53    & -   & 20   & 160 \\\\\nNGC 7331 & Sb  & 4.6 & 1.8 & 8.0  & 110   & 59  & 11   & 270 \\\\\nUGC 2259 & Sdm & 4.0 & -   & 10.0 & 3.9   & -   & 0.42 & 8.5 \\\\"
+      }
+    ],
+    "NGC5371": [
+      {
+        "file": "dmhi.tex",
+        "line": 219,
+        "text": "NGC 55   & Sm  & 1.6  & --18.6 & 87  & 5      & NGC 5371 & Sb  & 34.8 & --21.7 & ",
+        "context": "& [mag]       & [km/s]    &         \\\\\n\\hline\nDDO 154  & Irr & 4.0  & --13.8 & 48  & 1, 2   & NGC 3109 & Sm  & 1.7  & --16.8 & \n67  & 14, 15 \\\\\nDDO 168  & Irr & 3.5  & --15.2 & 55  & 3      & NGC 3198 & Sc  & 9.4  & --19.4 & \n157 & 14, 16 \\\\\nDDO 170  & Sm  & 12.0 & --14.5 & 66  & 4      & NGC 5033 & Sbc & 11.9 & --20.2 & \n225 & 10, 13 \\\\\nNGC 55   & Sm  & 1.6  & --18.6 & 87  & 5      & NGC 5371 & Sb  & 34.8 & --21.7 & \n242 & 13, 20 \\\\\nNGC 247  & Sd  & 2.5  & --18.0 & 108 & 6, 7   & NGC 5533 & Sab & 55.8 & --21.4 & \n302 & 3, 9, 18 \\\\\nNGC 300  & Sd  & 1.8  & --17.8 & 97  & 8, 7   & NGC 5585 & Sd  & 6.2  & --17.5 & \n92  & 19     \\\\\nNGC 801  & Sc  & 79.2 & --21.7 & 238 & 3, 10  & NGC 6503 & Scd & 5.9  & --18.7 & \n121 & 12, 20 \\\\\nNGC 1560 & Sd  & 3.0  & --15.9 & 79  & 12     & NGC 6674 & Sb  & 49.3 & --21.6 & "
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 277,
+        "text": "We have included NGC~5371 (Begeman 1987), which was not used by",
+        "context": "Synthesis Radio Telescope or with the Very Large Array.}\n\\item{The galaxy has a smooth and fairly symmetric velocity field and gas\ndistribution.}\n\\item{High precision photometric data are available.}\n\\item{Inclination and position angle have been derived kinematically,\nusing a tilted ring analysis of the velocity field.}\n\\end{itemize}\n\nWe have included NGC~5371 (Begeman 1987), which was not used by\nBroeils `because of its clumpy gas distribution and asymmetric\nvelocity field'. For our purpose the properties of this galaxy are\nsufficiently regular. We have further added NGC~6946 using data from\nKamphuis (1993). NGC~1003 from Broeils' sample could not be used,\nbecause the data are not readily available.  The selected galaxies are\nlisted in Table~1, together with some of their basic properties. The\ndistances given in this table are based on the\nvalues\\footnote{Adopting $H_o =$ 75 km/s/Mpc.} given in Broeils"
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 286,
+        "text": "(1992a). For NGC~5371 and NGC~6946 distances from Begeman (1987) and",
+        "context": "Broeils `because of its clumpy gas distribution and asymmetric\nvelocity field'. For our purpose the properties of this galaxy are\nsufficiently regular. We have further added NGC~6946 using data from\nKamphuis (1993). NGC~1003 from Broeils' sample could not be used,\nbecause the data are not readily available.  The selected galaxies are\nlisted in Table~1, together with some of their basic properties. The\ndistances given in this table are based on the\nvalues\\footnote{Adopting $H_o =$ 75 km/s/Mpc.} given in Broeils\n(1992a). For NGC~5371 and NGC~6946 distances from Begeman (1987) and\nCarignan et al. (1990) have been used.\n\nThe galaxies in Table~1 span a considerable range in Hubble type, from\nSab to Irr. Although most galaxies are of type Sc or later, the sample\nallows for a systematic study of galaxy properties from types Sb to\nIrr. Note that our sample does not include LSB galaxies.\n\n\\begin{figure*}"
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 394,
+        "text": "NGC 5371 & Sb  & 2.9 & 3.3 & 8.0  & 120   & 60  & 8.6  & 260 \\\\",
+        "context": "NGC 1560 & Sd  & 1.0 & -   & 7.0  & 0.36  & -   & 0.82 & 6.9 \\\\\nNGC 2403 & Scd & 1.8 & -   & 9.5  & 15    & -   & 3.1  & 46 \\\\\nNGC 2841 & Sb  & 5.3 & 3.1 & 23.0 & 280   & 68  & 16   & 730 \\\\\nNGC 2903 & Sbc & 2.7 & -   & 37.0 & 43    & -   & 2.4  & 130 \\\\\nNGC 2998 & Sc  & 1.5 & 5.0 & 7.0  & 130   & 8.5 & 23   & 320 \\\\\nNGC 3109 & Sm  & 0.8 & -   & 13.5 & 0.66  & -   & 0.49 & 7.8 \\\\\nNGC 3198 & Sc  & 3.9 & -   & 12.5 & 35    & -   & 5.0  & 100 \\\\\nNGC 5033 & Sbc & 5.8 & -   & 12.0 & 110   & -   & 6.5  & 190 \\\\\nNGC 5371 & Sb  & 2.9 & 3.3 & 8.0  & 120   & 60  & 8.6  & 260 \\\\\nNGC 5533 & Sab & 5.0 & 8.0 & 16.5 & 220   & 96  & 25   & 750 \\\\\nNGC 5585 & Sd  & 2.0 & -   & 9.0  & 3.2   & -   & 1.3  & 16 \\\\\nNGC 6503 & Scd & 1.2 & -   & 17.5 & 5.6   & -   & 1.6  & 35 \\\\\nNGC 6674 & Sb  & 4.5 & 7.0 & 9.0  & 210   & 110 & 30   & 620 \\\\   \nNGC 6946 & Scd & 1.2 & -   & 4.5  & 53    & -   & 20   & 160 \\\\\nNGC 7331 & Sb  & 4.6 & 1.8 & 8.0  & 110   & 59  & 11   & 270 \\\\\nUGC 2259 & Sdm & 4.0 & -   & 10.0 & 3.9   & -   & 0.42 & 8.5 \\\\\nUGC 2885 & Sc  & 1.5 & 7.5 & 9.5  & 270   & 210 & 44   & 940 \\\\"
+      }
+    ],
+    "NGC6503": [
+      {
+        "file": "dmhi.tex",
+        "line": 225,
+        "text": "NGC 801  & Sc  & 79.2 & --21.7 & 238 & 3, 10  & NGC 6503 & Scd & 5.9  & --18.7 & ",
+        "context": "DDO 170  & Sm  & 12.0 & --14.5 & 66  & 4      & NGC 5033 & Sbc & 11.9 & --20.2 & \n225 & 10, 13 \\\\\nNGC 55   & Sm  & 1.6  & --18.6 & 87  & 5      & NGC 5371 & Sb  & 34.8 & --21.7 & \n242 & 13, 20 \\\\\nNGC 247  & Sd  & 2.5  & --18.0 & 108 & 6, 7   & NGC 5533 & Sab & 55.8 & --21.4 & \n302 & 3, 9, 18 \\\\\nNGC 300  & Sd  & 1.8  & --17.8 & 97  & 8, 7   & NGC 5585 & Sd  & 6.2  & --17.5 & \n92  & 19     \\\\\nNGC 801  & Sc  & 79.2 & --21.7 & 238 & 3, 10  & NGC 6503 & Scd & 5.9  & --18.7 & \n121 & 12, 20 \\\\\nNGC 1560 & Sd  & 3.0  & --15.9 & 79  & 12     & NGC 6674 & Sb  & 49.3 & --21.6 & \n291 & 3,9    \\\\\nNGC 2403 & Scd & 3.3  & --19.3 & 136 & 13, 14, 23 & NGC 6946 & Scd & 10.1 & --21.4 & \n170 & 11, 17 \\\\\nNGC 2841 & Sb  & 18.0 & --21.7 & 326 & 13, 14 & NGC 7331 & Sb  & 14.9 & --21.4 & \n257 & 12, 14 \\\\\nNGC 2903 & Sbc & 6.4  & --20.0 & 216 & 13, 14 & UGC 2259 & Sdm & 9.8  & --17.0 & "
+      },
+      {
+        "file": "dmhi.tex",
+        "line": 397,
+        "text": "NGC 6503 & Scd & 1.2 & -   & 17.5 & 5.6   & -   & 1.6  & 35 \\\\",
+        "context": "NGC 2903 & Sbc & 2.7 & -   & 37.0 & 43    & -   & 2.4  & 130 \\\\\nNGC 2998 & Sc  & 1.5 & 5.0 & 7.0  & 130   & 8.5 & 23   & 320 \\\\\nNGC 3109 & Sm  & 0.8 & -   & 13.5 & 0.66  & -   & 0.49 & 7.8 \\\\\nNGC 3198 & Sc  & 3.9 & -   & 12.5 & 35    & -   & 5.0  & 100 \\\\\nNGC 5033 & Sbc & 5.8 & -   & 12.0 & 110   & -   & 6.5  & 190 \\\\\nNGC 5371 & Sb  & 2.9 & 3.3 & 8.0  & 120   & 60  & 8.6  & 260 \\\\\nNGC 5533 & Sab & 5.0 & 8.0 & 16.5 & 220   & 96  & 25   & 750 \\\\\nNGC 5585 & Sd  & 2.0 & -   & 9.0  & 3.2   & -   & 1.3  & 16 \\\\\nNGC 6503 & Scd & 1.2 & -   & 17.5 & 5.6   & -   & 1.6  & 35 \\\\\nNGC 6674 & Sb  & 4.5 & 7.0 & 9.0  & 210   & 110 & 30   & 620 \\\\   \nNGC 6946 & Scd & 1.2 & -   & 4.5  & 53    & -   & 20   & 160 \\\\\nNGC 7331 & Sb  & 4.6 & 1.8 & 8.0  & 110   & 59  & 11   & 270 \\\\\nUGC 2259 & Sdm & 4.0 & -   & 10.0 & 3.9   & -   & 0.42 & 8.5 \\\\\nUGC 2885 & Sc  & 1.5 & 7.5 & 9.5  & 270   & 210 & 44   & 940 \\\\\n\\hline\n\\end{tabular}\n\\parbox{11.7cm}{\\noindent Mass-to-light ratios in columns (3) and (4)"
+      }
+    ]
+  },
+  "fig1_contexts": [],
+  "hi_profile_contexts": [
+    {
+      "file": "dmhi.tex",
+      "line": 21,
+      "text": "matter surface density is a scaled version of the observed HI surface",
+      "context": "\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\n\nWe have studied a mass model for spiral galaxies in which the dark\nmatter surface density is a scaled version of the observed HI surface\ndensity.  Applying this mass model to a sample of 24 spiral galaxies\nwith reliable rotation curves one obtains good fits for most galaxies.\nThe scaling factors cluster around 7, after correction for the presence\nof primordial helium. But for several cases different, often larger,\nvalues are found. For galaxies that can not be fitted well the\ndiscrepancy occurs at large radii and results from a fairly rapid\ndecline of the HI surface density in the outermost regions.  Because\nof such imperfections and in view of possible selection effects it is"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 28,
+      "text": "decline of the HI surface density in the outermost regions.  Because",
+      "context": "We have studied a mass model for spiral galaxies in which the dark\nmatter surface density is a scaled version of the observed HI surface\ndensity.  Applying this mass model to a sample of 24 spiral galaxies\nwith reliable rotation curves one obtains good fits for most galaxies.\nThe scaling factors cluster around 7, after correction for the presence\nof primordial helium. But for several cases different, often larger,\nvalues are found. For galaxies that can not be fitted well the\ndiscrepancy occurs at large radii and results from a fairly rapid\ndecline of the HI surface density in the outermost regions.  Because\nof such imperfections and in view of possible selection effects it is\nnot possible to conclude here that there is a real coupling between HI\nand dark matter in spiral galaxies.\n\n\\end{abstract}\n\n\\section{Introduction}\n"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 91,
+      "text": "is because the HI surface density distributions of the galaxies in our",
+      "context": "Unfortunately the quality of the rotation curves for LSB galaxies is\nstill rather poor and we have decided not to include those galaxies in\nthe present discussion.\n\n\nWe wish to stress at the outset that there is a potentially powerful\nselection effect that may cause a relationship between the surface\ndensities of HI and dark matter for the galaxies in our sample. This\nis because the HI surface density distributions of the galaxies in our\nsample have the common characteristic that the highest values in the\ninner regions, as well as the lowest values in the outer regions are\nsimilar from galaxy to galaxy (the latter being linked to the sensitivity\nreached in the observations). As a result, a large radial extent\nimplies a large radial scale length of HI and vice versa. \nIn section~5 we discuss how this can lead to a proportionality\nbetween dark matter and HI.\n"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 188,
+      "text": "matter component and where $\\Sigma_{\\rm HI}$ is the surface density of the HI ",
+      "context": "V_{\\rm tot}^2=\\left({\\frac{\\Sigma_{\\rm dark}}{\\Sigma_{\\rm HI}}+1}\\right) \nV_{\\rm HI}^2+ \\left({\\frac{\\rm M}{\\rm L_B}}\\right)_{\\rm b} V_{\\rm bulge}^2+\n\\left({\\frac{\\rm M}{\\rm L_B}}\\right)_{\\rm d}\n V_{\\rm disc}^2,\n\\end{equation}\n\\end{footnotesize}\n\n\\noindent where $\\Sigma_{\\rm dark}$ denotes the surface density of the dark \nmatter component and where $\\Sigma_{\\rm HI}$ is the surface density of the HI \ndisc.\n\nIn making the fits we have three free parameters at our disposal:\n$\\Sigma_{\\rm dark}/\\Sigma_{\\rm HI}$, $({\\rm M/L_B})_{\\rm bulge}$ and\n$({\\rm M/L_B})_{\\rm disc}$. For late type galaxies, that show no clear\nsigns of a bulge, we omitted the (spherical) bulge contribution. The\nfits were done by eye, in such a way that the model rotation curve\nexplained the observed rotation curve as far out as possible."
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 302,
+      "text": "HI surface density profiles (dashed lines) of the galaxies in our sample.",
+      "context": "\\begin{figure*}\n\\begin{center}\n\\leavevmode\n\\hbox{%\n\\epsfxsize=17.5cm\n\\epsffile[40 170 590 690]{profs.eps}}\n\\end{center}\n\\caption{Mosaic of $r$-band surface brightness profiles (solid lines) and\nHI surface density profiles (dashed lines) of the galaxies in our sample.\nThe profiles are plotted against radius expressed in $R_{\\rm out}$, the \noutermost point of the rotation curve}\\label{profHI}\n\\end{figure*}\n\nThe light profiles and HI surface density distributions for the\ngalaxies in Table~1 are shown in Figure~\\ref{profHI}. Apart from the\noccasional presence of a bulge, most light profiles are essentially\nexponential. The HI surface density distributions show a larger"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 307,
+      "text": "The light profiles and HI surface density distributions for the",
+      "context": "\\epsffile[40 170 590 690]{profs.eps}}\n\\end{center}\n\\caption{Mosaic of $r$-band surface brightness profiles (solid lines) and\nHI surface density profiles (dashed lines) of the galaxies in our sample.\nThe profiles are plotted against radius expressed in $R_{\\rm out}$, the \noutermost point of the rotation curve}\\label{profHI}\n\\end{figure*}\n\nThe light profiles and HI surface density distributions for the\ngalaxies in Table~1 are shown in Figure~\\ref{profHI}. Apart from the\noccasional presence of a bulge, most light profiles are essentially\nexponential. The HI surface density distributions show a larger\nvariety of shapes, but the maximum surface densities reached in the\ninner regions are remarkably similar: about $6~{\\rm M}_\\odot/{\\rm\npc}^2$. Note the larger radial extent of the neutral hydrogen\ncomponent compared to the light, and the steepening of the HI profile\nin the outer region for several galaxies. However, for some of the"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 310,
+      "text": "exponential. The HI surface density distributions show a larger",
+      "context": "HI surface density profiles (dashed lines) of the galaxies in our sample.\nThe profiles are plotted against radius expressed in $R_{\\rm out}$, the \noutermost point of the rotation curve}\\label{profHI}\n\\end{figure*}\n\nThe light profiles and HI surface density distributions for the\ngalaxies in Table~1 are shown in Figure~\\ref{profHI}. Apart from the\noccasional presence of a bulge, most light profiles are essentially\nexponential. The HI surface density distributions show a larger\nvariety of shapes, but the maximum surface densities reached in the\ninner regions are remarkably similar: about $6~{\\rm M}_\\odot/{\\rm\npc}^2$. Note the larger radial extent of the neutral hydrogen\ncomponent compared to the light, and the steepening of the HI profile\nin the outer region for several galaxies. However, for some of the\ndwarf galaxies the scalelengths of light and HI gas are quite similar.\n\nThe HI surface density profiles in Figure~\\ref{profHI} have been"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 318,
+      "text": "The HI surface density profiles in Figure~\\ref{profHI} have been",
+      "context": "exponential. The HI surface density distributions show a larger\nvariety of shapes, but the maximum surface densities reached in the\ninner regions are remarkably similar: about $6~{\\rm M}_\\odot/{\\rm\npc}^2$. Note the larger radial extent of the neutral hydrogen\ncomponent compared to the light, and the steepening of the HI profile\nin the outer region for several galaxies. However, for some of the\ndwarf galaxies the scalelengths of light and HI gas are quite similar.\n\nThe HI surface density profiles in Figure~\\ref{profHI} have been\nderived from 21-cm line synthesis observations. For large galaxies the\nHI flux in the outer parts may therefore have been underestimated.\nAs a consequence of the missing ``large scale length'' HI components,\nrotation curves in Figure~\\ref{rotcur} may show a decrease in the outermost\nparts. Comparison of the total flux with that measured with\nsingle dish telescopes (Rots 1980) shows that the profiles of NGC~55\nand~300 may well suffer from this. This may also be true for NGC~3109.\n"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 420,
+      "text": "over their full extent by scaling up the HI surface density. The",
+      "context": "\nThe models are compared to the observed rotation curves in\nFigure~\\ref{rotcur}. The radius is expressed in units of $R_{\\rm\nout}$, the radius of the last measured point of the rotation\ncurve. The circular velocities for the stellar component(s) (dotted)\nand the scaled HI component (dashed) are also plotted.\n\nWe see that most of the 24 rotation curves can be fitted rather well\nover their full extent by scaling up the HI surface density. The\npoorer fits can be categorized as follows:\n\n\\begin{enumerate}\n\n\\item[(1)]{The model curve does not agree with the observed rotation\ncurve in the inner region. This can be due to an incorrect bulge\ncontribution. \n"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 462,
+      "text": "molecular gas, the observed HI surface density may therefore not",
+      "context": "curve at large radii. Seven galaxies fall in this category (NGC~7331,\n5033, 6674, 5371, 1560, 55, and also NGC~300). In Section~3 we\nnoted that for large galaxies HI flux may be missed in the 21-cm\nsynthesis observations. Obviously this could be a contributing factor\nto a decline of the HI rotation curve in the outer parts. In the same\nvein, hydrogen may be partly ionised in the outer regions due to\nphotons of intergalactic origin. This possibility has been discussed\nfor NGC 3198 by Maloney (1993). Irrespective of the presence of\nmolecular gas, the observed HI surface density may therefore not\nalways trace the total gas density in the outer parts.}\n\n\\end{enumerate}\n\nWe conclude from the comparisons in Fig.~\\ref{rotcur} and the results\nabove that the rotation curves of two-thirds of the galaxies in our\nsample, spirals and dwarfs alike, can be fitted with a mass model\nbased on the distribution of light and the distribution of HI,"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 532,
+      "text": "shows that for most galaxies the HI surface density profiles curve",
+      "context": "luminous component reaches its maximum. For a good match, we therefore\nrequire a rotation curve for the HI component rising to well beyond\n$2.2 h_{\\rm stars}$, in order to compensate for the decline of the\nrotation curve of the stars. Put differently, the radial `scale\nlength' of the HI distribution must be large, about 0.4 times the\nouter radius of the HI disc, $R_{\\rm out}$, or even larger. For the\ngalaxies in our sample we find an average $h_{\\rm HI} \\simeq 0.33\nR_{\\rm out}$, only barely enough for HI scaling to work.  Figure~1\nshows that for most galaxies the HI surface density profiles curve\ndownwards with increasing radius. This is why for several galaxies\nscaling of HI gives a poor fit in the outer parts, with the model\ncurve falling below the observed rotation curve (see e.g., NGC~7331\nand 5371). Apparently, with the present 21-cm line sensitivity we may\nbe reaching the border of the region where scaling of atomic hydrogen\nto fit the rotation curve works.  Extension of the rapidly declining\nHI surface density profiles to larger radii would result in\nprogressively poorer fits."
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 539,
+      "text": "HI surface density profiles to larger radii would result in",
+      "context": "R_{\\rm out}$, only barely enough for HI scaling to work.  Figure~1\nshows that for most galaxies the HI surface density profiles curve\ndownwards with increasing radius. This is why for several galaxies\nscaling of HI gives a poor fit in the outer parts, with the model\ncurve falling below the observed rotation curve (see e.g., NGC~7331\nand 5371). Apparently, with the present 21-cm line sensitivity we may\nbe reaching the border of the region where scaling of atomic hydrogen\nto fit the rotation curve works.  Extension of the rapidly declining\nHI surface density profiles to larger radii would result in\nprogressively poorer fits.\n\nIt is worth noting that our selection in favour of a large radial\nextent in HI excludes galaxies with small HI scale lengths, for the\nfollowing reason. The HI surface density in the inner region of spiral\ngalaxies, leaving aside a possible central depression, varies only by\na modest amount from galaxy to galaxy (Broeils 1992a, Rhee 1996 and\nFig.~\\ref{profHI}). In the mean for our sample $\\Sigma_{HI}(0) \\simeq"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 544,
+      "text": "following reason. The HI surface density in the inner region of spiral",
+      "context": "and 5371). Apparently, with the present 21-cm line sensitivity we may\nbe reaching the border of the region where scaling of atomic hydrogen\nto fit the rotation curve works.  Extension of the rapidly declining\nHI surface density profiles to larger radii would result in\nprogressively poorer fits.\n\nIt is worth noting that our selection in favour of a large radial\nextent in HI excludes galaxies with small HI scale lengths, for the\nfollowing reason. The HI surface density in the inner region of spiral\ngalaxies, leaving aside a possible central depression, varies only by\na modest amount from galaxy to galaxy (Broeils 1992a, Rhee 1996 and\nFig.~\\ref{profHI}). In the mean for our sample $\\Sigma_{HI}(0) \\simeq\n6 {\\rm M_{\\odot}/pc^2}$.  The smallest HI surface densities measured\nin the outer regions are set by the sensitivity of the observations.\nFor our sample typically: $ \\Sigma_{\\rm HI}(R_{\\rm out}) \\simeq 0.3\n{\\rm M_{\\odot}}/{\\rm pc}^2$. The corresponding range in $\\Sigma_{\\rm\nHI}$ is therefore about a factor of 20 for most galaxies in our sample,"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 585,
+      "text": "scaled version of the HI surface density, we can write for the scale",
+      "context": " \n\\noindent where $\\Sigma_{\\rm stars}(0)$ and $\\Sigma_{\\rm dark}(0)$ are\nthe central surface densities of respectively the stellar disc and the\ndark halo, and where $h_{\\rm stars}$ and $h_{\\rm dark}$ indicate their\nscalelengths.  This equation is a description of the disc-halo\nconspiracy (van Albada \\& Sancisi, 1986).\n\nIf we assume that the surface density profile of the dark matter is a\nscaled version of the HI surface density, we can write for the scale\nfactor $f$:\n\n\\begin{equation}\nf =\\frac{\\Sigma_{\\rm dark}(R)}{\\Sigma_{\\rm HI}(R) }\n\\approx \\frac{\\Sigma_{\\rm stars}(0)}{\\Sigma_{\\rm HI}(0)}\n\\frac{h_{\\rm stars}}{h_{\\rm dark}},\n\\end{equation}\n"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 600,
+      "text": "As mentioned above, the maximum surface density of the HI disc of high",
+      "context": "\\end{equation}\n\n\\noindent where $\\Sigma_{HI}(0)$ is a measure of the maximum HI\nsurface density, ignoring a possible central depression.  The small\nspread in the scale factor $f$ therefore implies a coupling of the\nscale lengths of stars and dark matter, as well as a coupling of the\nsurface mass densities of stars and HI.\n\nAs mentioned above, the maximum surface density of the HI disc of high\nsurface brightness galaxies does not vary much from galaxy to\ngalaxy. Similarly, for luminous spiral galaxies the central surface\nbrightness of the disc is remarkably constant (Freeman,\n1970). Assuming some constant value for the mass-to-light ratio, this\nwould result in a fairly small variation in the central surface density\nof the stellar disc.  Thus, the spread in the first factor in\nEquation~(5) may well be small. This suggests that if the ratio of\nscale lengths of the dark disc and the stellar disc were approximately"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 640,
+      "text": "proportional to the HI surface density. For about two thirds of the",
+      "context": "regions. The required scaling factors for HI show a considerable\nspread, with a peak between 3 and 6. In the mean they are about a\nfactor of two smaller than the scaling factors found above.\n\n\\section{Summary \\& Conclusions}\n\nWe have fitted mass models to the observed rotation curves of 24\ngalaxies under the assumption that the dark matter surface density is\nproportional to the HI surface density. For about two thirds of the\ngalaxies we obtain good fits to the data. After correction for\nprimordial Helium the required scaling factor is about 7. The main\ndiscrepancies occur at large radii, with the fitted rotation curves\nfalling below the observed ones. This results from a fairly rapid\ndecline of the HI surface density in the outermost regions.\n\nFor the HI data used here, the radial density profiles of HI typically\nextend to about 3 scale lengths, i.e. close to or just beyond the"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 645,
+      "text": "decline of the HI surface density in the outermost regions.",
+      "context": "\nWe have fitted mass models to the observed rotation curves of 24\ngalaxies under the assumption that the dark matter surface density is\nproportional to the HI surface density. For about two thirds of the\ngalaxies we obtain good fits to the data. After correction for\nprimordial Helium the required scaling factor is about 7. The main\ndiscrepancies occur at large radii, with the fitted rotation curves\nfalling below the observed ones. This results from a fairly rapid\ndecline of the HI surface density in the outermost regions.\n\nFor the HI data used here, the radial density profiles of HI typically\nextend to about 3 scale lengths, i.e. close to or just beyond the\nradius where the rotation curve of the HI component is expected to\ndecline. The good fits are therefore somewhat coincidental.  More\nsensitive HI observations would reach the declining part of the\nrotation curve of the HI component for several galaxies in our sample\n(provided the HI surface density remains exponential further out). If"
+    },
+    {
+      "file": "dmhi.tex",
+      "line": 653,
+      "text": "(provided the HI surface density remains exponential further out). If",
+      "context": "decline of the HI surface density in the outermost regions.\n\nFor the HI data used here, the radial density profiles of HI typically\nextend to about 3 scale lengths, i.e. close to or just beyond the\nradius where the rotation curve of the HI component is expected to\ndecline. The good fits are therefore somewhat coincidental.  More\nsensitive HI observations would reach the declining part of the\nrotation curve of the HI component for several galaxies in our sample\n(provided the HI surface density remains exponential further out). If\nthe observed circular velocity of the galaxy remains constant with\nradius it would then no longer be possible to fit such a flat rotation\ncurve with a scaled up distribution of HI. Furthermore, in several\ngalaxies scaling up of HI leads to rotation curves with wiggles, and\nin some galaxies not included in this paper the neutral hydrogen\ndensity drops rather abruptly around the optical radius.\n\nTherefore, in many cases, there seems to be little or no relation"
+    }
+  ],
+  "postscript_assets": [
+    {
+      "name": "freqrati.eps",
+      "bytes": 10067,
+      "sha256": "e5ca6de28d33d650df52f99b4e990d5589d86203171d2f8f4e626c51fc770609",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 5,
+      "useful_strings": [],
+      "mentions_targets": {
+        "NGC2903": false,
+        "NGC5033": false,
+        "NGC5371": false,
+        "NGC6503": false
+      }
+    },
+    {
+      "name": "profs.eps",
+      "bytes": 102994,
+      "sha256": "cc7fcb9b21a3a5eb18de6144b2f227119ac6b9cde06b80b4c7b5839487da18c8",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 5,
+      "useful_strings": [],
+      "mentions_targets": {
+        "NGC2903": false,
+        "NGC5033": false,
+        "NGC5371": false,
+        "NGC6503": false
+      }
+    },
+    {
+      "name": "rot.eps",
+      "bytes": 242619,
+      "sha256": "96749a7acd817e38030f7216d00375b783878c3d493c4fe821f4ddac330a9539",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 5,
+      "useful_strings": [],
+      "mentions_targets": {
+        "NGC2903": false,
+        "NGC5033": false,
+        "NGC5371": false,
+        "NGC6503": false
+      }
+    }
+  ],
+  "vector_only_assets": [
+    {
+      "name": "freqrati.eps",
+      "bytes": 10067,
+      "sha256": "e5ca6de28d33d650df52f99b4e990d5589d86203171d2f8f4e626c51fc770609",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 5,
+      "useful_strings": [],
+      "mentions_targets": {
+        "NGC2903": false,
+        "NGC5033": false,
+        "NGC5371": false,
+        "NGC6503": false
+      }
+    },
+    {
+      "name": "profs.eps",
+      "bytes": 102994,
+      "sha256": "cc7fcb9b21a3a5eb18de6144b2f227119ac6b9cde06b80b4c7b5839487da18c8",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 5,
+      "useful_strings": [],
+      "mentions_targets": {
+        "NGC2903": false,
+        "NGC5033": false,
+        "NGC5371": false,
+        "NGC6503": false
+      }
+    },
+    {
+      "name": "rot.eps",
+      "bytes": 242619,
+      "sha256": "96749a7acd817e38030f7216d00375b783878c3d493c4fe821f4ddac330a9539",
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_ops": 6,
+      "lineto_ops": 1,
+      "curveto_ops": 0,
+      "stroke_ops": 5,
+      "useful_strings": [],
+      "mentions_targets": {
+        "NGC2903": false,
+        "NGC5033": false,
+        "NGC5371": false,
+        "NGC6503": false
+      }
+    }
+  ],
+  "decision_fields": {
+    "machine_readable_assets_present": false,
+    "target_hit_counts": {
+      "NGC2903": 5,
+      "NGC5033": 2,
+      "NGC5371": 4,
+      "NGC6503": 2
+    },
+    "n_vector_only_assets": 3
+  },
+  "interpretation_rule": "Fig.1 can be promoted only if its HI curves are source-native numeric rows or exact separable vector geometry with auditable axes; generic vector plots or raster images are insufficient.",
+  "boundary": "Be87 acquisition only; no PostScript execution, OCR, raster digitization, normalization, persistence fitting, or blind outcomes."
+}
