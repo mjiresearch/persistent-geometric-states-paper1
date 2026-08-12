@@ -1,0 +1,575 @@
+{
+  "status": "BE91_TABLE1_ORIGINAL_HI_SOURCE_MAP_COMPLETE",
+  "source": "Begeman, Broeils & Sanders 1991 MNRAS 249 523-537; ADS scan",
+  "reference_legend": {
+    "1": "Begeman (1987)",
+    "2": "Broeils (1990)",
+    "3": "Carignan, Sancisi & van Albada (1988)",
+    "4": "Carignan & Beaulieu (1989)",
+    "5": "Kent (1987)",
+    "6": "Lake, Schommer & van Gorkom (1990)",
+    "7": "Wevers, van der Kruit & Allen (1986)"
+  },
+  "table_pages_1based": [
+    3
+  ],
+  "n_targets": 5,
+  "n_mapped": 2,
+  "map": [
+    {
+      "galaxy": "DDO170",
+      "be91_reference_number": "",
+      "cited_source": "",
+      "table_page": "",
+      "mapping_status": "unresolved_table_geometry"
+    },
+    {
+      "galaxy": "NGC2903",
+      "be91_reference_number": 7,
+      "cited_source": "Wevers, van der Kruit & Allen (1986)",
+      "table_page": 3,
+      "mapping_status": "mapped_from_native_table1_geometry"
+    },
+    {
+      "galaxy": "NGC3109",
+      "be91_reference_number": "",
+      "cited_source": "",
+      "table_page": "",
+      "mapping_status": "unresolved_table_geometry"
+    },
+    {
+      "galaxy": "NGC6503",
+      "be91_reference_number": 7,
+      "cited_source": "Wevers, van der Kruit & Allen (1986)",
+      "table_page": 3,
+      "mapping_status": "mapped_from_native_table1_geometry"
+    },
+    {
+      "galaxy": "UGC02259",
+      "be91_reference_number": "",
+      "cited_source": "",
+      "table_page": "",
+      "mapping_status": "unresolved_table_geometry"
+    }
+  ],
+  "native_row_geometry_audit": [
+    {
+      "galaxy": "DDO170",
+      "display": "DDO 170",
+      "candidates": [
+        {
+          "page": 3,
+          "y": 630.708,
+          "text": "DDO 170 Im 12.01 (2) > 70 0.16 1.28 2.41 9.61 0.15",
+          "words": [
+            {
+              "x0": 141.48,
+              "x1": 157.44,
+              "text": "DDO"
+            },
+            {
+              "x0": 163.8,
+              "x1": 174.0,
+              "text": "170"
+            },
+            {
+              "x0": 192.84,
+              "x1": 201.12,
+              "text": "Im"
+            },
+            {
+              "x0": 220.2,
+              "x1": 235.56,
+              "text": "12.01"
+            },
+            {
+              "x0": 244.2,
+              "x1": 252.6,
+              "text": "(2)"
+            },
+            {
+              "x0": 263.64,
+              "x1": 268.08,
+              "text": ">"
+            },
+            {
+              "x0": 270.96,
+              "x1": 277.8,
+              "text": "70"
+            },
+            {
+              "x0": 293.4,
+              "x1": 305.88,
+              "text": "0.16"
+            },
+            {
+              "x0": 320.16,
+              "x1": 332.28,
+              "text": "1.28"
+            },
+            {
+              "x0": 347.04,
+              "x1": 359.28,
+              "text": "2.41"
+            },
+            {
+              "x0": 373.08,
+              "x1": 385.2,
+              "text": "9.61"
+            },
+            {
+              "x0": 396.0,
+              "x1": 408.48,
+              "text": "0.15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "galaxy": "NGC2903",
+      "display": "NGC 2903",
+      "candidates": [
+        {
+          "page": 3,
+          "y": 411.483,
+          "text": "this calls into question the assumption of circular motion in matic warps. This is particularly true of NGC 2903 and",
+          "words": [
+            {
+              "x0": 54.0,
+              "x1": 67.56,
+              "text": "this"
+            },
+            {
+              "x0": 71.04,
+              "x1": 87.96,
+              "text": "calls"
+            },
+            {
+              "x0": 91.2,
+              "x1": 106.32,
+              "text": "into"
+            },
+            {
+              "x0": 109.8,
+              "x1": 143.16,
+              "text": "question"
+            },
+            {
+              "x0": 146.28,
+              "x1": 158.4,
+              "text": "the"
+            },
+            {
+              "x0": 161.76,
+              "x1": 206.64,
+              "text": "assumption"
+            },
+            {
+              "x0": 209.76,
+              "x1": 217.8,
+              "text": "of"
+            },
+            {
+              "x0": 220.68,
+              "x1": 250.56,
+              "text": "circular"
+            },
+            {
+              "x0": 253.68,
+              "x1": 281.52,
+              "text": "motion"
+            },
+            {
+              "x0": 284.52,
+              "x1": 291.96,
+              "text": "in"
+            },
+            {
+              "x0": 314.88,
+              "x1": 335.88,
+              "text": "matic"
+            },
+            {
+              "x0": 341.04,
+              "x1": 366.36,
+              "text": "warps."
+            },
+            {
+              "x0": 371.4,
+              "x1": 389.04,
+              "text": "This"
+            },
+            {
+              "x0": 394.2,
+              "x1": 399.96,
+              "text": "is"
+            },
+            {
+              "x0": 405.12,
+              "x1": 450.24,
+              "text": "particularly"
+            },
+            {
+              "x0": 455.16,
+              "x1": 470.88,
+              "text": "true"
+            },
+            {
+              "x0": 475.92,
+              "x1": 484.08,
+              "text": "of"
+            },
+            {
+              "x0": 488.64,
+              "x1": 509.64,
+              "text": "NGC"
+            },
+            {
+              "x0": 512.88,
+              "x1": 532.92,
+              "text": "2903"
+            },
+            {
+              "x0": 538.44,
+              "x1": 552.72,
+              "text": "and"
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "y": 569.549,
+          "text": "NGC 2903 Sc(s)I-II 6.40 (2) 60-66 15.30 2.02 11.73 24.18 0.43 7",
+          "words": [
+            {
+              "x0": 141.0,
+              "x1": 156.6,
+              "text": "NGC"
+            },
+            {
+              "x0": 159.24,
+              "x1": 173.28,
+              "text": "2903"
+            },
+            {
+              "x0": 184.56,
+              "x1": 210.36,
+              "text": "Sc(s)I-II"
+            },
+            {
+              "x0": 222.12,
+              "x1": 234.48,
+              "text": "6.40"
+            },
+            {
+              "x0": 243.84,
+              "x1": 252.12,
+              "text": "(2)"
+            },
+            {
+              "x0": 261.96,
+              "x1": 278.52,
+              "text": "60-66"
+            },
+            {
+              "x0": 289.68,
+              "x1": 305.4,
+              "text": "15.30"
+            },
+            {
+              "x0": 319.44,
+              "x1": 331.8,
+              "text": "2.02"
+            },
+            {
+              "x0": 343.56,
+              "x1": 359.16,
+              "text": "11.73"
+            },
+            {
+              "x0": 369.12,
+              "x1": 385.08,
+              "text": "24.18"
+            },
+            {
+              "x0": 395.64,
+              "x1": 407.76,
+              "text": "0.43"
+            },
+            {
+              "x0": 423.72,
+              "x1": 426.72,
+              "text": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "galaxy": "NGC3109",
+      "display": "NGC 3109",
+      "candidates": []
+    },
+    {
+      "galaxy": "NGC6503",
+      "display": "NGC 6503",
+      "candidates": [
+        {
+          "page": 3,
+          "y": 586.901,
+          "text": "NGC 6503 Sc(s)II.8 5.94 (3) 74 4.80 1.73 5.36 22.22 0.19 7",
+          "words": [
+            {
+              "x0": 141.24,
+              "x1": 156.72,
+              "text": "NGC"
+            },
+            {
+              "x0": 159.36,
+              "x1": 173.4,
+              "text": "6503"
+            },
+            {
+              "x0": 184.32,
+              "x1": 210.6,
+              "text": "Sc(s)II.8"
+            },
+            {
+              "x0": 222.24,
+              "x1": 234.6,
+              "text": "5.94"
+            },
+            {
+              "x0": 243.84,
+              "x1": 252.24,
+              "text": "(3)"
+            },
+            {
+              "x0": 267.0,
+              "x1": 273.6,
+              "text": "74"
+            },
+            {
+              "x0": 293.04,
+              "x1": 305.4,
+              "text": "4.80"
+            },
+            {
+              "x0": 319.8,
+              "x1": 331.8,
+              "text": "1.73"
+            },
+            {
+              "x0": 346.92,
+              "x1": 359.04,
+              "text": "5.36"
+            },
+            {
+              "x0": 369.24,
+              "x1": 385.2,
+              "text": "22.22"
+            },
+            {
+              "x0": 395.76,
+              "x1": 408.0,
+              "text": "0.19"
+            },
+            {
+              "x0": 423.84,
+              "x1": 426.84,
+              "text": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "galaxy": "UGC02259",
+      "display": "UGC 2259",
+      "candidates": [
+        {
+          "page": 3,
+          "y": 466.744,
+          "text": "inclinations are large (greater than 50\u00b0) so that possible outer sources. UGC 2259 is a very small but regular spiral galaxy",
+          "words": [
+            {
+              "x0": 54.12,
+              "x1": 98.76,
+              "text": "inclinations"
+            },
+            {
+              "x0": 101.64,
+              "x1": 113.76,
+              "text": "are"
+            },
+            {
+              "x0": 116.16,
+              "x1": 135.24,
+              "text": "large"
+            },
+            {
+              "x0": 137.76,
+              "x1": 168.12,
+              "text": "(greater"
+            },
+            {
+              "x0": 170.52,
+              "x1": 187.92,
+              "text": "than"
+            },
+            {
+              "x0": 190.8,
+              "x1": 206.04,
+              "text": "50\u00b0)"
+            },
+            {
+              "x0": 208.8,
+              "x1": 216.96,
+              "text": "so"
+            },
+            {
+              "x0": 219.6,
+              "x1": 234.72,
+              "text": "that"
+            },
+            {
+              "x0": 237.0,
+              "x1": 268.92,
+              "text": "possible"
+            },
+            {
+              "x0": 271.32,
+              "x1": 292.2,
+              "text": "outer"
+            },
+            {
+              "x0": 315.72,
+              "x1": 346.68,
+              "text": "sources."
+            },
+            {
+              "x0": 349.8,
+              "x1": 371.28,
+              "text": "UGC"
+            },
+            {
+              "x0": 374.4,
+              "x1": 394.44,
+              "text": "2259"
+            },
+            {
+              "x0": 397.8,
+              "x1": 403.68,
+              "text": "is"
+            },
+            {
+              "x0": 407.04,
+              "x1": 411.24,
+              "text": "a"
+            },
+            {
+              "x0": 414.12,
+              "x1": 431.04,
+              "text": "very"
+            },
+            {
+              "x0": 434.4,
+              "x1": 454.56,
+              "text": "small"
+            },
+            {
+              "x0": 457.44,
+              "x1": 470.28,
+              "text": "but"
+            },
+            {
+              "x0": 473.4,
+              "x1": 501.0,
+              "text": "regular"
+            },
+            {
+              "x0": 504.24,
+              "x1": 525.6,
+              "text": "spiral"
+            },
+            {
+              "x0": 528.6,
+              "x1": 553.2,
+              "text": "galaxy"
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "y": 612.937,
+          "text": "UGC 2259 SB(s)cd 9.80 (2) 43 1.02 1.33 3.71 7.61 0.34 3,5",
+          "words": [
+            {
+              "x0": 141.48,
+              "x1": 157.08,
+              "text": "UGC"
+            },
+            {
+              "x0": 159.6,
+              "x1": 173.64,
+              "text": "2259"
+            },
+            {
+              "x0": 184.68,
+              "x1": 208.92,
+              "text": "SB(s)cd"
+            },
+            {
+              "x0": 222.36,
+              "x1": 234.84,
+              "text": "9.80"
+            },
+            {
+              "x0": 244.08,
+              "x1": 252.6,
+              "text": "(2)"
+            },
+            {
+              "x0": 267.0,
+              "x1": 273.84,
+              "text": "43"
+            },
+            {
+              "x0": 293.64,
+              "x1": 305.88,
+              "text": "1.02"
+            },
+            {
+              "x0": 320.16,
+              "x1": 332.04,
+              "text": "1.33"
+            },
+            {
+              "x0": 347.16,
+              "x1": 359.04,
+              "text": "3.71"
+            },
+            {
+              "x0": 373.08,
+              "x1": 385.08,
+              "text": "7.61"
+            },
+            {
+              "x0": 396.0,
+              "x1": 408.36,
+              "text": "0.34"
+            },
+            {
+              "x0": 421.44,
+              "x1": 430.08,
+              "text": "3,5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "interpretation_boundary": "These are Be91's own Table-1 references for photometry and 21-cm rotation curves. They identify acquisition sources but do not themselves prove each cited paper exposes radial Sigma_HI numerically.",
+  "boundary": "Native PDF text/geometry only; no OCR, raster digitization, profile extraction, persistence fitting, or blind outcomes."
+}
