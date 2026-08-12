@@ -1,0 +1,49 @@
+name: Ingest Leroy 2008 THINGS HI profiles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/stationary/ingest_leroy2008_things_hi_profiles.py"
+      - ".github/workflows/ingest_leroy2008_things_hi.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and validate public Leroy profiles
+        run: |
+          python scripts/stationary/ingest_leroy2008_things_hi_profiles.py
+
+      - name: Show acquisition summary
+        run: |
+          cat validation/stationary/leroy2008_things_hi_profiles_v1_summary.json
+          wc -l data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv
+
+      - name: Commit generated source product
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv \
+            validation/stationary/leroy2008_things_hi_profiles_v1_summary.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Ingest public Leroy 2008 THINGS HI profiles"
+            git push origin HEAD:main
+          fi
