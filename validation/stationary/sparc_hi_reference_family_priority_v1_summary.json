@@ -3,8 +3,8 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 101,
   "n_reference_families_covering_untouched": 44,
-  "n_actionable_reference_families": 37,
-  "n_deferred_or_redirected_reference_families": 7,
+  "n_actionable_reference_families": 36,
+  "n_deferred_or_redirected_reference_families": 8,
   "top_15_actionable_reference_families": [
     {
       "sparc_ref_id": "Br92",
@@ -119,22 +119,6 @@
       "galaxies": "UGC00128;UGC05005;UGC06614"
     },
     {
-      "sparc_ref_id": "dB96",
-      "n_untouched_frozen_galaxies": 3,
-      "n_calibration": 2,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "de Blok et al.",
-      "bibcode": "1996MNRAS.283...18D",
-      "comment": "",
-      "galaxies": "F565-V2;F571-8;F571-V1"
-    },
-    {
       "sparc_ref_id": "Fr11",
       "n_untouched_frozen_galaxies": 2,
       "n_calibration": 2,
@@ -245,6 +229,22 @@
       "bibcode": "2005A&A...439..947B",
       "comment": "",
       "galaxies": "NGC4559"
+    },
+    {
+      "sparc_ref_id": "Bl04",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 1,
+      "n_blind": 0,
+      "queue_actionable_now": "1",
+      "queue_status": "actionable_unreviewed",
+      "disposition": "",
+      "disposition_artifact": "",
+      "reopen_rule": "",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Blais-Ouellette et al.",
+      "bibcode": "2004A&A...420..147B",
+      "comment": "Cat. J/A+A/420/147",
+      "galaxies": "NGC5985"
     }
   ],
   "deferred_or_redirected_families": [
@@ -359,6 +359,22 @@
       "bibcode": "2009A&A...493..871S",
       "comment": "",
       "galaxies": "UGC00731;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837"
+    },
+    {
+      "sparc_ref_id": "dB96",
+      "n_untouched_frozen_galaxies": 3,
+      "n_calibration": 2,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "partially_resolved",
+      "disposition": "five_of_eight_frozen_targets_recovered_via_public_analytic_republication",
+      "disposition_artifact": "validation/stationary/DB96_JADHAV2019_PROFILE_RECOVERY_V1.md",
+      "reopen_rule": "new_direct_public_profile_map_table_or_republication_for_remaining_three",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "de Blok et al.",
+      "bibcode": "1996MNRAS.283...18D",
+      "comment": "",
+      "galaxies": "F565-V2;F571-8;F571-V1"
     }
   ],
   "interpretation": "Coverage and actionability are separated. Families with no public overlay remain visible, but audited anti-loop dispositions prevent exhausted or redirected source families from reappearing at the head of the live acquisition queue.",

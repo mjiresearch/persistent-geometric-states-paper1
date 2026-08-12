@@ -6,7 +6,6 @@ dB01,5,4,1,1,actionable_unreviewed,,,,1,de Blok et al.,2001AJ....122.2396D,,D631
 dB02,5,3,2,1,actionable_unreviewed,,,,1,de Blok and Bosma,2002A&A...385..816D,Cat. J/A+A/385/816,DDO064;NGC0100;UGC01281;UGC04278;UGC05005
 Be87,4,3,1,1,actionable_unreviewed,,,,1,"Begeman, K.G.",...................,"1987, PhD thesis, University of Groningen",NGC2903;NGC5033;NGC5371;NGC6503
 VH93,3,3,0,1,actionable_unreviewed,,,,1,van der Hulst et al.,1993AJ....106..548V,,UGC00128;UGC05005;UGC06614
-dB96,3,2,1,1,actionable_unreviewed,,,,1,de Blok et al.,1996MNRAS.283...18D,,F565-V2;F571-8;F571-V1
 Fr11,2,2,0,1,actionable_unreviewed,,,,1,Fraternali et al.,2011A&A...531A..64F,,NGC0891;NGC7814
 Ha14,2,2,0,1,actionable_unreviewed,,,,1,Hallenbeck et al.,2014AJ....148...69H,,UGC09037;UGC12506
 Le14,2,2,0,1,actionable_unreviewed,,,,1,Lelli et al.,2014A&A...566A..71L,Cat. J/A+A/566/A71,NGC4068;UGC04483
@@ -43,3 +42,4 @@ Sa96,13,6,7,0,redirected_to_original_sources,downstream_rotation_curve_compilati
 No05,12,10,2,0,defer_until_new_mechanism,direct_profile_atlas_confirmed_public_numeric_route_exhausted,validation/stationary/NO05_NO07_HI_PROFILE_AUDIT_V1.md,new_archive_mirror_map_table_or_republication,1,Noordermeer et al.,2005A&A...442..137N,Cat. J/A+A/442/137,UGC02487;UGC02916;UGC02953;UGC03205;UGC03546;UGC03580;UGC05253;UGC06786;UGC06787;UGC08699;UGC09133;UGC11914
 No07,12,10,2,0,defer_until_new_mechanism,downstream_same_hi_data_as_no05,validation/stationary/NO05_NO07_HI_PROFILE_AUDIT_V1.md,new_independent_profile_asset,1,Noordermeer et al.,2007MNRAS.376.1513N,,UGC02487;UGC02916;UGC02953;UGC03205;UGC03546;UGC03580;UGC05253;UGC06786;UGC06787;UGC08699;UGC09133;UGC11914
 Sw09,9,5,4,0,redirected_to_original_sources,downstream_rotation_curve_analysis_uses_sw02_whisp_hi_observations,validation/stationary/sw02_recovered_figure_block_audit_v1.json,new_independent_profile_asset,1,Swaters et al.,2009A&A...493..871S,,UGC00731;UGC05986;UGC07125;UGC07151;UGC07577;UGC07603;UGC08286;UGC08550;UGC08837
+dB96,3,2,1,0,partially_resolved,five_of_eight_frozen_targets_recovered_via_public_analytic_republication,validation/stationary/DB96_JADHAV2019_PROFILE_RECOVERY_V1.md,new_direct_public_profile_map_table_or_republication_for_remaining_three,1,de Blok et al.,1996MNRAS.283...18D,,F565-V2;F571-8;F571-V1
