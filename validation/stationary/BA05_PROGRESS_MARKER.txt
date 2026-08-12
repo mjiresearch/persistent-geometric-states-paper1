@@ -1,0 +1,1 @@
+Ba05/NGC4559 audit artifacts and workflow committed on 2026-08-12. Next step is to consume workflow output, not recreate setup.
