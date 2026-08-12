@@ -8,8 +8,9 @@ y_values_msun_pc2=[6.0, 4.0, 2.0, 0.0]
 y_fit=8.83834351886+(-0.0610349188728)*y max_resid=0
 marker_dx_median=2.49203491 max_dev=0.00000000
 source_distance_mpc=23.06
-frozen_distance_hits=[]
-ranges={"radius_kpc_source": [0.8297005588034665, 85.45926119443183], "radius_arcsec": [7.4214304319859945, 764.4082615034469], "sigma_hi_msun_pc2": [1.2485205998439106, 6.336975411317015]}
+frozen_distance_mpc=20.8
+frozen_distance_hits=[{"file": "data/stationary/frozen/stationary_master_v1.csv", "field": "distance_mpc", "value": 20.8}]
+ranges={"radius_kpc_source": [0.8297005588034665, 85.45926119443183], "radius_kpc_frozen": [0.7483855864315743, 77.0838088830955], "radius_arcsec": [7.4214304319859945, 764.4082615034469], "sigma_hi_msun_pc2": [1.2485205998439106, 6.336975411317015]}
 quantity=raw_HI helium_included=0
 method=measured_from_non_clipped_ATCA_moment0_map_in_elliptical_annuli; geometry from TiRiFiC inclination/PA
 No OCR or raster digitization.

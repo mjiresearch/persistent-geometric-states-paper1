@@ -10,6 +10,7 @@
     "pdf_sha256": "eb0ca88588f9584054f18be2f53b0a43cb9b0ad91612364e7fb1dac6b077423a",
     "distance_mpc": 23.06
   },
+  "frozen_distance_mpc": 20.8,
   "profile_semantics": {
     "quantity": "deprojected H I column/surface density",
     "helium_included": false,
@@ -103,6 +104,10 @@
       0.8297005588034665,
       85.45926119443183
     ],
+    "radius_kpc_frozen": [
+      0.7483855864315743,
+      77.0838088830955
+    ],
     "radius_arcsec": [
       7.4214304319859945,
       764.4082615034469
@@ -112,7 +117,13 @@
       6.336975411317015
     ]
   },
-  "frozen_distance_hits": [],
+  "frozen_distance_hits": [
+    {
+      "file": "data/stationary/frozen/stationary_master_v1.csv",
+      "field": "distance_mpc",
+      "value": 20.8
+    }
+  ],
   "text_evidence": [
     {
       "phrase": "Panel (b):",
