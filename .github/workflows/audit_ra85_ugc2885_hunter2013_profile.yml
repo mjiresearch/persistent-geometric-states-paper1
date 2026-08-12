@@ -1,0 +1,42 @@
+name: Audit RA85 UGC2885 Hunter 2013 HI profile
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/audit_ra85_ugc2885_hunter2013_profile.py'
+      - '.github/workflows/audit_ra85_ugc2885_hunter2013_profile.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit later direct public UGC2885 H I profile route
+        run: python scripts/stationary/audit_ra85_ugc2885_hunter2013_profile.py
+      - name: Commit audit products race-safe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ra85_ugc2885_hunter2013_public_profile_audit_v1.json validation/stationary/ra85_ugc2885_hunter2013_source_context_v1.txt
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Audit RA85 UGC2885 Hunter 2013 HI profile route'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/stationary/audit_ra85_ugc2885_hunter2013_profile.py
+            git add validation/stationary/ra85_ugc2885_hunter2013_public_profile_audit_v1.json validation/stationary/ra85_ugc2885_hunter2013_source_context_v1.txt
+            git commit -m 'Audit RA85 UGC2885 Hunter 2013 HI profile route' || true
+            sleep 2
+          done
+          exit 1
