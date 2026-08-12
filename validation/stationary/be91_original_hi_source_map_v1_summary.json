@@ -1,36 +1,23 @@
 {
-  "status": "BE91_ORIGINAL_HI_SOURCE_MAP_BUILT",
+  "status": "BE91_SOURCE_MAP_V1_SUPERSEDED_BY_V2",
   "source": "Begeman, Broeils & Sanders 1991 MNRAS 249 523-537",
-  "n_targets": 5,
-  "n_mapped": 5,
-  "targets": [
-    {
-      "galaxy": "DDO170",
-      "original_hi_source": "Lake, Schommer & van Gorkom 1990"
-    },
-    {
-      "galaxy": "NGC2903",
-      "original_hi_source": "Begeman 1987 PhD thesis"
-    },
-    {
-      "galaxy": "NGC3109",
-      "original_hi_source": "Jobin & Carignan 1990"
-    },
-    {
-      "galaxy": "NGC6503",
-      "original_hi_source": "Begeman 1987 PhD thesis"
-    },
-    {
-      "galaxy": "UGC02259",
-      "original_hi_source": "Carignan, Sancisi & van Albada 1988"
-    }
-  ],
-  "next_high_yield_original_source": "Begeman 1987 PhD thesis",
-  "begeman1987_targets": [
-    "NGC2903",
-    "NGC5033",
-    "NGC5371",
-    "NGC6503"
-  ],
-  "boundary": "Provenance mapping only; each original source must still pass radial H I public-recoverability and QC gates before ingestion."
+  "canonical_map": "data/stationary/source_reconstruction/be91_original_hi_source_map_v2.csv",
+  "reason": "The first prose-based pass over-assigned NGC2903 and NGC6503 to the broader Begeman (1987) WSRT subset. The stronger native Table 1 reference-code audit controls: both rows end in reference code 7, and Be91 Note 4 defines code 7 as Wevers, van der Kruit & Allen (1986) for photometry and the 21-cm rotation curve.",
+  "table1_reference_legend": {
+    "1": "Begeman (1987)",
+    "2": "Broeils (1990)",
+    "3": "Carignan, Sancisi & van Albada (1988)",
+    "4": "Carignan & Beaulieu (1989)",
+    "5": "Kent (1987)",
+    "6": "Lake, Schommer & van Gorkom (1990)",
+    "7": "Wevers, van der Kruit & Allen (1986)"
+  },
+  "corrected_targets": {
+    "DDO170": "Lake, Schommer & van Gorkom (1990)",
+    "NGC2903": "Wevers, van der Kruit & Allen (1986)",
+    "NGC3109": "Jobin & Carignan (1990)",
+    "NGC6503": "Wevers, van der Kruit & Allen (1986)",
+    "UGC02259": "Carignan, Sancisi & van Albada (1988)"
+  },
+  "boundary": "Provenance correction only; no radial H I values or persistence outcomes are used."
 }
