@@ -1,0 +1,53 @@
+{
+  "status": "HOEKSTRA2001_HI_AXIS_MAJOR_GLYPHS_COMPLETE",
+  "frame_x_positions": [
+    105.36100006103516,
+    199.94400024414062,
+    294.7430114746094,
+    389.5419921875,
+    484.125
+  ],
+  "right_outer_axis_x": 484.125,
+  "major_ticks": [
+    {
+      "y": 469.8979797363281,
+      "crop_page": [
+        485.125,
+        464.69797973632814,
+        509.125,
+        475.0979797363281
+      ],
+      "trimmed_pixels": [
+        38,
+        90
+      ]
+    },
+    {
+      "y": 495.2209777832031,
+      "crop_page": [
+        485.125,
+        490.02097778320314,
+        509.125,
+        500.4209777832031
+      ],
+      "trimmed_pixels": [
+        63,
+        91
+      ]
+    },
+    {
+      "y": 520.3280029296875,
+      "crop_page": [
+        485.125,
+        515.1280029296875,
+        509.125,
+        525.5280029296875
+      ],
+      "trimmed_pixels": [
+        142,
+        90
+      ]
+    }
+  ],
+  "boundary": "Printed axis-label glyph QC only; no scientific curve raster digitization."
+}
