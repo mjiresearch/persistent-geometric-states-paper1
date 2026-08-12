@@ -1,0 +1,43 @@
+name: Extract SA87 NGC5907 Figure 29 colored geometry
+
+on:
+  push:
+    paths:
+      - 'scripts/stationary/extract_sa87_ngc5907_fig29_colored_geometry.py'
+      - '.github/workflows/extract_sa87_ngc5907_fig29_colored_geometry.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --quiet pymupdf
+      - name: Extract colored native geometry
+        run: python scripts/stationary/extract_sa87_ngc5907_fig29_colored_geometry.py
+      - name: Commit geometry race-safe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/sa87_ngc5907_fig29_colored_geometry_v1.json validation/stationary/sa87_ngc5907_fig29_colored_geometry_v1.txt
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Extract NGC5907 Figure 29 colored vector geometry'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/stationary/extract_sa87_ngc5907_fig29_colored_geometry.py
+            git add validation/stationary/sa87_ngc5907_fig29_colored_geometry_v1.json validation/stationary/sa87_ngc5907_fig29_colored_geometry_v1.txt
+            git commit -m 'Extract NGC5907 Figure 29 colored vector geometry' || true
+            sleep 2
+          done
+          exit 1
