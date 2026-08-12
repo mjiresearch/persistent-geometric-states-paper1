@@ -1,0 +1,45 @@
+name: Disposition dB97 redirect and rerank
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/disposition_db97_redirect_to_db96.py'
+      - '.github/workflows/disposition_db97_and_rerank.yml'
+permissions:
+  contents: write
+jobs:
+  disposition:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/disposition_db97_redirect_to_db96.py
+      - run: python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+      - run: python scripts/stationary/rank_sparc_hi_reference_families.py
+      - name: Append reranked resume point
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('validation/stationary/sparc_hi_reference_family_priority_v1_summary.json').read_text())
+          top=s.get('top_15_actionable_reference_families',[]);first=top[0] if top else None
+          q=Path('validation/stationary/CHECKPOINT_AFTER_DB97_REDIRECT.md');t=q.read_text();t+='\n## Reranked live queue\n'
+          if first:t+=f"Next actionable family: **{first['sparc_ref_id']}** — {first['n_untouched_frozen_galaxies']} untouched frozen galaxies ({first['n_calibration']} calibration, {first['n_blind']} blind). Galaxies: {first['galaxies']}.\n"
+          else:t+='No actionable family remains.\n'
+          t+=f"\nUntouched frozen galaxies remaining: {s.get('n_untouched_no_public_overlay')}.\n"
+          q.write_text(t);print(json.dumps({'next':first,'untouched':s.get('n_untouched_no_public_overlay')},indent=2))
+          PY
+      - name: Commit dB97 disposition and queue checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv validation/stationary/sparc_hi_reference_family_priority_v1_summary.json validation/stationary/CHECKPOINT_AFTER_DB97_REDIRECT.md
+          if git diff --cached --quiet; then echo 'No generated changes'; else
+            git commit -m 'Redirect dB97 to existing dB96 source state'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
