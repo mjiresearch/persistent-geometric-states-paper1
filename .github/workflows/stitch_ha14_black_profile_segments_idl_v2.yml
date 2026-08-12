@@ -1,0 +1,30 @@
+name: Stitch Ha14 black profile segments IDL v2
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/stitch_ha14_black_profile_segments_idl_v2.py'
+      - '.github/workflows/stitch_ha14_black_profile_segments_idl_v2.yml'
+permissions:
+  contents: write
+jobs:
+  stitch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/stitch_ha14_black_profile_segments_idl_v2.py
+      - name: Commit corrected stitch
+        run: |
+          git config user.name 'github-actions[bot]]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ha14_black_segment_components_idl_v2.json
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Correct Ha14 IDL geometry with relative moves'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
