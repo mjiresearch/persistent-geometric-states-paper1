@@ -1,0 +1,30 @@
+name: Inventory Ge04 fig2 native vector
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/inventory_ge04_fig2_native_vector.py'
+      - '.github/workflows/inventory_ge04_fig2_native_vector.yml'
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/inventory_ge04_fig2_native_vector.py
+      - name: Commit native-vector inventory checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/ge04_fig2_native_vector_inventory_v1.json validation/stationary/ge04_fig2_native_vector_context_v1.txt
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'Inventory Ge04 fig2 native vector structure'
+            for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+            exit 1
+          fi
