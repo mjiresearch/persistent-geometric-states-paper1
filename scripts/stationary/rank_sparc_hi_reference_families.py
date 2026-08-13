@@ -30,7 +30,7 @@ def main():
  rows=[]
  for rid,z in groups.items():
   d=dict(disp.get(rid,{}))
-  if rid=='Ke07' and not d and wlm_audit and wlm_audit.get('status','').startswith('LGLBS2026_WLM'):
+  if rid=='Ke07' and wlm_audit and wlm_audit.get('status','').startswith('LGLBS2026_WLM'):
    d={'queue_status':'public_machine_readable_profile_identified_ingestion_pending','disposition':'WLM_2026_LGLBS_public_radial_profile_release_identified_file_level_ingestion_pending','validation_artifact':str(WLM_AUDIT),'reopen_rule':'resume_exact_WLM_table_ingestion_from_CANFAR_release; use ordinary_azimuthal_profile_not_mass_weighted_profile'}
   qs=d.get('queue_status','') or 'actionable_unreviewed';act='1' if qs=='actionable_unreviewed' else '0'
   rows.append({'sparc_ref_id':rid,'n_untouched_frozen_galaxies':len(z['galaxies']),'n_calibration':len(z['calibration']),'n_blind':len(z['blind']),'queue_actionable_now':act,'queue_status':qs,'disposition':d.get('disposition',''),'disposition_artifact':d.get('validation_artifact',''),'reopen_rule':d.get('reopen_rule',''),'reference_resolved_in_cds_refs':'1' if z['resolved']=={'1'} else '0','author':' | '.join(sorted(z['authors'])),'bibcode':' | '.join(sorted(z['bibcodes'])),'comment':' | '.join(sorted(z['comments'])),'galaxies':';'.join(sorted(z['galaxies']))})
