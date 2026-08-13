@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# WLM public-profile audit is persisted before queue evaluation.
 from __future__ import annotations
 import csv,json
 from collections import defaultdict
