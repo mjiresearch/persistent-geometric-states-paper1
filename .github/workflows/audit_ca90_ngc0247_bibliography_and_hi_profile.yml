@@ -1,15 +1,14 @@
-name: Audit stationary H I source packages
+name: Promote Ch06 NGC24 H I profile
 on:
   push:
     paths:
-      - 'scripts/stationary/audit_ch06_ngc24_source.py'
-      - 'scripts/stationary/inspect_ch06_f11_idl.py'
+      - 'scripts/stationary/integrate_ch06_ngc0024_profile.py'
       - '.github/workflows/audit_ca90_ngc0247_bibliography_and_hi_profile.yml'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
-  audit:
+  promote:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,16 +17,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Inspect Ch06 profile source
+      - name: Promote and rerank
         run: |
-          python scripts/stationary/audit_ch06_ngc24_source.py
-          python scripts/stationary/inspect_ch06_f11_idl.py
-      - name: Commit audit
+          python scripts/stationary/integrate_ch06_ngc0024_profile.py
+          python scripts/stationary/reconcile_public_hi_source_overlay_v1.py
+          python scripts/stationary/rank_sparc_hi_reference_families.py
+          python scripts/stationary/update_project_ledger_hi_checkpoint.py
+      - name: Commit generated state
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add validation/stationary/ch06_ngc24_source_audit_v1.json validation/stationary/ch06_ngc24_source_audit_v1.txt validation/stationary/ch06_f11_idl_structure_v1.json
+          git add data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv data/stationary/source_reconstruction/sparc_hi_reference_family_priority_v1.csv validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json validation/stationary/sparc_hi_reference_family_priority_v1_summary.json validation/stationary/CHECKPOINT_AFTER_CH06_NGC0024_PROMOTION.md PROJECT_LEDGER.md
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Inspect Ch06 NGC24 vector profile source'
+          git commit -m 'Promote Ch06 NGC24 H I profile and rerank'
           git pull --rebase origin main
           git push origin HEAD:main
