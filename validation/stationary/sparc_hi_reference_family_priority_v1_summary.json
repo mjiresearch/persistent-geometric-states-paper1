@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 88,
   "n_reference_families_covering_untouched": 35,
-  "n_actionable_reference_families": 4,
-  "n_deferred_or_redirected_reference_families": 31,
+  "n_actionable_reference_families": 3,
+  "n_deferred_or_redirected_reference_families": 32,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "La90",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 0,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Lake et al.",
-      "bibcode": "1990AJ.....99..547L",
-      "comment": "",
-      "galaxies": "DDO170"
-    },
     {
       "sparc_ref_id": "Pu91",
       "n_untouched_frozen_galaxies": 1,
@@ -567,6 +551,22 @@
       "bibcode": "2007AJ....133.2242K",
       "comment": "",
       "galaxies": "UGCA444"
+    },
+    {
+      "sparc_ref_id": "La90",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "redirect_existing_source_family",
+      "disposition": "same_original_DDO170_Lake1990_HI_source_already_exhaustively_audited_through_Be91_branch",
+      "disposition_artifact": "validation/stationary/BE91_ORIGINAL_SOURCE_PROFILE_DISPOSITION_V1.md",
+      "reopen_rule": "reopen_only_for_genuinely_new_machine_readable_radial_HI_table_public_calibrated_map_cube_exact_vector_republication_or_fully_normalized_analytic_profile",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Lake et al.",
+      "bibcode": "1990AJ.....99..547L",
+      "comment": "",
+      "galaxies": "DDO170"
     }
   ],
   "live_family_public_route_probe": {
