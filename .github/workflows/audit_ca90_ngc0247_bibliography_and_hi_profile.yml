@@ -2,8 +2,8 @@ name: Audit stationary H I source packages
 on:
   push:
     paths:
-      - 'scripts/stationary/audit_ca90_ngc0247_bibliography_and_hi_profile.py'
       - 'scripts/stationary/audit_ch06_ngc24_source.py'
+      - 'scripts/stationary/inspect_ch06_f11_idl.py'
       - '.github/workflows/audit_ca90_ngc0247_bibliography_and_hi_profile.yml'
   workflow_dispatch:
 permissions:
@@ -18,14 +18,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Audit Ch06 NGC24 public source
-        run: python scripts/stationary/audit_ch06_ngc24_source.py
+      - name: Inspect Ch06 profile source
+        run: |
+          python scripts/stationary/audit_ch06_ngc24_source.py
+          python scripts/stationary/inspect_ch06_f11_idl.py
       - name: Commit audit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add validation/stationary/ch06_ngc24_source_audit_v1.json validation/stationary/ch06_ngc24_source_audit_v1.txt
+          git add validation/stationary/ch06_ngc24_source_audit_v1.json validation/stationary/ch06_ngc24_source_audit_v1.txt validation/stationary/ch06_f11_idl_structure_v1.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Audit Ch06 NGC24 source profile'
+          git commit -m 'Inspect Ch06 NGC24 vector profile source'
           git pull --rebase origin main
           git push origin HEAD:main
