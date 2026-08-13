@@ -1,0 +1,36 @@
+{
+  "status": "LGLBS2026_WLM_DATA_ROUTE_AUDITED",
+  "galaxy": "UGCA444",
+  "alias": "WLM",
+  "stationary_role": "blind",
+  "sparc_ref_id": "Ke07",
+  "source": {
+    "paper": "Eibensteiner et al. 2026, Local Group L-band Survey I: Atlas and Radial Profiles of Local Group Galaxies",
+    "arxiv": "2607.21841",
+    "data_doi": "10.11570/26.0020",
+    "canfar_landing": "https://www.canfar.net/citation/landing?doi=26.0020",
+    "canfar_data_directory": "https://www.canfar.net/storage/list/AstroDataCitationDOI/CISTI.CANFAR/26.0020/data",
+    "tables_directory_identified": true
+  },
+  "profile_semantics": {
+    "ordinary_azimuthal_radial_profile_publicly_released": true,
+    "separate_mass_weighted_120pc_profile_exists": true,
+    "paper_i_required_series": "ordinary azimuthal radial atomic-gas surface-density profile",
+    "published_sigma_atom_includes_factor_1_35_for_helium_and_heavy_elements": true,
+    "raw_hi_conversion": "Sigma_HI = Sigma_atom / 1.35",
+    "source_distance_mpc": 0.984,
+    "inclination_deg": 74,
+    "position_angle_deg": 174
+  },
+  "recoverability": {
+    "doi_resolves": true,
+    "public_data_directory_resolves": true,
+    "dedicated_tables_directory_identified": true,
+    "exact_wlm_table_rows_ingested": false,
+    "certified_stationary_profile": false,
+    "reason_pending": "Current acquisition tooling has not yet enumerated the file-level WLM table from the dynamic CANFAR tables directory."
+  },
+  "disposition": "PUBLIC_MACHINE_READABLE_PROFILE_IDENTIFIED_INGESTION_PENDING",
+  "reopen_rule": "Resume exact WLM table ingestion when the CANFAR tables directory can be enumerated at file level or an equivalent exact release table is accessible. Do not substitute the mass-weighted 120-pc profile for the ordinary azimuthal profile.",
+  "boundary": "Public-source acquisition only. No persistence fitting, blind-outcome inspection, or parameter tuning. L_A and C_A remain locked."
+}
