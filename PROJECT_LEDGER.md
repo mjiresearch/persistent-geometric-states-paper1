@@ -19,13 +19,13 @@
 - Preferred recovered-source breakdown: **23 machine-readable raw/source profiles + 7 analytic profiles**. An additional **20 WHISP vector-profile candidates** remain candidate-level rather than final frozen source profiles.
 - Lelli et al. (2016) SPARC provenance has been converted into a per-galaxy H I/Halpha source map for **all 149 frozen galaxies**. The current acquisition queue is therefore source-directed rather than a blind literature search.
 - Lelli's `Ref` field identifies the underlying observational/source publication, but it does **not** by itself prove that the cited paper contains a direct machine-readable radial `Sigma_HI(R)` profile; each family is classified separately as direct profile, map/cube, downstream analysis, or unresolved.
-- Current untouched pool after public-source overlay: **89 galaxies** across **37 reference families**; **8** are currently actionable before applying newly landed dispositions.
+- Current untouched pool after public-source overlay: **89 galaxies** across **37 reference families**; **7** are currently actionable before applying newly landed dispositions.
 - Durable anti-loop dispositions: `VS01` → defer_until_new_mechanism / public_direct_profile_confirmed_numeric_route_exhausted; `SV98` → defer_until_new_mechanism / same_ursa_major_chain_covered_by_vs01_audit; `Sw02` → defer_until_new_mechanism / full_public_atlas_recovered_but_target_figures_raster_dominant; `Sw09` → redirected_to_original_sources / downstream_rotation_curve_analysis_uses_sw02_whisp_hi_observations; `Sa96` → redirected_to_original_sources / downstream_rotation_curve_compilation_mapped_to_original_observing_sources; `No05` → defer_until_new_mechanism / direct_profile_atlas_confirmed_public_numeric_route_exhausted; `No07` → defer_until_new_mechanism / downstream_same_hi_data_as_no05.
 - `dB96` is **partially resolved**: public analytic atomic-H I profiles are recovered for F568-3, F568-V1, F574-1, F583-1 and F583-4; only F565-V2, F571-8 and F571-V1 remain pending.
 - `Sa96` has been decomposed into its original observing citations; do not treat Sanders 1996 itself as an H I profile source again.
 - **Do not retry** a dispositioned source mechanism unless the file's explicit `reopen_rule` is satisfied by a genuinely new public mechanism.
 
-**Current resume point:** **Ca90 — Carignan and Puche**: 1 untouched frozen galaxies (0 calibration + 1 blind): NGC0247.
+**Current resume point:** **Ch06 — Chemin et al.**: 1 untouched frozen galaxies (0 calibration + 1 blind): NGC0024.
 
 <!-- AUTO-STATIONARY-HI-CHECKPOINT-END -->
 

@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 89,
   "n_reference_families_covering_untouched": 37,
-  "n_actionable_reference_families": 8,
-  "n_deferred_or_redirected_reference_families": 29,
+  "n_actionable_reference_families": 7,
+  "n_deferred_or_redirected_reference_families": 30,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Ca90",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 0,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Carignan and Puche",
-      "bibcode": "1990AJ....100..394C",
-      "comment": "",
-      "galaxies": "NGC0247"
-    },
     {
       "sparc_ref_id": "Ch06",
       "n_untouched_frozen_galaxies": 1,
@@ -583,6 +567,22 @@
       "bibcode": "1999AJ....118.2123B",
       "comment": "",
       "galaxies": "NGC5585"
+    },
+    {
+      "sparc_ref_id": "Ca90",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "deferred_exact_profile_route_exhausted",
+      "disposition": "NGC0247_direct_CP90b_Fig4_raw_HI_profile_scan_only_LVHIS_published_FITS_route_currently_unrecoverable_VLA_ANGST_incomplete",
+      "disposition_artifact": "validation/stationary/ca90_ngc0247_bibliography_hi_profile_audit_v1.json",
+      "reopen_rule": "reopen_for_machine_readable_CP90b_profile_or_recoverable_LVHIS_science_ready_FITS_or_other_complete_public_HI_map_product_under_frozen_reconstruction_protocol",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Carignan and Puche",
+      "bibcode": "1990AJ....100..394C",
+      "comment": "",
+      "galaxies": "NGC0247"
     },
     {
       "sparc_ref_id": "Co91",
