@@ -1,7 +1,6 @@
 {
   "status": "CA90_NGC0247_BIBLIOGRAPHY_HI_PROFILE_AUDIT_COMPLETE",
   "galaxy": "NGC0247",
-  "stationary_role": "blind",
   "sparc_ref_id": "Ca90",
   "frozen_mapping": {
     "galaxy": "NGC0247",
@@ -306,14 +305,6 @@
           "context": "ribution is bound to vary with time due to the different pro- cesses going on in the interstellar medium (H I transformed into H2, star formation, mass loss, supernovae, etc. ). On the other hand, the fact that the stellar surface-density distribu- tion is more concentrated than either the H i or the dark matter is not surprising since it is well known that, in order to have formation of molecular clouds and subsequent star formation, the surface density of the gas needs to be above a certain threshold (\u00abHl~1021 cm 2) which usually corre- sponds to HO (Skillman 1987). We would like to thank J. van Gorkom for her assistance with the VLA observations and for many valuable sugges- tions made on the first draft of this paper. We are also grate- ful to J. E. Samuel and J. Recasens for the preparation of the figures. We thank K. Begeman and S. Cot\u00e9 for making avail- able the tilted-ring model"
         },
         {
-          "pattern": "surface-density",
-          "context": "compared to { /L B ) global ) ~ 8 for the other members of the group. The noncircular motions, seen on the north side, might suggest past interactions maybe with some of the other members of the group. Such encounters could have stripped part of its halo and could explain its different properties. This will be investigated more closely in the last paper of this series. Finally, NGC 7793 is another example which shows that the dark matter surface-density distribution is closely relat- ed to the H i gas distribution. This property is not particular to a certain type of galaxy. It has already been seen in many galaxies (Bosma 1978) from giant spirals like NGC 6946 \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1990AJ 100. . 3 94C 402 C. CARIGNAN AND D. PUCHE: H i IN NGC 7793 402 Fig. 12. Model for NGC 7793 where the H I surface densities have been mult"
-        },
-        {
-          "pattern": "surface-density",
-          "context": "989 ). It is unclear why such a rela- tion should exist between the dark matter distribution and the H I distribution. Even if, at some epoch, dark matter and H i may have been coextensive, the H I surface density dis- tribution is bound to vary with time due to the different pro- cesses going on in the interstellar medium (H I transformed into H2, star formation, mass loss, supernovae, etc. ). On the other hand, the fact that the stellar surface-density distribu- tion is more concentrated than either the H i or the dark matter is not surprising since it is well known that, in order to have formation of molecular clouds and subsequent star formation, the surface density of the gas needs to be above a certain threshold (\u00abHl~1021 cm 2) which usually corre- sponds to HO (Skillman 1987). We would like to thank J. van Gorkom for her assistance with the VLA observations and for many valuable s"
-        },
-        {
           "pattern": "radial distribution",
           "context": "ness levels oifiB =25 and 26.6 mag arcsec-2) at a level of 5.0X 10 19 cm-2. The warp, seen in the channel maps, is also apparent in the last contour. Integrating this map, a flux density of 251 + 25 Jy km s_ 1 is derived. This can be compared to 280 + 10 Jy km s-1 de- rived from the Parkes observation. At the assumed distance 396 of 3.38 Mpc, the integrated profile translates into an H i mass of 6.8 \u00b1 0.7 X 108 and an ^Hl/LB = 0.22. The radial distribution of the H i gas is shown in Fig. 4(a). Most of the gas ( ~ 85% ) is located within the optical radius. It can be seen [Fig. 4(b) ] that for r>3 kpc, the profile is well represented by a Gaussian distribution aHl ex exp ( \u2014 R2/ lh2) with an observed scale length h ~ 3.0 kpc. The fact that the H i distribution can be well approximated by a Gaussian is not particular to NGC 7793 but is also seen in other low mass systems (e.g., DDO 170: Lake,"
         },
@@ -336,10 +327,6 @@
         {
           "pattern": "H I distribution",
           "context": "ociety \u2022 Provided by the NASA Astrophysics Data System 1990AJ 100. . 3 94C 402 C. CARIGNAN AND D. PUCHE: H i IN NGC 7793 402 Fig. 12. Model for NGC 7793 where the H I surface densities have been multi- plied by 4.6. For the stellar disk, {J\u00bf/Lb). =2.4. (Carignan et al. 1990) to dwarf irregulars like DDO 154 ( Carignan and Beaulieu 1989 ). It is unclear why such a rela- tion should exist between the dark matter distribution and the H I distribution. Even if, at some epoch, dark matter and H i may have been coextensive, the H I surface density dis- tribution is bound to vary with time due to the different pro- cesses going on in the interstellar medium (H I transformed into H2, star formation, mass loss, supernovae, etc. ). On the other hand, the fact that the stellar surface-density distribu- tion is more concentrated than either the H i or the dark matter is not surprising since it"
-        },
-        {
-          "pattern": "gas distribution",
-          "context": "e group. The noncircular motions, seen on the north side, might suggest past interactions maybe with some of the other members of the group. Such encounters could have stripped part of its halo and could explain its different properties. This will be investigated more closely in the last paper of this series. Finally, NGC 7793 is another example which shows that the dark matter surface-density distribution is closely relat- ed to the H i gas distribution. This property is not particular to a certain type of galaxy. It has already been seen in many galaxies (Bosma 1978) from giant spirals like NGC 6946 \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1990AJ 100. . 3 94C 402 C. CARIGNAN AND D. PUCHE: H i IN NGC 7793 402 Fig. 12. Model for NGC 7793 where the H I surface densities have been multi- plied by 4.6. For the stellar disk, {J\u00bf/Lb). =2.4. (Carig"
         },
         {
           "pattern": "4/3",
@@ -396,42 +383,6 @@
         {
           "pattern": "Fig. 4",
           "context": "RIBUTION The models used to study the mass distribution are de- scribed in Carignan (1985b) and Carignan and Freeman (1985). To calculate the mass contribution of the stellar disk, the 2? luminosity profile (Carignan 1985a) is used with the assumption of constant {^/LB ) *. A finite intrinsic axis ratio of q0 = c/a = 0.12 (Bottinelli et al. 1983) is assumed for the stellar disk. For the H I component, we take the H I surface densities of Fig. 4 multiplied by 4/3 to correct for He. It is assumed that the H I layer is infinitely thin. For the dark halo component, an isothermal sphere model is used. This component has two parameters: the core radius rcand the one-dimensional velocity dispersion a. The central density is then given by p0 = Vc^/AirGr^. In the fitting procedure, all the points of the rotation curve will be given equal weights. a) The \u201cNo Dark Matter\u201d models Kalnajs ("
-        },
-        {
-          "pattern": "Fig. 5",
-          "context": "Hl ex exp ( \u2014 R2/ lh2) with an observed scale length h ~ 3.0 kpc. The fact that the H i distribution can be well approximated by a Gaussian is not particular to NGC 7793 but is also seen in other low mass systems (e.g., DDO 170: Lake, Schommer, and van Gorkom 1990; DDO 155: Carignan, Beaulieu, and Freeman 1990). IV. VELOCITY FIELD ANALYSIS The velocity field of NGC 7793, obtained from a moment analysis of the 45 \" data cube, is shown in Fig. 5 [ Plate 39 ]. It is fairly regular and symmetrical apart from obvious devia- tions along the minor axis on the north side. Such deviations were already noticed in the optical Fabry-P\u00e9rot data (Da- voust and de Vaucouleurs 1980). The closing contours ( 150 and 300 km s_ 1 ) are clearly seen on both sides of the galaxy. In order to derive the rotation curve, we must find the set of orientation parameters [rotation center (^\u00bb^o )> systemic"
-        },
-        {
-          "pattern": "Fig. 5",
-          "context": "d in Fig. 7. Since / and P.A. are tightly coupled, errors on one parameter propagate to the other. The result of fixing i is to show much more clearly the change of P.A. while the mean difference in Vrot is only ~3 km s-1 when compared to the rotation curve where i is allowed to vary. _ o Approaching Receding Both sides I 100 4 6 Radius (arcmin) 4 6 Radius (arcmin) NGC 7793 . (c) Fig. 6. Tilted-ring model for the velocity field of Fig. 5 where the dynami- cal center (x:(), yQ ) and the systemic velocity Fsys, are kept fixed, while / (a), P.A. (b) and Fmt (c) are allowed to vary. The solution is given for both sides and separately for the approaching and the receding sides. The errors on Frot, given in Table III, correspond to the largest difference between the rotation curve found for the whole galaxy and the rotation curves derived separately for each side (approaching a"
-        },
-        {
-          "pattern": "Fig. 5",
-          "context": "owever, be- aOptical velocities corrected to z = 47\u00b0 (Davoust and de Vaucouleurs 1980). 4 6 8 Radius (arcmin) Fig. 8. Comparison of the adopted H I rotation curve with the optical FP data at 5\" (a) and 20\" (b) resolutions. \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System U ^r 1 oo o o h) C o 399 C. CARIGNAN AND D. PUCHE: H i IN NGC 7793 cause of the small velocity gradient across one beamwidth (see Fig. 5), asymmetries in the velocity profiles are expect- ed to be small. A last point worth investigating is whether the rotation curve is really declining (even after allowing for the presence of the warp by the tilted-ring model) or if a flat rotation curve is still allowed by the data. To check this, we obtained another least-squares solution where, this time, we kept Frot constant for r>4' and let only / and P.A. free to vary. It can be se"
-        },
-        {
-          "pattern": "Fig. 5",
-          "context": "44.1\" X 33.1 \" ) to a circular Gaussian beam of 45\" X45\" (see bottom left). The contours are0.5, 1.0, 2.0,4.0, 6.0, 8.0, 10.0, 12.0, 14.0, 16.0, 18.0X 1020 cm-2. The map was corrected for primary beam (HPBW~32') attenuation. C. Carnigan and D. Puche (see page 396) \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 595 Declination ( 1950 ) PLATE 39 u oo o o 23 56 00 23 55 30 23 55 00 23 54 30 R. A (1950) Fig. 5. Isovelocity contours for NGC 7793, superimposed on the optical photograph using the 45\" resolution data. The contour interval is 15 km s 1 from 150 to 300 km s_ 1 heliocentric radial velocities. C. Carnigan and D. Puche (see page 396) 596 \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System"
-        },
-        {
-          "pattern": "Fig. 6",
-          "context": "the optical center and that Fsys = 227 + 3 km s- ^ in agreement, within the errors, with the global profile. The next step is to obtain a least-squares solution for /, P. A., and Vrot in concentric annuli in the plane of the galaxy. In order to see if the solution found is a good representation of the whole galaxy, separate solutions are also obtained for only the approaching and the receding sides. The three solu- tions are compared in Fig. 6. It can be seen that for ^>5' the warp, seen in the channel maps and the total H I map, is clearly visible with P.A. increasing from \u2014290\u00b0 to \u2014 300\u00b0 at the last point. Because the tilted ring model cannot fit the inclination as accurately for galaxies with /<45\u00b0, and because no systematic trend can be seen with radius, a mean / = 47\u00b0 + 4\u00b0 will be used. The adopted rotation curve (/ = 47\u00b0) is given in Table III and illustrated in Fig. 7."
-        },
-        {
-          "pattern": "Fig. 6",
-          "context": "urve (/ = 47\u00b0) is given in Table III and illustrated in Fig. 7. Since / and P.A. are tightly coupled, errors on one parameter propagate to the other. The result of fixing i is to show much more clearly the change of P.A. while the mean difference in Vrot is only ~3 km s-1 when compared to the rotation curve where i is allowed to vary. _ o Approaching Receding Both sides I 100 4 6 Radius (arcmin) 4 6 Radius (arcmin) NGC 7793 . (c) Fig. 6. Tilted-ring model for the velocity field of Fig. 5 where the dynami- cal center (x:(), yQ ) and the systemic velocity Fsys, are kept fixed, while / (a), P.A. (b) and Fmt (c) are allowed to vary. The solution is given for both sides and separately for the approaching and the receding sides. The errors on Frot, given in Table III, correspond to the largest difference between the rotation curve found for the whole galaxy and the rotation cur"
-        },
-        {
-          "pattern": "Fig. 7",
-          "context": "n Fig. 6. It can be seen that for ^>5' the warp, seen in the channel maps and the total H I map, is clearly visible with P.A. increasing from \u2014290\u00b0 to \u2014 300\u00b0 at the last point. Because the tilted ring model cannot fit the inclination as accurately for galaxies with /<45\u00b0, and because no systematic trend can be seen with radius, a mean / = 47\u00b0 + 4\u00b0 will be used. The adopted rotation curve (/ = 47\u00b0) is given in Table III and illustrated in Fig. 7. Since / and P.A. are tightly coupled, errors on one parameter propagate to the other. The result of fixing i is to show much more clearly the change of P.A. while the mean difference in Vrot is only ~3 km s-1 when compared to the rotation curve where i is allowed to vary. _ o Approaching Receding Both sides I 100 4 6 Radius (arcmin) 4 6 Radius (arcmin) NGC 7793 . (c) Fig. 6. Tilted-ring model for the velocity field of Fig. 5 wher"
-        },
-        {
-          "pattern": "Fig. 7",
-          "context": "largest difference between the rotation curve found for the whole galaxy and the rotation curves derived separately for each side (approaching and receding). We think that this is a better estimate of the uncertainties on Frot than the smaller \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1990AJ 100. . 3 94C 398 C. CARIGNAN AND D. PUCHE: H i IN NGC 7793 398 1? \u00a3* loo - 200 300 400 Radius (arcsec) Fig. 7. Adopted tilted-ring model where /' is kept fixed (see text) while P.A. (a) and Vrot (b) are allowed to vary. Table III. Adopted rotation curve for NGC 7793. radius (arcsec) radius (kpc) y r rot (km s~\u2018) f;oi (km s~') 12.8a 30.4a 50.0 a 60 90 120 150 180 210 240 270 300 330 360 390 420 450 0.21 0.50 0.82 0.98 1.47 1.97 2.46 2.95 3.44 3.93 4.42 4.92 5.41 5.90 6.39 6.88 7.37 31.3 + 50.1 + 55.7 + 59."
-        },
-        {
-          "pattern": "Fig. 7",
-          "context": "y way the rotation curve could stay flat is by a change from / = 47\u00b0 at 4' to i~32\u00b0 at IS. Such a small inclination in the outer parts is very unlikely since the outer optical isophotes give /--47o at \u2014 6.5' and the outer H i iso- photes of Fig. 3 imply /~480. Moreover, when subtracting a model velocity field from the observed one using the solution of Fig. 9, we find residuals which are twice as large as those found using the solution of Fig. 7. So clearly, Vrot cannot be constant for r> 3'. V. MASS DISTRIBUTION The models used to study the mass distribution are de- scribed in Carignan (1985b) and Carignan and Freeman (1985). To calculate the mass contribution of the stellar disk, the 2? luminosity profile (Carignan 1985a) is used with the assumption of constant {^/LB ) *. A finite intrinsic axis ratio of q0 = c/a = 0.12 (Bottinelli et al. 1983) is assumed for the stellar disk"
         },
         {
           "pattern": "Fig. 8",
@@ -656,40 +607,8 @@
           "context": "n- sity is then given by p{) = 9cr/47rGrl. a) The One-Component (Luminous) Model The first step in the study of the mass distribution is to see what is the maximum (^/LB ) * value allowed by the rising part of the rotation curve, using only the luminous ( stars and gas) component. Figure 8(a) shows such a model computed with {^//Lb ) * = 4.5. It can be seen that the luminous com- ponent represents well the observed velocities out to r~5 Fig. 4. H i radial distribution ob- tained by averaging the surface densities of the total H i map in circular annuli in the plane of the galaxy. The parameters used for the deprojection are P.A. = 170\u00b0 and / = 74\u00b0. \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System Inclination (degrees) Position angle (degrees) u \\\u2014I KO o o o O'! 645 C. CARIGNAN AND D. PUCHE: H i IN NGC 247 645 175 170 165 160 _ I I I"
         },
         {
-          "pattern": "Fig. 5",
-          "context": "es of Fig. 3 in rings using the orientation parameters derived in the next section (/ = 47\u00b0, P.A. = 170\u00b0). The surface densities stay more or less con- stant from the center to 6.5' and then drop abruptly out to the optical radius. Those surface densities will be used in Sec. V when analyzing the mass distribution. IV. VELOCITY FIELD ANALYSIS The velocity field of NGC 247, obtained from a moment analysis of the 45 \" data cube is shown in Fig. 5 [ Plate 66 ]. In order to derive a rotation curve from it, we must find the set of orientation parameters [rotation center (*0,j;0), systemic velocity Fsys, inclination /, position angle P.A.] that repre- sents best the observed velocity field at all radii. The method used is described in Begeman ( 1989 ) and in van Albada et al (1985). The dynamical center and the systemic velocity are looked for first, using only the inner parts of the"
-        },
-        {
-          "pattern": "Fig. 5",
-          "context": "Both sides \u00b0 - \u00b0 ~ \u00a1 ^ j \u2022 \u2022 0 5 . * \u2022 * On O'\u00ab\u201c . \u00ab \u00ab\u2022 \u00b0 \u00b0 . \u00a9A* \u00b0 \u00ab 0*00 8 i-1 I I I I I I 1 I I I I 1 I 1 1 I I I 1 I I I I I I I 1 I I 1 t- 2 4 6 8 10 12 14 16 Radius (arcmin) I J ! I I I I I Approaching Receding - o Both sides 150 M 100 I 1 ' 1 i' I 1 1 1 I 1 r\" r i' NGC 247 \u201c a 8 I i i I 1 I I I 1 I I I I I L-L.i... \u25a0 , I i , i I 6 8 10 12 14 16 Radius (arcmin) Fig. 6. Tilted-ring model for the velocity field of Fig. 5 where the dynamical center (x0,y(}) and the systemic velocity Fsys are kept fixed, while (a) P.A., (b) /, and (c) Vrol are allowed to vary. The solution is given for both sides and separately for the approaching and the receding sides. kpc. For r>5 kpc, the luminous component predicts a nearly flat rotation curve while the observed velocities continue to rise out to the last point. At r \u201410 kpc, the difference is \u2014 30 kms-1. Fig. 1. L \u2014"
-        },
-        {
-          "pattern": "Fig. 5",
-          "context": ". Puche, D., and Carignan, C. ( 1988). Astron. J. 95, 1025 (Paper I), van Albada, T. S., Bahcall, J. N., Begeman, K., and Sancisi, R. (1985). Astrophys. J. 295, 305. Whiteoak, J. B., and Gardner, F. F. (1977). Aust. J. Phys. 30, 187. \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System DECLINATION (1950) PLATE 67 o -25\u00b0 30' 40' 50' -26\u00ae 00' 10\u2018 20' 10h 02m 10h01m 10h00m \u00e7h 59m RIGHT ASCENSION ( 1950 ) Fig. 5. Map of the total H I emission, superimposed on an optical photograph of NGC 3109. Contours are at levels of 0.1, 1.7, 5.0, 10, 17, and 23 X 10 2<) atoms cm-2. M. Jobin and C. Carignan (see page 649) \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 975"
-        },
-        {
-          "pattern": "Fig. 6",
-          "context": "s to the optical center and that Fsys = 161 +7 kms-1, in agreement, within the errors, with the global profile. The next step is to obtain a least-squares solution for /, P.A. and Frot in concentric annuli in the plane of the galaxy. In order to see if the solution found is a good representation of the whole galaxy, separate solutions are also obtained for only the approaching and the receding sides. The three solu- tions are compared in Fig. 6. It can be seen that the param- eters are fairly constant with no sign of warping of the H I plane in the outer parts. The mean inclination is / \u2014 74\u00b0 and the position angle P.A. = 170\u00b0. Those values are almost identical to those derived from the photometry (see Table I ). There is some disturbance on the north side at r~ 7'. This was also seen in the Fabry-P\u00e9rot data (Carignan and Free- man 1985) where noncircular motions have been ident"
-        },
-        {
-          "pattern": "Fig. 6",
-          "context": "i i i i i i o Approaching NGC 247 \u2022 Receding b) o Both sides \u00b0 - \u00b0 ~ \u00a1 ^ j \u2022 \u2022 0 5 . * \u2022 * On O'\u00ab\u201c . \u00ab \u00ab\u2022 \u00b0 \u00b0 . \u00a9A* \u00b0 \u00ab 0*00 8 i-1 I I I I I I 1 I I I I 1 I 1 1 I I I 1 I I I I I I I 1 I I 1 t- 2 4 6 8 10 12 14 16 Radius (arcmin) I J ! I I I I I Approaching Receding - o Both sides 150 M 100 I 1 ' 1 i' I 1 1 1 I 1 r\" r i' NGC 247 \u201c a 8 I i i I 1 I I I 1 I I I I I L-L.i... \u25a0 , I i , i I 6 8 10 12 14 16 Radius (arcmin) Fig. 6. Tilted-ring model for the velocity field of Fig. 5 where the dynamical center (x0,y(}) and the systemic velocity Fsys are kept fixed, while (a) P.A., (b) /, and (c) Vrol are allowed to vary. The solution is given for both sides and separately for the approaching and the receding sides. kpc. For r>5 kpc, the luminous component predicts a nearly flat rotation curve while the observed velocities continue to rise out to the last point. At r \u2014"
-        },
-        {
-          "pattern": "Fig. 7",
-          "context": "de at r~ 7'. This was also seen in the Fabry-P\u00e9rot data (Carignan and Free- man 1985) where noncircular motions have been identified with a region where the emission is dominated by an H n ring. The largest differences between both sides of \u00c0 19 km s~1 are seen at r~ 10' while differences \u201414 km s -1 are also present at r~l'. Another way to visualize the asymme- try is to look at an L \u2014 F (position-velocity) diagram along the major axis (Fig. 7). The differences between both sides at 7' and 10' are clearly seen in the sense that the rotation curve tends to flatten more on the south than on the north side. The adopted rotation curve is given in Table III. The er- rors correspond to the largest difference between the rota- tion curve found for the whole galaxy and the rotation curves derived for each side. We think that this is a better estimate of the uncertainties on Frot than"
-        },
-        {
           "pattern": "Fig. 8",
           "context": "2.3 \u00b10.7 \u00b1 1.1 \u00b1 1.7 \u00b13.0 \u00b13.8 \u00b15.0 \u00b17.0 \u00b17.2 450 480 510 540 570 600 630 660 690 720 750 780 810 90.7 93.1 95.9 98.4 101.5 103.6 104.0 105.0 105.0 105.2 106.0 108.4 107.8 \u00b14.8 \u00b1 1-4 \u00b12.1 \u00b15.2 \u00b18.2 \u00b19.4 \u00b19.4 \u00b18.9 \u00b18.4 \u00b19.0 \u00b18.4 \u00b17.7 \u00b19.2 \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System U \u00ef\u2014I KO o o h) C o O'! O'! 646 C. CARIGNAN AND D. PUCHE: H i IN NGC 247 Fig. 8. (a) One-component (luminous) mass model for NGC 247. The /Lb )* value is 6.0. The H i surface densities have been multiplied by 4/3 to account for He. (b) Adopted two-component (luminous and dark) mass model for NGC 247. For the stellar disk, /LB )* = 5.3. For the halo, rc = 24.2 kpc and cr = 126.9kms_l. (c) Ratio of the stellar disk surface densities and of the H I disk surface densities to the integrated surface densities of the dark-is"
-        },
-        {
-          "pattern": "Figure 8",
-          "context": "mponent, an isothermal sphere model is used. This component has two parameters: The core radius rc and the one-dimensional velocity dispersion a. The central den- sity is then given by p{) = 9cr/47rGrl. a) The One-Component (Luminous) Model The first step in the study of the mass distribution is to see what is the maximum (^/LB ) * value allowed by the rising part of the rotation curve, using only the luminous ( stars and gas) component. Figure 8(a) shows such a model computed with {^//Lb ) * = 4.5. It can be seen that the luminous com- ponent represents well the observed velocities out to r~5 Fig. 4. H i radial distribution ob- tained by averaging the surface densities of the total H i map in circular annuli in the plane of the galaxy. The parameters used for the deprojection are P.A. = 170\u00b0 and / = 74\u00b0. \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data"
-        },
-        {
-          "pattern": "Figure 8",
-          "context": "For the halo, rc = 24.2 kpc and cr = 126.9kms_l. (c) Ratio of the stellar disk surface densities and of the H I disk surface densities to the integrated surface densities of the dark-isothermal halo. curve, those values are 1.7 and 10.9. The total mass, within 7.35 kpc, is 2.6X 1010 . Using the results of this model, it is interesting to compare the dark matter surface densities distribution to the stellar disk and H I disk distribution. Figure 8(c) shows the ratio of 646 Table IV. Parameters and results for the mass model. Luminous component {Jt/LB)* = 4.0 .j/q/Lq ^(tot)# =9.5X10V^0 ( tOt ) h i -f He = U X 109 Dark halo component rc = 24.2 kpc (J \u2014 126.9 km s-1 /?() = 0.0046 pc~3 At Rho phalo = 0.0038 Q pc-3 = 1-3 ^/(dark + lum) = 2.1 X 10l0^o (^/ /La)g|oba| = 8.8 At last point = 0.0036 ^ pc-3 (r= 7.35 kpc) \u00ab^dark/^lum = 1-7 ^/(dark + lum) =2.6xl0 1(,^o (^//Lfl)g|0ba| ="
         }
       ]
     },
@@ -976,43 +895,90 @@
           "context": "\u00b1 8.9 88.2 \u00b1 10.8 89.5 \u00b13.1 89.7 \u00b19.5 93.7 \u00b17.3 97.0 \u00b1 5.7 96.2 \u00b1 1.5 94.8 \u00b12.1 92.5 \u00b1 13.9 92.8 \u00b1 10.6 93.5 \u00b112.1 93.4 \u00b1 8.2 \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1474 PUCHE ETAL. : H i IN NGC 300 1474 Fig. 8. (a) Mass model for the luminous component of NGC 300. The ^/Lb ) \u00bb of the stellar disk is 2.0. The contribution of the H I component was calculated using the surface densities of Fig. 4. (b) Best-fit two-com- ponent (dark and luminous) mass model for NGC 300 using the rotation curve of Table III. The total H I mass is 1.1X 109 .^0. The stellar disk has /Lb )* = 1.0, giving a total mass of 2.2X 109^o. The halo param- eters are rc = 4.2 kpc and \u2014 0.029 pc \\ The total mass (dark and luminous) at the last observed velocity point (10.6 kpc) is 2.1 X 10'\u00b0 .J\u00ed Q .(c) Ratio of the local surface densities of ( 1 ) the stellar disk"
         },
         {
-          "pattern": "Fig. 5",
-          "context": "over the area of the source after sub- traction of the continuum background and correction for the primary beam attenuation. The channel spacing is 10.3 km s \u201c 1. central depression, seen in most spirals, the surface densities stay more or less constant out to R25 (optical radius defined at =25 magarcsec-2), and then drop abruptly at ~R H() (optical radius defined at/^ = 26.6 mag arcsec ~2 ). This can be seen in the grey-scale plot of Fig. 5. The H i is more or less constant out to the region where the warp starts to be important. Then, a sharp decline in the surface bright- ness is observed. The low surface-brightness region then ex- tends outwards at a more or less constant surface density. This is not at all typical of normal spirals. The elliptically averaged profile will be used in Sec. V when analyzing the mass distribution. Finally, a possible connection between NGC 3"
-        },
-        {
-          "pattern": "Fig. 5",
-          "context": "us (arcmin) 25 30 Fig. 4. H i radial distribution ob- tained by averaging the surface den- sities of the moment analysis total H i map in circular annuli in the plane of the galaxy. The parameters used for the deprojection are P.A. = 290\u00b0 and i = 50.5\u00b0. \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1990AJ 100.1468P 1472 PUCHE ETAL. : H i IN NGC 300 1472 00h 55m 00s 53m 00s 51m 00s R. A. ( 1950) Fig. 5. Grey scale of the total H I obtained from the moment analysis. The contours correspond to H i surface densities at 10% of the maximum-brightness level ( 1.47X 10 21 cm 2 ). Notice the step in the surface brightness at a radius of ~ 10'. level. The possibility of a link between the cloud and NGC 300 will be explored later when we discuss other observa- tions obtained in the direction of the major axis of the cloud. IV. VELOCITY FIELD AND R"
-        },
-        {
-          "pattern": "Fig. 6",
-          "context": "alysis. The contours correspond to H i surface densities at 10% of the maximum-brightness level ( 1.47X 10 21 cm 2 ). Notice the step in the surface brightness at a radius of ~ 10'. level. The possibility of a link between the cloud and NGC 300 will be explored later when we discuss other observa- tions obtained in the direction of the major axis of the cloud. IV. VELOCITY FIELD AND ROTATION CURVE The velocity field of NGC 300 is shown in Fig. 6 (Plate 115) superimposed on the optical image. The isovelocity contours show that this galaxy is far from regular with signs of noncircular motions to the northwest of the nucleus and a severe warp of the H i disk as one goes to greater radii along the major axis. The contours at the ends of the major axis are closing. This might be due to, either a decreasing rotation curve, to a projection effect due to the warping of the H I plane, or"
-        },
-        {
-          "pattern": "Fig. 6",
-          "context": "Fig. 2. Total H i map of NGC 300 (corrected for primary beam attenuation), superimposed on an optical photograph. The contours correspond to H i surfacedensitiesof0.4, 0.9, 1.8, 3.5, 7.0, 14.1xl020 cm 2. Puche et al. (see page 1469) \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1719 1990AJ 100.1468P PLATE 115 -37o20' 40' LO O* . -38\u00b0 00' O <D \u00db 20' 00h 55m 00* 53m 00* 51m 00* R. A. ( 1950 ) Fig. 6. Isovelocity contours for NGC 300, superimposed on an optical photograph using the 50\" resolution data. The contour interval is 10 km s 1 from 80 to 200 km s ~1 heliocentric radial velocities. Puche et al. (see page 1472) 1720 \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System"
-        },
-        {
-          "pattern": "Fig. 7",
-          "context": "Astrophysics Data System 1473 PUCHE ETAL. : H i IN NGC 300 1473 Frot. This last operation is performed on the whole galaxy and then on each side separately to obtain an estimate of the asymmetry of the H i disk. We think that the differences between the two sides are a better representation of the er- rors on Frot than the formal errors given by the least-squares analysis. The variations P. A. and i as a function of radius are shown in Fig. 7 as well as the three rotation curves. The \u201ci i i i i i i\u2014i\u2014i\u2014i\u2014i\u2014r _o Approaching \u201c\u2022 Receding \u00bb Both sides \u201ci i i i J\u2014i\u2014n\u2014i\u2014F NGC 300 a) ^ -40 \u2014 d o 3 \u201855 \u00a3 -60 - 8 * \u2022 g \u2022 8 \u00a7 g \u2022 G 5 \u2022 O 5 I s \u2022 10 15 Radius (arcmin) \u00f6 60 40 o Approaching \u2022 Receding Both sides h\u2014r NGC 300 b) _ 8 \u2666 . ? O \u00b0 o * i -I\u2014I\u2014I\u2014I\u20141\u2014I\u2014I I I I I I l_ \u00b0 * s \u2022 o o o o 10 15 Radius (arcmin) 50 \"i\u2014i\u2014i\u2014i\u2014I\u2014i\u2014I\u2014I\u2014I\u2014[\u201c o Approaching \u2022 Recedi"
-        },
-        {
-          "pattern": "Fig. 7",
-          "context": "J\u2014i\u2014n\u2014i\u2014F NGC 300 a) ^ -40 \u2014 d o 3 \u201855 \u00a3 -60 - 8 * \u2022 g \u2022 8 \u00a7 g \u2022 G 5 \u2022 O 5 I s \u2022 10 15 Radius (arcmin) \u00f6 60 40 o Approaching \u2022 Receding Both sides h\u2014r NGC 300 b) _ 8 \u2666 . ? O \u00b0 o * i -I\u2014I\u2014I\u2014I\u20141\u2014I\u2014I I I I I I l_ \u00b0 * s \u2022 o o o o 10 15 Radius (arcmin) 50 \"i\u2014i\u2014i\u2014i\u2014I\u2014i\u2014I\u2014I\u2014I\u2014[\u201c o Approaching \u2022 Receding \u00ab Both sides _1 ! ! . r_ NGC 300 c) \u00bbo\u00b0\u00b0\u00b0 o O 8 \u2022 # . \u2022 _J\u2014I\u2014I\u2014I I I I I I I I 0 5 10 15 20 Radius (arcmin) Fig. 7. Least-squares solution for (a) P.A., (b) i, and (c) Vro{ derived from the velocity field at 50\" resolution. A global solution and separate solutions for the approaching and receding sides are shown. striking feature is the well-behaved warp for 10' < r < 20'. It is perfectly symmetrical on both sides of the galaxy. In this region the P. A. increases by ~ 30\u00b0. The inclination, however, is not as well constrained. This is to be expected whe"
-        },
-        {
           "pattern": "Fig. 8",
           "context": "and the one- dimensional velocity dispersion a. The central density is then given by p0 = 9<72/4t7G^ . a) The \u201cNo Dark Matter\u201d Model The first step in the analysis is to derive the limit on the scaling parameter of the luminous component. The maxi- mum mass-to-light ratio allowed by the rising part of the rotation curve is /LB )* = 2.0. There is no free param- eter for the H i disk. However, it should be realized that oc distance2. From Fig. 8(a) it can be seen that the visible matter is certainly not sufficient to account for the high velocities still observed after 3 kpc. Even with an inflat- ed /Lb )* = 3.0, to get the disk up to the flattening re- gion around 3 kpc, the exponential disk does not fit the flat part of the rotation curve. Table III. Adopted rotation curve for NGC 300. Radius Vrol Error Radius Frot Error (arcsec) (kms\u201d1) (kms-1) (arcsec) (ktns-1) (kms^1) 90.0"
         },
         {
           "pattern": "Fig. 8",
           "context": "\u00b1 3.9 675.0 \u00b1 2.7 720.0 \u00b1 4.7 765.0 \u00b12.5 810.0 \u00b1 2.6 855.0 \u00b1 2.7 900.0 \u00b1 4.9 945.0 \u00b1 6.6 990.0 \u00b1 6.2 1035.0 \u00b1 2.7 1080.0 \u00b14.0 1125.0 \u00b112.4 1170.0 \u00b111.7 1215.0 88.5 \u00b18.5 88.4 \u00b1 8.9 88.2 \u00b1 10.8 89.5 \u00b13.1 89.7 \u00b19.5 93.7 \u00b17.3 97.0 \u00b1 5.7 96.2 \u00b1 1.5 94.8 \u00b12.1 92.5 \u00b1 13.9 92.8 \u00b1 10.6 93.5 \u00b112.1 93.4 \u00b1 8.2 \u00a9 American Astronomical Society \u2022 Provided by the NASA Astrophysics Data System 1474 PUCHE ETAL. : H i IN NGC 300 1474 Fig. 8. (a) Mass model for the luminous component of NGC 300. The ^/Lb ) \u00bb of the stellar disk is 2.0. The contribution of the H I component was calculated using the surface densities of Fig. 4. (b) Best-fit two-com- ponent (dark and luminous) mass model for NGC 300 using the rotation curve of Table III. The total H I mass is 1.1X 109 .^0. The stellar disk has /Lb )* = 1.0, giving a total mass of 2.2X 109^o. The halo param- eters are rc = 4.2 kpc"
-        },
-        {
-          "pattern": "Figure 8",
-          "context": "ting rotation curves. One is to allow both the disk and halo parameters to vary and to find a least-squares solution that represents best the observed points. Another one is to start with the maximum disk allowed by the rising part of the rotation curve and to let only the parameters of the halo vary. Constraints coming from the spiral arms pat- tern have also been used to determine /LB ) * ( Athanas- soula, Bosma, and Papaioannou 1987). Figure 8(b) shows the best-fitting model. The stellar disk has (Jt /Lb )* = 1.0 ^O/L0 which is quite different from the maximum-disk model. This probably happens because the rising part of the rotation curve is smooth and can be well represented by an isothermal sphere alone. Since the inner- most points have small errors their weights in the model fitting is greater. However, the jump in the rotation curve seen at about 3 kpc and also in the stel"
         }
       ]
     }
   ],
-  "boundary": "Frozen blind target: bibliography and source-profile recoverability only. No blind rotation/persistence outcome inspection, OCR, raster digitization, source fitting, or parameter selection. L_A and C_A remain locked."
+  "lvhis_public_fits_route": {
+    "status": "LVHIS_NGC0247_PUBLIC_FITS_ROUTE_AUDITED",
+    "live": [
+      {
+        "url": "https://www.atnf.csiro.au/research/LVHIS/",
+        "final_url": "https://www.narrabri.atnf.csiro.au/research/LVHIS/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 32200,
+        "sha256": "4f1f769fb7bf863ecc33235f1304273018c6871dc483fd98a2c9c5ac3b3063a6"
+      },
+      {
+        "url": "http://www.atnf.csiro.au/research/LVHIS/",
+        "final_url": "https://www.narrabri.atnf.csiro.au/research/LVHIS/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 32200,
+        "sha256": "4f1f769fb7bf863ecc33235f1304273018c6871dc483fd98a2c9c5ac3b3063a6"
+      }
+    ],
+    "cdx_queries": [
+      {
+        "pattern": "www.atnf.csiro.au/research/LVHIS/*NGC247*",
+        "meta": {
+          "url": "https://web.archive.org/cdx/search/cdx?url=www.atnf.csiro.au/research/LVHIS/*NGC247*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,length&limit=5000",
+          "final_url": "https://web.archive.org/cdx/search/cdx?url=www.atnf.csiro.au/research/LVHIS/*NGC247*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,length&limit=5000",
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        "n_rows": 0
+      },
+      {
+        "pattern": "www.atnf.csiro.au/research/LVHIS/*ngc247*",
+        "meta": {
+          "url": "https://web.archive.org/cdx/search/cdx?url=www.atnf.csiro.au/research/LVHIS/*ngc247*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,length&limit=5000",
+          "final_url": "https://web.archive.org/cdx/search/cdx?url=www.atnf.csiro.au/research/LVHIS/*ngc247*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,length&limit=5000",
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        "n_rows": 0
+      },
+      {
+        "pattern": "www.atnf.csiro.au/research/LVHIS/*J0047*",
+        "meta": {
+          "url": "https://web.archive.org/cdx/search/cdx?url=www.atnf.csiro.au/research/LVHIS/*J0047*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,length&limit=5000",
+          "error": "URLError(TimeoutError('timed out'))"
+        },
+        "n_rows": 0
+      },
+      {
+        "pattern": "www.atnf.csiro.au/research/LVHIS/*j0047*",
+        "meta": {
+          "url": "https://web.archive.org/cdx/search/cdx?url=www.atnf.csiro.au/research/LVHIS/*j0047*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,length&limit=5000",
+          "error": "URLError(TimeoutError('timed out'))"
+        },
+        "n_rows": 0
+      },
+      {
+        "pattern": "www.atnf.csiro.au/research/LVHIS/*0047*",
+        "meta": {
+          "url": "https://web.archive.org/cdx/search/cdx?url=www.atnf.csiro.au/research/LVHIS/*0047*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original,mimetype,statuscode,length&limit=5000",
+          "error": "URLError(TimeoutError('_ssl.c:993: The handshake operation timed out'))"
+        },
+        "n_rows": 0
+      }
+    ],
+    "matches": [],
+    "snapshot_tests": [],
+    "candidate_recoverable_snapshots": [],
+    "boundary": "Route audit only. No radial values are extracted here."
+  },
+  "boundary": "Acquisition/provenance only; no model-result inspection or source fitting. L_A and C_A remain locked."
 }
