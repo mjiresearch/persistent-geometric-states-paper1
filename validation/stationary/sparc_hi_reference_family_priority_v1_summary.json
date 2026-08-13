@@ -569,6 +569,81 @@
       "galaxies": "NGC5585"
     }
   ],
-  "interpretation": "Coverage and actionability are separated. Families with no public overlay remain visible, but audited anti-loop dispositions prevent exhausted or redirected source families from reappearing at the head of the live acquisition queue.",
+  "live_family_public_route_probe": {
+    "status": "LGLBS2026_WLM_DATA_ROUTE_AUDITED",
+    "attempts": [
+      {
+        "url": "https://doi.org/10.11570/26.0020",
+        "final_url": "https://www.canfar.net/citation/landing?doi=26.0020",
+        "type": "text/html;charset=UTF-8",
+        "bytes": 19503
+      },
+      {
+        "url": "https://www.canfar.net/storage/list/AstroDataCitationDOI/CISTI.CANFAR/26.0020",
+        "final_url": "https://www.canfar.net/storage/list/AstroDataCitationDOI/CISTI.CANFAR/26.0020",
+        "type": "text/html;charset=UTF-8",
+        "bytes": 23274
+      },
+      {
+        "url": "https://www.canfar.net/storage/list/AstroDataCitationDOI/CISTI.CANFAR/26.0020/data",
+        "final_url": "https://www.canfar.net/storage/list/AstroDataCitationDOI/CISTI.CANFAR/26.0020/data",
+        "type": "text/html;charset=UTF-8",
+        "bytes": 23755
+      }
+    ],
+    "candidate_links": [
+      "https://www.canfar.net/citation/",
+      "https://www.canfar.net/citation/css/datatables.css",
+      "https://www.canfar.net/citation/css/citation.css",
+      "https://www.canfar.net/cadcVOTV/css/jquery-ui-1.11.4.min.css",
+      "https://www.canfar.net/canfar/javascript/jquery-2.2.4.min.js",
+      "https://www.canfar.net/canfar/javascript/bootstrap.min.js",
+      "https://www.canfar.net/css/images/logo.png",
+      "https://www.opencadc.org/canfar/latest/'",
+      "https://arbutus-canfar.cloud.computecanada.ca",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/",
+      "https://www.opencadc.org/canfar/latest/about/home/'",
+      "https://github.com/opencadc'",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cred/generate?daysValid=30",
+      "https://www.canfar.net/canfar/javascript/cadc.contexthelp.js",
+      "https://www.canfar.net/citation/js/citation_page.js",
+      "https://www.canfar.net/citation/js/citation_landing.js",
+      "https://www.canfar.net/css/github-dark.css",
+      "https://www.canfar.net/css/print.css",
+      "https://www.canfar.net/css/canfar.css?version=3",
+      "https://www.canfar.net/favicon.ico?v=2",
+      "https://www.canfar.net/css/images/logo.png",
+      "https://www.opencadc.org/canfar/latest/'",
+      "https://arbutus-canfar.cloud.computecanada.ca",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/",
+      "https://www.opencadc.org/canfar/latest/about/home/'",
+      "https://github.com/opencadc'",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cred/generate?daysValid=30",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/groups",
+      "https://www.canfar.net/css/github-dark.css",
+      "https://www.canfar.net/css/print.css",
+      "https://www.canfar.net/css/canfar.css?version=3",
+      "https://www.canfar.net/favicon.ico?v=2",
+      "https://www.canfar.net/css/images/logo.png",
+      "https://www.opencadc.org/canfar/latest/'",
+      "https://arbutus-canfar.cloud.computecanada.ca",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/",
+      "https://www.opencadc.org/canfar/latest/about/home/'",
+      "https://github.com/opencadc'",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cred/generate?daysValid=30",
+      "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/groups"
+    ],
+    "source_hits": [
+      {
+        "file": "1_paper-I_main.tex",
+        "context": " $l_{\\rm HI}^{\\rm outer}\\approx1.0$--$8.5$~kpc. The mass-weighted \\hi\\ surface densities on 120~pc scale generally exceed the azimuthally averaged values by 10--70\\%, showing that localized high-column-density atomic structures persist even where azimuthally averaged profiles appear smooth. Atomic-gas depletion times rise from $\\tau_{\\rm dep}^{\\rm atom}\\approx0.8$--17~Gyr within the stellar half-mass radius to 10s--100~Gyr in the outer disks. Molecular depletion times are shorter. We provide a public release of these multi-wavelength data, which provide a valuable reference for the LGLBS targets and also form the basis for a companion paper that relates star formation, gas phases, and midplane pressure on 120~pc scales. \\end{abstract} %% Keywords should appear after the \\end{abstract} command. %% The AAS Journals now uses Unified Astronomy Thesaurus (UAT) concepts: %% https://astrothesaurus.org %% You will be asked to selected these concepts during the submission process %% but this old \"keyword\" functionality is maintained in case authors want %% to include these concepts in their preprints. %% %% You can use the \\uat command to link your UAT concepts back its source. %\\keywords{\\uat{Galaxies}{573} - \\uat{Cosmology}{343} - \\uat{High Energy astrophysics}{739} - \\uat{Interstellar medium}{847} - \\uat{Stellar astronomy}{1583} - \\uat{Solar physics}{1476}} %% From the front matter, we move on to the body of the paper. %% Sections are demarcated by \\section and \\subsection, respectively. %% "
+      },
+      {
+        "file": "1_paper-I_main.tex",
+        "context": "he averaged radial profile with a signal-to-noise of $\\ge$3. For NGC~6822 and M31 this criteria is met out to the edge of the LGLBS \\hi\\ field of view. We make a similar set of measurements within $500$~pc diameter hexagonal apertures that cover each galaxy. The mechanical calculation of the profiles follows \\citet{Sun2022}. The processed survey images, profiles, and the region-average measurements are publicly available accompanying this paper\\footnote{\\textcolor{red}{\\url{https://dx.doi.org/10.11570/26.0020}}}. The radial extent of gas, stars and star formation activity are summarized in \\autoref{tab:measured_radial_profile_properties} and gas depletion times in \\autoref{tab:tdep}. Integrated fluxes, luminosities, and physical quantities measured from the radial profiles are summarized in Table~\\ref{tab:fluxes}. Measurements of atomic gas surface densities are summarized in \\autoref{tab:hi_props}. \\subsection{IC~10} IC~10 (Figure \\ref{fig:atlas_ic10}) shows a complex \\hi\\ morphology, including multiple holes in the inner disk and an extended outer envelope with multiple streamers \\citep[see also earlier studies by][]{Shostak1989,Brinks1990,Wilcots1998}. CO emission follows the brightest \\hi\\ peaks and is also detected in the eastern stream beyond $\\Riso$. These CO features trace the main star-forming complexes visible in H$\\alpha$ and W4. The radial profile of \\sigatom\\ (Figure \\ref{fig:radial_ic10}, top left) declines from its central \\sigatom\\ $\\approx 12$ \\uSig\\ with an exponentia"
+      }
+    ]
+  },
+  "interpretation": "Coverage and actionability are separated; audited anti-loop dispositions prevent exhausted or redirected families from reappearing at the head of the live queue.",
   "boundary": "Acquisition priority only; no profile normalization, persistence fitting, or blind-outcome inspection."
 }
