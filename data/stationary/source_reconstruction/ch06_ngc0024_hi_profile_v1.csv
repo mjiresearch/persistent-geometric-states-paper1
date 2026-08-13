@@ -1,0 +1,11 @@
+galaxy,stationary_role,sample_index,radius_arcsec,radius_kpc_source,radius_kpc_frozen,sigma_hi_msun_pc2,source_x_idl,source_y_idl,source_reference,source_asset,helium_applied,extraction_method
+NGC0024,blind,0,15.5445152133,0.5124606863,0.5501416194,8.1997450064,2799.0,11995.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,1,55.5606290004,1.8316838908,1.9663665322,7.2001700000,4289.0,10819.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,2,97.7789718659,3.2235086422,3.4605313365,4.7998300042,5861.0,7995.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,3,137.7682291985,4.5418464533,4.8758057498,3.0998729900,7350.0,5995.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,4,177.7843429856,5.8610696578,6.2920306620,1.5503612405,8840.0,4172.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,5,220.0026858511,7.2528944092,7.7861954664,0.7003824894,10412.0,3172.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,6,259.9919431837,8.5712322203,9.2014698797,0.2498937516,11901.0,2642.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,7,300.0080569708,9.8904554248,10.6176947919,0.1002975069,13391.0,2466.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,8,339.9973143034,11.2087932359,12.0329692053,0.0501487606,14880.0,2407.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
+NGC0024,blind,9,379.9865716361,12.5271310470,13.4482436186,0.0501487606,16369.0,2407.0,Chemin_et_al_2006_AJ132_2527,f11.eps,no,source_native_IDL_vector
