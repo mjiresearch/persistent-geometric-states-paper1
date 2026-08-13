@@ -1,0 +1,1 @@
+Source choice and radial extraction parameters for NGC247 were fixed before profile extraction. Use LVHIS natural-weighted mosaic first. Use inclination 73 deg, PA 173 deg, source distance 3.65 Mpc, one-beam radial bins, annular means, raw atomic hydrogen only. Validate against published R_HI 1544 arcsec and total flux 662.5 Jy km/s before promotion.
