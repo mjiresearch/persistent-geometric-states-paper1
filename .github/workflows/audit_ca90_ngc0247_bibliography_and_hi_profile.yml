@@ -1,15 +1,13 @@
-name: Audit Ca90 NGC247 bibliography and HI profile
-
+name: Audit stationary H I source packages
 on:
   push:
     paths:
       - 'scripts/stationary/audit_ca90_ngc0247_bibliography_and_hi_profile.py'
+      - 'scripts/stationary/audit_ch06_ngc24_source.py'
       - '.github/workflows/audit_ca90_ngc0247_bibliography_and_hi_profile.yml'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   audit:
     runs-on: ubuntu-latest
@@ -20,24 +18,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install --quiet pymupdf
-      - name: Resolve bibliography and audit direct H I profile
-        run: python scripts/stationary/audit_ca90_ngc0247_bibliography_and_hi_profile.py
-      - name: Commit audit race-safe
+      - name: Audit Ch06 NGC24 public source
+        run: python scripts/stationary/audit_ch06_ngc24_source.py
+      - name: Commit audit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add validation/stationary/ca90_ngc0247_bibliography_hi_profile_audit_v1.json validation/stationary/ca90_ngc0247_bibliography_hi_profile_audit_v1.txt
+          git add validation/stationary/ch06_ngc24_source_audit_v1.json validation/stationary/ch06_ngc24_source_audit_v1.txt
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Audit Ca90 NGC247 bibliography and HI profile'
-          for attempt in 1 2 3; do
-            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
-            git rebase --abort || true
-            git fetch origin main
-            git reset --hard origin/main
-            python scripts/stationary/audit_ca90_ngc0247_bibliography_and_hi_profile.py
-            git add validation/stationary/ca90_ngc0247_bibliography_hi_profile_audit_v1.json validation/stationary/ca90_ngc0247_bibliography_hi_profile_audit_v1.txt
-            git commit -m 'Audit Ca90 NGC247 bibliography and HI profile' || true
-            sleep 2
-          done
-          exit 1
+          git commit -m 'Audit Ch06 NGC24 source profile'
+          git pull --rebase origin main
+          git push origin HEAD:main
