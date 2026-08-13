@@ -1,0 +1,61 @@
+{
+  "status": "CH06_NGC0024_NATIVE_VECTOR_HI_PROFILE_RECOVERED",
+  "galaxy": "NGC0024",
+  "stationary_role": "blind",
+  "sparc_ref_id": "Ch06",
+  "source": "Chemin et al. 2006, AJ 132, 2527",
+  "source_arxiv": "astro-ph/0609148",
+  "source_asset": "f11.eps",
+  "source_asset_format": "IDL 6.0 native PostScript vector",
+  "raster_operators": 0,
+  "n_points": 10,
+  "profile_semantics": {
+    "quantity": "inclination-corrected radial H I surface density",
+    "helium_applied": false,
+    "construction": "concentric elliptical averaging of total H I map, corrected by cos(i)",
+    "source_distance_mpc": 6.8,
+    "source_hi_kinematical_inclination_deg": 64,
+    "frozen_sparc_distance_mpc": 7.3
+  },
+  "x_axis": {
+    "native_ticks": [2220, 5944, 9667, 13391, 17114],
+    "labels_arcsec": [0, 100, 200, 300, 400],
+    "slope_arcsec_per_native": 0.026856452204543923,
+    "intercept_arcsec": -59.626694751767054,
+    "max_abs_tick_residual_arcsec": 0.0080572
+  },
+  "y_axis": {
+    "native_ticks": [2348, 4701, 7054, 9407, 11760],
+    "labels_msun_pc2": [0, 2, 4, 6, 8],
+    "slope_msun_pc2_per_native": 0.0008499787505312364,
+    "intercept_msun_pc2": -1.995750106247342,
+    "max_abs_tick_residual_msun_pc2": 3e-15
+  },
+  "native_marker_geometry": {
+    "primitive": "filled IDL diamond",
+    "n_markers": 10,
+    "centers_native": [[2799,11995],[4289,10819],[5861,7995],[7350,5995],[8840,4172],[10412,3172],[11901,2642],[13391,2466],[14880,2407],[16369,2407]]
+  },
+  "ranges": {
+    "radius_arcsec": [15.5445152, 379.9865716],
+    "radius_kpc_source": [0.5124607, 12.5271310],
+    "radius_kpc_frozen": [0.5501416, 13.4482436],
+    "sigma_hi_msun_pc2": [0.0501488, 8.1997450]
+  },
+  "independent_qc": {
+    "paper_total_hi_flux_jy_kms": 54,
+    "paper_total_hi_flux_uncertainty_jy_kms": 5,
+    "paper_total_hi_mass_msun": 587000000,
+    "profile_midpoint_annulus_integral_msun": 553079437.1,
+    "mass_fractional_abs_delta": 0.0577863,
+    "passes": true,
+    "note": "The profile-only midpoint-annulus integral is 5.8% below the paper total H I mass, consistent with finite plotted radial coverage and strongly supporting the native y-axis/raw-HI calibration."
+  },
+  "source_text_checks": {
+    "ngc24_flux_completeness": "paper states no flux was missed by the synthesis observations",
+    "profile_shape": "paper states H I surface density peaks at the center and decreases with radius",
+    "helium_boundary": "paper multiplies these H I radial surface densities by 4/3 only later for the mass model"
+  },
+  "profile_csv": "data/stationary/source_reconstruction/ch06_ngc0024_hi_profile_v1.csv",
+  "boundary": "Exact source-native vector recovery only; no OCR or raster digitization, no helium scaling, no profile fitting, no persistence fitting, no blind-outcome inspection. L_A and C_A remain locked."
+}
