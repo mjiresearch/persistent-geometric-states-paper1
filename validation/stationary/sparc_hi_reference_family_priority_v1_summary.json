@@ -3,26 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 88,
   "n_reference_families_covering_untouched": 35,
-  "n_actionable_reference_families": 1,
-  "n_deferred_or_redirected_reference_families": 34,
-  "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Ri15",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 0,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Richards et al.",
-      "bibcode": "2015MNRAS.449.3981R",
-      "comment": "",
-      "galaxies": "NGC5005"
-    }
-  ],
+  "n_actionable_reference_families": 0,
+  "n_deferred_or_redirected_reference_families": 35,
+  "top_15_actionable_reference_families": [],
   "deferred_or_redirected_families": [
     {
       "sparc_ref_id": "SV98",
@@ -567,6 +550,22 @@
       "bibcode": "1996A&AS..115..407R",
       "comment": "Cat. J/A+AS/115/407",
       "galaxies": "NGC0100"
+    },
+    {
+      "sparc_ref_id": "Ri15",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "NGC5005_Richards2015_Figure8_direct_atomic_HI_radial_surface_density_but_source_f8_EPS_is_raster_wrapped_without_recoverable_native_profile_geometry",
+      "disposition_artifact": "validation/stationary/ri15_ngc5005_fig8_geometry_v1.json",
+      "reopen_rule": "reopen_for_machine_readable_atomic_HI_radial_series_source_native_vector_republication_or_public_calibrated_VLA_map_cube_under_predeclared_reconstruction_protocol",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Richards et al.",
+      "bibcode": "2015MNRAS.449.3981R",
+      "comment": "",
+      "galaxies": "NGC5005"
     }
   ],
   "live_family_public_route_probe": null,
