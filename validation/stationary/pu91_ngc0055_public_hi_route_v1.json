@@ -1,0 +1,22 @@
+{
+  "status": "PU91_NGC0055_PUBLIC_ROUTE_EXHAUSTED_CURRENT_PASS",
+  "galaxy": "NGC0055",
+  "stationary_role": "blind",
+  "sparc_ref_id": "Pu91",
+  "original_source": "Puche, Carignan & Wainscoat 1991, AJ 101, 447",
+  "current_ned_sia_probe": {
+    "target": "NGC 55",
+    "refcode": "1991AJ....101..447P",
+    "n_records": 0,
+    "note": "Westmeier et al. 2013 documents having retrieved the original reduced Puche VLA cube from NED, but the current exact NED SIA target+refcode query returns zero records."
+  },
+  "later_public_routes": {
+    "Westmeier_2013": "Publishes major-axis and minor-axis H I column-density cuts rather than the required axisymmetric radial surface-density profile.",
+    "LVHIS_2018": "Publishes NGC55 global H I checks including F_HI=2025.4 Jy km/s and R_HI=1106 arcsec, but no exact machine-readable radial H I series was recovered in this acquisition pass."
+  },
+  "queue_status": "defer_until_new_mechanism",
+  "disposition": "original_Puche1991_cube_historically_public_but_current_NED_SIA_zero_records_and_later_public_products_do_not_expose_exact_axisymmetric_numeric_radial_HI_profile",
+  "reopen_rule": "Reopen for a restored Puche1991 NED cube, public LVHIS/Westmeier science-ready FITS product suitable for a predeclared warped-disc reconstruction, or an exact machine-readable axisymmetric radial H I profile.",
+  "certified_profile_added": false,
+  "boundary": "No raster digitization, profile fitting, persistence fitting, or blind-outcome inspection. L_A and C_A remain locked."
+}
