@@ -1,0 +1,1013 @@
+{
+  "status": "CERTIFIED_HI_PROFILE_SCHEMA_AUDIT_COMPLETE",
+  "n_certified_galaxies": 31,
+  "role_counts": {
+    "calibration": 23,
+    "blind": 8
+  },
+  "n_unique_artifacts": 13,
+  "artifacts": [
+    {
+      "artifact": "data/stationary/source_reconstruction/begum_chengalur_analytic_profile_parameters_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "CamB",
+        "KK98-251"
+      ],
+      "roles": [
+        "calibration",
+        "calibration"
+      ],
+      "statuses": [
+        "analytic_profile_recovered",
+        "analytic_profile_recovered"
+      ],
+      "n_rows": 2,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "profile_quantity",
+        "profile_form",
+        "r0_arcsec",
+        "r0_err_arcsec",
+        "c_arcsec",
+        "c_err_arcsec",
+        "sigma0_msun_pc2",
+        "sigma0_err_msun_pc2",
+        "source_distance_mpc",
+        "frozen_distance_mpc",
+        "source_inclination_deg",
+        "source_inclination_err_deg",
+        "frozen_inclination_deg",
+        "helium_factor_already_applied",
+        "source_resolution_arcsec",
+        "source_citation",
+        "doi",
+        "source_figure",
+        "status",
+        "notes"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "CamB",
+          "stationary_role": "calibration",
+          "profile_quantity": "raw_HI_surface_density",
+          "profile_form": "Sigma_HI(r)=Sigma0*exp(-r^2/(2*r0^2))",
+          "r0_arcsec": "40.7",
+          "r0_err_arcsec": "1.6",
+          "c_arcsec": "0",
+          "c_err_arcsec": "",
+          "sigma0_msun_pc2": "5.9",
+          "sigma0_err_msun_pc2": "0.2",
+          "source_distance_mpc": "2.2",
+          "frozen_distance_mpc": "3.36",
+          "source_inclination_deg": "65",
+          "source_inclination_err_deg": "5",
+          "frozen_inclination_deg": "65",
+          "helium_factor_already_applied": "1.0",
+          "source_resolution_arcsec": "40x38",
+          "source_citation": "Begum Chengalur & Hopp 2003 New Astronomy 8 267",
+          "doi": "10.1016/S1384-1076(02)00238-5",
+          "source_figure": "Figure 4 / Equation 1",
+          "status": "analytic_source_recovered",
+          "notes": "Deprojected radial H I profile from elliptical annuli fitted to GMRT moment-0 map. Paper applies primordial helium x1.4 separately in mass modelling, so analytic Sigma_HI is raw H I. Native angular scale retained. At frozen 3.36 Mpc: r0=0.662992 kpc, sigma(r0)=0.026064 kpc."
+        },
+        {
+          "galaxy": "KK98-251",
+          "stationary_role": "calibration",
+          "profile_quantity": "raw_HI_surface_density",
+          "profile_form": "Sigma_HI(r)=Sigma0*exp(-(r-c)^2/(2*r0^2))",
+          "r0_arcsec": "34.2",
+          "r0_err_arcsec": "0.7",
+          "c_arcsec": "19.2",
+          "c_err_arcsec": "0.8",
+          "sigma0_msun_pc2": "7.8",
+          "sigma0_err_msun_pc2": "0.1",
+          "source_distance_mpc": "5.6",
+          "frozen_distance_mpc": "6.8",
+          "source_inclination_deg": "62",
+          "source_inclination_err_deg": "5",
+          "frozen_inclination_deg": "59",
+          "helium_factor_already_applied": "1.0",
+          "source_resolution_arcsec": "26x21 body text; 26x23 Fig.3 caption",
+          "source_citation": "Begum & Chengalur 2004/2005 A&A 424 509",
+          "doi": "10.1051/0004-6361:20041210",
+          "source_figure": "Figure 3B / Equation 2",
+          "status": "analytic_source_recovered",
+          "notes": "Observed H I profile; source mass modelling applies helium x1.4 separately. Preserve native angular radius; do not resample until global normalization/interpolation freeze."
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "CamB",
+        "KK98-251"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/ch06_ngc0024_hi_profile_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC0024"
+      ],
+      "roles": [
+        "blind"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 10,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "sample_index",
+        "radius_arcsec",
+        "radius_kpc_source",
+        "radius_kpc_frozen",
+        "sigma_hi_msun_pc2",
+        "source_x_idl",
+        "source_y_idl",
+        "source_reference",
+        "source_asset",
+        "helium_applied",
+        "extraction_method"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC0024",
+          "stationary_role": "blind",
+          "sample_index": "0",
+          "radius_arcsec": "15.5445152133",
+          "radius_kpc_source": "0.5124606863",
+          "radius_kpc_frozen": "0.5501416194",
+          "sigma_hi_msun_pc2": "8.1997450064",
+          "source_x_idl": "2799.0",
+          "source_y_idl": "11995.0",
+          "source_reference": "Chemin_et_al_2006_AJ132_2527",
+          "source_asset": "f11.eps",
+          "helium_applied": "no",
+          "extraction_method": "source_native_IDL_vector"
+        },
+        {
+          "galaxy": "NGC0024",
+          "stationary_role": "blind",
+          "sample_index": "1",
+          "radius_arcsec": "55.5606290004",
+          "radius_kpc_source": "1.8316838908",
+          "radius_kpc_frozen": "1.9663665322",
+          "sigma_hi_msun_pc2": "7.2001700000",
+          "source_x_idl": "4289.0",
+          "source_y_idl": "10819.0",
+          "source_reference": "Chemin_et_al_2006_AJ132_2527",
+          "source_asset": "f11.eps",
+          "helium_applied": "no",
+          "extraction_method": "source_native_IDL_vector"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC0024"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/ge04_vector_hi_profiles_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "ESO079-G014",
+        "ESO116-G012"
+      ],
+      "roles": [
+        "calibration",
+        "blind"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 26,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "sample_index",
+        "radius_arcsec_vector",
+        "radius_arcsec_native_grid",
+        "radius_grid_delta_arcsec",
+        "radius_kpc_source_scale",
+        "sigma_hi_msun_pc2",
+        "source_x",
+        "source_y",
+        "source_marker_line",
+        "source_block",
+        "source_figure",
+        "helium_applied"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "ESO116-G012",
+          "stationary_role": "blind",
+          "sample_index": "0",
+          "radius_arcsec_vector": "0",
+          "radius_arcsec_native_grid": "0",
+          "radius_grid_delta_arcsec": "0",
+          "radius_kpc_source_scale": "0",
+          "sigma_hi_msun_pc2": "5.817258883",
+          "source_x": "401",
+          "source_y": "901",
+          "source_marker_line": "1800",
+          "source_block": "116readradialgraph.mr.eps",
+          "source_figure": "Gentile et al. 2004 Figure 2 / fig2.eps",
+          "helium_applied": "no"
+        },
+        {
+          "galaxy": "ESO116-G012",
+          "stationary_role": "blind",
+          "sample_index": "1",
+          "radius_arcsec_vector": "60.0281294",
+          "radius_arcsec_native_grid": "60",
+          "radius_grid_delta_arcsec": "0.02812939522",
+          "radius_kpc_source_scale": "4.479711149",
+          "sigma_hi_msun_pc2": "6.223350254",
+          "source_x": "789",
+          "source_y": "941",
+          "source_marker_line": "1840",
+          "source_block": "116readradialgraph.mr.eps",
+          "source_figure": "Gentile et al. 2004 Figure 2 / fig2.eps",
+          "helium_applied": "no"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "ESO079-G014",
+        "ESO116-G012"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/ha14_vector_hi_profiles_v2.csv",
+      "exists": true,
+      "galaxies": [
+        "UGC09037",
+        "UGC12506"
+      ],
+      "roles": [
+        "calibration",
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 71,
+      "columns": [
+        "galaxy",
+        "radius_kpc",
+        "sigma_hi_msun_pc2",
+        "sigma_hi_err_minus_msun_pc2",
+        "sigma_hi_err_plus_msun_pc2",
+        "source_center_x",
+        "source_center_y",
+        "source_marker_start_line",
+        "source_marker_end_line",
+        "source_errorbar_start_line",
+        "source_errorbar_end_line"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "UGC09037",
+          "radius_kpc": "2.57527926",
+          "sigma_hi_msun_pc2": "12.448745",
+          "sigma_hi_err_minus_msun_pc2": "2.28472913",
+          "sigma_hi_err_plus_msun_pc2": "2.28783549",
+          "source_center_x": "2674.5",
+          "source_center_y": "15575.5",
+          "source_marker_start_line": "224",
+          "source_marker_end_line": "227",
+          "source_errorbar_start_line": "352",
+          "source_errorbar_end_line": "352"
+        },
+        {
+          "galaxy": "UGC09037",
+          "radius_kpc": "3.86150235",
+          "sigma_hi_msun_pc2": "12.3943837",
+          "sigma_hi_err_minus_msun_pc2": "0.835611332",
+          "sigma_hi_err_plus_msun_pc2": "0.835611332",
+          "source_center_x": "2901.5",
+          "source_center_y": "15558.0",
+          "source_marker_start_line": "228",
+          "source_marker_end_line": "231",
+          "source_errorbar_start_line": "352",
+          "source_errorbar_end_line": "353"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "UGC09037",
+        "UGC12506"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/hix2018_ngc0289_hi_profile_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC0289"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 52,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source_reference",
+        "source_product",
+        "source_distance_mpc",
+        "frozen_distance_mpc",
+        "radius_arcsec",
+        "radius_kpc_source",
+        "radius_kpc_frozen",
+        "sigma_hi_msun_pc2",
+        "helium_included",
+        "extraction_method",
+        "pdf_x",
+        "pdf_y"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC0289",
+          "stationary_role": "calibration",
+          "source_reference": "Lutz_et_al_2018_HIX_II_arXiv1802.04043",
+          "source_product": "Figure_A3_panel_b_measured_radial_HI_column_density",
+          "source_distance_mpc": "23.06",
+          "frozen_distance_mpc": "20.8",
+          "radius_arcsec": "7.42143043",
+          "radius_kpc_source": "0.82970056",
+          "radius_kpc_frozen": "0.74838559",
+          "sigma_hi_msun_pc2": "4.18845053",
+          "helium_included": "0",
+          "extraction_method": "source_native_PDF_vector_marker_centers_linear_native_tick_calibration",
+          "pdf_x": "234.886017",
+          "pdf_y": "76.184143"
+        },
+        {
+          "galaxy": "NGC0289",
+          "stationary_role": "calibration",
+          "source_reference": "Lutz_et_al_2018_HIX_II_arXiv1802.04043",
+          "source_product": "Figure_A3_panel_b_measured_radial_HI_column_density",
+          "source_distance_mpc": "23.06",
+          "frozen_distance_mpc": "20.8",
+          "radius_arcsec": "22.26430947",
+          "radius_kpc_source": "2.48910371",
+          "radius_kpc_frozen": "2.24515859",
+          "sigma_hi_msun_pc2": "4.37980491",
+          "helium_included": "0",
+          "extraction_method": "source_native_PDF_vector_marker_centers_linear_native_tick_calibration",
+          "pdf_x": "237.378052",
+          "pdf_y": "73.048981"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC0289"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/iorio2017_ddo168_hi_profile_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "DDO168"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 15,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source_radius_arcsec",
+        "source_radius_kpc",
+        "source_sigmaHI_msun_pc2",
+        "source_sigmaHI_err_msun_pc2",
+        "source_distance_mpc",
+        "source_mean_inclination_deg",
+        "source_mean_pa_deg",
+        "helium_already_included",
+        "primary_beam_corrected",
+        "source_values_transformed",
+        "source_doi",
+        "source_member",
+        "source_member_sha256"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "DDO168",
+          "stationary_role": "calibration",
+          "source_radius_arcsec": "15.00",
+          "source_radius_kpc": "0.31",
+          "source_sigmaHI_msun_pc2": "16.43",
+          "source_sigmaHI_err_msun_pc2": "2.87",
+          "source_distance_mpc": "4.3",
+          "source_mean_inclination_deg": "62.0",
+          "source_mean_pa_deg": "272.7",
+          "helium_already_included": "0",
+          "primary_beam_corrected": "1",
+          "source_values_transformed": "0",
+          "source_doi": "10.1093/mnras/stw3285",
+          "source_member": "results.zip::finalrot/ddo168_onlinetab.txt",
+          "source_member_sha256": "b6616306fd12e01c56d87a8d50ef1fe57d94e817c01adb616d19b24c8aba11fc"
+        },
+        {
+          "galaxy": "DDO168",
+          "stationary_role": "calibration",
+          "source_radius_arcsec": "30.00",
+          "source_radius_kpc": "0.63",
+          "source_sigmaHI_msun_pc2": "12.12",
+          "source_sigmaHI_err_msun_pc2": "4.26",
+          "source_distance_mpc": "4.3",
+          "source_mean_inclination_deg": "62.0",
+          "source_mean_pa_deg": "272.7",
+          "helium_already_included": "0",
+          "primary_beam_corrected": "1",
+          "source_values_transformed": "0",
+          "source_doi": "10.1093/mnras/stw3285",
+          "source_member": "results.zip::finalrot/ddo168_onlinetab.txt",
+          "source_member_sha256": "b6616306fd12e01c56d87a8d50ef1fe57d94e817c01adb616d19b24c8aba11fc"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "DDO168"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/iorio2017_ddo87_ddo126_hi_profiles_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "UGC05918",
+        "UGC07559"
+      ],
+      "roles": [
+        "calibration",
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 25,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source_alias",
+        "source_radius_arcsec",
+        "source_radius_kpc",
+        "source_sigmaHI_msun_pc2",
+        "source_sigmaHI_err_msun_pc2",
+        "source_distance_mpc",
+        "source_mean_inclination_deg",
+        "source_mean_pa_deg",
+        "helium_already_included",
+        "primary_beam_corrected",
+        "source_values_transformed",
+        "source_doi",
+        "source_member",
+        "source_member_sha256"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "UGC05918",
+          "stationary_role": "calibration",
+          "source_alias": "DDO87",
+          "source_radius_arcsec": "12.00",
+          "source_radius_kpc": "0.43",
+          "source_sigmaHI_msun_pc2": "2.64",
+          "source_sigmaHI_err_msun_pc2": "0.54",
+          "source_distance_mpc": "7.4",
+          "source_mean_inclination_deg": "42.7",
+          "source_mean_pa_deg": "238.6",
+          "helium_already_included": "0",
+          "primary_beam_corrected": "1",
+          "source_values_transformed": "0",
+          "source_doi": "10.1093/mnras/stw3285",
+          "source_member": "results.zip::finalrot/ddo87_onlinetab.txt",
+          "source_member_sha256": "4460a564a3e6c290f2f0722ca29df8fa7b6878c715dec2b0469647edaf0b61d9"
+        },
+        {
+          "galaxy": "UGC05918",
+          "stationary_role": "calibration",
+          "source_alias": "DDO87",
+          "source_radius_arcsec": "24.00",
+          "source_radius_kpc": "0.86",
+          "source_sigmaHI_msun_pc2": "2.66",
+          "source_sigmaHI_err_msun_pc2": "0.76",
+          "source_distance_mpc": "7.4",
+          "source_mean_inclination_deg": "42.7",
+          "source_mean_pa_deg": "238.6",
+          "helium_already_included": "0",
+          "primary_beam_corrected": "1",
+          "source_values_transformed": "0",
+          "source_doi": "10.1093/mnras/stw3285",
+          "source_member": "results.zip::finalrot/ddo87_onlinetab.txt",
+          "source_member_sha256": "4460a564a3e6c290f2f0722ca29df8fa7b6878c715dec2b0469647edaf0b61d9"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "UGC05918",
+        "UGC07559"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/jadhav_banerjee2019_lsb_hi_analytic_profiles_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "F568-3",
+        "F568-V1",
+        "F574-1",
+        "F583-1",
+        "F583-4"
+      ],
+      "roles": [
+        "calibration",
+        "calibration",
+        "blind",
+        "calibration",
+        "calibration"
+      ],
+      "statuses": [
+        "analytic_profile_recovered",
+        "analytic_profile_recovered",
+        "analytic_profile_recovered",
+        "analytic_profile_recovered",
+        "analytic_profile_recovered"
+      ],
+      "n_rows": 5,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source_name",
+        "source_year",
+        "source_equation",
+        "sigma01_msun_pc2",
+        "sigma01_err_msun_pc2",
+        "a1_kpc",
+        "a1_err_kpc",
+        "r01_kpc",
+        "r01_err_kpc",
+        "sigma02_msun_pc2",
+        "sigma02_err_msun_pc2",
+        "a2_kpc",
+        "a2_err_kpc",
+        "r02_kpc",
+        "r02_err_kpc",
+        "profile_quantity",
+        "helium_status",
+        "underlying_hi_source",
+        "source_status",
+        "notes"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "F568-3",
+          "stationary_role": "calibration",
+          "source_name": "Jadhav & Banerjee MNRAS 488 547",
+          "source_year": "2019",
+          "source_equation": "Sigma_HI(R)=S01 exp[-(R-a1)^2/(2 r01^2)] + S02 exp[-(R-a2)^2/(2 r02^2)]",
+          "sigma01_msun_pc2": "4.63",
+          "sigma01_err_msun_pc2": "0.13",
+          "a1_kpc": "3.95",
+          "a1_err_kpc": "0.23",
+          "r01_kpc": "4.98",
+          "r01_err_kpc": "0.25",
+          "sigma02_msun_pc2": "",
+          "sigma02_err_msun_pc2": "",
+          "a2_kpc": "",
+          "a2_err_kpc": "",
+          "r02_kpc": "",
+          "r02_err_kpc": "",
+          "profile_quantity": "atomic_HI_surface_density",
+          "helium_status": "no_helium_added",
+          "underlying_hi_source": "HI surface-density profile available from de Blok et al. 2001; same LSB system also cited by SPARC to dB96",
+          "source_status": "analytic_profile_recovered",
+          "notes": "Single-Gaussian special case: second component absent in Table 7."
+        },
+        {
+          "galaxy": "F568-V1",
+          "stationary_role": "calibration",
+          "source_name": "Jadhav & Banerjee MNRAS 488 547",
+          "source_year": "2019",
+          "source_equation": "Sigma_HI(R)=S01 exp[-(R-a1)^2/(2 r01^2)] + S02 exp[-(R-a2)^2/(2 r02^2)]",
+          "sigma01_msun_pc2": "1.76",
+          "sigma01_err_msun_pc2": "0.32",
+          "a1_kpc": "7.90",
+          "a1_err_kpc": "0.12",
+          "r01_kpc": "2.28",
+          "r01_err_kpc": "0.21",
+          "sigma02_msun_pc2": "3.56",
+          "sigma02_err_msun_pc2": "0.14",
+          "a2_kpc": "2.97",
+          "a2_err_kpc": "0.37",
+          "r02_kpc": "4.36",
+          "r02_err_kpc": "0.22",
+          "profile_quantity": "atomic_HI_surface_density",
+          "helium_status": "no_helium_added",
+          "underlying_hi_source": "HI surface-density profile available from de Blok et al. 2001; same LSB system also cited by SPARC to dB96",
+          "source_status": "analytic_profile_recovered",
+          "notes": "Two-component off-centred Gaussian fit from Table 7."
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "F568-3",
+        "F568-V1",
+        "F574-1",
+        "F583-1",
+        "F583-4"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/lelli2012b_ugc4483_hi_profile_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "UGC04483"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 10,
+      "columns": [
+        "galaxy",
+        "source_name",
+        "radius_kpc",
+        "radius_arcsec",
+        "sigma_hi_msun_pc2",
+        "source_x",
+        "source_y",
+        "source_line",
+        "published_gaussian_sigma_hi_msun_pc2",
+        "gaussian_residual_msun_pc2"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "UGC04483",
+          "source_name": "UGC4483",
+          "radius_kpc": "0.0775862069",
+          "radius_arcsec": "5.0023176",
+          "sigma_hi_msun_pc2": "10.2274204",
+          "source_x": "1152.0",
+          "source_y": "3647.0",
+          "source_line": "755",
+          "published_gaussian_sigma_hi_msun_pc2": "10.4064743",
+          "gaussian_residual_msun_pc2": "-0.179053898"
+        },
+        {
+          "galaxy": "UGC04483",
+          "source_name": "UGC4483",
+          "radius_kpc": "0.232758621",
+          "radius_arcsec": "15.0143691",
+          "sigma_hi_msun_pc2": "10.2469136",
+          "source_x": "1692.0",
+          "source_y": "3653.0",
+          "source_line": "756",
+          "published_gaussian_sigma_hi_msun_pc2": "9.68764357",
+          "gaussian_residual_msun_pc2": "0.559270006"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "UGC04483"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "DDO154",
+        "IC2574",
+        "NGC2403",
+        "NGC2841",
+        "NGC2976",
+        "NGC3198",
+        "NGC3521",
+        "NGC5055",
+        "NGC6946",
+        "NGC7331",
+        "NGC7793"
+      ],
+      "roles": [
+        "calibration",
+        "calibration",
+        "blind",
+        "calibration",
+        "calibration",
+        "calibration",
+        "blind",
+        "blind",
+        "blind",
+        "calibration",
+        "blind"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested",
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 369,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source_name_vizier",
+        "source_catalog",
+        "source_table",
+        "source_radius_kpc",
+        "source_radius_over_r25",
+        "source_sigmaHI_including_helium_msun_pc2",
+        "source_sigmaHI_rms_msun_pc2",
+        "helium_already_included",
+        "source_values_transformed",
+        "source_bibcode",
+        "source_doi",
+        "vizier_catalog_doi"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "DDO154",
+          "stationary_role": "calibration",
+          "source_name_vizier": "DDO 154",
+          "source_catalog": "J/AJ/136/2782",
+          "source_table": "table7",
+          "source_radius_kpc": "0.1",
+          "source_radius_over_r25": "0.08",
+          "source_sigmaHI_including_helium_msun_pc2": "7.3",
+          "source_sigmaHI_rms_msun_pc2": "0.7",
+          "helium_already_included": "1",
+          "source_values_transformed": "0",
+          "source_bibcode": "2008AJ....136.2782L",
+          "source_doi": "10.1088/0004-6256/136/6/2782",
+          "vizier_catalog_doi": "10.26093/cds/vizier.51362782"
+        },
+        {
+          "galaxy": "DDO154",
+          "stationary_role": "calibration",
+          "source_name_vizier": "DDO 154",
+          "source_catalog": "J/AJ/136/2782",
+          "source_table": "table7",
+          "source_radius_kpc": "0.3",
+          "source_radius_over_r25": "0.25",
+          "source_sigmaHI_including_helium_msun_pc2": "7.2",
+          "source_sigmaHI_rms_msun_pc2": "0.8",
+          "helium_already_included": "1",
+          "source_values_transformed": "0",
+          "source_bibcode": "2008AJ....136.2782L",
+          "source_doi": "10.1088/0004-6256/136/6/2782",
+          "vizier_catalog_doi": "10.26093/cds/vizier.51362782"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "DDO154",
+        "IC2574",
+        "NGC2403",
+        "NGC2841",
+        "NGC2976",
+        "NGC3198",
+        "NGC3521",
+        "NGC5055",
+        "NGC6946",
+        "NGC7331",
+        "NGC7793"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/sa87_ngc5907_heroes2015_hi_side_profiles_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC5907"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 108,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "side",
+        "side_color",
+        "sample_index",
+        "radius_kpc_source",
+        "sigma_hi_msun_pc2",
+        "source_x_pdf",
+        "source_y_pdf",
+        "source_figure",
+        "source_asset",
+        "source_quantity",
+        "helium_applied"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC5907",
+          "stationary_role": "calibration",
+          "side": "approaching",
+          "side_color": "blue",
+          "sample_index": "0",
+          "radius_kpc_source": "-0.000002694",
+          "sigma_hi_msun_pc2": "2.396415800",
+          "source_x_pdf": "1545.119995",
+          "source_y_pdf": "192.927124",
+          "source_figure": "Allaert et al. 2015 Figure 29",
+          "source_asset": "Final_params_all.pdf",
+          "source_quantity": "source-native side-specific Sigma_HI",
+          "helium_applied": "no recovery scaling; source quantity is explicitly Sigma_HI"
+        },
+        {
+          "galaxy": "NGC5907",
+          "stationary_role": "calibration",
+          "side": "approaching",
+          "side_color": "blue",
+          "sample_index": "1",
+          "radius_kpc_source": "1.053383413",
+          "sigma_hi_msun_pc2": "3.195219533",
+          "source_x_pdf": "1549.692139",
+          "source_y_pdf": "174.916199",
+          "source_figure": "Allaert et al. 2015 Figure 29",
+          "source_asset": "Final_params_all.pdf",
+          "source_quantity": "source-native side-specific Sigma_HI",
+          "helium_applied": "no recovery scaling; source quantity is explicitly Sigma_HI"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC5907"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/vm97_ngc6015_hi_profile_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC6015"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 31,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "sample_index",
+        "radius_arcsec_vector",
+        "radius_arcsec_native_grid_qc",
+        "radius_grid_delta_arcsec",
+        "radius_kpc_source_scale",
+        "sigma_hi_msun_pc2",
+        "source_x_pgplot",
+        "source_y_pgplot",
+        "source_marker_char",
+        "source_figure",
+        "source_asset",
+        "helium_applied"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC6015",
+          "stationary_role": "calibration",
+          "sample_index": "0",
+          "radius_arcsec_vector": "14.944489147",
+          "radius_arcsec_native_grid_qc": "15.000000",
+          "radius_grid_delta_arcsec": "-0.055510853",
+          "radius_kpc_source_scale": "1.007094753",
+          "sigma_hi_msun_pc2": "4.103954758",
+          "source_x_pgplot": "567.000000",
+          "source_y_pgplot": "871.000000",
+          "source_marker_char": "33329",
+          "source_figure": "Verdes-Montenegro et al. 1997 Figure 3d",
+          "source_asset": "07540003.eps",
+          "helium_applied": "no; source H I surface density preserved"
+        },
+        {
+          "galaxy": "NGC6015",
+          "stationary_role": "calibration",
+          "sample_index": "1",
+          "radius_arcsec_vector": "24.915030216",
+          "radius_arcsec_native_grid_qc": "25.000000",
+          "radius_grid_delta_arcsec": "-0.084969784",
+          "radius_kpc_source_scale": "1.678999927",
+          "sigma_hi_msun_pc2": "4.744255804",
+          "source_x_pgplot": "655.000000",
+          "source_y_pgplot": "956.000000",
+          "source_marker_char": "33340",
+          "source_figure": "Verdes-Montenegro et al. 1997 Figure 3d",
+          "source_asset": "07540003.eps",
+          "helium_applied": "no; source H I surface density preserved"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC6015"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/westmeier2011_ngc300_gas_profile_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC0300"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 20,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source_tex_line",
+        "radius_arcsec",
+        "radius_kpc_source_paper",
+        "vrot_km_s",
+        "vrot_err_km_s",
+        "position_angle_deg",
+        "inclination_deg",
+        "sigma_star_36_msun_pc2",
+        "sigma_star_36_err_msun_pc2",
+        "sigma_star_45_msun_pc2",
+        "sigma_star_45_err_msun_pc2",
+        "sigma_star_combined_msun_pc2",
+        "sigma_star_combined_err_msun_pc2",
+        "sigma_gas_msun_pc2",
+        "sigma_gas_err_msun_pc2",
+        "helium_status",
+        "source_table"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC0300",
+          "stationary_role": "calibration",
+          "source_tex_line": "261",
+          "radius_arcsec": "100",
+          "radius_kpc_source_paper": "0.92",
+          "vrot_km_s": "43.3",
+          "vrot_err_km_s": "4.7",
+          "position_angle_deg": "290.6",
+          "inclination_deg": "39.9",
+          "sigma_star_36_msun_pc2": "45.4",
+          "sigma_star_36_err_msun_pc2": "5.9",
+          "sigma_star_45_msun_pc2": "41.8",
+          "sigma_star_45_err_msun_pc2": "6.1",
+          "sigma_star_combined_msun_pc2": "43.6",
+          "sigma_star_combined_err_msun_pc2": "4.3",
+          "sigma_gas_msun_pc2": "6.3",
+          "sigma_gas_err_msun_pc2": "0.8",
+          "helium_status": "already includes helium x1.4",
+          "source_table": "Westmeier et al. 2011 Table 2"
+        },
+        {
+          "galaxy": "NGC0300",
+          "stationary_role": "calibration",
+          "source_tex_line": "262",
+          "radius_arcsec": "200",
+          "radius_kpc_source_paper": "1.84",
+          "vrot_km_s": "66.5",
+          "vrot_err_km_s": "3.1",
+          "position_angle_deg": "289.3",
+          "inclination_deg": "40.5",
+          "sigma_star_36_msun_pc2": "24.3",
+          "sigma_star_36_err_msun_pc2": "3.3",
+          "sigma_star_45_msun_pc2": "22.8",
+          "sigma_star_45_err_msun_pc2": "3.5",
+          "sigma_star_combined_msun_pc2": "23.5",
+          "sigma_star_combined_err_msun_pc2": "2.4",
+          "sigma_gas_msun_pc2": "7.4",
+          "sigma_gas_err_msun_pc2": "1.2",
+          "helium_status": "already includes helium x1.4",
+          "source_table": "Westmeier et al. 2011 Table 2"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC0300"
+      ]
+    }
+  ],
+  "boundary": "Profile acquisition/schema QC only; no persistence parameters or blind outcomes evaluated."
+}
