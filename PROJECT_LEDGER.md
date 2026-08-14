@@ -3,7 +3,7 @@
 **Canonical cross-session checkpoint**  
 **Repository:** `mjiresearch/persistent-geometric-states-paper1`  
 **Established:** 2026-08-12  
-**Last reconciled:** 2026-08-14 — certified 34-profile interpolation/continuation and source-grid subset freeze
+**Last reconciled:** 2026-08-14 — certified 34-profile subset freeze plus pre-receipt author-package intake contract
 
 > **Authority rule:** this ledger summarizes project state. Frozen protocol/data/provenance/validation artifacts remain authoritative if any discrepancy is found. The original H I provenance inventory is retained unchanged for auditability; the versioned reconciled provenance view is the current acquisition-status view.
 
@@ -11,13 +11,14 @@
 
 ## Current stationary H I database checkpoint — 2026-08-14
 
-**Status:** CERTIFIED 34-PROFILE SOURCE SUBSET FROZEN; AUTHOR REQUEST PENDING; GLOBAL SOURCE GATE LOCKED. `L_A` and `\mathcal C_A` remain **LOCKED**.
+**Status:** CERTIFIED 34-PROFILE SOURCE SUBSET FROZEN; AUTHOR-PACKAGE INTAKE CONTRACT FROZEN; AUTHOR REQUEST PENDING; GLOBAL SOURCE GATE LOCKED. `L_A` and `\mathcal C_A` remain **LOCKED**.
 
 - Frozen stationary sample remains **149 galaxies = 104 calibration + 45 blind**.
 - Current reconciled public-source overlay covers **62/149 galaxies = 45 calibration + 17 blind**.
 - **34 galaxies have an actual recovered/ingested preferred profile or analytic model = 25 calibration + 9 blind**. The same 34 are certified and common-normalized under the frozen Paper-I convention: **27 tabulated profiles + 7 analytic profiles**, with **781 tabulated rows**.
 - FEASTS 2025 public profiles added NGC2903 and NGC4559 to calibration and NGC5033 to blind. NGC5033 was inspected only after its locked blind source-acquisition protocol was frozen; all source-only QC checks passed and its 50 raw-H I rows were promoted without inspecting a blind outcome.
 - The current author/private-compilation request manifest contains **112 galaxies = 77 calibration + 35 blind**. The request to Dr. Federico Lelli was already sent on 2026-08-14 for the then-current **115 = 79 calibration + 36 blind** set; the three later public FEASTS promotions do not require resending the request.
+- The pre-receipt author-package intake protocol is now **FROZEN**. Its machine-readable contract is bound to the current 112-profile manifest hash; permission and storage gates run before metadata/numerical reads; restricted inputs remain outside the repository; forbidden velocity/residual/persistence/outcome headers stop before value rows are read. All **14/14** synthetic control cases pass. No author-supplied data or permission evidence was received or inspected.
 - **Three galaxies remain reported unavailable** in the 169-profile compilation: D564-8 and D631-7 (calibration), and NGC4138 (blind).
 - The 34-profile radial-support audit has **7 analytic-defined**, **7 full-measured-support**, **2 inner-and-outer-continuation**, **9 inner-only**, and **9 outer-only** profiles. Across the 27 tabulated profiles, **11 require inner continuation** and **11 require outer continuation**.
 - The predeclared source-independent numerical rule is now **FROZEN**: exact measured nodes; piecewise-linear `Sigma(R)` interpolation; constant inward continuation to `R=0`; zero strictly beyond the last measured radius; analytic profiles evaluated directly; invalid inputs fail closed.
@@ -25,7 +26,7 @@
 - The public exact-source queue is exhausted. **Do not retry** a dispositioned mechanism unless its explicit `reopen_rule` is satisfied by a genuinely new public route.
 - Version 1 is an immutable **certified public subset**, not the final 149-galaxy package. Later author-supplied profiles must enter a new version under the same rule after permissions, provenance, normalization, missing-value, and support QC.
 
-**Current resume point:** Preserve the 34-profile v1 subset freeze unchanged while the 112-galaxy author request is pending. On receipt, reconcile the package against the request manifest and data policy, then build a new normalized/support-audited source-freeze version. Do not inspect blind residuals or persistence outcomes; `L_A` and `\mathcal C_A` remain locked until the global source package is complete.
+**Current resume point:** Preserve the 34-profile v1 subset freeze unchanged while the 112-galaxy author request is pending. On receipt, first establish an external permission record and run the frozen fail-closed intake validator. Only an authorized, exact-manifest source-only package may proceed to a new normalization/support/source-freeze version. Do not inspect blind residuals or persistence outcomes; `L_A` and `\mathcal C_A` remain locked until the global source package is complete.
 
 <!-- AUTO-STATIONARY-HI-CHECKPOINT-END -->
 
@@ -118,6 +119,7 @@ Current posture:
 | A31 | **COMPLETE** | Current reconciled acquisition state: **27 public-overlay galaxies = 17 calibration + 10 blind**; **16 unique galaxies = 11 calibration + 5 blind** have an actual preferred analytic or numerical profile. Preferred-source statuses are **14 raw numerical profiles + 2 analytic profiles**. Untouched nonpublic-request-required pool is now **118**. |
 | A32 | **COMPLETE (PR)** | Superseding stationary H I checkpoint: public overlay **62 = 45 calibration + 17 blind**; certified/common-normalized set **34 = 25 calibration + 9 blind**, comprising **27 tabulated profiles / 781 rows + 7 analytic profiles**. The radial-support audit records **11 inner** and **11 outer** continuation requirements without filling them. NGC5033 blind promotion followed a pre-frozen source-only protocol; no blind outcome was inspected. |
 | A33 | **COMPLETE (PR)** | The source-independent interpolation/continuation policy is frozen and the certified 34-profile subset is mapped to **905 frozen rotation-grid rows** in versioned H I and stellar-basis source products. Independent validation passes **14/14** gates; output hashes are bound into `STATIONARY_SOURCE_PROFILE_FREEZE_V1.md`. This subset freeze contains no observed velocity or evaluated source current and does not unlock the global fit gate. |
+| A34 | **COMPLETE (PR)** | The pre-receipt author-package intake protocol, permission template, metadata/profile schemas, fail-closed validator, and read-only CI workflow are frozen against the **112 = 77 calibration + 35 blind** request manifest. All **14/14** synthetic cases pass, including permission-before-content, restricted-storage, immutable-manifest, exact-membership/role, numerical geometry, and forbidden-outcome-header guards. No author data were used. |
 
 ---
 
@@ -317,6 +319,20 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 - `.github/workflows/reconcile_public_hi_source_overlay.yml`
 - `data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv`
 - `validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json`
+- `data/stationary/source_reconstruction/lelli_hi_profile_request_manifest_v1.csv`
+- `validation/stationary/lelli_hi_profile_request_manifest_v1_summary.json`
+- `validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md`
+- `validation/stationary/STATIONARY_HI_INTERPOLATION_CONTINUATION_POLICY_V1.md`
+- `data/stationary/processed/stationary_hi_profiles_v1.csv`
+- `data/stationary/processed/stationary_source_profiles_v1.csv`
+- `validation/stationary/STATIONARY_SOURCE_PROFILE_FREEZE_V1.md`
+- `validation/stationary/stationary_source_profile_freeze_v1_validation.json`
+- `validation/stationary/LELLI_HI_PROFILE_AUTHOR_PACKAGE_INTAKE_PROTOCOL_V1.md`
+- `validation/stationary/lelli_hi_author_package_intake_schema_v1.json`
+- `scripts/stationary/validate_lelli_hi_author_package_v1.py`
+- `scripts/stationary/test_validate_lelli_hi_author_package_v1.py`
+- `validation/stationary/lelli_hi_author_package_validator_v1_synthetic_validation.json`
+- `.github/workflows/validate_lelli_hi_author_package_intake_v1.yml`
 
 ---
 
@@ -331,18 +347,20 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 | Iorio/LITTLE THINGS 3-galaxy preferred raw profiles | **COMPLETE — 40 rows** |
 | Hunter/LITTLE THINGS 4 analytic models | **COMPLETE source recovery / secondary QC** |
 | CamB + KK98-251 analytic profiles | **COMPLETE source recovery** |
-| current unique preferred profile set | **16 galaxies = 14 numerical + 2 analytic** |
+| current certified preferred profile set | **34 galaxies = 27 tabulated / 781 source rows + 7 analytic** |
 | Côté source audit | **COMPLETE; numerical points pending** |
 | van Zee source audit | **COMPLETE; numerical points/conventions pending** |
 | NGC3741 direct profile | **SOURCE IDENTIFIED; numerical points pending** |
 | Taylor/UGC05829 | **PUBLIC MAP CONFIRMED; radial profile pending** |
-| NGC1090 extraction artifact | **RECOVER** |
-| common source metadata / radial-coverage QC | **NEXT** |
-| `stationary_hi_profiles_v1.csv` | **NOT YET COMPLETE/FROZEN** |
-| `stationary_source_profiles_v1.csv` | **NOT YET COMPLETE/FROZEN** |
-| common radius/helium/inclination/interpolation/coverage rules | **NOT YET FROZEN** |
-| resolved-profile validation report | **NOT YET COMPLETE** |
-| `STATIONARY_SOURCE_PROFILE_FREEZE_V1.md` | **NOT YET CREATED/FROZEN** |
+| NGC1090 exact public extraction | **RECOVER artifact / remains in current author request** |
+| common source metadata / radial-coverage QC | **COMPLETE for certified 34-profile subset** |
+| current author request manifest | **FROZEN — 112 = 77 calibration + 35 blind** |
+| author-package intake protocol/validator | **FROZEN / 14 of 14 synthetic cases pass** |
+| `stationary_hi_profiles_v1.csv` | **FROZEN immutable certified subset — 905 grid rows** |
+| `stationary_source_profiles_v1.csv` | **FROZEN immutable certified subset — 905 grid rows** |
+| common radius/helium/inclination/interpolation/coverage rules | **FROZEN for certified subset and later versioned intake** |
+| resolved-profile validation report | **COMPLETE for certified subset — 14 of 14 gates pass** |
+| `STATIONARY_SOURCE_PROFILE_FREEZE_V1.md` | **FROZEN certified subset; global 149-galaxy gate remains locked** |
 | `L_A`, `\mathcal C_A` calibration | **LOCKED** |
 | final 45-galaxy blind evaluation | **LOCKED** |
 
@@ -380,21 +398,12 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 
 ## 11. Current live queue
 
-1. **IN PROGRESS — continue untouched high-yield public machine-readable H I source blocks:** electronic tables, VizieR catalogs, publisher supplements, survey radial-profile products and analytic forms. Do not retry previously exhausted figure/image routes.
-2. **NEXT — common-source QC for the 16 recovered/ingested galaxies:** collect/verify source distance and inclination metadata and calculate radial coverage against each frozen SPARC rotation-curve domain without resampling or persistence fitting.
-3. **NEXT — use cross-source overlaps as QC only:** Hunter vs Leroy for DDO154 and Hunter vs Iorio for DDO168/UGC05918/UGC07559; do not double count or select based on persistence performance.
-4. **PENDING NUMERICAL:** Côté three curves, van Zee five curves, NGC3741 Figure 5; leave pending unless a genuinely new high-fidelity public route appears.
-5. **PENDING MAP ROUTE:** UGC05829/Taylor 1994; leave pending unless a new reusable public map/cube or radial table appears.
-6. **RECOVER before source freeze:** NGC1090 `fig2.eps` filled-circle extraction/QC artifact.
-7. Extend `stationary_public_hi_source_overlay_v1.csv` and regenerate the reconciled 149-galaxy view at every newly cleared source block.
-8. Freeze common radius conversion, helium convention, inclination/deprojection handling, interpolation/extrapolation/taper, duplicate and coverage rules.
-9. Build `stationary_hi_profiles_v1.csv` from source-recovered/ingested galaxies under that one frozen normalization schema.
-10. Build `stationary_source_profiles_v1.csv` under locked source rules.
-11. Complete resolved-profile validation report.
-12. Create `STATIONARY_SOURCE_PROFILE_FREEZE_V1.md` with hashes and exact membership.
-13. **Only then** unlock `L_A` and `\mathcal C_A` calibration on calibration galaxies.
-14. Freeze final model/nuisance/solver/scoring specification.
-15. Run the frozen 45-galaxy blind evaluation once, with no refit.
+1. **PENDING EXTERNAL RESPONSE:** preserve the immutable 34-profile v1 certified subset while awaiting the author response for the current **112 = 77 calibration + 35 blind** request manifest. Do not resend solely because the three FEASTS profiles were promoted after the original request.
+2. **NEXT ON RECEIPT — permissions first:** create the real permission record and initial report outside the public repository. If data use is not explicitly authorized, stop before opening metadata or numerical profile content.
+3. **NEXT ON AUTHORIZED RECEIPT — fail-closed intake:** run `scripts/stationary/validate_lelli_hi_author_package_v1.py`; require the frozen contract/manifest hashes, exact current-request membership and roles, documented units/helium/distance/inclination/beam/sampling/provenance, and valid strictly increasing nonnegative source profiles.
+4. **NEXT AFTER INTAKE PASS — version 2 only:** reconcile any partial return, retain source values unchanged, then build a new common normalization, support audit, and source-profile freeze under the already-frozen source-independent rules. Never rewrite version 1.
+5. **DO NOT REOPEN:** exhausted public routes remain closed unless an explicit `reopen_rule` receives a genuinely new mechanism.
+6. **LOCKED:** source-current evaluation, `L_A`, `\mathcal C_A`, `tau_A`, calibration fitting, persistence predictions, residuals, model preference, and the final blind evaluation remain locked until the global source package is complete, validated, and frozen.
 
 ---
 
@@ -414,4 +423,4 @@ At every meaningful milestone:
 3. record failures/blockers/nulls as well as successes; and
 4. establish the exact next resume point.
 
-**Current resume point:** the stationary galaxy database now has **16 unique frozen galaxies with an actual preferred public H I profile/model**: **14 machine-readable numerical profiles totaling 409 radial rows + 2 analytic profiles**. The public-source overlay covers **27 frozen galaxies**, and **118** remain without a superseding public route in the current audit. Continue with the next untouched high-yield machine-readable public H I source block; do not retry exhausted figure routes. `L_A` and `\mathcal C_A` remain locked.
+**Current resume point:** the certified public **34-profile v1 subset** and the **112-profile author-package intake contract** are both frozen. Await the external response. On receipt, permission and repository-location gates run before metadata or numerical content; only then may exact-manifest source profiles enter a new version-2 staging build. Do not retry exhausted public routes, rewrite version 1, inspect blind outcomes, or unlock `L_A` and `\mathcal C_A`.

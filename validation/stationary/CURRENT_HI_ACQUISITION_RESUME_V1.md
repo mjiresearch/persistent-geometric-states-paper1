@@ -1,6 +1,6 @@
 # Current stationary H I acquisition resume point
 
-Status: **CERTIFIED 34-PROFILE SOURCE SUBSET FROZEN; AUTHOR REQUEST PENDING; GLOBAL SOURCE GATE LOCKED**.
+Status: **CERTIFIED 34-PROFILE SOURCE SUBSET FROZEN; AUTHOR-PACKAGE INTAKE CONTRACT FROZEN; AUTHOR REQUEST PENDING; GLOBAL SOURCE GATE LOCKED**.
 
 Reconciled: **2026-08-14**.
 
@@ -41,12 +41,24 @@ The frozen rule retains measured nodes, uses piecewise-linear interpolation betw
 
 The v1 products contain **905 frozen rotation-grid rows**: **108 analytic evaluations, 3 exact measured nodes, 629 piecewise-linear samples, 23 inner-constant samples, and 142 outer-zero samples**. They contain the common gas source and unit-`Upsilon` stellar bases but no observed velocity. The self-consistent source current remains unevaluated.
 
+## Frozen author-package intake boundary
+
+- Protocol: `validation/stationary/LELLI_HI_PROFILE_AUTHOR_PACKAGE_INTAKE_PROTOCOL_V1.md`.
+- Machine-readable contract: `validation/stationary/lelli_hi_author_package_intake_schema_v1.json`, SHA-256 `584e496f97417f07353adc9cd755c20951841ab70bb7b9518a4a209856ae4a28`.
+- Validator: `scripts/stationary/validate_lelli_hi_author_package_v1.py`.
+- Synthetic test harness: `scripts/stationary/test_validate_lelli_hi_author_package_v1.py`.
+- Synthetic validation: `validation/stationary/lelli_hi_author_package_validator_v1_synthetic_validation.json` — **14/14 cases pass**.
+
+The validator reads the external permission record first and does not open metadata or numerical profile content if use is not authorized. Restricted packages are rejected inside the public repository. Membership is exact against request-manifest SHA-256 `fb85c40db51782ff13367084b6bffc5517e8e60291ec427cced343639f394f6a`; no fuzzy aliases or role changes are allowed. Profile tables containing velocity, residual, persistence, fit, or outcome columns are rejected before their value rows are read.
+
+No author-supplied profile or permission evidence has been received, read, copied, transformed, or committed by this milestone. The validation package contains only schemas, empty templates, code, and dynamically generated synthetic fixtures.
+
 ## Exact next action
 
 1. Preserve the certified 34-profile v1 freeze unchanged; do not rewrite it when additional profiles arrive.
 2. Await the author response for the current **112 = 77 calibration + 35 blind** request manifest. Do not resend merely because three FEASTS systems were removed after the original request.
-3. On receipt, establish redistribution/derivative permissions and reconcile exact membership against the current manifest before reading numerical profile content into the pipeline.
-4. Apply the same frozen radius, helium, missing-value, interpolation, and continuation rules; fail closed on any new source condition not already covered.
-5. Build a new versioned normalization, support audit, and source-profile freeze. Version 1 remains immutable audit history.
+3. On receipt, create the real permission record and first intake report outside the repository. Run the frozen intake validator; if use is not explicitly authorized, stop before metadata or numerical content is opened.
+4. If intake passes, reconcile the exact returned subset against the current 112-profile manifest. Exclude the three later FEASTS promotions from author staging, reject already-certified duplicates, and fail closed on any new unit, helium, geometry, or availability condition not covered by the frozen contract.
+5. Apply the same frozen radius, helium, missing-value, interpolation, and continuation rules only in a new versioned normalization/support/source-freeze build. Version 1 remains immutable audit history.
 
 Do not reopen a dispositioned public route unless its explicit `reopen_rule` is satisfied by a genuinely new mechanism. Do not inspect persistence outcomes or blind residuals. `L_A` and `C_A` remain locked until the global source-profile package is complete, validated, and frozen.
