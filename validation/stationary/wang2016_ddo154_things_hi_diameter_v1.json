@@ -1,0 +1,39 @@
+{
+  "status": "WANG2016_DDO154_THINGS_HI_DIAMETER_AUDITED",
+  "catalog": "J/MNRAS/460/2143/table2",
+  "retrieval_url": "https://cdsarc.cds.unistra.fr/ftp/J/MNRAS/460/2143/table2.dat",
+  "final_url": "https://cdsarc.cds.unistra.fr/ftp/J/MNRAS/460/2143/table2.dat",
+  "n_catalog_rows_parsed": 435,
+  "n_ddo154_name_matches": 2,
+  "row": {
+    "Name": "DDO154",
+    "DHI_kpc": 11.97,
+    "logMHI": 8.55,
+    "Dist_Mpc": 4.3,
+    "PA_deg": "-44.7",
+    "b_over_a": "0.35",
+    "BMAG": "-14.26",
+    "D25_kpc": "0.32",
+    "Sample": "THINGS",
+    "Ref": "this work"
+  },
+  "r_hi_kpc": 5.985,
+  "excluded_same_name_rows": [
+    {
+      "Name": "DDO154",
+      "DHI_kpc": 9.97,
+      "logMHI": 8.46,
+      "Dist_Mpc": 3.7,
+      "PA_deg": "-45.2",
+      "b_over_a": "0.40",
+      "BMAG": "-13.94",
+      "D25_kpc": "0.28",
+      "Sample": "LITTLE THINGS",
+      "Ref": "this work"
+    }
+  ],
+  "definition": "Wang et al. 2016: D_HI is the major axis of a fitted ellipse where the azimuthally averaged Sigma_HI reaches 1 Msun pc^-2; natural-weighted H I images are used whenever possible; D_HI is corrected for beam smearing with sqrt(D_HI,0^2-Bmaj*Bmin).",
+  "article": "Wang et al. 2016, MNRAS 460, 2143, doi:10.1093/mnras/stw1099",
+  "provenance_note": "The product-matched DDO154 row is Sample=THINGS at D=4.3 Mpc; the separate LITTLE THINGS row at D=3.7 Mpc is explicitly excluded. For THINGS Wang et al. use Walter et al. 2008 interferometric data.",
+  "boundary": "Published H I size metadata only; no rotation velocities, residuals, L_A, C_A, tau_A, persistence prediction, or blind outcomes evaluated."
+}
