@@ -1,0 +1,30 @@
+name: Extract compare FEASTS 2025 NGC3198 profile v1
+on:
+  push:
+    paths:
+      - 'scripts/stationary/extract_compare_feasts2025_ngc3198_profile_v1.py'
+      - '.github/workflows/extract_compare_feasts2025_ngc3198_profile_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check numpy astropy
+      - run: python scripts/stationary/extract_compare_feasts2025_ngc3198_profile_v1.py
+      - name: Commit source-only extraction and comparison
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/feasts2025_ngc3198_hi_profile_raw_v1.csv validation/stationary/feasts2025_ngc3198_leroy_overlap_v1.json
+          git commit -m 'Extract FEASTS 2025 NGC3198 H I profile v1'
+          git pull --rebase origin main
+          git push origin HEAD:main
