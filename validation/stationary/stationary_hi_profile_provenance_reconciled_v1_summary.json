@@ -6,23 +6,23 @@
     "calibration": 45,
     "blind": 17
   },
-  "n_profile_recovered_or_ingested": 33,
+  "n_profile_recovered_or_ingested": 34,
   "profile_recovered_or_ingested_role_counts": {
     "calibration": 25,
-    "blind": 8
+    "blind": 9
   },
   "effective_status_counts": {
     "analytic_profile_recovered": 7,
     "available_nonpublic_request_required": 84,
     "direct_profile_identified_numeric_pending": 4,
     "known_unavailable_in_169_compilation": 3,
-    "raw_source_profile_ingested": 26,
+    "raw_source_profile_ingested": 27,
     "recover_exact_extraction_artifact": 1,
     "source_family_identified_numeric_pending": 5,
-    "vector_profile_candidate_recovered": 19
+    "vector_profile_candidate_recovered": 18
   },
   "base_sha256": "b7ab05eff77556ee6646fd8733c89b419fc3b469bca11109bc101d2424192fdc",
-  "overlay_sha256": "95ba41aecd12e6d8e4dd6cef6de29ce393e7b2ebc2ee409d0f69c2d2ab9e12b4",
-  "output_sha256": "10a89ac264b2f56f244f275c83b1927742454b30134db11c39a6db803c5c9d51",
+  "overlay_sha256": "cba1ae1cafeca04f422784d171e636d3cba82ff50cb4b0b8bab6b125d43001a0",
+  "output_sha256": "5f059893f2bad2bc2eeeb19b6fb288c73d3511d862bc9946a2b7ce4e3fedfa40",
   "boundary": "Original provenance inventory retained unchanged; this reconciled view changes only acquisition/source-status metadata. Frozen roles and all persistence-fit locks remain unchanged."
 }
