@@ -26,7 +26,7 @@ ART={
  'i2':'data/stationary/source_reconstruction/iorio2017_ddo87_ddo126_hi_profiles_v1.csv',
  'u4483':'data/stationary/source_reconstruction/lelli2012b_ugc4483_hi_profile_v1.csv',
  'leroy':'data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv',
- 'n5907':'data/stationary/source_reconstruction/sa87_ngc5907_heroes2015_hi_side_profiles_v1.csv',
+ 'n5907':'data/stationary/source_reconstruction/sa87_ngc5907_heroes2015_hi_m0_mean_v1.csv',
  'vm97':'data/stationary/source_reconstruction/vm97_ngc6015_hi_profile_v1.csv',
  'n300':'data/stationary/source_reconstruction/westmeier2011_ngc300_gas_profile_v1.csv',
  'begum':'data/stationary/source_reconstruction/begum_chengalur_analytic_profile_parameters_v1.csv',
@@ -106,14 +106,18 @@ def main():
  if dict(missing_excluded) not in ({}, {'NGC2841':5,'NGC2976':8}):
   raise RuntimeError(f'unexpected missing-row pattern: {dict(missing_excluded)}')
 
- sides=defaultdict(list)
- for r in read_csv(ART['n5907']):sides[int(r['sample_index'])].append(r)
+ # NGC5907: consume the already-certified Paper-I m=0 artifact directly.
+ # The recovery script verified identical approaching/receding source radius grids
+ # before constructing the arithmetic mean, so no side re-pairing occurs here.
+ n5907=read_csv(ART['n5907'])
+ if len(n5907)!=54:raise RuntimeError(f'NGC5907 m0 row count changed: {len(n5907)}')
  scale=float(mm['NGC5907']['radius_multiplicative_factor_if_source_kpc'])
- if len(sides)!=54 or any(len(v)!=2 for v in sides.values()):raise RuntimeError('NGC5907 side pairing changed')
- for idx in sorted(sides):
-  pair=sides[idx]; rs=[fval(x['radius_kpc_source']) for x in pair]; ss=[fval(x['sigma_hi_msun_pc2']) for x in pair]
-  rmean=sum(rs)/2; smean=sum(ss)/2
-  emit('NGC5907',idx,rmean,'kpc_source',rmean*scale,smean,source_note='deterministic mean of paired approaching/receding Figure 29 side values')
+ for i,r in enumerate(n5907):
+  idx=int(r['sample_index'])
+  if idx!=i:raise RuntimeError(f'NGC5907 m0 sample index changed at row {i}: {idx}')
+  rs=fval(r['radius_kpc_source']); sigma=fval(r['sigma_hi_m0_mean_msun_pc2'])
+  emit('NGC5907',idx,rs,'kpc_source',rs*scale,sigma,
+       source_note='certified Paper-I deterministic arithmetic mean of source-published approaching/receding Figure 29 Sigma_HI on identical native radii; side half-difference retained in source artifact, not treated as measurement uncertainty')
 
  tab_gals=sorted({r['galaxy'] for r in tab})
  expected_tab=sorted(g for g,m in mm.items() if m['acquisition_status']=='raw_source_profile_ingested')
