@@ -27,10 +27,11 @@ def main():
   try:
    page.goto(URL,wait_until='domcontentloaded',timeout=90000);page.wait_for_timeout(10000)
    before=' '.join(page.locator('body').inner_text(timeout=10000).split())[:30000]
-   loc=page.get_by_text(ROOT,exact=True);out['root_text_matches']=loc.count()
-   if loc.count()<1:raise RuntimeError('root folder text not found')
-   try:loc.first.dblclick(timeout=10000)
-   except Exception:loc.first.click(timeout=10000)
+   loc=page.get_by_text(ROOT,exact=True);count=loc.count();out['root_text_matches']=count
+   if count<1:raise RuntimeError('root folder text not found')
+   row=loc.nth(count-1)
+   try:row.dblclick(timeout=10000)
+   except Exception:row.click(timeout=10000)
    page.wait_for_timeout(10000)
    out.update(before_visible_text=before,after_visible_text=' '.join(page.locator('body').inner_text(timeout=10000).split())[:60000],current_url=page.url)
   except Exception as e:out.update(status='FEASTS2024_PUBLIC_RELEASE_FOLDER_OPEN_FAILED',error_type=type(e).__name__,error=str(e))
