@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 import csv,json
+from collections import Counter
 from pathlib import Path
 A=Path('validation/stationary/ri15_ngc5005_fig8_geometry_v1.json')
 D=Path('data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv')
+P=Path('data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv')
 C=Path('validation/stationary/CHECKPOINT_RI15_NGC5005_PUBLIC_ROUTE.md')
+CERT={'raw_source_profile_ingested','analytic_profile_recovered'}
 def main():
  a=json.loads(A.read_text())
- e=a.get('eps_metrics',{})
- f=e.get('f8.eps',{})
+ f=a.get('eps_metrics',{}).get('f8.eps',{})
  if not f or not f.get('raster_signal') or f.get('substantial_path_signal'):
   raise RuntimeError('Ri15 Figure 8 geometry state changed')
  with D.open(newline='',encoding='utf-8-sig') as h:r=list(csv.DictReader(h))
@@ -17,6 +19,18 @@ def main():
  else:r.append(x)
  r.sort(key=lambda z:z['sparc_ref_id'])
  with D.open('w',newline='',encoding='utf-8') as h:w=csv.DictWriter(h,fieldnames=fields);w.writeheader();w.writerows(r)
- C.write_text('# Ri15 / NGC5005 H I checkpoint\n\nStatus: **DEFERRED — FIGURE 8 EXACT PUBLIC ROUTE EXHAUSTED**\n\nNGC5005 is blind. Richards et al. 2015 Figure 8 directly publishes the atomic H I radial mass-surface-density series as filled circles at about 20 arcsec sampling. The source asset f8.eps is raster-wrapped and has no substantial recoverable native path geometry. Reopen only for a machine-readable atomic H I radial series, a source-native vector republication, or a calibrated VLA map/cube under a frozen reconstruction protocol. No raster digitization or blind-outcome inspection. L_A and C_A remain locked.\n')
- print(json.dumps({'status':'RI15_NGC5005_DEFERRED','profile_added':False}))
+ with P.open(newline='',encoding='utf-8-sig') as h:prov=list(csv.DictReader(h))
+ req=[];unavail=[];cert=[]
+ for q in prov:
+  status=q.get('effective_acquisition_status','')
+  if status in CERT:cert.append(q);continue
+  if q.get('expected_in_169_profile_compilation')!='1':unavail.append(q);continue
+  req.append(q)
+ req.sort(key=lambda q:(q['stationary_role'],q['galaxy']))
+ roles=Counter(q['stationary_role'] for q in req)
+ lines=['# Ri15 / NGC5005 H I checkpoint','', 'Status: **DEFERRED — FIGURE 8 EXACT PUBLIC ROUTE EXHAUSTED**','', 'NGC5005 is blind. Richards et al. 2015 Figure 8 directly publishes the atomic H I radial mass-surface-density series as filled circles at about 20 arcsec sampling. The source asset `f8.eps` is raster-wrapped and has no substantial recoverable native path geometry. Reopen only for a machine-readable atomic H I radial series, a source-native vector republication, or a calibrated VLA map/cube under a frozen reconstruction protocol. No raster digitization or blind-outcome inspection. `L_A` and `C_A` remain locked.','', '## Public-route closure / Lelli request manifest','', f'- Frozen stationary sample: **{len(prov)} galaxies**.', f'- Already certified usable numerical H I profiles: **{len(cert)}**.', f'- Reported unavailable in the 169-profile compilation and still unresolved: **{len(unavail)}** — '+', '.join(q['galaxy'] for q in unavail)+'.', f'- Request from the private 169-profile compilation: **{len(req)} galaxies = {roles.get("calibration",0)} calibration + {roles.get("blind",0)} blind**.','- Request only acquisition-level fields: radius, radial H I surface density, units, helium convention, adopted distance, inclination, beam/radial sampling, and original source citation.','- Do not request or inspect persistence predictions, fit outcomes, or blind-sample residuals.','', '| Galaxy | Role | Current status | Public overlay | Current public source family |','|---|---|---|---:|---|']
+ for q in req:
+  fam=(q.get('effective_public_source_family') or '').replace('|','/');lines.append(f"| {q['galaxy']} | {q['stationary_role']} | {q.get('effective_acquisition_status','')} | {q.get('public_overlay_present','0')} | {fam} |")
+ C.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+ print(json.dumps({'status':'RI15_NGC5005_DEFERRED_AND_LELLI_REQUEST_MANIFEST_FROZEN','profile_added':False,'n_request':len(req),'request_roles':dict(roles),'n_certified':len(cert),'n_unavailable_unresolved':len(unavail)},indent=2))
 if __name__=='__main__':main()
