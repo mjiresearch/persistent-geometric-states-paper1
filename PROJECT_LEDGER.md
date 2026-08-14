@@ -3,29 +3,27 @@
 **Canonical cross-session checkpoint**  
 **Repository:** `mjiresearch/persistent-geometric-states-paper1`  
 **Established:** 2026-08-12  
-**Last reconciled:** 2026-08-12 — public radial H I database build through Hunter 2021 and Iorio 2017 DDO87/DDO126 ingestion
+**Last reconciled:** 2026-08-14 — FEASTS 2025 NGC5033 blind promotion and 34-profile common-normalization/radial-support audit
 
 > **Authority rule:** this ledger summarizes project state. Frozen protocol/data/provenance/validation artifacts remain authoritative if any discrepancy is found. The original H I provenance inventory is retained unchanged for auditability; the versioned reconciled provenance view is the current acquisition-status view.
 
 <!-- AUTO-STATIONARY-HI-CHECKPOINT-START -->
 
-## Current stationary H I database checkpoint — 2026-08-12
+## Current stationary H I database checkpoint — 2026-08-14
 
-**Status:** PUBLIC-DATA ACQUISITION IN PROGRESS. `L_A` and `\mathcal C_A` remain **LOCKED**.
+**Status:** PUBLIC EXACT-SOURCE QUEUE EXHAUSTED; AUTHOR REQUEST PENDING; CERTIFIED-SUBSET NORMALIZATION COMPLETE. `L_A` and `\mathcal C_A` remain **LOCKED**.
 
 - Frozen stationary sample remains **149 galaxies = 104 calibration + 45 blind**.
-- Current reconciled public-source overlay covers **61/149 galaxies = 44 calibration + 17 blind**.
-- **31 galaxies now have an actual recovered/ingested profile or analytic model = 23 calibration + 8 blind**.
-- Preferred recovered-source breakdown: **24 machine-readable raw/source profiles + 7 analytic profiles**. An additional **20 WHISP vector-profile candidates** remain candidate-level rather than final frozen source profiles.
-- Lelli et al. (2016) SPARC provenance has been converted into a per-galaxy H I/Halpha source map for **all 149 frozen galaxies**. The current acquisition queue is therefore source-directed rather than a blind literature search.
-- Lelli's `Ref` field identifies the underlying observational/source publication, but it does **not** by itself prove that the cited paper contains a direct machine-readable radial `Sigma_HI(R)` profile; each family is classified separately as direct profile, map/cube, downstream analysis, or unresolved.
-- Current untouched pool after public-source overlay: **88 galaxies** across **35 reference families**; **0** are currently actionable before applying newly landed dispositions.
-- Durable anti-loop dispositions: `VS01` → defer_until_new_mechanism / public_direct_profile_confirmed_numeric_route_exhausted; `SV98` → defer_until_new_mechanism / same_ursa_major_chain_covered_by_vs01_audit; `Sw02` → defer_until_new_mechanism / full_public_atlas_recovered_but_target_figures_raster_dominant; `Sw09` → redirected_to_original_sources / downstream_rotation_curve_analysis_uses_sw02_whisp_hi_observations; `Sa96` → redirected_to_original_sources / downstream_rotation_curve_compilation_mapped_to_original_observing_sources; `No05` → defer_until_new_mechanism / direct_profile_atlas_confirmed_public_numeric_route_exhausted; `No07` → defer_until_new_mechanism / downstream_same_hi_data_as_no05.
-- `dB96` is **partially resolved**: public analytic atomic-H I profiles are recovered for F568-3, F568-V1, F574-1, F583-1 and F583-4; only F565-V2, F571-8 and F571-V1 remain pending.
-- `Sa96` has been decomposed into its original observing citations; do not treat Sanders 1996 itself as an H I profile source again.
-- **Do not retry** a dispositioned source mechanism unless the file's explicit `reopen_rule` is satisfied by a genuinely new public mechanism.
+- Current reconciled public-source overlay covers **62/149 galaxies = 45 calibration + 17 blind**.
+- **34 galaxies have an actual recovered/ingested preferred profile or analytic model = 25 calibration + 9 blind**. The same 34 are certified and common-normalized under the frozen Paper-I convention: **27 tabulated profiles + 7 analytic profiles**, with **781 tabulated rows**.
+- FEASTS 2025 public profiles added NGC2903 and NGC4559 to calibration and NGC5033 to blind. NGC5033 was inspected only after its locked blind source-acquisition protocol was frozen; all source-only QC checks passed and its 50 raw-H I rows were promoted without inspecting a blind outcome.
+- The current author/private-compilation request manifest contains **112 galaxies = 77 calibration + 35 blind**. The request to Dr. Federico Lelli was already sent on 2026-08-14 for the then-current **115 = 79 calibration + 36 blind** set; the three later public FEASTS promotions do not require resending the request.
+- **Three galaxies remain reported unavailable** in the 169-profile compilation: D564-8 and D631-7 (calibration), and NGC4138 (blind).
+- The 34-profile radial-support audit has **7 analytic-defined**, **7 full-measured-support**, **2 inner-and-outer-continuation**, **9 inner-only**, and **9 outer-only** profiles. Across the 27 tabulated profiles, **11 require inner continuation** and **11 require outer continuation**.
+- The public exact-source queue is exhausted. **Do not retry** a dispositioned mechanism unless its explicit `reopen_rule` is satisfied by a genuinely new public route.
+- The next pre-fit construction step is to promote one source-independent interpolation/continuation rule against the completed support audit, then construct the versioned source-profile freeze package. No galaxy-specific rescue or persistence-informed tuning is allowed.
 
-**Current resume point:** No undispositioned multi-galaxy family remains in the current priority list; regenerate the priority queue.
+**Current resume point:** Freeze the interpolation/continuation rule for the 34-profile certified package, then build the versioned source-profile freeze package while the 112-galaxy author request remains pending. Do not inspect blind residuals or persistence outcomes; `L_A` and `\mathcal C_A` remain locked.
 
 <!-- AUTO-STATIONARY-HI-CHECKPOINT-END -->
 
@@ -116,6 +114,7 @@ Current posture:
 | A29 | **RAW PROFILE INGESTED** | **Iorio 2017 — UGC05918/DDO87:** **12 raw-H I rows**, 0.43–5.17 kpc, source `Sigma_HI=0.97–2.79 Msun pc^-2`, source distance 7.4 Mpc, mean inclination 42.7 deg, PA 238.6 deg. |
 | A30 | **RAW PROFILE INGESTED** | **Iorio 2017 — UGC07559/DDO126:** **13 raw-H I rows**, 0.48–3.33 kpc, source `Sigma_HI=1.29–5.06 Msun pc^-2`, source distance 4.9 Mpc, mean inclination 62.2 deg, PA 140.7 deg. Combined DDO87/DDO126 output SHA-256 `639717da95d78ff1002a4e16b73e4d221d963404e052c08b4986a7c14b6289df`. |
 | A31 | **COMPLETE** | Current reconciled acquisition state: **27 public-overlay galaxies = 17 calibration + 10 blind**; **16 unique galaxies = 11 calibration + 5 blind** have an actual preferred analytic or numerical profile. Preferred-source statuses are **14 raw numerical profiles + 2 analytic profiles**. Untouched nonpublic-request-required pool is now **118**. |
+| A32 | **COMPLETE (PR)** | Superseding stationary H I checkpoint: public overlay **62 = 45 calibration + 17 blind**; certified/common-normalized set **34 = 25 calibration + 9 blind**, comprising **27 tabulated profiles / 781 rows + 7 analytic profiles**. The radial-support audit records **11 inner** and **11 outer** continuation requirements without filling them. NGC5033 blind promotion followed a pre-frozen source-only protocol; no blind outcome was inspected. |
 
 ---
 
