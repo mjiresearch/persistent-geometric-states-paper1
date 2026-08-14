@@ -1,0 +1,210 @@
+{
+  "status": "SG06_PROFILE_PANEL_GEOMETRY_AUDIT_COMPLETE",
+  "source": "Spekkens & Giovanelli 2006; arXiv 1503.05981",
+  "targets": [
+    "ESO563-G021",
+    "IC4202",
+    "NGC2955",
+    "NGC6195",
+    "UGC11455"
+  ],
+  "macro_definitions": {},
+  "sigma_hi_text_references": [
+    {
+      "line": 863,
+      "text": "from the gas mass and stellar light surface density profiles. The gas mass surface density was",
+      "figure_refs": []
+    },
+    {
+      "line": 865,
+      "text": "separately and then added together to create a total gas mass surface density distribution. The",
+      "figure_refs": []
+    },
+    {
+      "line": 869,
+      "text": "Figure \\ref{gasmsd} shows the gas mass surface density distributions for the HI and",
+      "figure_refs": [
+        "gasmsd"
+      ]
+    },
+    {
+      "line": 873,
+      "text": "to the total gas mass surface density for radii within 60\\arcsec~(4.8 kpc at 16.5 Mpc). The bump",
+      "figure_refs": []
+    },
+    {
+      "line": 886,
+      "text": "\\caption{Atomic and molecular gas mass surface density distributions for NGC5005. The atomic ",
+      "figure_refs": []
+    },
+    {
+      "line": 890,
+      "text": "dashed line represents the total gas mass surface density when the atomic and molecular distributions are added ",
+      "figure_refs": []
+    }
+  ],
+  "sigma_hi_figure_labels": [],
+  "linked_sigma_hi_figure_environments": [],
+  "eps_metrics": {
+    "f1.eps": {
+      "bytes": 4371736,
+      "image_ops": 2,
+      "colorimage_ops": 5,
+      "imagemask_ops": 2,
+      "moveto_tokens": 2,
+      "lineto_tokens": 4,
+      "curveto_tokens": 1,
+      "stroke_tokens": 2,
+      "show_tokens": 1,
+      "clip_tokens": 2,
+      "bbox_lines": [
+        "%%BoundingBox: 0 0 720 540",
+        "%%HiResBoundingBox: 0.000000 0.000000 720.000000 540.000000"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f2.eps": {
+      "bytes": 127164,
+      "image_ops": 2,
+      "colorimage_ops": 0,
+      "imagemask_ops": 1,
+      "moveto_tokens": 14,
+      "lineto_tokens": 5,
+      "curveto_tokens": 2,
+      "stroke_tokens": 3,
+      "show_tokens": 7,
+      "clip_tokens": 6,
+      "bbox_lines": [
+        "%%BoundingBox: 0 0 720 337"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f3.eps": {
+      "bytes": 290223,
+      "image_ops": 2,
+      "colorimage_ops": 0,
+      "imagemask_ops": 1,
+      "moveto_tokens": 14,
+      "lineto_tokens": 5,
+      "curveto_tokens": 2,
+      "stroke_tokens": 3,
+      "show_tokens": 7,
+      "clip_tokens": 6,
+      "bbox_lines": [
+        "%%BoundingBox: 0 0 413 273"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f4dissver.eps": {
+      "bytes": 83595,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 8,
+      "lineto_tokens": 7,
+      "curveto_tokens": 0,
+      "stroke_tokens": 7,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f5.eps": {
+      "bytes": 222832,
+      "image_ops": 2,
+      "colorimage_ops": 0,
+      "imagemask_ops": 1,
+      "moveto_tokens": 14,
+      "lineto_tokens": 5,
+      "curveto_tokens": 2,
+      "stroke_tokens": 3,
+      "show_tokens": 7,
+      "clip_tokens": 6,
+      "bbox_lines": [
+        "%%BoundingBox: 0 0 720 499"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f6.eps": {
+      "bytes": 94133,
+      "image_ops": 2,
+      "colorimage_ops": 0,
+      "imagemask_ops": 1,
+      "moveto_tokens": 14,
+      "lineto_tokens": 5,
+      "curveto_tokens": 2,
+      "stroke_tokens": 3,
+      "show_tokens": 7,
+      "clip_tokens": 6,
+      "bbox_lines": [
+        "%%BoundingBox: 0 0 720 307"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f7.eps": {
+      "bytes": 62599,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 6,
+      "lineto_tokens": 5,
+      "curveto_tokens": 0,
+      "stroke_tokens": 5,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    },
+    "f8.eps": {
+      "bytes": 37539,
+      "image_ops": 2,
+      "colorimage_ops": 1,
+      "imagemask_ops": 2,
+      "moveto_tokens": 2,
+      "lineto_tokens": 4,
+      "curveto_tokens": 1,
+      "stroke_tokens": 2,
+      "show_tokens": 1,
+      "clip_tokens": 2,
+      "bbox_lines": [
+        "%%BoundingBox: 0 0 528 507",
+        "%%HiResBoundingBox: 0.044531 0.566797 527.133203 506.315625"
+      ],
+      "raster_signal": true,
+      "substantial_path_signal": false
+    },
+    "f9dissver.eps": {
+      "bytes": 38277,
+      "image_ops": 0,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 6,
+      "lineto_tokens": 5,
+      "curveto_tokens": 0,
+      "stroke_tokens": 5,
+      "show_tokens": 2,
+      "clip_tokens": 0,
+      "bbox_lines": [
+        "%%BoundingBox: 18 144 592 718"
+      ],
+      "raster_signal": false,
+      "substantial_path_signal": false
+    }
+  },
+  "n_eps_assets": 9,
+  "n_eps_with_raster_signal": 6,
+  "n_eps_with_substantial_path_signal": 0,
+  "interpretation_rule": "A native radial-profile recovery requires the Sigma_HI panel itself to be represented by substantial recoverable path geometry. An EPS wrapper containing a colorimage/raster payload is not treated as vector profile data merely because the file extension is EPS.",
+  "boundary": "Inert PostScript/source inspection only; no execution, rendering, raster digitization, profile extraction, persistence fitting, or blind outcomes."
+}
