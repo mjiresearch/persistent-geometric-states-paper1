@@ -1,15 +1,15 @@
 {
   "status": "LELLI_HI_PROFILE_REQUEST_MANIFEST_FROZEN",
   "n_frozen": 149,
-  "n_request": 114,
+  "n_request": 113,
   "request_role_counts": {
     "blind": 36,
-    "calibration": 78
+    "calibration": 77
   },
-  "n_already_certified_no_request": 32,
+  "n_already_certified_no_request": 33,
   "certified_role_counts": {
     "blind": 8,
-    "calibration": 24
+    "calibration": 25
   },
   "n_reported_unavailable_in_169_no_request": 3,
   "unavailable_galaxies": [
@@ -18,7 +18,7 @@
     "D631-7"
   ],
   "requested_payload": "radius; radial HI surface density; radius units; surface-density units; helium convention; adopted distance; inclination; beam/radial sampling; original source citation",
-  "source_reconciliation_sha256": "4284e0f2b2bfec2d2ac638289e1e022364bcbac44c3f9af2f5471bdd742c6cc0",
-  "manifest_sha256": "b3ec2c622456b94788528636d323ccd184df0695a196f191f483b83ec1d846da",
+  "source_reconciliation_sha256": "10a89ac264b2f56f244f275c83b1927742454b30134db11c39a6db803c5c9d51",
+  "manifest_sha256": "ca605c21412e10f9f5e7c70ad91ae8543431f6e0c2a569b40eb57bccc1a6a245",
   "boundary": "Acquisition/provenance only. No persistence outcomes, no blind-fit information, no parameter selection. L_A and C_A remain locked."
 }

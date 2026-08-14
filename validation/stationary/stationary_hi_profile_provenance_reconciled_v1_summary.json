@@ -1,28 +1,28 @@
 {
   "status": "RECONCILED_PUBLIC_SOURCE_VIEW_CREATED",
   "n_frozen_galaxies": 149,
-  "n_public_overlay_galaxies": 61,
+  "n_public_overlay_galaxies": 62,
   "overlay_role_counts": {
-    "calibration": 44,
+    "calibration": 45,
     "blind": 17
   },
-  "n_profile_recovered_or_ingested": 32,
+  "n_profile_recovered_or_ingested": 33,
   "profile_recovered_or_ingested_role_counts": {
-    "calibration": 24,
+    "calibration": 25,
     "blind": 8
   },
   "effective_status_counts": {
     "analytic_profile_recovered": 7,
-    "available_nonpublic_request_required": 85,
+    "available_nonpublic_request_required": 84,
     "direct_profile_identified_numeric_pending": 4,
     "known_unavailable_in_169_compilation": 3,
-    "raw_source_profile_ingested": 25,
+    "raw_source_profile_ingested": 26,
     "recover_exact_extraction_artifact": 1,
     "source_family_identified_numeric_pending": 5,
     "vector_profile_candidate_recovered": 19
   },
   "base_sha256": "b7ab05eff77556ee6646fd8733c89b419fc3b469bca11109bc101d2424192fdc",
-  "overlay_sha256": "df7414d75705683e48e297d130b133aaaee1dfef211dac0b48cbe5494653fa96",
-  "output_sha256": "4284e0f2b2bfec2d2ac638289e1e022364bcbac44c3f9af2f5471bdd742c6cc0",
+  "overlay_sha256": "95ba41aecd12e6d8e4dd6cef6de29ce393e7b2ebc2ee409d0f69c2d2ab9e12b4",
+  "output_sha256": "10a89ac264b2f56f244f275c83b1927742454b30134db11c39a6db803c5c9d51",
   "boundary": "Original provenance inventory retained unchanged; this reconciled view changes only acquisition/source-status metadata. Frozen roles and all persistence-fit locks remain unchanged."
 }
