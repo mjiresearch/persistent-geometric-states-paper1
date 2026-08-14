@@ -20,6 +20,7 @@ from astropy.wcs import WCS
 URL='https://things.www3.mpia.de/Data_files/DDO154_NA_MOM0_THINGS.FITS'
 LOCAL=Path('/tmp/DDO154_NA_MOM0_THINGS.FITS')
 LEROY=Path('data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv')
+BLANK_AUDIT=Path('validation/stationary/things_ddo154_zero_blank_semantics_v1.json')
 OUTCSV=Path('data/stationary/source_reconstruction/things_ddo154_mom0_reconstructed_raw_hi_v1.csv')
 OUTJSON=Path('validation/stationary/things_ddo154_mom0_validation_v1.json')
 UA='PersistenceFrameworkPaperI/1.0'
@@ -76,14 +77,22 @@ def linear_integral(r,s,a,b,n=5000):
 
 def main():
  nbytes,sha=download()
+ blank_audit=json.loads(BLANK_AUDIT.read_text())
+ if not blank_audit.get('interpretation_gate',{}).get('zero_as_source_blank_supported'):
+  raise RuntimeError('audited THINGS exact-zero blank-sentinel gate is not PASS')
+ if blank_audit.get('sha256')!=sha:
+  raise RuntimeError('MOM0 SHA256 differs from zero-blank semantics audit')
  with fits.open(LOCAL,memmap=False) as hdul:
   hdr=hdul[0].header.copy();data=np.asarray(hdul[0].data,dtype=float).squeeze()
  if data.ndim!=2:raise RuntimeError(f'expected 2D squeezed MOM0, got {data.shape}')
  if str(hdr.get('BUNIT','')).strip().upper()!='JY/B*M/S':raise RuntimeError(f'unexpected BUNIT {hdr.get("BUNIT")}')
  ny,nx=data.shape
  finite=np.isfinite(data)
- nfinite=int(finite.sum());nnonfinite=int((~finite).sum());nzero=int(np.count_nonzero(finite & (data==0)));nneg=int(np.count_nonzero(finite & (data<0)))
- if nnonfinite==0:raise RuntimeError('no FITS blank/nonfinite pixels found; source blanking semantics ambiguous')
+ source_valid=finite & (data!=0.0)
+ source_blank=finite & (data==0.0)
+ nfinite=int(finite.sum());nnonfinite=int((~finite).sum());nzero=int(source_blank.sum());nneg=int(np.count_nonzero(source_valid & (data<0)))
+ if nzero==0:raise RuntimeError('audited exact-zero THINGS blank sentinel absent')
+ if nneg==0:raise RuntimeError('no negative nonzero source pixels remain; unexpected source-map semantics')
 
  w=WCS(hdr).celestial
  yy,xx=np.indices(data.shape,dtype=float)
@@ -106,10 +115,9 @@ def main():
  nhi_per_kkms=1.823e18
  atoms_per_msun_pc2=1.2488e20
  sigma_factor=jybeam_ms_to_k_kms*nhi_per_kkms/atoms_per_msun_pc2*ci
- sigma=np.where(finite,data*sigma_factor,np.nan)
+ sigma=np.where(source_valid,data*sigma_factor,np.nan)
 
  kpc_per_arcsec=D_MPC*1000.0*math.pi/(180.0*3600.0)
- maxr=float(np.nanmax(rell_arcsec))*kpc_per_arcsec
  nann=int(math.floor(float(np.nanmax(rell_arcsec))/beam_fwhm))
  rows=[];seen_missing=False;interior_missing=False
  for j in range(nann):
@@ -117,7 +125,7 @@ def main():
   geom_area_arcsec2=math.pi*(aout*aout-ain*ain)*ci
   expected_pix=geom_area_arcsec2/pix_area
   inann=(rell_arcsec>=ain)&(rell_arcsec<aout)
-  valid=inann&finite
+  valid=inann&source_valid
   nv=int(valid.sum());frac=(nv/expected_pix) if expected_pix>0 else 0.0
   usable=frac>=VALID_AREA_MIN and nv>0
   if not usable:seen_missing=True
@@ -155,11 +163,12 @@ def main():
  pub_mass=linear_integral(lr,ls,rlo,rhi)
  mass_frac=abs(rec_mass-pub_mass)/pub_mass;mass_pass=mass_frac<=MASS_MAX
 
- # Gate 3: integrate finite MOM0 map without clipping negative finite pixels.
- total_flux=float(np.nansum(data))*pix_area/beam_area/1000.0
+ # Gate 3: integrate source-valid MOM0 pixels; source blanks are exact zero and
+ # all nonzero finite pixels, including negative values, are retained.
+ total_flux=float(np.sum(data[source_valid]))*pix_area/beam_area/1000.0
  flux_frac=abs(total_flux-PUBLISHED_FLUX_JY_KMS)/PUBLISHED_FLUX_JY_KMS;flux_pass=flux_frac<=FLUX_MAX
 
- # Gate 4: first outward crossing of 1 Msun/pc^2 in contiguous usable profile.
+ # Gate 4: last outward crossing of 1 Msun/pc^2 in contiguous usable profile.
  ur=np.array([r['r_center_kpc'] for r in usable]);us=np.array([r['sigma_hi_raw_msun_pc2'] for r in usable])
  crossings=[]
  for i in range(1,len(us)):
@@ -180,12 +189,13 @@ def main():
  result={
   'status':'THINGS_DDO154_MOM0_VALIDATION_PASS' if all_pass else 'THINGS_DDO154_MOM0_VALIDATION_FAIL',
   'galaxy':'DDO154','stationary_role':'calibration','protocol':'validation/stationary/THINGS_MOM0_PROFILE_RECONSTRUCTION_PROTOCOL_V1.md',
+  'blank_semantics_audit':str(BLANK_AUDIT),
   'source':{'url':URL,'bytes':nbytes,'sha256':sha,'bunit':hdr.get('BUNIT'),'map_shape':[ny,nx],'restfreq_hz':float(hdr.get('RESTFREQ',hdr.get('RESTFRQ',1420405750.0))),
-            'n_finite_pixels':nfinite,'n_blank_nonfinite_pixels':nnonfinite,'n_exact_zero_finite_pixels':nzero,'n_negative_finite_pixels':nneg},
+            'n_finite_pixels':nfinite,'n_blank_nonfinite_pixels':nnonfinite,'n_exact_zero_source_blank_pixels':nzero,'n_source_valid_nonzero_pixels':int(source_valid.sum()),'n_negative_source_valid_pixels':nneg},
   'geometry':{'distance_mpc':D_MPC,'inclination_deg':INC_DEG,'pa_deg':PA_DEG,'center_ra_deg':CENTER_RA_DEG,'center_dec_deg':CENTER_DEC_DEG},
   'beam':{'major_arcsec':BMAJ_ARCSEC,'minor_arcsec':BMIN_ARCSEC,'geometric_mean_arcsec':beam_fwhm,'beam_area_arcsec2':beam_area,'pixel_arcsec':pix_arcsec,
           'source':'Ianjamasimanana, de Blok & Heald 2017 AJ 153:213 Table 1; THINGS natural-weighted cube'},
-  'conversion':{'jybeam_ms_to_k_kms':jybeam_ms_to_k_kms,'sigma_hi_raw_per_mom0':sigma_factor,'helium_factor_applied':0},
+  'conversion':{'jybeam_ms_to_k_kms':jybeam_ms_to_k_kms,'sigma_hi_raw_per_mom0':sigma_factor,'helium_factor_applied':0,'inclination_rule':'multiply observed line-of-sight column surface density by cos(i); Leroy published coefficient 0.020 includes 1.36 helium'},
   'profile':{'n_annuli_total':len(rows),'n_annuli_usable_contiguous':len(usable),'max_usable_radius_kpc':float(usable[-1]['r_out_kpc']),'interior_missing':interior_missing,'valid_area_threshold':VALID_AREA_MIN,'csv':str(OUTCSV)},
   'gates':{
    'overlap_profile_amplitude':{'threshold_median_abs_fractional_difference':AMP_MAX,'n_independent_samples':len(overlap),'median_abs_fractional_difference':med_abs,'pass':amp_pass,'samples':cmp},
