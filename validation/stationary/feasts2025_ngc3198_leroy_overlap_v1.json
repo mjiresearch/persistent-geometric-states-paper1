@@ -1,0 +1,64 @@
+{
+  "status": "FEASTS2025_NGC3198_PROFILE_EXTRACTED_AND_COMPARED",
+  "source_file": "data/stationary/source_reconstruction/feasts2025_HIprof_wang25.ecsv",
+  "normalized_profile_csv": "data/stationary/source_reconstruction/feasts2025_ngc3198_hi_profile_raw_v1.csv",
+  "source_distance_mpc": 13.8,
+  "helium_included": false,
+  "n_finite_profile_points": 31,
+  "radius_kpc_min": 3.009166666666667,
+  "radius_kpc_max": 76.87249145766293,
+  "sigma_hi_min": 0.001258406687652211,
+  "sigma_hi_max": 6.213192718690598,
+  "r1_kpc": 32.92832953421632,
+  "r1_kpc_corrected": 32.476535915701874,
+  "r001_kpc": 63.70522898882673,
+  "r001_kpc_corrected": 60.65246289546632,
+  "leroy_overlap": {
+    "leroy_n_points": 23,
+    "leroy_radius_min_kpc": 0.3,
+    "leroy_radius_max_kpc": 15.1,
+    "n_feasts_points_in_overlap": 5,
+    "median_abs_fractional_difference": 0.18878449139561176,
+    "median_ratio_feasts_over_leroy": 1.1887844913956118,
+    "inner_to_outer_ratio_drift": 0.24292503515894515,
+    "samples": [
+      {
+        "radius_kpc": 3.009166666666667,
+        "feasts2025_raw_hi": 6.213192718690598,
+        "leroy2008_raw_hi_interp": 3.612570028011205,
+        "ratio_feasts_over_leroy": 1.7198815996685577,
+        "abs_fractional_difference": 0.7198815996685577
+      },
+      {
+        "radius_kpc": 7.219251267644008,
+        "feasts2025_raw_hi": 5.79647962281211,
+        "leroy2008_raw_hi_interp": 4.875971771811345,
+        "ratio_feasts_over_leroy": 1.1887844913956118,
+        "abs_fractional_difference": 0.18878449139561176
+      },
+      {
+        "radius_kpc": 9.621087136265349,
+        "feasts2025_raw_hi": 5.567584993611753,
+        "leroy2008_raw_hi_interp": 5.0818185781233876,
+        "ratio_feasts_over_leroy": 1.0955890904054566,
+        "abs_fractional_difference": 0.0955890904054566
+      },
+      {
+        "radius_kpc": 12.02292300488669,
+        "feasts2025_raw_hi": 5.109288235045503,
+        "leroy2008_raw_hi_interp": 4.666273424883055,
+        "ratio_feasts_over_leroy": 1.094939745236543,
+        "abs_fractional_difference": 0.09493974523654296
+      },
+      {
+        "radius_kpc": 14.424758873508036,
+        "feasts2025_raw_hi": 4.477532477778868,
+        "leroy2008_raw_hi_interp": 3.3719500531478834,
+        "ratio_feasts_over_leroy": 1.3278762755097362,
+        "abs_fractional_difference": 0.3278762755097361
+      }
+    ]
+  },
+  "interpretation_boundary": "Source-profile compatibility diagnostic only. No acceptance threshold is introduced here and no profile is promoted by this script.",
+  "science_boundary": "No rotation residuals, persistence parameters, L_A, C_A, tau_A, or blind outcomes read."
+}
