@@ -1,0 +1,23 @@
+{
+  "status": "THINGS_REMAINING_CALIBRATION_DIAGNOSTICS_PERSISTED",
+  "reconstruction_logic": "scripts/stationary/validate_things_remaining_calibration_mom0_v1.py unchanged",
+  "results": [
+    {
+      "galaxy": "NGC2841",
+      "status": "VALIDATION_RUNTIME_FAIL_CLOSED",
+      "error_type": "RuntimeError",
+      "error": "NGC2841 zero-mask topology failed: {'exact_zero': 667733, 'boundary_connected_zero': 664437, 'boundary_connected_fraction': 0.9950638952994685, 'all_border_zero': False, 'negative_nonzero': 5565, 'zero_as_blank_supported': False}",
+      "all_five_gates_pass": false
+    },
+    {
+      "galaxy": "NGC3198",
+      "status": "THINGS_NGC3198_MOM0_VALIDATION_FAIL_CLOSED",
+      "n_gates_pass": 1,
+      "all_five_gates_pass": false,
+      "output_json": "validation/stationary/things_ngc3198_mom0_validation_v1.json",
+      "output_csv": "data/stationary/source_reconstruction/things_ngc3198_mom0_reconstructed_raw_hi_v1.csv"
+    }
+  ],
+  "n_full_pass": 0,
+  "boundary": "Calibration/source-profile diagnostics only; no blind outcomes or persistence quantities evaluated."
+}

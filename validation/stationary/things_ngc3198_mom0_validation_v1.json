@@ -1,0 +1,222 @@
+{
+  "status": "THINGS_NGC3198_MOM0_VALIDATION_FAIL_CLOSED",
+  "galaxy": "NGC3198",
+  "stationary_role": "calibration",
+  "protocol": "validation/stationary/THINGS_MOM0_PROFILE_RECONSTRUCTION_PROTOCOL_V2.md",
+  "source": {
+    "url": "https://things.www3.mpia.de/Data_files/NGC_3198_NA_MOM0_THINGS.FITS",
+    "bytes": 4282560,
+    "sha256": "6d98f314fa8b03bc2c048c84bdc629eccfa3f97b1f06ca4d52ce05162386448e",
+    "bunit": "JY/B*M/S",
+    "shape": [
+      1024,
+      1024
+    ]
+  },
+  "source_metadata": {
+    "ra_deg": 154.97916666666666,
+    "dec_deg": 45.54972222222222,
+    "distance_mpc": 13.8,
+    "inclination_deg": 72.0,
+    "pa_deg": 215.0,
+    "beam_major_arcsec": 13.01,
+    "beam_minor_arcsec": 11.56,
+    "beam_pa_deg": -58.5,
+    "published_flux_jy_kms": 227.0,
+    "published_mhi_1e8_msun": 101.7,
+    "wang_things": null,
+    "walter_geometry_line": 940,
+    "walter_beam_line": 1350,
+    "walter_flux_line": 1479
+  },
+  "blank_semantics": {
+    "exact_zero": 837682,
+    "boundary_connected_zero": 836751,
+    "boundary_connected_fraction": 0.998888599731163,
+    "all_border_zero": true,
+    "negative_nonzero": 11143,
+    "zero_as_blank_supported": true
+  },
+  "conversion": {
+    "sigma_hi_raw_per_mom0": 0.018167173896701104,
+    "helium_factor_applied": 0
+  },
+  "profile": {
+    "n_annuli_total": 283,
+    "n_annuli_usable_contiguous": 56,
+    "max_usable_radius_kpc": 45.94725234007068,
+    "interior_missing": false,
+    "csv": "data/stationary/source_reconstruction/things_ngc3198_mom0_reconstructed_raw_hi_v1.csv"
+  },
+  "gates": {
+    "overlap_profile_amplitude": {
+      "threshold": 0.15,
+      "n_independent_samples": 18,
+      "median_abs_fractional_difference": 0.28704874354188054,
+      "pass": false,
+      "samples": [
+        {
+          "r_kpc": 0.41024332446491685,
+          "reconstructed_raw_hi": 2.1147780309723387,
+          "leroy_raw_hi_interp": 2.8601152025993257,
+          "ratio": 0.7394030943405319,
+          "abs_fractional_difference": 0.2605969056594681
+        },
+        {
+          "r_kpc": 1.2307299733947505,
+          "reconstructed_raw_hi": 1.8306741449627684,
+          "leroy_raw_hi_interp": 2.499179613464732,
+          "ratio": 0.732510034532819,
+          "abs_fractional_difference": 0.26748996546718096
+        },
+        {
+          "r_kpc": 2.051216622324584,
+          "reconstructed_raw_hi": 2.042558020891863,
+          "leroy_raw_hi_interp": 2.8622650872086908,
+          "ratio": 0.7136159505351007,
+          "abs_fractional_difference": 0.2863840494648992
+        },
+        {
+          "r_kpc": 2.8717032712544177,
+          "reconstructed_raw_hi": 2.4081803050807116,
+          "leroy_raw_hi_interp": 3.49512879937346,
+          "ratio": 0.6890104609342019,
+          "abs_fractional_difference": 0.31098953906579807
+        },
+        {
+          "r_kpc": 3.692189920184252,
+          "reconstructed_raw_hi": 2.8910532599611916,
+          "leroy_raw_hi_interp": 4.33003142876497,
+          "ratio": 0.6676748904766703,
+          "abs_fractional_difference": 0.3323251095233297
+        },
+        {
+          "r_kpc": 4.5126765691140855,
+          "reconstructed_raw_hi": 3.113105628932856,
+          "leroy_raw_hi_interp": 4.581163505159043,
+          "ratio": 0.6795447543898085,
+          "abs_fractional_difference": 0.32045524561019145
+        },
+        {
+          "r_kpc": 5.333163218043919,
+          "reconstructed_raw_hi": 3.3193972059494152,
+          "leroy_raw_hi_interp": 4.702345213874772,
+          "ratio": 0.7059024922617716,
+          "abs_fractional_difference": 0.2940975077382284
+        },
+        {
+          "r_kpc": 6.153649866973752,
+          "reconstructed_raw_hi": 3.4337519648660533,
+          "leroy_raw_hi_interp": 4.827064061656906,
+          "ratio": 0.7113541318296501,
+          "abs_fractional_difference": 0.2886458681703499
+        },
+        {
+          "r_kpc": 6.974136515903586,
+          "reconstructed_raw_hi": 3.5247014217906263,
+          "leroy_raw_hi_interp": 4.852941176470588,
+          "ratio": 0.7263021111568564,
+          "abs_fractional_difference": 0.2736978888431436
+        },
+        {
+          "r_kpc": 7.794623164833419,
+          "reconstructed_raw_hi": 3.5205692762915777,
+          "leroy_raw_hi_interp": 4.936409996306031,
+          "ratio": 0.7131841315705255,
+          "abs_fractional_difference": 0.2868158684294745
+        },
+        {
+          "r_kpc": 8.615109813763253,
+          "reconstructed_raw_hi": 3.581564877444734,
+          "leroy_raw_hi_interp": 5.052722993569424,
+          "ratio": 0.7088385573487749,
+          "abs_fractional_difference": 0.29116144265122507
+        },
+        {
+          "r_kpc": 9.435596462693088,
+          "reconstructed_raw_hi": 3.5342914353423294,
+          "leroy_raw_hi_interp": 5.101302892574255,
+          "ratio": 0.6928213261923819,
+          "abs_fractional_difference": 0.3071786738076181
+        },
+        {
+          "r_kpc": 10.256083111622921,
+          "reconstructed_raw_hi": 3.386065528430345,
+          "leroy_raw_hi_interp": 4.781468953979559,
+          "ratio": 0.7081642819435571,
+          "abs_fractional_difference": 0.2918357180564429
+        },
+        {
+          "r_kpc": 11.076569760552754,
+          "reconstructed_raw_hi": 3.1879956079260054,
+          "leroy_raw_hi_interp": 4.435893832106959,
+          "ratio": 0.7186816746720406,
+          "abs_fractional_difference": 0.28131832532795936
+        },
+        {
+          "r_kpc": 11.897056409482587,
+          "reconstructed_raw_hi": 3.3163157922842634,
+          "leroy_raw_hi_interp": 4.653052143853213,
+          "ratio": 0.7127183813457134,
+          "abs_fractional_difference": 0.2872816186542866
+        },
+        {
+          "r_kpc": 12.71754305841242,
+          "reconstructed_raw_hi": 3.2595005810163875,
+          "leroy_raw_hi_interp": 4.5113094004825856,
+          "ratio": 0.7225176310602219,
+          "abs_fractional_difference": 0.2774823689397781
+        },
+        {
+          "r_kpc": 13.538029707342256,
+          "reconstructed_raw_hi": 2.9136367817682864,
+          "leroy_raw_hi_interp": 3.886109489628356,
+          "ratio": 0.7497567398820071,
+          "abs_fractional_difference": 0.2502432601179929
+        },
+        {
+          "r_kpc": 14.358516356272089,
+          "reconstructed_raw_hi": 2.677095977968573,
+          "leroy_raw_hi_interp": 3.4041405691848268,
+          "ratio": 0.7864234521342472,
+          "abs_fractional_difference": 0.21357654786575275
+        }
+      ]
+    },
+    "overlap_annular_hi_mass": {
+      "threshold": 0.1,
+      "range_kpc": [
+        0.3,
+        15.1
+      ],
+      "reconstructed_msun": 2255565456.3958387,
+      "published_leroy_msun": 3131515674.324537,
+      "fractional_difference": 0.27972084735537506,
+      "pass": false
+    },
+    "global_hi_flux": {
+      "threshold": 0.1,
+      "reconstructed_jy_kms": 155.6795023740374,
+      "published_walter_jy_kms": 227.0,
+      "fractional_difference": 0.3141872142112889,
+      "pass": false
+    },
+    "hi_radial_extent": {
+      "status": "not_evaluated_fail_closed",
+      "reason": "No Wang Sample=THINGS row in frozen calibration metadata; protocol v2 requires a documented priority-2 product-matched comparator before gate 4 can pass.",
+      "reconstructed_rhi_kpc": 29.739405380088737,
+      "pass": false
+    },
+    "no_systematic_radial_drift": {
+      "threshold": 0.15,
+      "inner_median_ratio": 0.7113541318296501,
+      "outer_median_ratio": 0.7131841315705255,
+      "absolute_ratio_difference": 0.0018299997408753876,
+      "pass": true
+    }
+  },
+  "n_gates_pass": 1,
+  "n_gates_fail_or_unavailable": 4,
+  "all_five_gates_pass": false,
+  "boundary": "Calibration/source-profile validation only. No rotation velocities, residuals, L_A, C_A, tau_A, persistence prediction, or blind outcomes evaluated."
+}
