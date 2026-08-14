@@ -1,0 +1,55 @@
+{
+  "status": "HI_INTERPOLATION_RULE_V1_MOCK_VALIDATED",
+  "rule": {
+    "interior": "piecewise_linear_in_surface_density_vs_radius",
+    "inner": "constant_equal_first_measured_value_to_R0",
+    "outer": "zero_beyond_last_measured_radius",
+    "negative_sigma": "reject"
+  },
+  "n_tests": 8,
+  "n_pass": 8,
+  "all_pass": true,
+  "tests": [
+    {
+      "name": "inner_constant",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "node_exactness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "linear_segment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "outer_zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nonnegative_dense",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reject_duplicate_radius",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reject_negative_sigma",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "constant_profile_mass",
+      "pass": true,
+      "detail": "relerr=3.770e-16"
+    }
+  ],
+  "boundary": "Synthetic numerical validation only; no L_A, C_A, tau_A, persistence prediction, or blind outcome evaluated."
+}
