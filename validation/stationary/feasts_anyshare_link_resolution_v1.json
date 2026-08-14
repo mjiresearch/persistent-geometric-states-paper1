@@ -1,0 +1,22 @@
+{
+  "status": "FEASTS_ANYSHARE_LINK_RESOLUTION",
+  "link_id": "AAF401EFBFF9A2493CAA7678F24E9BCF28",
+  "api_url": "https://disk.pku.edu.cn/api/shared-link/v1/links/AAF401EFBFF9A2493CAA7678F24E9BCF28",
+  "http_status": 200,
+  "final_url": "https://disk.pku.edu.cn/api/shared-link/v1/links/AAF401EFBFF9A2493CAA7678F24E9BCF28",
+  "content_type": "application/json",
+  "body_text": "{\"verify_mobile\":false,\"type\":\"anonymous\",\"id\":\"AAF401EFBFF9A2493CAA7678F24E9BCF28\",\"item\":{\"belongs_to\":\"document\",\"type\":\"\"},\"title\":\"diffuseHI(Wang+24)\",\"expires_at\":\"1970-01-01T08:00:00+08:00\",\"password_required\":false}",
+  "json": {
+    "verify_mobile": false,
+    "type": "anonymous",
+    "id": "AAF401EFBFF9A2493CAA7678F24E9BCF28",
+    "item": {
+      "belongs_to": "document",
+      "type": ""
+    },
+    "title": "diffuseHI(Wang+24)",
+    "expires_at": "1970-01-01T08:00:00+08:00",
+    "password_required": false
+  },
+  "boundary": "Official public shared-link resolution only; no science fitting or blind outcomes."
+}
