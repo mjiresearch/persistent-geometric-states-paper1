@@ -1,0 +1,404 @@
+{
+  "status": "FEASTS2025_ARXIV_SOURCE_PROFILE_AUDITED",
+  "source_candidates": [
+    "https://export.arxiv.org/e-print/2501.01289",
+    "https://arxiv.org/e-print/2501.01289"
+  ],
+  "source_url": "https://export.arxiv.org/e-print/2501.01289",
+  "final_url": "https://export.arxiv.org/src/2501.01289",
+  "content_type": "application/gzip",
+  "source_bytes": 1384545,
+  "files": [
+    {
+      "name": "aas_macros.sty",
+      "bytes": 5855
+    },
+    {
+      "name": "aastex62.cls",
+      "bytes": 203680
+    },
+    {
+      "name": "apj.bst",
+      "bytes": 32355
+    },
+    {
+      "name": "apjfonts.sty",
+      "bytes": 13120
+    },
+    {
+      "name": "approx_profile.pdf",
+      "bytes": 22103
+    },
+    {
+      "name": "cgprofiles.pdf",
+      "bytes": 54887
+    },
+    {
+      "name": "deblend_atlas.pdf",
+      "bytes": 806482
+    },
+    {
+      "name": "fullprof.bbl",
+      "bytes": 17694
+    },
+    {
+      "name": "fullprof.fdb_latexmk",
+      "bytes": 25557
+    },
+    {
+      "name": "fullprof.fls",
+      "bytes": 36436
+    },
+    {
+      "name": "fullprof.out",
+      "bytes": 3560
+    },
+    {
+      "name": "fullprof.tex",
+      "bytes": 59466
+    },
+    {
+      "name": "mock_dr001.pdf",
+      "bytes": 26105
+    },
+    {
+      "name": "mock_dr1.pdf",
+      "bytes": 31062
+    },
+    {
+      "name": "ms.pdf",
+      "bytes": 80442
+    },
+    {
+      "name": "profiles.pdf",
+      "bytes": 94917
+    },
+    {
+      "name": "r1distr.pdf",
+      "bytes": 11411
+    },
+    {
+      "name": "radius.pdf",
+      "bytes": 25349
+    },
+    {
+      "name": "ratio_lgrt_lgfhi.pdf",
+      "bytes": 20665
+    },
+    {
+      "name": "ratio_lgrt_lgmhalo.pdf",
+      "bytes": 17721
+    },
+    {
+      "name": "ratio_lgrt_lgmhi.pdf",
+      "bytes": 18078
+    },
+    {
+      "name": "ratio_lgrt_lgm.pdf",
+      "bytes": 18047
+    },
+    {
+      "name": "ratio_lgrt_lgsfr.pdf",
+      "bytes": 17902
+    },
+    {
+      "name": "ratio_lgrt_lgssfr.pdf",
+      "bytes": 18823
+    },
+    {
+      "name": "scenario.png",
+      "bytes": 175305
+    },
+    {
+      "name": "test_rHI.pdf",
+      "bytes": 30392
+    }
+  ],
+  "n_files": 26,
+  "numeric_assets": [],
+  "n_numeric_assets": 0,
+  "profile_context_hits": [
+    {
+      "file": "fullprof.tex",
+      "line": 101,
+      "context": "\n\\begin{abstract}\nWe present the $\\hi$ surface density ($\\SHI$) radial distributions based on total-power $\\hi$ images obtained by FAST in the FEASTS program, for 35 galaxies with inclinations lower than 72$\\degree$. \nWe derive the $\\hi$ radius $R_{001}$, which is the radius for the 0.01 $\\,\\Msunpcsq$ ($\\sim10^{18.1}\\,\\cmsq$) iso-density level, 100 times deeper than the 1 $\\,\\Msunpcsq$ level previously commonly used to measure $R_1$.\nThe profile shapes show a large diversity at a given radius in units of kpc, group virial radius, and $R_1$, but align more tightly with radius normalized by $R_{001}$."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 103,
+      "context": "We present the $\\hi$ surface density ($\\SHI$) radial distributions based on total-power $\\hi$ images obtained by FAST in the FEASTS program, for 35 galaxies with inclinations lower than 72$\\degree$. \nWe derive the $\\hi$ radius $R_{001}$, which is the radius for the 0.01 $\\,\\Msunpcsq$ ($\\sim10^{18.1}\\,\\cmsq$) iso-density level, 100 times deeper than the 1 $\\,\\Msunpcsq$ level previously commonly used to measure $R_1$.\nThe profile shapes show a large diversity at a given radius in units of kpc, group virial radius, and $R_1$, but align more tightly with radius normalized by $R_{001}$.\nThe universal $\\hi$ profile has a scatter of $\\sim0.2$ dex, and a scale-length of $\\sim0.11R_{001}$ in the outer region.\nWe derive a new $R_{001}$-$\\MHI$ relation, which has a scatter of 0.02 dex, and similar slope of $\\sim$0.5 as the previously known $R_1$-$\\MHI$ relation. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 104,
+      "context": "We derive the $\\hi$ radius $R_{001}$, which is the radius for the 0.01 $\\,\\Msunpcsq$ ($\\sim10^{18.1}\\,\\cmsq$) iso-density level, 100 times deeper than the 1 $\\,\\Msunpcsq$ level previously commonly used to measure $R_1$.\nThe profile shapes show a large diversity at a given radius in units of kpc, group virial radius, and $R_1$, but align more tightly with radius normalized by $R_{001}$.\nThe universal $\\hi$ profile has a scatter of $\\sim0.2$ dex, and a scale-length of $\\sim0.11R_{001}$ in the outer region.\nWe derive a new $R_{001}$-$\\MHI$ relation, which has a scatter of 0.02 dex, and similar slope of $\\sim$0.5 as the previously known $R_1$-$\\MHI$ relation. \nExcluding strongly tidal-interacting galaxies, the ratio $R_{001}/R_1$ (anti-)correlate strongly and significantly with the $\\hi$-to-stellar mass ratio and sSFR, but not with the stellar mass, $\\MHI$, dark matter mass, or SFR. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 107,
+      "context": "We derive a new $R_{001}$-$\\MHI$ relation, which has a scatter of 0.02 dex, and similar slope of $\\sim$0.5 as the previously known $R_1$-$\\MHI$ relation. \nExcluding strongly tidal-interacting galaxies, the ratio $R_{001}/R_1$ (anti-)correlate strongly and significantly with the $\\hi$-to-stellar mass ratio and sSFR, but not with the stellar mass, $\\MHI$, dark matter mass, or SFR. \nThe strongly tidal-interacting galaxies tend to show deviations from these trends, and have the most flattened profiles. \nThese results imply that in absence of major tidal interactions, physical processes must cooperate so that $\\SHI$ distributes in a self-similar way in the outer region down to the 0.01$\\,\\Msunpcsq$ level.\nMoreover, they may drive gas flows in such a way, that $\\hi$-richer galaxies have $\\hi$ disks not only extend further, but also transport $\\hi$ inward more efficiently from $R_{001}$ to $R_1$. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 123,
+      "context": "$\\hi$ images are conventionally obtained with interferometric observation of the 21-cm emission lines, typically reaching a depth of $\\sim10^{20}\\,\\cmsq$.\nBased on them, it was revealed that $\\hi$ disks show the following self-similar structures \\citep{Wang16}. \nThe relation between the $\\hi$ mass and the semi-major axes of $\\hi$ surface density ($\\SHI$) contour at the $1\\,\\Msunpcsq$ ($\\sim1.25\\times10^{20}\\,\\cmsq$) level ($R_1$), is remarkably tight with a scatter of 0.06 dex.\nThe $\\SHI$ radial profiles in the outer region show homogeneous shapes when the radius is normalized by $R_1$. \nThese features are useful constraints to baryonic models in cosmological simulations \\citep[e.g.,][]{Gensior24}."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 124,
+      "context": "Based on them, it was revealed that $\\hi$ disks show the following self-similar structures \\citep{Wang16}. \nThe relation between the $\\hi$ mass and the semi-major axes of $\\hi$ surface density ($\\SHI$) contour at the $1\\,\\Msunpcsq$ ($\\sim1.25\\times10^{20}\\,\\cmsq$) level ($R_1$), is remarkably tight with a scatter of 0.06 dex.\nThe $\\SHI$ radial profiles in the outer region show homogeneous shapes when the radius is normalized by $R_1$. \nThese features are useful constraints to baryonic models in cosmological simulations \\citep[e.g.,][]{Gensior24}.\nOne question is whether the self-similar behavior extends to lower surface densities."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 142,
+      "context": "In this Letter, we use observations from FEASTS (FAST Extended Atlas of Selected Targets Survey, \\citealt{Wang23}, hereafter W23) that directly maps $\\hi$ down to a 3-$\\sigma$ limit of $10^{17.7}\\,\\cmsq$.\nPrevious studies of FEASTS reveal that the $\\hi$ of relatively isolated galaxies distributes in surprisingly flat disks at the data depth (Yang et al. in prep, \\citetalias{Wang24}). \nThis study thus focuses on the disk aspect of $\\hi$ distribution: radial profiles of projection-corrected surface densities, and characteristic sizes based on them, for moderately inclined galaxies. \nDirectly depicting $\\hi$ disks at this new surface density limit, not only constrains disk formation, but also provides benchmark for further characterizing the column density distribution or coverage fraction, with random inclinations and environments for central galaxies. \nWe assume a Kroupa IMF \\citep{Kroupa01}, and do not include helium in calculations of the $\\hi$ mass."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 143,
+      "context": "Previous studies of FEASTS reveal that the $\\hi$ of relatively isolated galaxies distributes in surprisingly flat disks at the data depth (Yang et al. in prep, \\citetalias{Wang24}). \nThis study thus focuses on the disk aspect of $\\hi$ distribution: radial profiles of projection-corrected surface densities, and characteristic sizes based on them, for moderately inclined galaxies. \nDirectly depicting $\\hi$ disks at this new surface density limit, not only constrains disk formation, but also provides benchmark for further characterizing the column density distribution or coverage fraction, with random inclinations and environments for central galaxies. \nWe assume a Kroupa IMF \\citep{Kroupa01}, and do not include helium in calculations of the $\\hi$ mass.\n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 153,
+      "context": "The parent sample used here is 55 galaxies already observed in the FEASTS program, during the period 2021.09-2024.06. \nThe RFI (radio frequency interference) contamination incidence is less than 6.6\\% for 95\\% of the observations.\nAssuming a line width of 20 $\\kms$, the median 3-$\\sigma$ depth in column density is 10$^{17.7}\\,\\cmsq$, corresponding to a face-on surface density of 0.004 $\\Msunpcsq$.\n\nThe majority of the galaxies are within a distance of 20 Mpc, and have an integral $\\hi$ flux above 100 Jy $\\kms$. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 172,
+      "context": "The remaining are less interacting galaxies.\n\nWe derive the $\\hi$ surface density ($\\SHI$) radial profiles for each galaxy using elliptical annulus around galaxy center with geometry set by the $\\hi$ contour shape at $10^{20}\\,\\cmsq$. \nThe axis ratios of the less interacting subset have 10, 50, and 90 percentiles of 0.51, 0.80, and 0.92.\nWe do not use the optical geometry, because $\\hi$ disks typically warp outside the optical disks \\citep{GarciaRuiz02, Kamphuis15, Wang17}, reflecting recent interactions with the external environment including the CGM."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 179,
+      "context": "The $\\SHI$ values are deprojected by multiplying with the axis ratio ($\\cos i$) of annulus, with a thin disk assumption.\nSuch a thin disk assumption may be less appropriate for dwarf irregular galaxies that are less confined by the disk gravity and more susceptible to perturbations \\citep{Roychowdhury10}. We leave such a possible caveat to future quantification with high-resolution observations (e.g., with MeerKAT).\nWe derive characteristic radius at the $\\SHI$ levels of 1 and 0.01$\\,\\Msunpcsq$, and refer to them as $R_1$ and $R_{001}$ \\footnote{For three galaxies (all in the strongly interacting subset) that the radial profiles don't reach 0.01$\\,\\Msunpcsq$, localized linear extrapolation is conducted in the logarithm space to derive $R_{001}$.}.\nThe procedure is the same as the one used in \\citep{Wang16}. \n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 202,
+      "context": "\n\\section{Results}\n\\subsection{The $\\SHI$ Radial Profiles}\n\\label{sec:profile}\nWe show all the $\\SHI$ radial profiles in Figure~\\ref{fig:profile}, with radius normalized to different units. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 203,
+      "context": "\\section{Results}\n\\subsection{The $\\SHI$ Radial Profiles}\n\\label{sec:profile}\nWe show all the $\\SHI$ radial profiles in Figure~\\ref{fig:profile}, with radius normalized to different units. \n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 204,
+      "context": "\\subsection{The $\\SHI$ Radial Profiles}\n\\label{sec:profile}\nWe show all the $\\SHI$ radial profiles in Figure~\\ref{fig:profile}, with radius normalized to different units. \n\nIn unit of kpc (Figure~\\ref{fig:profile}-a), most MW-like galaxies have profiles extending beyond 50 kpc down to the data depth of $\\log\\,(\\SHI/\\Msunpcsq)=-2.4$."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 206,
+      "context": "We show all the $\\SHI$ radial profiles in Figure~\\ref{fig:profile}, with radius normalized to different units. \n\nIn unit of kpc (Figure~\\ref{fig:profile}-a), most MW-like galaxies have profiles extending beyond 50 kpc down to the data depth of $\\log\\,(\\SHI/\\Msunpcsq)=-2.4$.\nThe most extended of them go near 100 kpc.  \nPossibly due to selection bias, these profiles are systematically higher than the median distribution predicted by simulations in \\citet{Peroux20}."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 208,
+      "context": "In unit of kpc (Figure~\\ref{fig:profile}-a), most MW-like galaxies have profiles extending beyond 50 kpc down to the data depth of $\\log\\,(\\SHI/\\Msunpcsq)=-2.4$.\nThe most extended of them go near 100 kpc.  \nPossibly due to selection bias, these profiles are systematically higher than the median distribution predicted by simulations in \\citet{Peroux20}.\nThe dwarf galaxies on average have the least extended profiles here, but do not differ significantly from the MW-like galaxies in other panels. \n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 209,
+      "context": "The most extended of them go near 100 kpc.  \nPossibly due to selection bias, these profiles are systematically higher than the median distribution predicted by simulations in \\citet{Peroux20}.\nThe dwarf galaxies on average have the least extended profiles here, but do not differ significantly from the MW-like galaxies in other panels. \n\nNormalizing by the group virial radius $r_{\\rm vir}$ reflects connection to the dark matter halo mass and CGM properties."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 212,
+      "context": "\nNormalizing by the group virial radius $r_{\\rm vir}$ reflects connection to the dark matter halo mass and CGM properties.\nWhen normalized by $r_{\\rm vir}$ (Figure~\\ref{fig:profile}-b), the scatter of profiles is the largest among the first four panels. \nGalaxies have $r/r_{\\rm vir}$ ranging between 0.05 to 0.5 when reaching the data depth, and the $\\SHI$ at $r/r_{\\rm vir}=0.2$ span $\\gtrsim$3 index. \nThese conclusions do not significant change, if we only select central galaxies ($20/24$ and $4/11$ for the less and strongly interacting subsets, respectively)."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 217,
+      "context": "\nThe $R_1$ and $R_{001}$ are characteristic radius for $\\hi$ disks. \nWhen normalized by $R_1$ (Figure~\\ref{fig:profile}-c), all $\\SHI$ profiles align around the median profile derived with interferometric data \\citep{Wang16} (W16 hereafter) in the inner region (within $R_1$).\nExcept for the strongly interacting galaxies, they are also close to the W16 median profile in the outer region, with offset $\\lesssim$1.5 dex.\nOn the other hand, almost all profiles exceed the extrapolated W16 median profile in the outer region, reflecting the need to directly observe deep."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 218,
+      "context": "The $R_1$ and $R_{001}$ are characteristic radius for $\\hi$ disks. \nWhen normalized by $R_1$ (Figure~\\ref{fig:profile}-c), all $\\SHI$ profiles align around the median profile derived with interferometric data \\citep{Wang16} (W16 hereafter) in the inner region (within $R_1$).\nExcept for the strongly interacting galaxies, they are also close to the W16 median profile in the outer region, with offset $\\lesssim$1.5 dex.\nOn the other hand, almost all profiles exceed the extrapolated W16 median profile in the outer region, reflecting the need to directly observe deep.\nThe strongly interacting galaxies show much more flattened shapes than less interacting galaxies in this normalization scheme."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 219,
+      "context": "When normalized by $R_1$ (Figure~\\ref{fig:profile}-c), all $\\SHI$ profiles align around the median profile derived with interferometric data \\citep{Wang16} (W16 hereafter) in the inner region (within $R_1$).\nExcept for the strongly interacting galaxies, they are also close to the W16 median profile in the outer region, with offset $\\lesssim$1.5 dex.\nOn the other hand, almost all profiles exceed the extrapolated W16 median profile in the outer region, reflecting the need to directly observe deep.\nThe strongly interacting galaxies show much more flattened shapes than less interacting galaxies in this normalization scheme.\n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 222,
+      "context": "The strongly interacting galaxies show much more flattened shapes than less interacting galaxies in this normalization scheme.\n\nFinally, when normalized by $R_{001}$ (Figure~\\ref{fig:profile}-d), the profiles align in the tightest way throughout the radius. \nFor less interacting galaxies, the scatters of $\\SHI$ are $\\lesssim$1 dex (or $\\sigma\\lesssim0.2$ dex) at most radius. \nEven the profiles of the strongly interacting galaxies do not deviate far in this normalization scheme."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 224,
+      "context": "Finally, when normalized by $R_{001}$ (Figure~\\ref{fig:profile}-d), the profiles align in the tightest way throughout the radius. \nFor less interacting galaxies, the scatters of $\\SHI$ are $\\lesssim$1 dex (or $\\sigma\\lesssim0.2$ dex) at most radius. \nEven the profiles of the strongly interacting galaxies do not deviate far in this normalization scheme.\nThe $\\SHI$ distribution thus looks self-organized: it is most strongly determined by its own largest extension, rather than by plain unit (e.g., kpc) scales or the dark matter halo size. \nSuch a self-organization is remarkable, when one considers that galaxies are ecosystems, CGM are multiphase, and $\\hi$ gas is susceptible to perturbations. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 231,
+      "context": "\n\n\\subsubsection{Analytical Approximations of the Median $\\SHI$ Profile}\nFor future comparison convenience, the median profile of less interacting galaxies is provided in Table~\\ref{tab:medprof}, and plotted again in Figure~\\ref{fig:approx_profile}.\nThe median profile has an exponential shape on the outer region with scale-length $r_s=0.11R_{001}$ (purple line in Figure~\\ref{fig:approx_profile}, derived with the average $R_{001}/R_1$ ratio in Section~\\ref{sec:size})."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 232,
+      "context": "\n\\subsubsection{Analytical Approximations of the Median $\\SHI$ Profile}\nFor future comparison convenience, the median profile of less interacting galaxies is provided in Table~\\ref{tab:medprof}, and plotted again in Figure~\\ref{fig:approx_profile}.\nThe median profile has an exponential shape on the outer region with scale-length $r_s=0.11R_{001}$ (purple line in Figure~\\ref{fig:approx_profile}, derived with the average $R_{001}/R_1$ ratio in Section~\\ref{sec:size}).\n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 233,
+      "context": "\\subsubsection{Analytical Approximations of the Median $\\SHI$ Profile}\nFor future comparison convenience, the median profile of less interacting galaxies is provided in Table~\\ref{tab:medprof}, and plotted again in Figure~\\ref{fig:approx_profile}.\nThe median profile has an exponential shape on the outer region with scale-length $r_s=0.11R_{001}$ (purple line in Figure~\\ref{fig:approx_profile}, derived with the average $R_{001}/R_1$ ratio in Section~\\ref{sec:size}).\n\nWe use the analytical equational form from \\citet{Wang14} to fit the shape of the median profile, and obtain the following (blue curve in Figure~\\ref{fig:approx_profile}):"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 235,
+      "context": "The median profile has an exponential shape on the outer region with scale-length $r_s=0.11R_{001}$ (purple line in Figure~\\ref{fig:approx_profile}, derived with the average $R_{001}/R_1$ ratio in Section~\\ref{sec:size}).\n\nWe use the analytical equational form from \\citet{Wang14} to fit the shape of the median profile, and obtain the following (blue curve in Figure~\\ref{fig:approx_profile}):\n\\begin{equation}\n\\label{eq:expapprox}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 242,
+      "context": "where $y=\\log\\, (\\SHI/\\Msunpcsq)$, $x=r/R_{001}$, $I=62.95^{+14.78}_{-11.13}$, $J=5.96^{+0.34}_{-0.32}$, $r_{s1}=0.114^{+0.004}_{-0.004}$, and $r_{s2}=0.106^{+0.007}_{-0.006}$. \nThis equation form is based on the previous observational findings that both total neutral gas surface densities ($I$) and the $\\hi$-to-H$_2$ conversion efficiencies (${\\rm H}_2/\\hi=(I-J)/J$) decrease with radius roughly following exponential functions \\citep{Leroy08, Bigiel08, Bigiel10}.\nIt has been found to well fit the individual $\\SHI$ profiles of MW-type galaxies at $\\SHI\\gtrsim 0.5 \\Msunpcsq$ levels \\citep{Wang14}.\nHere it also well describes the median $\\SHI$ profile down to the $\\lesssim0.01\\,\\Msunpcsq$ level.\n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 243,
+      "context": "This equation form is based on the previous observational findings that both total neutral gas surface densities ($I$) and the $\\hi$-to-H$_2$ conversion efficiencies (${\\rm H}_2/\\hi=(I-J)/J$) decrease with radius roughly following exponential functions \\citep{Leroy08, Bigiel08, Bigiel10}.\nIt has been found to well fit the individual $\\SHI$ profiles of MW-type galaxies at $\\SHI\\gtrsim 0.5 \\Msunpcsq$ levels \\citep{Wang14}.\nHere it also well describes the median $\\SHI$ profile down to the $\\lesssim0.01\\,\\Msunpcsq$ level.\n\nThe overall shape can also be roughly described by the following cored power law equation with two less parameters (green curve in Figure~\\ref{fig:approx_profile}):"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 245,
+      "context": "Here it also well describes the median $\\SHI$ profile down to the $\\lesssim0.01\\,\\Msunpcsq$ level.\n\nThe overall shape can also be roughly described by the following cored power law equation with two less parameters (green curve in Figure~\\ref{fig:approx_profile}):\n\\begin{equation}\n  \\label{eq:polyapprox}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 254,
+      "context": "\n%#y =  1.81 x^3 -4.69x^2+0.06x+0.79,\n%fig 2: profiles,  \n\n\\subsubsection{The Curves of Growth of HI mass}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 257,
+      "context": "\n\\subsubsection{The Curves of Growth of HI mass}\nIn the bottom row (panels e and f) of Figure~\\ref{fig:profile}, we also show how the $\\hi$ masses cumulatively increase with radius in views normalized by $R_1$ and $R_{001}$ respectively. \nIt is clear that, the $\\MHI$ are few ($<$20\\%) beyond $R_1$, and minimal beyond $R_{001}$. \nThus, previous studies based on interferometry observations have already captured the bulk $\\hi$ masses (assuming insignificant short-spacing problems)."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 268,
+      "context": "\\begin{figure*} \n  \\centering\n  \\includegraphics{profiles.pdf}\n  \\includegraphics{cgprofiles.pdf}\n  \\caption{Radial profiles of $\\hi$ distribution. The blue, orange and grey colors are for the MW-like, dwarf and strongly interacting galaxies, respectively. {\\bf Panels a-d:} $\\SHI$ profiles with radius in units of kpc, $r_{\\rm vir}$, $R_1$, and $R_{001}$. The dashed horizontal lines mark the data depth of $\\log\\,(\\SHI/\\Msunpcsq)=-2.4$. The brown shaded region in panel a shows simulation predicted typical $\\hi$ column density profile of MW-type galaxies (from Figure 1 of \\citealt{Peroux20}). The black solid curve in panel c shows the interferometry data-based $\\SHI$ median profile from \\citet{Wang16}, with the dotted curve being its extrapolation. The black solid curve in panel d shows the median $\\SHI$ profile for less interacting galaxies here, and the dashed curves the 1-$\\sigma$ scatter. {\\bf Panels e and f:} normalized $\\hi$ mass curve-of-growth with radius in units of $R_1$, and $R_{001}$. The dashed horizontal and vertical lines mark the positions of 0.9 and 1, respectively. }"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 269,
+      "context": "  \\centering\n  \\includegraphics{profiles.pdf}\n  \\includegraphics{cgprofiles.pdf}\n  \\caption{Radial profiles of $\\hi$ distribution. The blue, orange and grey colors are for the MW-like, dwarf and strongly interacting galaxies, respectively. {\\bf Panels a-d:} $\\SHI$ profiles with radius in units of kpc, $r_{\\rm vir}$, $R_1$, and $R_{001}$. The dashed horizontal lines mark the data depth of $\\log\\,(\\SHI/\\Msunpcsq)=-2.4$. The brown shaded region in panel a shows simulation predicted typical $\\hi$ column density profile of MW-type galaxies (from Figure 1 of \\citealt{Peroux20}). The black solid curve in panel c shows the interferometry data-based $\\SHI$ median profile from \\citet{Wang16}, with the dotted curve being its extrapolation. The black solid curve in panel d shows the median $\\SHI$ profile for less interacting galaxies here, and the dashed curves the 1-$\\sigma$ scatter. {\\bf Panels e and f:} normalized $\\hi$ mass curve-of-growth with radius in units of $R_1$, and $R_{001}$. The dashed horizontal and vertical lines mark the positions of 0.9 and 1, respectively. }\n  \\label{fig:profile}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 270,
+      "context": "  \\includegraphics{profiles.pdf}\n  \\includegraphics{cgprofiles.pdf}\n  \\caption{Radial profiles of $\\hi$ distribution. The blue, orange and grey colors are for the MW-like, dwarf and strongly interacting galaxies, respectively. {\\bf Panels a-d:} $\\SHI$ profiles with radius in units of kpc, $r_{\\rm vir}$, $R_1$, and $R_{001}$. The dashed horizontal lines mark the data depth of $\\log\\,(\\SHI/\\Msunpcsq)=-2.4$. The brown shaded region in panel a shows simulation predicted typical $\\hi$ column density profile of MW-type galaxies (from Figure 1 of \\citealt{Peroux20}). The black solid curve in panel c shows the interferometry data-based $\\SHI$ median profile from \\citet{Wang16}, with the dotted curve being its extrapolation. The black solid curve in panel d shows the median $\\SHI$ profile for less interacting galaxies here, and the dashed curves the 1-$\\sigma$ scatter. {\\bf Panels e and f:} normalized $\\hi$ mass curve-of-growth with radius in units of $R_1$, and $R_{001}$. The dashed horizontal and vertical lines mark the positions of 0.9 and 1, respectively. }\n  \\label{fig:profile}\n\\end{figure*}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 271,
+      "context": "  \\includegraphics{cgprofiles.pdf}\n  \\caption{Radial profiles of $\\hi$ distribution. The blue, orange and grey colors are for the MW-like, dwarf and strongly interacting galaxies, respectively. {\\bf Panels a-d:} $\\SHI$ profiles with radius in units of kpc, $r_{\\rm vir}$, $R_1$, and $R_{001}$. The dashed horizontal lines mark the data depth of $\\log\\,(\\SHI/\\Msunpcsq)=-2.4$. The brown shaded region in panel a shows simulation predicted typical $\\hi$ column density profile of MW-type galaxies (from Figure 1 of \\citealt{Peroux20}). The black solid curve in panel c shows the interferometry data-based $\\SHI$ median profile from \\citet{Wang16}, with the dotted curve being its extrapolation. The black solid curve in panel d shows the median $\\SHI$ profile for less interacting galaxies here, and the dashed curves the 1-$\\sigma$ scatter. {\\bf Panels e and f:} normalized $\\hi$ mass curve-of-growth with radius in units of $R_1$, and $R_{001}$. The dashed horizontal and vertical lines mark the positions of 0.9 and 1, respectively. }\n  \\label{fig:profile}\n\\end{figure*}\n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 276,
+      "context": "\\begin{figure} \n  \\centering\n  \\includegraphics{approx_profile.pdf}\n  \\caption{Mathematical approximations for the $R_{001}$-normalized $\\SHI$ median profile. The median profile and dotted line are the same as in Figure~\\ref{fig:profile}. The green curve shows the polynomical approximation of Equation~\\ref{eq:polyapprox}, and the magenta dashed line the exponential approximation for the outer region (Section~\\ref{sec:size}).}\n  \\label{fig:approx_profile}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 277,
+      "context": "  \\centering\n  \\includegraphics{approx_profile.pdf}\n  \\caption{Mathematical approximations for the $R_{001}$-normalized $\\SHI$ median profile. The median profile and dotted line are the same as in Figure~\\ref{fig:profile}. The green curve shows the polynomical approximation of Equation~\\ref{eq:polyapprox}, and the magenta dashed line the exponential approximation for the outer region (Section~\\ref{sec:size}).}\n  \\label{fig:approx_profile}\n\\end{figure}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 278,
+      "context": "  \\includegraphics{approx_profile.pdf}\n  \\caption{Mathematical approximations for the $R_{001}$-normalized $\\SHI$ median profile. The median profile and dotted line are the same as in Figure~\\ref{fig:profile}. The green curve shows the polynomical approximation of Equation~\\ref{eq:polyapprox}, and the magenta dashed line the exponential approximation for the outer region (Section~\\ref{sec:size}).}\n  \\label{fig:approx_profile}\n\\end{figure}\n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 288,
+      "context": "\nFigure~\\ref{fig:radius} shows that $R_{001}$ and $\\MHI$ also have a strong correlation with Pearson R value of 0.92. \nIt is consistent with the homogeneous $R_{001}$-normalized profiles in Figure~\\ref{fig:profile}.\nIn contrast, the correlations of $R_{001}$ with $M_*$ or $M_{\\rm halo}$ are weaker, with R values of 0.80 and 0.56, respectively. \nThe strongly interacting galaxies have 1.4 times systematically higher $R_{001}$ at a given $\\MHI$ than the less interacting ones, in contrast to their $R_1$ being scattered around the $R_1$-$\\MHI$ relation."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 293,
+      "context": "If we shift the $R_1$-$\\MHI$ relation upward by 0.31 (0.34) dex, most $R_{001}$ versus $\\MHI$ data points excluding (including) strongly interacting galaxies lie on it. \nSo at a given $\\MHI$, $R_{001}$ is around 2 (2.2) times $R_1$. \nFor less interacting systems, the ratio $R_{001}/R_1=2$ indicates an outer profile scale-length $r_s=0.22R_{1}=0.11R_{001}$ (Figure~\\ref{fig:profile}-d).\n\nWe conduct a linear regression for the less interacting subset, and derive the following relation:"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 304,
+      "context": "\nLike the $R_1$-$\\MHI$ relation, the new $R_{001}$-$\\MHI$ relation has a slope close to 0.5.\nIt suggests an almost constant average surface density of $\\hi$ within $R_{001}$, determined by the intercept $b$ of the $R_{001}$-$\\MHI$ relation with a value $\\Sigma_{\\rm HI,avg}=10^{-2b}/\\pi=0.35\\, \\Msunpcsq$. \nIt also suggests that distance uncertainties only shift galaxies along the relation and have a minimal effect on the scatter.\n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 308,
+      "context": "\n\nFor the less interacting galaxies, while the area between $R_1$ and $R_{001}$ is 3 times larger than that within $R_1$, most (80\\%) $\\MHI$ are enclosed within $R_1$ (Figure~\\ref{fig:profile}-e), and the majority (90\\%) of them are within 0.5$R_{001}$ (Figure~\\ref{fig:profile}-b).\nIt is thus the structure instead of $\\hi$ mass budget that makes the $R_{001}-\\MHI$ relation and $R_{001}$-normalized profiles interesting.  \nThis small amount of $\\hi$ mass beyond $R_1$ (or between 0.5 and 1 $R_{001}$) could have distributed and ended anywhere, yet it seems to almost always reach 0.01$\\, \\Msunpcsq$ at $\\sim2R_1$ (with scatter$<$0.1 dex)."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 309,
+      "context": "\nFor the less interacting galaxies, while the area between $R_1$ and $R_{001}$ is 3 times larger than that within $R_1$, most (80\\%) $\\MHI$ are enclosed within $R_1$ (Figure~\\ref{fig:profile}-e), and the majority (90\\%) of them are within 0.5$R_{001}$ (Figure~\\ref{fig:profile}-b).\nIt is thus the structure instead of $\\hi$ mass budget that makes the $R_{001}-\\MHI$ relation and $R_{001}$-normalized profiles interesting.  \nThis small amount of $\\hi$ mass beyond $R_1$ (or between 0.5 and 1 $R_{001}$) could have distributed and ended anywhere, yet it seems to almost always reach 0.01$\\, \\Msunpcsq$ at $\\sim2R_1$ (with scatter$<$0.1 dex).\nWe test the relation of $\\hi$ mass between $R_1$ and $R_{001}$ with the area $\\pi(R_{001}^2-R_{1}^2)$ and volume $\\frac{4}{3}\\pi(R_{001}^3-R_{1}^3)$."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 329,
+      "context": "\\label{sec:ratio}\nAs both $R_{001}$ and $R_1$ have tight relations with $\\MHI$, it is useful to ask whether any new clues are revealed by $R_{001}$ on building the $\\MHI$.\nBecause the $\\SHI$ profiles are well aligned locally when normalized by either $R_1$ or $R_{001}$, we ask, whether the profile slope between these two radius carry information on regulation from properties other than $\\MHI$. \nBoth questions can be studied by looking into how the size ratios, $R_{001}/R_1$, relate to other galaxy properties. \n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 347,
+      "context": "\nWe note that removing the five dwarf galaxies does not significantly change the results presented above.\nTherefore, the steepness of $\\SHI$ profiles in outer regions indeed point to effects other than self-organization of $\\hi$ disk. \nSuch that, gas-richer galaxies tend to have steeper $\\SHI$ profiles with respect to $R_1$ in the outer regions. \n"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 348,
+      "context": "We note that removing the five dwarf galaxies does not significantly change the results presented above.\nTherefore, the steepness of $\\SHI$ profiles in outer regions indeed point to effects other than self-organization of $\\hi$ disk. \nSuch that, gas-richer galaxies tend to have steeper $\\SHI$ profiles with respect to $R_1$ in the outer regions. \n\nFinally, while the highest values of $R_{001}/R_1$ value are contributed by the strongly interacting galaxies, only 4 out of 11 strongly interacting galaxies stand out as clear outliers in the $R_{001}/R_1$-$\\MHI/M_*$ relation. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 405,
+      "context": "The related simulations also predict that the accreted gas tends to pile around $R_1$, which effectively defines the disk edge \\citep{Trapp24}.\nThe $R_{001}$-$\\MHI$ relation qualitatively supports this model on the aspect of gas accretion directly building an $\\hi$ disk, instead of precipitating into a halo of cool clouds.\nBut the relation and homogeneously $R_{001}$-normalized profiles also indicate that the newly accrete gas does not pile up around the same circular radius or $R_1$, but seems to smoothly ``move'' outward.\nThe moving out is in a way corresponding only to the existing total $\\hi$ mass, but not to the virial radius or halo spin.\nThe anti-correlation between $R_{001}/R_1$ and gas richness implies that the edge of the disk may be beyond $R_{001}$, rather than around $R_1$. "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 423,
+      "context": "  \\caption{ A sketch on how net inflow of gas may build up the $\\hi$ disks for galaxies with different $\\hi$-richnesses. \n  Panels a and b are for an $\\hi$-normal and an $\\hi$-rich galaxy respectively.  \n  The blue curves represent the $\\SHI$ radial profiles of the corresponding galaxies, with the $\\hi$ radius $R_{001}$ and $R_1$, and the optical radius $R_{\\rm opt}$ marked on the x-axis. \n  The blue dashed curve in panel b represents a log-linear extension of the profile within $R_1$, so indicates the down-bending of the actual profile toward $R_{001}$. \n  The purple arrows represent the net $\\hi$ inflow, and the blue arrows represent the $\\hi$ disk inside-out growth as a result of net inflows.  "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 424,
+      "context": "  Panels a and b are for an $\\hi$-normal and an $\\hi$-rich galaxy respectively.  \n  The blue curves represent the $\\SHI$ radial profiles of the corresponding galaxies, with the $\\hi$ radius $R_{001}$ and $R_1$, and the optical radius $R_{\\rm opt}$ marked on the x-axis. \n  The blue dashed curve in panel b represents a log-linear extension of the profile within $R_1$, so indicates the down-bending of the actual profile toward $R_{001}$. \n  The purple arrows represent the net $\\hi$ inflow, and the blue arrows represent the $\\hi$ disk inside-out growth as a result of net inflows.  \n  The widths of purple and blue arrows indicate the relative (not to scale) strengths of corresponding processes at different radii and between the two types of galaxies.  "
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 500,
+      "context": "The results are presented in the top row of Figure~\\ref{fig:simu}.\nMost data points concentrate into a coherent trend in each panel, but there are a few outlying branches with larger $R_{\\rm m}$ versus $R_{\\rm t}$ differences than the other data points.\nEach outlying branch corresponds to one original input galaxy, which happen to have significant small-scale structure on the radial $\\SHI$ profile close to the characteristic radius.\nWe will need a larger sample in the future, in order to robustly quantify how the coupling of such structures with poor spatial resolution lead to systematic uncertainties in radius measurements.\nSo far, galaxies with uncertainties of this type in our test have an incidence rate of $3/12$ for $R_1$, but the highest systematic uncertainty does not exceed 0.065 dex."
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 575,
+      "context": "\\label{appendix:size_table}\nWe present for the whole sample the measurements of $R_1$ and $R_{001}$, and their errors in Table~\\ref{tab:size}.\nWe present the median profile of $\\SHI$ and the errors (the data points of the black curve in Figure~\\ref{fig:approx_profile}) in Table~\\ref{tab:medprof}.\n\n\\begin{table}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 591,
+      "context": "            NGC 2903 & 9.66 & 1.63 & $<$0.01 & 1.32 & 0.03 \\\\\n            NGC 3169 & 10.37 & 2.28 & 0.01 & 1.59 & 0.03 \\\\\n            NGC 3198 & 10.08 & 1.78 & 0.01 & 1.51 & 0.03 \\\\\n            NGC 3338 & 10.17 & 1.87 & 0.01 & 1.55 & 0.03 \\\\\n            NGC 3344 & 9.75 & 1.67 & 0.01 & 1.31 & 0.03 \\\\"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 637,
+      "context": "  \\begin{table}\n    \\centering\n    \\caption{$\\hi$ Median profile of $\\SHI$}\n    \\begin{tabular}{ccc}\n    $r/R_{001}$ & $\\log \\SHI/(\\Msunpcsq)$ & $\\sigma(\\log \\SHI)$ \\\\"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 672,
+      "context": "    \\raggedright\n    Column~(1): Radius in unit of $R_{001}$.  \n    Column~(2): $\\SHI$ values of the $\\SHI$ median profile.\n    Column~(3): Errors of the $\\SHI$ median profile.\n  \\label{tab:medprof}"
+    },
+    {
+      "file": "fullprof.tex",
+      "line": 673,
+      "context": "    Column~(1): Radius in unit of $R_{001}$.  \n    Column~(2): $\\SHI$ values of the $\\SHI$ median profile.\n    Column~(3): Errors of the $\\SHI$ median profile.\n  \\label{tab:medprof}\n  \\end{table}"
+    }
+  ],
+  "n_profile_context_hits": 56,
+  "boundary": "Public arXiv source/native-asset audit only; no raster digitization, persistence parameters, or blind outcomes."
+}
