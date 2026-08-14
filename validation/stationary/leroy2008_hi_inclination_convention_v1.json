@@ -1,0 +1,541 @@
+{
+  "status": "LEROY2008_HI_INCLINATION_CONVENTION_AUDITED",
+  "arxiv": "https://export.arxiv.org/e-print/0810.2556",
+  "files": [
+    "aastex.cls",
+    "atlas.tex",
+    "ddo154_astroph.eps",
+    "emulateapj.cls",
+    "fuvbetavsfuv24.eps",
+    "ha1p1magvsfuv24.eps",
+    "ha24vsfuv24.eps",
+    "hagasvsfuv24.eps",
+    "hoi_astroph.eps",
+    "hoii_astroph.eps",
+    "ic2574_astroph.eps",
+    "intsfr.eps",
+    "kvs3p6.eps",
+    "ngc0628_astroph.eps",
+    "ngc0925_astroph.eps",
+    "ngc2403_astroph.eps",
+    "ngc2841_astroph.eps",
+    "ngc2976_astroph.eps",
+    "ngc3077_astroph.eps",
+    "ngc3184_astroph.eps",
+    "ngc3198_astroph.eps",
+    "ngc3351_astroph.eps",
+    "ngc3521_astroph.eps",
+    "ngc3627_astroph.eps",
+    "ngc4214_astroph.eps",
+    "ngc4449_astroph.eps",
+    "ngc4736_astroph.eps",
+    "ngc5055_astroph.eps",
+    "ngc5194_astroph.eps",
+    "ngc6946_astroph.eps",
+    "ngc7331_astroph.eps",
+    "ngc7793_astroph.eps",
+    "only24vsfuv24.eps",
+    "predmaps_ngc3184.eps",
+    "preds_fits.dwarfs.eps",
+    "preds_fits.eps",
+    "preds_tff.dwarfs.eps",
+    "preds_tff.eps",
+    "preds_torb.dwarfs.eps",
+    "preds_torb.eps",
+    "qgasvsrad.dwarf.eps",
+    "qgasvsrad.eps",
+    "qstargasvsrad.dwarf.eps",
+    "qstargasvsrad.eps",
+    "rcexample.eps",
+    "rmolvspress.eps",
+    "rmolvspress_fits.eps",
+    "rmolvsrad.eps",
+    "rmolvsrad_fits.eps",
+    "rmolvsstars.eps",
+    "rmolvsstars_fits.eps",
+    "rmolvstorb.eps",
+    "rmolvstorb_fits.eps",
+    "rprofstub.tex",
+    "sampletab.tex",
+    "schayevsrad.dwarf.eps",
+    "schayevsrad.eps",
+    "sfeh2vsxxx.eps",
+    "sfevsbeta_dwarfs.eps",
+    "sfevsbeta_dwarfs_rings.eps",
+    "sfevsbeta.eps",
+    "sfevsbeta_rings.eps",
+    "sfevsgas_dwarfs.eps",
+    "sfevsgas_dwarfs_rings.eps",
+    "sfevsgas.eps",
+    "sfevsgas_rings.eps",
+    "sfevspress_dwarfs.eps",
+    "sfevspress_dwarfs_rings.eps",
+    "sfevspress.eps",
+    "sfevspress_rings.eps",
+    "sfevsqgas_dwarfs.eps",
+    "sfevsqgas_dwarfs_rings.eps",
+    "sfevsqgas.eps",
+    "sfevsqgas_rings.eps",
+    "sfevsqstargas_dwarfs.eps",
+    "sfevsqstargas_dwarfs_rings.eps",
+    "sfevsqstargas.eps",
+    "sfevsqstargas_rings.eps",
+    "sfevsrad_dwarfs.eps",
+    "sfevsrad_dwarfs_rings.eps",
+    "sfevsrad.eps",
+    "sfevsrad_rings.eps",
+    "sfevsschaye_dwarfs.eps",
+    "sfevsschaye_dwarfs_rings.eps",
+    "sfevsschaye.eps",
+    "sfevsschaye_rings.eps",
+    "sfevsshear_dwarfs.eps",
+    "sfevsshear_dwarfs_rings.eps",
+    "sfevsshear.eps",
+    "sfevsshear_rings.eps",
+    "sfevsstars_dwarfs.eps",
+    "sfevsstars_dwarfs_rings.eps",
+    "sfevsstars.eps",
+    "sfevsstars_rings.eps",
+    "sfevstorb_dwarfs.eps",
+    "sfevstorb_dwarfs_rings.eps",
+    "sfevstorb.eps",
+    "sfevstorb_rings.eps",
+    "shearvsrad.dwarf.eps",
+    "shearvsrad.eps",
+    "slvsr25.eps",
+    "slvssl.eps",
+    "things_sfe_astroph.tex",
+    "vdispvsincl.eps",
+    "wfuv_hist.eps",
+    "wfuvvsf.eps",
+    "wfuvvsr.eps"
+  ],
+  "contexts": [
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 54,
+      "context": "\n\\begin{abstract}\n  We measure the star formation efficiency (SFE), the star formation rate per\n  unit gas, in 23 nearby galaxies and compare it to expectations from proposed\n  star formation laws and thresholds. We use \\hi\\ maps from THINGS and derive\n  \\htwo\\ maps from CO measured by HERACLES and BIMA SONG. We estimate the star\n  formation rate by combining GALEX FUV maps and SINGS 24$\\mu$m maps, infer\n  stellar surface density profiles from SINGS $3.6\\mu$m data, and use\n  kinematics from THINGS.  We measure the SFE as a function of: the free--fall"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 57,
+      "context": "  unit gas, in 23 nearby galaxies and compare it to expectations from proposed\n  star formation laws and thresholds. We use \\hi\\ maps from THINGS and derive\n  \\htwo\\ maps from CO measured by HERACLES and BIMA SONG. We estimate the star\n  formation rate by combining GALEX FUV maps and SINGS 24$\\mu$m maps, infer\n  stellar surface density profiles from SINGS $3.6\\mu$m data, and use\n  kinematics from THINGS.  We measure the SFE as a function of: the free--fall\n  and orbital timescales; midplane gas pressure; stability of the gas disk to\n  collapse (including the effects of stars); the ability of perturbations to\n  grow despite shear; and the ability of a cold phase to form. In spirals, the"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 70,
+      "context": "  increasing radius in both spiral and dwarf galaxies, a decline reasonably\n  described by an exponential with scale length $0.2$--$0.25~r_{25}$. We\n  interpret this decline as a strong dependence of GMC formation on\n  environment. The ratio of molecular to atomic gas appears to be a smooth\n  function of radius, stellar surface density, and pressure spanning from the\n  \\htwo --dominated to \\hi --dominated ISM. The radial decline in SFE is too\n  steep to be reproduced only by increases in the free--fall time or orbital\n  time. Thresholds for large--scale instability suggest that our disks are\n  stable or marginally stable and do not show a clear link to the declining"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 90,
+      "context": "In nearby galaxies, the star formation rate (SFR) is observed to\ncorrelate spatially with the distribution of neutral gas, at least to\nfirst order. This is observed using a variety of SFR and gas tracers,\nbut the quantitative relationship between the two remains poorly\nunderstood. Although it is common to relate SFR to gas surface density\nvia a power law, the relationship is often more complex. The same\nsurface density of gas can correspond to dramatically different SFRs\ndepending on whether it is found in a spiral or irregular galaxy or in\nthe inner or outer part of a galactic disk. Such variations have"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 92,
+      "context": "first order. This is observed using a variety of SFR and gas tracers,\nbut the quantitative relationship between the two remains poorly\nunderstood. Although it is common to relate SFR to gas surface density\nvia a power law, the relationship is often more complex. The same\nsurface density of gas can correspond to dramatically different SFRs\ndepending on whether it is found in a spiral or irregular galaxy or in\nthe inner or outer part of a galactic disk. Such variations have\nspurred suggestions that the local potential well, pressure, coriolis\nforces, chemical enrichment, or shear may regulate the formation of"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 113,
+      "context": "of ``subgrid'' models that map local conditions to the SFR\n\\citep[e.g.,][]{SPRINGEL03}.\n\nOur analysis is based on the highest quality data available for a significant\nsample of nearby galaxies: \\hi\\ maps from The \\hi\\ Nearby Galaxy Survey\n\\citep[THINGS,][]{WALTER08}, far ultraviolet (FUV) maps from the GALEX Nearby\nGalaxies Survey \\citep[][]{GILDEPAZ07}, infrared (IR) data from the {\\em\n  Spitzer} Infrared Nearby Galaxies Survey \\citep[SINGS,][]{KENNICUTT03}, CO\n$1\\rightarrow0$ maps from the BIMA Survey of Nearby Galaxies \\citep[BIMA"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 114,
+      "context": "\\citep[e.g.,][]{SPRINGEL03}.\n\nOur analysis is based on the highest quality data available for a significant\nsample of nearby galaxies: \\hi\\ maps from The \\hi\\ Nearby Galaxy Survey\n\\citep[THINGS,][]{WALTER08}, far ultraviolet (FUV) maps from the GALEX Nearby\nGalaxies Survey \\citep[][]{GILDEPAZ07}, infrared (IR) data from the {\\em\n  Spitzer} Infrared Nearby Galaxies Survey \\citep[SINGS,][]{KENNICUTT03}, CO\n$1\\rightarrow0$ maps from the BIMA Survey of Nearby Galaxies \\citep[BIMA\nSONG,][]{HELFER03} and CO $2\\rightarrow1$ maps from the HERA CO-Line"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 120,
+      "context": "  Spitzer} Infrared Nearby Galaxies Survey \\citep[SINGS,][]{KENNICUTT03}, CO\n$1\\rightarrow0$ maps from the BIMA Survey of Nearby Galaxies \\citep[BIMA\nSONG,][]{HELFER03} and CO $2\\rightarrow1$ maps from the HERA CO-Line\nExtragalactic Survey \\citep[HERACLES][]{LEROY08}.  This combination yields\nsensitive, spatially resolved measurements of kinematics, gas surface density,\nstellar surface density, and SFR surface density across the entire optical\ndisks of 23 spiral and irregular galaxies.\n\nThe topic of star formation in galaxies is closely linked to that of giant"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 121,
+      "context": "$1\\rightarrow0$ maps from the BIMA Survey of Nearby Galaxies \\citep[BIMA\nSONG,][]{HELFER03} and CO $2\\rightarrow1$ maps from the HERA CO-Line\nExtragalactic Survey \\citep[HERACLES][]{LEROY08}.  This combination yields\nsensitive, spatially resolved measurements of kinematics, gas surface density,\nstellar surface density, and SFR surface density across the entire optical\ndisks of 23 spiral and irregular galaxies.\n\nThe topic of star formation in galaxies is closely linked to that of giant\nmolecular cloud (GMC) formation. In the Milky Way, most star formation takes"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 135,
+      "context": "be a general feature of our data. \\citet{BIGIEL08} study the relationship\nbetween atomic hydrogen (\\hi), molecular gas (\\htwo), and the SFR in the same\ndata used here. Working at a resolution of 750~pc, they do not resolve\nindividual GMCs, but do find that a single power law with index $n = 1.0 \\pm\n0.2$ relates H$_2$ and SFR surface density over the optical disks of spirals.\nThis suggests that as in the Milky Way, a key prerequisite to forming stars is\nthe formation of GMCs (or at least H$_2$).\n\n\\citet{BIGIEL08} find no similar trend relating \\hi\\ and SFR. Instead the"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 157,
+      "context": "star formation per unit gas mass decreases in the outer disks of spiral and\nirregular galaxies \\citep[e.g.,][]{KENNICUTT89,MARTIN01,THORNLEY06}. The\ndetails of this decrease vary with the specifics of the observations. For\nexample, \\citet{MARTIN01} observed a sharp drop in the distribution of \\hii\\\nregions, while UV maps suggest a steady decline \\citep{BOISSIER07}, but it is\nwithout dispute that the SFR per unit gas mass does indeed decline \\citep[see\nalso][]{WONG02}. Maps with good spatial extent contain both regions where GMC\nformation proceeds efficiently and regions where it is suppressed.  Including\nboth \\hi -rich dwarf galaxies and \\htwo -dominated spirals offers a similar"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 208,
+      "context": "star forming gas.\n\nWe cast this discussion in terms of the {\\em star formation efficiency} (SFE).\nThere are many definitions for the SFE, but throughout this paper we use the\nterm only to refer to the star formation rate surface density per unit neutral\ngas surface density along a line of sight, i.e., SFE=$\\Sigma_{\\rm SFR} /\n\\Sigma_{\\rm gas}$ with units of yr$^{-1}$. We will also discuss SFE~(\\htwo )\nwhich refers to the SFR per unit \\htwo\\ ($\\Sigma_{\\rm SFR}$/$\\Sigma_{\\rm\n  H2}$), and SFE~(\\hi) ($\\Sigma_{\\rm SFR}$/$\\Sigma_{\\rm HI}$). The SFE is the"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 209,
+      "context": "\nWe cast this discussion in terms of the {\\em star formation efficiency} (SFE).\nThere are many definitions for the SFE, but throughout this paper we use the\nterm only to refer to the star formation rate surface density per unit neutral\ngas surface density along a line of sight, i.e., SFE=$\\Sigma_{\\rm SFR} /\n\\Sigma_{\\rm gas}$ with units of yr$^{-1}$. We will also discuss SFE~(\\htwo )\nwhich refers to the SFR per unit \\htwo\\ ($\\Sigma_{\\rm SFR}$/$\\Sigma_{\\rm\n  H2}$), and SFE~(\\hi) ($\\Sigma_{\\rm SFR}$/$\\Sigma_{\\rm HI}$). The SFE is the\ninverse of the gas depletion time, the time required for present day star"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 288,
+      "context": "\nThe most common formulation of the star formation law is a power law relating\ngas and star formation (surface) densities following\n\\citet{SCHMIDT59,SCHMIDT63}. \\citet{KENNICUTT89,KENNICUTT98A} calibrated this\nlaw in its observable (surface density) form. Averaging over the star-forming\ndisks of spiral and starburst galaxies, he found\n\n\\begin{equation}\n\\label{KLAW}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 483,
+      "context": "thresholds have mostly focused on the existence of gravitational or thermal\ninstability in the gas disk.\n\nA common way to treat the issue of thresholds is to formulate a critical gas\nsurface density, $\\Sigma_{\\rm crit}$, that is a function of local conditions\n--- kinematics, stellar surface density, or metallicity. If $\\Sigma_{\\rm gas}$\nis below $\\Sigma_{\\rm crit}$, star formation is expected to be suppressed; we\nrefer to such regions as ``subcritical.''  Where the gas surface density is\nabove the critical surface density, star formation is expected to be"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 484,
+      "context": "instability in the gas disk.\n\nA common way to treat the issue of thresholds is to formulate a critical gas\nsurface density, $\\Sigma_{\\rm crit}$, that is a function of local conditions\n--- kinematics, stellar surface density, or metallicity. If $\\Sigma_{\\rm gas}$\nis below $\\Sigma_{\\rm crit}$, star formation is expected to be suppressed; we\nrefer to such regions as ``subcritical.''  Where the gas surface density is\nabove the critical surface density, star formation is expected to be\nwidespread.  We refer to such regions as ``supercritical.''"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 486,
+      "context": "A common way to treat the issue of thresholds is to formulate a critical gas\nsurface density, $\\Sigma_{\\rm crit}$, that is a function of local conditions\n--- kinematics, stellar surface density, or metallicity. If $\\Sigma_{\\rm gas}$\nis below $\\Sigma_{\\rm crit}$, star formation is expected to be suppressed; we\nrefer to such regions as ``subcritical.''  Where the gas surface density is\nabove the critical surface density, star formation is expected to be\nwidespread.  We refer to such regions as ``supercritical.''\n\nIn practice, we expect to observe a drop in the SFE associated with the"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 487,
+      "context": "surface density, $\\Sigma_{\\rm crit}$, that is a function of local conditions\n--- kinematics, stellar surface density, or metallicity. If $\\Sigma_{\\rm gas}$\nis below $\\Sigma_{\\rm crit}$, star formation is expected to be suppressed; we\nrefer to such regions as ``subcritical.''  Where the gas surface density is\nabove the critical surface density, star formation is expected to be\nwidespread.  We refer to such regions as ``supercritical.''\n\nIn practice, we expect to observe a drop in the SFE associated with the\ntransition from super- to subcritical. We do not necessarily expect ${\\rm SFE}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 525,
+      "context": "\n\\noindent where $\\beta = d \\log~v(r_{\\rm gal}) / d \\log~r_{\\rm gal}$.  \n\n\\citet{MARTIN01} found that \\hii\\ regions are common where $\\Sigma_{\\rm gas}$\nexceeds a critical surface density derived following Equation \\ref{QGAS},\n\n\\begin{equation}\n\\Sigma_{{\\rm crit,}Q} = \\alpha_Q~\\frac{\\sigma_g~\\kappa}{\\pi~G}~.\n\\end{equation}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 544,
+      "context": "\n\\citet{KENNICUTT89} and \\citet{MARTIN01} mention the influence of stars as a\npossible cause for $Q_{\\rm gas} > 1$ at the star formation threshold.\n\\citet{HUNTER98} present an in-depth discussion of how several factors\ninfluence $\\alpha_Q$, e.g., stars and viscosity lower it, while the thickness\nof the gas disk raises it.  \\citet{KIM01,KIM07} argue based on simulations\nthat the observed threshold corresponds to the onset of nonlinear,\nnon-axisymmetric instabilities. \\citet{SCHAYE04} and \\citet{DEBLOK06} suggest\na different explanation, that $\\alpha_Q \\ne 1$ because $\\sigma_g$ has been"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 564,
+      "context": "Q_{\\rm stars} = \\frac{\\sigma_{*,r}~\\kappa}{\\pi~G~\\Sigma_*}\n\\end{equation}\n\n\\noindent where $\\sigma_{*,r}$ is the (radial) velocity dispersion of stars\nand $\\Sigma_*$ is the stellar mass surface density. The condition for\ninstability in the gas disk is\n\n\\begin{equation}\n  \\frac{1}{Q_{\\rm stars + gas}} = \\frac{2}{Q_{\\rm stars}} \\frac{q}{1+q^2} + \\frac{2}{Q_{\\rm"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 626,
+      "context": "\\noindent \\citet{HUNTER98} suggest $\\alpha_{\\rm A} = 2.5$, but this\nnormalization for $\\Sigma_{\\rm crit,A}$ is relatively uncertain. The value\nchosen by \\citet{HUNTER98} corresponds to perturbations growing by a factor of\n$\\sim 100$ during the time allowed by shear, which roughly matches both the\nsurface density contrast between $\\Sigma_{\\rm HI}$ and a GMC and the condition\n$Q_{\\rm gas} \\lesssim 1$ where $dv(r_{\\rm gal})/dr_{\\rm gal} = 0$.\n\nThe practical advantage of shear over $Q_{\\rm gas}$ is that shear is low in\ndwarf galaxies and the inner disks of spiral galaxies ($\\beta = 1$ for solid"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 688,
+      "context": "well as dynamical thresholds. This agrees with the observation by, e.g.,\n\\citet{SKILLMAN87} and \\citet{DEBLOK06} that a simple \\hi\\ column density\nthreshold does a good job of predicting the location of star formation in\ndwarf irregulars. This threshold, $\\Sigma_{\\rm HI} \\approx\n10$~M$_{\\odot}$~pc$^{-2}$, also corresponds to the surface density above which\n\\hi\\ is observed to saturate \\citep[][]{MARTIN01,WONG02,BIGIEL08}; that is,\ngas in excess of this surface density in spiral galaxies is in the molecular\nphase.\n"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 690,
+      "context": "threshold does a good job of predicting the location of star formation in\ndwarf irregulars. This threshold, $\\Sigma_{\\rm HI} \\approx\n10$~M$_{\\odot}$~pc$^{-2}$, also corresponds to the surface density above which\n\\hi\\ is observed to saturate \\citep[][]{MARTIN01,WONG02,BIGIEL08}; that is,\ngas in excess of this surface density in spiral galaxies is in the molecular\nphase.\n\n\\section{Data}\n\\label{SECT_DATA}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 697,
+      "context": "\\section{Data}\n\\label{SECT_DATA}\n\nThe right hand column of Table \\ref{IDEATAB} lists the observables required to\nevaluate each law or threshold. We require estimates of: the surface density\nof atomic gas ($\\Sigma_{\\rm HI}$), molecular gas ($\\Sigma_{\\rm H2}$), star\nformation rate ($\\Sigma_{\\rm SFR}$), and stellar mass ($\\Sigma_{\\rm *}$), the\nvelocity dispersions of gas and stars ($\\sigma_{\\rm gas}$ and $\\sigma_*$), and\nthe rotation curve ($v(r_{\\rm gal})$). Estimates of the metallicity await"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 813,
+      "context": "\\end{deluxetable*}\n\nAppendices \\ref{GASAPP} -- \\ref{SFRAPP} explain in detail how we translate\nobservables into physical quantities. Here and in Table \\ref{OBSERVABLETAB} we\nsummarize this mapping.\n\n{\\em Atomic Hydrogen Surface Density (Appendix \\ref{GASAPP}):} We derive\natomic gas mass surface density, $\\Sigma_{\\rm HI}$, from 21-cm line integrated\nintensity maps obtained by \\citet{WALTER08} as part of the THINGS survey using"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 815,
+      "context": "Appendices \\ref{GASAPP} -- \\ref{SFRAPP} explain in detail how we translate\nobservables into physical quantities. Here and in Table \\ref{OBSERVABLETAB} we\nsummarize this mapping.\n\n{\\em Atomic Hydrogen Surface Density (Appendix \\ref{GASAPP}):} We derive\natomic gas mass surface density, $\\Sigma_{\\rm HI}$, from 21-cm line integrated\nintensity maps obtained by \\citet{WALTER08} as part of the THINGS survey using\nthe Very Large Array\\footnote{The VLA is operated by the National Radio\n  Astronomy Observatory, which is a facility of the National Science"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 816,
+      "context": "observables into physical quantities. Here and in Table \\ref{OBSERVABLETAB} we\nsummarize this mapping.\n\n{\\em Atomic Hydrogen Surface Density (Appendix \\ref{GASAPP}):} We derive\natomic gas mass surface density, $\\Sigma_{\\rm HI}$, from 21-cm line integrated\nintensity maps obtained by \\citet{WALTER08} as part of the THINGS survey using\nthe Very Large Array\\footnote{The VLA is operated by the National Radio\n  Astronomy Observatory, which is a facility of the National Science\n  Foundation operated under cooperative agreement by Associated Universities,"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 821,
+      "context": "intensity maps obtained by \\citet{WALTER08} as part of the THINGS survey using\nthe Very Large Array\\footnote{The VLA is operated by the National Radio\n  Astronomy Observatory, which is a facility of the National Science\n  Foundation operated under cooperative agreement by Associated Universities,\n  Inc.}.  $\\Sigma_{\\rm HI}$ is corrected for inclination and includes a factor\nof 1.36 to account for helium.\n\n{\\em Molecular Hydrogen Surface Density (Appendix \\ref{GASAPP}):} In spirals,\nwe estimate the molecular gas mass surface density, $\\Sigma_{\\rm H2}$, from CO"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 824,
+      "context": "  Foundation operated under cooperative agreement by Associated Universities,\n  Inc.}.  $\\Sigma_{\\rm HI}$ is corrected for inclination and includes a factor\nof 1.36 to account for helium.\n\n{\\em Molecular Hydrogen Surface Density (Appendix \\ref{GASAPP}):} In spirals,\nwe estimate the molecular gas mass surface density, $\\Sigma_{\\rm H2}$, from CO\nline emission. For 10 galaxies we use data from HERACLES, a large program at\nthe IRAM\\footnote{IRAM is supported by CNRS/INSU (France), the MPG (Germany)\n  and the IGN (Spain)}~30--m telescope \\citep{LEROY08} that used the HERA"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 825,
+      "context": "  Inc.}.  $\\Sigma_{\\rm HI}$ is corrected for inclination and includes a factor\nof 1.36 to account for helium.\n\n{\\em Molecular Hydrogen Surface Density (Appendix \\ref{GASAPP}):} In spirals,\nwe estimate the molecular gas mass surface density, $\\Sigma_{\\rm H2}$, from CO\nline emission. For 10 galaxies we use data from HERACLES, a large program at\nthe IRAM\\footnote{IRAM is supported by CNRS/INSU (France), the MPG (Germany)\n  and the IGN (Spain)}~30--m telescope \\citep{LEROY08} that used the HERA\nfocal plane array \\citep{SCHUSTER04} to map a subsample of THINGS in the CO"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 837,
+      "context": "We convert from CO line intensity to $\\Sigma_{\\rm H2}$ assuming a constant\nCO-to-H$_2$ conversion factor appropriate for the solar neighborhood, $ \\xco =\n2\\times10^{20}$~\\xcounits , and a fixed line ratio $I_{\\rm CO} (2\\rightarrow1)\n= 0.8~I_{\\rm CO} (1\\rightarrow0)$, typical of the disks of spiral galaxies.\nWe correct for the effects of inclination and include a factor of 1.36 to\nreflect the presence of helium .\n\n{\\em Galactic Rotation (Appendix \\ref{KINAPP}):} We fit a simple functional\nform to the high quality rotation curves derived from THINGS by"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 842,
+      "context": "reflect the presence of helium .\n\n{\\em Galactic Rotation (Appendix \\ref{KINAPP}):} We fit a simple functional\nform to the high quality rotation curves derived from THINGS by\n\\citet{DEBLOK08} and the THINGS first moment maps \\citep{WALTER08}. These fits\nyield smooth, well--behaved (analytic) derivatives and match the observations\nwell. Two galaxies (NGC~3077 and NGC~4449) have complex velocity fields that\nrequire substantial effort to interpret and we omit them from analyses\nrequiring kinematics."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 850,
+      "context": "requiring kinematics.\n\n{\\em Gas Velocity Dispersion (Appendix \\ref{KINAPP}):} We assume a fixed gas\nvelocity dispersion, $\\sigma_{\\rm gas} = 11$~km~s$^{-1}$, a value motivated by\nthe THINGS second moment maps.\n\n{\\em Stellar Velocity Dispersion (Appendix \\ref{KINAPP}):} We estimate the\nvertical stellar velocity dispersion, $\\sigma_{*,z}$, from hydrostatic\nequilibrium, the assumption of an isothermal disk, and an estimated (radially"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 860,
+      "context": "from our measured stellar scale length and an average flattening ratio for\ndisk galaxies. We take the vertical and radial velocity dispersions to be\nrelated by $\\sigma_{*,z} = 0.6~\\sigma_{*,r}$.\n\n{\\em Stellar Surface Density (Appendix \\ref{STARAPP}):} We estimate the\nstellar surface density, $\\Sigma_*$, from {\\em Spitzer} 3.6$\\mu$m maps, mostly\nfrom SINGS \\citep{KENNICUTT03}. To avoid contamination by hot dust and\nforeground stars, we construct radial profiles only, using the median\n3.6$\\mu$m intensity in each tilted ring.  We convert from 3.6$\\mu$m intensity"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 861,
+      "context": "disk galaxies. We take the vertical and radial velocity dispersions to be\nrelated by $\\sigma_{*,z} = 0.6~\\sigma_{*,r}$.\n\n{\\em Stellar Surface Density (Appendix \\ref{STARAPP}):} We estimate the\nstellar surface density, $\\Sigma_*$, from {\\em Spitzer} 3.6$\\mu$m maps, mostly\nfrom SINGS \\citep{KENNICUTT03}. To avoid contamination by hot dust and\nforeground stars, we construct radial profiles only, using the median\n3.6$\\mu$m intensity in each tilted ring.  We convert from 3.6$\\mu$m intensity\nto $\\Sigma_*$ via an empirical $K$-to-3.6$\\mu$m calibration and adopt a fixed"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 868,
+      "context": "3.6$\\mu$m intensity in each tilted ring.  We convert from 3.6$\\mu$m intensity\nto $\\Sigma_*$ via an empirical $K$-to-3.6$\\mu$m calibration and adopt a fixed\n$K$-band mass-to-light ratio, $\\ML = 0.5~M_\\odot/L_{\\odot,K}$.\n\n{\\em Star Formation Rate Surface Density (Appendix \\ref{SFRAPP}):} We combine\nFUV and 24$\\mu$m maps to derive maps of $\\Sigma_{\\rm SFR}$; giving us a tracer\nsensitive to both exposed and dust-embedded star formation.  The FUV data come\nfrom the GALEX Nearby Galaxies Survey \\citep{GILDEPAZ07} and the 24$\\mu$m maps\nare part of SINGS. Because this precise combination of data is new, Appendix"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 900,
+      "context": "\\end{deluxetable*}\n\nTable \\ref{STRUCTURETAB} compiles the integrated properties of each galaxy in\nour sample. Columns (1) -- (7) give basic parameters adopted from other\nsources: the name of the galaxy; the distance, inclination, and position angle\n\\citep[][except that we adopt $i=20\\arcdeg$ in M~51]{WALTER08}; and the\nmorphology, $B$-band isophotal radius at 25 mag arcsec$^{-2}$ ($r_{25}$), and\n$B$-band absolute magnitude from LEDA \\citep[][]{PRUGNIEL98}. Columns (8) and\n(9) give $v_{\\rm flat}$ and $l_{\\rm flat}$, the free parameters for our"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 924,
+      "context": "We work with maps of $\\Sigma_{\\rm HI}$, $\\Sigma_{\\rm H2}$ and $\\Sigma_{\\rm\n  SFR}$ on the THINGS astrometric grid. All data are placed at a common\nspatial resolution, $400$~pc for dwarf galaxies and $800$~pc for spirals; when\nnecessary, we use a Gaussian kernel to degrade our data to this resolution.\nThe convolution occurs before any deprojection and may be thought of as\nplacing each subsample at a single distance. Radial profiles of these maps and\n$\\Sigma_*$ appear in Appendix \\ref{RPROFAPP}.\n\nUsing these data, we compute each quantity in Table \\ref{IDEATAB} for"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 959,
+      "context": "\nHere we present our main observational results, how the star formation\nefficiency varies as a function of other quantities. We begin in \\S\n\\ref{SECT_SFEOBS} by showing the SFE as a function of three basic parameters:\ngalactocentric radius, stellar surface density, and gas surface density. Then\nin \\S \\ref{SECT_SFELAW}, we look at SFE as a function of the laws described in\n\\S \\ref{SECT_LAWBACK}. Finally, in \\S \\ref{SECT_SFETHRESH} we show the SFE as\na function of the thresholds described in \\S \\ref{SECT_THRESHBACK}.\n"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1109,
+      "context": "the effect can be read directly from Equation \\ref{DWARFSFEFIT2}. At $r_{\\rm\n  gal} = 0$, if dwarf galaxies have the same SFE~(\\htwo ) as spirals, $R_{\\rm\n  mol} \\approx 2.76$, i.e., $\\Sigma_{\\rm H2} \\approx 2.76~\\Sigma_{\\rm HI}$.\n\n\\subsubsection{SFE and Stellar Surface Density}\n\\label{SECT_SFESTARS}\n\n\\begin{figure}\n \\plotone{slvsr25.eps}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1140,
+      "context": "linear relationship between SFE and $\\Sigma_*$ where the ISM is \\hi -dominated\n(blue points).\n\nA basic result of THINGS is that over the optical disk of most star forming\ngalaxies, the \\hi\\ surface density varies remarkably little \\citep[Appendices\n\\ref{RPROFAPP} and \\ref{ATLASAPP} and][]{WALTER08}. Inspecting our atlas, one\nsees that $\\Sigma_{\\rm HI} \\approx 6$~M$_{\\odot}$~pc$^{-2}$ (within a factor\nof 2) over a huge range of local conditions, including most of the optical\ndisk in most galaxies.  Because $\\Sigma_{\\rm gas}$ is nearly constant in the"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1175,
+      "context": "  \\begin{center}\n    \\plottwo{sfevsstars_rings.eps}{sfevsstars.eps}\n    \\plottwo{sfevsstars_dwarfs_rings.eps}{sfevsstars_dwarfs.eps}\n  \\end{center}\n  \\caption{\\label{SFEVSSTARS} SFE as a function of stellar surface density,\n    $\\Sigma_*$, in spiral (top row) and dwarf (bottom row) galaxies.\n    Conventions and symbols are as in Figure \\ref{SFEVSRAD}. Dashed diagonal\n    lines show the linear relationship between SFE and $\\Sigma_*$ expected for\n    the mean stellar assembly time and $\\Sigma_{\\rm gas}$ for each subsample."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1204,
+      "context": "comparing $K$-band maps to BIMA SONG and \\citet{YOUNG95} found $l_{\\rm\n  CO} \\approx 0.2~r_{25}$, which is almost identical to our $l_{\\rm\n  CO} \\sim 0.9~l_*$ and $(4.6 \\pm 0.8)~l_* = r_{25}$.\n\n\\subsubsection{SFE and Gas Surface Density}\n\\label{GAS_SECT}\n\n\\begin{figure}\n  \\plotone{slvssl.eps}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1277,
+      "context": "can explain the radial decline in SFE and whether SFE$~(\\htwo )$, already\nobserved to be constant as a function of $r_{\\rm gal}$, $\\Sigma_*$, and\n$\\Sigma_{\\rm gas}$ (but with some scatter), exhibits {\\em any} kind of\nsystematic behavior. We compare the SFE to four quantities that drive the\npredictions in Table~\\ref{IDEATAB}: gas surface density (already seen in\nFigure \\ref{SFEVSGAS}), gas pressure (density), the orbital timescale, and the\nderivative of the rotation curve, $\\beta$.\n\n\\subsubsection{Free--Fall Time in a Fixed Scale Height Disk}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1357,
+      "context": "Where the ISM is mostly \\hi\\ (blue points) in dwarf galaxies and the outer\nparts of spirals, the SFE correlates with $P_{\\rm h}$. $P_{\\rm h}$ predicts\nthe SFE notably better than $\\Sigma_{\\rm gas}$ in this regime, supporting the\nidea that the volume density of gas (at least \\hi ) is more relevant to star\nformation than surface density. \\citet{WONG02} and \\citet{BLITZ06} observed a\ncontinuous relationship between $R_{\\rm mol}$ and $P_{\\rm h}$, mostly where\n$\\Sigma_{\\rm H2} \\gtrsim \\Sigma_{\\rm HI}$. Figure \\ref{SFEVSPRESS} suggests\nthat such a relationship extends well into the regime where \\hi\\ dominates the\nISM."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1755,
+      "context": "star formation may still proceed if a cold (narrow-line width) phase can form\nlocally and thus induce gravitational instability in a fraction of the gas\n(recall the effect of lower $\\sigma_{\\rm gas}$ in Figure \\ref{SFEVSQGAS}).\n\\citet{SCHAYE04} argued that this is the usual path to star formation in the\nouter parts of galaxies and modeled the critical gas surface density for such\na phase to form, $\\Sigma_{\\rm S04}$. The bottom right panels in Figures\n\\ref{THRESHVSRADSPIRALS} and \\ref{THRESHVSRADDWARFS} show $\\Sigma_{\\rm\n  S04}/\\Sigma_{\\rm gas}$ as a function of radius and Figure \\ref{SFEVSSCHAYE}\nshows the SFE as a function of this ratio. The gray area in both figures shows"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 1823,
+      "context": "  \\plotone{sfeh2vsxxx.eps}\n\\end{center}\n\\caption{\\label{SFEH2FIG} SFE~(\\htwo ) in individual tilted rings from spiral\n  galaxies as a function of: ({\\em top left}) galactocentric radius, ({\\em top\n    middle}) \\htwo\\ surface density, ({\\em top right}) stellar surface\n  density, ({\\em bottom left}) midplane pressure, ({\\em bottom middle})\n  orbital timescale, ({\\em bottom right}) logarithmic derivative of the\n  rotation curve. Gray lines show the median $\\log_{10} {\\rm SFE~(\\htwo )} =\n  -9.28 \\pm 0.17$ for our data.}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 2356,
+      "context": "intact. Variations in the CO $J=2\\rightarrow1$/$1\\rightarrow0$ line ratio\n(Appendix \\ref{GASAPP}) will manifest as changes in \\xco .\n\n{\\em $\\sigma_{\\rm gas}$:} We adopt $\\sigma_{\\rm gas} = 11$~km~s$^{-1}$ based\non the THINGS second moment maps (Appendix \\ref{KINAPP}). This is almost twice\nthe commonly used $\\sigma_{\\rm gas} = 6$~km~s$^{-1}$\n\\citep{KENNICUTT89,KENNICUTT98A,MARTIN01,BOISSIER03} and also higher than\n$\\sigma_{\\rm gas} = 8$~km~s$^{-1}$, adopted by \\citet{BLITZ06}. We emphasize\nthe importance of $\\sigma_{\\rm gas}$ to the stability analysis in \\S"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 2545,
+      "context": "We combine THINGS, SINGS, the GALEX NGS, HERACLES, and BIMA SONG to study what\nsets the star formation efficiency in 12 nearby spirals and 11 nearby dwarf\ngalaxies.\n\nWe use these data to estimate the star formation rate surface density, gas\nkinematics, and the mass surface densities of \\hi, \\htwo, and stars\n(Appendices \\ref{GASAPP} and \\ref{STARAPP}). To trace recent star formation,\nwe use a linear combination of GALEX FUV and {\\em Spitzer} 24$\\mu$m (Appendix\n\\ref{SFRAPP}).  We suggest that this combination represent a useful tool given"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 2571,
+      "context": "\nThe spiral galaxy has a roughly constant distribution of \\hi , $\\Sigma_{\\rm\n  HI} \\sim 6$~M$_{\\odot}$~pc$^{-2}$ out to $\\sim r_{25}$. \\hi\\ surface\ndensities seldom exceed $\\Sigma_{\\rm HI} \\sim 10$~M$_{\\odot}$~pc$^{-2}$; gas\nin excess of this surface density tends to be molecular.  We observe no\nanalogous saturation in $\\Sigma_{\\rm H2}$, finding $\\Sigma_{\\rm H2} \\gtrsim\n100$~M$_{\\odot}$~pc$^{-2}$ in the very central parts of many galaxies.\n\nMolecular gas, star formation, and stellar surface density all decline with"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 2575,
+      "context": "in excess of this surface density tends to be molecular.  We observe no\nanalogous saturation in $\\Sigma_{\\rm H2}$, finding $\\Sigma_{\\rm H2} \\gtrsim\n100$~M$_{\\odot}$~pc$^{-2}$ in the very central parts of many galaxies.\n\nMolecular gas, star formation, and stellar surface density all decline with\nnearly equal exponential scale lengths, $\\sim 0.2~r_{25}$, giving the\nappearance of a long--lived star--forming disk embedded in a sea of \\hi. The\nISM is mostly \\htwo\\ within $\\sim 0.5~r_{25}$ and where $\\Sigma_* \\gtrsim\n80$~M$_{\\odot}$."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 2691,
+      "context": "cloud formation: $R_{\\rm mol} = \\Sigma_{\\rm H2}/\\Sigma_{\\rm HI}$ varies\ncontinuously across $R_{\\rm mol} = 1$ as a function of other quantities.\nHowever, it is useful to predict the SFE, which will be nearly constant above\nthis $\\Sigma_{\\rm gas}$. A related (but not identical) value, $\\Sigma_{\\rm HI}\n\\sim 10$~M$_{\\odot}$~pc$^{-2}$, is the surface density at which \\hi\\\n``saturates.'' Gas in excess of this surface density is in the molecular phase\n\\citep[][]{MARTIN01,WONG02,BIGIEL08}. This presumably drives the observation\nthat most vigorous star formation takes place where $\\Sigma_{\\rm HI} \\gtrsim\n10$~M$_{\\odot}$~pc$^{-2}$ \\citep[e.g.,][]{SKILLMAN87}. Last, lower values,"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 2692,
+      "context": "continuously across $R_{\\rm mol} = 1$ as a function of other quantities.\nHowever, it is useful to predict the SFE, which will be nearly constant above\nthis $\\Sigma_{\\rm gas}$. A related (but not identical) value, $\\Sigma_{\\rm HI}\n\\sim 10$~M$_{\\odot}$~pc$^{-2}$, is the surface density at which \\hi\\\n``saturates.'' Gas in excess of this surface density is in the molecular phase\n\\citep[][]{MARTIN01,WONG02,BIGIEL08}. This presumably drives the observation\nthat most vigorous star formation takes place where $\\Sigma_{\\rm HI} \\gtrsim\n10$~M$_{\\odot}$~pc$^{-2}$ \\citep[e.g.,][]{SKILLMAN87}. Last, lower values,\n$\\Sigma_{\\rm gas} \\sim 3$--$4$~M$_{\\odot}$~pc$^{-2}$"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 2991,
+      "context": "% M33 SCHMIDT LAW\n\\bibitem[Heyer et al.(2004)]{HEYER04} Heyer, M.~H., Corbelli, E., Schneider,\n  S.~E., \\& Young, J.~S.\\ 2004, \\apj, 602, 723\n\n% STELLAR SURFACE DENSITY IS THE ONLY THING THAT CORRELATES WITH SF\n\\bibitem[Hunter et al.(1998a)]{HUNTER98} Hunter, D.~A., Elmegreen, B.~G., \\&\n  Baker, A.~L.\\ 1998, \\apj, 493, 595\n\n% NGC 4449 IS A WEIRDO"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3347,
+      "context": "  \\ref{SFRAPP}). Finally, we present a table containing radial profiles of key\n  quantities (Appendix \\ref{RPROFAPP}) and an atlas showing maps,\n  profiles, and basic results for each galaxy  (Appendix \\ref{ATLASAPP}) . \\\\\n\n\\section{Maps of \\hi\\ and \\htwo\\ Surface Density}\n\\label{GASAPP}\n\n\\subsection{$\\Sigma_{\\rm HI}$ from THINGS 21cm Maps}\n"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3350,
+      "context": "\n\\section{Maps of \\hi\\ and \\htwo\\ Surface Density}\n\\label{GASAPP}\n\n\\subsection{$\\Sigma_{\\rm HI}$ from THINGS 21cm Maps}\n\nThe \\hi\\ Nearby Galaxy Survey \\citep[THINGS,][]{WALTER08} mapped 21-cm line\nemission from all of our sample galaxies using the Very Large Array. We\ncalculate atomic gas mass surface density, $\\Sigma_{\\rm{HI}}$, from"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3352,
+      "context": "\\label{GASAPP}\n\n\\subsection{$\\Sigma_{\\rm HI}$ from THINGS 21cm Maps}\n\nThe \\hi\\ Nearby Galaxy Survey \\citep[THINGS,][]{WALTER08} mapped 21-cm line\nemission from all of our sample galaxies using the Very Large Array. We\ncalculate atomic gas mass surface density, $\\Sigma_{\\rm{HI}}$, from\nnatural-weighted data that have mean angular resolution $11\\arcsec$ and mean\nvelocity resolution $5$~\\kmpers . THINGS includes data from the most compact"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3354,
+      "context": "\\subsection{$\\Sigma_{\\rm HI}$ from THINGS 21cm Maps}\n\nThe \\hi\\ Nearby Galaxy Survey \\citep[THINGS,][]{WALTER08} mapped 21-cm line\nemission from all of our sample galaxies using the Very Large Array. We\ncalculate atomic gas mass surface density, $\\Sigma_{\\rm{HI}}$, from\nnatural-weighted data that have mean angular resolution $11\\arcsec$ and mean\nvelocity resolution $5$~\\kmpers . THINGS includes data from the most compact\nVLA configuration and therefore comfortably recovers extended structure (up to\n$15\\arcmin$) in our sources. At $30\\arcsec$ resolution, THINGS maps are"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3358,
+      "context": "calculate atomic gas mass surface density, $\\Sigma_{\\rm{HI}}$, from\nnatural-weighted data that have mean angular resolution $11\\arcsec$ and mean\nvelocity resolution $5$~\\kmpers . THINGS includes data from the most compact\nVLA configuration and therefore comfortably recovers extended structure (up to\n$15\\arcmin$) in our sources. At $30\\arcsec$ resolution, THINGS maps are\nsensitive to $\\Sigma_{\\rm HI}$ as low as $\\sim 0.5$~M$_{\\odot}$~pc$^{-2}$;\nhere we adopt a working sensitivity of $\\Sigma_{\\rm HI} =\n1$~M$_{\\odot}$~pc$^{-2}$. In practice the sensitivity and field of view of the\nTHINGS maps are sufficient to measure $\\Sigma_{\\rm HI}$ to $\\gtrsim r_{25}$ in"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3362,
+      "context": "$15\\arcmin$) in our sources. At $30\\arcsec$ resolution, THINGS maps are\nsensitive to $\\Sigma_{\\rm HI}$ as low as $\\sim 0.5$~M$_{\\odot}$~pc$^{-2}$;\nhere we adopt a working sensitivity of $\\Sigma_{\\rm HI} =\n1$~M$_{\\odot}$~pc$^{-2}$. In practice the sensitivity and field of view of the\nTHINGS maps are sufficient to measure $\\Sigma_{\\rm HI}$ to $\\gtrsim r_{25}$ in\nalmost every galaxy. For detailed description and presentation of THINGS, we\nrefer the reader to \\citet{WALTER08}.\n\nTo convert from integrated intensity to $\\Sigma_{\\rm HI}$ we use"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3369,
+      "context": "\nTo convert from integrated intensity to $\\Sigma_{\\rm HI}$ we use\n\n\\begin{equation}\n  \\Sigma_{\\rm HI}~\\left[{\\rm M_\\odot~pc}^{-2}\\right] = 0.020~\\cos i~I_{\\rm 21cm}~\\left[{\\rm K~km~s}^{-1}\\right]~.\n\\end{equation}\n\n\\noindent which accounts for inclination and includes a factor of $1.36$ to\nreflect the presence of helium."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3372,
+      "context": "\\begin{equation}\n  \\Sigma_{\\rm HI}~\\left[{\\rm M_\\odot~pc}^{-2}\\right] = 0.020~\\cos i~I_{\\rm 21cm}~\\left[{\\rm K~km~s}^{-1}\\right]~.\n\\end{equation}\n\n\\noindent which accounts for inclination and includes a factor of $1.36$ to\nreflect the presence of helium.\n\n\\subsection{$\\Sigma_{\\rm H2}$ from HERACLES (IRAM 30-m) and BIMA SONG CO Maps}\n"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3377,
+      "context": "reflect the presence of helium.\n\n\\subsection{$\\Sigma_{\\rm H2}$ from HERACLES (IRAM 30-m) and BIMA SONG CO Maps}\n\nWe estimate the surface density of molecular hydrogen, $\\Sigma_{\\rm H2}$, from\nCO emission, the most commonly used tracer of \\htwo. Along with\n\\citet{BIGIEL08}, this study presents the first scientific results from\nHERACLES, a large project that used the HERA focal plane array\n\\citep{SCHUSTER04} on the IRAM~30--m telescope to map CO $J=2\\rightarrow1$"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3403,
+      "context": "\\citep[][]{STRONG96,DAME01}. For CO $J=1\\rightarrow0$ emission, the conversion\nto $\\Sigma_{\\rm H2}$ is\n\n\\begin{equation}\n  \\Sigma_{\\rm H2}~\\left[{\\rm M}_\\odot~{\\rm pc}^{-2}\\right] = 4.4~\\cos i~I_{\\rm CO}~\\left(1\\rightarrow0\\right)~\\left[{\\rm K~km~s}^{-1}\\right]~.\n\\end{equation}\n\nTo relate CO $J=2\\rightarrow1$ to CO $J=1\\rightarrow0$ intensity, we further\nassume a line ratio of $I_{\\rm CO} (2\\rightarrow1) = 0.8~I_{\\rm CO}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3415,
+      "context": "galaxies \\citep[, e.g.,][]{BRAINE93,SAWADA01,SCHUSTER07}. Thus, for the\nHERACLES maps we derive $\\Sigma_{\\rm H2}$ via\n\n\\begin{equation}\n\\Sigma_{\\rm H2}~\\left[{\\rm M}_\\odot~{\\rm pc}^{-2}\\right] = 5.5~\\cos i~I_{\\rm CO}~\\left(2\\rightarrow1\\right)~\\left[{\\rm K~km~s}^{-1}\\right]~.\n\\end{equation}\n\n\\subsection{The CO--to--\\htwo\\ Conversion Factor}\n\\label{XCOAPP}"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3484,
+      "context": "\n\\begin{figure*}\n  \\plotone{rcexample.eps} \\figcaption{\\label{RCEXAMPLE} Illustration of our\n    rotation curve treatment. Light gray profiles show median rotation\n    velocity and scatter measured directly from the THINGS first moment maps;\n    dark gray profiles and scatter show the higher quality \\citep{DEBLOK08}\n    rotation curves. The thick black lines show the fit that we use to\n    approximate the rotation curve. This simple function (Equation\n    \\ref{ROTCUREQ}) does a good job of capturing both the steadily rising"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3532,
+      "context": "\\label{VROTEQ}\nv_{\\rm rot} = \\frac{v_{\\rm r} - v_{\\rm sys}}{\\sin i~\\cos \\theta}~.\n\\end{equation}\n\n\\noindent Here $v_{\\rm sys}$ is the systemic velocity, $i$ is the inclination,\nand $\\theta$ is the azimuthal angle relative to the receding major axis\nmeasured in the plane of the galaxy. We calculate maps of $v_{\\rm rot}$ and\nthen convert these into profiles of the median and $1\\sigma$ scatter in\n$v_{\\rm rot}$ within $60\\arcdeg$ of the major axis in a series"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3544,
+      "context": "For many of our galaxies, high quality rotation curves are available from the\nanalysis of \\citet[][see Table \\ref{SAMPLETAB}]{DEBLOK08}. Wherever possible,\nwe include these in our fit with very high weight, so that they drive the\nbest--fit $v_{\\rm flat}$ and $l_{\\rm flat}$ for these galaxies. For the $7$\nlow--inclination galaxies in our sample that are not part of the study by\n\\citet{DEBLOK08} (see Column 4 of Table \\ref{SAMPLETAB}) we only fit the first\nmoment data.\n\nFigure \\ref{RCEXAMPLE} shows examples of this procedure for two galaxies: the"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3573,
+      "context": "prep.), who are conducting a thorough study of $\\sigma_{\\rm gas}$ in THINGS.\nThe left panel in Figure \\ref{VDISPANDSTARS} motivates this choice. We plot\nthe median and $1\\sigma$ range of $\\sigma_{\\rm gas}$ over the range\n$0.5~r_{25}$--$1.0~r_{25}$ for each galaxy in THINGS as a function of the\ninclination of the galaxy. We restrict ourselves to the outer disk because\nover this regime \\hi\\ usually dominates the ISM. This figure shows that a\nfixed $\\sigma_{\\rm gas} = 11 \\pm 3$~km~s$^{-1}$ is a good description of the\nouter disk for galaxies with $i < 60\\arcdeg$; variations both within and among\ngalaxies are comparatively small, typically $25\\%$. On the other hand, highly"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3652,
+      "context": "  \\plottwo{vdispvsincl.eps}{kvs3p6.eps} \\figcaption{\\label{VDISPANDSTARS}\n    (left) Motivation for our adopted gas velocity dispersion, $\\sigma_{\\rm\n      gas}$. We plot the median and $1\\sigma$ range of $\\sigma_{\\rm gas}$ over\n    the outer disk ($0.5$--$1.0~r_{25}$) of each THINGS galaxy (including\n    galaxies that are not part of this study) as a function of inclination.\n    We see that variations within a galaxy are relatively small and that\n    $\\sigma_{\\rm gas} = 11 \\pm 3$~km~s$^{-1}$ is a good description of\n    galaxies with inclination $i \\lesssim 60\\arcdeg$. Above this inclination,\n    $\\sigma_{\\rm gas}$ is systematically higher with more scatter as a likely"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3655,
+      "context": "    the outer disk ($0.5$--$1.0~r_{25}$) of each THINGS galaxy (including\n    galaxies that are not part of this study) as a function of inclination.\n    We see that variations within a galaxy are relatively small and that\n    $\\sigma_{\\rm gas} = 11 \\pm 3$~km~s$^{-1}$ is a good description of\n    galaxies with inclination $i \\lesssim 60\\arcdeg$. Above this inclination,\n    $\\sigma_{\\rm gas}$ is systematically higher with more scatter as a likely\n    consequence of projection effects in these systems.  We adopt a fixed\n    $\\sigma_{\\rm gas}$ (gray line) throughout this work.  (right) Median\n    $K$-band intensity vs.  median $3.6\\mu$m intensity in $10\\arcsec$-wide"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3669,
+      "context": "on {\\em Spitzer} \\citep{FAZIO04}. Emission from old stellar photospheres\naccounts for most of the emission seen in the IRAC 3.6~$\\mu$m band\n\\citep[e.g.,][]{PAHRE04}, although we note that there may be some contribution\nfrom very hot dust and PAH features. Therefore we use these data to estimate\nradial profiles of the stellar surface density, $\\Sigma_*$. To convert from\n3.6$\\mu$m intensity, $I_{3.6}$, to $\\Sigma_*$ we apply an empirical conversion\nfrom 3.6$\\mu$m to $K$-band intensity and then adopt a standard $K$-band\nmass-to-light ratio.\n"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3707,
+      "context": "decision to adopt a constant value.\n\nWith our $K$-to-$3.6\\mu$m ratio, $\\ML = 0.5$~M$_{\\odot} / $L$_{\\odot,K}$, and\nthe $K$-band magnitude of the Sun $=3.28$ mag \\citep{BINNEY98}, the conversion\nfrom 3.6~$\\mu$m intensity to stellar surface density is\n\n\\begin{equation}\n\\label{APPSIGSTAREQ}\n\\Sigma_* = \\ML~\\left<\\frac{I_{K}}{I_{3.6}}\\right>~\\cos i~I_{3.6}~= 280~\\cos i~I_{3.6},"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3711,
+      "context": "from 3.6~$\\mu$m intensity to stellar surface density is\n\n\\begin{equation}\n\\label{APPSIGSTAREQ}\n\\Sigma_* = \\ML~\\left<\\frac{I_{K}}{I_{3.6}}\\right>~\\cos i~I_{3.6}~= 280~\\cos i~I_{3.6},\n\\end{equation}\n\n\\noindent with $\\Sigma_*$ in M$_\\odot$~pc$^{-2}$ assuming a \\citet{KROUPA01}\nIMF and $I_{3.6}$ in MJy~ster$^{-1}$."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3741,
+      "context": "% within and among galaxies\n%: 1) they adopt the diet Salpeter IMF used by \\citet{BELL01} and\n%\\citet{BELL03A} \\citep[we use][]{KROUPA01} and 2) \n\n\\section{Star Formation Rate Surface Density Maps}\n\\label{SFRAPP}\n\nWe combine GALEX FUV and {\\em Spitzer} 24$\\mu$m maps to estimate the star\nformation rate surface density, $\\Sigma_{\\rm SFR}$, along each line of sight."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3745,
+      "context": "\\section{Star Formation Rate Surface Density Maps}\n\\label{SFRAPP}\n\nWe combine GALEX FUV and {\\em Spitzer} 24$\\mu$m maps to estimate the star\nformation rate surface density, $\\Sigma_{\\rm SFR}$, along each line of sight.\nFUV maps show mostly photospheric emission from O and B stars and thus trace\nunobscured star formation over a timescale of $\\tau_{\\rm FUV} \\sim\n10$--$100$~Myr \\citep[e.g.,][]{KENNICUTT98B,CALZETTI05,SALIM07}. Emission at\n24$\\mu$m originates from small dust grains mainly heated by UV photons from"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 3776,
+      "context": "\n\\begin{eqnarray}\n\\label{SFREQ}\n\\Sigma_{\\rm SFR} = \\left(~8.1 \\times 10^{-2}~I_{\\rm FUV} + 3.2_{-0.7}^{+1.2} \\times\n  10^{-3}~I_{24}~\\right)~\\cos i~.\n\\end{eqnarray}\n\n\\noindent Here $\\Sigma_{\\rm SFR}$ has units of ${\\rm M}_\\odot~{\\rm\n  kpc}^{-2}~{\\rm yr}^{-1}$ and FUV and 24$\\mu$m intensity are each in ${\\rm"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 4255,
+      "context": "The individual columns are as follows. {\\em Ring identifiers:} (1) galaxy\nname; galactocentric radius of ring center (2) in kpc and (3) normalized by\n$r_{25}$. {\\em Mass surface densities} (in M$_{\\odot}$~pc$^{-2}$) along with\nassociated uncertainty of (4--5) \\hi ; (6--7) \\htwo ; and (8--9) stars. {\\em\n  Star formation rate surface density}, $\\Sigma_{\\rm SFR}$, with associated\nuncertainty (10--11) from combining FUV and 24$\\mu$m emission in units of\n$10^{-4}$~M$_{\\odot}$~yr$^{-1}$~kpc$^{-2}$; and the individual contributions\nto $\\Sigma_{\\rm SFR}$ from (12) FUV and (13) 24$\\mu$m emission (i.e., the left\nand right terms in \\ref{SFREQ}) in the same units."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 4264,
+      "context": "\nWe derive radial profiles from maps using the mean (for $\\Sigma_{\\rm HI}$,\n$\\Sigma_{\\rm H2}$, $\\Sigma_{\\rm SFR}$) or median ($\\Sigma_*$) value within\n$10\\arcsec$-wide tilted rings (so that the rings are spaced by half of our\ntypical working resolution). The rings use the position angle and inclination\nin Table \\ref{STRUCTURETAB}, adopted from \\citet{WALTER08}. We adopt the\nTHINGS center for each galaxy \\citep{WALTER08,TRACHTERNACH08} except for\nHolmberg~I, where we use the dynamical center derived by \\citet{OTT01} rather\nthan the photometric center. We consider only data within $60\\arcdeg$ of the"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 4271,
+      "context": "Holmberg~I, where we use the dynamical center derived by \\citet{OTT01} rather\nthan the photometric center. We consider only data within $60\\arcdeg$ of the\nmajor axis, measured in the plane of the galaxy.  This minimizes our\nsensitivity to the adopted structural parameters, which most strongly affect\nthe deprojection along the minor axis. Where there are no data, we take\n$\\Sigma_{\\rm HI} = 0$ and $\\Sigma_{\\rm H2} = 0$. These are regions that have\nbeen observed but masked out because no signal was identified. We ignore\npixels with no measurement of $\\Sigma_{\\rm SFR}$, these are simply missing\ndata."
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 4298,
+      "context": "individual galaxies. Each page shows results for one galaxy. The top\nrow shows maps of atomic gas ($\\Sigma_{\\rm HI}$), molecular gas\n($\\Sigma_{\\rm H2}$), and total gas ($\\Sigma_{\\rm gas} = \\Sigma_{\\rm\n  HI} + \\Sigma_{\\rm H2}$). The second row shows unobscured (FUV),\ndust-embedded (24$\\mu$m), and total star formation surface density\n($\\Sigma_{\\rm SFR}$).  These maps use a color scheme based on the\nmodified magnitude system described by \\citet[][]{LUPTON99}; a bar to\nthe right of each row of plots illustrates the scheme. The gas maps\nand star formation maps for each galaxy use a single color scheme, but"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 4317,
+      "context": "of the galaxy for the structural parameters given in Table\n\\ref{STRUCTURETAB}. A small black circle in the bottom right panel\nshows our working resolution.\n\nIn the left panel on the third row, we plot mass surface density\nprofiles. We show \\hi\\ (blue), \\htwo\\ (magenta, where available),\nstars (red stars), and total gas (thick gray profile). Vertical dotted\nlines indicate $0.25$, $0.5$, $0.75$, and $1.0$ times\n$r_{25}$. Horizontal dotted lines show fixed mass surface density. The"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 4321,
+      "context": "In the left panel on the third row, we plot mass surface density\nprofiles. We show \\hi\\ (blue), \\htwo\\ (magenta, where available),\nstars (red stars), and total gas (thick gray profile). Vertical dotted\nlines indicate $0.25$, $0.5$, $0.75$, and $1.0$ times\n$r_{25}$. Horizontal dotted lines show fixed mass surface density. The\nthick gray vertical line shows where the intensity scale for the\nimages is set, i.e., $0.1~r_{25}$.\n\nIn the right panel on the third row, we plot star formation rate"
+    },
+    {
+      "file": "things_sfe_astroph.tex",
+      "line": 4326,
+      "context": "thick gray vertical line shows where the intensity scale for the\nimages is set, i.e., $0.1~r_{25}$.\n\nIn the right panel on the third row, we plot star formation rate\nsurface density profiles. We show the total $\\Sigma_{\\rm SFR}$ (thick\ngray profile) and the separate contributions from dust-embedded\n(green, 24$\\mu$m) and unobscured (blue, FUV) star formation, which add\nup to $\\Sigma_{\\rm SFR}$.  Where they are available, we plot\n$\\Sigma_{\\rm SFR}$ from the SINGS DR4 H$\\alpha$ (red) and points"
+    }
+  ],
+  "boundary": "Source-text convention audit only; no science pixels, profile extraction, persistence parameters, or blind outcomes."
+}
