@@ -1,0 +1,175 @@
+{
+  "status": "CERTIFIED_HI_FULL_RADIAL_COVERAGE_V1_AUDITED",
+  "n_profiles": 31,
+  "n_tabulated": 24,
+  "n_analytic": 7,
+  "role_counts": {
+    "calibration": 23,
+    "blind": 8
+  },
+  "coverage_class_counts": {
+    "analytic_defined_on_rotation_grid": 7,
+    "full_measured_support": 7,
+    "inner_and_outer_continuation": 2,
+    "inner_continuation_only": 6,
+    "outer_continuation_only": 9
+  },
+  "n_tabulated_requiring_inner_continuation": 8,
+  "n_tabulated_requiring_outer_continuation": 11,
+  "inner_continuation_galaxies": [
+    "NGC0024",
+    "NGC0300",
+    "NGC2841",
+    "NGC6015",
+    "UGC04483",
+    "UGC07559",
+    "UGC09037",
+    "UGC12506"
+  ],
+  "outer_continuation_galaxies": [
+    "DDO154",
+    "IC2574",
+    "NGC2403",
+    "NGC2841",
+    "NGC3198",
+    "NGC3521",
+    "NGC5055",
+    "NGC6015",
+    "NGC6946",
+    "NGC7331",
+    "NGC7793"
+  ],
+  "max_inner_gap_kpc": 1.6432912407,
+  "max_outer_gap_kpc": 46.94,
+  "largest_inner_gaps": [
+    {
+      "galaxy": "UGC12506",
+      "role": "calibration",
+      "gap_kpc": 1.6432912407,
+      "rotation_rmin_kpc": 0.82,
+      "profile_rmin_kpc": 2.4632912407
+    },
+    {
+      "galaxy": "NGC6015",
+      "role": "calibration",
+      "gap_kpc": 0.89169977526,
+      "rotation_rmin_kpc": 0.34,
+      "profile_rmin_kpc": 1.23169977526
+    },
+    {
+      "galaxy": "NGC2841",
+      "role": "calibration",
+      "gap_kpc": 0.36,
+      "rotation_rmin_kpc": 3.44,
+      "profile_rmin_kpc": 3.8
+    },
+    {
+      "galaxy": "NGC0024",
+      "role": "blind",
+      "gap_kpc": 0.3401416194,
+      "rotation_rmin_kpc": 0.21,
+      "profile_rmin_kpc": 0.5501416194
+    },
+    {
+      "galaxy": "UGC07559",
+      "role": "calibration",
+      "gap_kpc": 0.121904799023,
+      "rotation_rmin_kpc": 0.36,
+      "profile_rmin_kpc": 0.481904799023
+    },
+    {
+      "galaxy": "NGC0300",
+      "role": "calibration",
+      "gap_kpc": 0.09841245671,
+      "rotation_rmin_kpc": 0.91,
+      "profile_rmin_kpc": 1.00841245671
+    },
+    {
+      "galaxy": "UGC09037",
+      "role": "calibration",
+      "gap_kpc": 0.00269317668,
+      "rotation_rmin_kpc": 2.43,
+      "profile_rmin_kpc": 2.43269317668
+    },
+    {
+      "galaxy": "UGC04483",
+      "role": "calibration",
+      "gap_kpc": 0.0010014131251,
+      "rotation_rmin_kpc": 0.08,
+      "profile_rmin_kpc": 0.0810014131251
+    }
+  ],
+  "largest_outer_gaps": [
+    {
+      "galaxy": "NGC2841",
+      "role": "calibration",
+      "gap_kpc": 46.94,
+      "rotation_rmax_kpc": 63.64,
+      "profile_rmax_kpc": 16.7
+    },
+    {
+      "galaxy": "NGC5055",
+      "role": "blind",
+      "gap_kpc": 34.2018811881,
+      "rotation_rmax_kpc": 54.59,
+      "profile_rmax_kpc": 20.3881188119
+    },
+    {
+      "galaxy": "NGC3198",
+      "role": "calibration",
+      "gap_kpc": 28.98,
+      "rotation_rmax_kpc": 44.08,
+      "profile_rmax_kpc": 15.1
+    },
+    {
+      "galaxy": "NGC7331",
+      "role": "calibration",
+      "gap_kpc": 13.11,
+      "rotation_rmax_kpc": 36.31,
+      "profile_rmax_kpc": 23.2
+    },
+    {
+      "galaxy": "NGC2403",
+      "role": "blind",
+      "gap_kpc": 12.18,
+      "rotation_rmax_kpc": 20.87,
+      "profile_rmax_kpc": 8.69
+    },
+    {
+      "galaxy": "NGC6946",
+      "role": "blind",
+      "gap_kpc": 9.5471186441,
+      "rotation_rmax_kpc": 20.4,
+      "profile_rmax_kpc": 10.8528813559
+    },
+    {
+      "galaxy": "NGC3521",
+      "role": "blind",
+      "gap_kpc": 6.7297196262,
+      "rotation_rmax_kpc": 17.74,
+      "profile_rmax_kpc": 11.0102803738
+    },
+    {
+      "galaxy": "DDO154",
+      "role": "calibration",
+      "gap_kpc": 4.60465116279,
+      "rotation_rmax_kpc": 5.92,
+      "profile_rmax_kpc": 1.31534883721
+    },
+    {
+      "galaxy": "NGC6015",
+      "role": "calibration",
+      "gap_kpc": 3.2615980037,
+      "rotation_rmax_kpc": 29.23,
+      "profile_rmax_kpc": 25.9684019963
+    },
+    {
+      "galaxy": "IC2574",
+      "role": "calibration",
+      "gap_kpc": 1.628,
+      "rotation_rmax_kpc": 10.23,
+      "profile_rmax_kpc": 8.602
+    }
+  ],
+  "boundary": "Radial-support geometry only. No velocities, residuals, L_A, C_A, tau_A, persistence prediction, or blind outcome evaluated."
+}
