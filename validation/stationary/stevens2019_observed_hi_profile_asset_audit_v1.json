@@ -1,0 +1,736 @@
+{
+  "status": "STEVENS2019_OBSERVED_HI_PROFILE_ASSET_AUDIT_COMPLETE",
+  "arxiv": "https://export.arxiv.org/e-print/1908.11149",
+  "files": [
+    "Bib_letter.tex",
+    "Derivative.pdf",
+    "HISM_Obs_Mod_fits.pdf",
+    "HISM_changes_galtype.pdf",
+    "HISizeMassPaper.tex",
+    "HI_halfmass_sims.pdf",
+    "HI_sizemass.pdf",
+    "HI_sizemass_DS.pdf",
+    "IntegrandProfiles.pdf",
+    "Integrand_Profiles_Sims.pdf",
+    "Model_v_Wang.pdf",
+    "Param_dist_1.pdf",
+    "Param_dist_2.pdf",
+    "Param_dist_3.pdf",
+    "ProfileExamples.pdf",
+    "Scatter_models.pdf",
+    "TruncationTracks.pdf",
+    "mHI_on_rHI2_trends.pdf",
+    "mnras.bst",
+    "mnras.cls"
+  ],
+  "assets": [
+    {
+      "file": "Bib_letter.tex",
+      "kind": "text_or_numeric",
+      "bytes": 9203,
+      "numeric_line_count": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      },
+      "head": "\\begin{thebibliography}{}\n\\bibitem[Angulo \\& White(2010)]{angulo10}Angulo R.~E., White S.~D.~M., 2010, MNRAS, 405, 143\n\\bibitem[Bah\\'{e} et al.(2016)]{bahe16}Bah\\'{e} Y.~M.~et al., 2016, MNRAS, 456, 1115\n\\bibitem[Baugh(2006)]{baugh06}Baugh C.~M., 2006, Rep.~Prog.~Phys., 69, 3101\n\\bibitem[Begum et al.(2008)]{begum08}Begum A., Chengalur J.~N., Karachentsev I.~D., Sharina M.~E., Kaisin S.~S., 2008, MNRAS, 386, 1667\n\\bibitem[Bigiel \\& Blitz(2012)]{bigiel12}Bigiel F., Blitz L., 2012, ApJ, 756, 183\n\\bibitem[Bigiel et al.(2008)]{bigiel08}Bigiel F., Leroy A., Walter F., Brinks E., de Blok W.~J.~G., Madore B., Thornley M.~D., 2008, AJ, 136, 2846\n\\bibitem[Blitz \\& Rosolowsky(2004)]{blitz04}Blitz L., Rosolowsky E., 2004, ApJ, 612, L29\n\\bibitem[Blitz \\& Rosolowsky(2006)]{blitz06}Blitz L., Rosolowsky E., 2006, ApJ, 650, 933\n\\bibitem[Bosma(1981a)]{bosma81}Bosma A., 1981a, AJ, 86, 1791\n\\bibitem[Bosma(1981b)]{bosma81b}Bosma A., 1981b, AJ, 86, 1825\n\\bibitem[Broeils \\& van Woerden(1994)]{broeils94}Broeils A.~H., van Woerden H., 1994, A\\&AS, 107, 129\n\\bibitem[Broeils \\& Rhee(1997)]{broeils97}Broeils A.~H., Rhee M.~H., 1997, A\\&A, 324, 877\n\\bibitem[Brown et al.(2017)]{brown17}Brown T.~et al., 2017, MNRAS, 466, 1275\n\\bibitem[Butler et al.(2017)Butler, Obreschkow \\& Oh]{butler17}Butler K., Obreschkow D., Oh S.-H., 2017, ApJ, 834, L4\n\\bibitem[Cayatte et al.(1994)]{cayatte94}Cayatte V., van Gorkom J.~H., Balkowski C., Kotanyi C., 1990, AJ, 100, 604\n\\bibitem[Chung et al.(2009)]{chung09}Chung A., van Gorkom J.~H., Kenney J.~D.~P., Crowl H., Vollmer B., 2009, AJ, 138, 1741\n\\bibitem[Crain et al.(2017)]{crain17}Crain R.~A.~et al.~2017, MNRAS, 464, 4204\n\\bibitem[Croton et al.(2006)]{croton06}Croton D.~J.~et al., 2006, MNRAS, 365, 11\n\\bibitem[Croton et al.(2016)]{croton16}Croton D.~J.~et al., 2016, ApJS, 222, 22\n\\bibitem[de Vaucouleurs(1959)]{dev59}de Vaucouleurs G., 1959, Handbuch der Physik, 53, 311\n\\bibitem[Diemer et al.(2018)]{diemer18}Diemer B.~et al., 2018, ApJS, 238, 33\n\\bibitem[Diemer et al.(2019)]{diemer19}Diemer B.~et al., 2019, MNRAS, 487, 1529\n\\bibitem[Dolag et al.(2009)]{dolag09}Dolag K., Borgani S., Murante G., Springel V., 2009, MNRAS, 399, 497\n\\bibitem[Dutton(2009)]{dutton09}Dutton A.~A., 2009, MNRAS, 396, 121\n\\bibitem[Elmegreen(1989)]{elmegreen89}Elmegreen B.~G., 1989, ApJ, 338, 178\n\\bibitem[Elmegreen \\& Struck(2013)]{elmegreen13}Elmegreen B.~G., Struck C., 2013, ApJ, 775, L35\n\\bibitem[Freeman(1970)]{freeman70}Freeman K.~C., 1970, ApJ, 160, 811\n\\bibitem[Fu et al.(2010)]{fu10}Fu J., Guo Q., Kauffmann G., Krumholz M.~R., 2010, MNRAS, 409, 515\n\\bibitem[Fu et al.(2013)]{fu13}Fu J.~et al., 2013, MNRAS, 434, 1531\n\\bibitem[Genel et al.(2014)]{genel14}Genel S.~et al., 2014, MNRAS, 445, 175\n\\bibitem[Gnedin \\& Draine(2014)]{gd14}Gnedin N.~Y., Draine B.~T., 2014, ApJ, 795, 37 (GD14)\n\\bibitem[Gnedin \\& Kravtsov(2011)]{gk11}Gnedin N.~Y., Kravtsov A.~V., 2011, ApJ, 728, 88 (GK11)\n\\bibitem[Gunn \\& Gott(1972)]{gunn72}Gunn J.~E., Gott III J.~R., 1972, ApJ, 176, 1\n\\bibitem[Hunt"
+    },
+    {
+      "file": "Derivative.pdf",
+      "kind": "figure",
+      "bytes": 126747,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "HI_halfmass_sims.pdf",
+      "kind": "figure",
+      "bytes": 167573,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "HI_sizemass_DS.pdf",
+      "kind": "figure",
+      "bytes": 204417,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "kind": "text_or_numeric",
+      "bytes": 114715,
+      "numeric_line_count": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      },
+      "head": "\\documentclass[usenatbib,useAMS english]{mnras}\n\\usepackage[fleqn]{amsmath}\n\\usepackage{array,multirow,graphicx}\n\\usepackage{txfonts}\n\\usepackage{lmodern}\n\\bibpunct{(}{)}{;}{a}{}{,}\n\\usepackage{floatrow}\n\\usepackage{array}\n\\usepackage{relsize}\n\\usepackage{bm}\n\\usepackage{listings}\n\\usepackage{url}\n\\urlstyle{rm}\n\\usepackage[font=small,labelfont=bf]{caption}\n\n\\lstset{ %\nlanguage=Python,                % choose the language of the code\nbasicstyle=\\footnotesize\\ttfamily,       % the size of the fonts that are used for the code\nshowspaces=false,               % show spaces adding particular underscores\nshowstringspaces=false,         % underline spaces within strings\nshowtabs=false,                 % show tabs within strings adding particular underscores\nframe=none,           % adds a frame around the code\ncaptionpos=b,           % sets the caption-position to bottom\nbreaklines=true,        % sets automatic line breaking\nbreakatwhitespace=false,    % sets if automatic breaks should only happen at whitespace\nkeepspaces=true,\ncolumns=flexible,\ntabsize=4,\nescapeinside={\\%*}{*)}          % if you want to add a comment within your code\n}\n\n%%%%% AUTHORS - PLACE YOUR OWN MACROS HERE %%%%%\n\\graphicspath{{./figs/}}\n\n% Shortcuts\n\\newcommand{\\ds}{{\\sc Dark Sage}}\n\\newcommand{\\zo}{$z\\!=\\!0$}\n\\newcommand{\\HI}{H\\,{\\sc i}} % HI with correct lettering\n\\newcommand{\\Htwo}{H$_{2}$}\n\\newcommand{\\mHI}{$m_{\\rm H\\,{\\LARGE{\\textsc i}}}$} % HI mass\n\\newcommand{\\rHI}{$r_{\\rm H\\,{\\LARGE{\\textsc i}}}$}\n\\newcommand{\\rhalf}{$r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half}$}\n\\newcommand{\\SHI}{$\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}$}\n\\newcommand{\\SHIr}{$\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r)$}\n\\newcommand{\\Msol}{M$_{\\odot}$} % solar mass\n\\newcommand\\blfootnote[1]{%\n  \\begingroup\n  \\renewcommand\\thefootnote{}\\footnote{#1}%\n  \\addtocounter{footnote}{-1}%\n  \\endgroup\n}\n\n\\renewcommand*{\\thefootnote}{\\fnsymbol{footnote}}\n\\newfloatcommand{capbtabbox}{table}[][\\FBwidth]\n\n\\def\\app#1#2{%\n\\mathrel{%\n\\setbox0=\\hbox{$#1\\sim$}%\n\\setbox2=\\hbox{%\n\\rlap{\\hbox{$#1\\propto$}}%\n\\lower1.1\\ht0\\box0%\n}%\n\\raise0.25\\ht2\\box2%\n}%\n}\n\\def\\approxprop{\\mathpalette\\app\\relax}\n\n\n\\title[Origin of the galaxy \\HI~size--mass relation]{Origin of the galaxy \\HI~size--mass relation}\n\\author[A.~R.~H.~Stevens et al.]{Adam R.~H.~Stevens,$^{1,2}$\\thanks{E-mail: adam.stevens@uwa.edu.au} Benedikt Diemer,$^3$ Claudia del P.~Lagos,$^{1,2}$ Dylan Nelson,$^4$ \n\\newauthor  Danail Obreschkow,$^{1,2}$ Jing Wang$^5$ and Federico Marinacci$^6$\\\\\n$^1$International Centre for Radio Astronomy Research, The University of Western Australia, Crawley, WA 6009, Australia\\\\\n$^2$Australian Research Council Centre of Excellence for All Sky Astrophysics in 3 Dimensions (ASTRO 3D)\\\\\n$^3$Institute for Theory and Computation, Harvard-Smithsonian Center for Astrophysics, Cambridge, MA 02138, USA\\\\\n$^4$Max-Planck-Institut f\\\"{u}r Astrophysik, D-85741 Garching, Bayern, Germany\\\\\n$^5$Kavli Institute for Astronomy and Astrophysics, Peking University, Beijing 1008"
+    },
+    {
+      "file": "HI_sizemass.pdf",
+      "kind": "figure",
+      "bytes": 235683,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "HISM_changes_galtype.pdf",
+      "kind": "figure",
+      "bytes": 139612,
+      "raster_signal": true,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "HISM_Obs_Mod_fits.pdf",
+      "kind": "figure",
+      "bytes": 134899,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "IntegrandProfiles.pdf",
+      "kind": "figure",
+      "bytes": 403525,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "Integrand_Profiles_Sims.pdf",
+      "kind": "figure",
+      "bytes": 413020,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "mHI_on_rHI2_trends.pdf",
+      "kind": "figure",
+      "bytes": 157905,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "Model_v_Wang.pdf",
+      "kind": "figure",
+      "bytes": 202221,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "Param_dist_1.pdf",
+      "kind": "figure",
+      "bytes": 264547,
+      "raster_signal": true,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "Param_dist_2.pdf",
+      "kind": "figure",
+      "bytes": 245522,
+      "raster_signal": true,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "Param_dist_3.pdf",
+      "kind": "figure",
+      "bytes": 246605,
+      "raster_signal": true,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "ProfileExamples.pdf",
+      "kind": "figure",
+      "bytes": 136295,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "Scatter_models.pdf",
+      "kind": "figure",
+      "bytes": 268136,
+      "raster_signal": true,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "TruncationTracks.pdf",
+      "kind": "figure",
+      "bytes": 210990,
+      "raster_signal": false,
+      "path_tokens": 0,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    }
+  ],
+  "contexts": [
+    {
+      "file": "Bib_letter.tex",
+      "line": 15,
+      "context": "\\bibitem[Bosma(1981b)]{bosma81b}Bosma A., 1981b, AJ, 86, 1825\n\\bibitem[Broeils \\& van Woerden(1994)]{broeils94}Broeils A.~H., van Woerden H., 1994, A\\&AS, 107, 129\n\\bibitem[Broeils \\& Rhee(1997)]{broeils97}Broeils A.~H., Rhee M.~H., 1997, A\\&A, 324, 877\n\\bibitem[Brown et al.(2017)]{brown17}Brown T.~et al., 2017, MNRAS, 466, 1275\n\\bibitem[Butler et al.(2017)Butler, Obreschkow \\& Oh]{butler17}Butler K., Obreschkow D., Oh S.-H., 2017, ApJ, 834, L4\n\\bibitem[Cayatte et al.(1994)]{cayatte94}Cayatte V., van Gorkom J.~H., Balkowski C., Kotanyi C., 1990, AJ, 100, 604\n\\bibitem[Chung et al.(2009)]{chung09}Chung A., van Gorkom J.~H., Kenney J.~D.~P., Crowl H., Vollmer B., 2009, AJ, 138, 1741\n\\bibitem[Crain et al.(2017)]{crain17}Crain R.~A.~et al.~2017, MNRAS, 464, 4204\n\\bibitem[Croton et al.(2006)]{croton06}Croton D.~J.~et al., 2006, MNRAS, 365, 11"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 50,
+      "context": "\\bibitem[Marinacci et al.(2017)]{marinacci17}Marinacci F., Grand R.~J.~J., Pakmor R., Springel V., G\\'{o}mez F.~A., Frenk C.~S., White S.~D.~M., 2017, MNRAS, 466, 3859\n\\bibitem[Marinacci et al.(2018)]{marinacci18}Marinacci F.~et al., 2018, MNRAS, 480, 5113\n\\bibitem[Martinsson et al.(2013)]{martinsson13b}Martinsson T.~P.~K., Verheijen M.~A.~W., Westfall K.~B., Bershady M.~A., Andersen D.~R., Swaters R.~A., 2013, A\\&A, 557, 131\n\\bibitem[McKee \\& Krumholz(2010)]{mckee10}McKee C.~F., Krumholz M.~R., 2010, ApJ, 709, 308\n\\bibitem[Meurer et al.(2018)]{meurer18}Meurer G.~R., Obreschkow D., Wong O.~I., Zheng Z., Audcent-Ross F.~M., Hanish D.~J., 2018, MNRAS, 476, 1624\n\\bibitem[Mitchell et al.(2018)]{mitchell18}Mitchell P.~D.~et al., 2018, MNRAS, 474, 492\n\\bibitem[Naiman et al.(2018)]{naiman18}Naiman J.~P.~et al., 2018, MNRAS, 477, 1206\n\\bibitem[Nelson et al.(2018)]{nelson18}Nelson D.~et al., 2018, MNRAS, 475, 624\n\\bibitem[Nelson et al.(2019)]{nelson19}Nelson D.~et al., 2019, Comput.~Astrophys.~Cosmology, 6, 2"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 55,
+      "context": "\\bibitem[Mitchell et al.(2018)]{mitchell18}Mitchell P.~D.~et al., 2018, MNRAS, 474, 492\n\\bibitem[Naiman et al.(2018)]{naiman18}Naiman J.~P.~et al., 2018, MNRAS, 477, 1206\n\\bibitem[Nelson et al.(2018)]{nelson18}Nelson D.~et al., 2018, MNRAS, 475, 624\n\\bibitem[Nelson et al.(2019)]{nelson19}Nelson D.~et al., 2019, Comput.~Astrophys.~Cosmology, 6, 2\n\\bibitem[Obreschkow \\& Glazebrook(2014)]{og14}Obreschkow D., Glazebrook K., 2014, ApJ, 784, 26\n\\bibitem[Obreschkow et al.(2009)]{ob09}Obreschkow D., Croton D., De Lucia G., Khochfar S., Rawlings S., 2009, ApJ, 698, 1467\n\\bibitem[Obreschkow et al.(2016)]{ob16}Obreschkow D., Glazebrook K., Kilborn V., Lutz K., 2016, ApJ, 824, L26\n\\bibitem[Pillepich et al.(2018a)]{pillepich18a}Pillepich A.~et al., 2018a, MNRAS, 473, 4077\n\\bibitem[Pillepich et al.(2018b)]{pillepich18b}Pillepich A.~et al., 2018b, MNRAS, 475, 648"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 56,
+      "context": "\\bibitem[Naiman et al.(2018)]{naiman18}Naiman J.~P.~et al., 2018, MNRAS, 477, 1206\n\\bibitem[Nelson et al.(2018)]{nelson18}Nelson D.~et al., 2018, MNRAS, 475, 624\n\\bibitem[Nelson et al.(2019)]{nelson19}Nelson D.~et al., 2019, Comput.~Astrophys.~Cosmology, 6, 2\n\\bibitem[Obreschkow \\& Glazebrook(2014)]{og14}Obreschkow D., Glazebrook K., 2014, ApJ, 784, 26\n\\bibitem[Obreschkow et al.(2009)]{ob09}Obreschkow D., Croton D., De Lucia G., Khochfar S., Rawlings S., 2009, ApJ, 698, 1467\n\\bibitem[Obreschkow et al.(2016)]{ob16}Obreschkow D., Glazebrook K., Kilborn V., Lutz K., 2016, ApJ, 824, L26\n\\bibitem[Pillepich et al.(2018a)]{pillepich18a}Pillepich A.~et al., 2018a, MNRAS, 473, 4077\n\\bibitem[Pillepich et al.(2018b)]{pillepich18b}Pillepich A.~et al., 2018b, MNRAS, 475, 648\n\\bibitem[Planck Collaboration(2016)]{planck16}Planck Collaboration, 2016, A\\&A, 594, A13"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 57,
+      "context": "\\bibitem[Nelson et al.(2018)]{nelson18}Nelson D.~et al., 2018, MNRAS, 475, 624\n\\bibitem[Nelson et al.(2019)]{nelson19}Nelson D.~et al., 2019, Comput.~Astrophys.~Cosmology, 6, 2\n\\bibitem[Obreschkow \\& Glazebrook(2014)]{og14}Obreschkow D., Glazebrook K., 2014, ApJ, 784, 26\n\\bibitem[Obreschkow et al.(2009)]{ob09}Obreschkow D., Croton D., De Lucia G., Khochfar S., Rawlings S., 2009, ApJ, 698, 1467\n\\bibitem[Obreschkow et al.(2016)]{ob16}Obreschkow D., Glazebrook K., Kilborn V., Lutz K., 2016, ApJ, 824, L26\n\\bibitem[Pillepich et al.(2018a)]{pillepich18a}Pillepich A.~et al., 2018a, MNRAS, 473, 4077\n\\bibitem[Pillepich et al.(2018b)]{pillepich18b}Pillepich A.~et al., 2018b, MNRAS, 475, 648\n\\bibitem[Planck Collaboration(2016)]{planck16}Planck Collaboration, 2016, A\\&A, 594, A13\n\\bibitem[Ponomareva et al.(2016)Ponomareva, Verheijen \\& Bosma]{ponomareva16}Ponomareva A.~A., Verheijen M.~A.~W., Bosma A., 2016, MNRAS, 463, 4052"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 62,
+      "context": "\\bibitem[Pillepich et al.(2018a)]{pillepich18a}Pillepich A.~et al., 2018a, MNRAS, 473, 4077\n\\bibitem[Pillepich et al.(2018b)]{pillepich18b}Pillepich A.~et al., 2018b, MNRAS, 475, 648\n\\bibitem[Planck Collaboration(2016)]{planck16}Planck Collaboration, 2016, A\\&A, 594, A13\n\\bibitem[Ponomareva et al.(2016)Ponomareva, Verheijen \\& Bosma]{ponomareva16}Ponomareva A.~A., Verheijen M.~A.~W., Bosma A., 2016, MNRAS, 463, 4052\n\\bibitem[Robotham \\& Obreschkow(2015)]{robo15}Robotham A.~S.~G., Obreschkow D., 2015, PASA, 32, 33\n\\bibitem[Ryder et al.(1995)]{ryder95}Ryder S.~D., Staveley-Smith L., Malin D., Walsh W., 1995, AJ, 109, 1592\n\\bibitem[Schaye(2001)]{schaye01}Schaye J., 2001, ApJ, 562, L95\n\\bibitem[Somerville \\& Dav\\'{e}(2015)]{somerville15}Somerville R.~S., Dav\\'{e} R., 2015, ARA\\&A, 53, 51\n\\bibitem[Spergel et al.(2003)]{spergel03}Spergel, D.~N.~et al., 2003, ApJS, 148, 175"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 75,
+      "context": "\\bibitem[Stevens \\& Brown(2017)]{sb17}Stevens A.~R.~H., Brown T., 2017, MNRAS, 471, 447\n\\bibitem[Stevens et al.(2014)]{stevens14}Stevens A.~R.~H., Martig M., Croton D.~J., Feng Y., 2014, MNRAS, 445, 239\n\\bibitem[Stevens et al.(2016)Stevens, Croton \\& Mutch]{stevens16}Stevens A.~R.~H., Croton D.~J., Mutch S.~J., 2016, MNRAS, 461, 859\n\\bibitem[Stevens et al.(2017)]{stevens17}Stevens A.~R.~H., Lagos C.~d.~P., Contreras S., Croton D.~J., Padilla N.~D., Schaller M., Schaye J., Theuns T., 2017, MNRAS, 467, 2066\n\\bibitem[Stevens et al.(2018)]{stevens18}Stevens A.~R.~H., Lagos C.~d.~P., Obreschkow D., Sinha M., 2018, MNRAS, 481, 5543\n\\bibitem[Stevens et al.(2019)]{stevens19}Stevens A.~R.~H.~et al., 2019, MNRAS, 483, 5334\n\\bibitem[Stringer \\& Benson(2007)]{stringer07}Stringer M.~J., Benson A.~J., 2007, MNRAS, 382, 641\n\\bibitem[Tecce et al.(2010)]{tecce10}Tecce T.~E., Cora S.~A., Tissera P.~B., Abadi M.~G., Lagos C.~d.~P., 2010, MNRAS, 408, 2008\n\\bibitem[Torrey et al.(2014)]{torrey14}Torrey P., Vogelsberger M., Genel S., Sijacki D., Springel V., Hernquist L., 2014, MNRAS, 438, 1985"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 85,
+      "context": "\\bibitem[Vogelsberger et al.(2013)]{vogelsberger13}Vogelsberger M., Genel S., Sijacki D., Torrey P., Springel V., Hernquist L., 2013, MNRAS, 436, 3031\n\\bibitem[Vogelsberger et al.(2014a)]{vogelsberger14a}Vogelsberger M.~et al., 2014a, Nature, 509, 177\n\\bibitem[Vogelsberger et al.(2014b)]{vogelsberger14b}Vogelsberger M.~et al., 2014b, MNRAS, 444, 1518\n\\bibitem[Walter et al.(2008)]{walter08}Walter F., Brinks E., de Blok W.~J.~G., Bigiel F., Kennicutt Jr.~R.~C., Thornley M.~D., Leroy A., 2008, AJ, 136, 2563\n\\bibitem[Wang et al.(2013)]{wang13}Wang J.~et al., 2013, MNRAS, 433, 270\n\\bibitem[Wang et al.(2014)]{wang14}Wang J.~et al., 2014, MNRAS, 441, 2159\n\\bibitem[Wang et al.(2016)]{wang16}Wang J., Koribalski B.~S., Serra P., van der Hulst T., Roychowdhury S., Kamphuis P., Chengalur J.~N., 2016, MNRAS, 460, 2143 (W16)\n\\bibitem[Warmels(1988)]{warmels88}Warmels R.~H., 1988, A\\&AS, 72, 57\n\\bibitem[Weinberger et al.(2017)]{weinberger17}Weinberger R.~et al., 2017, MNRAS, 465, 3291"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 86,
+      "context": "\\bibitem[Vogelsberger et al.(2014a)]{vogelsberger14a}Vogelsberger M.~et al., 2014a, Nature, 509, 177\n\\bibitem[Vogelsberger et al.(2014b)]{vogelsberger14b}Vogelsberger M.~et al., 2014b, MNRAS, 444, 1518\n\\bibitem[Walter et al.(2008)]{walter08}Walter F., Brinks E., de Blok W.~J.~G., Bigiel F., Kennicutt Jr.~R.~C., Thornley M.~D., Leroy A., 2008, AJ, 136, 2563\n\\bibitem[Wang et al.(2013)]{wang13}Wang J.~et al., 2013, MNRAS, 433, 270\n\\bibitem[Wang et al.(2014)]{wang14}Wang J.~et al., 2014, MNRAS, 441, 2159\n\\bibitem[Wang et al.(2016)]{wang16}Wang J., Koribalski B.~S., Serra P., van der Hulst T., Roychowdhury S., Kamphuis P., Chengalur J.~N., 2016, MNRAS, 460, 2143 (W16)\n\\bibitem[Warmels(1988)]{warmels88}Warmels R.~H., 1988, A\\&AS, 72, 57\n\\bibitem[Weinberger et al.(2017)]{weinberger17}Weinberger R.~et al., 2017, MNRAS, 465, 3291\n\\bibitem[Westmeier et al.(2011)Westmeier, Braun \\& Koribalski]{westmeier11}Westmeier T., Braun R., Koribalski B.~S., 2011, MNRAS, 410, 2217"
+    },
+    {
+      "file": "Bib_letter.tex",
+      "line": 87,
+      "context": "\\bibitem[Vogelsberger et al.(2014b)]{vogelsberger14b}Vogelsberger M.~et al., 2014b, MNRAS, 444, 1518\n\\bibitem[Walter et al.(2008)]{walter08}Walter F., Brinks E., de Blok W.~J.~G., Bigiel F., Kennicutt Jr.~R.~C., Thornley M.~D., Leroy A., 2008, AJ, 136, 2563\n\\bibitem[Wang et al.(2013)]{wang13}Wang J.~et al., 2013, MNRAS, 433, 270\n\\bibitem[Wang et al.(2014)]{wang14}Wang J.~et al., 2014, MNRAS, 441, 2159\n\\bibitem[Wang et al.(2016)]{wang16}Wang J., Koribalski B.~S., Serra P., van der Hulst T., Roychowdhury S., Kamphuis P., Chengalur J.~N., 2016, MNRAS, 460, 2143 (W16)\n\\bibitem[Warmels(1988)]{warmels88}Warmels R.~H., 1988, A\\&AS, 72, 57\n\\bibitem[Weinberger et al.(2017)]{weinberger17}Weinberger R.~et al., 2017, MNRAS, 465, 3291\n\\bibitem[Westmeier et al.(2011)Westmeier, Braun \\& Koribalski]{westmeier11}Westmeier T., Braun R., Koribalski B.~S., 2011, MNRAS, 410, 2217\n\\bibitem[Westmeier et al.(2013)Westmeier, Koribalski \\& Braun]{westmeier13}Westmeier T., Koribalski B.~S., Braun R., 2013, MNRAS, 434, 3511"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 71,
+      "context": "\n\n\\title[Origin of the galaxy \\HI~size--mass relation]{Origin of the galaxy \\HI~size--mass relation}\n\\author[A.~R.~H.~Stevens et al.]{Adam R.~H.~Stevens,$^{1,2}$\\thanks{E-mail: adam.stevens@uwa.edu.au} Benedikt Diemer,$^3$ Claudia del P.~Lagos,$^{1,2}$ Dylan Nelson,$^4$ \n\\newauthor  Danail Obreschkow,$^{1,2}$ Jing Wang$^5$ and Federico Marinacci$^6$\\\\\n$^1$International Centre for Radio Astronomy Research, The University of Western Australia, Crawley, WA 6009, Australia\\\\\n$^2$Australian Research Council Centre of Excellence for All Sky Astrophysics in 3 Dimensions (ASTRO 3D)\\\\\n$^3$Institute for Theory and Computation, Harvard-Smithsonian Center for Astrophysics, Cambridge, MA 02138, USA\\\\\n$^4$Max-Planck-Institut f\\\"{u}r Astrophysik, D-85741 Garching, Bayern, Germany\\\\"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 99,
+      "context": "\n\\label{firstpage}\n\n\\begin{abstract}\nWe analytically derive the observed size--mass relation of galaxies' atomic hydrogen (\\HI), including limits on its scatter, based on simple assumptions about the structure of \\HI~discs.  We trial three generic profiles for \\HI~surface density as a function of radius.  Firstly, we assert that \\HI~surface densities saturate at a variable threshold, and otherwise fall off exponentially with radius or, secondly, radius squared.  Our third model assumes the \\emph{total} gas surface density is exponential, with the \\HI~fraction at each radius depending on local pressure.  These are tested against a compilation of 110 galaxies from the THINGS, LITTLE THINGS, LVHIS, and Bluedisk surveys, whose \\HI~surface density profiles are well resolved.  All models fit the observations well and predict consistent size--mass relations.  Using an analytical argument, we explain why processes that cause gas disc truncation -- such as ram-pressure stripping -- scarcely affect the \\HI~size--mass relation.  This is tested with the IllustrisTNG(100) cosmological, hydrodynamic simulation and the \\ds~semi-analytic model of galaxy formation, both of which capture radially resolved disc structure.  For galaxies with $m_*\\!\\geq\\!10^9\\,{\\rm M}_{\\odot}$ and $m_{\\rm H\\,{\\LARGE{\\textsc i}}}\\!\\geq\\!10^8\\,{\\rm M}_{\\odot}$, both simulations predict \\HI~size--mass relations that align with observations, show no difference between central and satellite galaxies, and show only a minor, second-order dependence on host halo mass for satellites.  Ultimately, the universally tight \\HI~size--mass relation is mathematically inevitable and robust.  Only by completely disrupting the structure of \\HI~discs, e.g.~through overly powerful feedback, could a simulation predict the relation poorly.\n\\end{abstract}\n\n\\begin{keywords}\ngalaxies: general -- galaxies: haloes -- galaxies: interactions -- galaxies: ISM"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 125,
+      "context": "\\label{sec:intro}\n\nThe majority of our understanding surrounding the structure of cold gas in low-redshift galaxies comes from observations of the ubiquitous emission line of atomic hydrogen (\\HI) at a rest-frame wavelength of $\\sim\\!21\\,{\\rm cm}$.  \\HI~in galaxies is well documented to lie in rotationally supported discs that extend notably beyond optical discs from stellar emission (e.g.~\\citealt{bosma81}; but see \\citealt{meurer18}).  This arises because stars form in dense gaseous regions, where a more significant fraction of hydrogen is in a molecular state \\citep[e.g.][]{bigiel08,leroy08}.  Meanwhile, the gas in a disc with higher specific angular momentum (farther from the global minimum of the potential well) is stable against local gravitational collapse, and so remains in an atomic state \\citep{ob16,stevens18}.  Being more distant from sites of star formation, this gas can also be less prone to feedback effects \\citep[although the interplay between galaxies' \\HI~content and feedback is non-trivial -- see e.g.][]{crain17}.\n\nAs first highlighted by \\citet{broeils97}, a key feature of \\HI~discs is a \\emph{genuinely} tight relation between their size and mass.  \\HI~size has canonically been measured as the radius at which the surface density profile, \\SHIr, drops below 1\\,\\Msol\\,pc$^{-2}$, hereafter denoted \\rHI.  \nThis convention arose in part because many earlier radio observations were not sensitive to \\HI~column densities much lower than this (dating back to the likes of \\citealt{warmels88,broeils94}).\nThe relation between \\rHI~and integrated \\HI~mass, \\mHI, is a simple power law that holds over more than four decades in \\mHI, with measured scatter [standard deviation in $\\log_{10}\\left( r_{\\rm H\\,{\\LARGE{\\textsc i}}}\\right)$~from the best-fitting power law] of 0.06\\,dex ($<\\!15$ per cent; \\citealt*{begum08,lelli16,wang16}).  The monotonic nature of this relation is often framed as meaning all galaxies have a common average \\HI~surface density within \\rHI~\\citep[e.g.][]{broeils97,verheijen01,begum08,wang16}.  This implies there must be commonality amongst the \\SHIr~profiles of all galaxy discs \\citep{wang14}.\n\nOver the last decade, it has been shown on numerous occasions that the \\HI~size--mass relation is reproducible in both cosmological, hydrodynamic simulations \\citep{wang14,bahe16,marinacci17,diemer19} and semi-analytic models \\citep{ob09,wang14,lutz18}, although often not all of the relation's three defining values (slope, normalization, and scatter) \\emph{precisely} align with the narrow empirical ranges.  The choice of prescription for how neutral hydrogen is broken into its atomic and molecular components in these models generally does not affect this outcome, even though this can change the \\emph{exact} form of \\SHIr~(although the results of \\citealt{bahe16} appear to be an exception).  Rather, it is only in instances when implemented feedback effects are evidently too strong or interact with the interstellar-medium model in an unexpected fashion that simulated galaxies start to deviate from the \\HI~size--mass relation.  For example, \\citet[][see their fig.~6]{bahe16} explicitly show that galaxies containing excessively large \\HI~`holes' in the EAGLE simulations steepen the predicted slope of the size--mass relation; when these galaxies are excluded, the relation returns to consistency with \\citet{broeils97}."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 151,
+      "context": "While not the main focus of this work per se, we use data from both observations and simulations to help support and/or contextualize our arguments throughout this paper.  We briefly describe them here.  Note that, where relevant, we assume $h\\!=\\!0.6774$, per the \\citet{planck16} cosmological parameters.\n\n\\subsection{21-cm observations}\n\\label{ssec:obs}\nThere is an ever-increasing sample of galaxies in the literature that have resolved 21-cm maps, from which \\HI~surface density profiles are inferred. In this paper, we use profiles from a variety of sources.  These include 16 galaxies from The \\HI~Nearby Galaxy Survey \\citep[THINGS;][]{walter08}, 14 from LITTLE THINGS \\citep{hunter12}, 41 from The Local Volume \\HI~Survey (LVHIS; data originally presented by \\citealt*{ryder95,westmeier11,westmeier13}; for the complete survey, see \\citealt{koribalski18}), and 39 from the Bluedisk sample \\citep{wang13}.  These comprise a subset of the galaxy sample used in \\citet[][hereafter W16]{wang16}.  All of these galaxies have well-resolved, inclination-corrected \\SHIr~profiles, with cleanly measured \\HI~sizes and masses.\n\nThe THINGS galaxies in our sample are the same subset used by \\citet{og14}, which are all definitively spirals, spanning a stellar-mass range of $2.5 \\times 10^9$ -- $1.6 \\times 10^{11}\\,{\\rm M}_{\\odot}$.\nThe galaxies we use from LITTLE THINGS are the same subset as in \\citet*{butler17}, covering $1.4 \\times 10^6$ -- $2.0 \\times 10^8\\,{\\rm M}_{\\odot}$ in stellar mass, and are morphologically classified as dwarf irregulars.\nThe LITTLE THINGS and Bluedisk galaxies are predominantly isolated, while the LVHIS galaxies mainly occupy a subgroup near the Sculptor Group. "
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 153,
+      "context": "\\subsection{21-cm observations}\n\\label{ssec:obs}\nThere is an ever-increasing sample of galaxies in the literature that have resolved 21-cm maps, from which \\HI~surface density profiles are inferred. In this paper, we use profiles from a variety of sources.  These include 16 galaxies from The \\HI~Nearby Galaxy Survey \\citep[THINGS;][]{walter08}, 14 from LITTLE THINGS \\citep{hunter12}, 41 from The Local Volume \\HI~Survey (LVHIS; data originally presented by \\citealt*{ryder95,westmeier11,westmeier13}; for the complete survey, see \\citealt{koribalski18}), and 39 from the Bluedisk sample \\citep{wang13}.  These comprise a subset of the galaxy sample used in \\citet[][hereafter W16]{wang16}.  All of these galaxies have well-resolved, inclination-corrected \\SHIr~profiles, with cleanly measured \\HI~sizes and masses.\n\nThe THINGS galaxies in our sample are the same subset used by \\citet{og14}, which are all definitively spirals, spanning a stellar-mass range of $2.5 \\times 10^9$ -- $1.6 \\times 10^{11}\\,{\\rm M}_{\\odot}$.\nThe galaxies we use from LITTLE THINGS are the same subset as in \\citet*{butler17}, covering $1.4 \\times 10^6$ -- $2.0 \\times 10^8\\,{\\rm M}_{\\odot}$ in stellar mass, and are morphologically classified as dwarf irregulars.\nThe LITTLE THINGS and Bluedisk galaxies are predominantly isolated, while the LVHIS galaxies mainly occupy a subgroup near the Sculptor Group. \nThe LVHIS galaxies we include are selected to have \\rHI~greater than 1.5 times the major axis of the PSF\\footnote{Point Spread Function} ellipse, ensuring the disc profiles are sufficiently resolved (the other data more than meet this criterion already).\nMost galaxies from LVHIS and Bluedisk are classified as spirals."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 154,
+      "context": "\\label{ssec:obs}\nThere is an ever-increasing sample of galaxies in the literature that have resolved 21-cm maps, from which \\HI~surface density profiles are inferred. In this paper, we use profiles from a variety of sources.  These include 16 galaxies from The \\HI~Nearby Galaxy Survey \\citep[THINGS;][]{walter08}, 14 from LITTLE THINGS \\citep{hunter12}, 41 from The Local Volume \\HI~Survey (LVHIS; data originally presented by \\citealt*{ryder95,westmeier11,westmeier13}; for the complete survey, see \\citealt{koribalski18}), and 39 from the Bluedisk sample \\citep{wang13}.  These comprise a subset of the galaxy sample used in \\citet[][hereafter W16]{wang16}.  All of these galaxies have well-resolved, inclination-corrected \\SHIr~profiles, with cleanly measured \\HI~sizes and masses.\n\nThe THINGS galaxies in our sample are the same subset used by \\citet{og14}, which are all definitively spirals, spanning a stellar-mass range of $2.5 \\times 10^9$ -- $1.6 \\times 10^{11}\\,{\\rm M}_{\\odot}$.\nThe galaxies we use from LITTLE THINGS are the same subset as in \\citet*{butler17}, covering $1.4 \\times 10^6$ -- $2.0 \\times 10^8\\,{\\rm M}_{\\odot}$ in stellar mass, and are morphologically classified as dwarf irregulars.\nThe LITTLE THINGS and Bluedisk galaxies are predominantly isolated, while the LVHIS galaxies mainly occupy a subgroup near the Sculptor Group. \nThe LVHIS galaxies we include are selected to have \\rHI~greater than 1.5 times the major axis of the PSF\\footnote{Point Spread Function} ellipse, ensuring the disc profiles are sufficiently resolved (the other data more than meet this criterion already).\nMost galaxies from LVHIS and Bluedisk are classified as spirals.\nAll galaxies in our sample are at $z\\!\\simeq\\!0$."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 155,
+      "context": "There is an ever-increasing sample of galaxies in the literature that have resolved 21-cm maps, from which \\HI~surface density profiles are inferred. In this paper, we use profiles from a variety of sources.  These include 16 galaxies from The \\HI~Nearby Galaxy Survey \\citep[THINGS;][]{walter08}, 14 from LITTLE THINGS \\citep{hunter12}, 41 from The Local Volume \\HI~Survey (LVHIS; data originally presented by \\citealt*{ryder95,westmeier11,westmeier13}; for the complete survey, see \\citealt{koribalski18}), and 39 from the Bluedisk sample \\citep{wang13}.  These comprise a subset of the galaxy sample used in \\citet[][hereafter W16]{wang16}.  All of these galaxies have well-resolved, inclination-corrected \\SHIr~profiles, with cleanly measured \\HI~sizes and masses.\n\nThe THINGS galaxies in our sample are the same subset used by \\citet{og14}, which are all definitively spirals, spanning a stellar-mass range of $2.5 \\times 10^9$ -- $1.6 \\times 10^{11}\\,{\\rm M}_{\\odot}$.\nThe galaxies we use from LITTLE THINGS are the same subset as in \\citet*{butler17}, covering $1.4 \\times 10^6$ -- $2.0 \\times 10^8\\,{\\rm M}_{\\odot}$ in stellar mass, and are morphologically classified as dwarf irregulars.\nThe LITTLE THINGS and Bluedisk galaxies are predominantly isolated, while the LVHIS galaxies mainly occupy a subgroup near the Sculptor Group. \nThe LVHIS galaxies we include are selected to have \\rHI~greater than 1.5 times the major axis of the PSF\\footnote{Point Spread Function} ellipse, ensuring the disc profiles are sufficiently resolved (the other data more than meet this criterion already).\nMost galaxies from LVHIS and Bluedisk are classified as spirals.\nAll galaxies in our sample are at $z\\!\\simeq\\!0$.\nWe refer the reader to the specific papers where the data are presented for further details."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 162,
+      "context": "All galaxies in our sample are at $z\\!\\simeq\\!0$.\nWe refer the reader to the specific papers where the data are presented for further details.\nWhile we cannot guarantee that this sample is representative of \\emph{all} galaxies in the local Universe (in fact, it is biased towards rotation-dominated systems), we take and analyse the data as they are.  Our simulated data help compensate by offering volume-limited samples that are orders of magnitude larger in galaxy number.\n\nFor the Bluedisk galaxies, we calculate \\mHI~by numerically integrating the full surface density profile of each galaxy.  These \\HI~masses are $\\sim$15 per cent larger than the `true' \\mHI~values given in \\citet{wang13}, which were only integrated out to a finite surface density.  Any pre-measured \\mHI~quantities for the other galaxies are consistent with numerically integrating their profiles.\n% ============================================================ %\n\n\\subsection{IllustrisTNG}\n\\label{ssec:tng}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 173,
+      "context": "Black-hole feedback removes gas from its immediate neighbourhood ($\\lesssim\\!1$\\,kpc from the centre), while supernova feedback removes gas everywhere according to the  local star formation rate (on $\\sim$500\\,pc scales) and induced mass-loading factor.  \nThe simulations and methods are based on the earlier Illustris project \\citep{vogelsberger13,vogelsberger14a,vogelsberger14b,genel14,torrey14}.\n\nGas cells in the simulation are post-processed to calculate their mass fractions in the form of atomic and molecular hydrogen \\citep{diemer18,stevens19}.  We present results from three methods, based on the works by \\citet{gk11}, \\citet{k13}, and \\citet{gd14}.  We refer the reader to \\citet{stevens19} and references therein for full details on the methodology; all properties in this paper follow the `inherent' method, meaning only particles/cells associated with the {\\sc subfind} object \\citep{springel01,dolag09} that also meet the spherical-aperture criterion of \\citet{stevens14} are included.  \n\\HI~radii are derived by building one-dimensional \\HI~surface density profiles, using cylindrical annuli with an axis parallel to the galaxy's angular-momentum vector (computed exclusively from stellar particles), and linearly interpolating the exact position where these profiles drop below $1\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$.\n\nFor this work, we include galaxies at \\zo~with stellar masses above $10^9\\,{\\rm M}_{\\odot}$, \\HI~masses above $10^8\\,{\\rm M}_{\\odot}$, and \\HI~radii greater than the minimum gas softening length of 190\\,pc (both these \\HI~requirements only needed to be satisfied for one of the three \\HI/\\Htwo~prescriptions).   Our resulting TNG100 sample totals $\\sim$15\\,000 galaxies; the sample size would be $\\sim$20\\,000 with just the stellar-mass cut alone.\nThe added \\mHI~and \\rHI~cuts somewhat bias us towards star-forming galaxies; these cuts reduce the total passive fraction from $\\sim$28 to $\\sim$5 per cent, where we define a `passive' galaxy as one with a specific star formation rate $<\\!10^{-11}\\,{\\rm yr}^{-1}$ (based on the gas cells' instantaneous star formation rates).  In practice, a passive TNG100 galaxy often has a star formation rate of zero.\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 189,
+      "context": "The publicly available \\ds~code\\footnote{\\url{https://github.com/arhstevens/DarkSage}} (and many of the physical prescriptions) is based on \\citet{croton06,croton16}.  For a more thorough overview of semi-analytic models in general, see e.g.~\\citet{baugh06,somerville15}.\n\n\\ds~accounts for the effects of ram-pressure stripping on satellite galaxies at a level of detail beyond most other semi-analytic models.  Provided a sufficient amount of hot gas around a satellite is lost, a prescription based directly on \\citet{gunn72} is applied to each annulus individually.  Where ram pressure exceeds the local restoring force per unit area, all gas in the satellite's annulus is transferred to the intra-halo medium (i.e.~the hot component associated the corresponding central galaxy).  Barring extreme circumstances, the local restoring force of discs decreases with radius.  As such, ram-pressure stripping in \\ds~leads to the continual truncation of gas discs.  Satellites are also denied cosmological accretion of gas, and have their hot-gas reservoir gradually depleted through tidal or ram-pressure stripping (manifesting as starvation/strangulation -- cf.~\\citealt*{larson80}).  Satellite galaxy discs can still accrete \\emph{from} that hot gas though, where the specific-angular-momentum vector of that gas is fixed at infall.\n\nWe use the \\citet{stevens18} version of \\ds~in this work.  This was run on the Millennium simulation \\citep{springel05}.  Even though the cosmology assumed in this simulation \\citep{spergel03} differs from \\emph{Planck}, to be consistent with our other results, we use $h\\!=\\!0.6774$ for our \\ds~results.  We otherwise maintain the galaxy properties as they are in \\citet{stevens18}, meaning there is no rescaling to account for the other cosmological parameters \\citep[but see][]{angulo10}.  The prescription for the \\HI/\\Htwo~breakdown used in this version of the model is based on \\citet{mckee10}.  Taking the centre of each annulus as its position for the galaxies' \\SHIr~profiles, we linearly interpolate between the outermost annulus with $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! > \\! 1\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$ and the next to obtain \\rHI.  Because each consecutive annulus edge has 40 per cent higher specific angular momentum, the separation between the annuli where \\rHI~is measured is typically $\\sim \\! 0.4\\,r_{\\rm H\\,{\\LARGE{\\textsc i}}}$.  We only analyse redshift-zero \\ds~galaxies in this paper that occupy (sub)haloes that have been composed of at least 100 particles (equivalent to a halo mass of $8.6  \\times 10^{10}\\,h^{-1}\\,{\\rm M}_{\\odot}$) at some point in their merger-tree history, and whose stellar masses are above $10^9\\,{\\rm M}_{\\odot}$ and \\HI~masses above $10^8\\,{\\rm M}_{\\odot}$ at \\zo.  This leaves us with 4.3 million \\ds~galaxies.\n\n\n% ============================================================ %\n% ============================================================ %"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 204,
+      "context": "\n\\section{Disc models and derivations of the \\HI~size--mass relation}\n\\label{sec:models}\n\nIn this section, we explore several models of progressively increasing complexity for the one-dimensional distribution of \\HI~in galaxy discs.  For each model, we show an example \\SHIr~profile in Fig.~\\ref{fig:profeg}, which is accompanied by a real example galaxy whose observed \\HI~surface density profile is well described by that model.  We will show that regardless of how much detail is added to the disc profiles, one can always mathematically derive a tight \\HI~size--mass relation that matches observations.  Note that, throughout parts of this section, we use a bar to denote when surface densities and radii have been normalized:\n%\n\\begin{subequations}\n\\label{eq:bar}\n\\begin{equation}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 221,
+      "context": "\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{ProfileExamples.pdf}\n\\caption{\\HI~surface density profiles of four galaxies from our observational sample (points).  These have been hand-picked to show examples of when each of our analytic models in Section \\ref{sec:models} is an accurate representation of reality; each line is the best fit of a different model to a different galaxy, with colour indicating which line is a fit to which data.}\n\\label{fig:profeg}\n\\end{figure}\n\nMany parameters and expressions are introduced in this section.  As a point of reference, we summarize the definitions and typical values of the key parameters of all our models in Table \\ref{tab:params}."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 235,
+      "context": "Parameter & Definition & Model & Mathematically  & A priori  & Full range of & 68\\% interval \\\\\n & & & allowed values &  expectation &  fits to obs. & of obs.  \\\\\\hline\\hline\n%\n & Maximum/saturation  & 0 &   &  & $(2.5,35.2)$ & $(7.0,22.3)$ \\\\\n$\\bar{\\Sigma}_0$ &  \\HI~surface density, & 1 &  $>\\!1.0$ & $\\sim$2--10 & $(1.3,22.4)$ & $(3.2,8.5)$ \\\\\n & normalized by $1\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$ & 2 &  &  & $(1.5,14.8)$ & $(3.2,8.7)$  \\\\\\hline\n%\n\\multirow{2}{*}{$\\bar{r}_b$} & Saturation break radius, & 1 & \\multirow{2}{*}{[0,\\,1]} & \\multirow{2}{*}{$\\sim$0--0.8} & $(0.01,0.83)$ & $(0.25,0.65)$ \\\\\n & normalized by \\rHI & 2 & & & $[0,0.65)$ & $(0,0.46)$ \\\\\\hline"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 264,
+      "context": "\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) = \\Sigma_0 \\exp\\left(-r/r_s \\right)\\,,\n\\label{eq:SHIr_0}\n\\end{equation}\n%\nwhere $r_s$ is the exponential scale radius and $\\Sigma_0$ is the central \\HI~surface density.  The total \\HI~mass is then\n%\n\\begin{subequations}\n\\begin{equation}\n\\label{eq:integral}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 277,
+      "context": "\\Rightarrow m_{\\rm H\\,{\\LARGE{\\textsc i}}} = 2\\pi\\, \\Sigma_0\\, r_s^2\\,.\n\\end{equation}\n\\end{subequations}\n%\nIn reality, an \\HI~disc would not extend to infinity; at some point, one would reach the ionized intergalactic medium or another object.  Because the integral is convergent though, we assume (throughout this paper) that \\HI~discs extend to sufficiently large radii such that integrating to infinity is a valid approximation.\\footnote{For $\\bar{\\Sigma}_0 \\! = \\! 5$, this approximation is accurate to 10 per cent if the disc actually only extends to $\\sim$2.4\\,\\rHI, and is accurate to 1 per cent if it extends to $\\sim$4.1\\,\\rHI.  Higher values of $\\bar{\\Sigma}_0$ converge at lower radii (and vice versa).}\n\nWe should also recognize that $r_s$ can be rewritten in terms of \\rHI.  That is, for an exponential profile, it must be true that\n%\n\\begin{equation}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 286,
+      "context": "r_{\\rm H\\,{\\LARGE{\\textsc i}}} = \\ln\\!\\left({\\frac{\\Sigma_0}{\\Sigma_c}}\\right) r_s\\,,\n\\label{eq:rHI_0}\n\\end{equation}\n%\nwhere $\\Sigma_c \\! = \\! 1\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, as per the definition of \\rHI~(although, in principle, one could define \\rHI~at a different threshold $\\Sigma_c$, e.g.~as explored in fig.~4 of \\citetalias{wang16}).  After some short algebra, one can simply solve for \\rHI~in terms of \\mHI:\n%\n\\begin{subequations}\n\\begin{equation}\nr_{\\rm H\\,{\\LARGE{\\textsc i}}} = f(\\Sigma_0)\\, m_{\\rm H\\,{\\LARGE{\\textsc i}}}^{0.5}~,"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 297,
+      "context": "f(\\Sigma_0) = \\left(2\\pi\\, \\Sigma_0\\right)^{-0.5} \\ln\\left(\\frac{\\Sigma_0}{\\Sigma_c}\\right)\\,.\n\\end{equation}\n\\end{subequations}\n\nWith the above, we have already derived an \\HI~size--mass relation with a normalization (in log--log space) that depends solely on $\\Sigma_0$.  Observations have shown that it is rare for \\SHI~to exceed $9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$ in local galaxies \\citep[on scales of $\\sim$750\\,pc --][]{bigiel08}; at higher surface densities, hydrogen tends to be sufficiently cool and self-shielded to promote the formation of molecules and prevent their photodissociation.  But theoretically, the physical limit on \\SHI~for a given galaxy depends on metallicity \\citep[e.g.][]{schaye01,kmt09}, so higher values of $\\Sigma_0$ should be possible.  For now, we take $10\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$ as the fiducial value for $\\Sigma_0$ in our model.  Plugging this in gives $f\\!\\left(10\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}\\right) \\! = \\! 0.29\\,{\\rm pc}\\,{\\rm M}_{\\odot}^{-0.5}$, or equivalently\n%\n\\begin{equation}\n\\log_{10}\\!\\left( \\frac{D_{\\rm H\\,{\\LARGE{\\textsc i}}}}{{\\rm kpc}}\\right) = 0.5\\,\\log_{10}\\!\\left(\\frac{m_{\\rm H\\,{\\LARGE{\\textsc i}}}}{{\\rm M}_{\\odot}}\\right) - 3.236\n\\label{eq:w2e}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 316,
+      "context": "\\end{equation}\n%\nFig.~\\ref{fig:deriv} visualizes this derivative.  \nThe fact that this derivative is $\\ll\\!1$ for all realistic values of $\\Sigma_0$, means that $f$ only depends weakly on $\\Sigma_0$.\nIf, for example, the probability distribution function of $\\Sigma_0$ for galaxies were a uniform distribution extending from 2 to $10\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, then the predicted scatter in the \\HI~size--mass relation would be 0.037\\,dex.  Extending the upper end of this range or applying a probability distribution function that peaks at mid values of $\\Sigma_0$ would only decrease the value of this prediction.\n\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{Derivative.pdf}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 321,
+      "context": "\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{Derivative.pdf}\n\\caption{Equation (\\ref{eq:deriv}) -- the sensitivity of model 0 to its solitary parameter.  For a population of galaxies, the mean value of $f$ would represent the normalization of the \\HI~size--mass relation (with slope 0.5).  The fact that the derivative of $f$ only weakly depends on $\\Sigma_0$ for the majority of allowable $\\Sigma_0$ values implies that the scatter in the \\HI~size--mass relation cannot be large.}\n\\label{fig:deriv}\n\\end{figure}\n\nBecause model 0 is incomplete, our next three models are the ones we give proper attention to throughout the rest of this paper.  Naturally though, the addition of a second parameter to the models means it is not as straightforward to explicitly derive the tightness of the \\HI~size--mass relation as it was under model 0. "
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 333,
+      "context": "\\subsection{Model 1: saturated exponential}\n\\label{ssec:model1}\n\nLet us now include a simple consideration of the presence of molecular gas in the disc.\nWe no longer assume that \\HI~follows an exponential surface density profile, but instead that \\emph{all} neutral gas in a disc does \\citep[which is roughly consistent with a large variety of observed \\HI+\\Htwo~profiles analysed by][]{bigiel12}.  We then assume that below a threshold gas surface density, $\\Sigma_0$, all hydrogen is in the form of \\HI.  For gas at higher density, the contribution from \\HI~saturates at $\\Sigma_0$, where the remaining hydrogen is molecular (\\Htwo).  By defining the `break radius', $r_b$, as the radius at which \\HI~saturation extends to, we can formally write the \\HI~surface density of our model disc as\n%\n\\begin{equation}\n\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) = \n\\left\\{"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 360,
+      "context": "\\bar{r}_s \\equiv \\frac{r_s}{r_{\\rm H\\,{\\LARGE{\\textsc i}}}} = \\frac{1-\\bar{r}_b}{\\ln\\left(\\Sigma_0/\\Sigma_c \\right)}\\,.\n\\label{eq:xi}\n\\end{equation}\n%\nThe model is hence dependent on two parameters: $\\Sigma_0$ and $\\bar{r}_b$.  Note that setting $\\bar{r}_b$ to 0 reduces this back to model 0.  As such, model 1 should always give an equally good or better fit to observed or simulated data than model 0.\n\n\nSubstituting Equations (\\ref{eq:SHIr} \\& \\ref{eq:xi}) into the integral of Equation (\\ref{eq:integral}) and solving for \\rHI, we derive the size--mass relation for model 1:\n%"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 370,
+      "context": "r_{\\rm H\\,{\\LARGE{\\textsc i}}} = \\sqrt{\\frac{m_{\\rm H\\,{\\LARGE{\\textsc i}}}}{\\pi\\,\\Sigma_0\\,\\left[\\bar{r}_b^2 + 2\\,\\bar{r}_s\\,(\\bar{r}_s+\\bar{r}_b) \\right]}}\\,.\n\\label{eq:sizemass}\n\\end{equation}\n%\nAssuming neither $\\bar{r}_b$ nor $\\bar{r}_s$ carry an implicit dependence on \\mHI~(corresponding to self-similar surface density profiles), our simple model maintains a predicted slope of 0.5 for this fit.  The terms in the denominator of Equation (\\ref{eq:sizemass}) set the normalization.  We can then try to associate the (small) scatter in the relation to variations in $\\bar{r}_b$ and $\\Sigma_0$.\n\nCertainly, we must uphold $\\Sigma_0 \\! > \\! \\Sigma_c$.  And by definition in our model, $\\bar{r}_b$ is restricted to the range $[0,1]$.\nWith these restrictions in mind, we show the allowable scatter in the size--mass relation of our model in the top panel of Fig.~\\ref{fig:model}.  We cover three values of $\\Sigma_0$ that have different sensitivities to $\\bar{r}_b$ for relating size and mass.  For each $\\Sigma_0$, we display the full range of variation in \\HI~size at fixed mass for all values of $\\bar{r}_b$.  In two cases, this simply means taking the extremes of $\\bar{r}_b \\! = \\! 1$ and 0, i.e.~where \\SHIr~is a top-hat%\n\\footnote{When $\\bar{r}_b\\!=\\!1$, $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! = \\! \\Sigma_0$ until a radius where it drops to zero.  This radius is also \\rHI, as it is the largest radius where $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! > \\! \\Sigma_c$.}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 373,
+      "context": "%\nAssuming neither $\\bar{r}_b$ nor $\\bar{r}_s$ carry an implicit dependence on \\mHI~(corresponding to self-similar surface density profiles), our simple model maintains a predicted slope of 0.5 for this fit.  The terms in the denominator of Equation (\\ref{eq:sizemass}) set the normalization.  We can then try to associate the (small) scatter in the relation to variations in $\\bar{r}_b$ and $\\Sigma_0$.\n\nCertainly, we must uphold $\\Sigma_0 \\! > \\! \\Sigma_c$.  And by definition in our model, $\\bar{r}_b$ is restricted to the range $[0,1]$.\nWith these restrictions in mind, we show the allowable scatter in the size--mass relation of our model in the top panel of Fig.~\\ref{fig:model}.  We cover three values of $\\Sigma_0$ that have different sensitivities to $\\bar{r}_b$ for relating size and mass.  For each $\\Sigma_0$, we display the full range of variation in \\HI~size at fixed mass for all values of $\\bar{r}_b$.  In two cases, this simply means taking the extremes of $\\bar{r}_b \\! = \\! 1$ and 0, i.e.~where \\SHIr~is a top-hat%\n\\footnote{When $\\bar{r}_b\\!=\\!1$, $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! = \\! \\Sigma_0$ until a radius where it drops to zero.  This radius is also \\rHI, as it is the largest radius where $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! > \\! \\Sigma_c$.}\nand pure exponential, respectively.  For $\\Sigma_0 \\! = \\! 9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, \\rHI~is smallest for $\\bar{r}_b \\! = \\! 1$.  For $\\Sigma_0 \\! = \\! 2\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, it is the opposite: \\rHI~is smallest for $\\bar{r}_b \\! = \\! 0$.  This is because \\mHI~is found by integrating \\SHIr\\,$r$ out to $\\infty$.  Lower $\\bar{r}_b$ \\emph{and} lower $\\Sigma_0$ each lead to a shallower \\SHIr~profile beyond \\rHI, meaning the mass contribution beyond \\rHI~is greater.  For in-between values of $\\Sigma_0$, the maximum radius at fixed mass is found at intermediate values of $\\bar{r}_b$ (e.g. at $\\bar{r}_b\\!\\simeq\\!0.89$ for $\\bar{\\Sigma}_0\\!=\\!3.0$).  We highlight this in the bottom panel of Fig.~\\ref{fig:model}, which is another way of showing Equation (\\ref{eq:sizemass}).\n\n\\begin{figure}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 374,
+      "context": "Assuming neither $\\bar{r}_b$ nor $\\bar{r}_s$ carry an implicit dependence on \\mHI~(corresponding to self-similar surface density profiles), our simple model maintains a predicted slope of 0.5 for this fit.  The terms in the denominator of Equation (\\ref{eq:sizemass}) set the normalization.  We can then try to associate the (small) scatter in the relation to variations in $\\bar{r}_b$ and $\\Sigma_0$.\n\nCertainly, we must uphold $\\Sigma_0 \\! > \\! \\Sigma_c$.  And by definition in our model, $\\bar{r}_b$ is restricted to the range $[0,1]$.\nWith these restrictions in mind, we show the allowable scatter in the size--mass relation of our model in the top panel of Fig.~\\ref{fig:model}.  We cover three values of $\\Sigma_0$ that have different sensitivities to $\\bar{r}_b$ for relating size and mass.  For each $\\Sigma_0$, we display the full range of variation in \\HI~size at fixed mass for all values of $\\bar{r}_b$.  In two cases, this simply means taking the extremes of $\\bar{r}_b \\! = \\! 1$ and 0, i.e.~where \\SHIr~is a top-hat%\n\\footnote{When $\\bar{r}_b\\!=\\!1$, $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! = \\! \\Sigma_0$ until a radius where it drops to zero.  This radius is also \\rHI, as it is the largest radius where $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! > \\! \\Sigma_c$.}\nand pure exponential, respectively.  For $\\Sigma_0 \\! = \\! 9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, \\rHI~is smallest for $\\bar{r}_b \\! = \\! 1$.  For $\\Sigma_0 \\! = \\! 2\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, it is the opposite: \\rHI~is smallest for $\\bar{r}_b \\! = \\! 0$.  This is because \\mHI~is found by integrating \\SHIr\\,$r$ out to $\\infty$.  Lower $\\bar{r}_b$ \\emph{and} lower $\\Sigma_0$ each lead to a shallower \\SHIr~profile beyond \\rHI, meaning the mass contribution beyond \\rHI~is greater.  For in-between values of $\\Sigma_0$, the maximum radius at fixed mass is found at intermediate values of $\\bar{r}_b$ (e.g. at $\\bar{r}_b\\!\\simeq\\!0.89$ for $\\bar{\\Sigma}_0\\!=\\!3.0$).  We highlight this in the bottom panel of Fig.~\\ref{fig:model}, which is another way of showing Equation (\\ref{eq:sizemass}).\n\n\\begin{figure}\n\\centering"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 375,
+      "context": "\nCertainly, we must uphold $\\Sigma_0 \\! > \\! \\Sigma_c$.  And by definition in our model, $\\bar{r}_b$ is restricted to the range $[0,1]$.\nWith these restrictions in mind, we show the allowable scatter in the size--mass relation of our model in the top panel of Fig.~\\ref{fig:model}.  We cover three values of $\\Sigma_0$ that have different sensitivities to $\\bar{r}_b$ for relating size and mass.  For each $\\Sigma_0$, we display the full range of variation in \\HI~size at fixed mass for all values of $\\bar{r}_b$.  In two cases, this simply means taking the extremes of $\\bar{r}_b \\! = \\! 1$ and 0, i.e.~where \\SHIr~is a top-hat%\n\\footnote{When $\\bar{r}_b\\!=\\!1$, $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! = \\! \\Sigma_0$ until a radius where it drops to zero.  This radius is also \\rHI, as it is the largest radius where $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r) \\! > \\! \\Sigma_c$.}\nand pure exponential, respectively.  For $\\Sigma_0 \\! = \\! 9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, \\rHI~is smallest for $\\bar{r}_b \\! = \\! 1$.  For $\\Sigma_0 \\! = \\! 2\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, it is the opposite: \\rHI~is smallest for $\\bar{r}_b \\! = \\! 0$.  This is because \\mHI~is found by integrating \\SHIr\\,$r$ out to $\\infty$.  Lower $\\bar{r}_b$ \\emph{and} lower $\\Sigma_0$ each lead to a shallower \\SHIr~profile beyond \\rHI, meaning the mass contribution beyond \\rHI~is greater.  For in-between values of $\\Sigma_0$, the maximum radius at fixed mass is found at intermediate values of $\\bar{r}_b$ (e.g. at $\\bar{r}_b\\!\\simeq\\!0.89$ for $\\bar{\\Sigma}_0\\!=\\!3.0$).  We highlight this in the bottom panel of Fig.~\\ref{fig:model}, which is another way of showing Equation (\\ref{eq:sizemass}).\n\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{Model_v_Wang.pdf}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 381,
+      "context": "\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{Model_v_Wang.pdf}\n\\includegraphics[width=\\textwidth]{mHI_on_rHI2_trends.pdf}\n\\caption{Top panel: variation in the \\HI~size--mass relation of model 1 for example parameter sets  (Equation \\ref{eq:sizemass}).  We highlight several cases of $\\Sigma_0$, showing the full vertical range covered $\\forall \\bar{r}_b \\! \\in \\! [0,1]$ at that $\\Sigma_0$.  Compared is the best-fitting relation from observational data \\citepalias{wang16}; the deeper shaded region shows the $1\\sigma$ scatter around the relation, and the lighter region is the $3\\sigma$ scatter.  Bottom panel: a more detailed depiction of how much a model-1 line in the top panel would vertically move if $\\bar{r}_b$ were varied for several examples of fixed $\\Sigma_0$.  Starred points indicate where the curves reach their maximum.  The thin, dotted, horizontal line signifies zero displacement from the observed relation.}\n\\label{fig:model}\n\\end{figure}\n\nAt this point, one could already argue that the slope, normalization, and scatter of the \\HI~size--mass relation are all mathematically inevitable.  To properly claim this though, we need to more closely analyse how representative Equation (\\ref{eq:SHIr}) is of observed \\SHIr~profiles. As we show and discuss in Section \\ref{ssec:profiles}, model 1 is not \\emph{always} a sufficient representation of reality.  Moving forward, it is therefore helpful to have further models to compare, which we present next.  We also cannot give a numerical prediction for the slope and scatter of the \\HI~size--mass relation from any model without knowing how its parameter space should be occupied.  This can be inferred from the best-fitting parameter values to observations though: a task left for Section \\ref{ssec:infer}."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 422,
+      "context": "\\label{eq:xip}\n\\end{equation}\n\\end{subequations}\n%\nThe two parameters defining model 2 are the same as model 1 ($\\Sigma_0$ and $\\bar{r}_b$ -- they are just folded into different overall profiles).  The parameter space is therefore restricted in the same way.  Again, using observations to inform how this parameter space should be distributed, we infer a predicted slope and scatter for the model-2 \\HI~size--mass relation in Section \\ref{ssec:infer}.\n\nWe acknowledge that we have not offered a physical justification for Equation (\\ref{eq:model2}). We have simply found it to empirically fit the observed \\HI~profiles better than either model 1 or model 3 (introduced below) in 42 per cent of cases.  For 32 per cent of the observed profiles, the best-fitting model-2 $\\bar{r}_b$ is 0. One therefore need not invoke \\HI~saturation for those cases, meaning these would be well described by a one-parameter profile (akin to a variant of model 0).  We present and discuss profile fits to observations further in Section \\ref{ssec:profiles}.\n\nThe danger of a Gaussian-like \\SHIr~profile is that it is possible for this shape to be artificially induced by beam-smearing; the observed profile of a galaxy is a convolution of its true profile with the beam response, where the latter is well described by a Gaussian.  Many of the observed galaxies that are best represented by model 2 are the less well-resolved galaxies from LVHIS and Bluedisk.  While this should certainly be kept in mind when interpreting the general applicability of model 2, we remind the reader that the \\emph{most} poorly resolved galaxies were not included in our analysis, and we note that there are galaxies from all contributing surveys to our sample that are best described by model 2.  As we will show in Section \\ref{ssec:sims}, model 2 also fits many profiles from simulations well, which have not had beam-smearing effects added."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 447,
+      "context": "\\end{equation}\n\\end{subequations}\n%\nwhere $K\\!\\equiv\\!11.3\\,{\\rm m}^4\\,{\\rm kg}^{-2} \\! = \\! 4.39\\!\\times\\!10^{-5}\\,{\\rm pc}^4\\,{\\rm M}_{\\odot}^{-2}$, $\\langle f_{\\sigma} \\rangle$ is the mean vertical velocity dispersion ratio of gas to stars in the disc, and $\\Sigma_{\\rm 0,H} \\! \\equiv \\! \\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(0) + \\Sigma_{\\rm H_2}(0)$.\nMany assumptions go into this expression, including an empirical scaling for the pressure law \\citep{leroy08}, that pressure follows the radial function of \\citet{elmegreen89}, that gas velocity dispersion is a constant, that stellar discs have exponential surface density profiles with a scale length equal to $r_d/2$, and that stellar velocity dispersion decays exponentially with $r_d$.\n\nIt is useful to recognize that $m_{\\rm gas}$ is not an independent parameter in Equation (\\ref{eq:model3}), as it is directly connected to $\\Sigma_{\\rm 0,H}$:\n$m_{\\rm gas} = 2\\pi\\, r_d^2\\, X^{-1}\\, \\Sigma_{\\rm 0,H}$\n(where $X \\! \\simeq \\! 0.76$ is the mass fraction of gas that is hydrogen)."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 495,
+      "context": "%\nwhere $_3\\widetilde{F}_2 (a_1,a_2,a_3;~ b_1,b_2;~ c)$ is the regularized hypergeometric function.\nWe note that \\citet{wang14} previously identified that the Bluedisk galaxies' \\SHIr~profiles are well fitted by an expression similar to Equation (\\ref{eq:model3_red}): cf.~their equation 1.  The main differences here are that Equation (\\ref{eq:model3_red}) (i) is derived from theory, rather than being empirically motivated, and (ii) has fewer free parameters.\n\nNow we need to consider restrictions on the $(\\bar{\\Sigma}_{\\rm 0,H}, \\bar{r}_d)$ parameter space for model 3.  Firstly, the solution from Equation (\\ref{eq:m3sm}) is only real when $c\\!<\\!1$.  This means we should uphold\n%\n\\begin{equation}\n\\label{eq:ll}\n\\bar{r}_d > \\left[ \\ln\\left(\\bar{\\Sigma}_{\\rm 0,H}\\right) \\right]^{-1}\\,."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 502,
+      "context": "\\label{eq:ll}\n\\bar{r}_d > \\left[ \\ln\\left(\\bar{\\Sigma}_{\\rm 0,H}\\right) \\right]^{-1}\\,.\n\\end{equation}\n% \nWhile we have already ensured that $\\bar{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc i}}}(\\bar{r}\\!=\\!1)\\!=\\!1$, we should also ensure that ${\\rm d}{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc i}}} / {\\rm d}\\bar{r} |_{\\bar{r}=1} < 0$ -- i.e.~the profile is declining at \\rHI, not rising.  Enforcing this restricts the allowed sets of parameters further:\n%\n\\begin{equation}\n\\label{eq:ul}\n\\bar{r}_d < - \\left[ \\ln\\!\\left( \\frac{2.6 + \\bar{\\Sigma}_{\\rm 0,H}^{0.6}}{1.6\\,\\bar{\\Sigma}_{\\rm 0,H} - \\bar{\\Sigma}_{\\rm 0,H}^{0.4}} \\right) \\right]^{-1}\\,."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 509,
+      "context": "\\label{eq:ul}\n\\bar{r}_d < - \\left[ \\ln\\!\\left( \\frac{2.6 + \\bar{\\Sigma}_{\\rm 0,H}^{0.6}}{1.6\\,\\bar{\\Sigma}_{\\rm 0,H} - \\bar{\\Sigma}_{\\rm 0,H}^{0.4}} \\right) \\right]^{-1}\\,.\n\\end{equation}\n%\nThis right-hand side is only positive and finite for $\\bar{\\Sigma}_{\\rm 0,H} \\! \\gtrsim \\! 4.22$.  This provides a perfectly reasonable lower limit for the central surface density of neutral hydrogen in galaxy discs.  As we will show in the next subsection, in practice, observed galaxies only fill a very small area of this allowable parameter space, typically hugging the lower limit of Equation (\\ref{eq:ll}).\n\n% ============================================================ %\n\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 517,
+      "context": "\n\\subsection{Comparison with observations}\n\\label{ssec:profiles}\n\nIn the top panel of Fig.~\\ref{fig:profiles}, we show the \\HI~surface density profiles for the sample of observed galaxies described in Section \\ref{ssec:obs}.  Rather than showing \\SHIr~by itself, we have multiplied the profiles by $r/r_{\\rm H\\,{\\LARGE{\\textsc{i}}}}$, as the area under these curves gives \\mHI, and hence is what matters for the size--mass relation.  In other words, these are normalized integrand profiles.  A select few examples of analytic profiles from Equations (\\ref{eq:SHIr}, \\ref{eq:model2}, \\& \\ref{eq:model3}) are compared to help guide the eye, showing roughly that the available parameter space in each model covers the same area in the plot as the observed profiles, without going beyond.  To be more quantitative in this comparison, we have fitted  each individual profile with each analytic model.  In the lower panels of Fig.~\\ref{fig:profiles}, we have subtracted the respective model best fits from each observed profile.  We overlay percentile ranges of the residuals from each model, and highlight the individual residuals in each panel where its corresponding model gives a better fit than the other two.  \n\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{IntegrandProfiles.pdf}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 523,
+      "context": "\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{IntegrandProfiles.pdf}\n\\caption{Top panel: Normalized \\HI~surface density integrand profiles for our full sample of observations (thin, solid curves), described in Section \\ref{ssec:obs}; the area under each profile gives $m_{\\rm H\\,{\\LARGE{\\textsc{i}}}} / \\left(2 \\pi\\, r_{\\rm H\\,{\\LARGE{\\textsc{i}}}}^2\\right)$ for that galaxy (cf.~Equation \\ref{eq:integral}).  For reference, overlaid are examples from our three analytic disc models, highlighting that the shape and variation of the model profiles (thicker, dashed curves) are qualitatively similar to observations.\nShort dashes correspond to model 1 (Section \\ref{ssec:model1}), medium-length dashes correspond to model 2 (Section \\ref{ssec:model2}), and the longest dashes are for model 3 (Section \\ref{ssec:model3}).  The colour of these thick curves represents a parameter set assumed for the model.  Three shorter panels: residuals for the best-fitting $\\bar{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc{i}}}}(\\bar{r})\\, \\bar{r}$ profiles for each model to each observed galaxy.  Where residual profiles are green and more opaque, that model fit has the lowest $\\chi^2$ of the three.  Thick, dot-dashed curves encompass 68 per cent of residuals, based on their interpolation onto a fixed $\\bar{r}$ grid.  Thin, double-dot-dashed curves cover 95 per cent of residuals.}\n\\label{fig:profiles}\n\\end{figure}\n\nIn general, all three models capture the shape of the integrand profiles, with the area under the model curves closely shadowing those of the real profiles.  That the full two-sigma-equivalent residual range is at times nearly $1\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$ in height is not a cause for concern; the scatter here is driven by the fact that individual residuals oscillate about the zero line, meaning `bonus' area in parts of the profiles fits is typically cancelled by `missing' area in other parts of the same fit.  Indeed, some of the residuals show a significant amount of noise, owing to the simplicity of the fits and the lack of consideration of disc asymmetries (in principle, the observed profiles should have projection effects accounted for).  While we do not suggest that there is a clear `best' model, we note that the scatter in the residuals is marginally smaller for model 3 than the others ($\\sim\\!0.11$ versus $\\sim\\!0.14\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$), but model 2 provides the best fit the most often (46 times versus 28 and 36 for models 1 and 3, respectively)."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 527,
+      "context": "Short dashes correspond to model 1 (Section \\ref{ssec:model1}), medium-length dashes correspond to model 2 (Section \\ref{ssec:model2}), and the longest dashes are for model 3 (Section \\ref{ssec:model3}).  The colour of these thick curves represents a parameter set assumed for the model.  Three shorter panels: residuals for the best-fitting $\\bar{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc{i}}}}(\\bar{r})\\, \\bar{r}$ profiles for each model to each observed galaxy.  Where residual profiles are green and more opaque, that model fit has the lowest $\\chi^2$ of the three.  Thick, dot-dashed curves encompass 68 per cent of residuals, based on their interpolation onto a fixed $\\bar{r}$ grid.  Thin, double-dot-dashed curves cover 95 per cent of residuals.}\n\\label{fig:profiles}\n\\end{figure}\n\nIn general, all three models capture the shape of the integrand profiles, with the area under the model curves closely shadowing those of the real profiles.  That the full two-sigma-equivalent residual range is at times nearly $1\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$ in height is not a cause for concern; the scatter here is driven by the fact that individual residuals oscillate about the zero line, meaning `bonus' area in parts of the profiles fits is typically cancelled by `missing' area in other parts of the same fit.  Indeed, some of the residuals show a significant amount of noise, owing to the simplicity of the fits and the lack of consideration of disc asymmetries (in principle, the observed profiles should have projection effects accounted for).  While we do not suggest that there is a clear `best' model, we note that the scatter in the residuals is marginally smaller for model 3 than the others ($\\sim\\!0.11$ versus $\\sim\\!0.14\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$), but model 2 provides the best fit the most often (46 times versus 28 and 36 for models 1 and 3, respectively).\n\n\n\\begin{figure*}\n\\centering"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 533,
+      "context": "\n\\begin{figure*}\n\\centering\n\\includegraphics[width=\\textwidth]{Scatter_models.pdf}\n\\caption{Maps of how far scattered from the best-fitting, observed \\HI~size--mass relation galaxies would be, based on their location in parameter space for each of our three analytic gas disc models.  Solid, dashed, and dot-dashed contours represent where the galaxies lie $1\\sigma$, $2\\sigma$, and $3\\sigma$ from the \\citetalias{wang16} relation, respectively (where $\\sigma\\!=\\!0.06\\,{\\rm dex})$.  The dotted contour represents a displacement of zero.  Square and circles represent the best-fitting parameters to observed \\HI~profiles; circles indicate that that model gives a better fit than the other two for that particular galaxy.}\n\\label{fig:scattermap}\n\\end{figure*}\n\nSubjectively more interesting than the scatter in the residuals of \\HI~profiles is the scatter in the \\HI~size--mass relation if one were to take each or any of these models as representative of galaxies in the real Universe.  The size--mass relations derived from all three models predict a slope of 0.5.  In order for there to be a direct mapping for a parameter pair to a displacement from the real \\HI~size--mass relation, the real relation would also need to have the same slope (otherwise we would need to introduce a tertiary mass dependence).  Given how close the slope measured by \\citetalias{wang16} is to 0.5, we assume for the purposes of calculations throughout this paper (with the exception of Section \\ref{ssec:infer}) that 0.5 is indeed the true slope (rather than 0.506).%"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 541,
+      "context": "Subjectively more interesting than the scatter in the residuals of \\HI~profiles is the scatter in the \\HI~size--mass relation if one were to take each or any of these models as representative of galaxies in the real Universe.  The size--mass relations derived from all three models predict a slope of 0.5.  In order for there to be a direct mapping for a parameter pair to a displacement from the real \\HI~size--mass relation, the real relation would also need to have the same slope (otherwise we would need to introduce a tertiary mass dependence).  Given how close the slope measured by \\citetalias{wang16} is to 0.5, we assume for the purposes of calculations throughout this paper (with the exception of Section \\ref{ssec:infer}) that 0.5 is indeed the true slope (rather than 0.506).%\n\\footnote{Other works with different galaxy samples have found slopes slightly more deviant from 0.5 (or 2.0, dependent on axis orientation) than this (e.g.~\\citealt{lelli16}; \\citealt*{ponomareva16}).}  \nThe intercept in the relation also requires minor modification to reflect this.  We choose to preserve the \\HI~size of galaxies exactly at an \\HI~mass of $10^9\\,{\\rm M}_{\\odot}$ (the typical mass for the observations and the simulations we use later).  We therefore treat the observed intercept as $-3.239$ (rather than $-3.293$).  \n\nWith these assumptions in place, we show maps of how far scattered galaxies would be from the observed \\HI~size--mass relation based on their parameters for each of our three models in Fig.~\\ref{fig:scattermap}.  To help navigate these maps, contours highlight where the scatter values correspond to integer numbers of standard deviations.  Overlaid on these plots, we show the best-fitting parameter values from our observational sample.  For models 1 and 2, we show the full range of allowable values of $\\bar{r}_b$ and extend the range in $\\Sigma_0$ out to $17\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$; while we do not expect an abundance of galaxies to have such a high value of $\\Sigma_0$, some of the fits to observations almost reach this.  For model 3, the observations guide the area of parameter space that we plot.  This necessitated reframing the way the parameter space is visualized -- i.e.~not just $\\bar{r}_d$ versus $\\bar{\\Sigma}_{\\rm 0,H}$, as these properties are highly (anti-)correlated.  Per Equation (\\ref{eq:ll}), we know $\\bar{\\Sigma}_{\\rm 0,H}\\,\\exp(-\\bar{r}_d^{-1}) \\! > \\! 1$ always.  As it happens, the fits to all the observations find values no higher than 1.3 for this quantity.\n\nThe main message of Fig.~\\ref{fig:scattermap} is that effectively any galaxy that follows any of our three models -- with parameters in a physically plausible and meaningful range -- will be consistent with the observed \\HI~size--mass relation.  As one would expect for a sample size of $\\sim\\!100$, most of the observational points fall between the $\\pm1\\sigma$ contours, with a small number approaching $\\pm2\\sigma$, and only a hint that the odd galaxy would lie further away.  Given that these models generally fit the observations well, and that the distributions of parameters associated with those fits are consistent with nominal expectation (see Table \\ref{tab:params}), a tight relation between \\HI~size and \\HI~mass is arguably a simple inevitability.\n\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 543,
+      "context": "The intercept in the relation also requires minor modification to reflect this.  We choose to preserve the \\HI~size of galaxies exactly at an \\HI~mass of $10^9\\,{\\rm M}_{\\odot}$ (the typical mass for the observations and the simulations we use later).  We therefore treat the observed intercept as $-3.239$ (rather than $-3.293$).  \n\nWith these assumptions in place, we show maps of how far scattered galaxies would be from the observed \\HI~size--mass relation based on their parameters for each of our three models in Fig.~\\ref{fig:scattermap}.  To help navigate these maps, contours highlight where the scatter values correspond to integer numbers of standard deviations.  Overlaid on these plots, we show the best-fitting parameter values from our observational sample.  For models 1 and 2, we show the full range of allowable values of $\\bar{r}_b$ and extend the range in $\\Sigma_0$ out to $17\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$; while we do not expect an abundance of galaxies to have such a high value of $\\Sigma_0$, some of the fits to observations almost reach this.  For model 3, the observations guide the area of parameter space that we plot.  This necessitated reframing the way the parameter space is visualized -- i.e.~not just $\\bar{r}_d$ versus $\\bar{\\Sigma}_{\\rm 0,H}$, as these properties are highly (anti-)correlated.  Per Equation (\\ref{eq:ll}), we know $\\bar{\\Sigma}_{\\rm 0,H}\\,\\exp(-\\bar{r}_d^{-1}) \\! > \\! 1$ always.  As it happens, the fits to all the observations find values no higher than 1.3 for this quantity.\n\nThe main message of Fig.~\\ref{fig:scattermap} is that effectively any galaxy that follows any of our three models -- with parameters in a physically plausible and meaningful range -- will be consistent with the observed \\HI~size--mass relation.  As one would expect for a sample size of $\\sim\\!100$, most of the observational points fall between the $\\pm1\\sigma$ contours, with a small number approaching $\\pm2\\sigma$, and only a hint that the odd galaxy would lie further away.  Given that these models generally fit the observations well, and that the distributions of parameters associated with those fits are consistent with nominal expectation (see Table \\ref{tab:params}), a tight relation between \\HI~size and \\HI~mass is arguably a simple inevitability.\n\n\n\n\\subsubsection{Inferred model size--mass relations}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 553,
+      "context": "\nIn order to get the actual normalization, scatter, and slope of the predicted \\HI~size--mass relation for each model, one needs to know how the parameter space of each model is occupied (and whether there are any implicit mass biases for parts of the parameter space).  It is unclear \\emph{a priori} what the distribution functions of these parameter spaces should be.  What we can do, though, is use the parameter fits to the observed profiles in our sample, and assume that this sample is representative of the underlying parameter space distributions.  While this assumption is not robust (see Section \\ref{ssec:obs}), it should be sufficiently accurate for us to make a relative comparison of the derived size--mass relations from each model.\nIn practice, this means fitting the relations to the observed sample in several ways, where \\rHI~remains the same for a given galaxy in all cases, and all that changes for the different models is that the empirical \\mHI~is replaced by the analytic value derived from the parameter fits.\n\nIn Table \\ref{tab:modrat}, we collate the \\HI~size--mass relations for each model, derived with the above method.  To fit the size--mass relations, we use the {\\sc hyper-fit} \\citep{robo15} web interface\\footnote{\\url{http://hyperfit.icrar.org/}} with default settings.  {\\sc hyper-fit} uses a Bayesian approach to find the maximum likelihood of a linear model that describes multidimensional data.  We ignored any uncertainties on the individual data when making the fits.  We fit and include in Table \\ref{tab:modrat} the size--mass relation using the `true' \\HI~masses of the galaxies too (from numerically integrating their observed surface density profiles).  As one would expect, this fit differs from \\citetalias{wang16} because (i) our sample is only a subset of theirs, (ii) the code to make the fit is not the same, and (iii) our \\mHI~measurements for the Bluedisk galaxies differs.  All these \\HI~size--mass relations and the parameter ranges are plotted in Fig.~\\ref{fig:HISM}.  The slope, scatter, and normalization of all the relations each overlap within $\\lesssim\\!2$ standard deviations of their {\\sc hyper-fit} Gaussian uncertainties.  \n\n\\begin{table*}\n\\centering\n\\begin{tabular}{l c c c c} \\hline\\hline"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 563,
+      "context": "Slope $\\mu$ & $0.4942\\pm0.0052$ & $0.4940\\pm0.0040$ & $0.4875\\pm0.0048$ & $0.4927\\pm0.0043$ \\\\ \nNormalization $\\nu$ & $3.484\\pm0.048$ & $3.492\\pm0.037$ & $3.410\\pm0.044$ & $3.425\\pm0.039$ \\\\\nScatter $\\sigma$ & $0.0508\\pm0.0034$ & $0.0385\\pm0.0026$ & $0.0468\\pm0.0032$ & $0.0413\\pm0.0028$ \\\\ \\hline\\hline\n\\end{tabular}\n\\caption{\\HI~size--mass relation fits to our sample of observational data (Section \\ref{ssec:obs}), where $\\log_{10}\\!\\left(r_{\\rm H\\,{\\LARGE{\\textsc i}}} / {\\rm kpc} \\right) \\!=\\! \\mu\\log_{10}\\!\\left(m_{\\rm H\\,{\\LARGE{\\textsc i}}} / {\\rm M}_{\\odot}\\right) - \\nu \\pm \\sigma$.  All fits have been made with {\\sc hyper-fit} \\citep{robo15}.  The `data' column is a direct fit to the observed \\rHI~and \\mHI~values.  The `model' columns use the \\mHI~given by the best-fitting model \\HI~profile for each galaxy.}\n\\label{tab:modrat}\n\\end{table*}\n\nThe nominal conclusion we draw from this exercise is that all our analytic models predict \\HI~size--mass relations that are not just qualitatively, but also quantitatively consistent with observations.  We should stress that this conclusion has been reached imperfectly though; ideally the distributions of the model parameter spaces should be derived or explored independently from the data we compare to.  This is left as a task for future work.  In the meantime, more information on the model parameter distributions is given in Appendix \\ref{app:dists}."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 572,
+      "context": "\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{HISM_Obs_Mod_fits.pdf}\n\\caption{Top panel: \\HI~size--mass data and fitted relation for our sample of observations (Section \\ref{ssec:obs}); diamonds are individual galaxies, and the solid line labelled `data' gives the best fit to these data.  The other lines are the predicted \\HI~size--mass relations for each of our analytic models, assuming their parameter spaces to be occupied consistently with the \\HI~profile fits to the observations.  Vertical bars show the 1$\\sigma$ (thick) and 2$\\sigma$ (thin) scatter in each relation. Bottom 3 panels: parameters for the \\HI~size--mass relation fits.  Vertical ticks show the best-fitting values, assumed in the top panel.  Horizontal bars show the uncertainty ranges for each parameter (thick for one standard deviation, thin for two).  These are listed in Table \\ref{tab:modrat}.}\n\\label{fig:HISM}\n\\end{figure}\n\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 583,
+      "context": "\n\\subsection{Comparison with simulations}\n\\label{ssec:sims}\n\nFor context, before addressing how well our analytic \\HI~surface density profiles are reflected in cosmological simulations, we should first address how well those simulations reproduce the observed \\HI~size--mass relation.  \nRecently, \\citet[][see their fig.~5]{diemer19} showed that the \\HI~size--mass relation of TNG100 (and TNG300) galaxies at \\zo~follows that of \\citetalias{wang16} but for a small systematic offset and a slightly larger scatter.\nSimilarly, \\citet[][see their fig.~3]{lutz18} previously showed that the original version of \\ds~\\citep{stevens16} reproduced the observed \\HI~size--mass relation, almost precisely matching \\citetalias{wang16} but for a smaller scatter.\nBecause the \\HI~structure of galaxies is grown numerically in both TNG and \\ds, and this structure is subject to a large number of astrophysical processes relevant for galaxy evolution, these simulations provide a far more comprehensive tool for predicting and analysing the \\HI~size--mass relation than simple analytic models.  \nTo summarize their relations (and update in the case of \\ds), we provide their normalizations and scatters in Table \\ref{tab:relations}.  We obtained the normalizations with a least-squares linear fit in log-log space, assuming a slope of 0.5 (in accordance with the analytic predictions).  The scatter values are then standard deviations of the residuals between the fitted and actual \\HI~sizes of the galaxies.  As per Sections \\ref{ssec:tng} and \\ref{ssec:ds}, for both TNG100 and \\ds, we only consider resolved galaxies with $m_* \\! \\geq \\! 10^9\\,{\\rm M}_{\\odot}$ and $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\geq \\! 10^8\\,{\\rm M}_{\\odot}$."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 610,
+      "context": "\\label{fig:sim_residuals}\n\\end{figure*}\n\n\nAs with the observations, to see how well our analytic \\HI~profiles reflect those predicted by the simulations, we fit each simulated galaxy with each model.  For TNG100 galaxies, we build one-dimensional \\HI~surface density profiles on a radial fixed grid of bin width $\\frac{2}{30}$\\,\\rHI~out to 1.6\\,\\rHI.  Each analytic model is fitted to the integrand $\\bar{\\Sigma}(\\bar{r})\\,\\bar{r}$ profiles using a $\\chi^2$ minimization.  In the left panels of Fig.~\\ref{fig:sim_residuals}, we show residuals for these fits for $\\sim$200 randomly selected TNG100 galaxies with $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\geq \\! 10^9\\,{\\rm M}_{\\odot}$, along with running percentiles for the full sample.  \\ds~already has defined bins within which \\SHI~is produced for each galaxy.  However, because they increase in width exponentially with radius, fitting to these bins as is would be ineffective (i.e.~often non-convergent), as this would weight the entire fit to the galaxy centre, where the contribution to overall \\HI~mass is minimal.  We therefore instead interpolate the inherent \\SHIr~profiles onto the same radial grid used for TNG100, then fit each model to $\\bar{\\Sigma}(\\bar{r})\\,\\bar{r}$ on that grid.  The right panels of Fig.~\\ref{fig:sim_residuals} give examples and running percentiles of the residuals for the full \\ds~sample.  \n\nThe \\HI~profile fits to neither TNG100 nor \\ds~are as close as they were for the observed sample; the typical scatter in the residuals is a factor of $\\sim$2 and $\\sim$3 larger, respectively.  Nevertheless, all three analytic profiles generally reflect the shape of TNG100 profiles, with model 3 edging model 2 for the lowest scatter in the residuals, and models 3 and 1 each giving twice the number of lowest-$\\chi^2$ fits than model 2.  For \\ds, model 3 most often gives the best fit, but the overall scatter in the model-1 fits is lower.  At some level, the noisiness of the \\ds~residuals cannot be helped by the way the discs are pre-constructed with discrete annuli.  What these plots hide is that the \\HI~mass returned by passing the fitted parameter values back through the model equations (using the true \\rHI) are more faithful to the true values for \\ds~than they are for TNG100.  And for both simulations, the returned \\mHI~values for the model-3 fits are the least faithful, while those from model 1 are the most accurate.\nSee Appendix \\ref{app:dists} for an overview of the fitted profile parameters to both simulations.\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 629,
+      "context": "and\n$\\mathcal{K}_{\\rm tangential} > 2\\, \\mathcal{K}_{\\rm radial}$\n\\citep[similar to][where $\\mathcal{K}$ and $\\mathcal{U}$ are kinetic and potential energy per unit mass, respectively]{mitchell18}.  The remaining stellar particles make up the bulge.  This approach for TNG100 is sufficient for defining \\emph{relative} morphologies, but not absolute.}\n\nFor all 3 galaxy property variations, \\ds~finds a robust normalization to the \\HI~size--relation that only decreases when one selects galaxies with the least gas/star formation activity and/or the biggest bulge fraction \\citep[cf.][]{lutz18}.  But the scatter steadily increases as one moves towards that end of the spectrum, with a difference of a factor of $\\sim$6 between the two extremes.  Although, even for $\\sigma\\!=\\!0.125\\,{\\rm dex}$ (a scatter of 33\\%), the relation is still objectively tight by astrophysical standards.  TNG100 exhibits similar behaviour when selecting on \\HI~fraction or bulge fraction, but also shows a steady decline in normalization.  When selecting on sSFR, the situation is less ordered for TNG100.  While this result highlights that the preciseness of a derived \\HI~size--mass relation is dependent on the underlying galaxy sample (i.e. whether it is representative or biased), variations in the normalization are generally smaller than the relation's scatter.  No galaxy selected on the properties in Fig.~\\ref{fig:type} would therefore look like an outlier from the representative \\HI~size--mass relation.\n\n\n\\begin{figure}\n\\centering"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 678,
+      "context": "For models 1 and 2, there are three phases seen in each track in Fig.~\\ref{fig:trunc}.  Starting from the top right, first is the horizontal part of the track, where $\\bar{r}_t \\! > \\! 1$ and thus \\mHI~reduces even though \\rHI~remains the same.  The second part of the track is (the only part that is) curved and concave up, where $\\bar{r}_b \\leq \\! \\bar{r}_t \\! \\leq \\! 1$.  The third, diagonally straight part of the track covers $\\bar{r}_t \\! < \\! \\bar{r}_b$. While the displacement of the galaxies in the size--mass plane from the best-fitting relation of \\citetalias{wang16} changes during truncation -- with some being scattered up/left, some scattered down, and some returning to their original displacement -- the galaxies still remain generally within the observed scatter as a natural consequence of the equations governing the tracks.\n\nThe truncation tracks for model 3 are qualitatively similar to the other models but with some subtle differences.  Naturally, they all share the same initial horizontal path where $\\bar{r}_t \\! > \\! 1$.  The tracks then have similar curvature for $\\bar{r}_t \\! \\leq \\! 1$.  But rather than reaching a point where the gradient becomes fixed, it instead continues to decrease (moving from right to left), going below 0.5, before becoming concave down and reapproaching 0.5 asymptotically.  As such, they also do not diverge from the observed size--mass relation.\n\nThe conclusion we draw is that galaxies undergoing environmental stripping are generally not outliers in the \\HI~size--mass relation.  What is more, this is not necessarily restricted by our decision to model gas stripping as the progressive truncation of a satellite's disc.  To back that up, let us consider now that ram pressure (or any environmental process) not only leads to truncation, but also to an overall suppression of gas surface density \\citep[see e.g.][]{cayatte94}.  For models 1 and 2, if \\SHIr~drops by a uniform fraction across the disc, then $\\Sigma_0$ drops and $\\bar{r}_b$ increases (as \\rHI~decreases but $r_b$ does not).  Similarly for model 3, $\\bar{\\Sigma}_{\\rm 0,H}$ would drop and $\\bar{r}_d$ would rise.  In all cases, the galaxy would still reside within the region of the respective model's parameter space assessed above, and therefore the galaxy would still conform to the observed size--mass scatter.  Furthermore, any change in $r_s$ could simply be captured as a change in $\\bar{r}_b$ or $\\bar{r}_d$. The only way a galaxy would become an outlier in the \\HI~size--mass relation is for the functional form of its \\SHIr~profile to undergo a drastic change such that it no longer resembles any of Equations (\\ref{eq:SHIr}, \\ref{eq:model2}, or \\ref{eq:model3}). \n\n\n% ============================================================ %\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 688,
+      "context": "\\label{ssec:truncDS}\n\nLet us now examine what effect galaxy environment has on the \\HI~size--mass relation in the \\ds~semi-analytic model.  \\ds~provides a trustworthy and logical numerical experiment to test the picture described in Section \\ref{ssec:truncation} for two main reasons.  First, \\citet{sb17} have already shown how the model predicts that environment impacts galaxies' \\HI~content similarly to what is observed at \\zo~\\citep[also see][]{stevens18}.  Secondly, cold-gas stripping is explicitly implemented in the model by finding the innermost annulus of a satellite galaxy's disc where there is insufficient restoration from gravity to balance the ram pressure it experiences as it travels through its parent halo's hot gas medium, and truncates the disc there.  Because \\ds~is run on a $500\\,h^{-1}\\,{\\rm Mpc}$ box, there is plenty of statistical power in galaxies across all environments.\n\nIn the top panel of Fig.~\\ref{fig:SizeMassDS}, we show the best-fitting \\HI~size--mass relation for the \\citet{stevens18} version of \\ds.  This assumed a fixed slope of 0.5 (the normalization and scatter are given in Table \\ref{tab:relations}).  We then break galaxies into centrals and satellites in the middle panel, showing deviations (or lack thereof) from the fitted relation for all galaxies on the $y$-axis.  The distinction between satellite and central provides a zeroth-order consideration of environment, as only satellites are subject to stripping processes (by construction, as described in Section \\ref{ssec:ds}).  Almost no difference is seen between centrals and satellites; only towards the resolution limit ($m_{\\rm H\\,{\\LARGE{\\textsc i}}}\\!\\lesssim\\!10^{8.5}\\,{\\rm M}_{\\odot}$) does anything become apparent, and that should not be overanalysed.  This is in contrast to their difference in \\HI~mass at fixed stellar mass, for example \\citep[see fig.~3 of][]{sb17}.  In fact, over most of the considered mass range, the median lines for centrals and satellites both run close to the zero line (i.e.~in line with the fitted relation for all galaxies), as do the 16th and 84th percentiles for both only deviate moderately from the edges of the $\\pm1\\sigma$ range of the fit.  Already this tells us that environment does not have more than a secondary effect on \\HI~size--mass relation (if any), consistent with the derivations in Section \\ref{ssec:truncation}.\n\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{HI_sizemass_DS.pdf}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 729,
+      "context": "\nTNG100 has another feature similar to \\ds~in that as one approaches low \\HI~masses ($\\sim\\!10^8\\,{\\rm M}_{\\odot}$), the simulated galaxies obey the \\HI~size--mass relation less strictly, and centrals and satellites start behaving slightly differently.  Again, we heed caution in reading too much into this, as \\rHI~is not always well resolved for these galaxies; while we have imposed a minimum \\rHI~equal to the minimum gravitational softening scale for gas in the simulation, for \\rHI~to be \\emph{well} resolved would require it to be at least \\emph{several} times the softening scale (i.e.~$>\\!1\\,{\\rm kpc}$).\n\nAs for the finer impact of environment, the median \\rHI~of TNG100 satellites at fixed $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! > \\! 10^9\\,{\\rm M}_{\\odot}$ is practically independent of halo mass.  That in itself is consistent with the earlier results in this section, but one notable difference in Fig.~\\ref{fig:SizeMass} is a drop in $\\Delta\\log_{10}\\!\\left(r_{\\rm H\\,{\\LARGE{\\textsc i}}} \\right)$ at $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\simeq \\! 10^{8.5}\\,{\\rm M}_{\\odot}$ for satellites only in haloes of $M_{\\rm 200c} \\! \\geq \\! 10^{14}\\,{\\rm M}_{\\odot}$.  This is seen most obviously in the median and 16th percentile lines.  Although potentially interesting, this should be taken with a grain of salt; in addition to the resolution limitations mentioned above, TNG100 only has 14 haloes at these masses (and it has zero with $M_{\\rm 200c} \\! > \\! 10^{14.6}\\,{\\rm M}_{\\odot}$, which is why there is one mass bin fewer in Fig.~\\ref{fig:SizeMass} than Fig.~\\ref{fig:SizeMassDS}).  There are also fewer total satellites (that contribute to Fig.~\\ref{fig:SizeMass}) in this halo mass bin (299) than the others.\nOtherwise, there is once again a divide in the lower percentiles for satellites in the lowest and highest halo mass bins, although this is less clean that it was for \\ds.  We have confirmed that the TNG100 galaxies with lower \\rHI~values are those with the highest $\\bar{\\Sigma}_0$ fits for models 1 and 2.  Again then, any effect environment has on the \\HI~size--mass relation is secondary.\n\n\n% ============================================================ %\n% ============================================================ %"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 793,
+      "context": "\n\\section{Model parameter distribution functions}\n\\label{app:dists}\n\nAs discussed in Section \\ref{ssec:infer}, a key part in understanding the precise normalization and scatter of the \\HI~size--mass relation lies in the probability distributions of parameters that describe galaxies' \\HI~surface density profiles.  While we could not directly predict these from analytic modelling, we were able to obtain said distributions as an outcome from fitting our analytic model $\\bar{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc i}}}(\\bar{r})\\,\\bar{r}$ profiles to observations (important percentiles were given in Table \\ref{tab:params}).  This same exercise can be done for \\ds~and TNG100 galaxies too.\n\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{Param_dist_1.pdf}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 798,
+      "context": "\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{Param_dist_1.pdf}\n\\caption{Main panel: Two-dimensional distribution functions of model 1's parameter space from the \\HI~surface density profile fits to observations and simulations (see Section \\ref{sec:models}).  Pixels are coloured according the number density of \\ds~and/or TNG100 galaxies; $\\mathcal{N}_{\\rm gal}$ is the base-10 logarithm of the fraction of total galaxies per unit square on the axes.  Smaller pixels are used for \\ds, as there are many more galaxies than TNG100.  Where galaxies from both simulations occupy the same area of parameter space, the RGB colours from the two colour bars are summed.  The corrugated structure is an artefact of our \\SHIr~profiles all using a common grid of fixed bin width in $\\bar{r}$.  Circles are individual observations, the same as in Fig.~\\ref{fig:scattermap}.  Smaller panels: Cumulative distribution functions for each model parameter from the same data.  Key percentiles for observations are summarized in Table \\ref{tab:params}.}\n\\label{fig:model1dist}\n\\end{figure}\n\nIn Figs \\ref{fig:model1dist}--\\ref{fig:model3dist}, we present the two-dimensional probability distribution functions of our three model parameter spaces, based on the fits to each of our three data sources.  These figures also include the cumulative distribution functions of each individual parameter."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 803,
+      "context": "\\label{fig:model1dist}\n\\end{figure}\n\nIn Figs \\ref{fig:model1dist}--\\ref{fig:model3dist}, we present the two-dimensional probability distribution functions of our three model parameter spaces, based on the fits to each of our three data sources.  These figures also include the cumulative distribution functions of each individual parameter.\nThere are varying degrees of similarity and difference in the observation and simulation parameter distributions.  For example, \\ds~has systematically higher $\\bar{\\Sigma}_0$ (for both models 1 and 2) for its galaxies versus observations, which is in line with \\ds~discs generally having too many baryons in their centres \\citep[for discussion on this, see][]{stevens16,stevens18}.  Given that the \\HI~size--mass ratio is less sensitive to variations in $\\bar{\\Sigma}_0$ for higher initial values of $\\bar{\\Sigma}_0$ (Fig.~\\ref{fig:deriv}), it makes sense that \\ds~has a smaller scatter in the \\HI~size--mass relation than what is observed (Table \\ref{tab:relations}).  Likewise, because TNG100 galaxies tend to have low $\\bar{\\Sigma}_0$, it follows that the simulation has a larger scatter in the \\HI~size--mass relation.  Similarly, the limited (extended) range of model-3 $\\bar{\\Sigma}_{\\rm 0,H}$ fits for \\ds~(TNG100) also implies a smaller (larger) scatter in the \\HI~size--mass relation relative to observations.  Broadly speaking, there is less variation in the distributions of $\\bar{r}_b$ and $\\bar{r}_d$ between the datasets.\n\n\\begin{figure}\n\\centering\n\\includegraphics[width=\\textwidth]{Param_dist_2.pdf}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 920,
+      "context": "\\caption{Similar to Figs \\ref{fig:SizeMassDS} \\& \\ref{fig:SizeMass} (for the right- and left-hand panels, respectively) but now the classical \\HI~radius has been replaced with the \\HI~half-mass radius.  For simplicity, we only show the \\citetalias{gd14} prescription for the \\HI/\\Htwo~breakdown for TNG100 (the other prescriptions give effectively the same results).  Measurements of individual galaxies from our observed sample are overlaid in the top panels.  Thin, dot-dashed lines in the top panel give the best-fitting linear relation to the simulated galaxies, assuming a slope of 0.5.  Systematic differences seen between the simulations and observations are consistent with the standard \\HI~size--mass relation results.}\n\\label{fig:rhalf}\n\\end{figure*}\n\nIt is a fair question to ask whether part of the tightness and ubiquity of the \\HI~size--mass relation comes from how \\rHI~is defined.  As mentioned in Section \\ref{sec:intro}, the definition $\\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r_{\\rm H\\,{\\LARGE{\\textsc i}}}) \\! \\equiv \\! \\Sigma_c \\! = \\! 1\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$ originates from the typical \\HI~column density that radio observations have been sensitive to in the past (e.g.~\\citealt{warmels88,broeils94}, where earlier works had to use $\\bar{\\Sigma}_c \\! > \\! 1$, e.g.~\\citealt{bosma81b}).  While \\citetalias{wang16} (see their fig.~3) have shown that varying $\\Sigma_c$ by a factor of $\\sim$3 has little impact on the interpretation of the \\HI~size--mass relation (cf.~\\citealt{begum08}, who use $\\bar{\\Sigma}_c \\! < \\! 1$), there is no fundamental physical reason why an absolute threshold surface density is the `right' way to measure \\HI~size in the first place.  In the optical community, for example, a more common practice is to refer to the stellar size of a galaxy by its half-mass radius.  If, instead, we were also to use the radius enclosing half a galaxy's \\HI~mass to define its \\HI~size, would that significantly affect the \\HI~size--mass relation?\n\nWe formally define \\rhalf~through the expression\n%\n\\begin{equation}"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 928,
+      "context": "\\begin{equation}\n\\frac{m_{\\rm H\\,{\\LARGE{\\textsc i}}}}{2}  = 2 \\pi \\int_0^{r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half}} \\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(r)\\, r\\, {\\rm d}r\\,.\n\\end{equation}\n%\nIf we use model 1 or 2 to solve this integral, because \\SHIr~is piecewise, we would need to separately consider the instances when $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\! \\leq \\! r_b$ and $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\! > \\! r_b$; in the former case, one trivially obtains $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! = \\! 2\\pi\\, \\Sigma_0 [r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half}]^2$. Otherwise, the solution to this integral for any of our models is essentially already given by Equations (\\ref{eq:mtrunc1}--\\ref{eq:mtrunc3}), where $r_t$ can be replaced with \\rhalf.\n\nThe only real difference between the normal \\HI~size--mass relation and the \\mHI--\\rhalf~relation is that the latter is more sensitive to the \\HI~profile parameter values.  Predictably, it should then have a larger scatter (but not too much larger), a lower normalization, and the same slope.\n\nTo test these expectations, we measure \\rhalf~from observed, TNG100, and \\ds~galaxies, plotting them against \\mHI~in Fig.~\\ref{fig:rhalf}."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 933,
+      "context": "\nThe only real difference between the normal \\HI~size--mass relation and the \\mHI--\\rhalf~relation is that the latter is more sensitive to the \\HI~profile parameter values.  Predictably, it should then have a larger scatter (but not too much larger), a lower normalization, and the same slope.\n\nTo test these expectations, we measure \\rhalf~from observed, TNG100, and \\ds~galaxies, plotting them against \\mHI~in Fig.~\\ref{fig:rhalf}.\nOne clear difference for the \\ds~galaxies in Fig.~\\ref{fig:rhalf} versus Fig.~\\ref{fig:SizeMassDS} is the upturn in the typical \\rhalf~values of centrals at $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\lesssim \\! 10^9\\,{\\rm M}_{\\odot}$.  This is not a sign that the analytic model breaks down; rather, what we are seeing here is a tendency for low-\\mHI~galaxies to have both low $\\bar{r}_b$ and low $\\Sigma_0$.  This could potentially just be a reflection of the fact that this mass scale is at the simulation's resolution limit; the median \\HI~mass of \\ds~galaxies occupying Millennium haloes of 100 particles is $\\sim\\!10^9\\,{\\rm M}_{\\odot}$.  Our \\ds~galaxy sample with $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\lesssim \\! 10^9\\,{\\rm M}_{\\odot}$ is therefore almost certainly not halo-mass complete.  Current results from these galaxies should thus be taken with a grain of salt, but they should mature as \\ds~is transitioned to higher-resolution simulations. TNG100 does \\emph{not} share the same feature.  That is, satellites and centrals follow the same power-law-like relation for the full \\HI~mass range (similar to the top panel of Fig.~\\ref{fig:SizeMass}).\n\nFor \\ds, satellites in low-mass haloes behave the same as centrals in their upturn in \\rhalf~at low \\mHI~(cf.~the top and bottom panels of Fig.~\\ref{fig:rhalf}).  But for most satellites, i.e.~those in haloes of $M_{\\rm 200c}\\!\\gtrsim\\!10^{13}\\,{\\rm M}_{\\odot}$, there is no strong upturn.  To explain this, we need to understand how disc truncation would affect the \\mHI--\\rhalf relation.  As pointed out in Section \\ref{ssec:truncation}, a truncated model-1 or -2 profile with $\\bar{r}_t \\! < \\! \\bar{r}_b$ is indistinguishable from a non-truncated profile with $\\bar{r}_b \\! = \\! 1$.  The higher the halo mass, the more truncated the satellite's \\HI~is, therefore the larger the typical fitted $\\bar{r}_b$ is, meaning the more common it is for $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\leq r_b$, where $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\propto m_{\\rm H\\,{\\LARGE{\\textsc i}}}^{0.5}$.  Also, because many of these satellites will have had more \\HI~before infall, they are less likely to be biased towards low $\\Sigma_0$ like \\ds~centrals of the same current mass; in principle, unlike $\\bar{r}_b$, truncation should not affect the best-fitting $\\Sigma_0$ to \\SHIr~[or, in this case, $\\bar{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc i}}}(\\bar{r})\\,\\bar{r}$].  Both effects mean satellites at low \\mHI~should typically have lower \\rhalf~than centrals.\n\nThe effect of halo mass on \\rhalf~is otherwise the \\emph{opposite} to how it was for \\rHI.  That is, at fixed $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\in \\! [10^9,10^{10}]\\,{\\rm M}_{\\odot}$, satellites in higher halo masses have slightly higher \\rhalf~on average.  This can again be explained in terms of $\\Sigma_0$. \\ds~satellites in higher-mass haloes tend to have slightly lower $\\Sigma_0$; the medians for those in haloes of $M_{\\rm 200c} \\! < \\! 10^{12}\\,{\\rm M}_{\\odot}$ and $> \\! 10^{14}\\,{\\rm M}_{\\odot}$ are 10 and $9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, respectively.  While there is still a tendency for lower $\\Sigma_0$ to also mean higher $\\bar{r}_b$, the specific value of $\\bar{r}_b$ is less important, as the vast majority of satellites have $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\! < \\! r_b$ anyway.  What matters is $\\Sigma_0 \\! = \\! \\left\\langle \\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(<\\!r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half}) \\right\\rangle$, and a higher average density guarantees lower \\rhalf~at fixed \\mHI~by definition."
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 935,
+      "context": "\nTo test these expectations, we measure \\rhalf~from observed, TNG100, and \\ds~galaxies, plotting them against \\mHI~in Fig.~\\ref{fig:rhalf}.\nOne clear difference for the \\ds~galaxies in Fig.~\\ref{fig:rhalf} versus Fig.~\\ref{fig:SizeMassDS} is the upturn in the typical \\rhalf~values of centrals at $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\lesssim \\! 10^9\\,{\\rm M}_{\\odot}$.  This is not a sign that the analytic model breaks down; rather, what we are seeing here is a tendency for low-\\mHI~galaxies to have both low $\\bar{r}_b$ and low $\\Sigma_0$.  This could potentially just be a reflection of the fact that this mass scale is at the simulation's resolution limit; the median \\HI~mass of \\ds~galaxies occupying Millennium haloes of 100 particles is $\\sim\\!10^9\\,{\\rm M}_{\\odot}$.  Our \\ds~galaxy sample with $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\lesssim \\! 10^9\\,{\\rm M}_{\\odot}$ is therefore almost certainly not halo-mass complete.  Current results from these galaxies should thus be taken with a grain of salt, but they should mature as \\ds~is transitioned to higher-resolution simulations. TNG100 does \\emph{not} share the same feature.  That is, satellites and centrals follow the same power-law-like relation for the full \\HI~mass range (similar to the top panel of Fig.~\\ref{fig:SizeMass}).\n\nFor \\ds, satellites in low-mass haloes behave the same as centrals in their upturn in \\rhalf~at low \\mHI~(cf.~the top and bottom panels of Fig.~\\ref{fig:rhalf}).  But for most satellites, i.e.~those in haloes of $M_{\\rm 200c}\\!\\gtrsim\\!10^{13}\\,{\\rm M}_{\\odot}$, there is no strong upturn.  To explain this, we need to understand how disc truncation would affect the \\mHI--\\rhalf relation.  As pointed out in Section \\ref{ssec:truncation}, a truncated model-1 or -2 profile with $\\bar{r}_t \\! < \\! \\bar{r}_b$ is indistinguishable from a non-truncated profile with $\\bar{r}_b \\! = \\! 1$.  The higher the halo mass, the more truncated the satellite's \\HI~is, therefore the larger the typical fitted $\\bar{r}_b$ is, meaning the more common it is for $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\leq r_b$, where $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\propto m_{\\rm H\\,{\\LARGE{\\textsc i}}}^{0.5}$.  Also, because many of these satellites will have had more \\HI~before infall, they are less likely to be biased towards low $\\Sigma_0$ like \\ds~centrals of the same current mass; in principle, unlike $\\bar{r}_b$, truncation should not affect the best-fitting $\\Sigma_0$ to \\SHIr~[or, in this case, $\\bar{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc i}}}(\\bar{r})\\,\\bar{r}$].  Both effects mean satellites at low \\mHI~should typically have lower \\rhalf~than centrals.\n\nThe effect of halo mass on \\rhalf~is otherwise the \\emph{opposite} to how it was for \\rHI.  That is, at fixed $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\in \\! [10^9,10^{10}]\\,{\\rm M}_{\\odot}$, satellites in higher halo masses have slightly higher \\rhalf~on average.  This can again be explained in terms of $\\Sigma_0$. \\ds~satellites in higher-mass haloes tend to have slightly lower $\\Sigma_0$; the medians for those in haloes of $M_{\\rm 200c} \\! < \\! 10^{12}\\,{\\rm M}_{\\odot}$ and $> \\! 10^{14}\\,{\\rm M}_{\\odot}$ are 10 and $9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, respectively.  While there is still a tendency for lower $\\Sigma_0$ to also mean higher $\\bar{r}_b$, the specific value of $\\bar{r}_b$ is less important, as the vast majority of satellites have $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\! < \\! r_b$ anyway.  What matters is $\\Sigma_0 \\! = \\! \\left\\langle \\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(<\\!r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half}) \\right\\rangle$, and a higher average density guarantees lower \\rhalf~at fixed \\mHI~by definition.\n\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 937,
+      "context": "One clear difference for the \\ds~galaxies in Fig.~\\ref{fig:rhalf} versus Fig.~\\ref{fig:SizeMassDS} is the upturn in the typical \\rhalf~values of centrals at $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\lesssim \\! 10^9\\,{\\rm M}_{\\odot}$.  This is not a sign that the analytic model breaks down; rather, what we are seeing here is a tendency for low-\\mHI~galaxies to have both low $\\bar{r}_b$ and low $\\Sigma_0$.  This could potentially just be a reflection of the fact that this mass scale is at the simulation's resolution limit; the median \\HI~mass of \\ds~galaxies occupying Millennium haloes of 100 particles is $\\sim\\!10^9\\,{\\rm M}_{\\odot}$.  Our \\ds~galaxy sample with $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\lesssim \\! 10^9\\,{\\rm M}_{\\odot}$ is therefore almost certainly not halo-mass complete.  Current results from these galaxies should thus be taken with a grain of salt, but they should mature as \\ds~is transitioned to higher-resolution simulations. TNG100 does \\emph{not} share the same feature.  That is, satellites and centrals follow the same power-law-like relation for the full \\HI~mass range (similar to the top panel of Fig.~\\ref{fig:SizeMass}).\n\nFor \\ds, satellites in low-mass haloes behave the same as centrals in their upturn in \\rhalf~at low \\mHI~(cf.~the top and bottom panels of Fig.~\\ref{fig:rhalf}).  But for most satellites, i.e.~those in haloes of $M_{\\rm 200c}\\!\\gtrsim\\!10^{13}\\,{\\rm M}_{\\odot}$, there is no strong upturn.  To explain this, we need to understand how disc truncation would affect the \\mHI--\\rhalf relation.  As pointed out in Section \\ref{ssec:truncation}, a truncated model-1 or -2 profile with $\\bar{r}_t \\! < \\! \\bar{r}_b$ is indistinguishable from a non-truncated profile with $\\bar{r}_b \\! = \\! 1$.  The higher the halo mass, the more truncated the satellite's \\HI~is, therefore the larger the typical fitted $\\bar{r}_b$ is, meaning the more common it is for $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\leq r_b$, where $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\propto m_{\\rm H\\,{\\LARGE{\\textsc i}}}^{0.5}$.  Also, because many of these satellites will have had more \\HI~before infall, they are less likely to be biased towards low $\\Sigma_0$ like \\ds~centrals of the same current mass; in principle, unlike $\\bar{r}_b$, truncation should not affect the best-fitting $\\Sigma_0$ to \\SHIr~[or, in this case, $\\bar{\\Sigma}_{\\rm H\\,{\\LARGE{\\textsc i}}}(\\bar{r})\\,\\bar{r}$].  Both effects mean satellites at low \\mHI~should typically have lower \\rhalf~than centrals.\n\nThe effect of halo mass on \\rhalf~is otherwise the \\emph{opposite} to how it was for \\rHI.  That is, at fixed $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\in \\! [10^9,10^{10}]\\,{\\rm M}_{\\odot}$, satellites in higher halo masses have slightly higher \\rhalf~on average.  This can again be explained in terms of $\\Sigma_0$. \\ds~satellites in higher-mass haloes tend to have slightly lower $\\Sigma_0$; the medians for those in haloes of $M_{\\rm 200c} \\! < \\! 10^{12}\\,{\\rm M}_{\\odot}$ and $> \\! 10^{14}\\,{\\rm M}_{\\odot}$ are 10 and $9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, respectively.  While there is still a tendency for lower $\\Sigma_0$ to also mean higher $\\bar{r}_b$, the specific value of $\\bar{r}_b$ is less important, as the vast majority of satellites have $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\! < \\! r_b$ anyway.  What matters is $\\Sigma_0 \\! = \\! \\left\\langle \\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(<\\!r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half}) \\right\\rangle$, and a higher average density guarantees lower \\rhalf~at fixed \\mHI~by definition.\n\n\nOne reason \\emph{why} \\ds~satellites have lower $\\Sigma_0$ in higher halo masses could be to do with coherent accretion.  Any gas that satellite galaxies accrete in \\ds~is assumed to carry a constant specific-angular-momentum vector, fixed at infall.  Incoherent accretion leads to the build-up of more gas in the galaxy's centre; ergo, coherent accretion promotes lower $\\Sigma_0$.  Satellites in more-massive haloes are likely to have been satellites for longer, and are therefore likely to have had more of their gas accreted coherently.  Because this is a feature of the model put in by hand, it is not obvious the extent to which the subtle impact environment has in the bottom panel of Fig.~\\ref{fig:rhalf} should be reflected in reality.\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 940,
+      "context": "\nThe effect of halo mass on \\rhalf~is otherwise the \\emph{opposite} to how it was for \\rHI.  That is, at fixed $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! \\in \\! [10^9,10^{10}]\\,{\\rm M}_{\\odot}$, satellites in higher halo masses have slightly higher \\rhalf~on average.  This can again be explained in terms of $\\Sigma_0$. \\ds~satellites in higher-mass haloes tend to have slightly lower $\\Sigma_0$; the medians for those in haloes of $M_{\\rm 200c} \\! < \\! 10^{12}\\,{\\rm M}_{\\odot}$ and $> \\! 10^{14}\\,{\\rm M}_{\\odot}$ are 10 and $9\\,{\\rm M}_{\\odot}\\,{\\rm pc}^{-2}$, respectively.  While there is still a tendency for lower $\\Sigma_0$ to also mean higher $\\bar{r}_b$, the specific value of $\\bar{r}_b$ is less important, as the vast majority of satellites have $r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half} \\! < \\! r_b$ anyway.  What matters is $\\Sigma_0 \\! = \\! \\left\\langle \\Sigma_{\\rm H\\,{\\LARGE{\\textsc i}}}(<\\!r_{\\rm H\\,{\\LARGE{\\textsc i}}}^{\\rm half}) \\right\\rangle$, and a higher average density guarantees lower \\rhalf~at fixed \\mHI~by definition.\n\n\nOne reason \\emph{why} \\ds~satellites have lower $\\Sigma_0$ in higher halo masses could be to do with coherent accretion.  Any gas that satellite galaxies accrete in \\ds~is assumed to carry a constant specific-angular-momentum vector, fixed at infall.  Incoherent accretion leads to the build-up of more gas in the galaxy's centre; ergo, coherent accretion promotes lower $\\Sigma_0$.  Satellites in more-massive haloes are likely to have been satellites for longer, and are therefore likely to have had more of their gas accreted coherently.  Because this is a feature of the model put in by hand, it is not obvious the extent to which the subtle impact environment has in the bottom panel of Fig.~\\ref{fig:rhalf} should be reflected in reality.\n\nThe other opposite between the bottom panel of Fig.~\\ref{fig:SizeMassDS} and bottom-right panel of Fig.~\\ref{fig:rhalf} is that the effect of environment is more strongly seen in the lower percentiles of the former but the upper percentiles of the latter.  While the movement of galaxies in the classical \\HI~size--mass plane away from the main relation was most significant for those with high $\\Sigma_0$, it is the low-$\\Sigma_0$ galaxies that are most sensitive movers in the \\mHI--\\rhalf~plane.\n\n"
+    },
+    {
+      "file": "HISizeMassPaper.tex",
+      "line": 942,
+      "context": "\n\nOne reason \\emph{why} \\ds~satellites have lower $\\Sigma_0$ in higher halo masses could be to do with coherent accretion.  Any gas that satellite galaxies accrete in \\ds~is assumed to carry a constant specific-angular-momentum vector, fixed at infall.  Incoherent accretion leads to the build-up of more gas in the galaxy's centre; ergo, coherent accretion promotes lower $\\Sigma_0$.  Satellites in more-massive haloes are likely to have been satellites for longer, and are therefore likely to have had more of their gas accreted coherently.  Because this is a feature of the model put in by hand, it is not obvious the extent to which the subtle impact environment has in the bottom panel of Fig.~\\ref{fig:rhalf} should be reflected in reality.\n\nThe other opposite between the bottom panel of Fig.~\\ref{fig:SizeMassDS} and bottom-right panel of Fig.~\\ref{fig:rhalf} is that the effect of environment is more strongly seen in the lower percentiles of the former but the upper percentiles of the latter.  While the movement of galaxies in the classical \\HI~size--mass plane away from the main relation was most significant for those with high $\\Sigma_0$, it is the low-$\\Sigma_0$ galaxies that are most sensitive movers in the \\mHI--\\rhalf~plane.\n\n\nFor TNG100, we note that any potential variation in satellites' \\rhalf~with halo mass is even less evident than that seen for \\rHI~in the bottom panel Fig.~\\ref{fig:SizeMass}.  Consistent with expectation, the scatter in the \\mHI--\\rhalf~relation for TNG100 is larger than for \\rHI, with a typical half-range between the 16th \\& 84th percentiles of 0.13\\,dex.  For \\ds~galaxies with $m_{\\rm H\\,{\\LARGE{\\textsc i}}} \\! > \\! 10^9\\,{\\rm M}_{\\odot}$, the same half-range is $\\gtrsim\\!0.05\\,{\\rm dex}$.\n"
+    }
+  ],
+  "n_numeric_sidecars": 0,
+  "numeric_sidecar_files": [],
+  "target_mention_files": {
+    "DDO154": [],
+    "IC2574": [],
+    "NGC2403": [],
+    "NGC2841": [],
+    "NGC2976": [],
+    "NGC3198": [],
+    "NGC3521": [],
+    "NGC5055": [],
+    "NGC6946": [],
+    "NGC7331": [],
+    "NGC7793": []
+  },
+  "boundary": "Public source-package asset audit only; no raster extraction, profile fitting, persistence parameters, or blind outcomes."
+}
