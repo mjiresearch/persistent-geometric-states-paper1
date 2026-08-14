@@ -1,0 +1,29 @@
+name: Crossmatch FEASTS 2025 frozen SPARC v1
+on:
+  push:
+    paths:
+      - 'scripts/stationary/crossmatch_feasts2025_frozen_sparc_v1.py'
+      - '.github/workflows/crossmatch_feasts2025_frozen_sparc_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  crossmatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check astropy
+      - run: python scripts/stationary/crossmatch_feasts2025_frozen_sparc_v1.py
+      - name: Commit crossmatch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/feasts2025_frozen_sparc_crossmatch_v1.json
+          git commit -m 'Crossmatch FEASTS 2025 profiles to frozen SPARC v1'
+          git pull --rebase origin main
+          git push origin HEAD:main
