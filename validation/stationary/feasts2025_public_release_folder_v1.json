@@ -1,0 +1,131 @@
+{
+  "status": "FEASTS2025_PUBLIC_RELEASE_FOLDER_OPEN",
+  "share_url": "https://disk.pku.edu.cn/link/AA7305FC3F095848F198DD20FDE3E43BF6",
+  "root_folder": "size-mass-relation(Wang+25)",
+  "root_text_matches": 2,
+  "before_visible_text": "EnglishLog In size-mass-relation(Wang+25) Expires: Never Name(1 Item(s)) Actions Date modified Type Size size-mass-relation(Wang+25) 2025/04/21 03:18 Folder",
+  "after_visible_text": "EnglishLog In size-mass-relation(Wang+25) Expires: Never Name(1 Item(s)) Actions Date modified Type Size size-mass-relation(Wang+25) 2025/04/21 03:18 Folder",
+  "current_url": "https://disk.pku.edu.cn/anyshare/en-us/link/AA7305FC3F095848F198DD20FDE3E43BF6?_tb=none&expires_at=1970-01-01T08%3A00%3A00%2B08%3A00&item_type=folder&password_required=false&title=size-mass-relation%28Wang%2B25%29&type=anonymous&verify_mobile=false",
+  "public_api_network": [
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/personal-config/v1/deployment/application/version",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/eacp/v1/auth1/login-configs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/metadata/v1/ping",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/appstore/v1/secret-config",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/proton-openapi/v1alpha1/timestamp",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/deploy-web-service/v1/oemconfig?section=anyshare",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/deploy-manager/client/downloadable",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/deploy-web-service/v1/oemconfig?section=shareweb_en-us",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/eacp/v1/auth1/configs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/wps-proxy/v1/app/license",
+      "status": 503
+    },
+    {
+      "method": "POST",
+      "url": "https://disk.pku.edu.cn/api/audit-log/v1/operation-log/batch/client_operation",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/shared-link/v1/links/AA7305FC3F095848F198DD20FDE3E43BF6",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/efast/v1/entry-item",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "url": "https://disk.pku.edu.cn/api/eacp/v1/perm1/check",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/appstore/v2/applist?appversion=7.0.6.3",
+      "status": 200
+    }
+  ],
+  "public_json_responses": [
+    {
+      "url": "https://disk.pku.edu.cn/api/shared-link/v1/links/AA7305FC3F095848F198DD20FDE3E43BF6",
+      "status": 200,
+      "json": {
+        "expires_at": "1970-01-01T08:00:00+08:00",
+        "password_required": "***REDACTED***",
+        "verify_mobile": false,
+        "type": "anonymous",
+        "id": "AA7305FC3F095848F198DD20FDE3E43BF6",
+        "item": {
+          "belongs_to": "document",
+          "type": "folder"
+        },
+        "title": "size-mass-relation(Wang+25)"
+      }
+    },
+    {
+      "url": "https://disk.pku.edu.cn/api/efast/v1/entry-item",
+      "status": 200,
+      "json": [
+        {
+          "attr": -377374016,
+          "created_at": "2025-04-21T03:17:57Z",
+          "created_by": {
+            "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+            "name": "王菁_1706186124",
+            "type": "user"
+          },
+          "doc_lib_type": "user_doc_lib",
+          "id": "gns://9311CC5DBD124D429E9F1F76C9F237AC/19D193BAA53C431DBA2C57C45779D148/3B57342BC8BA4A60B3F14182CF7067F4",
+          "modified_at": "2025-04-21T03:18:03Z",
+          "modified_by": {
+            "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+            "name": "王菁_1706186124",
+            "type": "user"
+          },
+          "name": "王菁_1706186124\\feasts_public\\size-mass-relation(Wang+25)",
+          "rev": "26EBA62F5B024C65A0F5BDD48D345D93",
+          "type": "folder"
+        }
+      ]
+    }
+  ],
+  "boundary": "Fresh unauthenticated password-free public UI navigation only; no credentials, write operations, persistence quantities, or blind outcomes."
+}
