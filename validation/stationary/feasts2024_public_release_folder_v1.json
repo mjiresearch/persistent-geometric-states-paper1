@@ -1,0 +1,223 @@
+{
+  "status": "FEASTS2024_PUBLIC_RELEASE_FOLDER_OPEN",
+  "share_url": "https://disk.pku.edu.cn/link/AAF401EFBFF9A2493CAA7678F24E9BCF28",
+  "root_folder": "total_and_diffuseHI(Wang+24a,b)",
+  "root_text_matches": 1,
+  "before_visible_text": "EnglishLog In diffuseHI(Wang+24) Expires: Never Name(1 Item(s)) Actions Date modified Type Size total_and_diffuseHI(Wang+24a,b) 2025/04/21 03:22 Folder",
+  "after_visible_text": "EnglishLog In diffuseHI(Wang+24) Expires: Never All total_and_diffuseHI(Wang+24a,b) Name(4 Item(s)) Actions Date modified Type Size images 2024/04/16 05:24 Folder linearly combined HI (Wang+24b) 2025/03/03 09:55 Folder profiles 2024/06/10 03:08 Folder spec 2024/06/10 03:10 Folder",
+  "current_url": "https://disk.pku.edu.cn/anyshare/en-us/link/AAF401EFBFF9A2493CAA7678F24E9BCF28/9311CC5DBD124D429E9F1F76C9F237AC/19D193BAA53C431DBA2C57C45779D148/BF35B677B29649F5A958B8B8428186C3?_tb=none",
+  "public_api_network": [
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/personal-config/v1/deployment/application/version",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/eacp/v1/auth1/login-configs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/metadata/v1/ping",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/appstore/v1/secret-config",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/proton-openapi/v1alpha1/timestamp",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/deploy-web-service/v1/oemconfig?section=anyshare",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/deploy-manager/client/downloadable",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/deploy-web-service/v1/oemconfig?section=shareweb_en-us",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/eacp/v1/auth1/configs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/wps-proxy/v1/app/license",
+      "status": 503
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/shared-link/v1/links/AAF401EFBFF9A2493CAA7678F24E9BCF28",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/efast/v1/entry-item",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "url": "https://disk.pku.edu.cn/api/audit-log/v1/operation-log/batch/client_operation",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/appstore/v2/applist?appversion=7.0.6.3",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "url": "https://disk.pku.edu.cn/api/eacp/v1/perm1/check",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://disk.pku.edu.cn/api/efast/v1/folders/gns%3A%2F%2F9311CC5DBD124D429E9F1F76C9F237AC%2F19D193BAA53C431DBA2C57C45779D148%2FBF35B677B29649F5A958B8B8428186C3/sub_objects?limit=100&sort=name&direction=asc&permission_attributes_required=false",
+      "status": 200
+    }
+  ],
+  "public_json_responses": [
+    {
+      "url": "https://disk.pku.edu.cn/api/shared-link/v1/links/AAF401EFBFF9A2493CAA7678F24E9BCF28",
+      "status": 200,
+      "json": {
+        "verify_mobile": false,
+        "type": "anonymous",
+        "id": "AAF401EFBFF9A2493CAA7678F24E9BCF28",
+        "item": {
+          "belongs_to": "document",
+          "type": ""
+        },
+        "title": "diffuseHI(Wang+24)",
+        "expires_at": "1970-01-01T08:00:00+08:00",
+        "password_required": "***REDACTED***"
+      }
+    },
+    {
+      "url": "https://disk.pku.edu.cn/api/efast/v1/entry-item",
+      "status": 200,
+      "json": [
+        {
+          "attr": 203123928,
+          "created_at": "2024-04-16T05:09:09Z",
+          "created_by": {
+            "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+            "name": "王菁_1706186124",
+            "type": "user"
+          },
+          "doc_lib_type": "user_doc_lib",
+          "id": "gns://9311CC5DBD124D429E9F1F76C9F237AC/19D193BAA53C431DBA2C57C45779D148/BF35B677B29649F5A958B8B8428186C3",
+          "modified_at": "2025-04-21T03:22:38Z",
+          "modified_by": {
+            "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+            "name": "王菁_1706186124",
+            "type": "user"
+          },
+          "name": "王菁_1706186124\\feasts_public\\total_and_diffuseHI(Wang+24a,b)",
+          "rev": "f6095cb8-753b-4e0d-898a-bc1e64080a28",
+          "type": "folder"
+        }
+      ]
+    },
+    {
+      "url": "https://disk.pku.edu.cn/api/efast/v1/folders/gns%3A%2F%2F9311CC5DBD124D429E9F1F76C9F237AC%2F19D193BAA53C431DBA2C57C45779D148%2FBF35B677B29649F5A958B8B8428186C3/sub_objects?limit=100&sort=name&direction=asc&permission_attributes_required=false",
+      "status": 200,
+      "json": {
+        "doc_lib": {
+          "type": "user_doc_lib",
+          "id": "gns://9311CC5DBD124D429E9F1F76C9F237AC",
+          "name": "王菁_1706186124"
+        },
+        "next_marker": "",
+        "dirs": [
+          {
+            "modified_at": "2024-04-16T05:24:19Z",
+            "modified_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            },
+            "name": "images",
+            "rev": "591440257C744C2CB6383BA472035B74",
+            "size": -1,
+            "created_at": "2024-04-16T05:19:28Z",
+            "created_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            },
+            "id": "gns://9311CC5DBD124D429E9F1F76C9F237AC/19D193BAA53C431DBA2C57C45779D148/BF35B677B29649F5A958B8B8428186C3/707E28917B3C472AA753E33814BF8B6C"
+          },
+          {
+            "id": "gns://9311CC5DBD124D429E9F1F76C9F237AC/19D193BAA53C431DBA2C57C45779D148/BF35B677B29649F5A958B8B8428186C3/DD29FBD7862B4A1595C3BCE644D2C7D5",
+            "modified_at": "2025-03-03T09:55:42Z",
+            "modified_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            },
+            "name": "linearly combined HI (Wang+24b)",
+            "rev": "BB1EFA0F7BA3454488BBA6A38169C23B",
+            "size": -1,
+            "created_at": "2025-03-03T09:24:53Z",
+            "created_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            }
+          },
+          {
+            "modified_at": "2024-06-10T03:08:22Z",
+            "modified_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            },
+            "name": "profiles",
+            "rev": "0A9A712ABDD640419F4E3D0126833DC8",
+            "size": -1,
+            "created_at": "2024-04-16T05:24:47Z",
+            "created_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            },
+            "id": "gns://9311CC5DBD124D429E9F1F76C9F237AC/19D193BAA53C431DBA2C57C45779D148/BF35B677B29649F5A958B8B8428186C3/8F230F53DD6A4067BF67DAA443DD511F"
+          },
+          {
+            "created_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            },
+            "id": "gns://9311CC5DBD124D429E9F1F76C9F237AC/19D193BAA53C431DBA2C57C45779D148/BF35B677B29649F5A958B8B8428186C3/1856A975DFEB4CCD89329B1CCE8360F5",
+            "modified_at": "2024-06-10T03:10:49Z",
+            "modified_by": {
+              "id": "24b3c4ce-839e-11e9-bf21-ccbbfe31b02d",
+              "name": "王菁_1706186124",
+              "type": "user"
+            },
+            "name": "spec",
+            "rev": "3F19E9CF419B4A89A1B0332F0439EE6F",
+            "size": -1,
+            "created_at": "2024-06-10T03:08:35Z"
+          }
+        ],
+        "files": []
+      }
+    }
+  ],
+  "boundary": "Fresh unauthenticated password-free public UI navigation only; no credentials, write operations, persistence quantities, or blind outcomes."
+}
