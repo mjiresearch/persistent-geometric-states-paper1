@@ -1,0 +1,26 @@
+{
+  "status": "CERTIFIED_HI_COMMON_NORMALIZED_V4_BUILT",
+  "v3_baseline_galaxies": 31,
+  "new_galaxies": [
+    "NGC2903",
+    "NGC4559"
+  ],
+  "new_rows": {
+    "NGC2903": 35,
+    "NGC4559": 26
+  },
+  "n_certified_galaxies": 33,
+  "n_tabulated_galaxies": 26,
+  "n_analytic_galaxies": 7,
+  "role_counts": {
+    "blind": 8,
+    "calibration": 25
+  },
+  "n_tabulated_rows": 731,
+  "outputs": [
+    "data/stationary/source_reconstruction/certified_hi_common_tabulated_v4.csv",
+    "data/stationary/source_reconstruction/certified_hi_common_analytic_v4.csv"
+  ],
+  "normalization_policy": "validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md",
+  "boundary": "Common source normalization only. No interpolation, continuation, source-current evaluation, persistence parameters, or blind outcomes."
+}

@@ -1,11 +1,11 @@
 {
   "status": "CERTIFIED_HI_PROFILE_SCHEMA_AUDIT_COMPLETE",
-  "n_certified_galaxies": 31,
+  "n_certified_galaxies": 33,
   "role_counts": {
-    "calibration": 23,
+    "calibration": 25,
     "blind": 8
   },
-  "n_unique_artifacts": 13,
+  "n_unique_artifacts": 15,
   "artifacts": [
     {
       "artifact": "data/stationary/source_reconstruction/begum_chengalur_analytic_profile_parameters_v1.csv",
@@ -166,6 +166,124 @@
       "galaxy_column": "galaxy",
       "unique_galaxy_values": [
         "NGC0024"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/feasts2025_ngc2903_hi_profile_raw_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC2903"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 35,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source",
+        "radius_arcsec",
+        "radius_kpc_source_distance",
+        "radius_kpc_frozen_distance",
+        "sigma_hi_raw_msun_pc2",
+        "source_distance_mpc",
+        "source_distance_implied_by_radii_mpc",
+        "frozen_distance_mpc",
+        "helium_included"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC2903",
+          "stationary_role": "calibration",
+          "source": "Wang et al. 2025 FEASTS HIprof_wang25.ecsv",
+          "radius_arcsec": "45",
+          "radius_kpc_source_distance": "1.85347222222222",
+          "radius_kpc_frozen_distance": "1.43989663289532",
+          "sigma_hi_raw_msun_pc2": "5.43687028971804",
+          "source_distance_mpc": "8.5",
+          "source_distance_implied_by_radii_mpc": "8.49569086224537",
+          "frozen_distance_mpc": "6.6",
+          "helium_included": "0"
+        },
+        {
+          "galaxy": "NGC2903",
+          "stationary_role": "calibration",
+          "source": "Wang et al. 2025 FEASTS HIprof_wang25.ecsv",
+          "radius_arcsec": "108.080892949281",
+          "radius_kpc_source_distance": "4.45166517409924",
+          "radius_kpc_frozen_distance": "3.45834030751087",
+          "sigma_hi_raw_msun_pc2": "5.0171790014966",
+          "source_distance_mpc": "8.5",
+          "source_distance_implied_by_radii_mpc": "8.49569086224537",
+          "frozen_distance_mpc": "6.6",
+          "helium_included": "0"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC2903"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/feasts2025_ngc4559_hi_profile_raw_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC4559"
+      ],
+      "roles": [
+        "calibration"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 26,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source",
+        "radius_arcsec",
+        "radius_kpc_source_distance",
+        "radius_kpc_frozen_distance",
+        "sigma_hi_raw_msun_pc2",
+        "source_distance_mpc",
+        "source_distance_implied_by_radii_mpc",
+        "frozen_distance_mpc",
+        "helium_included"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC4559",
+          "stationary_role": "calibration",
+          "source": "Wang et al. 2025 FEASTS HIprof_wang25.ecsv",
+          "radius_arcsec": "45",
+          "radius_kpc_source_distance": "1.94069444444444",
+          "radius_kpc_frozen_distance": "1.96349540849362",
+          "sigma_hi_raw_msun_pc2": "10.3424472759549",
+          "source_distance_mpc": "8.9",
+          "source_distance_implied_by_radii_mpc": "8.89548807929221",
+          "frozen_distance_mpc": "9",
+          "helium_included": "0"
+        },
+        {
+          "galaxy": "NGC4559",
+          "stationary_role": "calibration",
+          "source": "Wang et al. 2025 FEASTS HIprof_wang25.ecsv",
+          "radius_arcsec": "111.018840080247",
+          "radius_kpc_source_distance": "4.78785880383114",
+          "radius_kpc_frozen_distance": "4.84411072786338",
+          "sigma_hi_raw_msun_pc2": "9.52445298860663",
+          "source_distance_mpc": "8.9",
+          "source_distance_implied_by_radii_mpc": "8.89548807929221",
+          "frozen_distance_mpc": "9",
+          "helium_included": "0"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC4559"
       ]
     },
     {
