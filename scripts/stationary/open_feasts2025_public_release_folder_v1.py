@@ -40,8 +40,9 @@ def main():
    loc=page.get_by_text(ROOT,exact=True)
    count=loc.count();out['root_text_matches']=count
    if count<1:raise RuntimeError('root folder text not found')
-   try:loc.first.dblclick(timeout=10000)
-   except Exception:loc.first.click(timeout=10000)
+   row=loc.nth(count-1)
+   try:row.dblclick(timeout=10000)
+   except Exception:row.click(timeout=10000)
    page.wait_for_timeout(10000)
    after=' '.join(page.locator('body').inner_text(timeout=10000).split())[:60000]
    out.update(before_visible_text=before,after_visible_text=after,current_url=page.url)
