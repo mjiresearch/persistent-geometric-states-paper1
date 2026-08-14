@@ -1,0 +1,22 @@
+{
+  "status": "CERTIFIED_HI_NORMALIZATION_MANIFEST_V1_COMPLETE",
+  "n_certified": 31,
+  "n_ready": 31,
+  "role_counts": {
+    "calibration": 23,
+    "blind": 8
+  },
+  "helium_mapping_counts": {
+    "raw_HI_to_common_1p33": 19,
+    "source_includes_1p36_to_common_1p33": 11,
+    "source_includes_1p4_to_common_1p33": 1
+  },
+  "radius_mapping_counts": {
+    "analytic_angular_scale_times_frozen_distance": 2,
+    "angular_radius_times_frozen_distance": 8,
+    "explicit_frozen_radius": 2,
+    "source_kpc_times_frozen_over_source_distance": 19
+  },
+  "policy": "validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md",
+  "boundary": "Normalization metadata only. No profile interpolation, L_A, C_A, tau_A, persistence prediction, or blind outcome evaluated."
+}
