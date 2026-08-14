@@ -1,0 +1,833 @@
+{
+  "status": "WALTER2008_HI_QC_TABLE_AND_VALIDATION_SUBSET_AUDITED",
+  "arxiv": "https://export.arxiv.org/e-print/0810.2125",
+  "target_roles": [
+    {
+      "galaxy": "DDO154",
+      "stationary_role": "calibration"
+    },
+    {
+      "galaxy": "IC2574",
+      "stationary_role": "calibration"
+    },
+    {
+      "galaxy": "NGC2403",
+      "stationary_role": "blind"
+    },
+    {
+      "galaxy": "NGC2841",
+      "stationary_role": "calibration"
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration"
+    },
+    {
+      "galaxy": "NGC3198",
+      "stationary_role": "calibration"
+    },
+    {
+      "galaxy": "NGC3521",
+      "stationary_role": "blind"
+    },
+    {
+      "galaxy": "NGC5055",
+      "stationary_role": "blind"
+    },
+    {
+      "galaxy": "NGC6946",
+      "stationary_role": "blind"
+    },
+    {
+      "galaxy": "NGC7331",
+      "stationary_role": "calibration"
+    },
+    {
+      "galaxy": "NGC7793",
+      "stationary_role": "blind"
+    }
+  ],
+  "calibration_targets": [
+    "DDO154",
+    "IC2574",
+    "NGC2841",
+    "NGC2976",
+    "NGC3198",
+    "NGC7331"
+  ],
+  "blind_targets": [
+    "NGC2403",
+    "NGC3521",
+    "NGC5055",
+    "NGC6946",
+    "NGC7793"
+  ],
+  "n_calibration_targets": 6,
+  "n_blind_targets": 5,
+  "table_contexts": [
+    {
+      "line": 110,
+      "context": "  formation and mass distribution across the Hubble sequence. Unique\n  characteristics of the THINGS database are the homogeneous\n  sensitivity as well as spatial and velocity resolution of the \\hi\\\n  data which is at the limit of what can be achieved with the VLA for\n  a significant number of galaxies.  A sample of 34 objects at\n  distances 2\\,$\\ltsim$\\,$D$\\,$\\ltsim$\\,15~Mpc (resulting in linear\n  resolutions of $\\sim$100 to 500\\,pc) are targeted in THINGS,\n  covering a wide range of star formation rates ($\\sim10^{-3}$ to\n  6\\,$M_\\odot$\\,yr$^{-1}$), total \\hi\\ masses $M_{\\rm HI}$ (0.01 to\n  14$\\times10^{9}$\\,$M_{\\odot}$), absolute luminosities $M_{\\rm B}$\n  (--11.5 to --21.7\\,mag) and metallicities (7.5 to 9.2 in units of\n  12+log[O/H]). We describe the setup of the VLA observations, the\n  data reduction procedures and the creation of the final THINGS data\n  products. We present an atlas of the integrated \\hi\\ maps, the\n  velocity fields, the second moment (velocity dispersion) maps and\n  individual channel maps of each THINGS galaxy. The THINGS data\n  products are made publicly available through a dedicated webpage.\n  Accompanying THINGS papers address issues such as the small--scale\n  structure of the ISM, the (dark) matter distribution in THINGS\n  galaxies, and the processes leading to star formation."
+    },
+    {
+      "line": 147,
+      "context": "is that, in contrast to optical or UV radiation, \\hi\\ emission does\nnot suffer from extinction by interstellar dust. In addition, its\nDoppler shift provides information about the velocity of the emitting\ngas.  This provides important information on the physical properties\nof the interstellar gas and the associated kinematics of the ISM.\nFurthermore, 21\\,cm emission is (under most circumstances) optically\nthin; this means that the total amount of \\hi\\ seen along a particular\nline of sight (\\hi\\ column density) can be converted directly into an\n\\hi\\ mass density and, integrated over an entire galaxy, a total \\hi\\\nmass.\n\nEarly studies, using single dish telecopes (yielding resolutions of\n$\\sim10'$), naturally concentrated on performing detailed studies of\nthe Galaxy and obtaining some global measurements of other nearby\nsystems. Only after radio interferometers came into operation, did it\nbecome feasible to obtain detailed, spatially resolved \\hi\\ images of\nexternal galaxies.  However, given the intrinsically low surface\nbrightness of the \\hi\\ emission, large collecting areas are needed, in\nparticular if high--resolution ($<$1$'$) imaging is desired. \n"
+    },
+    {
+      "line": 194,
+      "context": "multi--wavelength project designed to study the properties of the\ndusty ISM in nearby galaxies, to ensure that multi--wavelength\nobservations for each galaxy are available for further analysis.\n\nScience capitalizing on the unique properties of the THINGS data\nproducts will be presented in accompanying papers: de~Blok et al.\\\n(2008) present a detailed analysis of high--resolution rotation curves\nand mass models (including new constraints for the stellar\nmass--to--light ratio) for the majority of THINGS galaxies.\nTrachternach et al.\\ (2008) present a detailed analysis of the centres\nof the THINGS targets and perform a harmonic decomposition of the\nvelocity fields to constrain the non--circular motions in these\nobjects.  Oh et al.\\ (2008) present a new method to remove these\nnon--circular motions from the velocity fields to derive accurate\nrotation curves unaffected by such motions.  The star formation\nproperties are addressed in papers by Leroy et al.\\ (2008) and Bigiel\net al.\\ (2008). Leroy et al.\\ test various star formation and\nthreshold recipes that have been proposed to explain the observed star\nformation in galaxies. They also describe a new method for creating\nstar formation rate maps of individual galaxies.  Bigiel et al.\\"
+    },
+    {
+      "line": 242,
+      "context": "\\subsection{Sample Selection}\n\nTo ensure multi--wavelength coverage of the sample galaxies, THINGS\ntargets were mostly drawn from SINGS (Kennicutt et al.\\ 2003). Some of\nthe THINGS targets are not part of SINGS (as SINGS did not include a\nfew key targets covered in {\\em Spitzer Space Telescope} guaranteed\ntime observations).  Galaxies were chosen to cover the full range of\nphysical properties, from low--mass, metal--poor, quiescent dwarf\ngalaxies to massive spiral galaxies. The THINGS galaxies and their\nproperties are listed in Table~1. Some of our sample galaxies form\npart of the WHISP survey obtained at the Westerbork radio telescope\n(e.g., Swaters et al.\\ 2002) and we have labeled these targets in\nTable~1.\n\nEarly type (E/S0) galaxies were excluded from the THINGS target list\nas their ISM is dominated by hot gas with little, if any, in a neutral\natomic phase. Edge--on systems (e.g., M\\,82) were also excluded as the\nradial structure of the ISM cannot be disentangled from projection\neffects in these systems. The sample was furthermore limited to\ngalaxies at distances $D<$\\,15\\,Mpc to ensure that structures smaller"
+    },
+    {
+      "line": 350,
+      "context": "key observational data for each galaxy are summarized in Table~2:\n\\begin{description}\n\\item[column 1:] galaxy name \n\\item[column 2:] VLA array used \n\\item[column 3:] program code (AW605: THINGS; others: archival data)\n\\item[column 4:] observing date (local time: MST/MDT)\n\\item[column 5/6:] start/end of observations (IAT) \n\\item[column 7:] duration of observations (hours/minutes)\n\\item[column 8/9:] name of phase calibrator and its flux density \n\\item[column 10/11:] coordinates of pointing centre of the array (equinox given in column 16) \n\\item[column 12:] correlator mode\n\\item[column 13:] total bandwidth in MHz \n\\item[column 14:] number of channels per IF\n\\item[column 15:] channel width in km\\,s$^{-1}$ \n\\item[column 16:] equinox\n\\item[column 17:] Barycentric (heliocentric) central velocities in\n  km\\,s$^{-1}$. The observations were done assuming the optical\n  definition for the Doppler shift. In case two independent IFs were\n  used, the central velocity of the second IF is also listed.\n"
+    },
+    {
+      "line": 545,
+      "context": "(using the task {\\sc blank}).  This way we make sure that only regions\nof genuine emission are considered. The moment maps were calculated\nusing the task {\\sc xmom}, by using all pixels in the blanked data\ncubes. As a last step, we correct the integrated \\hi\\ map for primary\nbeam attenuation using the task {\\sc pbcor} (note that primary beam\ncorrection has no effect on the first and second moment maps).\n\n\n\\subsection{\\hi\\ Spectra and \\hi\\ Masses}\n\nTo create global \\hi\\ profiles (spectra) for each individual galaxy we\ncalculated the \\hi\\ flux in each channel map in the residual flux\nscaled NA data cube (after blanking and correction for primary beam\nattenuation) for each galaxy and plot the resulting spectra in Fig.~1.\nThe \\hi\\ spectra show a wealth of properties: the dwarfs show narrow\nand faint emission (given their low dynamical masses and low HI\ncontents); their spectra can be approximated by Gaussian functions.\nThe spirals on the other hand show broad and bright line emission.\nSome profiles show the typical double--horned profile indicative of\nflat rotation curves. The individual \\hi\\ spectra of the THINGS sample"
+    },
+    {
+      "line": 547,
+      "context": "using the task {\\sc xmom}, by using all pixels in the blanked data\ncubes. As a last step, we correct the integrated \\hi\\ map for primary\nbeam attenuation using the task {\\sc pbcor} (note that primary beam\ncorrection has no effect on the first and second moment maps).\n\n\n\\subsection{\\hi\\ Spectra and \\hi\\ Masses}\n\nTo create global \\hi\\ profiles (spectra) for each individual galaxy we\ncalculated the \\hi\\ flux in each channel map in the residual flux\nscaled NA data cube (after blanking and correction for primary beam\nattenuation) for each galaxy and plot the resulting spectra in Fig.~1.\nThe \\hi\\ spectra show a wealth of properties: the dwarfs show narrow\nand faint emission (given their low dynamical masses and low HI\ncontents); their spectra can be approximated by Gaussian functions.\nThe spirals on the other hand show broad and bright line emission.\nSome profiles show the typical double--horned profile indicative of\nflat rotation curves. The individual \\hi\\ spectra of the THINGS sample\nare given in Fig.~1 and Table~4 (only one example galaxy is printed\nhere, the tables for all other galaxies are available in the online"
+    },
+    {
+      "line": 552,
+      "context": "\n\\subsection{\\hi\\ Spectra and \\hi\\ Masses}\n\nTo create global \\hi\\ profiles (spectra) for each individual galaxy we\ncalculated the \\hi\\ flux in each channel map in the residual flux\nscaled NA data cube (after blanking and correction for primary beam\nattenuation) for each galaxy and plot the resulting spectra in Fig.~1.\nThe \\hi\\ spectra show a wealth of properties: the dwarfs show narrow\nand faint emission (given their low dynamical masses and low HI\ncontents); their spectra can be approximated by Gaussian functions.\nThe spirals on the other hand show broad and bright line emission.\nSome profiles show the typical double--horned profile indicative of\nflat rotation curves. The individual \\hi\\ spectra of the THINGS sample\nare given in Fig.~1 and Table~4 (only one example galaxy is printed\nhere, the tables for all other galaxies are available in the online\nversion of the Journal). These spectra were also used to determine the\ncentral velocity of the individual galaxies that are listed in\nTable~5. This central value was obtained by taking the average\nvelocity of those velocities corresponding to the 20\\% peak level on\neach side of the spectrum.  Table 5 also lists the velocity widths at"
+    },
+    {
+      "line": 570,
+      "context": "velocity of those velocities corresponding to the 20\\% peak level on\neach side of the spectrum.  Table 5 also lists the velocity widths at\n50\\% and 20\\% of the peak level. A typical uncertainty for the both\ncentral velocities and the velocity widths is the width of one channel\n(as summarized in Tab.~2).\n\nThe total \\hi\\ fluxes in units of Jy\\,km\\,s$^{-1}$ and $M_\\odot$ are\nlisted in Table~5 and their errors are dominated by uncertainties in\nthe flux calibration (see Sec.~3.1). The \\hi\\ masses have been\ncalculated from the total fluxes using:\n\n\\begin{equation}M_{HI}[M_\\odot] = 2.36\\times10^5 D^2 \\times \\sum_i S_i \\, \\Delta v\\end{equation}\n\nwhere $\\sum_i(S_i \\Delta v)$ is the summation over the total emission\nin each channel in units of Jy\\,km\\,s$^{-1}$ and $D$ is the distance\nto the source in Mpc.  This assumes that the \\hi\\ is optically thin.\nIf there were significant self--absorption, this would cause the\nderived \\hi\\ masses to be underestimated. As Zwaan et al.\\ (1997)\nargue that the flux correction due to self absorption is around 10\\%\n(in a statistical sample) and given the fact that most of our objects"
+    },
+    {
+      "line": 579,
+      "context": "calculated from the total fluxes using:\n\n\\begin{equation}M_{HI}[M_\\odot] = 2.36\\times10^5 D^2 \\times \\sum_i S_i \\, \\Delta v\\end{equation}\n\nwhere $\\sum_i(S_i \\Delta v)$ is the summation over the total emission\nin each channel in units of Jy\\,km\\,s$^{-1}$ and $D$ is the distance\nto the source in Mpc.  This assumes that the \\hi\\ is optically thin.\nIf there were significant self--absorption, this would cause the\nderived \\hi\\ masses to be underestimated. As Zwaan et al.\\ (1997)\nargue that the flux correction due to self absorption is around 10\\%\n(in a statistical sample) and given the fact that most of our objects\nare seen at low inclinations, we did not attempt to correct for any\n(unknown) optical depth effects.\n\nAlthough our data have not been corrected for potentially missing\nshort spacings we note that our D--array observations are sensitive to\nemission up to spatial scales of 15$'$.  For comparison, we also\nsummarize single dish fluxes (compiled from various measurements\navailable in the literature by Paturel et al.\\ 2003) in Table~5\n(column 4). We also compare our fluxes to the study by Fisher \\& Tully"
+    },
+    {
+      "line": 737,
+      "context": "$\\leq$5.2\\,km\\,s$^{-1}$) of nearby galaxies.  A key characteristic of\nthe THINGS dataset is the homogeneous sensitivity as well as spatial\nand velocity resolution of the \\hi\\ data which is at the limit of what\ncan be achieved with the VLA for a significant sample of galaxies.\nThe sample includes 34 objects at distances\n2\\,$\\ltsim$\\,$D$\\,$\\ltsim$\\,15~Mpc (resulting in linear resolutions of\n$\\sim$100 to 500\\,pc). The objects cover a wide range of star\nformation rates ($\\sim10^{-3}$ to 6\\,$M_\\odot$\\,yr$^{-1}$), total \\hi\\\nmasses $M_{\\rm HI}$ (0.01 to 14$\\times10^{9}$\\,$M_{\\odot}$), absolute\nluminosities $M_{\\rm B}$ (--11.5 to --21.7\\,mag) and metallicities\n(7.5 to 9.2 in units of 12+log(O/H)).\n\nWe have presented a detailed description of the sample selection, the\nobservational requirements, and the setup of the individual\nobservations. We have described the data reduction procedures in\ndetail and presented an atlas of the THINGS data products. This atlas\ncontains channel maps for each galaxy as well as the integrated \\hi\\\n(moment 0), velocity (moment 1) and velocity dispersion maps (moment\n2).  These THINGS data products enable investigations of key\ncharacteristics of the interstellar medium related to galaxy"
+    },
+    {
+      "line": 917,
+      "context": "\\newpage\n\n\\clearpage\n\\begin{landscape}\n\\begin{deluxetable*}{llllrccccccccc}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{23cm}\n\\tablecaption{Properties of THINGS sample galaxies.}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}\\\\\n\\colhead{Galaxy}\t& alt. name  &\\colhead{RA(2000.0)}  \t&\\colhead{Dec(2000.0)}\t&\\colhead{$D$}\t  &\\colhead{log($D_{25}$)}&\\colhead{$m_B$} &\\colhead{$M_B$}  &\\colhead{Incl}\t &\\colhead{P.A.}\t       &\\colhead{Metal.}     &\\colhead{SFR}                  &\\colhead{Type}  & \\colhead{Notes}\\\\\n \\colhead{}            &{}   &\\colhead{hh mm ss.s}     &\\colhead{dd mm ss.s} \t&\\colhead{Mpc}    &\\colhead{log(0.1$'$)}  &\\colhead{mag}\t&\\colhead{mag} &\\colhead{$^{\\circ}$} &\\colhead{$^{\\circ}$}   &\\colhead{12+log(O/H)}&\\colhead{$M_\\odot$\\,yr$^{-1}$} &\\colhead{---} & \\colhead{---} \\\\\n}\n\\startdata\nNGC\\,628\t& M\\,74, UGC\\,1149 &01 36 41.8\t\t&+15 47 00\t&7.3  [K04]\t&1.99\t&9.35\t&-19.97\t&7      &20 [T08]\t&8.33 [M08]\t&1.21 [L08]\t&5  & \\\\\nNGC\\,925\t& UGC\\,1913     &02 27 16.5  [T08]\t&+33 34 44\t&9.2  [F01]\t&2.03\t&9.77\t&-20.04\t&66\t&287 [dB08]\t&8.24 [M08]\t&1.09 [L08]\t&7  & \\\\\nNGC\\,1569\t& UGC\\,3056     &04 30 49.0\t\t&+64 50 53\t&2.0 [K04]\t&1.60\t&8.33\t&-18.12\t&63\t&112 [M05]\t&8.16 [S89]\t&0.06 [K98]\t&10 & \\\\\nNGC\\,2366\t& UGC\\,2366     &07 28 53.4  [O08]\t&+69 12 51\t&3.4 [H01]\t&1.64\t&10.51\t&-17.17\t&64\t&40 [O08]\t&7.96 [S89]\t&---\t        &10 & B\\\\\nNGC\\,2403\t& UGC\\,3918     &07 36 51.1  [T08]\t&+65 36 03\t&3.2 [F01]\t&2.20\t&8.11\t&-19.43\t&63\t&124 [dB08]\t&8.31 [M08]\t&0.85 [L08]\t&6  & B\\\\"
+    },
+    {
+      "line": 918,
+      "context": "\n\\clearpage\n\\begin{landscape}\n\\begin{deluxetable*}{llllrccccccccc}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{23cm}\n\\tablecaption{Properties of THINGS sample galaxies.}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}\\\\\n\\colhead{Galaxy}\t& alt. name  &\\colhead{RA(2000.0)}  \t&\\colhead{Dec(2000.0)}\t&\\colhead{$D$}\t  &\\colhead{log($D_{25}$)}&\\colhead{$m_B$} &\\colhead{$M_B$}  &\\colhead{Incl}\t &\\colhead{P.A.}\t       &\\colhead{Metal.}     &\\colhead{SFR}                  &\\colhead{Type}  & \\colhead{Notes}\\\\\n \\colhead{}            &{}   &\\colhead{hh mm ss.s}     &\\colhead{dd mm ss.s} \t&\\colhead{Mpc}    &\\colhead{log(0.1$'$)}  &\\colhead{mag}\t&\\colhead{mag} &\\colhead{$^{\\circ}$} &\\colhead{$^{\\circ}$}   &\\colhead{12+log(O/H)}&\\colhead{$M_\\odot$\\,yr$^{-1}$} &\\colhead{---} & \\colhead{---} \\\\\n}\n\\startdata\nNGC\\,628\t& M\\,74, UGC\\,1149 &01 36 41.8\t\t&+15 47 00\t&7.3  [K04]\t&1.99\t&9.35\t&-19.97\t&7      &20 [T08]\t&8.33 [M08]\t&1.21 [L08]\t&5  & \\\\\nNGC\\,925\t& UGC\\,1913     &02 27 16.5  [T08]\t&+33 34 44\t&9.2  [F01]\t&2.03\t&9.77\t&-20.04\t&66\t&287 [dB08]\t&8.24 [M08]\t&1.09 [L08]\t&7  & \\\\\nNGC\\,1569\t& UGC\\,3056     &04 30 49.0\t\t&+64 50 53\t&2.0 [K04]\t&1.60\t&8.33\t&-18.12\t&63\t&112 [M05]\t&8.16 [S89]\t&0.06 [K98]\t&10 & \\\\\nNGC\\,2366\t& UGC\\,2366     &07 28 53.4  [O08]\t&+69 12 51\t&3.4 [H01]\t&1.64\t&10.51\t&-17.17\t&64\t&40 [O08]\t&7.96 [S89]\t&---\t        &10 & B\\\\\nNGC\\,2403\t& UGC\\,3918     &07 36 51.1  [T08]\t&+65 36 03\t&3.2 [F01]\t&2.20\t&8.11\t&-19.43\t&63\t&124 [dB08]\t&8.31 [M08]\t&0.85 [L08]\t&6  & B\\\\\nHo\\,II          & UGC\\,4305     &08 19 05.0\t\t&+70 43 12\t&3.4 [K04]      &1.82\t&10.78\t&-16.87\t&41\t&177 [P92]\t&7.68 [M08]\t&0.07 [L08]\t&10 & W\\\\"
+    },
+    {
+      "line": 997,
+      "context": "\\newpage\n\n\\clearpage\n\\begin{landscape}\n\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata"
+    },
+    {
+      "line": 1000,
+      "context": "\\begin{landscape}\n\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata\nNGC\\, 628 & B\t& AW605\t&2005-04-02   &16 45 &00 15  & 7 00 &0202+149  & 3.578$\\pm$0.003 &01 34 01.00  & 15 31 55.0  &2AD &1.56   &128  & 2.6 &1950    & 655.353 & \\nodata  \\\\\nNGC\\, 628 & C\t& AW605\t&2004-02-22   &20 45 &23 00  & 2 00 &0202+149  & 3.745$\\pm$0.003 &01 34 01.00  & 15 31 55.0  &2AD &1.56   &128  & 2.6 &1950    & 655.353 & \\nodata  \\\\\nNGC\\, 628 & D\t& AW605\t&2004-07-05   &16 30 &18 15  & 1 15 &0202+149  & 3.717$\\pm$0.006 &01 34 01.00  & 15 31 55.0  &2AD &1.56   &128  & 2.6 &1950    & 655.353 & \\nodata  \\\\"
+    },
+    {
+      "line": 1076,
+      "context": "\\newpage\n\\clearpage\n%\\begin{landscape}\n\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tablenum{2}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata"
+    },
+    {
+      "line": 1079,
+      "context": "\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tablenum{2}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata\n\\newpage\nNGC\\,3031 & B\t& AW343 &1993-02-28   &02 30 &10 30  & 2 45 &0917+624  & 1.106$\\pm$0.002 &09 50 49.00  & 69 24 20.0  &2AD &1.56   &128  & 2.6 &1950    &  40.0   & \\nodata  \\\\\nNGC\\,3031 & B\t& AW343 &1993-02-28   &02 30 &10 30  & 2 45 &0917+624  & 1.097$\\pm$0.002 &09 52 07.00  & 69 12 00.0  &2AD &1.56   &128  & 2.6 &1950    &-125.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1159,
+      "context": "\\newpage\n\\clearpage\n%\\begin{landscape}\n\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tablenum{2}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata"
+    },
+    {
+      "line": 1162,
+      "context": "\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tablenum{2}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata\n%\\newpage\n\\tableline\nNGC\\,3627 & B\t& AW605 &2005-05-28   &22 00 &04 30  & 6 15 &1120+143  & 2.393$\\pm$0.009 &11 20 15.02  & 12 59 29.5  &  4 &1.56   & 64  & 5.2 &2000    & 849.257 &  600.723 \\\\"
+    },
+    {
+      "line": 1237,
+      "context": "\\newpage\n\\clearpage\n%\\begin{landscape}\n\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tablenum{2}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata"
+    },
+    {
+      "line": 1240,
+      "context": "\\begin{deluxetable*}{lcclrrrclrrccccccc}\n\\tablenum{2}\n\\tabletypesize{\\scriptsize}\n%\\rotate\n\\tablewidth{25cm}\n\\tablecaption{Summary of THINGS observing setups.}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}&\\colhead{15}&\\colhead{16}&\\colhead{17}&\\colhead{18}\\\\\n\\colhead{Name} & \\colhead{Conf.} &\\colhead{Project}&\\colhead{Date}       &\\colhead{Start}  &\\colhead{End}    &\\colhead{Dur.}  &\\colhead{cal.}      &\\colhead{Flux}  &\\colhead{RA}           &\\colhead{DEC}        &\\colhead{mode}  &\\colhead{BW}    &\\colhead{chan} &\\colhead{$\\Delta$V}   &\\colhead{equ.} &\\colhead{Vhel1} &\\colhead{Vhel2}\\\\\n  \\colhead{} & \\colhead{} &\\colhead{} &\\colhead{yy-mm-dd} &\n  \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{} & \\colhead{Jy} &\n  \\colhead{hh mm ss} & \\colhead{dd mm ss} &\\colhead{} & \\colhead{MHz}\n  &\\colhead{\\#}  &\\colhead{km\\,s$^{-1}$} & \\colhead{} \n  &\\colhead{km\\,s$^{-1}$} &\\colhead{km\\,s$^{-1}$} \\\\} \n\\startdata\n\\newpage\n\\tableline\nNGC\\,7793 & BnA\t& AW605\t&2003-09-23   &03 45 &10 15  & 5 45 &0025-260  & 8.550$\\pm$0.044 &23 57 49.00  &-32 35 27.0  &2AD &1.56   &128  & 2.6 &2000    & 230.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1261,
+      "context": "NGC\\,7793 & DnC\t& AW605\t&2004-06-05   &13 30 &15 45  & 1 45 &0025-260  & 8.527$\\pm$0.012 &23 57 49.00  &-32 35 27.0  &2AD &1.56   &128  & 2.6 &2000    & 230.0   & \\nodata  \\\\\n\\enddata\n\\tablecomments{{\\em Comments on columns}:\\\\\n  {\\em column 1:} galaxy name, {\\em column 2:} VLA configuration used,\n  {\\em column 3:} program code (AW605: THINGS; others: archival data),\n  {\\em column 4:} observing date (local time: MST/MDT), {\\em column\n    5/6:} start/end of observations (IAT), {\\em column 7:} duration of\n  observations (hours/minutes), {\\em column 8/9:} name of phase\n  calibrator and its flux density, {\\em column 10/11:} coordinates of\n  pointing centre of the array (equinox given in column 16), {\\em\n    column 12:} correlator mode, {\\em column 13:} total bandwidth in\n  MHz, {\\em column 14:} number of channels per IF, {\\em column 15:}\n  channel width in km\\,s$^{-1}$, {\\em column 16:} equinox, {\\em column\n    17:} Barycentric (heliocentric) central velocities in km\\,s$^{-1}$\n  (assuming the optical definition for the Doppler shift). In case two\n  independent IFs were\n  used, the central velocuty of the second IF is also listed.\\\\\n  {\\em Notes on Individual Galaxies}:\\\\\n  {\\em NGC\\,1569:} Additional B--array observations in AW605 were observed in 1950 coordinates to facilitate combination.\\\\\n  {\\em NGC\\,2976:} Observations done in mode 4AC; IF2 was employed at"
+    },
+    {
+      "line": 1312,
+      "context": "\\clearpage\n\\begin{deluxetable*}{llrrrrccrc}\n\\tablenum{2}\n\\tabletypesize{\\small}\n%\\rotate\n\\tablewidth{16cm}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablecaption{Mapping/Noise parameters of THINGS galaxies}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}\\\\\n\\colhead{Name}      & \\colhead{Weighting} & \\colhead{$B_{\\rm maj}$} & \\colhead{$B_{\\rm min}$} & \\colhead{BPA} & \\colhead{noise} & \\colhead{size} & \\colhead{pixel} & \\colhead{channels} & \\colhead{width} \\\\\n\\colhead{}          & \\colhead{}          & \\colhead{$''$}          & \\colhead{$''$}          & \\colhead{$^{\\circ}$} & \\colhead{mJy\\,beam$^{-1}$}& \\colhead{pixels} & \\colhead{$''$} & \\colhead{}& \\colhead{km\\,s$^{-1}$} \\\\}\n\\startdata\nNGC\\,628      &  NA  & 11.88 &  9.30 &  -70.3  & 0.60   &   1024  &  1.5 &   58  &  2.6 \\\\\n          &  RO  &  6.8  &  5.57 &  -61.4  & 0.66   &         &      &       & \\\\\nNGC\\,925     &  NA  &  5.94 &  5.71 &   30.6  & 0.57   &   1024  &  1.5 &  100  &  2.6 \\\\\n          &  RO  &  4.85 &  4.65 &   36.9  & 0.68   &         &      &       & \\\\\nNGC\\,1569     &  NA  &  7.71 &  7.04 &   16.5  & 0.81   &   1024  &  1.5 &   75  &  2.6 \\\\\n          &  RO  &  5.76 &  5.04 &   26.7  & 0.76   &         &      &       & \\\\"
+    },
+    {
+      "line": 1313,
+      "context": "\\begin{deluxetable*}{llrrrrccrc}\n\\tablenum{2}\n\\tabletypesize{\\small}\n%\\rotate\n\\tablewidth{16cm}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablecaption{Mapping/Noise parameters of THINGS galaxies}\n\\tablehead{\n\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}\\\\\n\\colhead{Name}      & \\colhead{Weighting} & \\colhead{$B_{\\rm maj}$} & \\colhead{$B_{\\rm min}$} & \\colhead{BPA} & \\colhead{noise} & \\colhead{size} & \\colhead{pixel} & \\colhead{channels} & \\colhead{width} \\\\\n\\colhead{}          & \\colhead{}          & \\colhead{$''$}          & \\colhead{$''$}          & \\colhead{$^{\\circ}$} & \\colhead{mJy\\,beam$^{-1}$}& \\colhead{pixels} & \\colhead{$''$} & \\colhead{}& \\colhead{km\\,s$^{-1}$} \\\\}\n\\startdata\nNGC\\,628      &  NA  & 11.88 &  9.30 &  -70.3  & 0.60   &   1024  &  1.5 &   58  &  2.6 \\\\\n          &  RO  &  6.8  &  5.57 &  -61.4  & 0.66   &         &      &       & \\\\\nNGC\\,925     &  NA  &  5.94 &  5.71 &   30.6  & 0.57   &   1024  &  1.5 &  100  &  2.6 \\\\\n          &  RO  &  4.85 &  4.65 &   36.9  & 0.68   &         &      &       & \\\\\nNGC\\,1569     &  NA  &  7.71 &  7.04 &   16.5  & 0.81   &   1024  &  1.5 &   75  &  2.6 \\\\\n          &  RO  &  5.76 &  5.04 &   26.7  & 0.76   &         &      &       & \\\\\nNGC\\,2366     &  NA  & 13.10 & 11.85 &   -1.6  & 0.52   &   1024  &  1.5 &   66  &  2.6 \\\\"
+    },
+    {
+      "line": 1407,
+      "context": "\n\n\n\n\n\\begin{deluxetable*}{rc}\n\\tabletypesize{\\small}\n%\\rotate\n\\tablewidth{5cm} \\tablecaption{\\hi\\ spectrum of M81\\,dwA based on the\n  blanked Natural weighted cubes (see the online version of the\n  Journal for the tables of the other THINGS targets).}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\\colhead{velocity}       &  \\colhead{\\hi\\ flux density} \\\\\n \\colhead{km\\,s$^{-1}$}             &  \\colhead{Jy} \\\\}\n\\startdata\n93.7   &  0.023  \\\\ \n95.0   &  0.036  \\\\ \n96.2   &  0.037  \\\\ \n97.5   &  0.054  \\\\ "
+    },
+    {
+      "line": 1412,
+      "context": "\\begin{deluxetable*}{rc}\n\\tabletypesize{\\small}\n%\\rotate\n\\tablewidth{5cm} \\tablecaption{\\hi\\ spectrum of M81\\,dwA based on the\n  blanked Natural weighted cubes (see the online version of the\n  Journal for the tables of the other THINGS targets).}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\\colhead{velocity}       &  \\colhead{\\hi\\ flux density} \\\\\n \\colhead{km\\,s$^{-1}$}             &  \\colhead{Jy} \\\\}\n\\startdata\n93.7   &  0.023  \\\\ \n95.0   &  0.036  \\\\ \n96.2   &  0.037  \\\\ \n97.5   &  0.054  \\\\ \n98.8   &  0.068  \\\\ \n100.1  &  0.076  \\\\ \n101.4  &  0.079  \\\\ \n102.7  &  0.095  \\\\ \n104.0  &  0.107  \\\\ "
+    },
+    {
+      "line": 1456,
+      "context": "\n\\clearpage\n\n\\begin{landscape}\n\\begin{deluxetable*}{lrrrrrrrrr}\n\\tabletypesize{\\small}\n%\\rotate\n\\tablewidth{20cm}\n\\tablecaption{THINGS \\hi\\ fluxes, velocities, line--widths and masses}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}\\\\\n\\colhead{name}       &  \\colhead{$S_{\\rm HI}$}     & \\colhead{$M_{\\rm HI}$}    &  \\colhead{$S_{\\rm HI}^{\\rm Paturel}$} & \\colhead{$S_{\\rm HI}^{\\rm Fisher\\&Tully}$} &\\colhead{$v_{\\rm cen}$}  &\\colhead{$v_{\\rm cen}^{\\rm Fisher\\&Tully}$}  & \\colhead{$W_{50}$} & \\colhead{$W_{20}$} & \\colhead{$W_{20}^{\\rm Fisher\\&Tully}$} \\\\\n \\colhead{}          &  \\colhead{Jy\\,km\\,s$^{-1}$} & \\colhead{10$^{8}$\\,\\msol} &  \\colhead{Jy\\,km\\,s$^{-1}$}&  \\colhead{Jy\\,km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$}& \\colhead{km\\,s$^{-1}$} \\\\}\n\\startdata\nNGC\\,628       &      302        &  38.0          & 252    & 381$\\pm$17   &659.1 & 659    & 56.4    & 75.4   & 74$\\pm$5    \\\\\nNGC\\,925       &      232        &  45.8          & 197    & 301$\\pm$14   &552.5 & 554    & 207.1   & 222.6  & 224$\\pm$8   \\\\\nNGC\\,1569      &       84.0      &   0.75         & 49.4   & ---          &-85.6 & ---    & 100.8   & 123.8  & ---         \\\\\nNGC\\,2366      &      233        &   6.49         & 188    & 274$\\pm$14   &100.1 & 102    & 101.2   & 115.8  & 116$\\pm$5   \\\\\nNGC\\,2403      &     1054        &  25.8          & 925    & 1458$\\pm$47  &133.1 & 132    & 240.6   & 254.7  & 247$\\pm$20  \\\\"
+    },
+    {
+      "line": 1459,
+      "context": "\\begin{landscape}\n\\begin{deluxetable*}{lrrrrrrrrr}\n\\tabletypesize{\\small}\n%\\rotate\n\\tablewidth{20cm}\n\\tablecaption{THINGS \\hi\\ fluxes, velocities, line--widths and masses}\n%\\tablenum{}\n%\\tablecolumns{}\n\\tablehead{\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}\\\\\n\\colhead{name}       &  \\colhead{$S_{\\rm HI}$}     & \\colhead{$M_{\\rm HI}$}    &  \\colhead{$S_{\\rm HI}^{\\rm Paturel}$} & \\colhead{$S_{\\rm HI}^{\\rm Fisher\\&Tully}$} &\\colhead{$v_{\\rm cen}$}  &\\colhead{$v_{\\rm cen}^{\\rm Fisher\\&Tully}$}  & \\colhead{$W_{50}$} & \\colhead{$W_{20}$} & \\colhead{$W_{20}^{\\rm Fisher\\&Tully}$} \\\\\n \\colhead{}          &  \\colhead{Jy\\,km\\,s$^{-1}$} & \\colhead{10$^{8}$\\,\\msol} &  \\colhead{Jy\\,km\\,s$^{-1}$}&  \\colhead{Jy\\,km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$}& \\colhead{km\\,s$^{-1}$} \\\\}\n\\startdata\nNGC\\,628       &      302        &  38.0          & 252    & 381$\\pm$17   &659.1 & 659    & 56.4    & 75.4   & 74$\\pm$5    \\\\\nNGC\\,925       &      232        &  45.8          & 197    & 301$\\pm$14   &552.5 & 554    & 207.1   & 222.6  & 224$\\pm$8   \\\\\nNGC\\,1569      &       84.0      &   0.75         & 49.4   & ---          &-85.6 & ---    & 100.8   & 123.8  & ---         \\\\\nNGC\\,2366      &      233        &   6.49         & 188    & 274$\\pm$14   &100.1 & 102    & 101.2   & 115.8  & 116$\\pm$5   \\\\\nNGC\\,2403      &     1054        &  25.8          & 925    & 1458$\\pm$47  &133.1 & 132    & 240.6   & 254.7  & 247$\\pm$20  \\\\\nHo\\,II         &      219        &   5.95         &  197   & 388$\\pm$15   &157.1 & 158    & 57.4    & 70.8   & 76$\\pm$5    \\\\\nM81\\,dwA       &        4.1      &   0.12         & ---    & ---          &112.0 & ---    & 24.7    & 36.6   & ---         \\\\\nDDDO\\,53       &       20.0      &   0.60         & ---    & ---          &17.7  & ---    & 28.3    & 46.0   & ---         \\\\"
+    },
+    {
+      "line": 1498,
+      "context": "NGC\\,5055      &      379        &  91.0          & 262    & 372$\\pm$18   &499.3 & 497    & 380.1   & 400.7  & 406$\\pm$5   \\\\\nNGC\\,5194      &      169        &  25.4          & 141    & 202$\\pm$14   &456.2 & 467    & 162.8   & 191.4  & 195$\\pm$10  \\\\\nNGC\\,5236      &      361        &  17.0          & 2454$^+$ & ---        &510.0 & ---    & 200.8   & 273.8  & ---         \\\\\nNGC\\,5457      &     1102        & 141.7          & 1811$^+$ &1572$\\pm$42  &226.5 & 231    & 169.6   & 199.0  & 200$\\pm$7   \\\\\nNGC\\,6946      &      506        &  41.5          & 1336$^+$ &---          &43.3  & ---    & 221.4   & 239.7  & ---         \\\\\nNGC\\,7331      &      179        &  91.3          & 144    & 218$\\pm$27   &815.6 & 819    & 498.6   & 519.8  & 531$\\pm$10  \\\\\nNGC\\,7793      &      246        &   8.88         & 197    & 271$\\pm$13   &227.2 & 231    & 176.5   & 191.1  & 194$\\pm$7   \\\\\n\\enddata\n\\tablecomments{Notes on columns:\\\\Derived HI fluxes, masses and\n  velocity widths.\\\\\n  {\\em Column 1:} Galaxy name,\\\\\n  {\\em Column 2:} THINGS \\hi\\ flux. The total uncertainty is dominated by the accuracy of the flux calibration (of order 5\\%).\\\\\n  {\\em Column 3:} THINGS \\hi\\ mass,\\\\\n  {\\em Column 4:} Single dish \\hi\\ flux compiled from the literature\n  by Paturel et al.\\ (2003).  Values with $^+$ indicate that galaxies\n  are more extended than the\n  area (primary beam) mapped by us.\\\\\n  {\\em Column 5:} Single dish \\hi flux from Fisher \\& Tully 1981,\\\\\n  {\\em Column 6:} Velocity of the HI spectra, derived from the central velocity of the 20\\% level of the HI profile (column 9). A typical uncertainty is the width of one velocity channel (Tab.~2). \\\\\n  {\\em Column 7:} Heliocentric velocities from Fisher \\& Tully 1981,\\\\"
+    },
+    {
+      "line": 1502,
+      "context": "NGC\\,6946      &      506        &  41.5          & 1336$^+$ &---          &43.3  & ---    & 221.4   & 239.7  & ---         \\\\\nNGC\\,7331      &      179        &  91.3          & 144    & 218$\\pm$27   &815.6 & 819    & 498.6   & 519.8  & 531$\\pm$10  \\\\\nNGC\\,7793      &      246        &   8.88         & 197    & 271$\\pm$13   &227.2 & 231    & 176.5   & 191.1  & 194$\\pm$7   \\\\\n\\enddata\n\\tablecomments{Notes on columns:\\\\Derived HI fluxes, masses and\n  velocity widths.\\\\\n  {\\em Column 1:} Galaxy name,\\\\\n  {\\em Column 2:} THINGS \\hi\\ flux. The total uncertainty is dominated by the accuracy of the flux calibration (of order 5\\%).\\\\\n  {\\em Column 3:} THINGS \\hi\\ mass,\\\\\n  {\\em Column 4:} Single dish \\hi\\ flux compiled from the literature\n  by Paturel et al.\\ (2003).  Values with $^+$ indicate that galaxies\n  are more extended than the\n  area (primary beam) mapped by us.\\\\\n  {\\em Column 5:} Single dish \\hi flux from Fisher \\& Tully 1981,\\\\\n  {\\em Column 6:} Velocity of the HI spectra, derived from the central velocity of the 20\\% level of the HI profile (column 9). A typical uncertainty is the width of one velocity channel (Tab.~2). \\\\\n  {\\em Column 7:} Heliocentric velocities from Fisher \\& Tully 1981,\\\\\n  {\\em Column 8:} Profile width at 50\\% of the peak intensity. A typical uncertainty is the width of one velocity channel (Tab.~2),\\\\\n  {\\em Column 9:} Profile width at 20\\% of the peak intensity. A typical uncertainty is the width of one velocity channel (Tab.~2),\\\\\n  {\\em Column 10:} Profile width at 20\\% of the peak intensity from\n  Fisher \\& Tully 1981.  }"
+    },
+    {
+      "line": 1563,
+      "context": "\\end{minipage}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_6.ps}}\n}\n\\end{minipage}\n%\\vspace*{-7mm}\n\n\\caption{Global \\hi\\ profiles for all THINGS galaxies.}\n\\end{center}\n\\end{figure*}\n\n\n\\begin{figure*}\n\\figurenum{1}\n      \\begin{center}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_7.ps}}\n}"
+    },
+    {
+      "line": 1605,
+      "context": "\\end{minipage}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_12.ps}}\n}\n\\end{minipage}\n%\\vspace*{-7mm}\n\n\\caption{Global \\hi\\ profiles for all THINGS galaxies (continued).}\n\\end{center}\n\\end{figure*}\n\n\n\n\\begin{figure*}\n\\figurenum{1}\n      \\begin{center}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_13.ps}}"
+    },
+    {
+      "line": 1647,
+      "context": "}\n\\end{minipage}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_18.ps}}\n}\n\\end{minipage}\n%\\vspace*{-7mm}\n\\caption{Global \\hi\\ profiles for all THINGS galaxies (continued).}\n\\end{center}\n\\end{figure*}\n\n\n\n\\begin{figure*}\n\\figurenum{1}\n      \\begin{center}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_19.ps}}"
+    },
+    {
+      "line": 1690,
+      "context": "\\end{minipage}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_24.ps}}\n}\n\\end{minipage}\n%\\vspace*{-7mm}\n\n\\caption{Global \\hi\\ profiles for all THINGS galaxies (continued).}\n\\end{center}\n\\end{figure*}\n\n\n\n\\begin{figure*}\n\\figurenum{1}\n      \\begin{center}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_25.ps}}"
+    },
+    {
+      "line": 1733,
+      "context": "\\end{minipage}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_30.ps}}\n}\n\\end{minipage}\n%\\vspace*{-7mm}\n\n\\caption{Global \\hi\\ profiles for all THINGS galaxies (continued).}\n\\end{center}\n\\end{figure*}\n\n\n\n\\begin{figure*}\n\\figurenum{1}\n      \\begin{center}\n\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_31.ps}}"
+    },
+    {
+      "line": 1766,
+      "context": "\\begin{minipage}[t]{70mm}{\n\\resizebox{70mm}{!}{\n\\includegraphics[angle=0]{figure_1_34.ps}}\n}\n\\end{minipage}\n%\n%\\vspace*{-7mm}\n\n\\caption{Global \\hi\\ profiles for all THINGS galaxies (continued).}\n\\end{center}\n\\end{figure*}\n\n\n%\n%\n%   GALAXIES  -  CHANNEL MAPS AND MOMENT MAPS\n%\n%\n\n%\\end{document}"
+    }
+  ],
+  "candidate_tables": [],
+  "target_table_lines": [
+    {
+      "line": 928,
+      "targets": [
+        "NGC2403"
+      ],
+      "text": "NGC\\,2403\t& UGC\\,3918     &07 36 51.1  [T08]\t&+65 36 03\t&3.2 [F01]\t&2.20\t&8.11\t&-19.43\t&63\t&124 [dB08]\t&8.31 [M08]\t&0.85 [L08]\t&6  & B\\\\"
+    },
+    {
+      "line": 932,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841\t& UGC\\,4966     &09 22 02.6  [T08]\t&+50 58 35\t&14.1 [M01]\t&1.84\t&9.54\t&-21.21\t&74\t&153 [dB08]\t&8.52 [M08]\t&0.20 [K03]\t&3  & \\\\"
+    },
+    {
+      "line": 935,
+      "targets": [
+        "NGC2976"
+      ],
+      "text": "NGC\\,2976\t& UGC\\,5221     &09 47 15.3  [T08]\t&+67 55 00\t&3.6 [K02]\t&1.86\t&9.98\t&-17.78\t&65\t&335 [dB08]\t&8.30 [M08]\t&0.10 [L08]\t&5  & \\\\"
+    },
+    {
+      "line": 940,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198\t& UGC\\,5572     &10 19 55.0  [T08]\t&+45 32 59\t&13.8 [F01]\t&1.81\t&9.95\t&-20.75\t&72\t&215 [dB08]\t&8.32 [M08]\t&0.85 [K03]\t&5  & \\\\"
+    },
+    {
+      "line": 941,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574\t& UGC\\,5666     &10 28 27.7  [O08]\t&+68 24 59\t&4.0 [K02]      &2.11\t&9.91\t&-18.11\t&53\t&56 [O08]\t&7.94 [M08]\t&0.12 [L08]\t&9  & \\\\"
+    },
+    {
+      "line": 943,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521\t& UGC\\,6150     &11 05 48.6  [T08]\t&--00 02 09\t&10.7 [vflow]\t&1.92\t&9.21\t&-20.94\t&73\t&340 [dB08]\t&8.36 [M08]\t&3.34 [L08]\t&4  & \\\\"
+    },
+    {
+      "line": 949,
+      "targets": [
+        "DDO154"
+      ],
+      "text": "DDO\\,154\t& UGC\\,8024     &12 54 05.9  [T08]\t&+27 09 10\t&4.3 [K04]      &1.29\t&13.94\t&-14.23\t&66\t&230 [dB08]\t&7.54 [M08]\t&0.004 [L08]\t&10 & \\\\"
+    },
+    {
+      "line": 951,
+      "targets": [
+        "NGC5055"
+      ],
+      "text": "NGC\\,5055\t& M\\,63, UGC\\,8334  &13 15 49.2  [T08]\t&+42 01 45\t&10.1 [vflow]\t&2.07\t&8.90\t&-21.12\t&59\t&102 [dB08]\t&8.42 [M08]\t&2.42 [L08]\t&4  & \\\\"
+    },
+    {
+      "line": 955,
+      "targets": [
+        "NGC6946"
+      ],
+      "text": "NGC\\,6946\t& UGC\\,11597    &20 34 52.2  [T08]\t&+60 09 14\t&5.9  [K04]\t&2.06\t&8.24\t&-20.61\t&33\t&243 [dB08]\t&8.40 [M08]\t&4.76 [L08]\t&6  & \\\\"
+    },
+    {
+      "line": 956,
+      "targets": [
+        "NGC7331"
+      ],
+      "text": "NGC\\,7331\t& UGC\\,12113    &22 37 04.1  [T08]\t&+34 24 57\t&14.7 [F01]\t&1.96\t&9.17\t&-21.67\t&76\t&168 [dB08]\t&8.36 [M08]\t&4.20 [K03]\t&3  & \\\\"
+    },
+    {
+      "line": 957,
+      "targets": [
+        "NGC7793"
+      ],
+      "text": "NGC\\,7793\t&               &23 57 49.7  [T08]\t&--32 35 28\t&3.9  [K04]\t&2.02\t&9.17\t&-18.79\t&50\t&290 [dB08]\t&8.22 [M08]\t&0.51 [L08]\t&7  & B\\\\"
+    },
+    {
+      "line": 1026,
+      "targets": [
+        "NGC2403"
+      ],
+      "text": "NGC\\,2403 & B\t& AW605 &2003-12-10   &05 30 &13 00  & 6 00 &0831+557  & 8.111$\\pm$0.011 &07 32 01.20  & 65 42 57.0  &  4 &1.56   & 64  & 5.2 &1950    & 252.536 &    4.986 \\\\"
+    },
+    {
+      "line": 1027,
+      "targets": [
+        "NGC2403"
+      ],
+      "text": "NGC\\,2403 & C\t& AW605 &2004-02-22   &23 15 &02 00  & 2 00 &0831+557  & 8.146$\\pm$0.020 &07 32 01.20  & 65 42 57.0  &  4 &1.56   & 64  & 5.2 &1950    & 252.536 &    4.986 \\\\"
+    },
+    {
+      "line": 1028,
+      "targets": [
+        "NGC2403"
+      ],
+      "text": "NGC\\,2403 & D\t& AW605 &2004-07-05   &18 15 &20 15  & 1 15 &0831+557  & 8.206$\\pm$0.009 &07 32 01.20  & 65 42 57.0  &  4 &1.56   & 64  & 5.2 &1950    & 252.536 &    4.986 \\\\"
+    },
+    {
+      "line": 1042,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & B\t& AW605 &2003-12-30   &06 15 &13 30  & 3 00 &0834+555  & 8.074$\\pm$0.024 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    &1011.049 &  762.246 \\\\"
+    },
+    {
+      "line": 1043,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & B\t& AW605 &2003-12-30   &06 15 &13 30  & 3 00 &0834+555  & 8.060$\\pm$0.030 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    & 513.855 &  265.874 \\\\"
+    },
+    {
+      "line": 1044,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & B\t& AW605 &2005-05-22   &21 15 &01 00  & 1 15 &0834+555  & 8.047$\\pm$0.025 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    &1011.049 &  762.246 \\\\"
+    },
+    {
+      "line": 1045,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & B\t& AW605 &2005-05-22   &21 15 &01 00  & 1 15 &0834+555  & 8.043$\\pm$0.005 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    & 513.855 &  265.874 \\\\"
+    },
+    {
+      "line": 1046,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & B\t& AW605 &2005-05-23   &21 15 &01 00  & 1 15 &0834+555  & 8.047$\\pm$0.025 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    &1011.049 &  762.246 \\\\"
+    },
+    {
+      "line": 1047,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & B\t& AW605 &2005-05-23   &21 15 &01 00  & 1 15 &0834+555  & 8.043$\\pm$0.005 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    & 513.855 &  265.874 \\\\"
+    },
+    {
+      "line": 1048,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & C\t& AW605 &2004-02-29   &03 15 &10 30  & 3 00 &0834+555  & 8.132$\\pm$0.014 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    &1011.049 &  762.246 \\\\"
+    },
+    {
+      "line": 1049,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & C\t& AW605 &2004-02-29   &03 15 &10 30  & 3 00 &0834+555  & 8.131$\\pm$0.014 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    & 513.855 &  265.874 \\\\"
+    },
+    {
+      "line": 1050,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & D\t& AW605 &2004-07-05   &20 15 &00 15  & 1 30 &0834+555  & 8.145$\\pm$0.023 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    &1011.049 &  762.246 \\\\"
+    },
+    {
+      "line": 1051,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841 & D\t& AW605 &2004-07-05   &20 15 &00 15  & 1 30 &0834+555  & 8.223$\\pm$0.013 &09 22 02.00  & 50 58 35.0  &  4 &1.56   & 64  & 5.2 &2000    & 513.855 &  265.874 \\\\"
+    },
+    {
+      "line": 1061,
+      "targets": [
+        "NGC2976"
+      ],
+      "text": "NGC\\,2976 & B\t&AB1038 &2002-08-23   &15 00 &03 00  &10 30 &0921+622  & 1.152$\\pm$0.004 &09 47 15.30  & 67 55 00.0  &4AC &1.56   & 64  & 5.2 &2000    &   3.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1062,
+      "targets": [
+        "NGC2976"
+      ],
+      "text": "NGC\\,2976 & C\t&AB1038 &2002-12-16   &07 30 &11 30  &03 15 &0921+622  & 1.112$\\pm$0.003 &09 47 15.30  & 67 55 00.0  &4AC &1.56   & 64  & 5.2 &2000    &   3.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1063,
+      "targets": [
+        "NGC2976"
+      ],
+      "text": "NGC\\,2976 & D\t&AB1038 &2003-05-10   &02 30 &04 15  &01 30 &0921+622  & 1.203$\\pm$0.009 &09 47 15.30  & 67 55 00.0  &4AC &1.56   & 64  & 5.2 &2000    &   3.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1115,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198 & B\t& AW605\t&2005-04-26   &23 30 &07 15  & 6 45 &1035+564  & 1.771$\\pm$0.004 &10 19 54.90  & 45 32 59.0  &  4 &1.56   & 64  & 5.2 &2000    & 549.178 &  782.087 \\\\"
+    },
+    {
+      "line": 1116,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198 & C\t& AT285\t&2002-11-16   &12 30 &13 00  & 0 15 &1006+349  & 3.142$\\pm$0.008 &10 19 54.90  & 45 32 59.0  &  4 &1.56   & 64  & 5.2 &2000    & 549.178 &  782.087 \\\\"
+    },
+    {
+      "line": 1117,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198 & C\t& AT285\t&2002-11-19   &11 15 &12 30  & 0 45 &1006+349  & 3.155$\\pm$0.006 &10 19 54.90  & 45 32 59.0  &  4 &1.56   & 64  & 5.2 &2000    & 549.178 &  782.087 \\\\"
+    },
+    {
+      "line": 1118,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198 & C\t& AT285\t&2003-01-07   &10 30 &13 45  & 2 15 &1006+349  & 3.182$\\pm$0.004 &10 19 54.90  & 45 32 59.0  &  4 &1.56   & 64  & 5.2 &2000    & 549.178 &  782.087 \\\\"
+    },
+    {
+      "line": 1119,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198 & D\t& AT285\t&2003-03-27   &06 30 &06 45  & 0 15 &1006+349  & 3.171$\\pm$0.007 &10 19 54.90  & 45 32 59.0  &  4 &1.56   & 64  & 5.2 &2000    & 549.178 &  782.087 \\\\"
+    },
+    {
+      "line": 1120,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198 & D\t& AT285\t&2003-04-28   &04 15 &04 30  & 0 15 &1006+349  & 3.170$\\pm$0.008 &10 19 54.90  & 45 32 59.0  &  4 &1.56   & 64  & 5.2 &2000    & 549.178 &  782.087 \\\\"
+    },
+    {
+      "line": 1121,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198 & D\t& AW605\t&2004-07-09   &21 30 &23 00  & 1 30 &1035+564  & 1.750$\\pm$0.006 &10 19 54.90  & 45 32 59.0  &  4 &1.56   & 64  & 5.2 &2000    & 549.178 &  782.087 \\\\"
+    },
+    {
+      "line": 1123,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574  & B\t& AP217\t&1992-01-18   &05 30 &13 15  & 5 30 &1031+567  & 1.811$\\pm$0.002 &10 24 48.00  & 68 40 00.0  &2AD &1.56   &128  & 2.6 &1950    &  38.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1124,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574  & B\t& AP217\t&1992-01-19   &05 30 &13 15  & 5 30 &1031+567  & 1.811$\\pm$0.002 &10 24 48.00  & 68 40 00.0  &2AD &1.56   &128  & 2.6 &1950    &  38.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1125,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574  & C\t& AP217\t&1992-04-27   &23 15 &07 00  & 2 15 &1031+567  & 1.815$\\pm$0.004 &10 24 48.00  & 68 40 00.0  &2AD &1.56   &128  & 2.6 &1950    &  38.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1126,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574  & D\t&TEST03\t&1991-03-03   &08 30 &13 30  & 2 30 &0945+664  & 2.217$\\pm$0.003 &10 24 48.00  & 68 40 00.0  &2AD &1.56   &128  & 2.6 &1950    &  38.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1127,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574  & D\t& AP217\t&1992-09-03   &13 15 &19 15  & 1 45 &1031+567  & 1.802$\\pm$0.005 &10 24 48.00  & 68 40 00.0  &2AD &1.56   &128  & 2.6 &1950    &  38.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1133,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & B\t& AW605 &2005-04-01   &03 00 &09 45  & 3 00 &1119-030  & 1.639$\\pm$0.003 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    &1178.464 &  929.385 \\\\"
+    },
+    {
+      "line": 1134,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & B\t& AW605 &2005-04-01   &03 00 &09 45  & 3 00 &1119-030  & 1.630$\\pm$0.003 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    & 680.718 &  432.461 \\\\"
+    },
+    {
+      "line": 1135,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & B\t& AW605 &2005-04-26   &01 15 &08 00  & 3 00 &1119-030  & 1.642$\\pm$0.004 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    &1178.464 &  929.385 \\\\"
+    },
+    {
+      "line": 1136,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & B\t& AW605 &2005-04-26   &01 15 &08 00  & 3 00 &1119-030  & 1.630$\\pm$0.003 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    & 680.718 &  432.461 \\\\"
+    },
+    {
+      "line": 1137,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & C\t& AW605 &2004-03-04   &05 15 &10 30  & 2 00 &1119-030  & 1.634$\\pm$0.006 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    &1178.464 &  929.385 \\\\"
+    },
+    {
+      "line": 1138,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & C\t& AW605 &2004-03-04   &05 15 &10 30  & 2 00 &1119-030  & 1.631$\\pm$0.005 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    & 680.718 &  432.461 \\\\"
+    },
+    {
+      "line": 1139,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & DnC\t& AW605 &2004-06-01   &23 15 &01 45  & 1 00 &1119-030  & 1.653$\\pm$0.003 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    &1178.464 &  929.385 \\\\"
+    },
+    {
+      "line": 1140,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & DnC\t& AW605 &2004-06-01   &23 15 &01 45  & 1 00 &1119-030  & 1.637$\\pm$0.006 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    & 680.718 &  432.461 \\\\"
+    },
+    {
+      "line": 1141,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & D\t& AW605 &2004-07-09   &21 00 &00 45  & 1 30 &1119-030  & 1.619$\\pm$0.005 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    &1178.464 &  929.385 \\\\"
+    },
+    {
+      "line": 1142,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521 & D\t& AW605 &2004-07-09   &21 00 &00 45  & 1 30 &1119-030  & 1.605$\\pm$0.003 &11 05 48.00  &-00 02 15.0  &  4 &1.56   & 64  & 5.2 &2000    & 680.718 &  432.461 \\\\"
+    },
+    {
+      "line": 1192,
+      "targets": [
+        "DDO154"
+      ],
+      "text": "DDO\\,154  & B\t& AW605\t&2005-05-06   &01 45 &09 15  & 6 15 &1330+251  & 6.831$\\pm$0.011 &12 54 05.00  & 27 09 14.0  &2AD &1.56   &128  & 2.6 &2000    & 375.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1193,
+      "targets": [
+        "DDO154"
+      ],
+      "text": "DDO\\,154  & C\t& AW605\t&2004-04-27   &02 00 &08 00  & 2 30 &1330+251  & 6.846$\\pm$0.007 &12 54 05.00  & 27 09 14.0  &2AD &1.56   &128  & 2.6 &2000    & 375.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1194,
+      "targets": [
+        "DDO154"
+      ],
+      "text": "DDO\\,154  & D\t& AW605\t&2004-07-05   &00 10 &02 10  & 1 30 &1330+251  & 6.746$\\pm$0.029 &12 54 05.00  & 27 09 14.0  &2AD &1.56   &128  & 2.6 &2000    & 375.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1200,
+      "targets": [
+        "NGC5055"
+      ],
+      "text": "NGC\\,5055 & B\t& AW605 &2004-01-05   &09 30 &16 30  & 6 00 &1227+365  &2.064$\\pm$0.015  &13 15 50.00  & 42 01 45.0  &  4 &1.56   & 64  & 5.2 &2000    & 626.134 &  377.968 \\\\"
+    },
+    {
+      "line": 1201,
+      "targets": [
+        "NGC5055"
+      ],
+      "text": "NGC\\,5055 & C\t& AW605 &2004-04-27   &22 30 &08 00  & 2 30 &1227+365  &2.044$\\pm$0.004  &13 15 50.00  & 42 01 45.0  &  4 &1.56   & 64  & 5.2 &2000    & 626.134 &  377.968 \\\\"
+    },
+    {
+      "line": 1202,
+      "targets": [
+        "NGC5055"
+      ],
+      "text": "NGC\\,5055 & D\t& AW605 &2004-07-02   &21 30 &03 00  & 1 30 &1227+365  &2.041$\\pm$0.004  &13 15 50.00  & 42 01 45.0  &  4 &1.56   & 64  & 5.2 &2000    & 626.134 &  377.968 \\\\"
+    },
+    {
+      "line": 1218,
+      "targets": [
+        "NGC6946"
+      ],
+      "text": "NGC\\,6946 & B\t& AT258 &2002-08-22   &03 15 &09 15  & 5 15 &2022+616  & 1.912$\\pm$0.004 &20 34 52.00  & 60 09 00.0  &2AB &1.56   &256  & 1.3 &2000    &  14.630 &   75.195 \\\\"
+    },
+    {
+      "line": 1219,
+      "targets": [
+        "NGC6946"
+      ],
+      "text": "NGC\\,6946 & B\t& AT258 &2002-08-24   &03 15 &09 15  & 5 15 &2022+616  & 1.913$\\pm$0.004 &20 34 52.00  & 60 09 00.0  &2AB &1.56   &256  & 1.3 &2000    &  14.630 &   75.195 \\\\"
+    },
+    {
+      "line": 1220,
+      "targets": [
+        "NGC6946"
+      ],
+      "text": "NGC\\,6946 & C\t& AT258 &2001-08-27   &03 45 &05 45  & 1 45 &2022+616  & 2.016$\\pm$0.004 &20 34 52.00  & 60 09 00.0  &2AB &1.56   &256  & 1.3 &2000    &  14.630 &   75.195 \\\\"
+    },
+    {
+      "line": 1221,
+      "targets": [
+        "NGC6946"
+      ],
+      "text": "NGC\\,6946 & D\t& AT258 &2001-10-16   &01 30 &03 30  & 0 15 &2022+616  & 1.990$\\pm$0.004 &20 34 52.00  & 60 09 00.0  &2AB &1.56   &256  & 1.3 &2000    &  14.630 &   75.195 \\\\"
+    },
+    {
+      "line": 1223,
+      "targets": [
+        "NGC7331"
+      ],
+      "text": "NGC\\,7331 & B\t& AW605\t&2003-10-20   &00 30 &07 45  & 6 00 &2236+284  & 1.427$\\pm$0.003 &22 37 04.09  & 34 24 56.3  &  4 &1.56   & 64  & 5.2 &2000    & 960.955 &  681.175 \\\\"
+    },
+    {
+      "line": 1224,
+      "targets": [
+        "NGC7331"
+      ],
+      "text": "NGC\\,7331 & B\t& AT220\t&1998-08-19   &04 00 &11 15  & 5 00 &2236+284  & 1.082$\\pm$0.002 &22 37 04.09  & 34 24 56.3  & 1A &3.13   &128  & 5.2 &2000    & 821.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1225,
+      "targets": [
+        "NGC7331"
+      ],
+      "text": "NGC\\,7331 & C\t& AT220\t&1998-11-27   &22 30 &02 15  & 2 15 &2236+284  & 0.964$\\pm$0.003 &22 37 04.09  & 34 24 56.3  & 1A &3.13   &128  & 5.2 &2000    & 821.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1226,
+      "targets": [
+        "NGC7331"
+      ],
+      "text": "NGC\\,7331 & D\t& AT220\t&1999-04-04   &14 45 &17 45  & 1 15 &2236+284  & 0.966$\\pm$0.005 &22 37 04.09  & 34 24 56.3  & 1A &3.13   &128  & 5.2 &2000    & 821.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1251,
+      "targets": [
+        "NGC7793"
+      ],
+      "text": "NGC\\,7793 & BnA\t& AW605\t&2003-09-23   &03 45 &10 15  & 5 45 &0025-260  & 8.550$\\pm$0.044 &23 57 49.00  &-32 35 27.0  &2AD &1.56   &128  & 2.6 &2000    & 230.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1252,
+      "targets": [
+        "NGC7793"
+      ],
+      "text": "NGC\\,7793 & CnB\t& AW605\t&2004-02-03   &21 00 &23 30  & 2 00 &0025-260  & 8.535$\\pm$0.010 &23 57 49.00  &-32 35 27.0  &2AD &1.56   &128  & 2.6 &2000    & 230.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1253,
+      "targets": [
+        "NGC7793"
+      ],
+      "text": "NGC\\,7793 & DnC\t& AW605\t&2004-06-05   &13 30 &15 45  & 1 45 &0025-260  & 8.527$\\pm$0.012 &23 57 49.00  &-32 35 27.0  &2AD &1.56   &128  & 2.6 &2000    & 230.0   & \\nodata  \\\\"
+    },
+    {
+      "line": 1326,
+      "targets": [
+        "NGC2403"
+      ],
+      "text": "NGC\\,2403     &  NA  &  8.75 &  7.65 &   25.2  & 0.38   &   2048  &  1.0 &   61  &  5.2 \\\\"
+    },
+    {
+      "line": 1334,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841     &  NA  & 11.06 &  9.37 &  -12.3  & 0.35   &   1024  &  1.5 &  132  &  5.2 \\\\"
+    },
+    {
+      "line": 1340,
+      "targets": [
+        "NGC2976"
+      ],
+      "text": "NGC\\,2976     &  NA  &  7.41 &  6.42 &   71.8  & 0.36   &   1024  &  1.5 &   42  &  5.2 \\\\"
+    },
+    {
+      "line": 1350,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198     &  NA  & 13.01 & 11.56 &  -58.5  & 0.33   &   1024  &  1.5 &   72  &  5.2 \\\\"
+    },
+    {
+      "line": 1352,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574   &  NA  & 12.81 & 11.90 &   46.8  & 0.56   &   1024  &  1.5 &   83  &  2.6 \\\\"
+    },
+    {
+      "line": 1356,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521     &  NA  & 14.14 & 11.15 &  -61.7  & 0.40   &   1024  &  1.5 &  109  &  5.2 \\\\"
+    },
+    {
+      "line": 1368,
+      "targets": [
+        "DDO154"
+      ],
+      "text": "DDO\\,154 &  NA  & 14.09 & 12.62 &  -34.0  & 0.50   &   1024  &  1.5 &   57  &  2.6 \\\\"
+    },
+    {
+      "line": 1372,
+      "targets": [
+        "NGC5055"
+      ],
+      "text": "NGC\\,5055     &  NA  & 10.06 &  8.66 &  -40.0  & 0.36   &   1024  &  1.5 &   87  &  5.2 \\\\"
+    },
+    {
+      "line": 1380,
+      "targets": [
+        "NGC6946"
+      ],
+      "text": "NGC\\,6946     &  NA  &  6.04 &  5.61 &    6.6  & 0.55   &   1024  &  1.5 &  115  &  2.6 \\\\"
+    },
+    {
+      "line": 1382,
+      "targets": [
+        "NGC7331"
+      ],
+      "text": "NGC\\,7331     &  NA  &  6.13 &  5.61 &   34.3  & 0.44   &   1024  &  1.5 &  116  &  5.2 \\\\ "
+    },
+    {
+      "line": 1384,
+      "targets": [
+        "NGC7793"
+      ],
+      "text": "NGC\\,7793     &  NA  & 15.60 & 10.85 &   10.7  & 0.92   &   1024  &  1.5 &   91  &  2.6 \\\\"
+    },
+    {
+      "line": 1467,
+      "targets": [
+        "NGC2403"
+      ],
+      "text": "NGC\\,2403      &     1054        &  25.8          & 925    & 1458$\\pm$47  &133.1 & 132    & 240.6   & 254.7  & 247$\\pm$20  \\\\"
+    },
+    {
+      "line": 1471,
+      "targets": [
+        "NGC2841"
+      ],
+      "text": "NGC\\,2841      &      183        &  85.8          & 125    & ---          &635.2 & ---    & 587.3   & 607.7  & ---         \\\\"
+    },
+    {
+      "line": 1474,
+      "targets": [
+        "NGC2976"
+      ],
+      "text": "NGC\\,2976      &       45.4      &   1.36         & 41.9   & 53.4$\\pm$8.3 &2.6   & ---    & 139.4   & 158.5  & ---         \\\\"
+    },
+    {
+      "line": 1479,
+      "targets": [
+        "NGC3198"
+      ],
+      "text": "NGC\\,3198      &      227        & 101.7          & 146    & 206$\\pm$12   &661.2 & 660    & 298.0   & 313.2  & 322$\\pm$7   \\\\"
+    },
+    {
+      "line": 1480,
+      "targets": [
+        "IC2574"
+      ],
+      "text": "IC\\,2574       &      387        &  14.8          & 438    & 499$\\pm$17   &48.6  & 38     & 109.0   & 130.8  & 117$\\pm$10  \\\\"
+    },
+    {
+      "line": 1482,
+      "targets": [
+        "NGC3521"
+      ],
+      "text": "NGC\\,3521      &      297        &  80.2          & 199    & 281$\\pm$40   &798.2 & 804    & 440.5   & 467.7  & 466$\\pm$10  \\\\"
+    },
+    {
+      "line": 1488,
+      "targets": [
+        "DDO154"
+      ],
+      "text": "DDO\\,154       &       82.1      &   3.58         & 59.4   & 74.1$\\pm$4.7 &375.5 & 378    & 91.3    & 104.9  & 103$\\pm$7   \\\\"
+    },
+    {
+      "line": 1490,
+      "targets": [
+        "NGC5055"
+      ],
+      "text": "NGC\\,5055      &      379        &  91.0          & 262    & 372$\\pm$18   &499.3 & 497    & 380.1   & 400.7  & 406$\\pm$5   \\\\"
+    },
+    {
+      "line": 1494,
+      "targets": [
+        "NGC6946"
+      ],
+      "text": "NGC\\,6946      &      506        &  41.5          & 1336$^+$ &---          &43.3  & ---    & 221.4   & 239.7  & ---         \\\\"
+    },
+    {
+      "line": 1495,
+      "targets": [
+        "NGC7331"
+      ],
+      "text": "NGC\\,7331      &      179        &  91.3          & 144    & 218$\\pm$27   &815.6 & 819    & 498.6   & 519.8  & 531$\\pm$10  \\\\"
+    },
+    {
+      "line": 1496,
+      "targets": [
+        "NGC7793"
+      ],
+      "text": "NGC\\,7793      &      246        &   8.88         & 197    & 271$\\pm$13   &227.2 & 231    & 176.5   & 191.1  & 194$\\pm$7   \\\\"
+    }
+  ],
+  "boundary": "Published source-table semantics and frozen roles only; no science pixels, velocities, residuals, persistence parameters, or blind outcomes."
+}
