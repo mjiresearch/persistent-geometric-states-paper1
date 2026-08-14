@@ -1,0 +1,110 @@
+{
+  "status": "LEROY2008_PROFILE_EXTENT_AUDITED",
+  "n_galaxies": 11,
+  "rows": [
+    {
+      "galaxy": "DDO154",
+      "source_profile_rmax_kpc": 1.4,
+      "r25_kpc": 1.2,
+      "source_profile_rmax_over_r25": 1.1666666666666667,
+      "stationary_rotation_rmax_kpc": 5.92,
+      "rotation_rmax_over_source_profile_rmax": 4.228571428571429,
+      "outer_gap_kpc": 4.52
+    },
+    {
+      "galaxy": "IC2574",
+      "source_profile_rmax_kpc": 8.8,
+      "r25_kpc": 7.5,
+      "source_profile_rmax_over_r25": 1.1733333333333333,
+      "stationary_rotation_rmax_kpc": 10.23,
+      "rotation_rmax_over_source_profile_rmax": 1.1624999999999999,
+      "outer_gap_kpc": 1.4299999999999997
+    },
+    {
+      "galaxy": "NGC2403",
+      "source_profile_rmax_kpc": 8.8,
+      "r25_kpc": 7.3,
+      "source_profile_rmax_over_r25": 1.2054794520547947,
+      "stationary_rotation_rmax_kpc": 20.87,
+      "rotation_rmax_over_source_profile_rmax": 2.371590909090909,
+      "outer_gap_kpc": 12.07
+    },
+    {
+      "galaxy": "NGC2841",
+      "source_profile_rmax_kpc": 16.7,
+      "r25_kpc": 14.2,
+      "source_profile_rmax_over_r25": 1.176056338028169,
+      "stationary_rotation_rmax_kpc": 63.64,
+      "rotation_rmax_over_source_profile_rmax": 3.810778443113773,
+      "outer_gap_kpc": 46.94
+    },
+    {
+      "galaxy": "NGC2976",
+      "source_profile_rmax_kpc": 3.1,
+      "r25_kpc": 3.8,
+      "source_profile_rmax_over_r25": 0.8157894736842106,
+      "stationary_rotation_rmax_kpc": 2.27,
+      "rotation_rmax_over_source_profile_rmax": 0.7322580645161291,
+      "outer_gap_kpc": 0
+    },
+    {
+      "galaxy": "NGC3198",
+      "source_profile_rmax_kpc": 15.1,
+      "r25_kpc": 13.0,
+      "source_profile_rmax_over_r25": 1.1615384615384614,
+      "stationary_rotation_rmax_kpc": 44.08,
+      "rotation_rmax_over_source_profile_rmax": 2.919205298013245,
+      "outer_gap_kpc": 28.979999999999997
+    },
+    {
+      "galaxy": "NGC3521",
+      "source_profile_rmax_kpc": 15.3,
+      "r25_kpc": 12.9,
+      "source_profile_rmax_over_r25": 1.186046511627907,
+      "stationary_rotation_rmax_kpc": 17.74,
+      "rotation_rmax_over_source_profile_rmax": 1.1594771241830064,
+      "outer_gap_kpc": 2.4399999999999977
+    },
+    {
+      "galaxy": "NGC5055",
+      "source_profile_rmax_kpc": 20.8,
+      "r25_kpc": 17.4,
+      "source_profile_rmax_over_r25": 1.1954022988505748,
+      "stationary_rotation_rmax_kpc": 54.59,
+      "rotation_rmax_over_source_profile_rmax": 2.6245192307692307,
+      "outer_gap_kpc": 33.790000000000006
+    },
+    {
+      "galaxy": "NGC6946",
+      "source_profile_rmax_kpc": 11.6,
+      "r25_kpc": 9.8,
+      "source_profile_rmax_over_r25": 1.183673469387755,
+      "stationary_rotation_rmax_kpc": 20.4,
+      "rotation_rmax_over_source_profile_rmax": 1.7586206896551724,
+      "outer_gap_kpc": 8.799999999999999
+    },
+    {
+      "galaxy": "NGC7331",
+      "source_profile_rmax_kpc": 23.2,
+      "r25_kpc": 19.6,
+      "source_profile_rmax_over_r25": 1.183673469387755,
+      "stationary_rotation_rmax_kpc": 36.31,
+      "rotation_rmax_over_source_profile_rmax": 1.5650862068965519,
+      "outer_gap_kpc": 13.110000000000003
+    },
+    {
+      "galaxy": "NGC7793",
+      "source_profile_rmax_kpc": 7.1,
+      "r25_kpc": 6.0,
+      "source_profile_rmax_over_r25": 1.1833333333333333,
+      "stationary_rotation_rmax_kpc": 7.87,
+      "rotation_rmax_over_source_profile_rmax": 1.1084507042253522,
+      "outer_gap_kpc": 0.7700000000000005
+    }
+  ],
+  "median_source_profile_rmax_over_r25": 1.1833333333333333,
+  "max_source_profile_rmax_over_r25": 1.2054794520547947,
+  "n_rotation_grids_extending_beyond_leroy_profile": 10,
+  "interpretation": "Leroy Table 7 is a bounded star-formation/gas radial-profile product and is not assumed to represent the full THINGS H I disk when the stationary rotation grid extends beyond its last finite H I bin.",
+  "boundary": "Radial extent only; no velocities, residuals, persistence parameters, or blind outcomes evaluated."
+}
