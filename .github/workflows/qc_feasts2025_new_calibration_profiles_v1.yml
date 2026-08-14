@@ -1,0 +1,29 @@
+name: QC FEASTS 2025 new calibration profiles v1
+on:
+  push:
+    paths:
+      - 'scripts/stationary/qc_feasts2025_new_calibration_profiles_v1.py'
+      - '.github/workflows/qc_feasts2025_new_calibration_profiles_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  qc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check numpy astropy
+      - run: python scripts/stationary/qc_feasts2025_new_calibration_profiles_v1.py
+      - name: Commit QC profiles and audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/feasts2025_ngc2903_hi_profile_raw_v1.csv data/stationary/source_reconstruction/feasts2025_ngc4559_hi_profile_raw_v1.csv validation/stationary/feasts2025_new_calibration_profiles_qc_v1.json
+          git commit -m 'QC FEASTS 2025 new calibration profiles v1'
+          git pull --rebase origin main
+          git push origin HEAD:main
