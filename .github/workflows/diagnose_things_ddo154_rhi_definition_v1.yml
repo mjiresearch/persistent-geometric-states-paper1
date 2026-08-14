@@ -1,0 +1,30 @@
+name: Diagnose THINGS DDO154 RHI definition v1
+on:
+  push:
+    paths:
+      - 'scripts/stationary/diagnose_things_ddo154_rhi_definition_v1.py'
+      - '.github/workflows/diagnose_things_ddo154_rhi_definition_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check numpy astropy scipy
+      - run: python scripts/stationary/diagnose_things_ddo154_rhi_definition_v1.py
+      - name: Commit diagnostic
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/things_ddo154_rhi_definition_diagnostic_v1.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Diagnose DDO154 THINGS RHI definition v1'
+          git pull --rebase origin main
+          git push origin HEAD:main
