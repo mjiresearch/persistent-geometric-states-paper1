@@ -1,0 +1,55 @@
+{
+  "status": "THINGS_DDO154_ZERO_BLANK_SEMANTICS_AUDITED",
+  "source_url": "https://things.www3.mpia.de/Data_files/DDO154_NA_MOM0_THINGS.FITS",
+  "bytes": 4242240,
+  "sha256": "49d84c9f3e9efa826ecf3c03fdba7bac4e22b627f3e5f704efe703b389031a7c",
+  "shape": [
+    1024,
+    1024
+  ],
+  "bunit": "JY/B*M/S",
+  "counts": {
+    "total_pixels": 1048576,
+    "finite": 1048576,
+    "nonfinite": 0,
+    "exact_zero": 825109,
+    "nonzero_finite": 223467,
+    "negative_finite_nonzero": 402,
+    "positive_finite_nonzero": 223065,
+    "border_pixels": 4092,
+    "border_exact_zero": 4092,
+    "boundary_connected_zero": 824304,
+    "interior_zero_not_boundary_connected": 805
+  },
+  "fractions": {
+    "exact_zero_of_all": 0.7868852615356445,
+    "boundary_connected_of_all_zero": 0.9990243713254855
+  },
+  "all_image_border_pixels_exact_zero": true,
+  "nonzero_bbox": {
+    "x_min": 212,
+    "x_max": 801,
+    "y_min": 87,
+    "y_max": 812,
+    "area_pixels": 428340,
+    "zero_pixels_inside_bbox": 204873,
+    "zero_fraction_inside_bbox": 0.4782952794509035
+  },
+  "nonzero_value_quantiles_jybeam_ms": {
+    "0.0": -0.4428517520427704,
+    "0.001": -0.04570064686238765,
+    "0.01": 0.17079704284667968,
+    "0.05": 0.5134213626384736,
+    "0.5": 9.365279197692871,
+    "0.95": 164.47718200683593,
+    "0.99": 260.69186584472646,
+    "0.999": 358.77198034668857,
+    "1.0": 454.39190673828125
+  },
+  "interpretation_gate": {
+    "zero_as_source_blank_supported": true,
+    "rule_if_supported": "Treat exact floating-point zero in this THINGS MOM0 product as source blank/mask, not as measured zero emission; retain all nonzero finite pixels including negative values."
+  },
+  "documentary_context": "Walter et al. 2008 states noise areas are blanked in residual-rescaled cubes with the master emission mask, moments are calculated from all pixels in those blanked cubes, and MOM0 is primary-beam corrected. The public floating MOM0 has no NaN/BLANK representation, so the pixel topology is audited here to identify its finite sentinel.",
+  "boundary": "Source-product blanking semantics only; no HI conversion, radial profile, velocity, residual, persistence parameter, or blind outcome."
+}
