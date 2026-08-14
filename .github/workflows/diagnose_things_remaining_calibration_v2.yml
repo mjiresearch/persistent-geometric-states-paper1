@@ -1,0 +1,39 @@
+name: Persist remaining THINGS calibration diagnostics v2
+on:
+  push:
+    paths:
+      - 'scripts/stationary/diagnose_things_remaining_calibration_v2.py'
+      - '.github/workflows/diagnose_things_remaining_calibration_v2.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numerical dependencies
+        run: python -m pip install --disable-pip-version-check numpy astropy
+      - name: Run fail-closed diagnostics
+        run: python scripts/stationary/diagnose_things_remaining_calibration_v2.py
+      - name: Commit diagnostics and any completed target products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/things_remaining_calibration_mom0_validation_v2_diagnostics.json
+          for f in \
+            validation/stationary/things_ngc2841_mom0_validation_v1.json \
+            validation/stationary/things_ngc3198_mom0_validation_v1.json \
+            data/stationary/source_reconstruction/things_ngc2841_mom0_reconstructed_raw_hi_v1.csv \
+            data/stationary/source_reconstruction/things_ngc3198_mom0_reconstructed_raw_hi_v1.csv; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Persist remaining THINGS calibration diagnostics v2'
+          git pull --rebase origin main
+          git push origin HEAD:main
