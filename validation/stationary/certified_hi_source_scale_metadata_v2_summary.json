@@ -1,0 +1,12 @@
+{
+  "status": "CERTIFIED_HI_SOURCE_SCALE_METADATA_V2_BUILT",
+  "n_rows": 19,
+  "n_families": 4,
+  "family_counts": {
+    "Allaert2015_HEROES": 1,
+    "Hallenbeck2014_HIghMass": 2,
+    "JadhavBanerjee2019_LSB_analytic": 5,
+    "Leroy2008_THINGS": 11
+  },
+  "boundary": "Source/frozen scale metadata only; no profile rescaling, inclination-amplitude correction, interpolation, persistence parameters, or blind outcomes."
+}

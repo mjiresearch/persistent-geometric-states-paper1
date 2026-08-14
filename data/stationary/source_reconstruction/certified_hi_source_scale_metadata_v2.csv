@@ -1,0 +1,20 @@
+galaxy,stationary_role,source_family,source_distance_mpc,source_inclination_deg,frozen_distance_mpc,radius_scale_frozen_over_source,source_bibcode,source_distance_basis
+DDO154,calibration,Leroy2008_THINGS,4.3,66,4.04,0.939534883721,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+F568-3,calibration,JadhavBanerjee2019_LSB_analytic,77,40,82.4,1.07012987013,2019MNRAS.488..547J,Jadhav & Banerjee 2019 Table 3; Table 7 analytic radii are kpc on this paper scale
+F568-V1,calibration,JadhavBanerjee2019_LSB_analytic,80,40,80.6,1.0075,2019MNRAS.488..547J,Jadhav & Banerjee 2019 Table 3; Table 7 analytic radii are kpc on this paper scale
+F574-1,blind,JadhavBanerjee2019_LSB_analytic,72,65,96.8,1.34444444444,2019MNRAS.488..547J,Jadhav & Banerjee 2019 Table 3; Table 7 analytic radii are kpc on this paper scale
+F583-1,calibration,JadhavBanerjee2019_LSB_analytic,24,63,35.4,1.475,2019MNRAS.488..547J,Jadhav & Banerjee 2019 Table 3; Table 7 analytic radii are kpc on this paper scale
+F583-4,calibration,JadhavBanerjee2019_LSB_analytic,37,55,53.3,1.44054054054,2019MNRAS.488..547J,Jadhav & Banerjee 2019 Table 3; Table 7 analytic radii are kpc on this paper scale
+IC2574,calibration,Leroy2008_THINGS,4,53,3.91,0.9775,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC2403,blind,Leroy2008_THINGS,3.2,63,3.16,0.9875,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC2841,calibration,Leroy2008_THINGS,14.1,74,14.1,1,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC2976,calibration,Leroy2008_THINGS,3.6,65,3.58,0.994444444444,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC3198,calibration,Leroy2008_THINGS,13.8,72,13.8,1,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC3521,blind,Leroy2008_THINGS,10.7,73,7.7,0.719626168224,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC5055,blind,Leroy2008_THINGS,10.1,59,9.9,0.980198019802,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC5907,calibration,Allaert2015_HEROES,16.3,87.2,17.3,1.06134969325,2015A&A...582A..18A,HEROES adopted NGC5907 distance scale; recovered Figure 29 side profiles are source-kpc
+NGC6946,blind,Leroy2008_THINGS,5.9,33,5.52,0.935593220339,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC7331,calibration,Leroy2008_THINGS,14.7,76,14.7,1,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+NGC7793,blind,Leroy2008_THINGS,3.9,50,3.61,0.925641025641,2008AJ....136.2782L,VizieR J/AJ/136/2782 table4.dat; same catalogue as radial table7
+UGC09037,calibration,Hallenbeck2014_HIghMass,88.5,,83.6,0.944632768362,2014AJ....148...69H,Hallenbeck et al. 2014 Table 1/text; Figure 9 radial axis is kpc
+UGC12506,calibration,Hallenbeck2014_HIghMass,98,86,100.6,1.02653061224,2014AJ....148...69H,Hallenbeck et al. 2014 Table 1/text; Figure 9 radial axis is kpc
