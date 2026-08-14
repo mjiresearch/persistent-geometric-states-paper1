@@ -1,0 +1,33 @@
+name: Validate DR20 independent block v1
+
+on:
+  push:
+    paths:
+      - "data/persistence_history/dr20_independent/protocol_v1.json"
+      - "docs/dr20_young_old_current_field_protocol_v1.md"
+      - "requirements/dr20-current-field-v1.txt"
+      - "scripts/dr20_current_field_v1.py"
+      - "scripts/build_dr20_young_old_current_field_v1.py"
+      - "scripts/analyze_dr20_open_cluster_control_v1.py"
+      - "scripts/fetch_dr20_current_field_inputs_v1.py"
+      - "scripts/validate_dr20_independent_block_v1.py"
+      - ".github/workflows/validate-dr20-independent-block-v1.yml"
+  pull_request:
+    paths:
+      - "data/persistence_history/dr20_independent/protocol_v1.json"
+      - "docs/dr20_young_old_current_field_protocol_v1.md"
+      - "requirements/dr20-current-field-v1.txt"
+      - "scripts/**dr20**v1.py"
+
+jobs:
+  synthetic-preoutcome-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements/dr20-current-field-v1.txt
+      - run: python -m pip install -r requirements/dr20-current-field-v1.txt
+      - run: python scripts/validate_dr20_independent_block_v1.py

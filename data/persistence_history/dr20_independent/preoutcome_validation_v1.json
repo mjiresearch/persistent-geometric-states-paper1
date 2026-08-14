@@ -1,0 +1,75 @@
+{
+  "protocol_id": "sdss-dr20-independent-current-field-v1",
+  "validation_type": "synthetic_pre_outcome_only",
+  "real_outcomes_evaluated": false,
+  "checks_passed": 7,
+  "checks_total": 7,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "protocol_frozen_before_outcome",
+      "passed": true
+    },
+    {
+      "name": "human_and_machine_protocol_bound",
+      "passed": true
+    },
+    {
+      "name": "no_stationary_sparc_or_locked_parameter_dependency",
+      "passed": true,
+      "details": {
+        "findings": [],
+        "imports": [
+          "__future__",
+          "argparse",
+          "astropy",
+          "astropy.coordinates",
+          "astropy.table",
+          "dr20_current_field_v1",
+          "hashlib",
+          "io",
+          "json",
+          "numpy",
+          "pandas",
+          "pathlib",
+          "requests",
+          "scipy.stats",
+          "time",
+          "typing",
+          "urllib.request"
+        ]
+      }
+    },
+    {
+      "name": "fixed_grid_has_twelve_synthetic_supported_voxels",
+      "passed": true,
+      "details": {
+        "supported_voxels": 12
+      }
+    },
+    {
+      "name": "injected_current_signal_recovered",
+      "passed": true,
+      "details": {
+        "T": 501.3583618349378,
+        "p": 0.0004997501249375312
+      }
+    },
+    {
+      "name": "paired_null_not_promoted",
+      "passed": true,
+      "details": {
+        "T": 0.0,
+        "p": 1.0
+      }
+    },
+    {
+      "name": "injected_open_cluster_control_recovered",
+      "passed": true,
+      "details": {
+        "rho": 0.9900527924423453,
+        "p": 0.0004997501249375312
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "protocol_id": "sdss-dr20-independent-current-field-v1",
+  "title": "Independent SDSS DR20 young-versus-old 3D current-field test with open-cluster control",
+  "version": "1.0.0",
+  "frozen_utc": "2026-08-14T20:23:19Z",
+  "status": "frozen_pre_outcome",
+  "outcome_status_at_freeze": "not_evaluated",
+  "documentation": "docs/dr20_young_old_current_field_protocol_v1.md",
+  "independence_boundary": {
+    "allowed_scientific_inputs": [
+      "SDSS DR20 gyrochronology-age dwarf VAC gyro_age_dwarf-1.0.0.fits",
+      "Gaia DR3 gaia_source rows joined by exact source_id",
+      "SDSS DR20 BOSS OCCAM cluster VAC BOSS_occam_cluster-DR20-v1.fits",
+      "SDSS DR20 OB-star kinematics VAC ob_vac-1.0.0.fits for coverage audit only"
+    ],
+    "forbidden_analysis_dependencies": [
+      "stationary calibration outputs",
+      "SPARC tables or fit outputs",
+      "L_A or C_A calibration values",
+      "earlier Milky Way residual maps",
+      "permissioned or author-supplied source-history data"
+    ],
+    "rule": "No threshold, grid, cohort, statistic, or interpretation rule may be changed after a real young-old current contrast is evaluated. Schema-only adapters must be documented and cannot inspect outcome values."
+  },
+  "sources": {
+    "gyro": {
+      "url": "https://data.sdss.org/sas/dr20/vac/mwm/stellar-age/gyro_age/gyro_age_dwarf-1.0.0.fits",
+      "sha1": "495adebe4f904c2f897f8813a9b385216df07faa",
+      "role": "sole age catalog for both primary cohorts"
+    },
+    "ob_kinematics": {
+      "url": "https://data.sdss.org/sas/dr20/vac/mwm/yso/ob-kin/ob_vac-1.0.0.fits",
+      "sha1": "4eea6bab532880f2778e64b88bc338b9bdd676ed",
+      "role": "coverage and coordinate sanity audit only; never merged into the primary statistic"
+    },
+    "gaia": {
+      "release": "Gaia DR3",
+      "table": "gaiadr3.gaia_source",
+      "join": "exact integer source_id only"
+    },
+    "clusters": {
+      "path": "data/external/sdss/dr20_boss_occam/BOSS_occam_cluster-DR20-v1.fits",
+      "url": "https://data.sdss.org/sas/dr20/vac/mwm/boss-occam/BOSS_occam_cluster-DR20-v1.fits",
+      "role": "orthogonal control; never used to tune the field test"
+    }
+  },
+  "field_test": {
+    "cohorts": {
+      "young": "age_gyr + age_err_upper_gyr <= 1.0",
+      "old": "age_gyr - age_err_lower_gyr >= 4.0",
+      "same_catalog_required": true,
+      "middle_age_rows": "excluded",
+      "age_errors": "finite, non-negative 1-sigma lower and upper errors; a documented symmetric catalog error may populate both sides"
+    },
+    "gaia_quality": {
+      "exact_source_id_match": true,
+      "finite_required": [
+        "ra",
+        "dec",
+        "parallax",
+        "pmra",
+        "pmdec",
+        "radial_velocity"
+      ],
+      "parallax_positive": true,
+      "parallax_over_error_min": 10.0,
+      "ruwe_max": 1.4,
+      "duplicated_source_allowed": false,
+      "distance_estimator": "1000/parallax_mas pc"
+    },
+    "galactocentric_frame": {
+      "galcen_distance_kpc": 8.2,
+      "z_sun_kpc": 0.025,
+      "galcen_v_sun_cartesian_kms": [
+        11.0,
+        232.24,
+        7.25
+      ],
+      "velocity_components": [
+        "v_R",
+        "v_phi standardized positive for median prograde disk rotation",
+        "v_z"
+      ]
+    },
+    "grid": {
+      "coordinates": [
+        "Galactocentric X",
+        "Galactocentric Y",
+        "Galactocentric Z"
+      ],
+      "origin_kpc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cell_width_kpc": [
+        0.25,
+        0.25,
+        0.1
+      ],
+      "assignment": "floor((coordinate-origin)/width)",
+      "min_each_cohort_per_voxel": 10,
+      "minimum_powered_voxels": 12,
+      "voxel_weighting": "equal"
+    },
+    "current_estimator": {
+      "raw_tracer_density": "rho_c = n_c / voxel_volume",
+      "raw_tracer_current": "J_c = rho_c * mean(v_c)",
+      "selection_balanced_density": "rho_match = harmonic_mean(n_young,n_old) / voxel_volume",
+      "selection_balanced_current": "J_match,c = rho_match * mean(v_c)",
+      "guardrail": "Catalog counts are selection-function tracer densities, not a calibrated stellar mass density. The selection-balanced contrast is primary."
+    },
+    "primary_statistic": {
+      "definition": "For each supported voxel, compute the squared Mahalanobis distance between old and young mean 3D velocity/current vectors using the sum of their mean covariance matrices; T is the equal-voxel mean distance.",
+      "covariance_ridge_fraction": 1e-06,
+      "null": "Within each supported voxel, permute the young/old labels while preserving the observed cohort counts.",
+      "permutations": 2000,
+      "seed": 20260814,
+      "tail": "greater_or_equal",
+      "p_formula": "(1 + count(T_perm >= T_observed)) / (1 + n_permutations)",
+      "alpha": 0.01
+    },
+    "secondary_outputs": [
+      "per-voxel young and old rho, mean velocity, raw J, and selection-balanced J",
+      "per-voxel signed old-minus-young component contrasts",
+      "equal-voxel mean signed component contrasts",
+      "cohort and quality-flow counts"
+    ]
+  },
+  "open_cluster_control": {
+    "catalog": "SDSS DR20 BOSS OCCAM cluster VAC v1",
+    "age_column": "Cav_logAge converted as 10^logAge/1e9 Gyr",
+    "present_radius_column": "R_GC_Cav",
+    "guiding_radius_column": "R_Guide",
+    "offset": "abs(R_Guide - R_GC_Cav)",
+    "inclusion": "finite age, present radius, and guiding radius; Num_Full_Members >= 3 when present",
+    "primary_statistic": "Spearman rho(age_gyr, abs(R_Guide-R_now))",
+    "null": "globally permute cluster ages relative to the fixed offsets",
+    "permutations": 2000,
+    "seed": 20260815,
+    "tail": "positive",
+    "alpha": 0.05,
+    "minimum_clusters": 20
+  },
+  "interpretation": {
+    "field_null": "The block supplies no young-old current-field evidence for persistence.",
+    "field_rejection_cluster_positive": "Age cohorts have different matched current fields, but the positive orbital-offset control flags conventional age-dependent disk dynamics as a live confound; do not promote as persistence evidence.",
+    "field_rejection_cluster_null": "Persistence-compatible independent anomaly, but not a direct acceleration measurement and not sufficient by itself to establish persistence.",
+    "prohibited_claim": "Neither a field rejection nor a null cluster control may be described as a detection of gravitational persistence."
+  }
+}
