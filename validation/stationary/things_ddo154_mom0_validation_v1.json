@@ -1,0 +1,134 @@
+{
+  "status": "THINGS_DDO154_MOM0_VALIDATION_FAIL",
+  "galaxy": "DDO154",
+  "stationary_role": "calibration",
+  "protocol": "validation/stationary/THINGS_MOM0_PROFILE_RECONSTRUCTION_PROTOCOL_V1.md",
+  "blank_semantics_audit": "validation/stationary/things_ddo154_zero_blank_semantics_v1.json",
+  "source": {
+    "url": "https://things.www3.mpia.de/Data_files/DDO154_NA_MOM0_THINGS.FITS",
+    "bytes": 4242240,
+    "sha256": "49d84c9f3e9efa826ecf3c03fdba7bac4e22b627f3e5f704efe703b389031a7c",
+    "bunit": "JY/B*M/S",
+    "map_shape": [
+      1024,
+      1024
+    ],
+    "restfreq_hz": 1420405750.0,
+    "n_finite_pixels": 1048576,
+    "n_blank_nonfinite_pixels": 0,
+    "n_exact_zero_source_blank_pixels": 825109,
+    "n_source_valid_nonzero_pixels": 223467,
+    "n_negative_source_valid_pixels": 402
+  },
+  "geometry": {
+    "distance_mpc": 4.3,
+    "inclination_deg": 66.0,
+    "pa_deg": 230.0,
+    "center_ra_deg": 193.52458333333334,
+    "center_dec_deg": 27.152749999999997
+  },
+  "beam": {
+    "major_arcsec": 14.09,
+    "minor_arcsec": 12.62,
+    "geometric_mean_arcsec": 13.334759090437291,
+    "beam_area_arcsec2": 201.481311126779,
+    "pixel_arcsec": 1.50000003648,
+    "source": "Ianjamasimanana, de Blok & Heald 2017 AJ 153:213 Table 1; THINGS natural-weighted cube"
+  },
+  "conversion": {
+    "jybeam_ms_to_k_kms": 3.4062460378876107,
+    "sigma_hi_raw_per_mom0": 0.020224746788187125,
+    "helium_factor_applied": 0,
+    "inclination_rule": "multiply observed line-of-sight column surface density by cos(i); Leroy published coefficient 0.020 includes 1.36 helium"
+  },
+  "profile": {
+    "n_annuli_total": 201,
+    "n_annuli_usable_contiguous": 43,
+    "max_usable_radius_kpc": 11.953551362844596,
+    "interior_missing": false,
+    "valid_area_threshold": 0.5,
+    "csv": "data/stationary/source_reconstruction/things_ddo154_mom0_reconstructed_raw_hi_v1.csv"
+  },
+  "gates": {
+    "overlap_profile_amplitude": {
+      "threshold_median_abs_fractional_difference": 0.15,
+      "n_independent_samples": 5,
+      "median_abs_fractional_difference": 0.015545942968573794,
+      "pass": true,
+      "samples": [
+        {
+          "r_kpc": 0.13899478328889064,
+          "reconstructed_raw_hi": 5.363239718725109,
+          "leroy_raw_hi_interp": 5.353310741437907,
+          "ratio": 1.0018547358385803,
+          "abs_fractional_difference": 0.0018547358385803006
+        },
+        {
+          "r_kpc": 0.416984349866672,
+          "reconstructed_raw_hi": 5.308831181101538,
+          "leroy_raw_hi_interp": 5.2511086949019585,
+          "ratio": 1.0109924378932813,
+          "abs_fractional_difference": 0.010992437893281321
+        },
+        {
+          "r_kpc": 0.6949739164444532,
+          "reconstructed_raw_hi": 5.1145168489584485,
+          "leroy_raw_hi_interp": 5.0055434745097935,
+          "ratio": 1.0217705380052318,
+          "abs_fractional_difference": 0.021770538005231693
+        },
+        {
+          "r_kpc": 0.9729634830222346,
+          "reconstructed_raw_hi": 4.8567210086191075,
+          "leroy_raw_hi_interp": 4.933415606274523,
+          "ratio": 0.9844540570314262,
+          "abs_fractional_difference": 0.015545942968573794
+        },
+        {
+          "r_kpc": 1.2509530496000159,
+          "reconstructed_raw_hi": 4.91288276832407,
+          "leroy_raw_hi_interp": 5.110527708235297,
+          "ratio": 0.9613259234280768,
+          "abs_fractional_difference": 0.038674076571923274
+        }
+      ]
+    },
+    "overlap_annular_hi_mass": {
+      "threshold_fractional_difference": 0.1,
+      "range_kpc": [
+        0.1,
+        1.4
+      ],
+      "reconstructed_msun": 30622333.11316842,
+      "published_leroy_msun": 31063267.371908728,
+      "fractional_difference": 0.014194716011717984,
+      "pass": true
+    },
+    "global_hi_flux": {
+      "threshold_fractional_difference": 0.1,
+      "reconstructed_jy_kms": 82.18725210674202,
+      "published_jy_kms": 92.88,
+      "fractional_difference": 0.11512433132276027,
+      "pass": false,
+      "published_source": "Stewart et al. 2014 A&A 567 A61, fit to original THINGS global spectrum"
+    },
+    "hi_radial_extent": {
+      "published_rhi_kpc": 4.5,
+      "published_definition": "Sigma_HI=1 Msun pc^-2",
+      "reconstructed_rhi_kpc": 5.628034641485367,
+      "absolute_difference_kpc": 1.1280346414853666,
+      "tolerance_kpc": 0.45,
+      "pass": false,
+      "published_source": "Oman et al. 2019 MNRAS 482 821 Table A2, THINGS row"
+    },
+    "no_systematic_radial_drift": {
+      "threshold_ratio_difference": 0.15,
+      "inner_median_ratio": 1.0064235868659308,
+      "outer_median_ratio": 0.9728899902297514,
+      "absolute_ratio_difference": 0.033533596636179386,
+      "pass": true
+    }
+  },
+  "all_five_gates_pass": false,
+  "boundary": "Calibration/source-profile validation only. No rotation velocities, residuals, L_A, C_A, tau_A, persistence prediction, or blind outcomes evaluated."
+}
