@@ -1,0 +1,1038 @@
+{
+  "status": "WALTER2008_THINGS_SOURCE_TABLE_LAYOUT_AUDITED",
+  "arxiv": "https://export.arxiv.org/e-print/0810.2125",
+  "source_file": "THINGS_master_astroph.tex",
+  "blocks": {
+    "galaxy_properties": {
+      "start_line": 900,
+      "end_line": 980,
+      "lines": [
+        {
+          "line": 900,
+          "text": "\\bibitem[]{}"
+        },
+        {
+          "line": 901,
+          "text": "Zwaan, M. A., Briggs, F. H., Sprayberry, D., Sorar, E.,1997, ApJ 490, 173"
+        },
+        {
+          "line": 902,
+          "text": ""
+        },
+        {
+          "line": 903,
+          "text": "\\bibitem[]{} "
+        },
+        {
+          "line": 904,
+          "text": "Zwaan, M., Ryan--Weber, E., Walter, F., Brinks, E., de Blok, W.~J.~G.,"
+        },
+        {
+          "line": 905,
+          "text": "  Kennicutt, R.~C., 2008, AJ, in press"
+        },
+        {
+          "line": 906,
+          "text": ""
+        },
+        {
+          "line": 907,
+          "text": "\\end{thebibliography}"
+        },
+        {
+          "line": 908,
+          "text": ""
+        },
+        {
+          "line": 909,
+          "text": "\\newpage"
+        },
+        {
+          "line": 910,
+          "text": ""
+        },
+        {
+          "line": 911,
+          "text": "\\clearpage"
+        },
+        {
+          "line": 912,
+          "text": "\\begin{landscape}"
+        },
+        {
+          "line": 913,
+          "text": "\\begin{deluxetable*}{llllrccccccccc}"
+        },
+        {
+          "line": 914,
+          "text": "\\tabletypesize{\\scriptsize}"
+        },
+        {
+          "line": 915,
+          "text": "%\\rotate"
+        },
+        {
+          "line": 916,
+          "text": "\\tablewidth{23cm}"
+        },
+        {
+          "line": 917,
+          "text": "\\tablecaption{Properties of THINGS sample galaxies.}"
+        },
+        {
+          "line": 918,
+          "text": "\\tablehead{"
+        },
+        {
+          "line": 919,
+          "text": "\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}&\\colhead{11}&\\colhead{12}&\\colhead{13}&\\colhead{14}\\\\"
+        },
+        {
+          "line": 920,
+          "text": "\\colhead{Galaxy}\t& alt. name  &\\colhead{RA(2000.0)}  \t&\\colhead{Dec(2000.0)}\t&\\colhead{$D$}\t  &\\colhead{log($D_{25}$)}&\\colhead{$m_B$} &\\colhead{$M_B$}  &\\colhead{Incl}\t &\\colhead{P.A.}\t       &\\colhead{Metal.}     &\\colhead{SFR}                  &\\colhead{Type}  & \\colhead{Notes}\\\\"
+        },
+        {
+          "line": 921,
+          "text": " \\colhead{}            &{}   &\\colhead{hh mm ss.s}     &\\colhead{dd mm ss.s} \t&\\colhead{Mpc}    &\\colhead{log(0.1$'$)}  &\\colhead{mag}\t&\\colhead{mag} &\\colhead{$^{\\circ}$} &\\colhead{$^{\\circ}$}   &\\colhead{12+log(O/H)}&\\colhead{$M_\\odot$\\,yr$^{-1}$} &\\colhead{---} & \\colhead{---} \\\\"
+        },
+        {
+          "line": 922,
+          "text": "}"
+        },
+        {
+          "line": 923,
+          "text": "\\startdata"
+        },
+        {
+          "line": 924,
+          "text": "NGC\\,628\t& M\\,74, UGC\\,1149 &01 36 41.8\t\t&+15 47 00\t&7.3  [K04]\t&1.99\t&9.35\t&-19.97\t&7      &20 [T08]\t&8.33 [M08]\t&1.21 [L08]\t&5  & \\\\"
+        },
+        {
+          "line": 925,
+          "text": "NGC\\,925\t& UGC\\,1913     &02 27 16.5  [T08]\t&+33 34 44\t&9.2  [F01]\t&2.03\t&9.77\t&-20.04\t&66\t&287 [dB08]\t&8.24 [M08]\t&1.09 [L08]\t&7  & \\\\"
+        },
+        {
+          "line": 926,
+          "text": "NGC\\,1569\t& UGC\\,3056     &04 30 49.0\t\t&+64 50 53\t&2.0 [K04]\t&1.60\t&8.33\t&-18.12\t&63\t&112 [M05]\t&8.16 [S89]\t&0.06 [K98]\t&10 & \\\\"
+        },
+        {
+          "line": 927,
+          "text": "NGC\\,2366\t& UGC\\,2366     &07 28 53.4  [O08]\t&+69 12 51\t&3.4 [H01]\t&1.64\t&10.51\t&-17.17\t&64\t&40 [O08]\t&7.96 [S89]\t&---\t        &10 & B\\\\"
+        },
+        {
+          "line": 928,
+          "text": "NGC\\,2403\t& UGC\\,3918     &07 36 51.1  [T08]\t&+65 36 03\t&3.2 [F01]\t&2.20\t&8.11\t&-19.43\t&63\t&124 [dB08]\t&8.31 [M08]\t&0.85 [L08]\t&6  & B\\\\"
+        },
+        {
+          "line": 929,
+          "text": "Ho\\,II          & UGC\\,4305     &08 19 05.0\t\t&+70 43 12\t&3.4 [K04]      &1.82\t&10.78\t&-16.87\t&41\t&177 [P92]\t&7.68 [M08]\t&0.07 [L08]\t&10 & W\\\\"
+        },
+        {
+          "line": 930,
+          "text": "M81 DwA\t\t&               &08 23 56.0\t\t&+71 01 45\t&3.6 [K04]\t&1.1*\t&16.26  &-11.49       &23     &49 [B06]\t&---\t        &---            &10 & \\\\"
+        },
+        {
+          "line": 931,
+          "text": "DDO\\,53\t\t& UGC\\,4459     &08 34 07.2  \t\t&+66 10 54\t&3.6 [K04]      &0.89\t&14.31\t&-13.45\t&31\t&132 [B06]\t&7.77 [M08]\t&0.008 [L08]\t&10 & \\\\"
+        },
+        {
+          "line": 932,
+          "text": "NGC\\,2841\t& UGC\\,4966     &09 22 02.6  [T08]\t&+50 58 35\t&14.1 [M01]\t&1.84\t&9.54\t&-21.21\t&74\t&153 [dB08]\t&8.52 [M08]\t&0.20 [K03]\t&3  & \\\\"
+        },
+        {
+          "line": 933,
+          "text": "NGC\\,2903       & UGC\\,5079  &09 32 10.1  [T08]\t&+21 30 04\t&8.9 [D00]\t&2.07\t&8.82\t&-20.93\t        &65\t&204 [dB08]\t&9.12 [Z94]\t&---\t        &4  & W\\\\"
+        },
+        {
+          "line": 934,
+          "text": "Ho\\,I\t\t& UGC\\,5139     &09 40 32.3  \t\t&+71 10 56\t&3.8 [K04]      &1.52\t&13.12\t&-14.80\t&12\t&50 [O01]\t&7.54 [M08]\t&0.006 [L08]\t&10 & \\\\"
+        },
+        {
+          "line": 935,
+          "text": "NGC\\,2976\t& UGC\\,5221     &09 47 15.3  [T08]\t&+67 55 00\t&3.6 [K02]\t&1.86\t&9.98\t&-17.78\t&65\t&335 [dB08]\t&8.30 [M08]\t&0.10 [L08]\t&5  & \\\\"
+        },
+        {
+          "line": 936,
+          "text": "NGC\\,3031\t& M\\,81, UGC\\,5318  &09 55 33.1  [T08]\t&+69 03 55\t&3.6 [F01]\t&2.33\t&7.07\t&-20.73\t&59\t&330 [dB08]\t&8.41 [M08]\t&1.06 [L08]\t&2  & B\\\\"
+        },
+        {
+          "line": 937,
+          "text": "NGC\\,3077\t& UGC\\,5398     &10 03 19.1\t\t&+68 44 02\t&3.8 [K04]\t&1.73\t&10.16\t&-17.75\t&46\t&45      \t&8.64 [S94]\t&0.09 [K98]\t&10 & \\\\"
+        },
+        {
+          "line": 938,
+          "text": "M81 DwB\t\t& UGC\\,5423     &10 05 30.6\t\t&+70 21 52\t&5.3 [K04]\t&1.05\t&14.39\t&-14.23\t&44\t&321 \t        &7.85 [M08]\t&0.005 [L08]\t&10 & \\\\"
+        },
+        {
+          "line": 939,
+          "text": "NGC\\,3184       & UGC\\,5557  &10 18 17.0\t\t&+41 25 28\t&11.1 [L02]\t&1.87\t&10.31\t&-19.92\t&16\t&179 [T08]\t&8.48 [M08]\t&1.43 [L08]\t&6  & W\\\\"
+        },
+        {
+          "line": 940,
+          "text": "NGC\\,3198\t& UGC\\,5572     &10 19 55.0  [T08]\t&+45 32 59\t&13.8 [F01]\t&1.81\t&9.95\t&-20.75\t&72\t&215 [dB08]\t&8.32 [M08]\t&0.85 [K03]\t&5  & \\\\"
+        },
+        {
+          "line": 941,
+          "text": "IC\\,2574\t& UGC\\,5666     &10 28 27.7  [O08]\t&+68 24 59\t&4.0 [K02]      &2.11\t&9.91\t&-18.11\t&53\t&56 [O08]\t&7.94 [M08]\t&0.12 [L08]\t&9  & \\\\"
+        },
+        {
+          "line": 942,
+          "text": "NGC\\,3351\t& M\\,95, UGC\\,5850  &10 43 57.7\t\t&+11 42 14\t&10.1 [K04]\t&1.86\t&10.13\t&-19.88\t&41\t&192 [T08]\t&8.60 [M08]\t&0.71 [L08]\t&3  & \\\\"
+        },
+        {
+          "line": 943,
+          "text": "NGC\\,3521\t& UGC\\,6150     &11 05 48.6  [T08]\t&--00 02 09\t&10.7 [vflow]\t&1.92\t&9.21\t&-20.94\t&73\t&340 [dB08]\t&8.36 [M08]\t&3.34 [L08]\t&4  & \\\\"
+        },
+        {
+          "line": 944,
+          "text": "NGC\\,3621\t&               &11 18 16.5  [T08]\t&--32 48 51\t&6.6 [F01]\t&1.99\t&9.06\t&-20.05\t&65\t&345 [dB08]\t&8.24 [M08]\t&2.09 [L08]\t&7  & \\\\"
+        },
+        {
+          "line": 945,
+          "text": "NGC\\,3627\t& M\\,66, UGC\\,6346 &11 20 15.0  [T08]\t&+12 59 30\t&9.3 [F01]\t&2.01\t&9.09\t&-20.74\t&62\t&173 [dB08]\t&8.43 [M08]\t&2.44 [L08]\t&3  & \\\\"
+        },
+        {
+          "line": 946,
+          "text": "NGC\\,4214       & UGC\\,7278   &12 15 39.2  \t\t&+36 19 37\t&2.9 [K04]\t&1.83\t&9.91\t&-17.43\t&44\t&65     \t&8.34 [S89]\t&0.05 [K98]\t&10 & W\\\\"
+        },
+        {
+          "line": 947,
+          "text": "NGC\\,4449       & UGC\\,7592     &12 28 11.9\t\t&+44 05 40\t&4.2 [K04]\t&1.67\t&8.98\t&-19.14\t&60\t&230 [H98]\t&8.32 [S89]\t&---\t        &10 & W\\\\"
+        },
+        {
+          "line": 948,
+          "text": "NGC\\,4736\t& M\\,94, UGC\\,7996 &12 50 53.0  [T08] \t&+41 07 13\t&4.7 [K04]\t&1.89\t&8.54\t&-19.80\t&41\t&296 [dB08]\t&8.31 [M08]\t&0.43 [L08]\t&2  & B\\\\"
+        },
+        {
+          "line": 949,
+          "text": "DDO\\,154\t& UGC\\,8024     &12 54 05.9  [T08]\t&+27 09 10\t&4.3 [K04]      &1.29\t&13.94\t&-14.23\t&66\t&230 [dB08]\t&7.54 [M08]\t&0.004 [L08]\t&10 & \\\\"
+        },
+        {
+          "line": 950,
+          "text": "NGC\\,4826\t& M\\,64, UGC\\,8062  &12 56 43.6  [T08]\t&+21 41 00\t&7.5 [K04]\t&2.02\t&8.74\t&-20.63\t&65\t&121 [dB08]\t&8.59 [M08]\t&0.82 [L08]\t&2  & B\\\\"
+        },
+        {
+          "line": 951,
+          "text": "NGC\\,5055\t& M\\,63, UGC\\,8334  &13 15 49.2  [T08]\t&+42 01 45\t&10.1 [vflow]\t&2.07\t&8.90\t&-21.12\t&59\t&102 [dB08]\t&8.42 [M08]\t&2.42 [L08]\t&4  & \\\\"
+        },
+        {
+          "line": 952,
+          "text": "NGC\\,5194\t& M\\,51a, UGC\\,8493 &13 29 52.7\t\t&+47 11 43\t&8.0  [K04]\t&1.89\t&8.48\t&-21.04\t&42\t&172 [T08]\t&8.54 [M08]\t&6.05 [L08]\t&4  & \\\\"
+        },
+        {
+          "line": 953,
+          "text": "NGC\\,5236\t& M\\,83         &13 37 00.9\t\t&--29 51 57\t&4.5  [K04]\t&2.19\t&7.48\t&-20.77\t&24\t&225 [T93]\t&9.16 [Z94]\t&2.52 [K98]\t&5  & \\\\"
+        },
+        {
+          "line": 954,
+          "text": "NGC\\,5457\t& M\\,101, UGC\\,8981 &14 03 12.6\t\t&+54 20 57\t&7.4  [K04]\t&2.38\t&8.29\t&-21.05\t&18\t&39 [B81]\t&8.52 [Z94]\t&2.49 [K98]\t&6  & B \\\\"
+        },
+        {
+          "line": 955,
+          "text": "NGC\\,6946\t& UGC\\,11597    &20 34 52.2  [T08]\t&+60 09 14\t&5.9  [K04]\t&2.06\t&8.24\t&-20.61\t&33\t&243 [dB08]\t&8.40 [M08]\t&4.76 [L08]\t&6  & \\\\"
+        },
+        {
+          "line": 956,
+          "text": "NGC\\,7331\t& UGC\\,12113    &22 37 04.1  [T08]\t&+34 24 57\t&14.7 [F01]\t&1.96\t&9.17\t&-21.67\t&76\t&168 [dB08]\t&8.36 [M08]\t&4.20 [K03]\t&3  & \\\\"
+        },
+        {
+          "line": 957,
+          "text": "NGC\\,7793\t&               &23 57 49.7  [T08]\t&--32 35 28\t&3.9  [K04]\t&2.02\t&9.17\t&-18.79\t&50\t&290 [dB08]\t&8.22 [M08]\t&0.51 [L08]\t&7  & B\\\\"
+        },
+        {
+          "line": 958,
+          "text": "\\enddata"
+        },
+        {
+          "line": 959,
+          "text": "\\tablecomments{Comments on columns:\\\\"
+        },
+        {
+          "line": 960,
+          "text": "  {\\em column 1:} galaxy name\\\\"
+        },
+        {
+          "line": 961,
+          "text": "  {\\em column 2:} alternative names (UGC and Messier catalogs)\\\\"
+        },
+        {
+          "line": 962,
+          "text": "  {\\em column 3/4:} Coordinates in J2000.0. No entry: coordinates taked from NED; T08: Trachternach et al.\\ 2008\\\\"
+        },
+        {
+          "line": 963,
+          "text": "  {\\em column 5:} distances in Mpc. vflow: distances calculated from"
+        },
+        {
+          "line": 964,
+          "text": "  NED using Hubble flow distances (corrected for Virgo infall); dB08:"
+        },
+        {
+          "line": 965,
+          "text": "  de Blok et al.\\ 2008, O08: Oh et al.\\ 2008, K02: Karachentsev et"
+        },
+        {
+          "line": 966,
+          "text": "  al.\\ 2002, K04: Karachentsev et al.\\ 2004, H01: Hunter et al.\\ 2001,"
+        },
+        {
+          "line": 967,
+          "text": "  F01: Freedman et al.\\ 2001, L02: Leonard et al.\\ 2002, M01: Macri et"
+        },
+        {
+          "line": 968,
+          "text": "  al.\\ 2001, D00: Drozdovsky \\& Karachentsev 2000\\\\"
+        },
+        {
+          "line": 969,
+          "text": "  {\\em column 6:} optical size (taken from LEDA, {\\sc leda.univ-lyon.fr}); K04: Karachentsev et al.\\ 2004; Note: Holmberg diameter is given for M\\,81\\,dwA\\\\"
+        },
+        {
+          "line": 970,
+          "text": "  {\\em column 7:} apparent blue magnitude, corrected for Galactic foreground extinction and extinction internal to the galaxy from LEDA; B06: Begum et al.\\ 2006\\\\"
+        },
+        {
+          "line": 971,
+          "text": "  {\\em column 8}: absolute B magnitude derived from columns 7 and 4\\\\"
+        },
+        {
+          "line": 972,
+          "text": "  {\\em column 9/10:} Inclination and position angle; No entry: taken from"
+        },
+        {
+          "line": 973,
+          "text": "  LEDA, dB08: de Blok et al.\\ 2008, B06: Begum et al.\\ 2006, O01: Ott"
+        },
+        {
+          "line": 974,
+          "text": "  et al.\\ 2001, P92: Puche et al.\\ 1992, O08: Oh et al.\\ 2008, M05:"
+        },
+        {
+          "line": 975,
+          "text": "  M\\\"uhle et al.\\ 2005, T08: Tamburro et al.\\ 2008, H98: Hunter et"
+        },
+        {
+          "line": 976,
+          "text": "  al.\\ 1998, T93: Tilanus \\& Allen 1993, B81: Bosma et al.\\ 1981 \\\\"
+        },
+        {
+          "line": 977,
+          "text": "  {\\em column 11:} metallicities. M08: Moustakas et al.\\ 2008, S89:"
+        },
+        {
+          "line": 978,
+          "text": "  Skillman et al.\\ 1989, Z94: Zaritzky et al.\\ 1994, S94: Storchi et al.\\ 1994\\\\"
+        },
+        {
+          "line": 979,
+          "text": "  {\\em column 12:} Star formation rates. Derived from fluxes published in"
+        },
+        {
+          "line": 980,
+          "text": "  the literature and corrected for our adopted distances: L08: Lee et"
+        }
+      ]
+    },
+    "image_properties": {
+      "start_line": 1300,
+      "end_line": 1385,
+      "lines": [
+        {
+          "line": 1300,
+          "text": "\\clearpage"
+        },
+        {
+          "line": 1301,
+          "text": "\\end{landscape}"
+        },
+        {
+          "line": 1302,
+          "text": ""
+        },
+        {
+          "line": 1303,
+          "text": "\\newpage"
+        },
+        {
+          "line": 1304,
+          "text": "\\clearpage"
+        },
+        {
+          "line": 1305,
+          "text": "\\begin{deluxetable*}{llrrrrccrc}"
+        },
+        {
+          "line": 1306,
+          "text": "\\tablenum{2}"
+        },
+        {
+          "line": 1307,
+          "text": "\\tabletypesize{\\small}"
+        },
+        {
+          "line": 1308,
+          "text": "%\\rotate"
+        },
+        {
+          "line": 1309,
+          "text": "\\tablewidth{16cm}"
+        },
+        {
+          "line": 1310,
+          "text": "%\\tablenum{}"
+        },
+        {
+          "line": 1311,
+          "text": "%\\tablecolumns{}"
+        },
+        {
+          "line": 1312,
+          "text": "\\tablecaption{Mapping/Noise parameters of THINGS galaxies}"
+        },
+        {
+          "line": 1313,
+          "text": "\\tablehead{"
+        },
+        {
+          "line": 1314,
+          "text": "\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}\\\\"
+        },
+        {
+          "line": 1315,
+          "text": "\\colhead{Name}      & \\colhead{Weighting} & \\colhead{$B_{\\rm maj}$} & \\colhead{$B_{\\rm min}$} & \\colhead{BPA} & \\colhead{noise} & \\colhead{size} & \\colhead{pixel} & \\colhead{channels} & \\colhead{width} \\\\"
+        },
+        {
+          "line": 1316,
+          "text": "\\colhead{}          & \\colhead{}          & \\colhead{$''$}          & \\colhead{$''$}          & \\colhead{$^{\\circ}$} & \\colhead{mJy\\,beam$^{-1}$}& \\colhead{pixels} & \\colhead{$''$} & \\colhead{}& \\colhead{km\\,s$^{-1}$} \\\\}"
+        },
+        {
+          "line": 1317,
+          "text": "\\startdata"
+        },
+        {
+          "line": 1318,
+          "text": "NGC\\,628      &  NA  & 11.88 &  9.30 &  -70.3  & 0.60   &   1024  &  1.5 &   58  &  2.6 \\\\"
+        },
+        {
+          "line": 1319,
+          "text": "          &  RO  &  6.8  &  5.57 &  -61.4  & 0.66   &         &      &       & \\\\"
+        },
+        {
+          "line": 1320,
+          "text": "NGC\\,925     &  NA  &  5.94 &  5.71 &   30.6  & 0.57   &   1024  &  1.5 &  100  &  2.6 \\\\"
+        },
+        {
+          "line": 1321,
+          "text": "          &  RO  &  4.85 &  4.65 &   36.9  & 0.68   &         &      &       & \\\\"
+        },
+        {
+          "line": 1322,
+          "text": "NGC\\,1569     &  NA  &  7.71 &  7.04 &   16.5  & 0.81   &   1024  &  1.5 &   75  &  2.6 \\\\"
+        },
+        {
+          "line": 1323,
+          "text": "          &  RO  &  5.76 &  5.04 &   26.7  & 0.76   &         &      &       & \\\\"
+        },
+        {
+          "line": 1324,
+          "text": "NGC\\,2366     &  NA  & 13.10 & 11.85 &   -1.6  & 0.52   &   1024  &  1.5 &   66  &  2.6 \\\\"
+        },
+        {
+          "line": 1325,
+          "text": "          &  RO  &  6.96 &  5.94 &   20.2  & 0.61   &         &      &       & \\\\"
+        },
+        {
+          "line": 1326,
+          "text": "NGC\\,2403     &  NA  &  8.75 &  7.65 &   25.2  & 0.38   &   2048  &  1.0 &   61  &  5.2 \\\\"
+        },
+        {
+          "line": 1327,
+          "text": "          &  RO  &  6.01 &  5.17 &   18.1  & 0.45   &         &      &       & \\\\"
+        },
+        {
+          "line": 1328,
+          "text": "Ho\\,II     &  NA  & 13.74 & 12.57 &  -43.0  & 0.92   &   1024  &  1.5 &   54  &  2.6 \\\\"
+        },
+        {
+          "line": 1329,
+          "text": "          &  RO  &  6.95 &  6.05 &  -32.8  & 1.06   &         &      &       & \\\\"
+        },
+        {
+          "line": 1330,
+          "text": "M81\\,dwA  &  NA  & 15.87 & 14.23 &   10.2  & 0.60   &   1024  &  1.5 &   46  &  1.3 \\\\"
+        },
+        {
+          "line": 1331,
+          "text": "          &  RO  &  7.79 &  6.27 &    4.4  & 0.69   &         &      &       & \\\\"
+        },
+        {
+          "line": 1332,
+          "text": "DDO\\,53    &  NA  & 11.75 &  9.53 &   -5.9  & 0.50   &   1024  &  1.5 &   41  &  2.6 \\\\"
+        },
+        {
+          "line": 1333,
+          "text": "          &  RO  &  6.34 &  5.67 &    2.6  & 0.53   &         &      &       & \\\\"
+        },
+        {
+          "line": 1334,
+          "text": "NGC\\,2841     &  NA  & 11.06 &  9.37 &  -12.3  & 0.35   &   1024  &  1.5 &  132  &  5.2 \\\\"
+        },
+        {
+          "line": 1335,
+          "text": "          &  RO  &  6.06 &  5.79 &    7.2  & 0.39   &         &      &       & \\\\"
+        },
+        {
+          "line": 1336,
+          "text": "NGC\\,2903     &  NA  & 15.27 & 13.32 &  -51.3  & 0.41   &   1024  &  1.5 &   87  &  5.2 \\\\"
+        },
+        {
+          "line": 1337,
+          "text": "          &  RO  &  8.66 &  6.43 &  -68.5  & 0.47   &         &      &       & \\\\"
+        },
+        {
+          "line": 1338,
+          "text": "Ho\\,I      &  NA  & 14.66 & 12.73 &  -41.6  & 0.96   &   1024  &  1.5 &   36  &  2.6 \\\\"
+        },
+        {
+          "line": 1339,
+          "text": "          &  RO  &  7.78 &  6.03 &  -71.5  & 1.05   &         &      &       & \\\\"
+        },
+        {
+          "line": 1340,
+          "text": "NGC\\,2976     &  NA  &  7.41 &  6.42 &   71.8  & 0.36   &   1024  &  1.5 &   42  &  5.2 \\\\"
+        },
+        {
+          "line": 1341,
+          "text": "          &  RO  &  5.25 &  4.88 &   61.1  & 0.42   &         &      &       & \\\\"
+        },
+        {
+          "line": 1342,
+          "text": "NGC\\,3031     &  NA  & 12.91 & 12.41 &   79.9  & 0.66   &   2201  &  1.5 &  178  &  2.6 \\\\"
+        },
+        {
+          "line": 1343,
+          "text": "          &  RO  &  7.58 &  7.45 &   24.2  & 0.71   &         &      &       & \\\\ "
+        },
+        {
+          "line": 1344,
+          "text": "NGC\\,3077     &  NA  & 14.31 & 13.24 &   60.5  & 0.75   &   1024  &  1.5 &   98  &  2.6 \\\\"
+        },
+        {
+          "line": 1345,
+          "text": "          &  RO  &  7.90 &  7.02 &   45.9  & 0.87   &         &      &       & \\\\"
+        },
+        {
+          "line": 1346,
+          "text": "M81\\,dwB  &  NA  & 12.45 & 10.56 &  -44.2  & 0.56   &   1024  &  1.5 &   34  &  2.6 \\\\"
+        },
+        {
+          "line": 1347,
+          "text": "          &  RO  &  7.05 &  5.84 &  -37.8  & 0.63   &         &      &       & \\\\"
+        },
+        {
+          "line": 1348,
+          "text": "NGC\\,3184     &  NA  &  7.51 &  6.93 &   85.4  & 0.36   &   1024  &  1.5 &   72  &  2.6 \\\\"
+        },
+        {
+          "line": 1349,
+          "text": "          &  RO  &  5.33 &  5.11 &   74.7  & 0.40   &         &      &       & \\\\"
+        },
+        {
+          "line": 1350,
+          "text": "NGC\\,3198     &  NA  & 13.01 & 11.56 &  -58.5  & 0.33   &   1024  &  1.5 &   72  &  5.2 \\\\"
+        },
+        {
+          "line": 1351,
+          "text": "          &  RO  &  7.64 &  5.62 &  -69.1  & 0.37   &         &      &       & \\\\"
+        },
+        {
+          "line": 1352,
+          "text": "IC\\,2574   &  NA  & 12.81 & 11.90 &   46.8  & 0.56   &   1024  &  1.5 &   83  &  2.6 \\\\"
+        },
+        {
+          "line": 1353,
+          "text": "          &  RO  &  5.93 &  5.48 &  -20.0  & 0.69   &         &      &       & \\\\"
+        },
+        {
+          "line": 1354,
+          "text": "NGC\\,3351     &  NA  &  9.94 &  7.15 &   24.1  & 0.35   &   1024  &  1.5 &   70  &  5.2 \\\\"
+        },
+        {
+          "line": 1355,
+          "text": "          &  RO  &  6.26 &  5.20 &   24.0  & 0.41   &         &      &       & \\\\"
+        },
+        {
+          "line": 1356,
+          "text": "NGC\\,3521     &  NA  & 14.14 & 11.15 &  -61.7  & 0.40   &   1024  &  1.5 &  109  &  5.2 \\\\"
+        },
+        {
+          "line": 1357,
+          "text": "          &  RO  &  8.19 &  6.41 &  -70.2  & 0.47   &         &      &       & \\\\"
+        },
+        {
+          "line": 1358,
+          "text": "NGC\\,3621     &  NA  & 15.95 & 10.24 &    3.6  & 0.69   &   1024  &  1.5 &   72  &  5.2 \\\\"
+        },
+        {
+          "line": 1359,
+          "text": "          &  RO  & 10.50 &  5.68 &    1.6  & 0.80   &         &      &       & \\\\"
+        },
+        {
+          "line": 1360,
+          "text": "NGC\\,3627     &  NA  & 10.60 &  8.85 &  -48.0  & 0.43   &   1024  &  1.5 &   92  &  5.2 \\\\"
+        },
+        {
+          "line": 1361,
+          "text": "          &  RO  &  5.67 &  5.45 &  -46.9  & 0.49   &         &      &       & \\\\"
+        },
+        {
+          "line": 1362,
+          "text": "NGC\\,4214     &  NA  & 14.69 & 13.87 &  -48.2  & 0.69   &   1024  &  1.5 &   98  &  1.3 \\\\"
+        },
+        {
+          "line": 1363,
+          "text": "          &  RO  &  7.41 &  6.35 &  -86.1  & 0.76   &         &      &       & \\\\"
+        },
+        {
+          "line": 1364,
+          "text": "NGC\\,4449     &  NA  & 21.21 & 20.28 &  -20.5  & 0.88   &   1024  &  1.5 &   45  &  5.2 \\\\"
+        },
+        {
+          "line": 1365,
+          "text": "          &  RO  & 13.74 & 12.50 &  -35.4  & 0.96   &         &      &       & \\\\"
+        },
+        {
+          "line": 1366,
+          "text": "NGC\\,4736     &  NA  & 10.22 &  9.07 &  -23.0  & 0.33   &   1024  &  1.5 &   68  &  5.2 \\\\"
+        },
+        {
+          "line": 1367,
+          "text": "          &  RO  &  5.96 &  5.55 &   25.1  & 0.38   &         &      &       & \\\\"
+        },
+        {
+          "line": 1368,
+          "text": "DDO\\,154 &  NA  & 14.09 & 12.62 &  -34.0  & 0.50   &   1024  &  1.5 &   57  &  2.6 \\\\"
+        },
+        {
+          "line": 1369,
+          "text": "          &  RO  &  7.94 &  6.27 &  -87.2  & 0.56   &         &      &       & \\\\"
+        },
+        {
+          "line": 1370,
+          "text": "NGC\\,4826     &  NA  & 12.18 &  9.35 &  -76.1  & 0.42   &   1024  &  1.5 &   75  &  5.2  \\\\"
+        },
+        {
+          "line": 1371,
+          "text": "          &  RO  &  7.26 &  5.68 &  -86.9  & 0.47   &         &      &       & \\\\"
+        },
+        {
+          "line": 1372,
+          "text": "NGC\\,5055     &  NA  & 10.06 &  8.66 &  -40.0  & 0.36   &   1024  &  1.5 &   87  &  5.2 \\\\"
+        },
+        {
+          "line": 1373,
+          "text": "          &  RO  &  5.78 &  5.26 &   33.3  & 0.41   &         &      &       & \\\\"
+        },
+        {
+          "line": 1374,
+          "text": "NGC\\,5194     &  NA  & 11.92 & 10.01 &  -86.0  & 0.39   &   1024  &  1.5 &   77  &  5.2 \\\\"
+        },
+        {
+          "line": 1375,
+          "text": "          &  RO  &  5.82 &  5.56 &  -68.0  & 0.44   &         &      &       & \\\\"
+        },
+        {
+          "line": 1376,
+          "text": "NGC\\,5236     &  NA  & 15.16 & 11.44 &   -3.0  & 0.83   &   2048  &  1.0 &  123  &  2.6 \\\\"
+        },
+        {
+          "line": 1377,
+          "text": "          &  RO  & 10.40 &  5.60 &    0.5  & 0.98   &         &      &       & \\\\"
+        },
+        {
+          "line": 1378,
+          "text": "NGC\\,5457     &  NA  & 10.82 & 10.17 &  -67.0  & 0.46   &   2048  &  1.0 &   69  &  5.2 \\\\"
+        },
+        {
+          "line": 1379,
+          "text": "          &  RO  &  7.49 &  6.07 &  -56.6  & 0.48   &         &      &       & \\\\"
+        },
+        {
+          "line": 1380,
+          "text": "NGC\\,6946     &  NA  &  6.04 &  5.61 &    6.6  & 0.55   &   1024  &  1.5 &  115  &  2.6 \\\\"
+        },
+        {
+          "line": 1381,
+          "text": "          &  RO  &  4.93 &  4.51 &    1.1  & 0.61   &         &      &       & \\\\"
+        },
+        {
+          "line": 1382,
+          "text": "NGC\\,7331     &  NA  &  6.13 &  5.61 &   34.3  & 0.44   &   1024  &  1.5 &  116  &  5.2 \\\\ "
+        },
+        {
+          "line": 1383,
+          "text": "          &  RO  &  4.94 &  4.60 &   36.3  & 0.51   &         &      &       & \\\\"
+        },
+        {
+          "line": 1384,
+          "text": "NGC\\,7793     &  NA  & 15.60 & 10.85 &   10.7  & 0.92   &   1024  &  1.5 &   91  &  2.6 \\\\"
+        },
+        {
+          "line": 1385,
+          "text": "          &  RO  & 10.37 &  5.39 &    3.3  & 1.08   &         &      &       & \\\\"
+        }
+      ]
+    },
+    "global_hi": {
+      "start_line": 1430,
+      "end_line": 1515,
+      "lines": [
+        {
+          "line": 1430,
+          "text": "113.0  &  0.205  \\\\ "
+        },
+        {
+          "line": 1431,
+          "text": "114.3  &  0.198  \\\\ "
+        },
+        {
+          "line": 1432,
+          "text": "115.6  &  0.194  \\\\ "
+        },
+        {
+          "line": 1433,
+          "text": "116.9  &  0.180  \\\\ "
+        },
+        {
+          "line": 1434,
+          "text": "118.2  &  0.169  \\\\ "
+        },
+        {
+          "line": 1435,
+          "text": "119.4  &  0.147  \\\\ "
+        },
+        {
+          "line": 1436,
+          "text": "120.7  &  0.123  \\\\ "
+        },
+        {
+          "line": 1437,
+          "text": "122.0  &  0.098  \\\\ "
+        },
+        {
+          "line": 1438,
+          "text": "123.3  &  0.087  \\\\ "
+        },
+        {
+          "line": 1439,
+          "text": "124.6  &  0.076  \\\\ "
+        },
+        {
+          "line": 1440,
+          "text": "125.9  &  0.068  \\\\ "
+        },
+        {
+          "line": 1441,
+          "text": "127.2  &  0.050  \\\\ "
+        },
+        {
+          "line": 1442,
+          "text": "128.5  &  0.036  \\\\ "
+        },
+        {
+          "line": 1443,
+          "text": "129.8  &  0.032  \\\\ "
+        },
+        {
+          "line": 1444,
+          "text": "131.0  &  0.019  \\\\ "
+        },
+        {
+          "line": 1445,
+          "text": "\\enddata"
+        },
+        {
+          "line": 1446,
+          "text": "\\end{deluxetable*}"
+        },
+        {
+          "line": 1447,
+          "text": ""
+        },
+        {
+          "line": 1448,
+          "text": ""
+        },
+        {
+          "line": 1449,
+          "text": "\\clearpage"
+        },
+        {
+          "line": 1450,
+          "text": ""
+        },
+        {
+          "line": 1451,
+          "text": "\\begin{landscape}"
+        },
+        {
+          "line": 1452,
+          "text": "\\begin{deluxetable*}{lrrrrrrrrr}"
+        },
+        {
+          "line": 1453,
+          "text": "\\tabletypesize{\\small}"
+        },
+        {
+          "line": 1454,
+          "text": "%\\rotate"
+        },
+        {
+          "line": 1455,
+          "text": "\\tablewidth{20cm}"
+        },
+        {
+          "line": 1456,
+          "text": "\\tablecaption{THINGS \\hi\\ fluxes, velocities, line--widths and masses}"
+        },
+        {
+          "line": 1457,
+          "text": "%\\tablenum{}"
+        },
+        {
+          "line": 1458,
+          "text": "%\\tablecolumns{}"
+        },
+        {
+          "line": 1459,
+          "text": "\\tablehead{\\colhead{1}&\\colhead{2}&\\colhead{3}&\\colhead{4}&\\colhead{5}&\\colhead{6}&\\colhead{7}&\\colhead{8}&\\colhead{9}&\\colhead{10}\\\\"
+        },
+        {
+          "line": 1460,
+          "text": "\\colhead{name}       &  \\colhead{$S_{\\rm HI}$}     & \\colhead{$M_{\\rm HI}$}    &  \\colhead{$S_{\\rm HI}^{\\rm Paturel}$} & \\colhead{$S_{\\rm HI}^{\\rm Fisher\\&Tully}$} &\\colhead{$v_{\\rm cen}$}  &\\colhead{$v_{\\rm cen}^{\\rm Fisher\\&Tully}$}  & \\colhead{$W_{50}$} & \\colhead{$W_{20}$} & \\colhead{$W_{20}^{\\rm Fisher\\&Tully}$} \\\\"
+        },
+        {
+          "line": 1461,
+          "text": " \\colhead{}          &  \\colhead{Jy\\,km\\,s$^{-1}$} & \\colhead{10$^{8}$\\,\\msol} &  \\colhead{Jy\\,km\\,s$^{-1}$}&  \\colhead{Jy\\,km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$} & \\colhead{km\\,s$^{-1}$}& \\colhead{km\\,s$^{-1}$} \\\\}"
+        },
+        {
+          "line": 1462,
+          "text": "\\startdata"
+        },
+        {
+          "line": 1463,
+          "text": "NGC\\,628       &      302        &  38.0          & 252    & 381$\\pm$17   &659.1 & 659    & 56.4    & 75.4   & 74$\\pm$5    \\\\"
+        },
+        {
+          "line": 1464,
+          "text": "NGC\\,925       &      232        &  45.8          & 197    & 301$\\pm$14   &552.5 & 554    & 207.1   & 222.6  & 224$\\pm$8   \\\\"
+        },
+        {
+          "line": 1465,
+          "text": "NGC\\,1569      &       84.0      &   0.75         & 49.4   & ---          &-85.6 & ---    & 100.8   & 123.8  & ---         \\\\"
+        },
+        {
+          "line": 1466,
+          "text": "NGC\\,2366      &      233        &   6.49         & 188    & 274$\\pm$14   &100.1 & 102    & 101.2   & 115.8  & 116$\\pm$5   \\\\"
+        },
+        {
+          "line": 1467,
+          "text": "NGC\\,2403      &     1054        &  25.8          & 925    & 1458$\\pm$47  &133.1 & 132    & 240.6   & 254.7  & 247$\\pm$20  \\\\"
+        },
+        {
+          "line": 1468,
+          "text": "Ho\\,II         &      219        &   5.95         &  197   & 388$\\pm$15   &157.1 & 158    & 57.4    & 70.8   & 76$\\pm$5    \\\\"
+        },
+        {
+          "line": 1469,
+          "text": "M81\\,dwA       &        4.1      &   0.12         & ---    & ---          &112.0 & ---    & 24.7    & 36.6   & ---         \\\\"
+        },
+        {
+          "line": 1470,
+          "text": "DDDO\\,53       &       20.0      &   0.60         & ---    & ---          &17.7  & ---    & 28.3    & 46.0   & ---         \\\\"
+        },
+        {
+          "line": 1471,
+          "text": "NGC\\,2841      &      183        &  85.8          & 125    & ---          &635.2 & ---    & 587.3   & 607.7  & ---         \\\\"
+        },
+        {
+          "line": 1472,
+          "text": "NGC\\,2903      &      232        &  43.5          & 162    & 186$\\pm$9.8  &556.6 & 554    & 370.5   & 389.4  & 395$\\pm$15  \\\\"
+        },
+        {
+          "line": 1473,
+          "text": "Ho\\,I          &       40.1      &   1.39         & 36.1   & 42.4$\\pm$2.6 &140.4 & 141    & 27.9    & 41.4   & 46$\\pm$5    \\\\"
+        },
+        {
+          "line": 1474,
+          "text": "NGC\\,2976      &       45.4      &   1.36         & 41.9   & 53.4$\\pm$8.3 &2.6   & ---    & 139.4   & 158.5  & ---         \\\\"
+        },
+        {
+          "line": 1475,
+          "text": "NGC\\,3031      &     1169        &  36.4          & 2177$^+$ & ---        &-39.4 & ---    & 389.1   & 428.3  & ---         \\\\"
+        },
+        {
+          "line": 1476,
+          "text": "NGC\\,3077      &      256        &   8.81         & 361    & ---          &-19.8 & ---    & 114.3   & 157.3  & ---         \\\\"
+        },
+        {
+          "line": 1477,
+          "text": "M81\\,dwB       &        3.8      &   0.25         & ---    & ---          &346.4 & ---    & 44.9    & 58.5   & ---         \\\\"
+        },
+        {
+          "line": 1478,
+          "text": "NGC\\,3184      &      105        &  30.7          & 78.3   & 126$\\pm$5.8  &593.3 & 599    & 128.7   & 143.7  & 148$\\pm$8   \\\\"
+        },
+        {
+          "line": 1479,
+          "text": "NGC\\,3198      &      227        & 101.7          & 146    & 206$\\pm$12   &661.2 & 660    & 298.0   & 313.2  & 322$\\pm$7   \\\\"
+        },
+        {
+          "line": 1480,
+          "text": "IC\\,2574       &      387        &  14.8          & 438    & 499$\\pm$17   &48.6  & 38     & 109.0   & 130.8  & 117$\\pm$10  \\\\"
+        },
+        {
+          "line": 1481,
+          "text": "NGC\\,3351      &       50.1      &  11.9          & 39.6   & ---          &779.0 & ---    & 266.2   & 278.4  & ---         \\\\"
+        },
+        {
+          "line": 1482,
+          "text": "NGC\\,3521      &      297        &  80.2          & 199    & 281$\\pm$40   &798.2 & 804    & 440.5   & 467.7  & 466$\\pm$10  \\\\"
+        },
+        {
+          "line": 1483,
+          "text": "NGC\\,3621      &      679        &  70.7          & 468    & 668$\\pm$32   &730.1 & 734    & 270.7   & 289.1  & 290$\\pm$10  \\\\"
+        },
+        {
+          "line": 1484,
+          "text": "NGC\\,3627      &       40.6      &   8.18         & 40.0   & 60.6$\\pm$5.1 &717.3 & 737    & 351.6   & 389.4  & 382$\\pm$15  \\\\"
+        },
+        {
+          "line": 1485,
+          "text": "NGC\\,4214      &      200        &   4.08         &   193  & ---          &292.9 & ---    & 69.8    & 89.8   & ---         \\\\"
+        },
+        {
+          "line": 1486,
+          "text": "NGC\\,4449      &      263        &  11.0          & 101$^+$& ---          &202.7 & ---    & 116.2   & 163.5  & ---         \\\\"
+        },
+        {
+          "line": 1487,
+          "text": "NGC\\,4736      &       78.1      &   4.00         & 51.3   & 59.9$\\pm$7.0 &307.6 & 307    & 208.5   & 237.1  & 232$\\pm$15  \\\\"
+        },
+        {
+          "line": 1488,
+          "text": "DDO\\,154       &       82.1      &   3.58         & 59.4   & 74.1$\\pm$4.7 &375.5 & 378    & 91.3    & 104.9  & 103$\\pm$7   \\\\"
+        },
+        {
+          "line": 1489,
+          "text": "NGC\\,4826      &       41.5      &   5.48         & 45.1   & 56.3$\\pm$15  &407.9 & 414    & 304.0   & 321.6  & 311$\\pm$20  \\\\"
+        },
+        {
+          "line": 1490,
+          "text": "NGC\\,5055      &      379        &  91.0          & 262    & 372$\\pm$18   &499.3 & 497    & 380.1   & 400.7  & 406$\\pm$5   \\\\"
+        },
+        {
+          "line": 1491,
+          "text": "NGC\\,5194      &      169        &  25.4          & 141    & 202$\\pm$14   &456.2 & 467    & 162.8   & 191.4  & 195$\\pm$10  \\\\"
+        },
+        {
+          "line": 1492,
+          "text": "NGC\\,5236      &      361        &  17.0          & 2454$^+$ & ---        &510.0 & ---    & 200.8   & 273.8  & ---         \\\\"
+        },
+        {
+          "line": 1493,
+          "text": "NGC\\,5457      &     1102        & 141.7          & 1811$^+$ &1572$\\pm$42  &226.5 & 231    & 169.6   & 199.0  & 200$\\pm$7   \\\\"
+        },
+        {
+          "line": 1494,
+          "text": "NGC\\,6946      &      506        &  41.5          & 1336$^+$ &---          &43.3  & ---    & 221.4   & 239.7  & ---         \\\\"
+        },
+        {
+          "line": 1495,
+          "text": "NGC\\,7331      &      179        &  91.3          & 144    & 218$\\pm$27   &815.6 & 819    & 498.6   & 519.8  & 531$\\pm$10  \\\\"
+        },
+        {
+          "line": 1496,
+          "text": "NGC\\,7793      &      246        &   8.88         & 197    & 271$\\pm$13   &227.2 & 231    & 176.5   & 191.1  & 194$\\pm$7   \\\\"
+        },
+        {
+          "line": 1497,
+          "text": "\\enddata"
+        },
+        {
+          "line": 1498,
+          "text": "\\tablecomments{Notes on columns:\\\\Derived HI fluxes, masses and"
+        },
+        {
+          "line": 1499,
+          "text": "  velocity widths.\\\\"
+        },
+        {
+          "line": 1500,
+          "text": "  {\\em Column 1:} Galaxy name,\\\\"
+        },
+        {
+          "line": 1501,
+          "text": "  {\\em Column 2:} THINGS \\hi\\ flux. The total uncertainty is dominated by the accuracy of the flux calibration (of order 5\\%).\\\\"
+        },
+        {
+          "line": 1502,
+          "text": "  {\\em Column 3:} THINGS \\hi\\ mass,\\\\"
+        },
+        {
+          "line": 1503,
+          "text": "  {\\em Column 4:} Single dish \\hi\\ flux compiled from the literature"
+        },
+        {
+          "line": 1504,
+          "text": "  by Paturel et al.\\ (2003).  Values with $^+$ indicate that galaxies"
+        },
+        {
+          "line": 1505,
+          "text": "  are more extended than the"
+        },
+        {
+          "line": 1506,
+          "text": "  area (primary beam) mapped by us.\\\\"
+        },
+        {
+          "line": 1507,
+          "text": "  {\\em Column 5:} Single dish \\hi flux from Fisher \\& Tully 1981,\\\\"
+        },
+        {
+          "line": 1508,
+          "text": "  {\\em Column 6:} Velocity of the HI spectra, derived from the central velocity of the 20\\% level of the HI profile (column 9). A typical uncertainty is the width of one velocity channel (Tab.~2). \\\\"
+        },
+        {
+          "line": 1509,
+          "text": "  {\\em Column 7:} Heliocentric velocities from Fisher \\& Tully 1981,\\\\"
+        },
+        {
+          "line": 1510,
+          "text": "  {\\em Column 8:} Profile width at 50\\% of the peak intensity. A typical uncertainty is the width of one velocity channel (Tab.~2),\\\\"
+        },
+        {
+          "line": 1511,
+          "text": "  {\\em Column 9:} Profile width at 20\\% of the peak intensity. A typical uncertainty is the width of one velocity channel (Tab.~2),\\\\"
+        },
+        {
+          "line": 1512,
+          "text": "  {\\em Column 10:} Profile width at 20\\% of the peak intensity from"
+        },
+        {
+          "line": 1513,
+          "text": "  Fisher \\& Tully 1981.  }"
+        },
+        {
+          "line": 1514,
+          "text": "\\end{deluxetable*}"
+        },
+        {
+          "line": 1515,
+          "text": "\\clearpage"
+        }
+      ]
+    }
+  },
+  "boundary": "Source-table metadata layout only; no science pixels, reconstructed profiles, velocities, residuals, persistence parameters, or blind outcomes."
+}
