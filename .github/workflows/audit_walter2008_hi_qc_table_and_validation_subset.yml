@@ -1,0 +1,29 @@
+name: Audit Walter HI QC table and validation subset
+on:
+  push:
+    paths:
+      - 'scripts/stationary/audit_walter2008_hi_qc_table_and_validation_subset.py'
+      - '.github/workflows/audit_walter2008_hi_qc_table_and_validation_subset.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/audit_walter2008_hi_qc_table_and_validation_subset.py
+      - name: Commit audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/walter2008_hi_qc_table_and_validation_subset_v1.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Audit Walter HI QC table and validation subset'
+          git pull --rebase origin main
+          git push origin HEAD:main
