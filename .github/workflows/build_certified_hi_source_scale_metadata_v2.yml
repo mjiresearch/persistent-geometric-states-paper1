@@ -1,0 +1,29 @@
+name: Build certified HI source scale metadata v2
+on:
+  push:
+    paths:
+      - 'scripts/stationary/build_certified_hi_source_scale_metadata_v2.py'
+      - '.github/workflows/build_certified_hi_source_scale_metadata_v2.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/build_certified_hi_source_scale_metadata_v2.py
+      - name: Commit metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/certified_hi_source_scale_metadata_v2.csv validation/stationary/certified_hi_source_scale_metadata_v2_summary.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Build certified HI source scale metadata v2'
+          git pull --rebase origin main
+          git push origin HEAD:main
