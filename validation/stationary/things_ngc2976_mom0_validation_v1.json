@@ -1,0 +1,276 @@
+{
+  "status": "THINGS_NGC2976_MOM0_VALIDATION_FAIL",
+  "galaxy": "NGC2976",
+  "stationary_role": "calibration",
+  "protocol": "validation/stationary/THINGS_MOM0_PROFILE_RECONSTRUCTION_PROTOCOL_V1.md",
+  "source": {
+    "url": "https://things.www3.mpia.de/Data_files/NGC_2976_NA_MOM0_THINGS.FITS",
+    "bytes": 4242240,
+    "sha256": "b4f8b1cdc68b1b5724c9930385c760cc9d2fa1dbac7c994e28508467ccf76878",
+    "bunit": "JY/B*M/S",
+    "shape": [
+      1024,
+      1024
+    ]
+  },
+  "source_metadata": {
+    "ra_deg": 146.81375,
+    "dec_deg": 67.91666666666667,
+    "distance_mpc": 3.6,
+    "inclination_deg": 65.0,
+    "pa_deg": 335.0,
+    "beam_major_arcsec": 7.41,
+    "beam_minor_arcsec": 6.42,
+    "beam_pa_deg": 71.8,
+    "published_flux_jy_kms": 45.4,
+    "published_mhi_1e8_msun": 1.36,
+    "wang_dhi_kpc": 5.28,
+    "wang_distance_mpc": 3.6,
+    "wang_raw_line": "NGC2976      5.28  8.14   3.6 -42.0 0.84  -17.25  6.28 THINGS        this work",
+    "walter_geometry_line": 935,
+    "walter_beam_line": 1340,
+    "walter_flux_line": 1474
+  },
+  "blank_semantics": {
+    "exact_zero": 945833,
+    "boundary_connected_zero": 944652,
+    "boundary_connected_fraction": 0.998751365198719,
+    "all_border_zero": true,
+    "negative_nonzero": 7230,
+    "zero_as_blank_supported": true
+  },
+  "conversion": {
+    "sigma_hi_raw_per_mom0": 0.07854800596417101,
+    "helium_factor_applied": 0
+  },
+  "profile": {
+    "n_annuli_total": 355,
+    "n_annuli_usable_contiguous": 48,
+    "max_usable_radius_kpc": 5.778235298401927,
+    "interior_missing": false,
+    "csv": "data/stationary/source_reconstruction/things_ngc2976_mom0_reconstructed_raw_hi_v1.csv"
+  },
+  "gates": {
+    "overlap_profile_amplitude": {
+      "threshold": 0.15,
+      "n_independent_samples": 25,
+      "median_abs_fractional_difference": 0.05356401539327481,
+      "pass": true,
+      "samples": [
+        {
+          "r_kpc": 0.1805698530750602,
+          "reconstructed_raw_hi": 4.932757621010678,
+          "leroy_raw_hi_interp": 4.956091857748183,
+          "ratio": 0.9952918070513512,
+          "abs_fractional_difference": 0.004708192948648722
+        },
+        {
+          "r_kpc": 0.30094975512510036,
+          "reconstructed_raw_hi": 5.190919762974619,
+          "leroy_raw_hi_interp": 5.001396698713382,
+          "ratio": 1.0378940275443442,
+          "abs_fractional_difference": 0.03789402754434412
+        },
+        {
+          "r_kpc": 0.4213296571751405,
+          "reconstructed_raw_hi": 4.975574087608983,
+          "leroy_raw_hi_interp": 5.170584180707875,
+          "ratio": 0.9622847078234409,
+          "abs_fractional_difference": 0.03771529217655912
+        },
+        {
+          "r_kpc": 0.5417095592251806,
+          "reconstructed_raw_hi": 4.7331129470594115,
+          "leroy_raw_hi_interp": 5.303356131498361,
+          "ratio": 0.8924750346196649,
+          "abs_fractional_difference": 0.1075249653803351
+        },
+        {
+          "r_kpc": 0.6620894612752207,
+          "reconstructed_raw_hi": 5.123342932385889,
+          "leroy_raw_hi_interp": 5.413301074467074,
+          "ratio": 0.9464359846067252,
+          "abs_fractional_difference": 0.05356401539327481
+        },
+        {
+          "r_kpc": 0.7824693633252608,
+          "reconstructed_raw_hi": 5.450329933706338,
+          "leroy_raw_hi_interp": 5.501815708327397,
+          "ratio": 0.9906420394010778,
+          "abs_fractional_difference": 0.00935796059892225
+        },
+        {
+          "r_kpc": 0.9028492653753011,
+          "reconstructed_raw_hi": 5.474612189372545,
+          "leroy_raw_hi_interp": 5.628142572105111,
+          "ratio": 0.9727209499820576,
+          "abs_fractional_difference": 0.027279050017942428
+        },
+        {
+          "r_kpc": 1.023229167425341,
+          "reconstructed_raw_hi": 5.5309898815022045,
+          "leroy_raw_hi_interp": 5.7523743878127505,
+          "ratio": 0.9615142389237422,
+          "abs_fractional_difference": 0.03848576107625775
+        },
+        {
+          "r_kpc": 1.1436090694753813,
+          "reconstructed_raw_hi": 5.87649640637984,
+          "leroy_raw_hi_interp": 5.792790783281109,
+          "ratio": 1.0144499648322045,
+          "abs_fractional_difference": 0.014449964832204601
+        },
+        {
+          "r_kpc": 1.2639889715254213,
+          "reconstructed_raw_hi": 6.653956385912725,
+          "leroy_raw_hi_interp": 5.748533466350947,
+          "ratio": 1.1575050271276444,
+          "abs_fractional_difference": 0.1575050271276444
+        },
+        {
+          "r_kpc": 1.3843688735754616,
+          "reconstructed_raw_hi": 6.764904271675354,
+          "leroy_raw_hi_interp": 5.611222244741968,
+          "ratio": 1.2056026257050239,
+          "abs_fractional_difference": 0.20560262570502377
+        },
+        {
+          "r_kpc": 1.5047487756255018,
+          "reconstructed_raw_hi": 6.597753806573486,
+          "leroy_raw_hi_interp": 5.428955356846135,
+          "ratio": 1.2152897515087222,
+          "abs_fractional_difference": 0.2152897515087223
+        },
+        {
+          "r_kpc": 1.6251286776755418,
+          "reconstructed_raw_hi": 6.411106687292837,
+          "leroy_raw_hi_interp": 5.119154138335002,
+          "ratio": 1.252376176619296,
+          "abs_fractional_difference": 0.25237617661929607
+        },
+        {
+          "r_kpc": 1.745508579725582,
+          "reconstructed_raw_hi": 5.360638256517983,
+          "leroy_raw_hi_interp": 4.62531086946306,
+          "ratio": 1.1589790195313479,
+          "abs_fractional_difference": 0.1589790195313478
+        },
+        {
+          "r_kpc": 1.865888481775622,
+          "reconstructed_raw_hi": 4.384975114374546,
+          "leroy_raw_hi_interp": 4.022468817001389,
+          "ratio": 1.0901203499306162,
+          "abs_fractional_difference": 0.0901203499306162
+        },
+        {
+          "r_kpc": 1.9862683838256623,
+          "reconstructed_raw_hi": 3.7621698156537264,
+          "leroy_raw_hi_interp": 3.5798956476997708,
+          "ratio": 1.0509160561903736,
+          "abs_fractional_difference": 0.05091605619037367
+        },
+        {
+          "r_kpc": 2.106648285875702,
+          "reconstructed_raw_hi": 2.8941254561525938,
+          "leroy_raw_hi_interp": 3.137322478398154,
+          "ratio": 0.9224826188827961,
+          "abs_fractional_difference": 0.0775173811172039
+        },
+        {
+          "r_kpc": 2.2270281879257428,
+          "reconstructed_raw_hi": 2.2875092186867154,
+          "leroy_raw_hi_interp": 2.714622976688992,
+          "ratio": 0.8426618496675274,
+          "abs_fractional_difference": 0.15733815033247256
+        },
+        {
+          "r_kpc": 2.347408089975783,
+          "reconstructed_raw_hi": 1.8795496270564984,
+          "leroy_raw_hi_interp": 2.3605644412476967,
+          "ratio": 0.7962288994165506,
+          "abs_fractional_difference": 0.20377110058344933
+        },
+        {
+          "r_kpc": 2.4677879920258228,
+          "reconstructed_raw_hi": 1.6303175351296453,
+          "leroy_raw_hi_interp": 1.8569735704553236,
+          "ratio": 0.8779433165168296,
+          "abs_fractional_difference": 0.12205668348317045
+        },
+        {
+          "r_kpc": 2.588167894075863,
+          "reconstructed_raw_hi": 1.5032036409338605,
+          "leroy_raw_hi_interp": 1.5291031358899576,
+          "ratio": 0.9830622968796521,
+          "abs_fractional_difference": 0.016937703120347914
+        },
+        {
+          "r_kpc": 2.7085477961259032,
+          "reconstructed_raw_hi": 1.360855724596383,
+          "leroy_raw_hi_interp": 1.3109591233442601,
+          "ratio": 1.0380611419254908,
+          "abs_fractional_difference": 0.03806114192549083
+        },
+        {
+          "r_kpc": 2.828927698175943,
+          "reconstructed_raw_hi": 1.218389710762414,
+          "leroy_raw_hi_interp": 1.133929855623613,
+          "ratio": 1.0744841973424817,
+          "abs_fractional_difference": 0.07448419734248167
+        },
+        {
+          "r_kpc": 2.9493076002259833,
+          "reconstructed_raw_hi": 1.0245148048245436,
+          "leroy_raw_hi_interp": 0.9750283821036948,
+          "ratio": 1.0507538279184019,
+          "abs_fractional_difference": 0.05075382791840196
+        },
+        {
+          "r_kpc": 3.069687502276023,
+          "reconstructed_raw_hi": 0.83904021590995,
+          "leroy_raw_hi_interp": 0.8422564313132099,
+          "ratio": 0.996181429688527,
+          "abs_fractional_difference": 0.003818570311473084
+        }
+      ]
+    },
+    "overlap_annular_hi_mass": {
+      "threshold": 0.1,
+      "range_kpc": [
+        0.1,
+        3.1
+      ],
+      "reconstructed_msun": 99007676.79949477,
+      "published_leroy_msun": 94965416.58292495,
+      "fractional_difference": 0.042565602953366456,
+      "pass": true
+    },
+    "global_hi_flux": {
+      "threshold": 0.1,
+      "reconstructed_jy_kms": 45.3967793626098,
+      "published_walter_jy_kms": 45.4,
+      "fractional_difference": 7.093914956387564e-05,
+      "pass": true
+    },
+    "hi_radial_extent": {
+      "published_wang_rhi_kpc": 2.64,
+      "reconstructed_rhi_kpc": 2.9652186197398924,
+      "absolute_difference_kpc": 0.3252186197398923,
+      "fractional_difference": 0.12318887111359557,
+      "beam_kpc": 0.12037990205004014,
+      "tolerance_kpc": 0.264,
+      "pass": false
+    },
+    "no_systematic_radial_drift": {
+      "threshold": 0.15,
+      "inner_median_ratio": 0.9929669232262145,
+      "outer_median_ratio": 1.017121285807009,
+      "absolute_ratio_difference": 0.024154362580794397,
+      "pass": true
+    }
+  },
+  "n_gates_pass": 4,
+  "n_gates_fail": 1,
+  "all_five_gates_pass": false,
+  "boundary": "Calibration/source-profile validation only. No rotation velocities, residuals, L_A, C_A, tau_A, persistence prediction, or blind outcomes evaluated."
+}
