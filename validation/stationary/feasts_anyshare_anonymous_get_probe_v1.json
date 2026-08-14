@@ -1,0 +1,50 @@
+{
+  "status": "FEASTS_ANYSHARE_ANONYMOUS_READONLY_PROBE",
+  "link_id": "AAF401EFBFF9A2493CAA7678F24E9BCF28",
+  "endpoint": "https://disk.pku.edu.cn/api/shared-link/v1/document/anonymous/AAF401EFBFF9A2493CAA7678F24E9BCF28",
+  "requests": [
+    {
+      "method": "OPTIONS",
+      "status": 204,
+      "final_url": "https://disk.pku.edu.cn/api/shared-link/v1/document/anonymous/AAF401EFBFF9A2493CAA7678F24E9BCF28",
+      "headers": {
+        "Date": "Fri, 14 Aug 2026 11:38:54 GMT",
+        "Connection": "close",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Access-Control-Expose-Headers": "Location",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,HEAD,OPTIONS",
+        "Access-Control-Allow-Headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,Location,pragma,X-Language",
+        "Access-Control-Max-Age": "1728000",
+        "Content-Length": "0"
+      },
+      "body_text": ""
+    },
+    {
+      "method": "GET",
+      "status": 401,
+      "headers": {
+        "Date": "Fri, 14 Aug 2026 11:38:55 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "67",
+        "Connection": "close",
+        "Set-Cookie": "INGRESSCOOKIE=1786707536.195.115.339672|ba18fa1efdb9e896d98db129f836f6bd; Max-Age=1800; Path=/api/shared-link/v1/document; Secure; HttpOnly",
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "Access-Control-Expose-Headers": "Location",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,HEAD,OPTIONS",
+        "Access-Control-Allow-Headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,Location,pragma,X-Language",
+        "Access-Control-Max-Age": "1728000"
+      },
+      "body_text": "{\"cause\":\"token expired\",\"code\":401000000,\"message\":\"\u6388\u6743\u65e0\u6548\"}",
+      "json": {
+        "cause": "token expired",
+        "code": 401000000,
+        "message": "\u6388\u6743\u65e0\u6548"
+      }
+    }
+  ],
+  "boundary": "Read-only public anonymous-share protocol probe only; no PUT, DELETE, authentication bypass, private data, or science outcomes."
+}
