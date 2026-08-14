@@ -1,0 +1,49 @@
+{
+  "status": "NORMALIZATION_READY_PROFILE_COVERAGE_AUDITED",
+  "n_galaxies": 4,
+  "galaxies": [
+    {
+      "galaxy": "CamB",
+      "stationary_role": "calibration",
+      "profile_kind": "analytic",
+      "rotation_rmin_kpc": 0.16,
+      "rotation_rmax_kpc": 1.79,
+      "coverage_status": "analytic_defined_on_rotation_grid"
+    },
+    {
+      "galaxy": "KK98-251",
+      "stationary_role": "calibration",
+      "profile_kind": "analytic",
+      "rotation_rmin_kpc": 0.25,
+      "rotation_rmax_kpc": 3.13,
+      "coverage_status": "analytic_defined_on_rotation_grid"
+    },
+    {
+      "galaxy": "NGC0024",
+      "stationary_role": "blind",
+      "profile_kind": "tabulated",
+      "n_profile_rows": 10,
+      "profile_rmin_kpc": 0.5501416194,
+      "profile_rmax_kpc": 13.4482436186,
+      "rotation_rmin_kpc": 0.21,
+      "rotation_rmax_kpc": 11.27,
+      "inner_rotation_covered": false,
+      "outer_rotation_covered": true,
+      "full_rotation_grid_covered": false
+    },
+    {
+      "galaxy": "NGC0289",
+      "stationary_role": "calibration",
+      "profile_kind": "tabulated",
+      "n_profile_rows": 52,
+      "profile_rmin_kpc": 0.74838559,
+      "profile_rmax_kpc": 77.08380888,
+      "rotation_rmin_kpc": 1.5,
+      "rotation_rmax_kpc": 71.12,
+      "inner_rotation_covered": true,
+      "outer_rotation_covered": true,
+      "full_rotation_grid_covered": true
+    }
+  ],
+  "boundary": "Geometry/coverage only. No interpolation applied, no persistence parameters or blind outcomes evaluated."
+}
