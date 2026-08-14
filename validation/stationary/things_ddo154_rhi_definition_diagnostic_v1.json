@@ -1,0 +1,36 @@
+{
+  "status": "THINGS_DDO154_RHI_DEFINITION_DIAGNOSTIC_COMPLETE",
+  "galaxy": "DDO154",
+  "stationary_role": "calibration",
+  "source": {
+    "url": "https://things.www3.mpia.de/Data_files/DDO154_NA_MOM0_THINGS.FITS",
+    "bytes": 4242240,
+    "sha256": "49d84c9f3e9efa826ecf3c03fdba7bac4e22b627f3e5f704efe703b389031a7c"
+  },
+  "threshold_raw_hi_msun_pc2": 1.0,
+  "conversion": {
+    "sigma_hi_raw_per_mom0": 0.020224746788187125,
+    "inclination_deg": 66.0,
+    "pixel_arcsec": 1.50000003648,
+    "pixel_projected_kpc2": 0.000977843119065107
+  },
+  "annular_profile_crossings_kpc": [
+    5.630454659202054
+  ],
+  "n_annular_crossings": 1,
+  "isodensity_area": {
+    "n_above_threshold_pixels_all": 41337,
+    "faceon_area_kpc2_all": 99.37904956662923,
+    "equivalent_radius_kpc_all": 5.624351869914172,
+    "n_connected_components": 8,
+    "n_pixels_largest_component": 40801,
+    "equivalent_radius_kpc_largest_component": 5.587768555687142
+  },
+  "oman2019_things_rhi_kpc": 4.5,
+  "fractional_differences_to_oman": {
+    "annular": 0.25121214648934537,
+    "area_all": 0.24985597109203816,
+    "area_largest": 0.2417263457082538
+  },
+  "boundary": "Calibration/source-domain R_HI-definition diagnostic only; no velocities, residuals, persistence parameters, or blind outcomes."
+}
