@@ -1,0 +1,241 @@
+{
+  "status": "FEASTS2025_FROZEN_SPARC_CROSSMATCH_COMPLETE",
+  "n_feasts_profiles": 35,
+  "n_frozen_matches": 7,
+  "n_unmatched": 28,
+  "n_already_certified_matches": 4,
+  "n_candidate_new_public_profiles": 3,
+  "candidate_role_counts": {
+    "calibration": 2,
+    "blind": 1
+  },
+  "matches": [
+    {
+      "feasts_name": "NGC2841",
+      "frozen_galaxy": "NGC2841",
+      "stationary_role": "calibration",
+      "effective_status": "raw_source_profile_ingested",
+      "already_certified": true,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Leroy et al. 2008 / THINGS",
+      "candidate_new_public_profile": false
+    },
+    {
+      "feasts_name": "NGC2903",
+      "frozen_galaxy": "NGC2903",
+      "stationary_role": "calibration",
+      "effective_status": "vector_profile_candidate_recovered",
+      "already_certified": false,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Begeman 1987 / Hoekstra van Albada & Sancisi 2001 vector republication",
+      "candidate_new_public_profile": true
+    },
+    {
+      "feasts_name": "NGC3198",
+      "frozen_galaxy": "NGC3198",
+      "stationary_role": "calibration",
+      "effective_status": "raw_source_profile_ingested",
+      "already_certified": true,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Leroy et al. 2008 / THINGS",
+      "candidate_new_public_profile": false
+    },
+    {
+      "feasts_name": "NGC3521",
+      "frozen_galaxy": "NGC3521",
+      "stationary_role": "blind",
+      "effective_status": "raw_source_profile_ingested",
+      "already_certified": true,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Leroy et al. 2008 / THINGS",
+      "candidate_new_public_profile": false
+    },
+    {
+      "feasts_name": "NGC4559",
+      "frozen_galaxy": "NGC4559",
+      "stationary_role": "calibration",
+      "effective_status": "available_nonpublic_request_required",
+      "already_certified": false,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "0",
+      "effective_public_source_family": "",
+      "candidate_new_public_profile": true
+    },
+    {
+      "feasts_name": "NGC5033",
+      "frozen_galaxy": "NGC5033",
+      "stationary_role": "blind",
+      "effective_status": "vector_profile_candidate_recovered",
+      "already_certified": false,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Begeman 1987 / Hoekstra van Albada & Sancisi 2001 vector republication",
+      "candidate_new_public_profile": true
+    },
+    {
+      "feasts_name": "NGC5055",
+      "frozen_galaxy": "NGC5055",
+      "stationary_role": "blind",
+      "effective_status": "raw_source_profile_ingested",
+      "already_certified": true,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Leroy et al. 2008 / THINGS",
+      "candidate_new_public_profile": false
+    }
+  ],
+  "candidate_new_public_profiles": [
+    {
+      "feasts_name": "NGC2903",
+      "frozen_galaxy": "NGC2903",
+      "stationary_role": "calibration",
+      "effective_status": "vector_profile_candidate_recovered",
+      "already_certified": false,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Begeman 1987 / Hoekstra van Albada & Sancisi 2001 vector republication",
+      "candidate_new_public_profile": true
+    },
+    {
+      "feasts_name": "NGC4559",
+      "frozen_galaxy": "NGC4559",
+      "stationary_role": "calibration",
+      "effective_status": "available_nonpublic_request_required",
+      "already_certified": false,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "0",
+      "effective_public_source_family": "",
+      "candidate_new_public_profile": true
+    },
+    {
+      "feasts_name": "NGC5033",
+      "frozen_galaxy": "NGC5033",
+      "stationary_role": "blind",
+      "effective_status": "vector_profile_candidate_recovered",
+      "already_certified": false,
+      "expected_in_169_profile_compilation": "1",
+      "public_overlay_present": "1",
+      "effective_public_source_family": "Begeman 1987 / Hoekstra van Albada & Sancisi 2001 vector republication",
+      "candidate_new_public_profile": true
+    }
+  ],
+  "unmatched": [
+    {
+      "feasts_name": "NGC2541",
+      "canonical": "NGC2541"
+    },
+    {
+      "feasts_name": "NGC3169",
+      "canonical": "NGC3169"
+    },
+    {
+      "feasts_name": "NGC3338",
+      "canonical": "NGC3338"
+    },
+    {
+      "feasts_name": "NGC3344",
+      "canonical": "NGC3344"
+    },
+    {
+      "feasts_name": "NGC3486",
+      "canonical": "NGC3486"
+    },
+    {
+      "feasts_name": "NGC3718",
+      "canonical": "NGC3718"
+    },
+    {
+      "feasts_name": "NGC4214",
+      "canonical": "NGC4214"
+    },
+    {
+      "feasts_name": "NGC4254",
+      "canonical": "NGC4254"
+    },
+    {
+      "feasts_name": "NGC4414",
+      "canonical": "NGC4414"
+    },
+    {
+      "feasts_name": "NGC4449",
+      "canonical": "NGC4449"
+    },
+    {
+      "feasts_name": "NGC4490",
+      "canonical": "NGC4490"
+    },
+    {
+      "feasts_name": "NGC4532",
+      "canonical": "NGC4532"
+    },
+    {
+      "feasts_name": "NGC4725",
+      "canonical": "NGC4725"
+    },
+    {
+      "feasts_name": "NGC5194",
+      "canonical": "NGC5194"
+    },
+    {
+      "feasts_name": "NGC5457",
+      "canonical": "NGC5457"
+    },
+    {
+      "feasts_name": "NGC628",
+      "canonical": "NGC628"
+    },
+    {
+      "feasts_name": "NGC672",
+      "canonical": "NGC672"
+    },
+    {
+      "feasts_name": "NGC864",
+      "canonical": "NGC864"
+    },
+    {
+      "feasts_name": "NGC4303",
+      "canonical": "NGC4303"
+    },
+    {
+      "feasts_name": "NGC4496",
+      "canonical": "NGC4496"
+    },
+    {
+      "feasts_name": "NGC5248",
+      "canonical": "NGC5248"
+    },
+    {
+      "feasts_name": "NGC4395",
+      "canonical": "NGC4395"
+    },
+    {
+      "feasts_name": "NGC3368",
+      "canonical": "NGC3368"
+    },
+    {
+      "feasts_name": "NGC5474",
+      "canonical": "NGC5474"
+    },
+    {
+      "feasts_name": "SexB",
+      "canonical": "SEXB"
+    },
+    {
+      "feasts_name": "IC1727",
+      "canonical": "IC1727"
+    },
+    {
+      "feasts_name": "NGC4618",
+      "canonical": "NGC4618"
+    },
+    {
+      "feasts_name": "NGC4536",
+      "canonical": "NGC4536"
+    }
+  ],
+  "boundary": "Acquisition/provenance cross-match only. No profile promotion, persistence quantities, or blind outcomes. Certified count is unchanged by this audit."
+}
