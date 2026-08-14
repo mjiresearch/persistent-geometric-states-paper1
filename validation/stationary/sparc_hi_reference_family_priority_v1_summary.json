@@ -3,25 +3,9 @@
   "n_frozen_galaxies": 149,
   "n_untouched_no_public_overlay": 88,
   "n_reference_families_covering_untouched": 35,
-  "n_actionable_reference_families": 2,
-  "n_deferred_or_redirected_reference_families": 33,
+  "n_actionable_reference_families": 1,
+  "n_deferred_or_redirected_reference_families": 34,
   "top_15_actionable_reference_families": [
-    {
-      "sparc_ref_id": "Rh96",
-      "n_untouched_frozen_galaxies": 1,
-      "n_calibration": 0,
-      "n_blind": 1,
-      "queue_actionable_now": "1",
-      "queue_status": "actionable_unreviewed",
-      "disposition": "",
-      "disposition_artifact": "",
-      "reopen_rule": "",
-      "reference_resolved_in_cds_refs": "1",
-      "author": "Rhee and vanAlbada",
-      "bibcode": "1996A&AS..115..407R",
-      "comment": "Cat. J/A+AS/115/407",
-      "galaxies": "NGC0100"
-    },
     {
       "sparc_ref_id": "Ri15",
       "n_untouched_frozen_galaxies": 1,
@@ -567,38 +551,25 @@
       "bibcode": "1991AJ....101..447P",
       "comment": "",
       "galaxies": "NGC0055"
+    },
+    {
+      "sparc_ref_id": "Rh96",
+      "n_untouched_frozen_galaxies": 1,
+      "n_calibration": 0,
+      "n_blind": 1,
+      "queue_actionable_now": "0",
+      "queue_status": "defer_until_new_mechanism",
+      "disposition": "NGC0100_Rhee1996_publishes_radial_HI_surface_density_but_CDS_deposit_contains_only_six_summary_tables_and_no_exact_NGC100_profile_asset",
+      "disposition_artifact": "validation/stationary/rh96_ngc0100_public_profile_route_v1.json",
+      "reopen_rule": "reopen_for_machine_readable_radial_HI_series_source_native_vector_republication_or_public_calibrated_WSRT_map_cube_under_predeclared_reconstruction_protocol",
+      "reference_resolved_in_cds_refs": "1",
+      "author": "Rhee and vanAlbada",
+      "bibcode": "1996A&AS..115..407R",
+      "comment": "Cat. J/A+AS/115/407",
+      "galaxies": "NGC0100"
     }
   ],
-  "live_family_public_route_probe": {
-    "status": "RH96_CDS_ARCHIVE_PROBED",
-    "base": "https://cdsarc.cds.unistra.fr/ftp/J/A+AS/115/407/",
-    "listings": [
-      {
-        "url": "https://cdsarc.cds.unistra.fr/ftp/J/A+AS/115/407/",
-        "final_url": "https://cdsarc.cds.unistra.fr/ftp/J/A+AS/115/407/",
-        "hrefs": [
-          "http://vizier.cds.unistra.fr/cgi-bin/VizieR?-source=J/A+AS/115/407",
-          "/ftp/J/A+AS/115",
-          "+footg5.gif",
-          "+footg5.png",
-          "+footg8.gif",
-          "+footg8.png",
-          "ReadMe",
-          "table1",
-          "table2",
-          "table3",
-          "table4",
-          "table5",
-          "table6"
-        ],
-        "ngc100_like": []
-      },
-      {
-        "url": "https://cdsarc.cds.unistra.fr/ftp/J/A+AS/115/407/img/",
-        "error": "<HTTPError 404: 'Not Found'>"
-      }
-    ]
-  },
+  "live_family_public_route_probe": null,
   "interpretation": "Coverage and actionability are separated; audited or explicitly pending source families do not block the next live acquisition family.",
   "boundary": "Acquisition priority only; no profile normalization, persistence fitting, or blind-outcome inspection."
 }
