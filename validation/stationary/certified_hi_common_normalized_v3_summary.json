@@ -1,0 +1,38 @@
+{
+  "status": "CERTIFIED_HI_COMMON_NORMALIZED_V3_BUILT",
+  "n_certified_galaxies": 31,
+  "n_tabulated_galaxies": 24,
+  "n_analytic_galaxies": 7,
+  "n_tabulated_rows": 670,
+  "n_source_missing_rows_excluded": 13,
+  "missing_rows_excluded_by_galaxy": {
+    "NGC2841": 5,
+    "NGC2976": 8
+  },
+  "n_numerical_tolerance_adjustments": 1,
+  "numerical_tolerance_adjustments": [
+    {
+      "galaxy": "NGC5907",
+      "sample_index": 0,
+      "source_radius_kpc": -2.694e-06,
+      "tolerance_kpc": 1.1063210024531145e-05,
+      "normalized_source_radius_kpc": 0.0
+    }
+  ],
+  "tabulated_role_counts": {
+    "calibration": 17,
+    "blind": 7
+  },
+  "analytic_role_counts": {
+    "calibration": 6,
+    "blind": 1
+  },
+  "outputs": [
+    "data/stationary/source_reconstruction/certified_hi_common_tabulated_v3.csv",
+    "data/stationary/source_reconstruction/certified_hi_common_analytic_v3.csv"
+  ],
+  "normalization_policy": "validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md",
+  "missing_value_policy": "validation/stationary/STATIONARY_HI_MISSING_VALUE_POLICY_V1.md",
+  "numerical_tolerance_policy": "validation/stationary/STATIONARY_HI_NUMERICAL_TOLERANCE_POLICY_V1.md",
+  "boundary": "Normalization only; no interpolation, source-current evaluation, L_A, C_A, tau_A, persistence prediction, or blind outcome evaluated."
+}
