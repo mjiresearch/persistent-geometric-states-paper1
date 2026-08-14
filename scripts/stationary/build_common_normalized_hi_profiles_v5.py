@@ -16,7 +16,6 @@ from collections import Counter
 import csv
 import json
 from pathlib import Path
-import shutil
 
 
 MAN = Path("data/stationary/source_reconstruction/certified_hi_normalization_manifest_v3.csv")
@@ -133,14 +132,24 @@ def main() -> None:
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(output_rows)
-    shutil.copyfile(BASE_ANA, OUT_ANA)
+    with OUT_ANA.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=list(base_analytic[0]),
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        writer.writerows(base_analytic)
 
     all_galaxies = {row["galaxy"] for row in output_rows} | {
         row["galaxy"] for row in base_analytic
     }
     roles = Counter(manifest_by_galaxy[galaxy]["stationary_role"] for galaxy in all_galaxies)
-    if len(all_galaxies) != 34 or roles != Counter({"calibration": 25, "blind": 9}):
-        raise RuntimeError(f"unexpected certified set: n={len(all_galaxies)} roles={dict(roles)}")
+    role_counts = {"calibration": roles["calibration"], "blind": roles["blind"]}
+    if len(all_galaxies) != 34 or role_counts != {"calibration": 25, "blind": 9}:
+        raise RuntimeError(
+            f"unexpected certified set: n={len(all_galaxies)} roles={role_counts}"
+        )
     if len(all_galaxies) != len(manifest_by_galaxy):
         raise RuntimeError(
             f"normalized galaxy count {len(all_galaxies)} != manifest {len(manifest_by_galaxy)}"
@@ -154,7 +163,7 @@ def main() -> None:
         "n_certified_galaxies": len(all_galaxies),
         "n_tabulated_galaxies": len({row["galaxy"] for row in output_rows}),
         "n_analytic_galaxies": len({row["galaxy"] for row in base_analytic}),
-        "role_counts": dict(roles),
+        "role_counts": role_counts,
         "n_tabulated_rows": len(output_rows),
         "outputs": [str(OUT_TAB), str(OUT_ANA)],
         "normalization_policy": "validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md",

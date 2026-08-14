@@ -11,8 +11,8 @@
   "n_tabulated_galaxies": 27,
   "n_analytic_galaxies": 7,
   "role_counts": {
-    "blind": 9,
-    "calibration": 25
+    "calibration": 25,
+    "blind": 9
   },
   "n_tabulated_rows": 781,
   "outputs": [
