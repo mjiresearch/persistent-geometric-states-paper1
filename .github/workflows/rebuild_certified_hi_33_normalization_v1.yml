@@ -1,0 +1,33 @@
+name: Rebuild certified H I 33 normalization v1
+on:
+  push:
+    paths:
+      - 'scripts/stationary/build_certified_hi_normalization_manifest_v2.py'
+      - 'scripts/stationary/build_common_normalized_hi_profiles_v4.py'
+      - 'scripts/stationary/audit_certified_hi_full_radial_coverage_v2.py'
+      - '.github/workflows/rebuild_certified_hi_33_normalization_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/audit_certified_hi_profile_schemas.py
+      - run: python scripts/stationary/build_certified_hi_normalization_manifest_v2.py
+      - run: python scripts/stationary/build_common_normalized_hi_profiles_v4.py
+      - run: python scripts/stationary/audit_certified_hi_full_radial_coverage_v2.py
+      - name: Commit normalization and coverage products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/certified_hi_profile_schema_audit_v1.json data/stationary/source_reconstruction/certified_hi_normalization_manifest_v2.csv validation/stationary/certified_hi_normalization_manifest_v2_summary.json data/stationary/source_reconstruction/certified_hi_common_tabulated_v4.csv data/stationary/source_reconstruction/certified_hi_common_analytic_v4.csv validation/stationary/certified_hi_common_normalized_v4_summary.json validation/stationary/certified_hi_full_radial_coverage_v2.csv validation/stationary/certified_hi_full_radial_coverage_v2_summary.json
+          git commit -m 'Rebuild common H I normalization for 33 certified profiles'
+          for attempt in 1 2 3; do git pull --rebase origin main; if git push origin HEAD:main; then exit 0; fi; sleep 2; done
+          exit 1
