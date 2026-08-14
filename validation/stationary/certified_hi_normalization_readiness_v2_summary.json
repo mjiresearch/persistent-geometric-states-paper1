@@ -1,0 +1,38 @@
+{
+  "status": "CERTIFIED_HI_NORMALIZATION_READINESS_V2_AUDITED",
+  "n_certified": 31,
+  "n_normalization_ready": 12,
+  "ready_role_counts": {
+    "calibration": 10,
+    "blind": 2
+  },
+  "n_helium_metadata_ready": 31,
+  "not_normalization_ready": [
+    "DDO154",
+    "F568-3",
+    "F568-V1",
+    "F574-1",
+    "F583-1",
+    "F583-4",
+    "IC2574",
+    "NGC2403",
+    "NGC2841",
+    "NGC2976",
+    "NGC3198",
+    "NGC3521",
+    "NGC5055",
+    "NGC5907",
+    "NGC6946",
+    "NGC7331",
+    "NGC7793",
+    "UGC09037",
+    "UGC12506"
+  ],
+  "mapping_method_counts": {
+    "analytic_angular_scale_times_frozen_distance": 2,
+    "angular_radius_times_frozen_distance": 8,
+    "explicit_frozen_radius": 2,
+    "missing_source_scale_metadata": 19
+  },
+  "boundary": "Metadata/readiness audit only. Frozen distance comes only from stationary_master_v1; no interpolation, persistence parameters, or blind outcomes evaluated."
+}
