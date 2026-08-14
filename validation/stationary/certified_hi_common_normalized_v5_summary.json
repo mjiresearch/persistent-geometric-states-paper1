@@ -1,0 +1,25 @@
+{
+  "status": "CERTIFIED_HI_COMMON_NORMALIZED_V5_BUILT",
+  "v4_baseline_galaxies": 33,
+  "new_galaxies": [
+    "NGC5033"
+  ],
+  "new_rows": {
+    "NGC5033": 50
+  },
+  "n_certified_galaxies": 34,
+  "n_tabulated_galaxies": 27,
+  "n_analytic_galaxies": 7,
+  "role_counts": {
+    "blind": 9,
+    "calibration": 25
+  },
+  "n_tabulated_rows": 781,
+  "outputs": [
+    "data/stationary/source_reconstruction/certified_hi_common_tabulated_v5.csv",
+    "data/stationary/source_reconstruction/certified_hi_common_analytic_v5.csv"
+  ],
+  "normalization_policy": "validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md",
+  "blind_source_protocol": "validation/stationary/FEASTS2025_BLIND_HI_SOURCE_ACQUISITION_PROTOCOL_V1.md",
+  "boundary": "Common source normalization only. No interpolation, continuation, rotation velocity, source-current evaluation, persistence parameter, or blind outcome."
+}

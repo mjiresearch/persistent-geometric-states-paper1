@@ -1,0 +1,110 @@
+{
+  "status": "CERTIFIED_HI_FULL_RADIAL_COVERAGE_V3_AUDITED",
+  "n_profiles": 34,
+  "n_tabulated": 27,
+  "n_analytic": 7,
+  "role_counts": {
+    "calibration": 25,
+    "blind": 9
+  },
+  "coverage_class_counts": {
+    "analytic_defined_on_rotation_grid": 7,
+    "full_measured_support": 7,
+    "inner_and_outer_continuation": 2,
+    "inner_continuation_only": 9,
+    "outer_continuation_only": 9
+  },
+  "n_tabulated_requiring_inner_continuation": 11,
+  "n_tabulated_requiring_outer_continuation": 11,
+  "inner_continuation_galaxies": [
+    "NGC0024",
+    "NGC0300",
+    "NGC2841",
+    "NGC2903",
+    "NGC4559",
+    "NGC5033",
+    "NGC6015",
+    "UGC04483",
+    "UGC07559",
+    "UGC09037",
+    "UGC12506"
+  ],
+  "outer_continuation_galaxies": [
+    "DDO154",
+    "IC2574",
+    "NGC2403",
+    "NGC2841",
+    "NGC3198",
+    "NGC3521",
+    "NGC5055",
+    "NGC6015",
+    "NGC6946",
+    "NGC7331",
+    "NGC7793"
+  ],
+  "feasts_profiles": [
+    {
+      "galaxy": "NGC2903",
+      "stationary_role": "calibration",
+      "profile_kind": "tabulated",
+      "n_rotation_points": 34,
+      "rotation_rmin_kpc": "0.32",
+      "rotation_rmax_kpc": "24.96",
+      "profile_rmin_kpc": "1.4398966329",
+      "profile_rmax_kpc": "41.642445061",
+      "inner_gap_kpc": "1.1198966329",
+      "outer_gap_kpc": "0",
+      "inner_continuation_required": "1",
+      "outer_continuation_required": "0",
+      "coverage_class": "inner_continuation_only"
+    },
+    {
+      "galaxy": "NGC4559",
+      "stationary_role": "calibration",
+      "profile_kind": "tabulated",
+      "n_rotation_points": 32,
+      "rotation_rmin_kpc": "0.67",
+      "rotation_rmax_kpc": "20.97",
+      "profile_rmin_kpc": "1.96349540849",
+      "profile_rmax_kpc": "48.8658664499",
+      "inner_gap_kpc": "1.29349540849",
+      "outer_gap_kpc": "0",
+      "inner_continuation_required": "1",
+      "outer_continuation_required": "0",
+      "coverage_class": "inner_continuation_only"
+    },
+    {
+      "galaxy": "NGC5033",
+      "stationary_role": "blind",
+      "profile_kind": "tabulated",
+      "n_rotation_points": 22,
+      "rotation_rmin_kpc": "0.76",
+      "rotation_rmax_kpc": "44.59",
+      "profile_rmin_kpc": "3.42520865704",
+      "profile_rmax_kpc": "124.628579775",
+      "inner_gap_kpc": "2.66520865704",
+      "outer_gap_kpc": "0",
+      "inner_continuation_required": "1",
+      "outer_continuation_required": "0",
+      "coverage_class": "inner_continuation_only"
+    }
+  ],
+  "new_v3_profile": {
+    "galaxy": "NGC5033",
+    "stationary_role": "blind",
+    "profile_kind": "tabulated",
+    "n_rotation_points": 22,
+    "rotation_rmin_kpc": "0.76",
+    "rotation_rmax_kpc": "44.59",
+    "profile_rmin_kpc": "3.42520865704",
+    "profile_rmax_kpc": "124.628579775",
+    "inner_gap_kpc": "2.66520865704",
+    "outer_gap_kpc": "0",
+    "inner_continuation_required": "1",
+    "outer_continuation_required": "0",
+    "coverage_class": "inner_continuation_only"
+  },
+  "max_inner_gap_kpc": 2.66520865704,
+  "max_outer_gap_kpc": 46.94,
+  "boundary": "Radial-support geometry only. No rotation velocity, residual, L_A, C_A, tau_A, persistence prediction, or blind outcome evaluated."
+}
