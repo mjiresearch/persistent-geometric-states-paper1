@@ -1,0 +1,47 @@
+{
+  "status": "THINGS_DDO154_MOM0_MASK_SEMANTICS_AUDITED",
+  "url": "https://things.www3.mpia.de/Data_files/DDO154_NA_MOM0_THINGS.FITS",
+  "bytes": 4242240,
+  "sha256": "49d84c9f3e9efa826ecf3c03fdba7bac4e22b627f3e5f704efe703b389031a7c",
+  "shape": [
+    1024,
+    1024
+  ],
+  "bunit": "JY/B*M/S",
+  "header_blank_keyword": null,
+  "datamin_header": -0.442851752,
+  "datamax_header": 454.3919067,
+  "counts": {
+    "total": 1048576,
+    "finite": 1048576,
+    "nonfinite": 0,
+    "exact_zero": 825109,
+    "positive": 223065,
+    "negative": 402,
+    "nonzero": 223467
+  },
+  "fractions": {
+    "exact_zero": 0.7868852615356445,
+    "negative": 0.0003833770751953125,
+    "nonzero": 0.21311473846435547,
+    "border_exact_zero": 1.0,
+    "outer_5pct_exact_zero": 1.0,
+    "center_exact_zero": 0.0,
+    "border_nonzero": 0.0,
+    "outer_5pct_nonzero": 0.0,
+    "center_nonzero": 1.0
+  },
+  "nonzero_value_quantiles": {
+    "0": -0.4428517520427704,
+    "0.001": -0.04570064686238765,
+    "0.01": 0.17079704284667968,
+    "0.05": 0.5134213626384736,
+    "0.5": 9.365279197692871,
+    "0.95": 164.47718200683593,
+    "0.99": 260.69186584472646,
+    "0.999": 358.77198034668857,
+    "1": 454.39190673828125
+  },
+  "candidate_mask_rule_for_followup": "Treat exact-zero MOM0 pixels as source-blanked and all finite nonzero pixels, including negative values, as valid only if this encoding is supported by source/product semantics and reproduces independent profile/flux QC. This audit itself does not promote that rule.",
+  "boundary": "Pixel-mask encoding audit only; no radial profile, persistence parameter, or blind outcome evaluated."
+}
