@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/stationary/integrate_elson2017_whisp_candidates_into_overlay.py'
+      - 'scripts/stationary/disposition_pu91_ngc0055.py'
       - 'scripts/stationary/rank_sparc_hi_reference_families.py'
       - 'data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv'
       - '.github/workflows/advance_stationary_hi_database.yml'
@@ -23,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Apply Pu91 NGC0055 disposition when audit state is present
+        run: python scripts/stationary/disposition_pu91_ngc0055.py
       - name: Integrate WHISP vector candidates into public overlay
         run: python scripts/stationary/integrate_elson2017_whisp_candidates_into_overlay.py
       - name: Reconcile frozen-149 provenance
@@ -39,6 +42,8 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add \
+            data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv \
+            validation/stationary/CHECKPOINT_PU91_NGC0055_PUBLIC_ROUTE.md \
             data/stationary/source_reconstruction/stationary_public_hi_source_overlay_v1.csv \
             data/stationary/source_reconstruction/stationary_hi_profile_provenance_reconciled_v1.csv \
             validation/stationary/stationary_hi_profile_provenance_reconciled_v1_summary.json \
