@@ -1,0 +1,29 @@
+name: Resolve official FEASTS AnyShare link v1
+on:
+  push:
+    paths:
+      - 'scripts/stationary/resolve_feasts_anyshare_link_v1.py'
+      - '.github/workflows/resolve_feasts_anyshare_link_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/resolve_feasts_anyshare_link_v1.py
+      - name: Commit resolution
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/feasts_anyshare_link_resolution_v1.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Resolve official FEASTS AnyShare link v1'
+          git pull --rebase origin main
+          git push origin HEAD:main
