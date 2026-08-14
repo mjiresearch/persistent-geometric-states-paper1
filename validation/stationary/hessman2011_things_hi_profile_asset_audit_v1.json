@@ -1,0 +1,446 @@
+{
+  "status": "HESSMAN2011_THINGS_HI_PROFILE_ASSET_AUDIT_COMPLETE",
+  "arxiv": "https://export.arxiv.org/e-print/1106.5621",
+  "targets": [
+    "DDO154",
+    "IC2574",
+    "NGC2403",
+    "NGC2841",
+    "NGC2976",
+    "NGC3198",
+    "NGC3521",
+    "NGC5055",
+    "NGC6946",
+    "NGC7331",
+    "NGC7793"
+  ],
+  "files": [
+    "Paper_I.tex",
+    "aa.cls",
+    "figure2.eps",
+    "figure3.eps",
+    "figure4.eps",
+    "figure5.eps",
+    "figure6.eps",
+    "halo_disk.eps"
+  ],
+  "candidate_assets": [
+    {
+      "file": "Paper_I.tex",
+      "kind": "text_or_numeric",
+      "bytes": 99086,
+      "numeric_line_count": 0,
+      "target_mentions": {
+        "DDO154": 16,
+        "IC2574": 11,
+        "NGC2403": 11,
+        "NGC2841": 18,
+        "NGC2976": 11,
+        "NGC3198": 10,
+        "NGC3521": 11,
+        "NGC5055": 9,
+        "NGC6946": 12,
+        "NGC7331": 13,
+        "NGC7793": 11
+      },
+      "head": "% Paper_I.tex (Final version 2011-JUN-27)\n%\n% AA vers. 6.1, LaTeX class for Astronomy & Astrophysics\n%                                                 (c) Springer-Verlag HD\n%                                                revised by EDP Sciences\n%-----------------------------------------------------------------------\n%\n\\documentclass{aa}  \n%\\documentclass[referee]{aa} % for a referee version\n%\\documentclass[onecolumn]{aa} % for a paper on 1 column  \n%\\documentclass[longauth]{aa} % for the long lists of affiliations \n%\\documentclass[rnote]{aa} % for the research notes\n%\\documentclass[letter]{aa} % for the letters \n%\n\\usepackage{graphicx}\n% \\usepackage[pdftex]{graphicx}\n% \\usepackage{epstopdf}\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\\usepackage{txfonts}\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n\\usepackage{ifthen}\n\\newboolean{ARXIVVERSION}\n\\setboolean{ARXIVVERSION}{true}\n\n\\def\\PC{{\\rm pc}}\n\\def\\KPC{{\\rm kpc}}\n\\def\\KMS{{\\rm km\\,s}^{\\rm -1}}\n\\def\\MAG{{\\rm mag\\,arcsec}^{-2}}\n\\def\\MSUN{{\\rm M}_\\odot}\n\n\\def\\ERR#1{^{\\pm #1}}\t\n% \\def\\ERR#1{{\\scriptstyle \\pm #1}}\n% \\def\\ERR#1{\\!\\pm\\!#1}\n\n\\def\\THINGS#1#2#3#4{%\n\\includegraphics[width=5.2cm]{#1#2.eps} &\n\\includegraphics[width=5.2cm]{#1#3.eps} &\n\\includegraphics[width=5.2cm]{#1#4.eps}\n}\n\\def\\FIGS#1#2#3#4{%\n\\includegraphics[width=#1cm]{#2} &\n\\includegraphics[width=#1cm]{#3} &\n\\includegraphics[width=#1cm]{#4}\n}\n\n% \\def\\FRAC#1#2{\\frac{\\scriptstyle $1}{\\scriptstyle $2}}\n\n\\begin{document}\n\n\\title{The Bosma effect revisited}\n\\subtitle{I. HI and stellar disc scaling models}\n\n\\author{\n\tFrederic V. Hessman%\\inst{1}\n\t\\and\n\tMonika Ziebart%\\inst{1}\n\t}\n\n% \\offprints{F.V. Hessman}\n\n\\institute{\n\tInstitut f\\\"ur Astrophysik, Georg-August-Universit\\\"at, Friedrich-Hund-Platz 1, D-37077 G\\\"ottingen\n\t\t%\\and\n             }\n\n\\date{Received 6 May 2011; accepted 17 June 2011}\n\\abstract\n% CONTEXT heading (optional) % {} leave it empty if necessary  \n{\nThe observed proportionality between the centripetal contribution of the dynamically insignificant HI gas in the discs of spiral galaxies and the dominant contribution of Dark Matter (DM) -- the ``Bosma effect'' -- has been repeatedly mentioned in the literature but largely ignored.\nSince this phenomenology, if statistically significant, tells us something about the relationship between the visible baryonic and invisible DM, it is important to re-examine the reality of this effect using formal tests and more modern data.\n}\n% AIMS heading (mandatory)\n{\nWe have re-examined the evidence for the Bosm"
+    },
+    {
+      "file": "figure2.eps",
+      "kind": "postscript",
+      "bytes": 1313219,
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 1,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 3,
+      "raster_signal": true,
+      "substantial_path_signal": false,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "figure3.eps",
+      "kind": "postscript",
+      "bytes": 1099968,
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 1,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 3,
+      "raster_signal": true,
+      "substantial_path_signal": false,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "figure4.eps",
+      "kind": "postscript",
+      "bytes": 1027920,
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 1,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 3,
+      "raster_signal": true,
+      "substantial_path_signal": false,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "figure5.eps",
+      "kind": "postscript",
+      "bytes": 1049505,
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 1,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 3,
+      "raster_signal": true,
+      "substantial_path_signal": false,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "figure6.eps",
+      "kind": "postscript",
+      "bytes": 1206767,
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 0,
+      "moveto_tokens": 1,
+      "lineto_tokens": 0,
+      "curveto_tokens": 0,
+      "stroke_tokens": 0,
+      "show_tokens": 3,
+      "raster_signal": true,
+      "substantial_path_signal": false,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    },
+    {
+      "file": "halo_disk.eps",
+      "kind": "postscript",
+      "bytes": 128228,
+      "image_ops": 1,
+      "colorimage_ops": 0,
+      "imagemask_ops": 3,
+      "moveto_tokens": 8,
+      "lineto_tokens": 14,
+      "curveto_tokens": 1,
+      "stroke_tokens": 8,
+      "show_tokens": 7,
+      "raster_signal": true,
+      "substantial_path_signal": false,
+      "target_mentions": {
+        "DDO154": 0,
+        "IC2574": 0,
+        "NGC2403": 0,
+        "NGC2841": 0,
+        "NGC2976": 0,
+        "NGC3198": 0,
+        "NGC3521": 0,
+        "NGC5055": 0,
+        "NGC6946": 0,
+        "NGC7331": 0,
+        "NGC7793": 0
+      }
+    }
+  ],
+  "figure_environments": [
+    {
+      "file": "Paper_I.tex",
+      "start_line": 226,
+      "assets": [
+        "./halo_disk.eps"
+      ],
+      "labels": [
+        "figure:halodisk"
+      ],
+      "block": "\\begin{figure}\n\\resizebox{\\hsize}{!}{\\includegraphics{./halo_disk.eps}}\n\\caption{A comparison of the centripetal effects of spherical halos with compactness $c=10$ and the corresponding discs with the same vertically projected surface mass-densities.  The ratios are arbitrarily normalized to the values at $R=r_{core}$ to emphasize the similarities in shape.}\n\\label{figure:halodisk}\n\\end{figure}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "start_line": 411,
+      "assets": [
+        "figure2.eps"
+      ],
+      "labels": [
+        "figure:sigmas"
+      ],
+      "block": "\\begin{figure*}\n%\n\\ifARXIVVERSION\n\t\\includegraphics[width=16cm]{figure2.eps}\n\\else\n\t\\begin{tabular}{cccc}\n\t\\FIGS{5.5}{DDO154_allsigma.eps}{IC2574_allsigma.eps}{NGC925_allsigma.eps} \\\\\n\t\\FIGS{5.5}{NGC2366_allsigma.eps}{NGC2403_allsigma.eps}{NGC2841_allsigma.eps} \\\\\n\t\\FIGS{5.5}{NGC2903_allsigma.eps}{NGC2976_allsigma.eps}{NGC3031_allsigma.eps} \\\\\n\t\\FIGS{5.5}{NGC3198_allsigma.eps}{NGC3521_allsigma.eps}{NGC3621_allsigma.eps} \\\\\n\t\\FIGS{5.5}{NGC4736_allsigma.eps}{NGC5055_allsigma.eps}{NGC6946_allsigma.eps} \\\\\n\t\\FIGS{5.5}{NGC7331_allsigma.eps}{NGC7793_allsigma.eps}{R25_scalelengths.eps}\n\t\\end{tabular}\n\\fi\n\\caption{Surface densities \\& exponential fits (straight lines): \nHI+He (blue exes); stellar disc (red pluses);\nimplied disc DM (black diamonds); \n$R^{-1}$ power-law fits to the HI and projected URC profiles (green curves);\noptical radii $R_{25}$ (red arrows);\nradial and surface density range for HI exponential scale lengths $h_{HI}$ (horizontal and vertial light gray dotted lines).  Lower right: comparison of disc size with various scalelengths: HI+He (blue exes), stellar disc (red pluses), inner HI cutoff radii (green asterixes).\n\\ifARXIVVERSION\n\tNote that the A\\&A version of this figure has the full resolution.\n\\fi\n}\n\\label{figure:sigmas}\n\\end{figure*}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "start_line": 440,
+      "assets": [
+        "figure3.eps"
+      ],
+      "labels": [
+        "figure:v1"
+      ],
+      "block": "\\begin{figure*}\n\\ifARXIVVERSION\n\t\\includegraphics[width=16cm]{figure3.eps}\n\\else\n\t\\begin{tabular}{cccc}\n\t\\THINGS{DDO154}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{IC2574}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC925}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC2366}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC2403}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC2841}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma}\n\t\\end{tabular}\n\\fi\n\\caption{\nConstrained NFW (left), Burkert (centre), and ``classical'' Bosma (right) rotation curve fits.  \nThe disc and bulge components are plotted as dotted lines, the HI and He contributions as dash-dotted lines, the CDM or Bosma contributions as dashed lines, and the total fitted curve as solid lines.\n\\ifARXIVVERSION\n\tNote that the A\\&A version of this figure has the full resolution.\n\\fi\n}\n\\label{figure:v1}\n\\end{figure*}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "start_line": 463,
+      "assets": [
+        "figure4.eps"
+      ],
+      "labels": [
+        "figure:v2"
+      ],
+      "block": "\\begin{figure*}\n\\ifARXIVVERSION\n\t\\includegraphics[width=16cm]{figure4.eps}\n\\else\n\t\\begin{tabular}{cccc}\n\t\\THINGS{NGC2903}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC2976}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC3031}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC3198}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC3521}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC3621}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma}\n\t\\end{tabular}\n\\fi\n\\caption{See caption of Fig.\\,\\ref{figure:v1}.\n\\ifARXIVVERSION\n\tNote that the A\\&A version of this figure has the full resolution.\n\\fi\n}\n\\label{figure:v2}\n\\end{figure*}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "start_line": 484,
+      "assets": [
+        "figure5.eps"
+      ],
+      "labels": [
+        "figure:v3"
+      ],
+      "block": "\\begin{figure*}\n\\ifARXIVVERSION\n\t\\includegraphics[width=16cm]{figure5.eps}\n\\else\n\t\\begin{tabular}{cccc}\n\t\\THINGS{NGC4736}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC5055}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC6946}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC7331}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\THINGS{NGC7793}{_vel_constrainedNFW}{_vel_Burkert}{_vel_Bosma} \\\\\n\t\\FIGS{5.2}{NGC6946_vel_simpleBosma}{NGC7331_vel_simpleBosma}{NGC7793_vel_simpleBosma}\n\t\\end{tabular}\n\\fi\n\\caption{See caption of Fig.\\,\\ref{figure:v1}.\nThe bottom line shows three ``simple'' Bosma fits for comparison.\n\\ifARXIVVERSION\n\tNote that the A\\&A version of this figure has the full resolution.\n\\fi\n}\n\\label{figure:v3}\n\\end{figure*}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "start_line": 642,
+      "assets": [
+        "figure6.eps"
+      ],
+      "labels": [
+        "figure:ratios"
+      ],
+      "block": "\\begin{figure*}\n\\ifARXIVVERSION\n\t\\includegraphics[width=16cm]{figure6.eps}\n\\else\n\t\\begin{tabular}{cccc}\n\t\\FIGS{5.5}{DDO154_ratio.eps}{IC2574_ratio.eps}{NGC925_ratio.eps} \\\\\n\t\\FIGS{5.5}{NGC2366_ratio.eps}{NGC2403_ratio.eps}{NGC2841_ratio.eps} \\\\\n\t\\FIGS{5.5}{NGC2903_ratio.eps}{NGC2976_ratio.eps}{NGC3031_ratio.eps} \\\\\n\t\\FIGS{5.5}{NGC3198_ratio.eps}{NGC3521_ratio.eps}{NGC3621_ratio.eps} \\\\\n\t\\FIGS{5.5}{NGC4736_ratio.eps}{NGC5055_ratio.eps}{NGC6946_ratio.eps} \\\\\n\t\\FIGS{5.5}{NGC7331_ratio.eps}{NGC7793_ratio.eps}{R25_Rflat.eps}\n\t\\end{tabular}\n\\fi\n\\caption{Ratio of the centripetal contributions of the DM and HI gas as a function of radius (red horizontal line), corresponding to $1+f_{HI}$ in the ``simple'' Bosma model.  The fitted radial region was selected between the vertical blue lines.\nBottom right: optical radii ($R_{25}$) versus the starting radius where the ratio is statistically flat.\n\\ifARXIVVERSION\n\tNote that the A\\&A version of this figure has the full resolution.\n\\fi\n}\n\\label{figure:ratios}\n\\end{figure*}"
+    }
+  ],
+  "hi_profile_text_contexts": [
+    {
+      "file": "Paper_I.tex",
+      "line": 86,
+      "context": "{\nFits to spiral galaxy rotation curves computed using just HI scaling are inadequate, despite the clear proportionality seen in the outer discs.\nThe poor performance is obviously related to the prominent decrease in the HI surface density in regions of high stellar surface density, where HI gas been converted into molecules and stars.\nThe Bosma models that partially correct for this physical effect using the stellar discs as additional proxies are statistically nearly as good as the URC models and clearly better than the NFW ones.\n}\n% CONCLUSIONS heading (optional), leave it empty if necessary \n{"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 93,
+      "context": "We confirm the correlation between the centripetal effects of DM and that of the interstellar medium of spiral galaxies.\nThe edificacy of ``maximal disc'' models is explained as the natural consequence of ``classic'' Bosma models which include the stellar disc as a proxy in regions of reduced atomic gas.\nThe perception that the Bosma effect could be due to the near-equality of the HI surface density and the projected mass density of a cold DM halo is incorrect, both theoretically and empirically.\nThe standard explanation -- that the effect reflects a statistical correlation between the visible and exotic DM -- seems highly unlikely, \ngiven that the geometric forms and hence centripetal signatures of spherical halo and disc components are so different.\nA literal interpretation of the Bosma effect as being due to the presence of significant amounts of disc DM requires a median visible baryon to disc DM ratio of about 40\\%.\n}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 126,
+      "context": "The most unusual correlation between the observed properties of disc galaxies and the derived properties of the dark components was identified by Bosma (\\cite{1978PhDT.......195B}, \\cite{1981AJ.....86.1825B}): the centripetal contribution to the global rotation curves by the dynamically insignificant gaseous discs appears to be directly correlated with that of the remaining DM component -- the ``Bosma effect''.\nThis effect has been characterized in various ways by different authors.\nAfter deriving the total disc surface densities implied by the rotation curves, $\\Sigma_{dyn}(R)$, and comparing them with the observed HI or HI+H$_2$ gas surface densities, $\\Sigma_{gas}(R)$, Bosma observed ``{\\it ... that as a rule the ratio} [of the two] {\\it ... is more or less constant beyond about one-third of the optical radius, with} [HI] {\\it being the dominant contributor ... in the outer parts}'' (Bosma  \\cite{1981AJ.....86.1825B}).\nSancisi (\\cite{1999ApSS.269...59S}) simplified the effect by stating that ``{\\it ... the rotation curve in the outer parts can be explained ... by scaling up the HI disc by about a factor} [of] {\\it 10}''.\nHoekstra, van\\,Albada \\& Sancisi (\\cite{2001MNRAS.323..453H}; hereafter HvAS) studied the Bosma effect in a sample of normal galaxies: they said that ``{\\it ... the total surface density of matter needed to explain the observed rotation curves ...} [is] {\\it roughly proportional to the surface density of neutral hydrogen}'' and proceeded to define the proportionality as\n%\n\\begin{equation}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 132,
+      "context": "\\begin{equation}\n\\label{equation:fHI}\nV^2_{DM}(R) ~ \\approx ~ \\left(\\frac{\\Sigma_{DM}}{\\Sigma_{HI}} \\right) V^2_{HI}(R)\n\\end{equation}\n%\nHvAS and the others explicitly defined the constant of proportionality between the centripetal effects of the HI gas and the DM as the assumed constant ratio of the DM to HI surface densities averaged over the same disc, corrected only for the presence of Helium.\nBosma, however, originally explicitly meant to include the total gas surface density, even when he used HI as a proxy for the interstellar medium (ISM), so there are potentially several different versions of this effect, depending upon what assumptions are made:"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 135,
+      "context": "\\end{equation}\n%\nHvAS and the others explicitly defined the constant of proportionality between the centripetal effects of the HI gas and the DM as the assumed constant ratio of the DM to HI surface densities averaged over the same disc, corrected only for the presence of Helium.\nBosma, however, originally explicitly meant to include the total gas surface density, even when he used HI as a proxy for the interstellar medium (ISM), so there are potentially several different versions of this effect, depending upon what assumptions are made:\n%\n\\begin{itemize}\n\\item what we will call the ``simple'' Bosma effect or ``pure HI-scaling'' uses only $\\Sigma_{HI}$, implicitly or explicitly corrected for the contribution of He and heavy elements; whereas"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 136,
+      "context": "%\nHvAS and the others explicitly defined the constant of proportionality between the centripetal effects of the HI gas and the DM as the assumed constant ratio of the DM to HI surface densities averaged over the same disc, corrected only for the presence of Helium.\nBosma, however, originally explicitly meant to include the total gas surface density, even when he used HI as a proxy for the interstellar medium (ISM), so there are potentially several different versions of this effect, depending upon what assumptions are made:\n%\n\\begin{itemize}\n\\item what we will call the ``simple'' Bosma effect or ``pure HI-scaling'' uses only $\\Sigma_{HI}$, implicitly or explicitly corrected for the contribution of He and heavy elements; whereas\n\\item the ``classic'' Bosma effect attempts to include the total gaseous surface density, either explicitly by using $\\Sigma_{ISM}\\!=\\!\\Sigma_{HI}+\\Sigma_{H_2} $ (again corrected for He and heavy elements), or by using the stellar disc as an additional proxy."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 139,
+      "context": "%\n\\begin{itemize}\n\\item what we will call the ``simple'' Bosma effect or ``pure HI-scaling'' uses only $\\Sigma_{HI}$, implicitly or explicitly corrected for the contribution of He and heavy elements; whereas\n\\item the ``classic'' Bosma effect attempts to include the total gaseous surface density, either explicitly by using $\\Sigma_{ISM}\\!=\\!\\Sigma_{HI}+\\Sigma_{H_2} $ (again corrected for He and heavy elements), or by using the stellar disc as an additional proxy.\nThe latter can be done by allowing the effective stellar mass-to-light ratio, $\\Upsilon_{disc}$, to be a free parameter.\n\\end{itemize}\n"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 140,
+      "context": "\\begin{itemize}\n\\item what we will call the ``simple'' Bosma effect or ``pure HI-scaling'' uses only $\\Sigma_{HI}$, implicitly or explicitly corrected for the contribution of He and heavy elements; whereas\n\\item the ``classic'' Bosma effect attempts to include the total gaseous surface density, either explicitly by using $\\Sigma_{ISM}\\!=\\!\\Sigma_{HI}+\\Sigma_{H_2} $ (again corrected for He and heavy elements), or by using the stellar disc as an additional proxy.\nThe latter can be done by allowing the effective stellar mass-to-light ratio, $\\Upsilon_{disc}$, to be a free parameter.\n\\end{itemize}\n\nThe mean HI Bosma ratio has been measured in almost a hundred normal and dwarf spiral galaxies spanning a wide range of Hubble types from massive early spirals to late dwarf irregulars (Bosma \\cite{1981AJ.....86.1825B}; Carignan \\cite{1985ApJ...299...59C}; Carignan \\& Beaulieu \\cite{1989ApJ...347..760C}; Carignan \\& Puche \\cite{1990AJ....100..641C}; Jobin \\& Carignan \\cite{1990AJ....100..648J}; Puche, Carignan \\& Bosma \\cite{1990AJ....100.1468P}; Swaters \\cite{1999PhDT........27S}; HvAS; Noordermeer \\cite{2006PhDT.........1N})."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 161,
+      "context": "%\n\\item There are ``{\\it ... large wiggles that are not present in the observed rotation curve.}''\nWhile this is true in a few cases, they admit that the wiggles can be created by spiral arm structures in which the HI can be converted to H$_2$ and other molecules.  The HI surface density may, in fact, be a very ``noisy'' tracer of the global gas surface density in galaxies.  This is easily illustrated in the ``holes'' seen in spatially well-resolved HI images of face-on galaxies (e.g. Deul \\& Den Hartog \\cite{1990AA...229..362D}).\nIn fact, many rotation curves show small-scale structure which cannot easily be interpreted as being due to mass-density variations using any model.\n%\n\\item ``{\\it The model rotation curve drops below the observed rotation curve at large radii.}''\nThe outer scaled-up HI rotation curves ended up significantly ($\\ga 10\\%$) below the observed ones in about 7-8 of the 24 galaxies, but the deviation always occurs at the very outer edge of the visible HI disc ($93\\!\\pm\\!9$\\%)."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 166,
+      "context": "\\item ``{\\it The model rotation curve drops below the observed rotation curve at large radii.}''\nThe outer scaled-up HI rotation curves ended up significantly ($\\ga 10\\%$) below the observed ones in about 7-8 of the 24 galaxies, but the deviation always occurs at the very outer edge of the visible HI disc ($93\\!\\pm\\!9$\\%).\nHvAS admitted that there can be several reasons for this effect (e.g. large scale flux not seen by the interferometers, partial ionization), leading them to conclude that ``{\\it ... the observed HI surface density may therefore not always trace the total gas density in the outer parts}.''\nAdditionally, the HI rotation curves are almost always calculated from the observe surface densities assuming that the disc is effectively infinite,\n% \\footnote{For example, the infinite solution by Kuijken \\& Gilmore (\\cite{1989MNRAS.239..571K}; often attributed to Cuddeford \\cite{1998MNRAS.262.1076C}) is used by the {\\tt ROTMAS} routine in {\\it GIPSY}.}, \nsystematically minimizing the rotation curve velocity at the edge of the discs (Casertano \\cite{1983MNRAS.203..735C}).\n%"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 167,
+      "context": "The outer scaled-up HI rotation curves ended up significantly ($\\ga 10\\%$) below the observed ones in about 7-8 of the 24 galaxies, but the deviation always occurs at the very outer edge of the visible HI disc ($93\\!\\pm\\!9$\\%).\nHvAS admitted that there can be several reasons for this effect (e.g. large scale flux not seen by the interferometers, partial ionization), leading them to conclude that ``{\\it ... the observed HI surface density may therefore not always trace the total gas density in the outer parts}.''\nAdditionally, the HI rotation curves are almost always calculated from the observe surface densities assuming that the disc is effectively infinite,\n% \\footnote{For example, the infinite solution by Kuijken \\& Gilmore (\\cite{1989MNRAS.239..571K}; often attributed to Cuddeford \\cite{1998MNRAS.262.1076C}) is used by the {\\tt ROTMAS} routine in {\\it GIPSY}.}, \nsystematically minimizing the rotation curve velocity at the edge of the discs (Casertano \\cite{1983MNRAS.203..735C}).\n%\n\\item ``{\\it ... scaling of HI to represent the dark component only works in combination with maximal discs}'' (Palunas \\& Williams \\cite{2000AJ....120.2884P})."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 174,
+      "context": "This effect is not surprising, since the models using HI alone could simply be correcting for the missing H$_2$ gas component most strongly associated with the stars.\n%\n\\item ``{\\it ... our sample is biased against galaxies with $R_{out}/h_{HI}$ substantially larger than 3.}''  This argument is based on the assumption that a large disc exponential scalelength is needed to insure the flatness of the rotation curves at large radii.   However, the observed HI distributions in the HvAS sample are not particularly exponential: the observe distributions are better described as being flat in the inner parts, with nearly constant surface densities of $5-10\\,\\MSUN/\\PC^2$ and having complex tails (to what extent the total gas surface densities are exponential is unknown).\nThey suggested that better observations would eventually show the drop in the scaled HI curve and hence the failure of the Bosma effect, but Swaters (\\cite{1999PhDT........27S}) found no such problem in galaxies where the extents of exponential discs are clearly much larger than those of the stellar discs.\n%\n\\item Although HvAS admit that ``{\\it .. for about two-thirds of the galaxies we obtain good fits to the data}'', one has the impression that in fact practically all of the galaxies are well fit by the Bosma effect.\nSince the HvAS fits were done by eye and were not explicitly compared with standard CDM rotation curve fits, it is impossible to judge how bad or good a ``2/3'' success rate really is."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 188,
+      "context": "\nAt the time Bosma first described this correlation, placing the DM in a disc was a reasonable assumption, but already at the time of HvAS, the DM was assumed to reside in a quasi-spherical halo.\nSince the centripetal acceleration $V^2/R$ at a given radius is calculated only indirectly from an integral over the {\\em entire} surface mass density for discs and just over the {\\em inner} volume mass density for spherical halos, the connection between the surface or volume densities and the rotation curve contributions is dramatically different for the two geometries -- unlike the spherical case, the gravitational effects of matter distributed in a disc-like manner effects the motions of test particles both within and without the disc, making it much more difficult to obtain a particular rotation curve contribution.\nIgnoring this distinction has led to considerable confusion in the literature about the role of surface density: e.g. Meuerer \\& Zheng (\\cite{2011AAS...21724613M}) incorrectly characterize the Bosma effect as showing that ``{\\it ... the HI column density in extended HI discs often is nearly a linear tracer of the projected DM surface density}.''\nThe centripetal effect of a spherical halo is, in general, not at all the same as that of a disc having a surface density equal to the projected density of the spherical halo.\nThe normalized ratios of the centripetal effects of three different spherical halos and their equivalent projected discs are shown in Fig.\\,\\ref{figure:halodisk}:\nwhile there is, of course, some similarity in shape, the relative differences for the regions relevant for the HI discs are about 30\\%, with gradients in the relative effects systematically largest in the inner regions most relevant to the Bosma effect."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 189,
+      "context": "At the time Bosma first described this correlation, placing the DM in a disc was a reasonable assumption, but already at the time of HvAS, the DM was assumed to reside in a quasi-spherical halo.\nSince the centripetal acceleration $V^2/R$ at a given radius is calculated only indirectly from an integral over the {\\em entire} surface mass density for discs and just over the {\\em inner} volume mass density for spherical halos, the connection between the surface or volume densities and the rotation curve contributions is dramatically different for the two geometries -- unlike the spherical case, the gravitational effects of matter distributed in a disc-like manner effects the motions of test particles both within and without the disc, making it much more difficult to obtain a particular rotation curve contribution.\nIgnoring this distinction has led to considerable confusion in the literature about the role of surface density: e.g. Meuerer \\& Zheng (\\cite{2011AAS...21724613M}) incorrectly characterize the Bosma effect as showing that ``{\\it ... the HI column density in extended HI discs often is nearly a linear tracer of the projected DM surface density}.''\nThe centripetal effect of a spherical halo is, in general, not at all the same as that of a disc having a surface density equal to the projected density of the spherical halo.\nThe normalized ratios of the centripetal effects of three different spherical halos and their equivalent projected discs are shown in Fig.\\,\\ref{figure:halodisk}:\nwhile there is, of course, some similarity in shape, the relative differences for the regions relevant for the HI discs are about 30\\%, with gradients in the relative effects systematically largest in the inner regions most relevant to the Bosma effect.\nThe only exception to this rule is that the asymptotic projected surface density and $V(R)$ of a singular isothermal halo is the same as that of an infinite disc with $\\Sigma(R)\\propto R^{-1}$."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 193,
+      "context": "The normalized ratios of the centripetal effects of three different spherical halos and their equivalent projected discs are shown in Fig.\\,\\ref{figure:halodisk}:\nwhile there is, of course, some similarity in shape, the relative differences for the regions relevant for the HI discs are about 30\\%, with gradients in the relative effects systematically largest in the inner regions most relevant to the Bosma effect.\nThe only exception to this rule is that the asymptotic projected surface density and $V(R)$ of a singular isothermal halo is the same as that of an infinite disc with $\\Sigma(R)\\propto R^{-1}$.\nHowever non-singular isothermal CDM halo fits yield small but significant core radii (this is one of the main arguments against ``cuspy'' NFW profiles; de\\,Blok et al. \\cite{2008AJ....136.2648D}), HI discs are not infinite and they do not in general show this surface density scaling (see Fig.\\,\\ref{figure:sigmas}).\nThus, the Bosma effect has nothing to do with projected CDM density profiles.\n\nIn summary, the usual characterisation of the Bosma effect in the literature is wrong on three counts:"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 194,
+      "context": "while there is, of course, some similarity in shape, the relative differences for the regions relevant for the HI discs are about 30\\%, with gradients in the relative effects systematically largest in the inner regions most relevant to the Bosma effect.\nThe only exception to this rule is that the asymptotic projected surface density and $V(R)$ of a singular isothermal halo is the same as that of an infinite disc with $\\Sigma(R)\\propto R^{-1}$.\nHowever non-singular isothermal CDM halo fits yield small but significant core radii (this is one of the main arguments against ``cuspy'' NFW profiles; de\\,Blok et al. \\cite{2008AJ....136.2648D}), HI discs are not infinite and they do not in general show this surface density scaling (see Fig.\\,\\ref{figure:sigmas}).\nThus, the Bosma effect has nothing to do with projected CDM density profiles.\n\nIn summary, the usual characterisation of the Bosma effect in the literature is wrong on three counts:\n%"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 205,
+      "context": "the actual comparison is of the centripetal acceleration contributions of gas and DM at each radius, not the surface densities and certainly not the projected surface densities of spherical halos; and\n\\item\nwithin the standard CDM paradigm, the implied correlation is between two mass components with different geometries, with different projected surface densities, and different centripetal patterns.\n\\end{itemize}\n%\nWith this correct description, the Bosma Effekt must be defined phenomenologically as\n%"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 220,
+      "context": "\nIf real, the Bosma effect obviously has something to say about the relationship between the ISM and DM in disc galaxies.\nFortunately, we can now probe the Bosma effect with much better means: the quality of the HI rotation curves and surface density maps has increased; we can model the stellar populations more accurate due our ability to constrain the stellar contributions in wavelength bands suffering less from interstellar absorption; and H$_2$ maps can be constructed from CO observations with millimeter interferometers.\n\nThis article is the first in a series looking again at the Bosma effect.\nIn this first paper, we compare the performance of ``simple'' (HI-scaling alone) and ``classic'' (stellar disc and HI-scaling) Bosma effect models with those of standard CDM using a set of particularly well-observed galaxies in {\\em The HI Nearby Galaxy Survey} (Walter et al. \\cite{2008AJ....136.2563W}; hereafter THINGS).\n"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 392,
+      "context": "The tabulated stellar rotation curves generously provided by the THINGS consortium already include the effects of the assumed stellar mass-to-light ratios, i.e. are equal to $\\Upsilon_{\\star}^{1/2} V_{\\star}(R)$, so scaling these velocities immediately yields the Bosma factor $f_{disc}$.\n\nThe $\\Sigma_{HI+He}$ profiles from the THINGS sample (Fig.\\,\\ref{figure:sigmas}\nblue exes) along with the stellar profiles (red pluses) -- are, in general, not exponential, but can be characterized as roughly flat above a level of $5\\!-\\!10\\,\\MSUN\\PC^{-2}$, so we have fit an exponential tail to the outer regions either below a level of $6\\,\\MSUN\\PC^{-2}$ (horizontal gray lines in Fig.\\,\\ref{figure:sigmas})\nor outside of an obvious central dip at lower surface densities ; the corresponding scalelengths are given in Table\\,\\ref{table:sample} and displayed in Fig.\\,\\ref{figure:sigmas}.\nThe ratio of this scalelength and the radius of the HI disc varies between 2.0 and 9.8, with a mean value of 4.4, so these HI discs extend farther in terms of exponential scalelengths, than those studied by HvAS.\nThe correlation between the optical radii, $R_{25}$, the HI scalelengths, and the exponential tail radii, $R_{exp}$, are shown in the bottom right panel of Fig.\\,\\ref{figure:sigmas}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 403,
+      "context": "are $R^{-1}$ power-law fits to the HI data: the only case where this behavior, correponding to the projected density of an isothermal CDM halo, is seen, is perhaps in NGC4736.\n\nThe centripetal contributions of the HI gas provided by the THINGS consortium were recalculated from the tabulated total surface mass densities $\\Sigma_{HI+He}$ without assuming any extrapolation beyond the last observed radius using the method of Pierens \\& H\\'ure (\\cite{1990AJ....100.1468P}).\nWhile this may lead to a slight overestimation at large radii (Casertano \\cite{1983MNRAS.203..735C}), it is impossible to be confident about how to extrapolate the surface densities even given the attempts at defining the exponential tails in Fig.\\,\\ref{figure:sigmas},\nso this treatment makes the least assumptions about the amount and distribution of HI beyond the detection limits.\n\nWe note, as has de\\,Blok et al. (\\cite{2008AJ....136.2648D}; see also Gentile, Famaey \\& de\\,Blok \\cite{2011A&A...527A..76G}), that the rotation curve error bars do not reflect the true statistical errors: they are the result of the non-axisymmetries, spiral arms and patchiness of the HI gas distribution as well as the difficulties of fitting the HI kinematics with a simple model of tilted annulur rings."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 404,
+      "context": "\nThe centripetal contributions of the HI gas provided by the THINGS consortium were recalculated from the tabulated total surface mass densities $\\Sigma_{HI+He}$ without assuming any extrapolation beyond the last observed radius using the method of Pierens \\& H\\'ure (\\cite{1990AJ....100.1468P}).\nWhile this may lead to a slight overestimation at large radii (Casertano \\cite{1983MNRAS.203..735C}), it is impossible to be confident about how to extrapolate the surface densities even given the attempts at defining the exponential tails in Fig.\\,\\ref{figure:sigmas},\nso this treatment makes the least assumptions about the amount and distribution of HI beyond the detection limits.\n\nWe note, as has de\\,Blok et al. (\\cite{2008AJ....136.2648D}; see also Gentile, Famaey \\& de\\,Blok \\cite{2011A&A...527A..76G}), that the rotation curve error bars do not reflect the true statistical errors: they are the result of the non-axisymmetries, spiral arms and patchiness of the HI gas distribution as well as the difficulties of fitting the HI kinematics with a simple model of tilted annulur rings.\nThus, the only comparison we can make is to compare our results externally with previous analyses and internally by comparing the performance of the Bosma effect fits with those assuming CDM."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 430,
+      "context": "$R^{-1}$ power-law fits to the HI and projected URC profiles (green curves);\noptical radii $R_{25}$ (red arrows);\nradial and surface density range for HI exponential scale lengths $h_{HI}$ (horizontal and vertial light gray dotted lines).  Lower right: comparison of disc size with various scalelengths: HI+He (blue exes), stellar disc (red pluses), inner HI cutoff radii (green asterixes).\n\\ifARXIVVERSION\n\tNote that the A\\&A version of this figure has the full resolution.\n\\fi\n}"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 616,
+      "context": "%\\begin{itemize}\n%\\item\nthe surface density distributions of HI in spiral galaxies is known to show flat inner regions or even severe dips, resulting in small or even negative contributions to the centripetal acceleration; and\n%\\item\nthe ``simple'' Bosma model cannot account for the conversion of HI into molecules and stars, which preferentially occurs in the centres of the discs.\n%\\end{itemize}\n"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 628,
+      "context": "i.e. there is a relatively clean ``simple'' Bosma effect signal once one leaves the region dominated by the stars, exactly as originally reported in Bosma \\cite{1981AJ.....86.1825B}).\nUnsurprisingly, this radius corresponds exactly with $R_{exp}$ (the 8th column in Table\\,\\ref{table:sample} and the bottom right plot in Fig.\\,\\ref{figure:sigmas}),\ni.e. where the inner HI surface density profile flattens.\nThis proportionality exists on the average over 54\\% of the visible discs, with the value ranging from 19\\% (\\object{NGC925}) to essentially 100\\% (\\object{DDO154}).\nIt is important to note that the relative constancy of the centripetal ratios between DM and HI exists in the outer discs of galaxies independently of the shape of the rotation curve in that region: it applies to flat or slightly downward-sloping rotation curves in massive galaxies as well as to the upward sloping rotation curves of dwarf galaxies.\n\nGiven the behavior seen in Fig.\\,\\ref{figure:ratios},"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 636,
+      "context": "This behavior is clearly seen for the three representative fits shown at the bottom of Fig.\\,\\ref{figure:v3}.\nThe values of $f_{HI}$ and reduced $\\chi^2$ are significantly larger than those of the ``classic'' Bosma models described in the next section.\nThus, ``HI-scaling'' only works in conjunction with a proxy for those regions where the HI surface density is low due to the presence of stars and molecular gas.\n\n\n%%%%%%%%%%%%%%%%%%%%%%%%\n"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 830,
+      "context": "Our results show that the ``classic'' Bosma model does not have this problem any more than the CDM models.\nOn the contrary, the Bosma model is often much more successful in this region.  \nGiven the fact that we have used the stars as proxies, this is perhaps not surprising: we have in effect used the known efficacy of ``maximal disc'' models to compensate for the negative centripetal contributions of the HI discs, the latter produced by the non-exponential HI surface density distributions.\n%\n\\item There are ``{\\it ... large wiggles that are not present in the observed rotation curve.}''\nThis effect, when present, is easily explained as being due to the inadequacy of using HI as a total mass tracer at small spatial scales.  On the other hand, there are galaxies where the observed ``wiggles'' in the rotation curve are more easily explained by the Bosma model, where $V(R)$ is more closely tied to the gas density, rather than by a CDM model whose small-scale density variations must be small (e.g. Springel et al. \\cite{2008MNRAS.391.1685S}).\n%"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 839,
+      "context": "%\n\\item ``{\\it ... scaling of HI to represent the dark component only works in combination with maximal discs.}''\nThe flatness of or dips in the central HI surface mass-density distributions creates centripetal deficits which force the use of a maximal disc when fitting ``classic'' Bosma models.  This is obviously due to the inadequacy of using the neutral component of the ISM alone and is thus expected: {\\it the relative success of maximal-disc models is a natural consequence of the ``classical'' Bosma effect and not a sign of its failure}.\n%\n\\item ``{\\it ... our sample is biased against galaxies with $R_{out}/h_{HI}$ substantially larger than 3.}''  This argument does not apply to the new data sets used: the mean value of $R_{out}/h_{HI}$ for the THINGS sample is 4.4, with values between 2 and 10 present.  In any case, this argument by HvAS was originally based on the assumption, that the HI is distributed exponentially, whereas the observed distribution looks more like an outer exponential with an inner disc saturated at surface densities around $5-10\\,\\MSUN\\,\\PC^{-2}$.\n%\n\\item While HvAS found that ``{\\it .. for about two-thirds of the galaxies} [they] {\\it obtain good fits to the data}'', we find a much higher success rate when comparing with the corresponding CDM models."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 841,
+      "context": "The flatness of or dips in the central HI surface mass-density distributions creates centripetal deficits which force the use of a maximal disc when fitting ``classic'' Bosma models.  This is obviously due to the inadequacy of using the neutral component of the ISM alone and is thus expected: {\\it the relative success of maximal-disc models is a natural consequence of the ``classical'' Bosma effect and not a sign of its failure}.\n%\n\\item ``{\\it ... our sample is biased against galaxies with $R_{out}/h_{HI}$ substantially larger than 3.}''  This argument does not apply to the new data sets used: the mean value of $R_{out}/h_{HI}$ for the THINGS sample is 4.4, with values between 2 and 10 present.  In any case, this argument by HvAS was originally based on the assumption, that the HI is distributed exponentially, whereas the observed distribution looks more like an outer exponential with an inner disc saturated at surface densities around $5-10\\,\\MSUN\\,\\PC^{-2}$.\n%\n\\item While HvAS found that ``{\\it .. for about two-thirds of the galaxies} [they] {\\it obtain good fits to the data}'', we find a much higher success rate when comparing with the corresponding CDM models.\nFormally, the fraction of fits having values of the reduced $\\chi^2$ less than 2 is 18\\% for the NFW, 70\\% for the Burkert/URC, and 47\\% for the ``classic'' Bosma models.  The median values of ${\\chi_\\nu}^2$ are 3.6, 1.6, and 2.6 for the constrained NFW, Burkert/URC, and ``classic'' Bosma models, respectively.\nThat the nearly unconstrained URC models perform better than the highly constrained Bosma models is, after all, not surprising."
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 902,
+      "context": "\n\\begin{acknowledgements}\nThis work made use of ``The HI Nearby Galaxy Survey'' (Walter et al. 2008).  We would like to thank E. de\\,Blok and the rest of the THINGS consortium for generously providing us with their extracted rotation curves and surface density distribution data as well.\nThis paper profitted from discussions with many colleagues, particularly E. de\\,Blok and P. Kroupa.\nThis research has made use of the NASA/IPAC Extragalactic Database (NED), which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration, and the {\\em Vizier} catalogue database, which is operated by the Centre de Donn\\'ees astronomiques de Strasbourg.\n\\end{acknowledgements}\n"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 1004,
+      "context": "\t\\bibitem[2009]{2009Natur.461..627G}\n\t\tGentile, G., Famaey, B., Zhao, H., Salucci, P., 2009,\n\t\t% Universality of galactic surface densities within one dark halo scale-length\n\t\tNature 461, 627\n\t\\bibitem[2008]{2008MNRAS.385L..68G}\n\t\tGentile, G., Zhao, H. S., Famaey, B., 2008,\n\t\t% Neutrinos as galactic dark matter in the Ursa Major galaxy group?"
+    },
+    {
+      "file": "Paper_I.tex",
+      "line": 1032,
+      "context": "\t\\bibitem[1989]{1989MNRAS.239..571K}\n\t\tKuijken, K., Gilmore, G., 1989,\n\t\t% The mass distribution in the galactic disc. I - A technique to determine the integral surface mass density of the disc near the sun.\n\t\tMNRAS 239, 571\n\t\\bibitem[2008]{2008MNRAS.391.1940M}\n\t\tMaccio, A. V., Dutton, A. A., van den Bosch, F. C., 2008,\n\t\t% Concentration, spin and shape of dark matter haloes as a function of the cosmological model: WMAP1, WMAP3 and WMAP5 results"
+    }
+  ],
+  "n_numeric_sidecars": 0,
+  "n_postscript_assets": 6,
+  "n_vector_postscript_candidates": 0,
+  "boundary": "Public source-package inspection only; no raster digitization, profile fitting, persistence parameters, or blind outcomes."
+}
