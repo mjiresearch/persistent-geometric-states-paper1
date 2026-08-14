@@ -1,0 +1,177 @@
+{
+  "status": "CERTIFIED_HI_NONPOSITIVE_VALUE_AUDIT_COMPLETE",
+  "n_tabulated_certified": 24,
+  "n_flagged_rows": 13,
+  "n_galaxies_with_flags": 2,
+  "galaxy_counts": {
+    "NGC2841": {
+      "negative": 0,
+      "zero": 0,
+      "nonfinite": 5
+    },
+    "NGC2976": {
+      "negative": 0,
+      "zero": 0,
+      "nonfinite": 8
+    }
+  },
+  "flagged_rows": [
+    {
+      "galaxy": "NGC2841",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 0,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2841",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 1,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2841",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 2,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2841",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 3,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2841",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 4,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 18,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 19,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 20,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 21,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 22,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 23,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 24,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    },
+    {
+      "galaxy": "NGC2976",
+      "stationary_role": "calibration",
+      "source_artifact": "data/stationary/source_reconstruction/leroy2008_things_hi_profiles_v1.csv",
+      "row_index": 25,
+      "source_sigma_column": "source_sigmaHI_including_helium_msun_pc2",
+      "source_sigma_value": null,
+      "source_uncertainty_column": "source_sigmaHI_rms_msun_pc2",
+      "source_uncertainty_value": 1.0,
+      "classification": "nonfinite",
+      "abs_sigma_over_uncertainty": null
+    }
+  ],
+  "boundary": "Source-value audit only. No clipping, normalization, interpolation, persistence parameters, or blind outcomes evaluated."
+}
