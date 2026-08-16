@@ -1,0 +1,77 @@
+{
+  "protocol_id": "sdss-dr20-independent-current-field-v1",
+  "field": {
+    "protocol_id": "sdss-dr20-independent-current-field-v1",
+    "analysis": "young-old selection-balanced 3D tracer-current comparison",
+    "input_rows": 6843,
+    "finite_phase_space_rows": 6843,
+    "young_rows_after_age_bounds": 2848,
+    "old_rows_after_age_bounds": 956,
+    "supported_voxels": 13,
+    "minimum_powered_voxels": 12,
+    "powered": true,
+    "primary_statistic_T": 28.891427712727914,
+    "n_permutations": 2000,
+    "permutation_seed": 20260814,
+    "p_value_greater_equal": 0.0004997501249375312,
+    "alpha": 0.01,
+    "field_verdict": "reject_within_voxel_exchangeability",
+    "secondary_signed_velocity_contrasts": {
+      "R": {
+        "equal_voxel_mean_old_minus_young_kms": 0.45714670163448934,
+        "equal_voxel_median_old_minus_young_kms": -0.21347150768425127
+      },
+      "phi": {
+        "equal_voxel_mean_old_minus_young_kms": -20.526673986265045,
+        "equal_voxel_median_old_minus_young_kms": -20.627951580081117
+      },
+      "z": {
+        "equal_voxel_mean_old_minus_young_kms": 0.32061017286853566,
+        "equal_voxel_median_old_minus_young_kms": -2.149540840434774
+      }
+    },
+    "guardrail": "This is a matched tracer-current test, not a calibrated stellar-mass current or a direct gravitational-acceleration measurement.",
+    "gyro_schema_mapping": {
+      "adapter": "DR20 gyro-age complementary-regime adapter v1",
+      "source_id_column": "source_id",
+      "young_estimator": {
+        "age": "gyrointerp_age",
+        "lower_error": "gyrointerp_age_m",
+        "upper_error": "gyrointerp_age_p"
+      },
+      "old_estimator": {
+        "age": "GPgyro_age",
+        "lower_error": "GPgyro_age_m",
+        "upper_error": "GPgyro_age_p"
+      },
+      "unit_rule": "all six age and error columns are in Gyr",
+      "young_candidates_before_gaia_quality": 3133,
+      "old_candidates_before_gaia_quality": 964,
+      "discordant_young_and_old_candidates_excluded": 0,
+      "standardized_rows": 7370
+    },
+    "phase_space_build": {
+      "gyro_rows": 7370,
+      "exact_gaia_matches": 7370,
+      "quality_6d_rows": 6843,
+      "v_phi_sign_applied": -1.0
+    }
+  },
+  "open_cluster_control": {
+    "protocol_id": "sdss-dr20-independent-current-field-v1",
+    "analysis": "open-cluster age versus absolute guiding-radius offset control",
+    "clusters": 111,
+    "minimum_clusters": 20,
+    "powered": true,
+    "spearman_rho": 0.1423854281866516,
+    "n_permutations": 2000,
+    "permutation_seed": 20260815,
+    "p_value_positive_tail": 0.06596701649175413,
+    "alpha": 0.05,
+    "positive_confound_control": false,
+    "raw_catalog_rows": 111,
+    "member_count_cut_applied": true
+  },
+  "classification": "persistence_compatible_not_a_detection",
+  "claim_guardrail": "Neither a field rejection nor a null cluster control may be described as a detection of gravitational persistence."
+}

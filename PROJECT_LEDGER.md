@@ -3,7 +3,7 @@
 **Canonical cross-session checkpoint**  
 **Repository:** `mjiresearch/persistent-geometric-states-paper1`  
 **Established:** 2026-08-12  
-**Last reconciled:** 2026-08-14 — certified 34-profile subset freeze plus pre-receipt author-package intake contract
+**Last reconciled:** 2026-08-16 — independent DR20 young–old current-field test and open-cluster control completed on the authorized branch
 
 > **Authority rule:** this ledger summarizes project state. Frozen protocol/data/provenance/validation artifacts remain authoritative if any discrepancy is found. The original H I provenance inventory is retained unchanged for auditability; the versioned reconciled provenance view is the current acquisition-status view.
 
@@ -61,6 +61,7 @@ Current posture:
 - Null/negative intermediate tests are preserved and are not repaired through post-hoc tuning.
 - The stationary baryonic source/profile construction must be complete and frozen **before** `L_A` and `\mathcal C_A` are calibrated.
 - The blind sample is inspected only under the final frozen model; there is no blind refit.
+- The preregistered, stationary-independent DR20 block is complete on `agent/dr20-young-old-current-field-v1`: the powered field test rejects within-voxel exchangeability (`T=28.8914`, permutation `p=0.0004998`), while the powered open-cluster control is not positive (`rho=0.1424`, one-sided permutation `p=0.06597`). Its locked classification is **persistence-compatible, not a detection**.
 
 ---
 
@@ -120,6 +121,7 @@ Current posture:
 | A32 | **COMPLETE (PR)** | Superseding stationary H I checkpoint: public overlay **62 = 45 calibration + 17 blind**; certified/common-normalized set **34 = 25 calibration + 9 blind**, comprising **27 tabulated profiles / 781 rows + 7 analytic profiles**. The radial-support audit records **11 inner** and **11 outer** continuation requirements without filling them. NGC5033 blind promotion followed a pre-frozen source-only protocol; no blind outcome was inspected. |
 | A33 | **COMPLETE (PR)** | The source-independent interpolation/continuation policy is frozen and the certified 34-profile subset is mapped to **905 frozen rotation-grid rows** in versioned H I and stellar-basis source products. Independent validation passes **14/14** gates; output hashes are bound into `STATIONARY_SOURCE_PROFILE_FREEZE_V1.md`. This subset freeze contains no observed velocity or evaluated source current and does not unlock the global fit gate. |
 | A34 | **COMPLETE (PR)** | The pre-receipt author-package intake protocol, permission template, metadata/profile schemas, fail-closed validator, and read-only CI workflow are frozen against the **112 = 77 calibration + 35 blind** request manifest. All **14/14** synthetic cases pass, including permission-before-content, restricted-storage, immutable-manifest, exact-membership/role, numerical geometry, and forbidden-outcome-header guards. No author data were used. |
+| A35 | **COMPLETE (branch)** | Independent SDSS DR20 young–old current-field block completed under the frozen protocol. Exact Gaia matching yielded 6,843 quality 6D stars (2,848 young; 956 old) and 13 supported voxels. The primary field statistic rejects exchangeability (`T=28.8914`, 2,000-permutation `p=0.0004998`, alpha 0.01). The 111-cluster control is not positive (`rho=0.1424`, `p=0.06597`, alpha 0.05). Locked classification: **persistence-compatible, not a detection**; this is neither a calibrated mass current nor a direct acceleration test. |
 
 ---
 
@@ -398,12 +400,13 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 
 ## 11. Current live queue
 
-1. **PENDING EXTERNAL RESPONSE:** preserve the immutable 34-profile v1 certified subset while awaiting the author response for the current **112 = 77 calibration + 35 blind** request manifest. Do not resend solely because the three FEASTS profiles were promoted after the original request.
-2. **NEXT ON RECEIPT — permissions first:** create the real permission record and initial report outside the public repository. If data use is not explicitly authorized, stop before opening metadata or numerical profile content.
-3. **NEXT ON AUTHORIZED RECEIPT — fail-closed intake:** run `scripts/stationary/validate_lelli_hi_author_package_v1.py`; require the frozen contract/manifest hashes, exact current-request membership and roles, documented units/helium/distance/inclination/beam/sampling/provenance, and valid strictly increasing nonnegative source profiles.
-4. **NEXT AFTER INTAKE PASS — version 2 only:** reconcile any partial return, retain source values unchanged, then build a new common normalization, support audit, and source-profile freeze under the already-frozen source-independent rules. Never rewrite version 1.
-5. **DO NOT REOPEN:** exhausted public routes remain closed unless an explicit `reopen_rule` receives a genuinely new mechanism.
-6. **LOCKED:** source-current evaluation, `L_A`, `\mathcal C_A`, `tau_A`, calibration fitting, persistence predictions, residuals, model preference, and the final blind evaluation remain locked until the global source package is complete, validated, and frozen.
+1. **DR20 BLOCK COMPLETE:** preserve the frozen protocol and result artifacts; do not retune the field or control after outcome inspection. The result is persistence-compatible, not a detection.
+2. **PENDING EXTERNAL RESPONSE:** preserve the immutable 34-profile v1 certified subset while awaiting the author response for the current **112 = 77 calibration + 35 blind** request manifest. Do not resend solely because the three FEASTS profiles were promoted after the original request.
+3. **NEXT ON RECEIPT — permissions first:** create the real permission record and initial report outside the public repository. If data use is not explicitly authorized, stop before opening metadata or numerical profile content.
+4. **NEXT ON AUTHORIZED RECEIPT — fail-closed intake:** run `scripts/stationary/validate_lelli_hi_author_package_v1.py`; require the frozen contract/manifest hashes, exact current-request membership and roles, documented units/helium/distance/inclination/beam/sampling/provenance, and valid strictly increasing nonnegative source profiles.
+5. **NEXT AFTER INTAKE PASS — version 2 only:** reconcile any partial return, retain source values unchanged, then build a new common normalization, support audit, and source-profile freeze under the already-frozen source-independent rules. Never rewrite version 1.
+6. **DO NOT REOPEN:** exhausted public routes remain closed unless an explicit `reopen_rule` receives a genuinely new mechanism.
+7. **LOCKED:** source-current evaluation, `L_A`, `\mathcal C_A`, `tau_A`, calibration fitting, persistence predictions, residuals, model preference, and the final blind evaluation remain locked until the global source package is complete, validated, and frozen.
 
 ---
 
@@ -423,4 +426,4 @@ At every meaningful milestone:
 3. record failures/blockers/nulls as well as successes; and
 4. establish the exact next resume point.
 
-**Current resume point:** the certified public **34-profile v1 subset** and the **112-profile author-package intake contract** are both frozen. Await the external response. On receipt, permission and repository-location gates run before metadata or numerical content; only then may exact-manifest source profiles enter a new version-2 staging build. Do not retry exhausted public routes, rewrite version 1, inspect blind outcomes, or unlock `L_A` and `\mathcal C_A`.
+**Current resume point:** the independent DR20 block is complete and frozen as `persistence_compatible_not_a_detection`; do not retune it. The certified public **34-profile v1 subset** and the **112-profile author-package intake contract** are also frozen. Await the external response. On receipt, permission and repository-location gates run before metadata or numerical content; only then may exact-manifest source profiles enter a new version-2 staging build. Do not retry exhausted public routes, rewrite version 1, inspect blind outcomes, or unlock `L_A` and `\mathcal C_A`.

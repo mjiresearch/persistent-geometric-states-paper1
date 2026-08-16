@@ -1,0 +1,15 @@
+{
+  "protocol_id": "sdss-dr20-independent-current-field-v1",
+  "analysis": "open-cluster age versus absolute guiding-radius offset control",
+  "clusters": 111,
+  "minimum_clusters": 20,
+  "powered": true,
+  "spearman_rho": 0.1423854281866516,
+  "n_permutations": 2000,
+  "permutation_seed": 20260815,
+  "p_value_positive_tail": 0.06596701649175413,
+  "alpha": 0.05,
+  "positive_confound_control": false,
+  "raw_catalog_rows": 111,
+  "member_count_cut_applied": true
+}
