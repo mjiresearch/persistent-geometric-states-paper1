@@ -1,0 +1,43 @@
+{
+  "protocol_id": "sdss-dr20-independent-current-field-v1",
+  "gyro": {
+    "url": "https://data.sdss.org/sas/dr20/vac/mwm/stellar-age/gyro_age/gyro_age_dwarf-1.0.0.fits",
+    "path": "data/external/sdss/dr20_independent_current_field_v1/gyro_age_dwarf-1.0.0.fits",
+    "bytes": 656640,
+    "sha1": "495adebe4f904c2f897f8813a9b385216df07faa",
+    "source_id_column": "source_id",
+    "unique_valid_source_ids": 7370
+  },
+  "ob_kinematics_coverage_audit": {
+    "url": "https://data.sdss.org/sas/dr20/vac/mwm/yso/ob-kin/ob_vac-1.0.0.fits",
+    "path": "data/external/sdss/dr20_independent_current_field_v1/ob_vac-1.0.0.fits",
+    "bytes": 8893440,
+    "sha1": "4eea6bab532880f2778e64b88bc338b9bdd676ed"
+  },
+  "gaia_exact_match": {
+    "tap_table": "gaiadr3.gaia_source",
+    "join_rule": "exact integer source_id",
+    "requested_unique_source_ids": 7370,
+    "returned_unique_source_ids": 7370,
+    "rows_with_radial_velocity": 7024,
+    "path": "data/external/sdss/dr20_independent_current_field_v1/gyro_gaia_dr3_exact.csv.gz",
+    "bytes": 624634,
+    "sha256": "eaabd0df4290dc83883bc91de6d8977ad9dc159551460ecde7b19df5e16a8aa0",
+    "columns": [
+      "source_id",
+      "ra",
+      "dec",
+      "parallax",
+      "parallax_error",
+      "pmra",
+      "pmra_error",
+      "pmdec",
+      "pmdec_error",
+      "radial_velocity",
+      "radial_velocity_error",
+      "ruwe",
+      "astrometric_params_solved",
+      "duplicated_source"
+    ]
+  }
+}
