@@ -47,6 +47,98 @@ def standardize_gyro(gyro: pd.DataFrame, args: argparse.Namespace) -> tuple[pd.D
         args.source_id_column,
         "Gaia DR3 source_id",
     )
+    dr20_columns = {
+        "gyrointerp_age",
+        "gyrointerp_age_p",
+        "gyrointerp_age_m",
+        "GPgyro_age",
+        "GPgyro_age_p",
+        "GPgyro_age_m",
+    }
+    explicit_age_mapping = any(
+        [
+            args.age_column,
+            args.age_error_column,
+            args.age_error_lower_column,
+            args.age_error_upper_column,
+            args.age_is_log10_years,
+        ]
+    )
+    if dr20_columns.issubset(gyro.columns) and not explicit_age_mapping:
+        # Frozen schema-only adapter: gyro-interp covers the young calibration regime,
+        # while GPgyro covers old dwarfs. Define eligibility before choosing the row's
+        # reporting estimator; discordant young-and-old assignments are excluded.
+        gi_age = _numeric(gyro["gyrointerp_age"])
+        gi_lower = np.abs(_numeric(gyro["gyrointerp_age_m"]))
+        gi_upper = np.abs(_numeric(gyro["gyrointerp_age_p"]))
+        gp_age = _numeric(gyro["GPgyro_age"])
+        gp_lower = np.abs(_numeric(gyro["GPgyro_age_m"]))
+        gp_upper = np.abs(_numeric(gyro["GPgyro_age_p"]))
+        young_eligible = (
+            np.isfinite(gi_age)
+            & np.isfinite(gi_lower)
+            & np.isfinite(gi_upper)
+            & ((gi_age + gi_upper) <= 1.0)
+        )
+        old_eligible = (
+            np.isfinite(gp_age)
+            & np.isfinite(gp_lower)
+            & np.isfinite(gp_upper)
+            & ((gp_age - gp_lower) >= 4.0)
+        )
+        discordant = young_eligible & old_eligible
+        use_gp = old_eligible & ~young_eligible
+        use_gi = ~use_gp & np.isfinite(gi_age)
+        use_gp_fallback = ~use_gi & ~use_gp & np.isfinite(gp_age)
+        age = np.full(len(gyro), np.nan)
+        lower = np.full(len(gyro), np.nan)
+        upper = np.full(len(gyro), np.nan)
+        method = np.full(len(gyro), "none", dtype=object)
+        for mask, values, label in [
+            (use_gi, (gi_age, gi_lower, gi_upper), "gyrointerp"),
+            (use_gp, (gp_age, gp_lower, gp_upper), "GPgyro_old_regime"),
+            (use_gp_fallback, (gp_age, gp_lower, gp_upper), "GPgyro_fallback_noncohort"),
+        ]:
+            age[mask], lower[mask], upper[mask] = values[0][mask], values[1][mask], values[2][mask]
+            method[mask] = label
+        age[discordant] = np.nan
+        lower[discordant] = np.nan
+        upper[discordant] = np.nan
+        method[discordant] = "discordant_excluded"
+        source_text = gyro[source_column].astype("string").str.replace(r"\.0$", "", regex=True).str.strip()
+        standardized = pd.DataFrame(
+            {
+                "source_id": source_text,
+                "age_gyr": age,
+                "age_err_lower_gyr": lower,
+                "age_err_upper_gyr": upper,
+                "age_method": method,
+            }
+        )
+        standardized = standardized[standardized["source_id"].str.fullmatch(r"[0-9]+", na=False)].copy()
+        duplicated = standardized["source_id"].duplicated(keep=False)
+        if duplicated.any():
+            raise ValueError("DR20 gyro catalog contains duplicate exact source_id rows")
+        mapping = {
+            "adapter": "DR20 gyro-age complementary-regime adapter v1",
+            "source_id_column": source_column,
+            "young_estimator": {
+                "age": "gyrointerp_age",
+                "lower_error": "gyrointerp_age_m",
+                "upper_error": "gyrointerp_age_p",
+            },
+            "old_estimator": {
+                "age": "GPgyro_age",
+                "lower_error": "GPgyro_age_m",
+                "upper_error": "GPgyro_age_p",
+            },
+            "unit_rule": "all six age and error columns are in Gyr",
+            "young_candidates_before_gaia_quality": int(young_eligible.sum()),
+            "old_candidates_before_gaia_quality": int(old_eligible.sum()),
+            "discordant_young_and_old_candidates_excluded": int(discordant.sum()),
+            "standardized_rows": int(len(standardized)),
+        }
+        return standardized, mapping
     age_column = resolve_column(
         gyro,
         ["age_gyr", "gyro_age_gyr", "gyro_age", "age"],

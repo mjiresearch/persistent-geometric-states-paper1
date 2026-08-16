@@ -1,0 +1,39 @@
+{
+  "adapter_id": "sdss-dr20-gyro-complementary-regime-v1",
+  "protocol_id": "sdss-dr20-independent-current-field-v1",
+  "frozen_utc": "2026-08-14T20:54:21Z",
+  "status": "frozen_schema_only_before_velocity_outcome",
+  "source": {
+    "file": "gyro_age_dwarf-1.0.0.fits",
+    "sha1": "495adebe4f904c2f897f8813a9b385216df07faa",
+    "rows": 7370,
+    "source_id_column": "source_id"
+  },
+  "mapping": {
+    "young": {
+      "age_gyr": "gyrointerp_age",
+      "lower_error_gyr": "gyrointerp_age_m",
+      "upper_error_gyr": "gyrointerp_age_p",
+      "eligibility": "gyrointerp_age + gyrointerp_age_p <= 1.0"
+    },
+    "old": {
+      "age_gyr": "GPgyro_age",
+      "lower_error_gyr": "GPgyro_age_m",
+      "upper_error_gyr": "GPgyro_age_p",
+      "eligibility": "GPgyro_age - GPgyro_age_m >= 4.0"
+    }
+  },
+  "count_only_audit": {
+    "young_candidates_before_gaia_quality": 3133,
+    "old_candidates_before_gaia_quality": 964,
+    "discordant_candidates": 0,
+    "young_after_frozen_gaia_quality": 2848,
+    "old_after_frozen_gaia_quality": 956,
+    "supported_voxels_at_minimum_10_each": 13,
+    "minimum_powered_voxels": 12
+  },
+  "conflict_rule": "A source satisfying both cohort definitions is excluded. No such source was found in the source-only schema audit.",
+  "noncohort_rule": "Rows satisfying neither frozen bound are excluded from inference; their fallback reporting age cannot create cohort membership.",
+  "scientific_rationale": "The released VAC provides gyro-interp in its young calibrated regime and GPgyro in its old-star regime. Both cohorts remain exact-ID subsets of the same official VAC; methods are not mixed within a cohort.",
+  "outcome_guardrail": "This adapter was fixed from column names, documented estimator validity ranges, age bounds, and position/count support only. No Gaia velocity component or young-old current contrast was evaluated."
+}
