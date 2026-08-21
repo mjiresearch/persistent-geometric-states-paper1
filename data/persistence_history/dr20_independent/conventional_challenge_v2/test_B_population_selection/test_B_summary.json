@@ -1,0 +1,48 @@
+{
+  "protocol_id": "sdss-dr20-conventional-dynamics-challenge-v2",
+  "test": "B_population_vertical_selection",
+  "young_old_rows": 3804,
+  "common_radial_gradient_by_z_stratum": {
+    "z0_025": -6.366243409572353,
+    "z025_050": null
+  },
+  "gaia_photometry": {
+    "source": "Gaia_DR3_TAP_exact_source_id_covariate_augmentation",
+    "rows_returned": 3804
+  },
+  "chemistry_complete_matching": {
+    "status": "unavailable_not_imputed",
+    "powered": false,
+    "reason": "No source_id-keyed recommended-quality BOSS-CLAM chemistry table supplied; frozen protocol forbids imputation."
+  },
+  "vertical_height_stress": {
+    "absz_0_020": {
+      "units": 13,
+      "delta_R_equal_unit_kms": 0.45714670163448967,
+      "delta_phi_equal_unit_kms": -20.52667398626504,
+      "delta_z_equal_unit_kms": 0.32061017286853577,
+      "delta_phi_AD_equal_unit_kms": -21.156281353143363,
+      "delta_phi_residual_equal_unit_kms": 0.6296073668783279,
+      "minimum_units": 8,
+      "powered": true
+    },
+    "absz_020_050": {
+      "units": 0,
+      "minimum_units": 8,
+      "powered": false
+    }
+  },
+  "selection_only_matching": {
+    "units": 0,
+    "minimum_cells": 8,
+    "powered": false,
+    "variables": [
+      "abs_z",
+      "phot_g_mean_mag",
+      "bp_rp",
+      "parallax_over_error",
+      "ruwe"
+    ]
+  },
+  "interpretation_guardrail": "Test B is a robustness/completeness check. Underpowered or unavailable chemistry cannot be treated as passing, and no Test B result can restore a drift-corrected signal that Test C already found non-significant."
+}

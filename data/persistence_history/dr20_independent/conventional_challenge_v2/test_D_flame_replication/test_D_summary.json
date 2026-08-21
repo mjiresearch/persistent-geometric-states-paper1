@@ -1,0 +1,47 @@
+{
+  "protocol_id": "sdss-dr20-conventional-dynamics-challenge-v2",
+  "test": "D_disjoint_Gaia_FLAME_replication",
+  "gyro_source_ids_excluded": 7370,
+  "gaia_rows_returned_before_disjointness": 32769,
+  "flame_young_old_rows_after_disjointness_and_quality": 27216,
+  "supported_voxels": 13,
+  "valid_gradient_voxels": 7,
+  "minimum_powered_voxels": 12,
+  "powered": false,
+  "common_radial_gradient_by_z_stratum": {
+    "z0_025": null,
+    "z025_050": -16.94927563789801
+  },
+  "raw": {
+    "T_3D": 10.652542584897166,
+    "T_R": 0.5002833692821669,
+    "T_phi": 7.967107722957891,
+    "T_z": 1.1088926586126822,
+    "T_Rz": 1.792210275567156,
+    "T_minus_phi": 1.792210275567156,
+    "f_phi": 0.8319623697708879,
+    "delta_R_equal_voxel_kms": 0.11855577892620493,
+    "delta_phi_equal_voxel_kms": -7.24551507880936,
+    "delta_z_equal_voxel_kms": -0.9466982909282908,
+    "p_T_3D": 0.004497751124437781
+  },
+  "drift_corrected": {
+    "T_3D": 26.451592127426416,
+    "T_R": 0.5002833692821669,
+    "T_phi": 21.10557591847922,
+    "T_z": 1.1088926586126822,
+    "T_Rz": 1.792210275567156,
+    "T_minus_phi": 1.792210275567156,
+    "f_phi": 0.9291572264714201,
+    "delta_R_equal_voxel_kms": 0.11855577892620493,
+    "delta_phi_equal_voxel_kms": -5.078897890431747,
+    "delta_z_equal_voxel_kms": -0.9466982909282908,
+    "p_T_3D": 0.4577711144427786
+  },
+  "permutations": 2000,
+  "seed": 20260823,
+  "alpha": 0.01,
+  "replication_success": false,
+  "interpretation": "disjoint_FLAME_replication_underpowered",
+  "guardrail": "A raw uncorrected FLAME difference does not count as replication; the frozen criterion is the drift-corrected 3-D result."
+}

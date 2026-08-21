@@ -1,0 +1,55 @@
+{
+  "protocol_id": "sdss-dr20-conventional-dynamics-challenge-v2",
+  "test": "C_component_decomposition",
+  "supported_voxels": 13,
+  "permutations": 2000,
+  "seed": 20260822,
+  "alpha": 0.01,
+  "raw": {
+    "T_3D": 28.89142771272809,
+    "T_R": 0.6341603026071646,
+    "T_phi": 25.762690713847544,
+    "T_z": 1.7027732395456245,
+    "T_Rz": 2.4584604630379525,
+    "T_minus_phi": 2.4584604630379525,
+    "f_phi": 0.9168339931928532,
+    "delta_R_equal_voxel_kms": 0.45714670163448967,
+    "delta_phi_equal_voxel_kms": -20.52667398626504,
+    "delta_z_equal_voxel_kms": 0.32061017286853577,
+    "p_values": {
+      "T_3D": 0.0004997501249375312,
+      "T_R": 0.8610694652673663,
+      "T_phi": 0.0004997501249375312,
+      "T_z": 0.06896551724137931,
+      "T_Rz": 0.2943528235882059,
+      "T_minus_phi": 0.2943528235882059
+    }
+  },
+  "drift_corrected": {
+    "T_3D": 5.497445296210945,
+    "T_R": 0.6341603026071646,
+    "T_phi": 2.9111026097738395,
+    "T_z": 1.7027732395456245,
+    "T_Rz": 2.4584604630379525,
+    "T_minus_phi": 2.4584604630379525,
+    "f_phi": 0.5547032309800558,
+    "delta_R_equal_voxel_kms": 0.45714670163448967,
+    "delta_phi_equal_voxel_kms": 0.6296073668783279,
+    "delta_z_equal_voxel_kms": 0.32061017286853577,
+    "p_values": {
+      "T_3D": 0.06946526736631684,
+      "T_R": 0.8610694652673663,
+      "T_phi": 0.010494752623688156,
+      "T_z": 0.06896551724137931,
+      "T_Rz": 0.2943528235882059,
+      "T_minus_phi": 0.2943528235882059
+    }
+  },
+  "vphi_dominated_rule": {
+    "f_phi_min": 0.8,
+    "p_T_Rz_gt": 0.01
+  },
+  "vphi_dominated": true,
+  "interpretation": "v1_omnibus_is_vphi_dominated_and_not_independent_persistence_support",
+  "guardrail": "Test C describes signal geometry. A surviving component is not by itself evidence for persistence."
+}
