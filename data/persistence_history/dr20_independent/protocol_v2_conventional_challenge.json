@@ -1,0 +1,157 @@
+{
+  "protocol_id": "sdss-dr20-conventional-dynamics-challenge-v2",
+  "title": "Conventional-dynamics challenge to the SDSS DR20 young-old current-field result",
+  "version": "2.0.0",
+  "frozen_date": "2026-08-21",
+  "status": "frozen_pre_v2_outcome",
+  "outcome_status_at_freeze": "no_v2_outcome_evaluated",
+  "documentation": "docs/dr20_conventional_dynamics_challenge_protocol_v2.md",
+  "parent_protocol": "sdss-dr20-independent-current-field-v1",
+  "parent_result": {
+    "T_3D": 28.8914277,
+    "permutation_p": 0.0004997501,
+    "signed_old_minus_young_kms": {
+      "v_R": 0.457,
+      "v_phi": -20.527,
+      "v_z": 0.321
+    },
+    "open_cluster_control_p": 0.065967,
+    "interpretation": "persistence_compatible_not_a_detection"
+  },
+  "immutability": {
+    "v1_result_overwritten": false,
+    "v2_products_additive_only": true,
+    "rule": "No v2 threshold or decision rule may be changed after a v2 young-old outcome statistic is inspected."
+  },
+  "fixed_primary_inputs": {
+    "age_catalog": "SDSS DR20 gyrochronology dwarf VAC gyro_age_dwarf-1.0.0.fits",
+    "phase_space": "Gaia DR3 exact source_id join",
+    "chemistry_preferred": "SDSS DR20 BOSS-CLAM [Fe/H] and [alpha/M] with recommended-quality flags",
+    "photometry": ["Gaia DR3 phot_g_mean_mag", "Gaia DR3 bp_rp"],
+    "inherit_from_v1": [
+      "age cohort thresholds",
+      "Gaia astrometric quality cuts",
+      "Galactocentric frame",
+      "base 0.25 x 0.25 x 0.10 kpc voxel grid",
+      "10 stars per cohort per supported voxel"
+    ]
+  },
+  "test_A_asymmetric_drift": {
+    "measured_moments": ["mean_v_R", "mean_v_phi", "mean_v_z", "sigma_R", "sigma_phi", "sigma_z"],
+    "bootstrap": {
+      "resamples": 2000,
+      "seed": 20260821,
+      "unit": "within_voxel_within_cohort"
+    },
+    "jeans_equation": "V_c^2 - mean(v_phi)^2 = sigma_phi^2 - sigma_R^2 * [1 + d ln(nu sigma_R^2)/d ln R] - (R/nu) d(nu <v_R v_z>)/dz",
+    "V_c_kms": 232.24,
+    "tracer_density_warning": "nu is catalog tracer density, not stellar mass density",
+    "radial_gradient": {
+      "sample": "pooled young+old",
+      "radial_bin_width_kpc": 0.5,
+      "z_strata_kpc": [[0.0, 0.25], [0.25, 0.5]],
+      "minimum_populated_radial_bins": 4,
+      "fit": "equal-bin-weight linear regression of ln(nu sigma_R^2) on ln R",
+      "age_handling": "same fitted local gradient applied to young and old at matched R and |z|"
+    },
+    "tilt_term": {
+      "baseline": "zero",
+      "mandatory_sensitivity": "measured <v_R v_z> with centered finite-difference vertical derivative when adjacent 0.1 kpc layers exist"
+    },
+    "primary_estimand": "equal-voxel mean of observed Delta v_phi minus predicted Delta v_phi_AD",
+    "sufficiency_conditions": [
+      "observed equal-voxel Delta v_phi lies inside two-sided 95% bootstrap prediction interval of Delta v_phi_AD",
+      "within-voxel permutation p for residual azimuthal contrast is > 0.01"
+    ],
+    "residual_permutation": {
+      "permutations": 2000,
+      "alpha": 0.01,
+      "labels_permuted_within_voxel": true
+    }
+  },
+  "test_B_population_and_selection": {
+    "chemistry_complete": {
+      "required": ["finite recommended-quality [Fe/H]", "finite recommended-quality [alpha/M]"],
+      "missing_imputation": false,
+      "coarsened_exact_matching": {
+        "within_original_voxel": true,
+        "bin_widths": {
+          "feh_dex": 0.10,
+          "alpha_m_dex": 0.05,
+          "abs_z_kpc": 0.05,
+          "g_mag": 0.50,
+          "bp_rp_mag": 0.20
+        },
+        "feh_origin_dex": -3.0,
+        "other_origins": 0.0,
+        "min_each_cohort_per_cell": 5,
+        "minimum_cells": 8,
+        "cell_weighting": "equal",
+        "cohort_weighting_within_cell": "equal total weight"
+      }
+    },
+    "vertical_slabs_kpc": [[0.0, 0.20], [0.20, 0.50]],
+    "vertical_minimum_supported_units": 8,
+    "selection_only": {
+      "variables": ["abs_z", "phot_g_mean_mag", "bp_rp", "parallax_over_error", "ruwe"],
+      "bin_widths": [0.05, 0.50, 0.20, 10.0, 0.10],
+      "min_each_cohort_per_cell": 5,
+      "minimum_cells": 8,
+      "separate_from_chemistry_test": true
+    },
+    "underpowered_rule": "Do not relax bin widths or thresholds after outcome inspection."
+  },
+  "test_C_component_decomposition": {
+    "Q_definition": "Q_k = Delta mean(v_k)^2 / Var[Delta mean(v_k)]",
+    "statistics": ["T_3D", "T_R", "T_phi", "T_z", "T_Rz", "T_-phi", "f_phi"],
+    "f_phi_definition": "sum(Q_phi) / sum(Q_R + Q_phi + Q_z)",
+    "permutation": {
+      "permutations": 2000,
+      "seed": 20260822,
+      "alpha": 0.01,
+      "within_voxel": true
+    },
+    "vphi_dominated_rule": "f_phi >= 0.80 and p(T_Rz) > 0.01",
+    "mandatory_drift_corrected_repeat": true
+  },
+  "test_D_replication": {
+    "catalog": "Gaia DR3 gaiadr3.astrophysical_parameters FLAME ages",
+    "age_columns": ["age_flame", "age_flame_lower", "age_flame_upper"],
+    "quality": "flags_flame first character == '0'",
+    "disjointness": "exclude every Gaia source_id appearing anywhere in the SDSS DR20 gyrochronology VAC before cohort assignment",
+    "cohorts": {
+      "young": "age_flame_upper <= 1.0 Gyr",
+      "old": "age_flame_lower >= 4.0 Gyr",
+      "middle": "excluded"
+    },
+    "inherit_v1_phase_space_quality_frame_grid": true,
+    "min_each_cohort_per_voxel": 10,
+    "minimum_powered_voxels": 12,
+    "permutation": {
+      "permutations": 2000,
+      "seed": 20260823,
+      "alpha": 0.01
+    },
+    "must_repeat_asymmetric_drift_challenge": true,
+    "success": {
+      "drift_corrected_3D_p_max": 0.01,
+      "direction_rule": "component-by-component residual sign agreement for every primary component with absolute residual > 2 km/s"
+    },
+    "raw_uncorrected_difference_counts_as_replication": false
+  },
+  "interpretation": {
+    "asymmetric_drift_sufficient": "Treat the v1 ~20.5 km/s azimuthal difference as conventionally explained unless a separate non-azimuthal and replicated residual survives.",
+    "vphi_dominated": "Do not treat the v1 omnibus rejection as independent support for persistence.",
+    "chemistry_or_selection_sensitive": "Classify as population/selection-confounded if an adequately powered stress test removes the residual.",
+    "replication_failure_or_underpowering": "Do not promote beyond unresolved_after_conventional_challenge.",
+    "strongest_allowed_label": "persistence_compatible_after_conventional_challenge",
+    "survival_requires": [
+      "Test A says asymmetric drift insufficient",
+      "drift-corrected 3-D residual p <= 0.01",
+      "no adequately powered chemistry or selection stress test eliminates the residual",
+      "disjoint Gaia FLAME replication succeeds"
+    ],
+    "prohibited_claim": "No v2 outcome is a detection of gravitational persistence."
+  },
+  "execution_lock": "No v2 outcome calculation may begin until both the human-readable and machine-readable v2 protocol authorities are committed. Scientifically material changes require a new protocol version."
+}
