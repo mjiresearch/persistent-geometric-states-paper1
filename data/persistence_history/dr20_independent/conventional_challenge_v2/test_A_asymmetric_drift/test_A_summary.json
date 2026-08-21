@@ -1,0 +1,37 @@
+{
+  "protocol_id": "sdss-dr20-conventional-dynamics-challenge-v2",
+  "test": "A_asymmetric_drift",
+  "input_star_rows": 6067,
+  "young_old_rows": 3804,
+  "v1_supported_voxels": 13,
+  "baseline_voxels_with_valid_common_gradient": 13,
+  "common_radial_gradient_by_z_stratum": {
+    "z0_025": -6.3662434095723395,
+    "z025_050": null
+  },
+  "V_c_kms": 232.24,
+  "observed_equal_voxel_delta_vphi_old_minus_young_kms": -20.52667398626504,
+  "predicted_equal_voxel_delta_vphi_AD_kms": -21.156281353143306,
+  "bootstrap_prediction_interval_95_kms": [
+    -24.572156053013448,
+    -16.436599719990603
+  ],
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 20260821,
+  "observed_inside_AD_prediction_interval": true,
+  "equal_voxel_residual_observed_minus_AD_kms": 0.6296073668782731,
+  "residual_permutations": 2000,
+  "residual_permutation_seed": 20260822,
+  "residual_permutation_p_two_sided": 0.6756621689155422,
+  "residual_alpha": 0.01,
+  "residual_not_significant": true,
+  "asymmetric_drift_quantitatively_sufficient": true,
+  "tilt_sensitivity": {
+    "voxels_with_both_cohort_tilt_terms": 13,
+    "equal_voxel_delta_vphi_AD_kms": -19.88673860351891,
+    "equal_voxel_residual_kms": -0.6399353827461268,
+    "selection_rule": "reported sensitivity only; baseline Test-A decision is never replaced post hoc"
+  },
+  "interpretation": "asymmetric_drift_sufficient_under_frozen_v2",
+  "guardrail": "Failure of Test A is not evidence for persistence; subsequent frozen Tests B-D remain mandatory."
+}
