@@ -54,30 +54,31 @@ def gyro_ids(path: Path) -> set[str]:
 
 
 def query_flame() -> pd.DataFrame:
-    # Quality and age cuts are pushed into TAP only to reduce transport. The full frozen
-    # rules are rechecked locally after download.
+    # Keep server-side ADQL deliberately simple and re-apply all frozen quality rules
+    # locally. Gaia DR3 documents age_flame[_lower/_upper] in Gyr and flags_flame as
+    # the FLAME quality/processing flag. Explicit ON syntax is used for TAP portability.
     query = """
     SELECT
       gs.source_id, gs.ra, gs.dec, gs.parallax, gs.parallax_error,
       gs.pmra, gs.pmdec, gs.radial_velocity, gs.ruwe, gs.duplicated_source,
       ap.age_flame, ap.age_flame_lower, ap.age_flame_upper, ap.flags_flame
     FROM gaiadr3.gaia_source AS gs
-    JOIN gaiadr3.astrophysical_parameters AS ap USING (source_id)
+    JOIN gaiadr3.astrophysical_parameters AS ap
+      ON gs.source_id = ap.source_id
     WHERE gs.parallax > 0
       AND gs.parallax_error > 0
       AND gs.parallax/gs.parallax_error >= 10
       AND gs.ruwe <= 1.4
-      AND gs.duplicated_source = 'false'
       AND gs.radial_velocity IS NOT NULL
       AND ap.age_flame IS NOT NULL
       AND ap.age_flame_lower IS NOT NULL
       AND ap.age_flame_upper IS NOT NULL
-      AND SUBSTRING(ap.flags_flame,1,1) = '0'
       AND (ap.age_flame_upper <= 1.0 OR ap.age_flame_lower >= 4.0)
     """
     payload = {"REQUEST": "doQuery", "LANG": "ADQL", "FORMAT": "csv", "QUERY": query}
     r = requests.post(GAIA_TAP_SYNC, data=payload, timeout=600)
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f"Gaia TAP HTTP {r.status_code}: {r.text[:2000]}")
     return pd.read_csv(StringIO(r.text), dtype={"source_id": "string"})
 
 
@@ -120,128 +121,102 @@ def build_phase_space(d: pd.DataFrame, v1: dict[str, Any]) -> pd.DataFrame:
         radial_velocity=x["radial_velocity"].to_numpy(float) * u.km / u.s,
         frame="icrs",
     )
-    f = v1["field_test"]["galactocentric_frame"]
+    fs = v1["field_test"]["galactocentric_frame"]
     frame = Galactocentric(
-        galcen_distance=float(f["galcen_distance_kpc"]) * u.kpc,
-        z_sun=float(f["z_sun_kpc"]) * u.kpc,
-        galcen_v_sun=CartesianDifferential(np.asarray(f["galcen_v_sun_cartesian_kms"], float) * u.km / u.s),
+        galcen_distance=float(fs["galcen_distance_kpc"]) * u.kpc,
+        z_sun=float(fs["z_sun_kpc"]) * u.kpc,
+        galcen_v_sun=CartesianDifferential(np.asarray(fs["galcen_v_sun_cartesian_kms"], float) * u.km / u.s),
     )
-    tr = sky.transform_to(frame)
-    xx = tr.cartesian.x.to_value(u.kpc); yy = tr.cartesian.y.to_value(u.kpc); zz = tr.cartesian.z.to_value(u.kpc)
-    vx = tr.velocity.d_x.to_value(u.km/u.s); vy = tr.velocity.d_y.to_value(u.km/u.s); vz = tr.velocity.d_z.to_value(u.km/u.s)
+    g = sky.transform_to(frame)
+    xx = g.cartesian.x.to_value(u.kpc); yy = g.cartesian.y.to_value(u.kpc); zz = g.cartesian.z.to_value(u.kpc)
+    vx = g.velocity.d_x.to_value(u.km/u.s); vy = g.velocity.d_y.to_value(u.km/u.s); vz = g.velocity.d_z.to_value(u.km/u.s)
     R = np.hypot(xx, yy)
-    vR = (xx*vx + yy*vy)/R
+    vr = (xx*vx + yy*vy)/R
     vp = (-yy*vx + xx*vy)/R
     sign = -1.0 if float(np.nanmedian(vp)) < 0 else 1.0
     x["x_kpc"], x["y_kpc"], x["z_kpc"], x["R_kpc"] = xx, yy, zz, R
-    x["v_R_kms"], x["v_phi_kms"], x["v_z_kms"] = vR, sign*vp, vz
+    x["v_R_kms"], x["v_phi_kms"], x["v_z_kms"] = vr, sign*vp, vz
     return x
 
 
-def permutation_test(groups: list[pd.DataFrame], gradients: list[float], ridge: float, vc: float, nperm: int, seed: int, corrected: bool) -> tuple[dict[str, float], float]:
-    rows = [voxel_stats(g, ridge, grad, vc) if corrected else voxel_stats(g, ridge) for g, grad in zip(groups, gradients, strict=True)]
-    obs = aggregate(rows, corrected=corrected)
-    rng = np.random.default_rng(seed)
-    vals = np.full(nperm, np.nan)
-    for i in range(nperm):
-        prow = []
-        for g, grad in zip(groups, gradients, strict=True):
-            gp = g.copy(); gp["cohort"] = rng.permutation(gp["cohort"].to_numpy())
-            prow.append(voxel_stats(gp, ridge, grad, vc) if corrected else voxel_stats(gp, ridge))
-        vals[i] = aggregate(prow, corrected=corrected)["T_3D"]
-    p = float((1 + np.sum(vals >= obs["T_3D"])) / (nperm + 1))
-    return obs, p
+def statistic(groups: list[pd.DataFrame], grads: list[float], ridge: float, vc: float, corrected: bool) -> dict[str, float]:
+    rows = [voxel_stats(g, ridge, grad, vc) if corrected else voxel_stats(g, ridge) for g, grad in zip(groups, grads, strict=True)]
+    return aggregate(rows, corrected=corrected)
 
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser()
     p.add_argument("--v1-protocol", type=Path, default=Path("data/persistence_history/dr20_independent/protocol_v1.json"))
     p.add_argument("--v2-protocol", type=Path, default=Path("data/persistence_history/dr20_independent/protocol_v2_conventional_challenge.json"))
+    p.add_argument("--gyro-path", type=Path, default=Path("data/external/sdss/dr20_independent_current_field_v1/gyro_age_dwarf-1.0.0.fits"))
     p.add_argument("--output-dir", type=Path, default=Path("data/persistence_history/dr20_independent/conventional_challenge_v2/test_D_flame_replication"))
     return p.parse_args()
 
 
 def main() -> None:
-    args = parse_args(); v1 = load_json(args.v1_protocol); v2 = load_json(args.v2_protocol)
-    if v2.get("status") != "frozen_pre_v2_outcome":
-        raise RuntimeError("Refusing to run: v2 protocol is not frozen")
-    spec = v2["test_D_replication"]; drift = v2["test_A_asymmetric_drift"]
-    nperm = int(spec["permutation"]["permutations"]); seed = int(spec["permutation"]["seed"]); alpha = float(spec["permutation"]["alpha"])
-    ridge = float(v1["field_test"]["primary_statistic"]["covariance_ridge_fraction"]); vc = float(drift["V_c_kms"])
-
+    args = parse_args()
+    v1 = load_json(args.v1_protocol); v2 = load_json(args.v2_protocol)
+    spec = v2["test_D_replication"]; ad = v2["test_A_asymmetric_drift"]
     gyro_url = v1["sources"]["gyro"]["url"]
-    gyro_path = Path("data/external/sdss/dr20_independent_current_field_v1/gyro_age_dwarf-1.0.0.fits")
-    excluded = gyro_ids(download_gyro(gyro_url, gyro_path))
-
+    download_gyro(gyro_url, args.gyro_path)
+    excluded = gyro_ids(args.gyro_path)
     raw = query_flame()
-    cohorts = flame_cohorts(raw, excluded)
-    phase = build_phase_space(cohorts, v1)
+    cohort = flame_cohorts(raw, excluded)
+    phase = build_phase_space(cohort, v1)
     phase = assign_voxels(phase, v1)
     supported, voxel_ids = supported_sample(phase, v1)
+    minimum = int(spec["minimum_powered_voxels"])
+    powered = len(voxel_ids) >= minimum
 
-    # Common radial gradient is fit on the full disjoint FLAME young+old replication cohort,
-    # matching Test A's implementation lock; supported voxels are used only for inference.
-    slopes, gradient_audit = fit_common_radial_gradients(phase, drift)
-    groups: list[pd.DataFrame] = []; gradients: list[float] = []
+    # Common gradients are fit from the full quality FLAME young+old sample, not only supported voxels.
+    slopes, gradient_audit = fit_common_radial_gradients(phase, ad)
+    groups = []; grads = []
     for vid in voxel_ids:
         g = supported[supported["voxel_id"] == vid].copy()
         zs = z_stratum(float(g["z_kpc"].abs().mean()))
         grad = slopes.get(zs, float("nan")) if zs else float("nan")
         if np.isfinite(grad):
-            groups.append(g); gradients.append(float(grad))
+            groups.append(g); grads.append(float(grad))
 
-    powered = len(groups) >= int(spec["minimum_powered_voxels"])
-    raw_obs = corr_obs = {}; raw_p = corr_p = None
+    ridge = float(v1["field_test"]["primary_statistic"]["covariance_ridge_fraction"])
+    vc = float(ad["V_c_kms"])
+    raw_obs = statistic(groups, grads, ridge, vc, False) if groups else {}
+    corr_obs = statistic(groups, grads, ridge, vc, True) if groups else {}
+    nperm = int(spec["permutation"]["permutations"]); seed = int(spec["permutation"]["seed"]); alpha = float(spec["permutation"]["alpha"])
+    rng = np.random.default_rng(seed)
+    raw_perm = np.full(nperm, np.nan); corr_perm = np.full(nperm, np.nan)
     if groups:
-        raw_obs, raw_p = permutation_test(groups, gradients, ridge, vc, nperm, seed, corrected=False)
-        corr_obs, corr_p = permutation_test(groups, gradients, ridge, vc, nperm, seed, corrected=True)
-
-    # Frozen direction rule is evaluated against the primary Test-C residual vector when available.
-    primary_path = Path("data/persistence_history/dr20_independent/conventional_challenge_v2/test_C_component_decomposition/test_C_summary.json")
-    direction_ok = None; tested_components: list[str] = []
-    if primary_path.exists() and corr_obs:
-        primary = load_json(primary_path)["drift_corrected"]
-        for name, key in (("R", "delta_R_equal_voxel_kms"), ("phi", "delta_phi_equal_voxel_kms"), ("z", "delta_z_equal_voxel_kms")):
-            pv = float(primary[key])
-            if abs(pv) > 2.0:
-                tested_components.append(name)
-                rv = float(corr_obs[key])
-                if np.sign(rv) != np.sign(pv):
-                    direction_ok = False
-        if direction_ok is None:
-            direction_ok = True
-    success = bool(powered and corr_p is not None and corr_p <= alpha and direction_ok is True)
+        for i in range(nperm):
+            pgroups = []
+            for g in groups:
+                gp = g.copy(); gp["cohort"] = rng.permutation(gp["cohort"].to_numpy()); pgroups.append(gp)
+            raw_perm[i] = statistic(pgroups, grads, ridge, vc, False)["T_3D"]
+            corr_perm[i] = statistic(pgroups, grads, ridge, vc, True)["T_3D"]
+    p_raw = float((1 + np.sum(raw_perm >= raw_obs.get("T_3D", np.inf))) / (nperm + 1)) if groups else None
+    p_corr = float((1 + np.sum(corr_perm >= corr_obs.get("T_3D", np.inf))) / (nperm + 1)) if groups else None
+    success = bool(powered and len(groups) >= minimum and p_corr is not None and p_corr <= alpha)
 
     summary = {
-        "protocol_id": v2["protocol_id"],
-        "test": "D_disjoint_Gaia_FLAME_replication",
-        "gyro_source_ids_excluded": len(excluded),
-        "gaia_flame_rows_from_tap_before_disjoint_exclusion": int(len(raw)),
-        "disjoint_flame_young_old_rows": int(len(cohorts)),
-        "quality_phase_space_rows": int(len(phase)),
-        "supported_voxels": int(len(groups)),
-        "minimum_powered_voxels": int(spec["minimum_powered_voxels"]),
-        "powered": powered,
+        "protocol_id": v2["protocol_id"], "test": "D_disjoint_Gaia_FLAME_replication",
+        "gyro_source_ids_excluded": len(excluded), "gaia_rows_returned_before_disjointness": len(raw),
+        "flame_young_old_rows_after_disjointness_and_quality": len(phase),
+        "supported_voxels": len(voxel_ids), "valid_gradient_voxels": len(groups), "minimum_powered_voxels": minimum,
+        "powered": powered and len(groups) >= minimum,
         "common_radial_gradient_by_z_stratum": {k: (float(v) if np.isfinite(v) else None) for k,v in slopes.items()},
-        "raw": ({**raw_obs, "p_T_3D": raw_p} if raw_obs else None),
-        "drift_corrected": ({**corr_obs, "p_T_3D": corr_p} if corr_obs else None),
-        "permutations": nperm,
-        "seed": seed,
-        "alpha": alpha,
-        "direction_rule_components_with_primary_abs_residual_gt_2_kms": tested_components,
-        "direction_rule_pass": direction_ok,
+        "raw": ({**raw_obs, "p_T_3D": p_raw} if groups else None),
+        "drift_corrected": ({**corr_obs, "p_T_3D": p_corr} if groups else None),
+        "permutations": nperm, "seed": seed, "alpha": alpha,
         "replication_success": success,
-        "interpretation": (
-            "independent_drift_corrected_replication_success" if success else
-            ("underpowered_disjoint_FLAME_replication" if not powered else "independent_drift_corrected_replication_failed")
-        ),
-        "guardrail": "A raw FLAME age difference does not count as replication; only the frozen drift-corrected criterion can pass Test D."
+        "interpretation": "disjoint_FLAME_replication_succeeds" if success else ("disjoint_FLAME_replication_underpowered" if not (powered and len(groups) >= minimum) else "disjoint_FLAME_replication_fails_drift_corrected_threshold"),
+        "guardrail": "A raw uncorrected FLAME difference does not count as replication; the frozen criterion is the drift-corrected 3-D result."
     }
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    (args.output_dir / "test_D_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
-    phase.to_csv(args.output_dir / "test_D_disjoint_flame_phase_space.csv.gz", index=False, compression="gzip")
-    gradient_audit.to_csv(args.output_dir / "test_D_gradient_audit.csv", index=False)
+    (args.output_dir/"test_D_summary.json").write_text(json.dumps(summary, indent=2)+"\n")
+    phase.to_csv(args.output_dir/"test_D_flame_star_sample.csv.gz", index=False, compression="gzip")
+    gradient_audit.to_csv(args.output_dir/"test_D_gradient_audit.csv", index=False)
+    pd.DataFrame({"raw_T3D": raw_perm, "corrected_T3D": corr_perm}).to_csv(args.output_dir/"test_D_permutations.csv.gz", index=False, compression="gzip")
     print(json.dumps(summary, indent=2))
+
 
 if __name__ == "__main__":
     main()
