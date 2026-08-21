@@ -153,23 +153,26 @@ def main() -> None:
     alpha = float(spec["permutation"]["alpha"])
 
     raw = pd.read_csv(args.star_sample, low_memory=False)
-    d = select_cohorts(raw)
-    d = assign_voxels(d, v1)
-    d, keep = supported_sample(d, v1)
-    slopes, gradient_audit = fit_common_radial_gradients(d, drift_spec)
+    d_all = assign_voxels(select_cohorts(raw), v1)
+    supported, keep = supported_sample(d_all, v1)
+    # Match Test A exactly: fit the common radial gradient on the full young+old
+    # cohort population, not only the supported 13 outcome voxels.
+    slopes, gradient_audit = fit_common_radial_gradients(d_all, drift_spec)
 
     groups: list[pd.DataFrame] = []
     gradients: list[float] = []
     voxel_ids: list[str] = []
-    for voxel_id, g in d.groupby("voxel_id", sort=True):
-        absz = float(g["z_kpc"].abs().mean())
-        zs = z_stratum(absz)
+    for voxel_id in keep:
+        g = supported[supported["voxel_id"] == voxel_id].copy()
+        zs = z_stratum(abs(float(g["z_kpc"].mean())))
         grad = slopes.get(zs, float("nan")) if zs else float("nan")
         if not np.isfinite(grad):
             continue
-        groups.append(g.copy())
+        groups.append(g)
         gradients.append(float(grad))
         voxel_ids.append(str(voxel_id))
+    if not groups:
+        raise RuntimeError("Test C has zero valid supported voxels after applying the frozen Test-A gradient strata")
 
     raw_rows = [voxel_stats(g, ridge) for g in groups]
     corr_rows = [voxel_stats(g, ridge, grad, vc) for g, grad in zip(groups, gradients, strict=True)]
