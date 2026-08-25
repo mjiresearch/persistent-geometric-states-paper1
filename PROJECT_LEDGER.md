@@ -3,7 +3,7 @@
 **Canonical cross-session checkpoint**  
 **Repository:** `mjiresearch/persistent-geometric-states-paper1`  
 **Established:** 2026-08-12  
-**Last reconciled:** 2026-08-14 — certified 34-profile subset freeze plus pre-receipt author-package intake contract
+**Last reconciled:** 2026-08-25 — added the ACT–BOSS pairwise-kSZ external cosmological validation queue record; stationary source gates remain unchanged
 
 > **Authority rule:** this ledger summarizes project state. Frozen protocol/data/provenance/validation artifacts remain authoritative if any discrepancy is found. The original H I provenance inventory is retained unchanged for auditability; the versioned reconciled provenance view is the current acquisition-status view.
 
@@ -120,6 +120,7 @@ Current posture:
 | A32 | **COMPLETE (PR)** | Superseding stationary H I checkpoint: public overlay **62 = 45 calibration + 17 blind**; certified/common-normalized set **34 = 25 calibration + 9 blind**, comprising **27 tabulated profiles / 781 rows + 7 analytic profiles**. The radial-support audit records **11 inner** and **11 outer** continuation requirements without filling them. NGC5033 blind promotion followed a pre-frozen source-only protocol; no blind outcome was inspected. |
 | A33 | **COMPLETE (PR)** | The source-independent interpolation/continuation policy is frozen and the certified 34-profile subset is mapped to **905 frozen rotation-grid rows** in versioned H I and stellar-basis source products. Independent validation passes **14/14** gates; output hashes are bound into `STATIONARY_SOURCE_PROFILE_FREEZE_V1.md`. This subset freeze contains no observed velocity or evaluated source current and does not unlock the global fit gate. |
 | A34 | **COMPLETE (PR)** | The pre-receipt author-package intake protocol, permission template, metadata/profile schemas, fail-closed validator, and read-only CI workflow are frozen against the **112 = 77 calibration + 35 blind** request manifest. All **14/14** synthetic cases pass, including permission-before-content, restricted-storage, immutable-manifest, exact-membership/role, numerical geometry, and forbidden-outcome-header guards. No author data were used. |
+| A35 | **NEXT / MODEL EVALUATION LOCKED** | Gallardo et al. (2026) ACT–BOSS/SDSS pairwise-kSZ force-law result is registered as a high-priority external cosmological validation target. The queue record preserves the published `n=2.1+/-0.3`, deep-MOND 3.3-sigma tension, amplitude/optical-depth degeneracy, public-code route, history-aware derivation requirement, and no-retuning rule. Preparation/reproduction may proceed; the Persistence outcome remains locked until universal parameters are frozen independently. |
 
 ---
 
@@ -333,6 +334,7 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 - `scripts/stationary/test_validate_lelli_hi_author_package_v1.py`
 - `validation/stationary/lelli_hi_author_package_validator_v1_synthetic_validation.json`
 - `.github/workflows/validate_lelli_hi_author_package_intake_v1.yml`
+- `docs/cosmological_tests/ACT_BOSS_PAIRWISE_KSZ_QUEUE_V1.md`
 
 ---
 
@@ -393,6 +395,7 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 | D21 | Hunter 2021 LITTLE THINGS uses the verified Sérsic form `Sigma_HI(R)=Sigma0 exp[-(R/R0)^(1/n)]`. Retain the published parameters as analytic source models; do not invent a different Sérsic convention. |
 | D22 | When both numerical and analytic public sources exist for the same galaxy, prefer the higher-information numerical radial profile and retain the analytic model as an independent QC/cross-source check. |
 | D23 | Do **not retry** the already exhausted Côté, van Zee, NGC3741-image, or Taylor bounded extraction routes unless a genuinely new public table/vector/map product appears. Continue from untouched source blocks instead. |
+| D24 | The Gallardo et al. pairwise-kSZ result constrains an effective large-scale force-law shape; it is not a direct particle-dark-matter detection and is not yet a direct Persistence test. Evaluate the raw 15-bin observable only through a pre-frozen, history-aware prediction using independently fixed universal parameters; do not retrofit the kernel to the known `n=2.1+/-0.3` result. |
 
 ---
 
@@ -404,6 +407,10 @@ The reconciled view changes **acquisition/source-status metadata only**. It does
 4. **NEXT AFTER INTAKE PASS — version 2 only:** reconcile any partial return, retain source values unchanged, then build a new common normalization, support audit, and source-profile freeze under the already-frozen source-independent rules. Never rewrite version 1.
 5. **DO NOT REOPEN:** exhausted public routes remain closed unless an explicit `reopen_rule` receives a genuinely new mechanism.
 6. **LOCKED:** source-current evaluation, `L_A`, `\mathcal C_A`, `tau_A`, calibration fitting, persistence predictions, residuals, model preference, and the final blind evaluation remain locked until the global source package is complete, validated, and frozen.
+
+### External validation queue — does not supersede the stationary source-gate order
+
+1. **HIGH PRIORITY / PREPARATION OPEN / MODEL EVALUATION LOCKED — ACT–BOSS pairwise kSZ:** follow `docs/cosmological_tests/ACT_BOSS_PAIRWISE_KSZ_QUEUE_V1.md`. Source snapshot, independent reproduction, hereditary-observable derivation, and synthetic tests may proceed without opening stationary blind outcomes. Freeze the complete protocol before evaluating Persistence; use no kSZ-specific persistence parameters or post-result rescue. The known result is an external compatibility/falsification target, not a blind discovery test.
 
 ---
 
