@@ -1,0 +1,36 @@
+HDU 0: PrimaryHDU
+HDU 1: BinTableHDU
+sobject_id
+tmass_id
+gaiadr3_source_id
+age_bstep
+e_age_bstep
+m_act_bstep
+e_m_act_bstep
+m_ini_bstep
+e_m_ini_bstep
+radius_bstep
+e_radius_bstep
+is_redclump_bstep
+e_is_redclump_bstep
+teff_bstep
+e_teff_bstep
+logg_bstep
+e_logg_bstep
+meh_ini_bstep
+e_meh_ini_bstep
+meh_act_bstep
+e_meh_act_bstep
+log_lum_bstep
+e_log_lum_bstep
+distance_bstep
+e_distance_bstep
+tmass_j_bstep
+e_tmass_j_bstep
+tmass_ks_bstep
+e_tmass_ks_bstep
+ebv_bstep
+e_ebv_bstep
+grid_points
+iterations
+chi2red
