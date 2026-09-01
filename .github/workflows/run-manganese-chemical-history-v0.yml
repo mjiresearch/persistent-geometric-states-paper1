@@ -1,0 +1,84 @@
+name: Run Manganese Chemical-History V0
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/dr20-young-old-current-field-v1
+    paths:
+      - 'scripts/analyze_manganese_chemical_history_v0.py'
+      - '.github/workflows/run-manganese-chemical-history-v0.yml'
+      - 'data/persistence_history/manganese_chemical_history/protocol_v0.json'
+
+permissions:
+  contents: write
+
+jobs:
+  galah-v0:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install analysis dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'numpy<3' 'pandas<4' 'astropy<9'
+
+      - name: Download frozen public GALAH DR4 inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/galah_dr4
+          base='https://cloud.datacentral.org.au/teamdata/GALAH/public/GALAH_DR4/catalogs'
+          for f in \
+            galah_dr4_allstar_240705.fits \
+            galah_dr4_vac_dynamics_240705.fits \
+            galah_dr4_vac_ages_masses_240705.fits
+          do
+            echo "Downloading $f"
+            curl -fL --retry 5 --retry-all-errors --retry-delay 10 --connect-timeout 30 \
+              "$base/$f" -o "/tmp/galah_dr4/$f"
+          done
+          ls -lh /tmp/galah_dr4
+          sha256sum /tmp/galah_dr4/*.fits
+
+      - name: Execute frozen v0
+        shell: bash
+        run: |
+          set +e
+          out='data/persistence_history/manganese_chemical_history/galah_v0'
+          mkdir -p "$out"
+          python scripts/analyze_manganese_chemical_history_v0.py \
+            --allstar /tmp/galah_dr4/galah_dr4_allstar_240705.fits \
+            --dynamics /tmp/galah_dr4/galah_dr4_vac_dynamics_240705.fits \
+            --ages /tmp/galah_dr4/galah_dr4_vac_ages_masses_240705.fits \
+            --out "$out" \
+            --permutations 5000 > "$out/run_output.txt" 2>&1
+          code=$?
+          echo "$code" > "$out/exit_code.txt"
+          python -m pip freeze > "$out/software_versions.txt"
+          cat "$out/run_output.txt"
+          exit 0
+
+      - name: Commit v0 outputs and diagnostics
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='data/persistence_history/manganese_chemical_history/galah_v0'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$out"
+          if git diff --cached --quiet; then
+            echo 'No manganese v0 output changes to commit.'
+          else
+            git commit -m 'Add GALAH manganese chemical-history v0 results'
+            git push
+          fi
+          test "$(cat "$out/exit_code.txt")" = '0'
