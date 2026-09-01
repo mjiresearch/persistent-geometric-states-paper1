@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_manganese_chemical_history_v0.py", line 270, in <module>
+    main()
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_manganese_chemical_history_v0.py", line 236, in main
+    m = aa.merge(dd, on="sobject_id", how="inner", validate="one_to_one").merge(gg, on="sobject_id", how="inner", validate="one_to_one")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 12902, in merge
+    return merge(
+           ^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/reshape/merge.py", line 385, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/reshape/merge.py", line 1037, in __init__
+    self._validate_validate_kwd(validate)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/reshape/merge.py", line 1970, in _validate_validate_kwd
+    left_join_index = MultiIndex.from_arrays(self.left_join_keys)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/indexes/multi.py", line 501, in from_arrays
+    codes, levels = factorize_from_iterables(arrays)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/categorical.py", line 3178, in factorize_from_iterables
+    codes, categories = zip(
+                        ^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/categorical.py", line 3179, in <genexpr>
+    *(factorize_from_iterable(it) for it in iterables),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/categorical.py", line 3151, in factorize_from_iterable
+    cat = Categorical(values, ordered=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/arrays/categorical.py", line 471, in __init__
+    codes, categories = factorize(values, sort=True)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/algorithms.py", line 821, in factorize
+    codes, uniques = factorize_array(
+                     ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/pandas/core/algorithms.py", line 637, in factorize_array
+    uniques, codes = table.factorize(
+                     ^^^^^^^^^^^^^^^^
+  File "pandas/_libs/hashtable_class_helper.pxi", line 3142, in pandas._libs.hashtable.Int64HashTable.factorize
+ValueError: Big-endian buffer not supported on little-endian compiler
