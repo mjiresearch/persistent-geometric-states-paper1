@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Execute the frozen GALAH DR4 manganese chemical-history v0 protocol."""
+"""Execute the frozen GALAH DR4 manganese chemical-history v0.2 protocol."""
 from __future__ import annotations
 
 import argparse
@@ -27,6 +27,17 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
     return h.hexdigest()
+
+
+def load_protocol(path: Path) -> dict:
+    p = json.loads(path.read_text())
+    if p.get("protocol_id") != "manganese-chemical-history-v0.2":
+        raise RuntimeError("Refusing to run: wrong manganese protocol")
+    if p.get("status") != "frozen_pre_outcome":
+        raise RuntimeError("Refusing to run: v0.2 is not frozen_pre_outcome")
+    if p.get("outcome_status_at_freeze") != "no_manganese_dynamical_outcome_calculated_or_inspected":
+        raise RuntimeError("Refusing to run: v0.2 pre-outcome guard is not intact")
+    return p
 
 
 def read_cols(path: Path, columns: list[str]) -> pd.DataFrame:
@@ -120,7 +131,7 @@ def design(df: pd.DataFrame, age_col: str) -> tuple[np.ndarray, list[str]]:
 def permutation_packs(df: pd.DataFrame, voxel: np.ndarray, age_col: str) -> tuple[dict[int, np.ndarray], dict]:
     s = pd.DataFrame({
         "voxel": voxel,
-        "age": np.floor(df[age_col].to_numpy(float)).astype(np.int32),
+        "age": np.floor(df[age_col].to_numpy(float) / 1.0).astype(np.int32),
         "feh": np.floor(df["fe_h"].to_numpy(float) / 0.20).astype(np.int32),
         "mg": np.floor(df["mg_fe"].to_numpy(float) / 0.10).astype(np.int32),
     })
@@ -156,14 +167,14 @@ def analyze(df: pd.DataFrame, age_col: str, n_perm: int, seed: int) -> dict:
         "power_gate_pass": bool(len(vc) >= MIN_VOX),
     }
     if len(vc) < MIN_VOX:
-        out["classification"] = "underpowered_frozen_v0"
+        out["classification"] = "underpowered_frozen_v0.2"
         return out
 
     vg = codes(d[["vxbin", "vybin", "vzbin"]])
     X, names = design(d, age_col)
     mh, mb = residualize(d["mn_fe"].to_numpy(float), X, vg)
-    vres = {}
-    comp = {}
+    vres: dict[str, np.ndarray] = {}
+    comp: dict[str, dict[str, float]] = {}
     for v in VELS:
         r, _ = residualize(d[v].to_numpy(float), X, vg)
         vres[v] = r
@@ -178,7 +189,7 @@ def analyze(df: pd.DataFrame, age_col: str, n_perm: int, seed: int) -> dict:
     null = np.empty(n_perm, float)
     for p in range(n_perm):
         work[:] = base
-        for _, idx in packs.items():
+        for idx in packs.values():
             ranks = np.argsort(rng.random(idx.shape), axis=1)
             src = np.take_along_axis(idx, ranks, axis=1)
             work[idx] = base[src]
@@ -200,35 +211,38 @@ def analyze(df: pd.DataFrame, age_col: str, n_perm: int, seed: int) -> dict:
         "alpha": ALPHA,
         "null_T_quantiles": {q: float(np.quantile(null, f)) for q, f in [("q50", .5), ("q90", .9), ("q95", .95), ("q99", .99)]},
         "permutation_grouping": pinfo,
-        "classification": "manganese_history_sensitive" if pp <= ALPHA else "null_primary_v0",
+        "classification": "manganese_history_sensitive" if pp <= ALPHA else "null_primary_v0.2",
     })
     return out
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--protocol", required=True, type=Path)
     ap.add_argument("--allstar", required=True, type=Path)
     ap.add_argument("--dynamics", required=True, type=Path)
     ap.add_argument("--ages", required=True, type=Path)
     ap.add_argument("--out", required=True, type=Path)
     ap.add_argument("--permutations", type=int, default=N_PERM)
     a = ap.parse_args()
+    protocol = load_protocol(a.protocol)
     a.out.mkdir(parents=True, exist_ok=True)
 
     ac = ["sobject_id", "flag_sp", "snr_px_ccd3", "teff", "logg", "fe_h", "mg_fe", "mn_fe", "e_mn_fe", "flag_mn_fe", "phot_g_mean_mag", "bp_rp", "ruwe", "age"]
     dc = ["sobject_id", "R_Rzphi", "z_Rzphi", "phi_Rzphi", "vR_Rzphi", "vT_Rzphi", "vz_Rzphi"]
-    gc = ["sobject_id", "age_bstep", "e16_age_bstep", "e84_age_bstep"]
+    gc = ["sobject_id", "age_bstep", "e_age_bstep"]
     aa, dd, gg = read_cols(a.allstar, ac), read_cols(a.dynamics, dc), read_cols(a.ages, gc)
     raw_counts = {"allstar": len(aa), "dynamics": len(dd), "ages": len(gg)}
     m = aa.merge(dd, on="sobject_id", how="inner", validate="one_to_one").merge(gg, on="sobject_id", how="inner", validate="one_to_one")
-    finite = ["teff", "logg", "fe_h", "mg_fe", "mn_fe", "e_mn_fe", "age_bstep", "e16_age_bstep", "e84_age_bstep", "R_Rzphi", "z_Rzphi", "phi_Rzphi", "vR_Rzphi", "vT_Rzphi", "vz_Rzphi", "phot_g_mean_mag", "bp_rp", "ruwe"]
+    finite = ["teff", "logg", "fe_h", "mg_fe", "mn_fe", "e_mn_fe", "age_bstep", "e_age_bstep", "R_Rzphi", "z_Rzphi", "phi_Rzphi", "vR_Rzphi", "vT_Rzphi", "vz_Rzphi", "phot_g_mean_mag", "bp_rp", "ruwe"]
     mask = (m["flag_sp"].to_numpy() == 0) & (m["flag_mn_fe"].to_numpy() == 0) & (m["snr_px_ccd3"].to_numpy(float) > 30)
     for c in finite:
         mask &= np.isfinite(m[c].to_numpy(float))
     q = add_voxels(m.loc[mask].copy())
 
     result = {
-        "protocol_id": "manganese-chemical-history-v0",
+        "protocol_id": protocol["protocol_id"],
+        "protocol_version": protocol["version"],
         "input_files": {
             "allstar": {"name": a.allstar.name, "sha256": sha256(a.allstar), "bytes": a.allstar.stat().st_size},
             "dynamics": {"name": a.dynamics.name, "sha256": sha256(a.dynamics), "bytes": a.dynamics.stat().st_size},
@@ -240,10 +254,15 @@ def main() -> None:
         "voxel_kpc": list(VOX),
         "primary": analyze(q, "age_bstep", a.permutations, SEED),
         "main_age_sensitivity": analyze(q, "age", a.permutations, SEED + 1),
-        "guardrails": {"direct_gravity_test": False, "persistence_detection_claim_allowed": False, "positive_primary_requires_conventional_challenge": True, "vT_only_signal_not_persistence_evidence": True},
+        "guardrails": {
+            "direct_gravity_test": False,
+            "persistence_detection_claim_allowed": False,
+            "positive_primary_requires_conventional_challenge": True,
+            "vT_only_signal_not_persistence_evidence": True
+        },
     }
-    (a.out / "galah_manganese_v0_summary.json").write_text(json.dumps(result, indent=2) + "\n")
-    q.groupby(["vxbin", "vybin", "vzbin"], sort=True).size().rename("n_quality").reset_index().to_csv(a.out / "galah_manganese_v0_voxel_counts.csv", index=False)
+    (a.out / "galah_manganese_v0_2_summary.json").write_text(json.dumps(result, indent=2) + "\n")
+    q.groupby(["vxbin", "vybin", "vzbin"], sort=True).size().rename("n_quality").reset_index().to_csv(a.out / "galah_manganese_v0_2_voxel_counts.csv", index=False)
     print(json.dumps(result, indent=2))
 
 
