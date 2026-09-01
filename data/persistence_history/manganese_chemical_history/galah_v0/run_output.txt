@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_manganese_chemical_history_v0.py", line 251, in <module>
+    main()
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_manganese_chemical_history_v0.py", line 221, in main
+    aa, dd, gg = read_cols(a.allstar, ac), read_cols(a.dynamics, dc), read_cols(a.ages, gc)
+                                                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/persistent-geometric-states-paper1/persistent-geometric-states-paper1/scripts/analyze_manganese_chemical_history_v0.py", line 38, in read_cols
+    raise RuntimeError(f"{path.name}: missing required columns: {missing}")
+RuntimeError: galah_dr4_vac_ages_masses_240705.fits: missing required columns: ['e16_age_bstep', 'e84_age_bstep']
