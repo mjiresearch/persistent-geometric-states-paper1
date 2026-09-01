@@ -1,0 +1,122 @@
+{
+  "protocol_id": "manganese-chemical-history-v0.2",
+  "title": "Manganese Chemical-History Test: GALAH-first public-data screen with APOGEE replication",
+  "version": "0.2.0",
+  "frozen_date": "2026-09-01",
+  "status": "frozen_pre_outcome",
+  "parent_protocol": "manganese-chemical-history-v0",
+  "outcome_status_at_freeze": "no_manganese_dynamical_outcome_calculated_or_inspected",
+  "revision_reason": "The downloaded public GALAH DR4 BSTEP FITS file contains age_bstep and e_age_bstep but does not contain the e16_age_bstep/e84_age_bstep fields described by the web documentation and assumed by v0.1. The first execution stopped at schema validation before any manganese-kinematic outcome was calculated. v0.2 replaces the nonexistent percentile fields with the published symmetric 1-sigma uncertainty e_age_bstep. No outcome-driven threshold, sign, voxel, nuisance, statistic, or alpha change is made.",
+  "schema_evidence": {
+    "file": "galah_dr4_vac_ages_masses_240705.fits",
+    "sha256": "ea00235eec236ec5c5e61ff85107391a849ec8d7f73ed62e3a3c72fce3f691c9",
+    "repository_schema_record": "data/persistence_history/manganese_chemical_history/schema/age_vac_columns.txt",
+    "actual_age_fields": ["age_bstep", "e_age_bstep"],
+    "absent_expected_fields": ["e16_age_bstep", "e50_age_bstep", "e84_age_bstep"]
+  },
+  "scientific_role": "history-sensitive kinematic screen; not a direct acceleration measurement and not a replacement for the stationary SPARC H I source package",
+  "hypothesis": {
+    "persistence_compatible": "A manganese-based chemical-history coordinate may retain reproducible association with local kinematic residual structure after present-location, age, bulk chemistry, selection, and conventional dynamical controls.",
+    "null": "After those controls, manganese supplies no reproducible incremental dynamical information beyond ordinary stellar-population and disk-dynamical structure."
+  },
+  "interpretation_guardrails": {
+    "mn_is_simple_clock": false,
+    "mn_is_persistence_field": false,
+    "direct_gravity_test": false,
+    "allowed_primary_positive_label": "manganese_history_sensitive",
+    "strongest_allowed_after_conventional_challenge_and_replication": "persistence_compatible_chemical_history_signal",
+    "prohibited_claim": "persistence detection"
+  },
+  "primary_survey": {
+    "name": "GALAH DR4",
+    "join_key": "sobject_id",
+    "products": {
+      "stellar_abundance": "galah_dr4_allstar_240705.fits",
+      "dynamics": "galah_dr4_vac_dynamics_240705.fits",
+      "ages": "galah_dr4_vac_ages_masses_240705.fits"
+    },
+    "required_columns": [
+      "sobject_id", "flag_sp", "snr_px_ccd3", "teff", "logg", "fe_h", "mg_fe", "mn_fe", "e_mn_fe", "flag_mn_fe",
+      "phot_g_mean_mag", "bp_rp", "ruwe", "age", "age_bstep", "e_age_bstep",
+      "R_Rzphi", "z_Rzphi", "phi_Rzphi", "vR_Rzphi", "vT_Rzphi", "vz_Rzphi"
+    ],
+    "quality_cuts": [
+      "flag_sp == 0",
+      "flag_mn_fe == 0",
+      "snr_px_ccd3 > 30",
+      "finite teff, logg, fe_h, mg_fe, mn_fe, e_mn_fe",
+      "finite age_bstep, e_age_bstep",
+      "finite R_Rzphi, z_Rzphi, phi_Rzphi, vR_Rzphi, vT_Rzphi, vz_Rzphi",
+      "finite phot_g_mean_mag, bp_rp, ruwe"
+    ],
+    "explicit_caveat": "Do not use GALAH DR4 flag_fe_h as a quality gate because the survey documentation identifies a bug in that flag."
+  },
+  "coordinates": {
+    "derive_cartesian_galactocentric": "x = R_Rzphi * cos(phi_Rzphi); y = R_Rzphi * sin(phi_Rzphi); z = z_Rzphi",
+    "current_location_voxel_kpc": [0.25, 0.25, 0.10],
+    "voxel_origin_kpc": [0.0, 0.0, 0.0],
+    "minimum_stars_per_voxel": 20,
+    "minimum_supported_voxels": 12,
+    "underpowered_rule": "If the frozen cuts fail the power gate, report v0.2 as underpowered. Do not relax cuts or voxel sizes after any manganese-kinematic outcome is inspected; a revised design requires a new protocol version frozen first."
+  },
+  "history_coordinate": {
+    "primary_measurement": "mn_fe",
+    "nuisance_variables": ["fe_h", "mg_fe", "age_bstep", "teff", "logg", "phot_g_mean_mag", "bp_rp", "ruwe"],
+    "construction": "Fit an OLS nuisance model for mn_fe using standardized nuisance variables plus quadratic terms for fe_h and age_bstep and fixed effects for current-location voxel. Define Mn_history as the residual.",
+    "age_sensitivity": "Repeat as a declared sensitivity using the main-catalogue age instead of age_bstep if finite; do not choose between age estimators by outcome strength."
+  },
+  "primary_kinematic_test": {
+    "responses_kms": ["vR_Rzphi", "vT_Rzphi", "vz_Rzphi"],
+    "response_model": "For each velocity component separately, fit OLS with current-location voxel fixed effects and the same standardized nuisance variables used for Mn_history; define the residual velocity after excluding manganese.",
+    "component_statistic": "slope of residual_velocity on Mn_history, with HC1 heteroskedasticity-robust standard error",
+    "omnibus_statistic": "T_Mn_3D = sum_k (beta_k / SE_k)^2 over vR, vT, vz",
+    "null_generation": {
+      "method": "permute Mn_history within current-location voxel and within coarse population strata before recomputing all component slopes",
+      "coarse_strata": {
+        "age_bstep_gyr_width": 1.0,
+        "age_origin_gyr": 0.0,
+        "fe_h_dex_width": 0.20,
+        "fe_h_origin_dex": 0.0,
+        "mg_fe_dex_width": 0.10,
+        "mg_fe_origin_dex": 0.0
+      },
+      "permutations": 5000,
+      "seed": 20260901
+    },
+    "alpha": 0.01,
+    "component_reporting": "Always report beta_R, beta_T, beta_z and their signed effects; an omnibus p-value alone is insufficient."
+  },
+  "dr20_linked_secondary": {
+    "purpose": "Test whether manganese stratifies the adjacent young-vs-old result rather than merely reproducing an age effect.",
+    "young_definition": "age_bstep + e_age_bstep <= 1.0 Gyr",
+    "old_definition": "age_bstep - e_age_bstep >= 4.0 Gyr",
+    "middle": "excluded from this secondary only",
+    "estimand": "age_cohort x Mn_history interaction in each velocity component under the same present-state controls",
+    "interpretation": "Secondary only and cannot rescue a null primary test."
+  },
+  "mandatory_conventional_challenge": {
+    "asymmetric_drift_and_disk_heating": "A signal carried only by vT is not persistence evidence. Quantify velocity dispersions and a conventional asymmetric-drift expectation; repeat the manganese association on the drift-corrected azimuthal residual.",
+    "population_structure": [
+      "repeat in narrow fe_h and mg_fe strata",
+      "repeat in narrow abs(z) slabs",
+      "test thin/thick-disk sensitivity without selecting the favorable subset",
+      "inspect age uncertainty and age-estimator consistency"
+    ],
+    "selection": ["phot_g_mean_mag", "bp_rp", "ruwe", "survey/program field identifiers where available"],
+    "migration": "Use orbital quantities only as a post-primary conventional challenge, not as primary nuisance variables, because actions/eccentricity are themselves derived from phase-space information.",
+    "survival_condition": "A positive result must not be solely azimuthal/asymmetric-drift driven and must survive the predeclared population/selection challenges without threshold tuning."
+  },
+  "independent_replication": {
+    "survey": "APOGEE DR17/DR20-carried public products",
+    "rule": "Map APOGEE columns to the same scientific estimand; do not tune GALAH thresholds or signs to improve replication.",
+    "success": "Same sign for every primary component with |standardized GALAH effect| >= 2 and replication omnibus permutation p <= 0.01 after the APOGEE conventional-dynamics challenge.",
+    "failure": "Classify the GALAH result as survey-specific/unreplicated; do not promote the persistence interpretation."
+  },
+  "manga_secondary_arm": {
+    "survey": "MaNGA DR17",
+    "status": "custom_line_search_not_required_for_v0.2",
+    "target_lines_angstrom": [8081.28, 8213.52],
+    "guardrail": "No MaNGA feature is called [Mn III] solely because excess flux is present at one predicted wavelength."
+  },
+  "execution_lock": "No manganese-dynamical outcome may be calculated before this v0.2 protocol is committed. Scientifically material changes require a new version committed before inspecting the affected outcome."
+}
