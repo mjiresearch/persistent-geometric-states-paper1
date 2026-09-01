@@ -1,0 +1,74 @@
+name: Run Manganese Conventional Challenge V1
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/dr20-young-old-current-field-v1
+    paths:
+      - 'scripts/analyze_manganese_conventional_challenge_v1.py'
+      - '.github/workflows/run-manganese-conventional-challenge-v1.yml'
+      - 'data/persistence_history/manganese_chemical_history/protocol_v0_2_conventional_challenge.json'
+
+permissions:
+  contents: write
+
+jobs:
+  challenge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'numpy<3' 'pandas<4' 'astropy<9'
+      - name: Download frozen GALAH DR4 inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/galah_dr4
+          base='https://cloud.datacentral.org.au/teamdata/GALAH/public/GALAH_DR4/catalogs'
+          for f in galah_dr4_allstar_240705.fits galah_dr4_vac_dynamics_240705.fits galah_dr4_vac_ages_masses_240705.fits; do
+            curl -fL --retry 5 --retry-all-errors --retry-delay 10 --connect-timeout 30 "$base/$f" -o "/tmp/galah_dr4/$f"
+          done
+          test "$(sha256sum /tmp/galah_dr4/galah_dr4_allstar_240705.fits | cut -d' ' -f1)" = '97911d4436a42c77eb6d8c2116eecfb28fa927be83302aa66bbeb58d95889693'
+          test "$(sha256sum /tmp/galah_dr4/galah_dr4_vac_dynamics_240705.fits | cut -d' ' -f1)" = '74f4a72c0837c1f54fd43e8bafee70c0ea581e817cc5d1f0eb681f0a85c1b177'
+          test "$(sha256sum /tmp/galah_dr4/galah_dr4_vac_ages_masses_240705.fits | cut -d' ' -f1)" = 'ea00235eec236ec5c5e61ff85107391a849ec8d7f73ed62e3a3c72fce3f691c9'
+      - name: Execute frozen conventional challenge
+        shell: bash
+        run: |
+          set +e
+          out='data/persistence_history/manganese_chemical_history/galah_v0_2_conventional_challenge'
+          mkdir -p "$out"
+          PYTHONPATH=scripts python scripts/analyze_manganese_conventional_challenge_v1.py \
+            --protocol data/persistence_history/manganese_chemical_history/protocol_v0_2_conventional_challenge.json \
+            --parent-summary data/persistence_history/manganese_chemical_history/galah_v0_2/galah_manganese_v0_2_summary.json \
+            --allstar /tmp/galah_dr4/galah_dr4_allstar_240705.fits \
+            --dynamics /tmp/galah_dr4/galah_dr4_vac_dynamics_240705.fits \
+            --ages /tmp/galah_dr4/galah_dr4_vac_ages_masses_240705.fits \
+            --out "$out" > "$out/run_output.txt" 2>&1
+          code=$?
+          echo "$code" > "$out/exit_code.txt"
+          python -m pip freeze > "$out/software_versions.txt"
+          cat "$out/run_output.txt"
+          exit 0
+      - name: Commit challenge outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='data/persistence_history/manganese_chemical_history/galah_v0_2_conventional_challenge'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$out"
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add GALAH manganese conventional-challenge results'
+            git pull --rebase origin agent/dr20-young-old-current-field-v1
+            git push
+          fi
+          test "$(cat "$out/exit_code.txt")" = '0'
