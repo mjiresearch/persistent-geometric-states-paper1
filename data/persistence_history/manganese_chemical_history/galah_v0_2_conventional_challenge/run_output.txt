@@ -1,0 +1,430 @@
+{
+  "protocol_id": "manganese-chemical-history-v0.2-conventional-challenge",
+  "parent_primary": {
+    "T_Mn_3D": 3226.556384083124,
+    "permutation_p": 0.0001999600079984003,
+    "beta_R": -11.14209055173728,
+    "beta_T": 37.11263000312736,
+    "beta_z": -0.15281930360293935
+  },
+  "quality_rows": 597112,
+  "tests": {
+    "A_component_dominance": {
+      "f_T": 0.9528938350574714,
+      "threshold": 0.8,
+      "vT_dominated": true
+    },
+    "B_rich_chemistry": {
+      "label": "rich_chemistry",
+      "rows": 407463,
+      "supported_voxels": 2751,
+      "power_gate_pass": true,
+      "extra_nuisance": [
+        "al_fe",
+        "si_fe",
+        "ca_fe",
+        "ti_fe",
+        "ni_fe"
+      ],
+      "selection_stratified_permutation": false,
+      "nuisance_columns": [
+        "fe_h",
+        "mg_fe",
+        "age_bstep",
+        "teff",
+        "logg",
+        "phot_g_mean_mag",
+        "bp_rp",
+        "ruwe",
+        "al_fe",
+        "si_fe",
+        "ca_fe",
+        "ti_fe",
+        "ni_fe",
+        "fe_h_z2",
+        "age_bstep_z2"
+      ],
+      "full_model_parameter_count_for_hc1": 2767,
+      "mn_history_sd_dex": 0.05989457694321173,
+      "components": {
+        "vR_Rzphi": {
+          "beta_kms_per_dex": -14.505811647142206,
+          "hc1_se": 1.0845090454283304,
+          "t": -13.375463956054961,
+          "component_permutation_p_two_sided": 0.0001999600079984003
+        },
+        "vT_Rzphi": {
+          "beta_kms_per_dex": 26.332267174729076,
+          "hc1_se": 0.7692003565548459,
+          "t": 34.23330079131538,
+          "component_permutation_p_two_sided": 0.0001999600079984003
+        },
+        "vz_Rzphi": {
+          "beta_kms_per_dex": -1.1183385638094472,
+          "hc1_se": 0.6285239086101626,
+          "t": -1.7793095035674904,
+          "component_permutation_p_two_sided": 0.027994401119776045
+        }
+      },
+      "T_Mn_3D": 1353.9878614178854,
+      "omnibus_permutation_p": 0.0001999600079984003,
+      "permutations": 5000,
+      "permutation_seed": 20260904,
+      "permutation_grouping": {
+        "strata_total": 121102,
+        "permutable_strata": 52921,
+        "stars_in_permutable_strata": 339282,
+        "modeled_stars": 407463,
+        "permutable_fraction": 0.8326694693751334,
+        "median_size": 3.0,
+        "max_size": 824
+      },
+      "null_T_quantiles": {
+        "q50": 461.4649973940297,
+        "q95": 511.54981107237796,
+        "q99": 535.825933773976
+      },
+      "classification": "positive"
+    },
+    "C_field_selection": {
+      "label": "field_selection",
+      "rows": 517159,
+      "supported_voxels": 2979,
+      "power_gate_pass": true,
+      "extra_nuisance": [],
+      "selection_stratified_permutation": true,
+      "nuisance_columns": [
+        "fe_h",
+        "mg_fe",
+        "age_bstep",
+        "teff",
+        "logg",
+        "phot_g_mean_mag",
+        "bp_rp",
+        "ruwe",
+        "fe_h_z2",
+        "age_bstep_z2"
+      ],
+      "full_model_parameter_count_for_hc1": 2990,
+      "mn_history_sd_dex": 0.06485378363698178,
+      "components": {
+        "vR_Rzphi": {
+          "beta_kms_per_dex": -11.14209055173728,
+          "hc1_se": 0.9040250277107205,
+          "t": -12.32498018329493,
+          "component_permutation_p_two_sided": 0.0001999600079984003
+        },
+        "vT_Rzphi": {
+          "beta_kms_per_dex": 37.11263000312736,
+          "hc1_se": 0.6693138993614757,
+          "t": 55.448766324041294,
+          "component_permutation_p_two_sided": 0.0001999600079984003
+        },
+        "vz_Rzphi": {
+          "beta_kms_per_dex": -0.15281930360293935,
+          "hc1_se": 0.5224455514620195,
+          "t": -0.2925076176364934,
+          "component_permutation_p_two_sided": 0.9278144371125775
+        }
+      },
+      "T_Mn_3D": 3226.556384083124,
+      "omnibus_permutation_p": 0.0001999600079984003,
+      "permutations": 5000,
+      "permutation_seed": 20260905,
+      "permutation_grouping": {
+        "strata_total": 429162,
+        "permutable_strata": 65046,
+        "stars_in_permutable_strata": 153043,
+        "modeled_stars": 517159,
+        "permutable_fraction": 0.2959302651602312,
+        "median_size": 2.0,
+        "max_size": 61
+      },
+      "null_T_quantiles": {
+        "q50": 2991.603420224639,
+        "q95": 3045.0347027804555,
+        "q99": 3066.0448262204136
+      },
+      "classification": "underpowered_selection_permutation"
+    },
+    "D_vertical_structure": {
+      "0.0_0.2": {
+        "label": "z_0_0.2",
+        "rows": 182405,
+        "supported_voxels": 530,
+        "power_gate_pass": true,
+        "extra_nuisance": [],
+        "selection_stratified_permutation": false,
+        "nuisance_columns": [
+          "fe_h",
+          "mg_fe",
+          "age_bstep",
+          "teff",
+          "logg",
+          "phot_g_mean_mag",
+          "bp_rp",
+          "ruwe",
+          "fe_h_z2",
+          "age_bstep_z2"
+        ],
+        "full_model_parameter_count_for_hc1": 541,
+        "mn_history_sd_dex": 0.06747490504420449,
+        "components": {
+          "vR_Rzphi": {
+            "beta_kms_per_dex": -9.245649528252976,
+            "hc1_se": 1.2931844197371891,
+            "t": -7.149521280291908,
+            "component_permutation_p_two_sided": 0.0001999600079984003
+          },
+          "vT_Rzphi": {
+            "beta_kms_per_dex": 21.27418096241571,
+            "hc1_se": 0.9224049611565339,
+            "t": 23.06381888464869,
+            "component_permutation_p_two_sided": 0.0001999600079984003
+          },
+          "vz_Rzphi": {
+            "beta_kms_per_dex": 1.0261254573667193,
+            "hc1_se": 0.6837480054845596,
+            "t": 1.500736308019682,
+            "component_permutation_p_two_sided": 0.138372325534893
+          }
+        },
+        "T_Mn_3D": 585.3076055474329,
+        "omnibus_permutation_p": 0.0001999600079984003,
+        "permutations": 5000,
+        "permutation_seed": 20260906,
+        "permutation_grouping": {
+          "strata_total": 35442,
+          "permutable_strata": 18085,
+          "stars_in_permutable_strata": 165048,
+          "modeled_stars": 182405,
+          "permutable_fraction": 0.904843617225405,
+          "median_size": 4.0,
+          "max_size": 845
+        },
+        "null_T_quantiles": {
+          "q50": 262.0178967197574,
+          "q95": 303.7536330518336,
+          "q99": 323.24107825439637
+        },
+        "classification": "positive"
+      },
+      "0.2_0.5": {
+        "label": "z_0.2_0.5",
+        "rows": 239246,
+        "supported_voxels": 965,
+        "power_gate_pass": true,
+        "extra_nuisance": [],
+        "selection_stratified_permutation": false,
+        "nuisance_columns": [
+          "fe_h",
+          "mg_fe",
+          "age_bstep",
+          "teff",
+          "logg",
+          "phot_g_mean_mag",
+          "bp_rp",
+          "ruwe",
+          "fe_h_z2",
+          "age_bstep_z2"
+        ],
+        "full_model_parameter_count_for_hc1": 976,
+        "mn_history_sd_dex": 0.06261298018587054,
+        "components": {
+          "vR_Rzphi": {
+            "beta_kms_per_dex": -12.289615579476084,
+            "hc1_se": 1.3729620566910141,
+            "t": -8.951169130700798,
+            "component_permutation_p_two_sided": 0.0001999600079984003
+          },
+          "vT_Rzphi": {
+            "beta_kms_per_dex": 37.38554334843312,
+            "hc1_se": 1.0146731120649122,
+            "t": 36.84491379923492,
+            "component_permutation_p_two_sided": 0.0001999600079984003
+          },
+          "vz_Rzphi": {
+            "beta_kms_per_dex": -0.4324845065477067,
+            "hc1_se": 0.790348343806688,
+            "t": -0.5472074559739807,
+            "component_permutation_p_two_sided": 0.4549090181963607
+          }
+        },
+        "T_Mn_3D": 1437.970537679336,
+        "omnibus_permutation_p": 0.0001999600079984003,
+        "permutations": 5000,
+        "permutation_seed": 20260907,
+        "permutation_grouping": {
+          "strata_total": 59799,
+          "permutable_strata": 29671,
+          "stars_in_permutable_strata": 209118,
+          "modeled_stars": 239246,
+          "permutable_fraction": 0.8740710398501961,
+          "median_size": 3.0,
+          "max_size": 262
+        },
+        "null_T_quantiles": {
+          "q50": 712.1111913870812,
+          "q95": 774.3926325973533,
+          "q99": 799.6427433775768
+        },
+        "classification": "positive"
+      },
+      "0.5_1.0": {
+        "label": "z_0.5_1.0",
+        "rows": 85750,
+        "supported_voxels": 1171,
+        "power_gate_pass": true,
+        "extra_nuisance": [],
+        "selection_stratified_permutation": false,
+        "nuisance_columns": [
+          "fe_h",
+          "mg_fe",
+          "age_bstep",
+          "teff",
+          "logg",
+          "phot_g_mean_mag",
+          "bp_rp",
+          "ruwe",
+          "fe_h_z2",
+          "age_bstep_z2"
+        ],
+        "full_model_parameter_count_for_hc1": 1182,
+        "mn_history_sd_dex": 0.06461445788984813,
+        "components": {
+          "vR_Rzphi": {
+            "beta_kms_per_dex": -12.593857198150134,
+            "hc1_se": 2.6593080653486294,
+            "t": -4.7357646758759815,
+            "component_permutation_p_two_sided": 0.0007998400319936012
+          },
+          "vT_Rzphi": {
+            "beta_kms_per_dex": 62.150198129697216,
+            "hc1_se": 2.0085021618548455,
+            "t": 30.943555506209513,
+            "component_permutation_p_two_sided": 0.0001999600079984003
+          },
+          "vz_Rzphi": {
+            "beta_kms_per_dex": -0.673631383122277,
+            "hc1_se": 1.6348769401200571,
+            "t": -0.41203797459691915,
+            "component_permutation_p_two_sided": 0.4471105778844231
+          }
+        },
+        "T_Mn_3D": 980.1008697236538,
+        "omnibus_permutation_p": 0.0001999600079984003,
+        "permutations": 5000,
+        "permutation_seed": 20260908,
+        "permutation_grouping": {
+          "strata_total": 46316,
+          "permutable_strata": 15867,
+          "stars_in_permutable_strata": 55301,
+          "modeled_stars": 85750,
+          "permutable_fraction": 0.6449096209912536,
+          "median_size": 2.0,
+          "max_size": 45
+        },
+        "null_T_quantiles": {
+          "q50": 552.5166457599021,
+          "q95": 593.3983229125536,
+          "q99": 611.5040236939878
+        },
+        "classification": "positive"
+      }
+    },
+    "E_orbital_population": {
+      "label": "orbital_population",
+      "rows": 517159,
+      "supported_voxels": 2979,
+      "power_gate_pass": true,
+      "extra_nuisance": [
+        "J_R",
+        "J_Z",
+        "ecc",
+        "zmax",
+        "R_peri",
+        "R_ap"
+      ],
+      "selection_stratified_permutation": false,
+      "nuisance_columns": [
+        "fe_h",
+        "mg_fe",
+        "age_bstep",
+        "teff",
+        "logg",
+        "phot_g_mean_mag",
+        "bp_rp",
+        "ruwe",
+        "J_R",
+        "J_Z",
+        "ecc",
+        "zmax",
+        "R_peri",
+        "R_ap",
+        "fe_h_z2",
+        "age_bstep_z2"
+      ],
+      "full_model_parameter_count_for_hc1": 2996,
+      "mn_history_sd_dex": 0.06441001371781402,
+      "components": {
+        "vR_Rzphi": {
+          "beta_kms_per_dex": -7.860726705456756,
+          "hc1_se": 0.9068022484310535,
+          "t": -8.668622865743178,
+          "component_permutation_p_two_sided": 0.0001999600079984003
+        },
+        "vT_Rzphi": {
+          "beta_kms_per_dex": 0.4097342792044107,
+          "hc1_se": 0.17143505396562705,
+          "t": 2.390026250328961,
+          "component_permutation_p_two_sided": 0.0001999600079984003
+        },
+        "vz_Rzphi": {
+          "beta_kms_per_dex": -1.4895329243392947,
+          "hc1_se": 0.5275864176727454,
+          "t": -2.8232965717916407,
+          "component_permutation_p_two_sided": 0.014997000599880024
+        }
+      },
+      "T_Mn_3D": 88.8282513980374,
+      "omnibus_permutation_p": 0.0001999600079984003,
+      "permutations": 5000,
+      "permutation_seed": 20260909,
+      "permutation_grouping": {
+        "strata_total": 148850,
+        "permutable_strata": 65162,
+        "stars_in_permutable_strata": 433471,
+        "modeled_stars": 517159,
+        "permutable_fraction": 0.8381774270582162,
+        "median_size": 3.0,
+        "max_size": 845
+      },
+      "null_T_quantiles": {
+        "q50": 11.320253911601245,
+        "q95": 19.927185903413235,
+        "q99": 24.110630303414496
+      },
+      "classification": "positive"
+    },
+    "F_asymmetric_drift": {
+      "classification": "asymmetric_drift_insufficient",
+      "near_solar_rows": 389633,
+      "supported_bin_pairs": 8,
+      "gradient_by_z_slab": {
+        "0": -0.48126438520080583,
+        "1": -2.720384019624843
+      },
+      "equal_bin_observed_delta_vT_kms": 3.2803611755371094,
+      "equal_bin_predicted_delta_vT_AD_kms": 1.044664076431527,
+      "observed_minus_predicted_kms": 2.2356970991055825,
+      "bootstrap_resamples": 2000,
+      "bootstrap_interval_95_kms": [
+        2.0190869510173797,
+        2.4518967747688287
+      ]
+    }
+  },
+  "survival_rule_pass": false,
+  "classification": "manganese_history_signal_does_not_survive_full_GALAH_conventional_challenge",
+  "guardrail": "Neither classification is a detection of gravitational persistence."
+}
