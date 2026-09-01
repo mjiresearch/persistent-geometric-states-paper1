@@ -1,0 +1,52 @@
+name: Probe GALAH DR4 BSTEP Schema
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/dr20-young-old-current-field-v1
+    paths:
+      - '.github/workflows/probe-galah-dr4-age-schema.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install astropy
+        run: python -m pip install 'astropy<9'
+      - name: Download age VAC and record schema only
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/galah_dr4 data/persistence_history/manganese_chemical_history/schema
+          url='https://cloud.datacentral.org.au/teamdata/GALAH/public/GALAH_DR4/catalogs/galah_dr4_vac_ages_masses_240705.fits'
+          curl -fL --retry 5 --retry-all-errors "$url" -o /tmp/galah_dr4/age.fits
+          sha256sum /tmp/galah_dr4/age.fits > data/persistence_history/manganese_chemical_history/schema/age_vac_sha256.txt
+          python - <<'PY' > data/persistence_history/manganese_chemical_history/schema/age_vac_columns.txt
+          from astropy.io import fits
+          p='/tmp/galah_dr4/age.fits'
+          with fits.open(p, memmap=True) as h:
+              for i,hd in enumerate(h):
+                  print(f'HDU {i}: {type(hd).__name__}')
+                  if getattr(hd, 'columns', None) is not None:
+                      for n in hd.columns.names:
+                          print(n)
+          PY
+          cat data/persistence_history/manganese_chemical_history/schema/age_vac_columns.txt
+      - name: Commit schema evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/manganese_chemical_history/schema
+          git diff --cached --quiet || git commit -m 'Record GALAH DR4 BSTEP schema evidence'
+          git push
