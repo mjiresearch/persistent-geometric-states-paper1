@@ -1,0 +1,82 @@
+{
+  "protocol_id": "manganese-chemical-history-v0.2-conventional-challenge",
+  "version": "1.0.0",
+  "frozen_date": "2026-09-01",
+  "status": "frozen_pre_challenge_outcome",
+  "parent_protocol": "manganese-chemical-history-v0.2",
+  "parent_primary_result_status": "manganese_history_sensitive",
+  "purpose": "Challenge the GALAH Mn-history association with conventional stellar-population, selection, orbital, vertical-structure, and asymmetric-drift explanations before any persistence interpretation.",
+  "immutability": "No challenge threshold, bin, abundance set, slab, or success rule may change after the corresponding challenge outcome is inspected. New choices require a new protocol version.",
+  "primary_result_is_not_detection": true,
+  "fixed_base": {
+    "input_hashes": {
+      "allstar": "97911d4436a42c77eb6d8c2116eecfb28fa927be83302aa66bbeb58d95889693",
+      "dynamics": "74f4a72c0837c1f54fd43e8bafee70c0ea581e817cc5d1f0eb681f0a85c1b177",
+      "ages": "ea00235eec236ec5c5e61ff85107391a849ec8d7f73ed62e3a3c72fce3f691c9"
+    },
+    "base_quality": "inherit v0.2 exactly",
+    "voxel_kpc": [0.25, 0.25, 0.10],
+    "minimum_stars_per_voxel": 20,
+    "minimum_supported_voxels": 12,
+    "base_nuisance": ["fe_h", "mg_fe", "age_bstep", "teff", "logg", "phot_g_mean_mag", "bp_rp", "ruwe", "fe_h_z2", "age_bstep_z2"],
+    "permutations": 5000,
+    "alpha": 0.01
+  },
+  "test_A_component_dominance": {
+    "definition": "f_T = t_T^2 / (t_R^2 + t_T^2 + t_z^2)",
+    "vT_dominated_threshold": 0.80,
+    "threshold_provenance": "Same pre-existing 0.80 component-dominance threshold used in the frozen DR20 conventional challenge; not chosen from the Mn result.",
+    "rule": "A vT-dominated result cannot by itself support persistence; the non-azimuthal components must be evaluated independently."
+  },
+  "test_B_rich_chemistry": {
+    "additional_abundances": ["al_fe", "si_fe", "ca_fe", "ti_fe", "ni_fe"],
+    "quality": "Require flag_al_fe == flag_si_fe == flag_ca_fe == flag_ti_fe == flag_ni_fe == 0 and finite values; do not relax if sample shrinks.",
+    "model": "Add the five standardized abundances linearly to both Mn and velocity nuisance models; retain all v0.2 controls and voxel fixed effects.",
+    "permutation": "Use the original v0.2 voxel + age/Fe/Mg coarse strata.",
+    "report": ["omnibus permutation p", "component-specific two-sided permutation p", "signed beta_R,beta_T,beta_z", "sample and voxel counts"]
+  },
+  "test_C_field_selection": {
+    "additional_columns": ["survey_name", "field_id"],
+    "model": "Keep the v0.2 coefficient model unchanged.",
+    "permutation": "Permute Mn_history only within voxel + survey_name + field_id + 1-Gyr age + 0.20-dex Fe/H + 0.10-dex Mg/Fe strata.",
+    "power_report": "Report number of permutable strata and stars in permutable strata; if fewer than 50 percent of modeled stars are permutable, classify this stress test as underpowered rather than relaxing strata."
+  },
+  "test_D_vertical_structure": {
+    "abs_z_slabs_kpc": [[0.0,0.20],[0.20,0.50],[0.50,1.00]],
+    "rule": "Run the unchanged v0.2 statistic independently in each slab. A slab is powered only if it retains at least 12 supported voxels; do not merge slabs post hoc.",
+    "report": ["omnibus permutation p", "component-specific two-sided permutation p", "signed effects"]
+  },
+  "test_E_orbital_population": {
+    "additional_dynamics": ["J_R", "J_Z", "ecc", "zmax", "R_peri", "R_ap"],
+    "model": "Add all six standardized orbital quantities linearly to both Mn and velocity nuisance models. L_Z is deliberately excluded because it is algebraically too close to the azimuthal target and would trivially over-control vT.",
+    "interpretation": "This is an intentionally conservative post-primary migration/orbit-family challenge. Loss of the Mn association supports ordinary chemo-dynamical population structure; survival is necessary but not sufficient for persistence."
+  },
+  "test_F_asymmetric_drift": {
+    "sample": "7.0 <= R_Rzphi < 9.0 kpc and abs(z_Rzphi) < 0.50 kpc under v0.2 quality cuts",
+    "mn_cohorts": "Mn_history < 0 versus Mn_history >= 0 from the frozen v0.2 nuisance model; no percentile optimization.",
+    "radial_bins_kpc": 0.50,
+    "z_slabs_kpc": [[0.0,0.25],[0.25,0.50]],
+    "minimum_per_cohort_per_bin": 50,
+    "circular_velocity_kms": 233.1,
+    "circular_velocity_provenance": "GALAH DR4 dynamics documentation value at the adopted solar radius.",
+    "jeans_baseline": "Vc^2 - mean(vT)^2 = sigma_T^2 - sigma_R^2 * [1 + d ln(nu sigma_R^2)/d ln R] with tilt term set to zero for the baseline.",
+    "tracer_density": "Pooled quality-sample number density in cylindrical radial bins divided by annular R factor; this is catalog tracer density, not stellar mass density.",
+    "gradient": "Within each z slab fit equal-bin-weight linear regression of ln(nu sigma_R^2) on ln R using the pooled Mn cohorts; apply the same gradient to both Mn cohorts.",
+    "bootstrap": {"resamples": 2000, "seed": 20260903, "unit": "within radial-bin x z-slab x Mn cohort"},
+    "estimand": "Equal-supported-bin mean of observed high-minus-low Mn delta vT minus conventionally predicted high-minus-low Mn delta vT_AD.",
+    "sufficiency": "Asymmetric drift is quantitatively sufficient if zero lies inside the two-sided 95% bootstrap interval for the observed-minus-predicted residual.",
+    "guardrail": "Even if asymmetric drift is insufficient, this test is not evidence for persistence; the rich-chemistry, selection, vertical, orbital, and independent-survey checks remain required."
+  },
+  "survival_rule": {
+    "strongest_allowed_label": "manganese_history_signal_survives_GALAH_conventional_challenge",
+    "requires": [
+      "test_B omnibus permutation p <= 0.01",
+      "test_B radial component permutation p <= 0.01 with the same sign as the parent primary",
+      "test_C adequately powered and radial component permutation p <= 0.01 with the same sign",
+      "at least two powered test_D slabs have radial effects with the parent-primary sign, with at least one radial component permutation p <= 0.01",
+      "test_E radial component retains the parent-primary sign and component permutation p <= 0.01"
+    ],
+    "vT_rule": "Azimuthal survival is reported separately and cannot satisfy the survival rule by itself.",
+    "replication_requirement": "Even if this GALAH challenge survives, APOGEE independent replication remains mandatory before the persistence-compatible chemical-history label can be used."
+  }
+}
