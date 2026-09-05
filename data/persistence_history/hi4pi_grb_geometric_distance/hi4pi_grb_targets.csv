@@ -1,0 +1,4 @@
+target,galactic_longitude_deg,galactic_latitude_deg,expected_CAR_tile
+GRB 221009A,52.96,4.32,CAR_E03.fits
+GRB 160623A,84.17,-2.69,CAR_E05.fits
+GRB 031203,255.74,-4.80,resolved automatically from cubes_gal.dat
