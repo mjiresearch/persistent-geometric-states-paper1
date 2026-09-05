@@ -15,10 +15,13 @@ Confirmed public DR19 products relevant to the test include:
 
 - `persistence_history_master_template.csv`: canonical one-row-per-star schema. It reserves fields for future email-authorized history products (birth radius, migration, perturbation, accretion, etc.).
 - `persistence_dataset_manifest.csv`: public/restricted source inventory and intended persistence use.
+- `hi4pi_grb_geometric_distance/`: reproducibility package for the geometric-distance / H I kinematic-residual test using the three GRB sightlines. It contains the public HI4PI cube downloader/extractor, the frozen target-coordinate manifest, and retrieval notes.
 
 ## Raw-data policy
 
 Raw SDSS FITS files should be retained separately from derived tables and should not be silently converted into claims about source history. The master table should record provenance for every imported or derived field.
+
+For the HI4PI GRB test, the large public FITS spectral cubes are not vendored into GitHub. The repository stores the retrieval code and frozen sightline definitions; extracted one-dimensional spectra and derived component fits should retain the originating HI4PI tile name and archive provenance.
 
 ## Pending ingestion
 
