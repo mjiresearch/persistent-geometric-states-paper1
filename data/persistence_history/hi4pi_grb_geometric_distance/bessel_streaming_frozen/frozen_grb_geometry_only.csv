@@ -1,0 +1,5 @@
+target,arm,l_deg,b_deg,distance_kpc,distance_sigma_kpc
+GRB_221009A,Outer,52.96,4.32,13.9,0.1
+GRB_221009A,OSC,52.96,4.32,19.0,0.2
+GRB_160623A,Outer,84.17,-2.69,9.9,0.6
+GRB_031203,Outer,255.74,-4.80,9.7,0.4
