@@ -1,0 +1,54 @@
+name: Audit Broeils and Begeman HI theses
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-broeils-begeman-theses.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF tools
+        run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils
+      - name: Download public Groningen thesis PDFs and scan frozen galaxies
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/thesis_audit
+          UA='Mozilla/5.0 persistence-research/1.0'
+          curl -A "$UA" -e 'https://research.rug.nl/' -L --fail --retry 3 -o /tmp/thesis_audit/broeils.pdf https://research.rug.nl/files/3332246/broeils.PDF || true
+          curl -A "$UA" -e 'https://research.rug.nl/' -L --fail --retry 3 -o /tmp/thesis_audit/begeman.pdf https://research.rug.nl/files/2841681/thesis.pdf || true
+          for base in broeils begeman; do
+            if [ -s /tmp/thesis_audit/$base.pdf ]; then
+              pdfinfo /tmp/thesis_audit/$base.pdf > /tmp/thesis_audit/${base}_pdfinfo.txt || true
+              pdftotext -layout /tmp/thesis_audit/$base.pdf /tmp/thesis_audit/${base}.txt || true
+            else
+              echo 'PDF retrieval failed' > /tmp/thesis_audit/${base}_pdfinfo.txt
+              : > /tmp/thesis_audit/${base}.txt
+            fi
+          done
+          python - <<'PY'
+          import csv,re,pandas as pd
+          from pathlib import Path
+          master=pd.read_csv('data/stationary/frozen/stationary_master_v1.csv')
+          galaxies=sorted(master.galaxy.unique())
+          for base in ['broeils','begeman']:
+              text=Path(f'/tmp/thesis_audit/{base}.txt').read_text(errors='ignore').upper()
+              norm=re.sub(r'[^A-Z0-9]','',text)
+              hits=[]
+              for g in galaxies:
+                  cg=re.sub(r'[^A-Z0-9]','',g.upper())
+                  variants={cg,re.sub(r'^(UGC|NGC)0+',r'\1',cg)}
+                  if any(v and v in norm for v in variants): hits.append(g)
+              with open(f'/tmp/thesis_audit/{base}_frozen_hits.csv','w',newline='') as f:
+                  w=csv.writer(f);w.writerow(['galaxy']);w.writerows([[x] for x in hits])
+              print(base,len(hits),hits)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: broeils-begeman-thesis-audit
+          path: |
+            /tmp/thesis_audit/*_pdfinfo.txt
+            /tmp/thesis_audit/*_frozen_hits.csv

@@ -1,0 +1,61 @@
+name: Audit Richards and Spekkens HI sources
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-richards-spekkens-hi-sources.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audit dependency
+        run: pip install pandas
+      - name: Audit public arXiv source packages against frozen sample
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/rs_audit/richards/src /tmp/rs_audit/spekkens/src
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/rs_audit/richards/source.tar https://arxiv.org/e-print/1605.01638
+          tar -xf /tmp/rs_audit/richards/source.tar -C /tmp/rs_audit/richards/src
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/rs_audit/spekkens/source.tar https://arxiv.org/e-print/astro-ph/0605542
+          tar -xf /tmp/rs_audit/spekkens/source.tar -C /tmp/rs_audit/spekkens/src
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd,re,csv
+          master=pd.read_csv('data/stationary/frozen/stationary_master_v1.csv')
+          galaxies=sorted(master.galaxy.unique())
+          def scan(label,root):
+              files=[p for p in Path(root).rglob('*') if p.is_file()]
+              rows=[]
+              for p in files:
+                  try: text=p.read_bytes().decode('latin1','ignore').upper()
+                  except: continue
+                  norm=re.sub(r'[^A-Z0-9]','',text)
+                  hits=[]
+                  for g in galaxies:
+                      cg=re.sub(r'[^A-Z0-9]','',g.upper())
+                      variants={cg,re.sub(r'^(UGC|NGC)0+',r'\1',cg)}
+                      if any(v and v in norm for v in variants): hits.append(g)
+                  if hits:
+                      rows.append({'file':str(p.relative_to(root)),'bytes':p.stat().st_size,'frozen_hits':';'.join(hits)})
+              pd.DataFrame(rows,columns=['file','bytes','frozen_hits']).to_csv(f'/tmp/rs_audit/{label}_frozen_hits.csv',index=False)
+              with open(f'/tmp/rs_audit/{label}_inventory.csv','w',newline='') as f:
+                  w=csv.writer(f);w.writerow(['file','bytes'])
+                  for p in files:w.writerow([str(p.relative_to(root)),p.stat().st_size])
+              print(label, rows)
+          scan('richards','/tmp/rs_audit/richards/src')
+          scan('spekkens','/tmp/rs_audit/spekkens/src')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: richards-spekkens-hi-source-audit
+          path: |
+            /tmp/rs_audit/richards_frozen_hits.csv
+            /tmp/rs_audit/richards_inventory.csv
+            /tmp/rs_audit/spekkens_frozen_hits.csv
+            /tmp/rs_audit/spekkens_inventory.csv

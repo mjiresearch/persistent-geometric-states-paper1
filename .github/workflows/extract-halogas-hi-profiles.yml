@@ -1,0 +1,58 @@
+name: Extract HALOGAS direct HI profiles
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'analysis/stationary/extract_halogas_hi_profiles.py'
+      - 'data/stationary/source_reconstruction/halogas_stationary_overlap_v1.csv'
+      - '.github/workflows/extract-halogas-hi-profiles.yml'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install numpy pandas astropy
+      - name: Download four new HALOGAS column-density maps and verify checksums
+        run: |
+          mkdir -p /tmp/halogas
+          python - <<'PY'
+          import csv, hashlib, pathlib, urllib.request
+          targets={'NGC0891','NGC1003','NGC5585','UGC04278'}
+          rows=list(csv.DictReader(open('data/stationary/source_reconstruction/halogas_stationary_overlap_v1.csv')))
+          for r in rows:
+              if r['galaxy'] not in targets: continue
+              p=pathlib.Path('/tmp/halogas')/r['filename']
+              urllib.request.urlretrieve(r['download_url'],p)
+              got=hashlib.md5(p.read_bytes()).hexdigest(); want=r['checksum'].split(':',1)[-1]
+              if got != want: raise SystemExit(f"checksum mismatch {r['galaxy']}: {got} != {want}")
+              print(r['galaxy'],p,p.stat().st_size,got)
+          PY
+      - name: Print FITS conversion headers
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from astropy.io import fits
+          import numpy as np
+          for p in sorted(Path('/tmp/halogas').glob('*.fits')):
+              with fits.open(p) as h:
+                  x=np.asarray(h[0].data,dtype=float).squeeze(); hdr=h[0].header
+              pos=x[np.isfinite(x)&(x>0)]
+              print(p.name,'BUNIT=',repr(hdr.get('BUNIT')),'BMAJ=',hdr.get('BMAJ'),'BMIN=',hdr.get('BMIN'),'shape=',x.shape,
+                    'positive_median=',float(np.nanmedian(pos)) if pos.size else None,'max=',float(np.nanmax(x)))
+          PY
+      - name: Extract frozen-method annular profiles
+        run: |
+          python analysis/stationary/extract_halogas_hi_profiles.py \
+            --fits-dir /tmp/halogas \
+            --manifest data/stationary/source_reconstruction/halogas_stationary_overlap_v1.csv \
+            --master data/stationary/frozen/stationary_master_v1.csv \
+            --out-dir /tmp/halogas_profiles
+      - uses: actions/upload-artifact@v4
+        with:
+          name: halogas-new-four-direct-hi-profiles
+          path: /tmp/halogas_profiles

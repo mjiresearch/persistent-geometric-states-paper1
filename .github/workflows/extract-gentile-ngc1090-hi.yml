@@ -1,0 +1,49 @@
+name: Extract Gentile NGC1090 HI profile
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  extract:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+          pip install pandas pymupdf pillow numpy
+      - name: Download source and identify NGC1090 profile figure
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/g1090/src /tmp/g1090/out
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/g1090/source.tar https://arxiv.org/e-print/astro-ph/0403154
+          tar -xf /tmp/g1090/source.tar -C /tmp/g1090/src
+          grep -ni -C 8 'NGC *1090' /tmp/g1090/src/paper.tex > /tmp/g1090/out/ngc1090_context.txt || true
+          grep -ni -C 4 -E 'surface density|HI distribution|H I distribution|gas distribution|Sigma' /tmp/g1090/src/paper.tex > /tmp/g1090/out/profile_context.txt || true
+          python - <<'PY'
+          from pathlib import Path
+          import re,csv,subprocess
+          src=Path('/tmp/g1090/src'); out=Path('/tmp/g1090/out')
+          tex=(src/'paper.tex').read_text(errors='ignore')
+          # Capture figure environments whose captions/nearby text mention NGC 1090 or HI surface density.
+          blocks=re.findall(r'\\begin\{figure\}.*?\\end\{figure\}',tex,re.S|re.I)
+          rows=[]
+          for i,b in enumerate(blocks):
+              low=b.lower()
+              if '1090' in low or ('surface' in low and 'density' in low) or ('h i' in low and 'distribution' in low):
+                  inc=re.findall(r'\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}',b)
+                  rows.append((i,';'.join(inc),re.sub(r'\s+',' ',b)[:1200]))
+          with open(out/'figure_candidates.csv','w',newline='') as f:
+              w=csv.writer(f); w.writerow(['figure_block','includegraphics','excerpt']); w.writerows(rows)
+          # Render every EPS so the candidate can be inspected reproducibly.
+          for p in src.glob('*.eps'):
+              subprocess.run(['gs','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pngalpha','-r300',f'-sOutputFile={out/(p.stem+".png")}',str(p)],check=False,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gentile-ngc1090-hi-extraction
+          path: /tmp/g1090/out

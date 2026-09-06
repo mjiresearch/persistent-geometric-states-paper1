@@ -1,0 +1,53 @@
+name: Extract Richards and Spekkens HI atlas
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/extract-richards-spekkens-atlas.yml'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PostScript tools
+        run: sudo apt-get update -qq && sudo apt-get install -y ghostscript poppler-utils
+      - name: Download sources and map figures to galaxies
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/rsa/richards/src /tmp/rsa/spekkens/src /tmp/rsa/richards/pdf /tmp/rsa/spekkens/pdf
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/rsa/richards/source.tar https://arxiv.org/e-print/1605.01638
+          tar -xf /tmp/rsa/richards/source.tar -C /tmp/rsa/richards/src
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/rsa/spekkens/source.tar https://arxiv.org/e-print/astro-ph/0605542
+          tar -xf /tmp/rsa/spekkens/source.tar -C /tmp/rsa/spekkens/src
+          cp /tmp/rsa/richards/src/baryonsDMHalosI_rev2Clean.tex /tmp/rsa/richards/manuscript.tex
+          cp /tmp/rsa/spekkens/src/spekkens_halfresfigs.tex /tmp/rsa/spekkens/manuscript.tex
+          python - <<'PY'
+          import re,csv
+          from pathlib import Path
+          for label,texpath in [('richards','/tmp/rsa/richards/manuscript.tex'),('spekkens','/tmp/rsa/spekkens/manuscript.tex')]:
+              text=Path(texpath).read_text(errors='ignore')
+              rows=[]
+              for m in re.finditer(r'\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}',text):
+                  f=m.group(1); a=max(0,m.start()-1200); b=min(len(text),m.end()+1600)
+                  ctx=re.sub(r'\s+',' ',text[a:b])
+                  names=sorted(set(re.findall(r'\b(?:NGC|UGC|IC)\s*0*\d+\b|\bF\d{3}(?:-[A-Za-z0-9]+)?\b',ctx,re.I)))
+                  rows.append((f,';'.join(names),ctx[:2500]))
+              with open(f'/tmp/rsa/{label}/figure_context.csv','w',newline='') as fh:
+                  w=csv.writer(fh);w.writerow(['graphic','nearby_galaxy_names','context']);w.writerows(rows)
+          PY
+          for f in /tmp/rsa/richards/src/fA*.eps; do b=$(basename "$f" .eps); cp "$f" /tmp/rsa/richards/; ps2pdf "$f" /tmp/rsa/richards/pdf/$b.pdf || true; done
+          for f in /tmp/rsa/spekkens/src/f*s.eps; do b=$(basename "$f" .eps); cp "$f" /tmp/rsa/spekkens/; ps2pdf "$f" /tmp/rsa/spekkens/pdf/$b.pdf || true; done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: richards-spekkens-atlas-extraction
+          path: |
+            /tmp/rsa/richards/figure_context.csv
+            /tmp/rsa/richards/manuscript.tex
+            /tmp/rsa/richards/fA*.eps
+            /tmp/rsa/richards/pdf/*.pdf
+            /tmp/rsa/spekkens/figure_context.csv
+            /tmp/rsa/spekkens/manuscript.tex
+            /tmp/rsa/spekkens/f*s.eps
+            /tmp/rsa/spekkens/pdf/*.pdf

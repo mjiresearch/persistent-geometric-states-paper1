@@ -1,0 +1,150 @@
+galaxy,stationary_role,sparc_hi_ha_refs,candidate_profile_lead_codes,candidate_profile_lead_families,known_hua_profile_missing,profile_source_verified,public_numeric_route_verified,redistribution_status,notes
+CamB,calibration,Bm0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+D564-8,calibration,Tr0,,,1,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+D631-7,calibration,"Tr09,dB0",,,1,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+DDO064,calibration,"dB02,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+DDO154,calibration,"Be91,CB8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+DDO161,calibration,Co0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+DDO168,calibration,"Sa96,Br9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+DDO170,blind,"Be91,La9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+ESO079-G014,calibration,Ge0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+ESO116-G012,blind,Ge0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+ESO444-G084,blind,Co0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+ESO563-G021,calibration,SG0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F565-V2,blind,"dB97,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F568-3,calibration,"KN08,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F568-V1,calibration,"dB01,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F571-8,calibration,"dB01,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F571-V1,calibration,"dB97,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F574-1,blind,"dB01,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F583-1,calibration,"KN08,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+F583-4,calibration,"KN08,dB9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+IC2574,calibration,"Sa96,MC9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+IC4202,calibration,SG0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+KK98-251,calibration,BC0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0024,blind,"Di08,Ch0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0055,blind,"Sa96,Pu9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0100,blind,"dB02,Rh9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0247,blind,"Sa96,Ca9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0289,calibration,Wa9,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0300,calibration,"Sa96,CP9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0801,blind,"Sa96,Br9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC0891,calibration,Fr1,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC1003,blind,"Sa96,Br9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC1090,calibration,Ge0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2403,blind,"Da06,Fr0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2683,calibration,"Sa96,Br9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2841,calibration,"Di08,Be9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2903,calibration,"Be91,Be8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2915,calibration,El1,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2955,blind,SG0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2976,calibration,Si0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC2998,calibration,"Sa96,Br9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3109,calibration,"Be91,JC9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3198,calibration,"Da06,Be91,Be8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3521,blind,"Da06,Sa9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3726,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3741,calibration,"Ge07,Bm0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3769,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3877,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3893,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3917,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3949,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3953,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3972,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC3992,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4010,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4013,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4051,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4068,calibration,Le1,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4085,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4088,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4100,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4138,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),1,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4157,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4183,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4217,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC4559,calibration,Ba0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC5005,blind,Ri1,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC5033,blind,"Sa96,Be8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC5055,blind,"Ba06,Bl0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC5371,calibration,"Sa96,Be8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC5585,blind,"Bl99,Sa96,Co9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC5907,calibration,"Sa96,SA8",,,1,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC5985,calibration,"Bl04,Br9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC6015,calibration,VM9,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC6195,calibration,SG0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC6503,calibration,"Be91,Be8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC6674,blind,"Sa96,Br9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC6946,blind,Bo0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC7331,calibration,"Be91,Be8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC7793,blind,"Di08,Sa96,CP9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+NGC7814,calibration,Fr1,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC00128,calibration,"VB99,VH9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC00191,calibration,"KN08,vZ9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC00731,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC00891,calibration,vZ9,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC01281,blind,"dB02,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC02259,calibration,"Be91,Ca8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC02487,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC02885,calibration,"Sa96,RA8",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC02916,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC02953,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC03205,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC03546,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC03580,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC04278,calibration,"dB02,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC04325,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC04483,calibration,"Le14,Le1",Le14,Lelli et al. (2014),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC04499,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05005,calibration,"dB02,VH9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05253,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05414,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05716,blind,vZ9,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05721,blind,"dB02,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05750,calibration,"dB01,VdH9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05764,calibration,vZ9,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05829,blind,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05918,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC05986,blind,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06399,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06446,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06614,calibration,"dB01,VH9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06667,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06786,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06787,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06818,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),1,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06917,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06923,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06930,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC06983,calibration,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07089,blind,"VS01,SV9",VS01,Verheijen & Sancisi (2001),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07125,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07151,blind,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07261,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07323,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07399,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07524,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07559,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07577,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07603,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07690,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC07866,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC08286,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC08490,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC08550,blind,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC08699,calibration,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC08837,blind,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC09037,calibration,Ha1,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC09133,blind,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC09992,blind,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC10310,blind,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC11455,calibration,SG0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC11557,blind,"Sw02,dB0",Sw02,Swaters et al. (2002),0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC11820,blind,"KN08,vZ9",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC11914,blind,"No07,No0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC12506,calibration,Ha1,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC12632,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGC12732,calibration,"Sw09,Sw0",,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGCA442,blind,Co0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.
+UGCA444,blind,Ke0,,,0,0,0,to_audit,SPARC reference is an acquisition lead only; verify exact radial-HI provenance before ingestion.

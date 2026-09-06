@@ -1,0 +1,112 @@
+name: Reconstruct Lelli 2014 public HI profiles
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/reconstruct-lelli2014-hi-profiles.yml'
+      - 'data/stationary/source_reconstruction/lelli2014_public_cube_manifest_v1.csv'
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install numpy pandas astropy scipy
+      - name: Download public cubes
+        run: |
+          mkdir -p /tmp/lelli
+          python - <<'PY'
+          import csv,pathlib,urllib.request
+          for r in csv.DictReader(open('data/stationary/source_reconstruction/lelli2014_public_cube_manifest_v1.csv')):
+              p=pathlib.Path('/tmp/lelli')/r['filename']; urllib.request.urlretrieve(r['download_url'],p); print(r['galaxy'],p.stat().st_size)
+          PY
+      - name: Reconstruct UGC04483 with published Lelli 2012 mask
+        run: |
+          python - <<'PY'
+          import numpy as np, pandas as pd
+          from astropy.io import fits
+          from astropy.wcs import WCS
+          from scipy.ndimage import gaussian_filter
+          from pathlib import Path
+
+          c=299792.458; nu_ghz=1.42040575177
+          cube_path=Path('/tmp/lelli/UGC4483_HIcube_r10.FIT')
+          with fits.open(cube_path,memmap=True) as hd:
+              x=np.asarray(hd[0].data,dtype=float).squeeze(); h=hd[0].header.copy()
+          # Lelli et al. (2012): final science product is 10 arcsec spatial resolution,
+          # 5.2 km/s effective velocity resolution; the clean mask was constructed after
+          # smoothing to 20 arcsec and 10.4 km/s and clipping at ~3 sigma_s.
+          # The FITS channel GRID remains ~2.6 km/s, so convolution sigma must be expressed
+          # in units of that sampling interval, not the 5.2 km/s effective resolution.
+          pix_as=abs(float(h['CDELT1']))*3600.
+          science_beam=10.0; target_beam=20.0
+          science_vres=5.2; target_vres=10.4
+          df=abs(float(h['CDELT3']))
+          channel_step_kms=c*df/(nu_ghz*1e9)
+          sig_xy=np.sqrt(target_beam**2-science_beam**2)/2.354820045/pix_as
+          sig_v=np.sqrt(target_vres**2-science_vres**2)/2.354820045/channel_step_kms
+          finite=np.isfinite(x); work=np.where(finite,x,0.0)
+          sm=gaussian_filter(work,sigma=(sig_v,sig_xy,sig_xy),mode='constant',cval=0.0)
+          med=np.nanmedian(sm); sigs=1.4826*np.nanmedian(np.abs(sm-med))
+          mask=sm > 3.0*sigs
+          # Integrate the final public 10-arcsec cube on its native channel grid.
+          mom0=np.sum(np.where(mask & finite,x,0.0),axis=0)*channel_step_kms
+          tb_per_jy=1.222e6/(nu_ghz**2*science_beam*science_beam)
+          nhi_los=mom0*tb_per_jy*1.823e18
+          nhi_los=np.where(np.sum(mask,axis=0)>0,nhi_los,np.nan)
+
+          # Published geometry; frozen SPARC distance is used only for the radial scale.
+          w=WCS(h).celestial
+          ra=15*(8+37/60+3.4/3600); dec=69+46/60+31/3600
+          xc,yc=w.world_to_pixel_values(ra,dec)
+          dist=3.34; inc_deg=58.0; inc=np.deg2rad(inc_deg); pa=np.deg2rad(0.0)
+          yy,xx=np.indices(nhi_los.shape); dx=(xx-xc)*pix_as; dy=(yy-yc)*pix_as
+          xp=dy*np.cos(pa)+dx*np.sin(pa); yp=-dy*np.sin(pa)+dx*np.cos(pa)
+          rell_as=np.sqrt(xp*xp+(yp/np.cos(inc))**2); kpc_as=dist*1e3/206265.; rell=rell_as*kpc_as
+          # Fig. 6 is explicitly inclination-corrected. Convert LOS column to face-on Sigma_HI.
+          sigma_faceon=(nhi_los/1.249e20)*np.cos(inc)
+          beam_kpc=science_beam*kpc_as; dr=.5*beam_kpc; central=2*beam_kpc
+          valid=np.isfinite(sigma_faceon)&(sigma_faceon>0); edges=np.arange(0,np.nanmax(rell[valid])+dr,dr); rows=[]
+          for lo,hi in zip(edges[:-1],edges[1:]):
+              m=(rell>=lo)&(rell<hi); z=sigma_faceon[m&valid]
+              if m.sum()<10: continue
+              rows.append({'name':'UGC04483','r_kpc':.5*(lo+hi),'Sigma_HI_Msun_pc2':float(np.nanmedian(z)) if z.size else np.nan,
+                           'Sigma_HI_p16':float(np.nanpercentile(z,16)) if z.size else np.nan,'Sigma_HI_p84':float(np.nanpercentile(z,84)) if z.size else np.nan,
+                           'n_pix_mom0':int(z.size),'beam_smeared_mask':bool(.5*(lo+hi)<central),'source_family':'Lelli_et_al_2014_public_cube',
+                           'profile_method':'published_mask_reproduction_from_public_r10_cube_QC'})
+          prof=pd.DataFrame(rows)
+          clean=prof[~prof.beam_smeared_mask & np.isfinite(prof.Sigma_HI_Msun_pc2)]
+          # Primary published-profile QC from Lelli et al. 2012 Fig. 6 / asymmetric-drift fit:
+          # Sigma0=10.5 Msun/pc2, Gaussian radial scale s=580 pc.
+          rr=clean.r_kpc.to_numpy(); ss=clean.Sigma_HI_Msun_pc2.to_numpy()
+          fit_mask=(rr<=1.4)&(ss>0)
+          s_fit=np.nan; sigma0_fit=np.nan
+          if fit_mask.sum()>=5:
+              X=rr[fit_mask]**2; Y=np.log(ss[fit_mask])
+              slope,intercept=np.polyfit(X,Y,1)
+              if slope<0:
+                  s_fit=float(np.sqrt(-1/(2*slope))); sigma0_fit=float(np.exp(intercept))
+          qc=pd.DataFrame([{'name':'UGC04483','pix_arcsec':pix_as,'channel_step_kms':channel_step_kms,
+                            'science_velocity_resolution_kms':science_vres,'target_mask_velocity_resolution_kms':target_vres,
+                            'mask_sigma_xy_pix':sig_xy,'mask_sigma_v_chan':sig_v,'sigma_s_Jy_beam':sigs,
+                            'mask_voxels':int(mask.sum()),'mask_sky_pixels':int(np.any(mask,axis=0).sum()),
+                            'n_clean_annuli':len(clean),'rmin_kpc':float(clean.r_kpc.min()),'rmax_kpc':float(clean.r_kpc.max()),
+                            'Sigma0_reconstructed_Msun_pc2':sigma0_fit,'Sigma0_published_Msun_pc2':10.5,
+                            'gaussian_s_reconstructed_kpc':s_fit,'gaussian_s_published_kpc':0.580,
+                            'published_pseudo3sigma_NHI_cm2':2.7e20,
+                            'inclination_correction_cos_i':float(np.cos(inc)),
+                            'median_positive_NHI_los_cm2':float(np.nanmedian(nhi_los[np.isfinite(nhi_los)&(nhi_los>0)])),
+                            'max_NHI_los_cm2':float(np.nanmax(nhi_los)),
+                            'promotion_status':'QC_ONLY_until_Fig6_agreement_and_mask_reproducibility_pass'}])
+          out=Path('/tmp/lelli_out');out.mkdir(exist_ok=True);prof.to_csv(out/'ugc04483_direct_hi_annular_profile.csv',index=False);qc.to_csv(out/'ugc04483_mask_qc.csv',index=False)
+          fits.writeto(out/'ugc04483_reconstructed_NHI_los.fits',nhi_los,h,overwrite=True)
+          print(qc.to_string(index=False)); print(clean[['r_kpc','Sigma_HI_Msun_pc2']].to_string(index=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lelli2014-reconstructed-hi-profiles
+          path: /tmp/lelli_out
