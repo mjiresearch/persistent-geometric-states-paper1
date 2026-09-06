@@ -37,15 +37,16 @@ def main():
     if len(sim): sim=sim[[x for x in keep if x in sim.columns]]
     a=r.merge(p,on='source_id',how='left').merge(g,on='source_id',how='left')
     if len(sim): a=a.merge(sim,on='source_id',how='left')
-    # Outcome-blind target-quality flags. Gaia_DCEP is supportive, but known literature
-    # conflicts remain a manual exclusion; obvious SIMBAD RR/RS types are excluded.
     a['gaia_sos_DCEP']=(a.type_best_classification=='DCEP')
+    a['gaia_provenance_nonDCEP']=(a.provenance=='Gaia_DR3') & ~a.gaia_sos_DCEP
     a['simbad_obvious_nonclassical']=a.otype.fillna('').isin(['RR*','RS*'])
     a['known_literature_conflict']=a.main_id.fillna('').eq('V* QY Cyg')
-    a['target_quality_pass']=~a.simbad_obvious_nonclassical & ~a.known_literature_conflict
+    # Gaia-provenance targets must be SOS DCEP. External P21/Inno targets retain
+    # their published classical-Cepheid provenance unless an independent conflict exists.
+    a['target_quality_pass']=~a.gaia_provenance_nonDCEP & ~a.simbad_obvious_nonclassical & ~a.known_literature_conflict
     a=a.sort_values(['target_quality_pass','best_min_neff_sigmaRV_2'],ascending=[False,False])
     a.to_csv(OUT/'osc_single_pass_candidates_classification_audit.csv',index=False)
-    summary={'status':'OUTCOME_BLIND_CLASSIFICATION_AUDIT','n_ranked_single_pass':int(len(a)),'n_gaia_sos_DCEP':int(a.gaia_sos_DCEP.sum()),'n_obvious_simbad_nonclassical':int(a.simbad_obvious_nonclassical.sum()),'n_known_literature_conflicts':int(a.known_literature_conflict.sum()),'n_target_quality_pass':int(a.target_quality_pass.sum()),'top_quality_candidates':a[a.target_quality_pass].head(15)[['source_id','main_id','provenance','type_best_classification','otype','Dist_kpc','s_phase_kpc','d_perp_kpc','best_min_neff_sigmaRV_2','gaia_source_rv','gaia_source_rv_error','gaia_source_rv_transits']].replace({float('nan'):None}).to_dict('records'),'manual_note':'QY Cyg is excluded because independent literature identifies it as a Type II Cepheid despite conflicting current catalog labels. SIMBAD RR*/RS* candidates are excluded from young classical-Cepheid follow-up. Other candidates retain published classical-Cepheid provenance pending spectroscopy.','guardrail':'No H I or Persistence outcome was read.'}
+    summary={'status':'OUTCOME_BLIND_CLASSIFICATION_AUDIT_V2','n_ranked_single_pass':int(len(a)),'n_gaia_sos_DCEP':int(a.gaia_sos_DCEP.sum()),'n_gaia_provenance_nonDCEP':int(a.gaia_provenance_nonDCEP.sum()),'n_obvious_simbad_nonclassical':int(a.simbad_obvious_nonclassical.sum()),'n_known_literature_conflicts':int(a.known_literature_conflict.sum()),'n_target_quality_pass':int(a.target_quality_pass.sum()),'top_quality_candidates':a[a.target_quality_pass].head(15)[['source_id','main_id','provenance','type_best_classification','otype','Dist_kpc','s_phase_kpc','d_perp_kpc','best_min_neff_sigmaRV_2','gaia_source_rv','gaia_source_rv_error','gaia_source_rv_transits']].replace({float('nan'):None}).to_dict('records'),'manual_note':'Gaia-provenance follow-up targets must have Gaia SOS type_best_classification=DCEP. QY Cyg is additionally excluded because independent literature identifies it as Type II despite a conflicting DCEP catalog label. SIMBAD RR*/RS* candidates are excluded. P21/Inno classical-Cepheid provenance is retained absent an independent conflict.','guardrail':'No H I or Persistence outcome was read.'}
     (OUT/'summary.json').write_text(json.dumps(summary,indent=2,allow_nan=False)+'\n')
     print(json.dumps(summary,indent=2,allow_nan=False))
 if __name__=='__main__':main()
