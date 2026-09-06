@@ -1,0 +1,5 @@
+target,arm,distance_kpc,distance_sigma_kpc,l_deg,b_deg,R_gal_kpc,theta_reid_kms,v_reid_geometric_kms,v_reid_sigma_distance_kms,v_hi_peak_kms,peak_fwhm_kms,peak_prominence_K,delta_v_obs_minus_reid_kms,abs_delta_v_kms,survey,association
+GRB_221009A,Outer,13.9,0.1,52.96,4.32,11.065461,230.982393,-52.433399,1.057124,-52.068262,18.046434,4.647923,0.365137,0.365137,EBHIS,nearest significant outer-sign peak (model-guided screening)
+GRB_221009A,OSC,19.0,0.2,52.96,4.32,15.470922,225.952224,-93.101612,1.162123,-82.824203,20.103651,14.630684,10.277409,10.277409,EBHIS,nearest significant outer-sign peak (model-guided screening)
+GRB_160623A,Outer,9.9,0.6,84.17,-2.69,12.159078,229.348772,-81.756126,5.996132,-75.069523,11.256406,10.066391,6.686603,6.686603,EBHIS,nearest significant outer-sign peak (model-guided screening)
+GRB_031203,Outer,9.7,0.4,255.74,-4.80,14.094791,227.105373,101.100092,3.147193,100.008226,25.171095,37.527071,-1.091865,1.091865,GASS,nearest significant outer-sign peak (model-guided screening)
