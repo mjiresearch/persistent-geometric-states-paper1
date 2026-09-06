@@ -1,0 +1,12 @@
+{
+  "protocol": "LAMOST_DR11_OSC_RV_RECOVERY_FREEZE",
+  "status": "OUTCOME_BLIND_DATA_RECOVERY",
+  "candidate_rows": 24,
+  "candidate_source_ids": 24,
+  "raw_rv_measurements": 0,
+  "measurement_groups": 0,
+  "qualifying_groups": 0,
+  "qualifying_unique_sources": 0,
+  "qualifying_sources": [],
+  "outcome_firewall": "No H I spectrum, H I velocity, H I residual, GRB comparison outcome, or Persistence prediction was read."
+}
