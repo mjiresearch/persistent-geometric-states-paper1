@@ -1,0 +1,2 @@
+source_id,R_kpc,phi_rad,s_phase_kpc,d_perp_kpc,accepted_rv_source,reason
+4311868065374060416,13.935882899719031,1.1644107459862012,-3.1408255667703155,-1.4531255004812016,gaia_vari_cepheid,accepted_RV_but_not_V3_eligible_likely_propagated_UV_error
