@@ -1,0 +1,17 @@
+{
+  "test": "independently frozen arm association + conventional streaming/warp challenge",
+  "association_result": {
+    "GRB_221009A_OSC": "retained at high confidence; observed -82.82 km/s lies near independent OSC locus center -84.74 km/s and within the +/-15 km/s window",
+    "GRB_160623A_Outer": "same dominant outer HI complex retained using external parallax-arm bracket",
+    "GRB_221009A_Outer": "retained at medium confidence from independent first-quadrant arm-ridge ordering",
+    "GRB_031203_Outer": "outermost component retained, but Outer-vs-Perseus nomenclature remains model-dependent in this quadrant"
+  },
+  "kinematic_result": {
+    "warp_alone": "fails for the two largest residuals because low |b| makes the vertical projection tiny; required |W| is ~136-143 km/s",
+    "radial_streaming": "can reproduce every residual with |U_R| <= 11.4 km/s",
+    "generic_streaming_prior": "all four residuals are <=1.11 sigma under zero-centered (sigma_R,sigma_phi,sigma_z)=(10,5,5) km/s nuisance scales",
+    "outer_arm_specific_mean": "the Hachisuka Outer-arm mean inward motion has the wrong sign for the positive first-quadrant residuals, so that single mean vector does not explain them; however arm/phase-dependent streaming can change sign"
+  },
+  "persistence_status": "not supported by this test after conventional streaming is admitted; the residual pattern remains a target only if a predictive conventional streaming model fails and a precomputed persistence field succeeds",
+  "next_discriminator": "replace broad nuisance envelopes with a spatially predictive gas-flow/spiral-arm streaming model at the four (R,phi,z) points and compare out-of-sample likelihood against the frozen persistence prediction"
+}
