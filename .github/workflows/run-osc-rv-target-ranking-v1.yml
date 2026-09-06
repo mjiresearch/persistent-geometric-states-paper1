@@ -28,5 +28,6 @@ jobs:
           git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/osc_rv_target_ranking_v1
           if ! git diff --cached --quiet; then
             git commit -m 'Freeze outcome-blind OSC systemic-RV target ranking V1'
+            git pull --rebase origin main
             git push
           fi
