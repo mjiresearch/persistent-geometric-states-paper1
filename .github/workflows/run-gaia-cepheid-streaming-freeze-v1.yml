@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v1.py'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/run_gaia_cepheid_streaming_v1.py'
       - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/GAIA_CEPHEID_STREAMING_FREEZE_V1.md'
       - '.github/workflows/run-gaia-cepheid-streaming-freeze-v1.yml'
 permissions:
@@ -20,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: pip install numpy pandas astropy requests
       - name: Build frozen outcome-blind Cepheid field
-        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v1.py
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/run_gaia_cepheid_streaming_v1.py
       - name: Commit immutable frozen products
         run: |
           git config user.name 'github-actions[bot]'
