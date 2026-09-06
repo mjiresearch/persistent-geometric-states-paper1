@@ -1,0 +1,35 @@
+name: Run BeSSeL streaming freeze v1
+
+on:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/bessel_streaming_frozen/**'
+      - '.github/workflows/run-bessel-streaming-freeze-v1.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  freeze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install numpy pandas astropy
+      - name: Build frozen conventional field
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/bessel_streaming_frozen/build_bessel_streaming_field_v1.py
+      - name: Commit frozen products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/bessel_streaming_frozen/reid2019_table1.dat
+          git add data/persistence_history/hi4pi_grb_geometric_distance/bessel_streaming_frozen/outputs_v1
+          git commit -m 'Freeze BeSSeL maser streaming field v1 outputs' || exit 0
+          git pull --rebase origin main
+          git push
