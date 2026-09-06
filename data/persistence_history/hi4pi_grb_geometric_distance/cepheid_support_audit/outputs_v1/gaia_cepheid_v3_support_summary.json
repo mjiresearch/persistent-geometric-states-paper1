@@ -1,0 +1,244 @@
+{
+  "protocol": "GAIA_CEPHEID_V3_SUPPORT_AUDIT_V1",
+  "status": "FROZEN_GEOMETRY_ONLY_BEFORE_HI_COMPARISON",
+  "catalog": "CDS/VizieR J/A+A/674/A37/table2",
+  "catalog_expected_rows": 3306,
+  "catalog_parsed_rows": 3306,
+  "R0_kpc": 8.15,
+  "h_grid_kpc": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    7.0,
+    10.0
+  ],
+  "outer_geometry": {
+    "alpha": 2.0373888808067595,
+    "beta": 0.15578848229141543,
+    "sigma_arm_kpc": 0.8489392303918806,
+    "source": "frozen V3 Outer locus"
+  },
+  "osc_geometry": {
+    "source": "G007.47+00.05",
+    "parallax_mas": 0.049,
+    "distance_kpc": 20.408163265306122,
+    "R_kpc": 12.372775706713766,
+    "phi_rad": 0.2161173120334004,
+    "pitch_deg": 13.1,
+    "alpha": 2.4652064775186884,
+    "beta": 0.23270728955462788
+  },
+  "guardrail": "No H I spectrum, velocity, residual, V1/V2/V3 prediction, or Persistence prediction was read.",
+  "results": [
+    {
+      "target": "GRB_221009A",
+      "arm": "Outer",
+      "geometry_source": "frozen_V3_Outer",
+      "R_target_kpc": 11.065461239619236,
+      "phi_target_rad": 1.5527944506430613,
+      "N_arm": 900,
+      "sigma_arm_kpc": 0.8489392303918806,
+      "perp_limit_kpc": 1.6978784607837611,
+      "d_nearest_phase_kpc": 0.09441074966879028,
+      "d_perp_target_kpc": 1.280215250494001,
+      "selected_support_h_kpc": 1.0,
+      "N_eff": 34.49034919591315,
+      "status": "CEPHEID_SUPPORT",
+      "support_grid": [
+        {
+          "h_kpc": 1.0,
+          "N_eff": 34.49034919591315,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 2.0,
+          "N_eff": 68.78237119759989,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 3.0,
+          "N_eff": 95.88679327629798,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 4.0,
+          "N_eff": 129.21354663207515,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 5.0,
+          "N_eff": 170.9882547311832,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 7.0,
+          "N_eff": 269.12553843374883,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 10.0,
+          "N_eff": 411.27130234171017,
+          "support_qualified": true
+        }
+      ]
+    },
+    {
+      "target": "GRB_221009A",
+      "arm": "OSC",
+      "geometry_source": "Reid2019_SC_to_OSC_anchor_G007.47",
+      "R_target_kpc": 15.470921731566737,
+      "phi_target_rad": 1.3583177990451145,
+      "N_arm": 117,
+      "sigma_arm_kpc": 1.0,
+      "perp_limit_kpc": 2.0,
+      "d_nearest_phase_kpc": 0.2955041047015368,
+      "d_perp_target_kpc": -0.6516074875869281,
+      "selected_support_h_kpc": 1.0,
+      "N_eff": 5.840202445381353,
+      "status": "CEPHEID_SUPPORT",
+      "support_grid": [
+        {
+          "h_kpc": 1.0,
+          "N_eff": 5.840202445381353,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 2.0,
+          "N_eff": 17.052973997431664,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 3.0,
+          "N_eff": 23.998414822165273,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 4.0,
+          "N_eff": 28.08864506305957,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 5.0,
+          "N_eff": 31.41840091056743,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 7.0,
+          "N_eff": 38.004108577038316,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 10.0,
+          "N_eff": 49.089578897358436,
+          "support_qualified": true
+        }
+      ]
+    },
+    {
+      "target": "GRB_160623A",
+      "arm": "Outer",
+      "geometry_source": "frozen_V3_Outer",
+      "R_target_kpc": 12.159077679004652,
+      "phi_target_rad": 2.1989692164750045,
+      "N_arm": 937,
+      "sigma_arm_kpc": 0.8489392303918806,
+      "perp_limit_kpc": 1.6978784607837611,
+      "d_nearest_phase_kpc": 0.0018739931087500966,
+      "d_perp_target_kpc": 1.3384305277832256,
+      "selected_support_h_kpc": 1.0,
+      "N_eff": 62.435323673372324,
+      "status": "CEPHEID_SUPPORT",
+      "support_grid": [
+        {
+          "h_kpc": 1.0,
+          "N_eff": 62.435323673372324,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 2.0,
+          "N_eff": 134.47342877091432,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 3.0,
+          "N_eff": 205.91796836432474,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 4.0,
+          "N_eff": 272.59404842949556,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 5.0,
+          "N_eff": 329.97805433081817,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 7.0,
+          "N_eff": 422.715863298616,
+          "support_qualified": true
+        },
+        {
+          "h_kpc": 10.0,
+          "N_eff": 528.2260539580375,
+          "support_qualified": true
+        }
+      ]
+    },
+    {
+      "target": "GRB_031203",
+      "arm": "Outer",
+      "geometry_source": "frozen_V3_Outer",
+      "R_target_kpc": 14.09479113691448,
+      "phi_target_rad": -2.414562727785636,
+      "N_arm": 274,
+      "sigma_arm_kpc": 0.8489392303918806,
+      "perp_limit_kpc": 1.6978784607837611,
+      "d_nearest_phase_kpc": 0.08206248780448326,
+      "d_perp_target_kpc": 8.723790082951666,
+      "selected_support_h_kpc": null,
+      "N_eff": null,
+      "status": "NO_CEPHEID_SUPPORT",
+      "support_grid": [
+        {
+          "h_kpc": 1.0,
+          "N_eff": 48.53731641428927,
+          "support_qualified": false
+        },
+        {
+          "h_kpc": 2.0,
+          "N_eff": 113.36221514596146,
+          "support_qualified": false
+        },
+        {
+          "h_kpc": 3.0,
+          "N_eff": 146.25372582998136,
+          "support_qualified": false
+        },
+        {
+          "h_kpc": 4.0,
+          "N_eff": 163.09886533924362,
+          "support_qualified": false
+        },
+        {
+          "h_kpc": 5.0,
+          "N_eff": 173.75644223901529,
+          "support_qualified": false
+        },
+        {
+          "h_kpc": 7.0,
+          "N_eff": 187.73556622426133,
+          "support_qualified": false
+        },
+        {
+          "h_kpc": 10.0,
+          "N_eff": 198.53612408772722,
+          "support_qualified": false
+        }
+      ]
+    }
+  ]
+}
