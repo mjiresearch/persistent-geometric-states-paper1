@@ -1,0 +1,38 @@
+name: Analyze Bonn HI GRB residuals
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/analyze-bonn-hi-grb.yml'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/analyze_bonn_ascii.py'
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install numpy pandas scipy
+      - name: Run screening analysis
+        shell: bash
+        run: |
+          set -o pipefail
+          BASE=data/persistence_history/hi4pi_grb_geometric_distance
+          python "$BASE/analyze_bonn_ascii.py" 2>&1 | tee "$BASE/bonn_results_run.log"
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/bonn_results data/persistence_history/hi4pi_grb_geometric_distance/bonn_results_run.log
+          git commit -m 'Run Bonn HI GRB geometric-distance screening' || exit 0
+          git push
