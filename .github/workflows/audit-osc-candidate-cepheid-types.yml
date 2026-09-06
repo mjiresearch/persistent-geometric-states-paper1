@@ -1,0 +1,30 @@
+name: Audit OSC candidate Cepheid classifications
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/audit_osc_candidate_cepheid_types.py'
+      - '.github/workflows/audit-osc-candidate-cepheid-types.yml'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas requests
+      - name: Run outcome-blind Cepheid classification audit
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/audit_osc_candidate_cepheid_types.py
+      - name: Commit audit products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/osc_rv_target_rank/classification_audit
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add outcome-blind OSC Cepheid classification audit'
+            git push
+          fi
