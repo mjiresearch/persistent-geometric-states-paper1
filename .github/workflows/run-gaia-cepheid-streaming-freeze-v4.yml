@@ -1,0 +1,33 @@
+name: Run Gaia-Cepheid streaming purity V4
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v4.py'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/GAIA_CEPHEID_STREAMING_PURITY_V4.md'
+      - '.github/workflows/run-gaia-cepheid-streaming-freeze-v4.yml'
+permissions:
+  contents: write
+jobs:
+  freeze-v4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install numpy pandas astropy requests scipy
+      - name: Build V4 DCEP-purity conventional field
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v4.py
+      - name: Commit immutable V4 products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/gaia_dr3_current_cepheid_types_v4.csv || true
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/outputs_v4
+          if ! git diff --cached --quiet; then
+            git commit -m 'Freeze Gaia-Cepheid DCEP-purity V4 outputs'
+            git push
+          fi
