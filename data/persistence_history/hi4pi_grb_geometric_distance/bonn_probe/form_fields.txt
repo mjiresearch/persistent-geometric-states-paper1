@@ -1,0 +1,13 @@
+24:			<form accept="multipart/form-data" accept-charset="utf8" method="post" action="index.php">
+32:							<select name="coordinates">
+33:								<option  selected="selected" value="lb">Galactic coordinates (l, b)</option>
+34:								<option  value="radec">Equatorial coordinates (RA, DEC, J2000)</option>
+41:						<td class="input"><input type="text" name="ral" value="" /></td>
+45:						<td class="input"><input type="text" name="decb" value="" /></td>
+49:						<td class="input"><input type="text" name="beam" value="0.2" /></td>
+56:						<td class="input"><input type="text" name="vmin" value="-400.0" /></td>
+60:						<td class="input"><input type="text" name="vmax" value="+400.0" /></td>
+66:						<td class="input"><input type="checkbox"  checked="checked" name="ebhis" value="ebhis" /></td>
+71:						<td class="input"><input type="checkbox"  checked="checked" name="gass" value="gass" /></td>
+75:						<td class="input"><input type="checkbox"  checked="checked" name="gauss" value="gauss" /></td>
+79:							<input type="submit" name="search" value="Search" />
