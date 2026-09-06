@@ -1,0 +1,41 @@
+name: Download Bonn HI GRB ASCII
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/download-bonn-hi-grb-ascii.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download spectra and Gaussian parameters
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE='https://www.astro.uni-bonn.de/hisurvey/AllSky_gauss'
+          OUT='data/persistence_history/hi4pi_grb_geometric_distance/bonn_ascii'
+          mkdir -p "$OUT"
+          get() { name="$1"; l="$2"; b="$3"; beam="$4";
+            curl -fL --retry 3 --max-time 120 "$BASE/download.php?ral=$l&decb=$b&csys=0&beam=$beam&vmin=-200.00&vmax=200.00" -o "$OUT/${name}_spectrum.txt"
+            curl -fL --retry 3 --max-time 120 "$BASE/download2.php?ral=$l&decb=$b&csys=0" -o "$OUT/${name}_gaussians.txt"
+          }
+          get GRB_221009A 52.960 4.320 0.250
+          get GRB_160623A 84.170 -2.690 0.250
+          get GRB_031203 255.740 -4.800 0.500
+          for f in "$OUT"/*.txt; do echo "===== $f ====="; head -40 "$f"; done
+      - name: Commit ASCII products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/bonn_ascii
+          git commit -m 'Add Bonn HI GRB ASCII spectra and Gaussian parameters' || exit 0
+          git push
