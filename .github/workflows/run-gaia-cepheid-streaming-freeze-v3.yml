@@ -1,0 +1,33 @@
+name: Run Gaia-Cepheid streaming freeze v3
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v3.py'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/GAIA_CEPHEID_STREAMING_AUGMENT_V3.md'
+      - '.github/workflows/run-gaia-cepheid-streaming-freeze-v3.yml'
+permissions:
+  contents: write
+jobs:
+  freeze-v3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install numpy pandas astropy requests
+      - name: Build frozen multi-catalog Cepheid field
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v3.py
+      - name: Commit immutable V3 products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/melnik2015_cepheid_hrv.tsv || true
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/outputs_v3
+          if ! git diff --cached --quiet; then
+            git commit -m 'Freeze multi-catalog Gaia-Cepheid streaming V3 outputs'
+            git push
+          fi
