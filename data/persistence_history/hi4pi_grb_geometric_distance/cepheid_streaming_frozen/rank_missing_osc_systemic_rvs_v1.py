@@ -103,8 +103,10 @@ def build_candidates(pt):
     mel = v3.melnik_catalog(); df = v3.attach_melnik(df,mel); veloce = v2.parse_veloce()
     eligible_ids = set(pd.read_csv(HERE/'outputs_v3'/'eligible_6d_cepheids_v3.csv').source_id.astype('int64').tolist())
     rows=[]
-    for _,r in df.iterrows():
-        if int(r.source_id) in eligible_ids: continue
+    # itertuples preserves the 64-bit Gaia source_id exactly; iterrows can coerce it to float.
+    for r in df.itertuples(index=False):
+        sid=int(r.source_id)
+        if sid in eligible_ids: continue
         if not finite(r.pmra,r.pmra_error,r.pmdec,r.pmdec_error,r.ruwe,r.e_mu,r.ra,r.dec,r.Dist): continue
         if float(r.ruwe)>=1.4: continue
         frac = math.log(10)/5*float(r.e_mu)
@@ -124,7 +126,7 @@ def build_candidates(pt):
             if rs==PRIMARY_RV_SIGMA and max(eU,eV)>20: ok_primary=False
         if not ok_primary: continue
         cg=SkyCoord(ra=float(r.ra)*u.deg,dec=float(r.dec)*u.deg,frame='icrs').galactic
-        rows.append(dict(source_id=int(r.source_id),ra_deg=float(r.ra),dec_deg=float(r.dec),
+        rows.append(dict(source_id=sid,ra_deg=float(r.ra),dec_deg=float(r.dec),
                          l_deg=float(cg.l.deg),b_deg=float(cg.b.deg),Dist_kpc=float(r.Dist),e_mu=float(r.e_mu),ruwe=float(r.ruwe),
                          R_kpc=R,phi_rad=phi,s_phase_kpc=s,d_perp_kpc=dp,
                          eU_1kms=errs[1.0][0],eV_1kms=errs[1.0][1],
@@ -166,9 +168,10 @@ def evaluate_additions(existing, additions, rv_sigma):
 def main():
     existing,pt=existing_osc_weights()
     cand,ncat,njoin=build_candidates(pt)
+    records=list(cand.to_dict('records'))
     singles=[]
-    for _,r in cand.iterrows():
-        out=dict(r)
+    for rec in records:
+        r=pd.Series(rec); out=dict(rec)
         for rs in RV_SIGMAS:
             best,qh,_=evaluate_additions(existing,[r],rs)
             out[f'best_min_Neff_{int(rs)}kms']=best['min_Neff']
@@ -181,7 +184,6 @@ def main():
     sdf.to_csv(OUT/'osc_missing_rv_candidates_ranked.csv',index=False)
 
     pairs=[]
-    records=list(cand.to_dict('records'))
     for a,b in itertools.combinations(records,2):
         best,qh,_=evaluate_additions(existing,[pd.Series(a),pd.Series(b)],PRIMARY_RV_SIGMA)
         pairs.append(dict(source_id_1=int(a['source_id']),source_id_2=int(b['source_id']),
