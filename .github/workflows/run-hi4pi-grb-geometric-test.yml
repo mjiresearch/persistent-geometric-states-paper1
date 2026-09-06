@@ -1,0 +1,76 @@
+name: Run HI4PI GRB geometric-distance test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/run-hi4pi-grb-geometric-test.yml'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/hi4pi_grb_aperture_extract.py'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/analyze_hi4pi_grb.py'
+
+permissions:
+  contents: write
+
+jobs:
+  run-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install scientific dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pandas scipy astropy matplotlib
+
+      - name: Download HI4PI cubes and aperture-average GRB spectra
+        shell: bash
+        run: |
+          set -o pipefail
+          BASE=data/persistence_history/hi4pi_grb_geometric_distance
+          RUN=$BASE/run_data
+          mkdir -p "$RUN"
+          python "$BASE/hi4pi_grb_aperture_extract.py" --output "$RUN" 2>&1 | tee "$BASE/download_extract.log"
+
+      - name: Run Reid-URC geometric/kinematic residual screening
+        shell: bash
+        run: |
+          set -o pipefail
+          BASE=data/persistence_history/hi4pi_grb_geometric_distance
+          mkdir -p "$BASE/results"
+          python "$BASE/analyze_hi4pi_grb.py" --data-dir "$BASE/run_data" --out-dir "$BASE/results" 2>&1 | tee "$BASE/results/run.log"
+
+      - name: Preserve compact spectra and extraction provenance
+        run: |
+          BASE=data/persistence_history/hi4pi_grb_geometric_distance
+          mkdir -p "$BASE/results/spectra"
+          cp "$BASE"/run_data/*_hi4pi_aperture.csv "$BASE/results/spectra/"
+          cp "$BASE"/run_data/aperture_extraction_manifest.csv "$BASE/results/"
+          cp "$BASE"/run_data/cubes_gal.dat "$BASE/results/"
+          find "$BASE/results" -maxdepth 2 -type f -printf '%p %s bytes\n' | sort
+
+      - name: Commit compact test outputs
+        run: |
+          BASE=data/persistence_history/hi4pi_grb_geometric_distance
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$BASE/results" "$BASE/download_extract.log"
+          if git diff --cached --quiet; then
+            echo 'No HI4PI GRB output changes to commit.'
+          else
+            git commit -m 'Run HI4PI GRB geometric-distance residual screening'
+            git push
+          fi
+
+      - name: Upload result artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hi4pi-grb-geometric-test-results
+          path: data/persistence_history/hi4pi_grb_geometric_distance/results
+          if-no-files-found: error
