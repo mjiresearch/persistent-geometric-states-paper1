@@ -1,0 +1,88 @@
+{
+  "status": "STATIONARY_SOURCE_PROFILE_CERTIFIED_SUBSET_V1_FROZEN",
+  "scope": "certified_34_profile_subset_not_global_149_galaxy_unlock",
+  "n_profiles": 34,
+  "n_tabulated_profiles": 27,
+  "n_analytic_profiles": 7,
+  "profile_role_counts": {
+    "calibration": 25,
+    "blind": 9
+  },
+  "membership": {
+    "calibration": [
+      "CamB",
+      "DDO154",
+      "DDO168",
+      "ESO079-G014",
+      "F568-3",
+      "F568-V1",
+      "F583-1",
+      "F583-4",
+      "IC2574",
+      "KK98-251",
+      "NGC0289",
+      "NGC0300",
+      "NGC2841",
+      "NGC2903",
+      "NGC2976",
+      "NGC3198",
+      "NGC4559",
+      "NGC5907",
+      "NGC6015",
+      "NGC7331",
+      "UGC04483",
+      "UGC05918",
+      "UGC07559",
+      "UGC09037",
+      "UGC12506"
+    ],
+    "blind": [
+      "ESO116-G012",
+      "F574-1",
+      "NGC0024",
+      "NGC2403",
+      "NGC3521",
+      "NGC5033",
+      "NGC5055",
+      "NGC6946",
+      "NGC7793"
+    ]
+  },
+  "n_grid_rows": 905,
+  "grid_row_role_counts": {
+    "calibration": 579,
+    "blind": 326
+  },
+  "evaluation_method_counts": {
+    "analytic_offcentered_gaussian_sum": 108,
+    "inner_constant": 23,
+    "measured_node": 3,
+    "outer_zero": 142,
+    "piecewise_linear": 629
+  },
+  "n_tabulated_requiring_inner_continuation": 11,
+  "n_tabulated_requiring_outer_continuation": 11,
+  "common_surface_density_convention": "Sigma_neutral_1p33 = 1.33 * Sigma_HI_raw",
+  "interpolation_rule_id": "stationary_hi_interpolation_continuation_policy_v1",
+  "interpolation_policy": "validation/stationary/STATIONARY_HI_INTERPOLATION_CONTINUATION_POLICY_V1.md",
+  "input_sha256": {
+    "data/stationary/frozen/stationary_master_v1.csv": "254e17dbe22eb8371384e3c7f301f9936181b99384518e772be861567e4e896f",
+    "data/stationary/source_reconstruction/certified_hi_normalization_manifest_v3.csv": "94a3203efe07902508b7aebd0cc0b79711b9639d4e124a630f7926513ad465a5",
+    "data/stationary/source_reconstruction/certified_hi_common_tabulated_v5.csv": "d69389e08a0a941a187eec4043e440c4e1d919b0077935d749720cb735e880ee",
+    "data/stationary/source_reconstruction/certified_hi_common_analytic_v5.csv": "04378db518f81003aa28cb1b4a499e28d11df494e977c3fa3aaea0d60c67ae06",
+    "validation/stationary/certified_hi_full_radial_coverage_v3.csv": "48be241d024103508d0aec1b04c335596b7e6f329a76857d6e384c089cde86be",
+    "validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md": "d411c05eee532b294bf74c80e411d23814d4b6fdf51b62a1a7d341de205406fb",
+    "validation/stationary/STATIONARY_HI_MISSING_VALUE_POLICY_V1.md": "2b4a2cabb9d342ddb85d8ceb3cf18eb933fa43ae8895d2a3d7d8cd0214226013",
+    "validation/stationary/STATIONARY_HI_INTERPOLATION_CONTINUATION_POLICY_V1.md": "dc448e8dcd4fdcb7d49f0787118d72ae51fb21957a2c0ee87f23e61942064522",
+    "validation/stationary/hi_interpolation_rule_v1_mock_validation.json": "6a6ff8bae2af19771d853fc0c1fe90adefe5fe6790d9688fcd80dfb54e8394be"
+  },
+  "output_sha256": {
+    "data/stationary/processed/stationary_hi_profiles_v1.csv": "e8498b95378aadc99d8679b7b17012993a0e947893bef9e45e323263caac36ef",
+    "data/stationary/processed/stationary_source_profiles_v1.csv": "ac13746a691b9f32da5cca4b955e2933d631d7294a41b7806f24b3599aeab155"
+  },
+  "source_current_evaluated": false,
+  "vobs_used_as_source_current": false,
+  "global_fit_gate_unlocked": false,
+  "blind_outcome_inspected": false,
+  "boundary": "Observational source construction only. Certified 34-profile subset freeze; no velocity value, residual, persistence prediction, model preference, L_A, C_A, or tau_A evaluated."
+}

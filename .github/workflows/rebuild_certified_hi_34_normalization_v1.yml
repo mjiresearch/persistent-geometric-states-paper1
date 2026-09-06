@@ -1,0 +1,55 @@
+name: Rebuild certified H I 34 normalization v1
+on:
+  push:
+    paths:
+      - 'scripts/stationary/build_certified_hi_normalization_manifest_v3.py'
+      - 'scripts/stationary/build_common_normalized_hi_profiles_v5.py'
+      - 'scripts/stationary/audit_certified_hi_full_radial_coverage_v3.py'
+      - '.github/workflows/rebuild_certified_hi_34_normalization_v1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/stationary/audit_certified_hi_profile_schemas.py
+      - run: python scripts/stationary/build_certified_hi_normalization_manifest_v3.py
+      - run: python scripts/stationary/build_common_normalized_hi_profiles_v5.py
+      - run: python scripts/stationary/audit_certified_hi_full_radial_coverage_v3.py
+      - name: Require locked 34-profile state
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest = json.loads(Path('validation/stationary/certified_hi_normalization_manifest_v3_summary.json').read_text())
+          normalized = json.loads(Path('validation/stationary/certified_hi_common_normalized_v5_summary.json').read_text())
+          coverage = json.loads(Path('validation/stationary/certified_hi_full_radial_coverage_v3_summary.json').read_text())
+          expected = {'calibration': 25, 'blind': 9}
+          assert manifest['n_certified'] == manifest['n_ready'] == 34
+          assert manifest['role_counts'] == expected
+          assert normalized['n_certified_galaxies'] == 34
+          assert normalized['role_counts'] == expected
+          assert normalized['new_galaxies'] == ['NGC5033']
+          assert normalized['new_rows'] == {'NGC5033': 50}
+          assert coverage['n_profiles'] == 34
+          assert coverage['role_counts'] == expected
+          assert coverage['new_v3_profile']['galaxy'] == 'NGC5033'
+          PY
+      - name: Commit normalization and coverage products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/stationary/certified_hi_profile_schema_audit_v1.json data/stationary/source_reconstruction/certified_hi_normalization_manifest_v3.csv validation/stationary/certified_hi_normalization_manifest_v3_summary.json data/stationary/source_reconstruction/certified_hi_common_tabulated_v5.csv data/stationary/source_reconstruction/certified_hi_common_analytic_v5.csv validation/stationary/certified_hi_common_normalized_v5_summary.json validation/stationary/certified_hi_full_radial_coverage_v3.csv validation/stationary/certified_hi_full_radial_coverage_v3_summary.json validation/stationary/CHECKPOINT_CERTIFIED_HI_34_NORMALIZATION_V1.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Rebuild common H I normalization for 34 certified profiles'
+          branch="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3; do git pull --rebase origin "$branch"; if git push origin "HEAD:$branch"; then exit 0; fi; sleep 2; done
+          exit 1
