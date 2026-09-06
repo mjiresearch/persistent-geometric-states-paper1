@@ -1,0 +1,51 @@
+name: Run Bonn HI GRB profiles
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/run-bonn-hi-grb-profiles.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  profiles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Submit GRB sightlines to Bonn H I profile service
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=data/persistence_history/hi4pi_grb_geometric_distance/bonn_profiles
+          mkdir -p "$OUT"
+          submit() {
+            name="$1"; l="$2"; b="$3"; beam="$4"
+            curl -fL --retry 3 --connect-timeout 20 --max-time 120 \
+              -c "$OUT/cookies.txt" -b "$OUT/cookies.txt" \
+              -d "coordinates=lb" \
+              -d "ral=$l" -d "decb=$b" -d "beam=$beam" \
+              -d "vmin=-200" -d "vmax=200" \
+              -d "ebhis=ebhis" -d "gass=gass" -d "gauss=gauss" \
+              -d "search=Search" \
+              'https://www.astro.uni-bonn.de/hisurvey/AllSky_gauss/index.php' \
+              -o "$OUT/${name}.html"
+            grep -niE 'href=|download|Gaussian|velocity|spectrum|profile|ASCII|FITS|txt|dat' \
+              "$OUT/${name}.html" > "$OUT/${name}_links.txt" || true
+          }
+          # Bonn beam parameter is FWHM in degrees; use apertures matching Vaia spatial scales.
+          submit GRB_221009A 52.96 4.32 0.25
+          submit GRB_160623A 84.17 -2.69 0.25
+          submit GRB_031203 255.74 -4.80 0.50
+          for f in "$OUT"/*_links.txt; do echo "===== $f ====="; cat "$f"; done
+      - name: Commit profile responses
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/bonn_profiles
+          git commit -m 'Retrieve Bonn HI GRB profile responses' || exit 0
+          git push
