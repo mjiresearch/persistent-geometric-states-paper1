@@ -1,0 +1,19 @@
+{
+  "test": "Bonn EBHIS/GASS GRB geometric-distance / Reid-URC screening",
+  "status": "screening only; not a persistence detection",
+  "association_caveat": "Nearest significant peak is model-guided; confirmatory arm/component association must be frozen independently.",
+  "residuals": [
+    {"target":"GRB_221009A","arm":"Outer","survey":"EBHIS","v_reid_geometric_kms":-52.43339865435699,"v_hi_peak_kms":-52.068262022032876,"delta_v_obs_minus_reid_kms":0.3651366323241163},
+    {"target":"GRB_221009A","arm":"OSC","survey":"EBHIS","v_reid_geometric_kms":-93.10161230400952,"v_hi_peak_kms":-82.82420309752628,"delta_v_obs_minus_reid_kms":10.277409206483242},
+    {"target":"GRB_160623A","arm":"Outer","survey":"EBHIS","v_reid_geometric_kms":-81.75612619770692,"v_hi_peak_kms":-75.06952331451885,"delta_v_obs_minus_reid_kms":6.686602883188073},
+    {"target":"GRB_031203","arm":"Outer","survey":"GASS","v_reid_geometric_kms":101.10009161399879,"v_hi_peak_kms":100.0082264950742,"delta_v_obs_minus_reid_kms":-1.0918651189245878}
+  ],
+  "max_abs_residual_kms": 10.277409206483242,
+  "all_abs_within_10_kms": false,
+  "interpretation": "At least one residual exceeds 10 km/s; conventional streaming/warp and component-association controls are required before any persistence inference.",
+  "profile_meta": {
+    "GRB_221009A":{"survey":"EBHIS","n_samples":311,"noise_K":0.0289107,"baseline_K":-0.0035,"n_peaks":4},
+    "GRB_160623A":{"survey":"EBHIS","n_samples":311,"noise_K":0.0437367,"baseline_K":-0.0015,"n_peaks":5},
+    "GRB_031203":{"survey":"GASS","n_samples":485,"noise_K":0.0852495,"baseline_K":0.0415,"n_peaks":6}
+  }
+}
