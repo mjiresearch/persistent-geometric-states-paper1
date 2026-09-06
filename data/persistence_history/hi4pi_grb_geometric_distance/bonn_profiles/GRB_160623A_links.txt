@@ -1,0 +1,32 @@
+5:		<title>Argelander Institut f&uuml;r Astronomie - HI Profile Search</title>
+7:		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+11:		<link href="gass.css" rel="stylesheet" type="text/css" />
+15:			<h2>H<span style="font-variant: small-caps;">i</span> Profile Search for GASS, EBHIS, and Gaussian basesed HI4PI Data</h2>
+16:			<p><a href="../index.php">Back to AIfA H<span style="font-variant: small-caps;">i</span> Surveys Server</a></p>
+18:						    <p>This interface allows you to extract HI profiles from the EBHIS and GASS surveys and from the HI4PI Gaussian database. The profiles are generated on the fly using a weighted interpolation with a Gaussian kernel.</p>
+20:						    <p>Due to interpolations the minimum effective FWHM beam is 16 arcmin for the GASS, 12 armin for EBHIS. If you want to compare the calculated column densities, the FWHM needs to be taken into account. Expected uncertainties are in each case at a 2-3% level (about 1% scale uncertainty and 1% for uncertainties in the correction for stray radiation). Column densities are calculated for the defined velocity window in the range -400  &lt; v  &lt; 400 km/s. </p>
+21:						     <p>We compare the observed survey data with results from a Gaussian decomposition on a nside=1024 HEALPix (HPX) grid. Gaussian parameters for the nearest HEALPix position are listed at the end of the downloadable data table. The Gaussian curve in the figure (red) is the interpolation between the results for the neighboring HEALPix pixels. For Declinations > -2&deg; EBHIS data are decomposed, otherwise GASS data. Please note that Gaussians that are considered to be artifacts are excluded automatically. In addition to Gaussian HI column densities we list below estimated H2 column densities for CO-dark molecular gas as well as the (potentially very uncertain) total H2 column densities. In case of obvious HI absorption against continuum sources these results should however be disregarded. </p>
+24:			<form accept="multipart/form-data" accept-charset="utf8" method="post" action="index.php">
+54:						<td rowspan="2" class="label">Velocity Window  </td>
+74:						<td class="sublabel">HI4PI Gaussians</td>
+85:			<h3>Result</h3><img src="profiles/i_84.170_-2.690_0_0.250_-200.00_200.00.png" height="432" width="576"/><table>
+127:						<td rowspan="2" class="label">HI4PI Gaussians HI</td>
+138:						<td rowspan="2" class="label">HI4PI Gaussian dark H2  estimate</td>
+149:						<td rowspan="2" class="label">HI4PI Gaussians total H2 estimate</td>
+160:				<p><a href="download.php?ral=84.170&decb=-2.690&csys=0&beam=0.250&vmin=-200.00&vmax=200.00">Download the HI spectra as ASCII file</a> (For Windows use wordpad)</p>
+162:			<p><a href="download2.php?ral=84.170&decb=-2.690&csys=0">Download the eigenvalues as ASCII file</a> (For Windows use wordpad)</p>	
+167:			<p>If you use data products in your research or publications, please reference the following:</p>
+171:<p>Kalberla, P. M. W., Kerp, J. and Haud, U. (2021) A&A, 654, A91, <a href="https://www.aanda.org/articles/aa/pdf/2021/10/aa40274-21.pdf" > Local H I filaments driven by a small-scale dynamo, Unraveling the velocities and tangling of dusty magnetized structureis </a>  </p>
+173:<p>Kalberla, P. M. W. (2024) A&A, 683, A36, <a href="https://www.aanda.org/articles/aa/pdf/2024/03/aa48056-23.pdf" > Caustics and velocity caustics in the diffuse interstellar medium at high Galactic latitudes </a>  </p>
+175:<p>Kalberla, P. M. W. (2025) A&A, 694, L11,  <a href="https://doi.org/10.1051/0004-6361/202452771" > The cold neutral medium in filaments at high Galactic latitudes </a>  </p>
+178:	<h4>HI4PI Gaussians/H2 estimates</h4>
+180:<p>Kalberla, P. M. W., Kerp, J. and Haud, U. (2020) A&A, 639, A26, <a href="https://www.aanda.org/articles/aa/pdf/2020/07/aa37602-20.pdf" > HI filaments are cold and associated with dark molecular gas, HI4PI based estimates of the local diffuse CO-dark H2 </a>  </p>
+182:<p>Haud, U. (2000) A&A, 364, 83 <a  href="https://ui.adsabs.harvard.edu/link_gateway/2000A%26A...364...83H/ADS_PDF" > Gaussian decomposition of the Leiden/Dwingeloo survey. I. Decomposition algorithm  </a> </p>  
+187:<p>HI4PI Collaboration, Ben Bekhti, N., Flöer, L., et al. (2016) A&A, 594, A116 <a  href="https://www.aanda.org/articles/aa/abs/2016/10/aa29178-16/aa29178-16.html" > HI4PI: a full-sky H i survey based on EBHIS and GASS </a> </p>  
+192:A&A 585, A41 <a  href="http://www.aanda.org/component/article?access=doi&doi=10.1051/0004-6361/201527007" > The Effelsberg-Bonn H i Survey: Milky Way gas </a> </p>
+196:<p>Kalberla, P.M.W. and Haud, U. (2015) A&A 578, A78 <a  href="http://www.aanda.org/highlights/1116" >(Highlight: Gass: The Parkes Galactic All-Sky Survey. III) </a> </p>
+202:<a href="http://www.aanda.org/index.php?option=com_content&view=article&id=611&">(Highlight: Gass: The Parkes Galactic All-Sky Survey. II)</a></p>
+207:Murpy, T., Newton-McGee, K. (2009) ApJS, 181, 398 (<a href="http://adsabs.harvard.edu/abs/2009ApJS..181..398M">http://adsabs.harvard.edu/abs/2009ApJS..181..398M)</a></p>
+210:<p>Data from the first data release are available at
+211:<a href="http://www.atnf.csiro.au/research/GASS/index.html">http://www.atnf.csiro.au/research/GASS/index.html</a></p>
+213:			<p>Webinterface created by <a href="http://www.astro.uni-bonn.de/~kalb">Peter Kalberla</a></p>
