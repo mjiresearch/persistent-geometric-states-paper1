@@ -1,10 +1,11 @@
 {
-  "status": "OUTCOME_BLIND_CLASSIFICATION_AUDIT",
+  "status": "OUTCOME_BLIND_CLASSIFICATION_AUDIT_V2",
   "n_ranked_single_pass": 31,
   "n_gaia_sos_DCEP": 26,
+  "n_gaia_provenance_nonDCEP": 2,
   "n_obvious_simbad_nonclassical": 5,
   "n_known_literature_conflicts": 1,
-  "n_target_quality_pass": 25,
+  "n_target_quality_pass": 24,
   "top_quality_candidates": [
     {
       "source_id": 2025179884408158464,
@@ -44,20 +45,6 @@
       "s_phase_kpc": 8.701455980597105,
       "d_perp_kpc": 1.6589541736160305,
       "best_min_neff_sigmaRV_2": 3.425605286306008,
-      "gaia_source_rv": null,
-      "gaia_source_rv_error": null,
-      "gaia_source_rv_transits": null
-    },
-    {
-      "source_id": 2059995546465811968,
-      "main_id": "ZTF J200606.11+364634.6",
-      "provenance": "Gaia_DR3",
-      "type_best_classification": "T2CEP",
-      "otype": "Ce*",
-      "Dist_kpc": 16.45,
-      "s_phase_kpc": 7.495451905728237,
-      "d_perp_kpc": -1.6571280126558965,
-      "best_min_neff_sigmaRV_2": 3.423271819718629,
       "gaia_source_rv": null,
       "gaia_source_rv_error": null,
       "gaia_source_rv_transits": null
@@ -215,8 +202,22 @@
       "gaia_source_rv": null,
       "gaia_source_rv_error": null,
       "gaia_source_rv_transits": null
+    },
+    {
+      "source_id": 4512885247948565376,
+      "main_id": "ATO J287.4700+16.1839",
+      "provenance": "Gaia_DR3",
+      "type_best_classification": "DCEP",
+      "otype": "cC*",
+      "Dist_kpc": 18.71,
+      "s_phase_kpc": -1.027293880191791,
+      "d_perp_kpc": -1.1376718318471015,
+      "best_min_neff_sigmaRV_2": 3.182429035020072,
+      "gaia_source_rv": null,
+      "gaia_source_rv_error": null,
+      "gaia_source_rv_transits": null
     }
   ],
-  "manual_note": "QY Cyg is excluded because independent literature identifies it as a Type II Cepheid despite conflicting current catalog labels. SIMBAD RR*/RS* candidates are excluded from young classical-Cepheid follow-up. Other candidates retain published classical-Cepheid provenance pending spectroscopy.",
+  "manual_note": "Gaia-provenance follow-up targets must have Gaia SOS type_best_classification=DCEP. QY Cyg is additionally excluded because independent literature identifies it as Type II despite a conflicting DCEP catalog label. SIMBAD RR*/RS* candidates are excluded. P21/Inno classical-Cepheid provenance is retained absent an independent conflict.",
   "guardrail": "No H I or Persistence outcome was read."
 }
