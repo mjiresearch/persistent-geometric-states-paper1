@@ -1,0 +1,382 @@
+{
+  "protocol": "GAIA_CEPHEID_STREAMING_AUGMENT_V2",
+  "status": "FROZEN_BEFORE_HI_COMPARISON",
+  "catalog_rows": 3306,
+  "gaia_join_rows": 3306,
+  "veloce_modeled_rows": 218,
+  "eligible_6d_rows": 612,
+  "rv_source_counts": {
+    "gaia_vari_cepheid": 591,
+    "veloce_dr1_vgamma": 21
+  },
+  "quality": {
+    "ruwe_lt": 1.4,
+    "gaia_cepheid_rv_epochs_ge": 8,
+    "gaia_cepheid_rv_error_le_kms": 5.0,
+    "veloce_nonbinary_only": true,
+    "veloce_nrv_ge": 8,
+    "veloce_rv_error_floor_kms": 1.0,
+    "frac_distance_error_le": 0.2,
+    "R_ge_kpc": 4.0,
+    "propagated_UV_error_le_kms": 20.0
+  },
+  "choices": {
+    "Outer": {
+      "selected_h_kpc": 10.0,
+      "grid": [
+        {
+          "h": 1.0,
+          "cv": 9.479153747821526,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              1.507916942071433,
+              1.3231278866432001,
+              0.7788102133731808,
+              1.2803160343978086,
+              false
+            ],
+            [
+              "GRB_160623A",
+              3.3795363220794936,
+              3.674595669236044,
+              0.16429833143127612,
+              1.3385722927542676,
+              true
+            ]
+          ]
+        },
+        {
+          "h": 2.0,
+          "cv": 5.419286382131545,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              2.108087232478422,
+              1.904155432221291,
+              0.7788102133731808,
+              1.2803160343978086,
+              false
+            ],
+            [
+              "GRB_160623A",
+              7.113512210284793,
+              9.21616690978503,
+              0.16429833143127612,
+              1.3385722927542676,
+              true
+            ]
+          ]
+        },
+        {
+          "h": 3.0,
+          "cv": 5.409330707236976,
+          "qualified": true,
+          "detail": [
+            [
+              "GRB_221009A",
+              4.227838963405837,
+              3.92870332853431,
+              0.7788102133731808,
+              1.2803160343978086,
+              true
+            ],
+            [
+              "GRB_160623A",
+              17.242051612438782,
+              24.24625742769644,
+              0.16429833143127612,
+              1.3385722927542676,
+              true
+            ]
+          ]
+        },
+        {
+          "h": 4.0,
+          "cv": 5.3230951456427125,
+          "qualified": true,
+          "detail": [
+            [
+              "GRB_221009A",
+              8.520162888186025,
+              11.038457775771628,
+              0.7788102133731808,
+              1.2803160343978086,
+              true
+            ],
+            [
+              "GRB_160623A",
+              36.525033059803036,
+              49.5594408592098,
+              0.16429833143127612,
+              1.3385722927542676,
+              true
+            ]
+          ]
+        },
+        {
+          "h": 5.0,
+          "cv": 5.18177381368323,
+          "qualified": true,
+          "detail": [
+            [
+              "GRB_221009A",
+              16.742266126241166,
+              27.38219639472366,
+              0.7788102133731808,
+              1.2803160343978086,
+              true
+            ],
+            [
+              "GRB_160623A",
+              57.56519277956762,
+              71.34186598637025,
+              0.16429833143127612,
+              1.3385722927542676,
+              true
+            ]
+          ]
+        },
+        {
+          "h": 7.0,
+          "cv": 5.0365999649393265,
+          "qualified": true,
+          "detail": [
+            [
+              "GRB_221009A",
+              48.33747690562963,
+              69.5261446084515,
+              0.7788102133731808,
+              1.2803160343978086,
+              true
+            ],
+            [
+              "GRB_160623A",
+              87.73293061104644,
+              96.63830321490508,
+              0.16429833143127612,
+              1.3385722927542676,
+              true
+            ]
+          ]
+        },
+        {
+          "h": 10.0,
+          "cv": 4.98870841777607,
+          "qualified": true,
+          "detail": [
+            [
+              "GRB_221009A",
+              89.6288041710622,
+              102.03211581226203,
+              0.7788102133731808,
+              1.2803160343978086,
+              true
+            ],
+            [
+              "GRB_160623A",
+              111.40728418396345,
+              113.9416386282661,
+              0.16429833143127612,
+              1.3385722927542676,
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    "OSC": {
+      "selected_h_kpc": null,
+      "grid": [
+        {
+          "h": 1.0,
+          "cv": Infinity,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              0,
+              0,
+              NaN,
+              -0.6511923826614412,
+              false
+            ]
+          ]
+        },
+        {
+          "h": 2.0,
+          "cv": Infinity,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              1.0,
+              1.0,
+              53.0353656022006,
+              -0.6511923826614412,
+              false
+            ]
+          ]
+        },
+        {
+          "h": 3.0,
+          "cv": Infinity,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              1.0,
+              1.0,
+              53.0353656022006,
+              -0.6511923826614412,
+              false
+            ]
+          ]
+        },
+        {
+          "h": 4.0,
+          "cv": Infinity,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              1.0,
+              1.0,
+              53.0353656022006,
+              -0.6511923826614412,
+              false
+            ]
+          ]
+        },
+        {
+          "h": 5.0,
+          "cv": Infinity,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              1.0,
+              1.0,
+              53.0353656022006,
+              -0.6511923826614412,
+              false
+            ]
+          ]
+        },
+        {
+          "h": 7.0,
+          "cv": Infinity,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              1.0,
+              1.0,
+              53.0353656022006,
+              -0.6511923826614412,
+              false
+            ]
+          ]
+        },
+        {
+          "h": 10.0,
+          "cv": Infinity,
+          "qualified": false,
+          "detail": [
+            [
+              "GRB_221009A",
+              1.0,
+              1.0,
+              53.0353656022006,
+              -0.6511923826614412,
+              false
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "guardrail": "No H I spectrum, H I velocity, H I residual, GRB conventional outcome, or Persistence prediction was read.",
+  "predictions": [
+    {
+      "target": "GRB_221009A",
+      "arm": "Outer",
+      "eligible_same_arm_6d": 157,
+      "rv_source_counts": {
+        "gaia_vari_cepheid": 153,
+        "veloce_dr1_vgamma": 4
+      },
+      "selected_h_kpc": 10.0,
+      "R_kpc": 11.065464836945253,
+      "phi_rad": 1.5527297980301042,
+      "d_perp_kpc": 1.2803160343978086,
+      "cU": -0.8066689930293159,
+      "cV": 0.5862351153027618,
+      "status": "FROZEN_PREDICTION",
+      "U_pred_kms": -0.5113529453066243,
+      "V_pred_kms": -4.199335092374353,
+      "U_scatter_kms": 16.552233526999213,
+      "V_scatter_kms": 20.569700992546604,
+      "Neff_U": 89.6288041710622,
+      "Neff_V": 102.03211581226203,
+      "nearest_phase_kpc": 0.7788102133731808,
+      "delta_v_los_inplane_kms": -2.0493051265999433,
+      "bootstrap_p16": -4.469174841350471,
+      "bootstrap_p50": -1.9210053237352311,
+      "bootstrap_p84": 0.18620988401773636
+    },
+    {
+      "target": "GRB_160623A",
+      "arm": "Outer",
+      "eligible_same_arm_6d": 157,
+      "rv_source_counts": {
+        "gaia_vari_cepheid": 153,
+        "veloce_dr1_vgamma": 4
+      },
+      "selected_h_kpc": 10.0,
+      "R_kpc": 12.159255011016127,
+      "phi_rad": 2.198989330921197,
+      "d_perp_kpc": 1.3385722927542676,
+      "cU": -0.744407473892439,
+      "cV": 0.6660695231615184,
+      "status": "FROZEN_PREDICTION",
+      "U_pred_kms": -0.8548313092949386,
+      "V_pred_kms": -3.3369104610664557,
+      "U_scatter_kms": 16.124848778618635,
+      "V_scatter_kms": 19.33566940668675,
+      "Neff_U": 111.40728418396345,
+      "Neff_V": 113.9416386282661,
+      "nearest_phase_kpc": 0.16429833143127612,
+      "delta_v_los_inplane_kms": -1.586271544078805,
+      "bootstrap_p16": -3.7334156612816933,
+      "bootstrap_p50": -1.4606883472126804,
+      "bootstrap_p84": 0.4872754353291847
+    },
+    {
+      "target": "GRB_221009A",
+      "arm": "OSC",
+      "eligible_same_arm_6d": 1,
+      "rv_source_counts": {
+        "gaia_vari_cepheid": 1
+      },
+      "selected_h_kpc": null,
+      "R_kpc": 15.471115393350852,
+      "phi_rad": 1.35825588650774,
+      "d_perp_kpc": -0.6511923826614412,
+      "cU": -0.9047530215366658,
+      "cV": 0.41929517616132517,
+      "status": "NO_PREDICTION",
+      "U_pred_kms": null,
+      "V_pred_kms": null,
+      "Neff_U": null,
+      "Neff_V": null,
+      "nearest_phase_kpc": null,
+      "delta_v_los_inplane_kms": null,
+      "bootstrap_p16": null,
+      "bootstrap_p50": null,
+      "bootstrap_p84": null
+    }
+  ]
+}
