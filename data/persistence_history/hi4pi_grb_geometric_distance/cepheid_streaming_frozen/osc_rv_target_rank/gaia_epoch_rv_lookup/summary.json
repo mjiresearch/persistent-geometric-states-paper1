@@ -1,0 +1,9 @@
+{
+  "status": "OUTCOME_BLIND_AUXILIARY_LOOKUP",
+  "single_pass_candidates": 31,
+  "candidates_with_vari_rv_statistics": 0,
+  "candidates_with_epoch_rvs": 0,
+  "good_epoch_rows": 0,
+  "epoch_counts": {},
+  "guardrail": "No H I spectrum, H I velocity, H I residual, conventional-vs-HI outcome, or Persistence prediction was read."
+}
