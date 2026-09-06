@@ -1,0 +1,448 @@
+{
+  "protocol": "CONVENTIONAL_BESSEL_STREAMING_FREEZE_V3",
+  "status": "FROZEN_BEFORE_HI_COMPARISON",
+  "raw_catalog_rows": 199,
+  "eligible_rows": 139,
+  "standard_lsr_solar_motion_kms": [
+    10.3,
+    15.3,
+    7.7
+  ],
+  "A5_solar_peculiar_motion_kms": [
+    10.6,
+    10.7,
+    7.6
+  ],
+  "arm_bandwidth_candidates_kpc": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    7.0,
+    10.0
+  ],
+  "sigma_intrinsic_kms": 7.0,
+  "mc_draws_per_source": 256,
+  "bootstrap_draws": 2000,
+  "vertical_model": {
+    "basis": [
+      "1",
+      "dR",
+      "sin_phi",
+      "cos_phi",
+      "dR_sin_phi",
+      "dR_cos_phi"
+    ],
+    "coefficients_kms": [
+      -3.066349075862265,
+      -2.0147908915309714,
+      1.1193496542110433,
+      -2.795428503550035,
+      0.1480372598604509,
+      -2.452495119478042
+    ],
+    "weighted_rms_kms": 7.22878795397738
+  },
+  "arm_models": {
+    "Outer": {
+      "eligible_same_arm_masers": 9,
+      "catalog_designators": [
+        "Out"
+      ],
+      "selected_h_kpc": null,
+      "support_grid": [
+        {
+          "h_kpc": 1.0,
+          "cv_mean_standardized_sse": 2.5039557292873718,
+          "cv_terms": 18,
+          "all_targets_supported": false,
+          "support": [
+            {
+              "target": "GRB_221009A",
+              "ok": false,
+              "neff_U": 1.000000000001574,
+              "neff_V": 1.0000000000021843,
+              "nearest_s_kpc": 6.141670706916971,
+              "target_dperp_kpc": 1.2803160343978086,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_160623A",
+              "ok": false,
+              "neff_U": 1.0221835001532948,
+              "neff_V": 1.0303329921472002,
+              "nearest_s_kpc": 0.5809933648217588,
+              "target_dperp_kpc": 1.3385722927542676,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_031203",
+              "ok": false,
+              "neff_U": 1.0351010873729902,
+              "neff_V": 1.0614560259958328,
+              "nearest_s_kpc": 2.293378792112466,
+              "target_dperp_kpc": 8.724217323569208,
+              "perp_limit_kpc": 1.6978784607837611
+            }
+          ]
+        },
+        {
+          "h_kpc": 2.0,
+          "cv_mean_standardized_sse": 2.1508837947803996,
+          "cv_terms": 18,
+          "all_targets_supported": false,
+          "support": [
+            {
+              "target": "GRB_221009A",
+              "ok": false,
+              "neff_U": 1.0013556827169958,
+              "neff_V": 1.001833440481989,
+              "nearest_s_kpc": 6.141670706916971,
+              "target_dperp_kpc": 1.2803160343978086,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_160623A",
+              "ok": false,
+              "neff_U": 1.554369311253171,
+              "neff_V": 1.6857511973398538,
+              "nearest_s_kpc": 0.5809933648217588,
+              "target_dperp_kpc": 1.3385722927542676,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_031203",
+              "ok": false,
+              "neff_U": 1.0028702478667106,
+              "neff_V": 1.006605689546915,
+              "nearest_s_kpc": 2.293378792112466,
+              "target_dperp_kpc": 8.724217323569208,
+              "perp_limit_kpc": 1.6978784607837611
+            }
+          ]
+        },
+        {
+          "h_kpc": 3.0,
+          "cv_mean_standardized_sse": 1.913298982651554,
+          "cv_terms": 18,
+          "all_targets_supported": false,
+          "support": [
+            {
+              "target": "GRB_221009A",
+              "ok": false,
+              "neff_U": 1.0694065053405621,
+              "neff_V": 1.0902912168595702,
+              "nearest_s_kpc": 6.141670706916971,
+              "target_dperp_kpc": 1.2803160343978086,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_160623A",
+              "ok": false,
+              "neff_U": 2.1002930814249763,
+              "neff_V": 2.3970381607464186,
+              "nearest_s_kpc": 0.5809933648217588,
+              "target_dperp_kpc": 1.3385722927542676,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_031203",
+              "ok": false,
+              "neff_U": 1.000905350435124,
+              "neff_V": 1.001327338894553,
+              "nearest_s_kpc": 2.293378792112466,
+              "target_dperp_kpc": 8.724217323569208,
+              "perp_limit_kpc": 1.6978784607837611
+            }
+          ]
+        },
+        {
+          "h_kpc": 4.0,
+          "cv_mean_standardized_sse": 1.8156931182789806,
+          "cv_terms": 18,
+          "all_targets_supported": false,
+          "support": [
+            {
+              "target": "GRB_221009A",
+              "ok": false,
+              "neff_U": 1.2972218799971391,
+              "neff_V": 1.3909861830273713,
+              "nearest_s_kpc": 6.141670706916971,
+              "target_dperp_kpc": 1.2803160343978086,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_160623A",
+              "ok": false,
+              "neff_U": 2.705405992102539,
+              "neff_V": 3.6816851544030005,
+              "nearest_s_kpc": 0.5809933648217588,
+              "target_dperp_kpc": 1.3385722927542676,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_031203",
+              "ok": false,
+              "neff_U": 1.0012443907261876,
+              "neff_V": 1.0015101675822635,
+              "nearest_s_kpc": 2.293378792112466,
+              "target_dperp_kpc": 8.724217323569208,
+              "perp_limit_kpc": 1.6978784607837611
+            }
+          ]
+        },
+        {
+          "h_kpc": 5.0,
+          "cv_mean_standardized_sse": 1.7888426245085955,
+          "cv_terms": 18,
+          "all_targets_supported": false,
+          "support": [
+            {
+              "target": "GRB_221009A",
+              "ok": false,
+              "neff_U": 1.6439296028041337,
+              "neff_V": 1.9529926487193423,
+              "nearest_s_kpc": 6.141670706916971,
+              "target_dperp_kpc": 1.2803160343978086,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_160623A",
+              "ok": true,
+              "neff_U": 3.556192192911624,
+              "neff_V": 5.3178306995751825,
+              "nearest_s_kpc": 0.5809933648217588,
+              "target_dperp_kpc": 1.3385722927542676,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_031203",
+              "ok": false,
+              "neff_U": 1.0015432990898512,
+              "neff_V": 1.0017899302260014,
+              "nearest_s_kpc": 2.293378792112466,
+              "target_dperp_kpc": 8.724217323569208,
+              "perp_limit_kpc": 1.6978784607837611
+            }
+          ]
+        },
+        {
+          "h_kpc": 7.0,
+          "cv_mean_standardized_sse": 1.786673342716603,
+          "cv_terms": 18,
+          "all_targets_supported": false,
+          "support": [
+            {
+              "target": "GRB_221009A",
+              "ok": false,
+              "neff_U": 2.7381867978280563,
+              "neff_V": 4.411780753696965,
+              "nearest_s_kpc": 6.141670706916971,
+              "target_dperp_kpc": 1.2803160343978086,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_160623A",
+              "ok": true,
+              "neff_U": 5.452369326007319,
+              "neff_V": 6.5810181383818565,
+              "nearest_s_kpc": 0.5809933648217588,
+              "target_dperp_kpc": 1.3385722927542676,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_031203",
+              "ok": false,
+              "neff_U": 1.00189312295326,
+              "neff_V": 1.0021435386951132,
+              "nearest_s_kpc": 2.293378792112466,
+              "target_dperp_kpc": 8.724217323569208,
+              "perp_limit_kpc": 1.6978784607837611
+            }
+          ]
+        },
+        {
+          "h_kpc": 10.0,
+          "cv_mean_standardized_sse": 1.7896507675526112,
+          "cv_terms": 18,
+          "all_targets_supported": false,
+          "support": [
+            {
+              "target": "GRB_221009A",
+              "ok": true,
+              "neff_U": 5.008436002636532,
+              "neff_V": 6.726781833654631,
+              "nearest_s_kpc": 6.141670706916971,
+              "target_dperp_kpc": 1.2803160343978086,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_160623A",
+              "ok": true,
+              "neff_U": 7.055132019203729,
+              "neff_V": 6.481981024191138,
+              "nearest_s_kpc": 0.5809933648217588,
+              "target_dperp_kpc": 1.3385722927542676,
+              "perp_limit_kpc": 1.6978784607837611
+            },
+            {
+              "target": "GRB_031203",
+              "ok": false,
+              "neff_U": 1.0021186430436495,
+              "neff_V": 1.0023781641902785,
+              "nearest_s_kpc": 2.293378792112466,
+              "target_dperp_kpc": 8.724217323569208,
+              "perp_limit_kpc": 1.6978784607837611
+            }
+          ]
+        }
+      ],
+      "spiral": {
+        "alpha": 2.0373888808067595,
+        "beta": 0.15578848229141543,
+        "sigma_arm_kpc": 0.8489392303918806
+      },
+      "status": "NO_INPLANE_PREDICTION"
+    },
+    "OSC": {
+      "eligible_same_arm_masers": 0,
+      "catalog_designators": [],
+      "selected_h_kpc": null,
+      "support_grid": [],
+      "spiral": null,
+      "status": "NO_INPLANE_PREDICTION"
+    }
+  },
+  "guardrail": "Builder read only Reid2019 table1 and frozen geometry/arm labels; no GRB H I velocity/residual, V1/V2 predicted residual, or Persistence prediction was read or used.",
+  "predictions": [
+    {
+      "target": "GRB_221009A",
+      "arm": "Outer",
+      "l_deg": 52.96,
+      "b_deg": 4.32,
+      "distance_kpc": 13.9,
+      "x_kpc": 0.19990366361698264,
+      "y_kpc": 11.06365900518198,
+      "z_kpc": 1.0469361321487578,
+      "R_kpc": 11.065464836945253,
+      "phi_rad": 1.5527297980301042,
+      "cU": -0.8066689930293159,
+      "cV": 0.5862351153027618,
+      "cW": 0.07492346275384737,
+      "same_arm_masers": 9,
+      "selected_h_kpc": null,
+      "W_pred_kms": -7.569379646850973,
+      "delta_v_los_vertical_kms": -0.5671241340405693,
+      "status": "NO_INPLANE_PREDICTION",
+      "U_pred_kms": null,
+      "V_pred_kms": null,
+      "Neff_U": null,
+      "Neff_V": null,
+      "nearest_same_arm_s_kpc": null,
+      "target_arm_dperp_kpc": null,
+      "delta_v_los_inplane_kms": null,
+      "delta_v_los_total_kms": null,
+      "bootstrap_total_p16_kms": null,
+      "bootstrap_total_p50_kms": null,
+      "bootstrap_total_p84_kms": null,
+      "bootstrap_draws_valid": 0
+    },
+    {
+      "target": "GRB_160623A",
+      "arm": "Outer",
+      "l_deg": 84.17,
+      "b_deg": -2.69,
+      "distance_kpc": 9.9,
+      "x_kpc": -7.145795907436123,
+      "y_kpc": 9.837941007761223,
+      "z_kpc": -0.4597897973795649,
+      "R_kpc": 12.159255011016127,
+      "phi_rad": 2.198989330921197,
+      "cU": -0.7444074738924391,
+      "cV": 0.6660695231615186,
+      "cW": -0.04699896944045763,
+      "same_arm_masers": 9,
+      "selected_h_kpc": null,
+      "W_pred_kms": -2.336960743671212,
+      "delta_v_los_vertical_kms": 0.10983474657535243,
+      "status": "NO_INPLANE_PREDICTION",
+      "U_pred_kms": null,
+      "V_pred_kms": null,
+      "Neff_U": null,
+      "Neff_V": null,
+      "nearest_same_arm_s_kpc": null,
+      "target_arm_dperp_kpc": null,
+      "delta_v_los_inplane_kms": null,
+      "delta_v_los_total_kms": null,
+      "bootstrap_total_p16_kms": null,
+      "bootstrap_total_p50_kms": null,
+      "bootstrap_total_p84_kms": null,
+      "bootstrap_draws_valid": 0
+    },
+    {
+      "target": "GRB_031203",
+      "arm": "Outer",
+      "l_deg": 255.74,
+      "b_deg": -4.8,
+      "distance_kpc": 9.7,
+      "x_kpc": -10.531500997716215,
+      "y_kpc": -9.368148482563994,
+      "z_kpc": -0.8045852839007651,
+      "R_kpc": 14.09520199416325,
+      "phi_rad": -2.414588981207424,
+      "cU": -0.8253375551732631,
+      "cV": -0.5584293515866788,
+      "cW": -0.0835139467819751,
+      "same_arm_masers": 9,
+      "selected_h_kpc": null,
+      "W_pred_kms": -3.3907796463434767,
+      "delta_v_los_vertical_kms": 0.28317739093413347,
+      "status": "NO_INPLANE_PREDICTION",
+      "U_pred_kms": null,
+      "V_pred_kms": null,
+      "Neff_U": null,
+      "Neff_V": null,
+      "nearest_same_arm_s_kpc": null,
+      "target_arm_dperp_kpc": null,
+      "delta_v_los_inplane_kms": null,
+      "delta_v_los_total_kms": null,
+      "bootstrap_total_p16_kms": null,
+      "bootstrap_total_p50_kms": null,
+      "bootstrap_total_p84_kms": null,
+      "bootstrap_draws_valid": 0
+    },
+    {
+      "target": "GRB_221009A",
+      "arm": "OSC",
+      "l_deg": 52.96,
+      "b_deg": 4.32,
+      "distance_kpc": 19.0,
+      "x_kpc": 3.263536701007032,
+      "y_kpc": 15.122987129385445,
+      "z_kpc": 1.4290457921457875,
+      "R_kpc": 15.471115393350852,
+      "phi_rad": 1.35825588650774,
+      "cU": -0.9047530215366659,
+      "cV": 0.41929517616132517,
+      "cW": 0.07492346273442588,
+      "same_arm_masers": 0,
+      "selected_h_kpc": null,
+      "W_pred_kms": -20.040468305108337,
+      "delta_v_los_vertical_kms": -1.5015012802382275,
+      "status": "NO_INPLANE_PREDICTION",
+      "U_pred_kms": null,
+      "V_pred_kms": null,
+      "Neff_U": null,
+      "Neff_V": null,
+      "nearest_same_arm_s_kpc": null,
+      "target_arm_dperp_kpc": null,
+      "delta_v_los_inplane_kms": null,
+      "delta_v_los_total_kms": null,
+      "bootstrap_total_p16_kms": null,
+      "bootstrap_total_p50_kms": null,
+      "bootstrap_total_p84_kms": null,
+      "bootstrap_draws_valid": 0
+    }
+  ]
+}
