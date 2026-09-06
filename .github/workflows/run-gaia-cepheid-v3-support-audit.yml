@@ -1,0 +1,38 @@
+name: Run Gaia-Cepheid V3 support audit
+
+on:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_support_audit/**'
+      - '.github/workflows/run-gaia-cepheid-v3-support-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  support-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip numpy
+      - name: Run frozen geometry-only support audit
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_support_audit/run_gaia_cepheid_v3_support_audit.py
+      - name: Commit frozen audit products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_support_audit/gaia_dr3_classical_cepheids_table2.dat
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_support_audit/outputs_v1
+          if git diff --cached --quiet; then
+            echo 'No audit changes to commit.'
+          else
+            git commit -m 'Freeze Gaia-Cepheid V3 support audit outputs'
+            git push
+          fi
