@@ -25,7 +25,7 @@ def main():
     radius=2.0/3600.0
     for _,x in c.iterrows():
         ra=float(x.ra_deg); dec=float(x.dec_deg)
-        q=("SELECT TOP 1 basic.main_id,basic.ra,basic.dec,basic.otype,basic.rvz_radvel,basic.rvz_error,basic.rvz_bibcode "
+        q=("SELECT TOP 1 basic.main_id,basic.ra,basic.dec,basic.otype,basic.rvz_radvel,basic.rvz_err,basic.rvz_bibcode "
            "FROM basic WHERE 1=CONTAINS(POINT('ICRS',basic.ra,basic.dec),"
            f"CIRCLE('ICRS',{ra},{dec},{radius}))")
         try:s=tap(q)
