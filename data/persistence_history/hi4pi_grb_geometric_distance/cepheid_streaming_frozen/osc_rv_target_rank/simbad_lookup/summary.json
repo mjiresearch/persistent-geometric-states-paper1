@@ -1,0 +1,8 @@
+{
+  "status": "OUTCOME_BLIND_AUXILIARY_LOOKUP",
+  "single_pass_candidates": 31,
+  "simbad_matches": 31,
+  "simbad_matches_with_rv": 1,
+  "query_errors": 0,
+  "guardrail": "No H I or Persistence outcome was read. SIMBAD RV entries are registry values and are not automatically accepted as Cepheid systemic velocities."
+}
