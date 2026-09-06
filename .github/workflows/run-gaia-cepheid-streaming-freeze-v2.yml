@@ -1,0 +1,35 @@
+name: Run Gaia-Cepheid streaming freeze v2
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v2.py'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/GAIA_CEPHEID_STREAMING_AUGMENT_V2.md'
+      - '.github/workflows/run-gaia-cepheid-streaming-freeze-v2.yml'
+permissions:
+  contents: write
+jobs:
+  freeze-v2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install numpy pandas astropy requests
+      - name: Build frozen outcome-blind augmented Cepheid field
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/build_gaia_cepheid_streaming_v2.py
+      - name: Commit immutable V2 products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/gaia_dr3_cepheid_specific_rv_join_v2.csv || true
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/veloce_dr1_tablea1.dat || true
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/veloce_dr1_tablea2.dat || true
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/outputs_v2
+          if ! git diff --cached --quiet; then
+            git commit -m 'Freeze Gaia-Cepheid plus VELOCE arm-conditioned streaming V2 outputs'
+            git push
+          fi
