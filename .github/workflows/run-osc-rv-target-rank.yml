@@ -1,0 +1,32 @@
+name: Run frozen OSC systemic-RV target ranking
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/rank_osc_missing_systemic_rv_targets.py'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/OSC_RV_TARGET_RANK_FREEZE.md'
+      - '.github/workflows/run-osc-rv-target-rank.yml'
+permissions:
+  contents: write
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install numpy pandas astropy requests scipy
+      - name: Run outcome-blind OSC RV target ranking
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/rank_osc_missing_systemic_rv_targets.py
+      - name: Commit immutable ranking products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/osc_rv_target_rank
+          if ! git diff --cached --quiet; then
+            git commit -m 'Freeze OSC systemic-RV target ranking outputs'
+            git push
+          fi
