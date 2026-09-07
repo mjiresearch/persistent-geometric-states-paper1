@@ -1,0 +1,5 @@
+galaxy,stationary_role,public_profile_status,public_source,acquisition_method,n_clean_radial_bins,independent_validation,private_request_required,redistribution_status,notes
+DDO154,calibration,public_direct_profile_recovered,LITTLE_THINGS,public moment-0/moment-2 annular extraction,136,,0,pending_source_license_audit,"Overrides earlier generic private-request status for this galaxy."
+DDO168,calibration,public_direct_profile_recovered,LITTLE_THINGS,public moment-0/moment-2 annular extraction,113,,0,pending_source_license_audit,"Overrides earlier generic private-request status for this galaxy."
+NGC2366,calibration,public_direct_profile_recovered,LITTLE_THINGS,public moment-0/moment-2 annular extraction,180,,0,pending_source_license_audit,"Frozen stationary-sample member; full public-survey profile exists in prior extraction product."
+NGC4214,calibration,public_direct_profile_recovered,LITTLE_THINGS,public moment-0/moment-2 annular extraction,94,FEASTS radial HI profile,0,pending_source_license_audit,"Independent FEASTS radial profile available as a cross-survey validation check."

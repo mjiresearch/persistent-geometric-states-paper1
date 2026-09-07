@@ -1,0 +1,53 @@
+name: Audit Verheijen arXiv source archive
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-verheijen-arxiv-source.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PostScript tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+      - name: Download and inventory source archive
+        run: |
+          mkdir -p /tmp/vssrc/src
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 \
+            -o /tmp/vssrc/source.tar https://arxiv.org/e-print/astro-ph/0101404
+          tar -tf /tmp/vssrc/source.tar | tee /tmp/vssrc/source_inventory.txt
+          tar -xf /tmp/vssrc/source.tar -C /tmp/vssrc/src
+          find /tmp/vssrc/src -type f -printf '%P,%s\n' | sort > /tmp/vssrc/source_files_sizes.csv
+          find /tmp/vssrc/src -type f \( -iname '*.eps' -o -iname '*.ps' -o -iname '*.pdf' -o -iname '*.fig' \) -printf '%P %s\n' | sort -k2nr | tee /tmp/vssrc/graphics_inventory.txt
+          grep -RilE 'UGC[ _-]?6399|NGC[ _-]?3726|NGC[ _-]?3769|NGC[ _-]?3877|NGC[ _-]?3893|NGC[ _-]?3917|NGC[ _-]?3949|NGC[ _-]?3953|NGC[ _-]?3972|NGC[ _-]?3992|NGC[ _-]?4010|NGC[ _-]?4013|NGC[ _-]?4051|NGC[ _-]?4085|NGC[ _-]?4088|NGC[ _-]?4100|NGC[ _-]?4157|NGC[ _-]?4183|NGC[ _-]?4217|UGC[ _-]?6446|UGC[ _-]?6667|UGC[ _-]?6917|UGC[ _-]?6923|UGC[ _-]?6930|UGC[ _-]?6983|UGC[ _-]?7089' /tmp/vssrc/src | sed 's#^/tmp/vssrc/src/##' | sort -u > /tmp/vssrc/galaxy_hits.txt || true
+          cp /tmp/vssrc/src/figA01a.ps /tmp/vssrc/ugc6399_atlas_a.ps
+          cp /tmp/vssrc/src/figA01b.ps /tmp/vssrc/ugc6399_atlas_b.ps
+          cp /tmp/vssrc/src/fig8.ps /tmp/vssrc/fig8.ps
+          cp /tmp/vssrc/src/paper.tex /tmp/vssrc/paper.tex
+          ps2pdf /tmp/vssrc/fig8.ps /tmp/vssrc/fig8.pdf
+          pdftotext -layout /tmp/vssrc/fig8.pdf /tmp/vssrc/fig8.txt || true
+          grep -Eo '(NGC|UGC)[[:space:]_-]*[0-9]+' /tmp/vssrc/fig8.ps | sort -u > /tmp/vssrc/fig8_galaxy_labels.txt || true
+          echo 'FIG8 LABELS:'
+          cat /tmp/vssrc/fig8_galaxy_labels.txt || true
+          echo 'FIG8 TEXT:'
+          cat /tmp/vssrc/fig8.txt || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verheijen2001-arxiv-source-audit
+          path: |
+            /tmp/vssrc/source_inventory.txt
+            /tmp/vssrc/source_files_sizes.csv
+            /tmp/vssrc/graphics_inventory.txt
+            /tmp/vssrc/galaxy_hits.txt
+            /tmp/vssrc/ugc6399_atlas_a.ps
+            /tmp/vssrc/ugc6399_atlas_b.ps
+            /tmp/vssrc/fig8.ps
+            /tmp/vssrc/fig8.pdf
+            /tmp/vssrc/fig8.txt
+            /tmp/vssrc/fig8_galaxy_labels.txt
+            /tmp/vssrc/paper.tex

@@ -1,0 +1,58 @@
+name: Audit Swaters 2002 arXiv HI atlas
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-swaters2002-arxiv-atlas.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PostScript tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+      - name: Download and inventory Swaters 2002 source
+        run: |
+          mkdir -p /tmp/sw02/src
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 \
+            -o /tmp/sw02/source.tar https://arxiv.org/e-print/astro-ph/0204525
+          tar -tf /tmp/sw02/source.tar | tee /tmp/sw02/source_inventory.txt
+          tar -xf /tmp/sw02/source.tar -C /tmp/sw02/src
+          find /tmp/sw02/src -type f -printf '%P,%s\n' | sort > /tmp/sw02/source_files_sizes.csv
+          find /tmp/sw02/src -type f \( -iname '*.eps' -o -iname '*.ps' -o -iname '*.pdf' -o -iname '*.fig' \) -printf '%P,%s\n' | sort > /tmp/sw02/graphics_inventory.csv
+          grep -RilE 'DDO[ _-]?064|UGC[ _-]?0*731|UGC[ _-]?0*1281|UGC[ _-]?0*4278|UGC[ _-]?0*4499|UGC[ _-]?0*5918|UGC[ _-]?0*5986|UGC[ _-]?0*7125|UGC[ _-]?0*7151|UGC[ _-]?0*7261|UGC[ _-]?0*7323|UGC[ _-]?0*7399|UGC[ _-]?0*7524|UGC[ _-]?0*7559|UGC[ _-]?0*7577|UGC[ _-]?0*7603|UGC[ _-]?0*7690|UGC[ _-]?0*7866|UGC[ _-]?0*8286|UGC[ _-]?0*8490|UGC[ _-]?0*8550|UGC[ _-]?0*8837|UGC[ _-]?0*9992|UGC[ _-]?0*10310|UGC[ _-]?0*11557|UGC[ _-]?0*12632' /tmp/sw02/src | sed 's#^/tmp/sw02/src/##' | sort -u > /tmp/sw02/candidate_file_hits.txt || true
+          python - <<'PY'
+          import pathlib,re,csv
+          root=pathlib.Path('/tmp/sw02/src')
+          cand=['DDO064','UGC00731','UGC01281','UGC04278','UGC04499','UGC05918','UGC05986','UGC07125','UGC07151','UGC07261','UGC07323','UGC07399','UGC07524','UGC07559','UGC07577','UGC07603','UGC07690','UGC07866','UGC08286','UGC08490','UGC08550','UGC08837','UGC09992','UGC10310','UGC11557','UGC12632']
+          def norm(s): return re.sub(r'[^A-Z0-9]','',s.upper()).lstrip()
+          rows=[]
+          for p in root.rglob('*'):
+              if not p.is_file() or p.suffix.lower() not in {'.ps','.eps','.tex','.txt','.fig'}: continue
+              try: txt=p.read_text('latin1',errors='ignore')
+              except: continue
+              n=norm(txt)
+              hits=[]
+              for g in cand:
+                  gs={norm(g)}
+                  if g.startswith('UGC'): gs.add('UGC'+str(int(g[3:])))
+                  if any(x in n for x in gs): hits.append(g)
+              if hits: rows.append((p.relative_to(root).as_posix(),p.stat().st_size,';'.join(hits)))
+          with open('/tmp/sw02/candidate_graphics_hits.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['file','bytes','candidate_hits']);w.writerows(rows)
+          print('candidate files',len(rows));
+          for r in rows: print(r)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: swaters2002-arxiv-atlas-audit
+          path: |
+            /tmp/sw02/source_inventory.txt
+            /tmp/sw02/source_files_sizes.csv
+            /tmp/sw02/graphics_inventory.csv
+            /tmp/sw02/candidate_file_hits.txt
+            /tmp/sw02/candidate_graphics_hits.csv

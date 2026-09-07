@@ -8,7 +8,11 @@ from __future__ import annotations
 import argparse, csv, json, hashlib
 from pathlib import Path
 
-KNOWN_UNAVAILABLE_169 = {"D564-8", "D631-7", "NGC4138", "NGC5907"}
+# Hua et al. report six SPARC galaxies without compiled radial HI profiles:
+# D512-2, D564-8, D631-7, NGC5907, NGC7339, UGC06818.
+# Intersecting that list with the frozen 149-galaxy stationary sample leaves
+# exactly the four systems below. NGC4138 is NOT a missing-profile system.
+KNOWN_UNAVAILABLE_169 = {"D564-8", "D631-7", "NGC5907", "UGC06818"}
 FEASTS_VALIDATION = {"NGC2841", "NGC2903", "NGC3198", "NGC3521", "NGC4214", "NGC4559", "NGC5033", "NGC5055"}
 
 
@@ -39,20 +43,20 @@ def main():
             'master_sha256': r['master_sha256'],
             'expected_in_169_profile_compilation': '0' if missing else '1',
             'primary_direct_profile_eligible': '0' if missing else '1',
-            'primary_profile_acquisition_status': 'known_unavailable_in_169_compilation' if missing else 'available_nonpublic_request_required',
+            'primary_profile_acquisition_status': 'known_unavailable_in_169_compilation' if missing else 'public_reconstruction_in_progress',
             'public_download_verified': '0',
             'profile_data_ingested': '0',
-            'profile_source_class': 'SPARC_azimuthally_averaged_HI_profile_private_compilation' if not missing else 'none_known_from_compilation',
+            'profile_source_class': 'public_literature_or_survey_reconstruction_pending' if not missing else 'none_known_from_compilation',
             'independent_FEASTS_validation_overlap': '1' if g in FEASTS_VALIDATION else '0',
             'do_not_substitute_validation_for_primary': '1',
-            'notes': ('Known missing from the 169-profile compilation; primary direct-profile analysis excludes unless independently verified direct profile is found pre-fit.' if missing else 'Profile reported available in the 169-galaxy SPARC HI compilation, but no public download verified; acquisition from authors/original literature required before ingestion.')
+            'notes': ('Known missing from the Hua 169-profile compilation; primary direct-profile analysis excludes unless an independently verified direct profile is found pre-fit.' if missing else 'Profile reported available in the Hua 169-galaxy literature compilation. Public literature/survey reconstruction is the preferred acquisition route; private communication remains last resort.')
         })
     fields=list(out[0].keys())
     op=Path(args.out); op.parent.mkdir(parents=True, exist_ok=True)
     with op.open('w', newline='', encoding='utf-8') as f:
         w=csv.DictWriter(f, fieldnames=fields); w.writeheader(); w.writerows(out)
     summary={
-        'status':'ACQUISITION_PENDING',
+        'status':'PUBLIC_RECONSTRUCTION_IN_PROGRESS',
         'n_frozen_stationary':len(out),
         'n_primary_direct_profile_eligible':sum(x['primary_direct_profile_eligible']=='1' for x in out),
         'n_known_unavailable':sum(x['primary_direct_profile_eligible']=='0' for x in out),

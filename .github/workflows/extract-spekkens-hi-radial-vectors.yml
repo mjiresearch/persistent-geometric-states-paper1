@@ -1,0 +1,55 @@
+name: Extract Spekkens radial HI vectors
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/extract-spekkens-hi-radial-vectors.yml'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install vector tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ghostscript
+          pip install pymupdf
+      - name: Extract panel-d vector geometry for frozen Spekkens targets
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/spekkens/src /tmp/spekkens/out
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/spekkens/source.tar https://arxiv.org/e-print/astro-ph/0605542
+          tar -xf /tmp/spekkens/source.tar -C /tmp/spekkens/src
+          python - <<'PY'
+          import csv,subprocess
+          from pathlib import Path
+          import pymupdf as fitz
+          targets={'IC4202':'f8s.eps','NGC6195':'f9s.eps','UGC11455':'f10s.eps','NGC2955':'f7s.eps'}
+          out=Path('/tmp/spekkens/out')
+          for galaxy,fn in targets.items():
+              eps=Path('/tmp/spekkens/src')/fn
+              pdf=out/f'{galaxy}.pdf'
+              subprocess.run(['ps2pdf',str(eps),str(pdf)],check=True)
+              doc=fitz.open(pdf); p=doc[0]
+              words=p.get_text('words'); drawings=p.get_drawings()
+              with open(out/f'{galaxy}_words.csv','w',newline='') as f:
+                  w=csv.writer(f);w.writerow(['x0','y0','x1','y1','text','block','line','word']);w.writerows(words)
+              with open(out/f'{galaxy}_drawings.csv','w',newline='') as f:
+                  w=csv.writer(f);w.writerow(['idx','x0','y0','x1','y1','width','items','closePath','fill','color'])
+                  for j,d in enumerate(drawings):
+                      r=d['rect'];w.writerow([j,r.x0,r.y0,r.x1,r.y1,d.get('width'),len(d.get('items',[])),d.get('closePath'),str(d.get('fill')),str(d.get('color'))])
+              with open(out/f'{galaxy}_vector_items.csv','w',newline='') as f:
+                  w=csv.writer(f);w.writerow(['drawing_idx','item_idx','kind','coords'])
+                  for j,d in enumerate(drawings):
+                      for k,it in enumerate(d.get('items',[])):w.writerow([j,k,it[0],repr(tuple(it[1:]))])
+              pix=p.get_pixmap(matrix=fitz.Matrix(3,3),alpha=False);pix.save(out/f'{galaxy}_3x.png')
+              print(galaxy,'words',len(words),'drawings',len(drawings),'page',p.rect)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: spekkens-radial-hi-vector-geometry
+          path: /tmp/spekkens/out

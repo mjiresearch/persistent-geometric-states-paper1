@@ -1,0 +1,51 @@
+name: Audit de Blok 1996 public HI source
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-deblok1996-arxiv-hi.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PostScript tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+      - name: Download and inventory de Blok 1996 source
+        run: |
+          mkdir -p /tmp/db96/src
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 \
+            -o /tmp/db96/source.tar https://arxiv.org/e-print/astro-ph/9605069
+          tar -tf /tmp/db96/source.tar | tee /tmp/db96/source_inventory.txt
+          tar -xf /tmp/db96/source.tar -C /tmp/db96/src
+          find /tmp/db96/src -type f -printf '%P,%s\n' | sort > /tmp/db96/source_files_sizes.csv
+          find /tmp/db96/src -type f \( -iname '*.eps' -o -iname '*.ps' -o -iname '*.pdf' -o -iname '*.fig' \) -printf '%P,%s\n' | sort > /tmp/db96/graphics_inventory.csv
+          python - <<'PY'
+          import pathlib,re,csv
+          root=pathlib.Path('/tmp/db96/src')
+          cand=['F565-V2','F568-3','F568-V1','F571-8','F571-V1','F574-1','F583-1','F583-4']
+          def norm(s): return re.sub(r'[^A-Z0-9]','',s.upper())
+          rows=[]
+          for p in root.rglob('*'):
+              if not p.is_file() or p.suffix.lower() not in {'.ps','.eps','.tex','.txt','.fig'}: continue
+              try: txt=p.read_text('latin1',errors='ignore')
+              except: continue
+              n=norm(txt); hits=[g for g in cand if norm(g) in n]
+              if hits: rows.append((p.relative_to(root).as_posix(),p.stat().st_size,';'.join(hits)))
+          with open('/tmp/db96/candidate_graphics_hits.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['file','bytes','candidate_hits']);w.writerows(rows)
+          print('candidate files',len(rows));
+          for r in rows: print(r)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deblok1996-arxiv-hi-audit
+          path: |
+            /tmp/db96/source_inventory.txt
+            /tmp/db96/source_files_sizes.csv
+            /tmp/db96/graphics_inventory.csv
+            /tmp/db96/candidate_graphics_hits.csv

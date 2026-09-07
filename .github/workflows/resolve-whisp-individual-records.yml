@@ -1,0 +1,92 @@
+name: Resolve WHISP individual galaxy records
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/resolve-whisp-individual-records.yml'
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Crawl WHISP catalog and individual records
+        run: |
+          python - <<'PY'
+          import csv,re,urllib.parse,urllib.request
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          BASE='https://www.astro.rug.nl/~whisp/Database/'
+          CAT=BASE+'OverviewCatalog/ListByName/'
+          CAND=['NGC3726','NGC3769','NGC3877','NGC3893','NGC3917','NGC3949','NGC3953','NGC3972','NGC3992','NGC4010','NGC4013','NGC4051','NGC4085','NGC4088','NGC4100','NGC4157','NGC4183','NGC4217','UGC06446','UGC06667','UGC06917','UGC06923','UGC06930','UGC06983','UGC07089']
+          aliases={g:{g,g.replace('NGC0','NGC'),g.replace('UGC0','UGC')} for g in CAND}
+          class P(HTMLParser):
+              def __init__(self): super().__init__(); self.links=[]
+              def handle_starttag(self,tag,attrs):
+                  if tag.lower()=='a':
+                      h=dict(attrs).get('href')
+                      if h: self.links.append(h)
+          def get(url):
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 persistence-research/1.0'})
+              with urllib.request.urlopen(req,timeout=30) as r: return r.read().decode('latin1','ignore'),r.status,r.geturl()
+
+          # Seed the real unframed name listing and use WHISP's own NGC->UGC CGI.
+          seeds=[BASE+'database_top.html',BASE+'OverviewCatalog/overview_catalog.html',CAT+'listing_by_name.html']
+          ngc_res=[]
+          for g in CAND:
+              if not g.startswith('NGC'): continue
+              n=re.sub(r'\D','',g)
+              u=CAT+'find_ugc.cgi?ugc='+n
+              try:
+                  txt,status,final=get(u)
+                  ngc_res.append((g,status,final,re.sub(r'\s+',' ',txt)[:500]))
+                  seeds.append(final)
+              except Exception as e: ngc_res.append((g,'ERR',u,str(e)))
+          q=list(dict.fromkeys(seeds)); seen=set(); pages=[]
+          while q and len(seen)<1200:
+              u=q.pop(0)
+              if u in seen or not u.startswith(BASE): continue
+              seen.add(u)
+              try: txt,status,final=get(u)
+              except Exception as e:
+                  pages.append((u,'ERR',str(e),'','')); continue
+              norm=re.sub(r'\s+','',txt.upper())
+              hits=[g for g,a in aliases.items() if any(re.sub(r'\s+','',x) in norm for x in a)]
+              pages.append((u,status,';'.join(hits),len(txt),final))
+              p=P();p.feed(txt)
+              for h in p.links:
+                  v=urllib.parse.urljoin(u,h).split('#')[0]
+                  if not v.startswith(BASE) or v in seen or len(v)>=400: continue
+                  # Follow all catalog html/cgi pages; do not crawl binary images.
+                  if re.search(r'\.(gif|jpg|jpeg|png|ps|pdf|fits?|gz|tar)$',v,re.I): continue
+                  q.append(v)
+          out=Path('/tmp/whisp_resolve');out.mkdir(exist_ok=True)
+          with open(out/'whisp_ngc_to_ugc_resolution.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['ngc','status','final_url','response_excerpt']);w.writerows(ngc_res)
+          with open(out/'whisp_crawl_pages.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['url','status','candidate_hits','html_chars','final_url']);w.writerows(pages)
+          prod=[]
+          for u,status,hits,_,_ in pages:
+              if not hits or status=='ERR': continue
+              try: txt,_,_=get(u)
+              except: continue
+              p=P();p.feed(txt)
+              for h in p.links:
+                  prod.append((hits,u,h,urllib.parse.urljoin(u,h)))
+          with open(out/'whisp_candidate_links.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['candidate_hits','source_page','href','resolved_url']);w.writerows(prod)
+          print('pages',len(pages),'candidate pages',sum(bool(r[2]) and r[1]!='ERR' for r in pages),'links',len(prod))
+          print('NGC resolver results:')
+          for r in ngc_res: print(r[:3])
+          for r in pages:
+              if r[2] and r[1]!='ERR': print('HIT',r[:4])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: whisp-individual-record-resolution
+          path: /tmp/whisp_resolve

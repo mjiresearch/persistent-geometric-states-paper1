@@ -1,0 +1,67 @@
+name: Audit Verheijen 2001 atlas vector structure
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-verheijen-atlas-vector.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils
+          pip install pymupdf
+      - name: Download public arXiv atlas PDF
+        run: |
+          mkdir -p /tmp/vs2001
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 \
+            -o /tmp/vs2001/aa10469.pdf https://arxiv.org/pdf/astro-ph/0101404
+          pdfinfo /tmp/vs2001/aa10469.pdf | tee /tmp/vs2001/pdfinfo.txt
+      - name: Index candidates and export UGC6399 vector diagnostics
+        run: |
+          python - <<'PY'
+          import pymupdf as fitz, csv, re
+          candidates=['NGC3726','NGC3769','NGC3877','NGC3893','NGC3917','NGC3949','NGC3953','NGC3972','NGC3992','NGC4010','NGC4013','NGC4051','NGC4085','NGC4088','NGC4100','NGC4157','NGC4183','NGC4217','UGC06399','UGC06446','UGC06667','UGC06917','UGC06923','UGC06930','UGC06983','UGC07089']
+          doc=fitz.open('/tmp/vs2001/aa10469.pdf'); rows=[]
+          for i,p in enumerate(doc):
+              text=p.get_text('text'); norm=re.sub(r'\s+','',text.upper()); drawings=p.get_drawings()
+              for g in candidates:
+                  alts={g,g.replace('NGC0','NGC'),g.replace('UGC0','UGC')}
+                  if any(re.sub(r'\s+','',a) in norm for a in alts):
+                      rows.append({'galaxy':g,'pdf_page_1based':i+1,'drawing_objects':len(drawings),'text_chars':len(text),'page_width':p.rect.width,'page_height':p.rect.height})
+          with open('/tmp/vs2001/candidate_page_index.csv','w',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
+          # Export one representative candidate page for vector diagnostics.
+          target=next((r for r in rows if r['galaxy']=='UGC06399'), None)
+          if target is None: raise SystemExit('UGC06399 not found in atlas text index')
+          p=doc[target['pdf_page_1based']-1]
+          open('/tmp/vs2001/ugc6399_page.svg','w').write(p.get_svg_image())
+          pix=p.get_pixmap(matrix=fitz.Matrix(2,2),alpha=False); pix.save('/tmp/vs2001/ugc6399_page.png')
+          with open('/tmp/vs2001/ugc6399_words.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['x0','y0','x1','y1','text','block','line','word']);w.writerows(p.get_text('words'))
+          with open('/tmp/vs2001/ugc6399_drawings.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['idx','x0','y0','x1','y1','width','items','closePath','fill','color'])
+              for j,d in enumerate(p.get_drawings()):
+                  r=d['rect'];w.writerow([j,r.x0,r.y0,r.x1,r.y1,d.get('width'),len(d.get('items',[])),d.get('closePath'),str(d.get('fill')),str(d.get('color'))])
+          print('pages',len(doc),'matches',len(rows),'unique',len(set(r['galaxy'] for r in rows)))
+          print('candidate pages',rows)
+          print('UGC06399 page',target['pdf_page_1based'],'drawings',len(p.get_drawings()),'words',len(p.get_text('words')))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verheijen2001-vector-audit
+          path: |
+            /tmp/vs2001/candidate_page_index.csv
+            /tmp/vs2001/pdfinfo.txt
+            /tmp/vs2001/ugc6399_page.svg
+            /tmp/vs2001/ugc6399_page.png
+            /tmp/vs2001/ugc6399_words.csv
+            /tmp/vs2001/ugc6399_drawings.csv

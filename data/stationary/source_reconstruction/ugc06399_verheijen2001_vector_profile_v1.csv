@@ -1,0 +1,15 @@
+galaxy,radius_arcmin,radius_kpc,sigma_hi_msun_pc2,sigma_hi_err_msun_pc2,source_family,source_product,source_distance_mpc,frozen_sparc_distance_mpc,radius_scale_to_frozen,helium_included,profile_method,qc_flag
+UGC06399,0.000000,0.000000,3.980490,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,0.177988,0.931945,3.980490,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,0.355102,1.859310,4.002795,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,0.533090,2.791255,4.081707,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,0.711808,3.727016,3.818542,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,0.888192,4.650565,3.640288,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,1.066910,5.586326,2.945825,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,1.244825,6.517889,2.156142,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,1.422012,7.445636,1.874608,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,1.600000,8.377580,1.256996,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,1.778717,9.313341,0.560471,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,1.955102,10.236890,0.420829,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,2.133017,11.168453,0.240512,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck
+UGC06399,2.170044,11.362322,0.230390,,Verheijen_Sancisi_2001,arXiv_figA01b_PostScript_solid_HI_profile,18.0,18.0,1.0,false,direct_vector_radial_profile,exact_vector_axis_calibration_RHI_crosscheck

@@ -10,79 +10,120 @@ The stationary vector operator requires a baryonic source of the form
 
 with the self-consistent model velocity `V(R)`. The observed rotation speed `Vobs` is target data and is **not** inserted into the primary source current.
 
-The frozen SPARC mass-model table directly supplies:
+The frozen SPARC mass-model table directly supplies inclination-corrected stellar disk and bulge surface brightness and the Newtonian component velocities. It does **not** directly supply the radial H I surface-density profile. Therefore `Vgas` is never treated as `Sigma_HI` or `Sigma_gas`.
 
-- inclination-corrected stellar disk surface brightness `SBdisk`;
-- bulge surface brightness `SBbulge`;
-- Newtonian component velocities `Vgas`, `Vdisk`, and `Vbulge`.
+## Public-first acquisition policy
 
-It does **not** directly supply the radial H I surface-density profile. Therefore `Vgas` is not treated as `Sigma_HI` or `Sigma_gas`.
+The 169-profile set used by later SPARC analyses was assembled from literature H I observations and has also circulated through private communication. This project is rebuilding the source profiles from public primary products before asking for that private compilation.
 
-## Stellar surface-density basis
+Acquisition priority is:
 
-For stellar mass-to-light nuisance parameters `Upsilon_d` and `Upsilon_b`,
+1. public machine-readable radial profile;
+2. public FITS/moment-map extraction;
+3. documented figure/atlas digitization only when no numerical/map product is available;
+4. private communication only after the public routes are exhausted.
 
-`Sigma_disk(R) = Upsilon_d * SBdisk(R)`
+The public observational layer is retained losslessly with source citation/product identifier, source distance, units, helium convention, geometry, QC, and redistribution status.
 
-`Sigma_bulge(R) = Upsilon_b * SBbulge(R)`
+## Corrected Hua availability intersection
 
-where the SPARC 3.6 micron surface-brightness quantities are in `Lsun/pc^2` and `Upsilon` is in `Msun/Lsun`.
+Hua et al. identify six SPARC systems without a compiled H I surface-density profile: `D512-2`, `D564-8`, `D631-7`, `NGC5907`, `NGC7339`, and `UGC06818`.
 
-The source-basis product stores the unit-M/L basis rather than silently fixing the nuisance parameters before inference.
+Only four are in the frozen 149-galaxy stationary sample:
+
+- `D564-8` — calibration;
+- `D631-7` — calibration;
+- `NGC5907` — calibration;
+- `UGC06818` — blind.
+
+`NGC4138` was incorrectly listed as unavailable in an earlier scaffold. It is not in Hua's missing set and remains eligible for public acquisition. The expected retained sample remains 145 = 101 calibration + 44 blind if none of the four nominally unavailable systems is independently recovered before fitting.
+
+The correction is archived in `validation/stationary/HI_PROFILE_PROVENANCE_CORRECTION_V1.md`. Any older generated provenance table carrying the NGC4138 flag is superseded for availability decisions until regenerated from the corrected builder.
+
+## Current public recovery state
+
+### Direct profiles already harmonized at the acquisition layer
+
+Two frozen-sample systems have direct THINGS/LITTLE THINGS map extractions:
+
+- DDO154;
+- DDO168.
+
+Seven more have direct public FEASTS radial profiles:
+
+- NGC2841;
+- NGC2903;
+- NGC3198;
+- NGC3521;
+- NGC4559;
+- NGC5033;
+- NGC5055.
+
+Together the acquisition-layer build contains 507 direct radial H I measurements. Interpolation only inside measured profile coverage gives 244 source rows on frozen SPARC radii. These products are **pre-standardization**, not yet the final source freeze.
+
+### Six THINGS systems with machine-readable public profiles
+
+The public Leroy et al. (2008) CDS catalogue `J/AJ/136/2782/table7` contains radial H I profiles for the six remaining high-priority frozen THINGS systems:
+
+- IC2574;
+- NGC2403;
+- NGC2976;
+- NGC6946;
+- NGC7331;
+- NGC7793.
+
+The importer is `analysis/stationary/import_leroy2008_hi_profiles.py`. Leroy's `SigmaHI` includes helium using factor 1.36; the importer removes that factor to restore hydrogen-only `Sigma_HI` before the common SPARC/Hua gas correction is applied.
+
+### Largest literature families
+
+`major_public_family_queue_v1.csv` records the frozen-sample intersection for the largest source families. Current queue sizes include:
+
+- Swaters et al. 2002 / WHISP: 26 frozen systems;
+- Verheijen & Sancisi 2001 / Ursa Major: 27 frozen systems (with UGC06818 retained as a special Hua-missing audit target, not presumed recovered);
+- Noordermeer et al. 2005 / WHISP: 12 frozen systems;
+- de Blok et al. 1996: 8 frozen systems;
+- Lelli et al. 2014: NGC4068 in the frozen sample via the direct SPARC reference code.
+
+The SPARC `Ref.` codes are acquisition leads; profile provenance is confirmed only after the actual public radial profile/map is inspected.
+
+## Standardization to the SPARC/Hua convention
+
+Public acquisition and final profile standardization are separate stages.
+
+Hua et al. standardized the literature profiles using GIPSY `Rotmod`, with the SPARC H I mass and distance and an exponential 100 pc vertical scale height. Therefore a profile is not promoted to final `stationary_hi_profiles_v1.csv` until either:
+
+1. the same `Rotmod` operation is reproduced, or
+2. a numerically equivalent implementation is validated against `Rotmod` on a representative subset under a predeclared tolerance.
+
+See `validation/stationary/PUBLIC_HI_STANDARDIZATION_PROTOCOL_V1.md`.
+
+## Stellar and gas conventions
+
+The current canonical convention is
+
+- `Upsilon_disk = 0.5`;
+- `Upsilon_bulge = 0.7`;
+- canonical stored profile is hydrogen-only `Sigma_HI`;
+- combined atomic gas uses `Sigma_atomic = 1.33 * Sigma_HI`.
+
+Source-specific helium factors are removed before the common 1.33 correction; they are never double-applied.
 
 ## Signed gas gravitational contribution
 
-The SPARC `Vgas` column is signed. Whenever it enters a Newtonian squared-speed sum, the contribution is retained as
+The SPARC `Vgas` column is signed. Whenever it enters a Newtonian squared-speed sum, preserve
 
 `Vgas * abs(Vgas)`
 
 rather than `Vgas**2`.
 
-This preserves the sign convention in the public SPARC mass models.
+## Restricted-data and redistribution handling
 
-## Radial H I surface-density profiles
+Public downloadability does not automatically imply permission to mirror raw files. For each source family we record license/rights status separately. Where raw redistribution is restricted, the public release will provide the reproducible acquisition/extraction code, provenance, permitted metadata, and legally redistributable derived products rather than republishing restricted raw files.
 
-The public 2016 SPARC mass-model tables do not themselves provide the azimuthally averaged radial H I surface-density profiles required by the source-current calculation.
+If private data are eventually required, no private source file is committed without explicit redistribution permission. Providing observational data never implies collaboration or endorsement of the persistence framework.
 
-Yasin & Desmond (2025, MNRAS 539, 2110; DOI 10.1093/mnras/staf453) report using azimuthally averaged H I surface-density profiles for 169 SPARC galaxies and state that those profiles were supplied by Federico Lelli via private communication. This repository therefore treats those profile files as **non-public unless and until the data provider authorizes redistribution**.
-
-The primary analysis preference is to use independently sourced/direct radial H I profiles with documented provenance rather than infer `Sigma_HI(R)` from the published `Vgas(R)` curve.
-
-A pre-fit availability audit identifies four systems in the frozen 149-galaxy stationary sample for which the working direct-profile compilation does not currently provide a profile:
-
-- D564-8
-- D631-7
-- NGC4138
-- NGC5907
-
-The current primary direct-profile target is therefore 145 galaxies, while preserving the already-frozen calibration/blind role of every retained galaxy.
-
-No persistence fit is permitted to determine how missing-profile systems are handled. A secondary inversion/reconstruction method, if used, must be declared and validated on galaxies possessing direct profiles before any blind persistence result is inspected.
-
-## Restricted-data handling
-
-If radial H I profiles are supplied privately:
-
-1. the source files will not be committed to this public repository without explicit redistribution permission;
-2. galaxy identifiers, units, distance convention, inclination convention, helium treatment, and provenance will be audited before use;
-3. public records may include acquisition status, allowed metadata, checksums where appropriate, transformation code, and permitted derived products;
-4. receipt of the profiles cannot alter the frozen calibration/blind split based on model performance; and
-5. providing the profiles does not imply collaboration or endorsement of the theoretical framework or conclusions.
-
-See the repository-level [`DATA_POLICY.md`](../../../DATA_POLICY.md) for the full policy.
-
-## Source-current velocity
-
-The primary stationary source current uses the self-consistent model velocity:
-
-`J(R) = Sigma_b(R) * V(R)`.
-
-`Vobs(R)` remains the target observable. It is never inserted as the current velocity in the primary fit.
-
-## Current products
-
-The source-reconstruction directory and validation records contain the pre-fit source basis, profile-availability/provenance records, and build summaries. These are observational/source-construction products only; they do not contain fitted `L_A`, `C_A`, or `tau_A` values.
+See repository-level `DATA_POLICY.md`.
 
 ## Freeze rule
 
-This directory remains in the **source-reconstruction stage**, not the final source-profile freeze. The final `Sigma_HI(R)`, `Sigma_gas(R)`, `Sigma_b(R)`, interpolation/continuation rules, and source-current products will receive a separate versioned freeze record before stationary persistence fitting begins.
+This directory remains in the **source-reconstruction stage**. No `L_A`, `C_A`, `tau_A`, or persistence prediction may be evaluated until acquisition, standardization, coverage/interpolation QC, redistribution audit, and the versioned source-profile freeze are complete.

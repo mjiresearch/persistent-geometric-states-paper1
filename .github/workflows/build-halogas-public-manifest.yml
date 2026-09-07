@@ -1,0 +1,24 @@
+name: Build HALOGAS public HI manifest
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/stationary/build_halogas_public_manifest.py'
+      - '.github/workflows/build-halogas-public-manifest.yml'
+      - 'validation/stationary/stationary_split_v1.csv'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build HALOGAS overlap manifest
+        run: python scripts/stationary/build_halogas_public_manifest.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: halogas-stationary-overlap-v1
+          path: data/stationary/source_reconstruction/halogas_stationary_overlap_v1.csv

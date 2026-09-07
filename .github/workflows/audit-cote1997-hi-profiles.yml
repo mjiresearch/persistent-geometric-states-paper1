@@ -1,0 +1,55 @@
+name: Audit Cote 1997 public HI profiles
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+          pip install pandas
+      - name: Download source and crossmatch frozen galaxies
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/cote/src /tmp/cote/out
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/cote/source.tar https://arxiv.org/e-print/astro-ph/9704031
+          tar -xf /tmp/cote/source.tar -C /tmp/cote/src
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd,re,csv,subprocess
+          master=pd.read_csv('data/stationary/frozen/stationary_master_v1.csv')
+          gals=sorted(master.galaxy.unique())
+          files=[p for p in Path('/tmp/cote/src').rglob('*') if p.is_file()]
+          text='\n'.join(p.read_bytes().decode('latin1','ignore') for p in files)
+          norm=re.sub(r'[^A-Z0-9]','',text.upper())
+          def vv(g):
+              c=re.sub(r'[^A-Z0-9]','',g.upper()); return {c,re.sub(r'^(UGC|NGC|IC|DDO)0+',r'\1',c)}
+          hits=[g for g in gals if any(v in norm for v in vv(g))]
+          pd.DataFrame({'galaxy':hits}).to_csv('/tmp/cote/out/frozen_hits.csv',index=False)
+          tex='\n'.join(p.read_text(errors='ignore') for p in files if p.suffix.lower() in ['.tex','.txt'])
+          blocks=re.findall(r'\\begin\{figure\}.*?\\end\{figure\}',tex,re.S|re.I)
+          rows=[]
+          for i,b in enumerate(blocks):
+              inc=re.findall(r'\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}',b)
+              names=[g for g in hits if any(v in re.sub(r'[^A-Z0-9]','',b.upper()) for v in vv(g))]
+              if names or 'surface density' in b.lower() or 'h i' in b.lower():
+                  rows.append((i,';'.join(names),';'.join(inc),re.sub(r'\s+',' ',b)[:1200]))
+          with open('/tmp/cote/out/figure_map.csv','w',newline='') as f:
+              w=csv.writer(f); w.writerow(['block','galaxies','includegraphics','excerpt']); w.writerows(rows)
+          for p in files:
+              if p.suffix.lower() in ['.ps','.eps']:
+                  subprocess.run(['gs','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pngalpha','-r300',f'-sOutputFile=/tmp/cote/out/{p.stem}.png',str(p)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+          print('hits',hits)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cote1997-hi-audit
+          path: /tmp/cote/out

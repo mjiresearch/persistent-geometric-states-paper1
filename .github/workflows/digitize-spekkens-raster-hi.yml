@@ -1,0 +1,76 @@
+name: Digitize Spekkens raster HI profiles
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/digitize-spekkens-raster-hi.yml'
+
+jobs:
+  digitize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install raster tools
+        run: |
+          pip install opencv-python-headless numpy pandas pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript
+      - name: Continue from existing Spekkens publication panels
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/spekkens/src /tmp/spekkens/out
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/spekkens/source.tar https://arxiv.org/e-print/astro-ph/0605542
+          tar -xf /tmp/spekkens/source.tar -C /tmp/spekkens/src
+          python - <<'PY'
+          import subprocess, cv2, numpy as np, pandas as pd
+          from pathlib import Path
+          from PIL import Image, ImageDraw
+
+          out=Path('/tmp/spekkens/out')
+          # Fixed from the already-completed high-resolution audit. Coordinates refer to 3x render.
+          cfg={
+            'IC4202':   {'eps':'f8s.eps',  'box':(838,1858,528,528), 'xmax':90.0,  'ymax':12.0},
+            'NGC2955':  {'eps':'f7s.eps',  'box':(859,1849,524,524), 'xmax':120.0, 'ymax':20.0},
+            'NGC6195':  {'eps':'f9s.eps',  'box':(899,1857,527,524), 'xmax':80.0,  'ymax':20.0},
+            'UGC11455': {'eps':'f10s.eps', 'box':(838,1853,528,524), 'xmax':150.0, 'ymax':9.0},
+          }
+          allrows=[]
+          for gal,c in cfg.items():
+              eps=Path('/tmp/spekkens/src')/c['eps']
+              png=out/f'{gal}_3x.png'
+              subprocess.run(['gs','-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pnggray','-r216',f'-sOutputFile={png}',str(eps)],check=True)
+              im=cv2.imread(str(png),cv2.IMREAD_GRAYSCALE)
+              x0,y0,w,h=c['box']; panel=im[y0:y0+h,x0:x0+w]
+              cv2.imwrite(str(out/f'{gal}_paneld.png'),panel)
+              blur=cv2.medianBlur(panel,5)
+              circles=cv2.HoughCircles(blur,cv2.HOUGH_GRADIENT,dp=1,minDist=8,param1=80,param2=12,minRadius=2,maxRadius=6)
+              rows=[]
+              if circles is not None:
+                  for cx,cy,rad in np.round(circles[0]).astype(int):
+                      if not (10 < cx < w-10 and 10 < cy < h-10):
+                          continue
+                      r_arcsec=cx/(w-1)*c['xmax']
+                      sigma=(1-cy/(h-1))*c['ymax']
+                      rows.append({'galaxy':gal,'cx_px':cx,'cy_px':cy,'marker_radius_px':rad,'r_arcsec_candidate':r_arcsec,'sigma_hi_candidate':sigma})
+              df=pd.DataFrame(rows).sort_values('r_arcsec_candidate') if rows else pd.DataFrame(columns=['galaxy','cx_px','cy_px','marker_radius_px','r_arcsec_candidate','sigma_hi_candidate'])
+              df.to_csv(out/f'{gal}_marker_candidates.csv',index=False)
+              allrows.extend(rows)
+              # diagnostic overlay only; no point is promoted by this workflow
+              rgb=Image.open(out/f'{gal}_paneld.png').convert('RGB'); d=ImageDraw.Draw(rgb)
+              for r in rows:
+                  cx,cy=r['cx_px'],r['cy_px']; d.ellipse((cx-7,cy-7,cx+7,cy+7),outline='red',width=2)
+              rgb.save(out/f'{gal}_candidate_overlay.png')
+          pd.DataFrame(allrows).to_csv(out/'spekkens_all_marker_candidates.csv',index=False)
+          Path(out/'README.txt').write_text(
+            'Candidate-marker extraction from the existing Spekkens raster panels.\n'
+            'These are NOT promoted profile points. The averaged-series points must be selected by continuity/marker morphology and checked against the published 1 Msun pc^-2 line and frozen-SPARC coverage.\n'
+          )
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: spekkens-raster-hi-digitization-candidates
+          path: /tmp/spekkens/out

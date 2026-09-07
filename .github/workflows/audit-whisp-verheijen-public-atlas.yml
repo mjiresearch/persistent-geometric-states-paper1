@@ -1,0 +1,45 @@
+name: Audit WHISP Verheijen public atlas routes
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-whisp-verheijen-public-atlas.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe public legacy routes
+        run: |
+          mkdir -p /tmp/whisp
+          python - <<'PY'
+          import urllib.request, urllib.error, csv
+          urls=[
+            'https://www.astro.rug.nl/~whisp/',
+            'https://www.aanda.org/articles/aa/ps/2001/18/aa10469.ps.gz',
+            'https://www.aanda.org/articles/aa/pdf/2001/18/aa10469.pdf',
+            'https://arxiv.org/e-print/astro-ph/0101404',
+          ]
+          rows=[]
+          for u in urls:
+              req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0 persistence-research/1.0'})
+              try:
+                  with urllib.request.urlopen(req,timeout=30) as r:
+                      b=r.read(4096); rows.append([u,r.status,r.geturl(),r.headers.get('Content-Type'),r.headers.get('Content-Length'),len(b)])
+              except Exception as e: rows.append([u,'ERROR','',type(e).__name__,str(e),''])
+          with open('/tmp/whisp/public_route_probe.csv','w',newline='') as f:
+              w=csv.writer(f);w.writerow(['url','status','final_url','content_type','content_length_or_error','sample_bytes']);w.writerows(rows)
+          print(*rows,sep='\n')
+          PY
+      - name: Search WHISP homepage links for database/download endpoints
+        run: |
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 https://www.astro.rug.nl/~whisp/ -o /tmp/whisp/index.html
+          grep -Eoi 'href="[^"]+"' /tmp/whisp/index.html | sed -E 's/^href="|"$//g' | sort -u > /tmp/whisp/homepage_links.txt
+          grep -Ei 'data|base|download|fits|cube|archive|catalog|ursa|verheij' /tmp/whisp/homepage_links.txt > /tmp/whisp/candidate_links.txt || true
+          cat /tmp/whisp/candidate_links.txt || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: whisp-verheijen-public-route-audit
+          path: /tmp/whisp
