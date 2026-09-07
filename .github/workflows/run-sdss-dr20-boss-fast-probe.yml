@@ -1,0 +1,30 @@
+name: Probe SDSS DR20 BOSS products
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/probe_sdss_dr20_boss_products.py'
+      - '.github/workflows/run-sdss-dr20-boss-fast-probe.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/probe_sdss_dr20_boss_products.py
+      - name: Commit probe
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/osc_rv_target_rank/sdss_dr20_recovery/sdss_dr20_boss_fast_probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record SDSS DR20 BOSS fast probe'
+            git pull --rebase origin main
+            git push
+          fi
