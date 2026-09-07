@@ -1,0 +1,12 @@
+{
+  "protocol": "LEGACY_CEPHEID_RV_OSC_SWEEP_FREEZE",
+  "stage": "MIRROR_PARALLEL_DISCOVERY_ONLY",
+  "candidate_sources": 24,
+  "queries": 144,
+  "matched_candidate_catalog_pairs": 0,
+  "matched_unique_sources": [],
+  "errors": 0,
+  "error_records": [],
+  "matches": [],
+  "outcome_firewall": "No H I spectrum, H I velocity, H I residual, unblinded Outer-arm result, or Persistence prediction was read."
+}
