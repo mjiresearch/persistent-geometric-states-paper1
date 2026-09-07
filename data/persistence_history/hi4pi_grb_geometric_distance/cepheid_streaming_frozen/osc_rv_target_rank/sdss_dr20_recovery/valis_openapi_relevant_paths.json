@@ -1,0 +1,32 @@
+{
+  "error": null,
+  "url": "https://api.sdss.org/valis/openapi.json",
+  "paths": [
+    "/info/surveys",
+    "/query/altids",
+    "/query/carton-program",
+    "/query/catalogid",
+    "/query/cone",
+    "/query/list/cartons",
+    "/query/list/parents",
+    "/query/list/program-map",
+    "/query/list/programs",
+    "/query/main",
+    "/query/mapper",
+    "/query/obs",
+    "/query/sdssid",
+    "/target/astra/{pipeline}/{sdss_id}",
+    "/target/cartons/{sdss_id}",
+    "/target/catalogs/{sdss_id}",
+    "/target/ids/{sdss_id}",
+    "/target/legacy/{sdss_id}",
+    "/target/parents/{catalog}/{sdss_id}",
+    "/target/pipe/apogee/{sdss_id}",
+    "/target/pipe/boss/{sdss_id}",
+    "/target/pipelines/{sdss_id}",
+    "/target/resolve/coord",
+    "/target/resolve/name",
+    "/target/sdssid/{id}",
+    "/target/spectra/{sdss_id}"
+  ]
+}

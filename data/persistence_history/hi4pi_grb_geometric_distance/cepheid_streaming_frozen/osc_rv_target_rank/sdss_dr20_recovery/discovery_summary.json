@@ -1,0 +1,69 @@
+{
+  "protocol": "SDSS_DR20_OSC_RV_RECOVERY_FREEZE",
+  "status": "OUTCOME_BLIND_TARGET_DISCOVERY",
+  "candidate_rows": 24,
+  "unique_matches": 7,
+  "observed_unique_matches": 7,
+  "boss_unique_matches": 7,
+  "apogee_unique_matches": 0,
+  "astra_unique_matches": 5,
+  "matched_sources": [
+    {
+      "source_id": 1873298884367855872,
+      "sdss_id": 64404973,
+      "observed": true,
+      "in_boss": true,
+      "in_apogee": false,
+      "in_astra": true
+    },
+    {
+      "source_id": 2195158098523149312,
+      "sdss_id": 68501299,
+      "observed": true,
+      "in_boss": true,
+      "in_apogee": false,
+      "in_astra": true
+    },
+    {
+      "source_id": 1978690990909022336,
+      "sdss_id": 65342061,
+      "observed": true,
+      "in_boss": true,
+      "in_apogee": false,
+      "in_astra": false
+    },
+    {
+      "source_id": 2031982665929461504,
+      "sdss_id": 66303632,
+      "observed": true,
+      "in_boss": true,
+      "in_apogee": false,
+      "in_astra": true
+    },
+    {
+      "source_id": 1979638838645769216,
+      "sdss_id": 65364730,
+      "observed": true,
+      "in_boss": true,
+      "in_apogee": false,
+      "in_astra": false
+    },
+    {
+      "source_id": 4505886787660255616,
+      "sdss_id": 89710211,
+      "observed": true,
+      "in_boss": true,
+      "in_apogee": false,
+      "in_astra": true
+    },
+    {
+      "source_id": 2004103831357741696,
+      "sdss_id": 65726433,
+      "observed": true,
+      "in_boss": true,
+      "in_apogee": false,
+      "in_astra": true
+    }
+  ],
+  "outcome_firewall": "No H I spectrum, H I velocity, H I residual, GRB comparison outcome, or Persistence prediction was read."
+}
