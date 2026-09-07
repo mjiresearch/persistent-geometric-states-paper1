@@ -1,0 +1,52 @@
+{
+  "protocol": "LEGACY_CEPHEID_RV_OSC_SWEEP_FREEZE",
+  "stage": "FAST_BATCH_XMATCH_DISCOVERY_ONLY",
+  "candidate_sources": 24,
+  "catalogs": {
+    "gorynya_stars": {
+      "catalog": "vizier:III/229/stars",
+      "status": "query_error",
+      "error": "ValueError(\"'vizier:III/229/stars' is not available on the XMatch server. If you are using a VizieR table name, note that only tables with coordinates are available on the XMatch server. If you are using a local table, the arguments 'colRA2' and 'colDec2' must be provided.\")",
+      "rows": 0,
+      "source_ids": []
+    },
+    "borgniet_stars": {
+      "catalog": "vizier:J/A+A/631/A37/tablea1",
+      "status": "query_error",
+      "error": "ValueError(\"'vizier:J/A+A/631/A37/tablea1' is not available on the XMatch server. If you are using a VizieR table name, note that only tables with coordinates are available on the XMatch server. If you are using a local table, the arguments 'colRA2' and 'colDec2' must be provided.\")",
+      "rows": 0,
+      "source_ids": []
+    },
+    "crav_table2": {
+      "catalog": "vizier:J/AJ/150/13/table2",
+      "status": "query_error",
+      "error": "ValueError(\"'vizier:J/AJ/150/13/table2' is not available on the XMatch server. If you are using a VizieR table name, note that only tables with coordinates are available on the XMatch server. If you are using a local table, the arguments 'colRA2' and 'colDec2' must be provided.\")",
+      "rows": 0,
+      "source_ids": []
+    },
+    "crav_table6": {
+      "catalog": "vizier:J/AJ/150/13/table6",
+      "status": "query_error",
+      "error": "ValueError(\"'vizier:J/AJ/150/13/table6' is not available on the XMatch server. If you are using a VizieR table name, note that only tables with coordinates are available on the XMatch server. If you are using a local table, the arguments 'colRA2' and 'colDec2' must be provided.\")",
+      "rows": 0,
+      "source_ids": []
+    },
+    "cruz_reyes_astrometry": {
+      "catalog": "vizier:J/A+A/672/A85/table10",
+      "status": "query_error",
+      "error": "ValueError(\"'vizier:J/A+A/672/A85/table10' is not available on the XMatch server. If you are using a VizieR table name, note that only tables with coordinates are available on the XMatch server. If you are using a local table, the arguments 'colRA2' and 'colDec2' must be provided.\")",
+      "rows": 0,
+      "source_ids": []
+    },
+    "rave_dr6": {
+      "catalog": "vizier:III/283/ravedr6",
+      "status": "query_error",
+      "error": "ValueError(\"'vizier:III/283/ravedr6' is not available on the XMatch server. If you are using a VizieR table name, note that only tables with coordinates are available on the XMatch server. If you are using a local table, the arguments 'colRA2' and 'colDec2' must be provided.\")",
+      "rows": 0,
+      "source_ids": []
+    }
+  },
+  "matched_unique_sources": [],
+  "outcome_firewall": "No H I spectrum, H I velocity, H I residual, unblinded Outer-arm result, or Persistence prediction was read.",
+  "matched_unique_source_count": 0
+}
