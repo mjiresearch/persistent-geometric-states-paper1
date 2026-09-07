@@ -1,288 +1,384 @@
 [
   {
     "source_id": 2025179884408158464,
+    "ra_deg": 294.69744707148163,
+    "dec_deg": 27.413495229237085,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2025179884408158464,
+    "ra_deg": 294.69744707148163,
+    "dec_deg": 27.413495229237085,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 2031745858613175040,
+    "ra_deg": 296.8870314589,
+    "dec_deg": 29.343694166972423,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2031745858613175040,
+    "ra_deg": 296.8870314589,
+    "dec_deg": 29.343694166972423,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 1873298884367855872,
+    "ra_deg": 314.1788623628072,
+    "dec_deg": 40.2584860241259,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 1873298884367855872,
+    "ra_deg": 314.1788623628072,
+    "dec_deg": 40.2584860241259,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 2165006259882192128,
+    "ra_deg": 320.2242961708655,
+    "dec_deg": 48.78968776823098,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2165006259882192128,
+    "ra_deg": 320.2242961708655,
+    "dec_deg": 48.78968776823098,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4513281175196176512,
+    "ra_deg": 288.1168720035091,
+    "dec_deg": 16.49916890738218,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4513281175196176512,
+    "ra_deg": 288.1168720035091,
+    "dec_deg": 16.49916890738218,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4160906424545920128,
+    "ra_deg": 276.38951956695223,
+    "dec_deg": -6.458712953963847,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4160906424545920128,
+    "ra_deg": 276.38951956695223,
+    "dec_deg": -6.458712953963847,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 2195158098523149312,
+    "ra_deg": 310.87508586105747,
+    "dec_deg": 61.75625438793755,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2195158098523149312,
+    "ra_deg": 310.87508586105747,
+    "dec_deg": 61.75625438793755,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4513399883752121216,
+    "ra_deg": 288.4015524665938,
+    "dec_deg": 16.887476036176945,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4513399883752121216,
+    "ra_deg": 288.4015524665938,
+    "dec_deg": 16.887476036176945,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 1861245556872133504,
+    "ra_deg": 305.2023380839003,
+    "dec_deg": 29.776749178965986,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 1861245556872133504,
+    "ra_deg": 305.2023380839003,
+    "dec_deg": 29.776749178965986,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4310507179195737984,
+    "ra_deg": 284.007464766534,
+    "dec_deg": 9.5430325254315,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4310507179195737984,
+    "ra_deg": 284.007464766534,
+    "dec_deg": 9.5430325254315,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4314164395446976128,
+    "ra_deg": 287.52832862367643,
+    "dec_deg": 13.751125089074757,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4314164395446976128,
+    "ra_deg": 287.52832862367643,
+    "dec_deg": 13.751125089074757,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 2033842562903693184,
+    "ra_deg": 298.61331861041657,
+    "dec_deg": 31.98443477224332,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2033842562903693184,
+    "ra_deg": 298.61331861041657,
+    "dec_deg": 31.98443477224332,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 1978690990909022336,
+    "ra_deg": 323.6657258926437,
+    "dec_deg": 49.05387013682727,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 1978690990909022336,
+    "ra_deg": 323.6657258926437,
+    "dec_deg": 49.05387013682727,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 1871915630021420672,
+    "ra_deg": 316.34203913487227,
+    "dec_deg": 38.02263657027089,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 1871915630021420672,
+    "ra_deg": 316.34203913487227,
+    "dec_deg": 38.02263657027089,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4512885247948565376,
+    "ra_deg": 287.4700590360718,
+    "dec_deg": 16.183932067339214,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4512885247948565376,
+    "ra_deg": 287.4700590360718,
+    "dec_deg": 16.183932067339214,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 2031982665929461504,
+    "ra_deg": 296.05399031447047,
+    "dec_deg": 29.68729545258683,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2031982665929461504,
+    "ra_deg": 296.05399031447047,
+    "dec_deg": 29.68729545258683,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4320165285017783168,
+    "ra_deg": 288.05334573408885,
+    "dec_deg": 13.963392583145598,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4320165285017783168,
+    "ra_deg": 288.05334573408885,
+    "dec_deg": 13.963392583145598,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 2021540814501736320,
+    "ra_deg": 293.71911711786413,
+    "dec_deg": 25.617968013135847,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2021540814501736320,
+    "ra_deg": 293.71911711786413,
+    "dec_deg": 25.617968013135847,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 1979638838645769216,
+    "ra_deg": 327.16408791205106,
+    "dec_deg": 49.39734159183344,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 1979638838645769216,
+    "ra_deg": 327.16408791205106,
+    "dec_deg": 49.39734159183344,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4314393025132914944,
+    "ra_deg": 286.6086918877812,
+    "dec_deg": 13.89080092201919,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4314393025132914944,
+    "ra_deg": 286.6086918877812,
+    "dec_deg": 13.89080092201919,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4311113353708708864,
+    "ra_deg": 283.02625047455984,
+    "dec_deg": 8.909659913223521,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4311113353708708864,
+    "ra_deg": 283.02625047455984,
+    "dec_deg": 8.909659913223521,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4505886787660255616,
+    "ra_deg": 284.4408089915993,
+    "dec_deg": 12.366625225265622,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4505886787660255616,
+    "ra_deg": 284.4408089915993,
+    "dec_deg": 12.366625225265622,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 4505886718970731648,
+    "ra_deg": 284.4161485042622,
+    "dec_deg": 12.352228057471631,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 4505886718970731648,
+    "ra_deg": 284.4161485042622,
+    "dec_deg": 12.352228057471631,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
   },
   {
     "source_id": 2004103831357741696,
+    "ra_deg": 332.3273351119659,
+    "dec_deg": 51.40539088771709,
     "branch": "LRS",
     "catalog": "V/162/dr11sl",
     "status": "no_match"
   },
   {
     "source_id": 2004103831357741696,
+    "ra_deg": 332.3273351119659,
+    "dec_deg": 51.40539088771709,
     "branch": "MRS",
     "catalog": "V/162/dr11sm",
     "status": "no_match"
