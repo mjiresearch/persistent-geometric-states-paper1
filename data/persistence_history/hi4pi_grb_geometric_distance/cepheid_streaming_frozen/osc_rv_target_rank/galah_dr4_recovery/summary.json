@@ -1,0 +1,8 @@
+{
+  "protocol": "GALAH_DR4_OSC_RV_RECOVERY_FREEZE",
+  "candidate_rows": 24,
+  "matched_sources": 0,
+  "qualifying_unique_sources": 0,
+  "qualifying_sources": [],
+  "outcome_firewall": "No H I spectrum, H I velocity, H I residual, GRB comparison outcome, or Persistence prediction was read."
+}
