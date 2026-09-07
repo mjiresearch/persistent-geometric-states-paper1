@@ -1,0 +1,575 @@
+[
+  {
+    "source_id": 1873298884367855872,
+    "sdss_id": 64404973,
+    "boss_daily": {
+      "status_code": 400,
+      "url": "https://api.sdss.org/valis/target/pipe/boss/64404973?coadd=daily&release=DR20",
+      "data": {
+        "detail": "Multiple targets found for sdss_id 64404973. Please refine your query."
+      }
+    },
+    "pipelines_boss": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipelines/64404973?pipe=boss&release=DR20",
+      "data": {
+        "boss": [
+          {
+            "id": 25300726,
+            "mjd": 59839,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/102XXX/102485/59839/spec-102485-59839-27021597768138775.fits",
+            "field": 102485,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-102485-59839-27021597768138775"
+          },
+          {
+            "id": 27506175,
+            "mjd": 60211,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/102XXX/102485/60211/spec-102485-60211-63050394912359101.fits",
+            "field": 102485,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-102485-60211-63050394912359101"
+          },
+          {
+            "id": 27802923,
+            "mjd": 60238,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/102XXX/102485/60238/spec-102485-60238-63050394912359101.fits",
+            "field": 102485,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-102485-60238-63050394912359101"
+          },
+          {
+            "id": 33645110,
+            "mjd": 59839,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/102XXX/102485/59839/spec-102485-59839-27021597768138775.fits",
+            "field": 102485,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-102485-59839-27021597768138775"
+          },
+          {
+            "id": 34520861,
+            "mjd": 60211,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/102XXX/102485/60211/spec-102485-60211-63050394912359101.fits",
+            "field": 102485,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-102485-60211-63050394912359101"
+          },
+          {
+            "id": 34653492,
+            "mjd": 60238,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/102XXX/102485/60238/spec-102485-60238-63050394912359101.fits",
+            "field": 102485,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-102485-60238-63050394912359101"
+          }
+        ],
+        "apogee": {},
+        "astra": {},
+        "files": {
+          "boss": [
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/102XXX/102485/59839/spec-102485-59839-27021597768138775.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/102XXX/102485/60211/spec-102485-60211-63050394912359101.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/102XXX/102485/60238/spec-102485-60238-63050394912359101.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/102XXX/102485/59839/spec-102485-59839-27021597768138775.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/102XXX/102485/60211/spec-102485-60211-63050394912359101.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/102XXX/102485/60238/spec-102485-60238-63050394912359101.fits"
+          ]
+        },
+        "astra_pipelines": [
+          "boss_net",
+          "corv",
+          "line_forest",
+          "m_dwarf_type",
+          "snow_white"
+        ]
+      }
+    },
+    "query_sdssid": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/query/sdssid?sdss_id=64404973&release=DR20",
+      "data": {
+        "sdss_id": 64404973,
+        "ra_sdss_id": 314.1788623628072,
+        "dec_sdss_id": 40.2584860241259,
+        "catalogid21": 4208604480,
+        "catalogid25": 27021597768138775
+      }
+    }
+  },
+  {
+    "source_id": 2195158098523149312,
+    "sdss_id": 68501299,
+    "boss_daily": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipe/boss/68501299?coadd=daily&release=DR20",
+      "data": {
+        "id": 27582803,
+        "sdss_id": 68501299,
+        "field": 101802,
+        "mjd": 60216,
+        "catalogid": 63050395044487989,
+        "nexp": 1,
+        "exptime": 900.0,
+        "survey": "MWM",
+        "firstcarton": "mwm_ob_cepheids_boss",
+        "objtype": "science",
+        "z": -0.0002662138,
+        "zwarning": "",
+        "objclass": "STAR",
+        "subclass": "F8Ibvar (45412)",
+        "sn_median_all": 27.298721,
+        "on_target": true,
+        "fiber_ra": 310.87493301350344,
+        "fiber_dec": 61.75629867908091,
+        "specprimary": true,
+        "boss_version": 14,
+        "run2d": "v6_2_1"
+      }
+    },
+    "pipelines_boss": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipelines/68501299?pipe=boss&release=DR20",
+      "data": {
+        "boss": [
+          {
+            "id": 27582803,
+            "mjd": 60216,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/101XXX/101802/60216/spec-101802-60216-63050395044487989.fits",
+            "field": 101802,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-101802-60216-63050395044487989"
+          },
+          {
+            "id": 34548808,
+            "mjd": 60216,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/101XXX/101802/60216/spec-101802-60216-63050395044487989.fits",
+            "field": 101802,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-101802-60216-63050395044487989"
+          }
+        ],
+        "apogee": {},
+        "astra": {},
+        "files": {
+          "boss": [
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/101XXX/101802/60216/spec-101802-60216-63050395044487989.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/101XXX/101802/60216/spec-101802-60216-63050395044487989.fits"
+          ]
+        },
+        "astra_pipelines": [
+          "boss_net",
+          "corv",
+          "line_forest",
+          "m_dwarf_type",
+          "snow_white"
+        ]
+      }
+    },
+    "query_sdssid": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/query/sdssid?sdss_id=68501299&release=DR20",
+      "data": {
+        "sdss_id": 68501299,
+        "ra_sdss_id": 310.87508586105747,
+        "dec_sdss_id": 61.75625438793755,
+        "catalogid21": 4273987130,
+        "catalogid25": 27021597833355842
+      }
+    }
+  },
+  {
+    "source_id": 1978690990909022336,
+    "sdss_id": 65342061,
+    "boss_daily": {
+      "status_code": 404,
+      "url": "https://api.sdss.org/valis/target/pipe/boss/65342061?coadd=daily&release=DR20",
+      "data": {
+        "detail": "No target found for sdss_id 65342061"
+      }
+    },
+    "pipelines_boss": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipelines/65342061?pipe=boss&release=DR20",
+      "data": {
+        "boss": [],
+        "apogee": {},
+        "astra": {},
+        "files": {
+          "boss": [],
+          "apogee": [],
+          "astra": []
+        },
+        "astra_pipelines": []
+      }
+    },
+    "query_sdssid": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/query/sdssid?sdss_id=65342061&release=DR20",
+      "data": {
+        "sdss_id": 65342061,
+        "ra_sdss_id": 323.6657258926437,
+        "dec_sdss_id": 49.05387013682727,
+        "catalogid21": 4224536443,
+        "catalogid25": 27021597784043300
+      }
+    }
+  },
+  {
+    "source_id": 2031982665929461504,
+    "sdss_id": 66303632,
+    "boss_daily": {
+      "status_code": 400,
+      "url": "https://api.sdss.org/valis/target/pipe/boss/66303632?coadd=daily&release=DR20",
+      "data": {
+        "detail": "Multiple targets found for sdss_id 66303632. Please refine your query."
+      }
+    },
+    "pipelines_boss": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipelines/66303632?pipe=boss&release=DR20",
+      "data": {
+        "boss": [
+          {
+            "id": 27570010,
+            "mjd": 60215,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/104XXX/104416/60215/spec-104416-60215-63050394975725588.fits",
+            "field": 104416,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-104416-60215-63050394975725588"
+          },
+          {
+            "id": 27588699,
+            "mjd": 60216,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/104XXX/104416/60216/spec-104416-60216-63050394975725588.fits",
+            "field": 104416,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-104416-60216-63050394975725588"
+          },
+          {
+            "id": 27865998,
+            "mjd": 60246,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/104XXX/104416/60246/spec-104416-60246-63050394975725588.fits",
+            "field": 104416,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-104416-60246-63050394975725588"
+          },
+          {
+            "id": 34544034,
+            "mjd": 60215,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/104XXX/104416/60215/spec-104416-60215-63050394975725588.fits",
+            "field": 104416,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-104416-60215-63050394975725588"
+          },
+          {
+            "id": 34552134,
+            "mjd": 60216,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/104XXX/104416/60216/spec-104416-60216-63050394975725588.fits",
+            "field": 104416,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-104416-60216-63050394975725588"
+          },
+          {
+            "id": 34678008,
+            "mjd": 60246,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/104XXX/104416/60246/spec-104416-60246-63050394975725588.fits",
+            "field": 104416,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-104416-60246-63050394975725588"
+          }
+        ],
+        "apogee": {},
+        "astra": {},
+        "files": {
+          "boss": [
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/104XXX/104416/60215/spec-104416-60215-63050394975725588.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/104XXX/104416/60216/spec-104416-60216-63050394975725588.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/104XXX/104416/60246/spec-104416-60246-63050394975725588.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/104XXX/104416/60215/spec-104416-60215-63050394975725588.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/104XXX/104416/60216/spec-104416-60216-63050394975725588.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/104XXX/104416/60246/spec-104416-60246-63050394975725588.fits"
+          ]
+        },
+        "astra_pipelines": [
+          "boss_net",
+          "corv",
+          "line_forest",
+          "m_dwarf_type",
+          "snow_white"
+        ]
+      }
+    },
+    "query_sdssid": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/query/sdssid?sdss_id=66303632&release=DR20",
+      "data": {
+        "sdss_id": 66303632,
+        "ra_sdss_id": 296.05399031447047,
+        "dec_sdss_id": 29.68729545258683,
+        "catalogid21": 5363574618,
+        "catalogid25": 27021598919843690
+      }
+    }
+  },
+  {
+    "source_id": 1979638838645769216,
+    "sdss_id": 65364730,
+    "boss_daily": {
+      "status_code": 404,
+      "url": "https://api.sdss.org/valis/target/pipe/boss/65364730?coadd=daily&release=DR20",
+      "data": {
+        "detail": "No target found for sdss_id 65364730"
+      }
+    },
+    "pipelines_boss": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipelines/65364730?pipe=boss&release=DR20",
+      "data": {
+        "boss": [],
+        "apogee": {},
+        "astra": {},
+        "files": {
+          "boss": [],
+          "apogee": [],
+          "astra": []
+        },
+        "astra_pipelines": []
+      }
+    },
+    "query_sdssid": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/query/sdssid?sdss_id=65364730&release=DR20",
+      "data": {
+        "sdss_id": 65364730,
+        "ra_sdss_id": 327.16408791205106,
+        "dec_sdss_id": 49.39734159183344,
+        "catalogid21": 4237208569,
+        "catalogid25": 27021597796680012
+      }
+    }
+  },
+  {
+    "source_id": 4505886787660255616,
+    "sdss_id": 89710211,
+    "boss_daily": {
+      "status_code": 400,
+      "url": "https://api.sdss.org/valis/target/pipe/boss/89710211?coadd=daily&release=DR20",
+      "data": {
+        "detail": "Multiple targets found for sdss_id 89710211. Please refine your query."
+      }
+    },
+    "pipelines_boss": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipelines/89710211?pipe=boss&release=DR20",
+      "data": {
+        "boss": [
+          {
+            "id": 26810634,
+            "mjd": 60100,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100466/60100/spec-100466-60100-27021598800729784.fits",
+            "field": 100466,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-100466-60100-27021598800729784"
+          },
+          {
+            "id": 27040674,
+            "mjd": 60126,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100466/60126/spec-100466-60126-27021598800729784.fits",
+            "field": 100466,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-100466-60126-27021598800729784"
+          },
+          {
+            "id": 34399872,
+            "mjd": 60100,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100466/60100/spec-100466-60100-27021598800729784.fits",
+            "field": 100466,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-100466-60100-27021598800729784"
+          },
+          {
+            "id": 34475347,
+            "mjd": 60126,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100466/60126/spec-100466-60126-27021598800729784.fits",
+            "field": 100466,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-100466-60126-27021598800729784"
+          }
+        ],
+        "apogee": {},
+        "astra": {},
+        "files": {
+          "boss": [
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100466/60100/spec-100466-60100-27021598800729784.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100466/60126/spec-100466-60126-27021598800729784.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100466/60100/spec-100466-60100-27021598800729784.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100466/60126/spec-100466-60126-27021598800729784.fits"
+          ]
+        },
+        "astra_pipelines": [
+          "boss_net",
+          "corv",
+          "line_forest",
+          "m_dwarf_type",
+          "snow_white"
+        ]
+      }
+    },
+    "query_sdssid": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/query/sdssid?sdss_id=89710211&release=DR20",
+      "data": {
+        "sdss_id": 89710211,
+        "ra_sdss_id": 284.4408089915993,
+        "dec_sdss_id": 12.366625225265622,
+        "catalogid21": 5244325577,
+        "catalogid25": 27021598800729784
+      }
+    }
+  },
+  {
+    "source_id": 2004103831357741696,
+    "sdss_id": 65726433,
+    "boss_daily": {
+      "status_code": 400,
+      "url": "https://api.sdss.org/valis/target/pipe/boss/65726433?coadd=daily&release=DR20",
+      "data": {
+        "detail": "Multiple targets found for sdss_id 65726433. Please refine your query."
+      }
+    },
+    "pipelines_boss": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/target/pipelines/65726433?pipe=boss&release=DR20",
+      "data": {
+        "boss": [
+          {
+            "id": 30651767,
+            "mjd": 60542,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100610/60542/spec-100610-60542-63050394944467042.fits",
+            "field": 100610,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-100610-60542-63050394944467042"
+          },
+          {
+            "id": 30683045,
+            "mjd": 60544,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100610/60544/spec-100610-60544-63050394944467042.fits",
+            "field": 100610,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-100610-60544-63050394944467042"
+          },
+          {
+            "id": 31026197,
+            "mjd": 60572,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100610/60572/spec-100610-60572-63050394944467042.fits",
+            "field": 100610,
+            "product": "specLite",
+            "coadd": "daily",
+            "stem": "spec-100610-60572-63050394944467042"
+          },
+          {
+            "id": 38724502,
+            "mjd": 60542,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100610/60542/spec-100610-60542-63050394944467042.fits",
+            "field": 100610,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-100610-60542-63050394944467042"
+          },
+          {
+            "id": 38760649,
+            "mjd": 60544,
+            "specprimary": false,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100610/60544/spec-100610-60544-63050394944467042.fits",
+            "field": 100610,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-100610-60544-63050394944467042"
+          },
+          {
+            "id": 39094866,
+            "mjd": 60572,
+            "specprimary": true,
+            "location": "dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100610/60572/spec-100610-60572-63050394944467042.fits",
+            "field": 100610,
+            "product": "specLite_epoch",
+            "coadd": "epoch",
+            "stem": "spec-100610-60572-63050394944467042"
+          }
+        ],
+        "apogee": {},
+        "astra": {},
+        "files": {
+          "boss": [
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100610/60542/spec-100610-60542-63050394944467042.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100610/60544/spec-100610-60544-63050394944467042.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/daily/lite/100XXX/100610/60572/spec-100610-60572-63050394944467042.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100610/60542/spec-100610-60542-63050394944467042.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100610/60544/spec-100610-60544-63050394944467042.fits",
+            "/data/sdss/sas/dr20/spectro/boss/redux/v6_2_1/spectra/epoch/lite/100XXX/100610/60572/spec-100610-60572-63050394944467042.fits"
+          ]
+        },
+        "astra_pipelines": [
+          "boss_net",
+          "corv",
+          "line_forest",
+          "m_dwarf_type",
+          "snow_white"
+        ]
+      }
+    },
+    "query_sdssid": {
+      "status_code": 200,
+      "url": "https://api.sdss.org/valis/query/sdssid?sdss_id=65726433&release=DR20",
+      "data": {
+        "sdss_id": 65726433,
+        "ra_sdss_id": 332.3273351119659,
+        "dec_sdss_id": 51.40539088771709,
+        "catalogid21": 4240052227,
+        "catalogid25": 27021597799518327
+      }
+    }
+  }
+]
