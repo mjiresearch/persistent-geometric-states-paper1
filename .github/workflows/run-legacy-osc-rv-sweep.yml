@@ -1,0 +1,33 @@
+name: Run frozen legacy OSC RV sweep
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/LEGACY_CEPHEID_RV_OSC_SWEEP_FREEZE.md'
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/sweep_legacy_osc_rv_catalogs.py'
+      - '.github/workflows/run-legacy-osc-rv-sweep.yml'
+permissions:
+  contents: write
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install numpy pandas astropy astroquery scipy
+      - name: Run outcome-blind legacy catalog sweep
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/sweep_legacy_osc_rv_catalogs.py
+      - name: Commit sweep products
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/osc_rv_target_rank/legacy_rv_sweep
+          if ! git diff --cached --quiet; then
+            git commit -m 'Freeze legacy OSC RV catalog sweep outputs'
+            git pull --rebase origin main
+            git push
+          fi
