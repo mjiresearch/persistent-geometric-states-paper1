@@ -1,0 +1,507 @@
+{
+  "/target/spectra/{sdss_id}": {
+    "get": {
+      "tags": [
+        "target"
+      ],
+      "summary": "Retrieve a spectrum for a target sdss_id",
+      "operationId": "Target_get_spectrum_target_spectra__sdss_id__get",
+      "security": [
+        {
+          "SDSSAuthPasswordBearer": []
+        }
+      ],
+      "parameters": [
+        {
+          "name": "sdss_id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "title": "The sdss_id of the target to get"
+          },
+          "example": 23326
+        },
+        {
+          "name": "product",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "description": "The file species or data product name",
+            "title": "Product"
+          },
+          "description": "The file species or data product name",
+          "example": "specLite"
+        },
+        {
+          "name": "ext",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "For multi-extension spectra, e.g. mwmStar, the name of the spectral extension",
+            "title": "Ext"
+          },
+          "description": "For multi-extension spectra, e.g. mwmStar, the name of the spectral extension",
+          "example": "BOSS/APO"
+        },
+        {
+          "name": "release",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "The SDSS data release",
+            "title": "Release"
+          },
+          "description": "The SDSS data release",
+          "example": "DR20"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Successful Response",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SpectrumModel"
+                },
+                "title": "Response Target Get Spectrum Target Spectra  Sdss Id  Get"
+              }
+            }
+          }
+        },
+        "422": {
+          "description": "Validation Error",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HTTPValidationError"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/target/pipe/boss/{sdss_id}": {
+    "get": {
+      "tags": [
+        "target"
+      ],
+      "summary": "Retrieve boss pipeline parameters for a target sdss_id",
+      "description": "Return sdss-v boss pipeline parameters for a given sdss_id",
+      "operationId": "Target_get_boss_info_target_pipe_boss__sdss_id__get",
+      "security": [
+        {
+          "SDSSAuthPasswordBearer": []
+        }
+      ],
+      "parameters": [
+        {
+          "name": "sdss_id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "title": "The sdss_id of the target to get"
+          },
+          "example": 23326
+        },
+        {
+          "name": "dbid",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "description": "Optional internal ID for direct database lookup",
+            "title": "Dbid"
+          },
+          "description": "Optional internal ID for direct database lookup"
+        },
+        {
+          "name": "primary",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "boolean",
+            "description": "Optional flag for indicating specprimary",
+            "default": false,
+            "title": "Primary"
+          },
+          "description": "Optional flag for indicating specprimary",
+          "example": false
+        },
+        {
+          "name": "mjd",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "description": "Optional MJD for selecting specific observations",
+            "title": "Mjd"
+          },
+          "description": "Optional MJD for selecting specific observations"
+        },
+        {
+          "name": "coadd",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "Optional coadd for selecting specific observations",
+            "enum": [
+              "daily",
+              "epoch",
+              "allepoch"
+            ],
+            "default": "daily",
+            "title": "Coadd"
+          },
+          "description": "Optional coadd for selecting specific observations"
+        },
+        {
+          "name": "field",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "description": "Optional field for selecting specific observations.",
+            "title": "Field"
+          },
+          "description": "Optional field for selecting specific observations."
+        },
+        {
+          "name": "release",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "The SDSS data release",
+            "title": "Release"
+          },
+          "description": "The SDSS data release",
+          "example": "DR20"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Successful Response",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BossSpectrum"
+              }
+            }
+          }
+        },
+        "422": {
+          "description": "Validation Error",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HTTPValidationError"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/target/pipelines/{sdss_id}": {
+    "get": {
+      "tags": [
+        "target"
+      ],
+      "summary": "Retrieve pipeline info for a target sdss_id",
+      "description": "Return sdss-v pipeline metadata for a given sdss_id",
+      "operationId": "Target_get_pipeline_target_pipelines__sdss_id__get",
+      "security": [
+        {
+          "SDSSAuthPasswordBearer": []
+        }
+      ],
+      "parameters": [
+        {
+          "name": "sdss_id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "title": "The sdss_id of the target to get"
+          },
+          "example": 23326
+        },
+        {
+          "name": "pipe",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "Specify search on specific pipeline",
+            "enum": [
+              "all",
+              "boss",
+              "apogee",
+              "astra"
+            ],
+            "default": "all",
+            "title": "Pipe"
+          },
+          "description": "Specify search on specific pipeline",
+          "example": "boss"
+        },
+        {
+          "name": "release",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "The SDSS data release",
+            "title": "Release"
+          },
+          "description": "The SDSS data release",
+          "example": "DR20"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Successful Response",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PipesModel"
+              }
+            }
+          }
+        },
+        "422": {
+          "description": "Validation Error",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HTTPValidationError"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/target/astra/{pipeline}/{sdss_id}": {
+    "get": {
+      "tags": [
+        "target"
+      ],
+      "summary": "Retrieve astra pipeline data for a target by sdss_id",
+      "description": "Return Astra pipeline data for a given sdss_id and pipeline name.",
+      "operationId": "Target_get_astra_pipes_target_astra__pipeline___sdss_id__get",
+      "security": [
+        {
+          "SDSSAuthPasswordBearer": []
+        }
+      ],
+      "parameters": [
+        {
+          "name": "pipeline",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "description": "The Astra pipeline to search",
+            "title": "Pipeline"
+          },
+          "description": "The Astra pipeline to search",
+          "example": "boss_net"
+        },
+        {
+          "name": "sdss_id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "description": "The sdss_id of the target to get",
+            "title": "Sdss Id"
+          },
+          "description": "The sdss_id of the target to get",
+          "example": 23326
+        },
+        {
+          "name": "release",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "The SDSS data release",
+            "title": "Release"
+          },
+          "description": "The SDSS data release",
+          "example": "DR20"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Successful Response",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AstraPipeline"
+              }
+            }
+          }
+        },
+        "400": {
+          "description": "Invalid astra pipeline"
+        },
+        "422": {
+          "description": "Validation Error",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HTTPValidationError"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/query/sdssid": {
+    "get": {
+      "tags": [
+        "query"
+      ],
+      "summary": "Perform a search for an SDSS target based on the sdss_id",
+      "description": "Perform an sdss_id search.\n\nAssumes a maximum of one target per sdss_id.\nEmpty object returned when no match is found.",
+      "operationId": "QueryRoutes_sdss_id_search_query_sdssid_get",
+      "security": [
+        {
+          "SDSSAuthPasswordBearer": []
+        }
+      ],
+      "parameters": [
+        {
+          "name": "sdss_id",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "description": "Value of sdss_id",
+            "title": "Sdss Id"
+          },
+          "description": "Value of sdss_id",
+          "example": 47510284
+        },
+        {
+          "name": "release",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "The SDSS data release",
+            "title": "Release"
+          },
+          "description": "The SDSS data release",
+          "example": "DR20"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Successful Response",
+          "content": {
+            "application/json": {
+              "schema": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/SDSSidStackedBase"
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": true
+                  }
+                ],
+                "title": "Response Queryroutes Sdss Id Search Query Sdssid Get"
+              }
+            }
+          }
+        },
+        "422": {
+          "description": "Validation Error",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HTTPValidationError"
+              }
+            }
+          }
+        }
+      }
+    },
+    "post": {
+      "tags": [
+        "query"
+      ],
+      "summary": "Perform a search for SDSS targets based on a list of sdss_id values",
+      "description": "Perform a search for SDSS targets based on a list of input sdss_id values.",
+      "operationId": "QueryRoutes_sdss_ids_search_query_sdssid_post",
+      "security": [
+        {
+          "SDSSAuthPasswordBearer": []
+        }
+      ],
+      "parameters": [
+        {
+          "name": "release",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "The SDSS data release",
+            "title": "Release"
+          },
+          "description": "The SDSS data release",
+          "example": "DR20"
+        }
+      ],
+      "requestBody": {
+        "required": true,
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/SDSSIdsModel"
+            }
+          }
+        }
+      },
+      "responses": {
+        "200": {
+          "description": "Successful Response",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SDSSModel"
+                },
+                "title": "Response Queryroutes Sdss Ids Search Query Sdssid Post"
+              }
+            }
+          }
+        },
+        "422": {
+          "description": "Validation Error",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HTTPValidationError"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
