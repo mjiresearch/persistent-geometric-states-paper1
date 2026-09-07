@@ -1,0 +1,119 @@
+{
+  "protocol": "SDSS_DR20_OSC_RV_RECOVERY_FREEZE",
+  "stage": "EPOCH_SUPPORT_ONLY",
+  "matched_sources": 7,
+  "sources_meeting_8_epoch_requirement": 0,
+  "rows": [
+    {
+      "source_id": 1873298884367855872,
+      "sdss_id": 64404973,
+      "n_daily_products": 3,
+      "n_distinct_daily_mjd": 3,
+      "daily_mjds": [
+        59839,
+        60211,
+        60238
+      ],
+      "meets_frozen_8_epoch_requirement": false,
+      "astra_pipelines": [
+        "boss_net",
+        "corv",
+        "line_forest",
+        "m_dwarf_type",
+        "snow_white"
+      ]
+    },
+    {
+      "source_id": 2195158098523149312,
+      "sdss_id": 68501299,
+      "n_daily_products": 1,
+      "n_distinct_daily_mjd": 1,
+      "daily_mjds": [
+        60216
+      ],
+      "meets_frozen_8_epoch_requirement": false,
+      "astra_pipelines": [
+        "boss_net",
+        "corv",
+        "line_forest",
+        "m_dwarf_type",
+        "snow_white"
+      ]
+    },
+    {
+      "source_id": 1978690990909022336,
+      "sdss_id": 65342061,
+      "n_daily_products": 0,
+      "n_distinct_daily_mjd": 0,
+      "daily_mjds": [],
+      "meets_frozen_8_epoch_requirement": false,
+      "astra_pipelines": []
+    },
+    {
+      "source_id": 2031982665929461504,
+      "sdss_id": 66303632,
+      "n_daily_products": 3,
+      "n_distinct_daily_mjd": 3,
+      "daily_mjds": [
+        60215,
+        60216,
+        60246
+      ],
+      "meets_frozen_8_epoch_requirement": false,
+      "astra_pipelines": [
+        "boss_net",
+        "corv",
+        "line_forest",
+        "m_dwarf_type",
+        "snow_white"
+      ]
+    },
+    {
+      "source_id": 1979638838645769216,
+      "sdss_id": 65364730,
+      "n_daily_products": 0,
+      "n_distinct_daily_mjd": 0,
+      "daily_mjds": [],
+      "meets_frozen_8_epoch_requirement": false,
+      "astra_pipelines": []
+    },
+    {
+      "source_id": 4505886787660255616,
+      "sdss_id": 89710211,
+      "n_daily_products": 2,
+      "n_distinct_daily_mjd": 2,
+      "daily_mjds": [
+        60100,
+        60126
+      ],
+      "meets_frozen_8_epoch_requirement": false,
+      "astra_pipelines": [
+        "boss_net",
+        "corv",
+        "line_forest",
+        "m_dwarf_type",
+        "snow_white"
+      ]
+    },
+    {
+      "source_id": 2004103831357741696,
+      "sdss_id": 65726433,
+      "n_daily_products": 3,
+      "n_distinct_daily_mjd": 3,
+      "daily_mjds": [
+        60542,
+        60544,
+        60572
+      ],
+      "meets_frozen_8_epoch_requirement": false,
+      "astra_pipelines": [
+        "boss_net",
+        "corv",
+        "line_forest",
+        "m_dwarf_type",
+        "snow_white"
+      ]
+    }
+  ],
+  "outcome_firewall": "No RV values, H I spectrum, H I velocity, H I residual, GRB comparison outcome, or Persistence prediction was used in this epoch-count gate."
+}
