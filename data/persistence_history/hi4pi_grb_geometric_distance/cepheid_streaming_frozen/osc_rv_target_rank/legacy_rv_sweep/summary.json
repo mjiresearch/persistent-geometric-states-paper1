@@ -1,0 +1,15 @@
+{
+  "protocol": "LEGACY_CEPHEID_RV_OSC_SWEEP_FREEZE",
+  "candidate_sources": 24,
+  "catalog_families": [
+    "gorynya_cepheid",
+    "borgniet_cepheid",
+    "crav",
+    "cruz_reyes_cluster_cepheid",
+    "rave_dr6"
+  ],
+  "matched_candidate_catalog_pairs": 0,
+  "matched_unique_sources": 0,
+  "matches": [],
+  "outcome_firewall": "No H I spectrum, H I velocity, H I residual, unblinded Outer-arm result, or Persistence prediction was read."
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "source_id": 2025179884408158464,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2025179884408158464,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2025179884408158464,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2025179884408158464,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2025179884408158464,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031745858613175040,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031745858613175040,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031745858613175040,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031745858613175040,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031745858613175040,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1873298884367855872,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1873298884367855872,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1873298884367855872,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1873298884367855872,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1873298884367855872,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2165006259882192128,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2165006259882192128,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2165006259882192128,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2165006259882192128,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2165006259882192128,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513281175196176512,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513281175196176512,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513281175196176512,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513281175196176512,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513281175196176512,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4160906424545920128,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4160906424545920128,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4160906424545920128,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4160906424545920128,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4160906424545920128,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2195158098523149312,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2195158098523149312,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2195158098523149312,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2195158098523149312,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2195158098523149312,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513399883752121216,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513399883752121216,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513399883752121216,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513399883752121216,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4513399883752121216,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1861245556872133504,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1861245556872133504,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1861245556872133504,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1861245556872133504,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1861245556872133504,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4310507179195737984,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4310507179195737984,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4310507179195737984,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4310507179195737984,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4310507179195737984,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314164395446976128,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314164395446976128,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314164395446976128,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314164395446976128,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314164395446976128,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2033842562903693184,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2033842562903693184,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2033842562903693184,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2033842562903693184,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2033842562903693184,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1978690990909022336,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1978690990909022336,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1978690990909022336,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1978690990909022336,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1978690990909022336,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1871915630021420672,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1871915630021420672,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1871915630021420672,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1871915630021420672,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1871915630021420672,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4512885247948565376,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4512885247948565376,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4512885247948565376,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4512885247948565376,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4512885247948565376,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031982665929461504,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031982665929461504,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031982665929461504,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031982665929461504,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2031982665929461504,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4320165285017783168,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4320165285017783168,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4320165285017783168,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4320165285017783168,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4320165285017783168,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2021540814501736320,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2021540814501736320,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2021540814501736320,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2021540814501736320,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2021540814501736320,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1979638838645769216,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1979638838645769216,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1979638838645769216,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1979638838645769216,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 1979638838645769216,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314393025132914944,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314393025132914944,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314393025132914944,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314393025132914944,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4314393025132914944,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4311113353708708864,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4311113353708708864,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4311113353708708864,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4311113353708708864,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4311113353708708864,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886787660255616,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886787660255616,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886787660255616,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886787660255616,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886787660255616,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886718970731648,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886718970731648,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886718970731648,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886718970731648,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 4505886718970731648,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2004103831357741696,
+    "label": "gorynya_cepheid",
+    "catalog": "III/229",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2004103831357741696,
+    "label": "borgniet_cepheid",
+    "catalog": "J/A+A/631/A37",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2004103831357741696,
+    "label": "crav",
+    "catalog": "J/AJ/150/13",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2004103831357741696,
+    "label": "cruz_reyes_cluster_cepheid",
+    "catalog": "J/A+A/672/A85",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  },
+  {
+    "source_id": 2004103831357741696,
+    "label": "rave_dr6",
+    "catalog": "III/283",
+    "status": "query_error",
+    "error": "AttributeError(\"'TableList' object has no attribute 'items'\")",
+    "tables": []
+  }
+]
