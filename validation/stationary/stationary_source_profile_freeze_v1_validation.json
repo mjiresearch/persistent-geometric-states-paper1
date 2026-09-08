@@ -1,0 +1,92 @@
+{
+  "status": "STATIONARY_SOURCE_PROFILE_FREEZE_V1_VALIDATION_PASS",
+  "n_checks": 14,
+  "n_pass": 14,
+  "all_pass": true,
+  "n_profiles": 34,
+  "n_grid_rows": 905,
+  "profile_role_counts": {
+    "calibration": 25,
+    "blind": 9
+  },
+  "evaluation_method_counts": {
+    "analytic_offcentered_gaussian_sum": 108,
+    "inner_constant": 23,
+    "measured_node": 3,
+    "outer_zero": 142,
+    "piecewise_linear": 629
+  },
+  "checks": [
+    {
+      "name": "exact_frozen_grid_keys",
+      "pass": true,
+      "detail": "master=905 hi=905 source=905"
+    },
+    {
+      "name": "exact_profile_membership_and_roles",
+      "pass": true,
+      "detail": "profiles=34 roles={'calibration': 25, 'blind': 9}"
+    },
+    {
+      "name": "frozen_grid_row_counts_match_master",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_nonnegative_hi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_gas_matches_hi_freeze",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "stellar_unit_ml_basis_matches_master",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "vobs_guard",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_profile_value_recalculation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "evaluation_method_semantics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "coverage_audit_matches_applied_methods",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_counts_match_products",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_output_hashes_match",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze_record_binds_output_hashes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "global_gate_remains_locked",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "boundary": "Independent source-construction validation only. No velocity value, residual, persistence prediction, model preference, L_A, C_A, tau_A, or blind outcome evaluated."
+}

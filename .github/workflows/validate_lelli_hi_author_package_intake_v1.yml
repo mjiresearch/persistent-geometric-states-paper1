@@ -1,0 +1,92 @@
+name: Validate Lelli H I author-package intake v1
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.gitignore'
+      - 'data/stationary/source_reconstruction/lelli_hi_profile_request_manifest_v1.csv'
+      - 'data/stationary/source_reconstruction/README.md'
+      - 'PROJECT_LEDGER.md'
+      - 'scripts/stationary/update_project_ledger_hi_checkpoint.py'
+      - 'scripts/stationary/validate_lelli_hi_author_package_v1.py'
+      - 'scripts/stationary/test_validate_lelli_hi_author_package_v1.py'
+      - 'validation/stationary/LELLI_HI_PROFILE_AUTHOR_PACKAGE_INTAKE_PROTOCOL_V1.md'
+      - 'validation/stationary/CURRENT_HI_ACQUISITION_RESUME_V1.md'
+      - 'validation/stationary/lelli_hi_author_package_intake_schema_v1.json'
+      - 'validation/stationary/lelli_hi_author_package_permission_record_template_v1.json'
+      - 'validation/stationary/lelli_hi_author_package_metadata_template_v1.csv'
+      - 'validation/stationary/lelli_hi_author_package_profiles_template_v1.csv'
+      - 'validation/stationary/lelli_hi_author_package_validator_v1_synthetic_validation.json'
+      - '.github/workflows/validate_lelli_hi_author_package_intake_v1.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile validator and synthetic test harness
+        run: |
+          python -m py_compile \
+            scripts/stationary/validate_lelli_hi_author_package_v1.py \
+            scripts/stationary/test_validate_lelli_hi_author_package_v1.py
+
+      - name: Run synthetic fail-closed validation
+        run: python scripts/stationary/test_validate_lelli_hi_author_package_v1.py
+
+      - name: Require exact frozen intake boundary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          result = json.loads(
+              Path(
+                  'validation/stationary/'
+                  'lelli_hi_author_package_validator_v1_synthetic_validation.json'
+              ).read_text()
+          )
+          assert result['status'] == 'LELLI_HI_AUTHOR_PACKAGE_VALIDATOR_V1_SYNTHETIC_PASS'
+          assert result['synthetic_only'] is True
+          assert result['n_cases'] == 14
+          assert result['n_pass'] == 14
+          assert result['all_pass'] is True
+          assert result['contract_sha256'] == (
+              '584e496f97417f07353adc9cd755c20951841ab70bb7b9518a4a209856ae4a28'
+          )
+          assert result['request_boundary'] == {
+              'n_request': 112,
+              'role_counts': {'calibration': 77, 'blind': 35},
+          }
+          assert result['request_manifest_sha256'] == (
+              'fb85c40db51782ff13367084b6bffc5517e8e60291ec427cced343639f394f6a'
+          )
+          PY
+
+      - name: Require deterministic validation artifact
+        run: |
+          git diff --exit-code -- \
+            validation/stationary/lelli_hi_author_package_validator_v1_synthetic_validation.json
+
+      - name: Preserve frozen ledger checkpoint against legacy updater
+        run: |
+          python scripts/stationary/update_project_ledger_hi_checkpoint.py
+          git diff --exit-code -- PROJECT_LEDGER.md
+
+      - name: Guard restricted input locations
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -E \
+            '^(data/stationary/restricted_author_inputs|validation/stationary/private_permission_records)/'; then
+            echo 'Restricted author input or private permission record is tracked.'
+            exit 1
+          fi

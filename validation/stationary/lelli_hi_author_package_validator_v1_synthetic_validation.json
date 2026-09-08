@@ -1,0 +1,89 @@
+{
+  "status": "LELLI_HI_AUTHOR_PACKAGE_VALIDATOR_V1_SYNTHETIC_PASS",
+  "synthetic_only": true,
+  "n_cases": 14,
+  "n_pass": 14,
+  "all_pass": true,
+  "contract_sha256": "584e496f97417f07353adc9cd755c20951841ab70bb7b9518a4a209856ae4a28",
+  "request_manifest_sha256": "fb85c40db51782ff13367084b6bffc5517e8e60291ec427cced343639f394f6a",
+  "request_boundary": {
+    "n_request": 112,
+    "role_counts": {
+      "calibration": 77,
+      "blind": 35
+    }
+  },
+  "checks": [
+    {
+      "name": "valid_partial_restricted_package",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_VALID"
+    },
+    {
+      "name": "valid_complete_112_profile_package",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_VALID"
+    },
+    {
+      "name": "permission_blocks_before_content",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_PERMISSION_BLOCKED"
+    },
+    {
+      "name": "restricted_package_rejected_in_repository",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_STORAGE_BLOCKED"
+    },
+    {
+      "name": "public_package_requires_explicit_override",
+      "pass": true,
+      "detail": "override_required_then_valid"
+    },
+    {
+      "name": "frozen_manifest_hash_enforced",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_MANIFEST_BLOCKED"
+    },
+    {
+      "name": "unknown_galaxy_rejected",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_METADATA_BLOCKED"
+    },
+    {
+      "name": "already_certified_galaxy_rejected",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_METADATA_BLOCKED"
+    },
+    {
+      "name": "stationary_role_mismatch_rejected",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_METADATA_BLOCKED"
+    },
+    {
+      "name": "metadata_header_enforced",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_METADATA_BLOCKED"
+    },
+    {
+      "name": "duplicate_radius_rejected",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_NUMERICAL_BLOCKED"
+    },
+    {
+      "name": "negative_surface_density_rejected",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_NUMERICAL_BLOCKED"
+    },
+    {
+      "name": "forbidden_outcome_header_blocks_value_read",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_NUMERICAL_BLOCKED"
+    },
+    {
+      "name": "uncertainty_convention_enforced",
+      "pass": true,
+      "detail": "LELLI_HI_AUTHOR_PACKAGE_INTAKE_NUMERICAL_BLOCKED"
+    }
+  ],
+  "boundary": "Synthetic schema and control-flow validation only. No author-supplied data, velocity, residual, persistence prediction, model preference, L_A, C_A, tau_A, or blind outcome was read or evaluated."
+}

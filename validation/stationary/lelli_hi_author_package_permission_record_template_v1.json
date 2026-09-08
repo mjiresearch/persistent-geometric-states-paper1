@@ -1,0 +1,16 @@
+{
+  "schema_version": "lelli_hi_author_package_permission_v1",
+  "template_only": true,
+  "record_status": "permission_pending",
+  "provider": "",
+  "date_received": "",
+  "data_use_authorized": false,
+  "source_files_redistribution_authorized": false,
+  "derived_profile_redistribution_authorized": false,
+  "public_metadata_authorized": false,
+  "hash_disclosure_authorized": false,
+  "citation": "",
+  "acknowledgement": "",
+  "conditions": "",
+  "permission_evidence_location": "OUTSIDE_PUBLIC_REPOSITORY"
+}

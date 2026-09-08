@@ -1,0 +1,27 @@
+{
+  "status": "CERTIFIED_HI_NORMALIZATION_MANIFEST_V3_COMPLETE",
+  "v2_baseline_certified": 33,
+  "new_galaxies": [
+    "NGC5033"
+  ],
+  "n_certified": 34,
+  "n_ready": 34,
+  "role_counts": {
+    "calibration": 25,
+    "blind": 9
+  },
+  "helium_mapping_counts": {
+    "raw_HI_to_common_1p33": 22,
+    "source_includes_1p36_to_common_1p33": 11,
+    "source_includes_1p4_to_common_1p33": 1
+  },
+  "radius_mapping_counts": {
+    "analytic_angular_scale_times_frozen_distance": 2,
+    "angular_radius_times_frozen_distance": 8,
+    "explicit_frozen_radius": 5,
+    "source_kpc_times_frozen_over_source_distance": 19
+  },
+  "policy": "validation/stationary/STATIONARY_HI_COMMON_NORMALIZATION_POLICY_V1.md",
+  "blind_source_protocol": "validation/stationary/FEASTS2025_BLIND_HI_SOURCE_ACQUISITION_PROTOCOL_V1.md",
+  "boundary": "Normalization metadata only. No profile interpolation, rotation velocity, L_A, C_A, tau_A, persistence prediction, or blind outcome evaluated."
+}
