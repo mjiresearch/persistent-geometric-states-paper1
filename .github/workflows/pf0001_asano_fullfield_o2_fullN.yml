@@ -1,0 +1,39 @@
+name: PF0001 Asano actual-field O2 full-N convergence
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/pf0001_asano_fullfield_o2_fullN.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  reconstruct:
+    strategy:
+      fail-fast: false
+      matrix:
+        n: [64, 96]
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade numpy scipy pandas
+      - name: Download and verify public Asano r19 archive
+        run: |
+          curl -L --fail --retry 12 --retry-all-errors --continue-at - -o r_19_0.npz 'https://zenodo.org/records/17175023/files/r_19_0.npz?download=1'
+          echo '8f395b85b7700272fce0a30c120149c0  r_19_0.npz' | md5sum -c -
+      - name: Reconstruct full-particle actual 3-D source field at ${{ matrix.n }} cubed
+        run: |
+          mkdir -p fields
+          python scratch/pf0001_asano_fullfield_o2_scan.py extract r_19_0.npz --start-gyr 1.50 --stop-gyr 2.9330 --stride 1 --ngrid ${{ matrix.n }} --half-size-kpc 15 --aperture-kpc 12 --softening-kpc 0.5 --eval-dt-myr 2.0 --kmax-kpc 1.0 --length-unit-kpc 50 --out fields/r${{ matrix.n }}_pre.npz
+          python scratch/pf0001_asano_fullfield_o2_scan.py extract r_19_0.npz --start-gyr 2.9432 --stop-gyr 4.00 --stride 1 --ngrid ${{ matrix.n }} --half-size-kpc 15 --aperture-kpc 12 --softening-kpc 0.5 --eval-dt-myr 2.0 --kmax-kpc 1.0 --length-unit-kpc 50 --out fields/r${{ matrix.n }}_post.npz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pf0001-asano-fullN-fields-${{ matrix.n }}
+          path: fields/*.npz
+          retention-days: 30
