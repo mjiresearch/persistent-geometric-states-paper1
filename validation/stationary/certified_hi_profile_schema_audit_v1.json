@@ -1,11 +1,11 @@
 {
   "status": "CERTIFIED_HI_PROFILE_SCHEMA_AUDIT_COMPLETE",
-  "n_certified_galaxies": 33,
+  "n_certified_galaxies": 34,
   "role_counts": {
     "calibration": 25,
-    "blind": 8
+    "blind": 9
   },
-  "n_unique_artifacts": 15,
+  "n_unique_artifacts": 16,
   "artifacts": [
     {
       "artifact": "data/stationary/source_reconstruction/begum_chengalur_analytic_profile_parameters_v1.csv",
@@ -284,6 +284,65 @@
       "galaxy_column": "galaxy",
       "unique_galaxy_values": [
         "NGC4559"
+      ]
+    },
+    {
+      "artifact": "data/stationary/source_reconstruction/feasts2025_ngc5033_hi_profile_raw_v1.csv",
+      "exists": true,
+      "galaxies": [
+        "NGC5033"
+      ],
+      "roles": [
+        "blind"
+      ],
+      "statuses": [
+        "raw_source_profile_ingested"
+      ],
+      "n_rows": 50,
+      "columns": [
+        "galaxy",
+        "stationary_role",
+        "source",
+        "radius_arcsec",
+        "radius_kpc_source_distance",
+        "radius_kpc_frozen_distance",
+        "sigma_hi_raw_msun_pc2",
+        "source_distance_mpc",
+        "source_distance_implied_by_radii_mpc",
+        "frozen_distance_mpc",
+        "helium_included"
+      ],
+      "sample_rows": [
+        {
+          "galaxy": "NGC5033",
+          "stationary_role": "blind",
+          "source": "Wang et al. 2025 FEASTS HIprof_wang25.ecsv",
+          "radius_arcsec": "45",
+          "radius_kpc_source_distance": "4.03402777777778",
+          "radius_kpc_frozen_distance": "3.42520865703887",
+          "sigma_hi_raw_msun_pc2": "6.95228624817149",
+          "source_distance_mpc": "18.5",
+          "source_distance_implied_by_radii_mpc": "18.4906212884164",
+          "frozen_distance_mpc": "15.7",
+          "helium_included": "0"
+        },
+        {
+          "galaxy": "NGC5033",
+          "stationary_role": "blind",
+          "source": "Wang et al. 2025 FEASTS HIprof_wang25.ecsv",
+          "radius_arcsec": "105.952124144829",
+          "radius_kpc_source_distance": "9.49808470921781",
+          "radius_kpc_frozen_distance": "8.0646251745006",
+          "sigma_hi_raw_msun_pc2": "6.38461662828244",
+          "source_distance_mpc": "18.5",
+          "source_distance_implied_by_radii_mpc": "18.4906212884164",
+          "frozen_distance_mpc": "15.7",
+          "helium_included": "0"
+        }
+      ],
+      "galaxy_column": "galaxy",
+      "unique_galaxy_values": [
+        "NGC5033"
       ]
     },
     {

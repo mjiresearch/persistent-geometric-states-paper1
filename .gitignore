@@ -206,6 +206,11 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# Restricted author-supplied stationary inputs and private permission records.
+# Keep actual packages outside the public repository; these are defensive guards.
+data/stationary/restricted_author_inputs/
+validation/stationary/private_permission_records/
+
 # PyPI configuration file
 .pypirc
 

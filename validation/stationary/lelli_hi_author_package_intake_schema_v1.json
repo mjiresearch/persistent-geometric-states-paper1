@@ -1,0 +1,169 @@
+{
+  "status": "FROZEN_BEFORE_AUTHOR_PACKAGE_RECEIPT",
+  "schema_version": "lelli_hi_author_package_intake_v1",
+  "frozen_date": "2026-08-14",
+  "request_manifest": {
+    "path": "data/stationary/source_reconstruction/lelli_hi_profile_request_manifest_v1.csv",
+    "sha256": "fb85c40db51782ff13367084b6bffc5517e8e60291ec427cced343639f394f6a",
+    "n_frozen": 149,
+    "n_request": 112,
+    "request_role_counts": {
+      "calibration": 77,
+      "blind": 35
+    },
+    "n_already_certified_no_request": 34,
+    "n_reported_unavailable_no_request": 3
+  },
+  "permission_record": {
+    "schema_version": "lelli_hi_author_package_permission_v1",
+    "required_exact_fields": [
+      "schema_version",
+      "template_only",
+      "record_status",
+      "provider",
+      "date_received",
+      "data_use_authorized",
+      "source_files_redistribution_authorized",
+      "derived_profile_redistribution_authorized",
+      "public_metadata_authorized",
+      "hash_disclosure_authorized",
+      "citation",
+      "acknowledgement",
+      "conditions",
+      "permission_evidence_location"
+    ],
+    "allowed_record_statuses": [
+      "permission_pending",
+      "use_not_authorized",
+      "authorized_restricted",
+      "authorized_public_redistribution"
+    ],
+    "authorized_record_statuses": [
+      "authorized_restricted",
+      "authorized_public_redistribution"
+    ]
+  },
+  "metadata_csv": {
+    "required_exact_header": [
+      "galaxy",
+      "stationary_role",
+      "source_galaxy_id",
+      "profile_rows_expected",
+      "radius_unit",
+      "surface_density_unit",
+      "helium_convention",
+      "helium_multiplier_relative_to_raw_hi",
+      "source_distance_mpc",
+      "source_inclination_deg",
+      "inclination_treatment",
+      "beam_description",
+      "radial_sampling_description",
+      "uncertainty_convention",
+      "uncertainty_description",
+      "source_citation",
+      "source_profile_reference",
+      "numerical_value_state"
+    ],
+    "allowed_values": {
+      "stationary_role": [
+        "calibration",
+        "blind"
+      ],
+      "radius_unit": [
+        "arcsec",
+        "arcmin",
+        "kpc_at_source_distance"
+      ],
+      "surface_density_unit": [
+        "Msun_pc^-2"
+      ],
+      "helium_convention": [
+        "raw_hi",
+        "includes_1p33",
+        "includes_1p36",
+        "includes_1p4"
+      ],
+      "inclination_treatment": [
+        "source_profile_deprojected",
+        "source_profile_face_on_by_construction"
+      ],
+      "uncertainty_convention": [
+        "symmetric_1sigma",
+        "asymmetric_1sigma",
+        "other_documented",
+        "not_provided"
+      ],
+      "numerical_value_state": [
+        "source_values_unmodified"
+      ]
+    },
+    "helium_multiplier_by_convention": {
+      "raw_hi": 1.0,
+      "includes_1p33": 1.33,
+      "includes_1p36": 1.36,
+      "includes_1p4": 1.4
+    },
+    "required_nonempty_fields": [
+      "galaxy",
+      "stationary_role",
+      "source_galaxy_id",
+      "profile_rows_expected",
+      "radius_unit",
+      "surface_density_unit",
+      "helium_convention",
+      "helium_multiplier_relative_to_raw_hi",
+      "source_distance_mpc",
+      "source_inclination_deg",
+      "inclination_treatment",
+      "beam_description",
+      "radial_sampling_description",
+      "uncertainty_convention",
+      "uncertainty_description",
+      "source_citation",
+      "source_profile_reference",
+      "numerical_value_state"
+    ]
+  },
+  "profiles_csv": {
+    "required_exact_header": [
+      "galaxy",
+      "sample_index",
+      "radius_value",
+      "sigma_source_msun_pc2",
+      "sigma_err_minus_msun_pc2",
+      "sigma_err_plus_msun_pc2"
+    ],
+    "forbidden_normalized_header_tokens": [
+      "vobs",
+      "vobserved",
+      "observedvelocity",
+      "modelvelocity",
+      "sourcecurrent",
+      "residual",
+      "persistence",
+      "prediction",
+      "likelihood",
+      "chi2",
+      "la",
+      "ca",
+      "taua",
+      "fitscore"
+    ]
+  },
+  "numerical_rules": {
+    "minimum_rows_per_profile": 2,
+    "sample_index_origin": 0,
+    "sample_indices_must_be_contiguous": true,
+    "radius_must_be_finite_nonnegative_and_strictly_increasing": true,
+    "surface_density_must_be_finite_and_nonnegative": true,
+    "uncertainty_pair_must_be_both_blank_or_both_finite_nonnegative": true,
+    "symmetric_uncertainties_must_match": true,
+    "no_sorting_interpolation_continuation_or_normalization_at_intake": true
+  },
+  "report_policy": {
+    "restricted_reports_omit_membership_and_package_hashes_unless_authorized": true,
+    "numerical_values_are_never_copied_to_the_report": true,
+    "permission_evidence_is_never_copied_to_the_report": true
+  },
+  "boundary": "Source acquisition and provenance only. No normalization, interpolation, continuation, source-current evaluation, velocity, residual, persistence prediction, model preference, L_A, C_A, tau_A, or blind outcome is evaluated. Version 1 remains immutable and the global source gate remains locked."
+}

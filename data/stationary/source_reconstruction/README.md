@@ -48,14 +48,13 @@ Yasin & Desmond (2025, MNRAS 539, 2110; DOI 10.1093/mnras/staf453) report using 
 
 The primary analysis preference is to use independently sourced/direct radial H I profiles with documented provenance rather than infer `Sigma_HI(R)` from the published `Vgas(R)` curve.
 
-A pre-fit availability audit identifies four systems in the frozen 149-galaxy stationary sample for which the working direct-profile compilation does not currently provide a profile:
+A pre-fit availability audit identifies three systems in the frozen 149-galaxy stationary sample that are reported absent from the 169-profile compilation:
 
 - D564-8
 - D631-7
 - NGC4138
-- NGC5907
 
-The current primary direct-profile target is therefore 145 galaxies, while preserving the already-frozen calibration/blind role of every retained galaxy.
+NGC5907 was subsequently recovered from a public direct-profile route. The current private-compilation request covers 112 galaxies; 34 additional galaxies are already certified from public profiles. The current direct-profile target is therefore 146 galaxies, while preserving the already-frozen calibration/blind role of every retained galaxy.
 
 No persistence fit is permitted to determine how missing-profile systems are handled. A secondary inversion/reconstruction method, if used, must be declared and validated on galaxies possessing direct profiles before any blind persistence result is inspected.
 
@@ -71,6 +70,8 @@ If radial H I profiles are supplied privately:
 
 See the repository-level [`DATA_POLICY.md`](../../../DATA_POLICY.md) for the full policy.
 
+The frozen pre-receipt intake authority is [`LELLI_HI_PROFILE_AUTHOR_PACKAGE_INTAKE_PROTOCOL_V1.md`](../../../validation/stationary/LELLI_HI_PROFILE_AUTHOR_PACKAGE_INTAKE_PROTOCOL_V1.md). Its validator checks an external permission record before opening profile metadata or numerical content, binds membership to the current 112-profile request-manifest hash, and rejects restricted inputs placed inside the public repository.
+
 ## Source-current velocity
 
 The primary stationary source current uses the self-consistent model velocity:
@@ -81,8 +82,8 @@ The primary stationary source current uses the self-consistent model velocity:
 
 ## Current products
 
-The source-reconstruction directory and validation records contain the pre-fit source basis, profile-availability/provenance records, and build summaries. These are observational/source-construction products only; they do not contain fitted `L_A`, `C_A`, or `tau_A` values.
+The source-reconstruction directory and validation records contain the pre-fit source basis, profile-availability/provenance records, common-normalized public subset, request manifest, and author-package intake contract. These are observational/source-construction products only; they do not contain fitted `L_A`, `C_A`, or `tau_A` values.
 
 ## Freeze rule
 
-This directory remains in the **source-reconstruction stage**, not the final source-profile freeze. The final `Sigma_HI(R)`, `Sigma_gas(R)`, `Sigma_b(R)`, interpolation/continuation rules, and source-current products will receive a separate versioned freeze record before stationary persistence fitting begins.
+The certified 34-profile public subset is frozen immutably as version 1 under `validation/stationary/STATIONARY_SOURCE_PROFILE_FREEZE_V1.md`. It is not the complete 149-galaxy source package and does not unlock persistence fitting. Any authorized author-supplied profiles must enter a new normalization, support audit, and source-profile freeze version; version 1 is never rewritten.

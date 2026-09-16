@@ -2,7 +2,9 @@
 """Insert/replace the current stationary H I database checkpoint in PROJECT_LEDGER.md.
 
 The checkpoint is generated from the current durable acquisition products rather
-than hard-coded counts, so GitHub remains the cross-session source of truth.
+than hard-coded counts, so GitHub remains the cross-session source of truth. Once
+the certified source subset and pre-receipt author intake contract exist, the
+legacy acquisition updater preserves that newer manually reconciled checkpoint.
 """
 from __future__ import annotations
 
@@ -16,6 +18,27 @@ PRIORITY=Path("validation/stationary/sparc_hi_reference_family_priority_v1_summa
 DISP=Path("data/stationary/source_reconstruction/sparc_hi_reference_family_disposition_v1.csv")
 START="<!-- AUTO-STATIONARY-HI-CHECKPOINT-START -->"
 END="<!-- AUTO-STATIONARY-HI-CHECKPOINT-END -->"
+
+CERTIFIED_FREEZE=Path("validation/stationary/STATIONARY_SOURCE_PROFILE_FREEZE_V1.md")
+AUTHOR_INTAKE=Path("validation/stationary/LELLI_HI_PROFILE_AUTHOR_PACKAGE_INTAKE_PROTOCOL_V1.md")
+AUTHOR_INTAKE_VALIDATION=Path("validation/stationary/lelli_hi_author_package_validator_v1_synthetic_validation.json")
+
+if CERTIFIED_FREEZE.is_file() and AUTHOR_INTAKE.is_file() and AUTHOR_INTAKE_VALIDATION.is_file():
+    current=P.read_text(encoding="utf-8")
+    required_markers=(
+        "AUTHOR-PACKAGE INTAKE CONTRACT FROZEN",
+        "112-galaxy author request",
+        "frozen fail-closed intake validator",
+        "14/14",
+    )
+    missing=[marker for marker in required_markers if marker not in current]
+    if missing:
+        raise RuntimeError(
+            "refusing to replace the frozen certified/intake checkpoint; "
+            f"PROJECT_LEDGER.md is missing markers: {missing}"
+        )
+    print("Preserved certified-subset and author-intake ledger checkpoint")
+    raise SystemExit(0)
 
 recon=json.loads(RECON.read_text(encoding="utf-8"))
 priority=json.loads(PRIORITY.read_text(encoding="utf-8"))
