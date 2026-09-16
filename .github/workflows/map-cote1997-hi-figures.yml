@@ -1,0 +1,36 @@
+name: Map Cote 1997 HI figures
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  map:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and map old-style TeX figures
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/cotemap/src /tmp/cotemap/out
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/cotemap/source.tar https://arxiv.org/e-print/astro-ph/9704031
+          tar -xf /tmp/cotemap/source.tar -C /tmp/cotemap/src
+          python - <<'PY'
+          from pathlib import Path
+          import re,csv
+          tex='\n'.join(p.read_text(errors='ignore') for p in Path('/tmp/cotemap/src').rglob('*.tex'))
+          blocks=re.findall(r'\\begin\{figure\*?\}.*?\\end\{figure\*?\}',tex,re.S|re.I)
+          rows=[]
+          for i,b in enumerate(blocks):
+              files=re.findall(r'(?:epsffile|includegraphics)(?:\[[^\]]*\])?\{?([^}\s]+)',b,re.I)
+              cap=re.search(r'\\caption(?:\[[^\]]*\])?\{(.*?)\}',b,re.S|re.I)
+              captxt=re.sub(r'\\[A-Za-z]+|[{}]',' ',cap.group(1) if cap else '')
+              captxt=re.sub(r'\s+',' ',captxt).strip()
+              rows.append((i,';'.join(files),captxt))
+          with open('/tmp/cotemap/out/figure_map_full.csv','w',newline='') as f:
+              w=csv.writer(f); w.writerow(['block','files','caption']); w.writerows(rows)
+          Path('/tmp/cotemap/out/source_text_hits.txt').write_text('\n'.join(line for line in tex.splitlines() if any(k in line.upper() for k in ['DDO 161','DDO 170','NGC 55','NGC0055','UGCA 442','SURFACE DENSITY','H I SURFACE','HI SURFACE'])))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cote1997-figure-map
+          path: /tmp/cotemap/out

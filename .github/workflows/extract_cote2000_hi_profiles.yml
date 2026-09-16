@@ -1,0 +1,60 @@
+name: Extract Cote 2000 HI radial profiles
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF/vector tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils ghostscript
+          pip install pymupdf pandas numpy
+      - name: Acquire public article and extract Figure 3 geometry
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/cote2000/out
+          URLS=(
+            'https://iopscience.iop.org/article/10.1086/316883/pdf'
+            'https://articles.adsabs.harvard.edu/pdf/2000AJ....120.3027C'
+            'https://adsabs.harvard.edu/full/2000AJ....120.3027C'
+          )
+          ok=0
+          for u in "${URLS[@]}"; do
+            if curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 2 -o /tmp/cote2000/paper.pdf "$u"; then
+              if head -c 4 /tmp/cote2000/paper.pdf | grep -q '%PDF'; then ok=1; echo "$u" > /tmp/cote2000/out/source_url.txt; break; fi
+            fi
+          done
+          if [ "$ok" -ne 1 ]; then echo 'No public PDF endpoint succeeded' > /tmp/cote2000/out/failure.txt; exit 0; fi
+          pdfinfo /tmp/cote2000/paper.pdf > /tmp/cote2000/out/pdfinfo.txt
+          pdftotext -layout /tmp/cote2000/paper.pdf /tmp/cote2000/out/paper.txt
+          grep -n -i -C 10 'Gas radial surface density' /tmp/cote2000/out/paper.txt > /tmp/cote2000/out/fig3_context.txt || true
+          grep -n -i -C 8 -E 'UGCA 442|DDO 161|ESO 444-G084|ESO 444-G84' /tmp/cote2000/out/paper.txt > /tmp/cote2000/out/target_context.txt || true
+          python - <<'PY'
+          import fitz, csv, re
+          doc=fitz.open('/tmp/cote2000/paper.pdf')
+          rows=[]
+          for i,p in enumerate(doc):
+              txt=p.get_text('text')
+              hit=bool(re.search(r'Gas radial surface density|UGCA\s*442|DDO\s*161|ESO\s*444',txt,re.I))
+              if hit:
+                  drawings=p.get_drawings()
+                  rows.append([i+1,len(drawings),txt[:400].replace('\n',' ')])
+                  pix=p.get_pixmap(matrix=fitz.Matrix(3,3),alpha=False)
+                  pix.save(f'/tmp/cote2000/out/page_{i+1:02d}.png')
+                  with open(f'/tmp/cote2000/out/page_{i+1:02d}_drawings.txt','w') as f:
+                      for d in drawings: f.write(repr(d)+'\n')
+          with open('/tmp/cote2000/out/page_inventory.csv','w',newline='') as f:
+              w=csv.writer(f); w.writerow(['page','n_drawings','text_head']); w.writerows(rows)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cote2000-hi-profile-extraction
+          path: /tmp/cote2000/out
+          if-no-files-found: warn

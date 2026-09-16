@@ -1,0 +1,80 @@
+name: Audit next verified HI literature blocks
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/audit_next_hi_literature_blocks.yml'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils ghostscript
+          pip install pandas requests
+      - name: Audit Cote 2000, van Zee 1997, van der Hulst 1993
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/blocks/{cote2000,vanzee1997,vanderhulst1993}/src /tmp/blocks/out
+          # Cote 2000: try arXiv/ADS-discoverable source variants, then ANU public repository PDF/item.
+          for id in astro-ph/0012025 astro-ph/0012026 astro-ph/0012027; do
+            if curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail -sS -o /tmp/blocks/cote2000/source.tar "https://arxiv.org/e-print/$id"; then
+              if tar -tf /tmp/blocks/cote2000/source.tar >/dev/null 2>&1; then tar -xf /tmp/blocks/cote2000/source.tar -C /tmp/blocks/cote2000/src; echo "$id" > /tmp/blocks/out/cote_arxiv_id.txt; break; fi
+            fi
+          done
+          curl -A 'Mozilla/5.0' -L -sS -o /tmp/blocks/cote2000/anu.html 'https://openresearch-repository.anu.edu.au/items/33c6d420-c91a-4cfe-88f4-c77f61230774' || true
+
+          # van der Hulst 1993 public Case final-publisher item/page and PDF endpoint.
+          curl -A 'Mozilla/5.0' -L -sS -o /tmp/blocks/vanderhulst1993/page.html 'https://commons.case.edu/facultyworks/805/' || true
+          curl -A 'Mozilla/5.0' -e 'https://commons.case.edu/facultyworks/805/' -L -sS -o /tmp/blocks/vanderhulst1993/paper.pdf 'https://commons.case.edu/cgi/viewcontent.cgi?article=1808&context=facultyworks' || true
+
+          # van Zee 1997 AJ 113,1618: probe ADS/IOP/Cornell-style public PDF routes.
+          urls=(
+            'https://articles.adsabs.harvard.edu/pdf/1997AJ....113.1618V'
+            'https://iopscience.iop.org/article/10.1086/118380/pdf'
+          )
+          for u in "${urls[@]}"; do
+            if curl -A 'Mozilla/5.0' -L --fail -sS -o /tmp/blocks/vanzee1997/paper.pdf "$u"; then
+              if head -c4 /tmp/blocks/vanzee1997/paper.pdf | grep -q '%PDF'; then echo "$u" > /tmp/blocks/out/vanzee_source_url.txt; break; fi
+            fi
+          done
+
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd,re,csv,subprocess
+          master=pd.read_csv('data/stationary/frozen/stationary_master_v1.csv')
+          gals=sorted(master.galaxy.unique())
+          def variants(g):
+              c=re.sub(r'[^A-Z0-9]','',g.upper())
+              return {c,re.sub(r'^(UGC|NGC|IC|DDO|UGCA)0+',r'\1',c)}
+          def scan(label,root):
+              files=[p for p in Path(root).rglob('*') if p.is_file()]
+              text=''
+              for p in files:
+                  if p.suffix.lower() in ['.tex','.txt','.html','.htm','.ps','.eps']:
+                      text+='\n'+p.read_bytes().decode('latin1','ignore')
+                  elif p.suffix.lower()=='.pdf' and p.stat().st_size>10000 and p.read_bytes()[:4]==b'%PDF':
+                      out=Path('/tmp')/(label+'.txt'); subprocess.run(['pdftotext','-layout',str(p),str(out)],check=False)
+                      if out.exists(): text+='\n'+out.read_text(errors='ignore')
+              norm=re.sub(r'[^A-Z0-9]','',text.upper())
+              hits=[g for g in gals if any(v and v in norm for v in variants(g))]
+              pd.DataFrame({'galaxy':hits}).to_csv(f'/tmp/blocks/out/{label}_frozen_hits.csv',index=False)
+              with open(f'/tmp/blocks/out/{label}_inventory.csv','w',newline='') as f:
+                  w=csv.writer(f); w.writerow(['file','bytes']);
+                  for p in files:w.writerow([str(p.relative_to(root)),p.stat().st_size])
+              print(label,hits)
+          scan('cote2000','/tmp/blocks/cote2000')
+          scan('vanzee1997','/tmp/blocks/vanzee1997')
+          scan('vanderhulst1993','/tmp/blocks/vanderhulst1993')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: next-hi-literature-blocks-audit
+          path: /tmp/blocks/out

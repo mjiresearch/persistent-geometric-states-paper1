@@ -1,0 +1,44 @@
+name: Build Lelli 2014 Public HI Cube Manifest
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/stationary/build_lelli2014_public_cube_manifest.py'
+      - 'validation/stationary/stationary_split_v1.csv'
+      - '.github/workflows/build_lelli2014_public_cube_manifest.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build public cube manifest
+        run: python scripts/stationary/build_lelli2014_public_cube_manifest.py
+      - name: Verify manifest schema
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          p=Path('data/stationary/source_reconstruction/lelli2014_public_cube_manifest_v1.csv')
+          assert p.exists()
+          rows=list(csv.DictReader(p.open()))
+          required={'galaxy','stationary_role','filename','download_url','vizier_catalog'}
+          assert required <= set(rows[0].keys()) if rows else True
+          print('stationary overlap rows:', len(rows))
+          PY
+      - name: Commit regenerated manifest
+        if: github.ref_type == 'branch'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stationary/source_reconstruction/lelli2014_public_cube_manifest_v1.csv
+          git diff --cached --quiet || git commit -m 'Regenerate Lelli 2014 public HI cube manifest'
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"

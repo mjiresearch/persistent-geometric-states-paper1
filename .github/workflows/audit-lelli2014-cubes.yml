@@ -1,0 +1,65 @@
+name: Audit Lelli 2014 HI cubes
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/audit-lelli2014-cubes.yml'
+      - 'data/stationary/source_reconstruction/lelli2014_public_cube_manifest_v1.csv'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install numpy astropy pandas
+      - name: Download public cubes
+        run: |
+          mkdir -p /tmp/lelli
+          python - <<'PY'
+          import csv, pathlib, urllib.request
+          rows=list(csv.DictReader(open('data/stationary/source_reconstruction/lelli2014_public_cube_manifest_v1.csv')))
+          for r in rows:
+              p=pathlib.Path('/tmp/lelli')/r['filename']
+              urllib.request.urlretrieve(r['download_url'],p)
+              print(r['galaxy'], p, p.stat().st_size)
+          PY
+      - name: Audit headers blanking and noise structure
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from astropy.io import fits
+          import numpy as np, csv
+          out=[]
+          for p in sorted(Path('/tmp/lelli').glob('*.FIT')):
+              with fits.open(p,memmap=True) as hd:
+                  h=hd[0].header; x=np.asarray(hd[0].data,dtype=float).squeeze()
+                  hist=h.get('HISTORY',[]); hist=[hist] if isinstance(hist,str) else list(hist)
+              finite=np.isfinite(x); nz=finite&(x!=0); pos=finite&(x>0); neg=finite&(x<0)
+              # Estimate channel RMS robustly from central 80% of channels, using MAD around zero.
+              flat=x[np.isfinite(x)]
+              med=float(np.nanmedian(flat)); mad=float(np.nanmedian(np.abs(flat-med))); rms=1.4826*mad
+              per=[]
+              for k in range(x.shape[0]):
+                  a=x[k]; f=np.isfinite(a)
+                  if not f.any(): per.append((k,0,np.nan,np.nan,np.nan)); continue
+                  z=a[f]; m=float(np.nanmedian(z)); md=float(np.nanmedian(np.abs(z-m))); per.append((k,int(f.sum()),m,1.4826*md,float(np.mean(z==0))))
+              print('\nFILE',p.name,'shape',x.shape)
+              for key in ['BUNIT','BMAJ','BMIN','BPA','CDELT1','CDELT2','CDELT3','CRVAL3','CRPIX3','CTYPE3','CUNIT3','RESTFRQ','RESTFREQ','SPECSYS','OBJECT']:
+                  print(key,repr(h.get(key)))
+              print('finite_fraction',finite.mean(),'zero_fraction_finite',float(np.mean(x[finite]==0)),'positive_fraction',pos.mean(),'negative_fraction',neg.mean(),'global_median',med,'robust_rms',rms)
+              print('channel_first_mid_last',per[0],per[len(per)//2],per[-1])
+              print('HISTORY_MATCHES')
+              for s in hist:
+                  if any(q in str(s).lower() for q in ['mask','blank','clip','smooth','clean','moment','threshold']): print(str(s))
+              out.append({'file':p.name,'shape':'x'.join(map(str,x.shape)),'BUNIT':h.get('BUNIT',''),'CUNIT3':h.get('CUNIT3',''),'CTYPE3':h.get('CTYPE3',''),'finite_fraction':finite.mean(),'zero_fraction_finite':float(np.mean(x[finite]==0)),'positive_fraction':pos.mean(),'negative_fraction':neg.mean(),'global_median':med,'robust_rms':rms,'history_mask_terms':sum(any(q in str(s).lower() for q in ['mask','blank','clip','threshold']) for s in hist)})
+          with open('/tmp/lelli/lelli2014_cube_audit.csv','w',newline='') as f:
+              w=csv.DictWriter(f,fieldnames=out[0].keys());w.writeheader();w.writerows(out)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lelli2014-cube-audit
+          path: /tmp/lelli/lelli2014_cube_audit.csv

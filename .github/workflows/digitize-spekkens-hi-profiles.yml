@@ -1,0 +1,142 @@
+name: Digitize Spekkens HI radial profiles
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/digitize-spekkens-hi-profiles.yml'
+
+jobs:
+  digitize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript
+          pip install numpy pandas pillow opencv-python-headless
+      - name: Digitize averaged panel-d HI profiles
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/spekkens_digitize/src /tmp/spekkens_digitize/out
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 -o /tmp/spekkens_digitize/source.tar https://arxiv.org/e-print/astro-ph/0605542
+          tar -xf /tmp/spekkens_digitize/source.tar -C /tmp/spekkens_digitize/src
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess, re, math
+          import numpy as np
+          import pandas as pd
+          import cv2
+          from PIL import Image
+
+          # Figure assignments and axis geometry were verified against the publication source.
+          # Pixel boxes below refer to Ghostscript 216-dpi renderings of the EPS pages.
+          cfg = {
+              'IC4202':   {'eps':'f8s.eps',  'box':(837,1858,1364,2375), 'xmax_arcsec':90.0,  'ymax':12.0},
+              'NGC2955':  {'eps':'f7s.eps',  'box':(854,1852,1380,2367), 'xmax_arcsec':120.0, 'ymax':20.0},
+              'NGC6195':  {'eps':'f9s.eps',  'box':(898,1857,1423,2375), 'xmax_arcsec':80.0,  'ymax':18.0},
+              'UGC11455': {'eps':'f10s.eps', 'box':(838,1853,1360,2371), 'xmax_arcsec':150.0, 'ymax':9.0},
+          }
+
+          master = pd.read_csv('data/stationary/frozen/stationary_master_v1.csv')
+          outrows=[]; qc=[]
+
+          def rdp(points, eps):
+              if len(points)<3: return points
+              a=np.asarray(points[0],float); b=np.asarray(points[-1],float)
+              p=np.asarray(points,float)
+              ab=b-a
+              if np.dot(ab,ab)==0:
+                  d=np.linalg.norm(p-a,axis=1)
+              else:
+                  t=np.clip(((p-a)@ab)/np.dot(ab,ab),0,1)
+                  proj=a+t[:,None]*ab
+                  d=np.linalg.norm(p-proj,axis=1)
+              i=int(np.argmax(d)); dmax=float(d[i])
+              if dmax>eps:
+                  left=rdp(points[:i+1],eps); right=rdp(points[i:],eps)
+                  return left[:-1]+right
+              return [points[0],points[-1]]
+
+          for gal,c in cfg.items():
+              eps=Path('/tmp/spekkens_digitize/src')/c['eps']
+              png=Path('/tmp/spekkens_digitize')/(gal+'.png')
+              subprocess.run(['gs','-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pnggray','-r216',f'-sOutputFile={png}',str(eps)],check=True)
+              arr=np.array(Image.open(png).convert('L'))
+              x0,y0,x1,y1=c['box']
+              roi=arr[y0:y1+1,x0:x1+1]
+              H,W=roi.shape
+              y_one=(H-1)*(1.0-1.0/c['ymax'])
+              trace=[]
+              for x in range(7,W-7):
+                  col=roi[:,x]
+                  m=col<110
+                  m[:8]=False; m[-8:]=False
+                  yi=int(round(y_one)); m[max(0,yi-5):min(H,yi+6)]=False
+                  inds=np.flatnonzero(m)
+                  if len(inds)==0: continue
+                  groups=np.split(inds,np.where(np.diff(inds)>1)[0]+1)
+                  centers=[]
+                  for gr in groups:
+                      if 1 <= len(gr) <= 16:
+                          cy=float(gr.mean())
+                          if x<70 and cy<80: # panel label / top-left text
+                              continue
+                          centers.append(cy)
+                  if not centers: continue
+                  trace.append((float(x), float(np.median(centers))))
+              if len(trace)<100:
+                  raise RuntimeError(f'{gal}: insufficient trace points {len(trace)}')
+              t=pd.DataFrame(trace,columns=['x','y'])
+              t['y']=t['y'].rolling(9,center=True,min_periods=1).median().rolling(9,center=True,min_periods=1).mean()
+              # Restrict to physical interior and simplify to publication-resolution polyline.
+              t=t[(t.x>=8)&(t.x<=W-9)].copy()
+              pts=list(map(tuple,t[['x','y']].to_numpy()))
+              simp=rdp(pts,2.0)
+              d=float(master.loc[master.galaxy.eq(gal),'distance_mpc'].iloc[0])
+              radii=master.loc[master.galaxy.eq(gal),'radius_kpc'].to_numpy(float)
+              pix_dx=(W-1)
+              pix_dy=(H-1)
+              rows=[]
+              for x,y in simp:
+                  theta_arcsec=(x/pix_dx)*c['xmax_arcsec']
+                  sigma=(1.0-y/pix_dy)*c['ymax']
+                  # angular radius at frozen SPARC distance; 1 arcsec = D*1e3/206265 kpc
+                  r_kpc=theta_arcsec*d*1000.0/206265.0
+                  rows.append((theta_arcsec,r_kpc,max(0.0,sigma),x,y))
+              # Enforce monotonic radius and deduplicate.
+              rr=pd.DataFrame(rows,columns=['radius_arcsec','radius_kpc','sigma_hi_msun_pc2','pixel_x','pixel_y']).sort_values('radius_kpc')
+              rr=rr.drop_duplicates('radius_kpc')
+              # Conservative figure-digitization uncertainties: 2 px in each axis.
+              rr['radius_err_kpc']=2.0/pix_dx*c['xmax_arcsec']*d*1000.0/206265.0
+              rr['sigma_hi_err_msun_pc2']=2.0/pix_dy*c['ymax']
+              rr['galaxy']=gal
+              rr['source']='Spekkens & Giovanelli 2006, panel d average points/trace'
+              rr['method']='publication_figure_digitization_median_trace_rdp2px'
+              rr['distance_mpc_frozen']=d
+              rr.to_csv(f'/tmp/spekkens_digitize/out/{gal}_spekkens2006_hi_profile.csv',index=False)
+              for _,r in rr.iterrows():
+                  outrows.append(r.to_dict())
+              rmin=float(rr.radius_kpc.min()); rmax=float(rr.radius_kpc.max())
+              covered=((radii>=rmin)&(radii<=rmax))
+              # Estimate outer 1 Msun/pc2 crossing from simplified profile.
+              cross=np.nan
+              xarr=rr.radius_kpc.to_numpy(float); yarr=rr.sigma_hi_msun_pc2.to_numpy(float)
+              for i in range(len(yarr)-1):
+                  if (yarr[i]-1)*(yarr[i+1]-1)<=0 and yarr[i]!=yarr[i+1]:
+                      cross=xarr[i]+(1-yarr[i])*(xarr[i+1]-xarr[i])/(yarr[i+1]-yarr[i])
+              qc.append({'galaxy':gal,'distance_mpc_frozen':d,'n_digitized_vertices':len(rr),'rmin_kpc':rmin,'rmax_kpc':rmax,
+                         'n_sparc_points':len(radii),'n_sparc_covered':int(covered.sum()),'coverage_fraction':float(covered.mean()),
+                         'outer_sigma1_crossing_kpc':cross,'status':'candidate_qc_not_yet_promoted'})
+          pd.DataFrame(outrows).to_csv('/tmp/spekkens_digitize/out/spekkens2006_digitized_profiles_all.csv',index=False)
+          pd.DataFrame(qc).to_csv('/tmp/spekkens_digitize/out/spekkens2006_digitization_qc.csv',index=False)
+          print(pd.DataFrame(qc).to_string(index=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: spekkens2006-digitized-hi-profiles
+          path: /tmp/spekkens_digitize/out/*

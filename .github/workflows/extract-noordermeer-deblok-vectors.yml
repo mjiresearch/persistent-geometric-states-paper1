@@ -1,0 +1,63 @@
+name: Extract Noordermeer and de Blok HI vectors
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/extract-noordermeer-deblok-vectors.yml'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PostScript tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ghostscript poppler-utils
+      - name: Download source archives and preserve profile graphics
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/vector_extract/noordermeer /tmp/vector_extract/deblok
+
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 \
+            -o /tmp/vector_extract/noordermeer/source.tar https://arxiv.org/e-print/astro-ph/0508319
+          mkdir -p /tmp/vector_extract/noordermeer/src
+          tar -xf /tmp/vector_extract/noordermeer/source.tar -C /tmp/vector_extract/noordermeer/src
+          cp /tmp/vector_extract/noordermeer/src/noordermeer_A1.eps /tmp/vector_extract/noordermeer/
+          cp /tmp/vector_extract/noordermeer/src/noordermeer_A2.eps /tmp/vector_extract/noordermeer/
+          ps2pdf /tmp/vector_extract/noordermeer/noordermeer_A1.eps /tmp/vector_extract/noordermeer/noordermeer_A1.pdf
+          ps2pdf /tmp/vector_extract/noordermeer/noordermeer_A2.eps /tmp/vector_extract/noordermeer/noordermeer_A2.pdf
+          pdftotext -layout /tmp/vector_extract/noordermeer/noordermeer_A1.pdf /tmp/vector_extract/noordermeer/noordermeer_A1.txt || true
+          pdftotext -layout /tmp/vector_extract/noordermeer/noordermeer_A2.pdf /tmp/vector_extract/noordermeer/noordermeer_A2.txt || true
+          grep -Eo '(UGC|NGC)[[:space:]_-]*[0-9]+' /tmp/vector_extract/noordermeer/noordermeer_A*.eps | sort -u > /tmp/vector_extract/noordermeer/embedded_galaxy_labels.txt || true
+
+          curl -A 'Mozilla/5.0 persistence-research/1.0' -L --fail --retry 3 \
+            -o /tmp/vector_extract/deblok/source.tar https://arxiv.org/e-print/astro-ph/9605069
+          mkdir -p /tmp/vector_extract/deblok/src
+          tar -xf /tmp/vector_extract/deblok/source.tar -C /tmp/vector_extract/deblok/src
+          cp /tmp/vector_extract/deblok/src/Radprof.ps /tmp/vector_extract/deblok/
+          ps2pdf /tmp/vector_extract/deblok/Radprof.ps /tmp/vector_extract/deblok/Radprof.pdf
+          pdftotext -layout /tmp/vector_extract/deblok/Radprof.pdf /tmp/vector_extract/deblok/Radprof.txt || true
+          grep -Eo 'F[0-9]{3}[-A-Za-z0-9]*' /tmp/vector_extract/deblok/Radprof.ps | sort -u > /tmp/vector_extract/deblok/embedded_galaxy_labels.txt || true
+
+          echo 'NOORDERMEER TEXT:'
+          cat /tmp/vector_extract/noordermeer/noordermeer_A1.txt || true
+          cat /tmp/vector_extract/noordermeer/noordermeer_A2.txt || true
+          echo 'DEBLOK TEXT:'
+          cat /tmp/vector_extract/deblok/Radprof.txt || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: noordermeer-deblok-vector-extraction
+          path: |
+            /tmp/vector_extract/noordermeer/noordermeer_A1.eps
+            /tmp/vector_extract/noordermeer/noordermeer_A2.eps
+            /tmp/vector_extract/noordermeer/noordermeer_A1.pdf
+            /tmp/vector_extract/noordermeer/noordermeer_A2.pdf
+            /tmp/vector_extract/noordermeer/noordermeer_A1.txt
+            /tmp/vector_extract/noordermeer/noordermeer_A2.txt
+            /tmp/vector_extract/noordermeer/embedded_galaxy_labels.txt
+            /tmp/vector_extract/deblok/Radprof.ps
+            /tmp/vector_extract/deblok/Radprof.pdf
+            /tmp/vector_extract/deblok/Radprof.txt
+            /tmp/vector_extract/deblok/embedded_galaxy_labels.txt
