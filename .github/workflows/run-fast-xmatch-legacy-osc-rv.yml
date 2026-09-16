@@ -1,0 +1,28 @@
+name: Run fast batch XMatch legacy OSC RV sweep
+on:
+  push:
+    branches: [osc-final-batch]
+    paths:
+      - 'data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/fast_xmatch_legacy_osc_rv.py'
+      - '.github/workflows/run-fast-xmatch-legacy-osc-rv.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pandas astropy astroquery
+      - name: Run fast outcome-blind batch XMatch
+        run: python data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/fast_xmatch_legacy_osc_rv.py
+      - name: Commit fast discovery products
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/persistence_history/hi4pi_grb_geometric_distance/cepheid_streaming_frozen/osc_rv_target_rank/legacy_rv_sweep_fast
+          git diff --cached --quiet || git commit -m "Freeze fast batch XMatch legacy OSC RV discovery"
+          git push
